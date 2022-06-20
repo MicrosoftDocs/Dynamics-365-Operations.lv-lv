@@ -1,6 +1,6 @@
 ---
 title: Moduļu bibliotēkas pārskats
-description: Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 Commerce moduļu bibliotēku.
+description: Šajā rakstā ir sniegts moduļu bibliotēkas Microsoft Dynamics 365 Commerce apskats.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882174"
 ---
 # <a name="module-library-overview"></a>Moduļu bibliotēkas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par Microsoft Dynamics 365 Commerce moduļu bibliotēku.
+Šajā rakstā ir sniegts moduļu bibliotēkas Microsoft Dynamics 365 Commerce apskats.
 
 Dynamics 365 Commerce moduļu bibliotēka ir moduļu kopums, ko var izmantot, lai izveidotu e-komercijas vietni. Moduļos ir gan lietotāja interfeisa (UI) aspekti, gan funkcionālās uzvedības aspekti.
 

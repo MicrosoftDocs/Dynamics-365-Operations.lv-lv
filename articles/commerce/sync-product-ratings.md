@@ -1,6 +1,6 @@
 ---
 title: Preču vērtējumu sinhronizācija pakalpojumā Dynamics 365 Commerce
-description: Šajā tēmā ir aprakstīts, kā sinhronizēt preču vērtējumus risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā sinhronizēt preču novērtējumus programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909339"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Preču vērtējumu sinhronizācija pakalpojumā Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā sinhronizēt preču vērtējumus risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā sinhronizēt preču novērtējumus programmā Microsoft Dynamics 365 Commerce.
 
 Lai izmantotu preču vērtējumus vairākos kanālos, piemēram, pārdošanas punktā (POS) un zvanu centros, preču novērtējumi no vērtējumu un pārskatu pakalpojuma ir jāimportē Commerce kanāla datu bāzē. Kad preču vērtējumi ir pieejami vairākos kanālos, tie var netieši palīdzēt klientiem to mijiedarbības laikā ar pārdošanas partneriem.
 
-Šajā tēmā ir aprakstīti tālāk norādītie uzdevumi.
+Šajā rakstā ir aprakstīti tālāk aprakstītie uzdevumi.
 
 1. Konfigurējiet **Preču vērtēšanas sinhronizācijas darbu** kā pakešuzdevumu, lai sinhronizētu preču novērtējumus no **Vērtējumu un apskatu pakalpojuma**.
 1. Pārbaudīt, vai pakešuzdevumu preču vērtējuma sinhronizēšana bija veiksmīga.
@@ -133,11 +133,11 @@ Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem zvanu centra 
 
 [Preču vērtējumu sinhronizācija](sync-product-ratings.md)
 
-[Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
+[Regulētāja vērtējumu un pārskatīšanas manuālas publicēšanas iespējošana](manual-publish-rating-reviews.md)
 
-[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
+[Novērtējumu un pārskatu importēšana un eksportēšana](import-export-reviews.md)
 
-[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
+[Autentifikācijas starp pakalpojumiem konfigurēšana](service-to-service-auth.md)
 
 [BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
 

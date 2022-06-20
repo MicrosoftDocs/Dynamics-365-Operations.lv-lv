@@ -1,6 +1,6 @@
 ---
 title: Nodokļu komponentu iestatīšana TDS nodokļu veidam
-description: Šajā tēmā skaidrots, kā iestatīt ieturētā nodokļa komponentus No kopējās ienākumu summas atskaitītā nodokļa (TDS) veidam. Dokumentā ir arī izskaidrots, kā definēt sliekšņa ierobežojumu, kas tiek izmantots katra TDS komponenta TDS aprēķinam.
+description: Šajā rakstā ir izskaidrots, kā iestatīt ieturētā nodokļa komponentus ieturētā nodokļa avota (TDS) nodokļa veidam. Dokumentā ir arī izskaidrots, kā definēt sliekšņa ierobežojumu, kas tiek izmantots katra TDS komponenta TDS aprēķinam.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871162"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Nodokļu komponentu iestatīšana TDS nodokļu veidam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt ieturētā nodokļa komponentus No kopējās ienākumu summas atskaitītā nodokļa (TDS) veidam. TDS komponenti ir TDS, piemaksas, PE-Cess un SHE Cess. Šajā tēmā ir arī izskaidrots, kā definēt slieksni, kas tiek izmantots katra TDS komponenta TDS aprēķinam. Papildus var definēt izņēmumu slieksni, kas tiek izmantots, lai aprēķinātu TDS katram TDS komponentam.
+Šajā rakstā ir izskaidrots, kā iestatīt ieturētā nodokļa komponentus ieturētā nodokļa avota (TDS) nodokļa veidam. TDS komponenti ir TDS, piemaksas, PE-Cess un SHE Cess. Šajā rakstā skaidrots arī kā definēt slieksni, kas tiek izmantots TDS jāaprēķina katram TDS komponentam. Papildus var definēt izņēmumu slieksni, kas tiek izmantots, lai aprēķinātu TDS katram TDS komponentam.
 
 Lai iestatītu TDS komponentus, rīkojieties šādi.
 

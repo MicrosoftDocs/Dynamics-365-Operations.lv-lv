@@ -1,6 +1,6 @@
 ---
 title: Perifērās ierīces
-description: Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar Commerce perifērajām ierīcēm.
+description: Šajā rakstā ir izskaidroti koncepti, kas ir saistīti ar Commerce perifērijas ierīcēm.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880085"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
 [!include[banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrotas koncepcijas, kas ir saistītas ar veikala perifērajām ierīcēm. Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.
+Šajā rakstu ir paskaidrotas koncepcijas, kas ir saistītas ar veikala perifērijas ierīcēm. Tajā ir aprakstīti dažādie veidi, kā perifērijas ierīces var pievienot pārdošanas punktam (POS), un komponenti, kas nodrošina savienojuma ar POS pārvaldību.
 
 ## <a name="concepts"></a>Koncepcijas
 
@@ -55,7 +55,7 @@ Modern POS operētājsistēmai Android ir operētājsistēmai Android paredzēt
 
 ### <a name="pos-peripherals"></a>POS perifērās ierīces
 
-POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas. Parasti šīs perifērās ierīces ir sadalītas noteiktās klasēs. Papildinformāciju par šīm klasēm skatiet šīs tēmas sadaļā “Ierīču klases”.
+POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas. Parasti šīs perifērās ierīces ir sadalītas noteiktās klasēs. Papildinformāciju par šīm klasēm skatiet šī raksta sadaļā "Ierīču klases".
 
 ### <a name="hardware-station"></a>Aparatūras stacija
 
@@ -213,8 +213,8 @@ Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā
 
 Papildinformāciju par OPOS komponentiem skatiet šī dokumenta sadaļā “Atbalstītie interfeisi”. Parasti OPOS draiverus nodrošina ierīces ražotājs. Instalējot OPOS ierīces draiveri, kādā no tālāk norādītajām vietām Windows reģistrā tiek pievienota atslēga.
 
--   **32 bitu sistēma:** HKEYLOCALMACHINE\_\_\SOFTWARE\OLEforRetail\ServiceOPOS
--   **64 bitu sistēma:** HKEYLOCALMACHINE\_\_\SOFTWARE\RNO6432Node\OLEforRetail\ServiceOPOS
+-   **32 bitu sistēma:** HKEY\_ LOCAL\_ MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS
+-   **64 bitu sistēma:** HKEY\_ LOCAL\_ MACHINE\SOFTWARE\RNO6432Node\OLEforRetail\ServiceOPOS
 
 Reģistra atrašanās vietā ServiceOPOS konfigurētās ierīces ir sakārtotas atbilstoši OPOS ierīču klasei. Tiek saglabāti vairāki ierīču draiveri.
 

@@ -1,6 +1,6 @@
 ---
 title: Finanšu ieskatu konfigurācija — versija 10.0.20 vai jaunāka
-description: Šajā tēmā skaidrots, kā konfigurēt sistēmu, lai izmantotu iespējas, kas ir pieejamas Finanšu ieskatījumā versijā 10.0.20 vai jaunākā versijā.
+description: Šajā rakstā skaidrots, kā konfigurēt sistēmu, lai izmantotu iespējas, kas ir pieejamas Finanšu ieskatījumā versijā 10.0.20 vai jaunākā versijā.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868523"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finanšu ieskatu konfigurācija — versija 10.0.20 vai jaunāka
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711609"
 
 
 
-Finanšu ieskatījumi apvieno funkcionalitāti no Microsoft Dynamics 365 Finansēm ar Dataverse, Azure AI Builder un nodrošina jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā skaidrots, kā konfigurēt Dynamics 365 finanšu versiju 10.0.20, lai sistēma varētu izmantot finanšu ieskatījumā pieejamās iespējas.
+Finanšu ieskatījumi apvieno funkcionalitāti no Microsoft Dynamics 365 Finansēm ar Dataverse, Azure AI Builder un nodrošina jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā rakstā ir izskaidrots, kā konfigurēt Dynamics 365 finanšu versiju 10.0.20, lai sistēma varētu izmantot finanšu ieskatījumā pieejamās iespējas.
 
 > [!NOTE]
-> Šajā tēmā aprakstītās konfigurācijas darbības attiecas tikai uz Finance versiju 10.0.20 un jaunāku. 'Lai iestatītu Finance Insights versijai 10.0.19 vai jaunākai, skatiet [Finance Insights konfigurācija – versijām līdz 10.0.19](configure-for-fin-insites.md).
+> Šajā rakstā aprakstītie konfigurācijas soļi attiecas tikai uz finanšu versiju 10.0.20 vai jaunāku versiju. 'Lai iestatītu Finance Insights versijai 10.0.19 vai jaunākai, skatiet [Finance Insights konfigurācija – versijām līdz 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finance izvietošana
 

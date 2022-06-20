@@ -1,6 +1,6 @@
 ---
 title: Esošās vietnes lapas modificēšana
-description: Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā modificēt esošu vietnes lapu Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848867"
 ---
 # <a name="modify-an-existing-site-page"></a>Esošās vietnes lapas modificēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā modificēt esošu vietnes lapu programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā modificēt esošu vietnes lapu Microsoft Dynamics 365 Commerce.
 
 Kad ir jāmodificē lapa, pirmā darbība ir tās atvēršana lapas redaktorā. Dodieties uz vietni, kas satur jūsu lapu, un tad lapu sarakstā atrodiet lapu, ko vēlaties. Ja nevarat atrast lapu, varat izmantot autorēšanas rīka bagātīgās meklēšanas funkcionalitāti. Ierakstiet vai nu precīzu lapas nosaukumu, vai arī pirmos tā burtus un pēc tam zvaigznīti (\*). Tiek parādīts filtrēts lapu saraksts. Varat izmantot šo sarakstu, lai atrastu vēlamo lapu. Kad esat atradis pareizo lapu, atlasiet lapas nosaukumu, lai atvērtu lapu lapas redaktorā.
 

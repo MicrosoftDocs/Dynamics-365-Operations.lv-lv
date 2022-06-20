@@ -1,6 +1,6 @@
 ---
-title: Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi
-description: Šajā tēma ir sniegta informācija par to, kā modulī “Parādi kreditoriem” iestatīt rēķinu salīdzināšanu.
+title: Kreditoru moduļa rēķinu salīdzināšanas pārbaudes iestatīšana
+description: Šajā rakstā ir sniegta informācija, kā iestatīt parādu kreditoriem rēķinu salīdzināšanas pārbaudi.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904964"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Iestatīt kreditoru rēķinu salīdzināšanas pārbaudi
 
@@ -44,7 +44,7 @@ Ir pieejami četri dažādi salīdzināšanas validācijas tipi.
 5. Atzīmējiet izvēles rūtiņu **Salīdzināt rēķinu kopsummas** vai noņemiet tās atzīmi, lai faktiskās rēķinu kopsummas salīdzinātu ar prognozētajām kopsummām.
     * Atlasiet, vai parādīt ikonu, ja rēķinu salīdzināšanas neatbilstība pārsniedz toleranci. Varat izvēlēties parādīt ikonu, ja pozitīva neatbilstība pārsniedz toleranci vai arī pozitīva vai negatīva neatbilstība pārsniedz toleranci.  
     * Piemēram, tolerance ir 5 procenti un rēķina kopsumma pirkšanas pasūtījumā ir 100,00. Tādēļ, ja rēķina kopsumma pārsniedz 105,00, tiek parādīta cenu saskaņošanas ikona. Ja atzīmējat opciju **Ja vērtība ir lielāka vai mazāka par toleranci**, tad ikona tiek parādīta arī tad, ja rēķina summa ir mazāka par 95,00.  
-6. Laukā **Rēķinu kopsummu tolerance procentos** ievadiet pieņemamo procentuālo novirzi. Uzņēmumam šī vērtība ir noklusējuma vērtība. Šo vērtību noteiktiem kreditoriem var pārrakstīt, izmantojot lapu **Rēķinu kopsummu tolerances**. Informāciju par to, kā pārrakstīt rēķinu kopsummu tolerances procentuālo vērtību noteiktam kreditoram, skatiet tālāk šīs tēmas sadaļā “Rēķinu kopsummu salīdzināšanas tolerances iestatīšana kreditoriem”.
+6. Laukā **Rēķinu kopsummu tolerance procentos** ievadiet pieņemamo procentuālo novirzi. Uzņēmumam šī vērtība ir noklusējuma vērtība. Šo vērtību noteiktiem kreditoriem var pārrakstīt, izmantojot lapu **Rēķinu kopsummu tolerances**. Papildinformāciju par to, kā ignorēt rēķinu kopsummu toleranci procentos noteiktam kreditoram, skatiet tālāk šī raksta sadaļā "Rēķinu kopsummu atbilstības tolerances iestatīšana kreditoriem".
 7. Iestatiet **Cenu un daudzumu salīdzināšana**.
 8. Laukā **Rindu salīdzināšanas politika** atlasiet vērtību, kas tiks izmantota kā noklusējuma politika juridiskajai personai, ar kuru strādājat. **Nav nepieciešams** nozīmē, ka atsevišķas rēķina rindas cenas nav nepieciešams verificēt ar pirkšanas pasūtījuma cenu un rēķina daudzumus nav nepieciešams verificēt ar pavadzīmes daudzumiem. **Divvirzienu atbilstība** nozīmē, ka rēķina rindu verificēšana ir jāveic, bet verifikācijā ir iesaistīti tikai pirkšanas pasūtījuma un piegādātāja rēķina dokumenti. Produktu ieejas plūsma atbilstības pārbaudēs netiek ņemta vērā. **Trīsvirzienu atbilstība** nozīmē, ka rēķinā norādītā vienības neto cena tiks salīdzināta ar pirkšanas pasūtījuma vienības neto cenu un atbilstošās produktu ieejas plūsmas daudzums tiks salīdzināts ar rēķina daudzumu.
 9. Lai krājumam, kreditoram, kreditora un krājuma kombinācijai vai pirkšanas pasūtījuma rindai atļautu lietot cita līmeņa salīdzināšanu, atlasiet vērtību laukā **Atļaut salīdzināšanas politikas pārrakstīšanu**. Juridiskās personas rindu salīdzināšanas politiku var pārrakstīt noteiktam kreditoram, krājumam vai kreditora un krājuma kombinācijai, norādot to lapā **Salīdzināšanas politika**.
@@ -75,7 +75,7 @@ Pēc noklusējuma var ievadīt negatīvu cenu neatbilstību. Tomēr nevar ievad�
 
 ## <a name="set-up-matching-policy-override"></a>Salīdzināšanas politikas pārrakstīšanas iestatīšana
 
-Lai definētu **noklusējuma ierakstu > atbilstības ierobežojumiem lapā Pirkšanas pasūtījums, pārejiet uz sadaļu Kreditori un > >** **·** **rēķinu** salīdzināšanas iestatījumi. Šī iestatīšana nav obligāta. Lietojiet šo lapu, lai iestatītu divvirzienu atbilstību vai trīsvirzienu atbilstību krājumiem, kreditoriem vai krājumu un kreditoru kombinācijām. Šie ieraksti ļauj jums definēt detalizētākas salīdzināšanas politikas par juridiskās personas salīdzināšanas politiku, kuru definējāt lapā **Kreditoru moduļa parametri**. Noklusējuma juridiskās personas rindas salīdzināšanas politika attiecas uz visiem krājumiem un kreditoriem, izņemot tos, kuriem šajā lapā ir norādīta cita rindas salīdzināšanas politika.
+Dodieties uz **> Kreditori, lai > veiktu rēķinu salīdzināšanas iestatījumu >** **·** **Atbilstības ierobežojumi, lai definētu noklusējuma ierakstu rindas atbilstības ierobežojumiem lapā Pirkšanas pasūtījums.** Šī iestatīšana nav obligāta. Lietojiet šo lapu, lai iestatītu divvirzienu atbilstību vai trīsvirzienu atbilstību krājumiem, kreditoriem vai krājumu un kreditoru kombinācijām. Šie ieraksti ļauj jums definēt detalizētākas salīdzināšanas politikas par juridiskās personas salīdzināšanas politiku, kuru definējāt lapā **Kreditoru moduļa parametri**. Noklusējuma juridiskās personas rindas salīdzināšanas politika attiecas uz visiem krājumiem un kreditoriem, izņemot tos, kuriem šajā lapā ir norādīta cita rindas salīdzināšanas politika.
 
 Šajā lapā atlasiet **Salīdzināšanas politikas līmenis**. Salīdzināšanas politiku hierarhijā atlasiet līmeni, kuram iestatīt rindu salīdzināšanas politikas.
 

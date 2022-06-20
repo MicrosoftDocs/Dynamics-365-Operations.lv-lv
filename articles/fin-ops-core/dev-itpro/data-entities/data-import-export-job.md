@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860169"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644466"
 Datu importēšanas un eksportēšanas darbu izveidei un pārvaldībai tiek izmantota darbvieta **Datu pārvaldība**. Pēc noklusējuma datu importēšanas un eksportēšanas process izveido sagatavošanas tabulu katram elementam mērķa datu bāzē. Sagatavošanas tabulas pirms jums ļauj datus pārbaudīt, iztīrīt vai konvertēt, pirms tos pārvietojat.
 
 > [!NOTE]
-> Šajā tēmā tiek pieņemts, ka pārzināt [datu elementus](data-entities.md).
+> Šajā rakstā tiek pieņemts, ka esat pārzina datu [elementus](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Datu importēšanas/eksportēšanas process
 Tālāk ir aprakstītas darbības datu importēšanai vai eksportēšanai.
@@ -48,7 +48,7 @@ Tālāk ir aprakstītas darbības datu importēšanai vai eksportēšanai.
 5. Pārbaudiet, vai darba norise notiek, kā paredzēts, pārskatot darba vēsturi.
 6. Iztīriet sagatavošanas tabulas.
 
-Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru šī procesa posmu.
+Pārējās šī raksta sadaļās ir sniegta plašāka informācija par katru procesa soli.
 
 > [!NOTE]
 > Lai atsvaidzinātu datu importēšanas/eksportēšanas veidlapu un tajā tiktu rādīta jaunākā informācija par norisi, izmantojiet veidlapas atsvaidzināšanas ikonu. Pārlūka līmeņa atsvaidzināšana nav ieteicama, jo tā pārtrauks visus importēšanas/eksportēšanas darbus, kas nedarbojas paketē.

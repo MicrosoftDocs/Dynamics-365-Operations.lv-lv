@@ -1,6 +1,6 @@
 ---
 title: Pieprasījuma prognozēšanas iestatīšana
-description: Šajā tēmā ir aprakstīti iestatīšanas uzdevumi, kas jāizpilda, sagatavotos pieprasījuma prognozēšanas izpildei.
+description: Šajā rakstā ir aprakstīti iestatīšanas uzdevumi, kas jāveic, lai sagatavotos pieprasījuma prognozēšanai.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901007"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt pieprasījuma prognozēšanu.  
+Šajā rakstā ir aprakstīts, kā iestatīt pieprasījuma prognozēšanu.  
 
 ## <a name="item-allocation-keys"></a>Krājumu sadalījuma principi
 
@@ -245,7 +245,7 @@ Izmantojiet šo procedūru, lai izveidotu jaunu iekārtu apmācības darbvietu.
 1. Pabeidziet ceļvedi, izpildot ekrānā redzamos norādījumus. Kamēr strādājat, atcerieties šādus punktus:
 
     - Izmantojiet noklusējuma iestatījumus, ja vien citi punkti šajā sarakstā neiesakām atšķirīgus iestatījumus.
-    - Noteikti atlasiet ģeogrāfisko reģionu, kas atbilst reģionam, kurā ir izvietota jūsu Piegādes ķēžu pārvaldības instance. Pretējā gadījumā daži dati var iziet caur reģiona robežām. Papildinformāciju skatiet tālāk šīs [tēmas](#privacy) paziņojumā par konfidencialitāti.
+    - Noteikti atlasiet ģeogrāfisko reģionu, kas atbilst reģionam, kurā ir izvietota jūsu Piegādes ķēžu pārvaldības instance. Pretējā gadījumā daži dati var iziet caur reģiona robežām. Papildinformāciju skatiet tālāk šī [raksta](#privacy) paziņojumā par konfidencialitāti.
     - Izmantojiet atvēlētos resursus, piemēram, resursu grupas, glabāšanas kontus, konteineru reģistrācijas, Azure atslēgu debes krājumus un resursus.
     - **Ceļveža lapā Iestatīt azure mašīnas apmācības pakalpojuma** savienojuma parametrus ir jānorāda glabāšanas konta nosaukums. Lietojiet kontu, kas ir atvēlēts pieprasījuma prognozēšanai. Pieprasījuma prognozēšanas ievades un izvades dati tiks saglabāti šajā glabāšanas kontā.
 
@@ -278,7 +278,7 @@ Izmantojiet tālāk norādītās darbības, lai iestatītu skaitļošanas resurs
 1. Cilnē Aprēķināt **klasterus** atlasiet Jauns **, lai atvērtu** vedni, kas palīdzēs izveidot jaunu skaitļošanas klasteri. Izpildiet ekrānā redzamos norādījumus. Skaitļošanas klasteris tiks izmantots, lai ģenerētu pieprasījuma apjoma prognozes. Tā iestatījumi ietekmē veiktspēju un izpildes maksimālo paralēlo līmeni. Iestatiet sekojošos laukus, bet izmantojiet noklusētos iestatījumus visiem citiem laukiem:
 
     - **Nosaukums** – ievadiet *e2ecpucluster*.
-    - **Virtuālās mašīnas** lielums – pielāgojiet šo iestatījumu atbilstoši datu apjomam, ko plānojat izmantot kā ievadi pieprasījuma prognozēšanai. Zaru skaits nedrīkst pārsniegt 11, jo ir nepieciešams viens zars, lai izraisītu pieprasījuma apjoma prognozes ģenerēšanu, un maksimālais zaru skaits, ko pēc tam var izmantot prognozes ģenerēšanai, ir 10. (Zaru skaits tiks iestatīts arī parameters.py failā [5. solis. Konveijera sadaļas](#create-pipelines) izveide.) Katrā mezglā būs vairāki darbinieka procesi, kas paralēli izpildīs prognozēšanas skriptus. Kopējais darbinieku procesu skaits jūsu darbā būs zaru *skaits*, kam zaram ir × *zaru skaits*. Piemēram, *ja skaitļošanas klasterim ir StandardD4\_* (astoņi kodoli) un maksimums ir 11 zari, `nodes_count`*un ja vērtība failā parameters.py iestatīta uz 10*, paralēlo darbu faktiskais līmenis ir 80.
+    - **Virtuālās mašīnas** lielums – pielāgojiet šo iestatījumu atbilstoši datu apjomam, ko plānojat izmantot kā ievadi pieprasījuma prognozēšanai. Zaru skaits nedrīkst pārsniegt 11, jo ir nepieciešams viens zars, lai izraisītu pieprasījuma apjoma prognozes ģenerēšanu, un maksimālais zaru skaits, ko pēc tam var izmantot prognozes ģenerēšanai, ir 10. (Zaru skaits tiks iestatīts arī parameters.py failā [5. solis. Konveijera sadaļas](#create-pipelines) izveide.) Katrā mezglā būs vairāki darbinieka procesi, kas paralēli izpildīs prognozēšanas skriptus. Kopējais darbinieku procesu skaits jūsu darbā būs zaru *skaits*, kam zaram ir × *zaru skaits*. Piemēram, *\_ ja datora klasterim ir standarta D4* (astoņi kodoli) un maksimums ir 11 zari, `nodes_count`*un ja vērtība failā parameters.py iestatīta uz 10*, paralēlo darbu efektīvais līmenis ir 80.
 
 ##### <a name="step-5-create-pipelines"></a><a name="create-pipelines"></a> 5. solis. Konveijera izveide
 

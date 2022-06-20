@@ -1,6 +1,6 @@
 ---
 title: Konfigurāciju pārtraukšana RCS globālajā repozitorijā
-description: Šajā tēmā aprakstīts, kā pārtraukt RCS globālā repozitorija konfigurācijas.
+description: Šajā rakstā ir aprakstīts, kā pārtraukt konfigurācijas RCS globālajā repozitorijā.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894816"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Konfigurāciju pārtraukšana RCS globālajā repozitorijā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā pārtraukt RCS globālā repozitorija konfigurāciju. Iepriekš bija iespējams dzēst tikai tās konfigurācijas, kuras vairāk nebija nepieciešamas. Taču tagad varat RCS globālajā repozitorijā atzīmēt konfigurāciju kā **Pārtrauktu**. Ar šo funkcionalitāti jūs varat arī: 
+Šajā rakstā ir aprakstīts, kā pārtraukt konfigurāciju RCS globālajā repozitorijā. Iepriekš bija iespējams dzēst tikai tās konfigurācijas, kuras vairāk nebija nepieciešamas. Taču tagad varat RCS globālajā repozitorijā atzīmēt konfigurāciju kā **Pārtrauktu**. Ar šo funkcionalitāti jūs varat arī: 
  
  - Nodrošināt iepriekšējus paziņojumus, ja tiek plānots pārtraukt konfigurāciju.
  - Iekļaut saistošu informāciju par maiņas konfigurāciju.
@@ -56,7 +56,7 @@ Ja vēlaties kopīgot informāciju par plānoto pārtraukšanu pirms faktiskās 
 
 ## <a name="finance-supports-displaying-this-information-starting-in-version-10014"></a>Finance atbalsta šīs informācijas rādīšanu, sākot ar versiju 10.0.14
 
-Sākot ar versiju 10.0.14., Dynamics 365 Finance atbalsta pārtraukšanas informācijas rādīšanu. Lapā **Globālais repozitorijs** varat skatīt jaunāko informāciju, kas saistīta ar pārtraukšanu. Konfigurācijas tiek pēc noklusējuma pārtrauktas un filtrētas.
+Sākot ar versiju 10.0.14, Dynamics 365 Finanses atbalsta apskatīt jaunāko informāciju. Lapā **Globālais repozitorijs** varat skatīt jaunāko informāciju, kas saistīta ar pārtraukšanu. Konfigurācijas tiek pēc noklusējuma pārtrauktas un filtrētas.
   
 Lapā **Importētās konfigurācijas** (ERSolutionTable) tiek rādītas konfigurācijas, kuras jau tika pārtrauktas importēšanas laikā. Informāciju par konfigurācijām, kuras tika pārtrauktas pēc importēšanas, var sinhronizēt, palaižot darbu **Importēt konfigurāciju atjauninājumus**.
 

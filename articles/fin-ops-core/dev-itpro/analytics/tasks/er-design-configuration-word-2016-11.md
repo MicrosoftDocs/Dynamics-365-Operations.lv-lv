@@ -1,6 +1,6 @@
 ---
 title: ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
-description: Šajā tēmā ir aprakstīts, kā pārskatu formātus, kas tika veidoti, lai ģenerētu pārskatus kā Excel darbgrāmatas, var konfigurēt, lai ģenerētu pārskatus kā Word dokumentus.
+description: Šajā rakstā ir aprakstīts, kā pārskatu formātus, kas tika veidoti, lai ģenerētu pārskatus, kā Excel darbgrāmatas, var konfigurēt, lai ģenerētu pārskatus kā Word dokumentus.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910391"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
 
@@ -43,7 +43,7 @@ Turklāt jums ir nepieciešams šim pašam pārskatam lejupielādēt un lokāli 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Atlasiet esošo ER pārskatu konfigurāciju
 
-1. Pakalpojumā Dynamics 365 Finance dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+1. Programmā Dynamics 365 Finanses dodieties uz organizācijas administrēšanas **darbalauku** \> **elektronisko** \> **pārskatu sniegšanu.**
 2. Pārliecinieties, ka konfigurācijas nodrošinātājs **Litware, Inc.** ir atlasīts kā **Aktīvs**. Ja tā nav, izpildiet konfigurācijas nodrošinātāju darbības sadaļā [Konfigurācijas nodrošinātāju izveidē un atzīmējiet tos kā](er-configuration-provider-mark-it-active-2016-11.md) aktīvus uzdevumu ceļvedī.
 3. Atlasiet **Pārskatu konfigurācijas**. Jūs atkārtoti izmantosim esošo ER konfigurāciju, kas sākotnēji tika veidota tā, lai pārskata izvadi ģenerētu formātā OPENXML.
 4. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Maksājuma modelis** un pēc tam atlasiet **Parauga darbgrāmatas pārskats**.

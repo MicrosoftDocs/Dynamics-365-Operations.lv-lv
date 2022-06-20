@@ -1,6 +1,6 @@
 ---
 title: E-komercijas izstrādes vides iestatīšana, lai atkļūdotu, izmantojot 1. līmeņa Retail Server virtuālo mašīnu
-description: Šajā tēmā paskaidrots, kā iestatīt E-komercijas izstrādes vidi, lai atkļūdotu, izmantojot 1. līmeņa Retail Server virtuālo mašīnu (VM).
+description: Šajā rakstā ir izskaidrots, kā iestatīt e-komercijas izstrādes vidi, lai atkļūdotu no 1. pakāpes Retail Server virtuālās mašīnas (VM).
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0f5586112d168f8fa84f97d110403b0bec82e5cca4e963a92f1c283a17c972ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cc6c936c67bc82da1a237341ac07fb69d4ac233
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855706"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>E-komercijas izstrādes vides iestatīšana, lai atkļūdotu, izmantojot 1. līmeņa Retail Server virtuālo mašīnu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā iestatīt E-komercijas izstrādes vidi, lai atkļūdotu, izmantojot 1. līmeņa Retail Server virtuālo mašīnu (VM).
+Šajā rakstā ir izskaidrots, kā iestatīt e-komercijas izstrādes vidi, lai atkļūdotu no 1. pakāpes Retail Server virtuālās mašīnas (VM).
 
 ## <a name="description"></a>Apraksts
 

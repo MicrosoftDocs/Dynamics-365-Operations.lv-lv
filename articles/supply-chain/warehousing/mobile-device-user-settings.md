@@ -1,6 +1,6 @@
 ---
 title: Mobilās ierīces lietotāja iestatījumi
-description: Šajā tēmā skaidrots, kā pārvaldīt mobilās ierīces lietotāja iestatījumus noliktavas darbiniekiem.
+description: Šajā rakstā ir izskaidrots, kā pārvaldīt mobilās ierīces lietotāja iestatījumus noliktavas darbiniekiem.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882349"
 ---
 # <a name="mobile-device-user-settings"></a>Mobilās ierīces lietotāja iestatījumi
 
@@ -41,7 +41,7 @@ Jaunajā noliktavas pārvaldības mobilajā programmā ir programmai raksturīgo
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobilās ierīces lietotāja iestatījumu līdzekļa izslēgšana vai izslēgšana
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="create-and-manage-user-settings"></a>Izveidot un pārvaldīt lietotāja iestatījumus
 

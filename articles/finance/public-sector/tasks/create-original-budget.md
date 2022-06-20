@@ -1,6 +1,6 @@
 ---
 title: Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
-description: Šajā tēmā sniegta informācija par to, kā izveidot un atsaukt sākotnējo budžeta ierakstu, izmantojot budžeta modeli un dimensijas vērtības, kam ir iepriekšējas budžeta summas.
+description: Šajā rakstā ir sniegta informācija par to, kā izveidot un atsaukt sākotnējo budžeta ierakstu, izmantojot budžeta modeli un dimensijas vērtības, kam ir iepriekšējas budžeta summas.
 author: twheeloc
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 1efb6363be881b0a35f356c2cb2334e5a37e43ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848409"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Sākotnēja budžeta izveide un pēc tam publiskā sektora provizoriskā budžeta ierakstu apgriešana
 

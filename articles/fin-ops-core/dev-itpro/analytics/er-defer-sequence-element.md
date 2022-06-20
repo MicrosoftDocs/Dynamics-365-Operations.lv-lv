@@ -1,6 +1,6 @@
 ---
-title: Secības elementu izpildes atlikšana ER formātos
-description: Šajā tēmā ir izskaidrots, kā atlikt secības elementa izpildi elektroniskā pārskata (ER) formātā.
+title: Secības elementu izpildes atlikšana elektronisko pārskatu formātos
+description: Šajā rakstā skaidrots, kā atlikt secības elementa izpildi elektronisko pārskatu (ER) formātā.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880244"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Secības elementu izpildes atlikšana ER formātos
 
@@ -32,7 +32,7 @@ Elektronisko pārskatu ([ER)](general-electronic-reporting.md)[struktūras](task
 
 Ieslēdzot konfigurētajā formātā secības formāta elementa <a name="DeferredSequenceExecution"></a>**Atliktās izpildes** opciju, varat atlikt (uz vēlāku laiku) šī elementa izpildi. Šādā gadījumā elements netiek palaists, kamēr nav palaisti visi citi tā pamatelementa elementi.
 
-Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
+Lai uzzinātu vairāk par šo īpašību, pabeidziet šajā rakstā minēto piemēru.
 
 ## <a name="limitations"></a>Ierobežojumi
 
@@ -44,7 +44,7 @@ Opcija **Atliktā izpilde** nav attiecināma uz secībām, kas ir konfigurētas 
 
 Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu konsultanta [lomā](../sysadmin/tasks/assign-users-security-roles.md) var konfigurēt ER formātu, kas satur tādu secības elementu, kur izpildes secība formāta hierarhijā atšķiras no pasūtījuma.
 
-Šīs darbības var veikt uzņēmumā **USMF** programmā Microsoft Dynamics 365 Finance.
+Šos soļus var veikt **USMF** uzņēmumā Microsoft Dynamics 365 Finansēs.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -53,7 +53,7 @@ Lai izpildītu šo piemēru, jums programmas Finance uzņēmumā **USMF** jābū
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
 - Sistēmas administrators
 
-Ja vēl neesat izpildījis piemēru tēmā [Secības elementu izpildes atlikšana ER formātos](er-defer-xml-element.md#Example), lejupielādējiet tālāk norādītās parauga ER risinājumu [konfigurācijas](general-electronic-reporting.md#Configuration).
+Ja xml elementu [izpildes atliktais maksājuma dokuments vēl nav pabeigts,](er-defer-xml-element.md#Example)[lejupielādējiet šādas ER](general-electronic-reporting.md#Configuration) risinājuma parauga konfigurācijas.
 
 | Satura apraksts            | Faila nosaukums |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Pirms sākšanas ir jāielādē un jāsaglabā arī tālāk norādītā parauga 
 ### <a name="activate-a-configurations-provider"></a>Konfigurācijas nodrošinātāja aktivizēšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārliecinieties, vai ir uzskaitīts [konfigurācijas nodrošinātājs](general-electronic-reporting.md#Provider) parauga uzņēmumam Litware, Inc. (`http://www.litware.com`) un vai tas ir atzīmēts kā aktīvs. Ja šis konfigurācijas nodrošinātājs nav uzskaitīts vai tas nav atzīmēts kā aktīvs, izpildiet darbības, kas aprakstītas tēmā [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārliecinieties, vai ir uzskaitīts [konfigurācijas nodrošinātājs](general-electronic-reporting.md#Provider) parauga uzņēmumam Litware, Inc. (`http://www.litware.com`) un vai tas ir atzīmēts kā aktīvs. Ja šis konfigurācijas nodrošinātājs nav uzskaitīts vai arī tas nav atzīmēts kā aktīvs, [izpildiet darbības, kas norādītas sadaļā Konfigurācijas nodrošinātāja izveide, un atzīmējiet to kā aktīvu](./tasks/er-configuration-provider-mark-it-active-2016-11.md) rakstu.
 
     ![Litware, Inc. parauga uzņēmums lokalizācijas konfigurāciju lapā.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

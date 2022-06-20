@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības kanālu definēšana un uzturēšana
-description: Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Dynamics 365 Commerce tiek saukti par veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc veikala iestatīšanas.
+description: Šajā rakstā ir sniegts pārskats par procesu, kurā tiek iestatīti nosakātiem maksājumu veikaliem un kuri tiek saukti par veikaliem Dynamics 365 Commerce. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc veikala iestatīšanas.
 author: mugunthanm
 ms.date: 01/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ef06d79e1fa4d024dc1de0125cc72bdba5671aad384c7988dc63d407323b7abc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3cba816af72a27c6d8a59e17fad145a236016c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870586"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mazumtirdzniecības kanālu definēšana un uzturēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par to, kā iestatīt fiziskos veikalus, kas programmā Dynamics 365 Commerce tiek saukti par veikaliem. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc veikala iestatīšanas.
+Šajā rakstā ir sniegts pārskats par procesu, kurā tiek iestatīti nosakātiem maksājumu veikaliem un kuri tiek saukti par veikaliem Dynamics 365 Commerce. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc veikala iestatīšanas.
 
 Commerce atbalsta vairākus kanālus, piemēram, tiešsaistes veikalus, zvanu centrus un fiziskos veikalus. Fizisks veikals tiek saukts par veikalu. Katram veikalam var būt savas maksāšanas metodes, cenu grupas, pārdošanas punktu (POS) kases, ienākumu un izdevumu konti, kā arī personāls. Pirms izveidojat veikalu, jums tam ir jāiestata visi šie elementi. Pēc veikala izveidošanas jums ir jāpiešķir preces, kuras vēlaties tajā izmantot. Veikalam var arī piešķirt darbiniekus, kases sistēmas un debitorus. Visbeidzot, pievienojiet jaunu veikalu organizācijas hierarhijai.
 

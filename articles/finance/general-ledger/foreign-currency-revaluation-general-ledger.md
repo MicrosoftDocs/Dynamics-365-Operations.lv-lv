@@ -1,6 +1,6 @@
 ---
 title: Ārvalstu valūtas pārvērtēšana Virsgrāmatai
-description: 'Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā.'
+description: Šajā rakstā sniegts pārskats par šādu informāciju Virsgrāmatas ārvalstu valūtas pārvērtēšanas procesam - iestatīšana, procesa veikšana, procesa aprēķins un kā atcelt pārvērtēšanas darbības, ja nepieciešams.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904533"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par šādiem ārvalstu valūtas pārvērtēšanas procesiem Virsgrāmatā: iestatīšana, procesa izpilde, procesa aprēķini un pārvērtēšanas transakciju anulēšana nepieciešamības gadījumā. 
+Šajā rakstā sniegts pārskats par šādu informāciju Virsgrāmatas ārvalstu valūtas pārvērtēšanas procesam - iestatīšana, procesa veikšana, procesa aprēķins un kā atcelt pārvērtēšanas darbības, ja nepieciešams. 
 
 Kā daļu no perioda beigām grāmatvedības metodes nosaka, ka virsgrāmatas kontu bilances, kas ir ārvalstu valūtās, ir nepieciešams pārvērtēt, izmantojot dažādus valūtas maiņas kursa tipus (pašreizējo, vēsturisko, vidējo un citus). Piemēram, viena grāmatvedības metode pieprasa, lai aktīvi un pasīvi tiktu pārvērtēti pēc pašreizējā valūtas maiņas kursa, pamatlīdzekļi — pēc vēsturiskā maiņas kursa, un peļņas un zaudējumu konti — pēc mēneša vidējā kursa. Virsgrāmatas ārvalstu valūtas pārvērtēšanu var izmantot, lai pārvērtētu bilances un peļņas un zaudējumu kontus. 
 

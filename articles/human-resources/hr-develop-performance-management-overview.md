@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848199"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
@@ -79,9 +79,9 @@ Jūsu veiktspējas žurnālā tiks aprakstīts<!--note from editor: Suggested.--
 
 Ja vēlaties mērķim pievienot dokumentu, piemēram, izpildes sertifikātu, varat to pievienot lapas **Veiktspējas mērķi** sadaļa **Pielikumi**. Ir nodrošināts dokumentu skatītājs, lai jūs varētu ātri skatīt jebkura pievienotā dokumenta saturu. 
 
-No mērķa varat izveidot veidni un pēc tam šo veidni izmantot, lai izveidotu jaunus mērķus, kuri ir balstīti uz šo veidni. Kad no mērķa veidojat veidni, tiek saglabāts apraksts, tēmas un mērķa mērījumi. Taču visi faktiskie mērījumi, pabeigšanas datumi un tēmu komentāri tiek noņemti.
+No mērķa varat izveidot veidni un pēc tam šo veidni izmantot, lai izveidotu jaunus mērķus, kuri ir balstīti uz šo veidni. Kad no mērķa veidojat veidni, tiek saglabāts apraksts, tēmas un mērķa mērījumi. Tomēr tiek noņemti visi faktiskie mērījumi, pabeigšanas datumi un centimetru komentāri.
 
-## <a name="performance-reviews"></a>Veiktspējas pārskati
+## <a name="performance-reviews"></a>Darba izpildes novērtējumi
 
 Veiktspējas pārskati oficiālāk tiek saukti par diskusijām. Tagad viņi ir pietiekami elastīgi, lai atbalstītu nepārtrauktas atsauksmes, attīstības plānus un formālas pārskatīšanas. Varat ātri izveidot mazas sapulces diviem cilvēkiem<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> Vai arī varat veidot sarežģītāku pārskatu, kas atbilst jūsu uzņēmuma pārskatīšanas procesam. 
 

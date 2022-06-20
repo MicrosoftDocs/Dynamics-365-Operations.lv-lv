@@ -1,6 +1,6 @@
 ---
 title: Atpakaļ atdošanas izveide programmā POS
-description: Šajā tēmā ir aprakstīts, kā uzsākt atpakaļ atdošanu darījumiem skaidrā naudā bez piegādes vai debitoru pasūtījumiem Microsoft Dynamics 365 Commerce Point of Sale (POS) programmā.
+description: Šajā rakstā ir aprakstīts, kā pārdošanas punkta (POS) programmā sākt atgriešanas darbībām, kas ir jāveic, izmantojot kases ieņēmumus Microsoft Dynamics 365 Commerce no pārdošanas punkta (POS).
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857002"
 ---
 # <a name="create-returns-in-pos"></a>Atpakaļ atdošanas izveide programmā POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā uzsākt atpakaļ atdošanu darījumiem skaidrā naudā bez piegādes vai debitoru pasūtījumiem Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) programmā.
+Šajā rakstā ir aprakstīts, kā pārdošanas punktā (POS) programmā sākt atgriešanas darbības, kas ir jāveic, izmantojot kases un pārvadāšanas Microsoft Dynamics 365 Commerce darbības vai debitora pasūtījumus.
 
 > [!NOTE]
 > Commerce 10.0.20 un jaunākās versijās ir pieejams jauns līdzeklis ar nosaukumu **Vienotā atpakaļ atdošanas apstrādes pieredze programmā POS**. Šis līdzeklis nodrošina konsekventāku un vienotu atpakaļ atdošanas procesu programmā POS neatkarīgi no darījuma veida (darījumiem skaidrā naudā bez piegādes vai debitoru pasūtījumiem) vai sākotnējā kanālā, kurā pasūtījums tika izveidots. Ieteicams ieslēgt šo jauno līdzekli visās organizācijās, lai palīdzētu uzlabot kopējo atpakaļ atdošanas procesa uzticamību, izmantojot POS.

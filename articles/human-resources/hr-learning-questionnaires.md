@@ -1,6 +1,6 @@
 ---
 title: Anketas
-description: Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai.
+description: Šajā rakstā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897898"
 ---
 # <a name="questionnaires"></a>Anketas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690755"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
+Šajā rakstā ir sniegta vispārīga informācija par anketām, ka arī saites plašākas informācijas iegūšanai. Anketa ir jautājumu kopa, kas tiek izmantota, lai iegūtu informāciju dažādiem nolūkiem. Varat izstrādāt, izveidot, izplatīt un aizpildīt anketas un pēc tam analizēt rezultātus. 
 
 Jūs varat pielāgot anketu, lai tā atbilstu jūsu specifiskajām prasībām, izmantojot dažādus līdzekļus, kas ir pieejami Microsoft Dynamics 365 Finansēs. Tālāk ir sniegti daži piemēri par veidiem, kā varat izmantot anketas.
 
@@ -40,11 +40,11 @@ Jūs varat pielāgot anketu, lai tā atbilstu jūsu specifiskajām prasībām, i
 
 Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzdevumiem. Lai uzzinātu plašāku informāciju, klikšķiniet uz šīm saitēm.
 
-| Tēma| Apraksts|
+| Raksts | Apraksts|
 |------|------------|
-| [Anketas izstrāde](hr-learning-design-questionnaires.md) | Šajā tēmā ir sniegta informācija, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
-| [Anketu izplatīšana un plānošana](hr-learning-distribute-questionnaires.md) | Šajā tēmā ir sniegta informācija, kā anketu izplatīt respondentiem un kā izpildīt anketas. |
-| [Skatīt un novērtēt anketas rezultātus](hr-learning-evaluate-questionnaire-results.md) | Šajā tēmā ir sniegta informācija, kā skatīt un novērtēt aizpildīto anketu rezultātus. |
+| [Anketas izstrāde](hr-learning-design-questionnaires.md) | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
+| [Anketu izplatīšana un plānošana](hr-learning-distribute-questionnaires.md) | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt. |
+| [Skatīt un novērtēt anketas rezultātus](hr-learning-evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

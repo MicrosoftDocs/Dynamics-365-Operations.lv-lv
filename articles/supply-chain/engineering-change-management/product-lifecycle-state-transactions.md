@@ -1,6 +1,6 @@
 ---
 title: Preču dzīves cikla stāvokļi un darījumi
-description: Šajā tēmā ir paskaidrots, kā jūs varat kontrolēt, kuri darījumi ir atļauti katram dzīves cikla stāvoklim, jo ​​tehniskā prece iziet tā dzīves ciklu.
+description: Šajā rakstā ir izskaidrots, kā var kontrolēt, kādas darbības katram dzīves cikla stāvoklim ir atļautas, jo inženierzinātnes prece iziet cauri tās dzīves ciklam.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867961"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Preču dzīves cikla stāvokļi un darījumi
 
@@ -37,7 +37,7 @@ Lai strādātu ar preces lietošanas cikla stāvokļiem, dodieties uz **Tehnisko
 - Lai dzēstu esošo dzīves cikla stāvokli, atlasiet to saraksta rūtī un pēc tam darbības rūtī atlasiet vienumu **Dzēst**.
 
 > [!NOTE]
-> Tehniskās preces izmanto tos pašus preces dzīves cikla stāvokļus kā standarta (ne tehniskās) preces. Šajā tēmā aprakstīto **Preču dzīves cikla stāvokļa** lapu varat atvērt arī, dodoties uz **Preču informācijas pārvaldība \> Iestatīšana \> Preces dzīves cikla stāvoklis**. Lai iegūtu vairāk informācijas par preču dzīves cikla stāvokļiem, kas paredzēti gan tehniskajām precēm, gan standarta precēm, skatiet [Preces dzīves cikla stāvokļa apskats](../pim/product-lifecycle.md).
+> Tehniskās preces izmanto tos pašus preces dzīves cikla stāvokļus kā standarta (ne tehniskās) preces. Varat atvērt arī lapu Preces **dzīves cikla stāvoklis, kas** **ir aprakstīta šajā rakstu, atverot preču informācijas pārvaldības iestatījuma \>\> preces dzīves cikla stāvokli**. Lai iegūtu vairāk informācijas par preču dzīves cikla stāvokļiem, kas paredzēti gan tehniskajām precēm, gan standarta precēm, skatiet [Preces dzīves cikla stāvokļa apskats](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Galvene
 

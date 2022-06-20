@@ -1,6 +1,6 @@
 ---
 title: Debitoru portāla pielāgošana un izmantošana
-description: Šajā tēmā ir paskaidrots, kā pielāgot Debitoru portālu pēc tā pievienošanas sistēmai.
+description: Šajā rakstā ir paskaidrots, kā pielāgot debitoru portālu pēc tā pievienošanas sistēmai.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878879"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Debitoru portāla pielāgošana un izmantošana
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstītas dažādas lapas, kas pieejamas Debitoru portāla standarta variantā. Ir paskaidrots, ko dara lapas un kā tās var pielāgot.
+Šajā rakstā aprakstītas dažādas lapas, kas pieejamas lodziņā Debitoru portāls. Ir paskaidrots, ko dara lapas un kā tās var pielāgot.
 
 Debitora portāls standarta variantā piedāvā dažas tīmekļa lapas un darbības. Vietnes kartē zemāk ir sniegts pārskats par šīm tīmekļa lapām un darbībām, kā arī lomām, kas var veikt darbības.
 
@@ -32,16 +32,16 @@ Debitora portāls standarta variantā piedāvā dažas tīmekļa lapas un darbī
 
 ## <a name="typical-customizations"></a>Parastie pielāgojumi
 
-Tēmas zemāk palīdzēs jums uzzināt pamatinformāciju par Power Apps portāliem un to, kā varat pielāgot portālus.
+Tālāk sniegtie raksti palīdzēs jums uzzināt pamata par portiem Power Apps un veidu, kā varat pielāgot portālus:
 
-- [Darbs ar veidnēm](/powerapps/maker/portals/work-with-templates) — šajā tēmā sniegts vispārīgs pārskats par to, kā Power Apps portāli darbojas un kā varat veikt vienkāršus portālu pielāgojumus.
-- [Portāla satura pārvaldība](/dynamics365/portals/manage-portal-content) — šajā tēmā ir paskaidrots, kā varat pārvaldīt un pielāgot jūsu portālā redzamo saturu.
-- [Rediģēt CSS](/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
-- [Dizaina izveide jūsu portālam](/dynamics365/portals/create-theme) — šī tēma palīdz izveidot lietotāja interfeisa dizainu jūsu portālam.
-- [Portāla satura viegla izveide un eksponēšana](/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un tabulas, ko izmantojat savam portālam.
-- [Kontaktpersonu konfigurēšana izmantošanai portālā](/powerapps/maker/portals/configure/configure-contacts) — šajā tēmā ir paskaidrots, kā izveidot un pielāgot lietotāju lomas un kā drošība un autentifikācija darbojas Power Apps portālos.
-- [Piezīmju konfigurēšana tabulu veidlapām un tīmekļa veidlapām portālos](/powerapps/maker/portals/configure-notes) — šajā tēmā ir paskaidrots, kā pievienot jūsu portālam dokumentus un papildu krātuvi.
-- [Kļūdu apstrāde portāla tīmekļa vietnei](/powerapps/maker/portals/admin/view-portal-error-log) — šajā tēmā ir paskaidrots, kā skatīt portāla kļūdu žurnālus un saglabāt tos savā Microsoft Azure Blob krātuves kontā.
+- [Darbs ar veidnēm](/powerapps/maker/portals/work-with-templates) – šis raksts sniedz vispārīgu pārskatu par to, Power Apps kā portāls darbojas un kā jūs varat veikt vienkāršus portālu pielāgojumus.
+- [Pārvaldīt portāla saturu](/dynamics365/portals/manage-portal-content) – šajā rakstā skaidrots, kā varat pārvaldīt un pielāgot saturu, ko izmantojat jūsu portālā.
+- [Rediģēt CSS](/powerapps/maker/portals/edit-css) – šis dokuments palīdz veikt sarežģītākus pielāgojumus portāla lietotāja interfeisam (UI).
+- [Izveidojiet tēmu savam portālam](/dynamics365/portals/create-theme) – šis raksts palīdz izveidot jūsu portāla UI tēmu.
+- [Viegli izveidot un atklāt portāla saturu](/dynamics365/portals/create-expose-portal-content) – šis raksts palīdz pārvaldīt pamatdatu un tabulas, ko izmantojat jūsu portālam.
+- [Konfigurējiet kontaktpersonu izmantošanai portālā](/powerapps/maker/portals/configure/configure-contacts) – šajā rakstā skaidrots, kā izveidot un pielāgot lietotāju lomas, un kā drošības un autentifikācijas darbs Power Apps portālā.
+- [Piezīmju konfigurēšana tabulu formām un tīmekļa formām](/powerapps/maker/portals/configure-notes) portālā – šajā rakstā skaidrots, kā pievienot dokumentus un papildu krātuvi jūsu portālam.
+- [Kļūdu apstrāde portāla vietnei](/powerapps/maker/portals/admin/view-portal-error-log) – šajā rakstā skaidrots, kā skatīt portāla kļūdu žurnālus un uzglabāt tos savā Microsoft Azure BLOB glabāšanas kontā.
 
 ## <a name="customize-the-order-creation-process"></a>Pasūtījuma izveides procesa pielāgošana
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Payment Connector Adyen problēmu novēršana
-description: Šajā tēmā sniegti norādījumi problēmu novēršanai, kas var palīdzēt, ja jums radušās ar Adyen Microsoft Dynamics 365 Payment Connector.
+description: Šajā rakstā ir sniegtas problēmu novēršanas norādes, kas Microsoft Dynamics var palīdzēt iegūt atbalstu, kad ir problēmas ar 365 Maksājumu savienotāju Alencē.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f40e29a17fe860440bd8192a89b0f5150f0db9ab213b2190f9deaf33a4f2aaba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6219747e794865e602c78d7ca519340046d5effc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896879"
 ---
 # <a name="troubleshoot-dynamics-365-payment-connector-for-adyen-issues"></a>Dynamics 365 Payment Connector Adyen problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā sniegti norādījumi problēmu novēršanai, kas var palīdzēt, ja jums radušās ar Adyen Microsoft Dynamics 365 Payment Connector.
+Šajā rakstā ir sniegtas problēmu novēršanas norādes, kas Microsoft Dynamics var palīdzēt iegūt atbalstu, kad ir problēmas ar 365 Maksājumu savienotāju Alencē.
 
 ## <a name="description"></a>Apraksts
 

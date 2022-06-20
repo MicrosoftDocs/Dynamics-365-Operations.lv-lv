@@ -1,6 +1,6 @@
 ---
 title: Datu integrācijas projekta izveide
-description: Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
+description: Šajā rakstā skaidrots, kā izveidot datu integrācijas projektu.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876245"
 ---
 # <a name="create-a-data-integration-project"></a>Datu integrācijas projekta izveide
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izveidot datu integrācijas projektu.
+Šajā rakstā skaidrots, kā izveidot datu integrācijas projektu.
 
 1. Microsoft Dynamics pieteikties 365 Finansēs.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet **Datu entītijas**. Pirms pārejat pie nākamās darbības, uzgaidiet, līdz visas datu entītijas ir atsvaidzinātas.
@@ -67,6 +67,6 @@ ms.locfileid: "8722889"
     2. Katram projektam iestatiet atbilstošo grafiku.
 
 > [!NOTE]
-> Ja sadaļā Nepieciešamie elementi Dataverse nav redzams, **pārejiet uz sadaļu Kredīts** > **·** > **un kolekcijasSetupFinanceSetupFinancesFinancesfinances** > **·** **parametros**, iespējojiet līdzekli, **debitora maksājumu prognozes un pēc tam atlasiet Izveidot prognozēšanas modeli.** Kad AI modeļa izvietošana ir pabeigta, tiks Dataverse izvietoti elementi, kas nepieciešami integrācijas integrācijai.
+> Ja neredzat nepieciešamos Dataverse elementus, pārejiet uz Sadaļu Kredīta un kolekcijas **Iestatīšanas** > **·** > **·** > **finanšu ieskatu parametros, iespējojiet līdzekli,** **debitoru** maksājumu prognozes un pēc tam atlasiet Izveidot prognozēšanas modeli.**·** Kad AI modeļa izvietošana ir pabeigta, tiks Dataverse izvietoti elementi, kas nepieciešami integrācijas integrācijai.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Sava vietējā kontu plāna plānošana
-description: Šajā tēmā sniegta informācija, kas palīdzēs jums plānot kontu plānu, kad jūsu organizācijai ir prasības pret likumā noteiktajām/lokālajām prasībām.
+description: Šajā rakstā ir sniegta informācija, kas palīdzēs jums plānot kontu plānu, kad jūsu organizācijai ir prasības pret likumā noteiktajām/lokālajām prasībām.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798300"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946250"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Sava vietējā kontu plāna plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs jums plānot kontu plānu, kad jūsu organizācija ietver juridiskas personas, kam jāatbilst noteiktu vietējo vietu prasībām, kur tās veic uzņēmējdarbību. Šajā tēmā lietoti šādi termini, lai aprakstītu kontu plānus:
+Šajā rakstā ir sniegta informācija, kas palīdzēs jums plānot kontu plānu, kad jūsu organizācija ietver juridiskas personas, kam jāatbilst noteiktu vietējo vietu prasībām, kur tās veic uzņēmējdarbību. Šajā rakstā ir lietoti šādi termini, lai aprakstītu kontu plānus:
 
 - **Globāls** – kontu plāns, ko organizācija izmanto globālā mērogā. Vairākumā gadījumu jūs konsolidēsiet uz šo kontu plānu.
 - **Lokāls** – kontu plāns, ko lieto juridiskas personas noteiktā valstī vai reģionā.
@@ -54,7 +54,7 @@ Ja jūsu organizācijai nepieciešams, lai juridiska persona izmantotu vietējo 
 
 Organizācijas struktūra un pārskata struktūra nosaka izmantoto opciju.
 
-[![ Diagramma, kas parāda, kā organizācijas struktūra nosaka, vai izmantot globālo vai lokālo kontu plānu](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![Diagramma, kas parāda, kā organizācijas struktūra nosaka, vai izmantot globālo vai lokālo kontu plānu](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Ja juridiskajai personai ir piešķirts globālais kontu plāns, lai nodrošinātu vietējo pārskatu sniegšanas prasību izpildi, ir pieejamas šādas opcijas:
 
@@ -154,7 +154,7 @@ Lokālā konsolidācija ir ieteicama pieeja vietējo kontu plāna prasību izpil
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Veikt ārējo kartēšanu uz vietējo kontu plānu
 
-Globālajā kontu plānā tiek pieņemts, ka pārvaldāt kartēšanu un lokalizācijas ārpus sistēmas. Izmantojot šo pieeju, jūs tikko izveidojat vienu globālo kontu plānu Microsoft Dynamics 365 Finance un apstrādājiet prasības ārpus sistēmas.
+Globālajā kontu plānā tiek pieņemts, ka pārvaldāt kartēšanu un lokalizācijas ārpus sistēmas. Šai pieejai ir vienkārši jāizveido viens globāls kontu plāns Microsoft Dynamics 365. finanšu līmenī un jārīkojas ar prasībām ārpus sistēmas.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Iestatīt ārējo kartēšanu uz vietējo kontu plānu
 

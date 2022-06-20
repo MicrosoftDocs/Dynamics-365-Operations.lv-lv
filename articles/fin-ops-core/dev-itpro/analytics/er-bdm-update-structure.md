@@ -1,6 +1,6 @@
 ---
 title: Biznesa dokumenta veidnes struktūras atjaunināšana
-description: Šajā tēmā paskaidrots, kā atjaunināt biznesa dokumenta veidnes struktūru, izmantojot biznesa dokumentu pārvaldības līdzekli.
+description: Šajā rakstā skaidrots, kā atjaunināt biznesa dokumenta veidnes struktūru, izmantojot Biznesa dokumentu pārvaldības funkciju.
 author: NickSelin
 ms.date: 11/19/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2adecba4e988bfe04de2c181501b6c3ef8491dcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880288"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Biznesa dokumenta veidnes struktūras atjaunināšana 
 
 [!include[banner](../includes/banner.md)]
 
-Rūtī **Veidnes struktūra**, kas atrodas veidnes redaktorā [Biznesa dokumentu pārvaldība](er-business-document-management.md), varat modificēt biznesa dokumenta veidni, [pievienojot jaunus laukus](er-bdm-add-field-to-excel-template.md) veidnei Microsoft Excel. Tad veidnes struktūra tiek automātiski atjaunināta Dynamics 365 Finance, lai tā atspoguļotu izmaiņas, ko veicāt rūtī **Veidnes struktūra**.
+Rūtī **Veidnes struktūra**, kas atrodas veidnes redaktorā [Biznesa dokumentu pārvaldība](er-business-document-management.md), varat modificēt biznesa dokumenta veidni, [pievienojot jaunus laukus](er-bdm-add-field-to-excel-template.md) veidnei Microsoft Excel. Tad veidnes struktūra pēc tam automātiski tiek atjaunināta Dynamics 365 finansēs, lai tā atspoguļotu izmaiņas, ko veicāt veidņu **struktūras** rūtī.
 
 Varat arī modificēt veidni, izmantojot Office 365 tiešsaistes funkcionalitāti. Piemēram, rediģējamajā darblapā varat pievienot jaunu nosauktu krājumu, piemēram, attēlu vai formu. Šādā gadījumā veidnes struktūra netiek automātiski atjaunināta Finance, un pievienotais krājums netiek parādīts rūtī **Veidnes struktūra**. Manuāli atjauniniet veidnes struktūru Finance, veidnes redaktora lapā atlasot **Atjaunināt struktūru**.
 

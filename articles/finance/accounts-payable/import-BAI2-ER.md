@@ -1,6 +1,6 @@
 ---
 title: Iestatīt detalizēto bankas darbību saskaņošanas importēšanu, izmantojot elektroniskos pārskatus
-description: Šajā tēmā skaidrots, kā izmantot elektroniskos pārskatus, lai iestatītu detalizēto bankas darbību saskaņošanas importa procesu.
+description: Šajā rakstā ir izskaidrots, kā izmantot elektroniskos pārskatus, lai iestatītu detalizēto bankas darbību saskaņošanas importa procesu.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889125"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Iestatīt detalizēto bankas darbību saskaņošanas importēšanu, izmantojot elektroniskos pārskatus
 
 [!include [banner](../includes/banner.md)]
 
-Detalizētās bankas darbību saskaņošanas funkcija ļauj jums importēt elektroniskos bankas izrakstus un automātiski saskaņot tos ar bankas Microsoft Dynamics darbībām 365 Finansēs. Šajā tēmā skaidrots, kā iestatīt importa funkcionalitāti jūsu bankas izrakstiem. Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Microsoft Dynamics 365 Finanses atbalsta trīs bankas pārskatu formātus: ISO20022, MT940 un BAI2. 
+Detalizētās bankas darbību saskaņošanas funkcija ļauj jums importēt elektroniskos bankas izrakstus un automātiski saskaņot tos ar bankas Microsoft Dynamics darbībām 365 Finansēs. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Microsoft Dynamics 365 Finanses atbalsta trīs bankas pārskatu formātus: ISO20022, MT940 un BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronisko pārskatu izveides konfigurācijas iestatīšana
 
 1. Dodieties uz **elektronisko darbvietu \> pārskatu**.
-2. Microsoft **konfigurācijas nodrošinātāja** elementā atlasiet **Repositories**.
+2. Microsoft konfigurācijas nodrošinātāja **elementā atlasiet Repositories** **.**
 3. Atlasiet **Globāls** un pēc tam atlasiet **Atvērt**.
 4. Ja ir jāizveido savienojums ar repozitoriju, dialoglodziņā atlasiet zilo saiti.
 5. Konfigurācijas sarakstā atrodiet BANKAS izraksta **modeļa BANKAS \> izraksta modeli NO BAI2**.

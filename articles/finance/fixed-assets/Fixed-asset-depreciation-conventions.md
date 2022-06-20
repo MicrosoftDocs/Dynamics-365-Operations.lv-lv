@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļu nolietojuma konvencijas
-description: Šajā tēmā ir aprakstītas par pamatlīdzekļu nolietojuma konvencijas.
+description: Šajā rakstā ir aprakstītas pamatlīdzekļu nolietojuma konvencijas.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858397"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Pamatlīdzekļu nolietojuma konvencijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas par pamatlīdzekļu nolietojuma konvencijas. Nolietojuma konvencijas tiek izmantotas, lai noteiktu, kad un kā tiek aprēķināts nolietojums gan par gadu, kad pamatlīdzeklis ir iegādāts, gan par gadu, kad pamatlīdzeklis tiek izslēgts.
+Šajā rakstā ir aprakstītas pamatlīdzekļu nolietojuma konvencijas. Nolietojuma konvencijas tiek izmantotas, lai noteiktu, kad un kā tiek aprēķināts nolietojums gan par gadu, kad pamatlīdzeklis ir iegādāts, gan par gadu, kad pamatlīdzeklis tiek izslēgts.
 
 Nolietojuma konvencijas var piešķirt pamatlīdzekļu grupas grāmatas iestatīšanai. Lai skatītu vai piešķirtu nolietojuma aprēķināšanas metodi, pamatlīdzekļu iestatīšanas apgabalā atlasiet **Pamatlīdzekļu** grupas. Atlasiet pogu **Grāmatas**. Šajā gadījumā piešķirtās nolietojuma konvencijas tiek izmantotas kā noklusējuma vērtības, veidojot pamatlīdzekļu grāmatas. Nolietojuma konvencijas var iestatīt arī atsevišķā pamatlīdzekļu grāmatā. Lai to izdarītu, atlasiet vienumu **Grāmatas** pamatlīdzekļu iestatīšanas apgabalā un pēc tam atlasiet pogu **Pamatlīdzekļu grupas**.
 

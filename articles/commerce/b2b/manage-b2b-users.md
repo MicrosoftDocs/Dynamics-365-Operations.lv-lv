@@ -1,6 +1,6 @@
 ---
 title: Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
-description: Šajā tēmā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
+description: Šajā rakstā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860299"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
+Šajā rakstā ir aprakstīts, kā biznesa partnera lietotājus pievienot, Microsoft Dynamics 365 Commerce dzēst un rediģēt sadaļā "bizness-biznesam" (B2B) e-komercijas vietnes un programmā Commerce Headquarters.
 
 > [!NOTE]
-> - Tēma [Pārvaldīt B2B biznesa partnerus, izmantojot debitoru hierarhijas](partners-customer-hierarchies.md) ir šī dokumenta priekšnosacījums.
+> - Šim [dokumentam priekšnosacījums ir B2B](partners-customer-hierarchies.md) pārvaldības biznesa partneri, izmantojot debitoru hierarhiju rakstu.
 > - Pārliecinieties, ka inicializējiet dokumentu tipu elementu programmā Commerce headquarters, atverot dokumentu **tipu** formu organizācijas administrēšanas **dokumentu \> pārvaldības dokumentu \> tipos**.
 
 B2B e-komercijas tīmekļa vietnes pieprasa, lai organizācijas reģistrētos kļūt par biznesa partneriem. Kad organizācija iesniedz reģistrācijas datus B2B e-komercijas vietnei, reģistrācijas pieprasījums tiek apstrādāts kvalifikācijas procesā. Ja organizācija ir sekmīgi kvalificēta, tā tiek pievienota kā biznesa partneris.
@@ -121,7 +121,7 @@ Lai pievienotu biznesa partnerus un lietotājus Commerce Headquarters, veiciet t
 
 ## <a name="additional-information"></a>Papildinformācija
 
-- Visus šajā tēmā minētos darbus var konfigurēt, lai tie tiktu izpildīti pēc grafika pakešuzdevuma formātā. Paredzams, ka biznesa partneri konfigurēs pakešuzdevumus pēc vajadzības.
+- Visus šajā rakstā minētos darbus var konfigurēt tā, lai palaistu grafikā pakešuzdevumu formātā. Paredzams, ka biznesa partneri konfigurēs pakešuzdevumus pēc vajadzības.
 - Pašlaik tikai vienu lietotāja/klienta ierakstu var norādīt kā administratoru, un šo lomu var mainīt tikai komponentā Commerce Headquarters. Pašapkalpošanās iespējām nav atbalsta, kas biznesa partneriem ļautu izraudzīties vairākus administratorus vai mainīt administratorus no B2B e-komercijas tīmekļa vietnēm.
 - Lai gan izdevumu ierobežojumus lietotājiem var noteikt, izdevumu ierobežojumu izpilde pasūtījuma iesniegšanas procesā vēl nav ieviesta.
 - Visa biznesa loģika un validācijas lietotāja pieredzei B2B e-komercijas tīmekļa vietnē ir balstītas uz tā klienta ieraksta konfigurāciju, kas ir kartēta lietotājam komponentā Commerce Headquarters.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868164"
 ---
 # <a name="configure-rates"></a>Konfigurēt likmes
 
@@ -47,7 +47,7 @@ Izmantojiet likmes, lai noteiktu, cik daudz darbinieku un darba devēju maksā p
    | **Ir spēkā** | Datums, kurā likme kļūst efektīva. Noklusējuma vērtība ir pašreizējais sistēmas datums. Šim datumam jābūt atvieglojumu periodā vai pirms tā. Lai šo datumu iestatītu atvieglojuma plāna datumā, ir laba prakse. |
    | **Termiņa beigas** | Likmes beigu datums. 12/31/2154 (kas apzīmē "nekad") ir noklusētā vērtība. |
    | **Izmantot pakāpes** |  Lietojiet šo lauku, ja ir loģika, kas jāizmanto likmes noteikšanai. Piemēram, ja, pamatojoties uz vecumu, likmei ir jāpalielina, atlasiet šeit vērtību. Atlasiet **Vienkāršais līmenis** viena līmeņa atvieglojuma likmei vai **Divkāršais līmenis** divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. Pēc vērtības atlases atlasiet **Darbības** un pēc tam atlasiet **Pakāpju likmes**. Ja jums ir vienotā likme, kas nemainās, atstājiet šo lauku tukšu. |
-   | **Maksājumu biežums** | Norādiet, cik bieži atvieglojumu prēmijas likme jāmaksā atvieglojumu sniedzējam. Likmes, kuras ievadāt tālāk šajā tēmā aprakstītajā lapā, tiks balstītas uz maksāšanas biežumu, kuru norādīsiet šeit. Piemēram, ja ievadāt šajā laukā **Ik mēnesi** un ievadāt darbinieka likmi **$100**, ir pieņemts, ka atvieglojums darbiniekam izmaksās $100 mēnesi. Tomēr darbiniekam var maksāt divas reizes mēnesī, pamatojoties uz atvieglojumu maksājuma biežumu, kas iestatīts darbinieka ierakstā. Ja darbinieks pierakstās **Darbinieku pašapkalpošanā** daudzums, kuru viņi maksās, būs 50$, jo likme ar kādu rāda **Darbinieku pašapkalpošanās** ir pamatota darbinieka maksājumu biežumā. |
+   | **Maksājumu biežums** | Norādiet, cik bieži atvieglojumu prēmijas likme jāmaksā atvieglojumu sniedzējam. Likmes, kuras ievadāt lapā, kas aprakstīta tālāk šajā rakstā, tiks balstītas uz maksājumu biežumu, kuru norādīsiet šeit. Piemēram, ja ievadāt šajā laukā **Ik mēnesi** un ievadāt darbinieka likmi **$100**, ir pieņemts, ka atvieglojums darbiniekam izmaksās $100 mēnesi. Tomēr darbiniekam var maksāt divas reizes mēnesī, pamatojoties uz atvieglojumu maksājuma biežumu, kas iestatīts darbinieka ierakstā. Ja darbinieks pierakstās **Darbinieku pašapkalpošanā** daudzums, kuru viņi maksās, būs 50$, jo likme ar kādu rāda **Darbinieku pašapkalpošanās** ir pamatota darbinieka maksājumu biežumā. |
    | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metodes ir: standarta, saīsināta, parasta, uz leju un noapaļošana uz augšu. </br></br><ul><li>**Standarta** – vienmēr noapaļot uz augšu. Piemēram, 10,611 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,23. </li><li>**Saīsināta** – vienmēr noapaļot uz leju. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,24. </li><li>**Parasta** – decimālskaitļu vērtības, kas beidzas ar 5, vai lielākas par 5, tiks noapaļotas no nulles. Decimālskaitļu vērtības, kas beidzas ar 4, vai mazākas par 4, tiks noapaļotas uz nulli. Piemēram, 10,615 tiks noapaļots uz 10,62. – 10,235 tiks noapaļots uz -10,24. 10,614 tiks noapaļots uz 10,61. – 10,234 tiks noapaļots uz -10,23. </li><li>**Uz leju** – noapaļot uz nulli. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,23. </li><li>**Noapaļošana uz augšu** – noapaļot no nulles. Piemēram, 10,619 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,24. |
    | **Nesmēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Nesmēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |

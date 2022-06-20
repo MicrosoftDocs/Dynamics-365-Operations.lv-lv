@@ -1,6 +1,6 @@
 ---
 title: PVN deklarācija (Dānija)
-description: Šajā tēmā aprakstīts, kā iestatīt un ģenerēt papildu pievienotās vērtības nodokļa (PVN) deklarāciju Dānijai.
+description: Šajā rakstā ir aprakstīts, kā iestatīt un ģenerēt papildu pievienotās vērtības nodokļa (PVN) deklarāciju Dānijai.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d4a1185fa3c3b059744018b6e4e195de07126c9
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: 666dc96cb169ab28ac3938299a3f245e3b4511ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863004"
 ---
 # <a name="vat-declaration-denmark"></a>PVN deklarācija (Dānija)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt pievienotās vērtības nodokļa (PVN) deklarāciju Dānijai un priekšskatīt to Microsoft Excel.
+Šajā rakstā ir aprakstīts, kā iestatīt pievienotās vērtības nodokļa (PVN) deklarāciju Dānijai un priekšskatīt to Microsoft Excel.
 
 Lai pārskatu ģenerētu automātiski, vispirms izveidojiet pietiekamu PVN kodu, lai saglabātu atsevišķu PVN uzskaiti katrai izvēles rūtiņai avansa PVN deklarācijā. Turklāt elektronisko pārskatu (ER) formāta, kas paredzēts avansa PVN deklarācijai, konkrētos pieteikuma parametros PVN kodi tiek asociēti ar uzmeklēšanas rezultātu meklēšanas rezultātiem PVN deklarācijas lodziņiem.
 
-Dānijā jums ir jākonfigurē pārskata **lauka pārlūkošana**. Papildinformāciju par to, kā iestatīt programmai raksturīgos parametrus, [skatiet tālāk šīs tēmas sadaļā Iestatīt lietojumprogrammai raksturīgos parametrus PVN](#set-up-application-specific-parameters) deklarācijas laukiem.
+Dānijā jums ir jākonfigurē pārskata **lauka pārlūkošana**. Papildinformāciju par to, kā iestatīt programmai raksturīgos parametrus, [skatiet tālāk šī raksta sadaļā Iestatīt lietojumprogrammai raksturīgos parametrus PVN](#set-up-application-specific-parameters) deklarācijas laukiem.
 
 Šajā tabulā kolonna "Meklēšanas rezultāts" parāda uzmeklēšanas rezultātu, kas ir iepriekš konfigurēts noteiktai PVN deklarācijas rindai PVN deklarācijas formātā. Izmantojiet šo informāciju, lai pareizi saistītu PVN kodus ar uzmeklēšanas rezultātu un tad ar PVN deklarācijas rindu.
 
@@ -117,14 +117,14 @@ Lai automātiski ģenerētu PVN deklarāciju, saistiet PROGRAMMĀ PVN kodus un u
 
 Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN deklarācijā.
 
-1. Dodieties uz **DarbalaukuElectronic** > **pārskatu** un atlasiet **Pārskatu izveides konfigurācijas**.
+1. Dodieties uz **darbalauku** > **elektronisko** pārskatu sniegšanu un atlasiet **Pārskatu izveides konfigurācijas**.
 2. Atlasiet PVN **deklarācijas Excel (DK)** konfigurāciju un pēc tam atlasiet konfigurācijas **programmai \> noteiktu parametru iestatījumu**.
 3. Lapā Programmai **specifiskie parametri** kopsavilkuma **cilnē Pārlūki** atlasiet Pārskata **lauka uzmeklēšanu**.
 4. Kopsavilkuma cilnē **Nosacījumi** iestatiet tālāk norādītos laukus, lai saistītu PVN kodus un pārskata laukus.
 
     | Lauks                  | Apraksts                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Uzmeklēšanas rezultāts          | Atlasiet pārskata lauka vērtību. Plašāku informāciju par vērtībām un to piešķiršanu PVN deklarācijas rindām skatiet PVN [deklarācijas pārskata sadaļā](#vat-declaration-overview) šīs tēmas agrāk.                                                                                               |
+    | Uzmeklēšanas rezultāts          | Atlasiet pārskata lauka vērtību. Papildinformāciju par vērtībām un to piešķiršanu PVN deklarācijas rindām skatiet šī [raksta](#vat-declaration-overview) iepriekšējā PVN deklarācijas pārskata sadaļā.                                                                                               |
     | Nodokļa kods               | Atlasiet PVN kodu, ko saistīt ar pārskata lauku. Grāmatotās nodokļu darbības, kas izmanto atlasīto PVN kodu, tiks savāktas atbilstošajā deklarācijas lodziņā. Ieteicams atdalīt PVN kodus tā, lai viens PVN kods ģenerētu summas tikai vienā deklarācijas lodziņā. |
     | Transakcijas klasifikators | Ja izveidojāt pietiekamus PVN kodus deklarācijas lodziņa noteikšanai, atlasiet Nav **\* tukšs\***. Ja netiek izveidoti pietiekami daudz PVN kodu, lai viens PVN kods ģenerētu summas tikai vienā deklarācijas lodziņā, varat iestatīt transakcijas klasifikatoru. Ir pieejami šādi darbību klasifikatori:</br>-   **Pirkšana**</br>-   **PurchaseExempt** (pirkšana ar nodokli neapliekamā summa)</br>-   **PurchaseReverseCharge** (no pirkšanas apgrieztās maksas saņemamajiem nodokļiem)</br>-   **Pārdošana**</br>-   **SalesExempt** (ar nodokli neapliekamā pārdošana)</br>-   **SalesReverseCharge** (maksājamie nodokļi no pirkšanas atgriezes maksas vai pārdošanas atgriezeniskās maksas)</br>-   **Izmantošanas nodoklis**. </br>Katram transakcijas klasifikatoram ir pieejams arī kredīta notas klasifikators. Piemēram, viens no šiem klasifikatori ir **PurchaseCreditNote** (pirkšanas kredīta nota).</br>Pārliecinieties, vai katram PVN kodam ir jāizveido divas rindas: viena, kam ir transakcijas klasifikatora vērtība, un viena ar transakcijas klasifikatoru kredīta notas vērtībai. |
 
@@ -140,7 +140,7 @@ Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN dekl
 ### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>Iestatiet PVN pārskata formātu summu priekšskatījumam programmā Excel
 
 1. Līdzekļu pārvaldības **darbvietā** atrodiet un atlasiet PVN **deklarācijas formāta pārskatus.** Sarakstā līdzekli <a0/& un pēc tam atlasiet **Iespējot tagad**.
-2. Doties uz **Virsgrāmatas parametriem LedgerSetupGeneral** > **·** > **·**.
+2. Dodieties uz **Virsgrāmatas** > **iestatījumu** > **Virsgrāmatas parametriem**.
 3. Cilnes PVN **kopsavilkuma** **·** **cilnes Nodokļu opcijas laukā PVN** **deklarācijas formāta kartēšana atlasiet PVN deklarācijas Excel (DK)** ER formātu.
 
    Šis formāts tiek drukāts, kad darbināt pārskatu **par PVN maksājumu perioda pārskatam**. To var drukāt arī tad, ja PVN **maksājumu** lapā **atlasāt** Drukāt.
@@ -165,11 +165,11 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
 5. Dialoglodziņā Pievienot **failu pārbaudiet**, **·** **vai** avota datu formāta lauks ir iestatīts uz Pakot, **atlasiet** Augšupielādēt un pievienojiet un pēc tam atlasiet agrāk lejupielādēto zip failu.
 6. Atlasiet **Aizvērt**.
 7. Kad datu elementi ir augšupielādēti, darbību rūtī atlasiet **Importēt**.
-8. Dodieties uz **TaxInquiries** > **un ziņoElectronic** > **messagesElectronic** > **ziņojumus**, un apstipriniet importēto elektronisko ziņojumu apstrādi (**DK PVN deklarācija**).
+8. Dodieties uz **nodokļu pieprasījumiem un** > **pārskatiem Elektronisko** > **ziņojumu elektroniskie** > **ziņojumi un apstipriniet importēto elektronisko ziņojumu apstrādi (** DK PVN **deklarācija**).
 
 ### <a name="configure-electronic-messages"></a>Konfigurēt elektroniskos ziņojumus
 
-1. Doties uz **TaxSetupElectronic** > **·** > **messagesPopulate** > **ierakstu darbības**.
+1. Doties uz nodokļu **iestatīšanas** > **·** > **elektroniskajiem ziņojumiem** > **Aizpildīt ierakstu darbības**.
 2. Atlasiet dk rindu, lai **aizpildītu PVN atgriešanas ierakstus**, un pēc tam atlasiet **Rediģēt vaicājumu**.
 3. Izmantojiet filtru, lai norādītu segšanas periodus, ko iekļaut pārskatā.
 4. Ja pārskats par nodokļu darbībām no citiem segšanas periodiem jāsniedz citā deklarācijā, **izveidojiet jaunu aizpilda ierakstu** darbību un atlasiet atbilstošos apmaksas periodus.
@@ -178,7 +178,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
 
 ### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a><a name="preview-vat-excel"></a> Priekšskatīt PVN deklarāciju programmā Excel no pārskata PVN par nosegšanas perioda periodisko uzdevumu
 
-1. Pārejiet uz TaxPeriodic **uzdevumusDeclarationsSales** > **·** > **taxReport** > **PVN segšanas periodam** > **.**
+1. Doties uz **nodokļu** > **periodiskajiem** > **uzdevumiem.** > **Deklarācijas PVN** > **pārskats par PVN maksājumu periodam**.
 2. Laukā **Apmaksas** periods atlasiet vērtību.
 3. Laukā **PVN maksājuma versija** atlasiet vienu no šīm vērtībām:
 
@@ -191,7 +191,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
 
 ### <a name="settle-and-post-sales-tax"></a>Nosegt un grāmatot PVN
 
-1. Dodieties uz TaxPeriodic **uzdevumusDeclarationsSales** > **·** > **taxSettle** > **un grāmatojiet PVN** > **.**
+1. Doties uz **periodiskajiem** > **nodokļu** > **uzdevumiem, deklarācijas** > **par PVN** > **maksājumu un PVN iegrāmatošanu**.
 2. Laukā **Apmaksas** periods atlasiet vērtību.
 3. Laukā **PVN maksājuma versija** atlasiet vienu no šīm vērtībām:
 
@@ -203,7 +203,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
 
 ### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Priekšskatīt PVN deklarāciju programmā Excel no PVN maksājuma
 
-1. Atveriet **TaxInquiries** > **un reportsPārdošanas** > **·** > **nodokļu pieprasījumiPārdošanas nodokļu maksājumi** un atlasiet PVN maksājuma rindu.
+1. Dodieties **uz** > **nodokļu vaicājumiem un** > **pārskatiem par** > **PVN pieprasījumiem** par PVN maksājumiem un atlasiet PVN maksājuma rindu.
 2. Atlasiet **Drukāt pārskatu** un pēc tam atlasiet **Labi**.
 3. Pārskatiet Excel failu, kas tiek ģenerēts atlasītajai PVN maksājuma rindai.
 
@@ -212,7 +212,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Ģenerējiet PVN deklarāciju no elektroniskajiem ziņojumiem
 
-Kad izmantojat elektroniskos ziņojumus, lai ģenerētu pārskatu, varat apkopot nodokļu datus no vairākām juridiskām personām. Papildinformāciju skatiet tālāk [šīs tēmas sadaļā Vairāku juridisko personu sadaļu](#run-vat-declaration) PVN deklarācijas palaišana.
+Kad izmantojat elektroniskos ziņojumus, lai ģenerētu pārskatu, varat apkopot nodokļu datus no vairākām juridiskām personām. Papildinformāciju skatiet tālāk [šī raksta sadaļā Vairāku juridisko personu sadaļu](#run-vat-declaration) PVN deklarācijas palaišana.
 
 Šī procedūra attiecas uz elektronisko ziņojumu apstrādes piemēru, ko iepriekš importjāt no LCS koplietojamās līdzekļu bibliotēkas.
 
@@ -224,12 +224,12 @@ Kad izmantojat elektroniskos ziņojumus, lai ģenerētu pārskatu, varat apkopot
    > [!NOTE]
    > No 5. līdz 7. solim nav obligāti.
 
-5. Nav obligāti: kopsavilkuma **cilnē** Ziņojumi atlasiet Apkopot **datus un** pēc tam atlasiet **Labi**. Iepriekš izveidotie PVN maksājumi tiek pievienoti ziņojumam. Plašāku informāciju skatiet iepriekš šajā tēmā [sadaļā PVN](#settle-and-post-sales-tax) kārtošana un grāmatošana. Ja izlaidīsiet šo soli, jūs joprojām varat ģenerēt **PVN deklarāciju, izmantojot nodokļu** deklarācijas versijas lauku **deklarācijas** dialoglodziņā.
+5. Nav obligāti: kopsavilkuma **cilnē** Ziņojumi atlasiet Apkopot **datus un** pēc tam atlasiet **Labi**. Iepriekš izveidotie PVN maksājumi tiek pievienoti ziņojumam. Papildinformāciju skatiet šī raksta [sadaļā PVN sadaļā](#settle-and-post-sales-tax) Nosegt un grāmatot. Ja izlaidīsiet šo soli, jūs joprojām varat ģenerēt **PVN deklarāciju, izmantojot nodokļu** deklarācijas versijas lauku **deklarācijas** dialoglodziņā.
 6. Nav obligāti: kopsavilkuma **cilnē Ziņojumu** krājumi pārskatiet PVN maksājumus, kas tiek pārsūtīti apstrādei. Pēc noklusējuma tiek iekļauti visi atlasītā perioda PVN maksājumi, kas netika iekļauti citā tā paša apstrādes ziņojumā.
 7. Nav obligāti: atlasiet **Oriģinālais** dokuments, lai pārskatītu PVN maksājumus, **vai** atlasiet Dzēst, lai izslēgtu PVN maksājumus no apstrādes. Ja izlaidīsiet šo soli, jūs joprojām varat ģenerēt **PVN deklarāciju, izmantojot nodokļu** deklarācijas versijas lauku **deklarācijas** dialoglodziņā.
 8. Kopsavilkuma cilnē **Ziņojumi** atlasiet statusu **Atjaunināt**. Dialoglodziņā Atjaunināšanas **statuss** atlasiet Gatavs **ģenerēšanu un** pēc tam atlasiet **Labi**. Pārbaudiet, vai ziņojuma statuss ir mainīts uz **Gatavs ģenerēšanas uzdevumam**.
 9. Atlasiet **Ģenerēt pārskatu**. Lai priekšskatītu PVN deklarācijas summas, dialoglodziņā **Palaist apstrādi atlasiet Priekšskatīt** pārskatu **un pēc** tam atlasiet **Labi**.
-10. Dialoglodziņā Elektronisko **pārskatu** parametri iestatiet laukus tā, [kā tas ir aprakstīts PVN deklarācijas priekšskatīšanas programmā Excel](#preview-vat-excel) no atskaites PVN par nosegšanas perioda periodisko uzdevumu sadaļu iepriekš šajā tēmā, pēc tam atlasiet **Labi**.
+10. Dialoglodziņā Elektronisko **pārskatu** parametri iestatiet laukus tā, [kā tas ir aprakstīts PVN deklarācijas priekšskatīšanas programmā Excel](#preview-vat-excel) no atskaites PVN par nosegšanas perioda periodisko uzdevumu sadaļu, kā arī pēc tam atlasiet **Labi**.
 11. Atlasiet lapas **augšējā** labajā stūrī pogu Pielikumi (papīra sagriešanas simbols) un pēc tam atlasiet **Atvērt**, lai atvērtu failu. Pārskatiet summas Excel dokumentā.
 
 ## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-vat-declaration"></a> Palaist PVN deklarāciju vairākām juridiskām personām
@@ -240,9 +240,9 @@ Lai lietotu formātus, lai iesniegtu pārskatu par PVN deklarāciju juridisko pe
 
 Sekojiet šiem soļiem, lai iestatītu elektroniskos ziņojumus, lai savāktu datus no vairākām juridiskajām personām.
 
-1. Dodieties uz **management WorkspacesFelīdzekļi** > **·**.
+1. Pārejiet uz **sadaļu Darbalauku** > **līdzekļu pārvaldība**.
 2. Atrodiet un atlasiet starpuzņēmumu **vaicājumus aizpildīto ierakstu darbību līdzeklim** sarakstā un pēc tam atlasiet Aktivizēt **tagad**.
-3. Doties uz **TaxSetupElectronic** > **·** > **messagesPopulate** > **ierakstu darbības**.
+3. Doties uz nodokļu **iestatīšanas** > **·** > **elektroniskajiem ziņojumiem** > **Aizpildīt ierakstu darbības**.
 4. Darbības lapā **Aizpildīt ierakstus atlasiet** rindu DK aizpildīt **PVN atgriešanas ierakstiem**.
 
    **Datu avotu iestatījumu** režģī ir pieejams jauns **uzņēmuma** lauks. Esošiem ierakstiem šajā laukā tiek rādīts pašreizējās juridiskās personas identifikators.
@@ -251,7 +251,7 @@ Sekojiet šiem soļiem, lai iestatītu elektroniskos ziņojumus, lai savāktu da
 
     | Lauks                  | Apraksts                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Vārds                   | Ievadiet vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **PVN maksājumu 1. filiālē**. |
+    | Nosaukums/vārds, uzvārds                   | Ievadiet vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **PVN maksājumu 1. filiālē**. |
     | Ziņojuma krājuma veids      | Atlasiet **PVN atgriešanu**. Šī vērtība ir vienīgā vērtība, kas pieejama visiem ierakstiem.                                    |
     | Konta veids           | Atlasiet **visu**.                                                                                                               |
     | Galvenās tabulas nosaukums      | Norādiet **TaxReportVoucher** visiem ierakstiem.                                                                             |

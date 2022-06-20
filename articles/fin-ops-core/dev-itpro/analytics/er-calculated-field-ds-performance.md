@@ -1,6 +1,6 @@
 ---
 title: Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
-description: Šajā tēmā ir paskaidrots, kā var palīdzēt uzlabot Elektronisko atskaišu (Electroinic reporting - ER) risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus.
+description: Šajā rakstā skaidrots, kā jūs varat palīdzēt uzlabot elektronisko pārskatu (ER) risinājumu veiktspēju, pievienojot parametrus APRĒĶINĀTIEM LAUKA datu avotiem.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850119"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā var veikt [veiktspējas izsekošanu](trace-execution-er-troubleshoot-perf.md) attiecībā uz [Elektronisko atskaišu (ER)](general-electronic-reporting.md) formātiem, kas tiek palaisti, un tad izmantot šo izsekoto informāciju, lai palīdzētu uzlabot veiktspēju, konfigurējot parameterizētu **Aprēķinātā lauka** datu avotu.
+Šajā rakstā [skaidrots](trace-execution-er-troubleshoot-perf.md)[, kā var veikt palaisto elektronisko pārskatu (ER)](general-electronic-reporting.md) formātu veiktspējas izsekošanas, un pēc tam izmantot šo izsekošanu informāciju, lai palīdzētu uzlabot veiktspēju, konfigurējot parametru **aprēķinātā** lauka datu avotu.
 
 ER konfigurāciju izstrādes procesa ietvaros, lai izveidotu biznesa dokumentus, nosakiet metodi, kas tiek izmantota, lai iegūtu datus no programmas un ievadītu tos ģenerētajā izvadē. Izveidojot **Aprēķinātā lauka** veida parameterizētu ER datu avotu, varat samazināt datu bāzes izsaukumu skaitu un ievērojami samazināt laiku un izmaksas, kas ir saistītas ar ER formāta izpildes detaļu savākšanu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-- Lai izpildītu šīs tēmas piemērus, jums ir jābūt piekļuvei vienai no šādām [lomām](../sysadmin/tasks/assign-users-security-roles.md):
+- Lai aizpildītu piemērus šajā rakstā, jums ir jābūt piekļuvei vienai no šīm [lomām](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroniskā pārskata izstrādātājs
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
 - Uzņēmumam jābūt iestatītam uz **DEMF**.
-- Izpildiet šīs tēmas [1. papildinājumā](#appendix1) norādītās darbības, lai lejupielādētu parauga Microsoft ER risinājuma komponentus, kas nepieciešami, lai aizpildītu piemērus šajā tēmā.
-- Izpildiet šīs tēmas [2. papildinājumā](#appendix2) norādītās darbības, lai konfigurētu minimālu ER parametru kopumu, kas nepieciešams, lai izmantotu ER struktūru, lai palīdzētu uzlabot parauga Microsoft ER risinājuma veiktspēju.
+- Izpildiet šī raksta [1](#appendix1) . pielikumā norādītās darbības, lai lejupielādētu Parauga Microsoft ER risinājuma komponentus, kas ir nepieciešami, lai pabeigtu piemērus šajā rakstā.
+- Izpildiet [šī raksta 2](#appendix2) . pielikuma darbības, lai konfigurētu minimālo ER parametru kopu, kas nepieciešama ER struktūras izmantošanai, lai palīdzētu uzlabot Microsoft ER risinājuma parauga veiktspēju.
 
 ## <a name="import-the-sample-er-solution"></a>Parauga ER risinājuma failu importēšana
 
@@ -47,8 +47,8 @@ Iedomājieties, ka jums ir jāizstrādā ER risinājums, lai ģenerētu jaunu p�
 
 Pirmais solis ir importēt parauga ER risinājumu, lai ģenerētu kreditora darbību pārskatu.
 
-1. Piesakieties Microsoft Dynamics 365 Finance instancē, kas nodrošināta jūsu uzņēmumam.
-2. Šajā tēmā jūs izveidosit un modificēsit nepieciešamās konfigurācijas parauga uzņēmumam **Litware, Inc.** . Pārliecinieties, ka šis konfigurācijas nodrošinātājs ir pievienots jūsu Finance instancei un atzīmēts kā aktīvs. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+1. Microsoft Dynamics pieteikties 365 Finanšu instancē, kas ir nodrošināts jūsu uzņēmumam.
+2. Šajā rakstā ir jāizveido un jāmodificē konfigurācijas uzņēmumam **Litware, Inc.** sample. Pārliecinieties, ka šis konfigurācijas nodrošinātājs ir pievienots jūsu Finance instancei un atzīmēts kā aktīvs. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Darbvietā **Elektroniskie pārskati** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
 4. Lapā **Konfigurācijas** importējiet ER konfigurācijas, kuras lejupielādējāt kā priekšnosacījumu pakalpojumā Finance, šādā secībā: datu modelis, modeļa kartējums, formāts. Katrai konfigurācijai rīkojieties šādi.
 
@@ -220,7 +220,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Modificētā ER risinājuma palaišana, lai izsekotu izpildi
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
+Atkārtojiet darbības, kas iepriekšējā [šī raksta sadaļā Palaist ER](#run-format) formātu, lai ģenerētu jaunu veiktspējas izsekošanu.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Izmantot veiktspējas izsekošanu, lai analizētu modeļa kartēšanas pielāgojumus 
 

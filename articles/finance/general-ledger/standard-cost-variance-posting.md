@@ -1,6 +1,6 @@
 ---
 title: Standarta izmaksu novirzes grāmatošana
-description: Šajā tēmā sniegta informācija par grāmatošanas metožu iestatīšanu standarta izmaksu grāmatošanā.
+description: Šajā rakstā ir sniegta informācija par grāmatošanas metožu iestatīšanu standarta izmaksu grāmatošanā.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894882"
 ---
 # <a name="standard-cost-variance-posting"></a>Standarta izmaksu novirzes grāmatošana
 
-Kad jūs izmantojat standarta izmaksu ēšanu vienam vai vairākiem produktiem jūsu organizācijā, jums ir jākonfigurē [standarta izmaksu aprēķināšanas priekšnosacījumi](/supply-chain/cost-management/prerequisites-standard-costs.md). Šī tēma skaidro grāmatošanas kontus, kas ir nepieciešami 3. solim no priekšnosacījumi" "Virsgrāmatas kontu piešķiršana krājumu grāmatojumi, kas ir saistīti ar standarta izmaksu noviržu."
+Kad jūs izmantojat standarta izmaksu ēšanu vienam vai vairākiem produktiem jūsu organizācijā, jums ir jākonfigurē [standarta izmaksu aprēķināšanas priekšnosacījumi](/supply-chain/cost-management/prerequisites-standard-costs.md). Šis raksts skaidro grāmatošanas kontus, kas ir nepieciešami 3. solim no priekšnosacījumi" "Virsgrāmatas kontu piešķiršana krājumu grāmatojumi, kas ir saistīti ar standarta izmaksu novirzēm."
 
 Pirkšanas un ražošanas pasūtījumiem var rasties dažādi noviržu tipi. Ražošanas noviržu piemērus skatiet sadaļā [Kopējie ražošanas noviržu avoti](/supply-chain/cost-management/common-sources-of-production-variances.md). Pirkšanas pasūtījuma cenas novirzes rodas, kad izmantojat pirktā krājuma standarta izmaksas, un pastāv starpība starp preces standarta izmaksām un rēķinā iekļautais daudzums pirkšanas pasūtījumā.
 

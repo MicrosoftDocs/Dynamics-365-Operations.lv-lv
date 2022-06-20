@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvietošana, aizstāšana un uzstādīšana
-description: Šajā tēmā paskaidrots, kā pārvietot, aizstāt un uzstādīt līdzekļus Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā pārvietot, aizvietot un instalēt līdzekļus Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872129"
 ---
 # <a name="move-replace-and-install-assets"></a>Līdzekļu pārvietošana, aizstāšana un uzstādīšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769639"
 
  
 
-Šajā tēmā paskaidrots, kā pārvietot, aizstāt un uzstādīt līdzekļus Līdzekļu pārvaldībā. Varat izveidot atsevišķus līdzekļus, kas nav saistīti ar citiem līdzekļiem, vai arī varat izveidot līdzekļu struktūru, kas ietver primāro līdzekli (augšējā līmeņa līdzeklis) un saistītos pakārtotos līdzekļus (apakšlīdzekļus). Līdzekļu pārvaldībā ir trīs pieejas, kā pārvietot un mainīt līdzekļa atrašanās vietu:
+Šajā rakstā skaidrots, kā pārvietot, aizvietot un instalēt līdzekļus Līdzekļu pārvaldībā. Varat izveidot atsevišķus līdzekļus, kas nav saistīti ar citiem līdzekļiem, vai arī varat izveidot līdzekļu struktūru, kas ietver primāro līdzekli (augšējā līmeņa līdzeklis) un saistītos pakārtotos līdzekļus (apakšlīdzekļus). Līdzekļu pārvaldībā ir trīs pieejas, kā pārvietot un mainīt līdzekļa atrašanās vietu:
 
 - **Pārvietot** — pārvietojiet līdzekļus uz citu līdzekļu struktūru vai uz citu atrašanās vietu tajā pašā līdzekļu struktūrā.
 - **Aizstāt** — īslaicīgi noņemt līdzekli no līdzekļu struktūras, lai to varētu labot vai atjaunot, un pēc tam vēlāk pievienot atjaunoto līdzekli atpakaļ līdzekļu struktūrai. Varat arī neatgriezeniski aizstāt izmantotu līdzekli ar jaunu līdzekli.
@@ -42,7 +42,7 @@ ms.locfileid: "6769639"
 Izmantojiet funkciju **Pārvietot līdzekli**, lai pārvietotu līdzekli uz citu līdzekļu struktūru vai uz citu atrašanās vietu tajā pašā līdzekļu struktūrā. Varat arī pārvietot līdzekli no līdzekļu struktūras, lai tas kļūtu par patstāvīgu līdzekli, kam nav struktūras attiecību.
 
 > [!NOTE]
-> Nelietojiet šo funkciju, ja līdzekļi tiek laboti vai īslaicīgi aizstāti. Tā vietā izmantojiet funkciju **Aizstāt līdzekli**, kas aprakstīts tālāk šajā tēmā.
+> Nelietojiet šo funkciju, ja līdzekļi tiek laboti vai īslaicīgi aizstāti. Tā vietā izmantojiet funkciju **Aizvietot līdzekli**, kas ir aprakstīta tālāk šajā rakstā.
 
 1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**.
 2. Sarakstā atlasiet līdzekli, kuru pārvietot. Ja līdzeklim ir pakārtotie līdzekļi, jūs pārvietojat arī šos līdzekļus.

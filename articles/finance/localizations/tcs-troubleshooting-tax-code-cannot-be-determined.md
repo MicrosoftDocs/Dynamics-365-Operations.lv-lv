@@ -1,6 +1,6 @@
 ---
-title: Nevar noteikt nodokļa kodu.
-description: Šajā tēmā skaidrots, kā novērst nodokļu aprēķina pakalpojuma kļūdu "Nodokļu kodu nevar noteikt".
+title: Nevar noteikt nodokļu kodu
+description: Šajā rakstā ir izskaidrots, kā novērst kļūdu "Nodokļu kodu nevar noteikt" nodokļu aprēķināšanas pakalpojumā.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877864"
 ---
-# <a name="tax-code-cannot-be-determined"></a>Nevar noteikt nodokļa kodu.
+# <a name="tax-code-cannot-be-determined"></a>Nevar noteikt nodokļu kodu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidroti problēmu novēršanas soļi, ko varat veikt, ja nodokļu aprēķināšanas pakalpojumā saņemat kļūdu "Nodokļu kodu nevar noteikt".
+Šajā rakstā ir izskaidrotas traucējummeklēšanas darbības, ko varat veikt, ja nodokļu aprēķināšanas pakalpojumā saņemat kļūdu "Nodokļu kodu nevar noteikt".
 
 ## <a name="symptom"></a>Simptoms
 
@@ -121,10 +121,10 @@ Izpildiet šīs darbības, lai novērstu problēmu.
 
 ## <a name="mitigation"></a>Mazinājums
 
-1. Dodieties cauri katrai šīs tēmas sadaļas [Problēmu](#troubleshoot) novēršanas sadaļai un novērsiet iestatījumu, kā nepieciešams. Ja nodokļu grupa un krājumu nodokļu grupa nav pareizi noteikta, [skatiet sadaļu Atbilstošs rezultāts nav atrasts](tcs-troubleshooting-no-matching-result.md).
+1. Dodieties cauri katrai šī raksta [sadaļas](#troubleshoot) Problēmu novēršanas darbība un pēc vajadzības izlabojiet iestatījumu. Ja nodokļu grupa un krājumu nodokļu grupa nav pareizi noteikta, [skatiet sadaļu Atbilstošs rezultāts nav atrasts](tcs-troubleshooting-no-matching-result.md).
 2. Ja nodokļu grupai un krājumu nodokļu grupai nav krustpunkta, izveidojiet jaunu funkcionalitātes versiju RCS un novērsiet iestatījumu.
 
-    - Doties uz **nodokļu funkcijām** \> **nodokļu kodiem un groupsItem** > **nodokļu grupu.**
+    - Dodieties uz **nodokļu** \> **funkcijām nodokļu kodiem un grupām** > **Krājuma NODOKĻU grupa.**
 
         | Rinda. Krājumu PVN grupa | Nodokļu kodi |
         |---------------------|-----------|

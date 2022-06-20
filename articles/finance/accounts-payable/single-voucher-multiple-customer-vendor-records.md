@@ -1,6 +1,6 @@
 ---
 title: Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
-description: Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta Microsoft Dynamics 365 Finance turpmākajās versijās, kā rezultātā nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi.
+description: Šajā rakstā sniegts pārskats par to, kas notiek, kad grāmatojat vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte turpmāk Microsoft Dynamics tiks pārtraukta 365 Finanšu versijās, tādēļ mēs neiesakām lietot šo grāmatošanas metodi, jo uzskaites ietekme uz norēķinu apstrādi ir ierobežota.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889096"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par to, kas notiek, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta turpmākajās versijās, kā rezultātā nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
+Šajā rakstā sniegts pārskats par to, kas notiek, kad grāmatojat vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Šī funkcionalitāte tiks pārtraukta turpmākajās versijās, kā rezultātā nav ieteicams izmantot šo grāmatošanas metodi sakarā ar uzskaites ietekmi uz norēķinu apstrādi. 
 
 Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairākiem debitoriem vai kreditoriem, ir bilances pārskaitījumi starp debitoriem, un tīkla bilances starp debitoriem un kreditoriem tajā pašā organizācijā. 
 
@@ -35,7 +35,7 @@ Dokumentu, kas satur vairāk nekā vienu debitoru vai kreditoru var ievadīt, iz
 -   Izmantojot vairāku rindu dokumentu, ja nav norādīts korespondējošais virsgrāmatas konts, ar vairāk nekā vienu debitoru vai kreditoru.
 -   Ievadot dokumentu ar kontu, un korespondējošais konts ir kreditors/kreditors, debitors/debitors, kreditors/debitors vai debitors/kreditors.
 
-Šajā tēmā ir parādīts, kā tiks apstrādāta nosegšana, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Turklāt šajā tēmā sniegti risinājumi, kas palīdz saprast, kā izvairīties no viena dokumenta ar vairākiem debitoriem vai kreditoriem. Jo īpaši, ir piemēri, kas ilustrē divus visizplatītākos segšanas scenārijus, kas tiek ietekmēti, izmantojot vienu dokumentu ar vairākiem debitoriem vai kreditoriem:
+Šajā rakstā ir parādīts, kā nosegšana tiks apstrādāta, grāmatojot vienu dokumentu ar vairākiem debitora vai kreditora ierakstiem. Turklāt šajā rakstā ir sniegti risinājumi, lai palīdzētu izprast, kā izvairīties no viena dokumenta lietošanas vairākos debitoros vai kreditoros. Jo īpaši, ir piemēri, kas ilustrē divus visizplatītākos segšanas scenārijus, kas tiek ietekmēti, izmantojot vienu dokumentu ar vairākiem debitoriem vai kreditoriem:
 
 -   Termiņatlaides uzskaite
 -   Pārvērtēšanas uzskaite

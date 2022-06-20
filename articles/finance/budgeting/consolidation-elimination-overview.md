@@ -1,6 +1,6 @@
 ---
 title: Konsolidēšanas un koriģēšanas pārskats
-description: Šī tēma sniedz vispārīgu informāciju par konsolidēšanas un korekcijas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
+description: Šajā rakstā ir sniegta vispārīga informācija par konsolidēšanas un koriģēšanas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871396"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolidēšanas un koriģēšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma sniedz vispārīgu informāciju par konsolidēšanas un korekcijas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
+Šajā rakstā ir sniegta vispārīga informācija par konsolidēšanas un koriģēšanas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
 
 Izmantojot konsolidācijas funkcionalitāti, finanšu rezultāti no vairākiem apakšuzņēmumiem tiek kombinēti vienā apvienotā uzņēmumā. Apakšuzņēmumi var būt dažādās versijās vai sistēmās, tie var pilnībā nepiederēt un tie var izmantot dažādas valūtas. Ir vairākas opcijas datu konsolidēšanai.
 

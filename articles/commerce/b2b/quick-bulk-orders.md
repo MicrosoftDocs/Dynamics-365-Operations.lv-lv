@@ -1,6 +1,6 @@
 ---
 title: Ātra B2B tīmekļa vietņu pasūtījumu veikšana
-description: Šajā tēmā aprakstītas iespējas, kas Microsoft Dynamics 365 Commerce ļauj vietas "bizness-biznesam" (B2B) lietotājiem ātri veikt lielapjoma pasūtījumus un atkārtot pasūtījumus.
+description: Šajā rakstā aprakstītas iespējas, kas Microsoft Dynamics 365 Commerce ļauj vietas "bizness-biznesam" (B2B) lietotājiem ātri izvietot lielapjoma pasūtījumus un atkārtot pasūtījumus.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881365"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Ātra B2B tīmekļa vietņu pasūtījumu veikšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstītas iespējas, kas Microsoft Dynamics 365 Commerce ļauj vietas "bizness-biznesam" (B2B) lietotājiem ātri veikt lielapjoma pasūtījumus un atkārtot pasūtījumus.
+Šajā rakstā aprakstītas iespējas, kas Microsoft Dynamics 365 Commerce ļauj vietas "bizness-biznesam" (B2B) lietotājiem ātri izvietot lielapjoma pasūtījumus un atkārtot pasūtījumus.
 
 Dynamics 365 Commerce B2B e-commerce vietnes ļauj lietotājiem veikt standarta operācijas, piemēram, skatīt jaunus produktus, meklējot un pārlūkojot, skatīt informāciju par preci, pievienot krājumus grozam un paņemt. Tomēr, kamēr vietas "bizness-patēriņam" (B2C) klienti parasti pasūta krājumus mazā daudzumā un pasūta tos tikai vienreiz, B2B debitori parasti pasūta krājumus lielā daudzumā un pārkārto tos vairākas reizes. Šie debitori parasti precīzi zināt, kādus krājumus viņi vēlas nopirkt, bieži vien viņi izlaida preču atklāšanas fāzi un pārvietojas tieši uz pasūtīšanas procesu. Lai apmierinātu šo klientu vajadzības, Commerce B2B e-commerce vietnes nodrošina dažādas iespējas, kas tiem palīdz ātri veikt pasūtījumus.
 
@@ -65,4 +65,4 @@ Commerce B2B e-commerce vietnes ļauj vietas lietotājiem ātri pārkārtot krā
 
 ![Pasūtījumu pārkārtošana no pasūtījumu vēstures.](../media/Reorder.png)
 
-Šajā tēmā ir aprakstīti tikai daži no veidiem, kā Commerce B2B vietnes palīdz lietotājiem ātri atrast, pasūtīt un pārkārtot preces, ko vēlas. Vairāk spēju ir izstrādes stadijā, lai atvieglotu lielapjoma pasūtījumu tveršanas procesu.
+Šajā rakstā ir aprakstīti tikai daži no veidiem, kā Commerce B2B vietnes palīdz lietotājiem ātri atrast, pasūtīt un pārkārtot preces, ko vēlas. Vairāk spēju ir izstrādes stadijā, lai atvieglotu lielapjoma pasūtījumu tveršanas procesu.

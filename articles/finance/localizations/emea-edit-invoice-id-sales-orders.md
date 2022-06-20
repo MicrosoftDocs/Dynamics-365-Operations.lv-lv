@@ -1,6 +1,6 @@
 ---
 title: Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
-description: Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
+description: Šajā rakstā ir sniegta informācija par debitoru parādu parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijas Republikai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5c84ee88ae96a64c56be8eb81685ba64dd9345e5e5a88e3479b255cb4d10131
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5c6bc70187680cdf0599c88fe36c25bea22ed0d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880637"
 ---
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Labot rēķina ID pārdošanas pasūtījumos Austrumeiropai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par kreditoru moduļa parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
+Šajā rakstā ir sniegta informācija par debitoru parādu parametriem, kas ietekmē rēķinu numurus pavadzīmēs un rēķinos Čehijas Republikai, Igaunijai, Ungārijai, Lietuvai, Latvijai un Polijai.
 
 Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā un Polijā opcija **Labot rēķina ID pārdošanas pasūtījumos** sniedz iespēju debitora pavadzīmēs un rēķinos attiecīgās pavadzīmes un rēķina numurus ievadīt manuāli. Tālāk aprakstītās opcijas ir pieejamas lapā **Debitoru moduļa parametri**, kopsavilkuma cilnē **Rēķins**, cilnē **Atjauninājumi**.
 <table>

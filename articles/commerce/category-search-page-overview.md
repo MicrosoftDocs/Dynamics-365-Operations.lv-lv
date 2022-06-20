@@ -1,6 +1,6 @@
 ---
 title: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
-description: Šajā tēmā ir sniegts pārskats par noklusējuma kategorijas ielādes lapu un meklēšanas rezultātu lapu programmā Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegts pārskats par noklusējuma kategorijas kopsavilkuma lapu un meklēšanas rezultātu lapu Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881856"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par noklusējuma kategorijas reklāmas mērķlapu un meklēšanas rezultātu lapu Microsoft Dynamics 365 Commerce e-komercijas vietnē.
+Šajā rakstā ir sniegts pārskats par noklusējuma kategorijas kopsavilkuma lapu un meklēšanas rezultātu lapu Microsoft Dynamics 365 Commerce e-Komercija.
 
 ## <a name="default-category-landing-page"></a>Noklusējuma kategorijas ielādes lapa
 
@@ -32,7 +32,7 @@ Noklusējuma kategorijas ielādes lapa ir lapa, uz kuru parasti tiek novirzīti 
 
 ![Noklusējuma kategorijas ielādes lapa.](./media/SimpleCategoryLandingDressCategory.png)
 
-Lapas augšdaļā ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kurām ir kategorizēts tirdzniecības vadītājs. Konfigurācija tiek veikta kā kanāla navigācijas hierarhijas konfigurācijas sastāvdaļa. Lapas apakšdaļā ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircēju.
+Lapas augšdaļā ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kurām ir kategorizēts tirdzniecības vadītājs. Konfigurācija tiek veikta kā kanāla navigācijas hierarhijas konfigurācijas sastāvdaļa. Lapas apakšpusē ir kājene, kas ietver ātrās saites uz dažādiem rakstiem, kuros iepirktājs varētu interesēties.
 
 Kategorijai ir svarīgi šādi komponenti.
 

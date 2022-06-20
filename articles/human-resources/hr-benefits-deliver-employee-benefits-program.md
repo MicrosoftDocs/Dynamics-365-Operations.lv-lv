@@ -1,6 +1,6 @@
 ---
 title: Darbinieku atvieglojumu programmas nodrošināšana
-description: Šajā rakstā parādīts, kā izveidot atvieglojumu elementus, kas tiks izmantoti, veidojot jaunus atvieglojumus.
+description: Šajā rakstā skaidrots, kā izveidot atvieglojumu elementus, kas tiks izmantoti, izveidojot jaunu atvieglojumu.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2ca6712346295454fd0d516816c596d4b010abb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc063c42ba0b627eb4711b44533c745925d718af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877835"
 ---
 # <a name="deliver-employee-benefits-program"></a>Darbinieku atvieglojumu programmas nodrošināšana
 
@@ -26,7 +26,7 @@ ms.locfileid: "8688293"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā rakstā parādīts, kā izveidot atvieglojumu elementus, kas tiks izmantoti, veidojot jaunus atvieglojumus. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
+Šajā rakstā skaidrots, kā izveidot atvieglojumu elementus, kas tiks izmantoti, izveidojot jaunu atvieglojumu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts lietotājiem ar lomu Atlīdzību un atvieglojumu vadītājs.
 
 
 ## <a name="create-benefit-elements"></a>Izveidot atvieglojumu elementus

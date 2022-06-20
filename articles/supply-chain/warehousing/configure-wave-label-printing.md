@@ -1,6 +1,6 @@
 ---
 title: Kopuma etiķešu drukāšana
-description: Šajā tēmā ir aprakstīta kopuma etiķešu drukāšana un paskaidrots, kā to iestatīt.
+description: Šajā rakstā ir aprakstīta kopuma etiķešu drukāšana un skaidrots, kā to iestatīt.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901826"
 ---
 # <a name="wave-label-printing"></a>Kopuma etiķešu drukāšana
 
@@ -49,11 +49,11 @@ Kopuma etiķešu drukāšana piedāvā šādus uzlabojumus:
 Šie uzlabojumi padara efektīvāku etiķešu pievienošanu kastēm pirms paletizācijas. Tas jo īpaši atvieglo uzņēmumus, kas nosūta sūtījumus lieliem mazumtirgotājiem, kuri, skenējot katru kasti atsevišķi, automātiski apstiprina pasūtījuma kvītis.
 
 > [!NOTE]
-> Varat ieviest šajā tēmā aprakstītos konfigurāciju scenārijus vai nu atsevišķi, vai kombinācijā, atkarībā no jūsu uzņēmuma prasībām. Varat izveidot vairākas kopuma etiķešu veidnes, kas darbojas secībā (kā parādīts 3. scenārijā). Piemēram, varat izmantot 1. scenāriju, lai izdrukātu kastu etiķetes un 2. scenāriju, lai izdrukātu palešu etiķetes (ja paletes krājumā atšķiras pēc lieluma un salikuma).
+> Varat ieviest konfigurācijas scenārijus, kas ir aprakstīti šajā rakstā vai nu atsevišķi, vai kombinācijā atkarībā no biznesa prasībām. Varat izveidot vairākas kopuma etiķešu veidnes, kas darbojas secībā (kā parādīts 3. scenārijā). Piemēram, varat izmantot 1. scenāriju, lai izdrukātu kastu etiķetes un 2. scenāriju, lai izdrukātu palešu etiķetes (ja paletes krājumā atšķiras pēc lieluma un salikuma).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ieslēgt līdzekli Kopuma etiķešu drukāšana
 
-Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir [uzskaitīts Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
+Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Tomēr šis līdzeklis joprojām ir uzskaitīts [Līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldībā šādā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Kopuma etiķešu drukāšana*
@@ -197,7 +197,7 @@ Etiķešu izkārtojums kontrolē, kāda informācija tiek drukāta uz etiķetes 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
 
 Tagad etiķete ir gatava lietošanai.
 
@@ -420,7 +420,7 @@ Kopuma veidnes ļauj saistīt noteiktas kopuma metodes ar atbilstošo kopuma eti
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
 
 Tagad etiķete ir gatava lietošanai.
 
@@ -647,7 +647,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
 
 1. Pirmā etiķete tagad ir gatava lietošanai.
 1. Izveidojiet otru izkārtojuma ierakstu, kam ir turpmāk aprakstītie iestatījumi:
@@ -721,7 +721,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ```
 
     > [!NOTE]
-    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^ PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^ PQ4**.
+    > Šajā iestatījumā tiks drukāts viens katras etiķetes eksemplārs. Ja ir nepieciešamas vairākas kopijas (piemēram, viena kopija katrai paletes pusei), iestatiet **n** vērtību sekcijai **\^PQn** kājenē līdz nepieciešamajam kopiju skaitam. Piemēram, lai izdrukātu katras etiķetes četras kopijas, norādiet **\^PQ4**.
 
 1. Otrā etiķete tagad ir gatava lietošanai.
 1. Izveidojiet trešo izkārtojuma ierakstu, kam ir turpmāk aprakstītie iestatījumi:

@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija
-description: Šajā tēmā paskaidrots, kā lejupielādēt elektronisko pārskatu (ER) konfigurācijas no konfigurācijas pakalpojuma globālā repozitorija.
+description: Šajā rakstā skaidrots, kā lejupielādēt elektronisko pārskatu (ER) konfigurācijas no Konfigurācijas pakalpojuma globālā repozitorija.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891909"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā lejupielādēt [Elektronisko pārskatu (ER) konfigurācijas](general-electronic-reporting.md#Configuration) no konfigurācijas pakalpojuma globālā repozitorija. Plašāku informāciju skatiet [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, konfigurācijas pakalpojums](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šajā rakstā skaidrots, kā lejupielādēt [elektronisko pārskatu (ER) konfigurācijas](general-electronic-reporting.md#Configuration) no konfigurācijas pakalpojuma globālā repozitorija. Plašāku informāciju skatiet [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, konfigurācijas pakalpojums](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Atvērt konfigurācijas repozitoriju
 
-1. Pierakstieties programmā Dynamics 365 Finance, izmantojot vienu no tālāk minētajām lomām.
+1. Pieteikties Dynamics 365 finanšu programmā, izmantojot vienu no šīm lomām:
 
     - Elektroniskā pārskata izstrādātājs
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -80,7 +80,7 @@ ms.locfileid: "7605335"
     ![Konfigurācijas repozitorija lapa, kopsavilkuma cilne Versijas, importēšanas poga.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Plašāku informāciju skatiet ar šo tēmu saistīto resursu sarakstā.
+> Atkarībā no ER iestatījumiem konfigurācijas tiek apstiprinātas pēc to importēšanas. Jūs varat saņemt paziņojumu par konstatētajām neatbilstības problēmām. Šīs problēmas ir jāatrisina, pirms varat izmantot importēto konfigurācijas versiju. Papildinformāciju skatiet šī raksta saistīto resursu sarakstā.
 
 > [!NOTE]
 > ER konfigurācijas var konfigurēt kā atkarīgas no citām konfigurācijām. Tāpēc kopā ar izvēlēto konfigurāciju var automātiski importēt citas konfigurācijas. Plašāku informāciju par konfigurācijas atkarībām skatiet [Noteikt atkarību no ER konfigurācijām citos komponentos](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

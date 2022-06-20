@@ -1,6 +1,6 @@
 ---
-title: Uzturēt kreditora sertifikāciju
-description: Šajā tēmā aprakstītas darbības, kuras kreditori var izmantot, lai uzturētu savas sertifikācijas, izmantojot Kreditoru sadarbības darbvietu.
+title: Kreditora sertifikācijas uzturēšana
+description: Šajā rakstā ir aprakstītas darbības, ko kreditori var izmantot, lai uzturētu savas sertifikācijas, izmantojot kreditoru sadarbības darbvietu.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891442"
 ---
-# <a name="maintain-vendor-certification"></a>Uzturēt kreditora sertifikāciju
+# <a name="maintain-vendor-certification"></a>Kreditora sertifikācijas uzturēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas darbības, kuras jūsu kreditori var izmantot, lai uzturētu savas sertifikācijas, izmantojot **Kreditoru sadarbības darbvietu**. Sertifikācijas piemēri varētu būt uzņēmumi Woman Business Enterprise (WBE) vai Leadership in Energy and Environment Design (LEED). Kreditoriem vajadzēs ievadīt sertifikācijas informāciju darbvietā **Kreditora informācija**. No turienes kreditori atlasa **Papildu detaļas** un pēc tam atlasa **Sertifikācijas**.
+Šajā rakstā ir aprakstītas darbības, ko kreditori var izmantot, lai uzturētu savas sertifikācijas, izmantojot kreditoru **sadarbības darbvietu**. Sertifikācijas piemēri varētu būt uzņēmumi Woman Business Enterprise (WBE) vai Leadership in Energy and Environment Design (LEED). Kreditoriem vajadzēs ievadīt sertifikācijas informāciju darbvietā **Kreditora informācija**. No turienes kreditori atlasa **Papildu detaļas** un pēc tam atlasa **Sertifikācijas**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Ieslēgt kreditora sertifikācijas līdzekli
 

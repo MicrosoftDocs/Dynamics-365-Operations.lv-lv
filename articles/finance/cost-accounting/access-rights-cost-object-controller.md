@@ -1,6 +1,6 @@
 ---
 title: Izmaksu objekta kontrolieru piekļuves tiesības
-description: Šajā tēmā ir sniegta informācija par piekļuves tiesībām izmaksu objektu kontrolieriem.
+description: Šajā rakstā ir sniegta informācija par piekļuves tiesībām izmaksu objektu kontrolleriem.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903194"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Izmaksu objekta kontrolieru piekļuves tiesības
 
@@ -35,10 +35,10 @@ Darbvietā Izmaksu uzskaite ir pieejamas četras unikālas lomas.
 |-------------------------|--------------|
 | Izmaksu uzskaites pārvaldnieks | Aktivitāte     |
 | Izmaksu grāmatvedis         | Operations   |
-| Izmaksu grāmatvedības darbinieks   | Operations   |
+| Izmaksu grāmatvedības darbinieks   | Operācijas   |
 | Izmaksu objekta kontrolieris  | Grupas dalībnieki |
 
-Šajā tēmā ir paskaidrots, kā piešķirt pārvaldniekam lomu **Izmaksu objekta kontrolieris**.
+Šajā rakstā skaidrots, kā piešķirt **izmaksu objekta kontrollera** lomu vadītājam.
 
 Ja pārvaldniekam ir piešķirta loma **Izmaksu objekta kontrolieris**, viņš var veikt tālāk norādītās darbības.
 
@@ -95,7 +95,7 @@ Piekļuves saraksta hierarhijas iestatījumi tiek izmantoti, lai kontrolētu to,
 
 > [!IMPORTANT]
 > - Lai piekļuves saraksta hierarhija varētu ietekmēt datus pakalpojumā Power BI, piekļuves saraksta hierarhija ir jāsavieno pārī ar rindas līmeņa drošību pakalpojumā Power BI. Papildinformāciju skatiet rakstā [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Šajā tēmā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darbvietas **Izmaksu kontrole** lietošanas.
+> - Šis raksts parāda priekšnosacījumus, kam jābūt vietā, pirms jūs variet izmantot Izmaksu **kontroles darbvietu**.
 
 Papildu resursi
 

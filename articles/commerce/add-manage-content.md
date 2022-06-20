@@ -1,6 +1,6 @@
 ---
 title: Satura pievienošanas veidi
-description: Šajā tēmā sniegts pārskats un atlasītas saites par to, kur un kā uzsākt satura pārvaldību, izmantojot Microsoft Dynamics 365 Commerce vietnes veidotāja tīmekļa autorēšanas rīku kopu.
+description: Šajā rakstā ir sniegts pārskats un atlasītas saites, kur un kā sākt satura pārvaldību, izmantojot vietas veidotāja Microsoft Dynamics 365 Commerce tīmekļa autorēšanas rīku kopu.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871758"
 ---
 # <a name="ways-to-add-content"></a>Satura pievienošanas veidi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats un atlasītas saites uz dokumentiem par to, kā pārvaldīt saturu, izmantojot Microsoft Dynamics 365 Commerce vietnes veidotāja tīmekļa autorēšanas rīku kopu.
+Šajā rakstā ir sniegts pārskats un saites uz dokumentāciju par to, kā pārvaldīt saturu, izmantojot vietas veidotāja Microsoft Dynamics 365 Commerce tīmekļa autorēšanas rīku kopu.
 
 Ir vairāki veidi, kā mainīt vietnes izskatu, darbību un saturu. Atkarībā no noteiktā pielāgošanas līmeņa, daudzas no šīm izmaiņām var īstenot lietotāji, kas nav izstrādātāji, izmantojot vietnes veidotāju, tīmekļa autorēšanas rīku, kas ietverts pakalpojumā Dynamics 365 Commerce. Vietnes veidotājs ļauj izveidot veidnes, izvēlēties tēmas un atlasīt un konfigurēt moduļus, nerakstot nevienu kodu. Turpretī ir nepieciešamas izstrādes prasmes, lai izveidotu jaunu tēmu vai moduli, jo ir jāizmanto E-komercijas programmatūras izstrādes komplekts (SDK) un Microsoft Dynamics Lifecycle Services (LCS) izvietošanas darbplūsma.
 
-Tālāk norādītās tēmas ir labi pieturas punkti, lai sāktu saprast, kā pievienot un pārvaldīt vietnes saturu. Lielākā daļa tēmu koncentrējas uz jūsu vietnes apgabaliem, kuriem nav nepieciešams izstrādātājs. Dažas attiecas uz pamata satura rediģēšanu, bet citas ir vērstas uz vietas administratora uzdevumiem. Katra no šīm tēmām norāda noteiktus uzdevumus, var būt nepieciešams SDK darbs. Katrā tēmā tiek pieņemts, ka jūs jau esat nodrošinājis vietni un jums ir piekļuve vietnes veidotāja rīku komplektam jūsu vietnei.
+Tālāk minētajiem rakstiem ir laba punktu izlēkšana, lai sāktu saprast, kā pievienot un pārvaldīt vietnes saturu. Lielākā daļa uzskaitītu rakstu ir fokusā uz jūsu vietnes apgabaliem, kuriem nav nepieciešams izstrādātājs. Dažas attiecas uz pamata satura rediģēšanu, bet citas ir vērstas uz vietas administratora uzdevumiem. Katrs no šiem rakstiem apzīmēs noteiktus uzdevumus, iespējams, būs nepieciešams SDK darbs. Katrs raksts pieņem, ka jūs jau esat izveidojis vietu un esat piešķīruši piekļuvi jūsu vietnes izstrādātāja rīku kopai.
 
-Lai sāktu, atlasiet vienu no šīm tēmām.
+Lai sāktu darbu, atlasiet vienu no šiem rakstiem.
 
 - Lai iepazītos ar satura pārvaldības terminoloģiju, kas tiek izmantota vietnes veidotājā un šajā dokumentācijā, skatiet sadaļu [Lapas modeļa glosārijs](page-elements-overview.md).
 - Lai saprastu, kā moduļi darbojas satura pārvaldības darbplūsmās, skatiet sadaļu [Darbs ar moduļiem](work-with-modules.md).

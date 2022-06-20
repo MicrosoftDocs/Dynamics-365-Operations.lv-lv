@@ -1,6 +1,6 @@
 ---
 title: Maksājumi tiek automātiski segti pirms pasūtījumu rēķinu izrakstīšanas vai nosūtīšanas
-description: Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, kad maksājums tiek apmaksāts Adyen portālā nekavējoties pēc pasūtījuma veikšanas pat tad, ja pārdošanas pasūtījums nav iekļauts rēķinā vai nosūtīts.
+description: Šajā rakstā ir sniegti problēmu novēršanas norādījumi, kas var palīdzēt, kad maksājums tiek apmaksāts A saņemšanas portālā nekavējoties pēc pasūtījuma veikšanas pat tad, ja pārdošanas pasūtījums nav iekļauts rēķinā vai nosūtīts.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: cc5167be43cccfd024ffdc65eb5f4dcac7e187288522d95be2385f8e7fdf106e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c01a2fda54e198a43fa84ae83686fc1701958b6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890273"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Maksājumi tiek automātiski segti pirms pasūtījumu rēķinu izrakstīšanas vai nosūtīšanas
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, kad maksājums tiek apmaksāts Adyen portālā nekavējoties pēc pasūtījuma veikšanas pat tad, ja pārdošanas pasūtījums nav iekļauts rēķinā vai nosūtīts.
+Šajā rakstā ir sniegti problēmu novēršanas norādījumi, kas var palīdzēt, kad maksājums tiek apmaksāts A saņemšanas portālā nekavējoties pēc pasūtījuma veikšanas pat tad, ja pārdošanas pasūtījums nav iekļauts rēķinā vai nosūtīts.
 
 ## <a name="description"></a>Apraksts
 

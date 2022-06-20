@@ -1,6 +1,6 @@
 ---
 title: Debitoru maksājumu prognožu izmantošana
-description: Šī tēma izskata priekšnosacījumus un vispārējās darbības, kas ir nepieciešamas, lai izmantotu finanšu ieskatu izmēģinājuma versiju.
+description: Šis raksts meklē priekšnosacījumus un plašus soļus, kas nepieciešami Finanšu ieskatu izmēģinājuma versijas izmantošanai.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901407"
 ---
 # <a name="use-customer-payment-predictions"></a>Debitoru maksājumu prognožu izmantošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izmantot debitoru maksājumu prognozes. Pirms izmantojat šo līdzekli, pārliecinieties, vai esat pabeidzis tā uzstādīšanas darbības. Plašāku informāciju skatiet šeit: [Debitoru maksājumu prognozēšanas iespējošana](enable-cust-paymnt-prediction.md).
+Šajā rakstā ir izskaidrots, kā izmantot debitoru maksājumu prognozes. Pirms izmantojat šo līdzekli, pārliecinieties, vai esat pabeidzis tā uzstādīšanas darbības. Plašāku informāciju skatiet šeit: [Debitoru maksājumu prognozēšanas iespējošana](enable-cust-paymnt-prediction.md).
 
 Debitoru maksājumu prognozes var skatīt **darbvietā Pārvaldīt debitoru kredītu un atgādinājumus**, kā arī divās jaunās saraksta lapās: darbību **maksājumu prognozēšana** un **debitoru maksājumu prognozēšanas**.
 

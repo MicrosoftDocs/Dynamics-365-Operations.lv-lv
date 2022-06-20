@@ -1,6 +1,6 @@
 ---
 title: Darbs ar veidnēm
-description: Šajā tēmā ir aprakstīts, kā strādāt ar veidnēm programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar veidnēm Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881583"
 ---
 # <a name="work-with-templates"></a>Darbs ar veidnēm
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā strādāt ar veidnēm programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā strādāt ar veidnēm Microsoft Dynamics 365 Commerce.
 
 Kā tika apspriests sadaļā [Veidņu un izkārtojumu pārskats](templates-layouts-overview.md), veidnes nosaka opciju kopu, kas ir pieejama lejupstraumes autoriem. Veidnes noder uzņēmuma tīmekļa autorēšanas grupai vairāku iemeslu dēļ, un labi strukturētas veidnes var palīdzēt ar tālāk norādītajiem mērķiem.
 
@@ -38,7 +38,7 @@ Kā tika apspriests sadaļā [Veidņu un izkārtojumu pārskats](templates-layou
 - Uzturēt uzņēmuma vietnes pēc zīmola, definējot apstiprinātu moduļa izkārtojuma un konfigurācijas opciju kopu.
 
     > [!TIP] 
-    > Veiksmīgas e-komercijas vietnes klientiem piedāvā pazīstamus, atkārtojamus un zīmola lietotāja pieredzes (UX) dizaina modeļus. Lietojot veidnes, jūs palīdzēsiet kontrolēt konsekvenci visā jūsu vietnē.
+    > Veiksmīgas e-komercijas vietnes nodrošina klientus ar zināmiem, atkārtojamiem un zīmola lietotāja pieredzes (UX) dizaina modeļiem. Lietojot veidnes, jūs palīdzēsiet kontrolēt konsekvenci visā jūsu vietnē.
 
 - Uzlabot meklētājprogrammas optimizācijas (SEO) rezultātus, nodrošinot atkārtojamas un programmiski definētas lapas definīcijas un metadatus.
 
@@ -49,7 +49,7 @@ Kā tika apspriests sadaļā [Veidņu un izkārtojumu pārskats](templates-layou
 
 Veidnes tiek modificētas, izmantojot veidnes redaktoru.
 
-Lai atvērtu veidņu redaktoru lietojumprogrammā Commerce vietņu veidotājs, veiciet vienu no šīm darbībām:
+Lai atvērtu veidņu redaktoru Commerce Site Builder, veiciet vienu no tālāk minētajām darbībām.
 
 - Jūsu vietnes navigācijas rūtī atlasiet **Veidnes** un pēc tam atlasiet modificējamo veidni.
 - Esošās lapas redaktorā atlasiet augšējo zaru pa kreisi esošajā struktūras kokā. Pēc tam rekvizītu rūts labajā pusē atlasiet **Rediģēt veidni**.
@@ -66,7 +66,7 @@ Struktūras koka skats kreisajā pusē rāda moduļu opcijas un struktūras, kas
 
 ## <a name="create-a-new-template"></a>Izveidot jaunu veidni
 
-Lai vietņu veidotājā izveidotu jaunu veidni, veiciet šīs darbības.
+Lai izveidotu jaunu veidni vietas veidotājā, sekojiet šiem soļiem.
 
 1. Jūsu vietnes navigācijas rūtī atlasiet **Veidnes**, lai atvērtu veidni inspektora skatā.
 1. Atlasiet **Jauna veidne**.
@@ -85,7 +85,7 @@ Tagad veidne ir tehniski derīga, un to var saglabāt, atdot un izmantot, lai iz
 
 ## <a name="add-a-header-and-a-footer"></a>Galvenes un kājenes pievienošana
 
-Ja jūsu vietnei jau ir galvenes fragments, veiciet šīs darbības vietņu veidotājā, lai pievienotu veidnei galveni un kājeni.
+Ja jūsu vietnei jau ir virsraksta fragments, sekojiet šiem soļiem vietas veidotājā, lai pievienotu veidnei virsrakstu un kājeni.
 
 1. Struktūras kokā izvērsiet slotu **Pamatteksts** un tā pakārtotās lapas moduli.
 1. Atlasiet slotu **Galvene**.
@@ -98,7 +98,7 @@ Ja vietnē vēl nav ietverts galvenes fragments, skatiet sadaļu [Fragmenta izve
 
 ## <a name="change-the-template-theme"></a>Veidnes dizaina maiņa
 
-Lai iestatītu noklusējuma motīvu visām lapām, kurās tiek izmantota veidne, veiciet šīs darbības vietņu veidotājā.
+Lai iestatītu noklusējuma tēmu visām lapām, kas izmanto veidni, sekojiet šiem soļiem vietas veidotājā.
 
 1. Lapas struktūras kokā kreisajā pusē izvērsiet slotu **Pamatteksts**.
 1. Slotā **Pamatteksts** atlasiet lapas konteinera moduli (piemēram, **Noklusējuma lapa**).
@@ -110,7 +110,7 @@ Pēc noklusējuma visās jaunajās lapās tiks lietots atlasītais dizains. Lai 
 
 Jūsu veidnei varat pievienot HTML **&lt;skripta&gt;** elementus, kas ietver JavaScript. Šādā veidā varat nodrošināt noklusējuma skripta uzvedību jūsu lapas HTML galvenajai, pamatteksta sākuma un pamatteksta beigu sadaļai.
 
-Lai vietņu veidotāja veidnei pievienotu skriptu, veiciet šīs darbības.
+Lai pievienotu skriptu veidnei vietas veidotājā, sekojiet šiem soļiem.
 
 1. Struktūras kokā pa kreisi atlasiet slotu, kur vēlaties pievienot **&lt;skripta&gt;** elementu (piemēram, HTML pamatteksta, ķermeņa sākumu vai pamatteksta beigas).
 1. Atlasiet daudzpunktes pogu slotam un pēc tam atlasiet **Pievienot moduli**.
@@ -123,7 +123,7 @@ Lai vietņu veidotāja veidnei pievienotu skriptu, veiciet šīs darbības.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Saglabājiet, atdodiet, priekšskatiet un publicējiet veidni
 
-Lai saglabātu un reģistrētu veidni vietņu veidotājā, veiciet šīs darbības.
+Lai saglabātu un atdotu veidni vietas veidotājā, sekojiet šiem soļiem.
 
 1. Veidnes redaktora augšā atlasiet **Saglabāt**. Saglabātās izmaiņas neietekmē lejupstraumes lapas, kamēr tās nav atdotas.
 1. Atlasiet **Beigt rediģēšanu**. Jūsu veiktās izmaiņas tagad ir redzamas lejupstraumes darbplūsmām.
@@ -139,16 +139,16 @@ Pēc tam, kad veidnes izmaiņas ir priekšskatītas, veiciet vienu no tālāk no
 > [!WARNING]
 > Publicējot veidni vai jebkuru citu satura pārvaldības sistēmas (CMS) vienumu, tas ir redzams internetā. Nepublicējiet dokumentus vai līdzekļus, kamēr neesat gatavs tos publiskot. Dokumentu versijas, kas ir saglabātas un atdotas, bet nav publicētas, ir redzamas tikai autentificētiem sistēmas lietotājiem.
 
-## <a name="rename-a-template"></a>Pārdēvējiet veidni
+## <a name="rename-a-template"></a>Veidnes pārdēvēšana
 
-Lai vietņu veidotājā pārdēvētu esošu veidni, veiciet šīs darbības.
+Lai pārdēvētu esošo veidni vietas veidotājā, sekojiet šiem soļiem.
 
 1. Kreisajā navigācijas rūtī atlasiet **Veidnes**.
-1. Atlasiet veidnes nosaukumu veidnei, kuru vēlaties pārdēvēt.
-1. Izvēlieties **Rediģēt** lai sāktu veidnes rediģēšanu. Ņemiet vērā, ka jūs nevarat rediģēt veidni, ja kāds cits jau rediģē veidni.
+1. Atlasiet veidnes, kuru vēlaties pārdēvēt, veidnes nosaukumu.
+1. Atlasiet **Rediģēt,** lai sāktu veidnes rediģēšanu. Ievērojiet, ka jūs nevarat rediģēt veidni, ja kāds cits jau rediģē veidni.
 1. Veidnes rekvizītu rūtī atlasiet pildspalvas simbolu blakus veidnes nosaukumam.
-1. Rediģējiet veidnes nosaukumu pēc vajadzības.
-1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
+1. Ja nepieciešams, rediģējiet veidnes nosaukumu.
+1. Atzīmējiet izvēles rūtiņu, lai apstiprinātu nosaukuma maiņu.
 1. Atlasiet **Beigt rediģēšanu**.
 
 ## <a name="additional-resources"></a>Papildu resursi

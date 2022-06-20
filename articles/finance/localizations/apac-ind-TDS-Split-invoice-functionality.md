@@ -1,6 +1,6 @@
 ---
 title: Sadalīt rēķina funkcionalitāti
-description: Šajā tēmā aprakstīta rēķinu sadalījuma iestatīšana un funkcionalitāte pēc piegādes adreses un nodokļu konta numura (TAN).
+description: Šajā rakstā ir aprakstīti iestatījumi un funkcionalitāte rēķinu sadalīšanai pēc piegādes adreses un nodokļu konta numura (TAN).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1dac8d51c24009dcf0c4acbc49f06f32abf0dec
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874437"
 ---
 # <a name="split-invoice-functionality"></a>Sadalīt rēķina funkcionalitāti
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta rēķinu sadalījuma iestatīšana un funkcionalitāte pēc piegādes adreses un nodokļu konta numura (TAN).
+Šajā rakstā ir aprakstīti iestatījumi un funkcionalitāte rēķinu sadalīšanai pēc piegādes adreses un nodokļu konta numura (TAN).
 
 Lapas **Kreditoru parametri** cilnē **Vispārīgi** atlasiet izvēles rūtiņu **Produktu kvīts** vai **Rēķins** lai grāmatotu un sadalītu preču kvīti vai rēķinu, kuram ir atšķirīgas piegādes adreses un TAN lapā **Pirkšanas pasūtījums**. Iegrāmatotais rēķins tiks sadalīts pēc piegādes adreses un TAN.
 

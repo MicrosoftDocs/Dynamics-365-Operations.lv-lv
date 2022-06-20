@@ -1,6 +1,6 @@
 ---
 title: PVN/GST shēmas apgrieztās maksāšanas mehānisms
-description: Šajā tēmā ir paskaidrots, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs, Saūda Arābijā un Singapūrā.
+description: Šajā rakstā skaidrots, kā iestatīt atgrieztās maksas pievienotās vērtības nodokli (PVN) Eiropas valstīm, Saūda Arābijai un Singapūrai.
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861264"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVN/GST shēmas apgrieztās maksāšanas mehānisms
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta vispārēja pieeja apgrieztās maksāšanas funkcionalitātes iestatīšanai valstīm/reģioniem, kas pieņem PVN vai GST shēmas.
+Šajā rakstā aprakstīta vispārējā pieeja atgriezes maksas funkcionalitātes iestatīšanai valstīm/reģioniem, kas pieņem PVN vai GST shēmas.
                                                                                  
 Valsts/reģiona pieejamību funkcionalitātei pārvalda tālāk norādītie līdzekļi darbvietā **Līdzekļu pārvaldība**.
 
@@ -33,7 +33,7 @@ Valsts/reģiona pieejamību funkcionalitātei pārvalda tālāk norādītie līd
 | Apgrieztā maksāšana citām valstīm            | Bahreina  </br>Kuveita  </br>Omāna  </br>Katara                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | PVN/GST shēmas apgrieztās maksāšanas mehānisma iespējošana | Visas citas valstis/reģioni, izņemot:  </br>Brazīlija  </br>Indija  </br>Krievija                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Lai iegūtu papildu informāciju, skatiet sadaļu [PVN/GST shēmas apgrieztās maksāšanas mehānisma līdzekļa iespējošana](#enable-reverse-charge) tālāk šajā tēmā.
+ Papildinformāciju skatiet tālāk [šī raksta sadaļā Iespējot atgriezenisko maksāšanas mehānismu PVN/GST](#enable-reverse-charge) shēmas līdzekļu sadaļai.
 
 Apgrieztā maksāšana ir nodokļu maksāšanas metode, kuras ietvaros atbildība par PVN uzskaiti un ziņošanu tiek pārnesta no pārdevēja uz preču un/vai pakalpojumu pircēju. Tādējādi preču un/vai pakalpojumu saņēmēji savā PVN deklarācijā ziņo gan par pārdošanas PVN (kā pārdevējs), gan pirkšanas PVN (kā pircējs).
 

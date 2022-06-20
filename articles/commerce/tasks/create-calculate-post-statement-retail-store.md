@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana
-description: Šajā tēmā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības.
+description: Šajā dokumentā ir aprakstītas manuālas darbības veikala izraksta izveidošanai, aprēķinam un grāmatošanai.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873282"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas manuālās veikala izraksta izveides, aprēķināšanas un grāmatošanas darbības. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un izpildes darbības ir aprakstītas citās tēmās. Lai izpildītu šo procedūru, ir nepieciešamas transakcijas, kas ir pabeigtas POS un pēc tam importētas programmā Dynamics 365 Commerce. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
+Šajā dokumentā ir aprakstītas manuālas darbības veikala izraksta izveidošanai, aprēķinam un grāmatošanai. Ir aprakstīti arī pakešuzdevumi, ko var konfigurēt vieniem tiem pašiem uzdevumiem. Pakešuzdevumu konfigurēšanas un palaišanas darbības var atrast citos rakstos. Lai izpildītu šo procedūru, ir nepieciešamas transakcijas, kas ir pabeigtas POS un pēc tam importētas programmā Dynamics 365 Commerce. Šajā ierakstā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.
 
 1. Sākuma lapā atlasiet **Veikala finanses**.
 2. Atlasiet **Jauns izraksts**.

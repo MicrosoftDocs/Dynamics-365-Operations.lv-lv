@@ -1,6 +1,6 @@
 ---
 title: Vācijas Intrastat
-description: Šajā tēmā ir ietverta informācija par Intrastat deklarāciju Vācijā.
+description: Šajā rakstā ir ietverta informācija par Intrastat deklarāciju Vācijā.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9516a4516488282820659da141fe3ad33fbe3a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848469"
 ---
 # <a name="german-intrastat"></a>Vācijas Intrastat
 
@@ -68,7 +68,7 @@ Lapa **Intrastat** tiek izmantota, lai veidotu un paziņotu informāciju par tir
 
 3. Iestatīt starptautiskās tirdzniecības parametrus:
 
-    1. Risinājumā Dynamics 365 Finance dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējās tirdzniecības parametri**.
+    1. Programmā Dynamics 365 Finanses dodieties uz nodokļu **iestatījuma** > **ārējās** > **tirdzniecības parametriem**.
     2. Kopsavilkuma cilnē **Elektroniskie pārskati** cilnē **Intrastat** laukā **Failu formātu kartēšana** atlasiet **Intrastat XML (DE)**.
     3. Laukā **Pārskata formāta kartēšana** atlasiet **Intrastat pārskats**.
     4. Kopsavilkuma cilnes **Preču kodu hierarhija** laukā **Kategoriju hierarhija** atlasiet **Intrastat**.

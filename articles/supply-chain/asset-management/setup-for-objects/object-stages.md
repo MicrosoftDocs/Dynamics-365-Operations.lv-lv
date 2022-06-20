@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu dzīves cikla stāvokļi
-description: Šajā tēmā ir paskaidroti līdzekļu dzīves cikla stāvokļi un dzīves cikla modeļi Līdzekļu pārvaldībā.
+description: Šajā rakstā ir skaidroti līdzekļu dzīves cikla valstu un dzīves cikla modeļi līdzekļa pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901065"
 ---
 # <a name="asset-lifecycle-states"></a>Līdzekļu dzīves cikla stāvokļi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722467"
 
  
 
-Šajā tēmā ir paskaidroti līdzekļu dzīves cikla stāvokļi un dzīves cikla modeļi Līdzekļu pārvaldībā. Līdzekļa dzīves cikla stāvokļi tiek izmantoti, lai definētu, vai līdzeklis ir aktīvs vai neaktīvs. Piemēram, varat iestatīt tādus līdzekļa dzīves cikla stāvokļus kā **Izveidots**, **Aktīvs** un **Izbeigts**.
+Šajā rakstā ir skaidroti līdzekļu dzīves cikla valstu un dzīves cikla modeļi līdzekļa pārvaldībā. Līdzekļa dzīves cikla stāvokļi tiek izmantoti, lai definētu, vai līdzeklis ir aktīvs vai neaktīvs. Piemēram, varat iestatīt tādus līdzekļa dzīves cikla stāvokļus kā **Izveidots**, **Aktīvs** un **Izbeigts**.
 
 > [!NOTE]
 > - Pieprasījuma dzīves cikla stāvokļi ir saistīti ar līdzekļu dzīves cikla stāvokļiem. Tādēļ, kad pieprasījums tiek mainīts uz jaunu pieprasījuma dzīves cikla stāvokli, pieprasījumam pievienotais līdzeklis tiek mainīts uz jaunu līdzekļa dzīves cikla stāvokli. Piemēram, ja pieprasījuma dzīves cikla stāvoklis tiek nomainīts uz **Ienākošais**, pievienotā līdzekļa dzīves cikla stāvoklis tiek mainīts uz to dzīves cikla stāvokli, kas atlasīts lapas **Līdzekļa dzīves cikla stāvokļa modeļi** kopsavilkuma cilnes **Līdzekļa dzīves cikla stāvoklis** laukā **Ienākošais dzīves cikla stāvoklis**. 

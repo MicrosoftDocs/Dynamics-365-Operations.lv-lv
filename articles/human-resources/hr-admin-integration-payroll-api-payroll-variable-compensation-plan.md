@@ -1,6 +1,6 @@
 ---
 title: Algu aprēķina mainīgās atlīdzības plāns
-description: Šī tēma sniedz detalizētu informāciju un parauga vaicājumu Payroll mainīgās atlīdzības plāna elementam programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir sniegta detalizēta informācija un piemēram vaicājums par algas mainīgās atlīdzības plāna elementu sadaļā Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868135"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Algu aprēķina mainīgās atlīdzības plāns
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533652"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīts Algas mainīgās atlīdzības plāna elements Dynamics 365 Human Resources .
+Šajā rakstā ir aprakstīts algas mainīgās atlīdzības plāna elements Dynamics 365 Human Resources.
 
 ### <a name="description"></a>Apraksts
 

@@ -1,6 +1,6 @@
 ---
 title: Virsgrāmatas darbību sasaistīšana
-description: Šajā tēmā ir paskaidrots, kā izmantot virsgrāmatas darbību sasaistīšanas lapu, lai segtu virsgrāmatas transakcijas un anulētu nosegšanu.
+description: Šajā rakstā skaidrots, kā izmantot Virsgrāmatas nosegšanas lapu, lai nosegtu Virsgrāmatas darbības un atsauktu segšanu.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,82 +13,82 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902492"
 ---
 # <a name="ledger-settlements"></a>Virsgrāmatas darbību sasaistīšana
 
 [!include [banner](../includes/banner.md)]
 
-Virsgrāmatas nosegšana ir debeta un kredīta darbību salīdzināšanas process Virsgrāmatā. Debeta un kredīta summu segšana tiek izmantota, lai saskaņotu Virsgrāmatas konta bilanci ar detalizētām darbībām, kas veido šo bilanci.
+Virsgrāmatas nosegšana ir salīdzināšanas process debeta un kredīta darbībām Virsgrāmatā. Debeta un kredīta summu segšana tiek izmantota, lai saskaņotu Virsgrāmatas konta bilanci ar detalizētām darbībām, kas veido šo bilanci.
 
-Nosegtās darbības var izslēgt no vaicājumiem un pārskatiem. Šādā veidā ir vieglāk analizēt atvērtās Virsgrāmatas darbības, kas veido Virsgrāmatas konta bilanci.
+Apmaksātās darbības var izslēgt no vaicājumiem un pārskatiem. Šādā veidā ir vieglāk analizēt atvērtās Virsgrāmatas darbības, kas veido Virsgrāmatas konta bilanci.
 
 > [!IMPORTANT] 
-> Moduļiem "Parādi kreditoriem" (AP) un debitoru parādi (AR) ir arī norēķini par rēķiniem un maksājumiem. Ja nosegšana notiek AR un AP apakšgrāmatos, atbilstošie grāmatas ieraksti netiek automātiski nosegti.
+> Moduļos Parādi kreditoriem (AP) un Debitoru parādi (AR) arī ir rēķinu un maksājumu segšana. Ja nosegšana notiek AR un AP apakšgrāmatā, atbilstošie virsgrāmatas ieraksti nav automātiski nosegti.
 
-## <a name="ledger-settlement-features"></a>Virsgrāmatas nosegšanas funkcijas
-Microsoft Dynamics 365 Finance versijā 10.0.21 **opcija Iespējot virsgrāmatas segšanu** tika noņemta no **virsgrāmatas parametru** lapas. Virsgrāmatas papildu segšana tagad vienmēr ir iespējota.
-Finance versijā 10.0.25 **tika ieviesta izpratne starp Virsgrāmatas segšanu un gada beigu slēgšanas** funkciju. Šis līdzeklis maina pamatfunkcionalitāti gan Virsgrāmatas segšanā, gan Virsgrāmatas gada beigu noslēgumā. Pirms šī līdzekļa iespējošana līdzekļu pārvaldības darbvietā **skatiet rakstu** Informētība starp Virsgrāmatas segšanu un gada beigu slēgšanu [.](awareness-between-ledger-settlement-year-end-close.md)
+## <a name="ledger-settlement-features"></a>Virsgrāmatas nosegšanas līdzekļi
+Microsoft Dynamics 365 Finanšu versijā 10.0.21 Opcija **Iespējot paplašinātu** **Virsgrāmatas nosegšanu tika noņemta no Virsgrāmatas parametru** lapas. Tagad ir aktivizēta paplašināta Virsgrāmatas nosegšana.
+Finanšu versijā 10.0.25 tika **ieviests līdzeklis Virsgrāmatas nosegšanas un gada beigu** slēgšanas apzināšana. Šī funkcija maina pamata funkcionalitāti gan virsgrāmatas nosegšanas, gan Virsgrāmatas gada beigu slēgšanas laikā. Pirms iespējot šo līdzekli līdzekļu pārvaldības **darbvietā**, skatiet sadaļu Virsgrāmatas nosegšanas [un gada beigu slēgšanas apzināšana](awareness-between-ledger-settlement-year-end-close.md).
 
-## <a name="set-up-ledger-settlement"></a>Iestatīt Virsgrāmatas segšanu
-Jāatlasa galvenie konti, kuriem vēlaties veikt Virsgrāmatas segšanu. Šos galvenos kontus var atlasīt divējādi.
+## <a name="set-up-ledger-settlement"></a>Iestatīt Virsgrāmatas nosegšanu
+Jāatlasa galvenie konti, kuriem vēlaties veikt Virsgrāmatas nosegšanu. Šos galvenos kontus var atlasīt divējādi.
 
-1. Dodieties uz **VirsgrāmatasLedger** > **iestatīšanaVispārnējie** > **Virsgrāmatas parametri**.
-2. Cilnē **Virsgrāmatas nosegšana atlasiet** kontu diagrammas, no kurām vēlaties atlasīt galvenos kontus.
-3. Atlasiet galvenos kontus, par kuru jāveic Virsgrāmatas nosegšana. Tā kā kontu grafiki ir globāli, visiem uzņēmumiem, kuriem ir piešķirti atlasītie kontu grafiki, būs vienādi galvenie konti, kas atlasīti Virsgrāmatas nosegšanai.
+1. Dodieties uz **Virsgrāmatas** > **iestatījumu Virsgrāmatas** > **parametriem**.
+2. **Cilnē Virsgrāmatas nosegšana atlasiet kontu plānus, no kuriem vēlaties atlasīt galvenos** kontus.
+3. Atlasiet galvenos kontus, kuru virsgrāmatas nosegšanai veikt. Tā kā kontu diagrammas ir globālas, visiem uzņēmumiem, kuriem ir piešķirti atlasītie kontu plāna veidi, virsgrāmatas nosegšanai tiks atlasīti tie paši galvenie konti.
 
   - vai -
 
-1. Dodieties uz **VirsgrāmatasPeriodic** > **uzdevumiLedger** > **nosegšana.**
-2. Atlasiet **Virsgrāmatas nosegšanas konti**.
-3. Dialoglodziņā atlasiet kontu un galveno kontu diagrammas, lai veiktu Virsgrāmatas segšanu. Šis dialoglodziņš ir saīsne. Visi galvenie konti, kurus šeit pievienojat, tiks atspoguļoti **arī lapā Virsgrāmatas parametri**.
+1. Dodieties uz Virsgrāmatas **periodiskajiem** > **uzdevumiem, nosegšanas** > **virsgrāmatā**.
+2. Atlasiet Virsgrāmatas **nosegšanas kontus**.
+3. Dialoglodziņā atlasiet kontu plānus un galvenos kontus, kuriem veikt Virsgrāmatas nosegšanu. Šis dialoglodziņš ir saīsne. Visi galvenie konti, ko šeit pievienojat, tiks attēloti arī **Virsgrāmatas parametru** lapā.
 
-Tās pašas pamatprocedūras var izmantot, lai jebkurā laikā noņemtu galvenos kontus no Virsgrāmatas nosegšanas. Galvenā konta noņemšana neietekmē iepriekšējās Virsgrāmatas nosegšanas darbības. Tomēr galvenais konts un darbības vairs netiks rādītas Virsgrāmatas nosegšanas **lapā**.
+Varat izmantot tās pašas pamata procedūras, lai jebkurā laikā noņemtu galvenos kontus no Virsgrāmatas segšanas. Galvenā konta noņemšana neietekmē iepriekšējās Virsgrāmatas nosegšanas darbības. Tomēr galvenais konts un darbības vairs neparādīsies Virsgrāmatas nosegšanas **lapā**.
 
 ## <a name="settle-transactions"></a><a name="settle-transactions"></a>Noslēgt darījumus
 Lai segtu virsgrāmatas transakcijas, izpildiet tālāk aprakstītos norādījumus.
 
-1. Dodieties uz **VirsgrāmatasPeriodic** > **uzdevumiLedger** > **nosegšana.**
+1. Dodieties uz Virsgrāmatas **periodiskajiem** > **uzdevumiem, nosegšanas** > **virsgrāmatā**.
 2. Iestatiet filtrus šīs lapas augšpusē, izpildot tālāk aprakstītos norādījumus.
 
-    - Atlasīt datumu diapazonu. Vai arī atlasiet datumu intervāla kodu, lai automātiski aizpildītu datumu diapazonu. Mēs neiesakām veikt Virsgrāmatas segšanu darbībām, kas tiek salīdzinātas ar finanšu gadiem.
-    - Pēc vajadzības mainiet grāmatošanas līmeni. Nevar nosegt darbības, kas atrodas dažādos grāmatošanas slāņos.
-    - Lai galveno kontu un dimensijas parādītu atsevišķi, atlasiet finanšu dimensiju kopu.
+    - Atlasīt datumu diapazonu. Alternatīvi atlasiet datumu intervāla kodu, lai automātiski aizpildītu datumu diapazonu. Nav ieteicams veikt Virsgrāmatas nosegšanu darbībām, kas šķērso finanšu gadus.
+    - Ja nepieciešams, mainiet grāmatošanas līmeni. Nevar nosegt darbības, kas ir atšķirīgos grāmatošanas līmeņos.
+    - Lai rādītu atsevišķi galveno kontu un dimensijas, atlasiet finanšu dimensiju kopu.
 
 3. Atlasiet **Rādīt transakcijas**, lai rādītu visas transakcijas, kas atbilst jūsu iestatītajiem filtriem un kontu sarakstam, kuru norādījāt, kad iestatījāt kontu plānu sarakstu iepriekšējā sadaļā.
 
     - Ka maināt kādu no filtriem vai dimensiju kopām, vienums **Rādīt transakcijas** ir jāatlasa vēlreiz.
-    - Lai filtrētu darbības uz atsevišķu galveno kontu, izmantojiet filtru **laukā Virsgrāmatas konts**. Mēs neiesakām veikt Virsgrāmatas segšanu darbībām, kas grāmatotas dažādos galvenajos kontos.
+    - Lai filtrētu darbības atsevišķam galvenajam kontam, izmantojiet filtru virsgrāmatas **konta laukam**. Nav ieteicams veikt Virsgrāmatas nosegšanu darbībām, kas ir grāmatotas dažādos galvenajos kontos.
 
-4. Atlasiet nosegšanas rindas. Vērtība **laukā Atlasītā summa** lapas augšdaļā palielinās vai samazinās, lai atspoguļotu kopējo summu atlasītajās rindās.
-5. Kad darbību atlase ir pabeigta, atlasiet **Atzīmēt atlasīto**. Katrai atlasītajai darbībai kolonnā Atzīmēts **tiek** parādīta atzīme. Turklāt vērtība laukā Atzīmētā **summa** virs režģa palielinās vai samazinās, lai atspoguļotu kopējo summu iezīmētajās rindās.
-6. Ja vērtība laukā Atzīmētā **summa** ir **0** (nulle), atlasiet **Nosegt atzīmētās darbības**. Atzīmēto transakciju statuss tiek atjaunināts uz **Nosegts**.
+4. Atlasīt rindas nosegšanai. Vērtība laukā **Atlasītā summa** lapas augšdaļā palielinās vai samazinās, lai atspoguļotu atlasīto rindu kopsummu.
+5. Kad darbību atlase pabeigta, atlasiet **Iezīmēt**. Katrai atlasītajai darbībai kolonnā Atzīmēts tiek parādīta **atzīme**. Turklāt vērtība atzīmētās summas **laukā** virs režģa palielinās vai samazinās, lai atspoguļotu atzīmēto rindu kopējo summu.
+6. Ja vērtība laukā Atzīmētā **summa** ir **0 (nulle**), atlasiet Nosegt **iezīmētās darbības**. Atzīmēto transakciju statuss tiek atjaunināts uz **Nosegts**.
 
     > [!IMPORTANT]
-    > Visas darbības, kas atzīmētas aktīvajai juridiskajai personai nosegšanai, tiks nosegtas, pat ja tās pašlaik netiek rādītas Virsgrāmatas nosegšanas lapā, jo esat lietojis filtru.
+    > Visas darbības, ko esat atzīmējis aktīvās juridiskās personas nosegšanai, tiks segtas pat tad, ja tās pašlaik nav parādītas Virsgrāmatas nosegšanas lapā, jo esat piemērojis filtru.
 
 ## <a name="make-transactions-easier-to-find"></a>Transakciju atrašanas atvieglošana
-**Virsgrāmatas nosegšanas** lapā ir iekļautas iespējas, kas atvieglo nosegšanai nepieciešamo darbību skatīšanu.
+Virsgrāmatas **nosegšanas** darbību lapa ietver iespējas, kas atvieglo nosegšanai nepieciešamas darbības skatīšanu.
 
-- **Izmantojiet filtru Atzīmēts**, lai filtrētu darbības, pamatojoties uz to, **vai tām ir atzīmēta izvēles rūtiņa Atzīmēts**.
-- **Izmantojiet filtru Statuss**, lai filtrētu darbības, pamatojoties uz to statusu.
-- Atlasiet **Kārtot pēc absolūtās summas**, lai kārtotu summas pēc absolūtās vērtības. Tādā veidā var grupēt debetus un kredītus, kuriem ir vienāda summa.
+- Izmantojiet filtru **Atzīmēts**, lai filtrētu darbības, pamatojoties uz **to, vai** ir atzīmēta izvēles rūtiņa Atzīmēts.
+- Izmantojiet statusa **filtru**, lai filtrētu darbības, balstoties uz to statusu.
+- Atlasiet **Kārtot pēc absolūtās summas,** lai kārtotu summas pēc absolūtās vērtības. Šādā veidā var grupēt debetus un kredītus, kuriem ir vienāda summa.
 
 ## <a name="reverse-a-settlement"></a>Nosegšanas anulēšana
 Var anulēt nosegšanu, kas tika veikta kļūdaini.
 
-1. Izpildiet 1.–3 [. darbību sadaļā Darbību](#settle-transactions) segšana, lai parādītu jūs interesējošās darbības.
+1. Izpildiet sadaļas Nosegt darbības 1. līdz [3](#settle-transactions). soli, lai parādītu interesētās darbības.
 2. Filtrā **Statuss** atlasiet **Nosegts**.
-3. Atlasiet rindas anulēšanai.
-4. Atlasiet **Atsaukt atzīmētās darbības**. Visu to darbību statuss, kurām ir vienāds nosegšanas ID, tiek atjaunināts uz **Nav nosegts**.
+3. Atlasīt rindas atgriešanai.
+4. Atlasiet Atcelt **atzīmētās darbības**. Visu darbību ar vienādu nosegšanas ID statuss tiek atjaunināts uz Nav **nosegts**.
 
     > [!IMPORTANT]
-    > Visas darbības ar vienādu nosegšanas ID tiks atsauktas, pat ja tās nav atzīmētas. Piemēram, tika atzīmētas un nosegtas četras rindas. Visām četrām rindām ir vienāds nosegšanas ID. Atzīmējot vienu no šīm četrām rindām un pēc tam atlasot **Atsaukt atzīmētās darbības**, visas četras rindas tiks atsauktas.
+    > Visas darbības, kurām ir vienāds nosegšanas ID, tiks atceltas pat tad, ja tās nav atzīmētas. Piemēram, četras rindas tika atzīmētas un nosegtas. Visām četrām rindām ir viens segšanas ID. Ja atzīmēsiet vienu no šīm četrām rindām un pēc tam **atlasīsiet** Atcelt atzīmētās darbības, visas četras rindas tiks atceltas.
 
 
 

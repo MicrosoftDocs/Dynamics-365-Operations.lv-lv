@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu konfigurāciju koplietošana RCS/globālā repozitorija ar ārējām organizācijām
-description: Šajā tēmā skaidrots, kā koplietot elektronisko pārskatu (ER) konfigurācijas Microsoft Regulatory Configuration Services (RCS)/globālā repozitorijā tieši ar ārējām organizācijām.
+description: Šajā rakstā skaidrots, kā koplietot elektronisko pārskatu (ER) konfigurācijas Microsoft regulēšanas konfigurācijas pakalpojumos (RCS)/globālajā repozitorijā tieši ar ārējām organizācijām.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888928"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Koplietot elektronisko pārskatu (ER) konfigurācijas Regulatory Configuration Services (RCS) globālā repozitorijā tieši ar ārējām organizācijām
 
@@ -36,7 +36,7 @@ Tālāk sniegtajos procedūru aprakstos ir paskaidrots kā RCS lietotājs var da
 
 Jums ir arī jāpārliecinās, ka RCS vide ir nodrošināta jūsu uzņēmumam.
 
-1. Programmā Finance and Operations dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektroniskie pārskat**.
+1. Finanšu un operāciju programmā dodieties uz organizācijas administrēšanas **darbalauku** \> **elektronisko** \> **pārskatu sniegšanu**.
 2. Ja jūsu uzņēmumā nav nodrošināta neviena RCS vide, atlasiet **Regulatory services — Configuration external** un pēc tam izpildiet norādījumus, lai tādu nodrošinātu.
 
 Ja RCS vide jūsu uzņēmumam jau ir nodrošināta, izmantojiet lapas vietrādi URL, lai piekļūtu tai, atlasot pierakstīšanās opciju.
@@ -67,7 +67,7 @@ Kad konfigurācijas nodrošinātājs ir izveidojis konfigurāciju, to var tieši
 
     ![Koplietošanas konfigurācijas versija ar ārējo organizācijas dialoglodziņu.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai organizācijai globālajā repozitorijā. No turienes to var importēt organizācijas RCS instancē vai tās programmas Finance and Operations instancēs.
+Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai organizācijai globālajā repozitorijā. No turienes to var importēt organizācijas RCS instancē vai tā finanšu un operāciju programmu instancēs.
 
 6. Lai atceltu konfigurāciju, kas iepriekš bijusi koplietota ar ārēju organizāciju, atlasiet konfigurāciju un noklikšķiniet uz **pārtraukt koplietošanu** un pēc tam atlasiet **Labi**
 

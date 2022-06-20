@@ -1,6 +1,6 @@
 ---
 title: Commerce katalogu paplašināmības ietekme B2B pielāgojumiem
-description: Šajā tēmā aprakstīta Commerce katalogu paplašināmības ietekme uz sadaļā B2B funkciju Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīta Commerce katalogu paplašināmības ietekme uz sadaļā B2B funkciju Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
-ms.translationtype: MT
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849019"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Commerce katalogu paplašināmības ietekme B2B pielāgojumiem
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā aprakstīta Commerce katalogu paplašināmības **ietekme uz sadaļā B2B** funkciju Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīta Commerce katalogu paplašināmības **ietekme uz sadaļā B2B** funkciju Microsoft Dynamics 365 Commerce.
 
 Ja interesējaties par kataloga konteksta paplašināšanas līdz pielāgotiem scenārijiem, pielāgojumi, iespējams, būs jāatjaunina. Šis atjauninājums seko standarta procesam, kam seko debitori, jo to pielāgošana var automātiski neatbalstīs jaunākos līdzekļus pēc jaunināšanas. Ja pielāgošanā tiek iekļauts kāds jauns līdzeklis vai kļūdas labojumi to pieredzi, pielāgošanas kodu ieteicams atbilstoši atjaunināt. Šis atjauninājums ir līdzīgs izmaiņām, ko Microsoft, iespējams, ir veikusi attiecībā uz pamatkodu.
 
@@ -29,7 +29,7 @@ Pārskatiet pielāgošanas gadījumus, kas seko, lai noteiktu, vai pielāgojumi 
 
 > [!NOTE]
 > - Visiem preču programmas programmēšanas interfeisiem (API) ir jābūt izprotamiem katalogā. Tādēļ ir ļoti svarīgi pieņemt CatalogID **parametru**.
-> - Noklusējuma katalogs (**CatalogID0**=**·**) nav derīgs katalogs parakstītiem "bizness-biznesam" (B2B) lietotājiem. Tādēļ visi API izsaukumi, kas pieņem "0" vai lieto noklusējuma vērtību, neizdosies, jo vietas lietotājiem nav piekļuves katalogam 0. Lai saņemtu pareizo pieredzi, debitora API izsaukumi ir jāatjaunina tā, lai tie izdotu kataloga ID, kas tika atlasīts kataloga uztvērējā. Ja izmantojat noklusējuma vērtību un lietotājs pārslēdz katalogus, vietnei ir jānodrošina dati atlasītajam katalogam. Tāpēc, lai atbilstu API, kas tiek darbināti no commerce pamatkoda, pielāgotiem API ir jāpalaiž atlasītais katalogs.
+> - Noklusējuma katalogs (**CatalogID**=**0**) nav derīgs katalogs parakstītiem "bizness-biznesam" (B2B) lietotājiem. Tādēļ visi API izsaukumi, kas pieņem "0" vai lieto noklusējuma vērtību, neizdosies, jo vietas lietotājiem nav piekļuves katalogam 0. Lai saņemtu pareizo pieredzi, debitora API izsaukumi ir jāatjaunina tā, lai tie izdotu kataloga ID, kas tika atlasīts kataloga uztvērējā. Ja izmantojat noklusējuma vērtību un lietotājs pārslēdz katalogus, vietnei ir jānodrošina dati atlasītajam katalogam. Tāpēc, lai atbilstu API, kas tiek darbināti no commerce pamatkoda, pielāgotiem API ir jāpalaiž atlasītais katalogs.
 
 Šādiem pielāgošanas gadījumiem nepieciešami izstrādes atjauninājumi:
 
@@ -65,6 +65,6 @@ Pārskatiet pielāgošanas gadījumus, kas seko, lai noteiktu, vai pielāgojumi 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Izveidot Commerce katalogus B2B vietām](catalogs-b2b-sites.md)
+[Commerce katalogu izveide B2B vietnēm](catalogs-b2b-sites.md)
 
-[Commerce katalogi B2B FAQ](catalogs-b2b-sites-FAQ.md)
+[Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm](catalogs-b2b-sites-FAQ.md)

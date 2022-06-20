@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt izdevumu pārskatītājus
-description: Šajā tēmā ir aprakstīts, kā izmantot izdevumu pārskatītājus, lai dinamiski atlasītu lietotāju, kam piešķirts darbplūsmas uzdevums, apstiprinājums vai manuāls lēmums.
+description: Šajā rakstā ir aprakstīts, kā izmantot izdevumu pārskatītājus, lai dinamiski atlasītu lietotāju, kam darbplūsmas uzdevums, apstiprinājums vai manuāls lēmums ir piešķirts.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863228"
 ---
 # <a name="configure-expenditure-reviewers"></a>Konfigurēt izdevumu pārskatītājus
 [!include[banner](../includes/banner.md)]
@@ -52,7 +52,7 @@ Finanšu dimensijas kontrolē kontu struktūras katrā juridiskajā persona. Kat
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>1. piemērs: izdevumu pārskatītājs, pamatojoties uz organizāciju sadalēm
 
-Jūs strādājat uzņēmumā Contoso Appliances, un jūsu organizācijā ir seši departamenti un 10 izmaksu centri. Kad tiek iesniegts jauns pirkšanas pieprasījums, vispirms jāapstiprina no nodaļas vadītāja un pēc tam no izmaksu centra pārvaldnieka.
+Jūs strādājat contoso elektronisk, un jūsu organizācijai ir seši departamenti un 10 izmaksu centri. Kad tiek iesniegts jauns pirkšanas pieprasījums, vispirms jāapstiprina no nodaļas vadītāja un pēc tam no izmaksu centra pārvaldnieka.
 
 Šim piemēram jūs konfigurējat divus *pirkšanas pieprasījumu izdevumu pārskatītājus*:
 
@@ -65,7 +65,7 @@ Kad pirkšanas pieprasījums ir izveidots, pirkšanas pieprasījuma rindām tiek
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>2. piemērs: izdevumu pārskatītājs, pamatojoties uz projektu sadalēm
 
-Jūs strādājat Contoso Appliances pakalpojumu nodaļā. Organizācijai nepieciešams, lai projektu vadītājam katram pirkšanas pasūtījumam būtu jāapstiprina izdevumi. Turklāt projekta izmaksu centra vadītājam tas ir jāapstiprina. Apstiprinājumus var veikt vienlaicīgi. Jebkurā gadījumā abiem lietotājiem ir jāapstiprina pirkšanas pasūtījums, pirms darbplūsma var turpināties.
+Jūs strādājat contoso elektroniskās informācijas pakalpojumu nodaļā. Organizācijai nepieciešams, lai projektu vadītājam katram pirkšanas pasūtījumam būtu jāapstiprina izdevumi. Turklāt projekta izmaksu centra vadītājam tas ir jāapstiprina. Apstiprinājumus var veikt vienlaicīgi. Jebkurā gadījumā abiem lietotājiem ir jāapstiprina pirkšanas pasūtījums, pirms darbplūsma var turpināties.
 
 Šajā piemērā jūs izveidojat vienu *pirkšanas pasūtījuma izdevumu pārskatītāju*, kura nosaukums ir **PM un Izmaksu centrs**. Atzīmējiet izvēles rūtiņu **Projekta vadītājs** un iestatiet opciju **Izmaksu centra dimensija** uz **Jā** cilnē **Projekta sadales** lapā **Pirkšanas pasūtījuma izdevumu pārskatītājs**. Kā konfigurācijas daļa jums ir jānodrošina, lai lauks **Projekta vadītājs** būtu iestatīts visiem projektiem un ka īpašnieks ir noteikts visiem izmaksu centriem lapā **Finanšu dimensijas vērtības**.
 
@@ -75,7 +75,7 @@ Kad pirkšanas pasūtījums ir izveidots, jābūt norādītam laukam **Projekts*
 
 ## <a name="set-up-expenditure-reviewers"></a>Izdevumu pārskatītāju iestatīšana
 
-Šajā piemērā ir parādīts, kā konfigurēt pirkšanas pieprasījuma izdevumu pārskatītāju. Lai konfigurētu citus izdevumu pārskatītāju tipus, nomainiet navigācijas ceļu 1. darbībā ar atbilstošu ceļu no tabulas sadaļā [Izdevumu pārskatītāju tipi](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), iepriekš šajā tēmā.
+Šajā piemērā ir parādīts, kā konfigurēt pirkšanas pieprasījuma izdevumu pārskatītāju. Lai konfigurētu citus izdevumu pārskatītāju tipus, nomainiet navigācijas ceļu 1 [. solī ar atbilstošu ceļu no tabulas](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) izdevumu pārskatītāju tipa sadaļā, iepriekš šajā rakstā.
 
 1. Dodieties uz **Sagāde un ieguve \> Iestatījums \> Politikas \> Pirkšanas pieprasījuma izdevumu pārskatītāji**.
 2. Lapā **Pirkšanas pieprasījumu izdevumu pārskatītāji** atlasiet **Jauns**.

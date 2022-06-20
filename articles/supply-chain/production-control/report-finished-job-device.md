@@ -1,6 +1,6 @@
 ---
-title: Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
-description: Šajā tēmā ir aprakstīts, kā konfigurēt sistēmu, lai darba kartes ierīces lietotāji varētu ziņot par pabeigtajām precēm no ražošanas pasūtījuma uz krājumiem.
+title: Ziņošana par pabeigšanu no darbu kartes ierīces
+description: Šajā rakstā ir aprakstīts, kā konfigurēt sistēmu, lai darbu kartes ierīces lietotāji varētu ziņot par pabeigtām precēm no ražošanas pasūtījuma uz krājumu.
 author: johanhoffmann
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857378"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
 [!include [banner](../includes/banner.md)]
 
-Darbinieki izmanto lapu **Pārskatu norises** darba kartes ierīcē, lai ziņotu par ražošanas darbam pabeigtajiem daudzumiem. Šajā tēmā ir aprakstīts, kā iestatīt dažādas opcijas, kas nosaka, kā darbinieki var ziņot par pabeigšanu, izmantojot šo lapu, un kas notiek tālāk. Opcijas ietver:
+Darbinieki izmanto lapu **Pārskatu norises** darba kartes ierīcē, lai ziņotu par ražošanas darbam pabeigtajiem daudzumiem. Šajā rakstā ir aprakstīts, kā iestatīt dažādas opcijas, lai noteiktu, kā darbinieki var ziņot kā pabeigtu, izmantojot šo lapu, un kas notiek tālāk. Opcijas ietver:
 
 - Kontrolēt, vai un kā krājumiem tiek pievienoti pabeigtie daudzumi.
 - Kontrolē, vai un kā partijas numuri tiek ģenerēti un pielietoti, ziņojot par pabeigšanu.

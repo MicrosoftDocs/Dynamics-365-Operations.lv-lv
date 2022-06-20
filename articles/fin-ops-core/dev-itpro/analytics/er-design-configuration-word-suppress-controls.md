@@ -1,6 +1,6 @@
 ---
 title: Word satura vadīklu likvidēšana ģenerētajos pārskatos
-description: Šajā tēmā paskaidrots, kā konfigurēt elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus kā Microsoft Word failus, kuros satura vadīklas ir likvidētas.
+description: Šajā rakstā skaidrots, kā konfigurēt elektronisko pārskatu (ER) Microsoft Word formātu, lai ģenerētu pārskatus kā failus, kuros satura kontroles ir likvidētas.
 author: NickSelin
 ms.date: 02/11/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882118"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Word satura vadīklu likvidēšana ģenerētajos pārskatos
 

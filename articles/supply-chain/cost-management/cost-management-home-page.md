@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891152"
 ---
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
@@ -53,7 +53,7 @@ Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek
 
 #### <a name="white-paper"></a>Tehniskais dokuments
 
-Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://www.microsoft.com/download/details.aspx?id=101937) ir aprakstīts, kā iestatīt izmaksu aprēķināšanas lapu, kurā ir ietverti materiāli un ražošana, un kā šī iestatīšana ietekmē MK aprēķina rezultātus. Lai labāk izskaidrotu šo tēmu, tajā ir aprakstīti konkrēti scenāriji un iekļauti dati, kas attēlo dažādu iestatījumu un konfigurāciju ietekmi.
+Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://www.microsoft.com/download/details.aspx?id=101937) ir aprakstīts, kā iestatīt izmaksu aprēķināšanas lapu, kurā ir ietverti materiāli un ražošana, un kā šī iestatīšana ietekmē MK aprēķina rezultātus. Lai labāk skaidrotu šos rakstus, tas sniedz noteiktus scenārijus un datus, kas parāda dažādu iestatījumu un konfigurāciju ietekmi.
 
 #### <a name="blogs"></a>Emuāri
 

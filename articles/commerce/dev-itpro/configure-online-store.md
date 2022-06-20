@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt tiešsaistes veikalus
-description: Šajā rakstā ir ietvertas saites uz tēmām, kas jums palīdzēs centralizēti konfigurēt un pārvaldīt tiešsaistes veikalu.
+description: Šajā rakstā ir sniegtas saites uz rakstiem, kas palīdzēs jums centrāl konfigurēt un pārvaldīt tiešsaistes veikalu.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861883"
 ---
 # <a name="configure-online-stores"></a>Konfigurēt tiešsaistes veikalus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir ietvertas saites uz tēmām, kas jums palīdzēs centralizēti konfigurēt un pārvaldīt tiešsaistes veikalu.
+Šajā rakstā ir sniegtas saites uz rakstiem, kas palīdzēs jums centrāl konfigurēt un pārvaldīt tiešsaistes veikalu.
 
-Tālāk esošajā tabulā norādītās tēmas palīdz klienta konfigurēt Commerce komponentus un mazumtirdzniecības tiešsaistes veikalu.
+Šajā tabulā uzskaitītie raksti palīdz konfigurēt Commerce komponentus un tiešsaistes veikalu klientā.
 
 ## <a name="configure-an-online-store"></a>Tiešsaistes veikala konfigurēšana
 
-| Uzdevums                                                | Detalizēta                                                                                                                                                                                                                                                                                                                                                   | Tēmas                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Uzdevums                                                | Detalizēti                                                                                                                                                                                                                                                                                                                                                   | Raksti                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mazumtirdzniecības komponentu konfigurēšana.                        | Iestatiet un uzturiet informāciju Commerce operācijām. Šajā informācijā ir iekļauti veikali, nodokļi, preces, dāvanu kartes, veicināšanas pasākumi un atlaides.                                                                                                                                                                                                          | [Mazumtirdzniecības iestatīšana un uzturēšana](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (TechNet saturs programmai Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Konfigurējiet kanāla navigācijas hierarhiju.    | Izveidojiet kanāla navigācijas kategoriju hierarhiju, lai iestatītu kategoriju struktūru precēm, kuras piedāvājat tiešsaistes veikalā. Jūs definējat kategoriju hierarhiju un šīm kategorijām piešķirat preces, preču īpašību grupas un atribūtu vērtības. Pēc tam jūs šo kategoriju hierarhiju piešķirat tiešsaistes veikalam.                            | [Iestatīt mazumtirdzniecības hierarhiju](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (TechNet saturs par AX 2012)</br> [Iestatiet atribūtus un atribūtu veidus](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (TechNet saturs par AX 2012)</br> [Iestatīt mazumtirdzniecības atribūtu grupas](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (TechNet saturu par AX 2012) |
@@ -41,7 +41,7 @@ Tālāk esošajā tabulā norādītās tēmas palīdz klienta konfigurēt Commer
 
 ## <a name="configure-online-store-products"></a>Konfigurēt tiešsaistes veikala preces
 
-| Uzdevums                                 | Detalizēta                                                                                                                                           | Tēmas                                                                                                                                                                                                                                                                            |
+| Uzdevums                                 | Detalizēti                                                                                                                                           | Raksti                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pievienojiet preču klāstu tiešsaistes veikalam. | Pievienojiet preču klāstus, kas ietver tiešsaistes veikalā piedāvātās preces.                                                                  | [Tiešsaistes veikala iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNet saturs programmai AX 2012)                                                                                                                                              |
 | Pārvaldiet katalogus.                     | Izmantojiet preču katalogus, lai identificētu preces, kuras vēlaties piedāvāt savos veikalos.                                                              | [Galvenie uzdevumi: mazumtirdzniecības preču katalogu izveide](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (TechNet saturs programmai AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Tālāk esošajā tabulā norādītās tēmas palīdz klienta konfigurēt Commer
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Datu apmaiņas starp programmu Commerce un tiešsaistes veikalu iestatīšana
 
-| Uzdevums                                 | Detalizēta                                                                                                                               | Tēmas                                                                                                                                                                                                                                                                                  |
+| Uzdevums                                 | Detalizēti                                                                                                                               | Raksti                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Iestatiet kanālu integrācijas profilus. | Profili komponentiem ļauj savstarpēji sazināties. Profili ir jāiestata, pirms konfigurējat datu apmaiņas iestatījumus. | [Iestatīt reāllaika pakalpojuma profilu](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (TechNet saturs par AX 2012)</br> [Iestatīt kanāla profilu](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (TechNet saturs par AX 2012) |
 

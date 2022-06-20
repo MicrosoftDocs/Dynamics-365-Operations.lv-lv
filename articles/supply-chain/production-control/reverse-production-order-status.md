@@ -1,6 +1,6 @@
 ---
 title: Ražošanas pasūtījuma statusa atsaukšana
-description: Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu.
+description: Šajā rakstā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903961"
 ---
 # <a name="reverse-the-production-order-status"></a>Ražošanas pasūtījuma statusa atsaukšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu. 
+Šajā rakstā ir aprakstīts, kā atsaukt ražošanas pasūtījuma statusu. 
 
 Ja atsaucat ražošanas pasūtījuma statusu, pasūtījums un visas ar maršrutiem saistītās operācijas tiek pārnesti atpakaļ uz iepriekšējo ražošanas dzīves cikla posmu. Pieņemsim, ka ražošanas pasūtījuma statuss ir **Ieplānots** un jūs maināt statusu atpakaļ uz **Izveidots**. Šādā gadījumā sistēmā statuss vispirms ir jāmaina uz **Novērtēts**, kas ir iepriekšējais statuss pirms statusa **Ieplānots**. Pēc tam sistēmā statuss var tikt mainīts uz vajadzīgo statusu **Izveidots**. **Piezīme.** Ja pasūtījuma statuss jau ir **Reģistrēt pabeigšanu**, joprojām varat to atsaukt un atjaunot kādu no iepriekšējiem statusiem. Taču ir vēlreiz jāveic novērtēšana un operāciju plānošana vai darbu plānošana, vai abu veidu plānošana, lai atjauninātu pasūtījumā ietverto informāciju. Šī darbība ir obligāti jāveic, jo ir jāatiestata arī visas atlikušā krājumu patēriņa un operācijas resursu patēriņa rezervācijas. Šī raksta turpinājumā ir paskaidrots, kas notiek, kad atsaucat ražošanas pasūtījuma statusu tālāk norādītajos veidos.
 

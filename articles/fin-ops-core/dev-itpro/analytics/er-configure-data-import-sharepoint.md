@@ -1,6 +1,6 @@
 ---
 title: Datu importēšanas no SharePoint konfigurēšana
-description: Šajā tēmā ir paskaidrots, kā importēt datus no Microsoft SharePoint.
+description: Šajā rakstā skaidrots, kā importēt datus no Microsoft SharePoint.
 author: NickSelin
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0163ece2f61735073567b32a45d3dc6df8be1864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864783"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Datu importēšanas no SharePoint konfigurēšana
 
 [!include[banner](../includes/banner.md)]
 
-Lai importētu datus no ienākoša faila, izmantojot elektronisko pārskatu (Electronic reporting — ER) struktūru, ir nepieciešams konfigurēt ER formātu, kas atbalsta importēšanu, un pēc tam palaist modeļa kartēšanu ar tipu **Uz galamērķi**, kas šo formātu izmanto kā datu avotu. Lai importētu datus, ir jāpāriet uz failu, kuru vēlaties importēt. Ienākošo failu lietotājs var atlasīt manuāli. Jaunā ER iespēja atbalstīt datu importēšanu no Microsoft SharePoint sniedz iespēju konfigurēt šo procesu kā neuzraudzītu. Varat izmantot ER konfigurācijas, lai importētu datus no failiem, kas tiek glabāti Microsoft SharePoint mapēs. Šajā tēmā ir paskaidrots, kā pabeigt importēšanu no SharePoint. Piemēros kā biznesa dati tiek izmantotas kreditoru transakcijas.
+Lai importētu datus no ienākoša faila, izmantojot elektronisko pārskatu (Electronic reporting — ER) struktūru, ir nepieciešams konfigurēt ER formātu, kas atbalsta importēšanu, un pēc tam palaist modeļa kartēšanu ar tipu **Uz galamērķi**, kas šo formātu izmanto kā datu avotu. Lai importētu datus, ir jāpāriet uz failu, kuru vēlaties importēt. Ienākošo failu lietotājs var atlasīt manuāli. Jaunā ER iespēja atbalstīt datu importēšanu no Microsoft SharePoint sniedz iespēju konfigurēt šo procesu kā neuzraudzītu. Varat izmantot ER konfigurācijas, lai importētu datus no failiem, kas tiek glabāti Microsoft SharePoint mapēs. Šajā rakstā skaidrots, kā pabeigt importēšanu no SharePoint. Piemēros kā biznesa dati tiek izmantotas kreditoru transakcijas.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Lai izpildītu šajā tēmā aprakstītos piemērus, jums ir nepieciešama tālāk norādītā piekļuve.
+Lai pabeigtu piemērus šajā rakstā, jums ir jābūt šādai piekļuvei:
 
 - Piekļuve vienai no šīm lomām:
 
@@ -140,7 +140,7 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
 4. Modeļa kartēšanu var palaist [neuzraudzītu](#limitations) partijas režīmā. Tādā gadījumā katru reizi, kad partija palaiž šo ER formātu, tiek importēts viens fails no konfigurētajiem failu avotiem.
 
-    Kad fails ir veiksmīgi importēts no SharePoint mapes, tas tiek izdzēsts no attiecīgās mapes un pārvietots uz veiksmīgi importēto failu mapi vai mapi, kurā tiek saglabāti ar brīdinājumiem importētie faili. Pretējā gadījumā tā tiek pārvietota uz mapi neveiksmīgiem failiem vai paliek šajā mapē, ja nav iestatīta mape neizdevušos failiem. 
+    Kad fails ir veiksmīgi importēts no SharePoint mapes, tas tiek izdzēsts no attiecīgās mapes un pārvietots uz veiksmīgi importēto failu mapi vai mapi, kurā tiek saglabāti ar brīdinājumiem importētie faili. Pretējā gadījumā fails tiek pārvietots uz mapi, kurā faili neizdevās, vai arī tiek glabāts mapē, ja nav iestatīta failu kļūme. 
 
 5. Ievadiet dokumenta ID, piemēram, **V-00001**, un pēc tam atlasiet **Labi**.
 
@@ -192,11 +192,11 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
 ## <a name=""></a><a name="limitations">Ierobežojumi</a>
 
-Versijās Dynamics 365 Finance pirms versijas 10.0.25 ER ietvara lietotāja interfeiss (UI) nepiedāvā iespēju uzsākt jaunu pakešdarbu, kas bez uzraudzības režīmā izpildīs modeļa kartēšanu datu importēšanai. Tā vietā ir jāizstrādā jauna loģika, lai konfigurēto ER modeļa kartēšanu varētu izsaukt no lietojumprogrammas lietotāja interfeisa, lai importētu datus no ienākošajiem failiem. Lai attīstītu šo loģiku, ir jāveic daži inženiertehniskie darbi. 
+Dynamics 365 finanšu versijās pirms versijas 10.0.25 ER struktūras lietotāja interfeiss (UI) nepiedāvā iespēju iniciēt jaunu pakešuzdevumu, kas izpildīs modeļa kartēšanu datu importēšanai ne apmeklētajā režīmā. Tā vietā ir jāizveido jauna loģika, lai konfigurēto ER modeļa kartēšanu varētu izsaukt no programmas UI, lai importētu datus no ienākošajiem failiem. Lai izstrādātu šo loģiku, ir nepieciešams tehniskais darbs. 
 
-Lai iegūtu papildinformāciju par attiecīgo ER API, skatiet [Kods, lai palaistu formāta kartēšanu datu importēšanai](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) sadaļā [ER framework API izmaiņas lietojumprogrammas atjauninājumam 7.3](er-apis-app73.md). Pārskatiet kodu modeļa `Application Suite` klasē `BankImport_RU`, lai skatītu, kā var īstenot pielāgoto loģiku. The`BankImport_RU` klase paplašina`RunBaseBatch` klasē. Jo īpaši pārskatiet`runER()` metode, kur`ERIModelMappingDestinationRun` objekts tiek izveidots kā ER modeļa kartēšanas palaidējs.
+Papildinformāciju par atbilstošo ER API skatiet sadaļā Kods [datu](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import)[importēšanas sadaļas datu importēšanai ER struktūras API izmaiņu palaišanai programmu atjaunināšanai 7.3](er-apis-app73.md). Pārskatiet kodu modeļa `Application Suite` klasē `BankImport_RU`, lai skatītu, kā var īstenot pielāgoto loģiku. Klase `BankImport_RU` paplašina klasi `RunBaseBatch`. It īpaši pārskatiet `runER()` metodi, kurā `ERIModelMappingDestinationRun` objekts ir izveidots kā ER modeļa kartēšanas pasūtījums.
 
-Finance versijā 10.0.25 un jaunākās versijās ER ietvara lietotāja saskarne piedāvā iespēju uzsākt jaunu pakešdarbu, kas palaist modeļa kartēšanu datu importēšanai bez uzraudzības. Papildinformāciju par šo procesu skatiet [Importējiet datus pakešu režīmā no manuāli atlasītajiem failiem](er-configure-data-import-batch.md).
+Finanšu versijā 10.0.25 vai jaunākā versijā ER struktūras UI piedāvā iespēju iniciēt jaunu pakešuzdevumu, kas izpildīs datu importēšanas modeļa kartēšanu neraudzītā režīmā. Papildinformāciju par šo procesu skatiet sadaļā [Datu importēšana pakešveida režīmā no manuāli atlasītiem failiem](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

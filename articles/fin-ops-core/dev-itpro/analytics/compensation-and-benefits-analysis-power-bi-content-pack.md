@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Kompensācija un atvieglojumi
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija un atvieglojumi.
+description: Šajā rakstā ir aprakstīts saturs Atlīdzība un Power BI Atvieglojumi.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13f084ba49baa01eea99822baa6960136725140a80c9d29a4104aabc5d7d5dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bed0e8ffbd23c6793c037bade218f637105734b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908624"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Power BI satura pakotne Kompensācija un atvieglojumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija un atvieglojumi. 
+Šajā rakstā ir aprakstīts saturs Atlīdzība un Power BI Atvieglojumi. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
 Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Vadītās mācīšanās lapa Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.

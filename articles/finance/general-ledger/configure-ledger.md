@@ -1,6 +1,6 @@
 ---
 title: Virsgrāmatas konfigurēšana
-description: Šī tēma sniedz informāciju par to, kā konfigurēt Virsgrāmatu katrai juridiskajai personai. Tajā iekļauta informācija par to, kā atlasīt valūtas, fiskālos kalendārus, kontu plānu un kontu struktūras, kas jāizmanto katrai juridiskajai personai.
+description: Šajā rakstā ir sniegta informācija, kā konfigurēt Virsgrāmatas katrai juridiskajai personai. Tajā iekļauta informācija par to, kā atlasīt valūtas, fiskālos kalendārus, kontu plānu un kontu struktūras, kas jāizmanto katrai juridiskajai personai.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864344"
 ---
 # <a name="configure-ledgers"></a>Virsgrāmatas konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma sniedz informāciju par to, kā konfigurēt Virsgrāmatu katrai juridiskajai personai. Tajā iekļauta informācija par to, kā atlasīt valūtas, fiskālos kalendārus, kontu plānu un kontu struktūras, kas jāizmanto katrai juridiskajai personai.
+Šajā rakstā ir sniegta informācija, kā konfigurēt Virsgrāmatas katrai juridiskajai personai. Tajā iekļauta informācija par to, kā atlasīt valūtas, fiskālos kalendārus, kontu plānu un kontu struktūras, kas jāizmanto katrai juridiskajai personai.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Kontu plāna atlasīšana
 

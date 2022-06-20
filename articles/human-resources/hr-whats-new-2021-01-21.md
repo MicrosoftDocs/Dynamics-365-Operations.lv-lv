@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 21. janvāris
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 21. janvāri.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Human Resources 2021. gada 21. janvārī.
 author: marcelbf
 ms.date: 01/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901094"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 21. janvāris
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā Dynamics 365 Human Resources.
 
 Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -53,9 +53,9 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 Šajā laidienā ir iekļauti tālāk minētie kļūdu labojumi.
 
 > [!NOTE]
-> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo tēmu, lai iekļautu kļūdu labojumus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo rakstu, lai ietvertu kļūdu labojumus, kas to izlaboja būvējuma laikā pēc šī raksta sākotnējā publicēšanas.
 
-| Problēmas numurs | Izsniegt |  Apraksts |
+| Problēmas numurs | Problēma |  Apraksts |
 | --- | --- | --- |
 | 533079 | Navigācijas kļūda "Forma tika izsaukta nepareizi", kad mēģinām skatīt ieturējumus. | Novērsta kļūda, meklējot atvieglojumu ieturējumus ar skatu **No datuma**. |
 | 543641 | Pasta indekss netiek aizpildīts elektroniskajos pārskatos.  | Novērsta iekšēja kļūdu pasta indeksā, kas neparādās ACA elektroniskajā pārskatos Atvieglojumu pārvaldībai, ja seguma kods ir M līdz Q. |

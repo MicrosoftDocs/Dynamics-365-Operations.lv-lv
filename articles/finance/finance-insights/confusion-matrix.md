@@ -1,6 +1,6 @@
 ---
 title: Algoritmiskās mācīšanās modeļu rezultāti
-description: Šajā tēmā ir apspriestas algoritmiskās mācīšanās (AM) modeļu neskaidrību matricas, klasifikācijas problēmas un precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti.
+description: Šajā rakstā apskatītas sajukuma matricas, klasifikācijas problēmas un iekārtu apmācības (KĀI) modeļu precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910176"
 ---
 # <a name="results-of-machine-learning-models"></a>Algoritmiskās mācīšanās modeļu rezultāti
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir apspriestas algoritmiskās mācīšanās (AM) modeļu neskaidrību matricas, klasifikācijas problēmas un precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti. Mērķauditorija ietver inženierus, analītiķus un vadītājus, kuri vēlas apgūt zināšanas un prasmes datu zinātnē.
+Šajā rakstā apskatītas sajukuma matricas, klasifikācijas problēmas un iekārtu apmācības (KĀI) modeļu precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti. Mērķauditorija ietver inženierus, analītiķus un vadītājus, kuri vēlas apgūt zināšanas un prasmes datu zinātnē.
 
 ## <a name="confusion-matrix"></a>Neskaidrību matrica
 Pēc tam, kad ir pārraudzīta AM problēma ir apmācīta, izmantojot vēsturiskos datus, tā tiek testēta, izmantojot datus, kas netiek izmantoti apmācību procesā. Šādā veidā varat salīdzināt apmācītā modeļa prognozes ar faktiskajām vērtībām. Neskaidrību matrica sniedz līdzekļus, lai novērtētu to, cik veiksmīga ir klasifikācijas problēma, un kur tā kļūdās (tas ir, kur tai ir "neskaidrības").
@@ -73,16 +73,16 @@ Precizitāte ir svarīgs rīks saziņai ar domēna ekspertiem, kuri nepārzina s
 
 Maksājumu prognozēšanas scenārijam varat iestatīt mērķi AM modelim, kas ietver dažādas maksāšanas uzvedības faktorus. Mērķis ir tāds, ka modelim ir jāuzlabojas ar naivo minējumu, samazinot nepareizo atbilžu skaitu par vismaz 50 procentiem. Citiem vārdiem sakot, jūs vēlaties mērķa precizitāti, kas sadala atšķirības starp naivā minējuma precizitāti un 100 procentiem.
 
-Tālāk redzamajā tabulā ir apkopoti šīs tēmas neskaidrību matricu principi.
+Šajā tabulā apkopots šis princips attiecībā uz sajukuma matricas šajā rakstā.
 
-| Modelis   | Naivais minējums | Adresāts | Modeļa precizitāte | Vai mērķis ir sasniegts?                                          |
+| Modelis   | Naivais minējums | Mērķis | Modeļa precizitāte | Vai mērķis ir sasniegts?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | 1. modelis | 0.50        | 0.75   | 0.73           | Gandrīz. Šis modelis ievērojami uzlabojas ar naivo minējumu. |
 | 2. modelis | 0.80        | 0.90   | 0.83           | Nr.p.k. Ir nepieciešams uzlabojums.                              |
 
 ## <a name="classification-f1-accuracy"></a>F1 klasifikācijas precizitāte
 
-Šīs tēmas pēdējais apsvērums ir daudz plašāks klasifikācijas AM veiktspējas mērs, kas pazīstams kā F1 precizitāte.
+Šī raksta pēdējais apsverums ir uzlabots KLASIFIKĀCIJAs DĒVĒ veiktspējas mērījums, kas ir pazīstams kā F1 precizitāte.
 
 Pirms F1 precizitātes definēšanas, ir jāiepazīstas ar divām papildu metrikām: precizitāti un atsaukšanu. Precizitāte norāda, cik daudz no kopējā prognožu skaita, kas norādītas kā pozitīvas, ir piešķirtas pareizi. Šī metrika ir pazīstams arī kā pozitīvā prognozētā vērtība. Atsaukšana ir faktisko pozitīvo gadījumu kopskaits, kas tika prognozēti pareizi. Šī metrika ir pazīstama arī kā jutīgums.
 
@@ -97,7 +97,7 @@ F1 mērs apvieno precizitāti un atsaukšanu. Rezultāts ir divu vērtību harmo
 
 - F1 = 2 × (precizitāte × atsaukšana) ÷ (precizitāte + atsaukšana)
 
-Apskatīsim konkrētu piemēru. Iepriekš šajā tēmā bija piemērs ar modeli, kas prognozēja, vai dzīvnieks ir suns vai kaķis. Ilustrācija ir atkārtota šeit.
+Apskatīsim konkrētu piemēru. Agrāk šajā rakstā bija piemērs modelim, kas prognozēts, vai šajā rakstu rakstu skaits bija pārtika vai kats. Ilustrācija ir atkārtota šeit.
 
 [![Sugas prognozēšanas piemērs (atkārtots).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Kā redzat, F1 vērtība ir starp precizitātes un atsaukšanas vērtībām.
 
 Lai gan F1 precizitāte nav tik viegli saprotama, tā pievieno nianses pamata precizitātes skaitlim. Tas var palīdzēt arī ar nesabalansētām datu kopām, kā tiks parādīts tālākajā diskusijā.
 
-Šīs tēmas sadaļa [Modeļa precizitāte](#model-accuracy) salīdzināja divas tālāk norādītās neskaidrību matricas. Lai gan pirmajam modelim bija mazāka precizitāte, tas tika uzskatīts par noderīgāku, jo parādīja lielāku uzlabojumu, nekā noklusējuma minējums par savlaicīgo maksājumu.
+Šī [raksta modeļa](#model-accuracy) precizitātes sadaļā tika salīdzinātas šādas divas neskaidrības matricas. Lai gan pirmajam modelim bija mazāka precizitāte, tas tika uzskatīts par noderīgāku, jo parādīja lielāku uzlabojumu, nekā noklusējuma minējums par savlaicīgo maksājumu.
 
 ![Maksājuma prognoze pret faktisko piemēru.](media/payment-prediction-matrix.png)
 

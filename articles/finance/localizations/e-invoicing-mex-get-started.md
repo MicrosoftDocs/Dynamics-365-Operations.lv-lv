@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
-description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Meksikā.
+description: Šajā rakstā sniegta informācija, kas palīdzēs uzsākt elektronisko rēķinu izrakstīšanu Meksikai.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855334"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566004"
 > [!IMPORTANT]
 > Elektroniskā rēķinu izrakstīšana Meksikai pašlaik neatbalsta visas funkcijas, kas pieejamas Comprobfisk Fiscal Digital por Internet (CFDI) dokumentā un saistītajā integrācijā, Microsoft Dynamics kas ir veidota 365 Finansēs vai Dynamics 365 Supply Chain Management.
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Meksikā. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt darbības, kas jāveic programmā Finance, lai iesniegtu CFDI rēķinus, izmantojot pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus un CFDI rēķinu statusu.
+Šajā rakstā sniegta informācija, kas palīdzēs uzsākt elektronisko rēķinu izrakstīšanu Meksikai. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt darbības, kas jāveic programmā Finance, lai iesniegtu CFDI rēķinus, izmantojot pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus un CFDI rēķinu statusu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms šīs tēmas darbību [veikšanas](e-invoicing-get-started-service-administration.md)[ir jāveic soļi sadaļā Sākt darbu ar elektronisko rēķinu izrakstīšanas pakalpojumu administrāciju un sāciet darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+Pirms šī raksta darbību [veikšanas](e-invoicing-get-started-service-administration.md)[ir jāveic soļi sadaļā Sākt darbu ar elektronisko rēķinu izrakstīšanas pakalpojumu administrāciju un sāciet darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Iestatīt Cadena XSLT
 
@@ -141,11 +141,11 @@ Lai iesniegtu CFDI rēķina atcelšanu, ir jānorāda līdzekļu **Atcelšana** 
 1. **Līdzekļu versijas iestatījuma** lapā Cilnē **Mainīgie** atlasiet mainīgā nosaukumu **DigitalSign fontsXSLT**.
 2. Laukā **Vērtības ievadiet** : {"containerUrl":"https://&lt; AccountStorageName&gt;.blob.core.windows.net/&lt; ContainerName&gt;","path":"&lt; RelativePath&gt;"}
    
-    kur: \<RelativePath\> = folderfolderfile\\\\ nosaukums ar dubultās atpakaļvērstās slīpsvītras, ContainerName ir jānorāda pakalpojumam izmantotais konteiners.
+    kur: \<RelativePath\> = mapes mapes\\ faila\\ nosaukums ar dubultās slīpsvītras, ContainerName ir jānorāda pakalpojumam izmantotais konteiners.
    
     Mainīgā piemērs būtu:
     
-    {"ceļš":"xdev xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
+    {"ceļš":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Piešķirt melnraksta versiju elektroniskajai rēķinu izrakstīšanas videi
 

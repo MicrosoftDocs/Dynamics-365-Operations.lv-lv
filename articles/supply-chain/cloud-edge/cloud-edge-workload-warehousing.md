@@ -1,6 +1,6 @@
 ---
-title: Noliktavas pārvaldība darba slodzēm mākoņa un malas mēroga vienībām
-description: Šajā tēmā ir sniegta informācija par līdzekli, kas iespējo mēroga vienības, lai palaistu atlasītos procesus no jūsu noliktavas pārvaldības darba slodzes.
+title: Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
+description: Šajā rakstā ir sniegta informācija par līdzekli, kas iespējo apjoma vienības palaist atlasītos procesus no noliktavas pārvaldības darba noslodzes.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893502"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Ne visas noliktavas pārvaldības biznesa funkcijas tiek pilnībā atbalstītas noliktavām, kas darbojas kā darba slodze uz mēroga vienības. Noteikti izmantojiet tikai tādus procesus, ko šī tēma skaidri apraksta kā atbalstītas.
+> Ne visas noliktavas pārvaldības biznesa funkcijas tiek pilnībā atbalstītas noliktavām, kas darbojas kā darba slodze uz mēroga vienības. Noteikti izmantojiet tikai procesus, ko šis raksts skaidri apraksta kā atbalstītu.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Noliktavas izpilde mēroga vienībās
 
@@ -36,15 +36,15 @@ Noliktavas pārvaldības darba slodzes ļauj mākoņu un malu līmeņa vienībā
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms sākat strādāt ar noliktavas vadības slodzi, jūsu sistēma ir jāsagatavo, kā aprakstīts šajā sadaļā.
+Pirms sākat strādāt ar noliktavas pārvaldības darba slodzi, jūsu sistēma jāsagatavo, kā aprakstīts šajā sadaļā.
 
-### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Izvietot mēroga vienību ar noliktavas pārvaldības slodzi
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Izvietot mēroga vienību ar noliktavas pārvaldības darba noslodzi
 
 Ir jābūt Dynamics 365 Supply Chain Management centrmezglam un mēroga vienībai, kas ir izvietota ar noliktavas pārvaldības darba slodzi. Papildinformāciju par arhitektūru un izvietošanas procesu skatiet sadaļā [Mēroga vienības izdalītā hibrīda topoloģijā](cloud-edge-landing-page.md).
 
-### <a name="turn-on-required-features-in-feature-management"></a>Nepieciešamo līdzekļu pārvaldības ieslēdziet nepieciešamos līdzekļus
+### <a name="turn-on-required-features-in-feature-management"></a>Funkciju pārvaldībā ieslēgt nepieciešamos līdzekļus
 
-[Izmantojiet līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai ieslēgtu abus tālāk norādītos līdzekļus. (Abi līdzekļi ir uzskaitīti zem *Noliktavas pārvaldības* modulis.)
+Izmantojiet līdzekļu [pārvaldības darbvietu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu abus tālāk norādītos līdzekļus. (Abas funkcijas ir uzskaitītas zem *Noliktavas pārvaldības* modulis.)
 
 - Izvietošanas darba atvienošana no IPPN
 - (Priekšskatījums) Mērogošanas vienības atbalsts ienākošajiem un izejošajiem noliktavas pasūtījumiem
@@ -62,10 +62,10 @@ Atkarībā no biznesa procesiem vienam un tam pašam datu ierakstam var mainīti
 
 ## <a name="outbound-process-flow"></a>Izejošā procesa plūsma
 
-Pirms noliktavas pārvaldības darba slodzes izvietošanas mākoņa vai malu mēroga vienībā pārliecinieties, vai jūsu uzņēmuma centrmezglā *ir iespējots funkciju Mērogot vienību, lai tos nodotu* pārdošanai noliktavā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms noliktavas pārvaldības darba noslodzes izvietošanas mākoņa vai malas mēroga vienībā noteikti nodrošiniet, *lai* uzņēmuma pārkraušanas centrā būtu iespējots nosūtīšanas pasūtījumu funkcijas pārvietošanai uz noliktavu. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas pārvaldība*
-- **Funkcijas nosaukums:** *Mērogot vienības atbalstu izejošo pasūtījumu nodošanai noliktavā*
+- **Līdzekļa nosaukums:** *mēroga vienības atbalsts nosūtīšanai uz noliktavu izejošajiem pasūtījumiem*
 
 Izejošo datu īpašumtiesību process ir atkarīgs no tā, vai jūs lietojat slodzes plānošanas procesu. Visos gadījumos centrmezglam pieder *avota dokumenti*, piemēram, pārdošanas pasūtījumi un pārsūtīšanas pasūtījumi, kā arī pasūtījumu sadalīšanas process un saistītie pasūtījuma transakcijas dati. Taču, ja lietojat slodzes plānošanas procesu, slodzes tiks izveidotas mezglā un tāpēc tās sākotnēji piederēs centrmezglam. *Izlaišanas uz noliktavu* procesa ietvaros slodzes datu īpašumtiesības tiek pārvirzītas uz īpašu mēroga vienības izvietojumu, kas kļūst par tālākā *sūtījuma kopuma apstrādes* (piemēram, darba piešķires, papildināšanas darba un pieprasījuma darba izveidnes) īpašnieku. Tāpēc noliktavas darbinieki var apstrādāt tikai izejošo pārdošanas un pārsūtīšanas pasūtījuma darbu, izmantojot Warehouse Management mobilo lietojumprogrammu, kas ir savienota ar izvietojumu, kas palaiž konkrēto mēroga vienības darba slodzi.
 
@@ -121,7 +121,7 @@ Kad darbinieks veic iekšējo reģistrāciju ar Warehouse Management mobilo liet
 
 ## <a name="production-control"></a>Ražošanas kontrole
 
-Noliktavas pārvaldības darba slodze atbalsta šādas trīs ražošanas plūsmas programmā Noliktavas pārvaldība:
+Noliktavas pārvaldības darba noslodze atbalsta šādas trīs ražošanas plūsmas noliktavas pārvaldības programmā:
 
 - Reģistrēt pabeigšanu un izvietot
 - Sākt ražošanas pasūtījumu
@@ -129,15 +129,15 @@ Noliktavas pārvaldības darba slodze atbalsta šādas trīs ražošanas plūsma
 
 ### <a name="report-as-finished-and-put-away"></a>Reģistrēt pabeigšanu un izvietot
 
-Darbinieki var izmantot pabeigto **atskaiti un izvietot** plūsmu programmā Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījumu kā pabeigtu. Viņi var arī ziņot par līdzproduktiem un blakusproduktiem partijas pasūtījumā kā gataviem. Kad darbs ir pabeigts, sistēma parasti ģenerē izvietošanas noliktavas darbu mēroga vienībā. Ja jums nav nepieciešams izvietošanas darbs, varat iestatīt darba politikas, lai tās izlaistu.
+Darbinieki var izmantot krājumu **pārskatu kā pabeigtu un** ievietot plūsmu noliktavas pārvaldības programmā, lai ziņotu, ka ražošanas vai partijas pasūtījums ir pabeigts. Viņi var arī ziņot, ka līdzprodukti un blakusprodukti partijas pasūtījumā ir pabeigti. Kad ir ziņots, ka darbs ir pabeigts, sistēma parasti uz svaru vienības ģenerē putaway noliktavas darbu. Ja jums nav nepieciešams izvietošanas darbs, varat iestatīt darba politikas to izlaist.
 
 ### <a name="start-production-order"></a>Sākt ražošanas pasūtījumu
 
-Darbinieki var izmantot **sākuma ražošanas pasūtījuma** plūsmu programmā Noliktavas pārvaldība, lai reģistrētu ražošanas vai partijas pasūtījuma sākumu.
+Darbinieki var izmantot sākt **ražošanas pasūtījumu** plūsmu noliktavas pārvaldības programmā, lai reģistrētu ražošanas vai partijas pasūtījuma sākumu.
 
 ### <a name="register-material-consumption"></a>Reģistrēt materiālu patēriņu
 
-Darbinieki var izmantot **reģistra materiālu patēriņa** plūsmu programmā Noliktavas pārvaldība, lai ziņotu par materiālu patēriņu ražošanas vai partijas pasūtījumam. Pēc tam tiek izveidots izdošanas saraksta žurnāls pārskata materiālam ražošanas vai partijas pasūtījumā mēroga vienībā. Žurnāla rindas veic fizisku rezervāciju patērētajiem krājumiem. Kad dati tiek sinhronizēti starp skalas vienību un centrmezglu, centrmezgla instancē tiek ģenerēts un grāmatots izdošanas saraksta žurnāls.
+Darbinieki var izmantot reģistru **materiālu patēriņa plūsmu** noliktavas pārvaldības programmā, lai ziņotu par ražošanas vai partijas pasūtījuma materiālu patēriņu. Pēc tam tiek izveidots izdošanas saraksta žurnāls par ziņoto materiālu ražošanas vai partijas pasūtījumā uz svariem vienības. Žurnāla rindas veic fizisku rezervāciju patērētos krājumos. Kad dati ir sinhronizēti starp mēroga vienību un pārkraušanas punktu, pārkraušanas punktu instancē tiek ģenerēts un grāmatots izdošanas saraksta žurnāls.
 
 ## <a name="supported-processes-and-roles"></a>Atbalstītie procesi un lomas
 
@@ -170,21 +170,21 @@ Mēroga vienības noliktavas izpildes slodzei var iespējot šādus noliktavas i
 - **Ciklu skaitīšana** — tostarp neatbilstību apstiprināšanas / noraidīšanas process kā daļa no skaitīšanas darbībām.
 - **Pirkuma pasūtījumi** — izvietošanas darbs ar noliktavas pasūtījumu, kad pirkuma pasūtījumi netiek saistīti ar slodzēm.
 - **Pārdošanas pasūtījumi** — Vienkārša saņemšana un iekraušana.
-- **Pārskaitījuma kvīts** – izmantojot numura zīmes saņemšanas apstrādi.
+- **Pārsūtīšanas saņemšana** — izmantojot noliktavas vienības saņemšanas apstrādi.
 - **Pārsūtīšanas problēma** — Vienkārša saņemšana un iekraušana.
 - **Papildināšana** — Neietver ražošanas izejmateriālus.
 - **Gatavo preču izvietošana** — Pēc procesa "reģistrēt kā pabeigtu".
 - **Līdzproduktu un blakus produktu izvietošana** — Pēc procesa "reģistrēt kā pabeigtu".
 <!-- - **Packed container picking** - After manual packing station processing. -->
 
-Mēroga vienībās pašlaik netiek atbalstīti citi pirmdokumentu apstrādes vai noliktavas darbu tipi. Piemēram, ja mēroga vienībā tiek veikta noliktavas izpildes noslodze, atgriezto preču atgriešanas pasūtījumu saņemšanas procesu nevar izmantot atgriešanas pasūtījumu apstrādei. Tā vietā šī apstrāde jāveic centrmezgla instancei.
+Pašlaik svaru vienībās netiek atbalstīts neviens cits pirmdokumenta apstrādes vai noliktavas darba tips. Piemēram, ja izmantojat noliktavas izpildes darba slodzi uz svariem, atgriešanas pasūtījuma saņemšanas procesu nevar izmantot, lai apstrādātu atgriešanas pasūtījumus. Tā vietā šī apstrāde jāveic pārkraušanas punktu instancei.
 
 > [!NOTE]
 > Mobilās ierīces izvēlnes vienumi un pogas neatbalstītām funkcionalitātēm netiek rādītas _Warehouse Management mobile programmā_, kad tā ir saistīta ar apjoma vienību izvietošanu.
 >
-> Ir jāveic dažas papildu darbības, lai iestatītu mobilo programmu Noliktavas pārvaldība darbam pret mākoņa vai malu mēroga vienību. Papildinformāciju skatiet rakstā [Noliktavas pārvaldības mobilās programmas konfigurēšana mākoņa un malu mēroga vienībām](cloud-edge-workload-setup-warehouse-app.md).
+> Lai iestatītu noliktavas pārvaldības mobilo programmu, ir jāveic daži papildu soļi, lai strādātu ar mākoņa vai malas mēroga vienību. Papildinformāciju skatiet noliktavas [pārvaldības mobilās programmas konfigurēšana mākoņa un malas skalas vienībām](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Ja izmantojat darba slodzi mēroga vienībā, nevar palaist neatbalstītus procesus konkrētai noliktavai centrmezglā. Vēlāk šajā tēmā sniegtās tabulas dokumentē atbalstītās iespējas.
+> Ja izmantojat darba slodzi mēroga vienībā, nevar palaist neatbalstītus procesus konkrētai noliktavai centrmezglā. Vēlāk šajā dokumentā sniegtās tabulas dokumentē atbalstītās iespējas.
 >
 > Atlasītos noliktavas darba veidus var izveidot gan pārkraušanas punktā, gan mēroga vienībās, bet to var uzturēt tikai ar pārkraušanas punktu vai mēroga vienību (izvietošana, kas izveidoja datus).
 >
@@ -210,7 +210,7 @@ Mēroga vienībās pašlaik netiek atbalstīti citi pirmdokumentu apstrādes vai
 - Apstrāde ar vienībām, kas iespējotas tikai Pārvadāšanas pārvaldībai (TMS).
 - Apstrāde ar negatīvu rīcībā esošo krājumu.
 - Produktu datu koplietošana uzņēmumos. <!-- Planned -->
-- Noliktavas darba apstrāde ar nosūtīšanas pavadzīmēm (piemēram, pavadzīmes iepakošanas stacijā).
+- Noliktavas darba apstrāde ar nosūtīšanas piezīmēm (piemēram, iepakošanas pavadzīmēm iepakošanas stacijā).
 - Produktu galveno datu attēli (piemēram, Warehouse Management mobilajā lietotnē).
 - Noliktavas darba apstrāde ar materiālu apstrāde / noliktavu automatizāciju.
 
@@ -236,7 +236,7 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 | Uzturēt kopuma sūtījumus                                  | Nē  | Jā|
 | Noliktavas darba apstrāde (iekļaujot numura zīmes druku)        | Nē  | Jā, taču tikai iepriekš minētajām atbalstītajām iespējām |
 | Klastera izdošana                                              | Nē  | Jā|
-| Manuāla iepakošanas staciju apstrāde  | Nē  | Nē |
+| Manuāla iepakošanas stacijas apstrāde  | Nē  | Nē |
 | Izejošās kārtošanas apstrāde                                  | Nē  | Nē |
 | Ar noslodzi saistīto dokumentu drukāšana                           | Jā | Jā|
 | Preču transporta pavadzīmes un IPPN ģenerēšana                            | Nē  | Jā|
@@ -255,9 +255,9 @@ Sekojošajā tabulā ir parādīts, kuri izejošie līdzekļi tiek atbalstīti u
 | Samazināt izdoto daudzumu                                       | Nē  | Jā|
 | Atsaukt darbu                                                 | Nē  | Jā|
 | Atsaukt sūtījuma apstiprinājumu                                | Nē  | Jā|
-| Pieprasījums atcelt noliktavas pasūtījuma rindas                      | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
-| <p>Izlaist pārsūtīšanas pasūtījumus saņemšanai</p><p>Šis process automātiski notiks pārsūtīšanas pasūtījuma nosūtīšanas procesa ietvaros. Tomēr to var izmantot manuāli, lai iespējotu numura zīmes saņemšanu mēroga vienībā, ja ienākošās noliktavas pasūtījuma rindas ir atceltas, vai kā daļu no jauna darba slodzes izvietošanas procesa.</p> | Jā | Nē|
-<!--| Manuāla iepakošanas staciju apstrāde, ieskaitot "Iepakotu konteineru savākšanu" darbu  | Nē  | Jā, bet bez TMS nosūtīšanas manifestēšanas un pārdošanas pavadzīmes grāmatošanas un bez pavadzīmes un produktu attēliem |-->
+| Pieprasīt atcelt noliktavas pasūtījuma rindas                      | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
+| <p>Izlaist pārsūtīšanas pasūtījumus saņemšanai</p><p>Šis process automātiski notiks kā daļa no pārsūtīšanas pasūtījuma nosūtīšanas procesa. Tomēr to var izmantot manuāli, lai iespējotu numura zīmes saņemšanu uz mēroga vienību, ja ir atceltas saņemšanas noliktavas pasūtījuma rindas vai kā daļa no jauna darba noslodzes izvietošanas procesa.</p> | Jā | Nē|
+<!--| Manuāla iepakošanas stacijas apstrāde, tostarp darbs Iepakotā konteinera izdošana  | Nē  | Jā, bet bez TMS sūtījuma manifesta un pārdošanas pavadzīmes grāmatošanas un bez pavadzīmēm un preču attēliem |-->
 
 ### <a name="inbound"></a>Saņemšana
 
@@ -270,15 +270,15 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 | Kopējās izmaksas un tranzīta kravu saņemšana                       | Jā | Nē |
 | Ienākošā sūtījuma apstiprinājums                                    | Jā | Nē |
 | Pirkšanas pasūtījuma nodošana noliktavā (noliktavas pasūtījuma apstrāde) | Jā | Nē |
-| Pieprasījums atcelt noliktavas pasūtījuma rindas                            | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
+| Pieprasīt atcelt noliktavas pasūtījuma rindas                            | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
 | Pirkšanas pasūtījuma pirmdokumenta produktu ieejas plūsmas apstrāde                        | Jā | Nē |
 | Pirkšanas pasūtījuma krājuma saņemšana un izvietošana                       | <p>Jā,&nbsp;ja&nbsp;nav&nbsp;noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p> |
 | Pirkšanas pasūtījuma rindas saņemšana un izvietošana                       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, ja pirkšanas pasūtījums nav daļa no <i>noslodzes</i></p></p> |
 | Atgriešanas pasūtījuma saņemšana un izvietošana                              | Jā | Nē |
 | Jaukto noliktavas vienību saņemšana un izvietošana                       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā |
 | Kravas krājuma saņemšana                                              | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
-| Pirkuma pasūtījums Numura zīmes saņemšana un izvietošana              | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
-| Pārsūtīšanas pasūtījums Numura zīmes saņemšana un izvietošana             | Nē | Jā |
+| Pirkšanas pasūtījuma numura zīmes saņemšana un izvietošana              | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
+| Pārsūtīt pasūtījuma noliktavas vienības saņemšanu un izvietošana             | Nē | Jā |
 | Pārsūtīšanas pasūtījuma krājumu saņemšana un izvietošana                       | Jā | Nē |
 | Pārsūtīt pasūtījuma rindas saņemšanu un izvietošanu                       | Jā | Nē |
 | Pirkšanas pasūtījuma saņemšana ar nepilnu pasūtījumu                      | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā, bet tikai no pārkraušanas centra pieprasot atcelšanu |
@@ -290,7 +290,7 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 | Kvalitātes pasūtījuma izveidošana ar saņemšanu                            | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nē |
 | Darba apstrāde — novirzīts pēc *Klastera izvietošanas*                 | Jā | Nē |
 | Darba apstrāde ar *Īso savākšanu*                               | Jā | Nē |
-| Atcelt darbu (ienākošais)                                            | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, bet tikai tad, ja tiek notīrīta <b>opcija Noņemt saņemšanu, atceļot darba</b> opciju <b>lapā Noliktavas pārvaldības parametri</b></p> |
+| Atcelt darbu (ienākošais)                                            | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | <p>Jā, bet tikai tad <b>, ja opcija Noņemt saņemšanas reģistrāciju, kad darba</b> atcelšana lapā <b>Noliktavas pārvaldības parametri</b> ir notīrīta</p> |
 | Numura zīmes ielāde                                           | Jā | Jā |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Noliktavas darbības un izņēmumu nodošana
@@ -331,11 +331,11 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 
 | Apstrādāšana | Centrmezgls | Noliktavas izpildes darba slodze mēroga vienībā |
 |---------|-----|----------------------------------------------|
-| Ražošanas pasūtījuma pirmdokumentu apstrāde    | Jā | Nē |
+| Ražošanas pasūtījuma pirmdokumenta apstrāde    | Jā | Nē |
 | Izlaist uz noliktavu                           | Jā | Nē |
 | Sākt ražošanas pasūtījumu                         | Jā | Jā|
 | Izveidot noliktavas pasūtījumus                        | Jā | Nē |
-| Pieprasījums atcelt noliktavas pasūtījuma rindas        | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
+| Pieprasīt atcelt noliktavas pasūtījuma rindas        | Jā | Nē, bet pieprasījums tiks apstiprināts vai noraidīts |
 | Reģistrēt pabeigšanu un izvietot pabeigtās preces | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā|
 | Līdzproduktu un blakusproduktu izvietošana             | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā|
 | Reģistrēt materiālu patēriņu                  | Jā | Jā|
@@ -352,21 +352,21 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 
 Vairāki pakešuzdevumi tiek palaisti gan centrmezglā, gan mēroga vienībās.
 
-Centrmezgla izvietojumā manuāli var uzturēt šādus pakešuzdevumus:
+Pārkraušanas punktu izvietošanā varat manuāli uzturēt šādus pakešuzdevumus:
 
-- Pārvaldiet šādus pakešuzdevumus noliktavas **pārvaldībā \> Periodiski uzdevumi \> Back-office darba slodzes pārvaldība**:
+- Pārvaldīt tālāk norādītos pakešuzdevumus: **Noliktavas pārvaldība \> Periodiskie uzdevumi \> Dokumentu apstrādes biroja darba noslodzes pārvaldība**:
 
     - Mērogotās vienības centrmezglam ziņojumu apstrādātājs
     - Reģistrēt avota pasūtījuma kvītis
     - Pabeigt noliktavas pasūtījumus
     - Ģenerēt trūkstošos izejošos noliktavas pasūtījumus
 
-- Noliktavas pārvaldībā **pārvaldīt šādus pakešuzdevumus \> Periodiskie uzdevumi \> Darba slodzes pārvaldība**:
+- Pārvaldīt tālāk norādītos pakešuzdevumus noliktavas pārvaldības **periodisko \> uzdevumu darba \> noslodzes pārvaldībā**:
 
     - Noliktavas centrmezgla mērogotai vienībai ziņojumu apstrādātājs
     - Apstrādājiet noliktavas pasūtījumu rindas kvītis noliktavas kvīšu grāmatošanai
 
-Lielapjoma vienību izvietojumos noliktavas pārvaldībā **var pārvaldīt šādus pakešuzdevumus \> Periodiskie uzdevumi \> Darba slodzes pārvaldība**:
+Mēroga vienību izvietošanā varat pārvaldīt tālāk norādītos pakešuzdevumus, kas atrodas Noliktavas pārvaldības periodisko **\> uzdevumu darba \> noslodzes pārvaldībā**:
 
 - Apstrādājiet kopuma tabulas ierakstus
 - Noliktavas centrmezgla mērogotai vienībai ziņojumu apstrādātājs

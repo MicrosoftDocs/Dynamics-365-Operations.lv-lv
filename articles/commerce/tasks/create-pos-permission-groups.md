@@ -1,6 +1,6 @@
 ---
 title: POS atļauju grupu izveide
-description: Šajā tēmā ir paskaidrots, kā izveidot POS atļauju grupu.
+description: Šajā rakstā ir izskaidrots, kā izveidot POS atļauju grupu.
 author: scott-tucker
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905428"
 ---
 # <a name="create-pos-permission-groups"></a>POS atļauju grupu izveide
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot POS atļauju grupu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts tirdzniecības operāciju pārvaldnieka lomai.
+Šajā rakstā ir izskaidrots, kā izveidot POS atļauju grupu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT. Šis uzdevums ir paredzēts tirdzniecības operāciju pārvaldnieka lomai.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Mazumtirdzniecība un tirdzniecība > Darbinieki > Atļauju grupas**.
 2. Atlasiet **Jauns**.

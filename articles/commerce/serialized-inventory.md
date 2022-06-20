@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas punkta (POS) uzlabojumi serializētām precēm
-description: Šajā tēmā ir uzskaitīti uzlabojumi, kas ir ieviesti serializētām precēm, lai jums palīdzētu ietaupīt laiku un strādāt produktīvāk.
+description: Šajā rakstā ir uzskaitīti uzlabojumi, kas veikti serializētām precēm, lai palīdzētu jums ietaupīt laiku un būt produktīvākām.
 author: ShalabhjainMSFT
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 58252279a625bbdaac7192d1e6e538b9b1fd89ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890299"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Pārdošanas punkta (POS) uzlabojumi serializētām precēm
 

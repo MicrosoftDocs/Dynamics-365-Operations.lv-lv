@@ -1,6 +1,6 @@
 ---
 title: Nomas apstiprinājuma darbplūsmu iestatīšana
-description: Tēmā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks palaista, kad tiek izveidota jauna noma.
+description: Šajā rakstā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks izpildīta, izveidojot jaunu nomu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870283"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Nomas apstiprinājuma darbplūsmu iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Tēmā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks palaista, kad tiek izveidota jauna noma. Plašāku informāciju par to, kā izmantot darbplūsmu, skatiet tēmā [Nomu apstiprināšanas darbplūsmu izmantošana](use-create-lease-wrkflw.md). 
+Šajā rakstā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks izpildīta, izveidojot jaunu nomu. Plašāku informāciju par to, kā izmantot darbplūsmu, skatiet tēmā [Nomu apstiprināšanas darbplūsmu izmantošana](use-create-lease-wrkflw.md). 
 
 1. Dodieties uz **Līdzekļu noma \> Iestatījumi \> Nomas darbplūsma**.
 2. Lapā **Nomas darbplūsma** atlasiet **Jauna**.

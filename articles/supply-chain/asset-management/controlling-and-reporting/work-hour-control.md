@@ -1,6 +1,6 @@
 ---
 title: Darba stundu kontrole
-description: Šajā tēmā ir aprakstīta darba stundu kontrole līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrota darba stundu kontrole Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f5f5dbb23c4d6c86bee7612c4ade65ef4b1cee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869754"
 ---
 # <a name="work-hour-control"></a>Darba stundu kontrole
 

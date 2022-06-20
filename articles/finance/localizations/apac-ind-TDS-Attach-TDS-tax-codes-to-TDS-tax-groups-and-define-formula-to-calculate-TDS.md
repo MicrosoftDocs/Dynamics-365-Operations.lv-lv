@@ -1,6 +1,6 @@
 ---
 title: Pievienojiet TDS nodokļu kodus TDS nodokļu grupām un definējiet TDS aprēķināšanas formulu
-description: Šajā tēmā ir paskaidrots, kā iestatīt No kopējo ienākumu summas atskaitītā (TDS) nodokļu grupas un pievienot TDS nodokļu kodus TDS nodokļu grupām. Lai aprēķinātu TDS nodokļu grupai, jums ir jādefinē formula TDS nodokļu kodiem, kas tam piesaistīti.
+description: Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli avota (TDS) nodokļu grupas un pievienot TDS nodokļu kodus TDS nodokļu grupām. Lai aprēķinātu TDS nodokļu grupai, jums ir jādefinē formula TDS nodokļu kodiem, kas tam piesaistīti.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853319"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Pievienojiet TDS nodokļu kodus TDS nodokļu grupām un definējiet TDS aprēķināšanas formulu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt No kopējo ienākumu summas atskaitītā (TDS) nodokļu grupas un pievienot TDS nodokļu kodus TDS nodokļu grupām. Lai aprēķinātu TDS nodokļu grupai, jums ir jādefinē formula TDS nodokļu kodiem, kas tam piesaistīti.
+Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli avota (TDS) nodokļu grupas un pievienot TDS nodokļu kodus TDS nodokļu grupām. Lai aprēķinātu TDS nodokļu grupai, jums ir jādefinē formula TDS nodokļu kodiem, kas tam piesaistīti.
 
 Sekojiet šiem soļiem, lai iestatītu TDS nodokļu grupu, tai pievienotus TDS nodokļu kodus un definētu formulu TDS aprēķināšanai.
 

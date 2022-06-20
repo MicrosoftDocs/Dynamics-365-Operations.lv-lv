@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903874"
 ---
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
@@ -126,7 +126,7 @@ Lai kredīta limita summu norādītu konkrētam debitoram, izmantojiet formu **D
 4.  Ja nepieciešams, laukā **Valsts iestādes izsniegta identifikācija** ievadiet licences numuru vai citu valsts iestādes izsniegtu identifikāciju.
 
 > [!NOTE]
-> Formā **Debitoru parādu parametri** parasti ir atlasīts kredīta limita tips. Taču, ja kredīta limita tips ir iestatīts uz **Nav**, tad jums ir jāatzīmē arī izvēles rūtiņa **Obligātais kredīta limits** formā **Debitori**, lai debitora kredīta limitu pārbaudītu pret šī debitora bilanci. Plašāku informāciju par kredīta limita tipiem skatiet šīs tēmas sadaļā “Kādiem dokumentiem un procesiem var pārbaudīt kredīta limitus?” . 
+> Formā **Debitoru parādu parametri** parasti ir atlasīts kredīta limita tips. Taču, ja kredīta limita tips ir iestatīts uz **Nav**, tad jums ir jāatzīmē arī izvēles rūtiņa **Obligātais kredīta limits** formā **Debitori**, lai debitora kredīta limitu pārbaudītu pret šī debitora bilanci. Plašāku informāciju par kredīta limita tipiem skatiet šīs tēmas sadaļā “Kādiem dokumentiem un procesiem var pārbaudīt kredīta limitus?” šajā rakstā. 
 
 **Kā kredīta limitus manuāli pārbaudīt pārdošanas pasūtījumos?**
 

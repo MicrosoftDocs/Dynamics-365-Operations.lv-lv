@@ -1,6 +1,6 @@
 ---
-title: Darbinieku patstāvīgi izmantojamā pakalpojuma darbvietas nosaukuma maiņa
-description: Šajā tēmā aprakstīts, kā mainīt darbinieka pašaklapošanās darbvietas nosaukumu pakalpojumā Dynamics 365 Human Resources.
+title: Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma maiņa
+description: Šajā rakstā ir aprakstīts, kā mainīt darbinieka pašapkalpošanās darbvietas parādāmo nosaukumu Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e45c8a86e4b6fd81c95d2ac085280f294d93cdfe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8f0ee9981d1c02e0fb114976955d406ba74afb0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886136"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma maiņa
 

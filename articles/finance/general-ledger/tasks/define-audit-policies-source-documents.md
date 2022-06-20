@@ -1,6 +1,6 @@
 ---
-title: Pirmdokumentu audita ierobežojuma nosacījumu definēšana
-description: Šajā tēmā ir izskaidrots, kā iestatīt un piemērot audita politikas noteikumus.
+title: Pirmdokumentu audita politiku definēšana
+description: Šajā rakstā skaidrots, kā iestatīt un palaist audita ierobežojumu nosacījumus.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872533"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Pirmdokumentu audita ierobežojuma nosacījumu definēšana
+# <a name="define-audit-policies-for-source-documents"></a>Pirmdokumentu audita politiku definēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā iestatīt un piemērot audita politikas noteikumus. Piemērā tiek izmantotas izdevumu atskaites ar viesnīcu izdevumu tipu. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Auditora loma ietver šo uzdevumu veikšanai atbilstošās atļaujas.
+Šajā rakstā skaidrots, kā iestatīt un palaist audita ierobežojumu nosacījumus. Piemērā tiek izmantotas izdevumu atskaites ar viesnīcu izdevumu tipu. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Auditora loma ietver šo uzdevumu veikšanai atbilstošās atļaujas.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Audita darbvieta > Iestatīšana > Politikas noteikuma veids**.
 2. Atlasiet **Jauns**.

@@ -1,6 +1,6 @@
 ---
 title: Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
-description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+description: Šajā rakstā ir uzskaitīti jaunās vai atjauninātās uzdevumu rokasgrāmatas, kas tika izlaistas Microsoft (2016. gada augusts — visas valodas) APQC unificētā bibliotēkai Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16777901e66aeac93c8e0bbd2ee024a033fe5b52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886555"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
+Šajā rakstā ir uzskaitīti jaunās vai atjauninātās uzdevumu rokasgrāmatas, kas tika izlaistas Microsoft (2016. gada augusts — visas valodas) APQC unificētā bibliotēkai Microsoft Dynamics AX. Netika izlaista neviena jauna darba sākšanas bibliotēka.
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas)
 
-APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet sadaļā [Kas jauns vai mainīts Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 ### <a name="data-access"></a>Piekļuve datiem
 

@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
-description: Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu izveides (Electronic Reporting — ER) konfigurāciju, lai nodrošinātu datu pārsūtīšanu no savas instances uz Power BI pakalpojumiem.
+description: Šajā rakstā skaidrots, kā var lietot elektronisko pārskatu (ER) konfigurāciju, lai noteiktu datu pārsūtīšanu no instances uz Power BI pakalpojumiem.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896739"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu izveides (Electronic Reporting — ER) konfigurāciju, lai nodrošinātu datu pārsūtīšanu no savas instances uz Power BI pakalpojumiem. Kā piemērs šajā tēmā ir izmantotas Intrastat transakcijas, kas veido pārsūtāmos biznesa datus. Power BI kartes vizualizācijas funkcija izmanto šos Intrastat darbību datus, lai Power BI pārskatā parādītu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzi.
+Šajā rakstā skaidrots, kā var lietot elektronisko pārskatu (ER) konfigurāciju, lai noteiktu datu pārsūtīšanu no instances uz Power BI pakalpojumiem. Piemēram, šis raksts lieto Intrastat darbības kā biznesa datus, kas jāpārsūta. Power BI kartes vizualizācijas funkcija izmanto šos Intrastat darbību datus, lai Power BI pārskatā parādītu uzņēmuma importēšanas/eksportēšanas aktivitāšu analīzi.
 
 ## <a name="overview"></a>Pārskats
 
-Microsoft Power BI ir programmatūras pakalpojumu, programmu un savienotāju kopa, kuras komponenti savstarpēji sadarbojas, lai no ārējiem datu avotiem iegūtu saprotamus, vizuāli visaptverošus un interaktīvus ieskatus. Modulis Elektronisko pārskatu izveide (ER) sniedz lietotājiem iespēju viegli konfigurēt datu avotus un konfigurēt datu pārsūtīšanu no programmas uz pakalpojumu Power BI. Dati tiek pārsūtīti kā OpenXML darblapas (Microsoft Excel darbgrāmatas) formāta faili. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server serverī, kas ir konfigurēts šim nolūkam. Glabātie faili tiek izmantoti pakalpojumā Power BI, lai izveidotu pārskatus, kuros ir ietvertas vizualizācijas (tabulas, diagrammas, kartes utt.). Power BI pārskati tiek kopīgoti ar Power BI lietotājiem, un tiem var piekļūt Power BI informācijas paneļos un programmas lapās. Šajā tēmā ir paskaidroti tālāk uzskaitītie uzdevumi.
+Microsoft Power BI ir programmatūras pakalpojumu, programmu un savienotāju kopa, kuras komponenti savstarpēji sadarbojas, lai no ārējiem datu avotiem iegūtu saprotamus, vizuāli visaptverošus un interaktīvus ieskatus. Modulis Elektronisko pārskatu izveide (ER) sniedz lietotājiem iespēju viegli konfigurēt datu avotus un konfigurēt datu pārsūtīšanu no programmas uz pakalpojumu Power BI. Dati tiek pārsūtīti kā OpenXML darblapas (Microsoft Excel darbgrāmatas) formāta faili. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server serverī, kas ir konfigurēts šim nolūkam. Glabātie faili tiek izmantoti pakalpojumā Power BI, lai izveidotu pārskatus, kuros ir ietvertas vizualizācijas (tabulas, diagrammas, kartes utt.). Power BI pārskati tiek kopīgoti ar Power BI lietotājiem, un tiem var piekļūt Power BI informācijas paneļos un programmas lapās. Šajā rakstā skaidroti šādi uzdevumi:
 
-- Konfigurēt Microsoft Dynamics 365 Finance.
+- Konfigurējiet Microsoft Dynamics 365 Finanses.
 - Sagatavojiet savu ER formāta konfigurāciju, lai saņemtu datus no programmas Finance.
 - Konfigurējiet ER vidi datu pārsūtīšanai uz pakalpojumu Power BI.
 - Izmantojiet pārsūtītos datus, lai izveidotu Power BI pārskatu.
 - Padariet Power BI pārskatu pieejamu programmā Finance.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
-Lai izpildītu šajā tēmā aprakstīto piemēru, jums ir nepieciešama tālāk norādītā piekļuve.
+Lai pabeigtu piemēru šajā rakstā, jums ir jābūt šādai piekļuvei:
 
 - Piekļuve vienai no šīm lomām:
 

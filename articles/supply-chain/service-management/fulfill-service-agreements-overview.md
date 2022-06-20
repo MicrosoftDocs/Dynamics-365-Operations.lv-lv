@@ -1,6 +1,6 @@
 ---
-title: Pakalpojumu līgumu izpildes apskats
-description: Šajā tēmā ir sniegts pārskats par uzdevumiem, lai izpildītu pakalpojumu līgumus.
+title: Pakalpojumu līgumu izpildes pārskats
+description: Šajā rakstā sniegts pārskats par uzdevumiem, kas veicami pakalpojumu līgumu izpildei.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852104"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Pakalpojumu līgumu izpildes apskats
+# <a name="fulfill-service-agreements-overview"></a>Pakalpojumu līgumu izpildes pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par uzdevumiem, lai izpildītu pakalpojumu līgumus. Tēmā ir arī uzskaitītas veidlapas, kas ir saistītas ar katru biznesa procesa komponentu, un aprakstīti ar katru biznesa procesa komponentu saistītie uzdevumi.
+Šajā rakstā sniegts pārskats par uzdevumiem, kas veicami pakalpojumu līgumu izpildei. Šajā rakstā uzskaitītas arī formas, kas ir saistītas ar katru biznesa procesa komponentu un apspriesti uzdevumi, kas saistīti ar katru biznesa procesa komponentu.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Veidlapas pakalpojumu līgumu pildīšanas biznesa procesa komponentiem
 

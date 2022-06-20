@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889433"
 ---
 # <a name="location-license-plate-positioning"></a>Novietojuma noliktavas vienības pozīcija
 
@@ -28,11 +28,11 @@ Noliktavas vienības novietojuma pozīcija ļauj skatīt, kur noliktavas vienīb
 
 Līdzeklis pievieno secības numuru katrai noliktavas vienībai, kas tiek ievietota glabāšanas vietā. Secības numurs tiek izmantots, lai sakārtotu noliktavas vienības glabāšanas vietā. Tāpēc šis līdzeklis pārdomāti atbalsta scenārijus, kuros klienti izmanto gravitācijas plauktu sistēmu, kā arī izdošanas nolūkos tiem ir jāzina, kura noliktavas vienība ir priekšējā.
 
-Šī tēma iepazīstina ar scenāriju, kas parāda, kā iestatīt un izmantot līdzekli.
+Šajā rakstā ir parādīts scenārijs, kurā parādīts, kā iestatīt un izmantot šo līdzekli.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Ieslēgt vai izslēgt novietojuma numura zīmes novietošanas līdzekli
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, sistēmai *jābūt* ieslēgtai novietojuma numura zīmes novietojuma funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot novietojuma numura zīmes pozicionēšanas*[līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, sistēmai *ir* jābūt ieslēgtai novietojuma numura zīmes novietojuma funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot novietojuma numura zīmes pozicionēšanas*[līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Piemērs
 
@@ -42,7 +42,7 @@ Lai strādātu ar šo scenāriju, izmantojot šeit piedāvātās vērtības, ir 
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Iestatīt līdzekli šim scenārijam
 
-Izpildiet šādas procedūras, lai iestatītu līdzekli *Novietojuma noliktavas vienības pozīcija* scenārijam šajā tēmā.
+Veiciet tālāk norādītās procedūras, lai iestatītu *līdzekli Novietojuma numura zīmes pozicionēšana* scenārijam, kas ir parādīts šajā rakstā.
 
 #### <a name="location-profiles"></a>Atrašanās vietu profili
 

@@ -1,6 +1,6 @@
 ---
 title: Mēroga vienības izdalītā hibrīda topoloģijā
-description: Šajā tēmā ir sniegta informācija par mākoņa un malas mēroga vienībām ražošanas un noliktavas pārvaldības darba slodzēm.
+description: Šajā rakstā ir sniegta informācija par mākoņa un malas skalas vienībām ražošanas un noliktavas pārvaldības darba noslodzei.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893676"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Mēroga vienības izdalītā hibrīda topoloģijā
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676356"
 > [!IMPORTANT]
 > Mēroga vienības iespējas korporācijas Microsoft Dynamics 365 Supply Chain Management ir pieejamas saskaņā ar noteikumiem, kas nosaka pakalpojuma izmantošanu. Papildinformāciju skatiet šeit: [Microsoft Dynamics Juridiskā informācija](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Iespējojot mākoņa un malas mēroga vienības, jums tiks prasīts apstiprināt, ka jūs saprotat, ka daži dati, kas ir saistīti ar mākoņa un malas mēroga vienību konfigurāciju un apstrādi, var tikt glabāti datu centrā, kas atrodas Amerikas Savienotajās Valstīs. Lai iegūtu plašāku informāciju par mākoņa un malas skalas vienību datu apstrādi, skatiet tālāk šīs tēmas sadaļā [Datu apstrāde skalas vienību pārvaldības laikā](#data-processing-management).
+> Iespējojot mākoņa un malas mēroga vienības, jums tiks prasīts apstiprināt, ka jūs saprotat, ka daži dati, kas ir saistīti ar mākoņa un malas mēroga vienību konfigurāciju un apstrādi, var tikt glabāti datu centrā, kas atrodas Amerikas Savienotajās Valstīs. Lai iegūtu plašāku informāciju par mākoņa un malas skalas vienību datu apstrādi, [skatiet](#data-processing-management) tālāk šī raksta sadaļu Datu apstrāde svaru vienību pārvaldības laikā.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Galvenās vērtības priekšlikums izdalītajai hibrīda topoloģijai
 
@@ -48,7 +48,7 @@ Mēroga vienības nodrošina piešķirtajām darba slodzēm noturību, uzticamī
 
 Jēdziens *Darba slodze* ir noteikts biznesa funkcionalitātes kopums, ko var ņemt vērā un deleģēt mēroga vienībai. Lai gan noliktavas pārvaldības darba slodze ir izlaista, ražošanas izpildes darba slodze joprojām tiek priekšskatīta.
 
-Varat konfigurēt centrmezgla vidi un mākoņveida skalas vienības atlasītajām darba slodzēm, izmantojot [Mēroga vienību pārvaldnieka portālu](https://sum.dynamics.com). Varat arī piešķirt vairākas darba slodzes uz vienu mēroga vienību. Papildinformāciju par pašreizējā laidienā mākoņa mēroga vienību priekšnosacījumiem un ierobežojumiem skatiet tālāk šīs tēmas sadaļā [Mākoņa skalas vienību priekšnosacījumi un ierobežojumi](#cloud-scale-unit-prerequisites).
+Varat konfigurēt centrmezgla vidi un mākoņveida skalas vienības atlasītajām darba slodzēm, izmantojot [Mēroga vienību pārvaldnieka portālu](https://sum.dynamics.com). Varat arī piešķirt vairākas darba slodzes uz vienu mēroga vienību. Papildinformāciju par pašreizējā laidienā mākoņa mēroga vienību priekšnosacījumiem un ierobežojumiem skatiet [tālāk šī raksta sadaļā Mākoņa skalas](#cloud-scale-unit-prerequisites) vienību priekšnoteikumi un ierobežojumi.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Īpašas noliktavas vadības darba slodzes iespējas mēroga vienībās
 

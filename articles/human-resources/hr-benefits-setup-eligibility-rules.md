@@ -1,6 +1,6 @@
 ---
 title: Piemērotības kārtulu un opciju konfigurēšana
-description: Šajā rakstā aprakstīts, kā iestatīt piemērotības kārtulas un opcijas sadaļā Atvieglojumu pārvaldība programmā Microsoft Dynamics 365 Human Resources.
+description: Šajā rakstā ir aprakstīts, kā iestatīt piemērotības nosacījumus un opcijas Microsoft atvieglojumu pārvaldībā Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88893f6ecee6d2bf0bb42bfa9043eb16a5ed4e90
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b4c8cd4e32880df771a4a72237d212e061f849ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848257"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana 
 

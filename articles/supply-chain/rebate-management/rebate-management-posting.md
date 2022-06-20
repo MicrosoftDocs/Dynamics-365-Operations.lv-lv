@@ -1,6 +1,6 @@
 ---
 title: Atlaižu pārvaldības grāmatošanas iestatīšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt grāmatošanas profilus. Grāmatošanas profili tiek izmantoti, lai noteiktu atlaižu pārvaldības aprēķina rindu grāmatošanas ierakstus.
+description: Šajā rakstā ir aprakstīts, kā iestatīt grāmatošanas metodes. Grāmatošanas profili tiek izmantoti, lai noteiktu atlaižu pārvaldības aprēķina rindu grāmatošanas ierakstus.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873584"
 ---
 # <a name="rebate-management-posting-setup"></a>Atlaižu pārvaldības grāmatošanas iestatīšana
 
@@ -30,7 +30,7 @@ Grāmatošanas profili tiek izmantoti, lai noteiktu atlaižu pārvaldības aprē
 
 Lai debitoriem un kreditoriem iestatītu atlaižu pārvaldības grāmatošanas metodes, pārejiet uz sadaļu **Atlaižu pārvaldības \> Atlaižu pārvaldības grāmatošanas iestatījums \> Atlaižu pārvaldības grāmatošanas profili**. Lapa **Atlaižu pārvaldības grāmatošanas profili** ietver saraksta rūti, kurā ir redzami visi jūsu esošie profili. Rīkjoslas pogas var izmantot, lai pievienotu režģim profilus vai noņemtu tos.
 
-Šīs tēmas pārējās sadaļās aprakstīts, kā izmantot pieejamos laukus, veidojot vai rediģējot profilu.
+Atlikušās šī raksta sadaļas apraksta, kā izmantot pieejamos laukus, veidojot vai rediģējot profilu.
 
 ## <a name="posting-profile-header"></a>Profila galvenes grāmatošana
 

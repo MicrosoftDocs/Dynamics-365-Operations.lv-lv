@@ -1,6 +1,6 @@
 ---
 title: Nomu pārvaldība, izmantojot nomas importēšanas struktūru
-description: Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai vienlaicīgi koriģētu vairākas nomas.
+description: Šajā rakstā ir izskaidrots, kā izmantot nomas importa struktūru, lai vienlaikus pielāgotu vairākas nomas.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894969"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai ar vienu darbību koriģētu vairākas nomas. Izmantojot šo iespēju, varat ietaupīt laiku un varat arī nodrošināt precīzākas korekcijas, samazinot cilvēka kļūdas iespējamību. Turklāt šī iespēja var savienot Microsoft Dynamics 365 finanses ar ārējiem datu elementiem, lai efektīvi augšupielādētu datus.
+Šajā rakstā ir izskaidrots, kā izmantot nomas importēšanas struktūru, lai vienā solī koriģētu vairākas nomas. Izmantojot šo iespēju, varat ietaupīt laiku un varat arī nodrošināt precīzākas korekcijas, samazinot cilvēka kļūdas iespējamību. Turklāt šī iespēja var savienot Microsoft Dynamics 365 finanses ar ārējiem datu elementiem, lai efektīvi augšupielādētu datus.
 
 Tālāk norādītos datu elementus var izmantot, lai integrētu līdzekļu nomu ar ārējām sistēmām:
 

@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvaldības integrēšana ar pamatlīdzekļiem
-description: Šajā tēmā skaidrots, kā integrēt Līdzekļu pārvaldības un Pamatlīdzekļu moduļus, lai varētu saistīt pamatlīdzekļus ar uzturēšanā esošiem līdzekļiem.
+description: Šajā rakstā skaidrots, kā integrēt Pamatlīdzekļu vadības un pamatlīdzekļu moduļus, lai varētu saistīt pamatlīdzekļus ar uzturēšanas aktīviem.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874222"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Līdzekļu pārvaldības integrēšana ar pamatlīdzekļiem
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567587"
 Integrējot **Līdzekļu pārvaldības** un **Pamatlīdzekļu** moduļus, jūs varat saistīt pamatlīdzekļus ar uzturēšanā esošiem līdzekļiem. Pamatlīdzekļu lietotāji var izveidot uzturēšanā esošu līdzekli no jauna vai esoša pamatlīdzekļa, un Līdzekļu pārvaldības lietotāji var saistīt uzturēšanā esošu līdzekli ar esošu pamatlīdzekli. Šis līdzeklis arī atvieglo Pamatlīdzekļu lietotājiem skatīt izmaksas, kas tika grāmatotas no darba pasūtījumiem, kas saistīti ar saistītajiem uzturēšanā esošiem līdzekļiem.
 
 > [!NOTE]
-> Šajā tēmā *Uzturēšanā esoši līdzekļi* attiecas uz līdzekļiem no **Līdzekļu pārvaldības** moduļa, un *Pamatlīdzekļi* attiecas uz līdzekļiem no **Pamatlīdzekļu** moduļa.
+> Šajā rakstā pamatlīdzekļi *attiecas* **uz** pamatlīdzekļiem no Pamatlīdzekļu vadības moduļa, *un* pamatlīdzekļi attiecas uz pamatlīdzekļiem no **Pamatlīdzekļu moduļa.**
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Iestatiet noklusējuma novietojumu jauniem uzturēšanā esošiem līdzekļiem, kas izveidoti no pamatlīdzekļiem (neobligāti)
 

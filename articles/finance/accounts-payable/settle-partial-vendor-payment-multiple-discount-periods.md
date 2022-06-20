@@ -1,6 +1,6 @@
 ---
 title: Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi
-description: Šajā tēmā ir pārlūkots scenārijs, kurā kreditoram, kas piedāvā vairākas termiņatlaides, tiek veikti vairāki daļēji maksājumi.
+description: Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f0599c25d1cd5e07ca5a955ecc96fed2e31383ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861652"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir pārlūkots scenārijs, kurā kreditoram, kas piedāvā vairākas termiņatlaides, tiek veikti vairāki daļēji maksājumi. 
+Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides. 
 
 Kreditors 3054 piedāvā uzņēmumam Fabrikam termiņatlaidi 2 procentu apmērā, ja rēķins tiek apmaksāts piecu dienu laikā, un termiņatlaidi 1 procenta apmērā, ja rēķins tiek apmaksāts 14 dienu laikā.
 

@@ -1,6 +1,6 @@
 ---
 title: Ar indeksa likmi saistīto nomas maksājumu pārvērtēšana
-description: Šī tēma apraksta korekciju, kas veikta, lai nomātu LLT līdzekli, kad mainīgie nomas maksājumi mainas mainās indeksa likmes izmaiņu dēļ.
+description: Šajā rakstā ir aprakstīta korekcija, kas tiek veikta, lai nomātu saistības attiecībā uz lietošanas tiesību (RUB) līdzekli, ja mainās mainīgi nomas maksājumi indeksa likmes maiņas dēļ.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903252"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Ar indeksa likmi saistīto nomas maksājumu pārvērtēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma apraksta korekciju, kas veikta, lai nomātu LLT līdzekli, kad mainīgie nomas maksājumi mainas mainās indeksa likmes izmaiņu dēļ. Nomas saistības un LLT tiks pielāgotas kontam, ņemot vērā jaunās maksājumu summas. Saskaņā ar uzskaites standartu kodifikācijas tēmu 842 (ASC 842), kas ir standarts vispārpieņemtajos uzskaites principos ASV (US GAAP), mainīgie maksājumi tiek mainīti tikai, ja maksājumi pieaug vai samazinās indeksa likmes maiņas dēļ, ja vien nav citas naudas plūsmu izmaiņas. Šīs papildu izmaiņas var ietvert nomas noteikumu izmaiņas, kas saistītas ar procentu likmēm. Papildinformāciju skatiet šeit: ASC 842-10-55-225 un starptautisko finanšu pārskatu standarta 16 (IFRS 16) 42(b) rindkopa.
+Šajā rakstā ir aprakstīta korekcija, kas ir veikta saistībā ar nomas saistībām par lietošanas tiesības (RUB) līdzekli, ja mainās mainīgi nomas maksājumi indeksa likmes maiņas dēļ. Nomas saistības un LLT tiks pielāgotas kontam, ņemot vērā jaunās maksājumu summas. Saskaņā ar uzskaites standartu kodifikācijas tēmu 842 (ASC 842), kas ir standarts vispārpieņemtajos uzskaites principos ASV (US GAAP), mainīgie maksājumi tiek mainīti tikai, ja maksājumi pieaug vai samazinās indeksa likmes maiņas dēļ, ja vien nav citas naudas plūsmu izmaiņas. Šīs papildu izmaiņas var ietvert nomas noteikumu izmaiņas, kas saistītas ar procentu likmēm. Papildinformāciju skatiet šeit: ASC 842-10-55-225 un starptautisko finanšu pārskatu standarta 16 (IFRS 16) 42(b) rindkopa.
 
 ## <a name="adjust-lease-payments"></a>Nomas maksājumu koriģēšana
 
@@ -67,6 +67,6 @@ Varat skatīt tikko izveidoto maksājumu grafiku, kas sākas pārvērtēšanas d
 Žurnāla ieraksts automātiski iegrāmatoja korekcijas žurnāla ierakstu kontā izmaiņām nomas maksājumos, kas saistīti ar indeksa pārvērtēšanu.
 
 > [!NOTE]
-> Ja detalizētās informācijas par nomu lapas kopsavilkuma cilnē Vispārīgi ir iespējota opcija Sadalījuma maksājuma summa un saistītā grāmata **ir** **·** **IFRS** 16, **indeksa pārvērtēšanas process automātiski pievienos ierakstu dialoglodziņā Maksājuma summas** sadalījumam. Šī summa atspoguļos izmaiņas, kas tika veiktas maksājumam indeksa pārvērtēšanas dēļ. Ieraksts tiks atzīmēts kā **Lietots IRFS 16 indeksa** pārvērtēšanai.
+> **·** **·** **Ja** detalizētās informācijas par nomu lapas kopsavilkuma cilnē Vispārīgi ir iespējota opcija Sadalījuma maksājuma summa un saistītā grāmata ir IFRS 16, indeksa pārvērtēšanas process **automātiski** pievienos ierakstu dialoglodziņā Maksājuma summas sadalījumam. Šī summa atspoguļos izmaiņas, kas tika veiktas maksājumam indeksa pārvērtēšanas dēļ. Ieraksts tiks atzīmēts kā Lietots **IRFS 16 indeksa pārvērtēšanā**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

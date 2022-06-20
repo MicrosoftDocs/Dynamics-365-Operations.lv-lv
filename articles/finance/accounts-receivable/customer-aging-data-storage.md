@@ -1,6 +1,6 @@
 ---
 title: Klientu vecumstruktūras datu krātuve
-description: Šajā tēmā aprakstīts process, kā debitoru vecumstruktūras datiem izmantot ārējo krātuvi. Jūs varat palaist Debitoru vecumstruktūras datu glabāšanas procesu, lai izvade būtu pieejama eksportam uz ārēju sistēmu.
+description: Šajā rakstā ir aprakstīts process, kad debitoru vecumstruktūras datiem tiek izmantota ārējā krātuve. Jūs varat palaist Debitoru vecumstruktūras datu glabāšanas procesu, lai izvade būtu pieejama eksportam uz ārēju sistēmu.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894147"
 ---
 # <a name="customer-aging-data-storage"></a>Klientu vecumstruktūras datu krātuve
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts process, kā debitoru vecumstruktūras datiem izmantot ārējo krātuvi. Microsoft Dynamics 365. finanšu gadā varat **palaist** debitoru vecumstruktūras datu glabāšanas procesu, lai padarītu izvadi pieejamu eksportam uz ārēju sistēmu. Kad izpildījāt procesu, ārējās sistēmā pieejamās vecumstruktūras pārskata opcijas ir pieejamas arī ārējās sistēmas. Dati vienmēr tiek iekļauti eksportētos datos.
+Šajā rakstā ir aprakstīts process, kad debitoru vecumstruktūras datiem tiek izmantota ārējā krātuve. Microsoft Dynamics 365. finanšu gadā varat **palaist** debitoru vecumstruktūras datu glabāšanas procesu, lai padarītu izvadi pieejamu eksportam uz ārēju sistēmu. Kad izpildījāt procesu, ārējās sistēmā pieejamās vecumstruktūras pārskata opcijas ir pieejamas arī ārējās sistēmas. Dati vienmēr tiek iekļauti eksportētos datos.
 
 Tas var būt lietderīgi, lai padarītu debitoru vecumstruktūras datus pieejamus ārējai sistēmai glabāšanai gadījumos, kad izvadei ir daudz debitoru un/vai daudzas darbības. Ja esošais Debitoru **vecumstruktūras** pārskats ieiet, jo tam ir pārāk daudz datu, ko drukāt, šī funkcija nodrošina alternatīvu veidu, kā iegūt tos pašus datus.
 
@@ -56,8 +56,8 @@ Debitoru **vecumstruktūras datu** glabāšanas lapā nav ietverti rezultāti. T
 > [!NOTE]
 > Pirms eksportēšanas pievienojiet filtru, lai ierobežotu eksportētos rezultātus uz jaunākajām vecumstruktūrām. Piemēram, pievienojiet šādus kritērijus, lai atgrieztu pēdējo paketes darbību:
 >
-> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchName::())
+> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchName())
 >
 > Vai arī pievienojiet šādus kritērijus, lai atgrieztu pašreizējā lietotāja jaunāko pakešuzdevumu:
 >
-> (CustAgingDataStorageSysQueryRangeUtilgetLatestBatchNameForCurrentUser::())
+> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchNameForCurrentUser())

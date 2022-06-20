@@ -1,6 +1,6 @@
 ---
-title: Izmaiņu pārvaldības iespējošana esošajiem produktiem
-description: Šajā tēmā skaidrots, kā esošajiem produktiem iespējot izmaiņu vadību. Tas apraksta arī gadījumus, kad jūsu spēja iespējot izmaiņu pārvaldību ir ierobežota.
+title: Izmaiņu pārvaldības iespējošana esošajām precēm
+description: Šajā rakstā skaidrots, kā iespējot izmaiņu pārvaldību esošajiem produktiem. Tas apraksta arī gadījumus, kad jūsu spēja iespējot izmaiņu pārvaldību ir ierobežota.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893473"
 ---
-# <a name="enable-change-management-on-existing-products"></a>Izmaiņu pārvaldības iespējošana esošajiem produktiem
+# <a name="enable-change-management-on-existing-products"></a>Izmaiņu pārvaldības iespējošana esošajām precēm
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā esošajiem produktiem iespējot izmaiņu vadību. Tas apraksta arī gadījumus, kad jūsu spēja iespējot izmaiņu pārvaldību ir ierobežota.
+Šajā rakstā skaidrots, kā iespējot izmaiņu pārvaldību esošajiem produktiem. Tas apraksta arī gadījumus, kad jūsu spēja iespējot izmaiņu pārvaldību ir ierobežota.
 
 Kad iespējojat izmaiņu pārvaldību esošai precei, varat izveidot šīs preces versijas un izsekot izmaiņas, kas tai veiktas visā tās dzīves laikā. Tāpēc šīs izmaiņas var izsekot, izmantojot izmaiņu pasūtījumus. Lai iespējotu izmaiņu pārvaldību, atbilstošās preces ir jāpārvērš par *tehnoloģiju krājumiem* (sauktiem arī par inženierzinātnes produktiem). Inženierzinātnes preces ir preces, kas ir versija un tiek pārvaldītas, izmantojot izmaiņu pārvaldību. Vednis ir nodrošināts, lai tas vadītu jūs caur pārvēršanas procesu.
 
 ## <a name="turn-this-feature-on-or-off"></a>Ieslēgt vai izslēgt šo līdzekli
 
-Šajā tēmā aprakstītajai funkcionalitātei ir nepieciešams, lai *jūsu* *sistēmai* būtu ieslēgta gan inženierzinātnes izmaiņu pārvaldība, gan Iespējot esošo preču izmaiņu pārvaldību. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
+Šajā rakstā aprakstītajai funkcionalitātei ir nepieciešams, lai *jūsu* *sistēmai* būtu ieslēgta gan inženierzinātnes izmaiņu pārvaldība, gan Iespējot esošo preču izmaiņu pārvaldību. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Aizliegumi un ierobežojumi
 
@@ -38,7 +38,7 @@ Ne visus preču tipus var konvertēt uz visiem citiem tipiem. Pastāv šādi ier
 - Konvertējot preci par tehnoloģiju preci, tā paliek kā *prece*. Tā nekļūst par *preces šablonu*.
 - Konvertējot preču šablonu, kam ir noteikta dimensiju kopa, šīs dimensijas tiek uzturētas pēc izmaiņu beigām. Piemēram, konvertējot preces šablonu, kam ir lieluma dimensija, lieluma dimensija tiks paturēta.
 
-Tāpēc, ja jums ir atšķirīga prece, to var mainīt tikai uz tehnikas preci, kas neizseko preces dimensiju darījumos (t.i., versijas dimensija netiek izmantota). Papildinformāciju par šīm klasēm skatiet šīs tēmas pārējās sadaļās.
+Tāpēc, ja jums ir atšķirīga prece, to var mainīt tikai uz tehnikas preci, kas neizseko preces dimensiju darījumos (t.i., versijas dimensija netiek izmantota). Papildinformāciju par šīm problēmām skatiet pārējās šī raksta sadaļās.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Sagatavošanās pārvēršanai, izveidojot visas nepieciešamās tehnoloģiju preču kategorijas
 
@@ -81,7 +81,7 @@ Izpildiet šīs darbības, lai **palaistu pārvērstu tehnoloģiju preču** vedn
 
     - **Preces numurs** – preces numurs.
     - **Preces nosaukums** – preces nosaukums.
-    - **Tehnoloģiskā kategorija** — atlasiet tehnoloģisko preču kategoriju, kurai prece piederēs pēc tās pārvēršanas. Katrai precei jau ir jābūt atbilstošai kategorijai, kā izskaidrots šīs tēmas iepriekšējā sadaļā. Kategorija ir jāpiešķir katrai precei.
+    - **Tehnoloģiskā kategorija** — atlasiet tehnoloģisko preču kategoriju, kurai prece piederēs pēc tās pārvēršanas. Katrai precei jau ir jābūt atbilstošai kategorijai, kā paskaidrots šī raksta iepriekšējā sadaļā. Kategorija ir jāpiešķir katrai precei.
     - **Versija** - ievadiet sākotnējo produkta versiju, ko piešķirt katrai uzskaitītajai precei. Piemēram, varat atlasīt numuru, kas iekļaujas numuru sērijā, ko kategorija jau lieto. Katra tehniskā versija saglabā šai versijai raksturīgos tehniskos datus. Papildinformāciju skatiet [Tehnisko versiju un tehnisko preču kategorijas](engineering-versions-product-category.md).
     - **Preces dzīves cikla stāvoklis** — atlasiet preces dzīves cikla stāvokli, kurā precei ir jābūt pēc tās pārvēršanas. Preces dzīves cikla stāvoklis ļauj kontrolēt, kuras darbības ir atļautas dotajā tehnoloģiju versijā. Papildinformāciju skatiet šeit: [Produktu dzīves cikla stāvokļi un darījumi](product-lifecycle-state-transactions.md).
     - **Ir MK** - atzīmēta izvēles rūtiņa norāda, ka precei ir MK. Šīs izvēles rūtiņas iestatījums var palīdzēt jums izlemt, kā iestatīt **Pašreizējo MK, kas būs daļa no inženierzinātnes preces** izvēles rūtiņu.

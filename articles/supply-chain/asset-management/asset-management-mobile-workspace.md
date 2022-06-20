@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvaldības mobilās darbvietas izmantošana
-description: Šajā tēmā ir sniegta informācija par Pamatlīdzekļu pārvaldības darbvietu.
+description: Šajā rakstā ir sniegta informācija par Līdzekļu pārvaldības mobilo darbvietu.
 author: johanhoffmann
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902145"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības mobilās darbvietas izmantošana
 
 [!include [banner](../../includes/banner.md)]
 [!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Šajā tēmā ir sniegta informācija par **Pamatlīdzekļu pārvaldības** mobilo darbvietu. Šī darbvieta ļauj lietotājiem skatīt un izveidot uzturēšanas pieprasījumus un darba pasūtījumus. Lietotāji var arī skatīt piešķirtos darba pasūtījumu darbus kalendārā vai saraksta skatā. Var apskatīt un meklēt arī līdzekļus un funkcionālos novietojumus.
+Šajā rakstā ir sniegta informācija par Līdzekļu pārvaldības **mobilo** darbvietu. Šī darbvieta ļauj lietotājiem skatīt un izveidot uzturēšanas pieprasījumus un darba pasūtījumus. Lietotāji var arī skatīt piešķirtos darba pasūtījumu darbus kalendārā vai saraksta skatā. Var apskatīt un meklēt arī līdzekļus un funkcionālos novietojumus.
 
 ## <a name="overview"></a>Kopsavilkums
 

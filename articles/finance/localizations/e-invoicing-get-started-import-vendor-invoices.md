@@ -1,6 +1,6 @@
 ---
-title: Izmantot elektronisko rēķinu izrakstīšanas pakalpojumu, lai importētu kreditora rēķinus
-description: Šajā tēmā ir sniegta informācija, kā importēt kreditoru rēķinus, izmantojot Elektronisko rēķinu izrakstīšanas pakalpojumu.
+title: Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus
+description: Šajā rakstā ir sniegta informācija, kā importēt kreditora rēķinus, izmantojot Elektronisko rēķinu izrakstīšanas pakalpojumu.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865589"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Izmantot elektronisko rēķinu izrakstīšanas pakalpojumu, lai importētu kreditora rēķinus
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu importēšanu, izmantojot elektronisko rēķinu pakalpojumu. Tas jūs vadīs caur konfigurācijas soļiem Regulatory Configuration Services (RCS), Dynamics 365 Finance un Dynamics 365 Supply Chain Management, kas jums ir jāievēro, lai saņemtu elektroniskos kreditoru rēķinus no kreditoriem.
+Šajā rakstā ir sniegta informācija, kas palīdzēs sākt kreditora rēķinu importēšanu, izmantojot elektronisko rēķinu izrakstīšanas pakalpojumu. Tas jūs vadīs pa konfigurācijas soļiem regulēšanas konfigurācijas pakalpojumos (RCS), Dynamics 365 Finanses un ka jums ir jāievēro, Dynamics 365 Supply Chain Management lai saņemtu elektroniskos kreditoru rēķinus no kreditoriem.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Kreditoru rēķinu importa iestatīšana RCS
 Lai iestatītu kreditora rēķina importu RCS, sekojiet šiem soļiem:
@@ -57,7 +57,7 @@ Konfigurējiet e-pasta konta kanālu, ja jūs izveidojāt Elektronisko rēķinu 
     - Saglabātas pēc sekmīgas apstrādes: **Arhīva mape**
     - Saglabātas pēc sekmīgas apstrādes: **Kļūdu mape** Jums nav jāizveido šīs mapes pastkastē. Mapes tiek izveidotas automātiski pēc pirmās e-rēķina importēšanas un apstrādes. 
    
-10. Lauka grupā **Pielikumu filtrs** pievienojiet filtrēšanas informāciju. Tiek apstrādāti tikai tie pielikumi, kuri atbilst definētajam filtram. Piemēram, varat iestatīt "\*.xml" pielikumiem ar xml paplašinājumu. Pielikuma nosaukums tiek izmantots Dynamics 365 Finance vai Dynamics 365 Supply Chain Management iestatīšanas laikā. 
+10. Lauka grupā **Pielikumu filtrs** pievienojiet filtrēšanas informāciju. Tiek apstrādāti tikai tie pielikumi, kuri atbilst definētajam filtram. Piemēram, varat iestatīt "\*.xml" pielikumiem ar xml paplašinājumu. Pielikuma nosaukums tiek izmantots Dynamics 365 Finanses vai iestatīšanas Dynamics 365 Supply Chain Management laikā. 
 11. Cilnē **Piemērojamības kārtulas** pārskatiet un atjauniniet kritērijus pēc vajadzības. Laukam **Kanāls** jābūt vienādam ar iepriekš norādīto lauku **Datu kanāls**. Papildinformāciju skatiet sadaļā [Piemērojamības noteikumi](e-invoicing-configuration-rcs.md#applicability-rules).
 12. Atlasiet **Saglabāt** un aizveriet lapu.
 

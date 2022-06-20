@@ -1,6 +1,6 @@
 ---
 title: Ieteikumu pievienošana transakciju ekrānam
-description: Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā pārdošanas punkta (POS) ierīcē pievienot rekomendāciju kontroli, izmantojot ekrāna izkārtojuma veidotāju sadaļā Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4748ade8d6693666b58cbded2123d3449d191509
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862076"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Ieteikumu pievienošana transakciju ekrānam
 
 [!include [banner](includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce. Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet  [preces ieteikumus POS dokumentācijā](product.md).
+Šajā rakstā ir aprakstīts, kā pārdošanas punkta (POS) ierīcē pievienot rekomendāciju kontroli, izmantojot ekrāna izkārtojuma veidotāju sadaļā Microsoft Dynamics 365 Commerce. Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet  [preces ieteikumus POS dokumentācijā](product.md).
 
 
 Ja izmantojat programmu Commerce , varat parādīt preču ieteikumus savā POS ierīcē. Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru. 

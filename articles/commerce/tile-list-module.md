@@ -1,6 +1,6 @@
 ---
 title: Elementu saraksta modulis
-description: Šajā tēmā tiek stāstīts par elementu saraksta moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir apskatīti elementa saraksta moduļi un aprakstīts, kā pievienot tos vietņu lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905402"
 ---
 # <a name="tile-list-module"></a>Elementu saraksta modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par elementu saraksta moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīti elementa saraksta moduļi un aprakstīts, kā pievienot tos vietņu lapām Microsoft Dynamics 365 Commerce.
 
 Elementu saraksta modulis ir karuseļveida elementu kolekcija. Tas tiek izmantots, lai tirgotu produktu kategorijas vai preču zīmolus, izmantojot attēlus un tekstu. Piemēram, mazumtirgotājs var pievienot elementu saraksta moduli e-komercijas vietnes mājas lapai, lai veicinātu visu augšējo pārdošanas kategoriju iniciatīvas.
 

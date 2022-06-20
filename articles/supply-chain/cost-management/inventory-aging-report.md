@@ -1,6 +1,6 @@
 ---
 title: Krājumu vecumstruktūru pārskatu piemēri un loģika
-description: Šajā tēmā sniegti daži piemēri, kas parāda, kā interpretēt Krājumu vecumstruktūru pārskata rezultātus.
+description: Šajā rakstā sniegti daži piemēri, kas parāda, kā interpretēt krājumu vecumstruktūras pārskata rezultātus.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848025"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Krājumu vecumstruktūru pārskatu piemēri un loģika
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegti daži piemēri, kas parāda, kā interpretēt **Krājumu vecumstruktūru** pārskata rezultātus. Šajā pārskatā ir iedalīti rīcībā esošie daudzumi un krājumu vērtības atlasītajam krājumam vai krājumu grupai vairākos perioda intervālos. Šī tēma rāda arī pārskata iekšējo loģiku.
+Šajā rakstā sniegti daži piemēri, kas parāda, kā interpretēt krājumu vecumstruktūras **pārskata** rezultātus. Šajā pārskatā ir iedalīti rīcībā esošie daudzumi un krājumu vērtības atlasītajam krājumam vai krājumu grupai vairākos perioda intervālos. Šajā rakstā ir parādīta arī pārskata iekšējā loģika.
 
-Šīs tēmas piemēri rāda rezultātus, kas ir sniegti standarta **Krājumu novecošanas** pārskatā. Tomēr parasti ir ieteicams izmantot šī pārskata [Krājumu novecošanas pārskata krātuve](inventory-aging-report-storage.md) versiju, īpaši, ja ir daudz krājumu un noliktavu, kas jāapstrādā. Krājumu novecošanas pārskata krātuve saglabā katru izveidoto pārskatu, parāda rezultātus kā interaktīvu lapu un diagrammu un ļauj eksportēt visu saglabāto pārskatu.
+Šī raksta piemēros ir parādīti rezultāti, kas ir uzrādīti standarta pārskatā **Krājumu vecumstruktūra**. Tomēr parasti ir ieteicams izmantot šī pārskata [Krājumu novecošanas pārskata krātuve](inventory-aging-report-storage.md) versiju, īpaši, ja ir daudz krājumu un noliktavu, kas jāapstrādā. Krājumu novecošanas pārskata krātuve saglabā katru izveidoto pārskatu, parāda rezultātus kā interaktīvu lapu un diagrammu un ļauj eksportēt visu saglabāto pārskatu.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Šajos piemēros izmantotie parauga dati
 
-Šīs tēmas piemēri ir balstīti uz parauga krājumu darbību datiem, kas aprakstīti šajā sadaļā.
+Šī raksta piemēri ir balstīti uz krājumu darījumu parauga datiem, kas ir aprakstīti šajā sadaļā.
 
 ### <a name="storage-dimension-setup"></a>Noliktavas dimensiju iestatīšana
 

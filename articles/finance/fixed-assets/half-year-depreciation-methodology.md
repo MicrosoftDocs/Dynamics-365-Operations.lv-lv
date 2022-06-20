@@ -1,6 +1,6 @@
 ---
 title: Pusgada nolietojuma konvencijas metodika
-description: Šajā tēmā aprakstīta metode, ko pamatlīdzekļi izmanto nolietojuma aprēķināšanai, izmantojot pusgada konvenciju, kas aprēķina sešu mēnešu nolietojumu pamatlīdzekļa pirmā un pēdējā ekspluatācijas gada laikā.
+description: Šajā rakstā ir aprakstīta metode, kuru pamatlīdzekļi izmanto nolietojuma aprēķināšanai, lietojot pusgada konvenciju, kas aprēķina sešus nolietojuma mēnešus pamatlīdzekļa pirmā un pēdējā lietošanas gada laikā.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879600"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Pusgada nolietojuma konvencijas metodika
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā aprakstīta metode, kas tiek izmantota pamatlīdzekļos, lai aprēķinātu nolietojumu, izmantojot pusgada konvenciju. Pusgada konvencija aprēķina sešu mēnešu nolietojumu līdzekļa pirmajā un pēdējā ekspluatācijas gadā. Papildinformāciju par nolietojuma konvencijām skatiet rakstā [Nolietojuma metodes un konvencijas](Fixed-asset-depreciation-conventions.md). 
+Šajā rakstā ir aprakstīta metode, kas tiek lietota pamatlīdzekļos nolietojuma aprēķinam, lietojot pusgada konvenciju. Pusgada konvencija aprēķina sešu mēnešu nolietojumu līdzekļa pirmajā un pēdējā ekspluatācijas gadā. Papildinformāciju par nolietojuma konvencijām skatiet rakstā [Nolietojuma metodes un konvencijas](Fixed-asset-depreciation-conventions.md). 
 
 Izmantojot sešu mēnešu nolietojuma konvenciju, sistēma izmanto iegādes gadu vai gadu, kad līdzeklis tika nodots ekspluatācijā, pēc tam aprēķina piecu gadu nolietojumu sākot no šī gada un pēc tam pieskaita sešus mēnešus. Lai ilustrētu šo procesu, apsveriet līdzekli, kas tika iegādāts par cenu 50 000, un nodots ekspluatācijā 2020. gada aprīlī. Pieņemiet arī, ka līdzeklim ir piecu gadu lietošanas ilgums.
 

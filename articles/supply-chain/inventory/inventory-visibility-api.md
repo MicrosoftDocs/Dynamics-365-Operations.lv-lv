@@ -1,6 +1,6 @@
 ---
-title: Krājumu uztveramības pievienojumprogrammas publiskais API
-description: Šajā tēmā aprakstīti publiskie API, kas tiek nodrošināti ar Krājumu redzamību.
+title: Krājumu redzamības publiskie API
+description: Šajā rakstā ir aprakstīti publiskie API, kas tiek nodrošināti ar krājumu redzamību.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902029"
 ---
-# <a name="inventory-visibility-public-apis"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
+# <a name="inventory-visibility-public-apis"></a>Krājumu redzamības publiskie API
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā aprakstīti publiskie API, kas tiek nodrošināti ar Krājumu redzamību.
+Šajā rakstā ir aprakstīti publiskie API, kas tiek nodrošināti ar krājumu redzamību.
 
 Krājumu redzamības pievienojumprogrammas publiskais REST API piedāvā vairākus specifiskus integrācijas galapunktus. Tas atbalsta četrus galvenos mijiedarbības tipus:
 
@@ -160,7 +160,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
    ```
 
 > [!IMPORTANT]
-> Izmantojot *Pastnieka* pieprasījumu kolekciju, lai izsauktu krājumu redzamības publiskos API, katram pieprasījumam ir jāpievieno uzrādītāja marķieris. Lai atrastu savu uzrādītāja marķieri, atlasiet cilni **Autorizācija** zem pieprasījuma URL, atlasiet tipu **Uzrādītāja Marķieris** un kopējiet piekļuves marķieri, kas tika ienests pēdējā solī. Tālākās sadaļās jūs izmantosiet `$access_token`, lai attēlotu marķieri, kas tika paņemts pēdējā solī.
+> Izmantojot *Pastnieka* pieprasījumu kolekciju, lai izsauktu krājumu redzamības publiskos API, katram pieprasījumam ir jāpievieno uzrādītāja marķieris. Lai atrastu savu uzrādītāja marķieri, atlasiet cilni **Autorizācija** zem pieprasījuma URL, atlasiet tipu **Uzrādītāja Marķieris** un kopējiet piekļuves marķieri, kas tika ienests pēdējā solī. Šī raksta vēlākās sadaļās tiks `$access_token` izmantots, lai attēlotu marķieri, kas tika ienests pēdējā darbībā.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Izveidot rīcībā esošus izmaiņu notikumus
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-Šajā piemērā parādīts parauga pamatteksta saturs. Šī API uzvedība atšķiras no API funkcionalitātes, kas aprakstītas iepriekš šajā tēmā sadaļā [Izveidot rīcībā esošos izmaiņu notikumus](#create-onhand-change-event). Šajā piemērā *T-krekla* preces daudzums būs iestatīts uz 1.
+Šajā piemērā parādīts parauga pamatteksta saturs. Šī API uzvedība atšķiras no API funkcionalitātes, kas aprakstītas iepriekš šajā rakstā sadaļā Izveidot rīcībā esošos [izmaiņu](#create-onhand-change-event) notikumus. Šajā piemērā *T-krekla* preces daudzums būs iestatīts uz 1.
 
 ```json
 [

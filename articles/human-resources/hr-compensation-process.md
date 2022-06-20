@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886165"
 ---
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693869"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju. Šajā tēmā ir sniegta informācija par fiksētās atlīdzības sistēmu atlīdzības apstrādes pamata plūsmu, neņemot vērā darbinieka sniegumu.
+Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju. Šajā rakstā ir sniegta informācija par fiksētās atlīdzības sistēmu atlīdzības apstrādes pamata plūsmu, neņemot vērā darbinieka sniegumu.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Jaunu atlīdzības summu plānošana un ietveršana budžetos
 Lai saviem darbiniekiem piešķirtu nopelnu palielinājumu, katrai nodaļai ir jāiestata fiksēts palielinājuma budžets: **Atlīdzību pārvaldība** >  **Saites** > **Nopelnu palielinājuma mērķi**. (Šo formu var atvērt arī no nodaļas sadaļas: **Organizācija**  > **Nodaļas**.) Varat tālāk norādīt, vai darbiniekiem, kas ir noteiktu arodbiedrību dalībnieki vai atrodas noteiktā atrašanās vietā, ir jāsaņem atšķirīgs palielinājuma procents. Lauki **Budžets** un **Valūta** ir informatīvi. Tos var izmantot, lai norādītu budžeta valūtas summu.
@@ -41,7 +41,7 @@ Apstrādes notikuma **Punkts laikā** datums tiek izmantots, apstrādājot tikai
 
 Pēc apstrādes notikuma parametru saglabāšanas varat noklikšķināt uz pogas **Iestatījumi**, lai atlasītu iekļaujamās sistēmas, kad tiek izpildīts šis process, un to, kuras fiksētās atlīdzības darbības ir jāveic katrai sistēmai.
 
-Noklikšķiniet uz pogas **Pievienot** cilnē **Sistēmas**, lai apstrādes notikumam pievienotu atlīdzības sistēmu. Kolonnas **Izmantot citus līdzekļus**, **Līdzekļu faktors** un **Līdzekļu apraksts** tiek izmantotas tikai mainīgās atlīdzības sistēmām un nav aplūkotas šajā tēmā.
+Noklikšķiniet uz pogas **Pievienot** cilnē **Sistēmas**, lai apstrādes notikumam pievienotu atlīdzības sistēmu. Kolonnas **Izmantot citus līdzekļus**, **Līdzekļu faktors** un **Līdzekļu apraksts** tiek izmantotas tikai mainīgās atlīdzības sistēmām un nav aplūkotas šajā rakstā.
 
 Saglabājiet ierakstu un pēc tam noklikšķiniet uz pogas **Pievienot** cilnē **Darbības**, lai atlasītajai sistēmai pievienotu fiksētās atlīdzības darbības. Izmantojiet opciju **Iespējot ieteikumus**, lai ievadītu summu, kas atšķiras no darbībai aprēķinātā algas palielinājuma. Lai aprēķinātu darbību, kas balstīta iepriekšējās darbības rezultātā, lai saistītu vairākas atlīdzību darbības, atzīmējiet opciju **Lietot iepriekšējo rezultātu**. Fiksētās atlīdzību darbības ir atlīdzību loģikas veidi, kuriem varat piešķirt aprakstoŠis nosaukumus. Kategoriju **un** joslu **plāniem** varat pievienot tikai fiksētās atlīdzības darbības, kas ir no šiem tipiem:
 

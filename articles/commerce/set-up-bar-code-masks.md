@@ -1,6 +1,6 @@
 ---
 title: Svītrkodu masku iestatīšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem.
+description: Šajā rakstu ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkodu maskas un kā svītrkodiem piešķirt svītrkodu maskas.
 author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 97b490384cff27c60191a87dc623eb6a2ef868f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853716"
 ---
 # <a name="set-up-bar-code-masks"></a>Svītrkodu masku iestatīšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkoda maskas un kā piešķirt svītrkoda maskas svītrkodiem.
+Šajā rakstu ir aprakstīts, kā iestatīt svītrkoda maskas rakstzīmes, svītrkodu maskas un kā svītrkodiem piešķirt svītrkodu maskas.
 
 ## <a name="set-up-bar-code-mask-characters"></a>Svītrkoda maskas rakstzīmju iestatīšana
 

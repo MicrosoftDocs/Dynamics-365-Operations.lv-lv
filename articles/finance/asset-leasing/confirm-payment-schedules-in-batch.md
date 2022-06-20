@@ -1,6 +1,6 @@
 ---
 title: Līdzekļa nomas maksājumu grafiku apstiprināšana partijā
-description: Šajā tēmā paskaidrots, kā apstiprināt vairākus maksājumu grafikus partijā.
+description: Šajā rakstā ir izskaidrots, kā apstiprināt vairākus maksājumu grafikus paketē.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c19ac162c5e4c62c2440a0f16111c8cd69748e92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd75e22f6407d6bc25a78c1dfeacf70022238e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895056"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Līdzekļa nomas maksājumu grafiku apstiprināšana partijā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā apstiprināt vairākus maksājumu grafikus partijā. Maksājumu grafiki tiek apstiprināti vai katrai nomai, vai izmantojot partijas apstiprināšanas procesu. Žurnāla ierakstu var grāmatot tikai nomai ar apstiprinātu maksājumu grafiku. Maksājumu grafika apstiprināšana kalpo kā nomas finanšu informācijas galīgais apstiprinājums. Visas turpmākās izmaiņas nomas finanšu informācijā, piemēram, maksājumos un nomas termiņā, veido nomas korekciju, un ir jāapstrādā tādā veidā.
+Šajā rakstā ir izskaidrots, kā apstiprināt vairākus maksājumu grafikus paketē. Maksājumu grafiki tiek apstiprināti vai katrai nomai, vai izmantojot partijas apstiprināšanas procesu. Žurnāla ierakstu var grāmatot tikai nomai ar apstiprinātu maksājumu grafiku. Maksājumu grafika apstiprināšana kalpo kā nomas finanšu informācijas galīgais apstiprinājums. Visas turpmākās izmaiņas nomas finanšu informācijā, piemēram, maksājumos un nomas termiņā, veido nomas korekciju, un ir jāapstrādā tādā veidā.
 
 Lai apstiprinātu vairākus maksājumu grafikus, veiciet tālāk norādītās darbības.
 

@@ -1,6 +1,6 @@
 ---
-title: Integrētie kreditora pamatdati
-description: Šajā tēmā ir aprakstīta kreditora datu integrācija starp Finance and Operations programmām un Dataverse.
+title: Integrētie kreditoru pamatdati
+description: Šajā rakstā aprakstīta kreditora datu integrācija starp finanšu un operāciju programmām un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905320"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
@@ -37,7 +37,7 @@ Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona*
 ![Kreditora paplašinātā datu plūsma.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ja izmantojat Power Apps portālus pašapkalpošanās piegādātājiem, informācija par piegādātājiem var plūst tieši uz Finance and Operations programmām.
+> Ja pašapkalpošanās kreditoriem Power Apps izmantojat portālus, kreditora informācija var plūst tieši uz programmu Finanses un Operācijas.
 
 ## <a name="templates"></a>Veidnes
 

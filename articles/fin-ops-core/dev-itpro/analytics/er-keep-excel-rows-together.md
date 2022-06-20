@@ -1,6 +1,6 @@
 ---
 title: Veidot ER formātu, lai rindas paturētu kopā vienā Excel lapā
-description: Šajā tēmā skaidrots, kā projektēt elektronisko pārskatu (ER) formātu, kas uztur rindas kopā vienā Microsoft Excel lapā.
+description: Šajā rakstā skaidrots, kā projektēt elektronisko pārskatu (ER) formātu, kas uztur rindas kopā vienā Microsoft Excel lapā.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854674"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Veidot ER formātu, lai rindas paturētu kopā vienā Excel lapā
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā skaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu veidošanas funkcionālo konsultanta lomā var konfigurēt elektronisko pārskatu (ER) [...](general-electronic-reporting.md)[formātu, kas ģenerē izejošos](er-overview-components.md#format-component) dokumentus un pārvalda dokumenta lapu tā, lai izveidotās Microsoft Excel rindas būtu tajā pašā lapā.
+Šajā rakstā skaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu funkcionālo pārskatu konsultanta lomā var konfigurēt elektronisko pārskatu (ER) [...](general-electronic-reporting.md)[formātu, kas ģenerē izejošos dokumentus un pārvalda dokumenta lapu tā, lai izveidotās](er-overview-components.md#format-component)Microsoft Excel rindas būtu tajā pašā lapā.
 
 Šajā piemērā tiks modificēts Microsoft nodrošinātais ER formāts, kas tiek izmantots brīva teksta rēķinu drukāšanai programmā Excel. Modifikācijas ļaus pārvaldīt ģenerētā brīvā teksta rēķina pārskata lapu tā, lai visas atsevišķas rēķina rindas rindas pēc iespējas būtu vienā lapā.
 
-Šīs tēmas procedūras var pabeigt **USMF** uzņēmumā. Kodēšana nav nepieciešama.
+Šajā rakstā šīs procedūras var izpildīt **USMF** uzņēmumā. Kodēšana nav nepieciešama.
 
 Šajā piemērā izveidojat nepieciešamās ER konfigurācijas [uzņēmumam](general-electronic-reporting.md#Configuration)**Litware, Inc.** sample. Pārliecinieties, vai **Litware, Inc.** (`http://www.litware.com`) parauga uzņēmuma konfigurācijas nodrošinātājs ir norādīts ER struktūrā un vai tas ir atzīmēts kā **aktīvs**. Ja šī konfigurācijas nodrošinātāja nav **uzskaitīts** vai arī tas nav atzīmēts kā aktīvs, [izpildiet darbības, kas norādītas Sadaļā Konfigurācijas nodrošinātāja izveide un atzīmējiet to kā aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -73,7 +73,7 @@ Izpildiet sadaļā Iestatīt [drukas](er-embed-images-header-footer-excel-report
 
     ![Pārskatiet ģenerētā brīvā teksta rēķina lapošanu Excel darbvirsmas programmā.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Šajā tēmā atlikušās procedūras parāda, kā jūs variet noregulēt standarta ER formātu, lai uzlabotu rēķina pārskata izskatu un lasāmību, uzturot visu vienas rēķina rindas saturu tajā pašā lapā.
+Šajā rakstā atlikušās procedūras parāda, kā var noregulēt standarta ER formātu, lai uzlabotu rēķina pārskata izskatu un lasāmību, uzturot visu vienas rēķina rindas saturu tajā pašā lapā.
 
 ## <a name="create-a-custom-format"></a>Pielāgota formāta izveidošana
 

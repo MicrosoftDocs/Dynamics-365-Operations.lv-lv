@@ -1,6 +1,6 @@
 ---
 title: Atjaunināt pārnesto budžetu pēc pirkšanas pasūtījumu un rēķinu samazināšanas
-description: Šajā tēmā ir aprakstīts, kā kontrolēt, kas notiek ar pārnesto budžetu, kad pirkšanas pasūtījumi tiek atcelti vai samazināti un kad rēķini tiek samazināti.
+description: Šajā rakstā ir aprakstīts, kā kontrolēt, kas notiek ar pārnesto budžetu, kad pirkšanas pasūtījumi tiek atcelti vai samazināti un kad rēķini tiek samazināti.
 author: TaylorVH
 ms.date: 02/11/2022
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2022-02-01
-ms.openlocfilehash: 3b0f06b8d5a38252fc8ff6662f3d454adffffe60
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 7f0ef0ffdf697609e811f754b4378b1f7a81c494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897963"
 ---
 # <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Atjaunināt pārnesto budžetu pēc pirkšanas pasūtījumu un rēķinu samazināšanas
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīts, kā kontrolēt, kas notiek ar pārnesto budžetu, kad pirkšanas pasūtījumi tiek atcelti vai samazināti un kad rēķini tiek samazināti.
+Šajā rakstā ir aprakstīts, kā kontrolēt, kas notiek ar pārnesto budžetu, kad pirkšanas pasūtījumi tiek atcelti vai samazināti un kad rēķini tiek samazināti.
 
 Papildinformāciju par to, kā pirkšanas pasūtījumi tiek apstrādāti gada beigās, skatiet [sadaļā Pirkšanas pasūtījumu apstrāde gada beigās](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end).
 

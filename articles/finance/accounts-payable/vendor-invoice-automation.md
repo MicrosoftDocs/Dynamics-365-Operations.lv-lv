@@ -1,6 +1,6 @@
 ---
-title: Rēķina automatizācija skenētiem dokumentiem
-description: Šajā tēmā ir paskaidrots, kādi līdzekļi ir pieejami kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
+title: Rēķinu automatizācija skenētajiem dokumentiem
+description: Šis raksts skaidro funkcijas, kas pieejamas kreditoru rēķinu beigu automatizācijai, pat rēķinus, kas ietver pielikumus.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883421"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Rēķinu automatizācija skenētajiem dokumentiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kādas datu entītijas ir pieejamas kreditoru rēķinu (arī to rēķinu, kam ir pielikumi) automatizācijai visā procesa garumā.
+Šajā rakstā ir izskaidroti datu elementi, kas ir pieejami kreditoru rēķinu beigu automatizācijai, ieskaitot rēķinus ar pielikumiem.
 
 Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi bieži norāda kā vienu no galvenajiem procesiem, kura efektivitāti ir nepieciešams palielināt. Daudzos gadījumos šīs organizācijas papīra rēķinu apstrādi uztic trešās puses optiskās rakstzīmju pazīšanas (OCR) pakalpojumu sniedzējam. Viņi saņem ar mašīnu lasāmus rēķina metadatus kopā ar skenētu katra rēķina attēlu. Automatizācijas nolūkos tiek izveidots “pēdējās jūdzes” risinājums, lai iespējotu šo artefaktu patēriņu rēķinu apstrādes sistēmā. Tagad ir iespējota šī pēdējā soļa automatizācija, izmantojot rēķinu automatizācijas risinājumu.
 
@@ -46,7 +46,7 @@ Risinājuma pēdas nospiedums sastāv no tālāk norādītajiem komponentiem.
 + Izņēmumu apstrāde rēķiniem
 + Līdzās novietotu pielikumu skatītājs rēķinos
 
-Atlikusī daļa šajā tēmā veltīta detalizētiem aprakstiem par šiem risinājuma komponentiem.
+Pārējā šajā rakstā ir sniegti detalizēti šo risinājuma komponentu apraksti.
 
 ## <a name="data-entities"></a>Datu elementi
 

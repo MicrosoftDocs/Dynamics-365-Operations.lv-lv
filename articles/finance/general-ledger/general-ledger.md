@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904562"
 ---
 # <a name="general-ledger-home-page"></a>Virsgrāmatas sākumlapa
 
@@ -56,12 +56,12 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
 
 Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](/dynamics365/release-plans/). 
 
-#### <a name="financial-reporting"></a>Finanšu pārskati
-Dodieties uz sadaļu [Financial reporting pārskats](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md), lai iegūtu informāciju par finanšu pārskatiem.
+#### <a name="financial-reporting"></a>Financial Reporting
+Lai iegūtu informāciju par [finanšu pārskatiem](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md), dodieties uz finanšu pārskatu apskata rakstu.
 
 #### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 

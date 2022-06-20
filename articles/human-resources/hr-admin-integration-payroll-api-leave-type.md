@@ -1,6 +1,6 @@
 ---
 title: Atvaļinājuma veids
-description: Šī tēma sniedz detalizētu informāciju un parauga vaicājumu atvaļinājuma veida elementam programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir sniegta detalizēta informācija un vaicājuma piemērs atvaļinājumu tipa elementam Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dced58e6e9f6c20578e4582e4cf39162622713e7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6e7905989df92e943b86f86194c87dcb2a7b1446
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893791"
 ---
 # <a name="leave-type"></a>Atvaļinājuma veids
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069911"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīts atvaļinājuma veida elements programmai Dynamics 365 Human Resources .
+Šajā rakstā ir aprakstīts atvaļinājuma tipa elements Dynamics 365 Human Resources.
 
 ### <a name="description"></a>Apraksts
 

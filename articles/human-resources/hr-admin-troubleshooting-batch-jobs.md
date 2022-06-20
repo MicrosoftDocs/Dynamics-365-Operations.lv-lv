@@ -1,6 +1,6 @@
 ---
 title: Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba
-description: Šajā tēmā ir paskaidrots, kā atrisināt veiktspējas problēmas ar Microsoft Dynamics 365 Human Resources , plānojot ilglaicīgus pakešuzdevumus pēc darba.
+description: Šajā rakstā skaidrots, kā, plānojot ilgstošus Dynamics 365 Human Resources pakešuzdevumus pēc stundām, atrisināt veiktspējas problēmas ar Microsoft.
 author: twheeloc
 ms.date: 06/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2795c183fe611bb30df8c397ef637d5bf6daa835
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6efb0a906bb948a47f03665dd6e7a8dd43434083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896081"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba
 

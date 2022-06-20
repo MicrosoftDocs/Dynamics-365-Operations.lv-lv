@@ -1,6 +1,6 @@
 ---
-title: Kreditoru rēķinu politiku iestatīšana
-description: Šajā tēmā ir izskaidrots, kā iestatīt kreditora rēķina politiku.
+title: Iestatīt kreditoru rēķinu ierobežojumus
+description: Šajā rakstā skaidrots, kā iestatīt kreditoru rēķinu politikas.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904735"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Kreditoru rēķinu politiku iestatīšana
+# <a name="set-up-vendor-invoice-policies"></a>Iestatīt kreditoru rēķinu ierobežojumus
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā iestatīt kreditora rēķina politiku. Kreditora rēķina politikas tiek palaistas, kad grāmatojat **kreditora** rēķinu, izmantojot kreditora rēķina lapu un atverot kreditoru rēķinu politikas **pārkāpumu** lapu. Varat arī konfigurēt kreditora rēķina darbplūsmu, lai kreditoru rēķinu ierobežojumi tiktu palaisti katru reizi, kad darbplūsmā iesniedzat kādu rēķinu. 
+Šajā rakstā skaidrots, kā iestatīt kreditoru rēķinu politikas. Kreditora rēķina politikas tiek palaistas, kad grāmatojat **kreditora** rēķinu, izmantojot kreditora rēķina lapu un atverot kreditoru rēķinu politikas **pārkāpumu** lapu. Varat arī konfigurēt kreditora rēķina darbplūsmu, lai kreditoru rēķinu ierobežojumi tiktu palaisti katru reizi, kad darbplūsmā iesniedzat kādu rēķinu. 
 
 - Kreditoru rēķinu ierobežojumi neattiecas uz rēķiniem, kas tika izveidoti rēķinu reģistrā vai rēķinu žurnālā.  
 - Rēķinu salīdzināšanas apstiprināšana neizmanto kreditora rēķinu ierobežojumus, bet gan iestatīta kreditoru **parametru** lapā.  

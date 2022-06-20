@@ -1,6 +1,6 @@
 ---
 title: Failu robots.txt pārvaldība
-description: Šajā tēmā aprakstīts, kā pārvaldīt Microsoft Dynamics 365 Commerce robots.txt failus.
+description: Šajā rakstā ir aprakstīts, kā pārvaldīt failus par.txt Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ccb09cfce00ba838cb5358afef9b7acc5c61d8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896983"
 ---
 # <a name="manage-robotstxt-files"></a>Failu robots.txt pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā pārvaldīt Microsoft Dynamics 365 Commerce robots.txt failus.
+Šajā rakstā ir aprakstīts, kā pārvaldīt failus par.txt Microsoft Dynamics 365 Commerce.
 
 Robotu izslēgšanas standarts jeb robots.txt ir standarts, kuru tīmekļa vietnes izmanto, lai sazinātos ar tīmekļa robotiem. Tas instruē tīmekļa robotus par jebkuru mājas lapas apgabalu, kuru nedrīkst apmeklēt. Robotus bieži izmanto meklētājprogrammas, lai apzīmētu tīmekļa vietnes.
 

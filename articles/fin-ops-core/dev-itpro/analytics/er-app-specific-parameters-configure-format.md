@@ -1,6 +1,6 @@
 ---
-title: ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu
-description: Šajā tēmā izskaidrots, kā konfigurēt elektronisko pārskatu (ER) formātus, lai varētu izmantot parametrus, kas ir norādīti par juridisko personu.
+title: Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu
+description: Šajā rakstā skaidrots, kā var konfigurēt elektronisko pārskatu (ER) formātus, lai lietotu parametrus, kas norādīti katrai juridiskajai personai.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858833"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu
 
@@ -33,17 +33,17 @@ Daudzos no elektronisko pārskatu (ER) formātiem, kurus izstrādāsit, ir jāfi
 -   Jo vairāk ir juridisko personu, jo ir jāsaglabā vairāk ER formāta konfigurācijas.
 -   ER konfigurāciju uzturēšana prasa, lai uzņēmuma lietotājiem būtu ER zināšanas.
 
-ER programmai raksturīgo parametru līdzeklis ļauj pilnvarot lietotājus konfigurēt datu filtrēšanu ER formātā, lai tā būtu balstīta uz abstraktu noteikumu kopu. Šo noteikumu kopu var konfigurēt, lai izmantotu informācijas avotus, kas ir pieejami ER formātā. Pēc tam uzņēmuma lietotāji var noteikt reālos noteikumus ārpus ER struktūras, izmantojot lietotāja interfeisu (UI), kas tiek ģenerēts automātiski, pamatojoties uz atbilstošā ER formāta iestatījumiem un pašreizējo juridisko personu datiem, kuriem varēs piekļūt ER formāta datu avoti. Noteikumu kopa, kas noteikta ER formātam, var tikt eksportēta no pašreizējās Dynamics 365 Finance (finanšu) instances juridiskās personas. Pēc tam to var importēt citā juridiskajā personā ar to pašu finanšu instanci vai citu instanci kā noteikumu kopumu vienam un tam pašam ER formātam.
+ER programmai raksturīgo parametru līdzeklis ļauj pilnvarot lietotājus konfigurēt datu filtrēšanu ER formātā, lai tā būtu balstīta uz abstraktu noteikumu kopu. Šo noteikumu kopu var konfigurēt, lai izmantotu informācijas avotus, kas ir pieejami ER formātā. Pēc tam uzņēmuma lietotāji var noteikt reālos noteikumus ārpus ER struktūras, izmantojot lietotāja interfeisu (UI), kas tiek ģenerēts automātiski, pamatojoties uz atbilstošā ER formāta iestatījumiem un pašreizējo juridisko personu datiem, kuriem varēs piekļūt ER formāta datu avoti. Kārtulu kopu, kas norādīta ER formātam, var eksportēt no pašreizējās Dynamics 365 Finanšu (finanšu) instances juridiskās personas. Pēc tam to var importēt citā juridiskajā personā ar to pašu finanšu instanci vai citu instanci kā noteikumu kopumu vienam un tam pašam ER formātam.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai pabeigtu piemēru šajā tēmā, jums jābūt piekļuvei Regulatory Configuration Services (RCS) instancei, kas ir nodrošināta tam pašam nomniekam, kuram nodrošināta Finance and Operations instance, vienai no šādām lomām:
+Lai šajā rakstā pabeigtu piemērus, ir nepieciešama piekļuve regulēšanas konfigurācijas pakalpojumu (RCS) instancei, kas ir nodrošināta tam pašam nomniekam kā Finanses vienai no šīm lomām:
 
 - Elektroniskā pārskata izstrādātājs
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
 - Sistēmas administrators
 
-Ieteicams veikt darbības, kas aprakstītas tēmā [Atbalstīt parametru izsaukumus no APRĒĶINĀTĀ LAUKA veida ER datu avotiem](er-calculated-field-type.md). Ja esat jau paveikuši šīs darbības, varat izlaist darbības, kas norādītas nākamajā sadaļā **ER konfigurāciju importēšana RCS**.
+Ir ieteicams veikt darbības, kas jāveic atbalstītajā [ER datu avotu, kas satur aprēķinātā lauka tipa rakstu, atbalstīt parametru izsaukumus](er-calculated-field-type.md). Ja esat jau paveikuši šīs darbības, varat izlaist darbības, kas norādītas nākamajā sadaļā **ER konfigurāciju importēšana RCS**.
 
 ## <a name="import-er-configurations-into-rcs"></a>ER konfigurāciju importēšana RCS
 
@@ -58,7 +58,7 @@ Lejupielādējiet un lokāli saglabājiet šādas ER konfigurācijas.
 
 Pēc tam pierakstieties savā RCS instancē.
 
-Šajā piemērā izveidosiet konfigurāciju Litware, Inc. parauga uzņēmumam. Pirms varat izpildīt šo procedūru, jums jāizpilda darbības RCS tēmā [Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Šajā piemērā izveidosiet konfigurāciju Litware, Inc. parauga uzņēmumam. Pirms šīs procedūras veikšanas ir jāveic darbības, [kas soļi sadaļā Konfigurācijas nodrošinātāja izveidošana un jāatzīmē tas](tasks/er-configuration-provider-mark-it-active-2016-11.md) kā aktīvs raksts RCS.
 
 1.  Noklusējuma informācijas panelī atlasiet **Elektroniskais pārskats**.
 2.  Atlasiet **Pārskatu konfigurācijas**.
@@ -300,7 +300,7 @@ Atkārtojiet šajā sadaļā norādītās darbības formāta **Formatēt, lai uz
 -   Kartēšana, lai uzzinātu parametru izsaukumus.xml
 -   Modelēt, lai uzzinātu parametru izsaukumus.xml
 
-Lai uzzinātu, kā izmantot konfigurēto ER formātu **Formatēt, lai uzzinātu, kā uzmeklēt LE datus**, lai iestatītu no juridiskas personas atkarīgās nodokļu kodu kopas, lai filtrētu nodokļu transakcijas pēc dažādiem nodokļu līmeņiem, veiciet darbības, kas norādītas tēmā [Iestatīt ER formāta parametrus juridiskai personai](er-app-specific-parameters-set-up.md).
+**Lai uzzinātu, kā izmantot konfigurēto formātu, lai uzzinātu, kā skatīt LE datu** ER formātu, lai iestatītu juridiskas personas atkarīgas nodokļu kodu kopas, lai filtrētu nodokļu darbības pēc dažādiem taksācijas līmeņiem, [veiciet soļus ER](er-app-specific-parameters-set-up.md) formāta parametru iestatīšanai juridiskās personas rakstam.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

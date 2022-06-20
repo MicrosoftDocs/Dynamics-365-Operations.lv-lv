@@ -1,6 +1,6 @@
 ---
 title: E-komercijas vietnes izveide
-description: Šajā tēmā ir aprakstītas darbības un informācija, kas nepieciešama, lai vietņu veidotājā Dynamics 365 Commerce izveidotu jaunu e-komercijas vietni.
+description: Šajā rakstā ir aprakstīti soļi un informācija, kas nepieciešama jaunas e-komercijas vietnes izveidošanai vietu Dynamics 365 Commerce veidotājā.
 author: bicyclingfool
 ms.date: 03/10/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855774"
 ---
 # <a name="create-an-e-commerce-site"></a>E-komercijas vietnes izveide
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstītas darbības un informācija, kas nepieciešama, lai vietņu veidotājā Dynamics 365 Commerce izveidotu jaunu e-komercijas vietni.
+Šajā rakstā ir aprakstīti soļi un informācija, kas nepieciešama jaunas e-komercijas vietnes izveidošanai vietu Dynamics 365 Commerce veidotājā.
 
 Licencējot Dynamics 365 Commerce iespējas, vietnes veidotājam tiks nodrošināta sākuma vieta, kuru varat izmantot kā pamatu savai vietnei. Tomēr, vēloties sākt no jauna vai vēloties izveidot otru vietni, jums vietnes autorēšanas vidē būs jāizveido jauna vietne. 
 

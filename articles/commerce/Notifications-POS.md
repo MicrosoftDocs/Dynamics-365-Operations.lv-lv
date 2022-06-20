@@ -1,6 +1,6 @@
 ---
 title: Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
-description: Šajā tēmā ir aprakstīts, kā pārdošanas punktā iespējot pasūtījumu paziņojumu rādīšanu, un aprakstīta paziņojumu struktūra
+description: Šajā dokumentā ir aprakstīts, kā iespējot pasūtījumu paziņojumus pārdošanas punktā un paziņojumu struktūrā.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853984"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Pasūtījumu paziņojumu parādīšana pārdošanas punktā (POS)
 
@@ -65,10 +65,10 @@ Gan pasūtījuma izpildes, gan pasūtījuma atsaukšanas paziņojumiem, kad proc
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Reāllaika satura iespējošana uz POS pogas
 
-Tagad uz POS pogas var parādīt skaitu, lai darbinieki varētu viegli noteikt, kādiem uzdevumiem nekavējoties jāpievērš uzmanība. Lai šo skaitu parādītu uz POS pogas, jāveic paziņojumu iestatīšana, kā aprakstīts iepriekš šajā tēmā (t.i., jāiespējo paziņojumi operācijai, jāiestata paziņošanas intervāls un jāatjaunina POS darbinieka atļauju grupa). Turklāt ir jāatver pogas režģa veidotājs, jāapskata pogas rekvizīti un jāatzīmē izvēles rūtiņa **Iespējot reāllaika saturu**. Laukā **Satura pielāgošana** varat atlasīt, vai skaits tiek rādīts pogas augšējā labajā stūrī (**Augšējā labajā stūrī**) vai vidū (**Vidū**).
+Tagad uz POS pogas var parādīt skaitu, lai darbinieki varētu viegli noteikt, kādiem uzdevumiem nekavējoties jāpievērš uzmanība. Lai parādītu šo numuru POS pogā, ir jāpabeidz iepriekš aprakstītie paziņojuma iestatījumi, kas ir aprakstīti šajā rakstā (t.i., jāiespējo paziņojumi par operāciju, jāiestata paziņojuma intervāls un jāatjaunina darbinieka POS atļauju grupa). Turklāt ir jāatver pogas režģa veidotājs, jāapskata pogas rekvizīti un jāatzīmē izvēles rūtiņa **Iespējot reāllaika saturu**. Laukā **Satura pielāgošana** varat atlasīt, vai skaits tiek rādīts pogas augšējā labajā stūrī (**Augšējā labajā stūrī**) vai vidū (**Vidū**).
 
 > [!NOTE]
-> Reāllaika saturu operācijām var iespējot tikai tad, ja tām ir atzīmēta izvēles rūtiņa **Iespējot paziņojumus** lapā **POS operācijas**, kā aprakstīts iepriekš šajā tēmā.
+> Tiešo saturu var iespējot operācijām **tikai tad, ja POS** operāciju lapā ir atzīmēta izvēles rūtiņa Iespējot **paziņojumus**, kā aprakstīts iepriekš šajā rakstā.
 
 Tālāk attēlā ir parādīts reāllaika satura iestatījumi pogas režģa veidotājā.
 

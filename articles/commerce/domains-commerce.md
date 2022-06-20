@@ -1,6 +1,6 @@
 ---
 title: Domēni programmā Dynamics 365 Commerce
-description: Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848958"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā domēni tiek apstrādāti pakalpojumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft Dynamics 365 Commerce.
 
-Domēni ir tīmekļa adreses, ko izmanto, lai naviģētu uz Dynamics 365 Commerce vietnēm tīmekļa pārlūkā. Jūs kontrolējat sava domēna pārvaldību ar izvēlēto domēna nosaukuma servera (Domain Name Server - DNS) nodrošinātāju. Domēniem ir atsauces visā Dynamics 365 Commerce vietnes veidotājā, lai koordinētu, kā vietnei varēs piekļūt pēc publicēšanas. Šajā tēmā ir aplūkots, kā tiek apstrādāti domēni un kā uz tiem tiek sniegtas atsauces visā Commerce vietnes izstrādes un palaišanas cikla laikā.
+Domēni ir tīmekļa adreses, ko izmanto, lai naviģētu uz Dynamics 365 Commerce vietnēm tīmekļa pārlūkā. Jūs kontrolējat sava domēna pārvaldību ar izvēlēto domēna nosaukuma servera (Domain Name Server - DNS) nodrošinātāju. Domēniem ir atsauces visā Dynamics 365 Commerce vietnes veidotājā, lai koordinētu, kā vietnei varēs piekļūt pēc publicēšanas. Šis raksts pārskata, kā domēni tiek apstrādāti un atsauces visā Commerce vietnes izstrādes un palaišanas dzīves ciklā.
 
 > [!NOTE]
 > No 2022. gada 6. maija visas izveidotās vides tiks nodrošinātas Dynamics 365 Commerce`.dynamics365commerce.ms` ar domēnu, aizvietojot iepriekšējo modeli `.commerce.dynamics.com`. Domēnā nodrošinātās esošās `.commerce.dynamics.com` vides turpinās darbu.

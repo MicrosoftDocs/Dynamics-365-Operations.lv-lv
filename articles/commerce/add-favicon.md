@@ -1,6 +1,6 @@
 ---
 title: Izlases ikonas pievienošana
-description: Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
+description: Šajā rakstā skaidrots, kā pievienot jūsu vietnei kolekciju.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855799"
 ---
 # <a name="add-a-favicon"></a>Izlases ikonas pievienošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
+Šajā rakstā skaidrots, kā pievienot jūsu vietnei kolekciju.
 
 Izlases ikona ir neliels grafiskais fails, kas tiek attēlots tīmekļa pārlūkprogrammas cilnē, adreses joslā, pārlūkošanas vēsturē un grāmatzīmēs vai izlasē, kā arī citās vietās. Mēs iesakām jums pievienot izlases ikonu jūsu vietnei, jo tā pārstāv un nostiprina jūsu zīmolu, kā arī palīdz atšķirt jūsu vietni no citām jūsu klientu apmeklētajām vietnēm.
 
-Lai gan jūs varat pievienot vairākas dažādu izmēru un failu tipu izlases ikonas jūsu vietnē, šajā tēmā ir aprakstīts, kā pievienot vienu izlases ikonu. Tomēr tas pats process un atrašanās vieta tiek izmantoti, lai pievienotu vairāk izlases ikonu.
+Lai gan vietnei varat pievienot vairākas dažādu izmēru un failu tipu klases, šis raksts parāda, kā pievienot vienu darbību. Tomēr tas pats process un atrašanās vieta tiek izmantoti, lai pievienotu vairāk izlases ikonu.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Izlases ikonas augšupielāde jūsu vietnes līdzekļu kolekcijā
 

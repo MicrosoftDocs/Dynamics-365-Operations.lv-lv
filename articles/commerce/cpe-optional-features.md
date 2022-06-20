@@ -1,6 +1,6 @@
 ---
-title: Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
-description: Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
+title: Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
+description: Šajā rakstā ir izskaidrots, kā konfigurēt neobligātās funkcijas novērtēšanas Microsoft Dynamics 365 Commerce videi.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861918"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
+Šajā rakstā ir izskaidrots, kā konfigurēt neobligātās funkcijas novērtēšanas Microsoft Dynamics 365 Commerce videi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -108,7 +108,7 @@ Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādu
     - Pasūtījuma iesaiņošanas veidne
     - Pasūtījuma saņemšanas veidne
 
-1. Pielāgojiet veidnes, izmantojot teksta vai HTML redaktoru. Skatiet tālāk šajā tēmā [atbalstīto marķieru](#supported-tokens-in-the-email-template) sarakstu.
+1. Pielāgojiet veidnes, izmantojot teksta vai HTML redaktoru. Tālāk šajā rakstā [skatiet atbalstīto marķieru](#supported-tokens-in-the-email-template) sarakstu.
 1. Pieteikšanās Commerce.
 1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Organizācijas administrācija \> Iestatījumi \> Organizācijas e-pasta veidnes**.
 1. Paplašiniet sarakstu kreisajā pusē, lai redzētu visas veidnes.

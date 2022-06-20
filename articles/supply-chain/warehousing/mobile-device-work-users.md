@@ -1,6 +1,6 @@
 ---
 title: Mobilās ierīces lietotāju konti
-description: Šajā tēmā ir aprakstīts, kā iestatīt un pārvaldīt lietotāju kontus, kas darbiniekiem ļauj pieteikties un izmantot noliktavas programmu.
+description: Šajā rakstā ir aprakstīts, kā iestatīt un pārvaldīt lietotāju kontus, kas darbiniekiem ļauj pieteikties un izmantot noliktavas programmu.
 author: Mirzaab
 ms.date: 09/15/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ffb4a9842f454094b41a1765d1438f6a40ae610b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851309"
 ---
 # <a name="mobile-device-user-accounts"></a>Mobilās ierīces lietotāju konti
 

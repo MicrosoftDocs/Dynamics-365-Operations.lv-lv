@@ -1,6 +1,6 @@
 ---
 title: GS1 svītrkodi
-description: Šajā tēmā ir aprakstīts, kā iestatīt GS1 svītrkodus un QR kodus, lai etiķetes varētu skenēt noliktavā.
+description: Šajā rakstā ir aprakstīts, kā iestatīt GS1 svītrkodus un QR kodus, lai etiķetes varētu skenēt noliktavā.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907150"
 ---
 # <a name="gs1-bar-codes"></a>GS1 svītrkodi
 
@@ -30,11 +30,11 @@ GS1 atbalsts Piegādes ķēžu pārvaldībā ievērojami vienkāršo skenēšana
 
 Loģistikas pārvaldītājiem ir jāiestata nepieciešamais programmas identifikatoru saraksts un katrs no tiem jāsaista ar atbilstošajiem mobilās ierīces izvēlnes elementiem. Programmas identifikatorus pēc tam var izmantot visās noliktavās kā globālo iestatījumu pārvietošanas un iepakošanas nolūkiem. Tāpēc visām nosūtīšanas etiķetēm būs vienota forma.
 
-Ja vien nav norādīts citādi, šai *tēmai* tiek izmantots termins svītrkods, lai atsauktos gan uz lineāriem (1D), gan uz 2D svītrkodiem.
+Ja vien nav norādīts citādi, šis *raksts* lieto terminu svītrkodu, lai atsauktos gan uz lineāriem (1D), gan uz 2D svītrkodiem.
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 svītrkoda formāts
 
-GS1 vispārīgās specifikācijas norāda, kurus simbolus var lietot GS1 svītrkodiem un kā šifrēt datus svītrkodā. Šajā sadaļā sniegts īss tēmas ievads. Lai iegūtu pilnīgu informāciju, skatiet [GS1 vispārīgās specifikācijas](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), ko publicēja GS1. GS1 specifikāciju dokuments tiek regulāri atjaunināts, un informācija, kas to nodrošina, ir atjaunināta ar GS1 vispārējām specifikācijām, izlaidiet 22.0.
+GS1 vispārīgās specifikācijas norāda, kurus simbolus var lietot GS1 svītrkodiem un kā šifrēt datus svītrkodā. Šajā sadaļā sniegts īss raksta ievads. Lai iegūtu pilnīgu informāciju, skatiet [GS1 vispārīgās specifikācijas](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf), ko publicēja GS1. GS1 specifikāciju dokuments tiek regulāri atjaunināts, un informācija, kas to nodrošina, ir atjaunināta ar GS1 vispārējām specifikācijām, izlaidiet 22.0.
 
 GS1 svītrkodos tiek lietoti šādi simboli:
 

@@ -1,6 +1,6 @@
 ---
 title: Eksperimenta izpildīšana un pārraudzīšana
-description: Šajā tēmā ir aprakstīts, kā izpildīt un pārraudzīt eksperimentu trešās puses pakalpojumos. Šeit ir aprakstīts arī, kā veikt izmaiņas variantiem pēc eksperimenta sākšanas.
+description: Šajā rakstā ir aprakstīts, kā palaist un uzraudzīt eksperimentu trešās puses pakalpojumā. Šeit ir aprakstīts arī, kā veikt izmaiņas variantiem pēc eksperimenta sākšanas.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909587"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eksperimenta izpildīšana un pārraudzīšana
 
-Šajā tēmā ir aprakstīts, kā izpildīt un pārraudzīt eksperimentu trešās puses programmā, un veikt izmaiņas variantiem, ja tas nepieciešams. Pirms šajā tēmā norādīto darbību veikšanas jums vispirms vajadzēs [publicēt](experimentation-preview-publish.md) savu eksperimentu pakalpojumā Commerce. 
+Šajā rakstā ir aprakstīts, kā palaist un uzraudzīt jūsu eksperimentu trešās puses programmā, kā arī, ja nepieciešams, mainīt variācijas. Pirms šī raksta darbību veikšanas vispirms ir jāpublicē savus eksperimentus [Commerce](experimentation-preview-publish.md). 
 
-Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
+Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu soļi ir ietverti atsevišķos rakstos.
 
 [ ![Eksperimenta lietotāja maršruts – izpildīšana un pārraudzīšana.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 

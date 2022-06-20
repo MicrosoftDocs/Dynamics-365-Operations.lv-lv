@@ -1,6 +1,6 @@
 ---
 title: ER funkciju saraksts loģikas kategorijā
-description: Šajā tēmā ir sniegta informācija par loģikas funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
+description: Šajā rakstā ir sniegta informācija par loģiskajām funkcijām, kas tiek atbalstītas Elektronisko pārskatu veidošanai (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888196"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>ER funkciju saraksts loģikas kategorijā
 
 [!include [banner](../includes/banner.md)]
 
-Elektronisko pārskatu (ER) loģiskās funkcijas var izmantot, lai strādātu ar loģiskām vērtībām un veiktu vairāk nekā vienu salīdzinājumu vienā izteiksmē vai pārbaudītu vairākus nosacījumus. Šajā tēmā ir sniegts šo funkciju kopsavilkums.
+Elektronisko pārskatu (ER) loģiskās funkcijas var izmantot, lai strādātu ar loģiskām vērtībām un veiktu vairāk nekā vienu salīdzinājumu vienā izteiksmē vai pārbaudītu vairākus nosacījumus. Šajā rakstā ir sniegts šo funkciju kopsavilkums.
 
 ## <a name="list-of-supported-functions"></a>Atbalstīto funkciju saraksts
 

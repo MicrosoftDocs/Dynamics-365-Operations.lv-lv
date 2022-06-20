@@ -1,6 +1,6 @@
 ---
 title: Informācija par datuma un laika laukiem
-description: Šajā tēmā skaidrots, ko gaidīt, kad izmantojat Microsoft datuma un laika laukus Dynamics 365 Human Resources.
+description: Šajā rakstā ir skaidrots, ko gaidīt, kad izmantojat Microsoft datuma un laika laukus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f595e06d9ddc9b44e8820d814d888971444bdf6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e314efa5ac08288bc7d00c197be59ba9decac203
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856314"
 ---
 # <a name="understand-date-and-time-fields"></a>Informācija par datuma un laika laukiem
 

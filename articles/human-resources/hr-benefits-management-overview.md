@@ -1,6 +1,6 @@
 ---
 title: Atvieglojumu pārvaldības pārskats
-description: Šajā tēmā ir sniegts apskats par Atvieglojumu pārvaldības līdzekli programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir sniegts pārskats par atvieglojumu pārvaldības līdzekli sistēmā Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901152"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
 
@@ -44,7 +44,7 @@ Ja vēlaties piekļūt demonstrācijas datiem, būs nepieciešams atkārtoti izv
 
 ## <a name="enable-benefits-management"></a>Atvieglojumu pārvaldības iespējošana
 
-Šī tēma apraksta, kā ieslēgt Human Resources priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Human Resources līdzekļus aizstāj šī Atvieglojumu pārvaldība, vai kādi līdzekļi tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
+Šis raksts apraksta, kā Personāla vadībā ieslēgt priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Human Resources līdzekļus aizstāj šī Atvieglojumu pārvaldība, vai kādi līdzekļi tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
 
 > [!IMPORTANT]
 > Pēc tam, kad iespējojat Atvieglojumu pārvaldību **Ražošanas** vidē, to nevar atspējot. Iesakām iespējot un testēt Atvieglojumu pārvaldību **Smilškastes** vidē pirms tās iespējošanas **Ražošanas** vidē. Pastāv būtiskas atšķirības starp mantoto Atvieglojumu funkcionalitāti un jauno Atvieglojumu pārvaldības funkcionalitāti, kam nepieciešami papildu iestatījumi, un tie ir jāpārbauda pirms ielaišanas ražošanā.

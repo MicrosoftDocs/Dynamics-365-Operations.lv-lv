@@ -1,6 +1,6 @@
 ---
 title: Tehnisko izmaiņu pārvaldības līdzekļa pārskats
-description: Šajā tēmā ir sniegts pilns pārskats, kas parāda, kā strādāt ar tehnisko izmaiņu pārvaldību.
+description: Šajā rakstā ir sniegts beigu darbību skaits, kas parāda, kā strādāt ar inženierzinātnes izmaiņu pārvaldību.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889640"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pilns pārskats, kas parāda, kā strādāt ar tehnisko izmaiņu pārvaldību. Tas apskata katru no svarīgākajiem scenārijiem:
+Šajā rakstā ir sniegts beigu darbību skaits, kas parāda, kā strādāt ar inženierzinātnes izmaiņu pārvaldību. Tas apskata katru no svarīgākajiem scenārijiem:
 
 - Pamata līdzekļu konfigurācija
 - Kā inženiertehniskais uzņēmums izveido jaunu tehnisko produktu
@@ -35,13 +35,13 @@ ms.locfileid: "7573997"
 - Kā ieplānot un ieviest pieprasītās izmaiņas, izveidojot tehnoisko izmaiņu pasūtījumu
 - Kā izlaist produktu, kas ir mainīts
 
-Visi šīs tēmas uzdevumi izmanto standarta parauga datus, kas ir sniegti korporācijai Microsoft Dynamics 365 Supply Chain Management. Turklāt katrs uzdevums ir balstīts uz iepriekšējo uzdevumu. Tādēļ mēs iesakām strādāt ar uzdevumiem no sākuma līdz beigām, it īpaši, ja iepriekš nekad neesat izmantojis tehnisko izmaiņu pārvaldības līdzekli. Šādā veidā jūs gūsiet pilnīgu izpratni par šo līdzekli.
+Visi šī raksta izmantotie standarta parauga dati, kas ir nodrošināti programmai Microsoft Dynamics 365 Supply Chain Management. Turklāt katrs uzdevums ir balstīts uz iepriekšējo uzdevumu. Tādēļ mēs iesakām strādāt ar uzdevumiem no sākuma līdz beigām, it īpaši, ja iepriekš nekad neesat izmantojis tehnisko izmaiņu pārvaldības līdzekli. Šādā veidā jūs gūsiet pilnīgu izpratni par šo līdzekli.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Iestatiet scenārija paraugu
 
-Lai sekotu parauga scenārijam, kas ir sniegts šajā tēmā, vispirms ir jāsagatavo līdzeklis, padarot demonstrācijas datus pieejamus un pievienojot dažus pielāgotus ierakstus.
+Lai sekotu šajā rakstā nodrošinātajam parauga scenārijam, vispirms ir jāsagatavo funkcija, padarot demonstrācijas datus pieejamus un pievienojot dažus pielāgotos ierakstus.
 
-Pirms mēģināt veikt kādu no šajā tēmā norādītajiem uzdevumiem, sekojiet instrukcijām visās sekojošajās sadaļās. Šīs apakšsadaļas arī satur vairākas svarīgas iestatījumu lapas, kuras tiks izmantotas, iestatot tehnisko izmaiņu pārvaldību jūsu organizācijai.
+Pirms mēģināt veikt kādu no izpildēm pārējā rakstā, izpildiet visas tālāk minētās apakšsadaļas sniegtos norādījumus. Šīs apakšsadaļas arī satur vairākas svarīgas iestatījumu lapas, kuras tiks izmantotas, iestatot tehnisko izmaiņu pārvaldību jūsu organizācijai.
 
 ### <a name="make-standard-demo-data-available"></a>Padarīt standarta demonstrācijas datus pieejamus
 

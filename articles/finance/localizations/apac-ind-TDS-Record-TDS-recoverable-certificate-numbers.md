@@ -1,6 +1,6 @@
 ---
 title: Ierakstīt atjaunojamos TDS sertifikātu numurus
-description: Šajā tēmā skaidrots, kā izmantot atjaunojamo sertifikātu lapu, lai ierakstītu sertifikātu numurus un datumus No kopējo ienākumu summas atskaitītā nodokļa (TDS) sertifikātiem, kas tiek saņemti noteiktam kreditoram, debitoram vai virsgrāmatai.
+description: Šajā rakstā ir izskaidrots, kā izmantot atkopjamo sertifikātu lapu, lai ierakstītu sertifikātu numurus un datumus nodokļa ieturēšanas avota (TDS) sertifikātiem, kas tiek saņemti noteiktam kreditoram, debitoram vai Virsgrāmatai.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853261"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Ierakstīt atjaunojamos TDS sertifikātu numurus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izmantot **Atjaunojamo sertifikātu** lapu, lai ierakstītu sertifikātu numurus un datumus No kopējo ienākumu summas atskaitītā nodokļa (TDS) sertifikātiem, kas tiek saņemti noteiktam kreditoram, debitoram vai virsgrāmatai. Lai atjauninātu TDS sertifikātu numurus un datumus, kas ierakstīti TDS darījumiem šajā lapā, izmantojiet **Atjaunināt sertifikātu** lapu (**Virsgrāmata \> Periodiski \> Ieturētais nodoklis \> Atjaunināt sertifikātu**). Kad TDS sertifikātu numuru atjaunināšana ir pabeigta, aizveriet tos.
+Šajā rakstā ir izskaidrots **, kā izmantot atkopjamo sertifikātu lapu, lai ierakstītu sertifikātu numurus un datumus** nodokļa ieturēšanas avota (TDS) sertifikātiem, kas tiek saņemti noteiktam kreditoram, debitoram vai Virsgrāmatai. Lai atjauninātu TDS sertifikātu numurus un datumus, kas ierakstīti TDS darījumiem šajā lapā, izmantojiet **Atjaunināt sertifikātu** lapu (**Virsgrāmata \> Periodiski \> Ieturētais nodoklis \> Atjaunināt sertifikātu**). Kad TDS sertifikātu numuru atjaunināšana ir pabeigta, aizveriet tos.
 
 Izpildiet šīs darbības, lai ierakstītu TDS sertifikātu numurus un datumus.
 

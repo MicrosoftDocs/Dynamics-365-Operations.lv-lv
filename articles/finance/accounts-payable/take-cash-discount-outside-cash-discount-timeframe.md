@@ -1,6 +1,6 @@
 ---
 title: Termiņatlaides ārpus termiņatlaides perioda piešķiršana
-description: Šī tēma sniedz divus scenārijus, kas parāda, kā var lietot termiņatlaidi, pat ja maksājums tiek veikts ārpus termiņatlaides perioda.
+description: Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879716"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Termiņatlaides ārpus termiņatlaides perioda piešķiršana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma sniedz divus scenārijus, kas parāda, kā var lietot termiņatlaidi, pat ja maksājums tiek veikts ārpus termiņatlaides perioda.
+Šajā rakstā ir aprakstīti divi scenāriji, kas izskaidro, kā var piemērot termiņatlaidi arī tad, ja maksājums tiek veikts ārpus termiņatlaides perioda.
 
 Eiprila 28. jūnijā izveido kreditoram 3052 rēķinu par summu 2000,00. Ja rēķins tiek apmaksāts 14 dienu laikā, rēķinam tiek piemērota termiņatlaide 1 procenta apmērā.
 

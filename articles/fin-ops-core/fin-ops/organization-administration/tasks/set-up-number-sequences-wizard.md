@@ -1,6 +1,6 @@
 ---
 title: Numuru sēriju iestatīšana, izmantojot vedni
-description: Šajā tēmā tiek skaidrots, kā iestatīt visas nepieciešamās numuru sērijas vienlaikus, izmantojot vedni.
+description: Šajā rakstā ir izskaidrots, kā, izmantojot ceļvedi, iestatīt visas nepieciešamās numuru sērijas vienlaicīgi.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847068"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Numuru sēriju iestatīšana, izmantojot vedni
 
 [!include [banner](../../includes/banner.md)]
 
-Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami. Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci. Šajā tēmā tiek skaidrots, kā iestatīt visas nepieciešamās numuru sērijas vienlaikus, izmantojot vedni. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami. Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci. Šajā rakstā ir izskaidrots, kā, izmantojot ceļvedi, iestatīt visas nepieciešamās numuru sērijas vienlaicīgi. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 1. Pārejiet uz **Navigācija > Moduļi > Organizācijas administrēšana > Numuru sērijas > Numuru sērijas**.
 2. Atlasiet **Ģenerēt**.

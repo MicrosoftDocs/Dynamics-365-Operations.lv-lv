@@ -1,6 +1,6 @@
 ---
 title: FUNKCIJA WEEKNUM ER
-description: Šajā tēmā sniegta informācija par to, kā tiek izmantota funkcija WEEKNUM Electronic Reporting (ER).
+description: Šajā rakstā ir sniegta informācija par to, kā tiek izmantota funkcija WEEKNUM Electronic Reporting (ER).
 author: NickSelin
 ms.date: 01/15/2022
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2c6eef0d6e1f90a3f8d382591edad3d568da84ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858775"
 ---
 # <a name="weeknum-er-function"></a>FUNKCIJA WEEKNUM ER
 
@@ -41,7 +41,7 @@ Datuma vērtība, kas norāda datumu, kuru izmantot gada nedēļas aprēķinam.
 
 `culture`: *[virkne](er-formula-supported-data-types-primitive.md#string)*
 
-Aprēķinam izmantojamā kultūra. Var lietot kultūras kodus, kas tiek atbalstīti atbilstoši .NET [standartiem](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
+Aprēķinam izmantojamā kultūra. Var lietot kultūras kodus, kas tiek atbalstīti saskaņā ar .NET [standartiem](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 
@@ -51,9 +51,9 @@ Iegūtā skaitliskā vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Gada nedēļa tiek aprēķināta, pamatojoties uz [ISO 8601 standartu, ja valsts vai reģions ir pieņēmis šo standartu, izpildlaikā tiek](https://www.iso.org/iso-8601-date-and-time-format.html) nodrošināta darbības vieta. Pretējā gadījumā aprēķins pamatojas uz valstij/reģionam specifiskiem valsts standartiem.
+Gada nedēļa [tiek aprēķināta, pamatojoties uz ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standartu, ja valsts vai reģions ir pieņēmis šo standartu, izpildlaikā tiek nodrošināta darbības vieta. Pretējā gadījumā aprēķins pamatojas uz valstij/reģionam specifiskiem valsts standartiem.
 
-Ja izpildlaikā atbalstīts kultūras kods ir norādīts kā [funkcijas](#arguments)`WEEKNUM` arguments, tiek uzstāts kā izņēmums. Ja tukšā virkne ir sniegta kā kultūras kods, nedēļas numura aprēķinam tiek izmantots angļu valsts neitrālais kalendārs.
+Ja izpildlaikā atbalstīts [kultūras](#arguments) kods ir norādīts `WEEKNUM` kā funkcijas arguments, tiek uzstāts kā izņēmums. Ja tukšā virkne ir sniegta kā kultūras kods, nedēļas numura aprēķinam tiek izmantots angļu valsts neitrālais kalendārs.
 
 ## <a name="examples"></a>Piemēri
 

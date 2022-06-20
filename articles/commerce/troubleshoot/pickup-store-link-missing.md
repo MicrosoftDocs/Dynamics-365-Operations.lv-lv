@@ -1,6 +1,6 @@
 ---
 title: Opcija Saņemt šo neparādās groza vai preces informācijas lapās
-description: Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, ja opcija saņemšanai veikalā netiek parādīta groza lapās vai preču informācijas lapās.
+description: Šajā dokumentā ir sniegti norādījumi par problēmu novēršanas iespējām, kas var palīdzēt, ja veikala izdošanas opcija netiek parādīta groza lapās vai preču informācijas lapās.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88367e13b4d079edb0816e301901828b65c437ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900312"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>Opcija "Saņemt šo" neparādās groza vai preces informācijas lapās
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, ja opcija saņemšanai veikalā netiek parādīta groza lapās vai preču informācijas lapās.
+Šajā dokumentā ir sniegti norādījumi par problēmu novēršanas iespējām, kas var palīdzēt, ja veikala izdošanas opcija netiek parādīta groza lapās vai preču informācijas lapās.
 
 ## <a name="description"></a>Apraksts
 

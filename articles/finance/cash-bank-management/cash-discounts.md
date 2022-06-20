@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846960"
 ---
 # <a name="cash-discounts"></a>Termiņatlaides
 
@@ -30,7 +30,7 @@ Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un
 
 ## <a name="cash-discounts"></a>Termiņatlaides
 
-Gan debitoriem, gan kreditoriem termiņatlaides var izveidot lapā Termiņatlaides. Izmantojot lauku Nākamais atlaižu kods, varat arī norādīt sēriju ar termiņatlaidēm, kas seko viena otrai, beidzoties iepriekšējās termiņatlaides datumiem. Plašāku informāciju skatiet tālāk šajā tēmā, sadaļā “Piemērs. Termiņatlaižu sērijas”. Ja rēķins, kredīta transakcija (maksājums vai kredīta nota) vai tie abi tiek ievadīti valūtā, kas nav juridiskās personas uzskaites valūta, tad termiņatlaide tiek aprēķināta, izmantojot valūtas maiņas kursu, kurš ir balstīts uz maksājuma vai kredīta notas datumu. Ja rēķins un kredīta dokuments tiek ievadīti dažādās juridiskajās personās un ja uzskaites valūtas šīm juridiskajām personām atšķiras, tad valūtas maiņas kurss tiek ņemts no rēķina juridiskās personas attiecīgā kredīta dokumenta datumā. Plašāku informāciju skatiet tālāk šajā tēmā, sadaļā “Piemērs. Valūtas maiņas kursi termiņatlaidēm”.
+Gan debitoriem, gan kreditoriem termiņatlaides var izveidot lapā Termiņatlaides. Izmantojot lauku Nākamais atlaižu kods, varat arī norādīt sēriju ar termiņatlaidēm, kas seko viena otrai, beidzoties iepriekšējās termiņatlaides datumiem. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu sērija". Ja rēķins, kredīta transakcija (maksājums vai kredīta nota) vai tie abi tiek ievadīti valūtā, kas nav juridiskās personas uzskaites valūta, tad termiņatlaide tiek aprēķināta, izmantojot valūtas maiņas kursu, kurš ir balstīts uz maksājuma vai kredīta notas datumu. Ja rēķins un kredīta dokuments tiek ievadīti dažādās juridiskajās personās un ja uzskaites valūtas šīm juridiskajām personām atšķiras, tad valūtas maiņas kurss tiek ņemts no rēķina juridiskās personas attiecīgā kredīta dokumenta datumā. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu maiņas kursi".
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Termiņatlaides galvenā konta pasūtījuma noklusējuma secība
 

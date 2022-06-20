@@ -1,6 +1,6 @@
 ---
 title: ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
-description: Tematā aprakstīts, kā izveidot jaunu elektronisko pārskatu konfigurāciju, kas satur elektronisko dokumentu veidni OPENXML formātā.
+description: Šajā rakstā ir aprakstīts, kā izveidot jaunu elektronisko pārskatu konfigurāciju, kas satur veidni elektronisko dokumentu ģenerēšanai OPENXML formātā.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908418"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektronisko pārskatu (EK) konfigurāciju, kas ietver veidni elektronisko dokumentu ģenerēšanai OPENXML formātā. Šī konfigurācija tiks izmantota kreditoru maksājumu apstrādei.
+Šajā rakstā skaidrots, kā lietotājs lomas Sistēmas administrators vai Elektronisko pārskatu izstrādātājs loma var izveidot jaunu elektronisko pārskatu (ER) konfigurāciju, kas satur veidni elektronisko dokumentu ģenerēšanai OPENXML formātā. Šī konfigurācija tiks izmantota kreditoru maksājumu apstrādei.
 
 Šajā piemērā tiek izveidota parauga uzņēmuma Litware, Inc. konfigurācija. Šīs darbības var veikt jebkurā GBSI uzņēmumā.
 

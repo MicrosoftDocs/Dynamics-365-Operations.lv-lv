@@ -1,6 +1,6 @@
 ---
 title: Grupēt ierakstus un apkopot aprēķinus, izmantojot GROUPBY datu avotus
-description: Šajā tēmā skaidrots, kā var izmantot GROUPBY tipa datu avotus Elektronisko pārskatu (ER).
+description: Šajā rakstā skaidrots, kā var izmantot GROUPBY tipa datu avotus Elektronisko pārskatu (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861792"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupēt ierakstus un apkopot aprēķinus, izmantojot GROUPBY datu avotus
 
@@ -69,7 +69,7 @@ Lai uzzinātu vairāk par šo līdzekli, izpildiet tālāk norādīto piemēru.
 
 Šajā piemērā parādīts, kā lietotājs sistēmas administratora vai elektronisko pārskatu funkcionālā konsultanta lomā var konfigurēt ER **modeļa kartēšanu, kam ir GROUPBY** datu avots, kas tiek izmantots, lai aprēķinātu apkopošanas funkcijas un grupas ierakstus. Šo modeļa kartējumu izmanto, lai drukātu kontroles pārskatu, kad tiek ģenerēta Intrastat deklarācija. Šis pārskats ļauj pārskatīt pārskatā ietvertās Intrastat darbības.
 
-Procedūras šajā piemērā var izpildīt **MICROSOFT KONTROā** Dynamics 365 Finance. 
+Šajā piemērā procedūras var izpildīt VĀCIJAS markas **uzņēmumā** Microsoft Dynamics 365 Finansēs. 
 
 ### <a name="prepare-sample-data"></a>Sagatavot parauga datus
 
@@ -83,7 +83,7 @@ Izpildiet sadaļā [ER struktūras konfigurēšana](er-quick-start2-customize-re
 
 ### <a name="import-the-standard-er-format-configuration"></a>Standarta ER formāta konfigurācijas importēšana
 
-Izpildiet sadaļā [Importēt standarta ER formāta konfigurāciju](er-quick-start2-customize-report.md#ImportERSolution1) norādītās darbības, lai pašreizējai instancei pievienotu Dynamics 365 Finance standarta ER konfigurācijas. Importēt No repozitorija **Intrastat modeļa** konfigurācijas 1. versiju.
+Izpildiet darbības [standarta ER](er-quick-start2-customize-report.md#ImportERSolution1) formāta konfigurācijas importēšanai, lai pievienotu standarta ER konfigurācijas pašreizējai Dynamics 365 finanšu instancei. Importēt No repozitorija **Intrastat modeļa** konfigurācijas 1. versiju.
 
 ### <a name="create-a-custom-data-model-configuration"></a>Pielāgota datu modeļa konfigurācijas izveide
 
@@ -168,7 +168,7 @@ Konfigurējiet datu avotu, lai piekļūtu programmas tabulām, kurās ir detaliz
 
 Konfigurējiet **GroupBy datu** avotu, lai grupētu Intrastat darbības un aprēķinātu apkopošanas funkcijas.
 
-1. Modeļu kartēšanas **veidotāja** lapas datu avota **tipu** rūtī atlasiet **FunctionsGroup\\ by**.
+1. Modeļu kartēšanas **veidotāja** lapas datu avota **tipu** rūtī atlasiet Funkciju **\\ grupa**.
 2. Datu avotu **rūtī atlasiet** Pievienot sakni, lai pievienotu jaunu datu avotu, **kas** tiks izmantots Intrastat darbību grupēšanai un aprēķina apkopošanas funkcijas.
 3. **Datu avota rekvizītu dialoglodziņa** laukā Nosaukums **ievadiet** **TransportRecord**.
 4. Atlasiet **Labot grupu pēc,** lai konfigurētu grupēšanas nosacījumus.

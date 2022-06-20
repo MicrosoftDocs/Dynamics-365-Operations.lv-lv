@@ -1,6 +1,6 @@
 ---
 title: Dabas resursu nodokļa pārskats
-description: Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
+description: Šajā rakstā skaidrots, kā iestatīt un ģenerēt dabas resursu nodokļa (DABAS resursu nodokļa) pārskatu.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 954b944e7f2900502abcf0c145fde57a1be1697b
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 7037755c5170ca80a4735ad0e9c48f4a59dd3989
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908950"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt pārskatu Dabas resursu nodoklis (DRN).
+Šajā rakstā skaidrots, kā iestatīt un ģenerēt dabas resursu nodokļa (DABAS resursu nodokļa) pārskatu.
 
 Uzņēmumiem Latvijā ir periodiski jāiesniedz pārskats **Dabas resursu nodoklis** (**DRN**). Šī funkcionalitāte attiecas tikai uz juridiskajām personām Latvijā. Nodoklis ir jāaprēķina arī par importētajām vai pašu ražotajām precēm, kuras tiek lietotas iekšēji. Visbeidzot — dabas resursu nodoklis ir jāaprēķina par pārskata perioda laikā pārdoto iepakoto preču iepakojuma materiāliem.
 

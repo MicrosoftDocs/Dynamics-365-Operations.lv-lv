@@ -1,6 +1,6 @@
 ---
 title: Preču identifikatori
-description: Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
+description: Šajā rakstā ir sniegta informācija par dažādiem preču identifikatoru tipiem un skaidrots, kā preču datiem varat pievienot preču identifikatorus.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851715"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063345"
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par dažādajiem preču identifikatoru veidiem un ir paskaidrots, kā varat pievienot preču identifikatorus preču datiem.
+Šajā rakstā ir sniegta informācija par dažādiem preču identifikatoru tipiem un skaidrots, kā preču datiem varat pievienot preču identifikatorus.
 
 Strādājot ar ražotnē vai noliktavā esošajām precēm programmā Microsoft Dynamics ERP vai Microsoft Dynamics CRM, ir vajadzīga efektīva šo preču un preču variantu identificēšanas stratēģija.
 
@@ -39,7 +39,7 @@ Programmā Dynamics 365 Supply Chain Management preces galvenais identifikators 
 
 Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supply Chain Management. Tā vietā tas ir saistīts ar preci preču dzīves cikla pārvaldības (product lifecycle management — PLM) sistēmā vai preču datu pārvaldības (product data management — PDM) sistēmā. Šādā gadījumā jūs izmantojat datu elementus, lai importētu preces un preču variantus. Pēc tam Supply Chain Management izmanto visu operāciju numurus.
 
-Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labam produkta identifikatoram parasti jābūt 20 vai mazāk rakstzīmēm, bet parasti mēs iesakām izmantot mazāk nekā 10 rakstzīmes, ieskaitot ne vairāk kā 5 klasificēšanas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
+Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labiem preces identifikatoriem parasti ir jābūt 20 vai mazāk rakstzīmēm, bet ieteicams izmantot mazāk par 10 rakstzīmēm, iekļaujot ne vairāk kā 5 klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Meklēšanas nosaukums ir papildu nosaukums, kas atspoguļo produkta iedalījumus.
 
 Izmantojot Microsoft Dataverse, preču numurs Supply Chain Management ir arī Microsoft Dataverse preces numurs. Preču varianti tiek sinhronizēti ar pakalpojumu Dataverse kā atšķirīgas preces.
 
@@ -125,7 +125,7 @@ Diemžēl nepastāv standarta funkcijas, kas sniedz iespēju meklēt preces pēc
 | Preces V2 | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Atkarībā no elementa iestatījumiem un preces numura numuru sērijas importēšanas laikā var tikt automātiski izveidots preces numurs. |
 | Preces varianti | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts | Atkarībā no preču nomenklatūras veidnes importēšanas laikā var tikt automātiski izveidots preces numurs. Taču varat importēt jebkuru unikālo preces numuru, un šim preces numuram nav jāatbilst preču nomenklatūras veidnes struktūrai. |
 | Preces pārrēķini | Preces nosaukums, preces apraksts | Preces nosaukums, preces apraksts | Šis elements izraisa jebkuras valodas pārrakstīšanu. Ņemiet vērā, ka, pārrakstot juridiskās personas primārās valodas nosaukumu vai aprakstu, tiek mainīts arī preces nosaukums un apraksts. |
-| Izlaisto preču izveide V2 | Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums| Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, preces nosaukums | Šis elements var radīt sarežģījumus, ja jaunu izlaisto preču izveides laikā tiek izmantotas numuru sērijas. Tiek ņemta vērā gan numuru sērija **Krājuma numurs** , gan numuru sērija **Preces numurs**. Taču numuru sērija **Krājuma numurs** atbilst noteiktai juridiskajai personai, bet numuru sērija **Preces numurs** ir globāla. Tāpēc, izvietojot jaunas izlaistās preces, nav ieteicams izmantot numuru sēriju **Krājuma numurs**. Protams, ka gadījuma, ja elements tiek izmantots esošas preces izlaišanai, elementā ir jānorāda preces numurs. Papildinformāciju skatiet šīs tēmas sadaļā “Preču un krājumu numuru sērijas”. |
+| Izlaisto preču izveide V2 | Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums| Krājuma numurs, preces numurs, krājuma saīsinātais nosaukums, preces saīsinātais nosaukums, preces nosaukums | Šis elements var radīt sarežģījumus, ja jaunu izlaisto preču izveides laikā tiek izmantotas numuru sērijas. Tiek ņemta vērā gan numuru sērija **Krājuma numurs** , gan numuru sērija **Preces numurs**. Taču numuru sērija **Krājuma numurs** atbilst noteiktai juridiskajai personai, bet numuru sērija **Preces numurs** ir globāla. Tāpēc, izvietojot jaunas izlaistās preces, nav ieteicams izmantot numuru sēriju **Krājuma numurs**. Protams, ka gadījuma, ja elements tiek izmantots esošas preces izlaišanai, elementā ir jānorāda preces numurs. Papildinformāciju skatiet šī raksta sadaļā "Preču un krājumu numuru sērijas". |
 | Izlaistie preces varianti | Krājuma numurs, preces dimensijas, preces numurs | Preces numurs, preces saīsinātais nosaukums, preces nosaukums, preces apraksts, preces dimensijas | Līdzīgi kā elementu **Preces varianti**, arī šo elementu var izmantot, lai izveidotu jaunas preces, kuru variantiem tiek izmantota preču nomenklatūras veidne vai precei specifiski preču numuri. |
 | Ārējs krājuma apraksts debitoriem | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Debitora krājuma numurs, debitora krājuma nosaukums, debitora apraksts, debitora konts | Izmantojot elementu **Ārējā krājumu apraksta debitoru grupas**, debitoru grupu (piemēram, pircēju apvienību) var apvienot vienā grupā. |
 | Ārējs krājuma apraksts kreditoriem | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Kreditora krājuma numurs, kreditora krājuma nosaukums, kreditora apraksts, kreditora konts | Izmantojot elementu **Ārējā krājumu apraksta kreditoru grupas**, kreditoru grupu (piemēram, pārdevēju apvienību vai nozares organizāciju) var apvienot vienā grupā. |
@@ -184,7 +184,7 @@ Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
 Tagad varat izmantot datu elementus **Preces elementa common data service identifikatora elements**, **Preces elementa identifikatora kods** un **Preču elementu identifikatoru tvērums**, lai eksportētu identifikatorus neatkarīgi no mērķa sistēmas.
 
-## <a name="related-topic"></a>Saistītā tēma
+## <a name="related-article"></a>Saistītais raksts
 
 [Preces un preces variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md)
 

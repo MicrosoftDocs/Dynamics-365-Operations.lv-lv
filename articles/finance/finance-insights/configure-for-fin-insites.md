@@ -1,6 +1,6 @@
 ---
 title: Finanšu ieskatu konfigurācija
-description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights.
+description: Šajā rakstā skaidroti konfigurācijas soļi, kas iespējos jūsu sistēmu izmantot iespējas, kas ir pieejamas Finanšu ieskatos.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861421"
 ---
 # <a name="configuration-for-finance-insights"></a>Finanšu ieskatu konfigurācija
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finanšu ieskatījumi apvieno funkcionalitāti no Microsoft Dynamics 365 Finansēm ar Dataverse, Azure AI Builder un nodrošina jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights. Lai veiksmīgi pabeigtu šīs tēmas procedūras, [jums ir jābūt sistēmas administratoram un sistēmas pielāgotāja piekļuvei Power Portal](https://admin.powerplatform.microsoft.com/) administrēšanas Microsoft Dynamics centrā, sistēmas administratora piekļuvei Dynamics 365 finansēm un piekļuvei, lai izveidotu vides lifecycle Services (LCS).
+Finanšu ieskatījumi apvieno funkcionalitāti no Microsoft Dynamics 365 Finansēm ar Dataverse, Azure AI Builder un nodrošina jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā rakstā skaidroti konfigurācijas soļi, kas iespējos jūsu sistēmu izmantot iespējas, kas ir pieejamas Finanšu ieskatos. Lai veiksmīgi pabeigtu šī raksta procedūras, [jums ir jābūt sistēmas administratoram un sistēmas pielāgotāja piekļuvei Power Portal](https://admin.powerplatform.microsoft.com/) administrēšanas Microsoft Dynamics centrā, sistēmas administratora piekļuvei Dynamics 365 finansēm un piekļuvei, lai izveidotu vides lifecycle Services (LCS).
 
 > [!NOTE]
 > Tālāk norādītās procedūras finanšu ieskatu iestatīšanai ir derīgas Dynamics 365 Finanšu versijas 10.0.21 vai jaunākai versijai.
@@ -101,7 +101,7 @@ Kad pievienojumprogramma ir veiksmīgi instalēta, var paiet stunda, **pirms** D
    Kad ieskatu **nodrošinājuma statusa pārbaudes process** ir veiksmīgi palaists, finanšu ieskatu līdzekļus var iespējot līdzekļu pārvaldības **darbvietā**.
 
 > [!NOTE]
-> Ja ieskatu **nodrošinājuma statusa pārbaudes** process nedarbojas, pārejiet uz **darbiem Sistēmas administrēšanaInquiriesBatch** > **·** > **·**. Laukā Procesa **automatizācijas aptauju** sistēma mainiet vērtību uz **Gaida**, lai sāktu procesu. 
+> Ja ieskatu **nodrošinājuma statusa pārbaudes process** nedarbojas, pārejiet uz sadaļu Sistēmas **administrēšanas** > **uzziņu pakešuzdevumi** > **·**. Laukā Procesa **automatizācijas aptauju** sistēma mainiet vērtību uz **Gaida**, lai sāktu procesu. 
 > 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 

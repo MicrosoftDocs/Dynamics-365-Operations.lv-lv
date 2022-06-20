@@ -1,6 +1,6 @@
 ---
 title: Izveidot ieteikumus ar demo datiem
-description: Šī tēma sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
+description: Šajā rakstā ir sniegtas norādes par to, kā pielāgot kanāla produktu ieteikumus 1. pakāpes vienas kastes vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874899"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Izveidot ieteikumus ar demo datiem
 
 [!include [banner](includes/banner.md)]
 
-Šī tēma sniedz vadlīnijas par to, kā gūt labumu no daudzkanālu preču ieteikumiem 1. līmeņa atsevišķa lodziņa vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
+Šajā rakstā ir sniegtas norādes par to, kā pielāgot kanāla produktu ieteikumus 1. pakāpes vienas kastes vidēs, izmantojot iepriekš aizpildītus, pielāgojamus demonstrācijas datus.
 
 Daudzkanālu preces ieteikumi sniedz redakcionāli pārraudzītu vai programmiski ģenerētu preču sarakstu kopu. Šos sarakstus var izmantot vairākos scenārijos atkarībā no biznesa vajadzībām. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, skatiet [Preču ieteikumu pārskats](product-recommendations.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu nomas sākšana
-description: Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju.
+description: Šajā rakstā ir aprakstītas Līdzekļu izlaižšanas iespējas un sniegtas darbības, kas veicamas, lai izveidotu līdzekļu nomu un skatītu informāciju par šīm nomām.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895143"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju. Tēmā ir definēta arī terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Pamatlīdzekļu nolaižšana ir papildu spēja pārvaldīt, izsekot un automātisks Microsoft Dynamics finanšu darbību 365. finanšu gadam. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu izlaižšana integrē efektīvi ar citiem Dynamics 365 Finanšu komponentiem, tostarp pamatlīdzekļiem, parādi kreditoriem un Virsgrāmatu.
+Šajā rakstā ir aprakstītas Līdzekļu izlaižšanas iespējas un sniegtas darbības, kas veicamas, lai izveidotu līdzekļu nomu un skatītu informāciju par šīm nomām. Šis raksts arī definē terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Pamatlīdzekļu nolaižšana ir papildu spēja pārvaldīt, izsekot un automātisks Microsoft Dynamics finanšu darbību 365. finanšu gadam. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu izlaižšana integrē efektīvi ar citiem Dynamics 365 Finanšu komponentiem, tostarp pamatlīdzekļiem, parādi kreditoriem un Virsgrāmatu.
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 

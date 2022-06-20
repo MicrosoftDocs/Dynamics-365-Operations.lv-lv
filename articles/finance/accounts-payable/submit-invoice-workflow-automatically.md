@@ -1,6 +1,6 @@
 ---
 title: Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
-description: Šajā tēmā ir paskaidrota kreditoru rēķinu iesniegšana darbplūsmas sistēmā un automātiska grāmatoto preču ieejas plūsmas rindu saskaņošana ar kreditora rēķiniem.
+description: Šajā rakstā skaidrots kreditora rēķinu iesniegšanas process darbplūsmas sistēmā un automātiski saskaņot grāmatotās produktu ieejas plūsmas rindas kreditora rēķiniem.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861623"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrota kreditoru rēķinu iesniegšana darbplūsmas sistēmā un automātiska grāmatoto preču ieejas plūsmas rindu saskaņošana ar kreditora rēķiniem.
+Šajā rakstā skaidrots kreditora rēķinu iesniegšanas process darbplūsmas sistēmā un automātiski saskaņot grāmatotās produktu ieejas plūsmas rindas kreditora rēķiniem.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Importēto kreditoru rēķinu iesniegšana darbplūsmas sistēmā un grāmatoto preču ieejas plūsmas rindu saskaņošana ar gaidošām kreditora rēķina rindām
 

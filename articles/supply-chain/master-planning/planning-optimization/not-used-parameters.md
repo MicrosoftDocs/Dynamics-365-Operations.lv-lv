@@ -1,6 +1,6 @@
 ---
 title: Plānošanas optimizācijas neizmantotie parametri
-description: Šajā tēmā ir uzskaitīti parametri, ko plānošanas optimizācija pašlaik neapsver tās darbības laikā.
+description: Šajā rakstā ir norādīti parametri, kurus pašlaik nav ieteicams izmantot tās operācijas laikā.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907353"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Plānošanas optimizācijas neizmantotie parametri
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir uzskaitīti parametri, ko plānošanas optimizācija pašlaik neapsver tās darbības laikā. Plānošanas pakalpojums var izlaist parametru, jo, piemēram, saistītā funkcionalitāte vēl nav atbalstīta. Alternatīvi parametrs, iespējams, ir novecojis funkcionālo izmaiņu dēļ.
+Šajā rakstā ir norādīti parametri, kurus pašlaik nav ieteicams izmantot tās operācijas laikā. Plānošanas pakalpojums var izlaist parametru, jo, piemēram, saistītā funkcionalitāte vēl nav atbalstīta. Alternatīvi parametrs, iespējams, ir novecojis funkcionālo izmaiņu dēļ.
 
 Tālāk sadaļās ir norādīti parametri, ko Plānošnas optimizācija izmanto noteiktu lapu plānošanai. Tās arī skaidro, kāpēc katrs parametrs netiek izmantots.
 

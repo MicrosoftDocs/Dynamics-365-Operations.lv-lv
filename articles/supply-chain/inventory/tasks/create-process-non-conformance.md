@@ -1,6 +1,6 @@
 ---
 title: Neatbilstības izveide un apstrāde
-description: Šajā tēmā ir aprakstīts, kā veikt neatbilstības pārvaldību, balstoties uz esošu kvalitātes pasūtījumu.
+description: Šajā rakstā ir aprakstīts, kā veikt neatbilstības pārvaldību, pamatojoties uz pastāvošu kvalitātes pasūtījumu.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901971"
 ---
 # <a name="create-and-process-nonconformances"></a>Neatbilstības izveide un apstrāde
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā veikt neatbilstības pārvaldību, balstoties uz esošu kvalitātes pasūtījumu. Parasti neatbilstības pārvaldību veic kvalitātes darbinieks. Pēcnosacījumam jābūt pieejamam kvalitātes pārbaudes pasūtījumam. (Informāciju par to, kā izveidot kvalitātes pārbaudes pasūtījumu, skatiet [Pārbaudīt preču kvalitāti](inspect-quality-goods.md).)
+Šajā rakstā ir aprakstīts, kā veikt neatbilstības pārvaldību, pamatojoties uz pastāvošu kvalitātes pasūtījumu. Parasti neatbilstības pārvaldību veic kvalitātes darbinieks. Pēcnosacījumam jābūt pieejamam kvalitātes pārbaudes pasūtījumam. (Informāciju par to, kā izveidot kvalitātes pārbaudes pasūtījumu, skatiet [Pārbaudīt preču kvalitāti](inspect-quality-goods.md).)
 
 Pirms lietotājs var apstrādāt neatbilstības apstiprinājumu, darbiniekiem jābūt piešķirtiem laukā **Persona** lapā **Lietotājs**. Turklāt, pirms lietotājs var lietot dokumentu piezīmes, lietotāja opcijās **Aktivizēt dokumentu apstrādi** jābūt iestatītai uz *Jā*.
 

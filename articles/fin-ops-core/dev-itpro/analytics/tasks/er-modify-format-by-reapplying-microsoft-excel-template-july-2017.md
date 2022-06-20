@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e66a2e24d3b1e77d5c790d2f3b7cfdce98fc4cca6e3734ad8b87ac7714192853
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abb7d902cc72ecaa6def0aef29d9418cea71255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892716"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Formātu modificēšana, atkārtoti lietojot Excel veidnes
 
@@ -25,7 +25,7 @@ ms.locfileid: "6749660"
 
 Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra “ER Noformēt konfigurāciju pārskatu ģenerēšanai formātā OPENXML”.
 
-Šīs procedūras aprakstā ir paskaidrots, kā izmainīt elektronisko pārskatu izveides (Electronic reporting — ER) formāta konfigurāciju, atkārtoti lietojot izmainītu Microsoft Excel veidni. Šajā procedūrā importēsiet modificētu Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot GBSI datu kopu. Pirms darba sākšanas lejupielādējiet un saglabājiet failu SampleVendPaymWsReport2.xlsx, kurš ir norādīts palīdzības tēmā “Elektronisko pārskatu veidošanas formāta mainīšana, atkārtoti pielietojot Excel veidni” (modify-electronic-reporting-format-reapply-excel-template/).
+Šīs procedūras aprakstā ir paskaidrots, kā izmainīt elektronisko pārskatu izveides (Electronic reporting — ER) formāta konfigurāciju, atkārtoti lietojot izmainītu Microsoft Excel veidni. Šajā procedūrā importēsiet modificētu Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot GBSI datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failu SampleVendPaymWsReport2.xlsx, kas ir uzskaitīts palīdzības rakstā. Modificējiet elektronisko pārskatu formātu, atkārtoti pielietojot Excel veidni (modificējiet elektronisko pārskatu formātu-atkārtoti lietot-excel-veidni/).
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  

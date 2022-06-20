@@ -1,6 +1,6 @@
 ---
 title: Darbību nosaukumu un instrukciju pielāgošana Warehouse Management mobile programmai
-description: Šajā tēmā ir aprakstīts, kā izveidot un rādīt pielāgotas instrukcijas katrai uzdevumu plūsmai, ko iestatāt programmai Warehouse Management mobile.
+description: Šajā rakstā ir aprakstīts, kā izveidot un rādīt pielāgotas instrukcijas katrai uzdevumu plūsmai, ko iestatāt mobilajai programmai Noliktavas pārvaldība.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895501"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Darbību nosaukumu un instrukciju pielāgošana Warehouse Management mobile programmai
 
 > [!IMPORTANT]
-> Šajā tēmā aprakstītie līdzekļi attiecas tikai uz jauno Warehouse Management mobile programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
+> Šajā rakstā aprakstītie līdzekļi attiecas tikai uz jauno noliktavas pārvaldības mobilo programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
 
-Šajā tēmā ir aprakstīts, kā izveidot un rādīt pielāgotas instrukcijas katrai uzdevumu plūsmai, ko iestatāt programmai Warehouse Management mobile. Kad noliktavas darbinieki saņem labi rakstītas instrukcijas, viņi var nekavējoties sākt izmantot jaunas plūsmas, neprasot iepriekšējas apmācības. Šis līdzeklis nodrošina šādus uzlabojumus:
+Šajā rakstā ir aprakstīts, kā izveidot un rādīt pielāgotas instrukcijas katrai uzdevumu plūsmai, ko iestatāt mobilajai programmai Noliktavas pārvaldība. Kad noliktavas darbinieki saņem labi rakstītas instrukcijas, viņi var nekavējoties sākt izmantot jaunas plūsmas, neprasot iepriekšējas apmācības. Šis līdzeklis nodrošina šādus uzlabojumus:
 
 - **Iestatiet darbiniekus ātrāk, ļaujot viņiem ievērot vienkāršas instrukcijas katrai darbībai.** Katrs plūsmas solis nodrošina norādījumus, kas ļauj rindas darbiniekiem izprast uzdevumu.
 - **Nodrošināt instrukcijas, kas atbilst jūsu procesiem.** Rakstiet savas instrukcijas, lai atbilstu biznesa un noliktavas procesiem. Piemēram, varat veidot terminoloģijai jūsu fizisko telpu un vietējos saīsinājumus.

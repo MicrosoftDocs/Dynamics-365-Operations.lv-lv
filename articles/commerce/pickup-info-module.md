@@ -1,6 +1,6 @@
 ---
 title: Saņemšanas informācijas modulis
-description: Šajā tēmā tiek stāstīts par saņemšanas informācijas moduli un aprakstīts, kā to pievienot izrakstīšanās lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir apskatīts savākšanas informācijas modulis un aprakstīts, kā pievienot to pārbaudes lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892601"
 ---
 # <a name="pickup-information-module"></a>Saņemšanas informācijas modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par saņemšanas informācijas moduli un aprakstīts, kā to pievienot izrakstīšanās lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīts savākšanas informācijas modulis un aprakstīts, kā pievienot to pārbaudes lapām Microsoft Dynamics 365 Commerce.
 
 Saņemšanas informācijas moduli var izmantot izrakstīšanās modulī, lai parādītu pasūtījuma saņemšanas informāciju. Klienti var skatīt pieejamos saņemšanas datumus un laika nišas un pēc tam izvēlēties piemērotāko laiku, lai paņemtu pasūtījumu. Piemēram, klients var izvēlēties saņemt pasūtījumu 21. martā plkst. 15.00 no Sanfrancisko veikala.
 

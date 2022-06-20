@@ -1,6 +1,6 @@
 ---
 title: Žurnāla grāmatošanas kļūme neatbilstības dēļ
-description: Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darījumos nav sabalansēti, tādējādi darījumus nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
+description: Šajā rakstā skaidrots, kādēļ debeti un kredīti dokumentu darbībās var nebūt līdzsvaroti, tādējādi darbības nevar grāmatot. Rakstā ir iekļautas arī problēmas labošanas darbības.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861334"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Žurnāla grāmatošanas kļūme neatbilstības dēļ
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kādēļ debeti un kredīti dokumentu darījumos nav sabalansēti, tādējādi darījumus nevar grāmatot. Tēmā ir iekļauti arī soļi problēmas labošanai.
+Šajā rakstā skaidrots, kādēļ debeti un kredīti dokumentu darbībās var nebūt līdzsvaroti, tādējādi darbības nevar grāmatot. Rakstā ir iekļautas arī problēmas labošanas darbības.
 
 ## <a name="symptom"></a>Simptoms
 

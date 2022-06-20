@@ -1,6 +1,6 @@
 ---
-title: Piegādātāju katalogu importēšana
-description: Šajā tēmā ir aprakstīts piegādātāju katalogu datu importēšanas process.
+title: Kreditoru katalogu importēšana
+description: Šajā rakstā ir aprakstīts kreditora kataloga datu importēšanas process.
 author: GalynaFedorova
 ms.date: 03/20/2018
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: decf8b487f939ecb7b0ecf8be377fdd85e3947cf
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851628"
 ---
-# <a name="import-vendor-catalogs"></a>Importēt piegādātāju katalogus
+# <a name="import-vendor-catalogs"></a>Kreditoru katalogu importēšana
 
 [!include[banner](../includes/banner.md)]
 

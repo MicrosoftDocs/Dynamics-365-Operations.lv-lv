@@ -1,6 +1,6 @@
 ---
 title: Izveidot līdzekļus, pamatojoties uz pirkšanas pasūtījumiem
-description: Šajā tēmā ir paskaidrots, kā var izveidot to līdzekļu vienību sarakstu, kurus var izmantot par pamatu uzturēšanas darbu līdzekļu veidošanai Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā var izveidot pamatlīdzekļu krājumu sarakstu, ko var izmantot kā pamatu pamatlīdzekļu izveidei uzturēšanas darbiem Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893705"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Izveidot līdzekļus, pamatojoties uz pirkšanas pasūtījumiem
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754111"
 
  
 
-Šajā tēmā ir paskaidrots, kā var izveidot to līdzekļu vienību sarakstu, kurus var izmantot par pamatu uzturēšanas darbu līdzekļu veidošanai Līdzekļu pārvaldībā. Pamatojoties uz līdzekļu vienībām, varat skatīt to pirkšanas pasūtījuma rindu sarakstu, kuras ir izveidotas šīm vienībām. Šīs funkcionalitātes nolūks ir viegli izveidot līdzekli Līdzekļu pārvaldībā, pamatojoties uz pirkšanas pasūtījumu.
+Šajā rakstā skaidrots, kā var izveidot pamatlīdzekļu krājumu sarakstu, ko var izmantot kā pamatu pamatlīdzekļu izveidei uzturēšanas darbiem Līdzekļu pārvaldībā. Pamatojoties uz līdzekļu vienībām, varat skatīt to pirkšanas pasūtījuma rindu sarakstu, kuras ir izveidotas šīm vienībām. Šīs funkcionalitātes nolūks ir viegli izveidot līdzekli Līdzekļu pārvaldībā, pamatojoties uz pirkšanas pasūtījumu.
 
 Vispirms iestatiet vienības, kas jāizmanto līdzekļu veidošanai no pirkšanas pasūtījuma **Līdzekļu vienībās**. Pēc pirkšanas pasūtījuma rindas izveidošanas jūs veidojat līdzekļus **Gaidošie līdzekļi**. Ir iespējams izlemt, kurā pirkšanas pasūtījuma stadijā līdzeklis būtu jāizveido.
 

@@ -1,6 +1,6 @@
 ---
 title: Sliekšņa ierobežojums un izņēmuma sliekšņa ierobežojums
-description: Šajā tēmā ir aprakstīts No kopējo ienākumu summas atskaitītā nodokļa (TDS) slieksnis un izņēmuma ierobežojumi.
+description: Šajā rakstā ir aprakstīts avota (TDS) ieturētā nodokļa slieksnis un izņēmuma ierobežojumi.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877941"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Sliekšņa ierobežojums un izņēmuma sliekšņa ierobežojums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts No kopējo ienākumu summas atskaitītā nodokļa (TDS) slieksnis un izņēmuma ierobežojumi. TDS rēķinos un maksājumos vienmēr tiek aprēķināts, ņemot vērā sliekšņa ierobežojumu un izņēmuma sliekšņa ierobežojumu, kas definēti TDS nodokļa komponentiem lapā **ieturētā nodokļa komponenti**. TDS nodokļu komponenti ir pievienoti TDS nodokļu kodiem, kas ir iekļauti TDS nodokļu grupās. TDS nodokļu grupas ir pievienotas kreditoriem un debitoriem, lai aprēķinātu TDS rēķina līmenī vai maksājuma līmenī.
+Šajā rakstā ir aprakstīts avota (TDS) ieturētā nodokļa slieksnis un izņēmuma ierobežojumi. TDS rēķinos un maksājumos vienmēr tiek aprēķināts, ņemot vērā sliekšņa ierobežojumu un izņēmuma sliekšņa ierobežojumu, kas definēti TDS nodokļa komponentiem lapā **ieturētā nodokļa komponenti**. TDS nodokļu komponenti ir pievienoti TDS nodokļu kodiem, kas ir iekļauti TDS nodokļu grupās. TDS nodokļu grupas ir pievienotas kreditoriem un debitoriem, lai aprēķinātu TDS rēķina līmenī vai maksājuma līmenī.
 
 TDS tiek aprēķināts, ja summa darījumam vai kumulatīvajiem darījumiem, kas grāmatotas ar noteiktu TDS grupu kreditoram, pārsniedz sliekšņa ierobežojumu, kas norādīts lapā **ieturētā nodokļa komponenti**. TDS netiks aprēķināts, kamēr kumulatīvā darījuma summa nepārsniedz norādīto sliekšņa ierobežojumu.
 

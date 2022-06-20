@@ -1,6 +1,6 @@
 ---
 title: Budžeta plānošanas veidnes programmai Excel
-description: Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, ko var izmantot kopā ar budžeta plāniem.
+description: Šajā rakstā ir aprakstīts, kā izveidot Microsoft Excel veidnes, ko var izmantot budžeta plāniem.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872504"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, ka izveidot Microsoft Excel veidnes, ko var izmantot kopā ar budžeta plāniem.
+Šajā rakstā ir aprakstīts, kā izveidot Microsoft Excel veidnes, ko var izmantot budžeta plāniem.
 
-Šajā tēmā ir parādīts, ka izveidot Excel veidnes, kuras tiks izmantotas ar budžeta plāniem, izmantojot standarta demonstrācijas datu kopu un piesakoties lietotājam ar administratora tiesībām. Papildinformāciju par darbu ar budžeta plānošanu skatiet sadaļā [Budžeta plānošanas apskats](budget-planning-overview-configuration.md). Lai apgūtu moduļa konfigurēšanas un lietošanas pamatprincipus, varat izpildīt arī apmācību [Budžeta plānošana](budget-plan.md).
+Šajā rakstā ir parādīts, kā izveidot Excel veidnes, kas tiks izmantotas ar budžeta plāniem, izmantojot standarta demonstrācijas datu kopu un Administratora lietotāja pieteikumvārdu. Papildinformāciju par darbu ar budžeta plānošanu skatiet sadaļā [Budžeta plānošanas apskats](budget-planning-overview-configuration.md). Lai apgūtu moduļa konfigurēšanas un lietošanas pamatprincipus, varat izpildīt arī apmācību [Budžeta plānošana](budget-plan.md).
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Ģenerēt darblapu, izmantojot budžeta plāna dokumenta izkārtojumu
 
-Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā tēmā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot jau esošu izkārtojuma konfigurāciju. 
+Budžeta plāna dokumentus var skatīt un rediģēt, izmantojot vienu vai vairākus izkārtojumus. Ar katru izkārtojumu var būt saistīta budžeta plāna dokumenta veidne, lai šos budžeta plāna datus skatītu un rediģētu Excel darblapā. Šajā rakstā budžeta plāna dokumenta veidne tiks ģenerēta, izmantojot esošu izkārtojuma konfigurāciju. 
 
 1. Atveriet sadaļu **Budžeta plānu saraksts** (**Budžeta veidošana** &gt; **Budžeta plāni**). 
 2. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu budžeta plāna dokumentu. 

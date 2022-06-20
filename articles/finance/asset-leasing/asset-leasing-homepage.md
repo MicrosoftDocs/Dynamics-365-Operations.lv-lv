@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu nomas mājas lapa
-description: Šajā tēmā sniegts pārskats par līdzekļu nomas dokumentāciju un saites uz noteiktām tēmām.
+description: Šajā rakstā sniegts Pārskats par Pamatlīdzekļu izlaižot dokumentāciju un saites uz noteiktām tēmām.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889154"
 ---
 # <a name="asset-leasing-home-page"></a>Līdzekļu nomas mājas lapa
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā uzskaitītas palīdzības tēmas, kas pieejamas līdzekļu nomai, un iekļautas saites uz noteiktām tēmām. 
+Šajā rakstā ir minētas palīdzības tēmas, kas ir pieejamas Pamatlīdzekļu izlaižot, un ietver saites uz noteiktām tēmām. 
 
 Pamatlīdzekļu nolaižšana ir papildu spēja pārvaldīt, izsekot un automātisks Microsoft Dynamics finanšu darbību 365. finanšu gadam. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai.
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 
 ## <a name="asset-leasing-topics"></a>Līdzekļu nomas tēmas
-Tālāk norādītā tēma ir pieejama, lai palīdzētu konfigurēt un izmantot līdzekļu nomu. 
+Šis raksts ir pieejams, lai palīdzētu konfigurēt un izmantot Pamatlīdzekļu izlaižu. 
 
- - [Darba sākšana ar līdzekļu nomu](asset-leasing-quick-start.md) — šajā tēmā ir aprakstītas vispārīgās līdzekļu nomas iespējas, uzskaitīti un definēti termini, kas izmantoti programmatūrā un dokumentācijā.
+ - [Līdzekļu izlaižšana sākties](asset-leasing-quick-start.md) - šajā rakstā ir aprakstītas pamatlīdzekļu izlaižšanas vispārīgās iespējas, kā arī tiek definēti programmatūrā un dokumentācijā izmantotie nosacījumi.
  
  ### <a name="set-up-asset-leasing"></a>Nomas līdzekļu iestatīšana
  Šī tēmu grupa var palīdzēt konfigurēt līdzekļu nomu veidā, kas ir optimāls jūsu organizācijas biznesa situācijai.  
@@ -77,7 +77,7 @@ Tālāk norādītā tēma ir pieejama, lai palīdzētu konfigurēt un izmantot l
  - [Nomas pārvaldība, izmantojot nomas importēšanas struktūru](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Līdzekļu nomas pārskatu veidošana
-Šajā tēmā ir aprakstīti pārskati, kas ir pieejami līdzekļu nomai. 
+Šajā rakstā ir aprakstīti pārskati, kas ir pieejami pamatlīdzekļu nomas maksai. 
 
  - [Līdzekļu nomas pārskati](asset-leasing-rprts.md)
  
@@ -90,7 +90,7 @@ Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft
 
 ### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations – Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 

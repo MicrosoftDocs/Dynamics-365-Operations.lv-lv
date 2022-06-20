@@ -1,6 +1,6 @@
 ---
 title: Indijas No kopējo ienākumu summas atskaitītā nodokļa (TDS) pārskats
-description: Šajā tēmā sniegta detalizēta informācija par Indijas No kopējo ienākumu summas atskaitīto nodokli (TDS). TDS dokumentācija sedz šīs iespējas funkcionalitāti.
+description: Šajā rakstā ir sniegta detalizēta informācija par Indijas nodokli, kas ieturēts avotā (TDS). TDS dokumentācija sedz šīs iespējas funkcionalitāti.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896288"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Indijas No kopējo ienākumu summas atskaitītā nodokļa (TDS) pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegta detalizēta informācija par Indijas No kopējo ienākumu summas atskaitīto nodokli (TDS).
+Šajā rakstā ir sniegta detalizēta informācija par Indijas nodokli, kas ieturēts avotā (TDS).
 
 TDS dokumentācija sedz šīs iespējas funkcionalitāti. Tajā skaidrots arī, kā veikt pamata iestatījumus TDS, aprēķināt TDS darījumos, pabeigt TDS norēķinu procesu, reģistrēt TDS sertifikātu numurus un ģenerēt TDS pieprasījumus, TDS pārskatus un TDS sertifikātus. Šajā dokumentācijā ir iekļautas šādas tēmas:
 

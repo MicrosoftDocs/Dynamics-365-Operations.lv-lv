@@ -1,6 +1,6 @@
 ---
-title: Izveidot Azure glabāšanas kontu Azure portālā
-description: Šajā tēmā ir izskaidrots, kā izveidot Azure glabāšanas kontu elektroniskajai rēķinu izrakstīšanai.
+title: Azure krātuves konta izveide Azure portālā
+description: Šajā rakstā ir izskaidrots, kā izveidot Azure glabāšanas kontu elektroniskajai rēķinu izrakstīšanai.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d9647e234b3603ef6305ec6031a793b744bbe98
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898023"
 ---
-# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Izveidot Azure glabāšanas kontu Azure portālā
+# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure krātuves konta izveide Azure portālā
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +49,7 @@ Visi elektroniskie faili, ko ģenerējis Elektronisko rēķinu izrakstīšanas p
     - Pievienot
     - Izveidot
     - Rakstīt
-    - Dzēst
+    - Delete
     - Saraksts
 
 14. Atlasiet **Ģenerēt SAS marķieri un URL**.

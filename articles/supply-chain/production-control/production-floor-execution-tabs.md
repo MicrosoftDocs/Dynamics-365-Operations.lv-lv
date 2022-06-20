@@ -1,6 +1,6 @@
 ---
 title: Ražošanas izpildes interfeisa izstrādāšana
-description: Šajā tēmā ir aprakstīts, kā izstrādāt lietotāja interfeisa saturu katrai konfigurācijai.
+description: Šajā rakstā ir aprakstīts, kā veidot lietotāja interfeisa saturu katrai konfigurācijai.
 author: johanhoffmann
 ms.date: 12/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ee206ced76dbdd356c77d34a4b8f197879e9a3f0
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 66190ab261d19c718e13801c17a34b915ccf158c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852249"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa izstrādāšana
 
@@ -53,13 +53,13 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 
 1. Lapas virsrakstā veiciet tālāk norādītos iestatījumus:
 
-    - **Tabulēšanas nosaukums** — norādiet cilnes nosaukumu.
-    - **Galvenais skats** — atlasiet kādu no iepriekš definētajiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi*, *Mani darbi* un *Mana mašīna*).
-    - **Detalizētas informācijas skats** — atlasiet tukšu vērtību vai **Detalizētu informāciju par** darbu. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
+    - **Cilnes** nosaukums – norādiet cilnes nosaukumu.
+    - **Galvenais skats** – atlasiet no iepriekš definētajiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi*, *Mani darbi* un *Mans iekārta*).
+    - **Detalizētas informācijas** skats – atlasiet no tukšas vērtības vai darba **informācijas**. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
 
 1. **Primārās rīkjoslas** sadaļā Izvēlieties, kurām pogām jābūt pieejamām primārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
 
-1. **Sadaļā Sekundārā rīkjosla** izvēlieties, kurām pogām jābūt pieejamām sekundārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
+1. Sadaļā Sekundārā **rīkjosla** izvēlieties, kuras pogas būs pieejamas sekundārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Cilnes saistīšana ar konfigurāciju
 

@@ -1,6 +1,6 @@
 ---
-title: Palaidiet pielāgotus X++ skriptus bez dīkstāves
-description: Šajā tēmā ir aprakstīts, kā augšupielādēt un palaist izvietojamas pakotnes, kurās ir pielāgoti X++ skripti, neapturot sistēmu.
+title: Pielāgotu X++ skriptu palaišana ar nulles dīkstāves laiku
+description: Šajā rakstā ir aprakstīts, kā augšupielādēt un palaist izvietojamas pakotnes, kurās ir pielāgoti X++ skripti bez nepieciešamības aizturēt sistēmu.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,67 +11,67 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867334"
 ---
-# <a name="run-custom-x-scripts-with-zero-downtime"></a>Palaidiet pielāgotus X++ skriptus bez dīkstāves
+# <a name="run-custom-x-scripts-with-zero-downtime"></a>Pielāgotu X++ skriptu palaišana ar nulles dīkstāves laiku
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Šī funkcija ļauj augšupielādēt un palaist izvietojamas pakotnes, kurās ir pielāgoti X++ skripti, bez nepieciešamības tos veikt Microsoft Dynamics Lifecycle Services (LCS) vai apturiet savu sistēmu. Tāpēc jūs varat labot nelielas datu neatbilstības, neradot traucējošu dīkstāvi.
+Šis līdzeklis ļauj jums augšupielādēt un palaist izvietojamas pakotnes, kurās ir pielāgoti X++ skripti bez nepieciešamības Microsoft Dynamics izmantot Lifecycle Services (LCS) vai bloķēt sistēmu. Tāpēc jūs varat labot nelielas datu nesakritības, neizraisot jebkādus traucējošus dīkstāves laikus.
 
-Ieguvums no X++ skripta izmantošanas, lai labotu nelielas datu neatbilstības, ir tāds, ka sistēma automātiski pielāgos visas saistītās tabulas pēc vajadzības, palaižot skriptu. Šī pieeja palīdz nodrošināt korekcijas integritāti un palīdz samazināt risku, ka var rasties jaunas neatbilstības.
+X++ skripta izmantošanas ieguvums, lai koriģētu nelielas datu nekonsekvences, ir tāds, ka sistēma automātiski koriģēs visas saistītās tabulas, kā pieprasīts, kad tā palaiž skriptu. Šī pieeja palīdz nodrošināt korekcijas integritāti un palīdz minimizēt jaunas neatbilstības risku.
 
 > [!IMPORTANT]
-> Šī funkcija ir paredzēta tikai nelielu datu neatbilstību labošanai. To nedrīkst izmantot šādiem vai citiem mērķiem:
+> Šī funkcija ir paredzēta tikai nelielas datu neatbilstības labošanai. To nedrīkst izmantot šādiem nolūkiem vai jebkādam citam nolūkam:
 >
 > - Datu vākšana
-> - Shēmas izmaiņas
-> - Datu migrācija vai citi ilgstoši procesi
-> - To datu labošana, kurus var labot, izmantojot citus līdzekļus, piemēram, parastos biznesa procesus, datu konsekvences rīkus vai citus pašapkalpošanās rīkus.
+> - Shēmu izmaiņas
+> - Datu migrācija vai citi ilgtermiņa procesi
+> - Datu labojumi, ko var labot ar citiem līdzekļiem, piemēram, regulāri biznesa procesi, datu konsekvences rīki vai citi pašapkalpošanās rīki
 >
-> Šī funkcija ļauj pilnvarotajiem lietotājiem tieši mainīt entītijas un to ierakstus, neizmantojot ar šīm entītijām saistīto biznesa loģiku. Šīs izmaiņas var izraisīt datu integritātes problēmas. Tādēļ jūsu organizācija var pieprasīt, lai pirms un/vai pēc skripta palaišanas saņemtu apstiprinājumu un parakstu no iekšējiem un ārējiem auditoriem (vai citām līdzvērtīgām ieinteresētajām personām). Atbilstības apsvērumu dēļ izmaiņas, kas ietekmē dažus raksturlielumus, var būt arī jāatklāj ārējos pārskatos (piemēram, finanšu pārskatos) vai jāziņo valdības iestādēm. Jūsu organizācija ir pilnībā atbildīga par visām izmaiņām, kas veiktas tās datos, izmantojot šo līdzekli, par jebkādu šo izmaiņu apstiprināšanu un parakstīšanu vai izpaušanu, kā arī par atbilstību piemērojamiem tiesību aktiem. Jūs uzņematies visus riskus, kas saistīti ar šīs funkcijas izmantošanu.
+> Šis līdzeklis ļauj autorizētiem lietotājiem tieši mainīt entītijas un to ierakstus bez nepieciešamības palaist biznesa loģiku, kas ir saistīta ar šīm entītijām. Šīs izmaiņas var izraisīt datu integritātes problēmas. Tāpēc jūsu organizācija var prasīt, lai pirms un/vai pēc skripta izpildes saņemtu apstiprinājumu un izrakstītu no iekšējiem un ārējiem auditoriem (vai citiem ekvivalentiem ekvivalentiem). Saskaņotības iemeslu dēļ izmaiņas, kas ietekmē dažus raksturlielumus, var būt nepieciešams nodot ārējos pārskatos (piemēram, finanšu pārskatos) vai ziņot valsts iestādēm. Jūsu organizācija ir tikai atbildīga par visām izmaiņām, kas tās datiem tiek veiktas, izmantojot šo funkciju, jebkuru apstiprinājumu un nozīmību vai šo izmaiņu izpaušanu un atbilstību piemērojamajiem likumiem. Jūs uzņemat visus šīs funkcijas lietošanas riskus.
 
-Visas izvietojamās pakotnes, kas tiek augšupielādētas sistēmā, iziet obligātu darbplūsmu. Drošības nolūkos un, lai palīdzētu nodrošināt pienākumu nošķiršanu, lietotājs, kurš augšupielādē izvietojamo pakotni, nedrīkst to apstiprināt nākamajām darbplūsmas darbībām. Tas ir jāapstiprina citam lietotājam. Tomēr pēc pakotnes apstiprināšanas lietotājs, kurš to augšupielādējis, varēs veikt atlikušās darbības.
+Visas izvietojamās pakotnes, kas tiek augšupielādētas sistēmā, tiek izmantojot obligāto darbplūsmu. Kā drošības priekšapstrāde un lai palīdzētu nodrošināt pienākumu sadales, lietotājam, kurš augšupielādē izvietojamu pakotni, nav atļauts to apstiprināt nākamajās darbplūsmas darbībās. Citam lietotājam tas ir jāapstiprina. Tomēr pēc pakotnes apstiprināšanas lietotājs, kurš to augšupielādējis, varēs veikt atlikušos soļus.
 
-Sistēma pieprasa, lai visas izvietojamās pakotnes tiktu pārbaudītas. Lai skriptu varētu palaist ar ražošanas datiem, lietotājam ir jāapstiprina, vai izvade ir pareiza, atlasot **Pieņemiet pārbaudes žurnālu**. Ja izvade nav pareiza, lietotājam ir jāatzīmē pakotne kā neizdevusies, atlasot **Pamest**. Šajā gadījumā skriptu nevarēs palaist ražošanas datiem.
+Sistēmā ir nepieciešams, lai visas izvietojamās pakotnes izietu cauri testa palaišanai. Pirms skripta palaišanas ražošanas datiem lietotājam ir jāapstiprina, ka izvade ir pareiza, **atlasot Pieņemt testa žurnālu**. Ja izvade nav pareiza, lietotājam ir jāatzīmē pakotne kā neizdevās, atlasot **Pārtraukts**. Šajā gadījumā skriptu nevarēs palaist ražošanas datos.
 
-Katra augšupielādētā pakotne tiek saglabāta sistēmā un tiek veikta noteiktai notikumu darbplūsmai. Katram notikumam sistēma saglabā žurnālu, kurā ir ietverts laikspiedols un tās personas identitāte, kura veica notikumu. Tādā veidā sistēma nodrošina audita izsekojamību.
+Katra augšupielādētā pakotne tiek saglabāta sistēmā un tiek izieta cauri noteiktai notikumu darbplūsmai. Katram notikumam sistēma uztur žurnālu, kas ietver laikspiedolu un personas identitāti, kura veica notikumu. Šādā veidā sistēma nodrošina, ka ir auditācijas pieraksti.
 
-Kā parādīts nākamajā attēlā, sistēma sniedz detalizētu informāciju par to, kā katra izvietojamā pakotne tika darbināta programmā X++ un kurām entītijām tika pieskarties.
+Kā redzams šajā ilustrācijā, sistēma sniedz detalizētu informāciju par to, kā katra izvietojamā pakotne tika palaista X++ un kuras entītijas tika piestaustas.
 
-![Skripta informācijas lapa.](media/script-details.png "Detalizēta lapa Par skriptu")
+![Skripta detalizētas informācijas lapa.](media/script-details.png "Skripta detalizētas informācijas lapa")
 
-## <a name="assign-duties-to-users-to-control-access"></a>Piešķiriet lietotājiem pienākumus kontrolēt piekļuvi
+## <a name="assign-duties-to-users-to-control-access"></a>Piešķirt pienākumus lietotājiem, lai kontrolētu piekļuvi
 
-Šī funkcija nodrošina šādus pienākumus. Administratori var izmantot šos pienākumus, lai palīdzētu kontrolēt piekļuvi funkcijai.
+Šī funkcija sniedz šādus pienākumus. Administratori var izmantot šos pienākumus, lai palīdzētu kontrolēt piekļuvi funkcijai.
 
-- **Uzturiet pielāgotus skriptus** - Šis pienākums nodrošina iespēju augšupielādēt, pārbaudīt, pārbaudīt un palaist pielāgotus X++ skriptus vidēs (lietotāja pieņemšanas pārbaude\[ UAT\] un ražošana).
-- **Apstipriniet pielāgotos skriptus** – Šis pienākums nodrošina iespēju apstiprināt augšupielādētu pielāgotu X++ skriptu. Apstiprināšana ir obligāta darbība, pirms jebkuru skriptu var pārbaudīt, pārbaudīt un palaist.
+- **Uzturēt pielāgotos skriptus** – šis pienākums sniedz iespēju augšupielādēt, pārbaudīt, pārbaudīt un palaist pielāgotus X++ skriptus vidēs (lietotāju \[pieņemšanas pārbaude UAT\] un ražošana).
+- **Apstiprināt pielāgotos skriptus** – šis pienākums sniedz iespēju apstiprināt augšupielādētu pielāgotu X++ skriptu. Apstiprināšana ir obligāts solis, pirms jebkuru skriptu var testēt, pārbaudīt un palaist.
 
-Lai palīdzētu samazināt ļaunprātīgas darbības risku, katrs skripts ir skaidri jāapstiprina lietotājam, kas nav lietotājs, kurš to augšupielādēja. Lai varētu izmantot šo līdzekli savā organizācijā, administratoram ir jāpiešķir iepriekšējie pienākumi vismaz diviem atbilstošiem un ļoti uzticamiem lietotājiem. Lai gan vienam lietotājam var būt abi pienākumi, šis lietotājs joprojām nevarēs apstiprināt savus skriptus.
+Lai samazinātu ļaunprātīgas darbības risku, katram skriptam jābūt skaidri apstiprinātam citam lietotājam, nevis lietotājam, kas to augšupielādējis. Pirms varat izmantot šo funkciju savā organizācijā, administratoram jāpiešķir iepriekšējie pienākumi vismaz diviem būtiskiem un ļoti uzticamiem lietotājiem. Kaut arī vienam lietotājam var būt abi pienākumi, šis lietotājs vēl aizvien nevarēs apstiprināt savus skriptus.
 
 ## <a name="create-a-deployable-package"></a>Izvietojamas pakotnes izveide
 
-Funkcijai ir nepieciešama parasta izvietojama pakotne, kurā var izveidot Visual Studio. Norādījumus sk [Izveidojiet izvietojamas modeļu pakotnes](../deployment/create-apply-deployable-package.md).
+Šis līdzeklis pieprasa regulāru izvietojamu pakotni, kurā var izveidot Visual Studio. Norādījumus skatiet sadaļā Modeļu [izvietojamo pakotņu izveide](../deployment/create-apply-deployable-package.md).
 
-Izvietojamajā pakotnē ir jāietver tieši viena izpildāma X++ klase. Citiem vārdiem sakot, tai ir jābūt vienai klasei, kas ietver metodi, kurai ir šāds paraksts.
+Izvietojamajā pakotnē ir jābūt precīzi vienai darbinātai X++ klasei. Citiem vārdiem sakot, tai ir nepieciešama viena klase, kas ietver metodi, kam ir šāds paraksts.
 
 ```xpp
 public static void main(Args _args)
 ```
 
 > [!NOTE]
-> Galvenās metodes nosaukumam jābūt ar mazajiem burtiem.
+> Galvenās metodes nosaukumam jābūt mazo burtu nosaukumam.
 
 ## <a name="code-example"></a>Koda piemērs
 
-Šis koda piemērs parāda, kā var strukturēt izvietojamu pakotni.
+Tālāk redzamajā koda piemērā ir parādīts, kā iespējams strukturēt izvietojamu pakotni.
 
 ```xpp
 class MyScriptClassForIssueXYZ
@@ -106,49 +106,49 @@ class MyScriptClassForIssueXYZ
 
 ## <a name="best-practices"></a>Paraugprakses
 
-Šajā sarakstā ir aprakstīti daži paraugprakses piemēri veiksmīgai skripta rakstīšanai, ieviešanai un palaišanai. Saraksts nav pilnīgs, un tas ir jāuzskata tikai par norādījumiem.
+Tālāk sniegtajā sarakstā ir aprakstītas dažas labākās prakses skripta veiksmīgai rakstīšanai, ieviešanas un palaišanai. Saraksts nav pilnīgs, un tas ir jāuzskata tikai par vadlīnijām.
 
-- **Darīt** rakstiet veiksmes ziņojumu skripta beigās. Tādā veidā jūs varēsiet redzēt, ka skripts darbojās bez izņēmumiem.
-- **Darīt** pievienojiet skaidru darījumu jomas apstrādi.
-- **Darīt** izmantot esošo biznesa loģiku, piemēram`update()` metodes, bet **ne** apiet biznesa loģiku, izmantojot`doUpdate()`,`doInsert()`, un`doDelete()` metodes. Šī pieeja palīdzēs nodrošināt, ka atkarīgie dati tiek pareizi apstrādāti. Tas arī ievērojami samazinās turpmāku datu neatbilstību risku.
-- **Darīt** aizstāvēt uzņēmuma kontekstu. Šī pieeja atklās bieži sastopamās kļūdas skripta izpildes laikā. Piemēram, tas atklās, vai skripts tiek palaists nepareizā uzņēmumā.
-- **Darīt** apstipriniet, ka ietekmēto ierakstu skaits atbilst jūsu cerībām. Šī pieeja atklās, vai dati negaidīti mainījās sistēmā skripta sagatavošanas laikā.
-- **Darīt** izmantojiet unikālus klases nosaukumus katram skriptam (piemēram, iekļaujot nosaukumā atsauci uz darba vienumu). Šī pieeja novērsīs nosaukumu sadursmes problēmas, augšupielādējot skriptu. Ja ir nepieciešama jauna skripta iterācija, noteikti piešķiriet tam jaunu nosaukumu.
-- **Darīt** vispirms pārbaudiet katru skriptu ar ražošanu nesaistītā vidē. Pārbaudiet paredzēto triecienu un nejaušas blakusparādības saistītajos datos. Nodrošiniet, lai visi biznesa procesi, kas varētu tikt ietekmēti, pēc tam tiktu veiksmīgi un pilnībā pabeigti.
+- **Rakstīt** veiksmīgu ziņojumu skripta beigās. Šādā veidā varēsiet redzēt, ka skripts tika izpildīts bez izņēmumiem.
+- **Pievienojiet** precīzi formulētu darbību sfēras apstrādi.
+- **Izmantojiet** esošo biznesa loģiku, piemēram `update()`, metodes, **bet nevadiet** biznesa loģiku, izmantojot `doUpdate()`, `doInsert()` un `doDelete()` metodes. Šī pieeja palīdzēs nodrošināt, ka pakārtotie dati tiek apstrādāti pareizi. Tas arī būtiski samazinās tālāko datu nekonsekvences risku.
+- **Aplieciniet** uzņēmuma kontekstu. Šī pieeja atklāt parastās kļūdas skripta izpildes laikā. Piemēram, tas atklāts, vai skripts tiek palaists nepareizā uzņēmumā.
+- **Aplieciniet**, ka ietekmēto ierakstu skaits atbilst jūsu prognozēm. Šī pieeja atklāt, vai dati tika neparedzēti mainīti sistēmā skripta apstrādes laikā.
+- **Izmantojiet** unikālus klašu nosaukumus katram skriptam (piemēram, iekļaujot nosaukums atsauci uz darba elementu). Šī pieeja neļaus nosaukuma slīpsvītras problēmas, augšupielādējot skriptu. Ja nepieciešams jauns skripta atkārtojums, noteikti piešķiriet tam jaunu nosaukumu.
+- **Vispirms** pārbaudiet katru skriptu ārpus ražošanas vidē. Paredzētās ietekmes un ne nejaušiem blakusefektiem pārbaude saistītajiem datiem. Nodrošiniet, lai visi ietekmētie biznesa procesi pēc tam varētu tikt veiksmīgi un pilnībā pabeigti.
 
-## <a name="upload-and-run-a-deployable-package"></a>Augšupielādējiet un palaidiet izvietojamo pakotni
+## <a name="upload-and-run-a-deployable-package"></a>Augšupielādēt un palaist izvietojamu pakotni
 
-Lai augšupielādētu un palaistu skriptu, izmantojiet tālāk norādīto procedūru.
+Izmantojiet šo procedūru, lai augšupielādētu un palaistu skriptu.
 
-1. Programmā Finance and Operations dodieties uz **Sistēmas administrēšana \> Periodiski uzdevumi \> Datu bāze \> Pielāgoti skripti**.
+1. Finanšu un operāciju programmā dodieties uz sadaļu Sistēmas administrēšanas periodiskie **uzdevumi, datu \>\> bāzes pielāgotie skripti \>.**
 1. Atlasiet **Augšupielādēt**.
-1. Atlasiet izvietojamo pakotni, kuru izveidojāt, kā aprakstīts iepriekš šajā tēmā. Jums tiks piedāvāts norādīt skripta mērķi.
-1. Tagad skripts ir jāapstiprina citam lietotājam, nevis lietotājam, kurš to augšupielādēja. Apstiprinātājam jāveic šādas darbības:
+1. Atlasiet izvietojamo pakotni, kuru izveidojāt, kā aprakstīts iepriekš šajā rakstā. Jums tiks piedāvāts norādīt skripta nolūku.
+1. Skriptu tagad jāapstiprina citam lietotājam, nevis lietotājam, kas to augšupielādēja. Apstiprinātājam ir jāveic šādas darbības:
 
-    1. Iet uz **Sistēmas administrēšana \> Periodiski \> Datu bāze \> Pielāgoti skripti**.
-    1. Atlasiet apstiprināmo skriptu un pēc tam atlasiet **Detalizēti**.
-    1. Darbību rūts **cilnes Apstrādāt darbplūsma** grupā Sākt **atlasiet** Apstiprināt **vai** Noraidīt **·**. Ja atlasāt **Apstiprināt**, skripts tiek atzīmēts kā apstiprināts un tiek atbloķēts testēšanai. Ja atlasāt **Noraidīt**, skripts ir bloķēts. Abos gadījumos notikums tiek reģistrēts, un skripta kopija tiek saglabāta sistēmā.
+    1. Dodieties uz **sadaļu Sistēmas administrēšanas \>\> periodiskie datu \> bāzes pielāgotie skripti**.
+    1. Atlasiet skriptu apstiprināšanai un pēc tam atlasiet **Detaļas**.
+    1. Darbību rūts cilnes Apstrādāt darbplūsmu grupā Sākt **atlasiet** Apstiprināt **vai** **Noraidīt.** **·** Atlasot **Apstiprināt**, skripts tiek atzīmēts kā apstiprināts un atbloķēts testēšanai. Ja atlasāt **Noraidīt**, skripts ir bloķēts. Abos gadījumos tiek pieteikts notikums un skripta kopija tiek glabāta sistēmā.
 
-1. Skripts ir jāpārbauda, lai pārliecinātos, ka tas dara to, ko tas ir paredzēts darīt. Testētājs var būt tāds pats kā augšupielādētājs vai apstiprinātājs, vai arī tas var būt trešais lietotājs, kuram ir nepieciešamās atļaujas. Testētājam jāveic šādas darbības:
+1. Skripts ir jāpārbauda, lai nodrošinātu, ka tas veic to, ko paredzēts darīt. Pārbaudītājs var būt tāds pats kā augšupielādētājs vai apstiprinātājs, vai arī tas var būt trešais lietotājs, kuram ir nepieciešamās atļaujas. Pārbaudītājam ir jāveic tālāk norādītās darbības.
 
-    1. Iet uz **Sistēmas administrēšana \> Periodiski \> Datu bāze \> Pielāgoti skripti**.
-    1. Atlasiet pārbaudāmo skriptu un pēc tam atlasiet **Detalizēti**.
-    1. Darbību rūts **cilnes** Apstrādāt darbplūsma **grupā Pārbaude** atlasiet **Izpildīt testu**. Skripts tiek palaists pagaidu transakcijā, kuru sistēma automātiski pārtrauks, kamēr tā apkopos dažādus žurnālus un SQL priekšrakstus.
-    1. Kad skripts ir beidzis darboties, pārskatiet žurnālus un pārbaudiet, vai rezultāti atbilst jūsu vēlmēm. Izpildiet kādu no šīm darbībām:
+    1. Dodieties uz **sadaļu Sistēmas administrēšanas \>\> periodiskie datu \> bāzes pielāgotie skripti**.
+    1. Atlasiet skriptu pārbaudei un pēc tam atlasiet **Detaļas**.
+    1. Darbību rūts cilnes Process **darbplūsma** grupā **Testa** atlasiet Izpildīt **testu**. Skripts tiek palaists pagaidu darbībā, ko sistēma automātiski priekšlaikus pārtrauktu, apkopojot dažādus žurnālus un SQL priekšrakstus.
+    1. Kad skripts ir beidzis darbību, pārskatiet žurnālus un pārbaudiet, vai rezultāti atbilst jūsu prognozēm. Izpildiet kādu no šīm darbībām:
 
-        - Ja esat apmierināts ar testa rezultātu, darbību rūts cilnes Apstrādāt darbplūsma grupā Tests atlasiet **Akceptēt testa žurnālu** **, lai atļautu skripta izpildi.** **·** Notikumu žurnāls atspoguļos faktu, ka skripts tika pārbaudīts, un tas norādīs, kas to pārbaudīja un kad.
-        - Ja neesat apmierināts ar testa rezultātu, darbību rūts cilnes Procesa darbplūsma grupā Beigt atlasiet **Atteikties** **, lai novērstu skripta izpildi.** **·** Sistēma saglabās skripta kopiju kopā ar tā vēstures žurnālu.
+        - Ja esat apmierināts ar testa rezultātu, **·** **·** **darbību** rūts cilnes Process darbplūsma grupā Pieņemt testa žurnālu, lai ļautu palaist skriptu. Notikumu žurnāls atspoguļos faktu, ka skripts tika pārbaudīts, un tas norāda, kas to pārbaudīja un kad.
+        - Ja neesat apmierināts ar testa rezultātu, **·** **·** **darbību** rūts cilnes Apstrādāt darbplūsmu beigu grupā atlasiet Atcelt, lai neatļautu palaist skriptu. Sistēma saglabās skripta kopiju kopā ar tā vēstures žurnālu.
 
-1. Kad esat pārliecināts, vai skripts atbilst jūsu vēlmēm, darbību rūts cilnes Apstrādāt darbplūsma grupā Palaist atlasiet **Palaist** **·**, lai to palaistu.**·** Šī komanda dara to pašu, ko iepriekšējā testa braucienā, bet transakcija tiks veikta beigās.
-1. Kad skripts ir beidzis darboties, pārbaudiet rezultātu un apstipriniet, ka skripts darbojās, kā paredzēts. Izpildiet kādu no šīm darbībām:
+1. Kad esat pārliecināts, ka skripts atbilst jūsu prognozēm, atlasiet Palaist grupā Palaist, kas atrodas darbību rūts cilnē Apstrādāt darbplūsmu, **·** **·** **lai** to palaistu. Šī komanda ir tāda pati kā iepriekšējā testa palaišanas darbība, bet darbība tiks fiksēta beigās.
+1. Kad skripts ir beidzis darbību, pārbaudiet rezultātu un apstipriniet, ka skripts darbojas, kā paredzēts. Izpildiet kādu no šīm darbībām:
 
-    - Ja esat apmierināts ar rezultātu, darbību rūts cilnes Apstrādāt darbplūsmu grupā Beigt atlasiet **Nolūks, kas** atrisināts **·**.**·** Notikumu žurnāls atspoguļos faktu, ka skripts darbojās veiksmīgi, un tas norādīs, kurš un kad verificēja skriptu. Skripts ir saglabāts, bet tagad tas ir bloķēts, un to nevar palaist vēlreiz.
-    - Ja neesat apmierināts ar rezultātu, darbību rūts cilnes Apstrādāt darbplūsma grupā Beigt atlasiet **Nolūks, kas nav atrisināts** **·**.**·** Notikumu žurnāls atspoguļos faktu, ka skripts nav izpildījis tā paredzēto mērķi, un tas norādīs, kurš un kad vadīja skriptu. Skripts ir saglabāts, bet tagad tas ir bloķēts, un to nevar palaist vēlreiz. Tomēr sistēma automātiski neatsaka skripta darbību. Iespējams, būs jāraksta, jāimportē un jāpalaiž jauns skripts, lai atsauktu neizdevušos skriptu ietekmi uz jūsu sistēmu.
+    - Ja esat apmierināts ar rezultātu, darbību **rūts** **·** **cilnes** Apstrādāt darbplūsmu beigu grupā atlasīt Mērķis atrisināts. Notikumu žurnāls ataino faktu, ka skripts tika veiksmīgi izpildīts, un tas norādīs, kas pārbaudīja skriptu un kad. Skripts ir saglabāts, bet tagad ir bloķēts, un to nevar palaist vēlreiz.
+    - Ja neesat apmierināts ar rezultātu, **·** **·** **darbību** rūts cilnes Apstrādāt darbplūsmu beigu grupā atlasiet Mērķis nav atrisināts. Notikumu žurnāls ataino faktu, ka skripts neatbilda tā paredzētajam nolūkam, un tas norāda, kurš izpildīs skriptu un kad. Skripts ir saglabāts, bet tagad ir bloķēts, un to nevar palaist vēlreiz. Tomēr sistēma automātiski neat atsaukt skripta darbību. Iespējams, ka jums ir jāraksta, jāimportē un jāpalaiž jauns skripts, lai atsauktu ietekmi, kādu jūsu sistēmā bija neizdevies skripts.
 
-Jūsu atlase pēdējā solī nosaka skripta galīgo stāvokli. Jūs varat atkārtot procesu, kā nepieciešams.
+Atlase pēdējā solī nosaka skripta beigu stāvokli. Ja nepieciešams, procesu var atkārtot.
 
-## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Augšupielādējiet un palaidiet izvietojamu pakotni, izmantojot LCS
+## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Augšupielādēt un palaist izvietojamu pakotni, izmantojot LCS
 
-Tā vietā, lai izvietotu savu izvietojamo pakotni, izmantojot jūsu finanšu un operāciju lietotnes lietotāja interfeisu, kā aprakstīts iepriekšējā sadaļā, varat to augšupielādēt LCS un izmantot parasto procedūru, lai to izvietotu. Papildinformāciju skatiet rakstā [Izvietojamo pakotņu instalēšana no komandrindas](../deployment/install-deployable-package.md).
+Tā vietā, lai izvietotu izvietojamo pakotni, izmantojot lietotāja interfeisu jūsu Finanšu un operāciju programmai, kā aprakstīts iepriekšējā sadaļā, varat to augšupielādēt LCS un izmantot regulāru procedūru tās izvietošanai. Papildinformāciju skatiet sadaļā [Izvietoto pakotņu instalēšana no komandrindas](../deployment/install-deployable-package.md).
 
-Lai gan šai pieejai ir mazāk ierobežojumu, tā nodrošina mazāku kļūdu aizsardzību. Turklāt, tā kā tas prasa visu serveru restartēšanu, tas izraisīs dīkstāvi.
+Lai gan šai pieejai ir mazāk ierobežojumu, tā nodrošina mazāku kļūdu aizsardzību. Turklāt, tā kā tam ir jārestartē visi serveri, tas izraisīs dīkstāves laiku.

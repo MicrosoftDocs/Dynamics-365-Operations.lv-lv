@@ -1,6 +1,6 @@
 ---
 title: Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti risinājumā Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem risinājumā Supply Chain Management.
+description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu darba pasūtījumus Field Service ar pārdošanas pasūtījumiem Piegādes ķēžu pārvaldībā.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860527"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061313"
 
 
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Field Service ietverto darba pasūtījumu sinhronizēšanai ar pārdošanas pasūtījumiem programmā Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu darba pasūtījumus Dynamics 365 Field Service ar pārdošanas pasūtījumu Dynamics 365 Supply Chain Management.
 
 [![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Lai sekotu tādiem pārdošanas pasūtījumiem, kuri izveidoti no darba pasūtī
 
 Pēc noklusējuma kartējums atlasa pārdošanas izcelsmi pārdošanas izcelsmes tipam **Darba pasūtījuma integrācija** visiem pārdošanas pasūtījumiem, kas izveidoti no darba pasūtījumiem. Šī darbība var būt noderīga, strādājot ar pārdošanas pasūtījumiem risinājumā Supply Chain Management. Jums jāpārliecinās, ka pārdošanas pasūtījumi, kas izveidoti no darba pasūtījumiem, netiek sinhronizēti atpakaļ ar risinājumu Field Service kā darba pasūtījumi.
 
-Papildinformāciju par to, kā izveidot pareizu pārdošanas izcelsmes iestatījumu risinājumā Supply Chain Management, skatiet šīs tēmas sadaļā “Priekšnosacījumi un kartējuma iestatījums”.
+Papildinformāciju par to, kā izveidot pareizu pārdošanas izcelsmes iestatījumu Piegādes ķēžu pārvaldībā, skatiet šī raksta sadaļā "Priekšnoteikumi un kartēšanas iestatīšana".
 
 ### <a name="status"></a>Statuss
 

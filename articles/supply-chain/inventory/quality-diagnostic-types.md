@@ -1,6 +1,6 @@
 ---
 title: Neatbilstību diagnostikas tipi
-description: Šajā tēmā ir aprakstīts, kā izmantot un izveidot diagnostikas tipus, kas var tikt izmantoti ar neatbilstībām.
+description: Šajā rakstā ir aprakstīts, kā izmantot un izveidot diagnostikas tipus, kas var tikt izmantoti ar nekonformatēm.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edaa3a8b5c6446f039f33589166d832dcd9d0b9a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87b7a051f807c9faab3169d2672d47f663892225
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852452"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>Neatbilstību diagnostikas tipi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izmantot un izveidot diagnostikas tipus, kas var tikt izmantoti ar neatbilstībām.
+Šajā rakstā ir aprakstīts, kā izmantot un izveidot diagnostikas tipus, kas var tikt izmantoti ar nekonformatēm.
 
 Izmantojiet lapu **Diagnostikas tipi**, lai definētu diagnostikas darbību klasifikāciju. Pēc tam, veidojot neatbilstības labojumu, atlasiet diagnostiku. Labojumā norāda, kāda veida diagnostikas darbība jāveic attiecībā uz apstiprināto neatbilstību un kam tā ir jāveic. Tajā norāda arī pieprasīto un plānotais pabeigšanas datumu.
 

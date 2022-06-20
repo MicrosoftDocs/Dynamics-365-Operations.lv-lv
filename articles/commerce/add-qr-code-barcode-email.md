@@ -1,6 +1,6 @@
 ---
 title: QR koda vai svītrkoda pievienošana transakciju un kvīšu e-pastiem
-description: Šajā tēmā paskaidrots, kā ievietot QR kodus un svītrkodus, kuri norāda uz pasūtījuma ID, transakciju un kvīšu e-pastos risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir skaidrots, kā ievietot QR kodus un svītrkodus, kas atspoguļo pasūtījumu ID darbību un saņemšanas e-pasta sūtījumos Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872888"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>QR koda vai svītrkoda pievienošana transakciju un kvīšu e-pastiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā ievietot QR kodus un svītrkodus, kuri norāda uz pasūtījuma ID, transakciju un kvīšu e-pastos risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir skaidrots, kā ievietot QR kodus un svītrkodus, kas atspoguļo pasūtījumu ID darbību un saņemšanas e-pasta sūtījumos Microsoft Dynamics 365 Commerce.
 
 Jūs varat viegli iekļaut QR kodus un svītrkodus transakciju e-pastos, lai paātrinātu pasūtījuma uzmeklēšanas procesu mazumtirdzniecības vidē. Lai e-pastos ievadītu QR kodus un svītrkodus, jūs izmantojat HTML **\<img\>** atzīmi, kura pieprasa QR koda vai svītrkoda attēlu no ģenerēšanas un atveides pakalpojuma. Korporācija Microsoft nenodrošina šo pakalpojumu. Taču ir daudzi bezmaksas vai izdevīgi pakalpojumi, kuri apkalpo QR kodus vai svītrkodus, kuri tiek dinamiski ģenerēti, balstoties kārtībā, kas tiek padota pieprasījumu virknē.
 

@@ -1,6 +1,6 @@
 ---
 title: Atribūtu un atribūtu grupu pārvaldība
-description: Šajā tēmā aprakstīts, kā izmantot atribūtus, lai sniegtu veidu, kā aprakstīt preci un tās īpašības, izmantojot lietotāja definētos laukus.
+description: Šajā rakstā ir aprakstīts, kā izmantot atribūtus, lai nodrošinātu preces un tās īpašību aprakstīšanas veidu, izmantojot lietotāja definētus laukus.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876668"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribūtu un atribūtu grupu pārvaldība
 
@@ -85,7 +85,7 @@ Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veid
 
 *Atribūta metadati* ļauj atlasīt opcijas, lai norādītu katra preces atribūta izturēšanos. Piemēram, varat norādīt, vai atribūti ir obligāti, vai tos var izmantot meklēšanā un kā filtru.
 
-Precēm atribūtu metadatu iestatījumus var ignorēt kanāla līmenī. Šī iespēja tiks apspriestas tālāk šajā tēmā.
+Precēm atribūtu metadatu iestatījumus var ignorēt kanāla līmenī. Šī iespēja tiks apspriesta vēlāk šajā rakstā.
 
 Iespējams pamanījāt, ka lapā **Atribūti** ir ietvertas opcijas, kas ir saistītas ar atribūtu metadatiem. Sadaļā **Atribūtu metadati attiecībā uz POS** viena opcija, kam ir nosaukums **Var precizēt**, ietekmē atribūta vērtību izturēšanos pārdošanas punktā (POS) vai veidu, kā sistēma apstrādā šīs atribūta vērtības. Tikai atribūti, kam opcijai **Var precizēt** var iestatīt vērtību **Jā**, parādīsies precizēšanai vai preču filtrēšanai POS.
 

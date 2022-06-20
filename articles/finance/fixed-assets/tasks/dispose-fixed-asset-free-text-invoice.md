@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu
-description: Šajā tēmā ir paskaidrots, kā iegūt pamatlīdzekli, izmantojot iegādes priekšlikumu Pamatlīdzekļu žurnālā.
+description: Šajā rakstā skaidrots, kā iegūt pamatlīdzekli, izmantojot iegādes priekšlikumu pamatlīdzekļu žurnālā.
 author: moaamer
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711ab4b4798127ca54d7138b0aae02d71fe8bec3
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: bb930bd35aa86c6bc3b2e7a5577ff16e3feb151a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896439"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Pamatlīdzekļa izslēgšana, izmantojot brīvā teksta rēķinu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izslēgt pamatlīdzekli, izmantojot brīva teksta rēķinu.
+Šajā rakstā ir izskaidrots, kā izslēgt pamatlīdzekļus, lietojot brīvā teksta rēķinu.
 
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Debitori > Rēķini > Visi brīva teksta rēķini**.
 2. Atlasiet **Jauns**.

@@ -1,6 +1,6 @@
 ---
 title: Naudas plūsmas prognozēšanas iespējošana
-description: Šajā tēmā skaidrots, kā ieslēgt skaidras naudas plūsmas prognozēšanas līdzekli Finanšu ieskatos.
+description: Šajā rakstā ir izskaidrots, kā ieslēgt naudas plūsmas prognozes līdzekli Finanšu ieskatījumā.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859880"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Naudas plūsmas prognozēšanas iespējošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā ieslēgt naudas plūsmas prognozes līdzekli Finanšu ieskatījumā.
+Šajā rakstā ir izskaidrots, kā ieslēgt naudas plūsmas prognozes līdzekli Finanšu ieskatījumā.
 
 > [!NOTE]
 > Lai izmantotu maksājumu prognozes skaidras naudas plūsmā, jāiestata debitora maksājumu prognožu līdzeklis, kā tas aprakstīts [Debitora maksājumu prognožu iespējošana](enable-cust-paymnt-prediction.md).

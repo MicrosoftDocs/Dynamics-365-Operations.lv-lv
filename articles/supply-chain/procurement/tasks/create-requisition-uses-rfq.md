@@ -1,6 +1,6 @@
 ---
 title: Tāda pieprasījuma izveide, kas lieto PP
-description: Šajā tēmā paskaidrots, kā pievienot cenas un piegādātāja informāciju pirkšanas pieprasījumam no piedāvājuma pieprasījuma procesa.
+description: Šajā rakstā skaidrots, kā pievienot cenas un kreditora informāciju pirkšanas pieprasījumam no PP procesa.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846016"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Tāda pieprasījuma izveide, kas lieto PP
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā pievienot cenas un piegādātāja informāciju pirkšanas pieprasījumam no piedāvājuma pieprasījuma procesa. Šajā ceļvedī parādīto piemēru var izmantot paraugdatu uzņēmumā USMF, un jums ir jāpiesakās kā administratoram, lai izpildītu visas darbības. Šajā ceļvedī aprakstītos uzdevumus parasti veiktu sagādes speciālisti.
+Šajā rakstā skaidrots, kā pievienot cenas un kreditora informāciju pirkšanas pieprasījumam no PP procesa. Šajā ceļvedī parādīto piemēru var izmantot paraugdatu uzņēmumā USMF, un jums ir jāpiesakās kā administratoram, lai izpildītu visas darbības. Šajā ceļvedī aprakstītos uzdevumus parasti veiktu sagādes speciālisti.
 
 
 ## <a name="create-a-requisition"></a>Izveidot pieprasījumu

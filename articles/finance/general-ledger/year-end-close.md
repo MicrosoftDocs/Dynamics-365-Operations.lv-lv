@@ -1,6 +1,6 @@
 ---
 title: Gada beigu slēgšana
-description: Šajā tēmā ir aprakstīti nepieciešamie iestatījumi un darbības, kas ir jāveic, lai izpildītu Virsgrāmatas gada slēgšanas procesu.
+description: Šajā rakstā ir aprakstīti nepieciešamie iestatījumi un darbības Virsgrāmatas gada beigu slēgšanas procesa izpildē.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883218"
 ---
 # <a name="year-end-close"></a>Gada beigu slēgšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti nepieciešamie iestatījumi un darbības, kas ir jāveic, lai izpildītu Virsgrāmatas gada slēgšanas procesu.
+Šajā rakstā ir aprakstīti nepieciešamie iestatījumi un darbības Virsgrāmatas gada beigu slēgšanas procesa izpildē.
 
 Finanšu gada beigās ir jāizpilda gada slēgšanas process, lai sākuma bilances pārsūtītu uz jauno gadu. Vairumā organizāciju gada beigu slēgšanas process tiek izpildīts vairākas reizes. Pirmā izpilde pārvieto bilances uz jauno finanšu gadu. Pēc tam procesu var izpildīt vēlreiz tik reižu, cik tas ir nepieciešams, lai pārvietotu bilances no koriģējošajiem ierakstiem uz jauno finanšu gadu.
 

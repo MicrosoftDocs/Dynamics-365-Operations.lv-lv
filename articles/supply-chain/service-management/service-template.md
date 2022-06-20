@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e98884c1c12d40b2b8c0989e2dd5ca4a3738f3f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f7c99e56751230a7b8881dc55c1d460674cc6f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850501"
 ---
 # <a name="service-templates"></a>Pakalpojumu veidnes
 
@@ -52,7 +52,7 @@ Kopējot veidnes rindas savos pakalpojumu pasūtījumos vai pakalpojumu līgumos
 
 Ir vienkāršāk noteikt pakalpojuma veidnes rindas, ko vēlaties pārkopēt, ja veidnes sagrupētas pēc vārdiem, kas atspoguļo to pielietojumu.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Kopēt pakalpojumu veidņu rindas](copy-service-template-lines.md)
 

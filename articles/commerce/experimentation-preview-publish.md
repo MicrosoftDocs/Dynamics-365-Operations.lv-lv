@@ -1,30 +1,24 @@
 ---
 title: Eksperimenta priekšskatīšana un publicēšana
-description: Šajā tēmā ir aprakstīts, kā priekšskatīt un publicēt eksperimentu no Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā priekšskatīt un publicēt eksperimentu no Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740387"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946146"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimenta priekšskatīšana un publicēšana
 
-Šajā tēmā ir aprakstīts, kā priekšskatīt un publicēt eksperimentu pakalpojumā Dynamics 365 Commerce pēc tam, kad esat [pievienojis eksperimentu un rediģējis variantus](experimentation-connect-edit.md). Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
+Šajā rakstā aprakstīts, kā priekšskatīt un publicēt jūsu eksperimentu Dynamics 365 Commerce pēc tam, kad esat pievienojis [savu eksperimentu un rediģējis variācijas](experimentation-connect-edit.md). Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu soļi ir ietverti atsevišķos rakstos.
 
 [ ![Eksperimenta lietotāja maršruts – priekšskatīšana un publicēšana.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -52,11 +46,15 @@ Izmantojot publicēšanas grupas ar eksperimentiem, ir jāņem vērā daži svar
 - Kad publicējat vai ieplānojat publicēšanas grupu, tiek publicēts viss publicēšanas grupas saturs neatkarīgi no tā, vai ar publicēšanas grupu ir saistīts eksperiments.
 - Tā kā publicēšanas grupa turpina pastāvēt pēc publicēšanas tiešsaistes vietnē, arī eksperimenti publicēšanas grupā saglabājas. Tāpēc nevarēsit saistīt citus eksperimentus ar to pašu lapu vai fragmentu. Lai izvairītos no šī ierobežojuma, dzēsiet visas publicēšanas grupas ar esošajiem eksperimentiem. Tāpat, ja vēlaties dzēst eksperimentu tiešsaistes vietnē, kas pastāv arī publicēšanas grupā, vispirms dzēsiet to no publicēšanas grupas.
 
+### <a name="force-variations-for-testing"></a>Uzsvīdiet variācijas testēšanai
+
+Kad eksperiments notiek, varat pievienot eksperimenta ID un variācijas ID noklusējuma lapas URL, lai piestātu variāciju testēšanas vai automatizācijas nolūkiem. Piemēram, ja noklusējuma lapas URL ir `https://fabrikam.com/modern/homepage`, jūs varat uzstāsiet uzstāsiet kā URL variāciju `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Varat iegūt eksperimenta ID un variācijas ID jūsu eksperimenta variācijai no priekšskatījuma URL iepriekš **izskaidrotā priekšskatījuma** pieredzes.
+
 ## <a name="previous-step"></a>Iepriekšējā darbība
 [Eksperimenta pievienošana un rediģēšana](experimentation-connect-edit.md)
 
 ## <a name="next-step"></a>Nākamā darbība
-[Eksperimenta izpildīšana un pārraudzīšana](experimentation-run-monitor.md)
+[Eksperimenta veikšana un uzraudzība](experimentation-run-monitor.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

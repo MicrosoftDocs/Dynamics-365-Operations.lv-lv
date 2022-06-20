@@ -1,6 +1,6 @@
 ---
 title: Divējāda lietojuma preces
-description: Šajā tēmā ir paskaidrots, kā izsekot precēm, kas tiek identificētas kā divējāda lietojuma preces, saglabāt sertifikātu numurus katrai attiecīgajai precei un galamērķa valstij un drukāt derīgos sertifikātu numurus attiecīgajos rēķinos, pavadzīmēs un/vai pārdošanas pasūtījumos.
+description: Šajā rakstā ir izskaidrots, kā sekot līdzi precēm, kas ir identificētas kā dubultās lietošanas preces, saglabāt sertifikātu numurus katrai atbilstošai precei un mērķa valstij, un drukāt derīgus sertifikātu numurus atbilstošos rēķinos, pavadzīmēs un/vai pārdošanas pasūtījumos.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878908"
 ---
 # <a name="dual-use-goods"></a>Divējāda lietojuma preces
 
@@ -42,7 +42,7 @@ Izskatiet tālāk norādīto scenāriju:
 
 6. Pasūtījumā ir ietverta prece X-100, prece tiek nosūtīta uz Franciju un šai precei ir Francijas sertifikāts. Tomēr sertifikāta derīguma termiņš ir beidzies. Tāpēc tiek parādīts šāds brīdinājuma ziņojums: “Divējāda lietojuma sertifikāti, vienam vai vairākiem divējāda lietojuma krājumiem šajā pārdošanas pasūtījumā, nav derīgi. Vai vēlaties turpināt apstiprināšanu?”
 
-Šajā tēmā ir paskaidrots, kā konfigurēt visus nepieciešamos iestatījumus, lai iestatītu divējāda lietojuma preces un atbalstītu šo scenāriju.
+Šajā rakstā ir izskaidrots, kā konfigurēt visus iestatījumus, kas ir nepieciešami dubultās lietošanas preču iestatīšanai un šī scenārija atbalstam.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Definēt divējāda lietojuma prasības katrai attiecīgajai valstij
 

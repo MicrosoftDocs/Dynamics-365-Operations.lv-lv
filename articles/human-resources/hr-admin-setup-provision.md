@@ -1,6 +1,6 @@
 ---
 title: Human Resources nodrošināšana
-description: Šajā tēmā ir izskaidrota jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 Human Resources.
+description: Šajā rakstā skaidrots process, kā nodrošināt jaunu ražošanas vidi korporācijai Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858248"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710868"
 
 
 
-Šajā tēmā ir izskaidrota jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 Human Resources. 
+Šajā rakstā skaidrots process, kā nodrošināt jaunu ražošanas vidi korporācijai Microsoft Dynamics 365 Human Resources. 
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
 Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālāk norādītajiem priekšnosacījumiem.
 
-- Jūs esat iegādājies(-usies) Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Human Resources pakalpojumu plāns, un nevarat izpildīt šajā tēmā aprakstītās darbības, sazinieties ar atbalsta dienestu.
+- Jūs esat iegādājies(-usies) Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Human Resources pakalpojumu plāns, un nevarat izpildīt šajā rakstā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 
 - Globālais administrators ir pierakstījies [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) un izveidojis jaunu Human Resources projektu. 
 

@@ -1,6 +1,6 @@
 ---
-title: PVN apmaksas periodu iestatīšana
-description: Šajā tēmā skaidrots, kā iestatīt PVN maksājumu periodus Dynamics 365 Finanses.
+title: Iestatīt PVN apmaksas periodus
+description: Šajā rakstā ir izskaidrots, kā iestatīt PVN apmaksas periodus Dynamics 365 finanses.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846688"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Iestatīt PVN apmaksas periodus
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā iestatīt PVN apmaksas periodus. PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā. Nomaksas procesu iespējams palaist maksājumu periodam, noteiktam datumu intervālam. Tiks segti visi nodokļu kodi, kas saistīti ar apmaksas periodu. Atkarībā no saistītās PVN iestādes iestatījumiem, nodokļu parāds tiek grāmatots vai nu kreditoram vai Virsgrāmatas kontā.
+Šajā rakstā skaidrots, kā iestatīt PVN maksājumu periodus. PVN nomaksas periodi satur informāciju par periodu intervāliem, par kuriem jāsniedz atskaites un par kuriem tie jānomaksā. Nomaksas procesu iespējams palaist maksājumu periodam, noteiktam datumu intervālam. Tiks segti visi nodokļu kodi, kas saistīti ar apmaksas periodu. Atkarībā no saistītās PVN iestādes iestatījumiem, nodokļu parāds tiek grāmatots vai nu kreditoram vai Virsgrāmatas kontā.
 
 Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 

@@ -1,6 +1,6 @@
 ---
 title: Kādēļ es nevaru atgriezt šo darījumu?
-description: Šajā tēmā ir aprakstīti dažādi pamatojumi, kāpēc darbības nevar atcelt. Tajā ir uzskaitīti arī šīs problēmas risinājumi.
+description: Šajā rakstā ir aprakstīti dažādi pamatojumi, kāpēc darbības nevar atcelt. Tajā ir uzskaitīti arī šīs problēmas risinājumi.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876187"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Kādēļ es nevaru atgriezt šo darījumu?
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti dažādi pamatojumi, kāpēc darbības nevar atcelt. Tajā ir uzskaitīti arī šīs problēmas risinājumi.
+Šajā rakstā ir aprakstīti dažādi pamatojumi, kāpēc darbības nevar atcelt. Tajā ir uzskaitīti arī šīs problēmas risinājumi.
 
 ## <a name="symptom"></a>Simptoms
 
@@ -35,14 +35,14 @@ Organizācijas var saskarties ar situācijām, kad tām ir jāatgriež iegrāmat
 
 ## <a name="resolution"></a>Novēršana
 
-Pirms darbību stornšanas darbībām ir jāatbilst noteiktiem kritērijiem. Pārējās šīs tēmas sadaļas sniedz apstiprinājumu katram modulim. Lai gan šī tēma fokusējas Microsoft Dynamics uz darbībām 365 Finansēs, dažas koncepcijas un apstiprināšanu var pielietot citām programmām, piemēram, Dynamics 365 Supply Chain Management.
+Pirms darbību stornšanas darbībām ir jāatbilst noteiktiem kritērijiem. Pārējās šī raksta sadaļas sniedz apstiprinājumu katram modulim. Lai gan šis raksts fokusējas Microsoft Dynamics uz darbībām 365 Finansēs, dažas koncepcijas un apstiprināšanu var pielietot citām programmām, piemēram, Dynamics 365 Supply Chain Management.
 
 Turklāt darbības apvērses vieta var ietekmēt to, vai to var atcelt. Piemēram, kreditora maksājumu, kas ir iegrāmatots kā čeks, var atcelt tikai no bankas kontu darbību lapas sadaļas **Čeki**. To nevar anulēt no **Virsgrāmatas dokumentu** darbību lapas.
 
 Ja **Līdzekļu pārvaldības** darbvietā ir ieslēgta **Vairāku dokumentu funkcijas masveida apgriešana** (ko sauc arī par masveida apgriešanas funkciju), tā ietekmē, cik darbību var atcelt un kur tās var atcelt. Šī funkcija nodrošina divas priekšrocības, ja tā ir ieslēgta:
 
 - Dažiem darbību tipiem vienlaicīgi var atlasīt un anulēt vairāk nekā vienu darbību no žurnāla, no kura tā grāmatota, vai no **Dokumentu darbību** lapas. Tomēr individuālām darbībām jābūt neatgriezeniskām, pirms funkcija ir ieslēgta. Pirms šīs funkcijas ieviestas, darbības bija jāpārtrauc pa vienam.
-- *Dažas* apakšgrāmatas transakcijas var anulēt žurnālā (Virsgrāmatas žurnālā) vai **Dokumentu transakciju** lapā. Tie nav apgriezti no apakšgrāmatas lapas. Piemēram, kreditoru rēķinu žurnālu var atgriezt tikai no **Kreditoru darbību** lapas. Tomēr to tagad var anulēt arī no Virsgrāmatas puses no žurnāla vai **Dokumentu darbību** lapas. Katra šīs tēmas sadaļa skaidro darījumu veidus, uz kuriem šis atvieglojums neattiecas.
+- *Dažas* apakšgrāmatas transakcijas var anulēt žurnālā (Virsgrāmatas žurnālā) vai **Dokumentu transakciju** lapā. Tie nav apgriezti no apakšgrāmatas lapas. Piemēram, kreditoru rēķinu žurnālu var atgriezt tikai no **Kreditoru darbību** lapas. Tomēr to tagad var anulēt arī no Virsgrāmatas puses no žurnāla vai **Dokumentu darbību** lapas. Katrā šī raksta sadaļā ir izskaidroti darījumu veidi, uz kuriem šis atvieglojums neattiecas.
 
 Masveida apgriešanas funkcija **neiespējo** vairāk darbību tipu apgriešanu. Ja darbības tipu iepriekš nav iespējams apgriezt, to vairs nav iespējams apgriezt pēc tam, kad funkcija ir ieslēgta. Piemēram, pirkšanas pasūtījuma kreditoru rēķinus nevar atsaukt, neskatoties uz to, vai masveida atgriešanas funkcija ir ieslēgta.
 
@@ -189,7 +189,7 @@ Nevar atsaukt šādus darījumu veidus:
 
 Vairāki darījumu tipi atjaunina kreditoru apakšgrāmatas. Piemēri iekļauj debitoru rēķinus no pārdošanas pasūtījumiem, debitoru rēķiniem, kas ievadīti caur Virsgrāmatas žurnālu, brīvā teksta rēķinus, debitoru maksājumus un norakstīšanas.
 
-Ja funkcija Masveida atgriešana ir izslēgta, darbības var atcelt atsevišķi vai nu no rēķinu **Debitoru darbību** lapas, vai **Bankas konta** lapā depozītiem. Papildinformāciju par to, kā atcelt maksājumu, skatiet tālāk šīs tēmas sadaļā [Skaidra nauda un banku pārvaldība](cant-reverse-transctns.md#cash-and-bank-management).
+Ja funkcija Masveida atgriešana ir izslēgta, darbības var atcelt atsevišķi vai nu no rēķinu **Debitoru darbību** lapas, vai **Bankas konta** lapā depozītiem. Papildinformāciju par to, kā atgriezt maksājumu, skatiet [tālāk šī raksta sadaļā Skaidra](cant-reverse-transctns.md#cash-and-bank-management) nauda un bankas pārvaldība.
 
 Ja masveida anulēšanas funkcija ir ieslēgta, vienu vai vairākus debitoru dokumentus tagad var atcelt **Dokumentu darbību** lapā un no žurnāla, no kura darbība tika grāmatota. Tomēr depozītus joprojām var anulēt tikai no bankas konta, un brīvā teksta rēķinus var anulēt tikai no sākotnējās lapas (ja ir ieslēgta funkcija, kas ļauj veikt korekcijas). Turklāt kreditora darbības nevar atsaukt no Virsgrāmatas lapas **Darbības \<main account\>**. Tomēr tos var atcelt tikai no **Dokumentu darbību** lapas.
 

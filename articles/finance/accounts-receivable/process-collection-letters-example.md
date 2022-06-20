@@ -1,6 +1,6 @@
 ---
 title: Atgādinājuma vēstuļu apstrādes piemērs
-description: Šajā tēmā aplūkots piemērs, kas parāda atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas procesu.
+description: Šis raksts ir parādīts piemērs, kurā parādīts atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas process.
 author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1bb1889e9450685f7b6a5000e2ef81d1a65f1b51
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908159"
 ---
 # <a name="process-collection-letters-example"></a>Atgādinājuma vēstuļu apstrādes piemērs
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aplūkots piemērs, kas parāda atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas procesu. Piemērs ir pamatots uz opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** sadaļā Kredīts un iekasēšana. Tas izmanto datus USMF demonstrācijas uzņēmumā un jaunu debitoru — US-045.
+Šis raksts ir parādīts piemērs, kurā parādīts atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas process. Piemērs ir pamatots uz opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** sadaļā Kredīts un iekasēšana. Tas izmanto datus USMF demonstrācijas uzņēmumā un jaunu debitoru — US-045.
 
 Lai sāktu, pārejiet uz sadaļu **Debitoru parādi \> Debitori \> Visi debitori**, atlasiet **Jauns** un pēc tam ievadiet nepieciešamo informāciju, lai izveidotu debitoru US-045.
 

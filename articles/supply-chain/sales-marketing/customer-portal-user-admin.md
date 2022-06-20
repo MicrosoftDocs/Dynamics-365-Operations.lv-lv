@@ -1,6 +1,6 @@
 ---
-title: Izveidot un pārvaldīt klientu portāla lietotājus (satur video)
-description: Šajā tēmā ir izskaidrots, kā izveidot Debitoru portāla lietotāju kontus un iestatīt tiem atļaujas.
+title: Izveidot un pārvaldīt Debitoru portāla lietotājus (satur video)
+description: Šajā rakstā skaidrots, kā izveidot debitoru portāla lietotāju kontus un iestatīt tiem atļaujas.
 author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905781"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
@@ -33,7 +33,7 @@ Kad lietotāji pašreģistrējas, kontaktpersonu ieraksti tiek izveidoti automā
 ## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-The [Aiciniet klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) video (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas saraksts](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejams YouTube.
+Aicināt [debitorus reģistrēties un izmantot savu klientu portāla](https://youtu.be/drGUYHX9QIQ) video (parādīts iepriekš) ir iekļauts [Finanšu un operāciju par](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamajiem YouTube.
 
 ## <a name="prerequisite-setup"></a>Priekšnoteikumu iestatīšana
 

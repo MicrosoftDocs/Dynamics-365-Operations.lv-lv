@@ -1,6 +1,6 @@
 ---
 title: Sava kontu plāna plānošana
-description: Šajā tēmā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu.
+description: Šajā rakstā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853353"
 ---
-# <a name="plan-your-chart-of-accounts"></a>Plānot kontu plānu
+# <a name="plan-your-chart-of-accounts"></a>Sava kontu plāna plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu.
+Šajā rakstā ir sniegta informācija, kas jums palīdzēs savai organizācijai plānot kontu plānu.
 
 Lai organizācijā izsekotu un uzturētu finanšu informāciju, varat iestatīt kontu plānu. Kontu plāns ir kontu kopa, kas definē finanšu shēmu. Lai turpmāk izsekotu šo kontu transakcijas, varat pievienot segmentus. Šos segmentus sauc par finanšu dimensijām. Piemēram, izdevumu kontā var iekļaut šādas finanšu dimensijas: Nodaļa, Izmaksu centrs un Nolūks. Lietotāja definētās kārtulas nosaka to, kā finanšu dimensijas tiek pievienotas galvenajiem kontiem un citām finanšu dimensijām, kā arī to, kā var ievadīt transakcijas. Šīs lietotāja definētās kārtulas sauc par konta struktūrām un papildu kārtulām.
 

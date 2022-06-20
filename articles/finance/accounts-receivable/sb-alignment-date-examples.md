@@ -1,6 +1,6 @@
 ---
 title: Saskaņošanas datuma scenāriji
-description: Šajā tēmā sniegti piemēri, kas parāda, kā līdzinājuma datumi darbojas abonementa rēķinos.
+description: Šajā rakstā sniegti piemēri, kas parāda, kā līdzinājuma datumi darbojas abonementa rēķinos.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872620"
 ---
 # <a name="alignment-date-scenarios"></a>Saskaņošanas datuma scenāriji
 
-Šajā tēmā sniegti piemēri, kas parāda, kā līdzinājuma datumi darbojas abonementa rēķinos.
+Šajā rakstā sniegti piemēri, kas parāda, kā līdzinājuma datumi darbojas abonementa rēķinos.
 
 Šiem piemēriem norēķinu grafika norēķinu detalizētai informācijai ir 2019. gada 31. oktobris. Pirmā norēķinu informācija rindai beidzas 2019. gada 31. oktobris un tiek atbilstīgi ģenerēta. Rinda tiek automātiski atjaunota, izmantojot atjaunošanas sākuma datumu 11. novembrī.
 
@@ -149,7 +149,7 @@ Atbalsts un atjaunošana ir iestatīta ar šādiem datiem:
 
 | Norēķinu sākuma datums | Norēķinu beigu datums | Iepriekšējais rādījums | Pašreizējais rādījums | Ievadītais daudzums | Brīvais daudzums | Apmaksājamais daudzums | Vienības cena |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
 | 8/1/2019 | 31.12.2020. | | | 1.00 | | 1.00 | 4,250.00 |
 
 ## <a name="scenario-8-manual-dates-and-multiple-years"></a>8. scenārijs: manuālie datumi un vairāki gadi
@@ -163,7 +163,7 @@ Atbalsts un atjaunošana ir iestatīta ar šādiem datiem:
 
 | Norēķinu sākuma datums | Norēķinu beigu datums | Iepriekšējais rādījums | Pašreizējais rādījums | Ievadītais daudzums | Brīvais daudzums | Apmaksājamais daudzums | Vienības cena |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
 | 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
 | 1.1.2022. | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |
@@ -180,7 +180,7 @@ Atbalsts un atjaunošana ir iestatīta ar šādiem datiem:
 
 | Norēķinu sākuma datums | Norēķinu beigu datums | Iepriekšējais rādījums | Pašreizējais rādījums | Ievadītais daudzums | Brīvais daudzums | Apmaksājamais daudzums | Vienības cena |
 |---|---|---|---|---|---|---|---|
-| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0.00 |
+| 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
 | 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
 | 1.1.2022. | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |

@@ -1,6 +1,6 @@
 ---
 title: Masveida finanšu periodu slēgšana
-description: Šajā tēmā rādīts, kā apturēt periodu vai pastāvīgi slēgt periodu vairāk nekā vienai juridiskai personai vienlaikus.
+description: Šajā rakstā ir parādīts, kā aizturēt vai neatgriezeniski slēgt periodu vai vairākas juridiskās personas vienlaikus.
 author: aprilolson
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872446"
 ---
 # <a name="mass-financial-period-close"></a>Masveida finanšu periodu slēgšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā rādīts, kā apturēt periodu vai pastāvīgi slēgt periodu vairāk nekā vienai juridiskai personai vienlaikus. Turklāt, šis uzdevums parāda, kā ierobežot lietotāju grupu grāmatošanu noteiktiem moduļiem.
+Šajā rakstā ir parādīts, kā aizturēt vai neatgriezeniski slēgt periodu vai vairākas juridiskās personas vienlaikus. Turklāt, šis uzdevums parāda, kā ierobežot lietotāju grupu grāmatošanu noteiktiem moduļiem.
 
 1. Navigācijas rūtī dodieties uz Virsgrāmatas **> perioda slēgšanas > kalendāriem**. Ievērojiet, ka parādītais juridisko personu saraksts ir atkarīgs no finanšu kalendāra, kas ir atlasīts lapā. Tiks parādītas tikai juridiskās personas, kas izmanto atlasīto finanšu kalendāru.
 2. Atlasiet **Rediģēt**.

@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu kreditoru čeku paraugi
-description: Šajā tēmā ir sniegta vispārīga informācija pat to, kā izmantot elektronisko pārskatu čeku paraugu formātus.
+description: Šajā rakstā ir sniegta vispārīga informācija par elektronisko pārskatu parauga čeku formātu izmantošanu.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908188"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Elektronisko pārskatu kreditoru čeku paraugi
 
@@ -28,7 +28,7 @@ Varat izmantot elektronisko pārskatu (ER) veidošanas rīku, lai formatētu kr
 
 ## <a name="what-check-formats-are-currently-supported"></a>Kādi čeku formāti pašlaik tiek atbalstīti?
 
-Vienmēr apmeklējiet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko pieejamo pamatlīdzekļa tipa **GER konfigurācija** failu sarakstu. Nākamajā sadaļā “Kas man ir jāiestata?” ir ietverta saite uz tēmu, kurā ir paskaidrots, kā izveidot LCS repozitoriju, lai varētu pārskatīt pieejamās konfigurācijas un importēt atlasītās konfigurācijas.
+Vienmēr apmeklējiet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko pieejamo pamatlīdzekļa tipa **GER konfigurācija** failu sarakstu. Nākamajā sadaļā "Kas man ir jāiestata?" ir saite uz rakstu, kurā izskaidrots, kā izveidot LCS repozitoriju, lai varētu pārskatīt pieejamās konfigurācijas un importēt atlasītās konfigurācijas.
 
 Microsoft Dynamics 365 Finanses ietver parauga formātu, kur pārbaude ir augšā, un pēc tam divas pārskaitījumu sadaļas. Tajā ir ietverts arī čeka parauga formāts, kurā čeks atrodas pa vidu starp divām pārskaitījuma sadaļām. Šie čeku paraugu formāti atbilst Deluxe uzņēmējdarbības čeku formātiem.
 

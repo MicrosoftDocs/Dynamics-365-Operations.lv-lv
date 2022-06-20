@@ -1,6 +1,6 @@
 ---
-title: Mainīt piegādes veidu punktā POS
-description: Šajā tēmā ir aprakstīts, kā konfigurēt un izmantot piegādes veida izmaiņu režīmu punktā POS.
+title: Piegādes veida mainīšana punktā POS
+description: Šajā rakstā ir aprakstīts, kā konfigurēt un izmantot piegādes maiņas operāciju sistēmā POS.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855825"
 ---
-# <a name="change-mode-of-delivery-in-pos"></a>Mainīt piegādes veidu punktā POS
+# <a name="change-mode-of-delivery-in-pos"></a>Piegādes veida mainīšana punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt un izmantot funkciju "piegādes režīma maiņa" jūsu pārdošanas punktā (POS) vidē. 
+Šajā rakstā ir aprakstīts, kā pārdošanas punkta (POS) vidē iestatīt un izmantot funkcionalitāti "mainīt piegādes režīmu". 
 
 Dynamics 365 Commerce versijās 10.0.10 un jaunākās versijās **Mainīt piegādes veidu** operācijas (647) ir pieejamas pievienošanai jūsu POS ekrāna izkārtojumiem.
 

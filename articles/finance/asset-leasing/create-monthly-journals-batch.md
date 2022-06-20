@@ -1,6 +1,6 @@
 ---
 title: Ikmēneša žurnāla ierakstu izveidošana partijā
-description: Šajā tēmā paskaidrots, kā izveidot žurnāla ierakstus partijā, lai palīdzētu uzlabot efektivitāti, ierakstot ikmēneša nomas izdevumus.
+description: Šajā rakstā ir izskaidrots, kā izveidot žurnāla ierakstus paketē, lai palīdzētu palielināt efektivitāti, kad tiek ierakstīti ikmēneša nomas izdevumi.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd282ab04312a3ed1821160146b86db902906f3b
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fb5c65b0a2c982171fa0ae88141d92c2f1ead6ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894998"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Ikmēneša žurnāla ierakstu izveidošana partijā
 
@@ -28,7 +28,7 @@ ms.locfileid: "8714066"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Šajā tēmā paskaidrots, kā izveidot žurnāla ierakstus partijā, lai palīdzētu uzlabot efektivitāti, ierakstot ikmēneša nomas izdevumus. Partiju apstrādi var izmantot, lai izveidotu žurnāla ierakstus no vairākiem grafikiem. Šajos žurnāla ierakstos var iekļaut nomas maksājumus, saistību amortizāciju, līdzekļa lietošanas tiesību (LLT) amortizāciju un izpildes izmaksas. Varat arī izmantot partiju apstrādi, lai vienlaicīgi veiktu vairāku nomu sākotnējo atzīšanu, vai arī veidotu pārejas korekcijas vairākām nomām vienlaicīgi.
+Šajā rakstā ir izskaidrots, kā izveidot žurnāla ierakstus paketē, lai palīdzētu palielināt efektivitāti, kad tiek ierakstīti ikmēneša nomas izdevumi. Partiju apstrādi var izmantot, lai izveidotu žurnāla ierakstus no vairākiem grafikiem. Šajos žurnāla ierakstos var iekļaut nomas maksājumus, saistību amortizāciju, līdzekļa lietošanas tiesību (LLT) amortizāciju un izpildes izmaksas. Varat arī izmantot partiju apstrādi, lai vienlaicīgi veiktu vairāku nomu sākotnējo atzīšanu, vai arī veidotu pārejas korekcijas vairākām nomām vienlaicīgi.
 
 Lai iestatītu partijas darbu vai apstrādātu vairāku nomu maksājumu rēķinus, nolietojumu vai procentus, dodieties uz **Līdzekļu noma \> Periodiski \> Partiju žurnāla izveide**. Parādītajā dialoglodziņā varat atlasīt grafiku, no kura ir jāizveido žurnāla ieraksti. Var arī norādīt, vai partiju apstrāde ir jāizpilda noteiktiem elementiem, nomas grupām vai nomas grāmatām.
 

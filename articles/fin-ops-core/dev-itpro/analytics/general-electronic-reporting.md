@@ -1,6 +1,6 @@
 ---
-title: Elektroniskie pārskati (ER)
-description: Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka pārskats. Tajā ir aprakstītas galvenās koncepcijas, atbalstītie scenāriji un formāti, kas ir daļa no risinājuma.
+title: Elektronisko pārskatu veidošanas (ER) apskats
+description: Šajā rakstā ir sniegts elektronisko pārskatu rīka apskats. Tajā ir aprakstītas galvenās koncepcijas, atbalstītie scenāriji un formāti, kas ir daļa no risinājuma.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869262"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronisko pārskatu veidošanas (ER) apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts elektronisko atskaišu veidošanas (ER) rīka apskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
+Šajā rakstā ir sniegts elektronisko atskaišu veidošanas (Electronic reporting — ER) rīka pārskats. Tajā ir ietverta informācija par galvenajiem jēdzieniem, ER atbalstītajiem scenārijiem, kā arī saraksts ar formātiem, kas ir izstrādāti un izlaisti kā daļa no šī risinājuma.
 
 ER ir konfigurējams rīks, kas palīdz izveidot un uzturēt regulēšanas elektroniskos pārskatus un maksājumus. Tā ir balstīta uz šādiem trim koncepcijām:
 
@@ -39,7 +39,7 @@ ER ir konfigurējams rīks, kas palīdz izveidot un uzturēt regulēšanas elekt
     - Visual redaktori tiek izmantoti, lai izveidotu visus ER konfigurācijas komponentus.
     - Datu pārvēršanai izmantotā valoda ir līdzīga valodai, kurā tiek lietota Microsoft Excel.
 
-- Viena konfigurācija vairākiem Dynamics 365 Finance laidieniem:
+- Viena konfigurācija vairākiem Dynamics 365 finanšu laidieniem:
 
     - Pārvaldiet vienu domēnam raksturīgu datu modeli, kas ir definēts biznesa nosacījumos.
     - Izolēt programmas izlaišanas detaļas no izpildei atkarīgā datu modeļa kartēšanā.
@@ -48,7 +48,7 @@ ER ir konfigurējams rīks, kas palīdz izveidot un uzturēt regulēšanas elekt
 - Viegls vai automātisks jauninājums:
 
     - Ir atbalstīta ER konfigurāciju versija.
-    - Lifecycle Services (LCS) līdzekļu bibliotēku var izmantot kā ER konfigurāciju repozitoriju Microsoft Dynamics versiju apmaiņai.
+    - Lifecycle Microsoft Dynamics Services (LCS) līdzekļu bibliotēku var izmantot kā ER konfigurāciju repozitoriju versiju apmaiņai.
     - Lokalizācijas, kuru pamatā ir sākotnējās ER konfigurācijas, var tikt ieviestas kā pakārtotās versijas.
     - ER konfigurācijas koks ir nodrošināts kā rīks, kas palīdz kontrolēt versiju atkarības.
     - Atšķirības lokalizācijā vai delta konfigurācijā tiek ierakstītas, lai iespējotu automātisku jaunināšanu uz jaunu sākotnējās ER konfigurācijas versiju.
@@ -60,7 +60,7 @@ Varat izmantot ER, lai konfigurētu formātus gan ienākošajiem, gan izejošaji
 
 ER programma ir vērsta uz biznesa lietotājiem, nevis izstrādātājiem. Tā kā jūs konfigurējat formātus, nevis kodu, tad elektronisko dokumentu formātu izveidošanas un pielāgošanas process ir ātrāks un ērtāks.
 
-ER pašlaik atbalsta teksta, XML, JSON, Microsoft Word PDF, Microsoft Excel un OPENXML darblapas formātus.
+ER pašlaik atbalsta teksta, XML, JSON, PDF, Microsoft Word un Microsoft Excel OPENXML darblapas formātus.
 
 ## <a name="capabilities"></a>Spējas
 
@@ -143,7 +143,7 @@ ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi 
 
 Repozitorijs **LCS koplietotā bibliotēka** nodrošina piekļuvi konfigurāciju sarakstam koplietojamo līdzekļu bibliotēkā pakalpojumā Lifecycle Services (LCS). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS koplietojamo līdzekļu bibliotēkas jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
 
-Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts, kad repozitorijs tika reģistrēts. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Varat arī importēt konfigurācijas no **LCS projekta** repozitorija uz pašreizējo finanšu un operāciju programmu instanci.
+Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts, kad repozitorijs tika reģistrēts. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Varat arī importēt konfigurācijas no **LCS projekta repozitorija** uz pašreizējo finanšu un operāciju programmu instanci.
 
 Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā instancē. 
 

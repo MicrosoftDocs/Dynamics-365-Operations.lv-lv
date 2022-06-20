@@ -1,6 +1,6 @@
 ---
 title: Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
-description: Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija.
+description: Šajā rakstā ir aprakstīts, kā tiek plānots krājums, kam ir iestatītas vietas dimensijas vajadzībai.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bed2d7d9ad7577c78e3cf14f4b759f1d073ac32f
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 327bb259cc108f1fad068c847441229dcaee7ff1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859232"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā tiek plānots krājums, kuram nodrošinājumam ir iestatīta vietas dimensija.
+Šajā rakstā ir aprakstīts, kā tiek plānots krājums, kam ir iestatītas vietas dimensijas vajadzībai.
 
 Šis vispārējās plānošanas scenārijs ietver šādus nosacījumus:
 

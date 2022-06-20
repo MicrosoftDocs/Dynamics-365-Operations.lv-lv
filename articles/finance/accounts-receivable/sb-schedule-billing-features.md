@@ -1,6 +1,6 @@
 ---
 title: Norēķinu grafika līdzekļi
-description: Šī tēma skaidro norēķinu grafiku funkcijas, piemēram, cenu noteikšanas metodes, eskalācijas un atlaides, līdzinājuma datumus, prorāciju, apgrieztos norēķinus un dalītas krājumu grupas.
+description: Šis raksts skaidro norēķinu grafiku funkcijas, piemēram, cenu noteikšanas metodes, eskalācijas un atlaides, līdzinājuma datumus, prorāciju, apgrieztos norēķinus un dalītas krājumu grupas.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0ce323565a94e8e70d90a65b7a3143e984a1c159
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b6cfebc2bbfe06e118bfc96f9ae0df6323805e39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853588"
 ---
 # <a name="billing-schedule-features"></a>Norēķinu grafika līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidroti norēķinu grafiku un norēķinu grafika rindu līdzekļi. Tajā aprakstītas dažādas metodes, kas tiek izmantotas cenu noteikšanai, kā izmantot eskalācijas un atlaides un kā atsaukt norēķinu periodu. Tas ietver arī piemērus par prorāciju aprēķiniem un krājumu grupu sadalīšanu.
+Šajā rakstā ir skaidroti norēķinu grafiku un norēķinu grafika rindu līdzekļi. Tajā aprakstītas dažādas metodes, kas tiek izmantotas cenu noteikšanai, kā izmantot eskalācijas un atlaides un kā atsaukt norēķinu periodu. Tas ietver arī piemērus par prorāciju aprēķiniem un krājumu grupu sadalīšanu.
 
 ## <a name="pricing-methods"></a>Cenu noteikšanas metodes
 
@@ -185,7 +185,7 @@ Norēķinu grafika gada summa ir $5,000. Sākuma datums ir 2019. gada 12. august
 
 - **Katru dienu**
 
-    - *DaysEnd datuma* = *skaits* – *sākuma datums* + 1 = 133 dienas
+    - *Dienu skaits beigu* = *datums –* *sākuma datums* + 1 = 133 dienas
     - *Dienu skaits gadā* = 2020. gada 11. augusts – 2019. gada 12. augusts + 1 = 366 dienas
     - *Plus summa* = 5000 &times; (133 &divide; 366) = 1816,94
 
@@ -202,7 +202,7 @@ Norēķinu grafika gada summa ir $12,000. Sākuma datums ir 2019. gada 1. august
 
 - **Katru dienu**
 
-    - *DaysEnd datums* = *–* sākuma *datums* + 1 = 153 dienas
+    - *Dienu skaits Beigu* = *datums –* *Sākuma datums* + 1 = 153 dienas
     - *Gada dienu skaits* = 2020. gada 31. jūlijs – 2019. gada 1. augusts + 1 = 366 dienas
     - *Plus summa* = 12 000 &times; (153 &divide; 366) = 5016,39
 

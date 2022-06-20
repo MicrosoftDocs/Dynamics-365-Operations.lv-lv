@@ -1,6 +1,6 @@
 ---
-title: ER veidņu dublējumkopijas
-description: Šajā tēmā skaidrots, kā izmantot elektronisko pārskatu (ER) dublējuma krātuvi veidņu atkopšanai.
+title: Elektronisko pārskatu veidņu dublējumkopiju glabāšana
+description: Šajā rakstā skaidrots, kā izmantot elektronisko pārskatu (ER) dublējuma krātuvi veidņu atgūšanai.
 author: NickSelin
 ms.date: 04/29/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880398"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -58,7 +58,7 @@ Ja ir nepieciešama ER formāta veidne, lai varētu izveidot izejošos dokumentu
 
 Lai iestatītu parametru **Automātiski izpildīt procedūru, lai atjaunotu bojātas veidnes partijā**, veiciet tālāk norādītās darbības.
 
-1. Programmā Finance and Operations atveriet sadaļu **Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas lapa**.
+1. Risinājumā Finance and Operations dodieties uz sadaļu **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas atkļūdošanas žurnāli**.
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Dialoglodziņā **lietotāja parametri** Iestatiet nepieciešamo vērtību **automātiski palaist procedūru, kā atjaunot bojātas veidnes partijas** parametrā.
 

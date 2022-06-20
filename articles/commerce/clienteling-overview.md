@@ -1,6 +1,6 @@
 ---
-title: Attiecību ar klientiem pārskats
-description: Šajā tēmā ir sniegts pārskats par jaunām attiecību ar klientiem iespējām, kas ir pieejamas veikala programmā.
+title: Pārskats par attiecību veidošanu ar klientiem
+description: Šajā rakstā ir sniegts apskats par jaunajām klienta atbalsta iespējām, kas ir pieejamas veikala programmā.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885615"
 ---
 # <a name="clienteling-overview"></a>Pārskats par attiecību veidošanu ar klientiem
 
@@ -81,7 +81,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
     - Iestatiet šo atribūtu rādīšanas secību. Šī rādījumu secība nosaka, kuri atribūti jāparāda klienta kartē klienta grāmatā. 1. parādīšanas secība tiek uzskatīta par augstāku nekā 2. rādīšanas secība. Tāpēc atribūts, kam parādīšanas secība ir 1, tiks rādīts pirms atribūta, kam ir 2. parādīšanas secība.
 
     > [!NOTE]
-    > No tās pašas lapas var padarīt pieejamu programmu Customer Insights. Tomēr autentifikācijas nolūkiem ir jāizveido Azure programmas ID un noslēpums. (Informāciju par prasībām skatiet tālāk šīs tēmas sadaļā [Ieslēgt Customer Insights integrāciju ar Commerce](#turn-on-the-integration-of-customer-insights-with-commerce).) Ja programma Customer Insights ir ieslēgta un jūs atlasāt vienu vai vairākus mērījumus, kas jāparāda klienta kartē, šie mērījumi tiks parādīti vispirms. Pēc tam tiks rādītas klienta grāmatas atribūtu grupas, pamatojoties uz parādīšanas secību. Piemēram, ja atlasāt divus mērījumus no Customer Insights, šie abi mērījumi un viens klienta grāmatas atribūts tiks parādīts klienta kartē. (Parādītais klienta grāmatas atribūts būs tas atribūts, kam ir augstāka parādīšanas secība.)
+    > No tās pašas lapas var padarīt pieejamu programmu Customer Insights. Tomēr autentifikācijas nolūkiem ir jāizveido Azure programmas ID un noslēpums. (Informāciju par prasībām skatiet [Tālāk šajā rakstā ieslēgt sadaļas Debitoru ieskatu](#turn-on-the-integration-of-customer-insights-with-commerce) integrēšanu ar commerce (Commerce). Ja ir ieslēgta debitora ieskatu informācija un jūs atlasāt vienu vai vairākus pasākumus, kas jāparāda debitora kartē, šie pasākumi tiks rādīti vispirms. Pēc tam tiks rādītas klienta grāmatas atribūtu grupas, pamatojoties uz parādīšanas secību. Piemēram, ja atlasāt divus mērījumus no Customer Insights, šie abi mērījumi un viens klienta grāmatas atribūts tiks parādīts klienta kartē. (Parādītais klienta grāmatas atribūts būs tas atribūts, kam ir augstāka parādīšanas secība.)
 
 6. Lapas **Commerce parametri** cilnes **Attiecības ar klientiem** laukā **Klienta grāmatas atribūtu grupa** atlasiet atribūtu grupu, kuru tikko izveidojāt.
 

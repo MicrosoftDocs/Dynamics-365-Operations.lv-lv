@@ -1,6 +1,6 @@
 ---
-title: Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilknei
-description: Šajā tēmā ir sniegta informācija par iespēju izveidot īpašu maksājumu termināli un pieprasīt lietotājam atlasīt skaidras naudas atvilkni un kvīts printeri.
+title: Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilktnei
+description: Šajā rakstā ir sniegta informācija par iespēju izveidot atvēlētu maksājumu termināli, un lietotājam tiek parādīta uzvedne ar aicinājumu atlasīt naudas kastu un kvīšu printeri.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874925"
 ---
-# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilknei
+# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilktnei
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par iespēju izveidot īpašu maksājumu termināli un pieprasīt lietotājam atlasīt skaidras naudas atvilkni un kvīts printeri.
+Šajā rakstā ir sniegta informācija par iespēju izveidot atvēlētu maksājumu termināli, un lietotājam tiek parādīta uzvedne ar aicinājumu atlasīt naudas kastu un kvīšu printeri.
 
 ## <a name="overview"></a>Pārskats
 
@@ -46,7 +46,7 @@ Programma Microsoft Dynamics 365 Commerce atbalsta šīs tendences, iespējojot 
 
 ## <a name="supported-pos-clients-and-devices"></a>Atbalstītie POS klienti un ierīces
 
-Šajā tēmā aprakstīto funkcionalitāti atbalsta Modern POS sistēmai Windows un Modern POS Android POS klientiem.
+Šajā rakstā aprakstīto funkcionalitāti pos klientiem atbalsta Modern POS operētājsistēmai Windows un Modern POS Android.
 
 Šī funkcionalitāte atbalsta tīklā iespējotus maksājumu termināļus un kvīšu printerus. Varat nodrošināt skaidras naudas atvilknes atbalstu, savienojot skaidras naudas atvilkni ar tīklā iespējoto kvīts printeri, izmantojot d/k portu.
 

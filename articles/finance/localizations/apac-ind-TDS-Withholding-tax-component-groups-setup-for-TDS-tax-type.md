@@ -1,6 +1,6 @@
 ---
 title: ieturētā nodokļa komponentu grupu iestatīšana TDS nodokļu tipam
-description: Šajā tēmā skaidrots, kā iestatīt ieturētā nodokļa komponentu grupas, piemēram, Noma un Līgumdarbinieks No kopējās ienākumu summas atskaitītā nodokļa (TDS) veidam.
+description: Šajā rakstā ir izskaidrots, kā iestatīt ieturētā nodokļa komponentu grupas, piemēram, Noma un Darbuzņēmējs, nodokļa ieturējuma avota (TDS) nodokļa veidam.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ad4ac16d2618a99ba8ea5c2da010eb8e96447775
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e7b856be18618573408388fe0acbd702aeb4bcc3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896259"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>ieturētā nodokļa komponentu grupu iestatīšana TDS nodokļu tipam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt ieturētā nodokļa komponentu grupas, piemēram, **Noma** un **Līgumdarbinieks** No kopējās ienākumu summas atskaitītā nodokļa (TDS) veidam.
+Šajā rakstā ir izskaidrots, kā iestatīt ieturētā nodokļa komponentu grupas, piemēram, **Noma** **un** Darbuzņēmējs, nodokļa ieturējuma avota (TDS) nodokļa veidam.
 
 1. Atveriet **Nodoklis \> Iestatīšana \> Ieturētais nodoklis \> ieturētā nodokļa komponentu grupas**.
 

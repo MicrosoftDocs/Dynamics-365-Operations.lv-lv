@@ -1,6 +1,6 @@
 ---
 title: Cikla inventarizācijas piemēru scenāriji
-description: Šajā tēmā ir sniegts scenāriju apkopojums, kas izpēta Microsoft Dynamics 365 Supply Chain Management cikla inventarizācijas līdzekļus.
+description: Šajā rakstā ir sniegts scenāriju apkopojums, kas izpēta Microsoft cikla inventarizācijas funkcijas Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899329"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cikla inventarizācijas piemēru scenāriji
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts scenāriju apkopojums, kas izpēta Microsoft Dynamics 365 Supply Chain Management cikla inventarizācijas līdzekļus. Tas vispirms apraksta jūsu esošās Supply Chain Management vides prasības. Pēc tam tajā skaidrots, kā konfigurēt cikla inventarizāciju un aprakstītas visas cikla inventarizācijas stadijas. Kad esat beidzis, jums ir jābūt labi izpratnei par cikla inventarizāciju, tostarp vadīto cikla inventarizāciju, aklo cikla inventarizāciju, vietu cikla inventarizāciju, cikla inventarizācijas robežvērtībām un cikla inventarizācijas plāniem.
+Šajā rakstā ir sniegts scenāriju apkopojums, kas izpēta Microsoft cikla inventarizācijas funkcijas Dynamics 365 Supply Chain Management. Tas vispirms apraksta jūsu esošās Supply Chain Management vides prasības. Pēc tam tajā skaidrots, kā konfigurēt cikla inventarizāciju un aprakstītas visas cikla inventarizācijas stadijas. Kad esat beidzis, jums ir jābūt labi izpratnei par cikla inventarizāciju, tostarp vadīto cikla inventarizāciju, aklo cikla inventarizāciju, vietu cikla inventarizāciju, cikla inventarizācijas robežvērtībām un cikla inventarizācijas plāniem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
 ### <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Katrs scenārijs šajā tēmā atsaucas uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, strādājot ar scenārijiem, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu (uzņēmumu) **USMF**, pirms sākat darbu.
+Katrs šī raksta scenārijs norāda uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti Piegādes ķēžu pārvaldībai. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, strādājot ar scenārijiem, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu (uzņēmumu) **USMF**, pirms sākat darbu.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobilās programmas atbalsta ieslēgšana
 
@@ -158,7 +158,7 @@ Izpildiet šīs darbības, lai izveidotu cikla inventarizācijas darbu krājumu 
 
 Kad ir izveidots cikla inventarizācijas darbs, darbu veic, saskaitot noliktavas vietā esošos krājumus un pēc tam izmantojot mobilo ierīci, lai ievadītu rezultātus programmā Supply Chain Management. Izpildiet šīs darbības, lai varētu veikt cikla inventarizācijas darbu mobilajā programmā Warehouse Management.
 
-1. Piesakieties mobilajā programmā Warehouse Management kā darba lietotājs, ko iepriekš šajā tēmā iestatījāt sadaļā [Sagatavot demonstrācijas datus scenārijiem](#prepare-demo-data). Piemēram šajā tēmā lietotājs ir nosaukts *Jūlija Funderburka* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
+1. Piesakieties mobilajā programmā Noliktavas pārvaldība kā [darba lietotājs, ko iepriekš šajā rakstā iestatījāt sadaļā Sagatavot demonstrācijas](#prepare-demo-data) datus scenārijiem. Piemēram, šajā rakstā lietotājs ir nosaukts *Kārl. Funderburk* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
 1. Galvenajā izvēlnē atlasiet **Krājumi**.
 1. Izvēlnē **Krājumi** atlasiet **Vadīto cikla inventarizāciju**.
 1. Atlasiet lauku **Daudzums**, ievadiet *9*, izmantojot ciparu tastatūru, un pēc tam atlasiet **Labi** (izvēles rūtiņas pogu).
@@ -227,7 +227,7 @@ Pirms var notikt aklā cikla inventarizācija, ir jāizveido kāds darbs. Izpild
 
 Pēc cikla inventarizācijas darba izveides, izpildot šīs darbības, lai veiktu darbu mobilajā programmā Warehouse Management.
 
-1. Piesakieties mobilajā programmā Warehouse Management kā darba lietotājs, ko iepriekš šajā tēmā iestatījāt sadaļā [Sagatavot demonstrācijas datus scenārijiem](#prepare-demo-data). Piemēram šajā tēmā lietotājs ir nosaukts *Jūlija Funderburka* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
+1. Piesakieties mobilajā programmā Noliktavas pārvaldība kā [darba lietotājs, ko iepriekš šajā rakstā iestatījāt sadaļā Sagatavot demonstrācijas](#prepare-demo-data) datus scenārijiem. Piemēram, šajā rakstā lietotājs ir nosaukts *Kārl. Funderburk* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
 1. Galvenajā izvēlnē atlasiet **Krājumi**.
 1. Izvēlnē **Krājumi** atlasiet **Aklo cikla inventarizāciju**.
 1. Atlasiet lauku **Zonas ID**, ievadiet *BULK06* un tad atlasiet **Labi** (atzīmes poga).
@@ -259,7 +259,7 @@ Rīcībā esošie ieraksti norāda, ka novietojumā *01A02R2S2B* ir rīcībā es
 
 Izpildiet šīs darbības, lai varētu veikt cikla inventarizācijas darbu mobilajā programmā Warehouse Management.
 
-1. Piesakieties mobilajā programmā Warehouse Management kā darba lietotājs, ko iepriekš šajā tēmā iestatījāt sadaļā [Sagatavot demonstrācijas datus scenārijiem](#prepare-demo-data). Piemēram šajā tēmā lietotājs ir nosaukts *Jūlija Funderburka* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
+1. Piesakieties mobilajā programmā Noliktavas pārvaldība kā [darba lietotājs, ko iepriekš šajā rakstā iestatījāt sadaļā Sagatavot demonstrācijas](#prepare-demo-data) datus scenārijiem. Piemēram, šajā rakstā lietotājs ir nosaukts *Kārl. Funderburk* un ir iestatīts noliktavai *61*. (USMF demonstrācijas datiem jāsniedz jums iespēju pieteikties kā šim darba lietotājam, ievadot *61* kā lietotāja ID un *1* kā paroli.)
 1. Galvenajā izvēlnē atlasiet **Krājumi**.
 1. Izvēlnē **Krājumi** atlasiet **Vietas inventarizāciju**.
 1. Atlasiet lauku **Atrašanās vieta**, ievadiet *01A02R2S1B* un tad atlasiet **Labi** (atzīmes poga).

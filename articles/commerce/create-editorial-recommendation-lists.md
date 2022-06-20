@@ -1,6 +1,6 @@
 ---
 title: Manuāli izveidot pārraudzītus ieteikumus
-description: Šajā tēmā aprakstīts, kā pārdevēji var manuāli izveidot un pārvaldīt produktu sarakstus Microsoft Dynamics 365 Commerce klientiem.
+description: Šajā rakstā skaidrots, kā preču tirgūētāji var manuāli izveidot un pārvaldīt debitoru preču sarakstus Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1a1b402165c5cb35696cf1cf6630770ad07508a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892682"
 ---
 # <a name="manually-create-curated-recommendations"></a>Manuāli izveidot pārraudzītus ieteikumus
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā pārdevēji var manuāli izveidot un pārvaldīt produktu ieteikumu sarakstus Microsoft Dynamics 365 Commerce klientiem.
+Šajā rakstā skaidrots, kā tirgūētāji var manuāli izveidot un pārvaldīt produktu rekomendāciju sarakstus debitoriem Microsoft Dynamics 365 Commerce.
 
 Pārraudzīti saraksti ir atsevišķa satura kolekcijas, ko veido un pārrauga cilvēki.  
 

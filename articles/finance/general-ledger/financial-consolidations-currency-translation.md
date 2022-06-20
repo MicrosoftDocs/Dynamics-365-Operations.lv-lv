@@ -1,6 +1,6 @@
 ---
-title: Pārskats par finanšu konsolidācijām un valūtas konvertāciju
-description: Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
+title: Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
+description: Šajā rakstā aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846862"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma ņem vērā pieeju, ko Microsoft Dynamics konsolidēšanām izmanto gan finanšu, gan finanšu pārskati. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
+Šis raksts ņem vērā pieeju, ko Microsoft Dynamics 365 Finanšu un finanšu pārskati izmanto konsolidācijām. Tēmā ir aprakstīti scenāriji, kas ietver vairāku uzņēmumu pārskatu veidošanu, apkopojumu, elimināciju un mazākuma līdzdalības daļu. Tajā ir arī paskaidrots, kā rīkoties īpašās situācijās, piemēram, scenārijos, kur juridiskajām personām ir dažādi finanšu periodi vai dažādi kontu plāni.
 
-Šī tēma tika rakstīta lietotājiem un funkcionāliem konsultantiem, pieņemot, ka lasītājiem ir vispārīga izpratne par programmu Finance un par finanšu pārskatu veidošanu. Pamata iestatījumi netiek apskatīti.
+Šis raksts tika rakstīts lietotājiem un funkcionāliem konsultantiem, un tiek pieņemts, ka lasītājiem ir vispārīga izpratne par Finansēm un Finanšu pārskatiem. Pamata iestatījumi netiek apskatīti.
 
 > [!NOTE]
-> Termins *juridiska persona* tiek izmantots programmā Finance, un termins *uzņēmums* tiek izmantots finanšu pārskatu veidošanā. Šajā tēmā tiek izmantoti abi minētie termini. Tomēr šīs tēmas ietvaros to nozīmes ir vienādas.
+> Termins *juridiska persona* tiek izmantots programmā Finance, un termins *uzņēmums* tiek izmantots finanšu pārskatu veidošanā. Šajā rakstā tiek lietoti abi šie termini. Tomēr šī raksta nolūkos to nozīmes ir vienādas.
 
-## <a name="audience"></a>Mērķauditorija
-Šī tēma ir paredzēta finanšu un grāmatvedības lietotājiem un programmas konsultantiem, kuri vēlas izmantot programmu Finance and Reporting un finanšu pārskatu vairāku uzņēmumu un vairāku valūtu datu konsolidācijai.
+## <a name="audience"></a>Auditorija
+Šis raksts ir paredzēts finanšu un grāmatvedības lietotājiem un programmu konsultantiem, kuri vēlas izmantot Finanšu un pārskatu izveides un finanšu pārskatus, lai konsolidētu vairāku uzņēmumu un vairākvalūtu datus.
 
 ## <a name="approach"></a>Pieeja
 Programmā Finance konsolidācijas apstrādei tiek izmantota atsevišķa juridiska persona. Tas iespējo vienas instances konsolidāciju, bet nodrošina opciju papildināt datus no citiem avotiem. Konsolidācijas process ir jāveic katru reizi, kad izcelsmes juridiskajām personām tiek veiktas izmaiņas.

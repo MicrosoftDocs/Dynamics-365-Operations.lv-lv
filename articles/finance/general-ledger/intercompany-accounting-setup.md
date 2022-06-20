@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu uzskaites iestatīšana
-description: Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem.
+description: Šajā rakstā ir izskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai jūs varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalīšanā un finanšu žurnālos, piemēram, ikdienas žurnālos, kreditoru rēķinu žurnālos un maksājumu žurnālos.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871222"
 ---
 # <a name="intercompany-accounting-setup"></a>Starpuzņēmumu uzskaites iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalījumiem un finanšu žurnāliem, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem un maksājumu žurnāliem.
+Šajā rakstā ir izskaidrots, kā iestatīt starpuzņēmumu uzskaiti, lai jūs varētu izmantot starpuzņēmumu žurnālus Virsgrāmatas sadalīšanā un finanšu žurnālos, piemēram, ikdienas žurnālos, kreditoru rēķinu žurnālos un maksājumu žurnālos.
 
 Starpuzņēmumu žurnālus var izveidot dažādās situācijās, piemēram, ikdienas žurnāliem, kreditoru rēķinu žurnāliem, Virsgrāmatas sadalījumiem un centralizētajiem maksājumiem. Lai šos scenārijus iespējotu, ir jāiestata starpuzņēmumu uzskaite.
 

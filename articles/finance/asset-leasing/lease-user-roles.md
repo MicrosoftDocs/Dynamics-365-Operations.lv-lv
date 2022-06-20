@@ -1,6 +1,6 @@
 ---
 title: Nomas lietotāju lomu piešķiršana
-description: Šajā tēmā aprakstītas drošības lomas, kas tiek izmantotas līdzekļu nomā. Izskaidrots arī, kā piešķirt lietotājiem šīs lomas.
+description: Šajā rakstā ir aprakstītas drošības lomas, kas tiek izmantotas Izlaižot Pamatlīdzekļus. Izskaidrots arī, kā piešķirt lietotājiem šīs lomas.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1a9e7772448314e0c3fd101576c07a5b6508270f
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878136"
 ---
 # <a name="assign-lease-user-roles"></a>Nomas lietotāju lomu piešķiršana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas drošības lomas, kas tiek izmantotas līdzekļu nomā. Izskaidrots arī, kā piešķirt lietotājiem šīs lomas.
+Šajā rakstā ir aprakstītas drošības lomas, kas tiek izmantotas Izlaižot Pamatlīdzekļus. Izskaidrots arī, kā piešķirt lietotājiem šīs lomas.
 
 Trīs lietotāju lomas nodrošina atšķirīgu piekļuvi līdzekļu nomai. Viena loma ir piemērota nomu uzturēšanai, otra ir piemērota nomu skatīšanai, bet trešā ir piemērota nomas sekretāra pienākumu veikšanai. Katrai lomai ir noteiktas atļaujas visām nomas lapām, un katra no tām ļauj lietotājiem skatīt, izveidot, rediģēt vai dzēst nomu saskaņā ar darba pienākumiem.
 

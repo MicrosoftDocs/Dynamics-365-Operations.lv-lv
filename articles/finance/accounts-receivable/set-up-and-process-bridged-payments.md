@@ -1,6 +1,6 @@
 ---
-title: Iestatīt un apstrādāt pagaidu maksājumus
-description: Šajā tēmā skaidrots, kā iestatīt un apstrādāt pagaidu debitoru maksājumus. Pagaidu maksājums ir maksājums, kas tiek grāmatots Virsgrāmatā divos soļos.
+title: Pagaidu maksājumu iestatīšana un apstrāde
+description: Šajā rakstā skaidrots, kā iestatīt un apstrādāt pagaidu debitoru maksājumus. Pagaidu maksājums ir maksājums, kas tiek grāmatots Virsgrāmatā divos soļos.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887982"
 ---
-# <a name="set-up-and-process-bridged-payments"></a>Iestatīt un apstrādāt pagaidu maksājumus
+# <a name="set-up-and-process-bridged-payments"></a>Pagaidu maksājumu iestatīšana un apstrāde
 
 [!include [banner](../includes/banner.md)]
 
 Pagaidu maksājums ir maksājums, kas tiek grāmatots Virsgrāmatā divos soļos. Parasti šī pieeja tiek izmantota **, kad maksājuma metode ir iestatīta uz Banku**, un darbības bankas kontā jāgrāmato tikai tad, kad darbība ir dzēsta no bankas. Tomēr to var izmantot arī Virsgrāmatas kontam. Šajā gadījumā sistēma pārvirzīs summu no viena galvenā konta uz citu galveno kontu, kad pagaidu grāmatojums ir apstrādāts.
 
-Jūs varat izveidot pagaidu maksājumus no Parādi kreditoriem vai Debitoru parādiem. Lai gan šajā tēmā skaidrots, kā konfigurēt pagaidu grāmatošanu debitoru parādiem, darbības kreditoru darbībām ir līdzīgas.
+Jūs varat izveidot pagaidu maksājumus no Parādi kreditoriem vai Debitoru parādiem. Lai gan šajā rakstā skaidrots, kā konfigurēt pagaidu grāmatošanu debitoru parādiem, darbības kreditoru darbībām ir līdzīgas.
 
 ## <a name="set-up-bridging-posting"></a>Pagaidu grāmatošanas iestatīšana
 

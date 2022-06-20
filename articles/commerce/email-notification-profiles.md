@@ -1,6 +1,6 @@
 ---
-title: E-pasta paziņojumu iestatīšana
-description: Šajā tēmā aprakstīts, kā izveidot e-pasta paziņojumu profilu programmā Microsoft Dynamics 365 Commerce.
+title: E-pasta paziņojumu profila iestatīšana
+description: Šajā rakstā ir aprakstīts, kā izveidot e-pasta paziņojuma profilu Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878490"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-pasta paziņojumu profila iestatīšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot e-pasta paziņojumu profilu programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā izveidot e-pasta paziņojuma profilu Microsoft Dynamics 365 Commerce.
 
 Veidojot kanālus, varat iestatīt e-pasta paziņojuma profilu. E-pasta paziņojuma profils nosaka pārdošanas darbības notikumus (piemēram, izveidotais pasūtījums, iepakotais pasūtījums un pasūtījuma rēķinos iekļautais notikums), par kuru jums tiks sūtīti paziņojumi saviem debitoriem. 
 

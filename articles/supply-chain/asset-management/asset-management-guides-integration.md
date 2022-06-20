@@ -1,6 +1,6 @@
 ---
 title: Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
-description: Šajā tēmā skaidrots, kā integrēt Līdzekļu pārvaldības moduli programmā Microsoft  Dynamics 365 Supply Chain Management ar Dynamics 365 Guides, lai izmantotu jauktās realitātes ceļvežiem jūsu ikdienas pakalpojumos un uzturēšanas darbplūsmās.
+description: Šajā rakstā skaidrots, kā integrēt Pamatlīdzekļu vadības moduli Microsoft Dynamics 365 Supply Chain Management Dynamics 365 Guides ar to, lai izmantotu jauktas realitātes ceļvežu priekšrocības ikdienas apkalpošanas un uzturēšanas darbplūsmās.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875689"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
 
@@ -47,7 +47,7 @@ Lai piesaistītu ceļvedi, Līdzekļu pārvaldībā jāizmanto uzturēšanas kon
 
 Lai saistītu ceļvedi ar uzturēšanas kontrolsaraksta veidni, sekojiet šiem soļiem.
 
-1. Izveidojiet ceļvedi, izmantojot Dynamics 365 Guides datoru un HoloLens programmas. Informāciju par to, kā izveidot ceļvedi, skatiet tālāk norādītajās tēmās.
+1. Izveidojiet ceļvedi, izmantojot Dynamics 365 Guides datoru un HoloLens programmas. Papildinformāciju par to, kā izveidot ceļvedi, skatiet šādos rakstos:
 
     - [Izmantot datora programmu, lai izveidotu ceļvedi](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Izmantot HoloLens programmu, lai ievietotu jūsu hologrammas](/dynamics365/mixed-reality/guides/hololens-app-overview)

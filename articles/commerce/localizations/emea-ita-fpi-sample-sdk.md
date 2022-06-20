@@ -1,6 +1,6 @@
 ---
 title: Itālijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantojuma)
-description: Šajā tēmā sniegtas vadlīnijas itālijas fiskālā printera integrācijas parauga izvietošanai no mazumtirdzniecības Microsoft Dynamics 365 Commerce programmatūras izstrādes komplekta (SDK).
+description: Šajā rakstā ir sniegtas vadlīnijas itālijas fiskālā printera integrācijas parauga izvietošanai no mazumtirdzniecības Microsoft Dynamics 365 Commerce programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848902"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Itālijas fiskālā printera integrācijas parauga izvietošanas vadlīnijas (mantojuma)
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegtas vadlīnijas itālijas fiskālā printera Microsoft Dynamics 365 Commerce integrācijas parauga izvietošanai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet Itālijas [fiskālās printera integrācijas paraugs](emea-ita-fpi-sample.md). 
+Šajā rakstā ir sniegtas vadlīnijas par finanšu printera Microsoft Dynamics 365 Commerce integrācijas parauga izvietošanu Itālijai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju par šo fiskālās integrācijas paraugu skatiet Itālijas [fiskālās printera integrācijas paraugs](emea-ita-fpi-sample.md). 
 
-Itālijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā tēmā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
+Itālijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā rakstā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 
 ## <a name="development-environment"></a>Izstrādes vide
 
@@ -30,18 +30,18 @@ Izpildiet šīs darbības, lai iestatītu izstrādes vidi, tādējādi jūs vari
 
 ### <a name="commerce-runtime-extension-components"></a>Commerce runtime paplašinājuma komponenti
 
-Paplašinājuma CRT komponenti ir ietverti Retail SDK. Lai izpildītu tālāk norādītās procedūras, **atveriet CommerceRuntimeSamples.sln** **risinājumu zem RetailSdkSampleExtensionsCommerceRuntime \\\\**.
+Paplašinājuma CRT komponenti ir ietverti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **commerceRuntimeSamples.sln** **risinājumu zem RetailSdk\\ SampleExtensions\\ CommerceRuntime**.
 
 1. Atrast runtime.Extensions.DocumentProvider.EpsonFP90IISample **projektu** un veidot to.
-2. **Mapē Extensions.DocumentProvider.EpsonFP90IISamplebinDebug\\\\** **atrodiet mapi Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IISample.dll** montāžas failu.
+2. Mapē Extensions.DocumentProvider.EpsonFP90IISample **bin\\ Atkļūdošanas\\ mape atrodiet** Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IISample.dll **montāžas failu.**
 3. Kopēt montāžas failu uz CRT paplašinājumu mapi:
 
-    - **Commerce Scale Unit:** kopējiet failu uz **\\ binext\\** mapi, kas atrodas Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit atrašanās vietā.
+    - **Commerce Scale Unit:** kopējiet failu uz **\\ mapi bin\\ ext**, kas atrodas Interneta informācijas pakalpojumu (IIS) Commerce Scale Unit atrašanās vietā.
     - **Lokāls CRT vai Modern POS:** kopējiet failu uz ārējo **\\** mapi lokālā klienta starpnieka CRT atrašanās vietā.
 
 4. Meklēt paplašinājuma konfigurācijas failu šim CRT:
 
-    - **Commerce Scale Unit:** faila **nosaukums ir commerceruntime.ext.config**, un tā atrodas binext **\\ mapē, kas atrodas IIS Commerce Scale Unit vietas atrašanās** vietā.
+    - **Commerce Scale Unit:** faila **nosaukums ir commerceruntime.ext.config**,**\\** un tā atrodas IIS Commerce Scale Unit vietas nodalījuma ārējā mapē.
     - **Modern CRT POS lokāls:** faila **nosaukums ir CommerceRuntime.MPOSOffline.Ext.config**, un tas atrodas vietējā klienta starpnieka atrašanās CRT vietā.
 
 5. Reģistrēt izmaiņas CRT paplašinājuma konfigurācijas failā.
@@ -57,10 +57,10 @@ Paplašinājuma CRT komponenti ir ietverti Retail SDK. Lai izpildītu tālāk no
 
 ### <a name="hardware-station-extension-components"></a>Aparatūras stacijas paplašinājuma komponenti
 
-Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **risinājumu HardwareStationSamples.sln** **zem RetailSdkSampleExtensionsHardwareStation\\\\**.
+Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izpildītu tālāk norādītās procedūras, atveriet **hardwareStationSamples.sln** **risinājumu zem RetailSdk\\ SampleExtensions\\ HardwareStation**.
 
 1. Atrodiet projektu **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** un izveidojiet to.
-2. **Mapē Extensions.EpsonFP90IIICalDeviceSamplebinDebug\\\\** **atrodiet mapi Contoso.Commerce.HardwareStation.EpsonFP90IIFiscalDeviceSample.dll** montāžas failu.
+2. **Paplašinājumos.EpsonFP90IIIFiscalDeviceSample\\ bin\\** Atkļūdošanas mape atrodiet **Contoso.Commerce.HardwareStation.EpsonFP90IIFiscalDeviceSample.dll** montāžas failu.
 3. Kopējiet montāžas failu izvietotā aparatūras stacijas datorā:
 
     - **Attālās aparatūras stacija:** kopējiet failu uz **nodalījuma mapi** IIS aparatūras stacijas vietnes atrašanās vietā.
@@ -86,8 +86,8 @@ Aparatūras stacijas paplašinājuma komponenti ir iekļauti Retail SDK. Lai izp
 
 Lai izveidotu izvietojamus iepakojumus, kas ietver Commerce komponentus, un piemēroiet šīs pakotnes ražošanas vidē, veiciet šos soļus:
 
-1. Veiciet soļus, kas ir aprakstīti izstrādes [vides sadaļā](#development-environment) iepriekš šajā tēmā.
-2. Mapē RetailSdkAssets **veiciet \\ tālāk norādītās izmaiņas pakotnes konfigurācijas failos**:
+1. Veiciet soļus, kas ir aprakstīti izstrādes [vides sadaļā](#development-environment) iepriekš šajā rakstā.
+2. Mapē RetailSdk Assets pakotnes **konfigurācijas failos\\ veiciet tālāk norādītās** izmaiņas.
 
     1. Commerceruntime.ext.config **un** CommerceRuntime.MPOSOffline.Ext.config **konfigurācijas** failos pievienojiet šim sastāva sadaļai šādu **rindu.**
 
@@ -115,7 +115,7 @@ Lai izveidotu izvietojamus iepakojumus, kas ietver Commerce komponentus, un piem
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Veiciet tālāk norādītās **izmaiņas failā Sdk.ModernPos.Shared.csproj** **mapē PackagesSharedPackagingProjectComponents\_, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs**:
+4. Veiciet tālāk norādītās **izmaiņas failā Sdk.ModernPos.Shared.csproj** **mapē Iepakojumi\_ SharedPackagingProjectComponents, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs**:
 
     1. Pievienojiet ItemGroup **sadaļu**, kas satur mezglus, kas norāda uz resursu failiem nepieciešamajiem tulkojumiem. Pārliecinieties, ka ir jānorāda pareizās nosaukumvietas un parauga nosaukumi. Šis piemērs tam pievieno resursu mezglus **un** **tas-CH lokāļi**.
 
@@ -133,7 +133,7 @@ Lai izveidotu izvietojamus iepakojumus, kas ietver Commerce komponentus, un piem
         <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
         ```
 
-5. Veiciet tālāk norādītās **izmaiņas failā Sdk.RetailServerSetup.proj** **, kas atrodas mapē PackagesSharedPackagingProjectComponents\_, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs**:
+5. Veiciet tālāk norādītās izmaiņas **failā Sdk.RetailServerSetup.proj** **, kas atrodas mapē Packages\_ SharedPackagingProjectComponents**, lai ietvertu Itālijas resursu failus izvietojamās pakotnēs:
 
     1. Pievienojiet ItemGroup **sadaļu**, kas satur mezglus, kas norāda uz resursu failiem nepieciešamajiem tulkojumiem. Pārliecinieties, ka ir jānorāda pareizās nosaukumvietas un parauga nosaukumi. Šis piemērs tam pievieno resursu mezglus **un** **tas-CH lokāļi**.
 

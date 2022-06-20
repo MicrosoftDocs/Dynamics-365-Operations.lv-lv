@@ -1,6 +1,6 @@
 ---
 title: Ģenerēt Pieejamas aprūpes akta pārskatus Atvieglojumu pārvaldībā
-description: Šajā tēmā ir aprakstīts, kā Atvieglojumu pārvaldība palīdz izsekot informāciju, kas ir norādīta Pieejamas aprūpes akta (ACA) darba devēja mandāta veidlapā 1095-B un veidlapā 1095-C.
+description: Šajā rakstā ir aprakstīts, kā atvieglojumu pārvaldība izseko informāciju, kas ir ziņota darba devēja mandātā Forma 1095-B un formā 1095-C.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 118dace557c7c8a8d101e2f2ad1d94fb14547c1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889727"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Ģenerēt ACA pārskatus Atvieglojumu pārvaldībā
 

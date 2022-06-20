@@ -1,6 +1,6 @@
 ---
 title: PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
-description: Šajā tēmā ir paskaidrots, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt līgumu vienam no kreditoriem.
+description: Šajā rakstā ir paskaidrots, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), punktu skaitu un salīdzināt piedāvājumus un pēc tam piešķirt līgumu vienam no kreditoriem.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893386"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), noteikt punktu skaitu un salīdzināt piedāvājumus, un kā pēc tam piešķirt līgumu vienam no kreditoriem. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu **USMF**.
+Šajā rakstā ir paskaidrots, kā ievadīt atbildes uz piedāvājuma pieprasījumu (PP), punktu skaitu un salīdzināt piedāvājumus un pēc tam piešķirt līgumu vienam no kreditoriem. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu **USMF**.
 
 Pirms šīs procedūras sākšanas jums ir nepieciešams PP ar divām rindām, kas ir nosūtīts vismaz diviem kreditoriem. Lai izveidotu šo PP, pabeidziet procedūru [Piedāvājuma pieprasījuma izveide](create-request-quotation.md). Lai varētu pabeigt šo procedūru, ir nepieciešams iestatīt arī punktu skaitīšanas kritērijus.
 

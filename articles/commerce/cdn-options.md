@@ -1,6 +1,6 @@
 ---
 title: Satura pieg'ades tīkla ieviešanas opcijas
-description: Šajā tēmā pārskatītas dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, kuru var izmantot ar Microsoft Dynamics 365 Commerce vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
+description: Šis raksts pārskata dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, ko var izmantot Microsoft Dynamics 365 Commerce ar vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884421"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Satura pieg'ades tīkla ieviešanas opcijas
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā pārskatītas dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, kuru var izmantot ar Microsoft Dynamics 365 Commerce vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
+Šis raksts pārskata dažādas opcijas satura piegādes tīkla (CDN) ieviešanai, ko var izmantot Microsoft Dynamics 365 Commerce ar vidēm. Šīs opcijas ietver vietējās, Commerce nodrošinātās Azure Front Door instances un klientam piederošās Azure Front Door instances.
 
 Commerce klientiem ir vairākas opcijas, kad viņi lemj, kuru CDN pakalpojumu izmantot savā Commerce vidē. Commerce tiek izlaista ar Azure Front Door pamata atbalstu, kas ietver pamata mitināšanu un pielāgoto domēnu prasības. Uzņēmumiem, kuri vēlas vairāk kontroles un konkrētākas drošības iespējas, piemēram, tīmekļa lietojumprogrammas ugunsmūri (WAF), vislabāk varētu būt lietot vai nu klientam piederošu Azure Front Door instanci vai ārēju CDN pakalpojumu.
 

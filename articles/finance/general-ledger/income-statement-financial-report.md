@@ -1,6 +1,6 @@
 ---
 title: Peļņas vai zaudējumu aprēķina finanšu pārskats
-description: Šajā tēmā aprakstīts noklusējuma pārskats par ienākumu pārskatiem. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki.
+description: Šajā rakstā ir aprakstīts peļņas vai zaudējumu aprēķina noklusējuma pārskats. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki.
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f664eeaa5cf40ce856b424d10ba2d1c3bd46e1c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e9a1f20ed5e2a84e0d18101ede46ffffef4230c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868465"
 ---
 # <a name="income-statement-financial-report"></a>Peļņas vai zaudējumu aprēķina finanšu pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts noklusējuma pārskats par ienākumu pārskatiem. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki. 
+Šajā rakstā ir aprakstīts peļņas vai zaudējumu aprēķina noklusējuma pārskats. Tajā ir aprakstīti arī ar šo pārskatu saistītie veidošanas bloki. 
 
 ## <a name="default-income-statement-report"></a>Noklusējuma peļņas vai zaudējumu aprēķina pārskats
 

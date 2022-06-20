@@ -1,6 +1,6 @@
 ---
 title: Finanšu kalendāri, finanšu gadi un periodi
-description: Šajā tēmā apskatīti finanšu kalendāri, finanšu gadi un periodi un kā tos izmantot juridiskajām personām, pamatlīdzekļiem un budžeta pārskatiem.
+description: Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909103"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Finanšu kalendāri, finanšu gadi un periodi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā apskatīti finanšu kalendāri, finanšu gadi un periodi un kā tos izmantot juridiskajām personām, pamatlīdzekļiem un budžeta pārskatiem.
+Šajā rakstā ir aprakstīti finanšu kalendāri, finanšu gadi un periodi, kā arī to lietošana juridiskajām personām, pamatlīdzekļiem un budžeta veidošanai.
 
 Finanšu kalendāri nodrošina struktūru organizācijas finanšu aktivitātei. Katrs finanšu kalendārs satur vienu vai vairākus finanšu gadus, un katrs finanšu gads satur vairākus periodus. Finanšu kalendāri var būt balstīti uz kalendāra gadu no 1. janvāra līdz 31. decembrim vai jebkādiem jūsu izvēlētiem datumiem. Piemēram, dažas organizācijas izvēlas finanšu kalendāru, kas sākas viena gada 1. jūlijā un beidzas nākamā gada 30. jūnijā. 
 

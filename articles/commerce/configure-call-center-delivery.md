@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra piegādes veidu un maksu konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt zvanu centrā veikta pasūtījuma piegādes veidus un maksas programmā Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā iestatīt piegādes veidus un maksas zvanu centra pasūtījumam Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888302"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
@@ -35,7 +35,7 @@ Programmai Commerce ir iespējas, kas ļauj lietotājiem ierobežot piegādes ve
 
 Lai varētu norādīt, kurus piegādes veidus var izmantot zvanu centra pasūtījumiem, un lai definētu saistītās kārtulas un maksas, ir jādefinē piegādes veidi. Dodieties uz **Pārdošana un mārketings \> Iestatīšana \> Sadale \> Piegādes veidi** Atlasiet **Jauns**, lai izveidotu jaunu piegādes veidu. Vai arī sarakstā atlasiet esošu piegādes veidu un pēc tam atlasiet **Rediģēt**, lai veiktu izmaiņas.
 
-Laukā **Piegādes veids** varat ievadīt jebkādu burtu un ciparu kombināciju, pamatojoties uz sava uzņēmuma prasībām. Pēc tam varat izmantot lauku **Apraksts**, lai norādītu papildu kontekstu. Lauki **Maksu grupa** un **Paātrināt izpildi** ir neobligāti, un tie tiks plašāk paskaidroti tālāk šajā tēmā.
+Laukā **Piegādes veids** varat ievadīt jebkādu burtu un ciparu kombināciju, pamatojoties uz sava uzņēmuma prasībām. Pēc tam varat izmantot lauku **Apraksts**, lai norādītu papildu kontekstu. Izmaksu **grupas un** paātrinātās **piegādes lauki ir** izvēles lauki, un tie tiks izskaidroti tālāk šī raksta detalizētāk.
 
 Kopsavilkuma cilnē **Commerce kanāli** pievienojiet visus mazumtirdzniecības kanālus, kuriem vēlaties atļaut izmantot šo piegādes veidu, kad attiecīgajā kanālā tiek izveidotas pārdošanas transakcijas.
 

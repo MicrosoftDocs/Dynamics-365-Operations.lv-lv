@@ -1,6 +1,6 @@
 ---
-title: Izmaksu darbību elementi
-description: Šī tēma sniedz informāciju par izmaksu darbību entītijām, kas aktivizē izmaksu vērtību, lai tās sadalītu starp izmaksu apgabala saturu, izmantojot sadalīšanas metodes atlasi.
+title: Izmaksu darījumu elementi
+description: Šajā rakstā ir sniegta informācija par izmaksu darbību elementiem, kas aktivizē izmaksu vērtību, lai tās sadalītu starp izmaksu apgabala saturu, izmantojot sadalīšanas metodes atlasi.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 41a9525cb766907b7de97f1e856a3b640d7718ac
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860817"
 ---
-# <a name="cost-transaction-entities"></a>Izmaksu darbību elementi
+# <a name="cost-transaction-entities"></a>Izmaksu darījumu elementi
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]

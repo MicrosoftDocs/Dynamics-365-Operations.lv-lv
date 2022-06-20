@@ -1,6 +1,6 @@
 ---
 title: Elektroniskās rēķinu izveides administrēšanas komponenti
-description: Šajā tēmā sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu izrakstīšanas administrēšanu.
+description: Šajā rakstā ir sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu administrēšanu.
 author: gionoder
 ms.date: 08/31/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: cdd4d6705730bca967bb1bbff528df6d83a2390d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876005"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroniskās rēķinu izveides administrēšanas komponenti
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu izrakstīšanas administrēšanu. Tā sniedz arī informāciju par elektronisko rēķinu izrakstīšanas pakalpojuma konfigurēšanu.
+Šajā rakstā ir sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu administrēšanu. Tā sniedz arī informāciju par elektronisko rēķinu izrakstīšanas pakalpojuma konfigurēšanu.
 
 ## <a name="azure"></a>Azure
 
@@ -97,7 +97,7 @@ Kā labākā prakse - periodiski pagriezt noslēpumus. Papildinformāciju skatie
 
 #### <a name="users"></a>Lietotāji
 
-Katrai pakalpojumu videi ir jāsaraksta tās lietotājam, kas var pievienoties no Dynamics 365 Finance un Dynamics 365 Supply Chain Management Elektronisko rēķinu izrakstīšanā.
+Katrai pakalpojumu videi ir jāsarakstam tās personas, kas var pievienoties no Dynamics 365 Finanšu un elektronisko Dynamics 365 Supply Chain Management rēķinu izrakstīšanas.
 
 #### <a name="publication"></a>Publicēšana
 
@@ -123,7 +123,7 @@ Lai iespējotu komunikāciju starp Finance un Supply Chain Management, un elektr
 
 Pakalpojuma galapunkts ir URL, kur atrodas Elektronisko rēķinu izrakstīšana. Pirms var tikt izdoti elektroniskie rēķini, pakalpojuma galapunktam jābūt konfigurētam pakalpojumos Finance un Supply Chain Management, lai ļautu sazināties ar pakalpojumu.
 
-Lai konfigurētu pakalpojuma galapunktu, dodieties uz **Organizācijas pārvaldība \> Iestatījumi \> Elektronisko dokumentu parametri** un lauka **Galapunkta URL** cilnē **Elektroniskā rēķinu izrakstīšana** ievadiet atbilstošo URL no tabulas, kas iepriekš Šajā tēmā aprakstīta sadaļā [Pakalpojumu galapunkts](#svc-endpoint-uris).
+Lai konfigurētu pakalpojuma galapunktu, **\>\>** **·** **dodieties uz Organizācijas administrēšanas iestatījuma elektronisko dokumentu parametrus un pēc tam cilnes Elektronisko rēķinu izrakstīšana laukā Galapunkta URL** ievadiet attiecīgo URL [no](#svc-endpoint-uris) tabulas pakalpojuma galapunkta sadaļā iepriekš šajā rakstā.
 
 #### <a name="environments"></a>Vides
 

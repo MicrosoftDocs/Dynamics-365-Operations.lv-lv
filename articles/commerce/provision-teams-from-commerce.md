@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams nodrošināšana no Dynamics 365 Commerce
-description: Šajā tēmā ir aprakstīts, kā nodrošināt Microsoft Teams, izmantojot organizācijas Dynamics 365 Commerce datus.
+description: Šajā rakstā ir aprakstīts, kā nodrošināt Microsoft Teams, izmantojot organizācijas datus no Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868939"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams nodrošināšana no Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā nodrošināt Microsoft Teams, izmantojot organizācijas Dynamics 365 Commerce datus.
+Šajā rakstā ir aprakstīts, kā nodrošināt Microsoft Teams, izmantojot organizācijas datus no Dynamics 365 Commerce.
 
 Dynamics 365 Commerce piedāvā ērtu veidu, kā nodrošināt Teams, ja vēl neesat iestatījis grupas saviem mazumtirdzniecības veikaliem. Izmantojot pareizi definētas informācijas priekšrocības no Commerce, ko vēlaties izmantot programmā Teams, varat palīdzēt veikala darbiniekiem sākt darbu Teams. Šajā informācijā ir iekļauta organizācijas hierarhija, veikalu nosaukumi, darbinieku informācija un Azure Active Directory (Azure AD) konti. 
 

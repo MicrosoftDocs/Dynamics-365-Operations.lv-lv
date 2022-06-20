@@ -1,6 +1,6 @@
 ---
 title: Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
-description: Šajā tēmā paskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un tad izmantot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
+description: Šajā rakstā ir izskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un pēc tam izmantot apstiprinājumu žurnālu, lai atjauninātu izdevumu kontus.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909219"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un tad izmantot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
+Šajā rakstā ir izskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un pēc tam izmantot apstiprinājumu žurnālu, lai atjauninātu izdevumu kontus.
 
 ## <a name="create-and-post-and-invoice"></a>Izveidot un grāmatot rēķinu
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu reģistrs**.

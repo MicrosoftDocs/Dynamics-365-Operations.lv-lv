@@ -1,6 +1,6 @@
 ---
 title: ER Izveidot formāta konfigurāciju (2016. gada novembris)
-description: Šajā tēmā skaidrots, kā izveidot formāta konfigurāciju elektroniskajiem pārskatiem (ER).
+description: Šajā rakstā skaidrots, kā izveidot formāta konfigurāciju elektroniskajiem pārskatiem (ER).
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902659"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Izveidot formāta konfigurāciju (2016. gada novembris)
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā lietotājs Sistēmas administratora vai Elektronisko pārskatu izstrādātāja lomā var izveidot Elektroniskā pārskata (EK) formāta konfigurāciju. Šī formāta konfigurāciju noteiks to elektronisko dokumentu formātu, kas tiek izmantoti maksājumu apstrādei. Šajā piemērā jāuzveido parauga uzņēmuma Litware, Inc. formāta konfigurācija. Lai varētu veikt šīs darbības, vispirms jāizpilda procedūrā "Modeļa kartēšana izvēlētajos datu avotos" aprakstītās darbības.
+Šajā rakstā skaidrots, kā lietotājs lomas Sistēmas administrators vai Elektronisko pārskatu izstrādātājs loma var izveidot formāta konfigurāciju elektroniskajiem pārskatiem (ER). Šī formāta konfigurāciju noteiks to elektronisko dokumentu formātu, kas tiek izmantoti maksājumu apstrādei. Šajā piemērā jāuzveido parauga uzņēmuma Litware, Inc. formāta konfigurācija. Lai varētu veikt šīs darbības, vispirms jāizpilda procedūrā "Modeļa kartēšana izvēlētajos datu avotos" aprakstītās darbības.
 
 
 ## <a name="create-a-new-format-configuration"></a>Jaunas formāta konfigurācijas izveide

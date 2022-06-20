@@ -1,6 +1,6 @@
 ---
-title: Koriģēt ER formātu pielāgota elektroniskā dokumenta ģenerēšanai
-description: Šajā tēmā ir paskaidrots, kā koriģēt Microsoft nodrošināto elektronisko pārskatu (ER) formātu, lai tas ģenerētu pielāgotu elektronisko dokumentu.
+title: Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu
+description: Šajā rakstā skaidrots, kā pielāgot Microsoft nodrošināto elektronisko pārskatu (ER) formātu, lai tas ģenerētu pielāgotu elektronisku dokumentu.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886796"
 ---
-# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Koriģēt ER formātu pielāgota elektroniskā dokumenta ģenerēšanai
+# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu
 
 [!include[banner](../includes/banner.md)]
 
-Šīs tēmas procedūrās ir paskaidrots, kā lietotājs sistēmas administratora vai elektronisko pārskatu funkcionālā konsultanta lomā var veikt šos uzdevumus:
+Šajā rakstā izskaidrots, kā lietotājs sistēmas administratora vai elektroniskā pārskata funkcionālā konsultanta lomā var veikt šos uzdevumus:
 
 - Konfigurēt parametrus [Elektronisko pārskatu (ER) veidošanas struktūrai](general-electronic-reporting.md).
 - Importēt Microsoft nodrošinātās ER konfigurācijas un izmantot, lai ģenerētu maksājuma failu, kamēr [kreditora maksājums](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) tiek apstrādāts.
@@ -135,7 +135,7 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Standarta ER konfigurāciju importēšana
 
-Lai pievienotu standarta ER konfigurācijas savai pašreizējai Microsoft Dynamics 365 Finance instancei, jums tās ir jāimportē no šai instancei konfigurētā ER [repozitorija](general-electronic-reporting.md#Repository).
+Lai pievienotu standarta ER konfigurācijas Microsoft Dynamics pašreizējai 365 Finanšu instancei, jums tās jāimportē no ER [repozitorija](general-electronic-reporting.md#Repository), kas tika konfigurēts šim gadījumam.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji**, lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.

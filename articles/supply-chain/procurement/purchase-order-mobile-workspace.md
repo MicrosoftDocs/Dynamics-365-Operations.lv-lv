@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pasūtījuma apstiprināšanas mobilā darbvieta
-description: Šajā tēmā ir sniegta informācija par pirkšanas pasūtījuma apstiprināšanas mobilo darbvietu, kas ļauj skatīt pirkšanas pasūtījumus un atbilstoši reaģēt ar darbībām. Piemēram, varat apstiprināt vai noraidīt pirkšanas pasūtījumu.
+description: Šajā rakstā ir sniegta informācija par Pirkšanas pasūtījuma apstiprinājuma mobilo darbvietu, kas ļauj skatīt pirkšanas pasūtījumus un atbildēt uz tiem, izmantojot darbības. Piemēram, varat apstiprināt vai noraidīt pirkšanas pasūtījumu.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863858"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Pirkšanas pasūtījuma apstiprināšanas mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Šajā tēmā ir sniegta informācija par mobilo darbvietu **Pirkšanas pasūtījuma apstiprināšana**. Šajā darbvietā var apskatīt pirkšanas pasūtījumus un atbilstoši reaģēt ar darbībām. Piemēram, varat apstiprināt vai noraidīt pirkšanas pasūtījumu.
+Šajā rakstā ir sniegta informācija par pirkšanas pasūtījuma **apstiprinājuma mobilo** darbvietu. Šajā darbvietā var apskatīt pirkšanas pasūtījumus un atbilstoši reaģēt ar darbībām. Piemēram, varat apstiprināt vai noraidīt pirkšanas pasūtījumu.
  
 ## <a name="overview"></a>Pārskats 
 Apstiprināmajiem pirkšanas pasūtījumiem ir jāizmanto apstiprināšanas darbplūsma. Darbplūsma var ietvert dažādus soļus, kam nepieciešams, lai darbības veic viena vai vairākas personas. Piemēram, personai var būt nepieciešams izpildīt uzdevumu vai apstiprināt pirkšanas pasūtījumu. 

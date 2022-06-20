@@ -1,6 +1,6 @@
 ---
 title: Poļu Intrastat
-description: Šajā tēmā iekļauta informācija par Intrastat pārskatiem Polijai.
+description: Šis raksts satur informāciju par Intrastat pārskatiem Polijai.
 author: andosip
 ms.date: 11/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871106"
 ---
 # <a name="polish-intrastat"></a>Poļu Intrastat
 
@@ -74,7 +74,7 @@ Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāc
 
 Uzņēmuma kodiem ir jāizveido divi reģistrācijas tipi: viens PVN ID (NIP kods) un viens uzņēmuma numuram (Regon kods).
 
-1. Dodieties uz **organizācijas administrationGlobal** > **adrešu grāmatasRegistration** > **typesRegistration** > **tipiem**.
+1. Dodieties uz organizācijas administrēšanas **globālās adrešu grāmatas** > **reģistrācijas tipu** > **reģistrācijas tipiem** > **.**
 2. Darbību rūtī atlasiet **Jauns**, lai izveidotu PVN ID reģistrācijas tipu.
 3. Dialoglodziņā Ievadīt **reģistrācijas veida** detaļas laukā **Nosaukums** ievadiet jaunā reģistrācijas tipa nosaukumu. Piemēram, ievadiet **NRN**.
 4. Laukā **Valsts/reģions** atlasiet **POL**.
@@ -86,7 +86,7 @@ Uzņēmuma kodiem ir jāizveido divi reģistrācijas tipi: viens PVN ID (NIP kod
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Saskaņot reģistrācijas tipus ar reģistrācijas kategorijām
 
-1. Dodieties uz **organizācijas administrēšanuGlobala** > **adrešu bookRegistration** > **typesRegistration** > **kategorijas**.
+1. Dodieties uz organizācijas administrēšanu **Globālās adrešu grāmatas** > **reģistrācijas veidi** > **Reģistrācijas kategorijas** > **.**
 2. Darbību rūtī atlasiet Jauns **, lai** izveidotu saiti starp katru jūsu izveidoto reģistrācijas tipu un reģistrācijas kategoriju.
 
     - Pvn ID (NRN koda) reģistrācijas veidam atlasiet **PVN ID reģistrācijas** kategoriju.
@@ -113,7 +113,7 @@ Uzņēmuma kodiem ir jāizveido divi reģistrācijas tipi: viens PVN ID (NIP kod
 
 ## <a name="set-up-foreign-trade-parameters"></a>Iestatīt starptautiskās tirdzniecības parametrus
 
-1. Doties uz **TaxSetupForeign** > **·** > **tirdzniecības parametriem**.
+1. Doties uz nodokļu **iestatījuma** > **·** > **ārējās tirdzniecības parametriem**.
 2. Cilnes Intrastat **kopsavilkuma cilnes Elektroniskie** pārskati **laukā** Failu formātu **kartēšana atlasiet** Intrastat (PL **).**
 3. Laukā **Pārskata formāta kartēšana** atlasiet **Intrastat pārskats**.
 4. Kopsavilkuma cilnes **Preču kodu hierarhija** laukā **Kategoriju hierarhija** atlasiet **Intrastat**.
@@ -158,7 +158,7 @@ Uzņēmuma kodiem ir jāizveido divi reģistrācijas tipi: viens PVN ID (NIP kod
 
 2.  Iestatiet piegādes veidu Intrastat kodiem.
 
-    1. Dodieties uz **Sagādes un avotuSetupDistribution** > **·** > **·** > **Piegādes nosacījumi**.
+    1. Dodieties uz **sagādes un avotu** > **Iestatīšanas** > **sadales** > **piegādes nosacījumiem**.
     2. Režģī atlasiet piegādes nosacījumu kopu.
     3. **Kopsavilkuma cilnes** Vispārīgi laukā **Intrastat kods ievadiet** unikālo kodu.
 
@@ -225,7 +225,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 ### <a name="create-registration-types-for-company-codes"></a>Izveidot uzņēmumu kodu reģistrācijas tipus
 
-1. Dodieties uz **organizācijas administrationGlobal** > **adrešu grāmatasRegistration** > **typesRegistration** > **tipiem**.
+1. Dodieties uz organizācijas administrēšanas **globālās adrešu grāmatas** > **reģistrācijas tipu** > **reģistrācijas tipiem** > **.**
 2. Darbību rūtī atlasiet Jauns **, lai** izveidotu PVN ID (NRN koda) reģistrācijas tipu.
 3. Dialoglodziņā Ievadīt **reģistrācijas veida** detaļas laukā Nosaukums **ievadiet** **NRN**.
 4. Laukā **Valsts/reģions** atlasiet **POL**.
@@ -237,7 +237,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 ### <a name="match-the-registration-types-with-registration-categories"></a>Saskaņot reģistrācijas tipus ar reģistrācijas kategorijām
 
-1. Dodieties uz **organizācijas administrēšanuGlobala** > **adrešu bookRegistration** > **typesRegistration** > **kategorijas**.
+1. Dodieties uz organizācijas administrēšanu **Globālās adrešu grāmatas** > **reģistrācijas veidi** > **Reģistrācijas kategorijas** > **.**
 2. Darbību rūtī atlasiet Jauns **, lai** izveidotu saiti starp katru jūsu izveidoto reģistrācijas tipu un reģistrācijas kategoriju.
 
     - **NIP reģistrācijas** veidam atlasiet **PVN ID reģistrācijas** kategoriju.
@@ -259,7 +259,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 1. Atveriet **Organizācijas administrēšana** > **Numuru sērijas** > **Numuru sērijas**.
 2. Darbību rūts cilnes Numuru **sērija** grupā Jauna **atlasiet** Numuru **sērija**.
-3. Kopsavilkuma cilnes **Identifikācija** laukā Numuru sērijas **kods** ievadiet **XML\_ failu**.
+3. Kopsavilkuma cilnes **Identifikācija** laukā Numuru **sērijas kods** ievadiet **XML\_ failu**.
 4. Kopsavilkuma cilnes **Tvēruma** parametri laukā **Tvērums** atlasiet **Uzņēmums**.
 5. Laukā **Uzņēmums** atlasiet **DEMF**.
 6. Kopsavilkuma cilnes **Segmenti** laukā Garums **ievadiet** **4 burtciparu** segmentu.**·**
@@ -285,7 +285,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 ### <a name="set-up-product-information"></a>Preces informācijas iestatīšana
 
-1. Pārejiet uz **sadaļu Preces informācijas pārvaldībaProductsReleased** > **·** > **·** **preces.**
+1. Pārejiet uz **produktu informācijas pārvaldības precēm** > **Izlaistās** > **·** **preces.**
 2. Režģī atlasiet **D0001**.
 3. Kopsavilkuma cilnes **Ārējā tirdzniecība** sadaļas **Intrastat** laukā **Izcelsmes valsts** izvēlieties **100 200 30**.
 4. Kopsavilkuma cilnes **Pārvaldīt krājumu** sadaļā **Svara mērījumi** laukā **Neto svars** ievadiet **2**.
@@ -327,7 +327,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 4. Atlasiet kreditora noklusējuma piegādes veidu.
 
-    1. Dodieties uz **sadaļu Parādi kreditoriemVendorsAll** > **·** > **kreditori**.
+    1. Dodieties uz **Kreditoru parādiem** > **visiem kreditoriem** > **·**.
     2. Režģī atlasiet **DE-001**.
     3. Kopsavilkuma cilnes **Rēķins un** piegāde laukā **Piegādes veids** atlasiet **10**.
 
@@ -335,7 +335,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 1. Iestatiet piegādes nosacījumiem Intrastat kodu.
 
-    1. Dodieties uz **Sagādes un avotuSetupDistribution** > **·** > **·** > **Piegādes nosacījumi**.
+    1. Dodieties uz **sagādes un avotu** > **Iestatīšanas** > **sadales** > **piegādes nosacījumiem**.
     2. Režģī atlasiet **CIF**.
     3. Kopsavilkuma cilnes **Vispārīgi** laukā Intrastat kods **ievadiet** **CIF**.
 
@@ -347,7 +347,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 
 3. Atlasiet kreditora noklusējuma piegādes nosacījumus.
 
-    1. Dodieties uz **sadaļu Parādi kreditoriemVendorsAll** > **·** > **kreditori**.
+    1. Dodieties uz **Kreditoru parādiem** > **visiem kreditoriem** > **·**.
     2. Režģī atlasiet **DE-001**.
     3. Kopsavilkuma cilnē **Rēķins** un piegāde laukā **Piegādes nosacījumi** atlasiet **CIF**.
 
@@ -368,7 +368,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 7. Atlasiet **Labi**.
 8. Cilnes Virsraksts **kopsavilkuma** **cilnē** Piegāde pārbaudiet, **·** **vai lauks Piegādes nosacījumi ir iestatīts uz CIF**,**un** piegādes režīma lauks ir iestatīts uz **10.**
 9. Cilnē **Rindas** kopsavilkuma cilnes **Pārdošanas pasūtījuma rindas** laukā **Preces numurs** atlasiet **D0001**. Laukā **Daudzums** ievadiet **8**.
-10. Kopsavilkuma cilnē **Rindas detaļas** cilnē **Ārējā tirdzniecība** pārbaudiet, vai **darbības koda lauks** ir iestatīts uz **11**, lauks **Prece** ir iestatīts uz **100 200 30** un **izcelsmes valsts/ reģions** ir iestatīts uz **POL**.
+10. Kopsavilkuma cilnē **Rindas detaļas** cilnē **Ārējā tirdzniecība** pārbaudiet, vai **darbības koda** lauks ir iestatīts uz **11**, lauks **Prece** ir iestatīts uz **100 200 30** un **izcelsmes valsts/reģions** ir iestatīts uz **POL**.
 11. Darbību rūtī atlasiet **Saglabāt**.
 12. Darbību rūtī, cilnē **Rēķins**, grupā **Ģenerēt** atlasiet **Rēķins**.
 13. Dialoglodziņa **Rēķina grāmatošana** kopsavilkuma cilnes **Parametri** sadaļā **Parametri** laukā **Daudzums** atlasiet **Visi**.
@@ -817,7 +817,7 @@ Importējiet pēdējo ER konfigurāciju versiju:
 6. Atlasiet **Labi**.
 7. Cilnē Virsraksts **kopsavilkuma** **cilnē** Piegāde pārbaudiet, **·** **vai lauks Piegādes režīms ir iestatīts uz 10** **un** lauks Piegādes nosacījumi ir iestatīts uz **CIF.**
 8. Cilnē **Rindas** kopsavilkuma cilnes **Pirkšanas pasūtījuma rindas** laukā **Preces numurs** atlasiet **D0003**. Laukā **Daudzums** ievadiet **6**.
-9. Kopsavilkuma cilnē **Detalizēta informācija par rindu** cilnē **Ārējā tirdzniecība** pārbaudiet, **vai darbības kods** ir iestatīts uz **11**, lauks **Transports** ir iestatīts uz **3**, lauks **Prece** ir iestatīts uz **100 200 30** un **izcelsmes valsts/ reģions** ir iestatīts kā **DEU**.
+9. Kopsavilkuma cilnē **Detalizēta informācija par rindu** cilnē **Ārējā tirdzniecība** pārbaudiet, vai **darbības kods** ir iestatīts uz **11**, lauks **Transports** ir iestatīts uz **3**, lauks **Prece** ir iestatīts uz **100 200 30** un **izcelsmes valsts/reģions** ir iestatīts kā **DEU**.
 10. Darbību rūts cilnē **Pirkšana**, grupā **Darbības** atlasiet **Apstiprināt**.
 11. Darbību rūtī, cilnē **Rēķins**, grupā **Ģenerēt** atlasiet **Rēķins**.
 12. Darbību rūtī atlasiet Noklusējums **un** pēc tam laukā **Noklusējuma daudzums rindām** atlasiet Pasūtītais **daudzums**. Pēc tam atlasiet **Labi**.

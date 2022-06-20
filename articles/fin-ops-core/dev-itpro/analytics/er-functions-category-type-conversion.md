@@ -1,6 +1,6 @@
 ---
 title: ER funkciju saraksts veida konvertēšanas kategorijā
-description: Šajā tēmā ir sniegta informācija par konvertēšanas funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
+description: Šajā rakstā ir sniegta informācija par pārvēršanas funkcijām, kas tiek atbalstītas Elektronisko pārskatu veidošanai (ER).
 author: NickSelin
 ms.date: 12/05/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37516ced402e0204ebd09d5b175ff56b040b9043
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889319"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>ER funkciju saraksts veida konvertēšanas kategorijā
 
 [!include [banner](../includes/banner.md)]
 
-Elektronisko atskaišu veidošanas (ER) veida konvertēšanas funkcijas var izmantot, lai konvertētu vērtības starp veidiem. Šajā tēmā ir sniegts šo funkciju kopsavilkums.
+Elektronisko atskaišu veidošanas (ER) veida konvertēšanas funkcijas var izmantot, lai konvertētu vērtības starp veidiem. Šajā rakstā ir sniegts šo funkciju kopsavilkums.
 
 ## <a name="type-conversion-functions"></a>Veida pārveidošanas funkcijas
 

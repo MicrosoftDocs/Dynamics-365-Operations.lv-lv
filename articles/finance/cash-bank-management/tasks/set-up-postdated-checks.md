@@ -1,6 +1,6 @@
 ---
 title: Ar iepriekšēju datumu datētu čeku iestatīšana
-description: Šajā tēmā izskaidrots, kā norādīt, vai grāmatot ar iepriekšēju datumu datētu čeku žurnāla ierakstus, ko izmantot ierakstu dzēšanai un kreditoru maksājumiem.
+description: Šajā rakstā ir izskaidrots, kā norādīt, vai grāmatot žurnāla ierakstus ar iepriekš noteiktu datumu veiktiem čekiem un kādus grāmatošanas žurnālus izmantot ierakstu un kreditoru maksājumu norēķiniem.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 645b474b8b4bd13cd47bef404cda002e6b29a1ba
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e045648230aba7965ed68fbc499f73e077caceed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870312"
 ---
 # <a name="set-up-postdated-checks"></a>Ar iepriekšēju datumu datētu čeku iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā norādīt, vai grāmatot ar iepriekšēju datumu datētu čeku žurnāla ierakstus, ko izmantot ierakstu dzēšanai un kreditoru maksājumiem. Varat arī norādīt izsniegto čeku, saņemt čeku un ieturētā nodokļa klīringa kontus. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Varat norādīt, vai čekam ir jābūt atspoguļotam uzskaites grāmatās pirms tās dzēšanas termiņa.
+Šajā rakstā ir izskaidrots, kā norādīt, vai grāmatot žurnāla ierakstus ar iepriekš noteiktu datumu veiktiem čekiem un kādus grāmatošanas žurnālus izmantot ierakstu un kreditoru maksājumu norēķiniem. Varat arī norādīt izsniegto čeku, saņemt čeku un ieturētā nodokļa klīringa kontus. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Varat norādīt, vai čekam ir jābūt atspoguļotam uzskaites grāmatās pirms tās dzēšanas termiņa.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Automātiska nosegšana un prioritāšu noteikšana
-description: Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855525"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Automātiska nosegšana un prioritāšu noteikšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā tiek segtas transakcijas, ja lapā Kreditoru parametri atlasāt vienumu Automātiska nosegšana. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
+Šajā rakstā ir sniegta informācija par to, kā tiek segtas transakcijas, atlasot vienumu Automātiska nosegšana lapā Kreditoru parametri. Šeit ir arī izskaidrots, kā automātisko nosegšanu var izmantot kopā ar maksājuma prioritātes statusu.
 
 Jums ir divas iespējas, apmaksājot maksājumus ar rēķiniem un citām transakcijām. Varat manuāli atlasīt nosedzamās transakcijas, var arī sistēma var atlasīt transakcijas automātiski, izmantojot automātiskās nosegšanas funkcionalitāti. Varat arī pielāgot automātiskās segšanas apstrādi, izmantojot opciju **Noteikt segšanai prioritāti**. Visas šīs opcijas ir daļa no segšanas parametriem, kas ir definēti lapā **Debitoru parādu parametri**. Veida, kā transakcijas tiek automātiski nosegtas, var atšķirties atkarībā no metodes, ko izmantojat automātiskajai nosegšanai. Pieejamas šādas metodes.
 

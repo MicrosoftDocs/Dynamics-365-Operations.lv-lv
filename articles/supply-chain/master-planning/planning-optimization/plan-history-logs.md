@@ -1,8 +1,8 @@
 ---
 title: Skatīt plāna vēstures un plānošanas žurnālus
-description: Šajā tēmā skaidrots, kā apskatīt plānošanas darbu vēsturi, ko aktivizē plānošanas optimizācijas funkcionalitāte.
+description: Šajā rakstā ir izskaidrots, kā skatīt plānošanas darbu vēsturi, kas ir izraisīta ar plānošanas optimizācijas funkcionalitāti.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863945"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Skatīt plāna vēstures un plānošanas žurnālus
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā apskatīt plānošanas darbu vēsturi, ko aktivizē plānošanas optimizācijas funkcionalitāte Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir izskaidrots, kā skatīt plānošanas darbu vēsturi, kas ir izraisīta ar Microsoft plānošanas optimizācijas funkcionalitāti Dynamics 365 Supply Chain Management.
 
 Lai skatītu plāna vēsturi, atveriet plānu, pārejot uz **Vispārējā plānošana** \> **Iestatījumi** \> **Plāni** \> **Vispārējie plāni** un atlasot **Vēsture**. Vēsturē ir uzskaitīti visi darbi atlasītajam plānam. Sarakstā ir ietverti pabeigtie un aktīvie darbi.
 
-Plānošanas optimizācijas vispārējās plānošanas palaišanas izpildes darbu vēsture glabā tikai 60 ierakstus katrā vispārējā plānā. Ikreiz, kad palaižat jaunu vispārējās plānošanas aprēķinu, šī plāna agrākais vēstures ieraksts tiek dzēsts.
+Sistēmā tiek glabāti maksimāli 60 vēstures ieraksti uz vienu vispārējo plānu un dzēsti ieraksti, kas vecāki par 30 dienām. Katru reizi, palaižot jaunu vispārējās plānošanas aprēķinu, sistēma pievieno jaunu vēstures ierakstu un pēc tam notīra vecākos ierakstus pēc nepieciešamības.
 
 Papildus tam, lai redzētu darbu sākšanas laiku un statusu, varat skatīt žurnālu konkrētam darbam. Žurnālā ir ietverta papildu informācija un brīdinājumi. Ne visiem darbiem ir žurnāls. Lai skatītu darbu žurnālu, atlasiet **Žurnāls**. Žurnāla ieraksti tiek glabāti tikai 30 dienas pēc darba pabeigšanas datuma, pēc tam tie tiek automātiski izdzēsti.
 

@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra kanālu iestatīšana
-description: Šajā tēmā ir sniegta informācija par to, kā apstrādāt zvanu centru pasūtījumus, izmantojot Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegta informācija par to, kā apstrādāt zvanu centra pasūtījumus, izmantojot Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854875"
 ---
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
@@ -58,7 +58,7 @@ Turklāt, ja ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, k
 Pat tad, ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir izslēgts, lietotāji pārdošanas pasūtījumam joprojām var lietot pirmkodu. Taču viņiem vispirms ir jāatver pārdošanas pasūtījuma virsraksta detalizētā informācija, lai piekļūtu laukam **Avots**. Citiem vārdiem sakot, ir jāveic daži papildu klikšķi. Tāda pati uzvedība attiecas uz tādiem līdzekļiem kā nosūtīšanas pabeigšana un paātrinātās izpildes pasūtījumi. Šie līdzekļi ir pieejami visiem pasūtījumiem, kas ir izveidoti šajā zvanu centrā. Taču, kad ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, lietotāji var redzēt šo līdzekļu konfigurāciju pārdošanas virsrakstā, kamēr ir ieslēgts rindas ieraksta skats. Viņiem nav nepieciešams detalizēti meklēt pārdošanas pasūtījuma virsraksta informācijā, lai atrastu atbilstošos iestatījumus un laukus.
 
 > [!NOTE]
-> Kad **Daudzkanālu tirdzniecības pasūtījumu maksājumi** funkcija ir iespējota, zvanu centrs **Iespējot pasūtījuma pabeigšanu** poga tiks paslēpta galvenajā mītnē uz **Ģenerālis** Jūsu kanāla FastTab vietnē **Mazumtirdzniecība un tirdzniecība \> Kanāli \> Zvanu centri**.
+> **Kad Ir iespējota Izsekošanas kanāla Commerce** pasūtījumu maksājumu funkcija, **·** **·** **zvanu centra poga Iespējot pasūtījuma pabeigšanu tiks paslēpta jūsu kanāla Kopsavilkuma cilnes Vispārīgi kopsavilkuma cilnē Mazumtirdzniecības un Commerce \> Channel \> Call Center.**
 
 ### <a name="enable-direct-selling"></a>Iespējot tiešo pārdošanu
 
@@ -77,7 +77,7 @@ Kad definējat zvanu centra kanālu, jums ir jāsaista kanāla lietotāji ar šo
 Pārdošanas pasūtījuma virsrakstā karodziņš **Pārdošana** pēc noklusējuma tiek ieslēgts visiem pasūtījumiem, ko izveido zvanu centra lietotāji. Pēc tam pasūtījumos var izmantot sistēmai noteiktos cenu un veicināšanas līdzekļus.
 
 
-Lietotāji, kas nav saistīti ar zvanu centra kanālu, izmantot Microsoft Dynamics 365 Finance standarta pasūtījuma izveides līdzekļus. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Commerce pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
+Lietotāji, kas nav saistīti ar zvanu centra kanālu, izmanto Microsoft Dynamics 365 Finanses standarta pasūtījuma ieraksta funkcijas. Pasūtījumi, ko šie lietotāji ievada, izmantojot pārdošanas pasūtījuma izveides formu, netiek sistemātiski identificēti kā Commerce pasūtījumi. Turklāt šie lietotāju ievadītie pasūtījumi netiek pakļauti nekādām pasūtījumu pabeigšanas apstrādes kārtulām, cenu noteikšanas loģikai vai citām pasūtījumu validācijām, kuras var definēt zvanu centra kanāla konfigurācijā vai zvanu centra sistēmas parametros.
 
 Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotājus, lai palīdzētu garantēt vēlamo sistēmas uzvedību, pārliecinieties, vai ir definēti visi nepieciešamie zvanu centra parametri sadaļā **Retail and Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri**. Pārliecinieties, vai ir norādītas arī saistītās numuru sērijas.
 

@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876478"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Esošu darbinieku pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šajā tēmā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem.  
+> Šajā rakstā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem.  
 
 
 Dažreiz atvērtie amati var tikt aizpildīti ar kandidātiem, kas jau ir darbinieki jūsu organizācijā. Šajā procedūrā parādīts, kā veikt darbā pieņemšanas procesu esošajam darbiniekam. Šajā procedūrā personāla atlases projekts jau ir iestatīts, un pašreizējais darbinieks jau ir iesniedzis pieteikumu personāla atlases projektam. USMF **demonstrācijas** datu uzņēmums tika izmantots šīs procedūras veidojiet.

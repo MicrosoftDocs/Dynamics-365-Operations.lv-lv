@@ -1,6 +1,6 @@
 ---
 title: ER funkciju saraksts matemātikas kategorijā
-description: Šajā tēmā ir sniegta informācija par matemātikas funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
+description: Šajā rakstā sniegta informācija par matemātiskām funkcijām, kas tiek atbalstītas Elektronisko pārskatu (ER).
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2788ba22a7fffe24f349f9b78f9221e423ae90976309ca6017fbe6fade500f67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3e657d2684ce97bb3bd5885ec02436e47723ae6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894387"
 ---
 # <a name="list-of-er-functions-in-the-mathematical-category"></a>ER funkciju saraksts matemātikas kategorijā
 
 [!include [banner](../includes/banner.md)]
 
-Elektronisko pārskatu (ER) matemātiskās funkcijas var izmantot, lai veiktu daudzus vispārējus matemātiskos aprēķinus. Šajā tēmā ir sniegts šo funkciju kopsavilkums.
+Elektronisko pārskatu (ER) matemātiskās funkcijas var izmantot, lai veiktu daudzus vispārējus matemātiskos aprēķinus. Šajā rakstā ir sniegts šo funkciju kopsavilkums.
 
 ## <a name="list-of-supported-functions"></a>Atbalstīto funkciju saraksts
 

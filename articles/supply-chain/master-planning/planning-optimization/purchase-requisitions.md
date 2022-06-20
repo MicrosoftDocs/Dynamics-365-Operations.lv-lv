@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pieprasījumi
-description: Šajā tēmā ir aprakstīts, kā plānošanas optimizācijā tiek atbalstīti pirkšanas pieprasījumi.
+description: Šajā rakstā ir aprakstīts, kā plānošanas optimizācijā tiek atbalstīti pirkšanas pieprasījumi.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 0328342fbe322225a5ecb095d3b0165caa6d18d3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867903"
 ---
 # <a name="purchase-requisitions"></a>Pirkšanas pieprasījumi
 

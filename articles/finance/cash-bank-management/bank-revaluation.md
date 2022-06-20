@@ -1,6 +1,6 @@
 ---
 title: Bankas ārvalstu valūtas pārvērtēšana
-description: Šajā tēmā ir sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir ietverta informācija par iestatīšanu, procesa izpildi, procesa aprēķināšanu un pārvērtēšanas darbību anulēšanu.
+description: Šajā rakstā sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir ietverta informācija par iestatīšanu, procesa izpildi, procesa aprēķināšanu un pārvērtēšanas darbību anulēšanu.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863106"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Bankas ārvalstu valūtas pārvērtēšana
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā ir sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir izskaidrots, kā iestatīt un izpildīt procesu, un sniegta informācija par procesa aprēķināšanu. Tajā arī izskaidrots, kā anulēt pārvērtēšanas transakcijas, ja anulēšana ir nepieciešama.
+Šajā rakstā sniegts pārskats par bankas ārvalstu valūtas pārvērtēšanas procesu. Tajā ir izskaidrots, kā iestatīt un izpildīt procesu, un sniegta informācija par procesa aprēķināšanu. Tajā arī izskaidrots, kā anulēt pārvērtēšanas transakcijas, ja anulēšana ir nepieciešama.
 
 Kā daļu no perioda beigām grāmatvedības metodes nosaka, ka bankas kontu bilances, kas ir ārvalstu valūtās, ir nepieciešams pārvērtēt, izmantojot dažādus valūtas maiņas kursa tipus (pašreizējo, vēsturisko, vidējo un citus). Bankas ārvalstu valūtas pārvērtēšanas līdzekli var izmantot, lai pārvērtētu vienu vai vairākus bankas kontus. Šis līdzeklis ir arī globāls līdzeklis. Tādēļ vienā lapā varat pārvērtēt visu to juridisko personu bankas, kurām jums ir piekļuve.
 

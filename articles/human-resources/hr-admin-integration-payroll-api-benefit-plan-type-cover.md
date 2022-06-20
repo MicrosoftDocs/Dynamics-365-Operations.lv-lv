@@ -1,6 +1,6 @@
 ---
 title: Atvieglojumu plāna tipa segums
-description: Šajā tēmā aprakstīta opcija Atvieglojumu plāna tipa segums, kas iestatīta programmai Dynamics 365 Human Resources .
+description: Šajā rakstā ir aprakstīta Atvieglojumu plāna tipa seguma opcija, kas iestatīta Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 07/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31ed22a56c0f15c7df3d372faf871cf3c3d9fdeb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 57e7de7e9893430abc92b2814623baba718301b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859581"
 ---
 # <a name="benefit-plan-type-cover"></a>Atvieglojumu plāna tipa segums
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068538"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīta opcija Atvieglojumu plāna tipa segums, kas iestatīta programmai Dynamics 365 Human Resources .
+Šajā rakstā ir aprakstīta atvieglojumu plāna tipa seguma opcija, kas iestatīta Dynamics 365 Human Resources.
 
 ## <a name="option-set-process-type"></a>Opciju kopa: Procesa tips
 

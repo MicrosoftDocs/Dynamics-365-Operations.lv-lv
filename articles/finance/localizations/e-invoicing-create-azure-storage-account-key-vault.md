@@ -1,6 +1,6 @@
 ---
 title: Izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu
-description: Šajā tēmā ir paskaidrots, kā izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu.
+description: Šajā rakstā ir izskaidrots, kā izveidot Azure glabāšanas kontu un atslēgas krātuvi.
 author: gionoder
 ms.date: 08/17/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: ae2f21e959e35690ca3d8bd09059cfbf679ab842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907766"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu
 
@@ -28,14 +28,14 @@ ms.locfileid: "7463861"
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās, ka tālāk norādītie uzdevumi tika izpildīti.
+Pirms izpildīsiet šajā rakstā norādītās darbības, jums jānodrošina, lai būtu pabeigti sekojuši uzdevumi:
 
 - Galvenās akreditācijas datu glabātavas resursa veidošana risinājumā Azure. Plašāku informāciju skatiet sadaļā [Par Azure Key Vault](/azure/key-vault/general/overview).
 - Izveidot Azure krātuves kontu (BLOB Storage). Papildinformāciju skatiet šeit: [Azure krātuves konta uzturēšana](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Pārskats
 
-Šajā tēmā jūs veiksiet divas galvenās darbības:
+Šajā rakstā izpildīsiet divas galvenās darbības:
 
 - Iestatiet Azure krātuves kontu, lai iegūtu krātuves konta URI.
 - Iestatiet galveno akreditācijas datu glabātavu, lai saglabātu krātuves konta URI.

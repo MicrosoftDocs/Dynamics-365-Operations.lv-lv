@@ -1,6 +1,6 @@
 ---
 title: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
-description: Šajā tēmā ir izskaidrots, kā iestatīt vienkāršu atrašanās vietas direktīvu.
+description: Šajā rakstā skaidrots, kā iestatīt vienkāršu novietojuma direktīvu.
 author: Weijiesa
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2275b2fd70e246955054930b13f29a6c0b287363
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873497"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā iestatīt vienkāršu atrašanās vietas direktīvu. Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros. Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF. Priekšnosacījumi: ir jāizveido atgriešanas metodes kods. Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes. Ja veidojat novietojuma direktīvu savos datos, jums jāiestata savai noliktavai un krājumiem papildu noliktavas pārvaldība. Šī procedūra ir paredzēta noliktavas pārvaldniekam.
+Šajā rakstā skaidrots, kā iestatīt vienkāršu novietojuma direktīvu. Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros. Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF. Priekšnosacījumi: ir jāizveido atgriešanas metodes kods. Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes. Ja veidojat novietojuma direktīvu savos datos, jums jāiestata savai noliktavai un krājumiem papildu noliktavas pārvaldība. Šī procedūra ir paredzēta noliktavas pārvaldniekam.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Noliktavas pārvaldība > Iestatīšana > Atrašanās vietas direktīvas**.
 2. Laukā **Darba pasūtījuma veids** atlasiet **Pirkuma pasūtījumi**.

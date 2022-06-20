@@ -1,6 +1,6 @@
 ---
 title: Commerce katalogu izveide B2B vietnēm
-description: Šajā tēmā ir aprakstīts, kā izveidot Commerce katalogus "bizness-biznesam Microsoft Dynamics 365 Commerce " (B2B).
+description: Šajā rakstā ir aprakstīts, kā izveidot Commerce katalogus "bizness-biznesam Microsoft Dynamics 365 Commerce " (B2B).
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
-ms.translationtype: MT
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848993"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Commerce katalogu izveide B2B vietnēm
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot Commerce preču katalogus Microsoft Dynamics 365 Commerce "bizness-biznesam" (B2B). Atbildes uz bieži uzdotiem jautājumiem par Commerce katalogiem B2B vietnēm skatiet Commerce [katalogos, kas paredzēts B2B FAQ](catalogs-b2b-sites-FAQ.md).
+Šajā rakstā ir aprakstīts, kā izveidot Commerce preču katalogus Microsoft Dynamics 365 Commerce "bizness-biznesam" (B2B). Atbildes uz bieži uzdotiem jautājumiem par Commerce katalogiem B2B vietnēm skatiet Commerce [katalogos, kas paredzēts B2B FAQ](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Šī tēma attiecas uz Dynamics 365 Commerce versiju 10.0.27 un vēlākiem laidieniem.
+> Šis raksts attiecas uz Dynamics 365 Commerce versiju 10.0.27 un vēlākiem laidieniem.
 
 Varat izmantot Commerce katalogus, lai identificētu preces, ko vēlaties piedāvāt savā B2B tiešsaistes veikalos. Izveidojot katalogu, jūs identificējiet tiešsaistes veikalus, kuros preces tiek piedāvātas, pievienojiet preces, kuras vēlaties iekļaut, un pastipriniet preču piedāvājumus, pievienojot detalizētu informāciju par preču mazumtirdzniecību. Katram B2B tiešsaistes veikalam var izveidot vairākus katalogus.
 

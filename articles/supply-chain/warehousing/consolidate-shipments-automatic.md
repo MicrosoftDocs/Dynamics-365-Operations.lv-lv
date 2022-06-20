@@ -1,6 +1,6 @@
 ---
 title: Konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu
-description: Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā tajā pašā automatizētajā, periodiskajā izdošanas-nodošanas procedūrā.
+description: Šajā rakstā ir scenārijs, kurā vairāki pasūtījumi ir izlaisti nosūtīšanai uz noliktavu vienā automatizētā periodiskā procedūrā nosūtīšanai uz noliktavu.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 74d4d9d8429095c3fac80db58f14ac2ef0776798
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875077"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā tajā pašā automatizētajā, periodiskajā izdošanas-nodošanas procedūrā. Pasūtījumi automātiski tiks konsolidēti sūtījumos, pamatojoties uz noteikumiem, kas definēti kā piegādes konsolidācijas politikas.
+Šajā rakstā ir scenārijs, kurā vairāki pasūtījumi ir izlaisti nosūtīšanai uz noliktavu vienā automatizētā periodiskā procedūrā nosūtīšanai uz noliktavu. Pasūtījumi automātiski tiks konsolidēti sūtījumos, pamatojoties uz noteikumiem, kas definēti kā piegādes konsolidācijas politikas.
 
 Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopas un izlaidīsiet katru kopu noliktavā. Pēc tam jūs pārskatīsiet sūtījumus, kas izveidoti vai atjaunināti sūtījuma konsolidācijas laikā, pamatojoties uz konfigurētajām politikām.
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
+Šī raksta scenārijā ir atsauces uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti korporācijai Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 

@@ -1,6 +1,6 @@
 ---
-title: Finanšu pārskatu skatīšana
-description: Šajā tēmā aprakstīts, kā skatīt un apskatīt finanšu pārskatus Microsoft Dynamics 365 Finansēs. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
+title: Skatīt finanšu pārskatus
+description: Šajā rakstā ir aprakstīts, kā skatīt un apskatīt finanšu pārskatus Microsoft Dynamics 365 Finansēs. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907897"
 ---
-# <a name="view-financial-reports"></a>Finanšu pārskatu skatīšana
+# <a name="view-financial-reports"></a>Skatīt finanšu pārskatus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
+Šajā rakstā ir aprakstīts, kā skatīt un apskatīt finanšu pārskatus. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
 ## <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 

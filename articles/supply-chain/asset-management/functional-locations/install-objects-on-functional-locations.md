@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu uzstādīšana funkcionālajos novietojumos
-description: Šajā tēmā izskaidrots, kā uzstādīt līdzekļus funkcionālajos novietojumos Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā instalēt līdzekļus funkcionālās vietās Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894506"
 ---
 # <a name="install-assets-on-functional-locations"></a>Līdzekļu uzstādīšana funkcionālajos novietojumos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775751"
 
  
 
-Pēc funkcionālo novietojumu struktūru izveidošanas nākamā darbība ir uzstādīt līdzekļus attiecīgajos funkcionālajos novietojumos. Šajā tēmā izskaidrots, kā uzstādīt līdzekļus šajos funkcionālajos novietojumos Līdzekļu pārvaldībā. Papildinformāciju par līdzekļu izveidi skatiet sadaļā [Ievads līdzekļos](../objects/introduction-to-objects.md).
+Pēc funkcionālo novietojumu struktūru izveidošanas nākamā darbība ir uzstādīt līdzekļus attiecīgajos funkcionālajos novietojumos. Šajā rakstā skaidrots, kā instalēt līdzekļus šajās funkcionālos vietās Asset Management. Papildinformāciju par līdzekļu izveidi skatiet sadaļā [Ievads līdzekļos](../objects/introduction-to-objects.md).
 
 Ja esat izveidojis līdzekļu struktūru, visai līdzekļu struktūrai jābūt instalētai funkcionālajā novietojumā. Tāpēc funkcionālajā novietojumā var atlasīt tikai primāros līdzekļus (augstākā līmeņa līdzekļus, kuriem nav primārā līdzekļa). Arī visi saistītie sekundārie līdzekļi (pakārtotie aktīvi) tiks instalēti funkcionālajā novietojumā. Kad esat uzstādījis līdzekļus funkcionālajā novietojumā, funkcionālā novietojuma finanšu dimensijas var tikt automātiski pārsūtītas uz tiem atkarībā no iestatījumiem funkcionālā novietojuma veidā, kas ir atlasīts funkcionālajam novietojumam. Papildinformāciju par funkcionālo novietojumu veidu iestatīšanu skatiet sadaļā [Funkcionālo novietojumu veidi](../setup-for-functional-locations/functional-location-types.md).
 

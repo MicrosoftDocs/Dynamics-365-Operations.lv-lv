@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce novērtēšanas vides nodrošinājums
-description: Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
+description: Šajā rakstā ir izskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 author: psimolin
 ms.date: 12/17/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868913"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides nodrošinājums
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
+Šajā rakstā ir izskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 
-Pirms sākat, iesakām ātri iziet caur šai tēmai, lai iegūtu priekšstatu par to, kas ir nepieciešams procesam.
+Pirms sākat, ir ieteicams ātri skenēt šo rakstu, lai iegūtu procesam vajadzīgo priekšstatu.
 
 > [!NOTE]
 > Commerce novērtējuma vides nav vispārpieejamas, un tās tiek piešķirtas partneriem un klientiem pēc pieprasījuma. Lai iegūtu plašāku informāciju, sazinieties ar sava Microsoft partnera kontaktpersonu.
 
-Lai veiksmīgi nodrošinātu Commerce novērtējuma vidi, ir jāizveido projekts ar noteiktu preces nosaukumu un veidu. Videi un Commerce Scale Unit (CSU) arī ir daži specifiski parametri, kas jāizmanto, vēloties nodrošināt e-tirdzniecību. Šajā tēmā sniegtās instrukcijas apraksta visas nepieciešamās darbības, lai pabeigtu nodrošināšanu, un parametrus, kas jāizmanto.
+Lai veiksmīgi nodrošinātu Commerce novērtējuma vidi, ir jāizveido projekts ar noteiktu preces nosaukumu un veidu. Videi un Commerce Scale Unit (CSU) arī ir daži specifiski parametri, kas jāizmanto, vēloties nodrošināt e-tirdzniecību. Šajā rakstā sniegtās instrukcijas apraksta visus soļus, kas ir nepieciešami nodrošinājuma pabeigšanai, kā arī parametrus, kas jums ir jāizmanto.
 
 Pēc veiksmīgas Commerce novērtējuma vides nodrošināšanas ir jāpabeidz dažas pēc nodrošināšanas darbības, lai to sagatavotu izmantošanai. Dažas darbības nav obligātas, atkarībā no sistēmas aspektiem, ko vēlaties novērtēt. Pēc izvēles veicamās darbības vienmēr varat pabeigt vēlāk.
 

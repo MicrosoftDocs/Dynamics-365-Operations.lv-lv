@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859522"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Paplašināšana ar Power Apps un Power Automate
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689499"
 Šajā tēmā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Human Resources, kuros tiek izmantota programmatūra Microsoft Power Apps un Microsoft Power Automate. Varat importēt ar katru piemēru saistīto risinājumu pakotni savā Power Apps vidē. Pēc tam varat izmantot pakotnes kā vadlīnijas vai kā sākumpunktu, lai īstenotu scenārijus, kas attiecas uz jūsu organizāciju.
 
 > [!IMPORTANT]
-> Ja vēlaties izmantot šajā tēmā aprakstītās veidnes un programmas nemainītā veidā, pārbaudiet tās un pārliecinieties, ka tās aptver visus scenārijus, kas raksturīgi jūsu ieviešanai.
+> Ja vēlaties izmantot šajā rakstā aprakstītās veidnes un programmas "tāds, kāds tas ir", pārbaudiet tās, lai pārliecinātos, vai tās ir segtas visos scenārijos, kas ir specifiski jūsu ieviešanai.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

@@ -1,6 +1,6 @@
 ---
 title: Rēķina apstrāde
-description: Šajā tēmā ir sniegta informācija par rēķinu apstrādāšanu Austrumeiropas valstīm.
+description: Šajā rakstā ir sniegta informācija par rēķinu apstrādi Austrumeiropai.
 author: EvgenyPopovMBS
 ms.date: 02/02/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: edb50ddebeca18653a318596e9c291a3f3df6d9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848447"
 ---
 # <a name="invoice-processing"></a>Rēķina apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir īsi aprakstīti daži valstij specifiskie scenāriji, piemēram, Eiropas Kopienas iekšējais pievienotās vērtības nodoklis (PVN) un atliktais nodoklis. Rēķinu izrakstīšanas procesu ietekmē dažās Eiropas valstīs pastāvošās juridiskās prasības. Šajā tēmā ir sniegta arī informācija par to, kā šīm valstīm tiek apstrādāti debitoru un kreditoru rēķini. 
+Šajā rakstā īsi aprakstīti daži valstij raksturīgi scenāriji, piemēram, kopienas iekšējais pievienotās vērtības nodoklis (PVN) un atliktais nodoklis. Rēķinu izrakstīšanas procesu ietekmē dažās Eiropas valstīs pastāvošās juridiskās prasības. Šajā rakstā ir arī sniegta informācija par to, kā debitoru un kreditoru rēķini tiek apstrādāti šīm valstīm. 
 <table>
 <thead>
 <tr>
@@ -70,7 +70,7 @@ ms.locfileid: "8087818"
 <p>Likumdošana paredz atšķirīgus noteikumus komercdarbības transakciju derīgu valūtas maiņas kursu atlasīšanai. Laukā <strong>Maiņas kursa datums</strong> lapā <strong>Debitoru parādu parametri</strong> un <strong>Parādu kreditoriem parametri</strong> varat atlasīt datumu, kas pirkumu un pārdošanas dokumentiem ir jāizmanto summām uzskaites valūtas aprēķinā. Datu ievadīšanas laikā sistēma izgūst transakcijas valūtas maiņas kursu, pamatojoties uz šo parametru.</p>
 <blockquote>[!NOTE]<br>Itālijai šī funkcionalitāte attiecas tikai uz Kreditoru moduli. Kreditoru parametros lietotājs var atlasīt <strong>Grāmatošanas datums</strong> vai <strong>Dokumenta datums</strong> laukā <strong>Maiņas kursa datums</strong>.   </blockquote>
 <blockquote><br>Ja lauku <strong>Maiņas kursa datums</strong> iestatāt uz <strong>Dokumenta datums (tikai ES tirdzniecība)</strong>, tad sistēma izmanto PVN grupu. PVN grupai cilnē <strong>Vispārīgi</strong> pastāv parametrs <strong>ES tirdzniecība</strong>. Ja opcija <strong>ES tirdzniecība</strong> PVN grupai ir pārslēgta uz <strong>Jā</strong> un ja šī PVN grupa pastāv dokumenta virsrakstā, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta datumu. Ja opcija <strong>ES tirdzniecība</strong> šai PVN grupai ir iestatīta uz <strong>Nē</strong>, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta grāmatošanas datumu.</blockquote>
-  <blockquote><br>Polijai, in<strong>Debitoru parādi</strong> modulis, papildu<strong>Automātiska datuma noteikšana</strong> šī parametra vērtība ir pieejama. Kad tas ir atlasīts, sistēma automātiski atlasa agrāko datumu no rēķina grāmatošanas datuma, pārdošanas datuma un maksājuma datumiem.</blockquote>
+  <blockquote><br>Polijai Debitoru modulī <strong>ir</strong> pieejama papildu <strong>automātiskā datuma noteikšanas</strong> vērtība šim parametram. Kad izvēlēts, sistēma automātiski atlasa agrāko datumu no rēķina grāmatošanas datuma, pārdošanas datuma un maksājuma datumiem.</blockquote>
 </td>
 </tr>
 <tr>

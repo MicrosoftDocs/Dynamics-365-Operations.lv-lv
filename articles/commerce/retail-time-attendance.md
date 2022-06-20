@@ -1,6 +1,6 @@
 ---
 title: Laika un apmeklētības pārvaldība programmā Retail
-description: Šajā tēmā ir aprakstīti scenāriji, kas tiek atbalstīti laika un apmeklētības pārvaldībai programmā Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīti scenāriji, kas tiek atbalstīti laika un apmeklētības pārvaldībai sadaļā Dynamics 365 Commerce.
 author: aamirallaqaband
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75c09d9e98a08bec0697b0b522ba6e647d35b140
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855732"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Laika un apmeklētības pārvaldība programmā Retail
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīti scenāriji, kas tiek atbalstīti laika un apmeklētības pārvaldībai programmā Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīti scenāriji, kas tiek atbalstīti laika un apmeklētības pārvaldībai sadaļā Dynamics 365 Commerce.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Darbinieku iestatījumu un plānošanas pārvaldība
 

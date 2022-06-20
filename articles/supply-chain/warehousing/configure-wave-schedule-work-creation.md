@@ -1,6 +1,6 @@
 ---
 title: Plānot darba izveidi kopuma laikā
-description: Šajā tēmā ir aprakstīts, kā iestatīt un izmantot grafika darba izveides kopuma apstrādes metodi.
+description: Šajā rakstā ir aprakstīts, kā iestatīt un izmantot grafika darba izveides kopuma apstrādes metodi.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852075"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Plānot darba izveidi kopuma laikā
 
@@ -30,7 +30,7 @@ Kad funkcionalitāte ir aktivizēta, plānotais darbs tiks izveidots automātisk
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Ieslēgt ieplānotos darba izveides līdzekļus līdzekļu pārvaldībā
 
-Lai izmantotu šajā tēmā aprakstītos līdzekļus, tie sistēmai ir jāieslēdz. Izmantojiet [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu tālāk norādītos līdzekļus šādā secībā:
+Lai izmantotu šajā rakstā aprakstītos līdzekļus, tie sistēmai ir jāieslēdz. Izmantojiet [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu tālāk norādītos līdzekļus šādā secībā:
 
 1. **Organizācijas darba bloķēšana** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
 1. **Plānošanas darba izveide** - nepieciešama gan manuālai, gan automātiskai ieplānotā darba izveidošanai.

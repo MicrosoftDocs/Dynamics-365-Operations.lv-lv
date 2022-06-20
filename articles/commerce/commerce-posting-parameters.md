@@ -1,6 +1,6 @@
 ---
 title: Commerce grāmatošanas parametri
-description: Šajā tēmā aprakstīti parametri, kas raksturīgi finanšu un fizisko darbību grāmatošanai Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā aprakstīti parametri, kas raksturīgi finanšu un fizisko darbību grāmatošanai Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: MT
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887118"
 ---
 # <a name="commerce-posting-parameters"></a>Commerce grāmatošanas parametri
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā aprakstīti parametri, kas raksturīgi finanšu un fizisko darbību grāmatošanai Microsoft Dynamics 365 Commerce. Commerce grāmatošanas parametri atrodas commerce headquarters, kas atrodas **Retail un Commerce \> Headquarters iestatīšanas \> Parametru \> Commerce parametru grāmatošanā \>**.
+Šajā rakstā aprakstīti parametri, kas raksturīgi finanšu un fizisko darbību grāmatošanai Microsoft Dynamics 365 Commerce. Commerce grāmatošanas parametri atrodas commerce headquarters, kas atrodas **Retail un Commerce \> Headquarters iestatīšanas \> Parametru \> Commerce parametru grāmatošanā \>**.
 
 ## <a name="periodic-discount-parameters"></a>Periodiskās atlaides parametri
 
@@ -103,4 +103,4 @@ Tabulā uzskaitītas iepriekšējās tabulas parametru ieteicamās vērtības. �
 | Deaktivizēt noapaļošanas starpības grāmatošanu | Šis parametrs atspējo noapaļošanas starpības grāmatošanu starp darbības maksājumu un bruto summu maksājumu apstrādes laikā. |
 | Automātiski nokārtot klientu noguldījumus | Ja šis parametrs ir iespējots, debitoru depozīti, kas tiek grāmatoti mazumtirdzniecības izraksta grāmatošanas laikā, tiek nosegti ar debitora atvērtajām transakcijām. |
 | Iespējot un izmantot kases pārvaldības saskaņošanu no POS | Ja šis parametrs ir iespējots, sistēmā POS tiek veikta kases pārvaldības saskaņošana, un, lai izveidotu izrakstu rindas, vērtības tiek nodotas mazumtirdzniecības finanšu pārskata grāmatošanai. |
-| Virsgrāmatas dokumenta detaļu līmenis | Šis parametrs nosaka detalizētības līmeni, kas virsgrāmatas dokumentā ir iekļauts atlasītajām darbībām, kas radušās no POS. Darbību tipos ietilpst ienākumi, izdevumi un atlaides. Atlaidēm šis parametrs tiek ņemts vērā tikai tad, ja konta numurs periodiskai atlaidei un konta numurs parastai atlaidei nav vienādi. Ja vien nav nepieciešama detalizēta informācija **,** kopsavilkums ir šo grāmatojumu ieteicamā vērtība. Ja ir definēta kopsavilkuma līmeņa grāmatošana, **transactionDiscountTrans.RecID** netiks aizpildīts. Commerce 10.0.27 versijas laidienā šis karodziņš tika pārdēvēts un pārvietots. Tā iepriekš tika nosaukts **kā Detalizācijas** līmenis un bija krājumu **atjaunināšanas** sadaļā. |
+| Virsgrāmatas dokumenta summas detalizācijas līmenis | Šis parametrs nosaka detalizētības līmeni, kas virsgrāmatas dokumentā ir iekļauts atlasītajām darbībām, kas radušās no POS. Darbību tipos ietilpst ienākumi, izdevumi un atlaides. Atlaidēm šis parametrs tiek ņemts vērā tikai tad, ja konta numurs periodiskai atlaidei un konta numurs parastai atlaidei nav vienādi. Ja vien nav nepieciešama detalizēta informācija **,** kopsavilkums ir šo grāmatojumu ieteicamā vērtība. Ja ir definēta kopsavilkuma līmeņa grāmatošana, **transactionDiscountTrans.RecID** netiks aizpildīts. Commerce 10.0.27 versijas laidienā šis karodziņš tika pārdēvēts un pārvietots. Tā iepriekš tika nosaukts **kā Detalizācijas** līmenis un bija krājumu **atjaunināšanas** sadaļā. |

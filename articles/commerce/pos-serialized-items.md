@@ -1,6 +1,6 @@
 ---
 title: Darbs ar sērijas krājumiem punktā POS
-description: Šajā tēmā skaidrots, kā pārvaldīt sērijas krājumus pārdošanas punkta (POS) lietojumprogrammā.
+description: Šajā rakstā ir izskaidrots, kā pārvaldīt serializētos krājumus pārdošanas punkta (POS) programmā.
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880033"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Darbs ar sērijas krājumiem punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Daudzi mazumtirgotāji pārdod preces, kurām nepieciešama sērijas kontrole. Šīs preces tiek sauktas par *sērijas krājumiem*. Daži mazumtirgotāji var vēlēties saglabāt sērijas numurus krātuves vai noliktavas krājumā izsekošanas nolūkiem. Citi mazumtirgotāji pārdošanas procesa laikā var vēlēties iegūt sērijas numurus pakalpojumu un garantijas nolūkiem. Šajā tēmā skaidrots, kā jūs varat pārvaldīt sērijas krājumus Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) lietojumprogrammā.
+Daudzi mazumtirgotāji pārdod preces, kurām nepieciešama sērijas kontrole. Šīs preces tiek sauktas par *sērijas krājumiem*. Daži mazumtirgotāji var vēlēties saglabāt sērijas numurus krātuves vai noliktavas krājumā izsekošanas nolūkiem. Citi mazumtirgotāji pārdošanas procesa laikā var vēlēties iegūt sērijas numurus pakalpojumu un garantijas nolūkiem. Šajā rakstā ir izskaidrots, kā var pārvaldīt serializētus Microsoft Dynamics 365 Commerce krājumus pārdošanas punkta (POS) programmā.
 
 ## <a name="serial-number-configurations"></a>Sērijas numura konfigurācijas
 
@@ -124,7 +124,7 @@ Sērijas krājumiem, kas pārdoti turpmākai izdošanai vai nosūtīšanai, POS 
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Sērijas numuru pielietošana klienta pasūtījumu izpildes vai izdošanas laikā
 
-Izpildot klientu pasūtījumu rindas sērijas precēm, izmantojot POS operāciju **Pasūtījuma izpilde**, POS sērijas numuru saņem pirms galīgās izpildes. Tāpēc, ja sākotnēji pasūtījuma saņemšanas laikā netika norādīts sērijas numurs, tas ir jāiegūst POS izdošanas, iepakošanas vai nosūtīšanas procesu laikā. Katrā darbībā tiek veikta validācija, un lietotājam tiks prasīts sērijas numurs tikai tad, ja tas trūkst vai tas vairs nav derīgs. Piemēram, ja lietotājs izlaiž izdošanu vai iepakošanas darbības un uzreiz uzsāk nosūtīšanu, bet sērijas numurs rindai nav reģistrēts, POS pieprasīs ievadīt sērijas numuru pirms pēdējās rēķina darbības pabeigšanas. Piemērojot sērijas numura saņemšanu, pasūtījuma operāciju izpildes laikā programmā POS, joprojām ir spēkā visi šajā tēmā iepriekš minētie noteikumi. Sērijas numura krājumu validācija attiecas tikai uz sērijas krājumiem, kas ir konfigurēti kā **Aktīvi**. Krājumi, kas ir konfigurēti kā **Aktīvi pārdošanas procesā** netiks validēti. Ja **Aktīvām** precēm ir atļauti **Negatīvi fiziskie krājumi**, tiks pieņemts jebkurš sērijas numurs neatkarīgi no krājumu pieejamības. Izdošanas, iepakošanas un nosūtīšanas darbību laikā, lietotājs var atstāt sērijas numuru lauku tukšu pēc nepieciešamības, gan **Aktīvi**, gan **Aktīvi pārdošanas procesā** krājumiem, ja ir konfigurēts **Tukša izejas plūsma atļauta**.
+Izpildot klientu pasūtījumu rindas sērijas precēm, izmantojot POS operāciju **Pasūtījuma izpilde**, POS sērijas numuru saņem pirms galīgās izpildes. Tāpēc, ja sākotnēji pasūtījuma saņemšanas laikā netika norādīts sērijas numurs, tas ir jāiegūst POS izdošanas, iepakošanas vai nosūtīšanas procesu laikā. Katrā darbībā tiek veikta validācija, un lietotājam tiks prasīts sērijas numurs tikai tad, ja tas trūkst vai tas vairs nav derīgs. Piemēram, ja lietotājs izlaiž izdošanu vai iepakošanas darbības un uzreiz uzsāk nosūtīšanu, bet sērijas numurs rindai nav reģistrēts, POS pieprasīs ievadīt sērijas numuru pirms pēdējās rēķina darbības pabeigšanas. Izpildot SĒRIJAS numura tveršanu POS pasūtījuma izpildes operāciju laikā, joprojām ir spēkā visi šajā rakstā iepriekš minētie noteikumi. Sērijas numura krājumu validācija attiecas tikai uz sērijas krājumiem, kas ir konfigurēti kā **Aktīvi**. Krājumi, kas ir konfigurēti kā **Aktīvi pārdošanas procesā** netiks validēti. Ja **Aktīvām** precēm ir atļauti **Negatīvi fiziskie krājumi**, tiks pieņemts jebkurš sērijas numurs neatkarīgi no krājumu pieejamības. Izdošanas, iepakošanas un nosūtīšanas darbību laikā, lietotājs var atstāt sērijas numuru lauku tukšu pēc nepieciešamības, gan **Aktīvi**, gan **Aktīvi pārdošanas procesā** krājumiem, ja ir konfigurēts **Tukša izejas plūsma atļauta**.
 
 Sērijas numuru validācija tiks veikta arī tad, kad lietotājs veic klienta pasūtījumu izdošanu operācijām programmā POS. POS lietojumprogramma neļauj izdot sērijas preci, ja tā nav izturējusi validāciju, kā norādīts iepriekš. Validācija vienmēr tiek pamatota uz preces izsekošanas dimensiju un pārdošanas noliktavas konfigurācijām. 
 

@@ -1,6 +1,6 @@
 ---
 title: Elektronisko rēķinu izrakstīšanas iestatījumi
-description: Šajā tēmā sniegts elektronisko rēķinu izrakstīšanas iestatīšanas un konfigurēšanas procesa apskats.
+description: Šajā rakstā sniegts elektronisko rēķinu izrakstīšanas iestatīšanas un konfigurēšanas procesa apskats.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883124"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektronisko rēķinu izrakstīšanas iestatījumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts elektronisko rēķinu izrakstīšanas iestatīšanas un konfigurēšanas procesa apskats. Iestatīšanas soļi jāveic šeit norādītajā secībā. Ja solis ir obligāts, bet jūs to izlaižat, funkcionalitāte nedarbosies pareizi, un vairākas kļūmes radīsies turpmāko darbību vai kad izmantojat funkcionalitāti. 
+Šajā rakstā sniegts elektronisko rēķinu izrakstīšanas iestatīšanas un konfigurēšanas procesa apskats. Iestatīšanas soļi jāveic šeit norādītajā secībā. Ja solis ir obligāts, bet jūs to izlaižat, funkcionalitāte nedarbosies pareizi, un vairākas kļūmes radīsies turpmāko darbību vai kad izmantojat funkcionalitāti. 
 
 Pirms sākat, pārliecinieties, vai visi galvenie komponenti ir pareizi iestatīti, vai esat pierakstījies regulēšanas konfigurācijas pakalpojumam (RCS) un ir RCS instance un Microsoft Dynamics vai elektronisko rēķinu izrakstīšanas pievienojumprogramma ir instalēta jūsu 365 Finansēm Dynamics 365 Supply Chain Management vai videi. Papildinformāciju skatiet sadaļā Elektronisko [rēķinu izrakstīšana un instalēšana](e-invoicing-install-add-in-microservices-lcs.md).
 

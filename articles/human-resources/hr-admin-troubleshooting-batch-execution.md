@@ -1,6 +1,6 @@
 ---
 title: Iestrēgušu pakešuzdevumu atiestatīšana
-description: Šajā tēmā ir paskaidrots, kā atrisināt problēmas, kas saistītas ar iestrēgušajiem pakešuzdevumiem.
+description: Šajā rakstā skaidrots, kā atrisināt problēmas ar pakešuzdevumiem, kas tiek pielīmēti.
 author: twheeloc
 ms.date: 03/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 2602bd954daac563cbc50810c6fe0d79dc71a62b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b56a16257a45dd093d10b7550b13d6a4a1ceb1f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896023"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Iestrēgušu pakešuzdevumu atiestatīšana
 

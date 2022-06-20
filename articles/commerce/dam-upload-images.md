@@ -1,6 +1,6 @@
 ---
 title: Attēlu augšupielāde
-description: Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
+description: Šajā rakstā ir aprakstīts, kā augšupielādēt attēlus vietnes veidotājā Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892838"
 ---
 # <a name="upload-images"></a>Attēlu augšupielāde
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā augšupielādēt attēlus Microsoft Dynamics 365 Commerce vietnes veidotājā.
+Šajā rakstā ir aprakstīts, kā augšupielādēt attēlus vietnes veidotājā Microsoft Dynamics 365 Commerce.
 
 Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt attēlus vai nu atsevišķi, vai lielapjomā, izmantojot mapes. Vienmēr augšupielādējiet attēla versiju ar augstāko izšķirtspēju un kvalitāti, jo attēla izmēra maiņas komponents automātiski optimizēs attēlu atšķirīgām skatvietām un to pārtraukumpunktiem.
 
@@ -42,7 +42,7 @@ Augšupielādējot attēlu, var norādīt šādu informāciju.
 
 > [!NOTE]
 > - Attēlu līdzekļi ar piešķirtu kategoriju tiek arī automātiski atzīmēti ar kategoriju kā atslēgvārdu, lai palīdzētu meklēt konkrētas kategorijas līdzekļus.
-> - Preces detaļu lapas dinamiski ģenerē Alternatīvo tekstu, izmantojot preces nosaukumu, tāpēc preces attēla alternatīvā teksta maiņa **neietekmēs** **atveidoto** attēlu.
+> - Preces detaļu lapas dinamiski **ģenerē Alternatīvo** tekstu, izmantojot preces nosaukumu, **tāpēc preces attēla alternatīvā** teksta maiņa neietekmēs atveidoto attēlu.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Nosaukšanas nosacījumi daudzkanālu attēliem 
 
@@ -63,7 +63,7 @@ Noklusējuma nosaukšanas nosacījumi atšķiras atkarībā no kategorijas:
 > [!NOTE]
 > Ja dimensijas vērtība ir tukša, preces variantu attēliem ir jābūt divām baltstarpām starp kastēm faila nosaukumā.
 
-Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
+Iepriekšminētajos piemēros tiek izmantota noklusējuma konfigurācija. Atdalītāja rakstzīme un dimensijas ir konfigurējamas, un precīza nepieciešamā nosaukumdošana var atšķirties starp izvietošanām. Viena metode, lai noteiktu precīzu  nosaukumu piešķiršanas metodi, ir izmantot pārlūkprogrammas izstrādātāja konsole, lai pārbaudītu preces varianta attēlu pieprasījumus, kamēr maināt preces dimensijas Storefront preču informācijas lapā (PDP).
 
 ## <a name="upload-an-image"></a>Augšupielādēt attēlu
 

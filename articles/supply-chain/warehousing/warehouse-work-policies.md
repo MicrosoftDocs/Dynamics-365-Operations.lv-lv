@@ -1,6 +1,6 @@
 ---
 title: Darba politikas
-description: Šajā tēmā ir izskaidrots, kā iestatīt darba politiku.
+description: Šajā rakstā ir izskaidrots, kā iestatīt darba politikas.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855853"
 ---
 # <a name="work-policies"></a>Darba politikas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt sistēmu un Warehouse Management mobile programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
+Šajā rakstā ir izskaidrots, kā iestatīt sistēmu un mobilo programmu Noliktavas pārvaldība, lai tās atbalstītu darba politiku. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā rakstā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot Warehouse Management mobile programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
 
@@ -35,7 +35,7 @@ Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais k
 
 ## <a name="activate-the-features-in-your-system"></a>Aktivizēt sistēmas līdzekļus
 
-Lai veiktu visu šajā tēmā aprakstīto funkcionalitāti, kas ir pieejama jūsu sistēmā, ieslēdziet šādus divus līdzekļus [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Lai padarītu pieejamu visu šajā rakstā aprakstīto funkcionalitāti jūsu sistēmā, slēdziet šādas divas funkcijas Funkciju [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Numura zīmes saņemšanas uzlabojumi
 - Darba politikas uzlabojumi ienākošajam darbam

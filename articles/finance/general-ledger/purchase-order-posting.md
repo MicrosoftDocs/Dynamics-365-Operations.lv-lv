@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pasūtījuma grāmatošana
-description: Šajā tēmā aprakstīta pirkšanas pasūtījuma cilne Krājumu grāmatošanas profilu lapā.
+description: Šajā rakstā ir aprakstīta pirkšanas pasūtījuma cilne Krājumu grāmatošanas profilu lapā.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849936"
 ---
 # <a name="purchase-order-posting"></a>Pirkšanas pasūtījuma grāmatošana
 
@@ -125,7 +125,7 @@ Pirkšanas pieprasījumus un pirkšanas pasūtījuma apstiprinājumus var konfig
 
 ## <a name="procurement-category-posting"></a>Sagādes kategorijas grāmatošana
 
-Kā alternatīvu krājumu grāmatošanas iestatīšanai visiem krājumiem, krājumu grupai vai vienam krājumam, varat iestatīt kategorijas un kontrolēt virsgrāmatas grāmatošanu pēc sagādes kategorijām. Lai iegūtu papildinformāciju par kategoriju iestatīšanu un to piešķiršanu precēm, agrāk [šajā tēmā dodieties](#sample-posting-profile-configuration) uz grāmatošanas metodes konfigurācijas paraugs.
+Kā alternatīvu krājumu grāmatošanas iestatīšanai visiem krājumiem, krājumu grupai vai vienam krājumam, varat iestatīt kategorijas un kontrolēt virsgrāmatas grāmatošanu pēc sagādes kategorijām. Lai iegūtu papildinformāciju par kategoriju iestatīšanu un to piešķiršanu precēm, agrāk [šajā rakstā dodieties](#sample-posting-profile-configuration) uz grāmatošanas metodes konfigurācijas paraugs.
 
 Izmantojot kategorijas ar pirkšanas pasūtījumiem vai kreditoru rēķiniem, **kategoriju hierarhija ir jāpiešķir Sagādes kategoriju** **hierarhijas tipam kategoriju hierarhijas lomu piešķiru** lapā.
 

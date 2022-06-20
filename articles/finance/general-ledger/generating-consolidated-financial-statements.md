@@ -1,6 +1,6 @@
 ---
 title: Konsolidēto finanšu pārskatu ģenerēšana
-description: Šajā tēmā ir aprakstīti dažādi scenāriji, kuros var būt nepieciešams ģenerēt konsolidētos finanšu pārskatus.
+description: Šajā rakstā ir aprakstīti dažādi scenāriji, kuros var ģenerēt konsolidētus finanšu pārskatus.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846804"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti dažādi scenāriji, kuros var būt nepieciešams ģenerēt konsolidētos finanšu pārskatus.
+Šajā rakstā ir aprakstīti dažādi scenāriji, kuros var ģenerēt konsolidētus finanšu pārskatus.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Viena līmeņa un vairāku līmeņu juridisko personu konsolidācijas
 Vienkāršākā metode konsolidēšanai, izmantojot finanšu pārskatu sniegšanu, ir izmantot pārskata kokus, lai apkopotu datus dažādos uzņēmumos, kuriem ir vienādi kontu plāni un finanšu periodi. Šeit norādītas augsta līmeņa darbības konsolidēšanai, izmantojot pārskatu koku.
@@ -153,7 +153,7 @@ Tālāk redzamajā attēlā ir parādītas opcijas pārskata definīcijā, kas �
 ![Opciju pārskata definīcijas perioda numurs.](./media/options-report-definition-period-number.png "Opciju pārskata definīcijas perioda numurs")
 
 ## <a name="business-unit-consolidations"></a>Biznesa vienības konsolidācijas
-Šajā tēmā tika apskatīta pārskatu koka definīciju un organizācijas hierarhijas izmantošana programmā Finanšu pārskatu sniegšana konsolidācijas nolūkos. Pārskatu koku var arī izmantot, lai izveidotu biznesa vienības konsolidācijas pārskatus, piemēram, pārskatus par pārdošanu vai operācijām visā pasaulē. Šie pārskati ir standarta prasība. Lai tos izveidotu, atlasiet uzņēmumu un dimensiju katrai vienībai, kuru vēlaties konsolidēt. Piemēram, tālāk redzamajā attēlā biznesa vienības apkopojums ir veikts, atkārtojot katru uzņēmumu kolonnā **Uzņēmums** (A kolonna) un identificējot nodaļas grupas dimensijas vērtības katram uzņēmumam kolonnā **Dimensijas** (D kolonna).
+Šis raksts ir vērsts uz pārskatu koka definīciju un organizācijas hierarhiju izmantošana finanšu pārskatā konsolidācijas nolūkiem. Pārskatu koku var arī izmantot, lai izveidotu biznesa vienības konsolidācijas pārskatus, piemēram, pārskatus par pārdošanu vai operācijām visā pasaulē. Šie pārskati ir standarta prasība. Lai tos izveidotu, atlasiet uzņēmumu un dimensiju katrai vienībai, kuru vēlaties konsolidēt. Piemēram, tālāk redzamajā attēlā biznesa vienības apkopojums ir veikts, atkārtojot katru uzņēmumu kolonnā **Uzņēmums** (A kolonna) un identificējot nodaļas grupas dimensijas vērtības katram uzņēmumam kolonnā **Dimensijas** (D kolonna).
 
 ![Biznesa vienības konsolidācijas pārskati.](./media/business-unit-consolidation-reports.png "Biznesa vienības konsolidācijas pārskati")
 
@@ -218,7 +218,7 @@ Lai iegūtu pareizi pārrēķinātas summas, kad tiek izmantotas valūtas, finan
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
+Papildinformāciju par konsolidēšanu un valūtas pārrēķiniem skatiet šī raksta pamat rakstu: Finanšu konsolidācijas [un valūtas pārrēķina apskats](./financial-consolidations-currency-translation.md).
 
 Lai iegūtu plašāku informāciju par to, kā ievadīt konsolidācijas tiešsaistē datus, skatiet sadaļu [Finanšu konsolidēšana tiešsaistē](./consolidate-online.md).
 

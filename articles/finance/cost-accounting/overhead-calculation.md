@@ -1,6 +1,6 @@
 ---
 title: Pieskaitāmo izmaksu aprēķins
-description: Šajā tēmā ir aprakstīti tipiskie procesi pieskaitāmo izmaksu aprēķināšanai un piešķiršanai.
+description: Šajā rakstā ir aprakstīti tipiski papildu atbalsta izmaksu aprēķināšanas un sašķīršanas procesi.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881996"
 ---
 # <a name="overhead-calculation"></a>Pieskaitāmo izmaksu aprēķins
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti tipiskie procesi pieskaitāmo izmaksu aprēķināšanai un piešķiršanai.
+Šajā rakstā ir aprakstīti tipiski papildu atbalsta izmaksu aprēķināšanas un sašķīršanas procesi.
 
 ## <a name="term-definition"></a>Termina definīcija
 
@@ -1333,10 +1333,10 @@ Izmaksu elements | Izmaksu objekts<br>CC099 | Izmaksu objekts<br>CC001 | Izmaksu
 10001 Elektrība | 0.00 | 0.00 | 0.00 | 0.00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Neklasificēts | 0,00 |  |  |  |  |  |  |  |  |  |
 Fiksētas izmaksas | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Mainīgas izmaksas | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Mainīgas izmaksas | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Šajā tēmā ir parādīts, kā primārais izmaksu elements, 10001 Elektrība, plūst caur izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Plašāku informāciju skatiet [Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķins](cost-rollup.md).
+> Šis raksts parāda, kā primārais izmaksu elements, 10 001 Smtpe, iziet cauri izmaksu objektiem. Tāpēc šīs pieskaitāmās izmaksas tiek sadalītas līdz zemākajam līmenim organizācijā. Citiem vārdiem sakot — izmaksas sedz zemākajā līmenī esošie izmaksu objekti. Ja ir nepieciešama vizuāla izmaksu plūsma starp izmaksu objektiem, varat izmantot izmaksu apkopošanas politiku kārtulas, lai šo izmaksu plūsmu vizualizētu. Plašāku informāciju skatiet [Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķins](cost-rollup.md).
 
 
 

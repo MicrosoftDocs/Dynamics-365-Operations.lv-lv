@@ -1,6 +1,6 @@
 ---
-title: Starpkanālu koplietošanas iespējošana un izmantošana
-description: Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
+title: Koplietošana vairākos kanālos — iespējošana un izmantošana
+description: Šajā rakstā ir aprakstīts, kā iespējot un izmantot vietas veidotāja kanāla koplietošanas Microsoft Dynamics 365 Commerce funkciju.
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866008"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Koplietošana vairākos kanālos — iespējošana un izmantošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
+Šajā rakstā ir aprakstīts, kā iespējot un izmantot vietas veidotāja kanāla koplietošanas Microsoft Dynamics 365 Commerce funkciju.
 
 Starpkanālu koplietošana ļauj mazumtirgotājiem atkārtoti izmantot un kopīgot saturu starp vairākiem vietnes kanāliem. Šī iespēja noder, ja vietņu kanāliem ir saderīga pamatvaloda vai ja tiem ir daudz kopīgu satura vienību.
 

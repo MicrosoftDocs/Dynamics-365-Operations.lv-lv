@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu nomas pārskati
-description: Šajā tēmā ir uzskaitīti un īsi aprakstīti pārskati, kas ir pieejami Līdzekļu nomā.
+description: Šis rakstu saraksts un īsumā apraksta pārskatus, kas ir pieejami Pamatlīdzekļu izlaižot.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856717"
 ---
 # <a name="asset-leasing-reports"></a>Līdzekļu nomas pārskati
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir uzskaitīti un īsi aprakstīti pārskati, kas ir pieejami Līdzekļu nomā. Lielākā daļa pārskatu tiek rādīti, izpildot tālāk norādītās darbības vai darbības, kas ir ļoti līdzīgas, kā norādīts. 
+Šis rakstu saraksts un īsumā apraksta pārskatus, kas ir pieejami Pamatlīdzekļu izlaižot. Lielākā daļa pārskatu tiek rādīti, izpildot tālāk norādītās darbības vai darbības, kas ir ļoti līdzīgas, kā norādīts. 
 
 - Lai skatītu lielāko daļu līdzekļu nomas pārskatu, dodieties uz **Līdzekļa līzings > Vaicājumiem un pārskati > Nomas pārskati** un pēc tam atlasiet pārskatu, ko skatīt. Pārskatiem, kam nepieciešams cits atlases ceļš, darbības, lai atvērtu pārskatu, ir ietvertas attiecīgā pārskata aprakstā. 
 - Kad atlasāt drukājamo pārskatu, tiks atvērta parametru lapa, kas ļaus filtrēt informāciju, kas iekļauta pārskatā. Ievadiet filtra kritērijus un pēc tam atlasiet **Labi**, lai ģenerētu pārskatu. Ģenerētajā pārskatā tiks parādīta informācija, kas atbilst norādītajiem filtriem.

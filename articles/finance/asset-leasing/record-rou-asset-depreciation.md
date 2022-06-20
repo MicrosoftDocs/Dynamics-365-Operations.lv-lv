@@ -1,6 +1,6 @@
 ---
 title: Līdzekļa lietošanas tiesību nolietojuma reģistrēšana (priekšskatījums)
-description: Šajā tēmā skaidrots, kā izveidot žurnāla ierakstu amortizācijai, kas nepieciešama nomām, kuras tiek atzītas organizācijas bilancē.
+description: Šajā rakstā skaidrots, kā izveidot žurnāla ierakstu norakstīšanas, kas ir nepieciešama nomas maksai, kas tiek atpazīta organizācijas bilancē.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903281"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Līdzekļa lietošanas tiesību nolietojuma reģistrēšana (priekšskatījums)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727711"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek amortizēts reizi mēnesī. Šajā tēmā skaidrots, kā izveidot žurnāla ierakstu amortizācijai. Amortizācija debetē izdevumu Virsgrāmatas kontu un kreditē uzkrātā nolietojuma Virsgrāmatas kontu, pamatojoties uz jūsu grāmatošanas profila iestatījumiem un nomas tipu. Šos ierakstus var izveidot katrai nomai, vai arī tos var izveidot vairākām nomām, izmantojot žurnāla pakešuzdevuma funkcionalitāti.
+Nomām, kas tiek atzītas organizācijas bilancē, lietošanas tiesību LLT tiek amortizēts reizi mēnesī. Šajā rakstā skaidrots, kā izveidot žurnāla ierakstu amortizācijai. Amortizācija debetē izdevumu Virsgrāmatas kontu un kreditē uzkrātā nolietojuma Virsgrāmatas kontu, pamatojoties uz jūsu grāmatošanas profila iestatījumiem un nomas tipu. Šos ierakstus var izveidot katrai nomai, vai arī tos var izveidot vairākām nomām, izmantojot žurnāla pakešuzdevuma funkcionalitāti.
 
 ## <a name="asset-depreciation-schedule"></a>Līdzekļu nolietojuma grafiks
 
 1. Lapā **Nomas kopsavilkums** atlasiet nomu. Pēc tam atlasiet **Grāmatas \> Līdzekļa nolietojuma grafiks**, lai atvērtu lapu **Līdzekļu nolietojuma grafiks**.
 
-    LLT nolietojuma izdevumu žurnāla ieraksts ir balstīts uz summu kolonnā **Nolietojuma izdevumi**. Piemēram, vadlīnijas par atbilstību uzskaites standartam skatiet šīs tēmas sadaļā [LLT amortizācijas izdevumu aprēķins finanšu nomām](#calculation-of-rou-asset-amortization-expense-for-finance-leases).
+    LLT nolietojuma izdevumu žurnāla ieraksts ir balstīts uz summu kolonnā **Nolietojuma izdevumi**. Piemēram, grāmatvedības [standarta saskaņotības norādījumos skatiet](#calculation-of-rou-asset-amortization-expense-for-finance-leases) finanšu nomas finanšu nomas nolietojuma izmaksu aprēķinu tālāk šajā rakstā.
     
 2. Atlasiet nolietojuma periodu un pēc tam atlasiet **Izveidot žurnālu**. Tiek parādīts ziņojums, ka tika izveidots žurnāls, kas tiks izmantots nolietojuma reģistrēšanai.
 3. Atlasiet **Žurnāli \> Līdzekļu nomas žurnāli**, lai atvērtu lapu **Līdzekļu nomas žurnāls**, kur varat skatīt izveidoto nolietojuma izdevumu žurnāla ierakstu.

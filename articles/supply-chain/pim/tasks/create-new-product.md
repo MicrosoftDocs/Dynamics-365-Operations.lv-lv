@@ -1,6 +1,6 @@
 ---
-title: Jaunas preces izveide
-description: Šajā tēmā ir aprakstīts, kā izveidot jaunu koplietojamu preci.
+title: Izveidot jaunu preci
+description: Šajā rakstā ir aprakstīts, kā izveidot jaunu koplietotu preci.
 author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 75490661bf6f1e3dc0655cf9bd79316194c63820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887346"
 ---
-# <a name="create-a-new-product"></a>Jaunas preces izveide
+# <a name="create-a-new-product"></a>Izveidot jaunu preci
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot jaunu koplietojamu preci. To parasti veic preču noformētājs. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.
+Šajā rakstā ir aprakstīts, kā izveidot jaunu koplietotu preci. To parasti veic preču noformētājs. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF.
 
 
 ## <a name="create-a-product"></a>Preces izveide

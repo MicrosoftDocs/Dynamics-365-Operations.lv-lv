@@ -1,6 +1,6 @@
 ---
 title: Iestatīt ieturētā nodokļa iestādes TDS nodokļu tipam
-description: Šajā tēmā skaidrots, kā iestatīt No kopējās ienākumu summas atskaitītā nodokļa (TDS) iestādes.
+description: Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli avota (TDS) iestādēs.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: a6c802079153911f74a217eb67ff6743aebdcd33
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 43562381bab93d2f143788b8dc61f2b13d05db3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864218"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>Iestatīt ieturētā nodokļa iestādes TDS nodokļu tipam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt No kopējās ienākumu summas atskaitītā nodokļa (TDS) iestādes.
+Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli avota (TDS) iestādēs.
 
 1. Dodieties uz **Nodoklis \> Netiešie nodokļi \> ieturētā nodokļa iestādes**.
 

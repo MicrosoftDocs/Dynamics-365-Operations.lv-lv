@@ -1,6 +1,6 @@
 ---
 title: 200 procentu atlikuma bilances aprēķināšanas metode
-description: Šajā tēmā sniegts pārskats par 200 procentu atlikumu bilances metodi.
+description: Šajā rakstā ir sniegts pārskats par 200 procentu atlikumu bilances metodi.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870167"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentu atlikuma bilances aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par 200 procentu atlikumu bilances metodi.
+Šajā rakstā ir sniegts pārskats par 200 procentu atlikumu bilances metodi.
 
 Ja iestatāt pamatlīdzekļa nolietojuma tabulu un atlasāt lauka **Metode** vērtību **200% atlikumu bilance** lapā **Nolietojuma tabulas**, pamatlīdzekļiem, kam ir piešķirta šī nolietojuma tabula, tiek izmantota vienāda nolietojuma procentu likme katrā nolietojuma periodā. Procentu likme tiek aprēķināta, pamatojoties uz pamatlīdzekļa lietošanas ilgumu. Piemēram, ja pamatlīdzekļa lietošanas ilgums ir pieci gadi, tiek aprēķināta procentu likme 40 procenti (200% ÷ 5). 
 
@@ -43,7 +43,7 @@ Jūsu atlase nosaka, kādas opcijas ir pieejamas laukā **Periodu biežums**. Š
 
 Laukā **Nolietojuma aprēķina gads** varat paturēt noklusējuma vērtību **Kalendārs**. 
 
-Opcija **Kalendārs** nolietojuma bāzi atjaunina katru gadu 1. janvārī. Parasti nolietojums ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. 
+Opcija **Kalendārs** nolietojuma bāzi atjaunina katru gadu 1. janvārī. Parasti nolietojums ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk piemēros šī raksta gadījumā nolietojuma bāze ir aprēķinu pirmās izteiksmes skaitītājs aprēķina kolonnā. 
 
 Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 

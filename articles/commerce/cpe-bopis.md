@@ -1,6 +1,6 @@
 ---
-title: BOPIS konfigurācija Dynamics 365 Commerce novērtējuma vidē
-description: Šajā tēmā paskaidrots, kā konfigurēt "pērc tiešsaistē, izņem veikalā" (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc tās nodrošināšanas.
+title: BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
+description: Šajā rakstā ir izskaidrots, kā konfigurēt pirkšanu tiešsaistē, saņemt veikalā (BIOS) Microsoft Dynamics 365 Commerce novērtēšanas vidē pēc tās nodrošināšanas.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861970"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā konfigurēt "pērc tiešsaistē, izņem veikalā" (BOPIS) Microsoft Dynamics 365 Commerce novērtējuma vidē pēc tās nodrošināšanas.
+Šajā rakstā ir izskaidrots, kā konfigurēt pirkšanu tiešsaistē, savākšanu veikalā (BIOS) Microsoft Dynamics 365 Commerce novērtēšanas vidē pēc vides nodrošināšanas.
 
 ## <a name="prerequisite"></a>Priekšnoteikumi
 
-Šajā tēmā minētās procedūras veiciet tikai pēc tam, kad ir nodrošināta un konfigurēta Commerce novērtējuma vide. Informāciju par to, kā nodrošināt un konfigurēt jūsu vidi, skatiet [Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md) un [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](./cpe-post-provisioning.md).
+Veiciet šajā rakstā sniegtās procedūras tikai pēc tam, kad Commerce novērtēšanas vide ir nodrošināta un konfigurēta. Informāciju par to, kā nodrošināt un konfigurēt jūsu vidi, skatiet [Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md) un [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](./cpe-post-provisioning.md).
 
-Pēc tam, kad jūsu Komercijas vide ir nodrošināta un konfigurēta, varat izmantot šo tēmu, lai iespējotu BOPIS scenārijus.
+Pēc tam, kad commercea vide ir nodrošināta un konfigurēta līdz beigām, varat izmantot šo rakstu, lai iespējotu B IZAS scenārijus.
 
 ## <a name="configure-the-pos"></a>POS konfigurēšana
 
 ### <a name="configure-modern-pos"></a>Modern POS konfigurēšana
 
-BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparatūras stacija. Aparatūras stacija ir iebūvēta Modern POS operētājsistēmas Windows un Android klientiem. Ja izmantojat mākoni POS vai Modern POS sistēmai iOS, pārdošanas punkts (POS) klientam ir jāsavieno pārī ar koplietojamo aparatūras staciju. Šajā tēmā skaidrots, kā konfigurēt BOPIS sistēmas Windows un Android klientiem. Papildinformāciju par to, kā uzstādīt koplietojamo aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](./retail-hardware-station-configuration-installation.md).
+BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparatūras stacija. Aparatūras stacija ir iebūvēta Modern POS operētājsistēmas Windows un Android klientiem. Ja izmantojat mākoni POS vai Modern POS sistēmai iOS, pārdošanas punkts (POS) klientam ir jāsavieno pārī ar koplietojamo aparatūras staciju. Šajā rakstā skaidrots, kā konfigurēt BTOPS Windows un Android klientiem. Papildinformāciju par to, kā uzstādīt koplietojamo aparatūras staciju, skatiet [Retail aparatūras stacijas konfigurēšana un instalēšana](./retail-hardware-station-configuration-installation.md).
 
 1. Dodieties uz **Mazumtirdzniecība un Komercija \> Kanāla iestatīšana \> POS iestatīšana \> Reģistri**.
 2. Atlasiet reģistru **SANFRAN-5** un pēc tam atlasiet **Rediģēt**.
@@ -67,7 +67,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 5. Tiek parādīts autentifikācijas dialoglodziņš. Atlasiet kontu, kas izmanto e-pasta adresi, kas iepriekš bija saistīta ar darbinieku **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šādā gadījumā izpildiet darbības sadaļā “Saistīt darbinieku ar savu identitāti”, kas aprakstītas tēmā [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šajā gadījumā izpildiet sadaļā "Saistīt darbinieku ar savu identitāti" [, kas atrodas rakstu Konfigurēt novērtēšanas Dynamics 365 Commerce vidi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Kad tiek parādīta uzvedne ar aicinājumu ļaut organizācijai pārvaldīt ierīci, atlasiet **Tikai šo programmu**.
 7. Kad aktivizēšana ir pabeigta, atlasiet **Sākt darbu**.

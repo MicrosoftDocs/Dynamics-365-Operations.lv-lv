@@ -1,6 +1,6 @@
 ---
 title: Maiņu un naudas kastes pārvaldība
-description: Šajā tēmā ir paskaidrots, kā iestatīt un izmantot Commerce pārdošanas punkta (point of sale — POS) maiņas.
+description: Šajā rakstā ir izskaidrots, kā iestatīt un lietot maiņas commerce point of Sale (POS).
 author: jblucher
 ms.date: 05/10/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 9c22f1fce99eaeca7b1081524230742e4709de5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877215"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Maiņu un naudas kastes pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt un izmantot Commerce pārdošanas punkta (point of sale — POS) maiņas.
+Šajā rakstā ir izskaidrots, kā iestatīt un lietot maiņas commerce point of Sale (POS).
 
 Programmā Dynamics 365 Commerce termins *maiņa* attiecas uz POS transakciju datiem un darbībām, kas tiek veiktas noteiktā laika intervālā. Katrai maiņai paredzētā naudas summa tiek salīdzināta ar summu, kas tika aprēķināta un deklarēta.
 

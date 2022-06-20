@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt izmaiņas formulās un to sastāvdaļās
-description: Šajā tēmā ir aprakstīts, kā veikt formulas pārvaldību un pārvaldīt izmaiņas ražošanas pamatdatu apstrādāšanai.
+description: Šajā rakstā ir aprakstīts, kā veikt formulas pārvaldību un pārvaldīt izmaiņas ražošanas pamatdatu apapstrādāšanai.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904077"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Pārvaldīt izmaiņas formulās un to sastāvdaļās
 
@@ -29,7 +29,7 @@ Ja izmantojat Microsoft Dynamics 365 Supply Chain Management procesa ražošanas
 
 ## <a name="turn-this-feature-on-or-off"></a>Ieslēgt vai izslēgt šo līdzekli
 
-Šajā tēmā aprakstītajai funkcionalitātei ir nepieciešams, lai *gan* *inženierzinātnes izmaiņu pārvaldība, gan pārvaldīt izmaiņas formulās un to sastāvdaļas būtu ieslēgtas* jūsu sistēmai. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
+Šajā dokumentā aprakstītajai funkcionalitātei ir nepieciešams, lai *gan* *inženierzinātnes izmaiņu pārvaldība, gan pārvaldīt izmaiņas formulās un to sastāvdaļas būtu ieslēgtas* jūsu sistēmai. Papildinformāciju par to, kā ieslēgt vai izslēgt šos līdzekļus, skatiet inženierzinātnes [izmaiņu pārvaldības pārskatā](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Līdzekļu nosaukumdošanas konvencijas
 
@@ -46,7 +46,7 @@ Supply Chain Management lietotāja interfeisā (Ui) un dokumentācijā izmaiņu 
 - **Gatavības kontrole** – izmantojiet sistēmas pārbaudes un lietotāju vadlīnijas (anketas un kontrolsaraksti), lai nodrošinātu, ka visi nepieciešamie preces dati ir pilnībā ievadīti pirms preces laišanas izpildei. Papildinformāciju skatiet sadaļā [Produktu gatavība](product-readiness.md).
 - **Uzlabota preču laidiena funkcionalitāte** – nodot preces pilnībā definētās versijas un to formulu no organizācijas (juridiskas personas) citām juridiskām personām. Var arī izlemt, vai preces informācija ir jāpārskata vai jālabo pirms izlaišanas. Plašāku informāciju skatiet sadaļā [Izlaist produkta struktūras](release-product-structure.md).
 
-Ievērojiet, ka lielākā daļa tēmu, kas ir saistītas ar iepriekšējo sarakstu, sniedz piemērus, kas balstīti uz materiālu komplektiem (MK). Tomēr formulas darbojas līdzīgi. Šeit ir dažas papildu koncepcijas, kas ir noderīgas, lai uzzinātu, kad izmantojat izmaiņu pārvaldību (vai tikai formulas izmaiņu pārvaldību), lai pārvaldītu formulas un MK:
+Ievērojiet, ka lielākā daļa ar iepriekšējo sarakstu saistīto rakstu sniedz piemērus, kas balstīti uz materiālu komplektiem (MK). Tomēr formulas darbojas līdzīgi. Šeit ir dažas papildu koncepcijas, kas ir noderīgas, lai uzzinātu, kad izmantojat izmaiņu pārvaldību (vai tikai formulas izmaiņu pārvaldību), lai pārvaldītu formulas un MK:
 
 - Katrai [preču inženiertehniskajai kategorijai](engineering-versions-product-category.md) var norādīt ražošanas tipu (MK, formulu vai plānošanas krājumu). Var arī norādīt, vai precēm, kas izmanto šo kategoriju, ir nepieciešams pieļaujamā svara atbalsts.
 - Līdzprodukti un blakusprodukti nav inženiertehniskās preces. Tādēļ to versija nav iestatīta. Ja tās ir jāmaina, vienkārši izveidojiet jaunu preci. Šī pieeja atvieglo uzturēšanu.

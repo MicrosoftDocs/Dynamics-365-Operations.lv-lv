@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879745"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109972"
 
 Pērkošo juridisko personu, kas ir iesaistīta starpuzņēmumu tirdzniecības transakcijā, var iestatīt kreditoru rēķinu salīdzināšanas lietošanai. Ja kreditoru **parametru lapas laukā** Grāmatot rēķinu **ar** neatbilstībām ir **iestatīta** iestatījums Pieprasīt apstiprinājumu, tiks veikta rēķinu salīdzināšanas apstiprināšana. Tādā gadījumā, lai varētu grāmatot starpuzņēmumu kreditoru rēķinus, ir jābūt ievērotām gan starpuzņēmumu tirdzniecības, gan kreditoru rēķinu salīdzināšanas grāmatošanas prasībām.
 
-Šīs tēmas piemēros tiek izmantoti šādi starpuzņēmumu tirdzniecības iestatījumi:
+Šajā rakstā sniegti piemēri starpuzņēmumu tirdzniecībai izmanto šādus iestatījumus:
 -   Pirkuma fabrika ir juridiskā persona, kas veic pirkumu.
 -   Pārdošanas fabrika ir juridiskā persona, kas veic pārdošanu.
 -   Klients 4020 eksistē Pārdošanas Fabrikā.

@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) krātuves novecošana
-description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics Lifecycle Services (LCS) krātuves novecošanu, kas ir plānots kā daļa no Regulatory Configuration Service (RCS) globālā repozitorija izlaides.
+description: Šajā rakstā ir Microsoft Dynamics sniegta informācija par Lifecycle Services (LCS) krātuves nolietojumu, kas ir plānota kā daļa no regulēšanas konfigurācijas pakalpojuma (RCS) globālā repozitorija atrites.
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849736"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) — Lifecycle Services (LCS) krātuves novecošana
 
@@ -85,7 +85,7 @@ RCS izmanto *savienoto programmu* konceptu. Savienots pieteikums veido savienoju
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Vai ir kādi piemēri, kas parāda iestatīšanu un pārvaldību?
 
-Piemēru nav, tomēr šajā tēmā varat izpildīt iepriekš aprakstītās darbības, lai migrētu savas konfigurācijas uz RCS globālo repozitoriju.
+Nav piemēru, bet varat veikt šajā rakstā iepriekš norādītās darbības, lai migrētu konfigurācijas uz RCS globālo repozitoriju.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Vai RCS ir priekšnoteikums elektronisko pārskatu konfigurēšanai?
 

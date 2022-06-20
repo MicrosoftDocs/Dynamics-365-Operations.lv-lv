@@ -1,6 +1,6 @@
 ---
 title: Valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
-description: Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību.
+description: Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906389"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
 
 [!include [banner](../includes/banner.md)]
 
-Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
+Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
 
 Neapmaksāto transakciju ārvalstu valūtās teorētiskā vai atlikusī vērtība laika gaitā mainās valūtas maiņas kursu svārstību dēļ. Lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību, izpildiet ārvalstu valūtas pārvērtēšanas procesu. Ārvalstu valūtas pārvērtēšanu var veikt gan kreditoru, debitoru parādiem. Procesā tiek izmantots jauns valūtas maiņas kurss, lai pārvērtētu neapmaksātās summas vai nenosegtās summas uz konkrēto datumu. Starpība starp sākotnēji iegrāmatotajām summām un pārvērtētajām summām rada katras neapmaksātās transakcijas nerealizēto peļņu vai zaudējumus. Pēc tam tiek atjauninātas parādu kreditoriem un debitoru parādu apakšgrāmatas, lai reģistrētu nerealizēto peļņu vai zaudējumus, un Virsgrāmatā tiek grāmatots uzskaites ieraksts.
 

@@ -1,6 +1,6 @@
 ---
 title: Darbs ar konfigurācijām
-description: Šajā tēmā ir sniegts pārskats par galveno scenāriju darbam ar elektronisko pārskatu (ER) konfigurācijām no globalizācijas līdzekļu darbvietas.
+description: Šajā rakstā ir sniegts galvenā scenārija apskats darbam ar elektronisko pārskatu (ER) konfigurācijām no globalizācijas līdzekļu darbvietas.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,31 +15,31 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4318399ee58ed54b29f8d360345b8930238ea9f2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875947"
 ---
 # <a name="work-with-configurations"></a>Darbs ar konfigurācijām
 
 [!include [banner](../includes/banner.md)]
 
-Elektroniskās ziņošanas (ER) konfigurācijas ir viena no galvenajām elektronisko rēķinu sagatavošanas funkciju sastāvdaļām. ER konfigurācija ietver faila struktūras iestatījumus un transformācijas kārtulu kopu datu pārveidošanai divos veidos:
+Elektronisko pārskatu (ER) konfigurācijas ir viena no galvenajām elektronisko rēķinu izrakstīšanas funkciju sastāvdaļu kopām. ER konfigurācija satur faila struktūras iestatījumu un pārvēršanas noteikumu kopu datu pārvēršanai divos veidos:
 
 - **Eksportēt ER formāta konfigurāciju** – šī konfigurācija pārveido datus no vienotās iekšējās struktūras (ER modeļa) uz elektroniskā faila formātu.
-- **Importēt ER formāta konfigurāciju** – šī konfigurācija pārveido datus no elektroniskā faila formāta uz vienoto iekšējo struktūru (ER modeli).
+- **Importēt ER formāta konfigurāciju** – šī konfigurācija pārveido datus no elektroniskā faila formāta uz unificēto iekšējo struktūru (ER modelis).
 
-Papildus izejošo elektronisko failu ģenerēšanai iepriekš definētā formātā ER konfigurācijas tiek plaši izmantotas, lai parsētu ienākošos ziņojumus no ārējiem tīmekļa pakalpojumiem kā atbildes. Šī funkcionalitāte palīdz veidot konfigurējamu loģiku, lai iegūtu rezultātus saziņai ar ārējiem kanāliem, pārvērstu šos rezultātus (kodus, ziņojumus un žurnālus) uz lietotāja lasāmu struktūru un pēc tam nodotu šo informāciju klienta lietojumprogrammai.
+Papildus izejošo elektronisko failu ģenerēšanai iepriekš definētajā formātā ER konfigurācijas ir plaši izmantotas, lai parsētu ienākošos ziņojumus no ārējiem Web pakalpojumiem kā atbildes. Šī funkcionalitāte palīdz veidot konfigurējamu loģiku, lai iegūtu saziņas rezultātus ar ārējiem kanāliem, pārvērstu šos rezultātus (kodus, ziņojumus un žurnālus) uz lietotāja lasāmo struktūru un pēc tam nodotu šo informāciju klienta programmai.
 
-Lai elektronisko rēķinu izrakstīšanas funkcijā sāktu izmantot ER konfigurācijas, tās ir jāsaista ar līdzekli un jāpadara pieejamas **pašreizējās līdzekļa versijas cilnē Konfigurācijas**. Varat strādāt ar saistītu ER konfigurāciju, atlasot **Pievienot**, **Dzēst**, **Rediģēt** vai **Skatīt**.
+Lai sāktu izmantot ER konfigurācijas elektroniskajā rēķinu izrakstīšanas funkcionalitātē, **tās ir jāsaista ar funkciju un jāpadar tās pieejamas pašreizējās funkcionalitātes** versijas cilnē Konfigurācijas. Varat strādāt ar saistīto ER konfigurāciju, atlasot **Pievienot**, **Dzēst**, **Rediģēt** vai **Skatīt**.
 
-Lai varētu pievienot saiti uz ER konfigurāciju, konfigurācijai ir jābūt jūsu regulatīvās konfigurācijas pakalpojuma (RCS) repozitorijā. Lai pārskatītu ER konfigurācijas, kas ir pieejamas jūsu RCS repozitorijā, rīkojieties šādi.
+Pirms varat pievienot saiti ER konfigurācijai, konfigurācijai ir jāpastāv jūsu regulēšanas konfigurācijas pakalpojuma (RCS) repozitorijā. Lai pārskatītu ER konfigurācijas, kas ir pieejamas jūsu RCS repozitorijā, sekojiet šiem soļiem.
 
 1. Piesakieties savā RCS kontā.
 2. Darbvietas **Elektroniskie pārskati** sadaļā **Konfigurācijas** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
 
-Informāciju par to, kā izveidot jaunu ER konfigurāciju vai importēt esošu ER konfigurāciju no globālā repozitorija, skatiet rakstā [Elektroniskā ziņošana](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Informāciju par to, kā izveidot jaunu ER konfigurāciju vai importēt esošu ER konfigurāciju no globālā repozitorija, skatiet elektroniskos [pārskatus](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Lai pielāgotu saistīto ER konfigurāciju, pašreizējā elektronisko rēķinu izrakstīšanas līdzekļa cilnē Konfigurācijas atlasiet **Rediģēt** **.** Sistēma automātiski izveido ER konfigurācijas versiju. Ja aktīvo konfigurācijas nodrošinātājs nav izveidojis pašreizējo versiju, sistēma izveido atvasinātu versiju, kas izmanto konfigurācijas nodrošinātāju. Ja pašreizējo versiju izveidoja aktīvais konfigurācijas nodrošinātājs, sistēma izveido jaunu versiju. Abos gadījumos varat modificēt izveidoto versiju un pēc tam automātiski veikt visus nepieciešamos atjauninājumus.
+Lai pielāgotu saistīto ER konfigurāciju, pašreizējā **elektronisko** rēķinu izrakstīšanas **līdzekļa** cilnē Konfigurācijas atlasiet Rediģēt. Sistēma automātiski izveido ER konfigurācijas versiju. Ja aktīvo konfigurācijas nodrošinātāju pašreizējo versiju nav izveidojis, sistēma izveido atvasinātu versiju, kas izmanto konfigurācijas nodrošinātāju. Ja pašreizējo versiju ir izveidojis aktīvais konfigurācijas nodrošinātājs, sistēma izveido jaunu versiju. Abos gadījumos var modificēt izveidoto versiju un pēc tam automātiski veikt visus nepieciešamos atjauninājumus.

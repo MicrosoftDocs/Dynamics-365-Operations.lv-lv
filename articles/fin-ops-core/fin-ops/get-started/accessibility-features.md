@@ -1,6 +1,6 @@
 ---
 title: Pieejamības līdzekļi
-description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām.
+description: Šajā rakstā aprakstīta funkcionalitāte, kas paredzēta, lai palīdzētu lietotājiem ar dažādām īpašām vajadzībām.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881056"
 ---
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071062"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām izmantot šo programmu. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
+Šajā rakstā ir aprakstīta funkcionalitāte, kas paredzēta, lai palīdzētu lietotājiem ar dažādām īpašām vajadzībām izmantot šo programmu. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows diktors un piekļuve tikai ar tastatūru
 
@@ -49,7 +49,7 @@ Papildinformāciju skatiet šeit: [Navigācijas meklēšana](navigation-search.m
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Darbību meklēšana tikai tastatūras lietotājiem vai datu ievadei bez pārbaudīšanas
 
-Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot ciļņu secību. Informācija par ciļņu secību ir sniegta tālāk šajā tēmā. Lai darbības izpildītu tiešāk, varat lietot darbību meklēšanas funkcionalitāti.
+Katrai lapā nodrošinātajai darbībai var piekļūt no tastatūras, izmantojot ciļņu secību. Informācija par ciļņu secību ir sniegta tālāk šajā rakstā. Lai darbības izpildītu tiešāk, varat lietot darbību meklēšanas funkcionalitāti.
 
 ### <a name="example"></a>Piemērs
 

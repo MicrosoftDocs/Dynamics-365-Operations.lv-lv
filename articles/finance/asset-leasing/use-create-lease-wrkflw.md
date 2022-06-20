@@ -1,6 +1,6 @@
 ---
 title: Nomas apstiprinājuma darbplūsmu izmantošana
-description: Šajā tēmā skaidrots, kā izmantot darbplūsmas, lai apstiprinātu līdzekļu nomas, un kā izsekot darbplūsmas statusu un vēsturi.
+description: Šajā rakstā ir izskaidrots, kā izmantot darbplūsmas līdzekļu nomas apstiprināšanai un kā sekot darbplūsmu statusam un vēsturei.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906447"
 ---
 # <a name="use-lease-approval-workflows"></a>Nomas apstiprinājuma darbplūsmu izmantošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izmantot darbplūsmas, lai apstiprinātu līdzekļu nomas, un kā izsekot darbplūsmas statusu un vēsturi. Darbplūsmas palīdz sakārtot nomas apstiprinājumu pārvaldību, nodrošinot standarta apstiprināšanas darbības un piešķirot noteiktus lietotājus, kas apstiprina katru procesa darbību. Apstiprinātājs var apstiprināt nomu, noraidīt to, pieprasīt izmaiņas tajā vai piešķirt to citam lietotājam apstiprināšanai. Darbplūsmas var arī radīt lielāku redzamību apstiprināšanas procesā, ļaujot izsekot to statusu un vēsturi. Var arī skatīt centralizētu darbu sarakstu, kas uzskaita uzdevumus un apstiprinājumus, kuri ir piešķirti noteiktiem apstiprinātājiem.
+Šajā rakstā ir izskaidrots, kā izmantot darbplūsmas līdzekļu nomas apstiprināšanai un kā sekot darbplūsmu statusam un vēsturei. Darbplūsmas palīdz sakārtot nomas apstiprinājumu pārvaldību, nodrošinot standarta apstiprināšanas darbības un piešķirot noteiktus lietotājus, kas apstiprina katru procesa darbību. Apstiprinātājs var apstiprināt nomu, noraidīt to, pieprasīt izmaiņas tajā vai piešķirt to citam lietotājam apstiprināšanai. Darbplūsmas var arī radīt lielāku redzamību apstiprināšanas procesā, ļaujot izsekot to statusu un vēsturi. Var arī skatīt centralizētu darbu sarakstu, kas uzskaita uzdevumus un apstiprinājumus, kuri ir piešķirti noteiktiem apstiprinātājiem.
 
 Pirms šīs procedūras izmantošanas pārliecinieties, ka vismaz nomas apstiprinājuma darbplūsma ir izveidota. Ja neviena darbplūsma nepastāv, izveidojiet to. Plašāku informāciju par to, kā iestatīt darbplūsmu, skatiet tēmā [Nomu apstiprināšanas darbplūsmu iestatīšana](set-up-lease-wrkflw.md).
 

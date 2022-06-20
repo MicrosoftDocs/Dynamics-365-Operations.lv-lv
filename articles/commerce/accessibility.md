@@ -1,6 +1,6 @@
 ---
 title: Pieejamības līdzekļi un iespējas
-description: Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegta informācija par pieejamības līdzekļiem un iespējām Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f4e73ebaf6dc3fc6eb97f69df8545c9ab9fa9df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853906"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pieejamības līdzekļi un iespējas
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir sniegta informācija par pieejamības līdzekļiem un iespējām Microsoft Dynamics 365 Commerce.
 
 Pieejamības funkcijas un iespējas nodrošina funkcionālus līdzekļus visiem lietotājiem, lai piekļūtu un veiktu darbības, lai viņi varētu sasniegt savus mērķus. Šim plašajam lietotāju lokam var būt nepieciešami dzirdes, redzes, mobilitātes vai neirodaudzveidības palīgrīki.
 
 Dažādās funkcijas pakalpojumā Dynamics 365 Commerce ļauj veidot savu vietni, lai tā ietver palīdzības funkcionalitāti. Noformējot vietni, ir jāapsver pieejamības funkcionalitātes apgabali, kas minēti [Microsoft pieejamības centrā](https://www.microsoft.com/accessibility). 
 
-Šajā tēmā ir aprakstīti daži pieejamības funkcionalitātes papildu apgabali, kas jāņem vērā, lietojot pakalpojumu Dynamics 365 Commerce.
+Šajā rakstā ir aprakstītas dažas papildu pieejamības funkcionalitātes jomas, kas jāievēro, lietojot Dynamics 365 Commerce.
 
 ## <a name="image-alt-text"></a>Attēlu alternatīvais teksts
 

@@ -1,6 +1,6 @@
 ---
-title: SEPA kredīta pārskaitījuma pārskats
-description: Šajā tēmā sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver Single Euro Payments Area (SEPA) kredīta pārskaitījumus un jebkurus citus elektroniskos maksājumus kreditoriem.
+title: SEPA kredīta pārskaitījuma apskats
+description: Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871454"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver Single Euro Payments Area (SEPA) kredīta pārskaitījumus un jebkurus citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu.
+Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Šajā rakstā izskaidrots arī, kā iestatīt un pārsūtīt kredīta pārsūtīšanas maksājuma failu.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kas ir kredīta pārskaitījuma ziņojums?
 Kredīta pārskaitījuma ziņojums ir pieprasījums, kuru iniciējošā puse (jūsu uzņēmums) nosūta, lai pārvietotu līdzekļus no sava konta kreditoram. Pastāv daudzi no valstij/reģionam specifiski un bankai specifiski kredīta pārskaitījuma ziņojumu īstenošanas veidi. Daži no tiem tiek izmantoti vienā valstī/reģionā, un daži kļūst par standartiem. Viens no vispāratzītiem globālajiem standartiem ir ISO 20022 un tā iniciēšanas ziņojumi, piemēram, kredīta pārskaitījums. Šajā ilustrācijā parādītas attiecības un segums noteiktiem kredīta pārskaitījuma ziņojumiem. 
@@ -53,7 +53,7 @@ SEPA kredīta pārskaitījums ir viena uzņēmuma vai privātpersonas maksājums
 Kredīta pārskaitījuma maksājuma formāts Eiropas valstīm ir ieviests, izmantojot elektronisko pārskatu (ER) un Maksājuma Microsoft Dynamics metodes funkcionalitāti 365 Finanses. Dažiem kredīta pārskaitījuma formātiem, kuri tiek lietoti citos reģionos, joprojām tiek izmantota mantojuma maksājumu struktūra. Daudzu citu formātu vidū ir pieejami 12 ISO 20022 kredīta pārskaitīšanas failu formāti. Šie eksporta formāti atbilst SEPA ISO 20022 XML standartam. Tie tiek izmantoti, lai izveidotu maksājumu pārsūtīšanas valūtā, kas nav eiro, valstīm/reģioniem, kuros tie tiek izmantoti, un eiro maksājumus atbilstoši EPC izlaistās SEPA kredīta pārskaitījumu shēmas noteikumu rokasgrāmatas versijai 8.2. Lai varētu ieviest kredīta pārskaitījumus, jums ir jāsazinās ar savu banku, lai iegūtu programmatūru, kas ir nepieciešama elektronisko banku operāciju failu augšupielādēšanai. Šo programmatūru jūs izmantosit, lai pārsūtītu XML failus, kas ietver maksājumu uzdevumus uz jūsu banku.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Kādi kredīta pārskaitījuma formāti pašlaik tiek atbalstīti?
-Vienmēr atveriet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko to pieejamo failu sarakstu, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
+Vienmēr atveriet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko to pieejamo failu sarakstu, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamā sadaļa "Kas man ir jāiestata?", sniedz saiti uz rakstu, kurā izskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
 -   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).

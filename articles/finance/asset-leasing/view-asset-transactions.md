@@ -1,6 +1,6 @@
 ---
 title: Saistību, līdzekļu un izdevumu darījumu skatīšana
-description: Šajā tēmā skaidrots, kā skatīt darījumus iznomātajam līdzeklim. Šie darījumi ietver nomas saistību darījumus un izpildes izdevumu darījumus, kas ir grāmatoti.
+description: Šajā rakstā skaidrots, kā skatīt nomāta pamatlīdzekļa darbības. Šie darījumi ietver nomas saistību darījumus un izpildes izdevumu darījumus, kas ir grāmatoti.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: be11250a85d160aa71ab76af9cfdb0258fd7bf11
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 552b5a6044950c4dd7547a5239c1b3f7d355dbce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906418"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>Saistību, līdzekļu un izdevumu darījumu skatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā skatīt darījumus iznomātajam līdzeklim. Šie darījumi ietver nomas saistību darījumus un izpildes izdevumu darījumus, kas ir grāmatoti. Saistību un LLT līdzekļu uzskaites vērtības tiek izmantotas vairākos pārskatos. Tās izmanto arī, lai aprēķinātu korekcijas vērtības.
+Šajā rakstā skaidrots, kā skatīt nomāta pamatlīdzekļa darbības. Šie darījumi ietver nomas saistību darījumus un izpildes izdevumu darījumus, kas ir grāmatoti. Saistību un LLT līdzekļu uzskaites vērtības tiek izmantotas vairākos pārskatos. Tās izmanto arī, lai aprēķinātu korekcijas vērtības.
 
 ## <a name="liability-transactions"></a>Saistību darījumi
 

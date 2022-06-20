@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
-description: Šajā tēmā izskaidrots, kā iestatīt kārtulas, lai brīdinātu klientu apkalpošanas pārstāvjus par potenciāli krāpniecisku informāciju, kad tiek apstrādāti pasūtījumi. Var definēt īpašus kodus, kas tiek izmantoti, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus.
+description: Šajā rakstā ir izskaidrots, kā iestatīt nosacījumus, lai brīdinātu debitoru pakalpojumu pārstāvjus par potenciāli krāpniecisku informāciju, apstrādājot pasūtījumus. Var definēt īpašus kodus, kas tiek izmantoti, lai automātiski vai manuāli aizturētu aizdomīgus pasūtījumus.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885352"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Zvanu centra pārkāpumu brīdinājumu iestatīšana un darbs ar tiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt kritērijus un kārtulas, lai aizturētu potenciāli krāpnieciskus pārdošanas pasūtījumus turpmākai pārskatīšanai. Pārkāpumu pārbaudes līdzeklis tiek izmantots, lai noteiktu pārdošanas pasūtījumā ietvertās informācijas derīgumu. Ja, pamatojoties uz organizācijas pārkāpumu kritērijiem un kārtulām, pārdošanas pasūtījumā ietvertā informācija tiek atzīta par apšaubāmu, pasūtījumu var aizturēt turpmākai pārskatīšanai. Šajā gadījumā pasūtījumu nevar nosūtīt uz noliktavu turpmākai apstrādei, līdz aizturēšana ir dzēsta.
+Šajā rakstā ir izskaidrots, kā iestatīt kritērijus un noteikumus, lai aizturētu potenciāli krāpnieciskus pārdošanas pasūtījumus tālākai pārskatīšanai. Pārkāpumu pārbaudes līdzeklis tiek izmantots, lai noteiktu pārdošanas pasūtījumā ietvertās informācijas derīgumu. Ja, pamatojoties uz organizācijas pārkāpumu kritērijiem un kārtulām, pārdošanas pasūtījumā ietvertā informācija tiek atzīta par apšaubāmu, pasūtījumu var aizturēt turpmākai pārskatīšanai. Šajā gadījumā pasūtījumu nevar nosūtīt uz noliktavu turpmākai apstrādei, līdz aizturēšana ir dzēsta.
 
 > [!NOTE]
 > Šo līdzekli var lietot tikai ar pārdošanas pasūtījumu apstrādi Commerce zvanu centra kanālam.

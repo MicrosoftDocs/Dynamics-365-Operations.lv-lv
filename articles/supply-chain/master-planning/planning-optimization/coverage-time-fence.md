@@ -1,6 +1,6 @@
 ---
 title: Vajadzības periods
-description: Šajā tēmā ir aprakstīts, kā iestatīt vajadzību periodus, kad izmantojat plānošanas optimizāciju. Vajadzības periods norāda plānošanas diapazonu un ierobežojumu.
+description: Šajā rakstā ir aprakstīts, kā iestatīt vajadzību periodus, kad izmantojat plānošanas optimizāciju. Vajadzības periods norāda plānošanas diapazonu un ierobežojumu.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847938"
 ---
 # <a name="coverage-time-fences"></a>Vajadzības periods
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt *vajadzību periodus*, kad izmantojat plānošanas optimizāciju. Plānotāji var noteikt plānošanas diapazonu (vajadzības periodu dienās), kā arī izslēgt piedāvājumu un pieprasījumu, kas pārsniedz šo diapazonu. Tāpēc vajadzības laika periodi palīdz novērst "troksni", ko rada piedāvājuma ieteikumi, kas nav jā no valsts uz mēnešiem. Piemēri ietver nākamā gada prognozi un debitoru pasūtījumus, kas novietoti ārpus parastā izpildes laika.
+Šajā rakstā ir aprakstīts, kā iestatīt *vajadzību periodus*, kad izmantojat plānošanas optimizāciju. Plānotāji var noteikt plānošanas diapazonu (vajadzības periodu dienās), kā arī izslēgt piedāvājumu un pieprasījumu, kas pārsniedz šo diapazonu. Tāpēc vajadzības laika periodi palīdz novērst "troksni", ko rada piedāvājuma ieteikumi, kas nav jā no valsts uz mēnešiem. Piemēri ietver nākamā gada prognozi un debitoru pasūtījumus, kas novietoti ārpus parastā izpildes laika.
 
 Vajadzības periods ir dienu skaits pēc šodienas datuma (vai precīzāk, datums, kad izpildāt plānošanu), kurā piegāde un pieprasījums tiek izslēgts. Lai palīdzētu izvairīties no kavēšanās, jums jānodrošina, ka vajadzības periods ir garāks par kopējo izpildes laiku. Sistēmas noklusējuma vērtība ir 100 dienas.
 

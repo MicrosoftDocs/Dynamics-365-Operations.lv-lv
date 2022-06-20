@@ -1,6 +1,6 @@
 ---
 title: Klastera pozīcija pilna
-description: Šajā tēmā ir sniegta informācija par līdzekli Pilna klastera pozīcija. Šis līdzeklis piedāvā alternatīvu stingrākai darba pārtraukuma noteikumu izpildei, ja tiek izmantota klasteru izdošana, jo tas pieļauj lielāku kļūdu robežu konteineru vai tvertņu tilpuma ierobežojumos.
+description: Šajā rakstā ir sniegta informācija par klastera pozīcijas pilnu līdzekli. Šis līdzeklis piedāvā alternatīvu stingrākai darba pārtraukuma noteikumu izpildei, ja tiek izmantota klasteru izdošana, jo tas pieļauj lielāku kļūdu robežu konteineru vai tvertņu tilpuma ierobežojumos.
 author: Mirzaab
 ms.date: 08/25/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857146"
 ---
 # <a name="cluster-position-full"></a>Klastera pozīcija pilna
 
@@ -30,9 +30,9 @@ Līdzeklis *Pilna klastera pozīcija* piedāvā alternatīvu stingrākai darba p
 
 ## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Ieslēgt vai izslēgt klastera pozīcijas pilnu funkciju
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *sistēmai jābūt* ieslēgtai pilnai klastera pozīcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot klastera pozīcijas pilnu funkciju līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, *sistēmai jābūt* ieslēgtai pilnai klastera pozīcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot klastera pozīcijas pilnu funkciju līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-## <a name="setup"></a>Iestatīšana
+## <a name="setup"></a>Iestatīt
 
 Šajā sadaļā ir sniegti norādījumi, un piemērs, kas parāda, kā iestatīt un izmantot līdzekli *Pilna klastera pozīcija* .
 

@@ -1,6 +1,6 @@
 ---
 title: Automātiski lietot priekšapmaksu kreditoru rēķiniem
-description: Šajā tēmā aprakstīta iespēja automātiski piemērot priekšapmaksas kreditoru rēķiniem.
+description: Šajā rakstā ir aprakstīta iespēja automātiski piemērot priekšapmaksas kreditoru rēķiniem.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900076"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Automātiski lietot priekšapmaksu kreditoru rēķiniem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta iespēja automātiski piemērot priekšapmaksas kreditoru rēķiniem. Priekšapmaksu var izveidot pirkšanas pasūtījumam kā daļu no pirkšanas līguma. Pēc kreditora rēķina saņemšanas priekšapmaksu var izmantot, lai nokārtotu kreditoru rēķinus. Jaunā funkcija ļauj sistēmai automātiski izmantot pirkšanas pasūtījumu numurus kreditora rēķinā, lai iegūtu atbilstošas priekšapmaksas, kad kreditora rēķins tiek importēts.
+Šajā rakstā ir aprakstīta iespēja automātiski piemērot priekšapmaksas kreditoru rēķiniem. Priekšapmaksu var izveidot pirkšanas pasūtījumam kā daļu no pirkšanas līguma. Pēc kreditora rēķina saņemšanas priekšapmaksu var izmantot, lai nokārtotu kreditoru rēķinus. Jaunā funkcija ļauj sistēmai automātiski izmantot pirkšanas pasūtījumu numurus kreditora rēķinā, lai iegūtu atbilstošas priekšapmaksas, kad kreditora rēķins tiek importēts.
 
 Ja tiek atrastas un lietotas priekšapmaksas, rindas tiek pievienotas esošajām rēķina rindām, lai piemērotu priekšapmaksas. Priekšapmaksas rindas nekad netiek uzskatītas rēķinu salīdzināšanas procesa laikā.
 

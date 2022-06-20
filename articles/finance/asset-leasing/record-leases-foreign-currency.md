@@ -1,6 +1,6 @@
 ---
 title: Nomu reģistrēšana ārvalstu valūtās
-description: Šajā tēmā skaidrots, kā reģistrēt nomu valūtā, kas nav uzskaites vai pārskata valūta.
+description: Šajā rakstā ir izskaidrots, kā ierakstīt nomas naudu valūtā, kas nav uzskaites vai pārskata valūta.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7da4ddb5939d4f950eb7f8c39a9c56edb2ec4db9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878107"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Nomu reģistrēšana ārvalstu valūtās
 
 [!include [banner](../includes/banner.md)]
 
-Līdzekļu līzinga konti nomai, kas ir valūtās, kas nav uzskaites valūta vai pārskata valūta, ir izveidoti **Virsgrāmatas iestatīšanas** lapā. Visas nomas jāievada to darījumu valūtā. Citiem vārdiem sakot, tie jāievada valūtā, kas norādīta nomas līgumā. Šajā tēmā skaidrots, kā reģistrēt nomu valūtā, kas nav uzskaites vai pārskata valūta.
+Līdzekļu līzinga konti nomai, kas ir valūtās, kas nav uzskaites valūta vai pārskata valūta, ir izveidoti **Virsgrāmatas iestatīšanas** lapā. Visas nomas jāievada to darījumu valūtā. Citiem vārdiem sakot, tie jāievada valūtā, kas norādīta nomas līgumā. Šajā rakstā ir izskaidrots, kā ierakstīt nomas naudu valūtā, kas nav uzskaites vai pārskata valūta.
 
 Ja ievadāt nomu ārvalstu valūtā, LLT tiek nolietots gan uzskaites valūtā, gan pārskata valūtā. Šīs valūtas tiek konfigurētas lapā **Virsgrāmatas iestatījumi**. Šo darbību izmanto arī pamatlīdzekļos. Kad jūs izveidojat nomu ārzemju valūtā, laukā **Valūta** atlasiet darījumu valūtu.
 

@@ -1,6 +1,6 @@
 ---
 title: Pakalpojumu vides
-description: Šajā tēmā ir sniegta informācija par elektronisko rēķinu izrakstīšanas pakalpojumu vidēm un skaidrots, kā tās iestatīt.
+description: Šajā rakstā ir sniegta informācija par pakalpojumu vidi elektronisko rēķinu izrakstīšanai un skaidrots, kā tās iestatīt.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901252"
 ---
 # <a name="service-environments"></a>Pakalpojumu vides
 
@@ -37,7 +37,7 @@ Ir iespējams izveidot tik daudz pakalpojumu vides, cik nepieciešams. Visas jū
 
 Pakalpojuma vides ir jāizveido un jāuztur regulēšanas konfigurācijas pakalpojumā (RCS). Pēc tam, kad tās ir gatavas, tās ir jāpublicē Elektronisko rēķinu izrakstīšanas pakalpojumā. Publicēšanas process sūta pakalpojuma vides parametrus no RCS instances uz elektronisko rēķinu izrakstīšanas pakalpojumu.
 
-Ja publicēšanas process netiek pabeigts pēc jaunas pakalpojumu vides izveides vai esošas pakalpojumu vides pielāgošanas (piemēram, Microsoft Azure pievienojot vai noņemot lietotājus vai Atslēgas Lietotāja noslēpumus), izmaiņas nebūs spēkā. Tikai publicētām vidēm var piekļūt no Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.
+Ja publicēšanas process netiek pabeigts pēc jaunas pakalpojumu vides izveides vai esošas pakalpojumu vides pielāgošanas (piemēram, Microsoft Azure pievienojot vai noņemot lietotājus vai Atslēgas Lietotāja noslēpumus), izmaiņas nebūs spēkā. Dynamics 365 Finanses vai var piekļūt tikai publicētām vidēm Dynamics 365 Supply Chain Management.
 
 ## <a name="service-environment-statuses"></a>Pakalpojumu vides statusi
 

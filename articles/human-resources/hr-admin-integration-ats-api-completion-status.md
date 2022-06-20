@@ -1,6 +1,6 @@
 ---
 title: Izpildes statuss
-description: Šajā tēmā aprakstīta opcija Izpildes statuss, kas iestatīta programmai Dynamics 365 Human Resources .
+description: Šajā rakstā ir aprakstīta pabeigšanas statusa opciju kopa Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da91084d30873b79033d789beab829da9fbdb010
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 32575dfdd9bcd61b8a16bb544a9e7906ec96eaa1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880572"
 ---
 # <a name="completion-status"></a>Izpildes statuss
 
@@ -27,7 +27,7 @@ ms.locfileid: "8065550"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīta opcija Izpildes statuss, kas iestatīta programmai Dynamics 365 Human Resources .
+Šajā rakstā ir aprakstīta pabeigšanas statusa opciju kopa Dynamics 365 Human Resources.
 
 Fiziskais nosaukums: mshr_hcmcompletionstatus
 

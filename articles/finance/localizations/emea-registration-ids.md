@@ -1,6 +1,6 @@
 ---
 title: Reģistrācijas ID
-description: Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu.
+description: Šajā rakstā ir sniegta informācija par reģistrācijas DATU iestatīšanu un lietojot.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883080"
 ---
 # <a name="registration-ids"></a>Reģistrācijas ID
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par reģistrācijas ID iestatīšanu un lietošanu.
+Šajā rakstā ir sniegta informācija par reģistrācijas DATU iestatīšanu un lietojot.
 
-Daudzām valstīm un reģioniem ir atšķirīgi noteikumi un prasības par ID reģistrācijas numuriem. Šajā tēmā ir sniegts apskats par atbalstīto reģistrācijas tipu nepieciešamajiem iestatījumiem un apstrādi personām dažādās Eiropas valstīs/reģionos. Visās valstīs/reģionos ir to prasības par dažādu valstij specifisku funkcionalitāšu atbalstu saistībā ar dažādu valsts iestāžu piešķirtajiem reģistrācijas numuriem. Reģistrācijas numuri ir, piemēram, sociālās apdrošināšanas numurs (SAN), nodokļa identifikācijas kods (NIK) un Eiropas PVN identifikācija (ES PVN ID). Šis līdzeklis sniedz vienotu struktūru visām valstīm visos reģionos, ņemot vērā valstij specifiskās prasības, kādas pastāv noteiktās Eiropas valstīs. Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tiek izmantota reģistrācijas ID iestatīšanai un apstrādei.
+Daudzām valstīm un reģioniem ir atšķirīgi noteikumi un prasības par ID reģistrācijas numuriem. Šajā rakstā sniegts pārskats par nepieciešamajiem iestatījumiem un atbalstīto reģistrācijas tipu apstrādi pusēm dažādās Eiropas valstīs/reģionos. Visās valstīs/reģionos ir to prasības par dažādu valstij specifisku funkcionalitāšu atbalstu saistībā ar dažādu valsts iestāžu piešķirtajiem reģistrācijas numuriem. Reģistrācijas numuri ir, piemēram, sociālās apdrošināšanas numurs (SAN), nodokļa identifikācijas kods (NIK) un Eiropas PVN identifikācija (ES PVN ID). Šis līdzeklis sniedz vienotu struktūru visām valstīm visos reģionos, ņemot vērā valstij specifiskās prasības, kādas pastāv noteiktās Eiropas valstīs. Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tiek izmantota reģistrācijas ID iestatīšanai un apstrādei.
 
 ## <a name="registration-type-creation"></a>Reģistrācijas tipa izveidošana
 Lai varētu ievadīt reģistrācijas ID, ir jāiestata reģistrācijas tipi dažādajiem reģistrācijas numuru tipiem, kas katrai pusei ir jāievēro. Dodieties uz lapu **Organizācijas administrēšana** &gt; **Globālā adrešu grāmata** &gt; **Reģistrācijas tipi** &gt; **Reģistrācijas tipi**, lai izveidotu un pārvaldītu reģistrācijas tipus kreditoriem, debitoriem, darbiniekiem un juridiskajām personām dažādās valstīs/reģionos.
@@ -51,7 +51,7 @@ Reģistrācijas kategorija ir valsts/reģiona reģistrācijas identifikators, ka
 |-----------------------|----------------|
 | Reģistrācijas tips     | Reģistrācijas tips konkrētajā valstī/reģionā.|
 | Iekļaut         | Ierobežojuma veids, kas attiecas uz nodokļa reģistrācijas tipu: Nav, Persona, Organizācija.|
-| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Šajā tēmā tālāk ir attēlots pilns atbalstīto kategoriju saraksts. |
+| Reģistrācijas kategorija | Unikālais reģistrācijas identifikators, kurš ir apstiprināts lietošanai attiecīgajā valstī. Pilns atbalstīto kategoriju saraksts ir parādīts tālāk šajā rakstā. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Ievadīt reģistrācijas ID globālās adrešu grāmatas ierakstiem
 
@@ -76,7 +76,7 @@ Globālajā adrešu grāmatā (global address book — GAB) ir apkopota inform�
 Iespēja meklēt puses ierakstus, pamatojoties uz reģistrācijas ID, ir pieejama ar pusi, juridisko personu, kreditoru, debitoru un darbinieku saistītajās formās. Noklikšķiniet uz **Reģistrācijas ID meklēšana**, lai atvērtu lapu **Reģistrācijas ID meklēšanas kritēriji**. Norādiet meklēšanas kritērijus un noklikšķiniet uz **Atrast**. Sistēma parāda atlasītos ierakstus no globālās adrešu grāmatas un saistītos pušu ierakstu tipus.
 
 ## <a name="supported-registration-categories"></a>Atbalstītās reģistrācijas kategorijas
-Nākamajā tabulā ir uzskaitīti atbalstītie reģistrācijas veidi. Ja pārzināt reģistrācijas ID laukus programmā Microsoft Dynamics AX 2012, šajā tabulā ir norādīta arī šo lauku saistība ar Dynamics 365 Finance reģistrācijas kategorijām.
+Nākamajā tabulā ir uzskaitīti atbalstītie reģistrācijas veidi. Ja jums ir zināmi Microsoft Dynamics AX 2012 laukus reģistrācijas veidlapas, šī tabula arī kartē šos laukus uz Dynamics 365 Finanšu reģistrācijas kategorijām.
 
 | Finanšu reģistrācijas kategorija         |Valsts/reģions  | Dynamics AX 2012 termins/lauks|
 |---------------------------------------------------------------|---------------------|---------------------------------|

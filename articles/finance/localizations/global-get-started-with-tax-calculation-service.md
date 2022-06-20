@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar nodokļu aprēķinu
-description: Šajā tēmā paskaidrots, kā iestatīt Nodokļu aprēķinu.
+description: Šajā rakstā skaidrots, kā iestatīt nodokļu aprēķinu.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855288"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā sākt darbu ar Nodokļu aprēķinu. Šīs tēmas Microsoft Dynamics sadaļās ir vadītas augsta līmeņa dizaina un konfigurācijas darbības pakalpojumā Lifecycle Services (LCS), regulēšanas konfigurācijas pakalpojums (RCS), Dynamics 365 Finanses un Dynamics 365 Supply Chain Management. 
+Šajā rakstā ir sniegta informācija, kā sākt darbu ar nodokļu aprēķinu. Šī raksta sadaļās Microsoft Dynamics ir vadītas augsta līmeņa dizaina un konfigurācijas darbības pakalpojumā Lifecycle Services (LCS), regulēšanas konfigurācijas pakalpojums (RCS), Dynamics 365 Finanses un Dynamics 365 Supply Chain Management. 
 
 Uzstādīšana sastāv no trim galvenajiem soļiem.
 
@@ -77,11 +77,11 @@ Kad šīs darbības pabeigtas, šie iestatījumi no RCS tiek automātiski sinhro
 - PVN grupas
 - Krājumu PVN grupas
 
-Pārējās šīs tēmas sadaļas sniedz detalizētāku konfigurācijas soļus.
+Pārējās šī raksta sadaļas sniedz detalizētāku konfigurācijas darbību aprakstu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītiem šādiem priekšnosacījumi:<!--TO HERE-->
+Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir jāizpilda šādi priekšnosacījumi:<!--TO HERE-->
 
 - Jums jābūt piekļuvei LCS kontam un jābūt izvietotam LCS projektam ar 2. vai augstākas pakāpes vidi, kurā darbojas Dynamics 365 versija 10.0.21 vai jaunāka.
 - Jums ir jāizveido RCS vide jūsu organizācijai, un jums ir jābūt piekļuvei savam kontam. Papildinformāciju par to, kā izveidot RCS vidi, skatiet šeit: [Regulatory Configuration Service pārskats](rcs-overview.md).
@@ -212,7 +212,7 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
     | Pārdošana            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Ja nodokļu dokumenta rindās noklusētā PVN grupa ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šīs tēmas [izpildlaika](#runtime) dizaina sadaļā.
+    > Ja nodokļu dokumenta rindās noklusētā PVN grupa ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šī raksta [izpildlaika](#runtime) dizaina sadaļā.
 
 22. Cilnē **Krājumu nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļu koda noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Krājumu nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota krājumu PVN grupa transakciju rindā.
 
@@ -224,7 +224,7 @@ Pirms varat izpildīt atlikušās procedūras šajā tēmā, jābūt izpildītie
     | D0003     | Samazināts        |
 
     > [!NOTE]
-    > Ja noklusētā krājumu PVN grupa apliekamā dokumenta rindās ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šīs tēmas [izpildlaika](#runtime) dizaina sadaļā.
+    > Ja noklusētā krājumu PVN grupa apliekamā dokumenta rindās ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šī raksta [izpildlaika](#runtime) dizaina sadaļā.
 
     Papildinformāciju par to, kā nodokļu aprēķinā tiek noteikti nodokļu kodi, skatiet sadaļā [PVN grupas un krājuma PVN grupas noteikšanas loģika](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ Iestatījumus šajā sadaļā veic juridiska persona. Jums tas jākonfigurē kat
 2. Cilnē **Vispārīgi** iestatiet šādus laukus:
 
     - **Iespējot nodokļu aprēķina pakalpojumu** — atzīmējiet šo izvēles rūtiņu, lai iespējotu nodokļu aprēķinu juridiskajai personai. Ja tas nav iespējots pašreizējai juridiskajai personai, juridiskā persona turpinās izmantot esošo nodokļu programmu, lai noteiktu un aprēķinātu nodokli.
-    - **Līdzekļa iestatījumi** — atlasiet publicētu nodokļu līdzekļu iestatījumus un juridiskās personas versiju. Papildinformāciju par publicēta nodokļu līdzekļa iestatīšanu un pabeigšanu skatiet šīs tēmas iepriekšējā sadaļā.
+    - **Līdzekļa iestatījumi** — atlasiet publicētu nodokļu līdzekļu iestatījumus un juridiskās personas versiju. Plašāku informāciju par to, kā iestatīt un izpildīt publicētā nodokļa funkciju, skatiet šī raksta iepriekšējā sadaļā.
     - **Biznesa process** – atlasiet iespējošanai biznesa procesus.
 
 3. Cilnē **Aprēķins** definējiet juridiskās personas paredzamo noapaļošanas kārtulu. Papildinformāciju par noapaļošanas loģiku skatiet sadaļā [Nodokļu aprēķina noapaļošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2166988).

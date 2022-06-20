@@ -1,6 +1,6 @@
 ---
 title: Skatīt un pārvaldīt adreses izmaiņas
-description: Šajā tēmā izskaidrots, kā var skatīt un pārvaldīt adreses izmaiņas Dynamics 365 Human Resources.
+description: Šajā rakstā skaidrots, kā skatīt un pārvaldīt adreses izmaiņas Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899590"
 ---
 # <a name="view-and-manage-address-changes"></a>Skatīt un pārvaldīt adreses izmaiņas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695849"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā skaidrots, kā var skatīt un pārvaldīt adrešu izmaiņas lapā Rediģēt personas datus (**kuru atverat no darbinieku pašapkalpošanās** darbvietas **·**) **vai** darbinieku informācijas lapā Dynamics 365 Human Resources.
+Šajā rakstā ir izskaidrots, kā var skatīt un pārvaldīt adrešu izmaiņas lapā Rediģēt personas datus (**kuru atverat no darbinieku pašapkalpošanās** darbvietas **·**) **vai** darbinieku informācijas lapā Dynamics 365 Human Resources.
 
 Daudzas organizācijas vēlas, lai darbinieki varētu pārvaldīt savu personīgo informāciju, izmantojot pašapkalpošanās pieredzi. Varat ļaut lietotājiem atjaunināt savu adresi **Darbinieku pašapkalpošanās** darbvietā. Pēc tam varat pārraudzīt šīs izmaiņas **Personāla vadības** darbvietā. Lai izmantotu šo funkciju, ir jānorāda dienu skaits, cik ilgi vēlaties skatīt izmaiņas **Personāla vadības parametru** lapā.
 

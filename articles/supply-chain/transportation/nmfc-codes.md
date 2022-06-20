@@ -1,6 +1,6 @@
 ---
 title: Valsts autotransporta kravu klasifikācijas (National Motor Freight Classification — NMFC) kodi
-description: Šajā tēmā aprakstīts, kā strādāt ar Valsts autotransporta kravu klasifikācijas (National Motor Freight Classification — NMFC) kodiem programmā Microsoft Dynamics 365 Supply Chain Management
+description: Šajā rakstā ir aprakstīts, kā strādāt ar Valsts autotransporta kravu klasifikācijas (National Motor Freight Classification — NMFC) kodiem programmā Microsoft Dynamics 365 Supply Chain Management
 author: Weijiesa
 ms.date: 04/22/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5127e132a8c06815e9ecd11338c729cd8bb87f18
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893270"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>Valsts autotransporta kravu klasifikācijas (National Motor Freight Classification — NMFC) kodi
 
@@ -31,7 +31,7 @@ NMFC kods ir saistīts ar katru no māzāk par krāvu (LTL) piegādes krājumu. 
 - Šī klasifikācija var būt būtiska uzņēmumam, jo tā tiek izmantota, lai noteiktu dotās kravas izmaksas.
 - Jūsu uzņēmums var noteikt LTL loģistikas un transportēšanas uzņēmuma rentabilitāti.
 
-Šajā tēmā ir aprakstīts, kā strādāt ar NMFC kodiem programmā Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, kā strādāt ar NmFC kodiem programmā Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

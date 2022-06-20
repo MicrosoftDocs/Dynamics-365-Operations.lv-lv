@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources infrastruktūras sapludināšana — laidiena 10.0.25 atjauninājums
-description: Šajā tēmā ir sniegta informācija par Microsoft Dynamics 365 Human Resources izlaidi 10.0.25, kas atved pirmo spēju kopumu infrastruktūras saplūdē.
+description: Šajā rakstā ir sniegta informācija par Microsoft Dynamics 365 Human Resources release 10.0.25, kas sniedz pirmo spēju kopumu infrastruktūras saplūdē.
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6be51c894d801ca0e7d211f1a6aeff0d68727662
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868088"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources infrastruktūras sapludināšana — laidiena 10.0.25 atjauninājums
 

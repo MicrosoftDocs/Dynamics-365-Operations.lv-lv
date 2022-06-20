@@ -1,6 +1,6 @@
 ---
 title: Jaunas transportēšanas pārvaldības programmas izveide
-description: Šajā tēmā ir aprakstīts, kā izveidot jaunu transportēšanas pārvaldības programu Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīts, kā izveidot jaunu transportēšanas pārvaldības programmu Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857262"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Jaunas transportēšanas pārvaldības programmas izveide
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot jaunu transportēšanas pārvaldības programu Dynamics 365 Supply Chain Management. 
+Šajā rakstā ir aprakstīts, kā izveidot jaunu transportēšanas pārvaldības programmu Dynamics 365 Supply Chain Management. 
 
 Transportēšanas pārvaldības (TMS) programmas definē loģiku, ko izmanto, lai izveidotu un apstrādātu transportēšanas likmes transportēšanas pārvaldības procesā. Supply Chain Management nodrošina vairākus dažādus programmas tipus, kas aprēķina dažādus parametrus, piemēram, likmes, tranzīta laikus un zonu skaitu, kas tiks šķērsotas tranzīta laikā. Šajā rakstā skaidrots, kā izmantot Microsoft Visual Studio izstrādes vidi kopā ar Supply Chain Management izstrādes rīkiem, lai izveidotu un izvietotu jaunu TMS programmu, un tad kā iestatīt programmu Operācijās. Plašāku informāciju par programmām skatiet [Transportēšanas pārvaldības programmas](transportation-management-engines.md).
 

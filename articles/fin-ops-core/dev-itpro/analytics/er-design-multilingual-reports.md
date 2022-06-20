@@ -1,8 +1,8 @@
 ---
 title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
-description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
+description: Šajā rakstā skaidrots, kā var lietot elektronisko pārskatu (ER) iezīmes, lai projektētu un ģenerētu daudzvalodu pārskatus.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845749"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -142,6 +142,9 @@ Ja jūs konfigurējat ER formātu šādā veidā, tad pārskats tiek ģenerēts,
 
 Ja norādītajai etiķetei nav tulkojuma tā formāta izpildes konteksta valodai, tā vietā tiek izmantots etiķetes teksts EN-US valodā.
 
+> [!TIP]
+> Varat izmantot MAPI un **atšķirīgus** **FAILA** komponentu tipus rediģējamā ER formātā, lai norādītu, kā tiek ģenerēts izejošais fails. Lai nosauktu ģenerētā faila nosaukumu, konfigurējiet [ER](er-formula-language.md) izteiksmi komponenta **faila** nosaukuma parametram. Konfigurētajā izteiksmē varat lietot iezīmes. Tā kā **faila nosaukuma parametrs** pēc noklusējuma ir valodas diagnostika, visu iezīmju teksts, uz ko atsaucaties šajā izteiksmē, izpildlaikā tiek pakļauts noklusētajā EN-US valodā. Taču versijā 10.0.28 **un jaunākā versijā varat iespējot parametru Lietot valodas izvēli izteiksmes līdzekli 'Faila** nosaukums'. Aprēķinātā **faila** nosaukuma izteiksme **ņem vērā** valodas preferences parametru.
+
 ## <a name="language"></a>Valoda
 
 ER atbalsta dažādus veidus, lai norādītu valodu ģenerētajam pārskatam. Cilnes **Formāts** laukā **Valodas preferences** varat atlasīt šādas vērtības:
@@ -198,7 +201,7 @@ ER komponenta konfigurācija tiek veikta ar to ER konfigurācijas melnraksta ver
 
 ![ER konfigurācijas lapa, kas piedāvā piekļuvi konfigurācijas versijai Melnraksta statusā.](./media/er-multilingual-labels-configurations.png)
 
-Kā aprakstīts iepriekš šajā tēmā, jūs varat pievienot nepieciešamās ER etiķetes rediģējamā ER komponentā. Šādā veidā var norādīt ER etiķešu tekstu EN-US valodā. Pēc tam varat eksportēt ER komponenta etiķetes, izmantojot iebūvēto ER funkciju. Atlasiet to ER konfigurācijas melnraksta versiju, kas satur rediģējamo ER komponentu un pēc tam atlasiet **Apmainīt \> Eksporta etiķetes**.
+Kā aprakstīts iepriekš šajā rakstā, rediģējamam ER komponentam var pievienot nepieciešamās ER iezīmes. Šādā veidā var norādīt ER etiķešu tekstu EN-US valodā. Pēc tam varat eksportēt ER komponenta etiķetes, izmantojot iebūvēto ER funkciju. Atlasiet to ER konfigurācijas melnraksta versiju, kas satur rediģējamo ER komponentu un pēc tam atlasiet **Apmainīt \> Eksporta etiķetes**.
 
 ![ER konfigurācijas lapa, kas ļauj eksportēt ER etiķetes no atlasītās konfigurācijas versijas.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ ER versijas kontrolē etiķešu piešķiri jebkuram atribūtam ER komponentā. E
 
 Iebūvētā [LISTOFFIELDS](er-functions-list-listoffields.md) ER funkcija var piekļūt ER etiķetēm, kas ir konfigurētas dažām ER komponentu vienībām.
 
-Kā aprakstīts iepriekš šajā tēmā, katra [modeļa](#LinkModelEnum) vai [formāta](#LinkFormatEnum) ER uzskaitījuma vērtības **Etiķetes** un **Apraksta** atribūti var tikt saistīti ar ER etiķeti, kas ir pieejami atbilstošajā ER komponentā. Varat konfigurēt ER izteiksmi, kur tiek izsaukta funkcija **LISTOFFIELDS**, lietojot ER uzskaitījumu kā argumentu. Šī izteiksme atgriež sarakstu, kurā ir ietverts ieraksts katrai ER uzskaitījuma vērtībai, kas ir definēta kā šīs funkcijas arguments. Katram ierakstam ir tāda ER etiķetes vērtība, kas ir saistīta ar ER uzskaitījuma vērtību:
+Kā aprakstīts iepriekš šajā rakstā, katra modeļa vai formāta ER uzskaitījuma vērtības etiķetes un apraksta atribūti var būt saistīti ar ER etiķeti, **·** **·**[...](#LinkModelEnum)[kas](#LinkFormatEnum) ir pieejama atbilstošajā ER komponentā. Varat konfigurēt ER izteiksmi, kur tiek izsaukta funkcija **LISTOFFIELDS**, lietojot ER uzskaitījumu kā argumentu. Šī izteiksme atgriež sarakstu, kurā ir ietverts ieraksts katrai ER uzskaitījuma vērtībai, kas ir definēta kā šīs funkcijas arguments. Katram ierakstam ir tāda ER etiķetes vērtība, kas ir saistīta ar ER uzskaitījuma vērtību:
 
 - ER etiķetes vērtība, kas ir saistīta ar **Etiķetes** atribūtiem tiek saglabāta atgrieztā ieraksta **Etiķetes** laukā.
 - ER etiķetes vērtība, kas ir saistīta ar **Apraksta** atribūtiem tiek saglabāta atgrieztā ieraksta **Apraksta** laukā.

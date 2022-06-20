@@ -1,6 +1,6 @@
 ---
 title: Tukšs nodokļu līdzekļu saraksts nodokļu aprēķina parametros
-description: Šajā tēmā skaidrots, kā novērst problēmu, kad nodokļu funkciju saraksts lapā Nodokļu aprēķina parametri ir tukšs.
+description: Šajā rakstā ir izskaidrots, kā novērst problēmu, kad nodokļu līdzekļu saraksts lapā Nodokļu aprēķina parametri ir tukšs.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869957"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Tukšs nodokļu līdzekļu saraksts nodokļu aprēķina parametros
 
@@ -46,7 +46,7 @@ Lai atrastu nomnieka ID jūsu finanšu videi, izpildiet tās pašas darbības, k
 
 ## <a name="resolution"></a>Novēršana
 
-Ja abi nomnieku šķiro, jūs saskaraties ar šajā tēmā aprakstīto problēmu. Ja tās ir vienādas, jūs saskaraties ar nesaistītu problēmu. Šajā gadījumā ieteicams sazināties ar Microsoft atbalsta dienestu.
+Ja abi nomnieku šķiro, jūs saskaraties ar šajā rakstā aprakstīto problēmu. Ja tās ir vienādas, jūs saskaraties ar nesaistītu problēmu. Šajā gadījumā ieteicams sazināties ar Microsoft atbalsta dienestu.
 
 ### <a name="solution-1"></a>1. risinājums
 

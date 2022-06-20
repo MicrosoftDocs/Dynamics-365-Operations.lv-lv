@@ -1,6 +1,6 @@
 ---
 title: Adreses pievienošana pakalpojuma pasūtījumam
-description: Šajā tēmā aprakstīts, kā pievienot debitora adresi pakalpojuma pasūtījumam.
+description: Šajā rakstā ir aprakstīts, kā pievienot debitora adresi pakalpojuma pasūtījumam.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844740"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Adreses pievienošana pakalpojuma pasūtījumam    
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā aprakstīts, kā pievienot debitora adresi pakalpojuma pasūtījumam. Kad tiek veidots pakalpojuma pasūtījums, adresāta informācija tiek pārsūtīta no projekta, kuram šis pakalpojuma pasūtījums ir piesaistīts. Taču jūs varat atlasīt citu atrašanās vietu, izvēloties kādu no adresēm, kas jau ir ievadītas programmā Microsoft Dynamics AX debitoriem, kreditoriem, vietām, noliktavām, pakalpojumu pasūtījumiem un projektiem.
+Šajā rakstā ir aprakstīts, kā pievienot debitora adresi pakalpojuma pasūtījumam. Kad tiek veidots pakalpojuma pasūtījums, adresāta informācija tiek pārsūtīta no projekta, kuram šis pakalpojuma pasūtījums ir piesaistīts. Taču jūs varat atlasīt citu atrašanās vietu, izvēloties kādu no adresēm, kas jau ir ievadītas programmā Microsoft Dynamics AX debitoriem, kreditoriem, vietām, noliktavām, pakalpojumu pasūtījumiem un projektiem.
 
 Varat arī izveidot jaunu adresi. Pēc noklusējuma jaunā adrese tiek pārsūtīta uz projektu. Tomēr var norādīt, ka jaunā adrese ir derīga tikai šai pakalpojuma instancei. Šajā gadījumā jaunā adrese netiek pārsūtīta uz projektu.
 

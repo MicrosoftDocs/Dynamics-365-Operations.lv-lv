@@ -1,6 +1,6 @@
 ---
 title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 19. aprīlis
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 19. aprīli.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 19. aprīli.
 author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846305"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 19. aprīlis
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā Dynamics 365 Human Resources.
 
 Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 Šajā laidienā ir iekļauti tālāk minētie kļūdu labojumi.
 
 > [!NOTE]
-> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo tēmu, lai iekļautu kļūdu labojumus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo rakstu, lai ietvertu kļūdu labojumus, kas to izlaboja būvējuma laikā pēc šī raksta sākotnējā publicēšanas.
 
-| Problēmas numurs | Izsniegt |  Apraksts |
+| Problēmas numurs | Problēma |  Apraksts |
 | --- | --- | --- |
 | 552164 | **Saglabāts skats** nedarbojas **Aarbinieku pašapkalpošanās > Atvērtie kursi** kursiem, kas ietver darba kārtību | Ja atvērtos kursos (ESS) ir izmantots saglabāts skats, un vienam no kursiem ir pievienota darba kārtība, šis skats vairs nerādīs vairākas rindas šim kursam |
 | 560614 | **Atvieglojumi > Dzīves notikumu opcijas** rāda neatbilstības rīka padoma dokumentācijā un kodu uzvedībā. | Atjauninātie rīku padomi **Dzīves notikumu opcijās**, lai parādītu pareizu uzvedību. |

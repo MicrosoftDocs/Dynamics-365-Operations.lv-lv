@@ -1,6 +1,6 @@
 ---
 title: Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
-description: Šajā tēmā izskaidrots, kā atkļūdot izpildītā ER formāta datu avotus, lai labāk saprastu konfigurēto datu plūsmu un transformāciju.
+description: Šajā rakstā skaidrots, kā var atkļūdot izpildīta ER formāta datu avotus, lai labāk saprastu konfigurēto datu plūsmu un pārvēršanu.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884233"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
 
@@ -34,7 +34,7 @@ Dažkārt ģenerētās izvades dati izskatās citādi nekā tie paši dati progr
 
 Lai ieslēgtu datu avota atkļūdošanas līdzekli, iestatiet opciju **Iespējot datu atkļūdošanu, kad formāts tiek palaists** uz **Jā** ER lietotāja parametros. Pēc tam varat sākt datu avota atkļūdošanu, kamēr tiek palaists ER formāts, lai izveidotu izejošos dokumentus. Jūs varat arī izmantot opciju **Sākt atkļūdošanu**, lai iniciētu datu avota atkļūdošanu ER formātā, kas ir konfigurēts [ER operāciju veidotājā](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Šī tēma sniedz vadlīnijas datu avota atkļūdošanas uzsākšanai izpildītiem ER formātiem. Tajā ir paskaidrots, kā informācija var palīdzēt saprast datu plūsmu un datu transformācijas. Šīs tēmas piemēri izmanto biznesa procesu kreditoru maksājumu apstrādei.
+Šajā rakstā ir sniegti norādījumi par datu avota atkļūdošanas sākšanu izpildītajiem ER formātiem. Tajā ir paskaidrots, kā informācija var palīdzēt saprast datu plūsmu un datu transformācijas. Šajā rakstā sniegti piemēri izmanto biznesa procesu kreditoru maksājumu apstrādei.
 
 ## <a name="limitations"></a>Ierobežojumi
 
@@ -49,7 +49,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-- Lai izpildītu šīs tēmas piemērus, jums ir jābūt piekļuvei vienai no šādām [lomām](../sysadmin/tasks/assign-users-security-roles.md):
+- Lai aizpildītu piemērus šajā rakstā, jums ir jābūt piekļuvei vienai no šīm [lomām](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Elektroniskā pārskata izstrādātājs
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -57,12 +57,12 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 - Uzņēmumam jābūt iestatītam uz **DEMF**.
 
-- Izpildiet šīs tēmas [1. papildinājumā](#appendix1) norādītās darbības, lai lejupielādētu Microsoft ER risinājuma komponentus, kas nepieciešami, lai apstrādātu kreditoru maksājumus.
-- Izpildiet šīs tēmas [2. papildinājumā](#appendix2) norādītās darbības, lai sagatavotu kreditoru maksājumu parādu apstrādi, izmantojot ER risinājumu, ko lejupielādēsit.
+- Izpildiet šī raksta [1](#appendix1) . pielikumā norādītās darbības, lai lejupielādētu Microsoft ER risinājuma komponentus, kas nepieciešami kreditoru maksājumu apstrādātu.
+- Izpildiet šī raksta [2](#appendix2) . pielikuma darbības, lai sagatavotu Kreditoru maksājumu apstrādei, izmantojot ER risinājumu, ko lejupielādēsiet.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Apstrādāt kreditora maksājumu, lai iegūtu maksājuma failu
 
-1. Izpildiet šīs tēmas [3. papildinājumā](#appendix3) norādītās darbības, lai apstrādātu kreditoru maksājumus.
+1. Izpildiet šī raksta [3.](#appendix3) pielikuma darbības, lai apstrādātu kreditoru maksājumus.
 
     ![Kreditora maksājumu apstrāde notiek.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Datu avota atkļūdotāju var izmantot, lai piekļūtu datu avotu datiem, kas ti
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Apstrādāt kreditora maksājumu atkļūdošanai
 
-1. Izpildiet šīs tēmas [3. papildinājumā](#appendix3) norādītās darbības, lai apstrādātu kreditoru maksājumus.
+1. Izpildiet šī raksta [3.](#appendix3) pielikuma darbības, lai apstrādātu kreditoru maksājumus.
 2. Ziņojuma lodziņā atlasiet **Jā**, lai apstiprinātu, ka vēlaties pārtraukt kreditora maksājumu apstrādi, un tā vietā startējiet datu avota atkļūdošanu lapā **Atkļūdot datu avotus**.
 
     ![Apstiprinājuma ziņojuma lodziņš.](./media/er-data-debugger-start-debugging.png)
@@ -188,7 +188,7 @@ Ja vēlaties izmantot ER risinājumu, lai ģenerētu elektronisko maksājumu fai
 
 ![ER maksājuma formātu importēšana lapā Konfigurācijas krātuve.](./media/er-data-debugger-import-from-repo.png)
 
-Papildus atlasītajam ER formātam sekojošajām [konfigurācijām](general-electronic-reporting.md#Configuration) ir jābūt automātiski importētām jūsu Microsoft Dynamics 365 Finance instancē kā daļai no **ISO20022 kredīta pārveduma** ER risinājuma:
+Papildus atlasītajam ER formātam, [jūsu 365](general-electronic-reporting.md#Configuration) finanšu instancē kā daļa no ISO20022 Microsoft Dynamics kredīta pārsūtīšanas **ER** risinājuma automātiski ir jāimportē šādas konfigurācijas:
 
 - **Maksājumu modeļa** ER datu modeļa konfigurācija
 - **ISO20022 Kredīta pārveduma** ER formāta konfigurācija

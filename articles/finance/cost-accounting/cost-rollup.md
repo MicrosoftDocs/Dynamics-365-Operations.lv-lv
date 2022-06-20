@@ -1,6 +1,6 @@
 ---
 title: Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana
-description: Šajā tēmā ir sniegta informācija par to, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas atbilst organizācijas pārskatu un izmaksu izsekojamības prasībām.
+description: Šajā rakstā ir sniegta informācija, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas iederas organizācijas pārskatā un izmaksu izsekošanas pārskatā.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874614"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
@@ -33,7 +33,7 @@ Izmaksu uzskaite sniedz iespēju gūt ieskatu par to, kā izmaksu plūsma ir sai
 -   Pieskaitāmo izmaksu aprēķināšanas laikā var tikt ģenerēts ļoti daudz izmaksu ierakstu.
 -   Izmaksu plūsmu starp izmaksu objektiem nevar izsekot.
 
-Lai nepieļautu šādus sarežģījumus, modulis Izmaksu uzskaite sniedz iespēju konfigurēt izmaksu sadalījumu atbilstoši jūsu organizācijas vadības pārskatu prasībām. Šajā tēmā ir aprakstīts, kā noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas ir piemērotas organizācijas pārskatu un izmaksu izsekojamības metodēm.
+Lai nepieļautu šādus sarežģījumus, modulis Izmaksu uzskaite sniedz iespēju konfigurēt izmaksu sadalījumu atbilstoši jūsu organizācijas vadības pārskatu prasībām. Šajā rakstā aprakstīts, kā var noteikt pareizo sekundāro izmaksu elementu līmeni un izveidot izmaksu apkopojuma kārtulas, kas iederēsies organizācijas pārskatā un izmaksu izsekošanas pārskatā.
 
 > [!NOTE]
 > Pārskatu prasību izmaiņu gadījumā varat mainīt konfigurācijas.

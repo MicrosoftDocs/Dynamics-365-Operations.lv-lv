@@ -1,6 +1,6 @@
 ---
 title: Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai
-description: Šajā tēmā ir aprakstīts, kā piešķirt darbību ikonas un virsrakstus jaunām vai pielāgotām uzdevumu plūsmām Warehouse Management mobilajai lietojumprogrammai.
+description: Šajā rakstā ir aprakstīts, kā piešķirt darbību ikonas un nosaukumus jaunai vai pielāgotai uzdevumu plūsmai uz mobilo programmu Noliktavas pārvaldība.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890601"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā piešķirt darbību ikonas un virsrakstus jaunām vai pielāgotām uzdevumu plūsmām Warehouse Management mobilajai lietojumprogrammai.
+Šajā rakstā ir aprakstīts, kā piešķirt darbību ikonas un darbību nosaukumus mobilajā programmā Noliktavas pārvaldība jaunajām vai pielāgotajām uzdevumu plūsmām.
 
 Nākamajās ilustrācijās ir parādīts, kā darbību ikonas un virsraksti tiek parādīti Warehouse Management mobilajā lietojumprogrammā.
 
@@ -29,7 +29,7 @@ Nākamajās ilustrācijās ir parādīts, kā darbību ikonas un virsraksti tiek
 
 ## <a name="turn-this-feature-on-or-off"></a>Ieslēgt vai izslēgt šo līdzekli
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, *jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem ir jābūt ieslēgtiem jūsu sistēmai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standarta darbību ID, klases un ikonas
 
@@ -39,7 +39,7 @@ Katra darbība uzdevumu plūsmā tiek identificēta ar darbības ID, un katram d
 
 Šajā tabulā ir uzskaitīti visi darbības ID, kas pašlaik ir pieejami, un tai atbilstoša darbības klase. Primārā ievades lauka kontroles nosaukums tiek izmantots kā darbības ID.
 
-Piemēru, kurā parādīts, kā tiek lietoti šie darbības ID un klases, skatiet `WHSMobileAppStepInfoBuilder.stepId()` metodes ieviešanas sadaļā [Piemērs: Darbību ikonu un nosaukumu piešķiršana pielāgotajai plūsmai](#example) tālāk šajā tēmā.
+Piemēram, piemēru, kas parāda, kā tiek lietoti šie soļa IE un klases, `WHSMobileAppStepInfoBuilder.stepId()`[skatiet metodes implementšanu piemērā: Darbību ikonu un nosaukumu piešķiršana pielāgotas](#example) plūsmas sadaļai tālāk šajā rakstā.
 
 | Darbības ID | Darbības klase |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Darbības ikonas identifikators tiek saglabāts `defaultStepIcon` klases dalībniekā, un darbības nosaukums tiek saglabāts `defaultStepTitle` klases dalībniekā.
 
-Lai piešķirtu darbības ikonu, iestatiet `defaultStepIcon` uz vienu no ikonu ID, kas uzskaitīti sadaļā [Pieejamās darbības ikonas](#step-icons) iepriekš šajā tēmā.
+Lai piešķirtu soļa ikonu, iestatiet uz vienu no ikonas D`defaultStepIcon`[,](#step-icons) kas ir norādīts šī raksta iepriekšējā sadaļā Pieejamo darbību ikonas.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Izmantojiet standarta vai pielāgotu darbības ikonu un nosaukumu svara ievadei
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Izveidojiet darbības klasi `NewWeight` darbībai. Kodam ir jābūt līdzīgam kodam iepriekš parādītajā `ContainerId` piemērā.
+Izveidojiet darbības klasi `NewWeight` darbībai. Kodam ir jābūt līdzīgam kodam piemērā `ContainerId`, kas tika parādīts agrāk šajā rakstā.
 
 #### <a name="override-the-stepinfo-method"></a>Ignorēt stepInfo() metodi
 

@@ -1,6 +1,6 @@
 ---
 title: Abonementu norēķinu pārskats
-description: Šajā tēmā aprakstīti abonementa rēķini Microsoft Dynamics 365 Finansēs.
+description: Šajā rakstā ir aprakstīti abonementa rēķini Microsoft Dynamics 365 Finansēs.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 10302e9ae7dff3d018897b666caaf4d4289b4866
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856746"
 ---
 # <a name="subscription-billing-overview"></a>Abonementu norēķinu pārskats
 

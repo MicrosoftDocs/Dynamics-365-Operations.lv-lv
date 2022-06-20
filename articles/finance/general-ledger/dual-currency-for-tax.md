@@ -1,6 +1,6 @@
 ---
 title: Divkāršās valūtas atbalsts nodokļiem
-description: Šajā tēmā skaidrots, kā paplašināt divkāršas valūtu uzskaites funkciju nodokļu jomā, un ietekme uz nodokļu aprēķināšanu un grāmatošanu
+description: Šajā rakstā skaidrots, kā paplašināt dubultās valūtas uzskaites funkciju nodokļu domēnā un nodokļu aprēķina un grāmatošanas ietekmi
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909045"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Divkāršās valūtas atbalsts PVN
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā paplašināt divkāršas valūtu uzskaites attiecībā uz PVN, un ietekme uz PVN aprēķiniem, grāmatošanu un apmaksu.
+Šajā rakstā skaidrots, kā paplašināt dubulto valūtas uzskaiti PVN un PVN aprēķinu, grāmatošanas un segšanas ietekmi.
 
 Dynamics 365 Finanšu dubultās valūtas līdzeklis tika ieviests versijā 8.1 (2018. gada oktobris). Tas maina veidu, kādā tiek aprēķināti uzskaites ieraksti pārskata valūtā.
 
@@ -89,7 +89,7 @@ Nodokļu summa = 100 EUR
 
 Lai novērstu iepriekšējo scenāriju, ieteicams mainīt šo parametra vērtību jaunā (tīrā) nodokļu apmaksas periodā, kas nesatur neapmaksātas nodokļu transakcijas. Lai mainītu šo vērtību nodokļa apmaksas perioda vidū, pirms šī parametra vērtības maiņas, lūdzu, palaidiet "nosegt un grāmatot PVN" programmu pašreizējam nodokļu apmaksas periodam.
 
-Šis līdzeklis pievieno grāmatvedības ierakstus, kas precizē peļņu un zaudējumus no valūtas maiņas. Ieraksti tiek veikti realizētās valūtas korekcijas peļņas un zaudējumu kontos, kad pārdošanas nodokļa apmaksas laikā tiek veikta pārvērtēšana. Papildinformāciju skatiet sadaļā [Nodokļu segšanas automātiskā bilance pārskata valūtā](#tax-settlement-auto-balance-in-reporting-currency) vēlāk šajā tēmā.
+Šis līdzeklis pievieno grāmatvedības ierakstus, kas precizē peļņu un zaudējumus no valūtas maiņas. Ieraksti tiek veikti realizētās valūtas korekcijas peļņas un zaudējumu kontos, kad pārdošanas nodokļa apmaksas laikā tiek veikta pārvērtēšana. Papildinformāciju skatiet tālāk [šī raksta sadaļā Nodokļu apmaksa automātiskā](#tax-settlement-auto-balance-in-reporting-currency) bilance pārskata valūtā.
 
 > [!NOTE]
 > Norēķinu laikā informācija par finanšu dimensijām tiek ņemta no PVN kontiem, kas ir bilances konti, un ievadīta valūtas korekcijas peļņas un zaudējumu kontos, kas ir peļņas un zaudējumu pārskata konti. Tā kā finanšu dimensiju vērtības ierobežojumi dažādiem bilances kontiem un peļņas un zaudējumu pārskata kontiem atšķiras, PVN nosegšanas un grāmatošanas procesā var rasties kļūda. Lai nemodificētu kontu struktūras, varat ieslēgt līdzekli "Aizpildīt finanšu dimensijas uz realizētajiem valūtas korekcijas peļņas/zaudējumu kontiem PVN segšanai". Šī iespēja piespiedīs finanšu dimensiju atvasināšanu uz valūtas korekcijas peļņas/zaudējumu kontiem. 

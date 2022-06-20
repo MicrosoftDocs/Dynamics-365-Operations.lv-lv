@@ -1,6 +1,6 @@
 ---
 title: Virsgrāmatas slēgšana perioda beigās
-description: Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu.
+description: Šajā rakstā ir aprakstīti uzdevumi, kas parasti tiek pabeigti, veicot perioda slēgšanu Virsgrāmatai.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878046"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Virsgrāmatas slēgšana perioda beigās
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti uzdevumi, kas parasti tiek veikti, virsgrāmatai izpildot perioda slēgšanu. 
+Šajā rakstā ir aprakstīti uzdevumi, kas parasti tiek pabeigti, veicot perioda slēgšanu Virsgrāmatai. 
 
 Virsgrāmatā varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšanas procesi sagatavo sistēmu jaunajam periodam. Lai sagatavotos jaunam gadam, jāpalaiž gada beigu slēgšanas process. Katrai organizācijai ir atšķirīgi procesi un darbības, kas jāveic perioda beigās. Dažas no neobligātajām darbībām perioda beigās ir šādas:
 

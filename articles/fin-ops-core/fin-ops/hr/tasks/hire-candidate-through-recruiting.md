@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b48fcfe46dbc8a512a2ff9523b62c3a99d1bcd28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888098"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Kandidāta pieņemšana darbā, izmantojot personāla atlasi
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šajā tēmā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem.  
+> Šajā rakstā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem.  
 
 Šī procedūra ļauj personāla atlases darbiniekam pieņemt darbā kandidātu, kurš iesniedzis pieteikumu, izmantojot noteiktu personāla atlases projektu. Nolīgjot kandidātu ar darbā pieņemšanas projekta palīdzību, tiek izveidots jauns darbinieka ieraksts un kandidāta ieraksta statuss ir **Nodarbināts**. USMF **demonstrācijas** datu uzņēmums tika izmantots šīs procedūras veidojiet.
 

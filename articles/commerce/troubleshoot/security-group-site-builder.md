@@ -1,6 +1,6 @@
 ---
 title: Sākotnējās izvietošanas laikā Commerce vietnes veidotājā nevar konfigurēt drošības grupu
-description: Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, kad Microsoft Azure Active Directory (Azure AD) drošības grupa Commerce vietnes veidotājam neparādās kā opcija, kad izveidojat e-komercijas komponentus Microsoft Dynamics Lifecycle Services (LCS) jauna e-komercijas nomnieka sākotnējās izvietošanas laikā.
+description: Šajā rakstā ir sniegti norādījumi par problēmu novēršana, kas var palīdzēt, kad Microsoft Azure Active Directory (Azure AD) drošības grupa Commerce Site Builder neparādās kā opcija, kad izveidojat e-commerce Microsoft Dynamics komponentus Lifecycle Services (LCS) sākotnējās jaunas e-komercijas nomnieka izvietošanas laikā.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f930cac61b747037b9fbecc7397a9b1b7db5dabd8a86b63a61c92ac7abe17516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797df828df16547eb3aef1f9865a663281fb9224
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899019"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Sākotnējās izvietošanas laikā Commerce vietnes veidotājā nevar konfigurēt drošības grupu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt, kad Microsoft Azure Active Directory (Azure AD) drošības grupa Commerce vietnes veidotājam neparādās kā opcija, kad izveidojat e-komercijas komponentus Microsoft Dynamics Lifecycle Services (LCS) jauna e-komercijas nomnieka sākotnējās izvietošanas laikā.
+Šajā rakstā ir sniegti norādījumi par problēmu novēršana, kas var palīdzēt, kad Microsoft Azure Active Directory (Azure AD) drošības grupa Commerce Site Builder neparādās kā opcija, kad izveidojat e-commerce Microsoft Dynamics komponentus Lifecycle Services (LCS) sākotnējās jaunas e-komercijas nomnieka izvietošanas laikā.
 
 ## <a name="description"></a>Apraksts
 

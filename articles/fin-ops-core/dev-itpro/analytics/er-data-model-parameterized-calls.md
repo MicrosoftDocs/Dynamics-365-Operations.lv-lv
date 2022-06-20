@@ -1,6 +1,6 @@
 ---
 title: Atbalstīt ER datu modeļu parametru izsaukumus
-description: Šajā tēmā skaidrots, kā ieviest elektronisko pārskatu (ER) datu modeļu parametru izsaukumus.
+description: Šajā rakstā skaidrots, kā ieviest elektronisko pārskatu (ER) datu modeļu parametru izsaukumus.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884262"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Atbalstīt ER datu modeļu parametru izsaukumus
 
@@ -42,31 +42,31 @@ Iepriekš šos modeļa kartēšanas izsaukumus nevarēja iestatīt parametrā, l
 <tr align="center">
 <td>
 <b>Formāts</b><br>
-Formatelement (Formatelement&nbsp;)<br>
+Formāta&nbsp; elements<br>
 &nbsp;
 </td>
 <td>
 <i>Saistīšana</i><br>
-&gt;&nbsp; Pieprasījumu&nbsp;&gt;<br>
+&gt;&nbsp;pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp;vērtība&nbsp;&lt;
 </td>
-<td><b>Formāta&nbsp; maiņa</b><br>
+<td><b>Formātu kartēšana&nbsp;</b><br>
 Datu avots<br>
 &nbsp;
 </td>
 <td>
-<i>Datamodel&nbsp;</i><br>
-&gt;&nbsp; Pieprasījumu&nbsp;&gt;<br>
+<i>Data&nbsp; modelis</i><br>
+&gt;&nbsp;pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp;vērtība&nbsp;&lt;
 </td>
 <td>
-<b>Modeļa&nbsp; izlaišana</b><br>
+<b>Modeļu kartēšana&nbsp;</b><br>
 Datu&nbsp; avots<br>
 &nbsp;
 </td>
 <td>
 <i>Saistīšana</i><br>
-&gt;&nbsp; Pieprasījumu&nbsp;&gt;<br>
+&gt;&nbsp;pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp;vērtība&nbsp;&lt;
 </td>
 <td>
@@ -85,30 +85,30 @@ Taču versijā 10.0.15 un jaunākā versijā jūs varat konfigurēt datu modeļa
 <tr align="center">
 <td>
 <b>Formāts</b><br>
-Formatelement1 (formatelement1&nbsp;&nbsp;)<br>
+&nbsp; 1.&nbsp; formāta elements<br>
 <br>
-Formatelement2&nbsp;&nbsp;<br>
+&nbsp; 2.&nbsp; formāta elements<br>
 &nbsp;<br>
 &nbsp;
 </td>
 <td>
 <i>Saistīšana</i><br>
-&gt;&nbsp; pieprasījums Nr.&nbsp; 1&nbsp;&gt;<br>
+&gt;&nbsp; 1.&nbsp; pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp; vērtība&nbsp; 1&nbsp;&lt;<br>
-&gt;&nbsp; pieprasījums Nr.&nbsp; 2&nbsp;&gt;<br>
+&gt;&nbsp; 2.&nbsp; pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp; vērtība&nbsp; 3&nbsp;&lt;<br>
 &nbsp;
 </td>
 <td>
-<b>Formatmapping&nbsp;</b><br>
-Datu&nbsp; avots1&nbsp;<br>
+<b>Format kartēšana&nbsp;</b><br>
+&nbsp; 1. datu&nbsp; avots<br>
 &nbsp;<br>
 <b>value2=Kolonnu(value1)</b><br>
 &nbsp;<br>
 &nbsp;
 </td>
 <td>
-<i>Datamodel&nbsp;</i><br>
+<i>Data&nbsp; modelis</i><br>
 &gt;&nbsp; Lauka Nr. 1&nbsp;&gt;<br>
 &lt;&nbsp; vērtība&nbsp; 1&nbsp;&lt;<br>
 <b>&gt;&nbsp; field2(value2)&nbsp;&gt;</b><br>
@@ -116,28 +116,28 @@ Datu&nbsp; avots1&nbsp;<br>
 &nbsp;
 </td>
 <td>
-<b>Modeļa&nbsp; izlaišana</b><br>
-Datu&nbsp; avots1&nbsp;<br>
+<b>Modeļu kartēšana&nbsp;</b><br>
+&nbsp; 1. datu&nbsp; avots<br>
 <br>
-Datu&nbsp; avots2&nbsp;<br>
+&nbsp; 2.&nbsp; datu avots<br>
 &nbsp;<br>
 &nbsp;
 </td>
 <td>
 <i>Saistīšana</i><br>
-&gt;&nbsp; pieprasījums Nr.&nbsp; 1&nbsp;&gt;<br>
+&gt;&nbsp; 1.&nbsp; pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp; vērtība&nbsp; 1&nbsp;&lt;<br>
-&gt;&nbsp; pieprasījums Nr.&nbsp; 2&nbsp;&gt;<br>
+&gt;&nbsp; 2.&nbsp; pieprasījums&nbsp;&gt;<br>
 &lt;&nbsp; vērtība&nbsp; 3&nbsp;&lt;<br>
 &nbsp;
 </td>
 <td>
-<b>Table1&nbsp;</b><br>
-Ieraksts Nr.&nbsp; 1<br>
-Lauks Nr.&nbsp; 1<br>
-<b>Table2&nbsp;</b><br>
-Ieraksts Nr.&nbsp; 2<br>
-Lauks Nr.&nbsp; 2
+<b>1.&nbsp; tabula</b><br>
+Ieraksts&nbsp; 1<br>
+1.&nbsp; lauks<br>
+<b>Tabulu&nbsp; 2</b><br>
+Ieraksts&nbsp; 2<br>
+2.&nbsp; lauks
 </td>
 </tr>
 </tbody>
@@ -160,7 +160,7 @@ Varat norādīt katru parametru datu modeļa laukam, kuram argumentu [*var norā
 > [!NOTE]
 > Datu modeļa lauka parametra noklusējuma vērtība netiek atbalstīta. Ja datu modelī laukā pievienojat parametru un šī datu modeļa versija jau ir nodota un publicēta, [ir](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) atkārtoti jāveic visu atbilstošo modeļa kartējumu un formātu bāze jaunajai šī modeļa versijai, jo šī datu modeļa izmaiņa nav atpakaļ saderīga.
 
-Parametru datu modeļa laukus var konfigurēt, lai veiktu modeļa kartēšanas izsaukumus formātam raksturīgus. Šī pieeja var palīdzēt samazināt modeļa kartēšanas skaitu, kas jākonfigurē daudziem viena datu modeļa formātiem. Šo pieeju iespējams arī izmantot, lai uzlabotu savu formātu izpildes veiktspēju un samazinātu laiku, kas nepieciešams biznesa dokumentu ģenerēšanai. Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
+Parametru datu modeļa laukus var konfigurēt, lai veiktu modeļa kartēšanas izsaukumus formātam raksturīgus. Šī pieeja var palīdzēt samazināt modeļa kartēšanas skaitu, kas jākonfigurē daudziem viena datu modeļa formātiem. Šo pieeju iespējams arī izmantot, lai uzlabotu savu formātu izpildes veiktspēju un samazinātu laiku, kas nepieciešams biznesa dokumentu ģenerēšanai. Lai uzzinātu vairāk par šo īpašību, pabeidziet šajā rakstā minēto piemēru.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Piemērs: izmantojiet ER datu modeļu parametru izsaukumus
 
@@ -201,7 +201,7 @@ Pašreiz modelis paredzēts tikai nodokļu darbībām, kurām ir nepieciešamā 
 
 ### <a name="design-a-model-mapping-for-the-configured-data-model"></a>Konfigurētā datu modeļa kartēšanas izveidošana
 
-Kā lietotājam elektronisko pārskatu izstrādātāja lomā jāizveido jauna ER konfigurācija, kas ietver modeļa kartēšanas komponentu audita datu modeļa paraugs. Šis komponents ievieš konfigurēto datu modeli korporācijai Microsoft un Dynamics 365 Finance ir specifisks šai programmai. Ir jākonfigurē modeļa kartēšanas komponents, lai norādītu programmas objektus, kas jāizmanto, lai aizpildītu konfigurēto datu modeli ar programmas datiem izpildlaikā. Lai pabeigtu šo uzdevumu, jums ir jāsaprot, kā nodokļu biznesa domēna datu struktūra tiek īstenota Finansēs.
+Kā lietotājam elektronisko pārskatu izstrādātāja lomā jāizveido jauna ER konfigurācija, kas ietver modeļa kartēšanas komponentu audita datu modeļa paraugs. Šis komponents ievieš konfigurēto datu modeli Microsoft Dynamics 365 Finansēm un ir specifisks šai programmai. Ir jākonfigurē modeļa kartēšanas komponents, lai norādītu programmas objektus, kas jāizmanto, lai aizpildītu konfigurēto datu modeli ar programmas datiem izpildlaikā. Lai pabeigtu šo uzdevumu, jums ir jāsaprot, kā nodokļu biznesa domēna datu struktūra tiek īstenota Finansēs.
 
 Izpildiet šīs darbības, lai importētu nepieciešamo modeļa kartēšanu no Microsoft nodrošinātā XML faila.
 
@@ -454,7 +454,7 @@ Modifikācijas var ieviest, izpildot formātu, atmiņā apkopojot unikālos debi
     2. Atlasiet **Rediģēt formulu**.
     3. Formulas **veidotāja** lapā ievadiet izteiksmi `model.Party(PartyIds.Result)`.
     4. Atlasiet **Saglabāt** un aizvēriet lapu **Formulas veidotājs** .
-    5. Formāta struktūras kokā atlasiet elementu **Report.Party.Name** kārtas elementu.
+    5. Formāta struktūras kokā atlasiet elementa **Report.Party.Name** elementu.
     6. **Cilnē Kartēšana** atlasiet datu `model.Party.Name` modeļa lauku.
     7. Atlasiet **Saistīt**.
 

@@ -1,6 +1,6 @@
 ---
 title: B2B biznesa partneru pārvaldība, izmantojot debitoru hierarhijas
-description: Šajā tēmā ir aprakstīts, kā izmantot debitoru hierarhijas Microsoft Dynamics 365 Commerce, lai pārvaldītu biznesa partnerus "bizness-biznesam" e-komercijas vietnēm.
+description: Šajā rakstā ir aprakstīts, kā izmantot debitoru hierarhijas Microsoft Dynamics 365 Commerce, lai pārvaldītu biznesa partnerus e-komercijas vietnēs "bizness-biznesam".
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864985"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>B2B biznesa partneru pārvaldība, izmantojot debitoru hierarhijas
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izmantot debitoru hierarhijas Microsoft Dynamics 365 Commerce, lai pārvaldītu biznesa partnerus "bizness-biznesam" e-komercijas vietnēm.
+Šajā rakstā ir aprakstīts, kā izmantot debitoru hierarhijas Microsoft Dynamics 365 Commerce, lai pārvaldītu biznesa partnerus e-komercijas vietnēs "bizness-biznesam".
 
 Programmā Commerce headquarters debitora hierarhijas *entītija* tiek izmantota, lai pārstāvētu biznesa partnera organizācijas, kas izmantos jūsu B2B e-komercijas vietni. Pirms varat sākt izmantot debitoru hierarhijas, lai pārvaldītu biznesa partnerus, ir jāiespējo B2B e-komercijas iespējas programmā Commerce Headquarters un pēc tam jādefinē debitoru hierarhijas numuru sērija.
 

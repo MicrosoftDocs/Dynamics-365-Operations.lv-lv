@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877690"
 ---
-# <a name="restrict-editing-of-personal-information"></a>Ierobežot personiskās informācijas rediģēšanu
+# <a name="restrict-editing-of-personal-information"></a>Personas informācijas rediģēšanas iespējošana
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "8695877"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Šajā tēmā aprakstīts, kā ierobežot darbiniekus no kontaktinformācijas Dynamics 365 Human Resources rediģēšanas. Iespējams, vēlēsieties neļaut darbiniekiem rediģēt noteiktu kontaktinformāciju, piemēram, viņu uzņēmuma atrašanās vietu vai e-pasta adresi.
+Šajā rakstā ir aprakstīts, kā ierobežot darbiniekus no kontaktinformācijas rediģēšanas Dynamics 365 Human Resources. Iespējams, vēlēsieties neļaut darbiniekiem rediģēt noteiktu kontaktinformāciju, piemēram, viņu uzņēmuma atrašanās vietu vai e-pasta adresi.
 
 > [!NOTE]
 > Lai izmantotu šo funkciju, vispirms aktivizējiet **(Priekšskatījums) Ierobežot darbiniekus no adreses un kontaktinformācijas pievienošanas vai rediģēšanas**, lai atlasītu līdzekļu pārvaldības nolūkus. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>![Iespējot priekšskatījuma līdzekli.](./media/hr-employee-self-service-restrict-enable.png)

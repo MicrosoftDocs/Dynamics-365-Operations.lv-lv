@@ -1,6 +1,6 @@
 ---
 title: Preču kolekcijas moduļi
-description: Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā sniegts pārskats par preču kolekcijas moduļiem programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 05/18/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 02a3d6314729f51d6c1dced5037f78d12355c09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871663"
 ---
 # <a name="product-collection-modules"></a>Preču kolekcijas moduļi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
+Šajā rakstā sniegts pārskats par preču kolekcijas moduļiem programmā Microsoft Dynamics 365 Commerce.
 
 Preču atklāšana ir primārais rīks, ko mazumtirgotāji izmanto, lai piesaistītu klientu uzmanību e-tirdzniecības tīmekļa lapā. Preces kolekcijas moduļi palīdz mazumtirgotājiem veidot pārliecinošu iepirkšanās pieredzi, nodrošinot intuitīvu vizuālo interfeisu, ko var izmantot, lai ātri autorētu preču kolekcijas.
 

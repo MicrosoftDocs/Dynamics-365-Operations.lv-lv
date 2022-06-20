@@ -1,6 +1,6 @@
 ---
 title: Vizuāla plānošana ražošanai lean manufacturing
-description: Šajā tēmā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu ražošanas plānu Kanban darbiem.
+description: Šajā rakstā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu Kanban darbu ražošanas plānu.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875193"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Vizuāla plānošana ražošanai lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu ražošanas plānu Kanban darbiem.
+Šajā rakstā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu Kanban darbu ražošanas plānu.
 
-Šajā tēmā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu ražošanas plānu Kanban darbiem.
+Šajā rakstā ir sniegta informācija par Kanban plānošanas paneli, kuru ražošanas plānotājs var izmantot, lai kontrolētu un optimizētu Kanban darbu ražošanas plānu.
 
 Izmantojot Kanban plānošanas paneli, ražošanas plānotājs var kontrolēt un optimizēt ražošanas plānu Kanban darbiem. Tas padara Kanban darbu plūsmu pārredzamu un ražošanas plānotājam nodrošina rīku, kas ražošanas plānu optimizē un pielāgo lean manufacturing darba šūnai.
 

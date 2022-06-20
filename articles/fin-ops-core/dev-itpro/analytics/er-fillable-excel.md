@@ -1,6 +1,6 @@
 ---
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
-description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
+description: Šajā rakstā ir aprakstīts, kā projektēt elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854819"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811425"
 
 Varat veidot elektronisko [pārskatu (ER)](general-electronic-reporting.md) formāta konfigurāciju, kam ir ER formāta komponents, ko varat konfigurēt, lai ģenerētu izejošo dokumentu Microsoft Excel darbgrāmatas formātā. Šim nolūkam jāizmanto īpaši ER formāta komponenti.
 
-Lai uzzinātu vairāk par šo līdzekli, sekojiet norādījumiem tēmā [Noformēt konfigurāciju, lai veidotu pārskatus OPENXML formātā](tasks/er-design-reports-openxml-2016-11.md).
+Lai uzzinātu vairāk par šo līdzekli, izpildiet rakstā aprakstītās darbības: [Izstrādes konfigurācija pārskatu ģenerēšana OPENXML formātā](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Jauna ER formāta pievienošana
 
@@ -263,7 +263,7 @@ Vienam komponentam **Lapa** var pievienot vairākus komponentus **Kājene**, no 
 
 Zem pievienotā komponenta **Kājene** pievienojiet nepieciešamos **Teksts\\Virkne**, **Teksts\\DateTime** vai cita veida ligzdotos komponentus. Konfigurējiet šo komponentu saistījumus, lai norādītu, kā tiek aizpildīta lapas kājene.
 
-Lai pareizi formatētu ģenerētās kājenes saturu, varat izmantot arī īpašus [formatēšanas kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers). Lai uzzinātu, kā izmantot šo pieeju, izpildiet darbības [1. piemērā](#example-1) tālāk šajā tēmā.
+Lai pareizi formatētu ģenerētās kājenes saturu, varat izmantot arī īpašus [formatēšanas kodus](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers). Lai uzzinātu, kā izmantot šo pieeju, sekojiet soļiem [1](#example-1). piemērā, vēlāk šajā rakstā.
 
 > [!NOTE]
 > Konfigurējot ER formātus, noteikti apsveriet Excel [ierobežojumu](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) un maksimālo rakstzīmju skaitu vienai galvenei vai kājenei.
@@ -388,7 +388,7 @@ Varat labot šo problēmu vienā no tālāk norādītajiem veidiem:
     1. Excel darbvirsmas programmā modificējiet Excel darbgrāmatu vienā no šiem veidiem:
 
         - Darblapas **lapā1** no atcelt šūnu **a1 un** **A2 saplūšanu**.
-        - Mainiet **ReportTitle** **nosaukuma atsauci no =Sheet1!$A$2** uz **=Sheet1!$A$1**.
+        - Mainiet **ReportTitle** nosaukuma atsauci no **=Sheet1!$A$2** uz **=Sheet1!$A$1**.
 
         ![Pārskatiet rezultātus, kas rodas, mainot atsauci Excel darbvirsmas programmas izveidotai darbgrāmatai.](./media/er-fillable-excel-example2-3.png)
 

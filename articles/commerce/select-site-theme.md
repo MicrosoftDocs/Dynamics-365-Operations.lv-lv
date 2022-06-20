@@ -1,6 +1,6 @@
 ---
 title: Vietnes dizaina atlase
-description: Šajā tēmā ir aprakstīts, kā iestatīt vai mainīt vietnes dizainu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā iestatīt vai mainīt vietnes tēmu Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b038dc996c571d54dce3f2aec679f7af8af85074
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900390"
 ---
 # <a name="select-a-site-theme"></a>Vietnes dizaina atlase
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt vai mainīt vietnes dizainu programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā iestatīt vai mainīt vietnes tēmu Microsoft Dynamics 365 Commerce.
 
 Vietnes izkārtojums un stils (piemēram, fonti, lielumi un krāsas) tiek definēti ar dizainu, ko atlasāt un piemērojat vietnei. Dizainu veido un izvieto izstrādātājs jūsu uzņēmumā. Lai skatītu dizainu pārskatu, skatiet sadaļu [Dizainu pārskats](e-commerce-extensibility/theming.md). Papildinformāciju par to, kā izveidot un izvietot dizainus, skatiet sadaļā [Jaunu dizainu izveide](e-commerce-extensibility/create-theme.md).
 

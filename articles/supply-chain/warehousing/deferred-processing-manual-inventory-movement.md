@@ -1,6 +1,6 @@
 ---
 title: Atliktā manuālās krājumu kustības apstrāde
-description: Šajā tēmā ir aprakstīts, kā izmantot atlikto manuālo krājumu kustības apstrādi Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīts, kā izmantot atlikto manuālo krājumu kustības apstrādi programmā Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863742"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Atliktā manuālās krājumu kustības apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izmantot atlikto manuālo krājumu kustības apstrādi Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, kā izmantot atlikto manuālo krājumu kustības apstrādi programmā Microsoft Dynamics 365 Supply Chain Management.
 
 Atliktā apstrāde ļauj noliktavas darbiniekiem turpināt darīt citu darbu, fonā apstrādājot izvietošanas operāciju. Atliktā apstrāde noder arī tad, ja serverim var būt neregulāri vai neplānoti palielinājumi apstrādes laikā, un palielinātais apstrādes laiks var ietekmēt nodarbinātā produktivitāti. Darba veids *Krājumu kustība* tagad ir pievienots darba veidu kopai, ko šis līdzeklis atbalsta.
 

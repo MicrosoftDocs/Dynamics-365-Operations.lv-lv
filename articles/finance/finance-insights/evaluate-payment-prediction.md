@@ -1,6 +1,6 @@
 ---
 title: Sākotnējā debitora maksājuma prognozēšanas modeļa novērtēšana
-description: Šajā tēmā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
+description: Šajā rakstā ir aprakstītas darbības, ko varat veikt, lai izprastu debitora maksājuma prognozēšanas modeli un novērtētu tā efektivitāti.
 author: ShivamPandey-msft
 ms.date: 05/02/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fcdf276505cf58267a38e9d6174a155ad307653b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847007"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa novērtēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā novērtēt prognozēšanas modeli pēc finanšu ieskatu ieslēgšanas un pēc tam ģenerēt un apmācīt savu pirmo modeli. Šī tēma pievēršas modeļiem, kas paredzēti debitoru maksājumu prognozēšanai. Tajā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
+Šajā rakstā ir izskaidrots, kā novērtēt prognozēšanas modeli pēc tam, kad ir ieslēgts Finanšu ieskats un pēc tam ģenerēts un kvalificēts pirmais modelis. Šajā rakstā ir apskatīti modeļi debitoru maksājumu prognozēšanai. Tajā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
 
 ## <a name="getting-details-about-the-model"></a>Informācijas iegūšana par modeli
 

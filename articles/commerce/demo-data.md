@@ -1,6 +1,6 @@
 ---
 title: Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
-description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Commerce kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
+description: Šajā rakstā ir sniegta informācija par ekrāna izkārtojumiem, kas ir ietverti pārdošanas punkta (POS) pieredzes demonstrācijas datu kopā Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897229"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Commerce kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
+Šajā rakstā ir sniegta informācija par ekrāna izkārtojumiem, kas ir ietverti pārdošanas punkta (POS) pieredzes demonstrācijas datu kopā Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Pieejamie programmas Commerce demonstrācijas datu ekrāna izkārtojumu paraugi nodrošina saturu, kas ir optimizēts dažādiem mazumtirdzniecības segmentiem, veikala darbinieku lomām un ierīcēm. Vienā izkārtojumā var būt ietverti vairāki izkārtojuma lieluma iestatījumi un pogu režģu kombinācijas, lai palīdzētu nodrošināt piemērotību dažādām ierīcēm un stacijām, ko izmanto veikala darbinieki. Šajā tēmā ir aprakstītas šo izkārtojumu atšķirības, kā arī to nodrošinātās darbības un vispārīgā funkcionalitāte.
+Pieejamie programmas Commerce demonstrācijas datu ekrāna izkārtojumu paraugi nodrošina saturu, kas ir optimizēts dažādiem mazumtirdzniecības segmentiem, veikala darbinieku lomām un ierīcēm. Vienā izkārtojumā var būt ietverti vairāki izkārtojuma lieluma iestatījumi un pogu režģu kombinācijas, lai palīdzētu nodrošināt piemērotību dažādām ierīcēm un stacijām, ko izmanto veikala darbinieki. Šajā rakstā ir izceltas atšķirības starp šiem izkārtojumiem, to nodrošinātajām darbībām un vispārējo pieredzi, ko tie piegādā.
 
 ![Demonstrācijas datu izkārtojumi dažādām ierīcēm.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -53,11 +53,11 @@ Ekrāna izkārojuma ID var būt ietvertas ne vairāk kā 10 rakstzīmes. ID i
 |--------|-----------------|
 | A      | Adventure Works |
 | F      | Fabrikam        |
-| K      | Contoso         |
+| U      | Contoso         |
 
 ### <a name="layout-version"></a>Izkārtojuma versija
 
-| Versijas numurs | Apraksts                                                                                |
+| Versijas numurs | apraksts                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pamata versija, kas atbalsta vairākus ekrāna izmērus un ir piemērota dažādām ierīcēm un proporcijām |
 | 3.1            | Pamata versija ar papildu paneļa **Ieteiktās preces** atbalstu        |
@@ -123,7 +123,7 @@ Katrs fiktīvais uzņēmums ir paredzēts atšķirīgam mazumtirdzniecības segm
 | Contoso         | Bostona   | Elektropreces    | Sarkanā    | Tumšs  |
 
 > [!NOTE]
-> Adventure Works un Fabrikam ir divi vadošie zīmoli. Contoso ir pieejams, taču tam nav nodrošināti visi izkārtojumi.
+> Adventure Works un Fabrikam ir divi vadošie zīmoli. Ir pieejams arī uzņēmums Contoso, taču tam nav nodrošināti visi izkārtojumi.
 
 Tālāk esošajos attēlos ir redzamas trīs fiktīvo uzņēmumu sveiciena lapas un transakciju lapas.
 
@@ -141,7 +141,7 @@ Tālāk esošajos attēlos ir redzamas trīs fiktīvo uzņēmumu sveiciena lapas
 
 ### <a name="contoso"></a>Contoso
 
-![Uzņēmuma Contoso demonstrācijas datu izkārtojumi.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Contoso demonstrācijas datu izkārtojumi.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Lietotāju pieteikšanās tabula
 

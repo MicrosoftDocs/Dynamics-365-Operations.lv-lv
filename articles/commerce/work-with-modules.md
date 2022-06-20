@@ -1,6 +1,6 @@
 ---
 title: Darbs ar moduļiem
-description: Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā aprakstīts, kā un kad izmantot moduļus Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860196"
 ---
 # <a name="work-with-modules"></a>Darbs ar moduļiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā un kad izmantot moduļus programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā aprakstīts, kā un kad izmantot moduļus Microsoft Dynamics 365 Commerce.
 
 Moduļi ir loģiski veidošanas bloki, kas veido lapas struktūru, un tiem ir dažādi mērķi un tvērumi. Daži moduļi ir augsta līmeņa konteineri, un to vienīgais mērķis ir aizturēt un organizēt citus moduļus (pakārtotos moduļus). Citiem moduļiem, piemēram, vienkāršam attēla novietojuma modulim, ir ļoti specifisks mērķis. Citi moduļi, piemēram, karuseļa modulis, atrodas kaut kur starp šīm divām kategorijām.
 
@@ -151,7 +151,7 @@ Lai konfigurētu konteinera moduli lapā, rīkojieties, kā norādīts tālāk.
 
 1. Lapā atlasiet konteinera moduli (piemēram, karuselis vai plūstošā konteinera modulis).
 1. Labajā pusē rekvizītu rūtī izvērsiet ligzdotās vadīklas, atlasot galvenes, un iestatiet jebkuras nepieciešamās kontroles vērtības.
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu, kas atrodas blakus vai nu konteinera nosaukumam, vai kādam no tajā esošo slotu nosaukumiem, un pēc tam atlasiet **Pievienot moduli**. Pēc tam pievienojiet pakārtotos moduļus atlasītajam konteineram. Plašāku informāciju skatiet sadaļu [Darbs ar moduļiem](#add-a-module) iepriekš šajā tēmā.
+1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu, kas atrodas blakus vai nu konteinera nosaukumam, vai kādam no tajā esošo slotu nosaukumiem, un pēc tam atlasiet **Pievienot moduli**. Pēc tam pievienojiet pakārtotos moduļus atlasītajam konteineram. Papildinformāciju skatiet iepriekšējā [šī raksta](#add-a-module) sadaļā Darbs ar moduļiem.
 1. Ja vairāki pakārtotie moduļi eksistē kā pamata konteinerā esoši līdzīgie moduļi, varat mainīt to parādīšanas secību pamata konteinerā. Atlasiet moduļa daudzpunktes pogu un pēc tam izmantojiet pogas ar augšup un lejup vērstām bultiņām.
 
 ## <a name="additional-resources"></a>Papildu resursi

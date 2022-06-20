@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Atvieglojumi
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi.
+description: Šajā rakstā ir aprakstīts atvieglojumu Power BI saturs.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848814"
 ---
 # <a name="benefits-power-bi-content"></a>Power BI satura pakotne Atvieglojumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā aprakstīts Microsoft Power BI saturs **Atvieglojumi**. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts **atvieglojumu** Microsoft Power BI saturs. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 Power BI satura pakotne **Atvieglojumi** tiek rādīta darbvietā **Atvieglojumu pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Microsoft Dynamics 365 Finance
+- Microsoft Dynamics 365 Finanses
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie pārskati

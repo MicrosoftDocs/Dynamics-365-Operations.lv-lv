@@ -1,6 +1,6 @@
 ---
 title: Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu
-description: Šajā tēmā parādīts, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja izmantojat papildu noliktavas vadības procesus.
+description: Šajā rakstā ir parādīts scenārijs, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja izmantojat papildu noliktavas vadības procesus.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863626"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā parādīts, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja izmantojat papildu noliktavas vadības procesus. Tas parasti būtu jāveic saņemšanas darbiniekam.
+Šajā rakstā ir parādīts scenārijs, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja izmantojat papildu noliktavas vadības procesus. Tas parasti būtu jāveic saņemšanas darbiniekam.
 
 ## <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai šajā scenārijā darbotos, izmantojot šajā tēmā norādītos parauga ierakstus un vērtības, ir jāizmanto sistēma, kurā ir instalēti standarta demonstrācijas dati, un pirms sākšanas ir jāatlasa *USMF* juridiskā persona.
+Lai šajā scenārijā darbotos, izmantojot šajā rakstā norādītos parauga ierakstus un vērtības, ir jāizmanto sistēma, kurā ir instalēti standarta demonstrācijas dati, *un pirms sākšanas ir jāatlasa USMF* juridiskā persona.
 
 Tā vietā varat strādāt šajā scenārijā, aizstājot vērtības no saviem datiem, ja vien jums ir pieejami šādi dati:
 

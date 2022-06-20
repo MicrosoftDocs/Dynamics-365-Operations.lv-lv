@@ -1,6 +1,6 @@
 ---
 title: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
-description: Šajā tēmā ir aprakstīts, kā jaunināt dubultās rakstīšanas datus puses un globālās adrešu grāmatas modelī.
+description: Šajā rakstā ir aprakstīts, kā jaunināt dubultās rakstīšanas datus puses un globālās adrešu grāmatas modelī.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895281"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -40,7 +40,7 @@ Procesa beigās tiek ģenerēti šādi komatatdalīto vērtību (.csv) faili.
 | ImportFONewPostalAddress.csv | Šis fails palīdz izveidot jaunus **pasta adrešu** ierakstus programmā Finanses un operācijas. |
 | ImportFONewElectronicAddress.csv | Šis fails palīdz izveidot jaunus **elektroniskās adreses** ierakstus programmā Finanses un operācijas. |
 
-Šajā tēmā skaidrots, kā izmantot datu fabrikas veidnes un jaunināt savus datus. Ja pielāgojumu nav, tās varat izmantot pēc to pielāgošanas. Tomēr, ja ir pielāgojumi konta, **kontaktpersonas** **un** **kreditora** datiem, veidnes ir jāmodificē, kā aprakstīts šajā tēmā.
+Šajā rakstā skaidrots, kā izmantot datu fabrikas veidnes un jaunināt savus datus. Ja pielāgojumu nav, tās varat izmantot pēc to pielāgošanas. Tomēr, ja ir pielāgojumi konta, **kontaktpersonas** **un** **kreditora** datiem, veidnes ir jāmodificē, kā aprakstīts šajā rakstā.
 
 > [!IMPORTANT]
 > Ir īpašas instrukcijas puses pasta adreses un Puses elektroniskās adreses veidņu izpildē. Vispirms jāpalaiž Puses veidne, tad Puses pasta adreses veidne un pēc tam Puses elektroniskās adreses veidne. Katra veidne ir veidota, lai importētu atsevišķā datu ražotnē.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861710"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)
 
@@ -320,7 +320,7 @@ ms.locfileid: "8711325"
 <td>Piekļūstiet strukturētai procedurālai palīdzībai (uzdevumu ceļvežiem) un konceptuālām tēmām, noklikšķinot uz <strong>Palīdzība</strong>.</td>
 <td>AX 2012 palīdzības sistēma novirza uz HTML tēmām, kas tiek glabātas lokālajā tīmekļa serverī. Debitori un partneri var izveidot paši savu palīdzību.</td>
 <td>Pašreizējā Dynamics AX versijā palīdzības sistēma rāda uzdevumu ceļvežus, kas tiek glabāti Microsoft Dynamics Lifecycle Services (LCS) BPM. Palīdzības sistēma rāda arī tēmas no Microsoft dokumentu vietnes. Papildinformāciju skatiet <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Palīdzības sistēma</a> un <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Jaunie uzdevumu ceļveži (2016. gada februāris)</a>.</td>
-<td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Tēmā ir sniegts ātrāks un elastīgāks veids, kā izveidot, piegādāt un atjaunināt preces dokumentāciju. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
+<td>Uzdevumu ceļveži sniedz strukturētu, interaktīvu pieredzi, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Varat lejupielādēt un pielāgot uzdevumu ceļvežus, ko nodrošina Microsoft. Šis dokuments nodrošina ātrāku un elastīgāku veidu preču dokumentācijas izveidošanai, piegādei un atjaunināšanai. Tāpēc tā palīdz garantēt, ka jums ir pieeja visjaunākajai tehniskajai informācijai.</td>
 </tr>
 </tbody>
 </table>

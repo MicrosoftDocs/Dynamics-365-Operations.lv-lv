@@ -1,6 +1,6 @@
 ---
 title: Izmaksu aprēķināšanas parametru vērtību iestatījumi
-description: Iestatot zemes izmaksu moduli, varat definēt vairākas kopējās vērtības kopas, kas būs pieejamas, kad atlasāt noteiktus izmaksu aprēķināšanas parametru vērtību tipus citās programmas daļās. Šajā tēmā ir paskaidrots, kā iestatīt šīs vērtību kopas.
+description: Iestatot zemes izmaksu moduli, varat definēt vairākas kopējās vērtības kopas, kas būs pieejamas, kad atlasāt noteiktus izmaksu aprēķināšanas parametru vērtību tipus citās programmas daļās. Šajā rakstā skaidrots, kā iestatīt šīs vērtību kopas.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852336"
 ---
 # <a name="costing-parameter-values-setup"></a>Izmaksu aprēķināšanas parametru vērtību iestatījumi
 
 [!include [banner](../../includes/banner.md)]
 
-Iestatot **Kopīgo izmaksu** moduli, var definēt vairākas kopējo vērtību un saistīto iestatījumu kopas katrai vērtībai. Šīs vērtības būs pieejamas, ja citās programmas daļās atlasīsiet noteiktus izmaksu aprēķināšanas parametru vērtību tipus. Šajā tēmā ir paskaidrots, kā iestatīt šīs vērtību kopas.
+Iestatot **Kopīgo izmaksu** moduli, var definēt vairākas kopējo vērtību un saistīto iestatījumu kopas katrai vērtībai. Šīs vērtības būs pieejamas, ja citās programmas daļās atlasīsiet noteiktus izmaksu aprēķināšanas parametru vērtību tipus. Šajā rakstā skaidrots, kā iestatīt šīs vērtību kopas.
 
 ## <a name="set-up-cost-type-codes"></a>Iestatīt izmaksu tipu kodus
 

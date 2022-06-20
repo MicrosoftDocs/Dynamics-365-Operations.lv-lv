@@ -1,6 +1,6 @@
 ---
-title: Digitālo līdzekļu pārvaldības pārskats
-description: Šajā tēmā sniegts pārskats par digitālo līdzekļu pārvaldību Microsoft Dynamics 365 Commerce vietnes veidotājā.
+title: Pārskats par digitālo līdzekļu pārvaldību
+description: Šajā rakstā sniegts pārskats par digitālu līdzekļu pārvaldību vietas veidotājā Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73c41d97727c461a959d05e76c27efa49e9b5775
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8e958715591c404d979d2537531476004dbcdee5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892109"
 ---
 # <a name="digital-asset-management-overview"></a>Pārskats par digitālo līdzekļu pārvaldību
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par digitālo līdzekļu pārvaldību Microsoft Dynamics 365 Commerce vietnes veidotājā.
+Šajā rakstā sniegts pārskats par digitālu līdzekļu pārvaldību vietas veidotājā Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce vietnes veidotāja multivides bibliotēka piedāvā bagātīgu digitālo līdzekļu pārvaldības funkcionalitāti, ieskaitot atbalstu šādiem elementiem:
 - Attēli

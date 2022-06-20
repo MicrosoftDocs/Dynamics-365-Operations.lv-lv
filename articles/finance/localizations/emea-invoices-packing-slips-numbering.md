@@ -1,6 +1,6 @@
 ---
 title: Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
-description: Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
+description: Šajā rakstā ir izskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā iestatīt dokumentu paš numerācijas diapazonus.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Latvia, Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 03e54f0633bddf643bf41aef202e3746f0c8f171a46b911e231b204a08cb7395
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a78ab0ecc841343460e4d7c4d75c511328ce644
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865491"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
+Šajā rakstā ir izskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā iestatīt dokumentu paš numerācijas diapazonus.
 
 Juridiskajām personām, kuru primārā adrese atrodas Latvijā vai Lietuvā, rēķiniem un pavadzīmēm varat iestatīt nosacījuma numerāciju, kas ir atkarīga no piešķirtā lietotāja vai lietotāju grupas.
 

@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu nomas līgumi
-description: Šajā tēmā ir aprakstīti līgumi iznomātajiem līdzekļiem.
+description: Šajā rakstā ir aprakstītas nomāto pamatlīdzekļu konvencijas.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898274"
 ---
 # <a name="asset-leasing-conventions"></a>Līdzekļu nomas līgumi
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīti līgumi iznomātajiem līdzekļiem. Nomas līgumi tiek izmantoti, lai noteiktu nomas grāmatas sākuma datumu. Ja nomas līgums ir iestatīts uz **Nav**, sākuma datums ir tāds pats kā nomas sākuma datums (t.i., **Nomas sākuma datuma** lauka vērtība). Ja nomas līgums ir iestatīts uz **Pilnu mēnesi**, sākuma datums ir mēneša pirmā diena, kurā beidzas nomas sākuma datums.
+Šajā rakstā ir aprakstītas nomāto pamatlīdzekļu konvencijas. Nomas līgumi tiek izmantoti, lai noteiktu nomas grāmatas sākuma datumu. Ja nomas līgums ir iestatīts uz **Nav**, sākuma datums ir tāds pats kā nomas sākuma datums (t.i., **Nomas sākuma datuma** lauka vērtība). Ja nomas līgums ir iestatīts uz **Pilnu mēnesi**, sākuma datums ir mēneša pirmā diena, kurā beidzas nomas sākuma datums.
 
 Sākuma datums nosaka perioda sākuma datumu saistību amortizācijas un līdzekļu nolietojuma grafikiem. Procentu izdevumi un nolietojuma izdevumi tiek grāmatoti atbilstošo grafiku perioda beigu datumā. Sākotnējais atzīšanas un korekciju žurnāla ieraksts tiek grāmatots sākuma datumā.
 

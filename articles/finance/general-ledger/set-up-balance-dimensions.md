@@ -1,6 +1,6 @@
 ---
 title: Kā var iestatīt līdzsvarošanas finanšu dimensijas?
-description: Šajā tēmā aprakstītas opcijas Līdzsvarošanas finanšu dimensijas līdzekļa iestatīšanai un izmantošanai.
+description: Šajā rakstā aprakstītas opcijas līdzsvarošanas finanšu dimensijas funkcijas iestatīšanai un izmantošanai.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878017"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Kā var iestatīt līdzsvarošanas finanšu dimensijas?
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas opcijas Līdzsvarošanas finanšu dimensijas līdzekļa iestatīšanai un izmantošanai.
+Šajā rakstā aprakstītas opcijas līdzsvarošanas finanšu dimensijas funkcijas iestatīšanai un izmantošanai.
 
 ## <a name="symptom"></a>Simptoms
 
-Ir divas opcijas līdzsvarošanas finanšu dimensiju iestatīšanai. Pirmā opcija ir izmantot lauku **Līdzsvarošanas finanšu dimensija** iestatījuma lapā **Virsgrāmata** (**Virsgrāmata \> Virsgrāmatas iestatījums \> Virsgrāmata**). Otra opcija ir izmantot lauku **Pieprasīt, lai dimensija būtu līdzsvarota** lapā **Finanšu dimensijas** (**Virsgrāmata > Kontu plāns \> Dimensijas \> Finanšu dimensijas**). Šajā tēmā ir izskaidrota atšķirība starp šīm divām opcijām.
+Ir divas opcijas līdzsvarošanas finanšu dimensiju iestatīšanai. Pirmā opcija ir izmantot lauku **Līdzsvarošanas finanšu dimensija** iestatījuma lapā **Virsgrāmata** (**Virsgrāmata \> Virsgrāmatas iestatījums \> Virsgrāmata**). Otra opcija ir izmantot lauku **Pieprasīt, lai dimensija būtu līdzsvarota** lapā **Finanšu dimensijas** (**Virsgrāmata > Kontu plāns \> Dimensijas \> Finanšu dimensijas**). Šis raksts skaidro atšķirību starp šīm divām opcijām.
 
 ## <a name="resolution"></a>Novēršana
 

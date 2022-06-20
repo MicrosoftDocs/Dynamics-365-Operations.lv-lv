@@ -1,6 +1,6 @@
 ---
 title: Statistiskās bāzlīnijas prognozes ģenerēšana
-description: Šajā tēmā ir sniegta informācija par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos.
+description: Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844943"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos. 
+Šis raksts sniedz informāciju par parametriem un filtriem, kas tiek izmantoti pieprasījuma prognozēšanas aprēķinos. 
 
 Veidojot bāzlīnijas prognozi, vispirms ir jānorāda aprēķinā izmantotie parametri un filtri. Piemēram, varat izveidot bāzlīnijas prognozi, kas sniedz vērtējumu par pieprasījumu, ņemot vērā pagājušajā gada darījumu datus noteiktam uzņēmumam, nākamajam mēnesim un atlasītai krājumu grupai. 
 

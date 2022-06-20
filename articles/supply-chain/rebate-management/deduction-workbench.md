@@ -1,6 +1,6 @@
 ---
 title: Ieturējumu pārvaldība, izmantojot ieturējumu rīku
-description: Šajā tēmā aprakstīts, kā izmantot ieturējumu rīku, lai apstrādātu debitoru maksājumus, kuros ietverti ieturējumi.
+description: Šajā rakstā ir aprakstīts, kā izmantot ieturējumu metodi, lai apstrādātu debitoru maksājumus, kas ietver ieturējumus.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873613"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Ieturējumu pārvaldība, izmantojot ieturējumu rīku
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izmantot ieturējumu rīku, lai apstrādātu debitoru maksājumus, kuros ietverti ieturējumi.
+Šajā rakstā ir aprakstīts, kā izmantot ieturējumu metodi, lai apstrādātu debitoru maksājumus, kas ietver ieturējumus.
 
 Debitors, kuram pienākas atlaide, var izlemt negaidīt atlaides izmaksu. Tā vietā klients var nosūtīt maksājumu, kas ietver ieturējumu par atlaides summu. Lai apstrādātu šādu transakcijas veidu, varat izmantot ieturējumu rīku, kurā saskaņojat ieturējumus, lai atvērtu kredīta transakciju, sadalītu ieturējumus, noraidītu ieturējumus un norakstītu ieturējumus.
 
 > [!NOTE]
-> Ieturējumu rīks ir bijis daļa no pārdošanas un mārketinga funkcionalitātes programmā Microsoft Dynamics 365 Supply Chain Management ilgu laiku. Tomēr tagad tas ir uzlabots, lai tas darbojas arī ar jaunāku moduli **Atlaižu pārvaldība**. Šajā tēmā ir aprakstīts, kā izmantot gan ieturējumu rīka vecākos līdzekļus, gan ieturējumu rīka atlaižu pārvaldības līdzekļus. Tomēr, ja neesat [ieslēdzis moduli **Atlaižu pārvaldība** jūsu sistēmai](rebate-management-enable.md), daļa no šeit aprakstītās funkcionalitātes nebūs jums pieejama.
+> Ieturējumu rīks ir bijis daļa no pārdošanas un mārketinga funkcionalitātes programmā Microsoft Dynamics 365 Supply Chain Management ilgu laiku. Tomēr tagad tas ir uzlabots, lai tas darbojas arī ar jaunāku moduli **Atlaižu pārvaldība**. Šajā rakstā ir aprakstīts, kā izmantot gan vecākas funkcijas, gan atlaižu pārvaldības funkcijas ieturējumu skaņa. Tomēr, ja neesat [ieslēdzis moduli **Atlaižu pārvaldība** jūsu sistēmai](rebate-management-enable.md), daļa no šeit aprakstītās funkcionalitātes nebūs jums pieejama.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -159,11 +159,11 @@ Lai ieturējumu rīkā izveidotu ieturējumu, veiciet tālāk norādītās darb�
         - *Uz daudzumu balstīts* – tiks izveidots negatīvs pārdošanas pasūtījums vai atgriešanas pasūtījums.
 
     - **Prasības datums** – izvēlieties prasības datumu. Noklusējuma vērtība ir pašreizējais datums.
-    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, skatiet iepriekš šajā tēmā sadaļā [Izveidot ieturējumu iemeslus](#deduction-reasons).
+    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, [skatiet iepriekš šajā rakstā sadaļā](#deduction-reasons) Izveidot ieturējumu iemeslus.
     - **Piezīmes** – pievienojiet jebkādas piezīmes, kuras ir spēkā; Kad prasība ir apstiprināta, apstiprinātājs varēs rediģēt vai pievienot prasības piezīmes.
     - **Izveidot prasību žurnālu** — iestatiet šo opciju, lai norādītu, vai prasības žurnāls ir jāizveido, kad tiek izveidota prasība vai ieturējums:
 
-        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet sadaļu [Konfigurēt debitoru parādus un ieturējumus](#accounts-receivable-deductions) iepriekš šajā tēmā.) Kad prasībai ir pievienots rēķins, prasību žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
+        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet [Iepriekš konfigurējiet debitoru un ieturējumu](#accounts-receivable-deductions) sadaļu šajā rakstā.) Kad prasībai ir pievienots rēķins, prasības žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
         - *Nē* – pašlaik nav izveidots neviens prasību žurnāls. Tas tiks izveidots pēc prasības apstiprināšanas. Rēķinu joprojām var pievienot jaunajai prasībai, pat ja prasību žurnāls nav izveidots. Tomēr izlīgumu nevar veikt bez prasību žurnāla.
 
 1. Atlasiet **Labi**.
@@ -197,11 +197,11 @@ Ieturējumu izveides process no debitoru izlīguma ir līdzīgs ieturējumu izve
         - *Uz daudzumu balstīts* – tiks izveidots negatīvs pārdošanas pasūtījums vai atgriešanas pasūtījums.
 
     - **Prasības datums** – izvēlieties prasības datumu. Noklusējuma vērtība ir pašreizējais datums.
-    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, skatiet iepriekš šajā tēmā sadaļā [Izveidot ieturējumu iemeslus](#deduction-reasons).
+    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, [skatiet iepriekš šajā rakstā sadaļā](#deduction-reasons) Izveidot ieturējumu iemeslus.
     - **Piezīmes** – pievienojiet jebkādas piezīmes, kuras ir spēkā; Kad prasība ir apstiprināta, apstiprinātājs varēs rediģēt vai pievienot prasības piezīmes.
     - **Izveidot prasību žurnālu** — iestatiet šo opciju, lai norādītu, vai prasības žurnāls ir jāizveido, kad tiek izveidota prasība vai ieturējums:
 
-        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet sadaļu [Konfigurēt debitoru parādus un ieturējumus](#accounts-receivable-deductions) iepriekš šajā tēmā.) Kad prasībai ir pievienots rēķins, prasību žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
+        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet [Iepriekš konfigurējiet debitoru un ieturējumu](#accounts-receivable-deductions) sadaļu šajā rakstā.) Kad prasībai ir pievienots rēķins, prasības žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
         - *Nē* – pašlaik nav izveidots neviens prasību žurnāls. Tas tiks izveidots pēc prasības apstiprināšanas. Rēķinu joprojām var pievienot jaunajai prasībai, pat ja prasību žurnāls nav izveidots. Tomēr izlīgumu nevar veikt bez prasību žurnāla.
 
 1. Atlasiet **Labi**.
@@ -235,11 +235,11 @@ Ieturējumu izveides process no debitoru lapas ir līdzīgs ieturējumu izveides
         - *Uz daudzumu balstīts* – tiks izveidots negatīvs pārdošanas pasūtījums vai atgriešanas pasūtījums.
 
     - **Prasības datums** – izvēlieties prasības datumu. Noklusējuma vērtība ir pašreizējais datums.
-    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, skatiet iepriekš šajā tēmā sadaļā [Izveidot ieturējumu iemeslus](#deduction-reasons).
+    - **Prasības iemesls** — atlasiet iemesla kodu, kas attiecas uz pašreizējiem ieturējumiem. Jūsu atlasītais prasības pamats ietekmē opcijas, kuras ir piemērojamas. Papildinformāciju par to, kā šeit izveidot un konfigurēt prasības iemeslus, kas ir pieejami atlasei, [skatiet iepriekš šajā rakstā sadaļā](#deduction-reasons) Izveidot ieturējumu iemeslus.
     - **Piezīmes** – pievienojiet jebkādas piezīmes, kuras ir spēkā; Kad prasība ir apstiprināta, apstiprinātājs varēs rediģēt vai pievienot prasības piezīmes.
     - **Izveidot prasību žurnālu** — iestatiet šo opciju, lai norādītu, vai prasības žurnāls ir jāizveido, kad tiek izveidota prasība vai ieturējums:
 
-        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet sadaļu [Konfigurēt debitoru parādus un ieturējumus](#accounts-receivable-deductions) iepriekš šajā tēmā.) Kad prasībai ir pievienots rēķins, prasību žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
+        - *Jā* – Sistēma izveidos un publicēs vispārēju žurnālu, izmantojot prasību žurnālu, kas ir iestatīts lapā **Debitoru parādu parametri**. (Plašāku informāciju skatiet [Iepriekš konfigurējiet debitoru un ieturējumu](#accounts-receivable-deductions) sadaļu šajā rakstā.) Kad prasībai ir pievienots rēķins, prasības žurnāls tiek izmantots, lai samazinātu piemērojamā rēķina bilanci. Ja prasība vēlāk tiek noraidīta, prasību žurnāls un izlīgumi (ja pievienots rēķins) tiks anulēti.
         - *Nē* – pašlaik nav izveidots neviens prasību žurnāls. Tas tiks izveidots pēc prasības apstiprināšanas. Rēķinu joprojām var pievienot jaunajai prasībai, pat ja prasību žurnāls nav izveidots. Tomēr izlīgumu nevar veikt bez prasību žurnāla.
 
 1. Atlasiet **Labi**.
@@ -280,7 +280,7 @@ Lai saskaņotu ieturējumus ar kredītu, veiciet šīs darbības.
 1. Darbību rūtī atlasiet vienumu **Uzturēt \> Saskaņot**. Sistēma saskaņo ieturējumu ar kredītu. Ja atlikusī bilance paliek ieturējumiem, tā tiek parādīta laukā **Atlikusī summa** cilnē **Ieturējumi**.
 
     > [!NOTE]
-    > Ieturējumiem, kas tika izveidoti, izmantojot komandu **Jauns ieturējums** ieturējumu rīkā, debitora izlīgumā vai debitora lapā, komanda **Uzturēt \> Saskaņot** ir pieejama tikai tad, ja lauka **Prasības statuss** vērtība ir iestatīta uz *Pieņemts*. Šo komandu var izmantot, lai manuāli saskaņotu uz cenu balstītas vai uz daudzuma balstītas darbības saistītām kredītam sadaļā **Atvērtās darbības**. Šis kredīts tiek izveidots, kad ieturējums tiek apstiprināts (izmantojot komandu **Uzturēt \> Apstiprināt ieturējumu** ), vai arī, kad tas ir pievienots esošajam kredītam, kā aprakstīts tālāk šīs tēmas sadaļā [Kredīti, kas izveidoti ārpus apstiprinātā ieturējumu procesa](#credits-outside-approval). Periodisko uzdevumu *Nokārtot apstiprinātos ieturējumus* (**Pārdošanas mārketings \> Periodiskie uzdevumi \> Nokārtot apstiprinātos ieturējumus**) var arī izmantot, lai automātiski saskaņotu ieturējumus un kredītus, kam ir atbilstošas **Ieturējumu ID** vērtības un summas.
+    > Ieturējumiem, kas tika izveidoti, izmantojot komandu **Jauns ieturējums** ieturējumu rīkā, debitora izlīgumā vai debitora lapā, komanda **Uzturēt \> Saskaņot** ir pieejama tikai tad, ja lauka **Prasības statuss** vērtība ir iestatīta uz *Pieņemts*. Šo komandu var izmantot, lai manuāli saskaņotu uz cenu balstītas vai uz daudzuma balstītas darbības saistītām kredītam sadaļā **Atvērtās darbības**. Šis kredīts tiek izveidots, kad ieturējums tiek apstiprināts (**\>** izmantojot komandu Uzturēt ieturējumus), vai arī, kad tas ir pievienots esošajam kredītam kā aprakstīts kredītu aprakstam, kas izveidots ārpus apstiprinātā ieturējumu procesa sadaļas [tālāk](#credits-outside-approval) šajā rakstā. Periodisko uzdevumu *Nokārtot apstiprinātos ieturējumus* (**Pārdošanas mārketings \> Periodiskie uzdevumi \> Nokārtot apstiprinātos ieturējumus**) var arī izmantot, lai automātiski saskaņotu ieturējumus un kredītus, kam ir atbilstošas **Ieturējumu ID** vērtības un summas.
 
 ### <a name="split-a-deduction"></a>Sadalīt ieturējumus
 

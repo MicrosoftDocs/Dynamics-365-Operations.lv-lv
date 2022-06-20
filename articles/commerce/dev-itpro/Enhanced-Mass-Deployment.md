@@ -1,6 +1,6 @@
 ---
 title: Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
-description: Šajā tēmā skaidrots, kā izmantot struktūru pašapkalpošanās komponentu instalētājiem, lai klusā veidā instalētu un pakalpojumu izstrādes.
+description: Šajā rakstā ir izskaidrots, kā izmantot struktūru pašapkalpošanās komponentu instalētājiem, lai klusā veidā instalētu un pakalpojumu izvietošanas.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898583"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma attiecas uz aizzīmogoto struktūru, komponentu instalētājiem, kas ir izlaisti katru mēnesi, sākot ar 10.0.18 laidienu un Microsoft Dynamics kas ir pieejami Lifecycle Services (LCS) koplietojamā līdzekļu bibliotēkā. Ņemiet vērā, ka pirmie vairāki šo jauno instalētāju laidieni ir atzīmēti kā **(priekšskatījums)**. Tomēr šī apzīmējuma vienīgais nolūks ir diferencēt jaunos instalētājus, kamēr Korporācija Microsoft nosaka, vai pastāv papildu funkcionālās prasības to lietošanai. Tas nenozīmē, ka instalētāji nav derīgi ražošanai. Pamatojoties uz šo jauno instalētāju laidienu, Microsoft plāno nolietot vecos (mantojuma) instalētājus vai ap 2023. gada oktobris. 
+Šis raksts attiecas uz aizzīmogoto struktūru, komponentu instalētājiem, kas ir izlaisti katru mēnesi, sākot ar 10.0.18 laidienu un Microsoft Dynamics kas ir pieejami Lifecycle Services (LCS) koplietojamā līdzekļu bibliotēkā. Ņemiet vērā, ka pirmie vairāki šo jauno instalētāju laidieni ir atzīmēti kā **(priekšskatījums)**. Tomēr šī apzīmējuma vienīgais nolūks ir diferencēt jaunos instalētājus, kamēr Korporācija Microsoft nosaka, vai pastāv papildu funkcionālās prasības to lietošanai. Tas nenozīmē, ka instalētāji nav derīgi ražošanai. Pamatojoties uz šo jauno instalētāju laidienu, Microsoft plāno nolietot vecos (mantojuma) instalētājus vai ap 2023. gada oktobris. 
 
-Šajā tēmā skaidrots, kā izmantot jaunos instalētājus klusās instalēšanas un atjaunināšanas apkalpošanai komandrindas argumentos. Šie argumenti ļauj jums veikt masveida izvietošanu vairākos dažādos veidos.
+Šajā rakstā ir izskaidrots, kā lietot jaunos instalētājus, lai veiktu kluso instalēšanu un atjauninājumu apkalpošanai, izmantojot komandrindas argumentus. Šie argumenti ļauj jums veikt masveida izvietošanu vairākos dažādos veidos.
 
 > [!NOTE]
 > Jaunie pašapkalpošanās aizzīmogotie instalētāji netiks pieejami programmā Headquarters, un tos var lejupielādēt tikai, izmantojot LCS.
@@ -108,7 +108,7 @@ Lai veikt migrēšanu no vecās pašapkalpošanās struktūras komponentu instal
 
 ### <a name="before-you-begin"></a>Pirms sākšanas
 
-Ir būtiski noņemt veco, pašapkalpošanās Modern POS komponentu. Papildinformāciju skatiet iepriekš šajā tēmā par migrācijas darbībām.
+Ir būtiski noņemt veco, pašapkalpošanās Modern POS komponentu. Papildinformāciju skatiet iepriekš šī raksta migrācijas darbībās.
 
 ### <a name="examples-of-silent-deployment"></a>Klusās izvietošanas piemēri
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Modern POS nav nepieciešams konfigurācijas fails. Instalēšanas programmai tagad ir parametri (norādīti iepriekš šajā tēmā) dažādām vērtībām, kas tiek izmantotas ierīces aktivizēšanas laikā.
+> Modern POS nav nepieciešams konfigurācijas fails. Instalēšanas programmai tagad ir parametri (iepriekš šajā rakstā) dažādām vērtībām, kas tiek izmantotas ierīces aktivizēšanas laikā.
 
 Šī komanda norāda visus parametrus, kas ir jāizmanto ierīces aktivizēšanas laikā pēc Modern POS programmas instalēšanas. Šajā piemērā tiek izmantots **Reģistrs-3**, kas ir parasti izmantotā vērtība demonstrācijas Dynamics 365 Commerce datos.
 
@@ -145,7 +145,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 
 ### <a name="before-you-begin"></a>Pirms sākšanas
 
-Ir ļoti svarīgi noņemt veco pašapkalpošanās aparatūras stacijas komponentu. Papildinformāciju skatiet iepriekš šajā tēmā par migrācijas darbībām. Vairs nav Tirgotāja konta informācijas rīka. Tā vietā tirgotāja konta informācija tiek instalēta, kad POS terminālis tiek savienots pārī ar aparatūras staciju. Pirmo reizi testējot šo instalētāju, ieteicams darbināt šādu komandu:
+Ir ļoti svarīgi noņemt veco pašapkalpošanās aparatūras stacijas komponentu. Papildinformāciju skatiet iepriekš šī raksta migrācijas darbībās. Vairs nav Tirgotāja konta informācijas rīka. Tā vietā tirgotāja konta informācija tiek instalēta, kad POS terminālis tiek savienots pārī ar aparatūras staciju. Pirmo reizi testējot šo instalētāju, ieteicams darbināt šādu komandu:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Aparatūras stacijai nav nepieciešams konfigurācijas fails. Instalēšanas programmai tagad ir parametri (iepriekš šajā tēmā) dažādām nepieciešamajām vērtībām.
+> Aparatūras stacijai nav nepieciešams konfigurācijas fails. Instalēšanas programmai tagad ir parametri (iepriekš šajā rakstā) dažādām nepieciešamajām vērtībām.
 
 Šī komanda norāda visus parametrus, kas ir nepieciešami, lai izlaistu priekšnosacījumu pārbaudes standarta instalācijas laikā. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Pirms sākšanas
 
-Ir būtiski noņemt veco pašapkalpošanās CSU (pašapkalpošanās) komponentu. Papildinformāciju skatiet iepriekš šajā tēmā par migrācijas darbībām.
+Ir būtiski noņemt veco pašapkalpošanās CSU (pašapkalpošanās) komponentu. Papildinformāciju skatiet iepriekš šī raksta migrācijas darbībās.
 
 ### <a name="examples-of-silent-deployment"></a>Klusās izvietošanas piemēri
 

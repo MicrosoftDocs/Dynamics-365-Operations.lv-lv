@@ -1,6 +1,6 @@
 ---
 title: Ieturētā nodokļa iestatīšana
-description: Šajā tēmā ir paskaidrots, kā iestatīt ieturēto nodokli.
+description: Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907956"
 ---
 # <a name="set-up-withholding-tax"></a>Ieturētā nodokļa iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt ieturēto nodokli. *Ieturētais nodoklis* ir nodoklis, kas tiek piemērots kreditoram, kuri neveido PVN darījumus. Ieturētais nodoklis, kas tiek aprēķināts kreditora maksājumiem, ir pasīvs. Tāpēc ieturētā nodokļa grāmatošanai ir derīgi tikai bilances konti vai pasīvu konti. Šis uzdevuma ceļvedis parāda, kā iestatīt ieturēto nodokli.
+Šajā rakstā ir izskaidrots, kā iestatīt ieturēto nodokli. *Ieturētais nodoklis* ir nodoklis, kas tiek piemērots kreditoram, kuri neveido PVN darījumus. Ieturētais nodoklis, kas tiek aprēķināts kreditora maksājumiem, ir pasīvs. Tāpēc ieturētā nodokļa grāmatošanai ir derīgi tikai bilances konti vai pasīvu konti. Šis uzdevuma ceļvedis parāda, kā iestatīt ieturēto nodokli.
 
 1. Pārejiet uz **Navigācijas rūts > Moduļi > Nodokļi > Netiešie nodokļi > Ieturētais nodoklis > Ieturētā nodokļa kodi**.
 2. Atlasiet **Jauns**.

@@ -1,6 +1,6 @@
 ---
-title: Krājumu redzamības rezervācija
-description: Šajā tēmā ir aprakstīts, kā iestatīt rezervēšanas līdzekli, lai izveidotu rezervācijas, patērētās rezervācijas un/vai atceltu norādītos krājumu daudzumus, izmantojot krājumu redzamību.
+title: Inventory Visibility rezervācijas
+description: Šajā rakstā ir aprakstīts, kā iestatīt rezervēšanas līdzekli, lai izveidotu rezervācijas, patērētas rezervācijas un/vai atceltu norādītos krājumu daudzumus, izmantojot krājumu redzamību.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895733"
 ---
-# <a name="inventory-visibility-reservations"></a>Krājumu redzamības rezervācija
+# <a name="inventory-visibility-reservations"></a>Inventory Visibility rezervācijas
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā iestatīt rezervēšanas līdzekli, lai izveidotu rezervācijas, patērētās rezervācijas un/vai atceltu norādītos krājumu daudzumus, izmantojot krājumu redzamību.
+Šajā rakstā ir aprakstīts, kā iestatīt rezervēšanas līdzekli, lai izveidotu rezervācijas, patērētas rezervācijas un/vai atceltu norādītos krājumu daudzumus, izmantojot krājumu redzamību.
 
 Rezervācijas iezīmē krājumu daudzumu, kas tiks izmantots turpmāk. Veidojot rezervāciju, sistēma neļauj citiem pasūtījumiem rezervēt vai patērēt rezervētās preces, līdz rezervēšana ir patērēta vai nerezervēta. Rezervācijas tiek izveidotas, patērētas un atceltas, izmantojot API izsaukumus Krājumu redzamības pakalpojumam.
 

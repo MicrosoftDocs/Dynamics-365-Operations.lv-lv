@@ -1,6 +1,6 @@
 ---
 title: Labot plānošanas programmas kļūdu un ierobežoto noslodzi
-description: Šajā tēmā sniegta informācija par iemesliem un risinājumiem tam, kāpēc Ražošanas pasūtījumu %1 nav iespējams plānot. Plānošanas rīka kļūda "Nav atrasts pietiekami daudz kapacitātes".
+description: Šajā rakstā ir sniegta informācija par iemesliem un rīkojumiem, kas paredzēti tam, ka ražošanas %1 pasūtījums nav ieplānots. Plānošanas rīka kļūda "Nav atrasts pietiekami daudz kapacitātes".
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891036"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Plānošanas rīka kļūdas "Nav atrasts pietiekami daudz kapacitātes" novēršana
 
@@ -26,7 +26,7 @@ Palaižot plānošanu, iespējams, saņemsit šādu kļūdas ziņojumu:
 
 > Ražošanas pasūtījumu %1 nevarēja plānot. Nav atrasts pietiekami daudz kapacitātes.
 
-Ir vairāki iemesli, kāpēc plānošanas rīkam radās problēma un tiek radīts šis ziņojums. Šajā tēmā sniegti norādījumi, kuri palīdzēs atrast galveno kļūdas cēloni un to mazināt.
+Ir vairāki iemesli, kāpēc plānošanas rīkam radās problēma un tiek radīts šis ziņojums. Šajā rakstā ir sniegtas vadlīnijas, kas palīdzēs atrast kļūdas saknes iemeslu un pēc tam to samazināt.
 
 ## <a name="review-the-applicable-resources"></a>Pārskatiet piemērojamos resursus
 

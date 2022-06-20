@@ -1,6 +1,6 @@
 ---
 title: Izmantot Microsoft Power Apps porālus kopā ar pušu datu modeli
-description: Šajā tēmā aprakstītas izmaiņas Microsoft Power Apps portālu tīmekļa lomās, kas ir veiktas, jo puses datu modelis ir dubultrakstīšanā.
+description: Šajā rakstā ir aprakstītas portālu web lomu izmaiņas Microsoft Power Apps, kas ir veiktas, jo puses datu modelis ir divkāršots.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898951"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Izmantot Microsoft Power Apps porālus kopā ar pušu datu modeli
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060924"
 
 Dubultās rakstīšanas lietojumprogrammas orhestrācijas risinājuma versijā 2.0.999.0 un jaunākās ir iekļautas datu modeļa izmaiņas pušu un globālajā adrešu grāmatā tabulām Konts un Kontaktpersona. Izmaiņas ļauj attiecības daudzi pret daudziem, kas atbalsta detalizētus biznesa scenārijus. Šīs izmaiņas neatbalsta portāla tīmekļa lomas, tostarp klientu portāls, kas tiek piegādāts ārpus saraksta vai kas pastāv vidē pirms dubultrakstīšanas instalēšanas. Lai tīmekļa lomas darbotos kā paredzēts, ir jāizveido jaunas tīmekļa lomas, izmantojot jauno datu modeli. 
 
-Kopumā tabulu mijiedarbības veids ir mainījies, bet tabulas atļaujas debitora portālā nav mainītas. Šajā tēmā skaidrots, kā izveidot jaunas tīmekļa lomas, kas darbojas ar jauno uzlaboto datu modeli.
+Kopumā tabulu mijiedarbības veids ir mainījies, bet tabulas atļaujas debitora portālā nav mainītas. Šajā rakstā skaidrots, kā izveidot jaunas Web lomas, kas darbojas ar jauno uzlaboto datu modeli.
 
 Šajā diagrammā parādītas tabulas attiecības **bez** puses un globālās adrešu grāmatas datu modeļa:
 

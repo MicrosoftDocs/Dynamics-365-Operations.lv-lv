@@ -1,6 +1,6 @@
 ---
 title: Anketu izveide
-description: Šajā tēmā ir aprakstīts anketas izveidošanas process.
+description: Šajā rakstā ir aprakstīts anketas izveidošanas process.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899648"
 ---
 # <a name="create-questionnaires"></a>Anketu izveide
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694856"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
+Šajā rakstā ir aprakstīts anketas izveidošanas process. Pirmā darbība anketas plānošana. Kad plānojat anketu, jūs ne tikai rakstāt jautājumus un atbildes, bet arī izveidojat struktūru, kas atbildes ļauj ierakstīt uz sakārtot. 
 
 Rūpīgi plānota anketa var palīdzēt paaugstināt iegūto datu kvalitāti. Veicot rūpīgu plānošanu, anketai varat labāk atlasīt atbilstošajā laikā atbilstošās opcijas. Nākamie punkti jums var palīdzēt plānot efektīvu anketu:
 

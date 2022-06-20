@@ -1,6 +1,6 @@
 ---
 title: Patēriņa cenu indeksa grafiks
-description: Šajā tēmā skaidrots, kā izveidot plaša patēriņa cenu indeksa (CPI) grafiku sarakstu, ko iegūstat no interneta, lai palīdzētu noteikt eskalācijas maksu abonementa rēķinos.
+description: Šajā rakstā skaidrots, kā izveidot plaša patēriņa cenu indeksa (CPI) grafiku sarakstu, ko iegūstat no interneta, lai palīdzētu noteikt eskalācijas maksu abonementa rēķinos.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904878"
 ---
 # <a name="consumer-price-index-schedule"></a>Patēriņa cenu indeksa grafiks
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā izveidot, dzēst, pārskatīt un apstrādāt plaša patēriņa cenu indeksa (CPI) grafikus. CPI grafiku var izmantot, lai noteiktu plaša patēriņa preču un pakalpojumu cenas, ko pievienojat kā rēķinu grafika rindas. Pēc tam CPI grafiku var izmantot ar eskalāciju un atlaides cenu norēķinu grafikā, vai arī to var manuāli apstrādāt, lai atjauninātu rēķinu summu norēķinu grafikās. Jūs varat manuāli ievadīt CPI grafikus, vai arī jūs variet importēt tos, izmantojot CPI grafika salikto elementu.
+Šajā rakstā skaidrots, kā izveidot, dzēst, pārskatīt un apstrādāt plaša patēriņa cenu indeksa (CPI) grafikus. CPI grafiku var izmantot, lai noteiktu plaša patēriņa preču un pakalpojumu cenas, ko pievienojat kā rēķinu grafika rindas. Pēc tam CPI grafiku var izmantot ar eskalāciju un atlaides cenu norēķinu grafikā, vai arī to var manuāli apstrādāt, lai atjauninātu rēķinu summu norēķinu grafikās. Jūs varat manuāli ievadīt CPI grafikus, vai arī jūs variet importēt tos, izmantojot CPI grafika salikto elementu.
 
 Lai pievienotu CPI grafiku, sekojiet šiem soļiem.
 

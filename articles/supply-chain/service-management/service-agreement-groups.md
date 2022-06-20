@@ -1,6 +1,6 @@
 ---
 title: Pakalpojumu līgumu pārskats
-description: Šajā tēmā sniegts pārskats par to, kā strādāt ar pakalpojumu līgumiem.
+description: Šajā rakstā sniegts pārskats par to, kā darbojas pakalpojumu līgumi.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862458"
 ---
 # <a name="service-agreements-overview"></a>Pakalpojumu līgumu pārskats
 
@@ -35,7 +35,7 @@ Lapas **Pakalpojumu pārvaldības parametri** laukā **Pakalpojumu līgumu grupa
 - Trīs līgumu grupas, ko esat iestatījuši savā uzņēmumā, ir Zelta, Sudraba un Bronzas.
 - Uzņēmumā tiek nodarbināts jauns pakalpojuma kontu vadītājs. Pakalpojumu kontu vadītājs ir atbildīgs par rīkošanos ar visiem Zelta līgumu klientiem. Jūs varat filtrēt līgumu ierakstus par Zelta līgumu grupu, lai atrastu visus līgumus, kuros kā atbildīgā persona būs jānorāda jaunais pakalpojumu kontu vadītājs.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Pakalpojumu līguma grupu izveide](create-service-agreement-groups.md)
 

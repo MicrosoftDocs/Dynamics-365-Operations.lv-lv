@@ -1,6 +1,6 @@
 ---
-title: Pasūtījuma kopsavilkuma apakšsummā nav iekļauti maksu nodokļi, izmantojot pielāgotos pasūtījuma kopsavilkuma moduļus
-description: Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt izmantot pielāgotos pasūtījumu kopsavilkuma moduļus un pasūtījuma kopsavilkuma apakšsummā nav ietverti maksu nodokļi scenārijā "cena ietver PVN".
+title: Pasūtījuma kopsavilkuma apakšsummā nav iekļauti nodokļi maksām, izmantojot pielāgotos pasūtījuma kopsavilkuma moduļus
+description: Šajā rakstā ir sniegti problēmu novēršanas norādījumi, kas var palīdzēt izmantot pielāgotos pasūtījumu kopsavilkuma moduļus un pasūtījuma kopsavilkuma apakšsummā nav ietverti maksu nodokļi scenārijā "cena ietver PVN".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848841"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Pasūtījuma kopsavilkuma apakšsummā nav iekļauti maksu nodokļi, izmantojot pielāgotos pasūtījuma kopsavilkuma moduļus
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Pasūtījuma kopsavilkuma apakšsummā nav iekļauti nodokļi maksām, izmantojot pielāgotos pasūtījuma kopsavilkuma moduļus
 
-Šajā tēmā ir sniegtas problēmu novēršanas norādes, kas var palīdzēt izmantot pielāgotos pasūtījumu kopsavilkuma moduļus un pasūtījuma kopsavilkuma apakšsummā nav ietverti maksu nodokļi scenārijā "cena ietver PVN".
+Šajā rakstā ir sniegti problēmu novēršanas norādījumi, kas var palīdzēt izmantot pielāgotos pasūtījumu kopsavilkuma moduļus un pasūtījuma kopsavilkuma apakšsummā nav ietverti maksu nodokļi scenārijā "cena ietver PVN".
 
 ## <a name="description"></a>Apraksts
 

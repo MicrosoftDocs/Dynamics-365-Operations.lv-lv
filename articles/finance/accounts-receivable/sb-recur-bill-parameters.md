@@ -1,6 +1,6 @@
 ---
 title: Periodisko līguma norēķinu parametri
-description: Šajā tēmā skaidrots, kā iestatīt noklusējuma vērtības norēķinu grafikiem, kas tiek izveidoti periodiskiem līguma rēķiniem. Tajā skaidrots arī, kā izveidot norēķinu grafika grupas.
+description: Šajā rakstā ir izskaidrots, kā iestatīt noklusējuma vērtības norēķinu grafikiem, kas tiek izveidoti periodiskiem līguma rēķiniem. Tajā skaidrots arī, kā izveidot norēķinu grafika grupas.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903339"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Periodisko līguma norēķinu parametri
 
@@ -27,7 +27,7 @@ Izmantojiet lapu **Periodiskie līguma norēķinu parametri**, lai iestatītu no
 
 ## <a name="general-tab"></a>Cilne Vispārīgi
 
-1. Lapas Periodiskie **līguma norēķinu parametri** cilnes **·** **Vispārīgi laukā Norēķinu grafika grupa** atlasiet norēķinu grafika grupu. Papildinformāciju par to, kā iestatīt norēķinu grafika grupas, skatiet [tālāk](#set-up-billing-schedule-groups) šīs tēmas sadaļā Norēķinu grafika grupas.
+1. Lapas Periodiskie **līguma norēķinu parametri** cilnes **·** **Vispārīgi laukā Norēķinu grafika grupa** atlasiet norēķinu grafika grupu. Papildinformāciju par to, kā iestatīt norēķinu grafika grupas, skatiet [tālāk](#set-up-billing-schedule-groups) šī raksta sadaļā Norēķinu grafika grupas.
 2. Laukā Darba **attiecību pārtraukšanas** veids atlasiet, kā tiek aprēķināts galīgais rēķins, ja norēķinu grafiks tiek pārtraukts:
 
     - **Pielāgot grafiku** . Nogrieziet norēķinu grafiku darba attiecību pārtraukšanas datumā, mainiet grafika statusu uz Pēdējie norēķini un koriģējiet saistīto atlikto maksājumu grafiku, atceļot summu, **kas** vairs nav jāpazīst. Ja norēķinu sākuma datums ir pēc atbrīvošanas datuma, pārējie norēķinu periodi tiek noņemti.

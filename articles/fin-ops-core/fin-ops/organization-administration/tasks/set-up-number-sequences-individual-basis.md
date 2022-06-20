@@ -1,6 +1,6 @@
 ---
 title: Atsevišķu numuru sēriju iestatīšana
-description: Šajā tēmā ir paskaidrots, kā iestatīt atsevišķu numuru sēriju.
+description: Šajā rakstā ir izskaidrots, kā iestatīt numuru sērijas atsevišķi.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904993"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atsevišķu numuru sēriju iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt atsevišķu numuru sēriju. Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami. Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci. Varat iestatīt visas nepieciešamās numuru sērijas vienlaicīgi, izmantojot vedni **Numuru sēriju iestatīšana** vai arī varat izveidot vai modificēt atsevišķas numuru sērijas, izmantojot lapu **Numuru sērijas**.
+Šajā rakstā ir izskaidrots, kā iestatīt numuru sērijas atsevišķi. Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ierakstu identifikatorus un darījumu ierakstus, kam tie ir nepieciešami. Pamatdati vai darījumu ieraksts, kam nepieciešams identifikators, tiek saukts par atsauci. Pirms atsaucei varat izveidot jaunus ierakstus, ir jāiestata numuru sērija un tā jāsaista ar atsauci. Varat iestatīt visas nepieciešamās numuru sērijas vienlaicīgi, izmantojot vedni **Numuru sēriju iestatīšana** vai arī varat izveidot vai modificēt atsevišķas numuru sērijas, izmantojot lapu **Numuru sērijas**.
 
 1. Pārejiet uz **Navigācijas rūts > Moduļi > Organizācijas administrēšana > Numuru sērijas > Numuru sērijas**.
 2. Atlasiet **Numuru sērija**.

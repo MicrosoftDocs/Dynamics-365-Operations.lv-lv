@@ -1,8 +1,8 @@
 ---
 title: Krājumu redzamības programma
-description: Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības līdzekļus.
+description: Šajā rakstā ir aprakstīts, kā izmantot krājumu redzamības programmu.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895762"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Inventory Visibility lietojumprogrammas lietošana
+# <a name="use-the-inventory-visibility-app"></a>Inventory Visibility programmas lietošana
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības līdzekļus.
+Šajā rakstā ir aprakstīts, kā izmantot krājumu redzamības programmu.
 
 Krājumu redzamība nodrošina modeļa vadītas programmas vizualizēšanu. Programmā ir trīs lapas: **Konfigurācija**, **Operāciju redzamība** un **Krājumu kopsavilkums**. Tam ir tālāk minētās vērtības:
 
@@ -70,7 +70,10 @@ Lai grāmatotu rezervēšanas pieprasījumu, pieprasījuma pamattekstā ir jāie
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Krājumu kopsavilkums
 
-**Krājuma kopsavilkums** ir pielāgots skats uz *Inventory OnHand Sum* entitīju. Tajā sniegts krājumu kopsavilkums precēm kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Pirms varat aplūkot datus cilnē **Krājuma kopsavilkums**, ir **Līdzekļu pārvaldības** cilnē ir jāiespējo līdzeklis *OnHandMostSpecificBackgroundService*.
+**Krājuma kopsavilkums** ir pielāgots skats uz *Inventory OnHand Sum* entitīju. Tajā sniegts krājumu kopsavilkums precēm kopā ar visām dimensijām. Krājumu kopsavilkuma dati periodiski tiek sinhronizēti no krājumu redzamības ik pēc 15 minūtēm. Lai skatītu datus cilnē **Krājumu kopsavilkums**, *cilnē Līdzekļu pārvaldība ir jāiestata funkcija OnHandMostSpecificBackgroundService* **un** jāatlasa **Atjaunināt konfigurāciju**.
+
+> [!NOTE]
+> Funkcija *OnHandMostSpecificBackgroundService* izseko tikai rīcībā esošo preču izmaiņas, kas notikušas pēc funkcijas ieslēgtšanas. To preču dati, kuras nav mainītas kopš ieslēgts līdzeklis, netiks sinhronizēti no krājumu pakalpojuma kešatmiņas vidē Dataverse. **Ja** jūsu Krājumu kopsavilkuma lapā nav parādīta visa pieejamā informācija, ko plānojat, **pārejiet uz sadaļu Krājumu pārvaldība > Periodiskie uzdevumi >** Krājumu redzamības integrācija, atspējojiet pakešuzdevumu un ataktivizējiet to. Tas veiks sākotnējo virzību, un visi dati nākamo *15 minūšu laikā tiks sinhronizēti* ar elementu Krājumu rīcībā summa. Ja vēlaties izmantot šo funkciju, **ieteicams to ieslēgt pirms jebkādu rīcībā esošo izmaiņu veikšanas un iespējot pakešuzdevumu Krājumu** redzamība integrācija.
 
 Lietojiet Dataverse sniegto **Detalizēto filtru**, varat izveidot personalizētu skatu, kurā rādītas jums svarīgākās rindas. Papildu filtra opcijas ļauj izveidot plašu skatījumu klāstu no vienkāršiem uz kompleksiem. Tie arī ļauj pievienot filtriem grupētus un ligzdotus nosacījumus. Lai uzzinātu vairāk par **Papildu filtra** lietošanu, skatiet rakstu [Rediģēt vai izveidot personalizētus skatus, izmantojot detalizētā režģa filtrus](/powerapps/user/grid-filters-advanced).
 

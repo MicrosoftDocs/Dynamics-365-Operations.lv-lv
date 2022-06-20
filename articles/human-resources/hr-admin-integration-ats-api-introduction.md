@@ -1,6 +1,6 @@
 ---
 title: Kandidāta izsekošanas sistēmas integrācijas API ievads
-description: Šajā tēmā aprakstīts Dynamics 365 Human Resources kandidāta izsekošanas sistēmas (ATS) integrācijas API.
+description: Šajā rakstā ir aprakstīts Dynamics 365 Human Resources kandidātu izsekošanas sistēmas (ATS) integrācijas API.
 author: andreabichsel
 ms.date: 02/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6037d09fdc484753c7e90a896ce383bd71391356
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894706"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidāta izsekošanas sistēmas integrācijas API ievads
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069936"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīts Dynamics 365 Human Resources kandidāta izsekošanas sistēmas (ATS) integrācijas API. API nolūks ir nodrošināt racionalizētu integrāciju starp Dynamics 365 Human Resources un partnera ATS.
+Šajā rakstā ir aprakstīts Dynamics 365 Human Resources kandidātu izsekošanas sistēmas (ATS) integrācijas API. API nolūks ir nodrošināt racionalizētu integrāciju starp Dynamics 365 Human Resources un partnera ATS.
 
 ![AtS integrācijas plūsma.](media/hr-admin-integration-ats-api-introduction-flow.png)
 

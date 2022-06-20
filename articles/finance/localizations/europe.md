@@ -1,6 +1,6 @@
 ---
 title: Eiropas pārskats
-description: Šajā tēmā ir sniegtas saites uz Eiropai paredzētajiem Microsoft Dynamics 365 Finance dokumentācijas resursiem.
+description: Šajā rakstā ir sniegtas saites Microsoft Dynamics uz 365 Finanšu dokumentācijas resursiem Eiropā.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856523"
 ---
 # <a name="europe-overview"></a>Eiropas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt juridiskās personas, kuru galvenā adrese ir Eiropā. 
+Šajā rakstā ir ietverta informācija un saites uz resursiem, kas var palīdzēt iestatīt juridiskas personas ar primāro adresi Eiropā. 
 
 - [Avansa turētāju pārskats](emea-advance-holders.md)
  - [Avansa turētāju darbības](emea-advance-holders-transactions.md)

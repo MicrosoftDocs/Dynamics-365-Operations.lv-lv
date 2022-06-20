@@ -1,6 +1,6 @@
 ---
 title: Vispārējā plānošana ar pieprasījuma apjoma prognozēm
-description: Šajā tēmā ir paskaidrots, kā iekļaut pieprasījuma apjoma prognozes vispārējās plānošanas laikā ar plānošanas optimizāciju.
+description: Šajā rakstā ir izskaidrots, kā vispārējās plānošanas laikā iekļaut pieprasījuma apjoma prognozes ar plānošanas optimizāciju.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878995"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Vispārējā plānošana ar pieprasījuma apjoma prognozēm
 
@@ -42,7 +42,7 @@ Lai konfigurētu vispārējo plānu tā, lai tas ietvertu pieprasījuma apjoma p
 
     - **Budžeta modelis** - atlasiet lietojamo budžeta modeli. Šis modelis tiks ņemts vērā, kad pašreizējam vispārējam plānam tiek ģenerēts piegādes ieteikums.
     - **Iekļaut pieprasījuma apjoma prognozi** - Iestatiet šo opciju kā *Jā*, lai pieprasījuma apjoma prognozi iekļautu pašreizējā vispārējā plānā. Ja to iestatāt uz *Nē*, pieprasījuma apjoma prognozes darījumi netiks iekļauti vispārējā plānā.
-    - **Budžeta vajadzību samazināšanai izmantotā metode** — Atlasiet metodi, kas jāizmanto, lai samazinātu budžeta vajadzības. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Budžeta samazināšanas principi](#reduction-keys).
+    - **Budžeta vajadzību samazināšanai izmantotā metode** — Atlasiet metodi, kas jāizmanto, lai samazinātu budžeta vajadzības. Papildinformāciju skatiet tālāk [šī raksta sadaļā](#reduction-keys) Budžeta samazināšanas principi.
 
 1. Kopsavilkuma cilnē **Laika periods dienās** varat iestatīt sekojošos laukus, lai noteiktu periodu, kurā tiek iekļauta pieprasījuma apjoma prognoze:
 
@@ -61,7 +61,7 @@ Lai konfigurētu vajadzības grupu tā, lai tā ietvertu pieprasījuma apjoma pr
 1. Kopsavilkuma cilnē **Cits**, iestatiet tālāk minētos laukus.
 
     - **Budžeta plāna laika periods** — Ievadiet dienu skaitu (no šodienas datuma), kam jāpiemēro pieprasījuma apjoma prognoze. Šo vērtību var ignorēt, izmantojot vispārējā plāna opciju **Budžeta plāns**, kā aprakstīts iepriekšējā sadaļā.
-    - **Samazināšanas princips** — Atlasiet samazināšanas principu, ko lietot. Lai iegūtu papildu informāciju, skatiet sadaļu [Izveidot un iestatīt budžeta samazināšanas principu](#create-reduction-key) un [Izmantot samazināšanas principu](#use-reduction-key) šīs tēmas tālākās sadaļās.
+    - **Samazināšanas princips** — Atlasiet samazināšanas principu, ko lietot. Papildinformāciju skatiet budžeta [samazināšanas principu izveidošana un iestatīšana un](#create-reduction-key)[Samazināšanas principu sadaļu](#use-reduction-key) izmantošana tālāk šajā rakstā.
     - **Samazināt budžetu pēc** – vispārējiem plāniem, kuros lauks **Metode, kas izmantota, lai samazinātu budžeta vajadzības** ir iestatīts uz *Darījumi - samazināšanas princips* vai *Darījumi – dinamisks periods*, norādiet, kuriem darījumiem jāsamazina budžets. Atlasiet vienu no šīm vērtībām:
 
         - **Visi darījumi** – visiem darījumiem jāsamazina budžets.

@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846218"
 ---
 # <a name="compare-item-prices-storage-report"></a>Krājumu cenu uzglabāšanas salīdzināšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā palaist pārskatu **Krājumu cenas uzglabāšanas salīdzināšana** un padarīt rezultātu pieejamu digitāli vai nu kā interaktīvu lapu programmā Dynamics 365 Supply Chain Management, vai kā eksportētu dokumentu jebkurā no vairākiem formātiem.
+Šajā rakstā ir izskaidrots, kā palaist krājumu cenu salīdzināšanas **glabāšanas** pārskatu un padarīt izvadi pieejamu digitāli kā Dynamics 365 Supply Chain Management interaktīvu lapu vai kā eksportētu dokumentu jebkurā vai vairākos formātos.
 
 Skatot pārskatu pārlūkā, kolonnas un uzkrātās bilances tiek dinamiski pielāgotas atkarībā no konfigurētā izkārtojuma. Varat sakārtot rezultātus, filtrēt tos, detalizēt datus un veikts citas darbības.
 

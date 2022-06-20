@@ -1,6 +1,6 @@
 ---
-title: Iespējot debitora atdošanas paziņojumus pārdošanas punktā (POS)
-description: Šajā tēmā ir aprakstīts, kā iespējot debitoru atdošanas paziņojumus Microsoft Dynamics 365 Commerce pārdošanas punktā (POS).
+title: Debitora reģistrēšanās paziņojumu iespējošana pārdošanas punktā (POS)
+description: Šajā rakstā ir aprakstīts, kā iespējot debitoru atdošanas paziņojumus Microsoft Dynamics 365 Commerce pārdošanas punktā (POS).
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885149"
 ---
-# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Iespējot debitora atdošanas paziņojumus pārdošanas punktā (POS)
+# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Debitora reģistrēšanās paziņojumu iespējošana pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iespējot debitoru atdošanas paziņojumus Microsoft Dynamics 365 Commerce pārdošanas punktā (POS).
+Šajā rakstā ir aprakstīts, kā iespējot debitoru atdošanas paziņojumus Microsoft Dynamics 365 Commerce pārdošanas punktā (POS).
 
 Organizācijas savos e-pasta ziņojumos "pasūtījums ir gatavs savākšanai", var nodrošināt saiti vai pogu, kas ļauj debitoriem paziņot veikalam, ka viņi atrodas uz vietas, un gaida, kad viņu pakotne tiks iznesta. Pēc tam debitori saņem reģistrēšanās apstiprinājumu, un veikals savā POS programmā saņem paziņojumu kā uzdevumu. Šis uzdevums kalpo kā uzvedne pārdošanas piesaistēm, lai piegādātu pasūtījumu debitoram transportlīdzeklim. Tādēļ debitoram nav jāievada veikals.
 
@@ -66,27 +66,27 @@ Debitora reģistrēšanās pieprasa, lai noteikti parametri un vērtības tiktu 
 
 Lai pārbaudītu debitora reģistrēšanās līdzekli, sekojiet šiem soļiem.
 
-1. Izveidojiet debitora atdlapas lapu un tad pievienojiet un konfigurējiet debitora atdlapas moduli. Papildinformāciju skatiet [savākšanas moduļa atdākšanas modulī](check-in-pickup-module.md). 
+1. Izveidojiet debitora atdlapas lapu un tad pievienojiet un konfigurējiet debitora atdlapas moduli. Papildinformāciju skatiet savākšanas [moduļa atdākšanas modulī](check-in-pickup-module.md). 
 1. Atdot lapā, bet nepublicēt to.
-1. Pievienojiet tālāk norādīto saiti e-pasta veidnei, kas tiek izsaukta, izmantojot iepakojuma pabeigšanas paziņojuma veidu piegādes savākšanas režīmam. Papildinformāciju skatiet sadaļā [E-pasta veidņu izveide transakciju notikumiem](email-templates-transactions.md).
+1. Pievienojiet tālāk norādīto saiti e-pasta veidnei, kas tiek izsaukta, izmantojot iepakojuma pabeigšanas paziņojuma veidu piegādes savākšanas režīmam. Papildinformāciju skatiet sadaļā E-pasta [veidņu izveide transakciju notikumiem](email-templates-transactions.md).
 
-    - **Pirms-ražošanas (UAT) vidēm: pievienojiet koda fragmentu no iepriekš šīs tēmas sadaļas Darbības e-pasta**[veidnes](#configure-the-transactional-email-template) konfigurēšana.
-    - **Ražošanas vidēm: pievienojiet** šādu komentāra kodu, lai esošie debitori nebūtu ietekmēti.
+    - **Pirms-ražošanas (UAT) vidēm:**[pievienojiet](#configure-the-transactional-email-template) koda fragmentu no darbības e-pasta veidnes konfigurācijas sadaļas, kas iepriekš atrodas šajā rakstā.
+    - **Ražošanas vidēm: pievienojiet šādu** komentāra kodu, lai esošie debitori nebūtu ietekmēti.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`
 
 1. Izveidojiet pasūtījumu, kur norādīts piegādes izdošanas režīms.
-1. Kad saņemat e-pasta ziņojumu, kas ir izraisīts, izmantojot iepakojuma pabeigšanas paziņojuma veidu, pārbaudiet atdošanas plūsmu, atverot atdošanas lapu, kam iepriekš tika pievienots URL. Tā kā URL ietver karodziņu, pirms lapas skatīšanas jums tiks parādīta uzvedne `&preview=inprogress` autentifikācijai.
+1. Kad saņemat e-pasta ziņojumu, kas ir izraisīts, izmantojot iepakojuma pabeigšanas paziņojuma veidu, pārbaudiet atdošanas plūsmu, atverot atdošanas lapu, kam iepriekš tika pievienots URL. Tā kā URL ietver karodziņu `&preview=inprogress`, pirms lapas skatīšanas jums tiks parādīta uzvedne autentifikācijai.
 1. Ievadiet jebkādu papildinformāciju, kas nepieciešama moduļa konfigurēšanai.
 1. Pārbaudiet, vai atd apstiprināšanas skats tiek rādīts pareizi.
 1. Atveriet POS termināli veikalam, kur tiks saņemts pasūtījums.
-1. Atlasiet **pasūtījumus elementa** izvēlei un pārbaudiet, vai pasūtījums parādās.
+1. Atlasiet pasūtījumus **elementa izvēlei** un pārbaudiet, vai pasūtījums parādās.
 1. Apstipriniet, ka detalizētas informācijas rūtī parādās jebkāda papildinformācija, kas tika konfigurēta atdotajā modulī.
 
 Pēc tam, kad esat pārbaudījis, ka debitora reģistrēšanās līdzeklis darbojas no beigu datuma līdz beigām, sekojiet šiem soļiem.
 
 1. Publicēt atdlapu.
-1. Ja testēsiet ražošanas vidē, noņemiet URL e-pasta veidnē "Pasūtījums gatavs savākšanai", lai tiek parādīta saite vai **poga**. Pēc tam atkārtoti ielādēt veidni.
+1. Ja testēsiet ražošanas vidē, noņemiet URL e-pasta veidnē "Pasūtījums gatavs savākšanai", **lai** tiek parādīta saite vai poga. Pēc tam atkārtoti ielādēt veidni.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

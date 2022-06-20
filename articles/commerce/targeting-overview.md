@@ -1,6 +1,6 @@
 ---
 title: Mērķauditorijas atlase ierīcēs, tirgū un ģeogrāfiskā atrašanās vietā
-description: Šajā tēmā ir aprakstīts, kā izveidot, rediģēt un pārvaldīt mērķauditorijas un mērķus Microsoft Dynamics 365 Commerce vietņu veidotājā, izmantojot ierīces, tirgus un ģeogrāfiskās atrašanās vietas informāciju.
+description: Šajā rakstā ir aprakstīts, kā izveidot, rediģēt un pārvaldīt mērķauditorijas Microsoft Dynamics 365 Commerce un mērķus vietas veidotājā, izmantojot informāciju par ierīci, tirgu un ģeovietu.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881661"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Mērķauditorijas atlase ierīcēs, tirgū un ģeogrāfiskā atrašanās vietā
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot, rediģēt un pārvaldīt mērķauditorijas un mērķus Microsoft Dynamics 365 Commerce vietņu veidotājā, izmantojot ierīces, tirgus un ģeogrāfiskās atrašanās vietas informāciju.
+Šajā rakstā ir aprakstīts, kā izveidot, rediģēt un pārvaldīt mērķauditorijas Microsoft Dynamics 365 Commerce un mērķus vietas veidotājā, izmantojot informāciju par ierīci, tirgu un ģeovietu.
 
 Dynamics 365 Commerce ļauj personalizēt jūsu lapas satura variācijas (pazīstamas kā *mērķi*) konkrētām klientu grupām (pazīstamas kā *auditorijas*), lai palīdzētu palielināt lietotāju iesaisti un apmierinātību. Vispirms varat izveidot auditoriju vai mērķi. Tomēr veiksmīgai mērķauditorijas atlases pieredzei ir nepieciešami abi šie komponenti.
 
@@ -97,16 +97,16 @@ Lai rediģētu auditoriju, cilnē **Auditorijas** atlasiet hipersaiti un pēc ta
 > [!NOTE]
 > Auditorijas ir vietnes līmeņa koncepcija Commerce vietņu veidotājā. Varat kopīgot vienu un to pašu auditoriju vairākos mērķos.
 
-### <a name="rename-an-audience-in-site-builder"></a>Pārdēvējiet auditoriju vietņu veidotājā
+### <a name="rename-an-audience-in-site-builder"></a>Mērķauditorijas pārdēvēšana vietu veidotājā
 
-Lai pārdēvētu esošu auditoriju lietojumprogrammā Commerce vietņu veidotājs, veiciet šīs darbības.
+Lai pārdēvētu esošu mērķauditoriju Commerce Site Builder, sekojiet šiem soļiem.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Auditorijas**.
-1. Atlasiet tā auditorijas segmenta nosaukumu, kuru vēlaties pārdēvēt.
-1. Izvēlieties **Rediģēt** lai sāktu rediģēt auditoriju.
-1. Mērķauditorijas rekvizītu rūtī atlasiet pildspalvas simbolu blakus auditorijas nosaukumam.
-1. Rediģējiet auditorijas nosaukumu pēc vajadzības.
-1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
+1. Atlasiet mērķauditorijas segmenta nosaukumu, ko vēlaties pārdēvēt.
+1. Atlasiet **Labot,** lai sāktu mērķauditorijas rediģēšanu.
+1. Mērķauditorijas rekvizītu rūtī atlasiet pie mērķauditorijas vārda savu zīmuli.
+1. Pēc nepieciešamības rediģējiet mērķauditorijas nosaukumu.
+1. Atzīmējiet izvēles rūtiņu, lai apstiprinātu nosaukuma maiņu.
 1. Atlasiet **Beigt rediģēšanu**.
 
 ## <a name="targets"></a>Mērķi

@@ -1,6 +1,6 @@
 ---
 title: Klientu pārvaldība veikalos
-description: Šajā tēmā paskaidrots, kā mazumtirgotāji var iespējot klientu pārvaldības iespējas pārdošanas punktā (POS) risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir izskaidrots, kā mazumtirgotāji var iespējot debitoru pārvaldības iespējas pārdošanas punktā (POS)Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863491"
 ---
 # <a name="customer-management-in-stores"></a>Klientu pārvaldība veikalos
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā mazumtirgotāji var iespējot klientu pārvaldības iespējas pārdošanas punktā (POS) risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir izskaidrots, kā mazumtirgotāji var iespējot debitoru pārvaldības iespējas pārdošanas punktā (POS)Microsoft Dynamics 365 Commerce.
 
 Ir būtiski, ka veikala asistenti var izveidot un rediģēt klientu ierakstus pārdošanas punktā. Tādējādi viņi var fiksēt jebkādus klienta informācijas atjauninājumus, piemēram, e-pasta adresi, tālruņa numura vai adreses maiņu. Šī informācija noder lejupstraumes sistēmās, piemēram, mārketingā, jo šo sistēmu efektivitāte ir atkarīga no klientu datu precizitātes.
 

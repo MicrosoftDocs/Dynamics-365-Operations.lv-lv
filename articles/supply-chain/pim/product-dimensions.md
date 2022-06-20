@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867932"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -47,7 +47,7 @@ Preces dimensijas vērtības izmēru, krāsu un stila dimensijām var izveidot �
 
 Preces konfigurācijas dimensijas vērtības parasti tiek izveidotas, izmantojot preču konfiguratoru vai dimensiju konfiguratoru. 
 
-Preces versijas parasti tiek veidotas noteiktām versijām, jo prece attīstās tās dzīves cikla laikā. Preces versijas tālāk ir detalizēti aprakstītas šajā tēmā.
+Preces versijas parasti tiek veidotas noteiktām versijām, jo prece attīstās tās dzīves cikla laikā. Preču versijas vēlāk šajā rakstā ir ietvertas detalizēti.
 
 Preces dimensijas var izveidot un uzturēt arī lapā **Preces dimensijas**, kam var piekļūt tālāk norādītajās vietās.
 

@@ -1,6 +1,6 @@
 ---
 title: SEO metadatu pārvaldība
-description: Šajā tēmā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (SEO) metadatus Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (MEKLĒJIET) metadatus Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/21/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 78ed94ced246157daafbc482ce674cda6579f930
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881301"
 ---
 # <a name="manage-seo-metadata"></a>SEO metadatu pārvaldība
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (SEO) metadatus Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā pārvaldīt meklēšanas programmas optimizācijas (MEKLĒJIET) metadatus Microsoft Dynamics 365 Commerce.
 
 SEO metadatus vietnei var pārvaldīt, izmantojot vietnes kartes un lapas metadatus.
     

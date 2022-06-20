@@ -1,6 +1,6 @@
 ---
 title: Darbā pieņemšanas pieprasījuma atrašanās vieta
-description: Šajā tēmā aprakstīta personāla atlases pieprasījuma atrašanās vietas elements, kas iestatīts programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir aprakstīta personāla atlases pieprasījuma atrašanās vietas entītija Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4dbc676e25c1ec24350607b10787924b0738e102
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d31af9ab62db310b89fbc7a2d7099621b59a356d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893821"
 ---
 # <a name="recruiting-request-location"></a>Darbā pieņemšanas pieprasījuma atrašanās vieta
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069175"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīta personāla atlases pieprasījuma atrašanās vietas elements, kas iestatīts programmā Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīta personāla atlases pieprasījuma atrašanās vietas entītija Dynamics 365 Human Resources.
 
 Fiziskais nosaukums: mshr_hcmrecruitingrequestlocationentity
 

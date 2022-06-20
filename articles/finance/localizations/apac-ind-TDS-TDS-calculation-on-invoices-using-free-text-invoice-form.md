@@ -1,6 +1,6 @@
 ---
 title: TDS aprēķins rēķinos no Brīva teksta rēķina lapas
-description: Šajā tēmā skaidrots, kā aprēķināt No kopējo ienākumu summas atskaitīto nodokli (TDS) rēķinos, izmantojot Brīvā teksta rēķina lapu.
+description: Šajā rakstā ir izskaidrots, kā aprēķināt ieturēto nodokli avota (TDS) rēķinos, izmantojot brīvā teksta rēķina lapu.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5a1960974dff90ef5f0cc8eab018351a9e412858
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b1cf0f5366315884e75a6fee25b88a3aac7d62de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856616"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>TDS aprēķins rēķinos no Brīva teksta rēķina lapas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā aprēķināt No kopējo ienākumu summas atskaitīto nodokli (TDS) rēķinos, izmantojot **Brīvā teksta rēķina** lapu.
+Šajā rakstā ir izskaidrots, kā aprēķināt ieturēto nodokli avota (TDS) rēķinos, izmantojot brīvā **teksta rēķina** lapu.
 
 1. Dodieties uz **Debitoru parādi \> Rēķini \> Visi brīva teksta rēķini**.
 

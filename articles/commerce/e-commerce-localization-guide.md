@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce e-commerce lokalizācijas ceļvedis
-description: Šajā tēmā ir aprakstīts, kā lokalizēt Microsoft Dynamics 365 Commerce e-komercijas vietni papildu valodās un konfigurēt vietu, lai atbalstītu vairākus kanālus.
+description: Šajā rakstā ir aprakstīts, kā lokalizēt Microsoft Dynamics 365 Commerce e-komercijas vietni papildu valodās un konfigurēt vietu, lai atbalstītu vairākus kanālus.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873388"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce e-commerce lokalizācijas ceļvedis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, Microsoft Dynamics 365 Commerce kā lokalizēt e-komercijas vietni papildu valodās un konfigurēt vietu, lai atbalstītu vairākus kanālus, kā arī ietvertas koncepcijas un terminoloģija, kas saistīta ar šo procesu.
+Šajā rakstā ir aprakstīts, Microsoft Dynamics 365 Commerce kā lokalizēt e-komercijas vietni papildu valodās un konfigurēt vietu, lai atbalstītu vairākus kanālus, kā arī ietvertas koncepcijas un terminoloģija, kas saistīta ar šo procesu.
 
 E-komercijas Dynamics 365 Commerce iespējas ir veidotas, lai iespējotu tiešsaistes pieredzi, ko var pielāgot noteiktām valstīm un valodām, bet tajā pašā laikā atļaut veidņu, lapu, satura un plašsaziņas līdzekļu maksimālo atkārtotu izmantošanu. Varat arī izveidot pamata vietu un pēc tam paplašināt jaunās tirgus, pievienojot papildu valstu un valodu atbalstu laika gaitā.
 
@@ -79,7 +79,7 @@ Papildinformāciju par kanāliem skatiet sadaļā [Kanālu apskats](channels-ove
 ![Ārpus kastes Dynamics 365 Commerce e-komercijas vietnes](media/loc-guide-1.png)
 
 > [!NOTE]
-> Jūs varat konfigurēt Fabrikam demonstrācijas vietni papildu valodai, lai varētu veikt satura attīstību šajā valodā. Papildinformāciju par to, kā vietnei un kanālam pievienot jaunu valodu, [skatiet](#configure-an-additional-language-for-your-site) tālāk šīs tēmas sadaļā Papildu valodas konfigurēšana jūsu vietnei.
+> Jūs varat konfigurēt Fabrikam demonstrācijas vietni papildu valodai, lai varētu veikt satura attīstību šajā valodā. Papildinformāciju par to, kā vietnei un kanālam pievienot jaunu valodu, [skatiet](#configure-an-additional-language-for-your-site) tālāk šī raksta sadaļā Papildu valodas konfigurēšana vietnei.
 
 Tomēr satura pārvaldības sistēma (CMS) Dynamics 365 Commerce un e-komercijas vietņu lapas modelis ir veidoti, lai iespējotu paplašināto tirgu un vietējos tirgus. Tādējādi, izmantojot vienu e-komercijas vietni, varat pārvaldīt līdzekļus tiešsaistes veikalam, kas aptver vairākus tirgus un valodas.
 
@@ -117,7 +117,7 @@ Lai pievienotu valodu kanālam vietas veidotājā, sekojiet šiem soļiem.
 
 Kad atgriezīsieties **Commerce Site** Builder skatījumā Lapas, jaunā valoda būs pieejama kanālā un atrašanās vietas izvēle augšējā labajā pusē. Tagad varat izveidot lokalizētās lapu versijas savā pamatvalodā.
 
-Jūsu lapu un fragmentu satura lokalizēšanas process ir iekļauts [tālāk šīs tēmas localize e-commerce](#localize-e-commerce-site-content) vietnes satura sadaļā.
+Jūsu lapu un fragmentu satura lokalizēšanas process ir iekļauts e-komercijas [vietnes](#localize-e-commerce-site-content) satura sadaļā lokalizācija tālāk šajā rakstā.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Konfigurējiet jaunu kanālu jūsu vietnei
 
@@ -156,7 +156,7 @@ Microsoft Dynamics Debitori parasti strādā ar trešās puses lokalizācijas kr
 
 Visas jaunās lapas, fragmenti un plašsaziņas līdzekļi tiek veidoti kanāla un valodas kontekstā, kas pašreiz atlasīti kanālā un atrašanās vietas izvēlei. Šī valoda parasti ir jūsu "pamatvaloda", ja nav konfigurētas papildu valodas vai kanāli. Vietnēs, kurās ir konfigurēti vairāki kanāli un valodas, "pamatvaloda" **tiek** definēta pēc kanāla un atrašanās vietas, ko esat iestatījis kā noklusējumu kanāla lapā vietnes iestatījumos.
 
-Darbības lapu, fragmentu un plašsaziņas līdzekļu satura lokalizēšanai ir līdzīgas. Izņēmumi un atšķirības tiks norādīts turpmākās sadaļās. Tomēr darbības moduļa satura lokalizēšanai atšķiras. Plašāku informāciju skatiet tālāk šīs [tēmas sadaļā Lokalizējiet](#localize-modules) moduļus.
+Darbības lapu, fragmentu un plašsaziņas līdzekļu satura lokalizēšanai ir līdzīgas. Izņēmumi un atšķirības tiks norādīts turpmākās sadaļās. Tomēr darbības moduļa satura lokalizēšanai atšķiras. Papildinformāciju skatiet tālāk šī [raksta](#localize-modules) sadaļā Lokalizēt moduļus.
 
 #### <a name="step-1-export-an-xliff-file"></a>1. darbība: XLIFF faila eksportēšana
 

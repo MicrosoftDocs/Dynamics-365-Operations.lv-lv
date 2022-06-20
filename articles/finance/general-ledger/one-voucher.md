@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896410"
 ---
 # <a name="one-voucher"></a>Viens dokuments
 
@@ -37,7 +37,7 @@ Esošā funkcionalitāte jums ļauj finanšu žurnālos (vispārējā žurnālā
     [![Atsevišķas rindas.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > Viena dokumenta definīcija **neattiecas** uz gadījumiem, kur žurnālu nosaukumi ir iestatīti kā **Tikai viena dokumenta numurs**, bet pēc tam lietotājs ievada dokumentu, kurā ir tikai Virsgrāmatas kontu tipi. Šajā tēmā Viens dokuments nozīmē, ka pastāv viens dokuments, kurā ir vairāki kreditori, debitori, bankas, pamatlīdzekļi vai projekti.
+    > Viena dokumenta definīcija **neattiecas** uz gadījumiem, kur žurnālu nosaukumi ir iestatīti kā **Tikai viena dokumenta numurs**, bet pēc tam lietotājs ievada dokumentu, kurā ir tikai Virsgrāmatas kontu tipi. Šajā rakstā viens dokuments nozīmē, ka ir viens dokuments, kurā ir vairāk nekā viens kreditors, debitors, banka, pamatlīdzeklis vai projekts.
 
 - Ievadiet vairāku rindu dokumentu, kurā nav norādīts korespondējošais konts.
 
@@ -63,16 +63,16 @@ Pēc tam ģenerējat pārskatu **Izdevumi pēc kreditora** darbvietā **Finanšu
 
 Sakarā ar problēmām, kas var rasties, izmantojot Viens dokuments, šī funkcionalitāte galu galā būs novecojusi. Tomēr, tā kā pastāv funkcionāli trūkumi, kas ir atkarīgi no šīs funkcionalitātes, novecošana nenotiks uzreiz. Tā vietā tiks izmantots tālāk norādītais grafiks.
 
-- **2018. gada pavasara laidiens** — šī funkcionalitāte tika izslēgta, izmantojot lapas **Virsgrāmatas parametri** cilnes **Vispārīgi** parametru **Atļaut vairākas transakcijas vienā dokumentā**. Tomēr varat to atkārtoti ieslēgt, ja jūsu organizācijā tiek izmantots kāds no tālāk šajā tēmā uzskaitītajiem scenārijiem funkcionālo trūkumu novēršanai.
+- **2018. gada pavasara laidiens** — šī funkcionalitāte tika izslēgta, izmantojot lapas **Virsgrāmatas parametri** cilnes **Vispārīgi** parametru **Atļaut vairākas transakcijas vienā dokumentā**. Tomēr to ir iespējams atkal ieslēgt, ja jūsu organizācijai ir scenārijs, kas iekrīt vienā no funkcionālām nepilnībām, kas ir uzskaitītas tālāk šajā rakstā.
 
-    - Ja biznesa scenārijā nav vajadzīgs Viens dokuments, ieteicams atstāt funkcionalitāti izslēgtu. Microsoft nelabos kļūdas šajā tēmā tālāk norādītajās jomās, ja šī funkcionalitāte tiek izmantota, kaut gan pastāv cits risinājums.
+    - Ja biznesa scenārijā nav vajadzīgs Viens dokuments, ieteicams atstāt funkcionalitāti izslēgtu. Ja to izmantojat, lai gan pastāv cits risinājums, korporācija Microsoft nelabos "kļūdas" apgabalos, kas tālāk šajā rakstā ir identificēti.
     - Ieteicams pārtraukt Viens dokuments izmantošanu integrācijai, ja vien funkcionalitāte nepieciešama kāda funkcionālā trūkuma novēršanai.
 
 - **Vēlāki laidieni** – vairākas no šīm biznesa darbībām ir izpildāmas, tikai izmantojot Viens dokuments. Microsoft jānodrošina, lai pēc funkcionalitātes novecošanas sistēmā joprojām tiktu izpildītas visas identificētās biznesa darbības. Tāpēc, iespējams, būs jāpievieno jauni līdzekļi, lai aizpildītu funkcionālos trūkumus. Microsoft nevar nodrošināt konkrētu risinājumu, jo katra līdzekļa trūkumi atšķiras un ir jāizvērtē, pamatojoties uz biznesa darbībām. Daži funkcionālie trūkumi, iespējams, tiks aizstāti ar līdzekļiem, kas palīdz izpildīt noteiktas biznesa darbības. Tomēr citus trūkumus var novērst, turpinot atļaut ierakstus žurnālā, it kā izmantojot Vienu dokumentu, bet uzlabojot sistēmu, lai pēc vajadzības izsekotu detalizētāku informāciju.
 
 Kad būs novērsti visi funkcionālie trūkumi, Microsoft paziņos, ka līdzeklis kļūs novecojis. Tomēr novecošana nebūs spēkā vismaz vienu gadu pēc šī paziņojuma. Lai gan Microsoft nevar sniegt novērtējumu par to, kad Viena dokumenta funkcionalitāte būs novecojusi, iespējams, ka tas būs vismaz pēc diviem gadiem. Microsoft politika ir ieturēt vismaz 12 mēnešus starp paziņojumu par novecojušu funkcionalitāti un faktisko novecošanu, tādējādi debitoriem un neatkarīgiem programmatūras kreditoriem (ISV) ir laiks, lai reaģētu uz izmaiņām. Piemēram, organizācijai varētu būt nepieciešams atjaunināt savus biznesa procesus, elementus un integrācijas.
 
-Viena dokumenta novecošana ir būtiska izmaiņa, par ko tiks plaši brīdināts. Kā daļa no šīs komunikācijas Microsoft atjauninās šo tēmu, iegrāmatojiet tiešsaistes Microsoft Dynamics ziņu 365 Finanses, atjauniniet tēmu "Noņemts vai novecojis", komunicē ar izmaiņām attiecīgajās Microsoft konferencēs un tā tālāk.
+One voucher novecošana ir būtiska izmaiņa, par ko tiks plaši brīdināts. Kā daļa no šī komunikācijas Microsoft atjauninās šo rakstu, publicēs Microsoft Dynamics 365 Finansu par 365 Finanses, atjauniniet rakstu "Noņemts vai novecojis" un komunicē izmaiņas attiecīgajās Microsoft konferencēs u.c.
 
 ## <a name="why-use-one-voucher"></a>Kādos gadījumos izmantot funkcionalitāti Viens dokuments?
 

@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas pasūtījumu grāmatošana
-description: Šajā tēmā ir sniegta informācija par pārdošanas pasūtījuma cilni krājumu grāmatošanas metodes lapā.
+description: Šajā rakstā ir sniegta informācija par pārdošanas pasūtījuma cilni krājumu grāmatošanas metodes lapā.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 5d84723b51d6977867fa162c4a47befa61bd9ef6
-ms.sourcegitcommit: dc3053625dfe24aef64399dd1d002214e7f7619f
+ms.openlocfilehash: 5ea1c3c90b32d18243615e3ff283e1e818ac23b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886318"
 ---
 # <a name="sales-order-posting"></a>Pārdošanas pasūtījumu grāmatošana
 
@@ -79,7 +79,7 @@ Tālāk sniegtajā tabulā ir norādīti noklusējuma grāmatošanas tipu piemē
 | Piegādāto vienību izmaksas | 140100</br>140101 | Materiālu krājumi</br>Piegādātie materiāli, kas nav izrakstīti rēķinā | Līdzeklis | Kredīts | Jā | P | Rēķinā iekļauto vienību izmaksas | Tiek izmantota, kad tiek grāmatota pārdošanas pasūtījuma pavadzīme. Korespondējošais konts ir pārdoto, piegādāto preču izmaksas. Summa šajā kontā tiek anulēta, kad tiek grāmatots pārdošanas pasūtījuma rēķins. Jūs, iespējams, vēlēsieties izmantot materiālus, kas ir nosūtīti, bet kuriem nav izrakstīts rēķins, lai atspoguļotu fiziskos krājumus, un finanšu atjaunināšanai rezervēt materiālu krājumu kontu. |
 | Nosūtītās pārdoto preču pašizmaksas | 500150 | Atliktā PPPI | Izdevumi | Debets | Jā | P  | Tiek izmantota, kad tiek grāmatota pārdošanas pasūtījuma pavadzīme. Korespondējošais konts ir piegādāto vienību izmaksas. Summa šajā kontā tiek anulēta, kad tiek grāmatots pārdošanas pasūtījuma rēķins. |
 | Rēķinā iekļauto vienību izmaksas | 140100 | Materiālu krājumi | Līdzeklis | Kredīts | Nē | F | Piegādāto vienību izmaksas | Tiek izmantots, kad tiek grāmatots pārdošanas pasūtījuma rēķins. Korespondējošais konts ir pārdoto preču izmaksas, par ko ir izrakstīts rēķins. Šis konts parāda krājumu jūsu bilancē. |
-| Rēķinā iekļauto pārdoto preču pašizmaksa | 500100 | PPPI materiāli | Izdevumi | Debets | Nē | F  | Tiek izmantots, kad tiek grāmatots pārdošanas pasūtījuma rēķins. Korespondējošais konts ir vienību izmaksas, par ko izrakstīts rēķins. Šis konts ataino PPPI savā PL&amp; pārskatā. |
+| Rēķinā iekļauto pārdoto preču pašizmaksa | 500100 | PPPI materiāli | Izdevumi | Debets | Nē | F  | Tiek izmantots, kad tiek grāmatots pārdošanas pasūtījuma rēķins. Korespondējošais konts ir vienību izmaksas, par ko izrakstīts rēķins. Šis konts ataino COGS savā P&amp; L pārskatā. |
 | Ieņēmumi (pārdošanas pasūtījuma ieņēmumi*) | 400100 | Ieņēmumu materiāli | Ieņēmumi | Kredīts | Nē | F   | Tiek izmantots, kad tiek grāmatots pārdošanas pasūtījuma rēķins. Korespondējošais konts ir summu konts (Debitora bilance*) debitoru parādu **grāmatošanas profilā**. |
 | Komisija (pārdošana, komisija*) | 602150 | Komisijas izdevumi | Izdevumi | Debets | Nē | F  | Izmanto, kad komisija ir iespējota un aprēķināta pārdošanai un grāmatota pārdošanas pasūtījuma rēķina procesa laikā. Korespondējošais konts ir komisijas maksājums. |
 | Komisijas korespondējošais konts (pārdošana, komisijas korespondējošais*) | 201110 | Maksājamās komisijas | Saistības | Kredīts | Jā | F | Izmanto, kad komisija ir iespējota un aprēķināta pārdošanai un grāmatota pārdošanas pasūtījuma rēķina procesa laikā. Korespondējošais konts ir komisijas izdevumi. |
@@ -87,11 +87,11 @@ Tālāk sniegtajā tabulā ir norādīti noklusējuma grāmatošanas tipu piemē
 | Atlikto piegādes ieņēmumu korespondēšana (pārdošana – pavadzīmes ieņēmumu korespondējošais)* | 130400 | Debitoru parādi — nav izrakstīti rēķini | Līdzeklis | Debets | Jā | P  | Izmanto, kad atliktie piegādes ieņēmumi ir aktivizēti un tiek grāmatoti, kad apstrādājāt pārdošanas pasūtījuma pavadzīmi. Korespondējošais konts ir atliktie piegādes ieņēmumi. Šī konta summas tiek automātiski apgrieztas, grāmatojot pārdošanas pasūtījuma rēķinu. |
 | Atliktais PVN par piegādi (Pārdošana, pavadzīmes nodoklis*) | 250500 | Atliktais PVN | Saistības | Kredīts | Jā | P  | Tiek lietots, ja ir aktivizēti atliktie piegādes ieņēmumi un aktivizēts režīms Grāmatot fizisko PVN. Nodokļu summa tiek grāmatota, apstrādājot pārdošanas pasūtījuma pavadzīmi. |
 
-\* Šīs tabulas iekavās redzamās **vērtības norāda vērtību, kas tiek izmantota dokumenta darbību** **lapas laukā Grāmatošanas** tips. Cilnes Vispārīgi **lapā Dokumentu** darbības var **skatīt grāmatošanas** **tipu**.
+\* Šīs tabulas iekavās redzamās vērtības norāda vērtību, kas tiek izmantota laukā Grāmatošanas **tips** **dokumentu darbību** lapā. Cilnes Vispārīgi **lapā Dokumentu** darbības var **skatīt grāmatošanas** **tipu**.
 
 ## <a name="sales-category-posting"></a>Pārdošanas kategorijas grāmatošana
 
-Kā alternatīvu krājumu grāmatošanas iestatīšanai visiem krājumiem, krājumu grupai vai atsevišķai krājumos, varat iestatīt kategorijas un kontrolēt grāmatošanu Virsgrāmatā pēc pārdošanas kategorijām. Lai iegūtu vairāk informācijas par kategoriju hierarhijas iestatīšanu un kategoriju piešķiršanu precēm, [...](/supply-chain/pim/tasks/create-hierarchy-product-classification.md)[dodieties uz Sadaļu Preču klasifikācijas hierarhijas izveide un preces klasificēšana, izmantojot kategoriju hierarhijas.](/supply-chain/pim/tasks/classify-product-category-hierarchies.md)
+Kā alternatīvu krājumu grāmatošanas iestatīšanai visiem krājumiem, krājumu grupai vai atsevišķai krājumos, varat iestatīt kategorijas un kontrolēt grāmatošanu Virsgrāmatā pēc pārdošanas kategorijām. Lai iegūtu vairāk informācijas par kategoriju hierarhijas iestatīšanu un kategoriju piešķiršanu precēm, [...](/supply-chain/pim/tasks/create-hierarchy-product-classification.md)[dodieties uz Sadaļu Preču klasifikācijas hierarhijas izveide un preces klasificēšana, izmantojot kategoriju hierarhijas](/supply-chain/pim/tasks/classify-product-category-hierarchies.md).
 
 Pēc kategoriju hierarhijas izveides hierarhija jāpiešķir vienam vai vairākiem tipiem. Lai pārdošanas pasūtījumos lietotu kategoriju hierarhiju, kategorija ir jāpiešķir pārdošanas kategoriju hierarhijas tipam. Papildinformāciju skatiet par [kategoriju hierarhijām](/dynamicsax-2012/appuser-itpro/about-category-hierarchies.md).
 

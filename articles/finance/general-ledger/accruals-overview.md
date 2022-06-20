@@ -1,6 +1,6 @@
 ---
 title: Uzkrājumu pārskats
-description: Šajā tēmā aprakstīti uzkrājumi un sniegta informācija par to, kā tās iestatīt un izveidot darbības.
+description: Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904706"
 ---
 # <a name="accruals-overview"></a>Uzkrājumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīti uzkrājumi un sniegta informācija par to, kā tās iestatīt un izveidot darbības.
+Šajā rakstā ir aprakstīti uzkrājumi un sniegta informācija par to, kā tos iestatīt un izveidot transakcijas.
 
 Uzkrājumi tiek izmantoti uzkrājumu principa uzskaitē, lai izsekotu ieņēmumus, kas tiek atzīti par iegūtiem noteiktā periodā, nevis tad, kad tiek saņemts maksājums, un izsekotu izdevumus (izmaksas), kas tiek atzītas tad, kad tie rodas, nevis tad, kad tiek veikts maksājums.
 

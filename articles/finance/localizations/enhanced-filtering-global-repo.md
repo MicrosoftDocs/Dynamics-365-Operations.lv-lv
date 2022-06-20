@@ -1,6 +1,6 @@
 ---
 title: RCS uzlabota filtrēšana RCS/globālajā repozitorijā
-description: Šajā tēmā ir aprakstītas uzlabotās filtrēšanas iespējas RCS globālajā repozitorijā, kas ir uzlabotas, lai iekļautu papildu filtrus.
+description: Šajā rakstā ir aprakstītas uzlabotās filtrēšanas iespējas RCS globālajai repozitorijam, kas ir uzlabots, lai iekļautu papildu filtrus.
 author: JaneA07
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901217"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>RCS uzlabotās filtrēšanas opcijas konfigurāciju atrašanai RCS/globālajā repozitorijā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas uzlabotās filtrēšanas iespējas Regulatory Configuration Services (RCS) globālajam repozitorijam, kas ir uzlabotas, lai iekļautu iespēju filtrēt ar šādiem kritērijiem: 
+Šajā rakstā ir aprakstītas uzlabotās filtrēšanas iespējas regulēšanas konfigurācijas pakalpojumu (RCS) globālajai repozitorijai, kas ir uzlabota, lai ietvertu iespēju filtrēt ar šādiem kritērijiem: 
 - **Valsts/reģions**, kura pamatā ir ISO valstu kodi  
 - **Etiķešu** veidi:
   - Funkcionālais apgabals
@@ -42,7 +42,7 @@ Varat turpināt precizēt meklēšanu, atlasot dokumenta veidu, piemēram, "kred
 
 [![Lietotais biznesa dokumenta tipa filtrs un imports.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Filtrētus rezultātus var importēt lietotāju RCS repozitorijā vai Dynamics 365 Finance vidē atsevišķi vai kā kopu. Lai to izdarītu, atlasiet konfigurāciju grupu un noklikšķiniet uz **Importēt**.
+Filtrētos rezultātus var importēt lietotāja RCS repozitorijā vai Dynamics 365 finanšu vidē gan atsevišķi, gan kopā. Lai to izdarītu, atlasiet konfigurāciju grupu un noklikšķiniet uz **Importēt**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

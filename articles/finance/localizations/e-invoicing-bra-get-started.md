@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
-description: Šajā tēmā sniegta informācija, kas jums palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Brazīlijā risinājumā Finance un Supply Chain Management.
+description: Šajā rakstā ir sniegta informācija, kas jums palīdzēs uzsākt elektronisko rēķinu izrakstīšanu Brazīlijai finanšu un piegādes ķēžu pārvaldībā.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846589"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Brazīlijā. Šajā tēmā ir aprakstītas konfigurācijas darbības, kas ir atkarīgas no Regulatory Configuration Services (RCS), un ir papildinātas darbības, kas aprakstītas temā [Sākt datrbu ar Elektronisko rēķinu izveidi](e-invoicing-get-started.md).
+Šajā rakstā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanu Brazīlijai. Šajā rakstā ir aprakstītas konfigurācijas darbības, kas ir atkarīgas no valsts regulēšanas konfigurācijas pakalpojumos (RCS), un ir papildinātas darbības, kas aprakstītas rakstā. [Sāciet ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Valsts konfigurācijas Brazīlijas NF-e (BR) elektronisko rēķinu līdzeklim
 
 Daži no parametriem no **Brazīlijas NF-e (BR) elektronisko rēķinu izrakstīšanas līdzeklis** tiek publicēti ar noklusējuma vērtībām. Pārskatiet vērtības un, ja nepieciešams, atjauniniet vērtības, lai tās labāk atbilstu biznesa operācijas vajadzībām, pirms izvietojat elektronisko rēķinu izrakstīšanas līdzekli Pakalpojumu vidē.
 
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija elektroniskajam rēķinu izrakstīšanas līdzeklim](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+Šī sadaļa papildina rakstu **sadaļai Elektronisko rēķinu izrakstīšana** valstij raksturīgo konfigurāciju. [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Lapā **Elektroniskā rēķina izveides līdzekļi** verificējiet, ka tiek atlasīts jūsu izveidotais elektronisko rēķinu līdzeklis **Brazīlijas NF-e (BR)**.
@@ -51,7 +53,7 @@ Daži no parametriem no **Brazīlijas NF-e (BR) elektronisko rēķinu izrakstī�
 
 Veiciet šīs darbības, pirms izvietojat programmas iestatījumus jūsu Finance vai Supply Chain Management saistītajai programmai.
 
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija programmas iestātījumam](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+Šī sadaļa papildina rakstu **sadaļas Programmas** iestatījumi valstij raksturīgo konfigurāciju. [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Lapā **Elektroniskā rēķina izveides līdzekļi** verificējiet, ka tiek atlasīts elektronisko rēķinu līdzeklis **Brazīlijas NF-e (BR)**.
@@ -71,7 +73,7 @@ Veiciet šīs darbības, pirms izvietojat programmas iestatījumus jūsu Finance
 
 Daži no parametriem no **Brazīlijas NFS-e ABRASF Curitiba (BR) elektronisko rēķinu izrakstīšanas līdzeklis** tiek publicēti ar noklusējuma vērtībām. Pārskatiet un, ja nepieciešams, atjauniniet vērtības, lai tās labāk atbilstu biznesa operācijas vajadzībām, pirms izvietojat elektronisko rēķinu izrakstīšanas līdzekli Pakalpojumu vidē.
 
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija elektroniskajam rēķinu izrakstīšanas līdzeklim](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+Šī sadaļa papildina rakstu **sadaļai Elektronisko rēķinu izrakstīšana** valstij raksturīgo konfigurāciju. [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Lapā **Elektroniskā rēķina izveides līdzekļi** verificējiet, ka tiek atlasīts jūsu izveidotais elektronisko rēķinu līdzeklis **Brazīlijas NFS-e ABRASF (BR)**.
@@ -96,7 +98,7 @@ Daži no parametriem no **Brazīlijas NFS-e ABRASF Curitiba (BR) elektronisko r�
 
 Veiciet šīs darbības, pirms izvietojat programmas iestatījumus jūsu Finance vai Supply Chain Management saistītajai programmai.
 
-Šī sadaļa papildina sadaļu [Valsts mēroga konfigurācija programmas iestātījumam](e-invoicing-get-started.md) tēmā **Sākt darbu ar elektronisko rēķinu izveidi**.
+Šī sadaļa papildina rakstu **sadaļas Pieteikuma iestatījumi valstij raksturīgo** konfigurāciju. [Sākt ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Lapā **Elektroniskā rēķina izveides līdzekļi** verificējiet, ka tiek atlasīts elektronisko rēķinu līdzeklis **Brazīlijas NFS-e ABRASF (BR)**.

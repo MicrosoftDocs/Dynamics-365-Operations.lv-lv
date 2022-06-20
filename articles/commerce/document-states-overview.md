@@ -1,6 +1,6 @@
 ---
 title: Dokumenta stāvokļi un dzīves cikls
-description: Šajā tēmā aplūkoti dažādi lapas elementu dokumentu statusi risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir ietverti dažādi lapu elementu dokumentu veidi Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909462"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumenta stāvokļi un dzīves cikls
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti dažādi lapas elementu dokumentu statusi risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir ietverti dažādi lapu elementu dokumentu veidi Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Dokumenta stāvokļa apraksti
 
-Tēmā [Lapas elementi](page-elements-overview.md) uzskaitīti dažādi dokumentu veidi satura pārvaldības sistēmā (CMS). Šiem dokumentu veidiem autorēšanas rīkā var būt vairāki stāvokļi. Dokumenta stāvokļi palīdz novērst datu konfliktus un ieviest versiju kontroli. Tās nosaka, kurš var mainīt dokumentus, kad to var darīt, un kad citas personas var skatīt izmaiņas.
+Raksta [Lapas elementos](page-elements-overview.md) ir uzskaitīti dažādi dokumentu tipi satura pārvaldības sistēmā (CMS). Šiem dokumentu veidiem autorēšanas rīkā var būt vairāki stāvokļi. Dokumenta stāvokļi palīdz novērst datu konfliktus un ieviest versiju kontroli. Tās nosaka, kurš var mainīt dokumentus, kad to var darīt, un kad citas personas var skatīt izmaiņas.
 
 Tālāk redzamā tabula parāda Commerce iespējamos lapas elementu dokumenta stāvokļus.
 

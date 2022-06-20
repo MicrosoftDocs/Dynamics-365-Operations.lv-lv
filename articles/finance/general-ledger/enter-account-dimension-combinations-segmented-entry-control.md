@@ -1,6 +1,6 @@
 ---
 title: Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
-description: Šajā tēmā aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai Virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
+description: Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861363"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai Virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
+Šajā rakstā ir aprakstīts, kā ievadīt kontu un dimensiju kombinācijas vai virsgrāmatas kontus. Ierakstīšanas darbība bieži tiek saukta par segmentētu ierakstu kontroli.
 
 Lietotāji kontu un dimensiju kombinācijas ievada dažādās lapās, piemēram, lapās, kas paredzētas virsgrāmatas žurnāliem, budžeta plānošanai un grāmatošanas definīcijām. Derīgas kontu un dimensiju kombinācijas ir atkarīgas no konta struktūras, kas tiek piešķirta Virsgrāmatai un papildu kārtulām, kas piešķirtas kontu struktūram. Kad lietotāji ir ievadījuši kombināciju, viņi var manuāli ierakstīt vērtības vai izmantot bagātīgo uzmeklēšanas funkcionalitāti. Kad notiek ievadīšana laukā, varat sākt rakstīt, un tas meklēs vērtību un aprakstu. Piemēram, ja ierakstāt 180, tiks meklēta jebkāda vērtība, kas sākas ar šo numuru kombināciju. Varat arī ierakstīt Skaidra nauda, un tiks meklēta jebkāda vērtība, kuras apraksts sākas ar Skaidra nauda. Varat arī izmantot aizstājējzīmi, piemēram, \*Skaidra nauda vai \*180, lai meklētu, vai vērtībā vai aprakstā ir ietverti šie meklēšanas kritēriji. 
 

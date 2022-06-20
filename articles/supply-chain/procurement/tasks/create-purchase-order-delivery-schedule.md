@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pasūtījuma izveide ar piegādes grafiku
-description: Šajā tēmā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam.
+description: Šajā rakstā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875251"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkšanas pasūtījuma izveide ar piegādes grafiku
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam. Piegādes grafiks tiek izmantots, kad pasūtījumā vai žurnālā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos. Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Parasti šo procedūru veic pirkšanas aģents.
+Šajā rakstā ir parādīts, kā izveidot piegādes grafiku pirkšanas pasūtījumam. Piegādes grafiks tiek izmantots, kad pasūtījumā vai žurnālā minēto daudzumu ir pieprasīts piegādāt vairākos sūtījumos. Šajā ceļvedī rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Parasti šo procedūru veic pirkšanas aģents.
 
 ## <a name="create-a-delivery-schedule"></a>Piegādes grafika izveide
 1. Navigācijas rūtī dodieties uz **Moduļi > Sagāde un avoti > Pirkšanas pieprasījumi > Visi pirkšanas pieprasījumi**.

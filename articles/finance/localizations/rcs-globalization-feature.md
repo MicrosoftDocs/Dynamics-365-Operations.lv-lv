@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Services (RCS) — globalizācijas līdzekļi
-description: Šajā tēmā ir paskaidrots, kā izmantot Microsoft Regulatory Configuration Services (RCS) un globālo repozitāriju, lai izveidotu un lieto globalizācijas līdzekļus.
+description: Šajā rakstā skaidrots, kā izmantot Microsoft regulēšanas konfigurācijas pakalpojumus (RCS) un globālo repozitoriju, lai izveidotu un izmantotu globalizācijas līdzekļus.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888899"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) — globalizācijas līdzekļi
 
@@ -40,7 +40,7 @@ Pirms procedūru pabeigšanas ir jāveic darbības, kas saistītas ar tālāk mi
 - Piekļūšana RCS instancei.
 - Konfigurācijas nodrošinātāja izveide un aktivizēšana. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Savā programmas Finance and Operations instancē veiciet tālāk minētās darbības.
+Finanšu un operāciju programmu instancē sekojiet šiem soļiem.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Ja jūsu uzņēmumā nav nodrošināta neviena RCS vide, atlasiet **Regulatory services — Configuration** un izpildiet norādījumus, lai tādu nodrošinātu.
@@ -64,7 +64,7 @@ Lai izmantotu globalizācijas līdzekli, vispirms tas ir jāimportē no globāl�
 
 ## <a name="access-globalization-features"></a>Piekļuve globalizācijas līdzekļiem
 
-1. Pārliecinieties, ka līdzeklis **Globalizācijas līdzekļi** ir ieslēgts līdzekļu pārvaldībā, kā aprakstīts iepriekš šajā tēmā.
+1. Pārliecinieties, ka funkcionalitātes **pārvaldībā ir** ieslēgta funkcionalitātes funkcionalitātes funkcija, kā aprakstīts iepriekš šajā rakstā.
 2. Atveriet jauno darbvietu **Globalizācijas līdzekļi** un pēc tam sadaļā **Līdzekļi** atlasiet elementu **e-rēķinu izrakstīšana**.
 
     ![Globālo līdzekļu darbvieta.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Konfigurēšanai ir pieejamas tālāk minētās darbības.
 - **Skatīt** — skatīt pakārtoto līdzekļu konfigurācijas, kurām nav nepieciešams atjauninājums.
 - **Rediģēt** — izveidojiet atlasītās konfigurācijas melnraksta versiju, lai varētu rediģēt formātu vai formatēt kartējumu formāta noformētājā.
 - **Dzēst** — dzēst atlasīto konfigurāciju no līdzekļa.
-- **Pārskatīt** — pārskatīt līdzekli. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Atvasināto globalizācijas līdzekļu pārskatīšana](#rebase).
+- **Pārskatīt** — pārskatīt līdzekli. Papildinformāciju skatiet tālāk šī [raksta sadaļā Atjaunot atvasinātos](#rebase) globalizācijas līdzekļus.
 
 ### <a name="setups"></a>Iestatījumi
 
@@ -182,7 +182,7 @@ Līdzekļa iestatīšanai ir pieejamas tālāk minētās darbības.
 
 Vidēm ir pieejamas tālāk minētās darbības.
 
-- **Iespējot** — atlasītajai līdzekļa versijai atlasiet publicēto vidi un atlasiet datumu **Spēkā no**, kad tam jābūt pieejamam. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Vižu konfigurēšana iespējošanai](#configureenvironment).
+- **Iespējot** — atlasītajai līdzekļa versijai atlasiet publicēto vidi un atlasiet datumu **Spēkā no**, kad tam jābūt pieejamam. Papildinformāciju skatiet tālāk [šī raksta sadaļā Vides konfigurēšana](#configureenvironment) iespējošanai.
 - **Atcelt** — noņemt vidi līdzekļa iestatījumam.
 
 ### <a name="organizations"></a>Organizācijas
@@ -195,7 +195,7 @@ Izpildiet tālāk minētās darbības, lai koplietotu globalizācijas līdzekli 
 
     ![Līdzekļa koplietošana ar organizāciju.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
-Līdzeklis tiek koplietots ar atlasīto organizāciju un ir pieejams šai organizācijai globālajā repozitorijā. No turienes līdzekli var importēt RCS organizācijas instancē vai Dynamics 365 Finance tā, lai to varētu izmantot.
+Līdzeklis tiek koplietots ar atlasīto organizāciju un ir pieejams šai organizācijai globālajā repozitorijā. No turienes šo līdzekli var importēt organizācijas RCS vai Dynamics 365 Finanšu instancē, lai to varētu izmantot.
 
 ## <a name="rebase-derived-globalization-features"></a><a name="rebase"></a>Atvasināto globalizācijas līdzekļu pārskatīšana
 

@@ -1,6 +1,6 @@
 ---
 title: Tiešsaistes finanšu konsolidācijas
-description: Šajā tēmā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā.
+description: Šajā rakstā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848554"
 ---
 # <a name="online-financial-consolidations"></a>Tiešsaistes finanšu konsolidācijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā. Pirms šīs tēmas lasīšanas noteikti jāizlasa tēma [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](financial-consolidations-currency-translation.md).
+Šajā rakstā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā. Pirms izlasiet šo rakstu, noteikti izlasiet finanšu konsolidācijas [un valūtas tulkošanas pārskata](financial-consolidations-currency-translation.md) rakstu.
 
 Pēc tam, kad esat pabeidzis iestatīšanu, ievadiet konsolidācijas datus lapā **Konsolidēt [tiešsaistē]**. Kad esat beidzis, varat noklikšķināt uz **Labi** vai **Partija**, lai apstrādātu konsolidāciju.
 
@@ -90,7 +90,7 @@ Cilnē **Valūtas pārrēķināšana** varat noteikt juridisko personu kontu un 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
+Papildinformāciju par konsolidēšanu un valūtas pārrēķiniem skatiet šī raksta pamat rakstu: Finanšu konsolidācijas [un valūtas pārrēķina apskats](./financial-consolidations-currency-translation.md).
 
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu [Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
 

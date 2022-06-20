@@ -1,6 +1,6 @@
 ---
 title: Intrastat pārskats
-description: Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem.
+description: Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem.
 author: EvgenyPopovMBS
 ms.date: 01/13/2021
 ms.topic: overview
@@ -16,25 +16,25 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97c2b4068f3b8d38281e637ec80f04b19d19be61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894782"
 ---
 # <a name="intrastat-overview"></a>Intrastat pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Šī tēma sniedz arī pārskatu veidošanas procesa apskatu un apraksta nepieciešamos iestatījumus un priekšnosacījumus.
+Šajā rakstā ir sniegta informācija par Intrastat atskaišu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Šajā rakstā ir sniegts arī pārskatu veidošanas procesa apskats un aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
 
 Intrastat ir sistēma informācijas vākšanai un statistikas ģenerēšanai par preču tirdzniecību starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Intrastat atskaites ir nepieciešamas vienmēr, kad prece šķērso citas ES valsts/reģiona robežu. Vairākās valstīs/reģionos Intrastat atskaites attiecas arī uz pakalpojumiem. Intrastat atskaitēs var vākt obligātus un neobligātus elementus. Obligāti ir šādi elementi: tās puses pievienotās vērtības nodokļa (PVN) numurs, kas ir atbildīga par informācijas sniegšanu, atsauces periods, plūsma (saņemšana vai nosūtīšana), astoņu ciparu preču kods, partnera dalībvalsts (saņemamo preču nosūtīšanas dalībvalsts un nosūtāmo preču saņemšanas dalībvalsts), preču vērtība, preču daudzums (neto masa un papildu vienības) un transakcijas veids. Valstis/reģioni saskaņā ar dažādiem nosacījumiem var vākt arī neobligātus elementus. Daži no neobligātajiem elementiem ir izcelsmes valsts/reģions, piegādes nosacījumi, transportēšanas veids un detalizētāks preču kods nekā CN8, nosūtāmo preču izcelsmes reģions un saņemamo preču mērķa reģions, statistiskā procedūra, statistiskā vērtība, preču apraksts un iekraušanas/izkraušanas osta/lidosta.
 
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Intrastat atskaišu veidošanas procesa apskats
 Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tiek izmantota Intrastat atskaitēm.
 
-### <a name="enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>Ievadīt darījumu, kas šķērso citas ES valsts/reģiona robežu
+### <a name="enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>Ievadiet transakciju, kas šķērso citas ES valsts/reģiona robežu
 
 Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Programmā Microsoft Dynamics 365 for Operations (1611) šis līdzeklis ir paplašināts un sniedz iespēju norādīt EK iekšējo transakciju iekraušanas adreses. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
 
@@ -61,11 +61,11 @@ Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidoš
 | Detalizēta informācija par izlaistajām precēm | Izlaistajām precēm iestatiet šādus ārējās tirdzniecības datus:<ul><li>**Preču kods** — atlasiet no atlasīto preču saraksta, kas ir izgūts no piešķirtajām preču kategorijām vai no pilnā Intrastat preču kodu saraksta.</li><li>**Statistiskie maksu procenti**</li><li>**Izcelsmes valsts/reģions** — atlasiet noklusējuma valsti/reģionu, kur preces tika pilnībā iegūtas vai saražotas.</li><li>**Izcelsmes/adresāta novads** — saņemamajām precēm atlasiet mērķa noklusējuma novadu un nosūtāmajam precēm atlasiet izcelsmes noklusējuma novadu.</li><li>**Neto svars (kg)**</li><li>**Izslēgt** - aktivizējiet šo parametru, lai nepārsūta darījumus ar šo preci uz Intrastat</li></ul> |
 | Debitori | Iestatiet debitora piegādes adresi ES valstī/reģionā. |
 | Kreditori | Iestatiet kreditora adresi ES valstī/reģionā. |
-| Papildmaksas | Iestatiet papildmaksu kodu, ko iekļaut rēķina summā, statistiskajā summā vai abās. Lapā **Maksu kodi**, cilnē **Ārējā tirdzniecība** iespējojiet opciju **Intrastat rēķina vērtība**, lai maksu summu iekļautu rēķina vērtībā, un iespējojiet opciju **Intrastat statistiska vērtība**, lai šo maksu summu iekļautu statistiskajā vērtībā.</br>Lai iegūtu papildu informāciju, [pārskatiet Darbību kodu un papildmaksu](#transaction-codes-and-miscellaneous-charges) piemērus. |
+| Papildmaksas | Iestatiet papildmaksu kodu, ko iekļaut rēķina summā, statistiskajā summā vai abās. Lapā **Maksu kodi**, cilnē **Ārējā tirdzniecība** iespējojiet opciju **Intrastat rēķina vērtība**, lai maksu summu iekļautu rēķina vērtībā, un iespējojiet opciju **Intrastat statistiska vērtība**, lai šo maksu summu iekļautu statistiskajā vērtībā.</br>Lai iegūtu papildu informāciju, pārskatiet [Darbību kodu un papildmaksu](#transaction-codes-and-miscellaneous-charges) piemērus. |
 | Elektroniskie pārskati | Iestatiet elektronisko pārskatu izveides konfigurācijas, lai eksportētu Intrastat datus uz elektronisku failu, kura formāts atbilst attiecīgo iestāžu prasībām, un priekšskatītu Intrastat datus lietotājam draudzīgā, lasāmā formātā (piemēram, Microsoft Excelformātā). |
 | Noliktavas | Kreditoru kontus saistiet ar noliktavu kodiem, lai aizpildītu PVN reģistrācijas numuru, kad veicat pārsūtīšanas pasūtījuma pārsūtīšanu.</br>Lai iegūtu papildu informāciju, skatiet [Pārsūtīšanas pasūtījuma](#transfer-order) piemēru.|
 
-## <a name="setup"></a>Iestatīšana
+## <a name="setup"></a>Iestatīt
 Nākamajās sadaļās ir aprakstīti Intrastat atskaitēm nepieciešamie iestatījumi.
 
 ### <a name="set-up-all-required-intrastat-related-lists"></a>Iestatiet visus nepieciešamos ar Intrastat saistītos sarakstus
@@ -73,8 +73,8 @@ Nākamajās sadaļās ir aprakstīti Intrastat atskaitēm nepieciešamie iestat�
 |   Saraksts   |   Papildinformācija   |
 |-------------------------|-------------------------|
 | Preču kodi | Iestatiet kategoriju hierarhiju ar tipu **Preču kods** un ievadiet visus preču kodus saskaņā ar kombinētās nomenklatūru sarakstu. Katrai precei jūs iestatāt šādu informāciju:<ul><li>Preces nosaukums un preces kods</li><li>Draudzīgais nosaukums un/vai tulkotais nosaukums</li><li>Iestatījumi papildu vienību ziņošanai cilnē **Ārējā tirdzniecība**. Šo papildu vienību varat atlasīt vienību sarakstā. Varat arī norādīt, vai preču svars ir jāziņo papildus atlasītajai papildu vienībai.</li></ul>Lai iegūtu papildu informāciju, skatiet [Papildu vienību](#additional-units) piemērus.|
-| Darbību kodi | Iestatiet darbības būtību atbilstoši jūsu valsts/reģiona prasībām. Katram jūsu iestatītajam transakcijas kodam jums ir jāiestata kārtulas rēķinu summu un statistisko summu aprēķināšanai pārsūtīšanas pasūtījumiem un pārdošanas/pirkšanas pasūtījumiem.<ul><li>Pārsūtīšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:<ul><li>**Tukšs** — summa būs 0 (nulle).</li><li>**Finanšu izmaksu summa** — summa būs vienāda ar finanšu izmaksām.</li><li>**Kopējās izmaksas** — summa būs vienāda ar transakcijas kopējām izmaksām.</li><li>**Manuāls** — summa būs vienāda ar summu, kas ir manuāli norādīta pārsūtīšanas pasūtījuma rindā.</li></ul></li><li>Pārdošanas pasūtījumiem un pirkšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:<ul><li>**Tukšs** — summa būs 0 (nulle).</li><li>**Rēķina summa** — summa būs vienāda ar summu, kas ir iekļauta rēķinā par šo preci.</li><li>**Pamatsumma** — summa būs vienāda ar summu, par kādu tiktu izrakstīts rēķins, pirms tiek piemērotas jebkādas atlaides.</li></ul></ul>Lai iegūtu papildu informāciju, [pārskatiet Darbību kodu un papildmaksu](#transaction-codes-and-miscellaneous-charges) piemērus. |
-| Transportēšanas metodes | Iestatiet transportēšanas veidu saskaņā ar jūsu valsts/reģiona prasībām. Katram piegādes režīmam varat iestatīt noklusējuma transportēšanas metodi cilnē **Ārējā tirdzniecība**. |
+| Darbību kodi | Iestatiet transakcijas veidu saskaņā ar jūsu valsts/reģiona prasībām. Katram jūsu iestatītajam transakcijas kodam jums ir jāiestata kārtulas rēķinu summu un statistisko summu aprēķināšanai pārsūtīšanas pasūtījumiem un pārdošanas/pirkšanas pasūtījumiem.<ul><li>Pārsūtīšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:<ul><li>**Tukšs** — summa būs 0 (nulle).</li><li>**Finanšu izmaksu summa** — summa būs vienāda ar finanšu izmaksām.</li><li>**Kopējās izmaksas** — summa būs vienāda ar transakcijas kopējām izmaksām.</li><li>**Manuāls** — summa būs vienāda ar summu, kas ir manuāli norādīta pārsūtīšanas pasūtījuma rindā.</li></ul></li><li>Pārdošanas pasūtījumiem un pirkšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:<ul><li>**Tukšs** — summa būs 0 (nulle).</li><li>**Rēķina summa** — summa būs vienāda ar summu, kas ir iekļauta rēķinā par šo preci.</li><li>**Pamatsumma** — summa būs vienāda ar summu, par kādu tiktu izrakstīts rēķins, pirms tiek piemērotas jebkādas atlaides.</li></ul></ul>Lai iegūtu papildu informāciju, pārskatiet [Darbību kodu un papildmaksu](#transaction-codes-and-miscellaneous-charges) piemērus. |
+| Transportēšanas metodes | Iestatiet transportēšanas režīmu saskaņā ar jūsu valsts/reģiona prasībām. Katram piegādes režīmam varat iestatīt noklusējuma transportēšanas metodi cilnē **Ārējā tirdzniecība**. |
 | Ostas | Iestatiet iekraušanas/izkraušanas ostu/lidostu, ja jūsu valsts/reģions vāc šo informāciju. |
 | Statistikas procedūras | Iestatiet statistikas procedūru, ja jūsu valsts/reģions vāc šo informāciju. |
 
@@ -152,17 +152,17 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 
 ### <a name="transaction-codes-and-miscellaneous-charges"></a><a name= "transaction-codes-and-miscellaneous-charges"></a> Darbību kodi un papildmaksas
 
-Šī tēma parāda scenāriju, kad uzņēmumam Vācijā jāiegādājas preces no uzņēmuma Itālijā. Lai veiktu šo pirkumu, Vācijas uzņēmumam jāiestata jauni darbību kodi un jākonfigurē aprēķina noteikumi rēķina summai un statistiskai summai šiem darbību kodiem. Turklāt, kad uzņēmums veido rēķinu, tam jānorāda papildmaksas un to procenti. Šīs vērtības tiks izskatītas, kad tiek aprēķināta statistiskā vērtība.
+Šis raksts sedz scenāriju, kad uzņēmumam Vācijā jāiegādājas preces no uzņēmuma Itālijā. Lai veiktu šo pirkumu, Vācijas uzņēmumam jāiestata jauni darbību kodi un jākonfigurē aprēķina noteikumi rēķina summai un statistiskai summai šiem darbību kodiem. Turklāt, kad uzņēmums veido rēķinu, tam jānorāda papildmaksas un to procenti. Šīs vērtības tiks izskatītas, kad tiek aprēķināta statistiskā vērtība.
 
-Šajā scenārijā tiek **izmantota PRETVG** juridiskā persona.
+Šajā scenārijā tiek izmantota **PRETVG** juridiskā persona.
 
 #### <a name="preliminary-setup"></a>Iepriekšēja iestatīšana
 
-1. Dodieties **uz organizācijas** > **·** > **administrēšanas organizācijas** juridiskajām personām un atlasiet **NOROBEŽOTAS**.
-2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai **valsts/reģiona lauks** ir iestatīts uz **DEU(Vācija).**
-3. Dodieties **uz Kreditoru** > **parādiem visiem** > **kreditoriem**.
-4. Režģī atlasiet **DE-001.**
-5. Kopsavilkuma **cilnē** Adrese atlasiet **Rediģēt**.
+1. Dodieties **uz organizācijas** > **administrēšanas** > **organizācijas juridiskajām** personām un atlasiet **NOROBEŽOTAS.**
+2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai valsts/reģiona **lauks ir** iestatīts uz **DEU(Vācija).**
+3. Dodieties uz **Kreditoru parādiem** > **visiem kreditoriem** > **·**.
+4. Režģī atlasiet **DE-001**.
+5. Kopsavilkuma cilnē **Adrese** atlasiet **Rediģēt**.
 6. Dialoglodziņā **Rediģēt adresi** laukā **Valsts/reģions** atlasiet **ITA**.
 7. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 
@@ -171,24 +171,24 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 1. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Transakciju kodi**.
 2. Režģī atlasiet **11**. Pēc tam Darbību rūtī atlasiet **Dzēst**.
 3. Darbību rūtī atlasiet **Jauns**.
-4. Kopsavilkuma **cilnes Darbības** kodi laukā Darbības **kods** **ievadiet** **11.**
-5. Laukā **Nosaukums** ievadiet **Outright purchase/sale.**
-6. Sadaļā **Pārdošana un** pirkumi, laukā **Rēķina summa atlasiet Rēķina** **summa**.
-7. Laukā **Statistiskā** summa atlasiet rēķina **summu**.
+4. Kopsavilkuma cilnes **Darbības kodi** laukā Darbības **kods** **ievadiet** **11.**
+5. Laukā **Nosaukums** ievadiet Outright **purchase/sale**.
+6. **Sadaļā Pārdošana un pirkumi**, laukā **Rēķina summa** atlasiet **Rēķina summa**.
+7. Laukā **Statistiskā** summa atlasiet **Rēķina summa**.
 8. Darbību rūtī atlasiet **Saglabāt**.
 
 #### <a name="set-up-miscellaneous-charges"></a>Papildmaksu iestatīšana
 
-1. Dodieties uz **sadaļu** > **Parādu kreditoriem maksu** > **iestatījuma izmaksu** kods.
+1. Dodieties uz **sadaļu Parādu kreditoriem** > **maksu iestatījuma** > **izmaksu kods**.
 2. Režģī atlasiet **Transports**.
 3. Darbību rūtī atlasiet **Rediģēt**.
-4. Kopsavilkuma cilnē **Ārējā tirdzniecība iestatiet Intrastat rēķina vērtību un Intrastat** **·** **statistiskās vērtības opcijas uz** **Jā**.
+4. Kopsavilkuma cilnē **Ārējā tirdzniecība** iestatiet Intrastat rēķina vērtību **un** Intrastat statistiskās **vērtības opcijas** uz **Jā**.
 
 #### <a name="set-up-foreign-trade-parameters"></a>Iestatīt starptautiskās tirdzniecības parametrus
 
 1. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**.
 2. Kopsavilkuma cilnes **Vispārīgi** cilnes **Intrastat** laukā **Darījuma** **kods** atlasiet **11**.
-3. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks ir** iestatīts uz **Intrastat**.
+3. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks** ir iestatīts uz **Intrastat**.
 
 #### <a name="create-a-purchase-order"></a>Pirkuma pasūtījuma izveide
 
@@ -198,16 +198,16 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 4. Atlasiet **Labi**.
 5. Cilnē **Virsraksts** kopsavilkuma cilnē **Ārējā** **tirdzniecība** laukam **Transakcijas kods** jābūt **11**.
 6. Cilnē **Rindas** kopsavilkuma cilnes **Pirkšanas pasūtījuma rindas** laukā **Preces numurs** atlasiet **D0003**. Laukā **Daudzums** ievadiet **10**.
-7. Kopsavilkuma cilnes Ārējā tirdzniecība kopsavilkuma cilnē Ārējā tirdzniecība pārbaudiet, vai darbības koda lauks **ir** **·** **·** **iestatīts** automātiski.
-8. Kopsavilkuma **cilnes Pirkšanas** pasūtījuma rindas izvēlnē Finanšu **sadaļas** Maksas atlasiet **Uzturēt** **maksas**.
-9. Maksas **koda** laukā atlasiet **TRANSPORTS**.
-10. Laukā **Izmaksu** vērtība ievadiet **30**.
+7. Kopsavilkuma cilnes **Ārējā tirdzniecība kopsavilkuma** **cilnē Ārējā tirdzniecība pārbaudiet,** **·** **vai darbības koda lauks ir iestatīts automātiski.**
+8. Kopsavilkuma cilnes **Pirkšanas** pasūtījuma rindas izvēlnē **Finanšu sadaļas** Maksas **atlasiet** Uzturēt **maksas**.
+9. Maksas koda **laukā** atlasiet **TRANSPORTS**.
+10. Laukā **Izmaksu vērtība** ievadiet **30**.
 11. Darbību rūtī atlasiet **Saglabāt**. Tad aizveriet lapu.
 12. Darbību rūts cilnē **Pirkšana**, grupā **Darbības** atlasiet **Apstiprināt**.
 13. Darbību rūtī, cilnē **Rēķins**, grupā **Ģenerēt** atlasiet **Rēķins**.
 14. Darbību rūtī atlasiet **Noklusējuma vērtība No**. Laukā **Noklusējuma daudzums rindām** atlasiet **Pasūtītais daudzums**. Pēc tam atlasiet **Labi**.
 15. Kopsavilkuma cilnes **Kreditora rēķina virsraksts** sadaļā **Rēķina identifikācija** laukā **Numurs** ievadiet **00100**.
-16. Sadaļā Rēķina datumi laukā Rēķina datums **atlasiet** **·** **2021. gada 11. aprīli** (2021. gada 24. novembris).
+16. Sadaļā Rēķina **datumi** laukā Rēķina **datums** **atlasiet 2021. gada 11. aprīli (2021**. gada 24. novembris).
 17. Darbību rūtī atlasiet **Grāmatot**, lai grāmatotu žurnālu.
 
 ### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Pārsūtīt kreditora rēķinu uz Intrastat žurnālu
@@ -219,23 +219,23 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 
    ![Rinda, kas attēlo pirkšanas pasūtījumu Intrastat lapā ar papildmaksām](media/intrastat_overview_1.png)
 
-5. Pārskatiet pirkšanas pasūtījuma cilni **Vispārīgi**. Ņemiet vērā, ka laukā Rēķina vērtība ir parādīta lauku Rēķina summa un Rēķina papildmaksu summa un lauks Statistiskā vērtība rāda lauku Statistiskā summa **un** **·** **·** **·** **·** **Statistiskās summas** summa summu.
+5. Pārskatiet pirkšanas pasūtījuma cilni **Vispārīgi**. Ņemiet vērā **,** **·** **·** **·** **·** **ka laukā Rēķina vērtība ir parādīta lauku Rēķina summa un Rēķina papildmaksu summa un lauks Statistiskā vērtība rāda lauku Statistiskā summa un Statistiskās summas** summa summu.
 
    ![Pirkšanas pasūtījuma detaļas ar papildmaksām Intrastat lapas cilnē Vispārīgi](media/intrastat_overview_2.png)
 
 ### <a name="transfer-order"></a>Pārsūtīšanas pasūtījums
 
-Šajā piemērā uzņēmumam Vācijā jāpārvieto divas preču vienības no Vācijas noliktavas uz Itālijas noliktavu. Maksas ar likmi 20 procenti arī jānorāda šai precei uzskaitei **laukā Statistiskā** vērtība. Šajā piemērā tiek lietota juridiska persona **DEMF**.
+Šajā piemērā uzņēmumam Vācijā jāpārvieto divas preču vienības no Vācijas noliktavas uz Itālijas noliktavu. Maksas ar likmi 20 procenti arī jānorāda šai precei uzskaitei laukā **Statistiskā** vērtība. Šajā piemērā tiek lietota **DEMF** juridiska persona.
 
 #### <a name="preliminary-setup"></a>Iepriekšēja iestatīšana
 
-1. Dodieties **uz organizācijas** > **·** > **administrēšanas organizācijas** juridiskajām personām un atlasiet **NOROBEŽOTAS**.
-2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai **valsts/reģiona lauks** ir iestatīts uz **DEU(Vācija).**
+1. Dodieties **uz organizācijas** > **administrēšanas** > **organizācijas juridiskajām** personām un atlasiet **NOROBEŽOTAS.**
+2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai valsts/reģiona **lauks ir** iestatīts uz **DEU(Vācija).**
 3. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**.
-4. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks ir** iestatīts uz **Intrastat**.
-5. Dodieties **uz Kreditoru** > **parādiem visiem** > **kreditoriem**.
-6. Režģī atlasiet **DE-001.**
-7. Kopsavilkuma **cilnē** Adrese atlasiet **Rediģēt**.
+4. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks** ir iestatīts uz **Intrastat**.
+5. Dodieties uz **Kreditoru parādiem** > **visiem kreditoriem** > **·**.
+6. Režģī atlasiet **DE-001**.
+7. Kopsavilkuma cilnē **Adrese** atlasiet **Rediģēt**.
 8. Dialoglodziņā **Rediģēt adresi** laukā **Valsts/reģions** atlasiet **ITA**.
 9. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 
@@ -244,19 +244,19 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 1. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Transakciju kodi**.
 2. Režģī atlasiet **11**. Pēc tam Darbību rūtī atlasiet **Dzēst**.
 3. Darbību rūtī atlasiet **Jauns**.
-4. Kopsavilkuma **cilnes Darbības** kodi laukā Darbības **kods** **ievadiet** **11.**
-5. Laukā **Nosaukums** ievadiet **Outright purchase/sale.**
-6. Sadaļā **Pārsūtīšanas** pasūtījums, **laukā Rēķina summa atlasiet Kopējās** **izmaksas**.
-7. Laukā **Statistiskā** summa atlasiet Kopējās **izmaksas**.
+4. Kopsavilkuma cilnes **Darbības kodi** laukā Darbības **kods** **ievadiet** **11.**
+5. Laukā **Nosaukums** ievadiet Outright **purchase/sale**.
+6. Sadaļā Pārsūtīšanas **pasūtījums**, laukā **Rēķina summa** atlasiet **Kopējās izmaksas**.
+7. Laukā **Statistiskā** summa atlasiet **Kopējās izmaksas**.
 8. Darbību rūtī atlasiet **Saglabāt**.
 9. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**.
-10. Cilnes **Intrastat** kopsavilkuma cilnē Vispārīgi **laukā** Pārsūtīšanas **pasūtījums atlasiet** **11.**
+10. Cilnes Intrastat kopsavilkuma cilnē Vispārīgi **laukā** Pārsūtīšanas pasūtījums **atlasiet** **11**.**·**
 
 #### <a name="set-up-charges-for-an-item"></a>Krājuma izmaksu iestatīšana
 
 1. Pārejiet uz **Preču informācijas pārvaldība** > **Preces** > **Izlaistās preces**.
 2. Režģī atlasiet **D0001**.
-3. Kopsavilkuma **cilnes Ārējā** tirdzniecība sadaļā Intrastat **laukā** Maksas procenti **ievadiet** **20.**
+3. Kopsavilkuma cilnes **Ārējā** tirdzniecība sadaļā **Intrastat** laukā Maksas procenti **ievadiet** **20**.
 
 #### <a name="change-the-site-address"></a>Vietnes adreses maiņa
 
@@ -271,35 +271,35 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 9. Atlasiet **Labi**.
 10. Dodieties uz **Noliktavas pārvaldība** > **Iestatīšana** > **Noliktava** > **Noliktavas**.
 11. Režģī atlasiet **21**.
-12. Kopsavilkuma **cilnes** Vispārīgi sadaļā Atsauce, **laukā** Kreditora konts **atlasiet** **DE-001.**
+12. Kopsavilkuma cilnes **Vispārējā** daļa atsauces **sadaļā**, laukā **Kreditora konts** atlasiet **DE-001**.
 
 #### <a name="create-a-transfer-order"></a>Izveidot pārsūtīšanas pasūtījumu
 
-1. Dodieties uz **Krājumu pārvaldības** > **Izejošie pasūtījumi** > **Pārsūtīšanas pasūtījums.**
+1. Dodieties uz **Krājumu pārvaldības Izejošie** > **pasūtījumi Pārsūtīšanas** > **pasūtījums**.
 2. Darbību rūtī atlasiet **Jauns**.
-3. Cilnes Rindas kopsavilkuma **cilnes** **Pārsūtīšanas pasūtījuma virsraksts** sadaļas **Pārskats** laukā **No noliktavas** atlasiet **11.** Noliktavas **laukā Uz** atlasiet **21.**
-4. Kopsavilkuma **cilnes** Rindas cilnē **Pārsūtīšanas pasūtījuma rindas atlasiet** **Pievienot**.
-5. Laukā **Krājuma numurs** atlasiet **D0001**. Pēc tam **laukā Pārsūtīt** daudzumu ievadiet **2**.
-6. Kopsavilkuma cilnes Ārējā tirdzniecība kopsavilkuma cilnē Ārējā tirdzniecība pārbaudiet, vai darbības koda lauks **ir** **·** **·** **iestatīts** automātiski.
-7. Darbību rūts cilnes Nosūtīšana **grupā** **Operācijas atlasiet** Pārsūtīšanas **pasūtījums**.
-8. Dialoglodziņa **Krava** cilnē **Pārskats**, laukā **Atjaunināt** atlasiet **Visi**.
+3. Cilnes Rindas **kopsavilkuma** cilnes Pārsūtīšanas **pasūtījuma virsraksts** sadaļas **Pārskats** **laukā No** noliktavas atlasiet **11**. **Noliktavas laukā Uz** atlasiet **21**.
+4. Kopsavilkuma cilnes **Rindas** cilnē Pārsūtīšanas **pasūtījuma rindas** atlasiet **Pievienot**.
+5. Laukā **Krājuma numurs** atlasiet **D0001**. Pēc tam laukā **Pārsūtīt daudzumu** ievadiet **2**.
+6. Kopsavilkuma cilnes **Ārējā tirdzniecība kopsavilkuma** **cilnē Ārējā tirdzniecība pārbaudiet,** **·** **vai darbības koda lauks ir iestatīts automātiski.**
+7. Darbību rūts cilnē Nosūtīšana **, kas atrodas operāciju grupā** **, atlasiet Pārsūtīšanas** pārsūtīšanas pasūtījumu **.**
+8. **Dialoglodziņa Krava** cilnē **Pārskats**, laukā **Atjaunināt** atlasiet **Visi**.
 9. Atlasiet **Labi,** lai sūtītu pasūtījumu.
-10. Darbību rūts cilnē **Saņemt** operāciju **grupā** atlasiet **Saņemt**.
-11. Dialoglodziņa **Saņemt** cilnes Pārskats **laukā** Atjaunināt **atlasiet** **Visi**.
+10. Darbību rūts cilnē **Saņemt** operāciju grupā **atlasiet** **Saņemt**.
+11. **Dialoglodziņa Saņemt** cilnes Pārskats **laukā** Atjaunināt **atlasiet** **Visi**.
 12. Atlasiet **Labi,** lai sūtītu pasūtījumu.
 
 #### <a name="transfer-the-transfer-order-to-the-intrastat-journal"></a>Pārsūtīt pārsūtīšanas pasūtījumu uz Intrastat žurnālu
 
 1. Dodieties uz **Nodokļi** > **Deklarācijas** > **Ārējā tirdzniecība** > **Intrastat**.
 2. Darbību rūtī atlasiet **Pārsūtīt**.
-3. Dialoglodziņā **Intrastat (Pārsūtīšana) iestatiet opciju Pārsūtīšanas pasūtījums uz Jā un visas** **·** **pārējās** opcijas uz **Nē**.
+3. **Dialoglodziņā Intrastat (Pārsūtīšana)** iestatiet opciju Pārsūtīšanas pasūtījums **uz** Jā **un** visas pārējās opcijas uz **Nē**.
 4. Atlasiet **Labi**, lai pārsūtītu transakcijas un pēc tam pārskatītu Intrastat žurnālu.
 
    ![Rinda, kas attēlo pārsūtīšanas pasūtījumu Intrastat lapā](media/intrastat_overview_3.png)
 
 5.  Pārskatiet **pārsūtīšanas** pasūtījuma cilni Vispārīgi.
 
-    Ievērojiet, ka automātiski ir **iestatīti lauki** sadaļās **Rēķina vērtība un** Statistiskā vērtība. Rēķina summas un **statistiskās** summas lauku vērtības ir **balstītas** uz darbību kodu lapas **iestatījumiem**. Vērtība **20** laukā **Papildmaksas** procentos ir vērtība, kas ir iestatīta lapā **Izlaistās** preces. Vērtība laukā Statistikas maksu summa ir maksu kvantitātes **izteiksme** (jo 107,24 ir vienāda ar 20 536,18). Lauka **Statistiskā vērtība vērtība ir vērtību summa no** laukiem **Statistiskā summa** un **Statistiskās** maksas summa.
+    Ievērojiet, ka automātiski ir iestatīti **lauki sadaļās** Rēķina **vērtība un** Statistiskā vērtība. Rēķina summas un **statistiskās** summas **lauku** vērtības ir balstītas uz darbību kodu **lapas** iestatījumiem. **Vērtība 20** laukā Papildmaksas **procentos** ir vērtība, kas ir iestatīta lapā **Izlaistās** preces. Vērtība laukā **Statistikas** maksu summa ir maksu kvantitātes izteiksme (jo 107,24 ir vienāda ar 20 536,18). Lauka Statistiskā **vērtība** vērtība ir vērtību summa no laukiem Statistiskā **summa** un **Statistiskās maksas** summa.
 
   ![Pārsūtīšanas pasūtījuma detaļas Intrastat lapas cilnē Vispārīgi](media/intrastat_overview_4.png)
 
@@ -309,37 +309,37 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 
 #### <a name="preliminary-setup"></a>Iepriekšēja iestatīšana
 
-1. Dodieties **uz organizācijas** > **·** > **administrēšanas organizācijas** juridiskajām personām un atlasiet **NOROBEŽOTAS**.
-2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai **valsts/reģiona lauks** ir iestatīts uz **DEU(Vācija).**
+1. Dodieties **uz organizācijas** > **administrēšanas** > **organizācijas juridiskajām** personām un atlasiet **NOROBEŽOTAS.**
+2. Kopsavilkuma cilnē **Adreses** pārbaudiet, vai valsts/reģiona **lauks ir** iestatīts uz **DEU(Vācija).**
 3. Dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**.
 4. Kopsavilkuma cilnes **Vispārīgi** cilnes **Intrastat** laukā **Darījuma** **kods** atlasiet **11**.
-5. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks ir** iestatīts uz **Intrastat**.
-6. Dodieties **uz Kreditoru** > **parādiem visiem** > **kreditoriem**.
-7. Režģī atlasiet **DE-001.**
-8. Kopsavilkuma **cilnē** Adrese atlasiet **Rediģēt**.
+5. Kopsavilkuma cilnē **Preču kodu hierarhija** pārbaudiet, vai kategoriju **hierarhijas lauks** ir iestatīts uz **Intrastat**.
+6. Dodieties uz **Kreditoru parādiem** > **visiem kreditoriem** > **·**.
+7. Režģī atlasiet **DE-001**.
+8. Kopsavilkuma cilnē **Adrese** atlasiet **Rediģēt**.
 9. Dialoglodziņā **Rediģēt adresi** laukā **Valsts/reģions** atlasiet **ITA**.
 10. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 
 #### <a name="create-a-unit-of-measure"></a>Mērvienības izveide
 
-1. Dodieties uz **organizācijas** > **administrēšanas** > **iestatījuma vienību** > **vienībām**.
+1. Dodieties uz **organizācijas administrēšanas** > **iestatījumu** > **vienību** > **vienībām**.
 2. Darbību rūtī atlasiet **Jauns**.
 3. **Laukā** Vienība ievadiet mērvienības nosaukumu. Šajā piemērā ievadiet **GRM**.
-4. Kopsavilkuma **cilnes** Klasifikācija laukā Mērvienība atlasiet rekvizītu, ko mērvienība mērvienība **ir** **atlasa**. Šajā piemērā izvēlieties **Masa**.
-5. Laukā **Mērvienību** sistēma atlasiet mērvienību sistēmu, kurai pieder vienība. Piemēram, atlasiet **metriskās** mērvienības.
+4. Kopsavilkuma cilnes **Klasifikācija** laukā **Mērvienība** atlasiet **rekvizītu**, ko mērvienība mērvienība ir atlasa. Šajā piemērā izvēlieties **Masa**.
+5. **Laukā Mērvienību** sistēma atlasiet mērvienību sistēmu, kurai pieder vienība. Piemēram, atlasiet metriskās **mērvienības**.
 
 #### <a name="set-up-unit-conversions"></a>Iestatīt vienību pārveidošanu
 
-1. Dodieties uz **organizācijas** > **administrēšanas iestatījumu** > **vienību vienību** > **pārveidošanu**.
-2. Cilnē **Starpklases** pārveidošanas atlasiet **Jauns**.
-3. Dialoglodziņa **Vienības pārvēršana** laukā Prece **atlasiet** **F00007.**
-4. Laukā **No vienības atlasiet** **s**.
-5. Laukā **Uz vienību atlasiet** **GRM**.
-6. Pārbaudiet, vai konvertēšanas kurss ir **1 =** 1.
+1. Dodieties uz **organizācijas administrēšanas** > **iestatījumu** > **vienību** > **vienību pārveidošanu**.
+2. **Cilnē Starpklases pārveidošanas** atlasiet **Jauns**.
+3. Dialoglodziņa Vienības **pārvēršana laukā Prece** **atlasiet** F00007 **.**
+4. Laukā **No vienības** atlasiet **s**.
+5. Laukā **Uz vienību** atlasiet **GRM**.
+6. Pārbaudiet, vai konvertēšanas kurss ir **1 = 1**.
 7. Atlasiet **Labi**.
 8. Pārejiet uz **Preču informācijas pārvaldība** > **Preces** > **Izlaistās preces**.
 9. Režģī atlasiet **F00007**.
-10. Kopsavilkuma **cilnes Pārvaldīt** krājumus **sadaļas** Krājumi laukā **Vienība atlasiet** **GRM**.
+10. Kopsavilkuma cilnes **Pārvaldīt** krājumus sadaļas **Krājumi** laukā **Vienība** atlasiet **GRM**.
 11. Darbību rūtī atlasiet **Saglabāt**.
 
 #### <a name="set-up-product-information"></a>Preces informācijas iestatīšana
@@ -354,10 +354,10 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 1. Atveriet **Preču informācijas pārvaldība** > **Iestatīšana** > **Kategorijas un atribūti** > **Kategoriju hierarhijas**.
 2. Sarakstā izvēlieties **Intrastat**.
 3. Režģī atlasiet **Statīvs**.
-4. Kopsavilkuma **cilnes Ārējā** tirdzniecība laukā **Papildu vienības** atlasiet **GRM**.
+4. Kopsavilkuma cilnes **Ārējā** tirdzniecība laukā **Papildu** vienības atlasiet **GRM**.
 5. Darbību rūtī atlasiet **Saglabāt**.
 
-   Papildinformāciju skatiet [sadaļā Mērvienību pārvaldība](../../supply-chain/pim/tasks/manage-unit-measure.md).
+   Papildinformāciju skatiet sadaļā [Mērvienību pārvaldība](../../supply-chain/pim/tasks/manage-unit-measure.md).
 
 #### <a name="create-a-purchase-order"></a>Pirkuma pasūtījuma izveide
 
@@ -367,12 +367,12 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 4. Atlasiet **Labi**.
 5. Cilnē **Virsraksts** kopsavilkuma cilnē **Ārējā** **tirdzniecība** laukam **Transakcijas kods** jābūt **11**.
 6. Cilnē **Rindas** kopsavilkuma cilnes **Pirkšanas pasūtījuma rindas** laukā **Preces numurs** atlasiet **F00007**. Laukā **Daudzums** ievadiet **10**.
-7. Kopsavilkuma cilnes Ārējā tirdzniecība kopsavilkuma cilnē Ārējā tirdzniecība pārbaudiet, vai darbības kods un preces **lauki** **ir** **·** **·** **iestatīti** automātiski.
+7. Kopsavilkuma cilnes **Ārējā tirdzniecība kopsavilkuma** **cilnē Ārējā tirdzniecība pārbaudiet,** **·** **·** **vai darbības kods un preces lauki ir iestatīti automātiski.**
 8. Darbību rūts cilnē **Pirkšana**, grupā **Darbības** atlasiet **Apstiprināt**.
 9. Darbību rūtī, cilnē **Rēķins**, grupā **Ģenerēt** atlasiet **Rēķins**.
 10. Darbību rūtī atlasiet **Noklusējuma vērtība No**. Laukā **Noklusējuma daudzums rindām** atlasiet **Pasūtītais daudzums**. Pēc tam atlasiet **Labi**.
-11. Kopsavilkuma cilnes Kreditora rēķina virsraksts kopsavilkuma cilnē Rēķina identifikācija, laukā **Numurs** **·** **ievadiet** **VE-0010.**
-12. Sadaļā Rēķina datumi laukā Rēķina datums **atlasiet** **·** **10/5/2021** (2021. gada 5. oktobris).
+11. Kopsavilkuma cilnes **Kreditora rēķina virsraksts** kopsavilkuma **cilnē Rēķina identifikācija**, **laukā** Numurs ievadiet **VE-0010**.
+12. Sadaļā Rēķina **datumi** laukā Rēķina **datums** **atlasiet 10/5/2021 (2021**. gada 5. oktobris).
 13. Darbību rūtī atlasiet **Grāmatot**, lai grāmatotu žurnālu.
 
 #### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Pārsūtīt kreditora rēķinu uz Intrastat žurnālu
@@ -384,7 +384,7 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 
    ![Rinda, kas attēlo pirkšanas pasūtījumu Intrastat lapā](media/intrastat_overview_5.png)
 
-5. Pārskatiet pirkšanas pasūtījuma cilni **Vispārīgi**. **Ievērojiet, ka automātiski ir** iestatīti papildu vienību daudzums **un papildu vienību lauki sadaļā** **Vienība**.
+5. Pārskatiet pirkšanas pasūtījuma cilni **Vispārīgi**. Ievērojiet **, ka automātiski ir iestatīti** **papildu vienību daudzums** un papildu **vienību** lauki sadaļā Vienība.
 
    ![Pirkšanas pasūtījuma detaļas Intrastat lapas cilnē Vispārīgi](media/intrastat_overview_6.png)
 

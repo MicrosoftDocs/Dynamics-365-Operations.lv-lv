@@ -1,6 +1,6 @@
 ---
 title: Darba pasūtījumu izveidošana
-description: Šajā tēmā ir paskaidrots, kā izveidot darba pasūtījumus programmā Asset Management.
+description: Šajā rakstā skaidrots, kā izveidot darba pasūtījumus Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891210"
 ---
 # <a name="creating-work-orders"></a>Darba pasūtījumu izveidošana
 
@@ -60,7 +60,7 @@ Lai izveidotu darba pasūtījumus, kas ir balstīti uz uzturēšanas grafiku, se
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Grupēt darba pasūtījuma rindas, kas tiek automātiski izveidotas uzturēšanas plāna izpildes laikā
 
-Šī funkcija ļauj definēt noteikumus darba pasūtījumu rindu grupēšanai saskaņā ar vienu darba pasūtījumu, ja sistēma ir iestatīta darba pasūtījumu automātiskai ģenerēšanai, pamatojoties uz uzturēšanas plānu. Iepriekš automātiski izveidotie darba pasūtījumi var ietvert tikai vienu rindu. Tomēr tagad var grupēt darba pasūtījumus pēc, piemēram, pamatlīdzekļa, pamatlīdzekļa tipa vai funkcionālās atrašanās vietas. (Manuāli izveidotos darba pasūtījumus jau var grupēt šādā veidā, kā aprakstīts šīs tēmas iepriekšējā sadaļā.)
+Šī funkcija ļauj definēt noteikumus darba pasūtījumu rindu grupēšanai saskaņā ar vienu darba pasūtījumu, ja sistēma ir iestatīta darba pasūtījumu automātiskai ģenerēšanai, pamatojoties uz uzturēšanas plānu. Iepriekš automātiski izveidotie darba pasūtījumi var ietvert tikai vienu rindu. Tomēr tagad var grupēt darba pasūtījumus pēc, piemēram, pamatlīdzekļa, pamatlīdzekļa tipa vai funkcionālās atrašanās vietas. (Manuāli izveidotos darba pasūtījumus var jau grupēt šādā veidā, kā aprakstīts iepriekšējā šī raksta sadaļā.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Iespējot grupēšanu automātiski ģenerētiem darba pasūtījumiem
 

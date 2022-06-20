@@ -1,6 +1,6 @@
 ---
 title: Kolekcijas procesu automatizācijas parametru konfigurēšana
-description: Šajā tēmā aprakstīti parametri, kuri ietekmē automatizētos kolekciju procesus, un te ir sniegti norādījumi, kā tos iestatīt tā, lai automatizētais process atspoguļotu jūsu vēlmes un gaidas.
+description: Šajā rakstā ir aprakstīti parametri, kas ietekmē automatizētos apkopošanas procesus un sniedz norādījumus to iestatīšanai, lai automatizētais process atspoguļotu jūsu nolūkiem un prognozēm.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900047"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Kolekcijas procesu automatizācijas parametru konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīti parametri, kuri ietekmē automatizētos kolekciju procesus, un te ir sniegti norādījumi, kā tos iestatīt tā, lai automatizētais process atspoguļotu jūsu vēlmes un gaidas. Informāciju par kolekcijas procesu automatizēšanu skatiet sadaļā [Kolekciju procesu automatizēšana](collections-process-automate.md).
+Šajā rakstā ir aprakstīti parametri, kas ietekmē automatizētos apkopošanas procesus un sniedz norādījumus to iestatīšanai, lai automatizētais process atspoguļotu jūsu nolūkiem un prognozēm. Informāciju par kolekcijas procesu automatizēšanu skatiet sadaļā [Kolekciju procesu automatizēšana](collections-process-automate.md).
 
 ## <a name="general"></a>Vispārējā daļa
 Laukā **Klientu īpatsvars uz katru pakešuzdevumu** ievadiet skaitu, lai noteiktu pakešuzdevumu skaitu katram automatizācijas procesam. Iestatiet opciju **Grāmato kolekciju vēstules automātiski** uz **Jā**, lai kolekcijas vēstules darbības veids automatizācijas laikā grāmatotu vēstuli. Iestatiet opciju **Izveidot darbības automatizācijai** uz **Jā**, lai izveidotu un aizvērtu aktivitātes darbību veidiem, kas nav saistīti ar aktivitātēm, lai skatītu visas automatizētās darbības, kas veikti kontā. Sadaļā **Dienas, kad uzturēt kolekciju procesa automatizācijas vēsturi** definējiet dienu skaitu, cik ilgi kolekcijas vēsture tiek glabāta. Kad rēķins sasniedzis parādu piedziņas pēdējo darbību, tas netiks izmantots, lai izveidotu turpmākus procesa automatizācijas darbības veidus, ja opcija **Izslēgt rēķinu pēc pēdējās procesa darbības aktivizēšanas** ir iestatīta uz **Jā**. Nākamais vecākais rēķins nosaka nākamo procesa automatizācijas darbību, lai nodrošinātu, ka tiek turpinātas parādu piedziņas procesa automatizācijas darbības. 

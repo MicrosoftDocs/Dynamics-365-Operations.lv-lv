@@ -1,6 +1,6 @@
 ---
 title: Lietojuma pārvaldības informācijas panelis
-description: Šajā tēmā skaidrots, kā izmantot lietojuma pārvaldības informācijas paneli, lai pārraudzītu elektronisko rēķinu izrakstīšanas pakalpojuma lietošanu un saglabātu to atbilstību.
+description: Šajā rakstā ir skaidrots, kā izmantot lietojuma pārvaldības paneli, lai uzraudzītu elektronisko rēķinu izrakstīšanas pakalpojuma lietošanu un saglabātu to atbilstību.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875976"
 ---
 # <a name="usage-management-dashboard"></a>Lietojuma pārvaldības informācijas panelis
 
@@ -48,7 +48,7 @@ Informācijas panelis ietver šādus indikatorus:
 
 - Organizācija: 
 
-    Uzskaite tiek summēta ar jūsu uzņēmuma nomnieka ID neatkarīgi no Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management instanču skaita vai juridisko personu skaita, kur elektronisko rēķinu izrakstīšanas pakalpojums ir iespējots.
+    Uzskaite tiek summēta ar jūsu organizācijas nomnieka ID, Microsoft Dynamics neatkarīgi no 365 Dynamics 365 Supply Chain Management finanšu vai juridisko personu skaita, kur elektronisko rēķinu izrakstīšanas pakalpojums ir iespējots.
 
 
 ## <a name="indicator-usage-per-month-export"></a>Indikators: lietojums mēnesī (eksports)

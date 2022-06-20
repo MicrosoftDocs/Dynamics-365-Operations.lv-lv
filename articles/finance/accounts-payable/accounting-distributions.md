@@ -1,6 +1,6 @@
 ---
 title: Uzskaites sadales
-description: Šajā tēmā ir sniegta informācija par uzskaites sadalēm un aprakstītas pieejamās apstrādes opcijas.
+description: Šajā rakstā ir sniegta informācija par uzskaites sadalēm un aprakstītas pieejamās apstrādes opcijas.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894205"
 ---
 # <a name="accounting-distributions"></a>Uzskaites sadales
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par uzskaites sadalēm un aprakstītas opcijas, kas ir pieejamas to apstrādāšanai. Uzskaites sadales tiek izmantotas, lai pirmdokumenta naudas summas sadalītu konkrētos virsgrāmatas kontos. 
+Šajā rakstā ir sniegta informācija par uzskaites sadalēm un aprakstītas opcijas, kas ir pieejamas to apstrādāšanai. Uzskaites sadales tiek izmantotas, lai pirmdokumenta naudas summas sadalītu konkrētos virsgrāmatas kontos. 
 
 Uzskaites sadales ir programmā pieejama iespēja, kas tiek izmantota un paplašināta katram avota dokumentam, piemēram, pirkšanas pasūtījumam, kreditora rēķinam, izdevumu pārskatam un brīva teksta rēķinam. Pēc noklusējuma noklusētā uzskaites sadale tiek ģenerēta katrai avota pirmdokumenta rindai un naudas summai un tai ir iespējota modificēšana ar nosacījumiem. 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871925"
 ---
 # <a name="product-configuration-models-overview"></a>Pārskats par preču konfigurācijas modeļiem
 
@@ -75,7 +75,7 @@ Ja atribūta tips ir <strong>Būla</strong>, <strong>Vesels skaitlis</strong> ar
 <td>Ierobežojumi</td>
 <td>Ierobežojumi apraksta preču modeļa konfigurācijas ierobežojumus. Ierobežojumi tiek izmantoti, lai garantētu, ka preces konfigurēšanas laikā tiek atlasītas tikai derīgas vērtības. Ierobežojumi var būt izteiksmes ierobežojumi vai tabulas ierobežojumi:
 <ul>
-<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumos var tikt izmantota atsauce uz komponenta&#39;apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Plašāku informāciju skatiet tēmas vietnē par izteiksmes ierobežojumiem un tabulas ierobežojumiem.</li>
+<li>Izteiksmes ierobežojumus var izmantot tikai tam komponentam, kuram tie ir piesaistīti. Komponenta izteiksmes ierobežojumos var tikt izmantota atsauce uz komponenta&#39;apakškomponentu atribūtiem. Preču konfigurācijas risinātājs tiek izmantots, lai atrisinātu ierobežojumus, un ierobežojumu rakstīšanas laikā jums ir jālieto risinātāja sintakse. Papildinformāciju skatiet raksta saiti par izteiksmju ierobežojumiem un tabulas ierobežojumiem.</li>
 <li>Lai preces konfigurācijas modeļa komponentam varētu lieto tabulas ierobežojumus, tie vispirms ir jādefinē. Tabulas ierobežojumi var būt lietotāja definēti vai sistēmas definēti. Lietotāja definēts tabulas ierobežojums ir tādas matricas veids, ko var izmantot, lai aprakstītu tādu atribūtu vērtību kombināciju kopas, ko definē atribūtu veidi. Piemēram, ja tiek ražoti skaļruņi, tad lietotāja definēta tabulas ierobežojuma matricā var būt kolonnas skaļruņu apdarei un režģim.</li>
 </ul>
 <strong>Piemērs.</strong> Skaļruņi ir pieejami ar četrām apdarēm: Melns, Ozola, Rožkoka un Balts. Skaļruņiem var būt viens no trim priekšējiem režģiem: Melns, Metāla vai Balts. Melnā apdare ir pieejama visiem režģiem, bet pārējās apdares ir pieejamas tikai noteiktiem režģiem. Nākamajā tabulā ir parādīts piemērs, kāda informācija tiek rādīta cilnē <strong>Atļautās kombinācijas</strong>, lapā <strong>Rediģēt tabulas ierobežojumu</strong>.

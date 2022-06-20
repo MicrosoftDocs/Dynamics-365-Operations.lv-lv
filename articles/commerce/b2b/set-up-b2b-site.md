@@ -1,6 +1,6 @@
 ---
 title: B2B e-komercijas vietnes iestatīšana
-description: Šajā tēmā aprakstīts, kā iestatīt uzņēmums-uzņēmums (B2B) e-komercijas vietni programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā iestatīt uzņēmumu-biznesam (B2B) e-komercijas vietni Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881910"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-komercijas vietnes iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Uzņēmums-uzņēmums (B2B) e-komercijas vietnes nodrošina dažas galvenās iespējas, kas optimizē darbplūsmu B2B lietotājam. Šajā tēmā aprakstīts, kā iestatīt B2B e-komercijas vietni programmā Microsoft Dynamics 365 Commerce. Tajā aplūkoti moduļi un vietas iestatījumi, kas jākonfigurē, lai iespējotu B2B raksturīgos scenārijus.
+Uzņēmums-uzņēmums (B2B) e-komercijas vietnes nodrošina dažas galvenās iespējas, kas optimizē darbplūsmu B2B lietotājam. Šajā rakstā ir aprakstīts, kā iestatīt B2B e-komercijas vietni Microsoft Dynamics 365 Commerce. Tajā aplūkoti moduļi un vietas iestatījumi, kas jākonfigurē, lai iespējotu B2B raksturīgos scenārijus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-- Lai iestatītu B2B e-komercijas vietni, ir jāiespējo un jākonfigurē noteikti programmas Commerce Headquarters līdzekļi, kā aprakstīts šajā tēmā.
+- Lai uzstādītu B2B e-komercijas vietni, ir jāiespējo un jākonfigurē noteiktus programmas Commerce Headquarters līdzekļus, kā aprakstīts šajā rakstā.
 - Galveno pieredzi, piemēram, preču pamanīšanu, preču informācijas lapas, grozu un pārbaudi, darbina tie paši moduļi, kas tiek izmantoti uzņēmums-patērētājs (B2C) e-komercijas vietnēm. Vietnes autoriem ir jāiepazīstas ar visiem moduļiem, ko Dynamics 365 Commerce atbalsta. Papildinformāciju skatiet [Moduļu bibliotēkas pārskats](../starter-kit-overview.md).
-- Šajā tēmā tiek pieņemts, ka vietas autori izprot Commerce vietnes veidotāja pamatelementus, veidnes, fragmentus un lapas, tādējādi tie var iespējot B2B līdzekļus e-komercijas vietnēm.
+- Šajā rakstā tiek pieņemts, ka vietas autori izprot Commerce Site Builder pamatelementus, veidnes, fragmentus un lapas, tādējādi tie var iespējot B2B līdzekļus e-komercijas vietnēm.
 
 ## <a name="site-level-settings"></a>Vietnes līmeņa iestatījumi
 

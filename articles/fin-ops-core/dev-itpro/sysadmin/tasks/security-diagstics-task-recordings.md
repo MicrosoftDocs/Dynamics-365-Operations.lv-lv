@@ -1,6 +1,6 @@
 ---
-title: Drošības diagnostika uzdevumu reģistrēšanai
-description: Šajā tēmā sniegta informācija par to, kā analizēt un pārvaldīt drošības atļaujas prasības, pamatojoties uz uzdevuma reģistrāciju.
+title: Drošības diagnostika uzdevumu ierakstiem
+description: Šajā rakstā ir sniegta informācija, kā analizēt un pārvaldīt drošības atļauju prasības, balstoties uz uzdevumu ierakstīšanu.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880172"
 ---
-# <a name="security-diagnostics-for-task-recordings"></a>Drošības diagnostika uzdevumu reģistrēšanai
+# <a name="security-diagnostics-for-task-recordings"></a>Drošības diagnostika uzdevumu ierakstiem
 
 [!include [banner](../../includes/banner.md)]
 
 ## <a name="before-you-begin"></a>Pirms sākšanas
 
-Šajā tēmā sniegta informācija par to, kā analizēt un pārvaldīt drošības atļaujas prasības, pamatojoties uz uzdevuma reģistrāciju. Pirms šajā tēmā aprakstīto darbību veikšanas jums ir jābūt uzdevuma reģistrēšanai biznesa procesiem, ko vēlaties analizēt. Lai reģistrētu biznesa procesu, skatiet [Uzdevumu reģistrētāja resursi](../../user-interface/task-recorder.md). 
+Šajā rakstā ir sniegta informācija, kā analizēt un pārvaldīt drošības atļauju prasības, balstoties uz uzdevumu ierakstīšanu. Pirms izpildīsiet šajā rakstā aprakstītās darbības, jums nepieciešams veikt biznesa procesa uzdevumu ierakstīšanu, ko vēlaties analizēt. Lai reģistrētu biznesa procesu, skatiet [Uzdevumu reģistrētāja resursi](../../user-interface/task-recorder.md). 
 
 ## <a name="manage-security-for-a-task-recording"></a>Pārvaldīt uzdevuma reģistrēšanas drošību
 

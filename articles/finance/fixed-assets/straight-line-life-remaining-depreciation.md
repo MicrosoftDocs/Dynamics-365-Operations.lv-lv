@@ -1,6 +1,6 @@
 ---
-title: Atlikušā darbmūža lineārā aprēķināšanas metode
-description: Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+title: Atlikušā lietošanas ilguma lineārā aprēķināšanas metode
+description: Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853443"
 ---
-# <a name="straight-line-life-remaining-depreciation"></a>Atlikušā darbmūža lineārā aprēķināšanas metode
+# <a name="straight-line-life-remaining-depreciation"></a>Atlikušā lietošanas ilguma lineārā aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma profilu un atlasot opciju **Lineārais lietošanas ilgums** laukā **Metode** lapā **Nolietojuma profili**, pamatlīdzekļu, kuriem ir piešķirts šis nolietojuma profils, nolietojums ir balstīts uz pamatlīdzekļa kopējo lietošanas ilgumu. Galvenokārt tas nozīmē, ka visiem nolietojuma periodiem ir viena nolietojuma summa. Lai iestatītu atlikušā lietošanas ilguma lineāro aprēķināšanas metodi, jāatlasa arī opcijas laukā **Nolietojuma aprēķina gads**, kā arī laukā **Perioda biežums** lapā **Nolietojuma tabulas**. Laukā **Perioda biežums** pieejamās opcijas ir atkarīgas no vērtības, kas ir atlasīta laukā **Nolietojuma aprēķina gads**.
 
@@ -35,7 +35,7 @@ Lapā **Nolietojuma tabulas** laukā **Nolietojuma aprēķina gads** varat atlas
 
 ### <a name="calendar"></a>Kalendārs
 
-Ja atlasāt **Kalendārs** laukā **_Nolietojuma gads_*_, par to tiek uzskatīts gads no 1. janvāra līdz 31. decembrim, pat ja finanšu kalendārs ir definēts atšķirīgi. Opcija _* Kalendārs** atjaunina nolietojuma bāzi katra gada 1. janvārī. Parasti nolietojuma bāze ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
+Ja atlasāt **Kalendārs** laukā **_Nolietojuma gads_*_, par to tiek uzskatīts gads no 1. janvāra līdz 31. decembrim, pat ja finanšu kalendārs ir definēts atšķirīgi. Opcija _* Kalendārs** atjaunina nolietojuma bāzi katra gada 1. janvārī. Parasti nolietojuma bāze ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šī raksta piemērā nolietojuma bāze ir aprēķinu pirmās izteiksmes skaitītājs aprēķina kolonnā. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
 - **Reizi gadā** grāmato summu 31. decembrī.
 - **Reizi mēnesī** grāmato mēneša summu katra kalendārā mēneša beigās.

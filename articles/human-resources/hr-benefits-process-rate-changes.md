@@ -1,6 +1,6 @@
 ---
 title: Apstrādāt likmju izmaiņas
-description: Šajā tēmā skaidrots, kā apstrādāt atvieglojumu apmēra izmaiņas programmā Microsoft Dynamics 365 Human Resources.
+description: Šajā rakstā skaidrots, kā apstrādāt atvieglojumu likmes izmaiņas programmā Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882958"
 ---
 # <a name="process-rate-changes"></a>Apstrādāt likmju izmaiņas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696131"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Apstrādājiet atvieglojumu likmju izmaiņas programmā Microsoft Dynamics 365 Human Resources, kad jaunam vai esošam atvieglojumu plānam ir izmaiņas piemērotības kārtulas iestatījumos. Ja plānam tiek izveidota un piešķirta jauna piemērotības kārtula, tas uzvedina sistēmu atkārtoti izpildīt nodarbinātā piemērotību, lai pārbaudītu, vai nodarbinātais tagad ir piemērots plānam, pamatojoties uz jaunajām piemērotības opcijām. 
+Šajā rakstā ir izskaidrots, kā apstrādāt atvieglojumu likmes izmaiņas sistēmā Microsoft Dynamics 365 Human Resources, kad jaunā vai esošā atvieglojumu plāna piemērotības nosacījumu iestatījumos tiek veiktas izmaiņas. Ja plānam tiek izveidota un piešķirta jauna piemērotības kārtula, tas uzvedina sistēmu atkārtoti izpildīt nodarbinātā piemērotību, lai pārbaudītu, vai nodarbinātais tagad ir piemērots plānam, pamatojoties uz jaunajām piemērotības opcijām. 
 
 1. Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Likmju izmaiņu atjauninājumu apstrāde**.
 

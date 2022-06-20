@@ -1,6 +1,6 @@
 ---
 title: Budžeta plānošanas pārskats
-description: Šajā tēmā aprakstīta budžeta plānošana. Tā satur informāciju, kas var palīdzēt jums sagatavoties budžeta plānošanas konfigurēšanai un iestatītu budžeta plānošanas procesus.
+description: Šajā rakstā ir aprakstīta budžeta plānošana. Tā satur informāciju, kas var palīdzēt jums sagatavoties budžeta plānošanas konfigurēšanai un iestatītu budžeta plānošanas procesus.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853559"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīta budžeta plānošana. Tā satur informāciju, kas var palīdzēt jums sagatavoties budžeta plānošanas konfigurēšanai un iestatītu budžeta plānošanas procesus.
+Šajā rakstā ir aprakstīta budžeta plānošana. Tā satur informāciju, kas var palīdzēt jums sagatavoties budžeta plānošanas konfigurēšanai un iestatītu budžeta plānošanas procesus.
 
 ## <a name="overview-of-budget-planning"></a>Budžeta plānošanas pārskats
 
@@ -91,7 +91,7 @@ Budžeta plānošanas darbplūsmu sastāv no sakārtota posmu kopuma, pa kuru p�
 
 Budžeta plānošanas darbplūsmu iespējams izveidot lapas **Budžeta plānošanas konfigurācija** sadaļā **Darbplūsmas stadijas**. Tur varat atlasīt izmantojamās stadijas un budžeta veidošanas darbplūsmas, un konfigurēt papildu iestatījumus.
 
-Laba prakse ir izveidot budžeta plānošanas darbplūsmu katrā budžeta veidošanas hierarhijas līmenī. Pēc tam piešķiriet budžeta veidošanas darbplūsmu, kas satur elementus, kuri atbilst budžeta plānošanas darbplūsmas stadijām. Piemēra shēmā, kas parādīta iepriekš šajā tēmā, viena budžeta plānošanas darbplūsma tiks izveidota pārdošanas nodaļām un cita tiks izveidota galvenajai pārvaldei. Budžeta veidošanas darbplūsmas pārvieto budžeta plānus no vienas stadijas uz citu.
+Laba prakse ir izveidot budžeta plānošanas darbplūsmu katrā budžeta veidošanas hierarhijas līmenī. Pēc tam piešķiriet budžeta veidošanas darbplūsmu, kas satur elementus, kuri atbilst budžeta plānošanas darbplūsmas stadijām. Piemērā shēmā, kas parādās iepriekš šajā rakstā, tiks izveidota viena budžeta plānošanas darbplūsma pārdošanas nodaļām, un otra tiks izveidota galvenā pārvaldei. Budžeta veidošanas darbplūsmas pārvieto budžeta plānus no vienas stadijas uz citu.
 
 Budžeta veidošanas darbplūsmu budžeta plānošanai varat izveidot lapā **Budžeta veidošanas darbplūsmas**. Process līdzinās citu darbplūsmu veidošanas procesam. Šajā attēlā parādīts galvenās pārvaldes darbplūsmas piemērs.
 
@@ -141,7 +141,7 @@ Stadijas sadalījumi tiek izmantoti, lai automātiski sadalītu budžeta plāna 
 
 Iestatot posmu sadalījumu, saistiet budžeta plānošanas darbplūsma un posmu ar sadalījuma grafiks. Budžeta plānošanas darbplūsmai ir jābūt saistītai ar budžeta plānošanas darbplūsmu, kas izmanto automatizēto darbplūsmas uzdevumu **Budžeta plānošana stadiju sadalījums**. Kad darbplūsma sasniedz norādīto stadiju, sadalīšana notiek automātiski. Automatizētu uzdevumu var izmantot, lai izveidotu budžeta plāna rindas jaunā scenārijā.
 
-Piemēra shēmā, kas parādīta iepriekš šajā tēmā, sadalījums tiek veikts, lai pārsūtītu summas no budžeta plāna un scenārijiem galvenās pārvaldes "Bāzlīnijas" stadijā uz citu budžeta plānu un scenārijiem pārdošanas nodaļas "Novērtēšanas" stadijā. Šajā attēlā parādīta piemēra shēmas attiecīgā daļa.
+Piemēram, šajā rakstā iepriekš redzamajā shēmā tiek veikts sadalījums, lai pārsūtītu summas no budžeta plāna un scenārijiem galvenās pārvaldes stadijā "Pamatlīnija" uz citu budžeta plānu un scenārijiem pārdošanas nodaļu stadijā "Novērtējums". Šajā attēlā parādīta piemēra shēmas attiecīgā daļa.
 
 [![Stadiju sadalījums.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

@@ -1,6 +1,6 @@
 ---
 title: Divkāršā valūta
-description: Šajā tēmā sniegta informācija par dubulto valūtu, kur pārskata valūta tiek izmantota kā otra uzskaites valūta Microsoft Dynamics 365 Finanses.
+description: Šajā rakstā ir sniegta informācija par dubulto valūtu, kur pārskata valūta tiek izmantota kā otra uzskaites valūta Microsoft Dynamics 365 Finanses.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906360"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
@@ -36,7 +36,7 @@ Turklāt ir uzlaboti vairāki moduļi, lai izsekotu, izmantotu un ziņotu par p�
 - Pamatlīdzekļi 
 - Konsolidācija
 
-Pēc jaunināšanas ir jāveic noteikti soļi attiecībā uz moduļiem Kases un bankas vadība un Pamatlīdzekļi. Tādēļ noteikti izlasiet un izprotiet šīs tēmas atbilstošās sadaļas.
+Pēc jaunināšanas ir jāveic noteikti soļi attiecībā uz moduļiem Kases un bankas vadība un Pamatlīdzekļi. Tāpēc noteikti izlasiet un izprotiet atbilstošās šī raksta sadaļas.
 
 ## <a name="posting-process"></a>Grāmatošanas process
 
@@ -93,7 +93,7 @@ Modulī **Virsgrāmata** tika veiktas šādas papildu izmaiņas.
 - Virsgrāmatā var definēt atsevišķu maiņas kursa tipu pārskata valūtai. Ja organizācija nevēlas izmantot citu maiņas kursa tipu, attiecīgās pārskata valūtas maiņas kursa tipa lauku var atstāt tukšu. Vai arī var atlasīt to pašu maiņas kursa tipu, kas tiek izmantots uzskaites valūtai. Ja šo lauku atstājat tukšu, sistēma izmanto uzskaites valūtas maiņas kursa tipu.
 - Jauns žurnāls — pārskata valūtas korekcijas žurnāls— ļauj grāmatot virsgrāmatas kontos korekcijas tikai pārskata valūtā. Šis žurnāls ļauj veikt grāmatošanu tikai virsgrāmatas kontos. Tas neatbalsta starpuzņēmumu, un valūtai jābūt tādas juridiskās personas pārskata valūtai, kurai ir iegrāmatots žurnāls. Kad žurnāls ir iegrāmatots, darījuma valūtas un uzskaites valūtas summas ir 0 (nulle), un pārskata valūtas summa tiek iegrāmatota, izmantojot summu, kas ir ievadīta attiecīgajai transakcijai. Tā kā ir mainījies pārskata valūtas izmantošanas veids moduļos **Kreditori**, **Debitori** un **Pamatlīdzekļi**, šo žurnālu var izmantot korekcijām pēc jaunināšanas. Piemērus, kuros aprakstīts, kā lietot šo žurnālu, skatiet sadaļās par attiecīgajiem moduļiem.
 - Perioda sadalījuma process ir atjaunināts tā, ka tas sadala summas darījuma, uzskaites un pārskata valūtās. Iepriekš summas tika sadalītas darījuma un uzskaites valūtās, un pēc tam uzskaites valūtas summa tika pārrēķināta uz pārskata valūtu. Šādas darbības rezultātā virsgrāmatas konta bilance varēja tikt parādīta pārskata valūtā. Tagad, kad summas tiek aprēķinātas un izmantotas uzskaites ierakstā, pārrēķināšana netiek veikta.
-- Ārvalstu valūtas pārvērtēšanas procesā jau tika veikta summu pārvērtēšana pārskata valūtā. Tomēr pārskata valūtas summu tagad aprēķina, izmantojot darījuma valūtas summu, kā aprakstīts sadaļā [Grāmatošanas process](#posting-process) iepriekš šajā tēmā.
+- Ārvalstu valūtas pārvērtēšanas procesā jau tika veikta summu pārvērtēšana pārskata valūtā. Tomēr pārskata valūtas summa tagad tiek aprēķināta, izmantojot darbības valūtas summu, [kā aprakstīts šī raksta iepriekšējā](#posting-process) sadaļā Grāmatošanas process.
 - Daudziem pārskatiem un pieprasījumiem virsgrāmatā jau tika izmantota pārskata valūta, taču dažiem tas netika darīts. Viens šāds piemērs ir saraksta lapa **Apgrozījuma bilance**. Šī saraksta lapa tagad ietver kolonnas gan uzskaites valūtai, gan pārskata valūtai. Ņemiet vērā, ka pārskata valūtas kolonnas tiek slēptas, ja uzskaites valūta ir vienāda ar pārskata valūtu vai ja virsgrāmatā nav definēta pārskata valūta.
 
 ### <a name="financial-reporting"></a>Finanšu pārskatu veidošana

@@ -1,6 +1,6 @@
 ---
 title: Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai
-description: Šajā tēmā ir aprakstīts, kā plānot turpmākās rīcībā veiktās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus.
+description: Šajā rakstā ir aprakstīts, kā plānot turpmākās rīcībā veiktās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856198"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, *kā* iestatīt rīcībā esošo krājumu izmaiņu grafika funkciju, lai plānotu turpmākās rīcībā esošo izmaiņu izmaiņas un aprēķinātu rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju.
+Šajā rakstā ir aprakstīts, *kā* iestatīt rīcībā esošo krājumu izmaiņu grafika līdzekli, lai plānotu turpmākās rīcībā esošo izmaiņu izmaiņas un aprēķinātu rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju.
 
 Daudziem ražotājiem, mazumtirgotājiem vai pārdevējiem nepietiek tikai tā, lai zinātu, kas pašlaik ir pieejams. Tām ir jābūt pilnai redzamībai nākotnē. Šai nākotnes pieejamībai jāapsver nākotnes piedāvājums, turpmāks pieprasījums un ATP.
 

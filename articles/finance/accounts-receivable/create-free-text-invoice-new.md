@@ -1,6 +1,6 @@
 ---
-title: Brīva teksta rēķina izveide
-description: Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus.
+title: Izveidot brīva teksta rēķinu
+description: Šajā rakstā skaidrots, kā izveidot brīva teksta rēķinus.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878165"
 ---
-# <a name="create-a-free-text-invoice"></a>Brīva teksta rēķina izveide
+# <a name="create-a-free-text-invoice"></a>Izveidot brīva teksta rēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā izveidot brīva teksta rēķinus. Šai procedūrai izmantojiet demonstrācijas uzņēmuma **USMF** datus.
+Šajā rakstā skaidrots, kā izveidot brīva teksta rēķinus. Šai procedūrai izmantojiet demonstrācijas uzņēmuma **USMF** datus.
 
 ## <a name="create-a-free-text-invoice"></a>Izveidot brīva teksta rēķinu
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392889"
     * Ja lietojat vienotās eiro maksājumu zonas (SEPA) mandātus, tad tiešā debeta mandāts automātiski tiek ievadīts, kad atlasāt debitora kontu.
 
 4. Laukā **Apraksts** ievadiet kādu vērtību.
-5. Laukā **Galvenais konts** norādiet kāda konta numuru, kuram nav dimensiju. Dimensijas jūs ievadīsiet vēlākā šīs tēmas posmā.
+5. Laukā **Galvenais konts** norādiet kāda konta numuru, kuram nav dimensiju. Vēlāk šajā rakstā ievadīsiet dimensijas.
 
     Lai atrastu kontu, varat arī ievadīt vienu vai vairākas rakstzīmes galvenajam kontam un lietot uzmeklēšanu.
 

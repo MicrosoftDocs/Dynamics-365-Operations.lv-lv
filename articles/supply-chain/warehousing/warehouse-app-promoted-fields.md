@@ -1,6 +1,6 @@
 ---
 title: Konfigurējiet veicinātos laukus darbībām mobilajā programmā Warehouse Management
-description: Šajā tēmā ir aprakstīts, kā veicināt un izcelt konkrētu informāciju par jebkuru posmu uzdevumu plūsmās Warehouse Management mobilajai lietojumprogrammai.
+description: Šajā rakstā ir aprakstīts, kā veicināt un izcelt konkrētu informāciju par jebkuru uzdevumu plūsmu uzdevumu plūsmām mobilajā programmā Noliktavas pārvaldība.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857059"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Konfigurējiet veicinātos laukus darbībām mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šajā tēmā aprakstītie līdzekļi attiecas tikai uz jauno Warehouse Management mobile programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
+> Šajā rakstā aprakstītie līdzekļi attiecas tikai uz jauno noliktavas pārvaldības mobilo programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
 
-Šajā tēmā ir aprakstīts, kā veicināt un izcelt konkrētu informāciju par jebkuru posmu uzdevumu plūsmās Warehouse Management mobilajai lietojumprogrammai. Šī iespēja var palīdzēt pievērst darbinieku uzmanību vissvarīgākajiem laukiem, kad tie darbojas ar plūsmu. Katram procesa solim administratori var atlasīt, kurus laukus veicināt un kurus laukus iezīmēt.
+Šajā rakstā ir aprakstīts, kā veicināt un izcelt konkrētu informāciju par jebkuru uzdevumu plūsmu uzdevumu plūsmām mobilajā programmā Noliktavas pārvaldība. Šī iespēja var palīdzēt pievērst darbinieku uzmanību vissvarīgākajiem laukiem, kad tie darbojas ar plūsmu. Katram procesa solim administratori var atlasīt, kurus laukus veicināt un kurus laukus iezīmēt.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Iespējojiet veicinātos laukus savā sistēmā
 
@@ -44,7 +44,7 @@ Lai iespējotu nepieciešamos līdzekļus, pirms varat iestatīt atbalstītos la
     - **Modulis:** *Noliktavas pārvaldība*
     - **Līdzekļa nosaukums:** *Warehouse programmas veicinātie lauki*
 
-    Šis līdzeklis ir līdzeklis, kas ir aprakstīts šajā tēmā.
+    Šī funkcija ir šajā rakstā aprakstīta funkcija.
 
 1. Atjauniniet lauku nosaukumus Warehouse Management mobilajā programmā, apmeklējot **Warehouse Management \> Iestatījums \> Mobilā ierīce \> Warehouse programmas lauku nosaukumi** un atlasot **Izveidot noklusējuma iestatījumus**. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
 1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
@@ -56,7 +56,7 @@ Izmantojiet šo procedūru, lai iestatītu veicinātos laukus.
 1. Izveidojiet izvēlnei raksturīgu pārlabošanu atbilstošai izvēlnei un darbību, kā tas ir aprakstīts sadaļā [Pielāgot darbību nosaukumus un instrukcijas mobilajai programmai Warehouse Management](mobile-app-titles-instructions.md).
 1. Atrodiet to **Soļa ID** un **Izvēlnes elementu nosaukumu** vērtību kombināciju, ko vēlaties rediģēt, un pēc tam atlasiet vērtību kolonnā **Soļa ID**.
 1. Lapā, kas tiek parādīta kopsavilkuma cilnē **Atlasīt veicinātos laukus**, rīkjoslā atlasiet **Atlasīt laukus**.
-1. Dialoglodziņā **Veicinātie lauki** atlasiet laukus, kurus vēlaties veicināt. Var arī iezīmēt līdz diviem atlasītajiem laukiem. Izceltie lauki Warehouse Management mobilajā programmā tiks rādīti treknrakstā. Atlasot laukus, ņemiet vērā faktu, ka daži ekrāni var būt tik lieli, lai rādītu tikai augšējos vai divus veicinātos laukus. Piemēru, kas parāda, kā izmantot šos iestatījumus, skatiet tālāk šīs tēmas scenārijā.
+1. Dialoglodziņā **Veicinātie lauki** atlasiet laukus, kurus vēlaties veicināt. Var arī iezīmēt līdz diviem atlasītajiem laukiem. Izceltie lauki Warehouse Management mobilajā programmā tiks rādīti treknrakstā. Atlasot laukus, ņemiet vērā faktu, ka daži ekrāni var būt tik lieli, lai rādītu tikai augšējos vai divus veicinātos laukus. Piemēru, kurā parādīts, kā izmantot šos iestatījumus, skatiet tālāk šī raksta scenāriju.
 
     > [!NOTE]
     > Saraksts **Pieejamie lauki** ir ierobežots ar laukiem, kas var parādīties izvēlnes elementam. Tomēr citi faktori (piemēram, krājumu sastāvs) nosaka, vai lauks faktiski parādās Warehouse Management mobilajā programmā. Ja esat konfigurējis veicinātos laukus, tad Warehouse Management mobilās programmas galvenajā lapā tiks rādīti tikai atlasītie lauki. Tomēr darbinieki joprojām var apskatīt atlikušos laukus detalizētas informācijas lapā.

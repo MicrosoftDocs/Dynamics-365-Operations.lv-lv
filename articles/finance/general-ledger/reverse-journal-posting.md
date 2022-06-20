@@ -1,6 +1,6 @@
 ---
-title: Stornēt žurnāla grāmatošanu
-description: Šajā tēmā ir aprakstītas iespējas, kas ļauj stornēt dokumentus no dokumentu darbību saraksta vai finanšu žurnāliem.
+title: Apgrieztā žurnāla grāmatošana
+description: Šajā rakstā ir aprakstītas iespējas, kas ļauj atsaukt dokumentus no dokumentu darbību saraksta vai finanšu žurnāliem.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868407"
 ---
-# <a name="reverse-journal-posting"></a>Stornēt žurnāla grāmatošanu
+# <a name="reverse-journal-posting"></a>Apgrieztā žurnāla grāmatošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas iespējas Microsoft Dynamics 365 Finance, kas ļauj stornēt visu žurnālu vai stornēt vienu vai vairākus dokumentus no dokumentu darbību saraksta neatkarīgi no to izcelsmes. 
+Šis raksts apraksta iespējas Microsoft Dynamics 365 Finanses, kas ļauj atsaukt visu žurnālu vai atgriezt vienu vai vairākus dokumentus no dokumentu darbību saraksta, neatkarīgi no to izcelsmes. 
 
-Lai varētu izmantot vienu no šajā tēmā aprakstītiem līdzekļiem, tie ir jāieslēdz jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms varat lietot vienu no šajā rakstā aprakstītajām funkcijām, sistēmā ir jābūt ieslēgtam. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
  - Modulis: Virsgrāmata
  - Funkcionalitātes nosaukums: **Masveida apgriešana vairākiem dokumentiem**
 
@@ -69,7 +69,7 @@ Ja dokuments pārsniedz 100 rindas, stornēšanas process tiks izpildīts, izman
 
 Ja dokumenta rindu skaits ir 100 rindas vai mazāk, stornēšanas process tiks izpildīts nekavējoties. Rezultāti tiks parādīti dialoga lodziņā, kur var ieraudzīt jebkuru dokumentu, kuru nevar stornēt, kopā ar iemeslu, kāpēc to nevarēja stornēt. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 
-Darbības var apgriezt tikai tad, ja tās atbilst biznesa noteikumiem, lai tos stornētu. Kreditoru maksājumus nevar atcelt, izmantojot šajā tēmā aprakstītās iespējas. Kreditoru maksājumi ir jāstornē, izpildot darbības, kas norādītas [Stornēt kreditora maksājumu](../accounts-payable/reverse-vendor-payment.md).
+Darbības var apgriezt tikai tad, ja tās atbilst biznesa noteikumiem, lai tos stornētu. Kreditoru maksājumus nevar atcelt, izmantojot šajā rakstā aprakstīto iespēju. Kreditoru maksājumi ir jāstornē, izpildot darbības, kas norādītas [Stornēt kreditora maksājumu](../accounts-payable/reverse-vendor-payment.md).
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services
-description: Šajā tēmā skaidrots, kā instalēt elektronisko rēķinu izrakstīšanas pievienojumprogrammu lifecycle Microsoft Dynamics Services (LCS).
+description: Šajā rakstā ir izskaidrots, kā instalēt elektronisko rēķinu izrakstīšanas pievienojumprogrammu pakalpojumu Microsoft Dynamics Lifecycle Services (LCS).
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a575f3e26489607dc2143ba05c941240969a0feb
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849810"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-Lai varētu veikt autentifikāciju elektronisko rēķinu izrakstīšanas pakalpojumā, pakalpojumu platformā ir jāreģistrē korporācija Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain ManagementMicrosoft Dynamics vai vide, instalējot pievienojumprogrammu jūsu videi pakalpojumā Lifecycle Services (LCS).
+Lai varētu veikt Microsoft Dynamics autentifikāciju Elektronisko rēķinu izrakstīšanas pakalpojumā, pakalpojumu platformā ir jāreģistrē 365 Dynamics 365 Supply Chain Management Microsoft Dynamics finanses vai vide, instalējot pievienojumprogrammu jūsu videi pakalpojumā Lifecycle Services (LCS).
 
 Lai reģistrētu vidi, veiciet šādus soļus.
 

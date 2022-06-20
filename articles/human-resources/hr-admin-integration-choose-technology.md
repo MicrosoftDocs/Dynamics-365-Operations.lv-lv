@@ -1,6 +1,6 @@
 ---
-title: Datu integrācijas tehnoloģiju izvēle
-description: Šajā tēmā sniegta informācija par integrēšanu ar personāla vadības pārvaldītajiem datiem.
+title: Izvēlēties datu integrācijas tehnoloģiju
+description: Šajā rakstā ir sniegta informācija par integrēšanu ar personāla vadības pārvaldītajiem datiem.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887810"
 ---
 # <a name="choose-a-data-integration-technology"></a>Datu integrācijas tehnoloģiju izvēle
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717144"
 
 
 
-Šajā tēmā sniegta informācija par integrēšanu ar datiem, ko pārvalda Dynamics 365 cilvēkresursi. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
+Šajā rakstā ir sniegta informācija par integrēšanu ar datiem, ko pārvalda Dynamics 365 cilvēkresursi. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 
 ## <a name="data-integration-background"></a>Datu integrācijas fons
 

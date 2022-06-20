@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 26. septembri.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Human Resources 2020. gada 26. septembrī.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874251"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061388"
 
 
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
+Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
 Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -39,16 +39,16 @@ Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās
 
 Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu:
 
-- **Tagad ir pieejams** platformas atjauninājums 10.0.13: Papildinformāciju par atjauninājumu skatiet sadaļā [Finanšu un operāciju programmu versijas 10.0.13 platformas atjauninājumi (2020. gada oktobris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Platformas atjauninājums 10.0.13 tagad ir pieejams:** Plašāku informāciju par šo atjauninājumu skatiet Platformas atjauninājumos Finanšu un operāciju programmu versijā 10.0.13 [(2020. gada oktobris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
 Šajā laidienā ir iekļauti tālāk minētie kļūdu labojumi.
 
 > [!NOTE]
-> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Ir iespējami šīs tēmas atjauninājumi, lai iekļautu kļūdu labojumus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Iespējams, šim rakstam ir pieejami atjauninājumi, lai iekļautu kļūdu labojumus, kas to izlaboja būvējuma laikā pēc šī raksta sākotnējā publicēšanas.
 
-| Problēmas numurs | Izsniegt | Apraksts |
+| Problēmas numurs | Problēma | Apraksts |
 | --- | --- | --- |
 | 469495 | Noklusējuma finanšu dimensiju režģa un dialoglodziņa atjauninājums | Finanšu dimensiju režģis un dialoglodziņš ir atjaunināts visā programmā Human Resources. |
 | 474887 | Atvaļinājuma pieprasījuma darba vienība atver nepareizu saiti manuālā lēmumā | Kad darbplūsmas konfigurācija ietver manuālu lēmumu, pārvietojoties uz atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības**, tiek atvērta nepareiza saite, parādot tukšu formu vai atvaļinājuma pieprasījumu, ko izveidojis pašreizējais lietotājs, nevis to, kas piešķirta manuālajam lēmumam. |

@@ -1,6 +1,6 @@
 ---
-title: No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
-description: Šajā tēmā skaidrots, kā var iestatīt EP modeļa kartējumus, lai tie būtu atkarīgi no juridiskās personas, kas kontrolē to izmantošanu, valsts/reģiona konteksta.
+title: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
+description: Šajā rakstā skaidrots, kā var iestatīt ER modeļa kartējumus tā, lai tie būtu atkarīgi no juridiskas personas, kas kontrolē to izmantošanu, valsts/reģiona konteksta.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883880"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
 
 [!include[banner](../includes/banner.md)]
 
-Varat konfigurēt elektronisko pārskatu (EP) modeļu kartējumus tā, lai tie ieviestu vispārīgu datu modeli, bet būtu specifiski Dynamics 365 Finance. Šajā tēmā skaidrots, kā veidot vairākus EP modeļu kartējumus EP datu modelim, lai kontrolētu, kā tie tiek izmantoti atbilstošajiem EP formātiem, kas tiek palaisti no uzņēmumiem, kuriem ir atšķirīgs valsts/reģiona konteksts.
+Varat konfigurēt elektronisko pārskatu (ER) modeļu kartējumus tā, lai tie ieviestu vispārēju ER datu modeli, bet būtu specifiski Dynamics 365 Finanses. Šajā rakstā skaidrots, kā plānot vairākus ER modeļa kartējumus ER datu modelim, lai kontrolētu, kā tie tiek izmantoti atbilstošos ER formātos, kas tiek darbināti no uzņēmumiem, kuriem ir dažādi valsts/reģiona konteksti.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai izpildītu šajā tēmā aprakstītos piemērus, jums ir nepieciešama tālāk norādītā piekļuve.
+Lai pabeigtu piemērus šajā rakstā, jums ir jābūt šādai piekļuvei:
 
 - Piekļuve Finance vienai no šīm lomām:
     - Elektroniskā pārskata izstrādātājs
@@ -42,11 +42,11 @@ Lai izpildītu šajā tēmā aprakstītos piemērus, jums ir nepieciešama tāl�
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-Dažām šīs tēmas darbībām ir nepieciešama EP formāta izpilde. Dažos gadījumos EP formāta izpildi ietekmē tā uzņēmuma valsts/reģiona konteksts, ar kuru pašlaik esat pieteicies. Varat palaist EP formātu pašreizējā RCS instancē, ja uzņēmums, kam ir nepieciešamās valsts/reģiona konteksts, ir pieejams RCS. Pretējā gadījumā ir jāaugšupielādē aizpildīta EP modeļa kartēšanas un ER formāta konfigurāciju versija, kas izmanto EP datu modeli jūsu Finance instancē, un tad jāpalaiž EP formāts šajā Finance instancē. Lai iegūtu informāciju par to, kā importēt konfigurācijas, kas atrodas RCS par finanšu instanci, skatiet [Konfigurāciju importēšana no RCS](rcs-download-configurations.md).
+Dažām darbībām šajā rakstā nepieciešama ER formāta izpilde. Dažos gadījumos EP formāta izpildi ietekmē tā uzņēmuma valsts/reģiona konteksts, ar kuru pašlaik esat pieteicies. Varat palaist EP formātu pašreizējā RCS instancē, ja uzņēmums, kam ir nepieciešamās valsts/reģiona konteksts, ir pieejams RCS. Pretējā gadījumā ir jāaugšupielādē aizpildīta EP modeļa kartēšanas un ER formāta konfigurāciju versija, kas izmanto EP datu modeli jūsu Finance instancē, un tad jāpalaiž EP formāts šajā Finance instancē. Lai iegūtu informāciju par to, kā importēt konfigurācijas, kas atrodas RCS par finanšu instanci, skatiet [Konfigurāciju importēšana no RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Viena modeļa kartēšanas gadījums
 
-Veiciet darbības šīs tēmas [1. papildinājumā](#appendix1), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana(vispārīgā** ), kas ietver modeļa kartēšanu **Ieejas punkta** 1 definīcijai.
+Izpildiet šī raksta [1](#appendix1) . pielikuma darbības, lai projektētu nepieciešamos ER komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana(vispārīgā** ), kas ietver modeļa kartēšanu **Ieejas punkta** 1 definīcijai.
 
 ![ER konfigurācijas lapa, formatēt, lai uzzinātu kartējumu konfigurāciju.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Ievērojiet, ka tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas t
 
 ## <a name="multiple-shared-model-mappings-case"></a>Vairāku koplietojamo modeļu kartējumu gadījums
 
-Veiciet darbības šīs tēmas [2. papildinājumā](#appendix2), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana (Vispārīga)** un **Pielāgota kartēšana (vispārīga)**, kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
+Izpildiet šī raksta [2](#appendix2) . pielikuma darbības, lai projektētu nepieciešamos ER komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana (Vispārīga)** un **Pielāgota kartēšana (vispārīga)**, kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
 
 ![ER konfigurāciju lapa; kartēšanas vispārējā pielāgotā konfigurācija.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūk
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Vairāku jaukto modeļu kartējumu gadījums
 
-Veiciet darbības šīs tēmas [3. papildinājumā](#appendix3), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācijas **Kartēšana (vispārīga)**, **Pielāgotā kartēšana (vispārīga)** un **Kartēšanas (FR) modeļa kartēšana** , kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
+Izpildiet šī raksta [3.](#appendix3) pielikuma darbības, lai projektētu nepieciešamos ER komponentus. Tagad jums ir modeļa kartēšanas konfigurācijas **Kartēšana (vispārīga)**, **Pielāgotā kartēšana (vispārīga)** un **Kartēšanas (FR) modeļa kartēšana** , kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
 
 Ievērojiet, ka modeļa kartēšanas konfigurācijas **Kartēšana (FR)** 1. versija ir konfigurēta tā, ka tā attiecas tikai uz EP formātiem **Modelim kartēšanas apgūšanai**, kas tiek palaists tajos Finance uzņēmumos, kuriem ir Francijas valsts/reģiona konteksts.
 
@@ -138,10 +138,10 @@ Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūk
 
 Kā jau redzējāt, modeļa kartēšanas izvēle EP formāta izpildei darbojas šādā veidā:
 
-- Modeļa kartēšanas definīcija, ko lieto EP formāts, tiek konkretizēta (šīs tēmas piemēros **1. ieejas punkts** ).
-- Visas kartēšanas konfigurācijas, kas ietver kartēšanu, kurai ir noteikta definīcija un kas ievēro jebkuru valstu/reģionu konteksta ierobežojumus, kas ir konfigurēti, var tikt izmantotas, lai palaistu EP formātu (šīs tēmas piemēros **Kartēšana (vispārīgā)**, **Pielāgotā kartēšana (vispārīgā)** un **Kartēšana (FR)** ).
-- Jebkurai noklusētā modeļa kartēšanai, kurai ir valsts/reģiona konteksta ierobežojumi, ir augstākā prioritāte atlasē (šīs tēmas piemēros **Kartēšana (FR)** ).
-- Jebkurai noklusētā modeļa kartēšanai, kurai nav valsts/reģiona konteksta ierobežojumi, ir nākamā augstākā prioritāte atlasē (šīs tēmas piemēros **Pielāgotā kartēšana (vispārīgi)** ).
+- Ir norādīta modeļa kartēšanas definīcija, ko izmanto ER formāts (**1** . ieejas punkts šī raksta piemēros).
+- Visas kartēšanas konfigurācijas, kas ietver kartējumu, kam ir noteiktā definīcija un kas atbilst visiem konfigurētajiem valsts/reģiona konteksta ierobežojumiem, var izmantot, lai šī raksta piemēros palaistu ER formātu (Kartēšana (**vispārīgi)**, **kartēšana (vispārīga)** **un** kartēšana (FR).
+- Visiem noklusējuma modeļa kartējumiem, kam ir valsts/reģiona konteksta ierobežojumi, ir augstākā atlases prioritāte (**Kartēšana (FR)** šī raksta piemēros).
+- Jebkādam noklusējuma modeļa kartējumam, kam nav valsts/reģiona konteksta ierobežojumu, ir nākamā augstākā atlases prioritāte (kartēšana (**vispārējs)** pielāgots šī raksta piemēros).
 - Visiem modeļa kartējumiem, kuriem ir valsts/reģiona konteksta ierobežojumi, ir augstāka prioritāte atlasei nekā modeļa kartēšana, kurai nav valsts/reģiona konteksta ierobežojumu.
 
 Tabulā ir sniegta informācija par modeļu kartēšanas atlases rezultātiem visiem iespējamiem gadījumiem modeļa kartēšanas iestatījumiem:

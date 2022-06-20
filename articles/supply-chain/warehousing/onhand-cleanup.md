@@ -1,6 +1,6 @@
 ---
 title: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
-description: Šajā tēmā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas palīdz uzlabot sistēmas veiktspēju, identificējot un dzēšot saistītus, bet nevajadzīgus ierakstus.
+description: Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas palīdz uzlabot sistēmas veiktspēju, identificējot un dzēšot saistītos, bet nevajadzīgos ierakstus.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900511"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103867"
 
 Vaicājumu, kas tiek izmantoti rīcībā esošo krājumu aprēķināšanai, veiktspēju ietekmē to ierakstu skaits, kas atrodas iesaistītajās tabulās. Viens no veiktspējas uzlabošanas veidiem ir samazināt to ierakstu skaitu, kuri datu bāzei ir jāņem vērā.
 
-Šajā tēmā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas izdzēš nevajadzīgus ierakstus InventSum un WHSInventReserve tabulās. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WHS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
+Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas tabulā InventSum un WHSInventReserve dzēš nevajadzīgos ierakstus. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WHS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
 
 ## <a name="what-the-cleanup-job-does"></a>Kas ir tīrīšanas darbs
 

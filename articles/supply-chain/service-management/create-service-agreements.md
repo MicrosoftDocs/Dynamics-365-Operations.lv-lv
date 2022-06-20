@@ -1,6 +1,6 @@
 ---
 title: Pakalpojumu līgumu izveide
-description: Šajā tēmā ir aprakstīts, kā lietot līdzekļus moduļos Pakalpojumu pārvaldība un Projektu pārvaldība un uzskaite, lai izveidotu pakalpojumu līgumus.
+description: Šajā rakstā ir aprakstīts, kā izmantot funkcijas Pakalpojumu pārvaldībā un Projekta vadības un uzskaites moduļos pakalpojumu līgumu izveidošanai.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901768"
 ---
 # <a name="create-service-agreements"></a>Pakalpojumu līgumu izveide
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā lietot līdzekļus moduļos Pakalpojumu pārvaldība un Projektu pārvaldība un uzskaite, lai izveidotu pakalpojumu līgumus.
+Šajā rakstā ir aprakstīts, kā izmantot funkcijas Pakalpojumu pārvaldībā un Projekta vadības un uzskaites moduļos pakalpojumu līgumu izveidošanai.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Izveidot pakalpojumu līgumu no pakalpojumu pārvaldības
 
@@ -51,10 +51,10 @@ ms.locfileid: "8677259"
 2. Atlasiet **Visi projekti**.
 3. Atlasiet projektu no saraksta.
 4. **Darbību rūtī** atlasiet **Pārvaldīt**. Darbību grupā **Jauns** atlasiet **Pakalpojums** un atlasiet **Pakalpojuma līgums**.
-5. Lai ievadītu projekta atsauci, izpildiet sadaļā **Pakalpojumu līguma izveidošana** sniegtos norādījumus, kā tika aprakstīts iepriekš šajā tēmā.
+5. Lai ievadītu projekta atsauci, izpildiet **sadaļā** ar nosaukumu Izveidot pakalpojumu līgumu, kā aprakstīts iepriekš šajā rakstā.
 
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Izstrādes un veidošanas pakalpojumu līgumu pārskats](service-agreements.md)
 

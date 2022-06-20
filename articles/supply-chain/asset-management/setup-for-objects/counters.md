@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu mēri
-description: Tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot līdzekļu mēru tipus.
+description: Šajā rakstā ir izskaidrots, kā izveidot līdzekļu mērījumu tipus Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909677"
 ---
 # <a name="counters"></a>Skaitītāji
 
 [!include [banner](../../includes/banner.md)]
 
-Tēmā ir paskaidrots, kā Līdzekļu pārvaldībā izveidot līdzekļu skaitītāju veidus. Skaitītāju veidi tiek izmantoti, lai veiktu līdzekļu skaitītāju reģistrācijas, piemēram, attiecībā uz ražošanas stundu skaitu vai līdzeklim saražoto daudzumu. Līdzekļu veidi ir saistīti ar skaitītāju veidiem. Tas nozīmē, ka skaitītāju var izmantot līdzeklim tikai tad, ja skaitītājs ir iestatīts līdzekļa veidam, kas izmantots līdzeklim.
+Šajā rakstā skaidrots, kā izveidot skaitītāju tipus Līdzekļu pārvaldībā. Skaitītāju veidi tiek izmantoti, lai veiktu līdzekļu skaitītāju reģistrācijas, piemēram, attiecībā uz ražošanas stundu skaitu vai līdzeklim saražoto daudzumu. Līdzekļu veidi ir saistīti ar skaitītāju veidiem. Tas nozīmē, ka skaitītāju var izmantot līdzeklim tikai tad, ja skaitītājs ir iestatīts līdzekļa veidam, kas izmantots līdzeklim.
 
 Pirms varat veikt skaitītāju reģistrācijas līdzekļiem, izveidojiet skaitītāju veidus, kurus vēlaties izmantot **Skaitītājos**. Pēc tam varat izveidot skaitītāju reģistrācijas līdzekļiem **Skaitītājos**. 
 

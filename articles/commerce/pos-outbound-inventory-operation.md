@@ -1,6 +1,6 @@
 ---
 title: Izejošo krājumu operācija punktā POS
-description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) izejošo krājumu operāciju iespējas.
+description: Šajā rakstā ir aprakstītas pārdošanas punkta (POS) nosūtīšanas krājumu operācijas iespējas.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850227"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -187,7 +187,7 @@ Pēc tam, kad dokumentam ir statuss **Pieprasīts**, tas ir gatavs izpildes apst
 
 Pilnībā nosūtītie pārsūtīšanas pasūtījumi tiek pārvietoti uz cilni **Pabeigts** dokumentu sarakstā **Izejošā operācija**. Tur tie septiņas dienas ir redzami lietotājiem izejošajā veikalā vai noliktavā, tikai lasīšanas režīmā.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Ienākošo krājumu operācija punktā POS](pos-inbound-inventory-operation.md)
 

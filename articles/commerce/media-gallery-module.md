@@ -1,6 +1,6 @@
 ---
 title: Multivides galerijas modulis
-description: Šajā tēmā tiek stāstīts par multivides galerijas moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir apskatīti plašsaziņas līdzekļu galerijas moduļi un aprakstīts, kā pievienot tos vietnes lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881739"
 ---
 # <a name="media-gallery-module"></a>Multivides galerijas modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par multivides galerijas moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīti plašsaziņas līdzekļu galerijas moduļi un aprakstīts, kā pievienot tos vietnes lapām Microsoft Dynamics 365 Commerce.
 
 Multivides galerijas moduļi rāda vienu vai vairākus attēlus galerijas skatā. Multivides galerijas moduļi atbalsta sīktēlu attēlus, kas var sakārtot vai nu horizontāli (kā rindu zem attēla), vai vertikāli (kā kolonnu blakus attēlam). Multivides galerijas moduļi nodrošina arī iespējas, kas ļauj tālummainīt attēlus (palielināt) vai skatīt pilnekrāna režīmā. Lai attēls multivides galerijas modulī tiktu atveidots, tam ir jābūt pieejamam Commerce vietnes veidotāja multivides bibliotēkā. Pašlaik multivides galerijas moduļi atbalsta tikai attēlus.
 

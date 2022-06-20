@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par elektroniskajiem rēķiniem
-description: Šajā tēmā ir sniegta informācija par bieži uzdotajiem jautājumiem saistībā ar elektroniskajiem rēķiniem.
+description: Šajā rakstā ir sniegta informācija par bieži uzdotiem jautājumiem par elektronisko rēķinu izrakstīšanu.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904359"
 ---
 # <a name="electronic-invoicing-faq"></a>Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegtas atbildes uz bieži uzdotajiem jautājumiem par elektronisko rēķinu izrakstīšanas pakalpojumu. Elektronisko rēķinu izrakstīšana paplašina elektronisko rēķinu izrakstīšanas iespējas, kas pastāv programmās Dynamics 365 Finance, Dynamics 365 Supply Chain Management un Dynamics 365 Project Operations. 
+Šajā rakstā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par Elektronisko rēķinu izrakstīšanas pakalpojumu. Elektronisko rēķinu izrakstīšana paplašina elektroniskās rēķinu izrakstīšanas iespējas, kas pastāv Dynamics 365 Finanses, Dynamics 365 Supply Chain Management un Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Kas ir svarīgi saistībā ar elektroniskajiem rēķiniem, un kāpēc tas būtu jāņem vērā manai organizācijai?
 

@@ -1,6 +1,6 @@
 ---
-title: Grāmatošanas metožu apskats
-description: Šajā tēmā skaidrots, kā grāmatošanas metodes tiek izmantotas Microsoft Dynamics 365 programmās.
+title: Grāmatošanas metožu pārskats
+description: Šajā rakstā ir izskaidrots, kā grāmatošanas metodes tiek izmantotas Microsoft Dynamics 365 programmās.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876129"
 ---
-# <a name="posting-profiles-overview"></a>Grāmatošanas metožu apskats
+# <a name="posting-profiles-overview"></a>Grāmatošanas metožu pārskats
 
 Finanšu un operāciju programmās termins "iegrāmatošanas profili" tiek izmantots, lai aprakstītu konfigurācijas, kas kontrolē, kā apakšgrāmatas konti tiek pārvērsti galvenajos kontos, tādējādi tos var izmantot darījumos, *kas* tiek grāmatoti virsgrāmatā. Piemēram, tās kontrolē veidu, kādā debitors tiek konvertēts uz debitoru parādu galveno kontu, kad tiek grāmatots rēķins.
 
@@ -102,9 +102,9 @@ Termins tīrīšanas *konts* bieži tiek izmantots grāmatvedībā. Daži grāma
 Daudzi Dynamics 365 Finanses moduļi Dynamics 365 Supply Chain Management Dynamics 365 Commerce un ir grāmatošanas metode vai papildu konfigurācijas, Dynamics 365 Project Operations kas kontrolē to, kā grāmatošana Virsgrāmatā darbojas. Izmantojiet tālāk norādītās tēmas, lai uzzinātu vairāk par grāmatošanas metodēm un grāmatošanas iestatījumiem katrā modulī:
 
 - [Automātisko darījumu konti](accounts-for-auto-transactions.md)
-- [Parādu kreditoriem grāmatošana](accts-payble-posting.md)
+- [Kreditoru parādu grāmatošana](accts-payble-posting.md)
 - [Saņemamo kontu grāmatošana](accts-recvble-posting.md)
-- [Līdzekļu nolaižamās uzskaites grāmatošana](../asset-leasing/set-up-lease-posting-accts.md)
+- [Līdzekļu nomas grāmatošana](../asset-leasing/set-up-lease-posting-accts.md)
 - Līdzekļu pārvaldības grāmatošana (drīzumā)
 - Skaidras naudas un bankas vadība (drīzumā)
 - Valūtas pārvērtēšanas grāmatošanas konti (drīzumā)

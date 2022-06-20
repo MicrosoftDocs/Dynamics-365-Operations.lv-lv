@@ -1,6 +1,6 @@
 ---
 title: Piegādes grafiks
-description: Šajā tēmā ir sniegta informācija par piegādes grafiku lapu un tās iespējām.
+description: Šajā rakstā ir sniegta informācija par Piegādes grafika lapu un tās iespējām.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851744"
 ---
 # <a name="supply-schedule"></a>Piegādes grafiks
 
@@ -28,7 +28,7 @@ Lapā **Piegādes grafiks** tiek rādīts visaptverošs piegādes un pieprasīju
 
 Jūs varat atvērt lapu **Piegādes plānošana** jebkurā no šiem veidiem:
 
-- Doties uz **Vispārējā plānošana \> Vispārējā plānošana \> Piegādes plānošana**. Dialoglodziņā **Pārveidot filtru** norādiet plānu un preci, kuru meklējat, nodrošinātajos laukos ievadot filtra vērtības. (Pārējā šajā tēmā ievadīto filtra vērtību kolekciju sauc par "filtru" vai "pašreizējo filtru"). Kad pabeidzat darbu, atlasiet **Labi**.
+- Doties uz **Vispārējā plānošana \> Vispārējā plānošana \> Piegādes plānošana**. Dialoglodziņā **Pārveidot filtru** norādiet plānu un preci, kuru meklējat, nodrošinātajos laukos ievadot filtra vērtības. (Pārējā rakstā ievadīto filtru vērtību kolekcija tiek saukta par "filtru" vai "pašreizējais filtrs". Kad esat beidzis, atlasiet **Labi**.
 - Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**. Atlasiet vai atveriet preci. Pēc tam darbību rūts cilnē **Plāns** grupā **Skatīt** atlasiet **Piegādes plānošana**.
 - Dodieties uz **Vispārējā plānošana \> Iestatījumi \> Pieprasījuma prognozēšana \> Krājumu sadalījuma principi**. Atlasiet krājuma sadalījuma principu, kas tiek izmantots kā preču saime. Darbību rūtī atlasiet **Piegādes plānošana**.
 - Doties uz **Vispārējā plānošana \> Vispārējā plānošana \> Plānotie pasūtījumi**. Atlasiet vai atveriet plānoto pasūtījumu. Pēc tam darbību rūts cilnē **Skatīt** grupā **Skatīt** atlasiet **Piegādes plānošana**.

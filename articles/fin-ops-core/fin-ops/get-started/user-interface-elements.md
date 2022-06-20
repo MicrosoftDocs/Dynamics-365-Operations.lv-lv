@@ -1,6 +1,6 @@
 ---
 title: Lietotāja interfeisa elementi
-description: Šajā tēmā ir aprakstīti lietotāja interfeisa (UI) elementi programmā.
+description: Šajā rakstā ir aprakstīti programmas lietotāja interfeisa (UI) elementi.
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906505"
 ---
 # <a name="user-interface-elements"></a>Lietotāja interfeisa elementi
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir aprakstīti lietotāja interfeisa (UI) elementi, kas tiek izmantoti programmā. Pirms lietotāji var pārvietoties interfeisā, ir svarīgi zināt to elementu nosaukumus un funkcijas, kuri veido interfeisu.
+Šajā rakstā ir aprakstīti programmā izmantotie lietotāja interfeisa (UI) elementi. Pirms lietotāji var pārvietoties interfeisā, ir svarīgi zināt to elementu nosaukumus un funkcijas, kuri veido interfeisu.
 
 ## <a name="overview"></a>Kopsavilkums
 

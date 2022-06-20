@@ -1,6 +1,6 @@
 ---
 title: Mobilo ierīču iestatīšana darbam noliktavā
-description: Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
+description: Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905578"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
+Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 
 > [!NOTE]
-> Šī tēma attiecas uz moduļa Noliktavas pārvaldības līdzekļiem. Tas neattiecas uz moduļa Krājumu pārvaldība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
+> Šis raksts attiecas uz noliktavas pārvaldības līdzekļiem. Tas neattiecas uz moduļa Krājumu vadība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
 
 - Apstrādāt pieprasījumu vai veikt aktivitāti, piemēram, izdrukāt etiķeti, ģenerēt unikālos noliktavas vienību identifikatorus, sākt ražošanas pasūtījumu vai ātri atrast uzmeklēt informāciju par krājumiem kādā novietojumā,
 - Izveidot darbu, kas tiks veikts, izmantojot citu procesu. Piemēram, saņemot pirkšanas pasūtījuma krājumu, var tikt izveidots izvietošanas darbs citam darbiniekam.
@@ -38,7 +38,7 @@ ms.locfileid: "7902183"
 Lai izveidotu izvēlnes vienumu kādai aktivitātei vai pieprasījumam, laukam **Režīms** norādiet vērtību **Netiešs**. Pēc tam kļūst pieejams lauka **Aktivitātes kods** opciju saraksts, kurā varat atlasīt to pieprasījuma vai aktivitātes tipu, kam šis izvēlnes vienums ir paredzēts. Lai izveidotu izvēlnes vienumu noliktavas darba ģenerēšanai, laukam **Režīms** iestatiet vērtību **Darbs**. Pēc tam kļūst pieejams lauka **Darba izveides process** opciju saraksts. Lai izveidotu izvēlnes vienumu esoša noliktavas darba apstrādei, iestatiet lauka **Režīms** vērtību **Darbs** un pēc tam norādiet opcijas **Izmantot esošo darbu** iestatījumu **Jā**. 
 
 > [!NOTE]
-> Atkarībā no izvēlnes vienumam atlasītā režīma un no tā, vai izvēlnes vienums tiek izmantots esoša darba veikšanai, izvēlnes vienumiem var būt pieejami papildu lauki. Informāciju par papildu lauku atlasi skatiet tālāk šīs tēmas sadaļā “Papildu izvēlnes vienumu opcijas”.
+> Atkarībā no izvēlnes vienumam atlasītā režīma un no tā, vai izvēlnes vienums tiek izmantots esoša darba veikšanai, izvēlnes vienumiem var būt pieejami papildu lauki. Informāciju par papildu lauku atlasi skatiet tālāk šī raksta sadaļā “Papildu izvēlnes vienumu opcijas”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Aktivitāšu un pieprasījumu izvēlnes vienumu konfigurēšana
 

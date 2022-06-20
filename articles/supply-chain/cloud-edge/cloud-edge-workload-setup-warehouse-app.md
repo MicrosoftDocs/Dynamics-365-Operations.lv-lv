@@ -1,6 +1,6 @@
 ---
-title: Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām
-description: Šajā tēmā ir paskaidrots, kā iestatīt noliktavas pārvaldības mobilās lietotnes noliktavām, kuras apkalpo mākoņa vai malas mēroga vienība.
+title: Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām
+description: Šajā rakstā ir izskaidrots, kā iestatīt noliktavas pārvaldības mobilās programmas noliktavām, kuras apkalpo mākoņa vai malas mēroga vienība.
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,28 +16,28 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865243"
 ---
-# <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Konfigurējiet mobilo lietotni Warehouse Management mākoņa un malu mēroga vienībām
+# <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Warehouse Management mobilās lietotnes konfigurēšana mākoņa un malas mēroga vienībām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt noliktavas pārvaldības mobilās lietotnes, lai tās varētu izmantot noliktavās, kuras apkalpo mākoņa vai malas mēroga vienība.
+Šajā rakstā ir izskaidrots, kā iestatīt noliktavas pārvaldības mobilās programmas, lai tās varētu lietot noliktavās, kuras apkalpo mākoņa vai malas mēroga vienība.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms sākat iestatīt mobilās ierīces, lai tās izveidotu savienojumu ar mākoņa vai malas mēroga vienību, pārbaudiet, vai tās var izveidot savienojumu ar uzņēmuma centru. Norādījumus sk [Instalējiet un pievienojiet mobilo lietotni Warehouse Management](../warehousing/install-configure-warehouse-management-app.md).
+Pirms sākat iestatīt mobilās ierīces savienojumam ar mākoņa vai malas skalas vienību, apstipriniet, ka tās var izveidot savienojumu ar uzņēmuma pārkraušanas vietu. Norādījumus skatiet šeit: [Noliktavas pārvaldības mobilās programmas instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md).
 
-## <a name="additional-setup-when-you-run-the-warehouse-management-mobile-app-against-a-scale-unit"></a>Papildu iestatīšana, palaižot mobilo lietotni Noliktavas pārvaldība pret mēroga vienību
+## <a name="additional-setup-when-you-run-the-warehouse-management-mobile-app-against-a-scale-unit"></a>Papildu iestatīšana, kad izmantojat mobilo programmu Noliktavas pārvaldība attiecībā pret mēroga vienību
 
-Kā daļu no [izvietošanas process noliktavas mēroga vienību darba slodzēm](cloud-edge-landing-page.md#scale-unit-manager-portal), lielākā daļa datu, kas nepieciešami, lai savienotu jūsu noliktavas pārvaldības mobilās lietotnes ierīces, tiek automātiski sinhronizēti no uzņēmuma centrmezgla ar mēroga vienību. Tomēr jums ir jāievada dati uz **Azure Active Directory lietojumprogrammas** lappuse (**Sistēmas administrēšana \> Uzstādīt \>Azure Active Directory lietojumprogrammas**) par mēroga vienības izvietošanu. Turklāt, iespējams, būs jāatjaunina noklusējuma iestatījumi **Uzņēmums** vērtību lietotāja ID vai izveidot jaunu lietotāju. Lietotāji, kas ir saistīti ar uzņēmumu, kas neeksistē skalas vienības izvietošanā, nevarēs pieteikties, ja mobilā lietotne Noliktavas pārvaldība būs savienota ar šo mērogu vienību.
+Kā daļa no [noliktavas mēroga vienības darba noslodzes izvietošanas procesa, lielākā daļa datu, kas ir nepieciešami noliktavas pārvaldības mobilās](cloud-edge-landing-page.md#scale-unit-manager-portal) programmas ierīču savienošanai, tiek automātiski sinhronizēta no uzņēmuma pārkraušanas centra uz mēroga vienību. Tomēr, jums jāievada dati uz lietojumprogrammu **Azure Active Directory lapas** (Sistēmas **administrēšanas iestatīšanas \>\>Azure Active Directory programmas**), kas atrodas mēroga vienības izvietošanā. Turklāt, iespējams, jāatjaunina noklusētā **uzņēmuma** vērtība lietotāja ID vai jāizveido jauns lietotājs. Lietotāji, kas ir saistīti ar uzņēmumu, kurš nepastāv mēroga vienības izvietošanā, nevarēs pieteikties, ja noliktavas pārvaldības mobilā programma ir saistīta ar šo mēroga vienību.
 
 > [!NOTE]
-> Tā kā dati par **Azure Active Directory lietojumprogrammas** lapa nav sinhronizēta, šie dati ir manuāli jāuztur, ja vēlaties pārvietot savas noliktavas darba slodzes uz citu mēroga vienību.
+> Tā kā dati **Azure Active Directory programmu lapā** nav sinhronizēti, šie dati ir jāsaglabā manuāli, ja vēlaties pārvietot noliktavas darba slodzi uz citu mēroga vienību.
 
-Atcerieties, ka katras noliktavas pārvaldības mobilās lietotnes savienojuma iestatīšanas ietvaros norādītais Azure Active Directory resursa vietrādim URL ir jāattiecas uz mēroga vienību, nevis uzņēmuma centru.
+Atcerieties, ka kā daļa no katras noliktavas pārvaldības mobilās programmas savienojuma iestatījuma, Azure Active Directory uzņēmuma pārkraušanas centra vietā norādītajam resursa VIETRĀDIm URL ir jābūt mēroga vienībai.

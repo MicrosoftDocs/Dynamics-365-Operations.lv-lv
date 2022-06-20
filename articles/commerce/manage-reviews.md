@@ -1,6 +1,6 @@
 ---
 title: Vērtējumu un atsauksmju pārvaldība
-description: Šajā tēmā ir paskaidrots, kā pārvaldīt vērtējumus un atsauksmes Microsoft Dynamics 365 Commerce vietņu veidotājā.
+description: Šajā rakstā skaidrots, kā pārvaldīt vērtējumus un pārskatus vietu veidotājā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881327"
 ---
 # <a name="manage-ratings-and-reviews"></a>Vērtējumu un atsauksmju pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā pārvaldīt vērtējumus un atsauksmes Microsoft Dynamics 365 Commerce vietņu veidotājā.
+Šajā rakstā skaidrots, kā pārvaldīt vērtējumus un pārskatus vietu veidotājā Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce izmanto Microsoft Azure Cognitive Service, lai automātiski moderētu apskata tekstu, rediģējot nepiedienīgos vārdus. Turklāt moderatori var izmantot Dynamics 365 Commerce vietņu veidotāju, lai ieviestu šādus manuālus uzdevumus:
 
@@ -130,9 +130,9 @@ Lai skatītu vērtējumu un atsauksmju tendences Commerce vietņu veidotājā, r
 
 [Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
 
-[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
+[Novērtējumu un pārskatu importēšana un eksportēšana](import-export-reviews.md)
 
-[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
+[Autentifikācijas starp pakalpojumiem konfigurēšana](service-to-service-auth.md)
 
 [BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
 

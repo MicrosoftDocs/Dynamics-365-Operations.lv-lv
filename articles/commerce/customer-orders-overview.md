@@ -1,6 +1,6 @@
 ---
 title: Debitoru pasūtījumi Pārdošanas punktā (POS)
-description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem Pārdošanas punktā (POS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
+description: Šajā rakstā ir sniegta informācija par debitoru pasūtījumiem pārdošanas punktā (POS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Rakstā ir iekļauta saistīto parametru un transakcijas plūsmu diskusija.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850386"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā izveidot un pārvaldīt debitoru pasūtījumus Pārdošanas punkta (POS) lietojumprogrammā. Debitoru pasūtījumus var izmantot, lai notvertu tos pārdošanas gadījumus, kad pircēji vēlas saņemt preces vēlākā datumā, saņemt preces no citas atrašanās vietas vai arī, lai preces tiktu nosūtītas viņiem. 
+Šajā rakstā ir sniegta informācija, kā izveidot un pārvaldīt debitoru pasūtījumus pārdošanas punkta (POS) programmā. Debitoru pasūtījumus var izmantot, lai notvertu tos pārdošanas gadījumus, kad pircēji vēlas saņemt preces vēlākā datumā, saņemt preces no citas atrašanās vietas vai arī, lai preces tiktu nosūtītas viņiem. 
 
 Visaptveroša kanāla tirdzniecības pasaulē daudzi mazumtirgotāji nodrošina iespēju izmantot debitoru pasūtījumus jeb īpašos pasūtījumus, lai izpildītu dažādas preču un izpildes prasības. Tālāk uzskaitīti daži tipiski scenāriji.
 

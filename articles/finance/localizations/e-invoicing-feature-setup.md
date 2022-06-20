@@ -1,6 +1,6 @@
 ---
 title: Darbs ar līdzekļu iestatījumiem
-description: Šajā tēmā skaidrots, kā iestatīt elektronisko rēķinu izrakstīšanas līdzekļus.
+description: Šajā rakstā ir izskaidrots, kā iestatīt elektronisko rēķinu izrakstīšanas līdzekļus.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904330"
 ---
 # <a name="work-with-feature-setups"></a>Darbs ar līdzekļu iestatījumiem
 
@@ -37,7 +37,7 @@ Varat izveidot tik daudz funkciju iestatījumu krājumu, cik nepieciešams, lai 
 1. Piesakieties savā Regulēšanas konfigurācijas pakalpojuma (RCS) kontā.
 2. Darbvietas **Globalizācijas līdzekļi** sadaļā **Līdzekļi** atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 3. Elektronisko rēķinu **izrakstīšanas funkciju** lapā atlasiet elektronisko rēķinu izrakstīšanas līdzekļa versiju, kuras statuss ir **Melnraksts**.
-4. Cilnē **Uzstādījumi** atlasiet **Pievienot**.
+4. **Cilnē Iestatījumi** atlasiet **Pievienot**.
 5. **Nolaižamajā dialogā Izveidot** līdzekļu iestatījumus lauku grupā **Jauns** atlasiet vienu no šīm opcijām:
  
     - **Pielāgoti** iestatījumi – izveidojiet jaunu funkcionalitātes iestatījumu, kurā ir tukši kanāli, tukšs apstrādes konveijera saraksts, tukša sadaļa piemērojamības noteikumiem un mainīgo noklusējuma kopa atkarībā no iestatīšanas tipa.
@@ -46,7 +46,7 @@ Varat izveidot tik daudz funkciju iestatījumu krājumu, cik nepieciešams, lai 
 6. Ja pēdējā solī **atlasījāt** opciju Pielāgots iestatījums, ievadiet līdzekļa iestatījuma krājuma nosaukumu un aprakstu un **pēc** tam lauku grupā Iestatījums atlasiet vienu no šīm opcijām:
 
     - **Konveijera** apstrāde – izvēlieties šo opciju, lai izveidotu un apstrādātu izejošos elektroniskos dokumentus. Šim iestatījuma tipam sistēma izveido tukšu konveijera saraksta apstrādi, tukšu sadaļu piemērojamības noteikumiem un mainīgo noklusēto kopu. Nevarēsit strādāt ar kanāliem ienākošajiem elektroniskajiem dokumentiem.
-    - **Datu kanāls** – atlasiet šo opciju, lai iestatītu saņemšanas ienākošo elektronisko dokumentu saņemšanas procesu no viena no definētajiem kanāliem un pārietu tieši uz Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management bez papildu darbībām. Šim iestatījuma tipam sistēma izveido iepriekš definētu parametru sarakstu datu kanāliem, tukšu sadaļu piemērojamības noteikumiem un noklusēto mainīgo kopu. Apstrādes konveijerā nevarēsit pievienot nekādas darbības.
+    - **Datu kanāls** – Microsoft Dynamics atlasiet šo opciju, lai iestatītu saņemšanas ienākošo elektronisko dokumentu saņemšanas procesu no viena no definētajiem kanāliem un pārietu tieši uz 365 Finansēm Dynamics 365 Supply Chain Management vai bez papildu darbībām. Šim iestatījuma tipam sistēma izveido iepriekš definētu parametru sarakstu datu kanāliem, tukšu sadaļu piemērojamības noteikumiem un noklusēto mainīgo kopu. Apstrādes konveijerā nevarēsit pievienot nekādas darbības.
     - **Datu kanāls un apstrādes konveijers** – šis iestatījuma tips ir līdzīgs datu **kanāla iestatīšanas** tipam. Tomēr pirms ienākošā elektroniskā dokumenta nosūtīšanas finanšu vai piegādes ķēžu pārvaldībai, varat iestatīt papildu darbības apstrādes konveijerā.
 
 7. Ja pēdējā **solī** **atlasījāt** datu kanāla vai datu kanāla un apstrādes konveijera opciju, **laukā** Datu kanāla atlase ir jāatlasa kanāls, ar kuru integrēt kanālu.

@@ -1,6 +1,6 @@
 ---
 title: Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
-description: Šajā tēmā ir aprakstītas papildu iespējas automātisko maksu aprēķināšanai un piesaistīšanai Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekli.
+description: Šajā rakstā ir aprakstītas papildu iespējas automātisko maksu aprēķināšanai un pielietošanai Commerce kanāla pasūtījumiem, izmantojot papildu automātiskās maksas līdzekli.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886936"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīta virsraksta līmeņa automātisko maksu grupēšanas un to proporcionālas sadalīšanas komercijas pārdošanas rindās funkcionalitāte. Šī funkcionalitāte ir pieejama transakcijām, kas ir izveidotas pārdošanas punktā (POS) Retail versijā 10.0.1, un pārdošanām, kas ir izveidotas zvanu centrā Retail versijā 10.0.2.
+Šajā rakstā ir aprakstīta virsraksta līmeņa automātisko maksu grupēšanas funkcionalitāte un to grupēšana tirdzniecības pārdošanas rindās. Šī funkcionalitāte ir pieejama transakcijām, kas ir izveidotas pārdošanas punktā (POS) Retail versijā 10.0.1, un pārdošanām, kas ir izveidotas zvanu centrā Retail versijā 10.0.2.
 
 Šī funkcionalitāte ir pieejama tikai tad, ja līdzeklis [papildu automātiskās maksas](/dynamics365/unified-operations/retail/omni-auto-charges) ir ieslēgts, izmantojot opciju lapā **Commerce parametri**. Turklāt, automātisko maksu uzlaboto aprēķinu metodi var izmantot tikai mazumtirdzniecības pārdošanas pasūtījumiem, kas ir izveidoti, izmantojot komercijas kanālus (POS, zvanu centru un Dynamics e-komercijas platformu).
 

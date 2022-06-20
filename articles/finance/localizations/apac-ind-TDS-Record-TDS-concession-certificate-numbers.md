@@ -1,6 +1,6 @@
 ---
 title: Ierakstīt TDS koncesijas sertifikātu numurus
-description: Šajā tēmā skaidrots, kā reģistrēt No kopējās ienākumu summas atskaitītais nodoklis (TDS) koncesijas sertifikātu numurus, kas tiek izsniegti kreditoriem.
+description: Šajā rakstā ir izskaidrots, kā reģistrēt ieturēto nodokli avota (TDS) koncesijas sertifikātu numurus, kas tiek izsniegti kreditoriem.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846618"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Ierakstīt TDS koncesijas sertifikātu numurus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā reģistrēt No kopējās ienākumu summas atskaitītais nodoklis (TDS) koncesijas sertifikātu numurus, kas tiek izsniegti kreditoriem.
+Šajā rakstā ir izskaidrots, kā reģistrēt ieturēto nodokli avota (TDS) koncesijas sertifikātu numurus, kas tiek izsniegti kreditoriem.
 
 1. Pārejiet uz sadaļu **Nodokļi \> Netiešie nodokļi \> Ieturētais nodoklis \> Ieturētā nodokļa koncesijas**.
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai ierakstītu koncesijas sertifikātus TDS nodokļu veidam.

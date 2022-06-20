@@ -1,6 +1,6 @@
 ---
 title: ER formāta noformēšana, lai ģenerētos Excel dokumentus izdotu pa vairākām lapām
-description: Šajā tēmā paskaidrots, kā noformēt Elektronisko atskaišu (ER) formātu, kas sadala Microsoft Excel ģenerēto dokumentu pa lapām.
+description: Šajā rakstā skaidrots, kā projektēt elektronisko pārskatu (ER) formātu, kas lapo ģenerēto dokumentu Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909283"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>ER formāta noformēšana, lai ģenerētos Excel dokumentus izdotu pa vairākām lapām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā parādīts, ka lietotājs ar sistēmas administratora vai elektroniskās ziņošanas funkcionālā konsultanta lomu var konfigurēt [Elektronisko atskaišu (ER)](general-electronic-reporting.md) formātu, lai ģenerētu izejošos dokumentus programmā Microsoft Excel un pārvaldītu dokumentu izdošanu pa lapām.
+Šajā rakstā skaidrots, [kā lietotājs sistēmas administratora vai elektronisko pārskatu funkcionālo pārskatu konsultanta lomā var konfigurēt elektronisko pārskatu (ER)](general-electronic-reporting.md)Microsoft Excel formātu, lai ģenerētu izejošos dokumentus un pārvaldītu dokumentu pagināciju.
 
 Šajā piemērām tiks pārveidots Microsoft nodrošinātais ER formāts, kuru izmanto vadības atskaites drukāšanās, kad ir [ģenerēts](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md) Intrastat paziņojums. Šajā pārskatā var aplūkot ziņotās Intrastat transakcijas. Pārveidojumi ļaus izdot ģenerētās vadības atskaites pa lapām.
 
-Šīs tēmas procedūras var pabeigt **DEMF** uzņēmumā. Kodēšana nav nepieciešama. Pirms sākšanas, lejupielādējiet un saglabājiet tālāk norādītos failus.
+Šajā rakstā minētās procedūras var izpildīt **KĀRF** uzņēmumu. Kodēšana nav nepieciešama. Pirms sākšanas, lejupielādējiet un saglabājiet tālāk norādītos failus.
 
 | Apraksts       | Faila nosaukums |
 |-------------------|-----------| 
@@ -43,7 +43,7 @@ Izpildiet sadaļā [ER struktūras konfigurēšana](er-quick-start2-customize-re
 
 ## <a name="import-the-standard-er-format-configuration"></a>Standarta ER formāta konfigurācijas importēšana
 
-Izpildiet sadaļā [Importēt standarta ER formāta konfigurāciju](er-quick-start2-customize-report.md#ImportERSolution1) norādītās darbības, lai pašreizējai instancei pievienotu Dynamics 365 Finance standarta ER konfigurācijas. **Intrastat atskaites** formāta konfigurācijas importa versija **1.9**. Bāzes **Intrastat modelis** konfigurācijas bāzes versija 1 tiek automātiski importēta no repozitorija.
+Izpildiet darbības [standarta ER](er-quick-start2-customize-report.md#ImportERSolution1) formāta konfigurācijas importēšanai, lai pievienotu standarta ER konfigurācijas pašreizējai Dynamics 365 finanšu instancei. **Intrastat atskaites** formāta konfigurācijas importa versija **1.9**. Bāzes **Intrastat modelis** konfigurācijas bāzes versija 1 tiek automātiski importēta no repozitorija.
 
 ## <a name="customize-the-standard-er-format"></a>Standarta ER formāta pielāgošana
 
@@ -165,7 +165,7 @@ Pēc tam lietojiet pielāgoto ER formātu, lai ģenerētu Intrastat deklarācija
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Atkārtojiet pašreizējās Excel veidnes aizstāšanu pielāgotajā ER formātā
 
-1. Izpildiet šīs tēmas sadaļā [Pašreizējās Excel veidnes aizstāšana pielāgotajā ER formātā](#replace-template) norādītās darbības. Taču 7. darbībā atlasiet failu **ERIntrastatReportDemo2.xlsx**.
+1. Izpildiet šī raksta [sadaļā Aizstāt pašreizējo Excel veidni pielāgotajā ER](#replace-template) formāta sadaļā. Taču 7. darbībā atlasiet failu **ERIntrastatReportDemo2.xlsx**.
 2. Lapā **Formāta veidotājs** izvērsiet **Intrastat**.
 3. Nodēvējiet [Diapazona](er-fillable-excel.md#range-component) formāta komponentus, kuri ir pievienoti rediģējamajam ER formātam, lai sinhronizētu struktūru ar struktūru no piemērotās Excel veidnes:
 
@@ -406,7 +406,7 @@ Lai mainītu redzamību, atjauniniet komponentu **Pārskata lapas galvene** un *
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Intrastat paziņojuma vadības pārskata ģenerēšana (atjaunināts)
 
-1. Pārliecinieties, ka **Intrastat** lapā ir 24 transakcijas. Atkārtojiet šīs tēmas iepriekšējā sadaļā [Intrastat deklarācijas vadības pārskata ģenerēšana](#generate-intrastat-control-report) minētās darbības, lai ģenerētu un pārskatītu vadības pārskatu.
+1. Pārliecinieties, ka **Intrastat** lapā ir 24 transakcijas. Atkārtojiet šī raksta sadaļā [Intrastat deklarācijas kontroles pārskata sadaļā](#generate-intrastat-control-report) norādītās darbības, lai ģenerētu un pārskatītu kontroles pārskatu.
 
     Visas transakcijas tiek rādītas pirmajā lapā. Lapu kopējais skaits un skaitītāji ir vienādi ar pārskatu kopējām vērtībām un skaitītājiem. Lapas galvenes diapazons tiek slēpts pirmajā lapā, jo pārskata galvenē jau ir kolonnu nosaukumi. Lapas galvene un kājene tiek slēpta otrajā lapā, jo lapa nesatur transakcijas.
 

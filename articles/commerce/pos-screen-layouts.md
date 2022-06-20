@@ -1,6 +1,6 @@
 ---
 title: POS lietotāja interfeisa vizuālās konfigurācijas
-description: Šajā tēmā ir sniegta informācija par Dynamics 365 Commerce pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
+description: Šajā rakstā ir sniegta informācija par ekrāna izkārtojumiem Dynamics 365 Commerce pārdošanas punkta (POS) pieredzi.
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871637"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS lietotāja interfeisa vizuālās konfigurācijas
 
 [!include [banner](includes/banner.md)]
 
 
-Programmas Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) lietotāja interfeiss (UI) var tikt konfigurēts, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un lietotājiem. Šajā tēmā ir norādīta informācija par šo konfigurāciju opcijām.
+Programmas Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) lietotāja interfeiss (UI) var tikt konfigurēts, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un lietotājiem. Šajā rakstā ir sniegta informācija par šīm konfigurācijas opcijām.
 
 Šajā attēlā ir parādītas arī saistības starp dažādām entītijām, kas veido konfigurējamus POS UI aspektus.
 
