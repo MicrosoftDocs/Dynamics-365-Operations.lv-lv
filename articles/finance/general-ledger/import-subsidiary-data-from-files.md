@@ -1,6 +1,6 @@
 ---
 title: Meitasuzņēmuma datu importēšana no failiem
-description: Šajā tēmā skaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā.
+description: Šajā rakstā ir izskaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846775"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Meitasuzņēmuma datu importēšana no failiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā. Izmantojiet lapu **Konsolidēt ar importēšanu** (**Konsolidācija \> Konsolidēt ar importēšanu**), lai sagatavotu meitasuzņēmuma datu pārsūtīšanu no ārējām sistēmām.
+Šajā rakstā ir izskaidrots, kā sagatavot datus no ārējām sistēmām, lai tos varētu importēt Microsoft Dynamics 365 finanšu sistēmā. Izmantojiet lapu **Konsolidēt ar importēšanu** (**Konsolidācija \> Konsolidēt ar importēšanu**), lai sagatavotu meitasuzņēmuma datu pārsūtīšanu no ārējām sistēmām.
 
 1. Meitasuzņēmuma juridiskās personas konsolidācijas izveidošana. Informāciju par to, kā izveidot juridiskās personas, skatiet sadaļā [Juridiskas personas izveidošana](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Papildinformāciju skatiet sadaļās [Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā](prepare-company-for-consolidation.md) un [Meitasuzņēmuma juridiskās personas konsolidācijas iestatīšana](set-up-subsidiary-company-for-consolidation.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Atmaksas apstrāde zvanu centros
-description: Šajā tēmā skaidrots, kā atmaksas tiek ģenerētas, izmantojot zvanu centrus, kad tiek izveidotas atgriešanas, vai kad pasūtījumi vai pasūtījuma rindas tiek atceltas.
+description: Šajā rakstā ir izskaidrots, kā maksājumu atmaksas tiek ģenerētas, izmantojot zvanu centrus, kad tiek izveidotas atgriešanas, vai kad pasūtījumi vai pasūtījuma rindas tiek atceltas.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880118"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Atmaksas apstrāde zvanu centros
 
-Šajā tēmā skaidrots, kā atmaksas tiek ģenerētas, izmantojot zvanu centrus, kad tiek izveidotas atgriešanas, vai kad pasūtījumi vai pasūtījuma rindas tiek atceltas.
+Šajā rakstā ir izskaidrots, kā maksājumu atmaksas tiek ģenerētas, izmantojot zvanu centrus, kad tiek izveidotas atgriešanas, vai kad pasūtījumi vai pasūtījuma rindas tiek atceltas.
 
 Lietotājs, kurš izveidot atmaksas pasūtījumu klientam kā zvanu centra lietotājs Microsoft Dynamics 365 Commerce galvenajā birojā, izmanto lapu **Atmaksas pasūtījums**, lai izveidotu sākotnējo materiālu atgriezes autorizāciju (RMA). AKA definē preces, ko klients vēlas atgriezt vai apmainīt, un tas izveido saistītu atgriešanas pārdošanas pasūtījumu, kam ir **Atgrieztā pasūtījuma** tips. Šis saistītais atgrieztais pasūtījums tiek izmantots, lai izsekotu atgriezto krājumu un visu iegrāmatoto kredīta notu vai maksājumu atmaksu grāmatošanu.
 
@@ -33,7 +33,7 @@ Zvanu centra loģika nosaka maksājuma metodi atmaksas maksājuma rindai, pamato
 
 Zvanu centrs izmanto oriģinālā pasūtījuma maksājuma metodi, lai noteiktu maksājuma metodi, kas jālieto atgriešanas pasūtījumam. Šeit aprakstīts, kā šis process darbojas šādām oriģinālajām maksāšanas metodēm:
 
-- **Parasts** (skaidras naudas) vai **Čeks** - Kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, par kuru tika samaksāts, izmantojot parasto (skaidras naudas) vai čeka maksājuma veidu, zvanu centra lietojumprogramma atsaucas uz konfigurācijām **Zvanu centra atmaksas metožu** lapā. Šī lapa iespējo organizācijas pēc pasūtījuma valūtas definēt, kā atmaksas tiek izsniegtas klientiem par pasūtījumiem, kas sākotnēji tika apmaksāti, izmantojot parasto vai čeku maksājuma tipu. Zvanu centra atmaksas metožu lapa arī ļauj organizācijām atlasīt, ja debitoram jānosūta sistēmas **ģenerēts** atmaksas identifikators. Šajos scenārijos zvanu centra loģikai ir atsauce uz atgriešanas pasūtījuma valūtu, un pēc tam izmanto **Mazumtirdzniecības maksājuma metodes** vērtību noteiktai valūtai, lai izveidotu atmaksas maksājuma rindu atgriešanas pasūtījumam. Vēlāk klienta parādu (AR) maksājumu žurnāls, kas izmanto kartēto AR maksājumu metodi, ir saistīts ar valūtu.
+- **Parasts** (skaidras naudas) vai **Čeks** - Kad izveidotais atgriešanas pasūtījums atsaucas uz sākotnējo pasūtījumu, par kuru tika samaksāts, izmantojot parasto (skaidras naudas) vai čeka maksājuma veidu, zvanu centra lietojumprogramma atsaucas uz konfigurācijām **Zvanu centra atmaksas metožu** lapā. Šī lapa iespējo organizācijas pēc pasūtījuma valūtas definēt, kā atmaksas tiek izsniegtas klientiem par pasūtījumiem, kas sākotnēji tika apmaksāti, izmantojot parasto vai čeku maksājuma tipu. Zvanu **centra atmaksas metožu** lapa arī ļauj organizācijām atlasīt, ja debitoram jānosūta sistēmas ģenerēts atmaksas identifikators. Šajos scenārijos zvanu centra loģikai ir atsauce uz atgriešanas pasūtījuma valūtu, un pēc tam izmanto **Mazumtirdzniecības maksājuma metodes** vērtību noteiktai valūtai, lai izveidotu atmaksas maksājuma rindu atgriešanas pasūtījumam. Vēlāk klienta parādu (AR) maksājumu žurnāls, kas izmanto kartēto AR maksājumu metodi, ir saistīts ar valūtu.
 
     Šajā attēlā redzama scenārija konfigurācija, kurā klients atgriež preces no pārdošanas pasūtījuma, kas ir saistīts ar USD valūtu un kas sākotnēji tika apmaksāts, izmantojot parasto vai čeka maksājuma tipu. Šajā scenārijā klientam tiks izsniegta atmaksa, izmantojot sistēmas ģenerētu atmaksas čeku. **REF-CHK** AR maksājuma metode ir konfigurēta kā atmaksas čeka maksājuma tips.
 
@@ -92,7 +92,7 @@ Iestatījums **Jā** opcijai **Lietot kredītu** ir piemērojams tikai tad, kad 
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Maksājumu ignorēšana zvanu centra atgriešanas gadījumos
 
-Lai gan zvanu centra loģika sistemātiski nosaka atmaksas metodi iepriekš aprakstītajā veidā, dažreiz lietotāji var vēlēties ignorēt šos maksājumus. Piemēram, lietotājs var rediģēt vai noņemt esošās atmaksas rindas un pielietot jaunas maksājumu rindas. Sistēmas aprēķinātos atmaksas maksājumus var mainīt tikai lietotāji, kuriem ir pareizās labošanas atļaujas. Šīs atļaujas var konfigurēt **Ignorēt atļaujas** Retail un Commerce lapās. Lai ignorētu atmaksas maksājumu, lietotājam ir jābūt saistītam ar drošības lomu, kur opcija **Atļaut alternatīvu maksājumu** ir iestatīta uz **Jā** lapā **Ignorēt atļaujas**.
+Lai gan zvanu centra loģika sistemātiski nosaka atmaksas maksājuma metodi iepriekš aprakstītajā veidā, dažreiz lietotāji var vēlēties ignorēt šos maksājumus. Piemēram, lietotājs var rediģēt vai noņemt esošās atmaksas rindas un pielietot jaunas maksājumu rindas. Sistēmas aprēķinātos atmaksas maksājumus var mainīt tikai lietotāji, kuriem ir pareizās labošanas atļaujas. Šīs atļaujas var konfigurēt **Ignorēt atļaujas** Retail un Commerce lapās. Lai ignorētu atmaksas maksājumu, lietotājam ir jābūt saistītam ar drošības lomu, kur opcija **Atļaut alternatīvu maksājumu** ir iestatīta uz **Jā** lapā **Ignorēt atļaujas**.
 
 ![Atļaut alternatīvu maksāšanas opciju lapā Ignorēt atļaujas.](media/overridepermissions.png)
 

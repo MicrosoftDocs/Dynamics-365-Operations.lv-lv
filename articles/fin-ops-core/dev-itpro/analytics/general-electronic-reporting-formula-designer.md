@@ -1,6 +1,6 @@
 ---
 title: Formulas veidotājs elektronisko pārskatu veidošanā (ER)
-description: Šajā tēmā ir sniegta informācija pat to, kā izmantot formulu noformētāju elektronisko atskaišu (ER) veidošanā.
+description: Šajā rakstā ir sniegta informācija, kā izmantot formulas veidotāju elektroniskajā pārskatā (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894300"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā elektronisko pārskatu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās formulām programmā Microsoft Excel. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas un datu tipu pārveidošanas un arī citas, biznesa jomai specifiskas, funkcijas.
+Šajā rakstā ir paskaidrots, kā elektronisko atskaišu veidošanā (Electronic reporting — ER) lietot formulas veidotāju. Kad veidojat formātu noteiktam ER elektroniskajam dokumentam, datu pārveidošanai varat lietot formulas, lai nodrošinātu atbilstību dokumenta izpildes un formatējuma prasībām. Šīs formulas līdzinās formulām programmā Microsoft Excel. Formulās tiek atbalstīti dažādi funkciju tipi — teksta, datuma un laika, matemātiskās, loģiskās, informācijas un datu tipu pārveidošanas un arī citas, biznesa jomai specifiskas, funkcijas.
 
 ## <a name="formula-designer-overview"></a>Pārskats par formulas veidotāju
 

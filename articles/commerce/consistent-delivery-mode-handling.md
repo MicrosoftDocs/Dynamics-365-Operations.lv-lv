@@ -1,6 +1,6 @@
 ---
-title: Atļaut konsekventu piegādes režīmu apstrādi e-komercijas kanālos
-description: Šajā tēmā ir aprakstīts, kā iespējot konsekventu piegādes veida apstrādi, lai novērstu iespējamas problēmas, kas saistītas ar maksu plūsmām Microsoft Dynamics 365 Commerce e-komercijas kanālos.
+title: Konsekventa piegādes režīma apstrādes iespējošana e-komercijas kanālos
+description: Šajā rakstā ir aprakstīts, kā iespējot konsekventu piegādes veida apstrādi, lai novērstu iespējamas problēmas, kas saistītas ar maksu plūsmām Microsoft Dynamics 365 Commerce e-komercijas kanālos.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885589"
 ---
-# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Atļaut konsekventu piegādes režīmu apstrādi e-komercijas kanālos 
+# <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Konsekventa piegādes režīma apstrādes iespējošana e-komercijas kanālos 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iespējot konsekventu piegādes veida apstrādi, lai novērstu iespējamas problēmas, kas saistītas ar maksu plūsmām Microsoft Dynamics 365 Commerce e-komercijas kanālos.
+Šajā rakstā ir aprakstīts, kā iespējot konsekventu piegādes veida apstrādi, lai novērstu iespējamas problēmas, kas saistītas ar maksu plūsmām Microsoft Dynamics 365 Commerce e-komercijas kanālos.
 
 Nestandarta Dynamics 365 Commerce virsraksta līmeņa maksas netiek piemērotas pēc noklusējuma e-komercijas kanālos. Šī uzvedība var radīt vienu vai abus no šiem jautājumiem e-komercijas kanālos:
 

@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c853ad71aecd7f5d214c02da97f7956ff2391df
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acb632042cdb535bea0dd625531f22d284653294
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893763"
 ---
 # <a name="configure-skills"></a>Prasmju konfigurēšana
 
 > [!IMPORTANT]
-> Šajā tēmā atzīmētā funkcionalitāte pašlaik finanšu infrastruktūras personāla vadības debitoriem ir pieejama.  
+> Šajā rakstā atzīmētā funkcionalitāte pašlaik finanšu infrastruktūras personāla vadības debitoriem ir pieejama.  
 
 
 Varat izsekot darbinieka prasmes programmā Dynamics 365 Human Resources. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.

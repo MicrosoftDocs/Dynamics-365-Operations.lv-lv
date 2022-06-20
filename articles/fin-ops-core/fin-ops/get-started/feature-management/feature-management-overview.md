@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvaldības pārskats
-description: Šajā tēmā ir aprakstīta līdzekļu pārvaldība un to izmantošana.
+description: Šajā rakstā ir aprakstīta Līdzekļu pārvaldība un informācija, kā to var lietot.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850065"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -41,7 +41,7 @@ Līdzekļu sarakstā ir tālāk norādītā informācija:
 - **Statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
 - **Iespējošanas datums** — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
 - **Līdzeklis pievienots** — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
-- **Līdzekļa stāvoklis** — pašreizējais funkcijas dzīves cikla stāvoklis: **Priekšskatījums**, **Nodots izpildei** (norādīts kā tukšs), **Pēc noklusējuma** un **Obligāts**. Tālāk šajā tēmā šie statusi ir smalkāk aprakstīti. 
+- **Līdzekļa stāvoklis** — pašreizējais funkcijas dzīves cikla stāvoklis: **Priekšskatījums**, **Nodots izpildei** (norādīts kā tukšs), **Pēc noklusējuma** un **Obligāts**. Tālāk šajā rakstā statusi ir aprakstīti detalizētāk. 
 - **Modulis** — modulis, ko ietekmē jaunais līdzeklis.
 
 > [!NOTE]
@@ -72,14 +72,14 @@ Produktu grupas var izlemt sākotnēji sākt jaunu līdzekli kā priekšskatīju
 
 ### <a name="on-by-default-features-optional"></a>Pēc noklusējuma līdzekļiem (neobligāti)
 
-Līdzekļi, kas atjaunināti **Pēc noklusējuma** ir ieslēgti pēc noklusējuma, bet tos var deaktivizēt. Pēc tam, kad atspējotās funkcijas vismaz sešus mēnešus ir **Nodotas izpildei stāvoklī**, tām ir paredzams pāriet uz šo stāvokli nākamajā lielajā laidienā. Funkcijas, kas pāriet uz **Pēc noklusējuma** tiek prognozētas, lai tās tiktu tam nodotas sarakstā [Kas jauns](../whats-new-changed.md) par laidienu. Atjauninājumu uzsāka piederošo preču grupa.
+Līdzekļi, kas atjaunināti **Pēc noklusējuma** ir ieslēgti pēc noklusējuma, bet tos var deaktivizēt. Pēc tam, kad atspējotās funkcijas vismaz sešus mēnešus ir **Nodotas izpildei stāvoklī**, tām ir paredzams pāriet uz šo stāvokli nākamajā lielajā laidienā. Funkcijas, kas pāriet **uz Pēc** noklusējuma tiek prognozētas [, lai tās tiktu tam pievienotas Kas jauns](../whats-new-changed.md) dokuments par laidienu. Atjauninājumu uzsāka piederošo preču grupa.
 
 > [!NOTE]
 > Tā kā šīs funkcijas tiks aktivizētas automātiski, ir svarīgi noteikt, vai organizācija ir gatava izmantot šīs funkcijas vai arī nepieciešams vairāk laika. Ja nepieciešams vairāk laika, var būt nepieciešams uz laiku deaktivizēt šīs funkcijas. Ievērojiet, ka funkcijas pāreja uz **Pēc noklusējuma** parasti tiek veikta galvenajā laidienā, pirms līdzeklis ir paredzēts, lai kļūtu par **Obligātu**. Šajā brīdī jums nebūs opcijas atspējot šo līdzekli. 
 
 ### <a name="mandatory"></a>Obligāts
 
-**Obligāts** ir paredzamais galīgais stāvoklis funkcijām. Tas norāda, ka līdzekļi ir ieslēgti un tos nevar deaktivizēt, nesazinoties ar korporāciju Microsoft. Pēc diviem galvenajiem laidieniem izvēles funkcijas ir sagaidāmas kā obligātas. Kritiskās funkcijas izņēmuma gadījumā var tikt ieviestas kā obligātas.
+**Obligāts** ir paredzamais funkciju beigu stāvoklis. Tas norāda, ka līdzekļi ir ieslēgti un tos nevar deaktivizēt, nesazinoties ar korporāciju Microsoft. Pēc diviem galvenajiem laidieniem izvēles funkcijas ir sagaidāmas kā obligātas. Kritiskās funkcijas izņēmuma gadījumā var tikt ieviestas kā obligātas.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Prognozēto līdzekļu dzīves cikla piemērs
 

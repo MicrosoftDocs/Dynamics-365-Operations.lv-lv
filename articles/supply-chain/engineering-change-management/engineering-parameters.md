@@ -1,6 +1,6 @@
 ---
 title: Tehnisko izmaiņu pārvaldības parametri
-description: Šajā tēmā ir paskaidrots, kā konfigurēt tehnisko izmaiņu pārvaldības funkcijas pakalpojumam Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir izskaidrots, kā konfigurēt inženierzinātnes izmaiņu pārvaldības līdzekļus korporācijai Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875515"
 ---
 # <a name="engineering-change-management-parameters"></a>Tehnisko izmaiņu pārvaldības parametri
 
@@ -27,7 +27,7 @@ Lapā **Tehnisko izmaiņu pārvaldības parametri** ir ietverti iestatījumu par
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>Atvērt lapu Tehnisko izmaiņu pārvaldības parametri
 
-Lai atvērtu lapu **Tehnisko izmaiņu pārvaldības parametri**, dodieties uz **Tehnisko izmaiņu pārvaldība \> Iestatīšana \> Tehnisko izmaiņu pārvaldības parametri**. Pēc tam varat iestatīt laukus, kā aprakstīts atlikušajās šīs tēmas sadaļās.
+Lai atvērtu lapu **Tehnisko izmaiņu pārvaldības parametri**, dodieties uz **Tehnisko izmaiņu pārvaldība \> Iestatīšana \> Tehnisko izmaiņu pārvaldības parametri**. Pēc tam varat iestatīt laukus tā, kā tas ir aprakstīts pārējās šī raksta sadaļās.
 
 ## <a name="release-control-tab"></a>Cilne Izlaišanas kontrole
 

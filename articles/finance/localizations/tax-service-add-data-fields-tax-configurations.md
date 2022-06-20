@@ -1,6 +1,6 @@
 ---
-title: Pievienot datu laukus nodokļu konfigurācijās
-description: Šajā tēmā skaidrots, kā pielāgot nodokļu konfigurācijas, pievienojot datu laukus.
+title: Datu lauku pievienošana nodokļu konfigurācijās
+description: Šajā rakstā skaidrots, kā pielāgot nodokļu konfigurācijas, pievienojot datu laukus.
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872331"
 ---
-# <a name="add-data-fields-in-tax-configurations"></a>Pievienot datu laukus nodokļu konfigurācijās
+# <a name="add-data-fields-in-tax-configurations"></a>Datu lauku pievienošana nodokļu konfigurācijās
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā pielāgot nodokļu konfigurācijas, izmantojot [datu laukus, kas pievienoti nodokļu integrācijai](tax-service-add-data-fields-tax-integration-by-extension.md).
+Šajā rakstā ir izskaidrots, kā pielāgot nodokļu konfigurācijas, izmantojot datu [laukus, kas pievienoti nodokļu integrācijai](tax-service-add-data-fields-tax-integration-by-extension.md).
 
 ## <a name="customize-the-tax-data-model"></a>Nodoku datu modeļa pielāgošana
 
-1. Microsoft Dynamics 365 Finansēs dodieties uz Elektronisko **pārskatutax** > **konfigurācijām**.
+1. Microsoft Dynamics 365 Finansēs dodieties uz elektronisko **pārskatu** > **nodokļa konfigurācijām**.
 2. Konfigurācijas kokā atlasiet **Nodokļu aprēķina datu modelis**. Pēc tam darbību rūtī atlasiet **Izveidot konfigurāciju**. 
 
   > [!NOTE] 

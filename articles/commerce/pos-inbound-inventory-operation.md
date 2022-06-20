@@ -1,6 +1,6 @@
 ---
 title: Ienākošo krājumu operācija punktā POS
-description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) ienākošo krājumu operāciju iespējas.
+description: Šajā rakstā ir aprakstītas pārdošanas punkta (POS) saņemšanas krājumu operācijas iespējas.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858886"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -215,7 +215,7 @@ Pēc tam, kad melnraksta dokuments ir sekmīgi iesniegts Commerce Headquarters, 
 
 Kad dokumenta statuss ir **Pieprasīts**, tas ir redzams cilnē **Aktīvs**. Tomēr to nevar saņemt ienākošajā veikalā vai noliktavā. Pēc tam, kad nosūtīšanas noliktava ir nosūtījusi dažus vai visus pārsūtīšanas pasūtījumus, ienākošais veikals vai noliktava var grāmatot kvītis punktā POS. Kad izejošā puse apstrādā pārsūtīšanas pasūtīšanas dokumentus, viņu statuss tiek atjaunināts no **Pieprasīts** uz **Nosūtīts** vai **Daļēji nosūtīts**. Pēc tam, kad dokumentiem ir statuss **Nosūtīts** vai **Daļēji nosūtīts**, ienākošais veikals vai noliktava var grāmatot to kvītis, izmantojot ienākošās operācijas saņemšanas procesu.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Izejošo krājumu operācija punktā POS](pos-outbound-inventory-operation.md)
 

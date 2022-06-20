@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļu uzskaite nodokļu aprēķinam
-description: Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai.
+description: Šajā rakstā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dc8d8829a58ff2abfe210e58ca59d6e995cabb997629bdd0f4878ea1e6352229
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0df6d611d838d32041c250df5e48a400d479669a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893958"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a>Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai, tostarp nodokļu nolietojuma iestatīšanu, ka arī nodokļu nolietojuma pārskata aprēķināšanu un drukāšanu. 
+Šajā rakstā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai, tostarp nodokļu nolietojuma iestatījumu un aprēķinu un nodokļu nolietojuma pārskata drukāšanu. 
 > [!NOTE]
 > Nodokļu nolietojums strādā ar vērtības modeļiem. Vērtības modelis un nolietojuma grāmata ir sapludināti vienā jēdzienā ar nosaukumu *grāmata*. Papildinformāciju skatiet rakstā [Pamatlīdzekļu vērtības modeļa un nolietojuma grāmatas sapludināšana](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md).
 

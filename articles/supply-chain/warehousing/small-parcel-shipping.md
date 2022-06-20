@@ -1,6 +1,6 @@
 ---
 title: Mazu paku nosūtīšana
-description: Šajā tēmā ir sniegta informācija par mazu paku nosūtīšanas (SPS) līdzekli. Šis līdzeklis ļauj korporācijai Microsoft Dynamics 365 Supply Chain Management iesniegt pārvadātājam datus par iepakotu konteineru un pēc tam no šī pārvadātāja saņemt atpakaļ nosūtīšanas etiķeti, nosūtīšanas likmi un izsekošanas numuru.
+description: Šis raksts sniedz informāciju par mazu paku nosūtīšanas (SPS) funkciju. Šis līdzeklis ļauj korporācijai Microsoft Dynamics 365 Supply Chain Management iesniegt pārvadātājam datus par iepakotu konteineru un pēc tam no šī pārvadātāja saņemt atpakaļ nosūtīšanas etiķeti, nosūtīšanas likmi un izsekošanas numuru.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855908"
 ---
 # <a name="small-parcel-shipping"></a>Mazu paku nosūtīšana
 
@@ -54,7 +54,7 @@ Izpildiet šīs darbības, lai iegūtu likmes paraugprogrammu.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Izveidot un izvietot funkcionālās likmes programmas
 
-Informāciju par to, kā izveidot un izvietot funkcionālās likmes programmas, lai tās varētu izmantot ražošanas vai testēšanas vidē, skatiet šādas tēmas:
+Informāciju par to, kā izveidot un izvietot funkcionālās likmes programmas, lai tās varētu izmantot ražošanas vai testēšanas vidē, skatiet šādos rakstos:
 
 - [Jaunas transportēšanas pārvaldības programmas izveide](../transportation/create-new-transportation-management-engine.md)
 - [Transportēšanas pārvaldības programmu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Kad esat izveidojis un izvietojis SPS likmes programmu, veiciet šos soļus, lai
 
 ## <a name="example-scenario"></a>Piemērs
 
-Šajā piemērā ir parādīts, kā iestatīt un izmantot SPS pēc tam, kad esat sagatavojis sistēmu, kā aprakstīts iepriekš šajā tēmā. Šajā scenārijā tiek izmantota iepriekš minētā likmes paraugprogramma.
+Šajā piemērā ir parādīts, kā iestatīt un izmantot SPS pēc tam, kad esat sagatavojis sistēmu kā aprakstīts iepriekš šajā rakstā. Šajā scenārijā tiek izmantota iepriekš minētā likmes paraugprogramma.
 
 ### <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
@@ -147,7 +147,7 @@ Lai iestatītu pārvadātāja pakalpojuma kontu, rīkojieties šādi.
 
 Lai iestatītu konteinera iepakošanas politiku, izpildiet tālāk aprakstītās darbības.
 
-1. Ja vēl neesat iestatījis ZPL printera definīciju, lai to iestatītu, izmantojiet dokumentu maršrutēšanas aģenta programmu. Papildinformāciju skatiet [Dokumentu drukāšanas apskatu](../../fin-ops-core/dev-itpro/analytics/print-documents.md) un saistītās tēmas.
+1. Ja vēl neesat iestatījis ZPL printera definīciju, lai to iestatītu, izmantojiet dokumentu maršrutēšanas aģenta programmu. Papildinformāciju skatiet dokumentu drukāšanas [pārskatā un](../../fin-ops-core/dev-itpro/analytics/print-documents.md) saistītajos rakstos.
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Konteineri \> Konteineru iepakošanas politikas**.
 1. Lai pievienotu pārvadātāja pakalpojuma kontu, darbību rūtī atlasiet **Jauns**.
 1. Jaunās politikas galvenē iestatiet tālāk norādītās vērtības:

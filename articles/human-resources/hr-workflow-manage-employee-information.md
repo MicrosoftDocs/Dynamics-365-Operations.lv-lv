@@ -1,6 +1,6 @@
 ---
 title: Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem
-description: Šajā tēmā skaidrots, kā var izmantot darbplūsmas, lai pārvaldītu darbinieku informāciju.
+description: Šajā rakstā skaidrots, kā var izmantot darbplūsmas, lai pārvaldītu darbinieku informāciju.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908806"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691531"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā ir aprakstīts, kā varat izmanto personāla vadības darbplūsmu iespējas, lai pārvaldītu darbinieku informāciju. Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu.
+Šajā rakstā ir aprakstīts, kā varat izmantot darbplūsmu iespējas, lai Human resources pārvaldītu darbinieku informāciju. Piemēram, varat saistīt darbplūsmu ar pozīciju un konfigurēt apstiprināšanas darbplūsmu, kas tiek sākta, kad darbinieki maina savu ierakstu.
 
 Personāla vadības darbplūsmu iespējas nodrošina vairākas darbplūsmas personāla vadības darbību pārvaldībai. Turklāt ir pieejamas vairākas opcijas, kas sniedz iespēju modificēt noteiktas darbplūsmas un saistīt tās ar padotības hierarhiju. Darbplūsmas ir pieejamas, lai palīdzētu pārvaldīt izmaiņas vairāku tipu darbinieku informācijā. Varat saistīt darbplūsmu ar pozīciju. Šādā gadījumā, ja darbinieki maina savu darbinieka ierakstu, tiek sākta darbplūsma, kas pieprasa apstiprināšanu pirms jaunās informācijas saglabāšanas. Darbplūsmas ir iepriekš definētas šāda veida informācijai, lai palīdzētu efektīvi pārvaldīt izmaiņas un uzturēt darbinieku datus precīzi:
 

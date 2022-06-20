@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi
-description: Šajā tēmā aprakstīts, kā konfigurēt preču dimensiju vērtības kā paraugus galvenajā Microsoft Dynamics 365 Commerce mītnē.
+description: Šajā rakstā ir aprakstīts, kā konfigurēt preču dimensiju vērtības kā ieejas ieejas punktus Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892656"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā konfigurēt preču dimensiju vērtības kā paraugus galvenajā Microsoft Dynamics 365 Commerce mītnē. Lai iegūtu informāciju par produktu dimensijām, skatiet [Produktu dimensijas](../../supply-chain/pim/product-dimensions.md).
+Šajā rakstā ir aprakstīts, kā konfigurēt preču dimensiju vērtības kā ieejas ieejas punktus Microsoft Dynamics 365 Commerce. Lai iegūtu informāciju par produktu dimensijām, skatiet [Produktu dimensijas](../../supply-chain/pim/product-dimensions.md).
 
 Dynamics 365 Commerce atbalsta izmēru, stilu un krāsu dimensiju izmantošanu, lai attēlotu preces variantus. Preču dimensijām ir draudzīgi nosaukumi, kas tiek rādīti preču informācijas lapās (PDP), lai varētu atlasīt preces variantus. Šo draudzīgo nosaukumu piemēri ir "Mazs", "Vidējs" un "Liels" izmēriem un "Melns" un "Brūns" krāsām. Tomēr, ja prece atbalsta daudzas variācijas, ir nepieciešamas vairākas atlases, lai skatītu attēlu preces variantam. Tāpēc klientiem tas var būt lēns un garlaicīgs process pārlūkot un atlasīt preces variantus.
 

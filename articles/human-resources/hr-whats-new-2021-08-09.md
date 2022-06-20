@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 9. augustā
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 9. augustu.
+description: Šajā rakstā aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Human Resources 2021. gada 9. augustā.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882871"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 9. augustā
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Microsoft Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā ierodas programmā Microsoft Dynamics 365 Human Resources.
 
 Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -40,7 +40,7 @@ Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās
 Šajā laidienā ir iekļauti tālāk minētie kļūdu labojumi.
 
 > [!NOTE]
-> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varētu atjaunināt šo tēmu, lai iekļautu kļūdu labojumus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varētu atjaunināt šo rakstu, lai ietvertu kļūdu labojumus, kas to izlaboja būvējuma laikā pēc šī raksta sākotnējā publicēšanas.
 
 | Problēmas numurs | Problēma | Apraksts |
 | --- | --- | --- |

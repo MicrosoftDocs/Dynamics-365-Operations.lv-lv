@@ -1,6 +1,6 @@
 ---
-title: Klienta atvienošanās
-description: Šajā rakstā paskaidrots, kā rīkoties, ja debitors tiek atvienots no vides.
+title: Debitora atvienošanās
+description: Šajā rakstā ir paskaidrots, ko darīt, ja debitors ir atvienots no vides.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3093f11b0833812f6420f67a4b8bf405e550e974
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40605fd14384dbeed933057621d0160b698c938a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869870"
 ---
 # <a name="client-disconnects"></a>Klienta atvienošanās
 

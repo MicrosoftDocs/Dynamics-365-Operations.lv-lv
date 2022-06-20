@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt preci, kas jāiegādājas bez maksas
-description: Šajā tēmā ir aprakstīts, kā konfigurēt preci, lai to var nopirkt bez maksas risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā konfigurēt preci, kurā to var nopirkt bez maksas Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 760b97a895758073c8ffd1209be4a5f7df0f13a8
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 4bd7e4f7a7873e471f1aee94f15e7932e8d9eecd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890359"
 ---
 # <a name="configure-a-product-to-be-purchased-for-free"></a>Konfigurēt preci, kas jāiegādājas bez maksas
 
 [!include [banner](includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā konfigurēt preci, lai to var nopirkt bez maksas risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā konfigurēt preci, kurā to var nopirkt bez maksas Microsoft Dynamics 365 Commerce.
 
 ## <a name="configure-the-product"></a>Konfigurēt preci
 

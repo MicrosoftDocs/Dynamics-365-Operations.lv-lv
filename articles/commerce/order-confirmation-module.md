@@ -1,6 +1,6 @@
 ---
-title: Pasūtījuma apstiprināšanas modulis
-description: Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
+title: Pasūtījuma apstiprinājuma modulis
+description: Šis raksts aptver pasūtījuma apstiprinājuma moduļus un apraksta, kā tos lietot Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 994ec92abc53efeb240bca5dc8d67aabb45fbe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845809"
 ---
 # <a name="order-confirmation-module"></a>Pasūtījuma apstiprinājuma modulis
 
 [!include [banner](includes/banner.md)]
 
-Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
+Šis raksts aptver pasūtījuma apstiprinājuma moduļus un apraksta, kā tos lietot Microsoft Dynamics 365 Commerce.
 
 Pasūtījumu apstiprinājuma moduli izmanto, lai rādītu pasūtījuma apstiprinājuma informāciju pēc pasūtījuma veikšanas. Tas parāda pasūtījuma apstiprinājuma ID, pasūtījuma kontaktinformāciju un citus pasūtījuma datus, piemēram, krājumus, kas tika iegādāti, maksājuma informāciju, saņemšanas iespējas un nosūtīšanas metodi.
 

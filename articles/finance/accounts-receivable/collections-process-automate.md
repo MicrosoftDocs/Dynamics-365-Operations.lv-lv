@@ -1,6 +1,6 @@
 ---
 title: Parādu piedziņas procesa automatizācija
-description: Šajā tēmā aprakstīts, kā tiek iestatītas parādu piedziņas procesa stratēģijas, kuras automātiski nosaka klientu rēķinus, kuriem ir nepieciešams e-pasta atgādinājums, parādu piedziņa vai vēstule par parādu piedziņu, kas jānosūta klientam.
+description: Šajā rakstā ir aprakstīts kolekciju procesu stratēģiju iestatīšanas process, kas automātiski identificē debitoru rēķinus, kuriem ir nepieciešams e-pasta atgādinājums, atgādinājuma darbība vai atgādinājuma vēstule, kas jānosūta debitoram.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486873"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946183"
 ---
 # <a name="collections-process-automation"></a>Parādu piedziņas procesa automatizācija
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts parādu piedziņas procesa stratēģiju iestatīšanas process, kas automātiski identificē debitoru rēķinus, kas pieprasa e-pasta atgādinājumu, parādu piedziņas aktivitātes (piemēram, tālruņa zvanu) vai parādu piedziņas vēstuli, kas jānosūta debitoram. 
+Šajā rakstā ir aprakstīts kolekciju procesu stratēģiju iestatīšanas process, kas automātiski identificē debitoru rēķinus, kuriem nepieciešams e-pasta atgādinājums, atgādinājuma darbība (piemēram, tālruņa zvans) vai atgādinājuma vēstule, kas jānosūta debitoram. 
 
 Organizācijām bieži vien paiet daudz laika, pārskatot novecojušas bilanču atskaites, klientu grāmatvedību un atvērtos rēķinus, lai uzzinātu, ar kuriem klientiem vajadzētu sazināties par atvērtu rēķinu vai konta bilanci. Šis pētījums taupa parādu piedziņas aģenta laiku, kas pavadīts sazinoties ar debitoriem, lai apkopotu nokavētās bilances vai atrisinātu strīdus par rēķiniem. Parādu piedziņas procesu automatizācija ļauj iestatīt uz stratēģiju balstītu pieeju jūsu parādu piedziņas procesam. Tas palīdz konsekventi veikt parādu piedziņas darbības, nodrošinot pielāgotus e-pasta atgādinājumus vai ieprogrammētu atgādinājuma vēstuļu sūtīšanas procesu. 
 

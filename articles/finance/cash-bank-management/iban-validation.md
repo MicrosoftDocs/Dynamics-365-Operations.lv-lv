@@ -1,6 +1,6 @@
 ---
 title: Starptautiskā bankas konta numura (IBAN) kontu pārbaudes pārvaldīšana
-description: Šajā tēmā ir izskaidrots, kā pārvaldīt starptautiskā bankas konta numura (IBAN) kontu pārbaudi.
+description: Šajā rakstā skaidrots, kā pārvaldīt starptautisko bankas konta numura (IBAN) konta apstiprināšanu.
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880904"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Starptautiskā bankas konta numura (IBAN) kontu pārbaudes pārvaldīšana
 
@@ -25,7 +25,7 @@ ms.locfileid: "8462769"
 
 Starptautiskā bankas konta numura (IBAN) validēšana palielina apjomu validēšanai, kas tiek veikta, kad bankas kontam pievienojat IBAN.
 
-Informācija par IBAN struktūru tiek glabāta sistēmā Microsoft Dynamics 365 Finance un tiek ielādēta automātiski, kad pirmo reizi bankas kontos izmantojat IBAN. Šī informācija ietver IBAN garumu, bankas konta numura un maršrutēšanas numura sākuma pozīcijas, kā arī bankas konta numura un maršrutēšanas numura garumu.
+Informācija par IBAN Microsoft Dynamics struktūru tiek glabāta 365 Finansēs un tiek automātiski ielādēta, kad pirmo reizi bankas kontos izmantojat IBAN. Šī informācija ietver IBAN garumu, bankas konta numura un maršrutēšanas numura sākuma pozīcijas, kā arī bankas konta numura un maršrutēšanas numura garumu.
 
 ## <a name="set-up-iban-structures"></a>IBAN struktūru iestatīšana
 

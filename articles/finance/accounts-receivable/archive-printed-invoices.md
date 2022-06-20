@@ -1,6 +1,6 @@
 ---
 title: Izdrukātie debitoru rēķini ar jaukšanas numuriem — arhivēšana
-description: Šajā tēmā paskaidrots, kā iespējot arhivēšanu, lai glabātu drukātos klientu rēķinus ar jaukšanas numuriem.
+description: Šajā rakstā ir aprakstīts, kā iespējot arhivēšanu, lai saglabātu drukātos debitoru rēķinus ar jaukšanas numuriem.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909190"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Izdrukātie debitoru rēķini ar jaukšanas numuriem — arhivēšana
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695279"
 
 Dažās valstīs pastāv tiesiska prasība glabāt aprēķinātos jauktos numurus sistēmā kopā ar dažu dokumentu izdrukām. Jauktos numurus var izmantot, lai ziņotu iestādēm, un auditu laikā.
 
-Šajā tēmā paskaidrots, kā konfigurēt arhivēšanu, lai glabātu drukātos klientu rēķinus ar jaukšanas numuriem.
+Šajā rakstā skaidrots, kā konfigurēt arhivēšanu, lai saglabātu drukātos debitoru rēķinus ar jaukšanas numuriem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

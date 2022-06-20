@@ -1,6 +1,6 @@
 ---
 title: Algu aprēķina fiksētās atlīdzības plāns
-description: Šī tēma sniedz detalizētu informāciju un parauga vaicājumu Payroll fiksētā atlīdzības plāna elementam programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir sniegta detalizēta informācija un piemērs par algas fiksētās atlīdzības plāna elementa sadaļā Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83fa8aeb38cc44191242cf029022939cefb22cb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909851"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Algu aprēķina fiksētās atlīdzības plāns
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069100"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīts Algas fiksētas atlīdzības plāna elements Dynamics 365 Human Resources .
+Šajā rakstā ir aprakstīts algas fiksētās atlīdzības plāna elements Dynamics 365 Human Resources.
 
 ### <a name="description"></a>Apraksts
 

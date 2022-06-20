@@ -1,6 +1,6 @@
 ---
 title: Valodu pievienošana vietnei
-description: Šajā tēmā paskaidrots, kā pievienot papildu valodas Microsoft Dynamics 365 Commerce vietnei.
+description: Šajā rakstā skaidrots, kā vietnei pievienot papildu valodu Microsoft Dynamics 365 Commerce atbalstu.
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 69ee1d744ce26d5040d80e470b18d87bbddbda26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871810"
 ---
 # <a name="add-languages-to-your-site"></a>Valodu pievienošana vietnei
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā pievienot papildu valodas Microsoft Dynamics 365 Commerce vietnei.
+Šajā rakstā skaidrots, kā vietnei pievienot papildu valodu Microsoft Dynamics 365 Commerce atbalstu.
 
-Varat lokalizēt savu vietni jebkurā valodā, ko atbalsta komercija. (Vēlāk šajā tēmā tiek parādīts atbalstīto valodu saraksts.) Lai jūsu vietnē pievienotu valodu, tā vispirms ir jāpievieno tiešsaistes veikalam, kas ir saistīts ar jūsu vietni.
+Varat lokalizēt savu vietni jebkurā valodā, ko atbalsta komercija. (Atbalstīto valodu saraksts vēlāk tiek parādīts šajā rakstā.) Lai pievienotu valodu jūsu vietnei, vispirms tā jāpievieno tiešsaistes veikalam, kas ir piesaistīts jūsu vietnei.
 
 ## <a name="add-a-language-to-an-online-store"></a>Valodas pievienošana tiešsaistes veikalam
 

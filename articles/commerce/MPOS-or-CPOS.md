@@ -1,6 +1,6 @@
 ---
-title: Izvēlieties starp Store Commerce un Cloud POS
-description: Šajā tēmā skaidrotas galvenās atšķirības starp Store Commerce un Cloud POS un apraksta dažādus faktorus Dynamics 365 Commerce, kurus mazumtirgotājiem ir jāapsver, lai palīdzētu tiem izvēlēties pēc savas vajadzības.
+title: Izvēle starp Store Commerce un Cloud POS
+description: Šis raksts skaidro galvenās atšķirības starp Store Commerce un Cloud POS un apraksta dažādus faktorus Dynamics 365 Commerce, kurus mazumtirgotāji ir jāievieš, lai palīdzētu tiem izvēlēties pēc savas vajadzības.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854010"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Izvēlieties starp Store Commerce un Cloud POS
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Izvēle starp Store Commerce un Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā skaidrotas galvenās atšķirības starp Store Commerce un Cloud POS un apraksta dažādus faktorus Dynamics 365 Commerce, kurus mazumtirgotājiem ir jāapsver, lai palīdzētu tiem izvēlēties pēc savas vajadzības. Tā arī sniedz lietotājam papildu fonu, padomus un ieteikumus par faktoriem, kurus tie ir jāņem vērā, veicot izvietošanu Dynamics 365 Commerce. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
+Šis raksts skaidro galvenās atšķirības starp Store Commerce un Cloud POS un apraksta dažādus faktorus Dynamics 365 Commerce, kurus mazumtirgotāji ir jāievieš, lai palīdzētu tiem izvēlēties pēc savas vajadzības. Tā arī sniedz lietotājam papildu fonu, padomus un ieteikumus par faktoriem, kurus tie ir jāņem vērā, veicot izvietošanu Dynamics 365 Commerce. Pārskatot un izvietošanas procesā ievērojot šis norādījumus, ieviesēji var izvairīties no problēmām, kuras varētu ietekmēt lietotāju apmierinātību vai veiktspēju.
 
 ## <a name="insights"></a>Ieskati
 
@@ -44,7 +44,7 @@ Commerce atbalsta tālāk norādītās POS opcijas.
 Visos gadījumos POS (Store Commerce un CPOS) koplieto vienu un to pašu pamata programmas kodu. Tas ir svarīgi tālāk norādīto iemeslu dēļ.
 
 - Lietotāja interfeiss (user interface — UI) ir saskaņots neatkarīgi no platformas vai formas faktora.
-- Vairums funkcionālo iespēju ir vienādas neatkarīgi no platformas vai formas faktora. Taču pastāv dažas svarīgas atšķirības. Šīs atšķirības ir norādītas šajā tēmā.
+- Vairums funkcionālo iespēju ir vienādas neatkarīgi no platformas vai formas faktora. Taču pastāv dažas svarīgas atšķirības. Šīs atšķirības ir atzīmētas šajā rakstā.
 - Katrā veikalā POS variācijas var apvienot un tās var darbināt vienlaicīgi. Piemēram, tā galvenajām kases sistēmās mazumtirgotājs var izmantot Store Commerce datoros, kuros darbojas operētājsistēma Windows. Taču mazumtirgotājs šos reģistrus var papildināt ar termināļiem, kas ir balstīti uz pārlūkprogrammu, vai mobilajām ierīcēm.
 - Pielāgojumus un paplašinājumus var ērti izmantot dažādās platformās un formu faktoros. Tā kā pamata programmas kods tiek koplietots, vairums pielāgojumu var ieviest vienlaikus, nevis dažādos laikos.
 

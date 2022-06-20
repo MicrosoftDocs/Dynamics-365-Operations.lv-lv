@@ -1,6 +1,6 @@
 ---
 title: Nomas izbeigšanas priekšlikums
-description: Šajā tēmā izskaidrots, kā ierosināt nomas izbeigšanu.
+description: Šajā rakstā skaidrots, kā piedāvāt nomas nobeigšanu.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879658"
 ---
 # <a name="propose-a-lease-for-termination"></a>Nomas izbeigšanas ierosinājums
 
 [!include [banner](../includes/banner.md)]
 
-Ja noma tiek izbeigta pirms termiņa, līdzekļu noma var reģistrēt žurnāla ierakstu par izbeigšanu, lai norakstītu nomas saistības, līdzekļa lietošanas tiesības (LLT) un uzkrāto nolietojumu, kā arī iegrāmatotu peļņu vai zaudējumus. Pirmstermiņa izbeigšanas process izbeidz nomu un ar to saistītās nomas grāmatas. Tas neizbeidz atsevišķas nomas grāmatas. Šajā tēmā aprakstīta funkcionalitāte, kas ļauj ierosināt nomas izbeigšanu un apstrādāt nomas izbeigšanas žurnāla ierakstu.
+Ja noma tiek izbeigta pirms termiņa, līdzekļu noma var reģistrēt žurnāla ierakstu par izbeigšanu, lai norakstītu nomas saistības, līdzekļa lietošanas tiesības (LLT) un uzkrāto nolietojumu, kā arī iegrāmatotu peļņu vai zaudējumus. Pirmstermiņa izbeigšanas process izbeidz nomu un ar to saistītās nomas grāmatas. Tas neizbeidz atsevišķas nomas grāmatas. Šajā rakstā ir aprakstīta funkcionalitāte, kas ļauj piedāvāt darba attiecību pārtraukšanas nomu un apstrādāt nomas darba attiecību pārtraukšanas žurnāla ierakstu.
 
 Ja noma netiek klasificēta kā atliktās nomas maksas noma un nav saistīta ar pamatlīdzekli, līdzekļu noma izveido šādu žurnāla ierakstu par izbeigšanu.
 
@@ -121,7 +121,7 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
 
 ### <a name="steps-for-terminating-the-lease"></a>Nomas izbeigšanas darbības
 
-1. Pēc nomas izveides, kā aprakstīts iepriekš šajā tēmā, dodieties uz nomas grāmatu un apstipriniet maksājumu grafiku. Pēc tam iegrāmatojiet sākotnējās atpazīšanas žurnāla ierakstu. Sākotnējais LLT līdzeklis ir 71 235,81 $ un nomas saistībām ir jābūt 70 235,81 $. Šajā piemērā noma tika klasificēta kā operatīvā noma saskaņā ar Uzskaites standartu kodifikācijas tēmu 842 (ASC 842).
+1. Pēc nomas izveides, kā aprakstīts iepriekš šajā rakstā, dodieties uz nomas grāmatu un apstipriniet maksājumu grafiku. Pēc tam iegrāmatojiet sākotnējās atpazīšanas žurnāla ierakstu. Sākotnējais LLT līdzeklis ir 71 235,81 $ un nomas saistībām ir jābūt 70 235,81 $. Šajā piemērā noma tika klasificēta kā operatīvā noma saskaņā ar Uzskaites standartu kodifikācijas tēmu 842 (ASC 842).
 2. Palaidiet žurnāla pakešuzdevuma apstrādi trīs reizes, lai simulētu trīs gadu paiešanu nomas maksājumiem, procentu izdevumiem un nolietojuma izdevumiem.
 3. Kad esat pabeidzis visu trīs pakešuzdevumu izpildi, atgriezieties pie nomas grāmatas un atveriet saistību un līdzekļu darījumu tabulas, lai skatītu LLT līdzekļu un nomas saistību pašreizējo uzskaites vērtību. Pēc trīs gadiem, saistību vērtībai ir jābūt aptuveni -53 893,00 $ un līdzekļa vērtībai jābūt aptuveni 54 593,00 $.
 

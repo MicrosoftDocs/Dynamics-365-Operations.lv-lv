@@ -1,6 +1,6 @@
 ---
-title: Integrējiet debitoru parādlapās e-komercijas vietnēs
-description: Šajā tēmā ir aprakstīts, kā integrēt Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-komercijas vietnes lapās.
+title: Customer Voice integrācija e-komercijas vietnes lapās
+description: Šajā rakstā ir aprakstīts, kā integrēt Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-komercijas vietnes lapās.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850334"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Integrējiet debitoru parādlapās e-komercijas vietnēs
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Customer Voice integrācija e-komercijas vietnes lapās
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā integrēt Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-komercijas vietnes lapās.
+Šajā rakstā ir aprakstīts, kā integrēt Microsoft Dynamics 365 Customer Voice Dynamics 365 Commerce e-komercijas vietnes lapās.
 
 Jūs varat integrēt Debitora [debitora debitora](https://dynamics.microsoft.com/customer-voice/overview/) informāciju savā e-komercijas vietnē, lai apkopotu, analizētu un izsekotu reāllaika klientu atsauksmes. Lai uzsāktu integrāciju, ir jāizveido konts un jāatlasa debitora projekta veidne tā atsauksmju tipam, ko vēlaties apkopot.
 
@@ -37,7 +37,7 @@ Lai atlasītu debitora debitora projekta veidni, sekojiet šiem soļiem.
 1. Atlasiet projekta veidni atsauksmju tipam, ko vēlaties apkopot un pēc tam atlasiet **Tālāk**.
 1. Cilnes Sūtīt **sadaļā** Izvēlēties iegultu **formātu** atlasiet iegulto formātu. Iegultā **koda lauks** rāda kodu, kas ir iegults Commerce Site Builder.
 
-Šajā tēmā lietotie piemēri izmanto periodisko klientu **aptaujas projekta** veidni un Pogas iegulto **formātu**.
+Šajā rakstā sniegti piemēri izmanto periodisko klientu **aptaujas projekta** veidni un Pogas iegulto **formātu**.
 
 Šajā piemērā ir redzama **periodisko** klientu aptaujas projekta veidnes lapa, **kur** ir atlasīta pogas iegulta formāta opcija un **iegults kods šai opcijai tiek parādīts laukā Iegults** kods. Ir nepieciešamas trīs atsevišķas darbības, lai iegultu norādīto kodu jūsu vietnes lapās, kā aprakstīts šādās sadaļās.
 
@@ -127,24 +127,24 @@ Jaunais fragments, kas satur iegulto iekļauto skripta kodu, tagad ir gatavs pie
 
 ## <a name="add-fragments-to-a-template"></a>Pievienot veidnei fragmentus
 
-Kad esat pabeidzis veidot fragmentus, kuros ir iegultais customer voice kods, tie ir jāpievieno lapu veidnēm, kas ir saistītas ar vietnes lapām, kurās vēlaties tās izmantot. Šajā ilustrācijas piemērā trīs fragmentu piemēri ir pievienoti lapas detalizētai informācijai par produktu (PDP) veidnei.
+Kad esat beidzis veidot fragmentus, kas ietver debitora Embedded kodu, tos jāpievieno lapu veidnēm, kas ir saistītas ar vietnes lapām, kuras vēlaties tās izmantot. Šajā piemēra piemērā trīs piemēra fragmenti ir pievienoti preces informācijas lapai (PDP) veidnei.
 
-![PDP veidnei pievienoto fragmentu piemēri.](media/customer-voice-integration-5.png)
+![Piemēram, fragmenti, kas pievienoti PDP veidnei.](media/customer-voice-integration-5.png)
 
-Pēc atjauninātās veidnes publicēšanas Customer Voice aptauja tiks parādīta visās lapās, kuras kontrolē veidne.
+Kad atjauninātā veidne ir publicēta, debitora debitora aptauja tiks parādīta visās lapās, kuras kontrolē veidne.
 
-Informāciju par veidnēm skatiet rakstā [Darbs ar veidnēm](work-with-templates.md).
+Papildinformāciju par veidnēm skatiet [sadaļā Darbs ar veidnēm](work-with-templates.md).
 
-## <a name="configure-content-security-policy"></a>Satura drošības politikas konfigurēšana
+## <a name="configure-content-security-policy"></a>Konfigurēt satura drošības politiku
 
-Pēc noklusējuma satura drošības politika (CSP) neatļauj zvanus uz citiem pakalpojumiem, ja vien nav veikta papildu konfigurācija. Tāpēc pēc atjaunināto veidņu publicēšanas, iespējams, ka aptauja netiks ielādēta attiecīgajās vietnes lapās. Lai skatītu ar CSP saistītās kļūdas, atveriet tīmekļa pārlūkprogrammas izstrādātāju rīkus (F12) un pēc tam dodieties uz lapu, kurā ir aptauja. Konsoles izvadē parādīsies ar CSP saistītās kļūdas.
+Pēc noklusējuma satura drošības politika (MAKS) neļauj veikt zvanus uz citiem pakalpojumiem, izņemot gadījumus, kad tiek veikta papildu konfigurācija. Tādēļ pēc atjaunināto veidņu publicēšanas ir iespējams, ka aptauja netiks ielādēta attiecīgajās vietņu lapās. Lai apskatītu ar ATVĒRI saistītas kļūdas, atveriet web pārlūkprogrammas izstrādātāja rīkus (F12) un tad dodieties uz lapu, kurā atrodas aptauja. AR KOLONNU saistītās kļūdas tiks parādītas konsoles izvadē.
 
-Lai vietņu veidotājā konfigurētu CSP kļūdu novēršanai, rīkojieties šādi.
+Lai vietas veidotājā konfigurējiet MANUĀLI, lai labotu kļūdas, veiciet šos soļus.
 
 1. Dodieties uz **Vietnes iestatījumi \> Paplašinājumi**.
-1. **Cilnē Satura drošības politika** pievienojiet `https://customervoice.microsoft.com/`**bērnu-src** direktīvai.
-1. `https://customervoice.microsoft.com/` Pievienot **frame-src** direktīvai.
-1. Pievienojiet `https://mfpembedcdnmsit.azureedge.net` un **.azureedge.net** **img-src** direktīvai.
+1. **Cilnē Satura drošības** politika pievienojiet `https://customervoice.microsoft.com/` bērnu **drošības direktīvai**.
+1. Pievienojiet `https://customervoice.microsoft.com/` rāmja **un riksa direktīvai**.
+1. Pievienojiet `https://mfpembedcdnmsit.azureedge.net` un **azureedge.net** pie **img-src** direktīvas.
 
 Papildinformāciju skatiet [Satura drošības politika](manage-csp.md).
 
@@ -154,7 +154,7 @@ Papildinformāciju skatiet [Satura drošības politika](manage-csp.md).
 
 [Metatagu modulis](metatags-module.md)
 
-[Iekļautā skripta modulis](script-module.md)
+[Iekļauto skriptu modulis](script-module.md)
 
 [Satura drošības politika](manage-csp.md)
 

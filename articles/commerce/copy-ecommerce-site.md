@@ -1,26 +1,26 @@
 ---
 title: E-komercijas vietnes kopēšana
-description: Šajā tēmā ir aprakstīts, kā kopēt esošo e-komercijas vietni starp e-komercijas vidēm vietu Microsoft Dynamics 365 Commerce veidotājā.
+description: Šajā rakstā ir aprakstīts, kā kopēt esošu e-komercijas vietni starp e-komercijas vidēm vietu Microsoft Dynamics 365 Commerce veidotājā.
 author: psimolin
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: cb53a76b2ebe5b511bf5009727f20f20755e5720
+ms.sourcegitcommit: 13c7a1cc4c90417e3e88db59b7d2165b3c40a56c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462330"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "8935748"
 ---
 # <a name="copy-an-e-commerce-site"></a>E-komercijas vietnes kopēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā kopēt esošo e-komercijas vietni starp e-komercijas vidēm vietu Microsoft Dynamics 365 Commerce veidotājā.
+Šajā rakstā ir aprakstīts, kā kopēt esošu e-komercijas vietni starp e-komercijas vidēm vietu Microsoft Dynamics 365 Commerce veidotājā.
 
 Dynamics 365 Commerce atbalsta vietņu kopēšanu vai labošanu kā pašapkalpošanās darbību Commerce Site Builder. Vietas var kopēt vienā e-komercijas vidē vai divās e-komercijas vidēs. Lietotājam, kas uzsāk vietnes kopēšanas operāciju, jābūt nomnieka administratoram gan avota, gan mērķa e-komercijas vidēs.
 
@@ -40,23 +40,23 @@ Lai kopētu vietu e-komercijas vidē, sekojiet šiem soļiem.
 1. Piesakieties vietas veidotājā videi, kur vēlaties veikt kopēšanas darbību.
 1. Atveriet vietņu saraksta skatu, augšējā labajā **stūrī atlasot** Vietas pārslēgšana un pēc tam atlasot **Pārvaldīt vietnes**.
 1. Atrodiet vietni, ko vēlaties kopēt vai saglabāt mapē, un atlasiet to, atzīmējot izvēles rūtiņu blakus vietnes nosaukumam.
-1. Darbību rūtī atlasiet Kopēt **vietni**.
-1. **Dialoglodziņa Kopēt vietni** laukā Jaunas **vietas nosaukums** ievadiet jaunās vietas nosaukumu. E-komercijas vidē jaunajam vietas nosaukumam ir jābūt unikālam. Avota **nomnieka un** Avota **vietas** lauki tiek automātiski iestatīti uz informāciju par pašreizējo nomnieku un atlasīto vietu.
+1. Komandjoslā atlasiet Kopēt **vietni**.
+1. **Izvēlnes Kopēt vietnes** izdruku laukā **Jaunas** atrašanās vietas nosaukums ievadiet jaunās vietnes nosaukumu. E-komercijas vidē jaunajam vietas nosaukumam ir jābūt unikālam. Avota **nomnieka un** Avota **vietas** lauki tiek automātiski iestatīti uz informāciju par pašreizējo nomnieku un atlasīto vietu.
 1. Atlasiet **Izveidot kopiju**.
 
 Kad informācija ir pārbaudīta, paziņojums norāda, ka ir izveidots jauns vietnes kopijas darbs. Nomnieka darbu lapas labajā rūtī [varat pārraudzīt **darba** izpildi](#monitor-the-site-copy-operation). Kad kopēšanas operācija ir veiksmīgi pabeigta, jaunā vietne parādās vietņu saraksta skatījumā.
 
-Šajā attēlā parādīts piemērs par vietas **kopēšanas dialoglodziņu** vietas veidotājā.
+Šajā attēlā parādīts vietas veidotāja **izvēlnes Kopēt** vietni izdrukas piemērs.
 
-![Kopējiet vietas dialoglodziņu vietas veidotājā.](media/site-copy_1.png)
+![Kopējiet vietas izniršanas izvēlni vietas veidotājā.](media/site-copy_1.png)
 
 ## <a name="copy-a-site-between-two-e-commerce-environments"></a>Kopēt vietu starp divām e-komercijas vidēm
 
 Lai kopētu vietu starp divām e-komercijas vidēm, sekojiet šiem soļiem.
 
 1. Piesakieties vietas veidotājā mērķa e-komercijas videi.
-1. Darbību rūtī atlasiet Kopēt **vietni**.
-1. **Dialoglodziņa Kopēt vietni** laukā Jaunas **vietas nosaukums** ievadiet jaunās vietas nosaukumu. E-komercijas vidē jaunajam vietas nosaukumam ir jābūt unikālam.
+1. Komandjoslā atlasiet Kopēt **vietni**.
+1. **Izvēlnes Kopēt vietnes** izdruku laukā **Jaunas** atrašanās vietas nosaukums ievadiet jaunās vietnes nosaukumu. E-komercijas vidē jaunajam vietas nosaukumam ir jābūt unikālam.
 1. Laukā **Avota nomnieks** atlasiet avota nomnieka nosaukumu.
 1. Laukā **Avota** vieta atlasiet avota vietni.
 1. Atlasiet **Izveidot kopiju**.
@@ -66,6 +66,32 @@ Lai kopētu vietu starp divām e-komercijas vidēm, sekojiet šiem soļiem.
 
 Kad informācija ir pārbaudīta, paziņojums norāda, ka ir izveidots jauns vietnes kopijas darbs. Nomnieka darbu lapas labajā rūtī [varat pārraudzīt **darba** izpildi](#monitor-the-site-copy-operation). Kad kopēšanas operācija ir veiksmīgi pabeigta, jaunā vietne parādās vietņu saraksta skatījumā.
 
+## <a name="map-channels-during-the-site-copy-operation-optional"></a>Kartēt kanālus vietnes kopēšanas operācijas laikā (neobligāti)
+
+Avota kanālus un lokalizācijas var kartēt uz mērķa kanāliem un lokalizācijām kā daļu no vietas kopēšanas operācijas. Ja kanāla kartēšana ir veikta kā daļa no vietnes kopēšanas operācijas, tad vietas inicializēšana, izmantojot FRE procesu un kanālu konfigurēšana vietnes iestatījumos, nav nepieciešama. 
+
+Lai kartētu visus kanālus un lokalizācijas "kā" (1-to-1) vietas veidotājā, sekojiet šiem soļiem.
+
+1. Atveriet vietņu saraksta skatu, augšējā labajā **stūrī atlasot** Vietas pārslēgšana un pēc tam atlasot **Pārvaldīt vietnes**.
+1. Atrodiet vietni, ko vēlaties kopēt vai saglabāt mapē, un atlasiet to, atzīmējot izvēles rūtiņu blakus vietnes nosaukumam.
+1. Komandjoslā atlasiet Kopēt **vietni**.
+1. Izvēlne Kopēt **vietni izlietnē** ievadiet vērtības jaunas **atrašanās** vietas nosaukumam, **avota nomniekam** un avota **vietai** (ja tā jau nav).
+1. Atlasiet **Pievienot kanāla kartējumus**.
+1. Izvēlnē Konfigurēt vietnes **kanālus un lokalizācijas izniršanas** izvēlni atlasiet **Avota** kanāls un pēc tam atlasiet avota kanālu.  
+1. Atlasiet **Mērķa kanālu** un pēc tam atlasiet to pašu kanālu kā avota kanālam. 
+1. Atlasiet **Pievienot atrašanās vietas**.
+1. Atlasiet **Avota lokalizāciju** un pēc tam atlasiet avota lokalizāciju.
+1. Atlasiet **Mērķa atrašanās vietu** un pēc tam atlasiet to pašu atrašanās vietu, ko avota atrašanās vieta. 
+1. **Vietrāža** URL ceļam ievadiet unikālu URL ceļu, kas pašlaik netiek izmantots mērķa vidē.
+1. Atkārtojiet no 8. līdz 11. solim katrai kanālam kartējot atrašanās vietu.
+1. Atlasiet **Lietot**.
+1. Atkārtojiet 6.-11. soli katram avota kanālam.
+1. Atlasiet **Aizvērt**.
+1. Pārskatiet konfigurāciju, lai pārbaudītu tās precizitāti, un pēc tam atlasiet **Kopēt vietni**.
+
+> [!NOTE]
+> Visi avota kanāli un atrašanās vietas ir jākartē, un tos var kartēt tikai vienu reizi.
+
 ## <a name="monitor-the-site-copy-operation"></a>Pārraudzīt vietnes kopēšanas operāciju
 
 Lai pārraudzītu vietnes kopēšanas operācijas norisi, sekojiet šiem soļiem.
@@ -74,9 +100,9 @@ Lai pārraudzītu vietnes kopēšanas operācijas norisi, sekojiet šiem soļiem
 1. Kreisās puses rūtī atlasiet nomnieka **darbus**.
 1. Nomnieka **darbu lapā** atrodiet un atlasiet sarakstā vietas kopijas darbu. Rūts parādās labajā pusē un parāda atlasītā darba statusu un detaļas.
 
-Jūs varat atcelt darbu, kura statuss ir **Notiek**. Atlasiet sarakstā darbu un pēc tam darbību **rūtī** atlasiet Atcelt.
+Jūs varat atcelt darbu, kura statuss ir **Notiek**. Atlasiet sarakstā darbu un pēc tam komandjoslā **atlasiet** Atcelt.
 
-Jūs varat mēģināt vēlreiz darbu, kura statuss ir Neizdevās **vai** Pabeigts **ar kļūdām**. Atlasiet sarakstā darbu un pēc tam darbību **rūtī atlasiet** Mēģināt vēlreiz.
+Jūs varat mēģināt vēlreiz darbu, kura statuss ir Neizdevās **vai** Pabeigts **ar kļūdām**. Atlasiet sarakstā darbu un pēc tam komandu joslā **atlasiet** Mēģināt vēlreiz.
 
 > [!NOTE]
 > Video līdzekļu apstrāde var turpināties pēc tam, kad ir pabeigts vietnes kopēšanas darbs.

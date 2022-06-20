@@ -1,6 +1,6 @@
 ---
 title: Krājumu buferu un krājumu līmeņu konfigurēšana
-description: Šajā tēmā ir paskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka krājumu pieejamības ziņojumapmaiņu Microsoft Dynamics 365 Commerce vietnēs.
+description: Šajā rakstā ir izskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka krājumu pieejamības ziņojumapmaiņu vietnēs Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853797"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Krājumu buferu un krājumu līmeņu konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka ziņojumapmaiņu par krājumu pieejamību Microsoft Dynamics 365 Commerce vietnēs.
+Šajā rakstā ir izskaidrots, kā konfigurēt krājumu buferus un krājumu līmeņus, kas nosaka ziņojumapmaiņu par krājumu pieejamību vietnēs Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce Headquarters atrodas krājumu dati un dažādi kanāli, piemēram, pārdošanas punkta (POS) programmas, e-komercijas veikali un citas pielāgotas integrētas programmas, kas asinhroni izgrūž un pievelk krājumus. Tāpēc pieejamās krājumu vērtības, kas tiek iegūtas, izmantojot rīcībā esošo krājumu lapu Commerce Headquarters ar POS lietotāja interfeisu (UI) un e-tirdzniecības krājumu pieejamības API, reāllaikā ne vienmēr ir 100 procentīgi precīzas.
 

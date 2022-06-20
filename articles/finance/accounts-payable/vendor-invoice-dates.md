@@ -1,6 +1,6 @@
 ---
 title: Kreditora rēķinu datumi
-description: Šajā tēmā aprakstīti datumi, kas parādās kreditoru rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
+description: Šajā rakstā ir aprakstīti datumi, kas ir redzami kreditora rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876417"
 ---
 # <a name="vendor-invoice-dates"></a>Kreditora rēķinu datumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīti datumi, kas parādās kreditoru rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
+Šajā rakstā ir aprakstīti datumi, kas ir redzami kreditora rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
 
 Lapā **Detalizētā informācija par nenokārtoto kreditora rēķinu** rēķina virsraksts rāda četrus datumus: rēķina saņemšanas datumu, rēķina datumu, grāmatošanas datumu un apmaksas datumu. Pēc kreditora rēķina izveidošanas pēc noklusējuma tiek ievadīti šādi datumi:
 
@@ -37,7 +37,7 @@ Lapā **Detalizētā informācija par nenokārtoto kreditora rēķinu** rēķina
 
 Dažreiz kreditora rēķins var būt gaidīšanas stāvoklī ilgu laiku pēc perioda slēgšanas. Kad tas ir gatavs grāmatošanai, iepriekšējā grāmatošanas perioda vecais grāmatošanas datums joprojām tiek izmantots. Tomēr šis periods tagad ir slēgts. Tādēļ kreditora (AP) darbiniekam manuāli jāmaina visus grāmatošanas datumus uz jaunu grāmatošanas periodu visiem iepriekš izveidotajiem neapmaksātajiem rēķiniem.
 
-Šajā tēmā aprakstītais līdzeklis ļauj iestatīt sistēmu tā, lai tā automātiski koriģētu grāmatošanas datumu atbilstoši biznesa prasībām.
+Šajā rakstā aprakstītā funkcija ļauj iestatīt sistēmu tā, lai tā automātiski koriģētu grāmatošanas datumu atbilstoši biznesa prasībām.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parametrs kreditora rēķina grāmatošanas datuma automātiskai pielāgošanai
 

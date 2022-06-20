@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
-description: Šajā tēmā aprakstīts, kā veidot klientu atbildes lapas statusa koda kļūdām 4xx un 5xx, izmantojot autorēšanas rīkus risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā veidot pielāgotas atbilžu lapas 4xx un 5xx statusa koda kļūdām, izmantojot autorizēšanas rīkus sadaļā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b56d7a58659205ce4483480fd85d1c91ae52a0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882263"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā veidot klientu atbildes lapas statusa koda kļūdām 4xx un 5xx, izmantojot autorēšanas rīkus risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā veidot pielāgotas atbilžu lapas 4xx un 5xx statusa koda kļūdām, izmantojot autorizēšanas rīkus sadaļā Microsoft Dynamics 365 Commerce.
 
 Ja pieprasījums ir neveiksmīgs, serveris izdod HTTP statusa koda kļūdas atbildes. 404 statusa kods tiek iegūts un atgriezts, ja lapa netiek atrasta, un 500 statusa kods tiek iegūts un atgriezts servera kļūdas gadījumā. Lietojumprogrammā Dynamics 365 Commerce lietotāji var izveidot pielāgotas statusa koda kļūdas atbilžu lapas, kas tiek rādītas lietotājiem saistībā ar šīm statusa koda kļūdām.
 

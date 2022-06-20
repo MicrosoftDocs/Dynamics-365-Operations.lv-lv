@@ -1,6 +1,6 @@
 ---
-title: Iestatīt noklusējuma aprakstus automātiskai grāmatošanai
-description: Šajā tēmā skaidrots, kā iestatīt noklusējuma tekstu, kas tiek lietots, lai aprakstītu uzskaites ierakstus, kas tiek automātiski grāmatoti Virsgrāmatā. Varat iestatīt noklusējuma apraksta tekstu, izmantojot brīvformas tekstu vai izvēloties fiksētus mainīgos.
+title: Noklusējuma aprakstu iestatīšana automātiskai grāmatošanai
+description: Šajā rakstā skaidrots, kā iestatīt noklusējuma tekstu, kas tiek izmantots, lai aprakstītu uzskaites ierakstus, kas automātiski tiek grāmatoti Virsgrāmatā. Varat iestatīt noklusējuma apraksta tekstu, izmantojot brīvformas tekstu vai izvēloties fiksētus mainīgos.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904504"
 ---
-# <a name="set-up-default-descriptions-for-automatic-posting"></a>Iestatīt noklusējuma aprakstus automātiskai grāmatošanai
+# <a name="set-up-default-descriptions-for-automatic-posting"></a>Noklusējuma aprakstu iestatīšana automātiskai grāmatošanai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt noklusējuma tekstu, kas tiek lietots, lai aprakstītu uzskaites ierakstus, kas tiek automātiski grāmatoti Virsgrāmatā. Varat iestatīt noklusējuma apraksta tekstu, izmantojot brīvformas tekstu vai izvēloties fiksētus mainīgos.
+Šajā rakstā skaidrots, kā iestatīt noklusējuma tekstu, kas tiek izmantots, lai aprakstītu uzskaites ierakstus, kas automātiski tiek grāmatoti Virsgrāmatā. Varat iestatīt noklusējuma apraksta tekstu, izmantojot brīvformas tekstu vai izvēloties fiksētus mainīgos.
 
 > [!NOTE]
-> Dažiem darbību tipiem dažās valstīs vai reģionos var ietvert arī tekstu no laukiem, kas saistīti ar šiem darbību tipiem. Sarakstu ar darbību tipiem, kā arī valstīm un reģioniem, skatiet sadaļu [Papildus: pievienot citu tekstu noklusējuma aprakstiem](#optional-add-other-text-to-default-descriptions) tālāk šajā tēmā.
+> Dažiem darbību tipiem dažās valstīs vai reģionos var ietvert arī tekstu no laukiem, kas saistīti ar šiem darbību tipiem. Lai skatītu darbību tipu sarakstu un valstis un reģionus, skatiet sadaļu [Nav obligāti: pievienojiet citu tekstu noklusējuma aprakstu](#optional-add-other-text-to-default-descriptions) tālāk šajā rakstā.
 
 ## <a name="set-up-default-descriptions"></a>Noklusējuma aprakstu iestatīšana
 
@@ -78,7 +78,7 @@ Varat pievienot citu tekstu transakciju veidu noklusējuma aprakstiem, kas saist
 
 ### <a name="add-text-to-default-descriptions"></a>Pievienot tekstu noklusējuma aprakstiem
 
-Kad pabeidzat iepriekš šajā tēmā aprakstītos soļus sadaļā [Noklusējuma aprakstu iestatīšana](#set-up-default-descriptions), rīkojieties šādi, lai pievienotu citu tekstu noklusējuma aprakstiem.
+Pēc tam, kad esiet [pabeidzis (-usi) darbības sadaļā Iestatīt noklusējuma aprakstus](#set-up-default-descriptions) iepriekš šajā rakstā, sekojiet šiem soļiem, lai pievienotu citu tekstu noklusējuma aprakstiem.
 
 1. Kopsavilkuma cilnē **Parametri** atlasiet **Pievienot**.
 2. Laukā **Atsauču tabula** atlasiet datu bāzes tabulu, no kuras pievienot parametru datu aprakstam.

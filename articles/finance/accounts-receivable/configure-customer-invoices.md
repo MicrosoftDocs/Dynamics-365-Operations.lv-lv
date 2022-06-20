@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876330"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -32,13 +32,10 @@ Brīva **teksta rēķins** nav saistīts ar pārdošanas pasūtījumu. Tajā ir 
 
 Plašāku informāciju skatiet:
 
-[Izveidot brīvā teksta rēķinus](../accounts-receivable/create-free-text-invoice-new.md)
-
-[Brīva teksta rēķina veidnes izveide](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Brīva teksta rēķina veidnes piešķiršana debitoram](tasks/assign-free-text-invoice-template-customer.md)
-
-[Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana](tasks/post-recurring-free-text-invoices.md)
+[Izveidot brīva teksta rēķinus Izveidot brīva teksta rēķina veidni
+](../accounts-receivable/create-free-text-invoice-new.md)[Piešķirt brīva teksta rēķina](../accounts-receivable/create-free-text-invoice-template-new.md)[
+ veidni debitoram Ģenerēt un grāmatot periodiskus](tasks/assign-free-text-invoice-template-customer.md)
+[brīva teksta rēķinus](tasks/post-recurring-free-text-invoices.md)
 
 
 Pro **forma rēķins** ir rēķins, kas tiek sagatavots kā faktisko rēķina summu novērtējums pirms rēķina grāmatošanas. Pro forma rēķinu **var drukāt** debitora rēķinam par pārdošanas pasūtījumu vai brīva teksta rēķinam. 
@@ -91,8 +88,8 @@ Debitoru parādu parametru lapas cilnē Kopgrāmatošana **var konfigurēt pārd
  - Atlasiet opciju **Sadalīt, pamatojoties uz rēķina atrašanās** vietu, lai grāmatojot izveidotu vienu rēķinu no vienas vietas. 
  - Atlasiet opciju **Sadalīt, pamatojoties uz rēķina piegādes informāciju**, lai grāmatojot izveidotu vienu rēķinu pārdošanas pasūtījuma rindas piegādes adresei. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Grāmatot ieņēmumu kontā pārdošanas pasūtījuma rindām, kurās nav cenas
-Ir pieejama opcija virsgrāmatas ieņēmumu konta atjaunināšanai **pārdošanas** **pasūtījuma rindām**, kurām nav cenas. Lai iestatītu vai skatītu šo informāciju, **·** **·** **dodieties uz kontu Grāmatot ieņēmumu kontā nulles cenas pārdošanas pasūtījuma rēķina rindu parametram cilnē Virsgrāmata un PVN lapā Debitoru parādu** parametri. (**Debitoru parādi > debitoru > parametru iestatīšanai**). Atlasiet **Jā**, lai atjauninātu **ieņēmumu** kontu pārdošanas pasūtījuma rēķina rindām, kam nav cenas. Ieņēmumu konts ir definēts krājumu grāmatošanas **parametru** lapā pārdošanas **pasūtījuma konta** definīcijas cilnē. Ja nav atlasīta šī opcija, rindas, kurās nav sniegta cenu informācija, ieņēmumu kontā netiks **grāmatotas**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Grāmatot ieņēmumu kontā pārdošanas pasūtījuma rindām, kurās nav cenas un izmaksu
+Ir pieejama opcija, lai **virsgrāmatā** **atjauninātu ieņēmumu kontu pārdošanas** pasūtījuma rindām, kurām nav cenas un izmaksu. Lai iestatītu vai skatītu šo informāciju, **·** **·** **dodieties** uz kontu Grāmatot ieņēmumu kontā nulles cenai un nulles izmaksu pārdošanas pasūtījuma rēķina rindu parametru cilnē Virsgrāmata un PVN lapā Debitoru parādu parametri. (**Debitoru parādi > debitoru > parametru iestatīšanai**). Atlasiet **Jā,** lai atjauninātu **ieņēmumu** kontu pārdošanas pasūtījuma rēķina rindām, kam nav cenas un nav izmaksu. Ja ir atlasīta šī opcija, dokumentā būs 0,00 ieraksti debitoru bilances **un ieņēmumu** grāmatošanas **tipiem**. Ieņēmumu konts ir definēts krājumu grāmatošanas **parametru** lapā pārdošanas **pasūtījuma konta** definīcijas cilnē. Ja nav atlasīta šī opcija, rindas, kurās nav cenas vai izmaksu informācijas, netiek grāmatotas ieņēmumu **kontā**. Tā vietā dokumentā būs 0,00 ieraksts debitora bilances **grāmatošanas** tipam.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildu iestatījumi, kas maina grāmatošanas darbību
 Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.

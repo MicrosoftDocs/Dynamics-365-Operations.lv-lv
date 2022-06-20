@@ -1,6 +1,6 @@
 ---
 title: Tiešsaistes kanālu pārskatu ģenerēšana
-description: Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā ģenerēt pārskatus tiešsaistes kanālā Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96127b0aff213effae9519d461e6451598918ab8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909420"
 ---
 # <a name="generate-online-channel-reports"></a>Tiešsaistes kanālu pārskatu ģenerēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot pārskatus savam tiešsaistes kanālam programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā ģenerēt pārskatus tiešsaistes kanālā Microsoft Dynamics 365 Commerce.
 
 Varat izveidot un apskatīt vairākus pārskatus Commerce, lai redzētu, kā darbojas jūsu tiešsaistes kanāls.
 

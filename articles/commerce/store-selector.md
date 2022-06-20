@@ -1,6 +1,6 @@
 ---
-title: Veikala atlasītāja modulis
-description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+title: Veikalu atlasītāja modulis
+description: Šajā rakstā ir apskatīts veikala atlases modulis un aprakstīts, kā pievienot to vietnes lapām sadaļā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881687"
 ---
 # <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīts veikala atlases modulis un aprakstīts, kā pievienot to vietnes lapām sadaļā Microsoft Dynamics 365 Commerce.
 
 Klienti var izmantot veikala atlasītāja moduli, lai paņemtu preci atlasītajā veikalā pēc tiešsaistes pirkšanas. Commerce versijā 10.0.13 veikala atlasītāja modulis ietver arī papildu iespējas, kas var parādīt lapu **Atrast veikalu**, kurā redzami tuvumā esošie veikali.
 
@@ -132,7 +132,7 @@ Veikala atlasītājam modulim tiek ievērots [Iestatījums Pievienot preci groza
 - Lai iegūtu informāciju par to, kā pievienot veikala atlasītāja moduli pirkšanas kastes modulim skatiet rakstu [Pirkšanas kastes modulis](add-buy-box.md). 
 - Lai iegūtu informāciju par to, kā pievienot veikala atlasītāja moduli groza modulim skatiet rakstu [Groza modulis](add-cart-module.md)
 
-Lai konfigurētu veikala atlasītāja moduli, lai rādītu veikala atrašanās vietu lapu pieejamos veikalus, kā iepriekš šajā tēmā attēlotajā ilustrācijā, veiciet sekojošās darbības.
+Lai konfigurētu veikala atlases moduli, lai veikalu atrašanās vietu lapai rādītu pieejamos veikalus, kā parādīts šī raksta iepriekš redzamajā ilustrācijā, veiciet šīs darbības.
 
 1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņa Jauna **veidne sadaļā** Veidnes nosaukums, **ievadiet** Mārketinga **veidne un** pēc tam atlasiet **Labi**.

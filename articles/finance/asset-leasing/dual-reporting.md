@@ -1,6 +1,6 @@
 ---
 title: Duālie pārskati
-description: Šajā tēmā ir sniegts piemērs, kā varat izpildīt gan starptautiskā finanšu pārskatu standarta (International Financial Reporting Standard — IFRS), gan likumā noteiktās prasības pārskatiem līdzekļu nomā.
+description: Šajā rakstā ir aprakstīts piemērs, kā varat izpildīt gan Starptautiskā finanšu pārskata standarta (IFRS) pārskatu, gan likumā noteikto pārskatu sniegšanu Pamatlīdzekļu izlaižot.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886376"
 ---
 # <a name="dual-reporting"></a>Duālie pārskati
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts piemērs, kā varat izpildīt gan starptautiskā finanšu pārskatu standarta (International Financial Reporting Standard — IFRS), gan likumā noteiktās prasības pārskatiem līdzekļu nomā. Ir nepieciešama pārzina uzskaites līmeņi Microsoft Dynamics 365 Finansēs, un tas atvieglos šī piemēra izprotšanu.
+Šajā rakstā ir aprakstīts piemērs, kā varat izpildīt gan Starptautiskā finanšu pārskata standarta (IFRS) pārskatu, gan likumā noteikto pārskatu sniegšanu Pamatlīdzekļu izlaižot. Ir nepieciešama pārzina uzskaites līmeņi Microsoft Dynamics 365 Finansēs, un tas atvieglos šī piemēra izprotšanu.
 
 ## <a name="example"></a>Paraugs
 

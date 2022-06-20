@@ -1,6 +1,6 @@
 ---
 title: Iespējot nokavētā nodokļa aprēķinu žurnālos
-description: Šajā tēmā ir paskaidrots, kā ieslēgt līdzekli Aizkavēta nodokļa aprēķins, lai palīdzētu uzlabot nodokļu aprēķinu veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
+description: Šajā rakstā skaidrots, kā ieslēgt atliktā nodokļu aprēķina funkciju, lai palīdzētu uzlabot nodokļu aprēķinu veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887924"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Iespējot nokavētā nodokļa aprēķinu žurnālos
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā paskaidrots, kā var aizkavēt PVN aprēķinu žurnālos. Šī iespēja palīdz uzlabot nodokļu aprēķinu veiktspēju, ja ir daudz žurnāla rindu.
+Šajā rakstā skaidrots, kā var atlikt PVN aprēķināšanu žurnālos. Šī iespēja palīdz uzlabot nodokļu aprēķinu veiktspēju, ja ir daudz žurnāla rindu.
 
 Pēc noklusējuma PVN summas žurnāla rindās tiek aprēķinātas ik reizi, kad tiek atjaunināti ar nodokļiem saistīti lauki. Šie lauki iekļauj laukus PVN grupām un krājumu PVN grupām. Atjauninot jebkuru žurnāla rindu, nodokļu summas ir jāpārrēķina visām žurnāla rindām. Kaut arī šī darbība palīdz lietotājam skatīt nodokļu summas, kas aprēķinātas reāllaikā, tā var ietekmēt veiktspēju, ja žurnāla rindu skaits ir ļoti liels.
 

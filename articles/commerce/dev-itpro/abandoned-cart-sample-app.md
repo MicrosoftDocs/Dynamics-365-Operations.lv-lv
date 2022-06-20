@@ -1,6 +1,6 @@
 ---
 title: Noteikt pamestos grozus un nosūtīt klientiem paziņojumus
-description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce pielāgot atstāto groza savienotāja parauga programmu, lai noteiktu atstātos grozus un sūtīt atgādinājumu e-pasta paziņojumus debitoriem.
+description: Šajā rakstā ir aprakstīts, kā pielāgot atstāto Microsoft Dynamics 365 Commerce groza savienotāja parauga programmu, lai noteiktu atstātos grozus un sūtīt atgādinājumu e-pasta paziņojumus debitoriem.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899214"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Noteikt pamestos grozus un nosūtīt klientiem paziņojumus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce pielāgot atstāto groza savienotāja parauga programmu, lai noteiktu atstātos grozus un sūtīt atgādinājumu e-pasta paziņojumus debitoriem.
+Šajā rakstā ir aprakstīts, kā pielāgot atstāto Microsoft Dynamics 365 Commerce groza savienotāja parauga programmu, lai noteiktu atstātos grozus un sūtīt atgādinājumu e-pasta paziņojumus debitoriem.
 
 Spēja atgūt ieņēmumus un aizturēt debitorus, izmantojot atstātus groza paziņojumus, ir svarīga iespēja, kas Dynamics 365 Commerce atbalsta. Pielāgojot Commerce atstāto groza savienotāja parauga programmu, mazumtirgotāji var piekļūt iepirkumu groziem sistēmā Retail Server, kas netika modificēti laika logā, ko nosaka mazumtirgotāji. Šos grozus pēc tam var izgūt, palielināt ar produkta un debitora datiem un pārsūtīt trešās puses e-pasta mārketinga nodrošinātājam, kas var ģenerēt e-pasta paziņojumus un nosūtīt tiem klientus.
 
@@ -52,7 +52,7 @@ Savienotāja modelis, ko korporācija Microsoft nodrošina, izmantojot mazumtird
 
 ## <a name="obtain-the-code-sample"></a>Iegūt koda paraugu
 
-Atstātā groza savienotāja parauga programma ir iekļauta Retail SDK versijā 10.0.16. Kodu var atrast šeit: **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Papildinformāciju par mazumtirdzniecības SDK un to, kur to iegūt, skatiet mazumtirdzniecības [programmatūras izstrādes komplekts (SDK](retail-sdk/retail-sdk-overview.md)).
+Atstātā groza savienotāja parauga programma ir iekļauta Retail SDK versijā 10.0.16. Kodu var atrast šeit: **\\RetailSDK\\Code\\SampleExtensions\\RetailServer\\Extensions.AbandonedCartSample**. Papildinformāciju par mazumtirdzniecības SDK un to, kur to iegūt, skatiet mazumtirdzniecības [programmatūras izstrādes komplekts (SDK)](retail-sdk/retail-sdk-overview.md).
 
 > [!NOTE]
 > Kaut arī parauga kods pirmo reizi ir pieejams versijā 10.0.16, tas ir saderīgs ar versiju 10.0.13 un vēlākiem Retail Server būvējumus.
@@ -160,6 +160,6 @@ Ja izmantojat e-komercijas iespējas pakalpojumā Commerce, varat izmantot Comme
 | ImageViewPorts/skatījums              | Skatījuma definīcija. Izmantojiet šo rekvizītu, lai norādītu skata skata diapazonu pikseļos. Piemēram, parādot šī rekvizīta piejaukums, skatiet **appSettings.json** konfigurācijas failu. |
 | ImageViewPorts/imageWidth            | Skatījuma attēla platums pikseļos. |
 | imageViewPorts/imageHecaur           | Skatījuma attēla augstums pikseļos. |
-| imageViewPorts/useForDefaultImageTag | Truefalse **·**/**·**`<picture>` vērtība, kas norāda, vai ar skatījumu definētās attēla dimensijas ir jāizmanto, ja HTML tags netiek atbalstīts tīmekļa pārlūkam vai e-pasta klientam. |
+| imageViewPorts/useForDefaultImageTag | Pareiza **aplama**/**vērtība**, `<picture>` kas norāda, vai ar skatījumu definētās attēla dimensijas ir jāizmanto, ja HTML tags netiek atbalstīts tīmekļa pārlūkam vai e-pasta klientam. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

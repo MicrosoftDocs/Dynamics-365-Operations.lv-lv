@@ -1,6 +1,6 @@
 ---
 title: Reģistrēties elektronisko rēķinu izrakstīšanas pakalpojumā un instalēt to
-description: Šajā tēmā sniegta informācija, kā pieteikties elektronisko rēķinu izrakstīšanas pakalpojumu un to instalēt.
+description: Šajā rakstā ir sniegta informācija, kā pierakstīties uz elektronisko rēķinu izrakstīšanas pakalpojumu un to instalēt.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865531"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Reģistrēties elektronisko rēķinu izrakstīšanas pakalpojumā un instalēt to
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegta informācija, kā pieteikties elektronisko rēķinu izrakstīšanas pakalpojumu un to instalēt. Šim procesam ir četri soļi. Ir jāveic 1. līdz 3. darbība, un 4. solis nav obligāts.
+Šajā rakstā ir sniegta informācija, kā pierakstīties uz elektronisko rēķinu izrakstīšanas pakalpojumu un to instalēt. Šim procesam ir četri soļi. Ir jāveic 1. līdz 3. darbība, un 4. solis nav obligāts.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>1. darbība: pierakstīšanās regulēšanas konfigurācijas pakalpojumā
 
@@ -38,7 +38,7 @@ Lai pierakstītos uz RCS, dodieties uz lapu [Regulēšanas konfigurācijas](http
 
 ### <a name="step-2-install-the-add-in-for-microservices-in-microsoft-dynamics-lifecycle-services"></a>2. darbība: mikropakāpju pievienojumprogrammas instalēšana pakalpojumos Microsoft Dynamics Lifecycle Services
 
-Elektronisko rēķinu izrakstīšanas pakalpojums ir mikropakoņu kopa, kas tiek viesota Microsoft datacenters. Pēc noklusējuma debitoriem Dynamics 365 Finance un Dynamics 365 Supply Chain Management nav piekļuves elektronisko rēķinu izrakstīšanas pakalpojumam. Jums tā ir jāinstalē kā pievienojumprogramma programmā Microsoft Dynamics Lifecycle Services (LCS). Kad instalējat pievienojumprogrammu, finanšu vai piegādes ķēdes pārvaldības vide tiek reģistrēta to programmu reģistrā, kurām ir atļauts izveidot savienojumu ar Elektronisko rēķinu izrakstīšanas pakalpojumu.
+Elektronisko rēķinu izrakstīšanas pakalpojums ir mikropakoņu kopa, kas tiek viesota Microsoft datacenters. Pēc noklusējuma Dynamics 365 finanšu debitoriem Dynamics 365 Supply Chain Management nav piekļuves elektronisko rēķinu izrakstīšanas pakalpojumam. Jums tā ir jāinstalē kā pievienojumprogramma programmā Microsoft Dynamics Lifecycle Services (LCS). Kad instalējat pievienojumprogrammu, finanšu vai piegādes ķēdes pārvaldības vide tiek reģistrēta to programmu reģistrā, kurām ir atļauts izveidot savienojumu ar Elektronisko rēķinu izrakstīšanas pakalpojumu.
 
 Lai veiktu šo darbību, skatiet [programmu Programmu Lifecycle Services pievienojumprogrammu pakalpojumam Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md).
 

@@ -1,6 +1,6 @@
 ---
 title: E-pasta ziņojumu veidņu izveide transakciju notikumiem
-description: Šajā tēmā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910554"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
 [!include [banner](includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce sniedz standarta risinājumu e-pasta ziņojumu nosūtīšanai, kas brīdina debitorus par darbību notikumiem. Piemēram, e-pasta ziņojumi var tikt nosūtīti, kad pasūtījums ir ievietots, ir gatavs savākšanai vai arī ir nosūtīts. Šajā tēmā aprakstīti soļi, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes, kas tiek izmantotas, lai nosūtītu darbības e-pasta ziņojumus.
+Dynamics 365 Commerce sniedz standarta risinājumu e-pasta ziņojumu nosūtīšanai, kas brīdina debitorus par darbību notikumiem. Piemēram, e-pasta ziņojumi var tikt nosūtīti, kad pasūtījums ir ievietots, ir gatavs savākšanai vai arī ir nosūtīts. Šajā rakstā ir aprakstītas darbības e-pasta ziņojumu, kas tiek izmantoti darbību e-pasta ziņojumu sūtīšanai, izveidošanai, augšupielādei un konfigurēšanai.
 
 ## <a name="notification-types"></a>Paziņojumu veidi
 

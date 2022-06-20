@@ -1,6 +1,6 @@
 ---
 title: Krājumu vērtības pārskatu piemēri un loģika
-description: Šajā tēmā sniegti daži rezultātu piemēri, kas uzrādīti katram krājumu vērtības pārskata tipam. Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām.
+description: Šajā rakstā sniegti daži rezultātu piemēri, kas parādīti katram krājumu vērtības pārskata tipam. Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877658"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Krājumu vērtības pārskatu piemēri un loģika
 
 [!include [banner](../includes/banner.md)]
 
-Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām. Šajā tēmā sniegti daži rezultātu piemēri, kas uzrādīti katram krājumu vērtības pārskata tipam.
+Krājumu vērtību pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām. Šajā rakstā sniegti daži rezultātu piemēri, kas parādīti katram krājumu vērtības pārskata tipam.
 
 Papildinformāciju par to, kā ģenerēt un izmantot katru krājumu vērtības pārskata tipu, skatiet krājumu [vērtību pārskatos](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Šajos piemēros izmantotie parauga dati
 
-Šīs tēmas piemēri ir balstīti uz parauga krājumu darbību datiem, kas aprakstīti šajā sadaļā.
+Šī raksta piemēri ir balstīti uz krājumu darījumu parauga datiem, kas ir aprakstīti šajā sadaļā.
 
 ### <a name="storage-dimension-setup"></a>Noliktavas dimensiju iestatīšana
 
@@ -70,12 +70,12 @@ Piemēram sistēma ietver krājumu vērtības pārskata konfigurāciju, kas satu
 
 ## <a name="inventory-value-report-example-1"></a>Krājumu vērtības pārskata 1. piemērs
 
-Šajā tabulā un ilustrācijās ir attēloti rezultāti, kas iegūti, izmantojot parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā tēmā.
+Šajā tabulā un ilustrācijās ir attēloti rezultāti, kas iegūti, izmantojot parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā rakstā.
 
 | Resursa tips | Resurss | Vietne | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa | Vidējās vienības izmaksas |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Materiāls | B0001(s) | 1 | Beigu bilance | 9.00 | 908.33 | 5.00 | 375.00 | 14,00 | 1,283.33 | 91.67 |
-| Materiāls | B0001(s) | 2 | Beigu bilance | 10,00 | 2,000.00 | 0.00 | 0.00 | 10,00 | 2,000.00 | 200.00 |
+| Materiāls | B0001(s) | 2 | Beigu bilance | 10,00 | 2,000.00 | 0,00 | 0,00 | 10,00 | 2,000.00 | 200.00 |
 
 ### <a name="standard-inventory-value-report-for-example-1"></a>Piemēram, standarta krājumu vērtības pārskats 1
 
@@ -91,21 +91,21 @@ Piemēram sistēma ietver krājumu vērtības pārskata konfigurāciju, kas satu
 
 ## <a name="inventory-value-report-example-2"></a>Krājumu vērtības pārskata 2. piemērs
 
-Šajā tabulā un ilustrācijās ir attēloti rezultāti, kad lietojat iepriekš šajā tēmā aprakstītos parauga datus, **·** *bet* pārskata konfigurācijā vērtību no lauka Līmenis var mainīt uz Darbības un, palaižot pārskatu, **·** *lauku No datuma iestatāt uz 15*. marts.
+Šajā tabulā un ilustrācijās ir attēloti rezultāti, kad lietojat parauga datus, kas ir aprakstīti iepriekš šajā rakstā, **·** *bet* pārskata konfigurācijā vērtību no lauka Līmenis var mainīt uz Darbības un, **·** *palaižot pārskatu, lauku No datuma iestatāt uz 15*. marts.
 
 | Resursa tips | Resurss | Vietne | Datums | Numurs | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 0.00 | 0.00 | 10,00 | 1,000.00 | **10,00** | **1,000.00** |
+| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 0,00 | 0,00 | 10,00 | 1,000.00 | **10,00** | **1,000.00** |
 | Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 10,00 | 1,000.00 | -10,00 | -1000,00 | **0.00** | **0.00** |
-| Materiāls | B0001(s) | 1 | 4/15/2021 | 00000128 | Pirkšanas pasūtījums | 0.00 | 0.00 | 5.00 | 375.00 | **5.00** | **375.00** |
-| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | -5,00 | -458,33 | 0.00 | 0.00 | **-5.00** | **-458.33** |
-| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 5.00 | 458.33 | 0.00 | 0.00 | **5.00** | **458.33** |
-| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | 0.00 | 0.00 | -1,00 | -91,67 | **-1.00** | **-91.67** |
+| Materiāls | B0001(s) | 1 | 4/15/2021 | 00000128 | Pirkšanas pasūtījums | 0,00 | 0,00 | 5.00 | 375.00 | **5.00** | **375.00** |
+| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | -5,00 | -458,33 | 0,00 | 0,00 | **-5.00** | **-458.33** |
+| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 5.00 | 458.33 | 0,00 | 0,00 | **5.00** | **458.33** |
+| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | 0,00 | 0,00 | -1,00 | -91,67 | **-1.00** | **-91.67** |
 | Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | -1,00 | -91,67 | 1.00 | 91.67 | **0.00** | **0.00** |
-| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 0.00 | 0.00 | 10,00 | 2,000.00 | **10,00** | **2,000.00** |
+| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 0,00 | 0,00 | 10,00 | 2,000.00 | **10,00** | **2,000.00** |
 | Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 10,00 | 2,000.00 | -10,00 | -2000,00 | **0.00** | **0.00** |
-| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 5.00 | 458.33 | 0.00 | 0.00 | **5.00** | **458.33** |
-| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | -5,00 | -458,33 | 0.00 | 0.00 | **-5.00** | **-458.33** |
+| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 5.00 | 458.33 | 0,00 | 0,00 | **5.00** | **458.33** |
+| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | -5,00 | -458,33 | 0,00 | 0,00 | **-5.00** | **-458.33** |
 
 ### <a name="standard-inventory-value-report-for-example-2"></a>Piemēram, standarta krājumu vērtības pārskats 2
 
@@ -127,32 +127,32 @@ Tālāk minētās apakšsadaļas parāda krājumu vērtību pārskatus, kas ģen
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>3. piemērs, kad tiek izmantots kopsummas līmenis
 
-Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā tēmā. (Šajā pārskata konfigurācijā: **Līmeņa** lauks ir iestatīts uz *Kopsummas*.)
+Šajā tabulā ir parādīti rezultāti, izmantojot parauga datus un pārskata konfigurāciju, kas ir aprakstīta iepriekš šajā rakstā. (Šajā pārskata konfigurācijā: **Līmeņa** lauks ir iestatīts uz *Kopsummas*.)
 
 | Resursa tips | Resurss | Vietne | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa | Vidējās vienības izmaksas |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Materiāls | B0001(s) | 1 | Beigu bilance | 9.00 | 900.00 | 5.00 | 375.00 | 14,00 | 1,275.00 | 91.07 |
-| Materiāls | B0001(s) | 2 | Beigu bilance | 10,00 | 2,000.00 | 0.00 | 0.00 | 10,00 | 2,000.00 | 200.00 |
+| Materiāls | B0001(s) | 2 | Beigu bilance | 10,00 | 2,000.00 | 0,00 | 0,00 | 10,00 | 2,000.00 | 200.00 |
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>3. piemērs, kad tiek izmantots Darījumu līmenis
 
-Šajā tabulā ir parādīti rezultāti, kad izmantojat parauga datus, kas ir aprakstīti iepriekš šajā tēmā, **·** *bet* pārskata konfigurācijā maināt lauka Līmenis vērtību uz Darbības.
+Šajā tabulā ir parādīti rezultāti, ja lietojat parauga datus, kas ir aprakstīti iepriekš šajā rakstā, **·** *bet* pārskata konfigurācijā maināt lauka Līmenis vērtību uz Darbības.
 
 | Resursa tips | Resurss | Vietne | Datums | Numurs | Atsauce | Krājumi: finansiālais daudzums | Krājumi: finanšu summa | Krājumi: grāmatotais fiziski pieejamais daudzums | Krājumi: grāmatotā fiziski pieejamā summa | Krājumi: daudzums | Krājumi: summa |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 0.00 | 0.00 | 10,00 | 1,000.00 | 10,00 | 1,000.00 |
-| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 10,00 | 1,000.00 | -10,00 | -1000,00 | 0.00 | 0.00 |
-| Materiāls | B0001(s) | 1 | 4/15/2021 | 00000128 | Pirkšanas pasūtījums | 0.00 | 0.00 | 5.00 | 375.00 | 5.00 | 375.00 |
-| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | -5,00 | -458,33 | 0.00 | 0.00 | -5,00 | -458,33 |
-| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 5.00 | 458.33 | 0.00 | 0.00 | 5.00 | 458.33 |
-| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | 0.00 | 0.00 | -1,00 | -91,67 | -1,00 | -91,67 |
-| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | -1,00 | -91,67 | 1.00 | 91.67 | 0.00 | 0.00 |
-| Materiāls | B0001(s) | 1 | 5/31/2021 | 000835 | Pārdošanas pasūtījums | 0.00 | -8.33 | 0.00 | 0.00 | 0.00 | -8.33 |
-| Materiāls | B0001(s) | 1 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 0.00 | -41.67 | 0.00 | 0.00 | 0.00 | -41.67 |
-| Materiāls | B0001(s) | 1 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 0.00 | 41.67 | 0.00 | 0.00 | 0.00 | 41.67 |
-| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 0.00 | 0.00 | 10,00 | 2,000.00 | 10,00 | 2,000.00 |
-| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 10,00 | 2,000.00 | -10,00 | -2000,00 | 0.00 | 0.00 |
-| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 5.00 | 458.33 | 0.00 | 0.00 | 5.00 | 458.33 |
-| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | -5,00 | -458,33 | 0.00 | 0.00 | -5,00 | -458,33 |
-| Materiāls | B0001(s) | 2 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 0.00 | 41.67 | 0.00 | 0.00 | 0.00 | 41.67 |
-| Materiāls | B0001(s) | 2 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 0.00 | -41.67 | 0.00 | 0.00 | 0.00 | -41.67 |
+| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 0,00 | 0,00 | 10,00 | 1,000.00 | 10,00 | 1,000.00 |
+| Materiāls | B0001(s) | 1 | 3/15/2021 | 00000126 | Pirkšanas pasūtījums | 10,00 | 1,000.00 | -10,00 | -1000,00 | 0,00 | 0,00 |
+| Materiāls | B0001(s) | 1 | 4/15/2021 | 00000128 | Pirkšanas pasūtījums | 0,00 | 0,00 | 5.00 | 375.00 | 5.00 | 375.00 |
+| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | -5,00 | -458,33 | 0,00 | 0,00 | -5,00 | -458,33 |
+| Materiāls | B0001(s) | 1 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 5.00 | 458.33 | 0,00 | 0,00 | 5.00 | 458.33 |
+| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | 0,00 | 0,00 | -1,00 | -91,67 | -1,00 | -91,67 |
+| Materiāls | B0001(s) | 1 | 5/3/2021 | 000835 | Pārdošanas pasūtījums | -1,00 | -91,67 | 1.00 | 91.67 | 0,00 | 0,00 |
+| Materiāls | B0001(s) | 1 | 5/31/2021 | 000835 | Pārdošanas pasūtījums | 0,00 | -8.33 | 0,00 | 0,00 | 0,00 | -8.33 |
+| Materiāls | B0001(s) | 1 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 0,00 | -41.67 | 0,00 | 0,00 | 0,00 | -41.67 |
+| Materiāls | B0001(s) | 1 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 0,00 | 41.67 | 0,00 | 0,00 | 0,00 | 41.67 |
+| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 0,00 | 0,00 | 10,00 | 2,000.00 | 10,00 | 2,000.00 |
+| Materiāls | B0001(s) | 2 | 3/15/2021 | 00000127 | Pirkšanas pasūtījums | 10,00 | 2,000.00 | -10,00 | -2000,00 | 0,00 | 0,00 |
+| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 5.00 | 458.33 | 0,00 | 0,00 | 5.00 | 458.33 |
+| Materiāls | B0001(s) | 2 | 5/2/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | -5,00 | -458,33 | 0,00 | 0,00 | -5,00 | -458,33 |
+| Materiāls | B0001(s) | 2 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma nosūtīšanas p/z | 0,00 | 41.67 | 0,00 | 0,00 | 0,00 | 41.67 |
+| Materiāls | B0001(s) | 2 | 5/31/2021 | 000003 | Pārsūtīšanas pasūtījuma saņemšanas p/z | 0,00 | -41.67 | 0,00 | 0,00 | 0,00 | -41.67 |

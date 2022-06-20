@@ -1,6 +1,6 @@
 ---
 title: Kompensācijas debitoriem
-description: Šajā tēmā ir izskaidrots, kā debitoru grupai izveidot atlīdzināšanas darbības.
+description: Šajā rakstā ir skaidrots, kā debitoru grupai izveidot atlīdzināšanas transakcijas.
 author: JodiChristiansen
 ms.date: 09/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d464dd23d70e1a340211eb83828550d807a543
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 892b089edb16ba560f588c086d37faafdf16958d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891787"
 ---
 # <a name="reimburse-customers"></a>Kompensācijas debitoriem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā debitoru grupai izveidot atlīdzināšanas darbības. Ja debitoram ir kredīta bilance, varat atlīdzināt debitoram bilances summu. 
+Šajā rakstā ir skaidrots, kā debitoru grupai izveidot atlīdzināšanas transakcijas. Ja debitoram ir kredīta bilance, varat atlīdzināt debitoram bilances summu. 
 
 Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirms darba sākšanas.
 

@@ -1,6 +1,6 @@
 ---
-title: Pārskats par grozu un norēķināšanās lapām
-description: Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām programmā Microsoft Dynamics 365 Commerce.
+title: Groza un norēķināšanās lapu pārskats
+description: Šajā rakstā ir sniegts pārskats par groza un pārbaudes lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853771"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Groza un norēķināšanās lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir sniegts pārskats par groza un pārbaudes lapām Microsoft Dynamics 365 Commerce.
 
 Elektroniskās tirdzniecības tīmekļa vietnes groza lapā ir redzamas visas preces, ko klients pievienojis grozam. Groza lapa tiek izveidota, izmantojot groza moduli. Groza modulis ir konteiners, kas vieso visus moduļus, kas ir nepieciešami, lai parādītu grozā esošās preces. Groza modulis var izmantot arī citus moduļus, lai parādītu pasūtījumu kopsavilkumu un visus veicināšanas kodus, kas ir piemēroti klienta pasūtījumam.
 

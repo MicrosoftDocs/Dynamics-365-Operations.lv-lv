@@ -1,6 +1,6 @@
 ---
-title: Nav atrasts neviens atbilstošs rezultāts
-description: Šajā tēmā skaidrots, kā novērst problēmu, kas rodas "Nav atrodams neviens atbilstošs rezultāts" kļūda nodokļu aprēķina serivē.
+title: Neizdevās atrast nevienu atbilstošu rezultātu
+description: Šajā rakstā ir izskaidrots, kā novērst problēmu, kas rodas "Nav atrodams neviens atbilstošs rezultāts" kļūda nodokļu aprēķina serivē.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845149"
 ---
-# <a name="no-matching-result-could-be-found"></a>Nav atrasts neviens atbilstošs rezultāts
+# <a name="no-matching-result-could-be-found"></a>Neizdevās atrast nevienu atbilstošu rezultātu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidroti problēmu novēršanas soļi, ko varat veikt, ja nodokļu aprēķināšanas pakalpojumā saņemat kļūdu "Nav atrasts atbilstošs rezultāts".
+Šajā rakstā skaidroti problēmu novēršanas soļi, ko varat veikt, ja nodokļu aprēķināšanas pakalpojumā tiek saņemts kļūdas ziņojums "Nav atrasts atbilstošs rezultāts".
 
 ## <a name="symptom"></a>Simptoms
 
@@ -102,7 +102,7 @@ Problēma rodas, ja līdzekli iestatījums regulēšanas konfigurācijas pakalpo
     | Žurnāls                 |                     |                           | Grupa A   |
     | Pārdošana                   |                     | 30160                     | B grupa   |
 
-    Atbilstoši nodokļu pakalpojuma **aprēķina** **ievadei** biznesa procesa vērtība virsrakstā ir Pārdošana, **un** vērtība Nosūtīt no pasta indeksa virsrakstā ir **30159**. Šī ievade ir balstīta uz piemērojamības noteikumu iestatījumiem RCS. Tā kā nav atbilstoša rindas, rodas kļūda.
+    Atbilstoši nodokļu pakalpojuma **aprēķina** **ievadei** biznesa procesa vērtība virsrakstā ir Pārdošana, **un** vērtība Nosūtīt no pasta indeksa virsrakstā ir **30159.** Šī ievade ir balstīta uz piemērojamības noteikumu iestatījumiem RCS. Tā kā nav atbilstoša rindas, rodas kļūda.
 
     > [!NOTE]
     > Ja piemērojamības noteikuma vērtība ir tukša, kārtula ir piemērojama jebkurai vērtībai.

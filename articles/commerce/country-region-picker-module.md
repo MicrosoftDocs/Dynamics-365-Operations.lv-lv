@@ -1,6 +1,6 @@
 ---
 title: Valsts / reģiona atlasītāja modulis
-description: Šajā tēmā aprakstīts valsts/reģiona atlasītāja modelis un tā konfigurēšana Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir apskatīts valsts/reģiona atlasītāja modulis un aprakstīts, kā to konfigurēt Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861996"
 ---
 # <a name="countryregion-picker-module"></a>Valsts / reģiona atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts valsts/reģiona atlasītāja modelis un tā konfigurēšana Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīts valsts/reģiona atlasītāja modulis un aprakstīts, kā to konfigurēt Microsoft Dynamics 365 Commerce.
 
 Valsts/reģiona atlasītāja [modulis](geo-detection-redirection.md)Dynamics 365 Commerce izmanto ģeotektēšanas un novirzīšanas līdzekli, lai parādītu ieteiktās vietnes klientiem, kuri pieprasa e-komercijas vietnes URL, kas nav saistīts ar valsti vai reģionu.
 
@@ -38,7 +38,7 @@ Kad vietai ir iespējota ģeogrāfiskā noteikšana un virzienmaiņa, un debitor
 
 Ja pieprasījuma URL neatbilst jebkuram vietrādim URL, kas ir kartēts debitora valstij, atbildei tiek atgriezts viens vai vairāki vietrāži URL, kas ir kartēti uz šo valsti. Valsts/reģiona uztvērējs salīdzina katru vietrādi URL šajā sarakstā ar valsts/reģiona modulī konfigurētajiem vietrāžiem URL. Katra atrastai precīzai atbilstībai valsts/reģiona izvēle atveido parādāmo virsrakstu, apakšvirsrakstu un attēlu vietrādī URL, kā arī hipersaites šos elementus, izmantojot vietrādi URL.
 
-Kad debitors izvēlas opciju valsts/reģiona uztvērējā, tie tiek ņemti uz hipersaites URL. Vietrādis URL ir ierakstīts **\_ msdpārtrauc365site\_\_\_\_** sīkfailā, lai to varētu izmantot kā debitora vietnes preferenci. Tad nākamajā reizē, kad debitors pieprasa URL, kas nav saistīts ar viņu valsti vai reģionu, tie tiek automātiski novirzīti uz viņu vēlamo valsti. Tāpēc mēs iesakām jums lietot arī [vietu](site-selector.md) izvēles moduli jūsu e-komercijas vietnē, lai debitoriem būtu veids, kā ignorēt vai atjaunināt viņu vietnes izvēli. 
+Kad debitors izvēlas opciju valsts/reģiona uztvērējā, tie tiek ņemti uz hipersaites URL. Vietrādis URL ir ierakstīts **\_ faila msdmaksājot365\_\_\_\_** sīkfailā, lai to varētu izmantot kā debitora vietnes preferenci. Tad nākamajā reizē, kad debitors pieprasa URL, kas nav saistīts ar viņu valsti vai reģionu, tie tiek automātiski novirzīti uz viņu vēlamo valsti. Tāpēc mēs iesakām jums lietot arī [vietu](site-selector.md) izvēles moduli jūsu e-komercijas vietnē, lai debitoriem būtu veids, kā ignorēt vai atjaunināt viņu vietnes izvēli. 
 
 Ja debitors aizver dialoglodziņu Valsts/reģiona atlasītājs, sīkfails netiek ierakstīts un debitors paliek pašreizējā vietnē. 
 

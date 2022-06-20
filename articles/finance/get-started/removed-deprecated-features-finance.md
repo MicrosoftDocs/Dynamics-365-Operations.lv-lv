@@ -1,6 +1,6 @@
 ---
-title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
-description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Finance.
+title: Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
+description: Šajā rakstā aprakstīti līdzekļi, kas ir noņemti vai kas ir ieplānoti noņemšanai no Dynamics 365 finansēm.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846659"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Finance.
+Šajā rakstā aprakstīti līdzekļi, kas ir noņemti vai kas ir ieplānoti noņemšanai no Dynamics 365 finansēm.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
@@ -129,7 +129,7 @@ ms.locfileid: "8466839"
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jauno Regulatory Configuration Services (RCS) globālo repozitoriju |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
-| **Ietekmētie produkta apgabali**         | Dynamics 365 Finance, Supply Chain Management un Project Operations preces|
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Finanšu, piegādes ķēžu pārvaldības un projekta operāciju preces|
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: no 2022. gada 1. aprīļa mēs plānojam vairs neatbalstīt Microsoft Dynamics Lifecycle Services (LCS) repozitoriju kā Elektronisko pārskatu sniegšanas (ER) konfigurāciju krātuves opciju. Jaunās Microsoft ER konfigurācijas tiks publicētas lejupielādei tikai no globālā repozitorija. Globālajai repozitorijam var piekļūt no Dynamics 365 precēm un RCS. Papildinformāciju skatiet sadaļā [ER konfigurāciju importēšana no RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) un [Regulatory Configuration Service — Lifecycle Services krātuves nolietojums](../localizations/rcs-lcs-repo-dep-faq.md). |
 

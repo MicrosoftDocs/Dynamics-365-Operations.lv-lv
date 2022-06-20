@@ -1,6 +1,6 @@
 ---
 title: Kreditoru, debitoru un krājumu iestatīšana starpuzņēmumu tirdzniecībai
-description: Šis raksts skaidro, kā iestatīt kreditorus, debitorus un krājumus starpuzņēmumu tirdzniecībai
+description: Šajā rakstā skaidrots, kā iestatīt kreditorus, debitorus un krājumus starpuzņēmumu tirdzniecībai
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3e1eb7b8673f3af682204b65b33a1d8b61742721
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c928435a4e66832b09dbc805664934cfb1236be
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675042"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945760"
 ---
 # <a name="set-up-vendors-customers-and-items-for-intercompany-trade"></a>Kreditoru, debitoru un krājumu iestatīšana starpuzņēmumu tirdzniecībai
 
@@ -34,12 +34,13 @@ Lai sagatavotu organizāciju starpuzņēmumu tirdzniecībai, jānorāda kreditor
 1. Atlasiet kreditoru, lai definētu kā starpuzņēmumu kreditoru.
 1. Darbību rūts cilnē **Vispārīgi** atlasiet **Starpuzņēmums**.
 1. Norādiet starpuzņēmumu iestatījuma parametrus debitora kontam. Šie parametri ietver kreditora juridisko personu un kontu, pirkšanas pasūtījumu politikas, pārdošanas pasūtījumu politikas, vērtību kartēšanu un pārdošanas līgumu un pirkšanas līgumu politikas. Varat arī norādīt, vai izmantot bāzes datu vērtības no debitora konta vai no kreditora konta citā juridiskajā personā.
-1. **Debitoru** lapas kopsavilkuma cilnē **Rēķins un piegāde** atzīmējiet izvēles rūtiņu **Izveidot starpuzņēmumu pasūtījumus**. Ja vēlaties pasūtījumus piegādāt tieši debitoriem, atzīmējiet izvēles rūtiņu **Tiešā piegāde**.
+1. Kad esat pabeidzis starpuzņēmumu parametru iestatīšanu, aizveriet starpuzņēmumu **lapu**, lai atgrieztos atlasītajā debitora papildinformācijā.
+1. Izvērsiet kopsavilkuma cilni **Detalizēta informācija par** papildu informāciju un iestatiet izveidot **starpuzņēmumu pasūtījumus uz** *Jā*. Ja vēlaties pasūtījumus piegādāt arī tieši debitoriem, iestatiet tiešo piegādi **uz** Jā *·*.
 
     > [!NOTE]
-    > Ja ir krājumi, ko organizācija uzglabā un piegādā debitoriem, varbūt nevēlaties veidot starpuzņēmumu pasūtījumus automātiski neatkarīgi no tā, vai krājums ir rezervē. Lai deaktivizētu automātisku pasūtījumu izveidi krājumiem, kas reizēm var būt rezervē, noņemiet atzīmi izvēles rūtiņā **Izveidot starpuzņēmuma pasūtījumus**.
+    > Ja ir krājumi, ko organizācija uzglabā un piegādā debitoriem, varbūt nevēlaties veidot starpuzņēmumu pasūtījumus automātiski neatkarīgi no tā, vai krājums ir rezervē. Lai dezaktivētu automātisku pasūtījumu ģenerēšanu krājumiem, kas reizēm var būt krājumos, **iestatiet Veidot starpuzņēmumu pasūtījumus uz** *Nē*.
 
-1. Ja vēlaties atļaut netieši pārdošanas pasūtījumā izveidot papildu rindas, atzīmējiet izvēles rūtiņu **Izveidot netiešā pasūtījuma rindas**. Tas ļauj lietotājam pievienot rindas sākotnējam pārdošanas pasūtījumam no starpuzņēmumu pārdošanas pasūtījuma.
+1. Ja vēlaties atļaut netiešu pārdošanas pasūtījumam izveidot papildu rindas, iestatiet netiešā pasūtījuma **rindas uz** Jā *·*. Tas ļauj lietotājam pievienot rindas sākotnējam pārdošanas pasūtījumam no starpuzņēmumu pārdošanas pasūtījuma.
 
 > [!WARNING]
 > Ja atļauta netiešā pasūtījuma rindu izveide, tiek atļauti visi papildinājumi oriģinālajā pārdošanas pasūtījumā no starpuzņēmumu pārdošanas pasūtījuma. Pēc tam katrs papildinājums tiek apstrādāts debitoram un pievienots pasūtījumam un rēķinam. Turklāt katrs pārdošanā iesaistītais dokuments tiek drukāts un grāmatots automātiski. Lietotāji netiek brīdināti par papildinājumu.

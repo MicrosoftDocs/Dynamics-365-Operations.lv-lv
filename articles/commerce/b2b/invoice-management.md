@@ -1,6 +1,6 @@
 ---
 title: Rēķinu pārvaldība B2B e-komercijas tīmekļa vietnēm
-description: Šajā tēmā aprakstītas rēķinu pārvaldības iespējas bizness-biznesam Microsoft Dynamics 365 Commerce (B2B) e-komercijas vietnes.
+description: Šajā rakstā aprakstītas rēķinu pārvaldības iespējas - Microsoft Dynamics 365 Commerce biznesam (B2B) e-komercijas vietnēm.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854930"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Rēķinu pārvaldība B2B e-komercijas tīmekļa vietnēm
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstītas rēķinu pārvaldības iespējas bizness-biznesam Microsoft Dynamics 365 Commerce (B2B) e-komercijas vietnes.
+Šajā rakstā aprakstītas rēķinu pārvaldības iespējas - Microsoft Dynamics 365 Commerce biznesam (B2B) e-komercijas vietnēm.
 
 Tā ir izplatīta prakse uzņēmumiem, kuri apstrādā B2B darbības, lai pieņemtu pasūtījumus debitora kredītā un pēc tam nosūtītu rēķinu debitoriem pēc pasūtījuma izpildes. Maksājuma nosacījumi ir noteikti debitoriem, un var būt dažas atlaides, lai motivāciju debitoriem maksāt laikā vai pirms laika. Lai palīdzētu palielināt iespējamību, ka maksājumi tiks saņemti laikā, B2B e-komercijas vietnes ļauj debitoriem skatīt visus rēķinus. Debitors var viegli filtrēt rēķinus, lai skatītu apmaksātos, neapmaksātos un daļēji apmaksātos rēķinus kopā ar apmaksas datumiem.
 

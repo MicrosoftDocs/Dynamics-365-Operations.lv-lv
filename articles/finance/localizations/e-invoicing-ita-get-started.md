@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā
-description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Itālijā.
+description: Šajā rakstā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Itālijai.
 author: gionoder
 ms.date: 09/22/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: a04866cef56aaa6f52a0177fae8c1e4f8fc6e70e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908987"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā
 
@@ -30,13 +30,13 @@ ms.locfileid: "8313650"
 
 
 > [!IMPORTANT]
-> Elektronisko rēķinu izrakstīšana Itālija, iespējams, pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management. 
+> Elektroniskā rēķinu izrakstīšana Itālijai pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finanses un Dynamics 365 Supply Chain Management. 
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Itālijā. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt to elektronisko rēķinu iesniegšanas procesu, kas tiek ģenerēti Itālijai specifiskajā **FatturaPA** formātā, izmantojot šo pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus.
+Šajā rakstā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Itālijai. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt to elektronisko rēķinu iesniegšanas procesu, kas tiek ģenerēti Itālijai specifiskajā **FatturaPA** formātā, izmantojot šo pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms šajā tēmā aprakstīto darbību veikšanas ir jāpabeidz darbības sadaļā [Sākt darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
+Pirms šī raksta darbību veikšanas ir jāveic soļi sadaļā [Sākt darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS iestatījumi
 
@@ -203,7 +203,7 @@ Pēc tam, kad ieslēdzat līdzekli **Konfigurējamas elektronisko rēķinu izrak
 Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dokumentiem.
 
 > [!NOTE]
-> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](./emea-ita-e-invoices.md). Ņemiet vērā, ka daži no šajā tēmā aprakstītajiem iestatīšanas darbībam var nebūt pieejamas elektronisko rēķinu izrakstīšanas aktivizēšanas dēļ.
+> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](./emea-ita-e-invoices.md). Ņemiet vērā, ka dažas no šajā rakstā aprakstītajām iestatīšanas darbībām var nebūt pieejamas elektronisko rēķinu izrakstīšanas aktivizēšanas dēļ.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.

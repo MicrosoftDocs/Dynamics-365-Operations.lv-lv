@@ -1,6 +1,6 @@
 ---
 title: PVN deklarācija Ēģiptei
-description: Šajā tēmā paskaidrots, kā konfigurēt un ģenerēt PVN atgriešanas formu Ēģiptei.
+description: Šajā rakstā skaidrots, kā konfigurēt un ģenerēt PVN atgriešanas formu Ēģiptei.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870040"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>PVN deklarācija Ēģiptei (EG-00002)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403952"
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā iestatīt un ģenerēt PVN atgriešanas veidlapu un pārdošanas un pirkšanas grāmatas juridiskām personām Ēģiptē.
+Šajā rakstā skaidrots, kā iestatīt un ģenerēt PVN atgriešanas formu un pārdošanas un pirkšanas grāmatas juridiskām personām Ēģipte.
 
 Ēģiptes PVN atgriešanas veidlapa ir oficiālais dokuments, kas apkopo kopējo izvades PVN nodokļa summu, kopējo atgūstamo ievades PVN nodokļa summu un saistītās PVN nodokļa summas saistības. Šī veidlapa tiek izmantota visu veidu nodokļu maksātājiem un tā jāaizpilda manuāli, izmantojot nodokļu iestādes portālu. PVN atgriešanas veidlapa parasti tiek saukta par PVN nodokļu deklarāciju.
 
-PVN atgriešanas veidlapa programmā Dynamics 365 Finance iekļauj tālāk minētos pārskatus.
+Pvn atgriešanas forma Dynamics 365 Finansēs ietver šādus pārskatus:
 
 - PVN atgriešanas veidlapa Nr. 10, kas sniedz summu sadalījumu, korekcijas un PVN summu katrai rindas precei PVN atgriešanas veidlapā, kā tas ir aprakstīts tiesību aktos.
 - Pārdošanas darbību grāmata

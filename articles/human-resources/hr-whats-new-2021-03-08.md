@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 8. martā
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 8. martu.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2021. gada 8. martu.
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868073"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 8. martā
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā Dynamics 365 Human Resources.
 
 Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 Šajā laidienā ir iekļauti tālāk minētie kļūdu labojumi.
 
 > [!NOTE]
-> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo tēmu, lai iekļautu kļūdu labojumus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+> Mūsu mērķis ir nodot jums šo informāciju pēc iespējas ātrāk. Mēs varam atjaunināt šo rakstu, lai ietvertu kļūdu labojumus, kas to izlaboja būvējuma laikā pēc šī raksta sākotnējā publicēšanas.
 
-| Problēmas numurs | Izsniegt |  Apraksts |
+| Problēmas numurs | Problēma |  Apraksts |
 | --- | --- | --- |
 | 486611 | Ja tiek iespējota funkcija **Iespējot atvaļinājumu visos kalendāros**, atvaļinājums tiks atainots atvaļinājumu kalendārā | Ja visos kalendāros ir iespējots **Atspējot atvaļinājumu visos kalendāros**, informācija par atvaļinājumu vairs netiek atainota, ja ir iespējota funkcija Atvaļinājumu un kavējumu kalendāra uzlabojumi.|
 | 508972 | Atvaļinājuma un kavējumu bankas darbības entītijai trūkst reģistrācijas apstiprinājuma | Izmantojot entītiju Atvaļinājuma un Kavējuma bankas darbība, sistēmā reģistrētos darbiniekus vairs nevar importēt. |

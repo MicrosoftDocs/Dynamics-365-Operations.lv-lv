@@ -1,6 +1,6 @@
 ---
 title: Darba komponentu iestatīšana
-description: Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
+description: Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877719"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693589"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
+Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā. 
 
 Pirms izveidojat darbus, ir jāiestata noteikta atsauces informācija. Varat izveidot darbu, kam ir tikai nosaukums. Taču, ja iekļaujat papildinformāciju, piemēram, darba amatu, tad šim darbam piešķirtajiem amatiem varat nodrošināt noklusējuma vērtības. Turklāt noteiktu ievadīto informāciju var izmantot atlīdzības plānu filtrēšanai konkrētiem darbiem. Ja vēlaties iestatīt piemērotību, kuru varat lietot, lai atlīdzības plānus filtrētu konkrētam darbam, tad pirms darbu iestatīšanas ir jāiestata darbu funkcijas un darbu tipi. Ja ir pieejamas šīs noklusējuma vērtības, jūs ietaupāt laiku, kad darbam pievienojat amatus. 
 

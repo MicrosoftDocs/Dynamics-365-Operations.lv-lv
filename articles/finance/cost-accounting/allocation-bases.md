@@ -1,6 +1,6 @@
 ---
-title: Sadalījuma pamati
-description: Šajā tēmā ir sniegta informācija par sadalījuma pamatiem. Sadalījuma pamati ir galvenie moduļa Izmaksu uzskaite komponenti un galvenokārt tiek izmantoti pieskaitāmo izmaksu sadalei.
+title: Sadalījuma bāzes
+description: Šajā rakstā ir sniegta informācija par iedalīšanas bāzēm. Sadalījuma pamati ir galvenie moduļa Izmaksu uzskaite komponenti un galvenokārt tiek izmantoti pieskaitāmo izmaksu sadalei.
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894089"
 ---
 # <a name="allocation-bases"></a>Sadalījuma pamati 
 
@@ -174,11 +174,11 @@ Modulis Izmaksu uzskaite atbalsta statistikas mēru apkopošanu, izmantojot tāl
 - Datu pārvaldības importēšanas/eksportēšanas rīks
 - Statistiskie mēri
 
-Lai izgūtu statistikas mērus no sistēmas, ir nepieciešama statistikas mēru nodrošinātāja veidne. Papildinformāciju skatiet tēmā “Statistikas mēru nodrošinātāja veidne.” (Kad šī tēma būs uzrakstīta, tiks pievienota saite.)
+Lai izgūtu statistikas mērus no sistēmas, ir nepieciešama statistikas mēru nodrošinātāja veidne. Papildinformāciju skatiet tēmā “Statistikas mēru nodrošinātāja veidne.” (Pievienojot saiti, kad šis raksts būs rakstīts.)
 
 **Statistikas mēru nodrošinātāju veidnes**
 
-| Nosaukums  | Funkcija | Avota tabula  | Summas lauks      | Datuma lauks     |
+| Nosaukums/vārds, uzvārds  | Funkcija | Avota tabula  | Summas lauks      | Datuma lauks     |
 |-------|----------|---------------|----------------|----------------|
 | FTE | Skaits    | HcmEmployment | Nav attiecināms | Nav attiecināms |
 

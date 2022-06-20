@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Noliktavas veiktspēja
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Noliktavas veiktspēja.
+description: Šajā rakstā ir aprakstīts, kas ir iekļauts Noliktavas veiktspējas saturā Power BI.
 author: Mirzaab
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: db56d1bd26f27987f00126ac1a6434cf36691fbf594cab3dd1260ed5251480a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d43cef4970cdf180d0db39086220def56b08f280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851927"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Power BI satura pakotne Noliktavas veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts satura pakotnē **Noliktavas veiktspēja** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts, kas ir iekļauts Noliktavas **veiktspējas saturā** Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 

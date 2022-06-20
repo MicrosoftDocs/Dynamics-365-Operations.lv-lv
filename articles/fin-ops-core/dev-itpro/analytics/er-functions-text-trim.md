@@ -1,6 +1,6 @@
 ---
 title: TRIM ER funkcija
-description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota TRIM elektroniskā pārskata (ER) funkcija.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek izmantota TRIM elektronisko pārskatu (ER) funkcija.
 author: NickSelin
 ms.date: 02/28/2022
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 816f6d6623bb778c9186d294c9b67db7edddd671
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: deadf89641771efa864e701af9dad57c5e62ea37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864661"
 ---
 # <a name="trim-er-function"></a>TRIM ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
-Funkcija `TRIM` atgriež norādīto teksta virkni kā *virknes* vērtību pēc cilnes, pārvadāšanas atgriešanas, līnijvades un veidlapu plūsmas rakstzīmes ir aizstātas ar vienu atstarpes rakstzīmi, pēc tam, kad ir apcirstas sākuma un beigu atstarpes un noņemtas vairākas atstarpes starp vārdiem.
+Funkcija `TRIM` atgriež norādīto teksta virkni kā Virknes vērtību pēc cilnes, atgriešanas klienti, rindu padeve un formas padeves rakstzīmes ir aizvietotas ar vienu atstarpi pēc atstarpju sākuma un pēdējās apciršanas, un pēc vairāku atstarpju izņemšanas *starp* vārdiem.
 
 ## <a name="syntax"></a>Sintakse
 
@@ -47,7 +47,7 @@ Iegūtā teksta vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Dažos gadījumos, iespējams, vēlēsities apcirst sākuma un beigu atstarpes, bet vēlaties saglabāt norādītā teksta formatējumu. Piemēram, ja šis teksts attēlo adresi, kuru var ievadīt vairākrindiņu tekstlodziņā un kurā var būt līnijvads un pārvadāšanas atgriešanas formatējums. Šādā gadījumā izmantojiet šādu izteiksmi: `REPLACE(text,"^[ \t]+|[ \t]+$","", true)` kur `text` ir arguments, kas attiecas uz norādīto teksta virkni.
+Dažos gadījumos, iespējams, vēlēsieties saīsināt sākuma un beigu atstarpes, bet vēlaties saglabāt formatēšanu norādītajam tekstam. Piemēram, ja šis teksts norāda adresi, ko varētu ievadīt daudzrindu teksta lodziņā un var ietvert rindu padeves un piegādes atgriešanas formatēšanu. Šajā gadījumā izmantojiet šādu izteiksmi: kur `REPLACE(text,"^[ \t]+|[ \t]+$","", true)` ir arguments `text`, kas attiecas uz norādīto teksta virkni.
 
 ## <a name="example-1"></a>1. piemērs
 
@@ -55,7 +55,7 @@ Dažos gadījumos, iespējams, vēlēsities apcirst sākuma un beigu atstarpes, 
 
 ## <a name="example-2"></a>2. piemērs
 
-`TRIM (CONCATENATE (CHAR(10), "`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(9),"`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(13)))` atgriež **"Teksta paraugs"**.
+`TRIM (CONCATENATE (CHAR(10), "`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(9),"`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(13)))` Atgriež " **Parauga teksts"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

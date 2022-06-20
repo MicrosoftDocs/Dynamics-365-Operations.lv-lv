@@ -1,6 +1,6 @@
 ---
 title: PVN pārskati Eiropai
-description: Šajā tēmā ir sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskatu iestatīšanu un ģenerēšanu noteiktām Eiropas valstīm.
+description: Šajā rakstā sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskata iestatīšanu un ģenerēšanu dažām Eiropas valstīm.
 author: ShylaThompson
 ms.date: 03/24/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1f7611dcf713e80f637a4b3f5542763050ac4a6
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856541"
 ---
 # <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskatu iestatīšanu un ģenerēšanu noteiktām Eiropas valstīm.
+Šajā rakstā sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskata iestatīšanu un ģenerēšanu dažām Eiropas valstīm.
 
-Šajā tēmā ir aprakstīta vispārīga PVN deklarācijas iestatīšanas un ģenerēšanas metode. Šo metodi izmanto lietotāji juridiskajās personās tālāk norādītajās valstīs/reģionos.
+Šis raksts sniedz vispārēju pieeju PVN deklarācijas iestatīšanai un ģenerēšanu. Šo metodi izmanto lietotāji juridiskajās personās tālāk norādītajās valstīs/reģionos.
 
 -   Austrija
 -   Beļģija
@@ -41,7 +41,7 @@ ms.locfileid: "8487753"
 -   Zviedrija
 
 > [!IMPORTANT]
-> Šajā tēmā aprakstītie līdzekļi Austrijai, Čehijai, Vācijai, Nīderlandei un Zviedrijai ir novecojuši. Papildinformāciju skatiet sadaļā Noņemtie [un novecojušie līdzekļi](../get-started/removed-deprecated-features-finance.md).
+> Šajā rakstā aprakstītie līdzekļi Austrijai, Čehijai, Vācijai, Nīderlandei un Zviedrijai ir novecojuši. Papildinformāciju skatiet sadaļā Noņemtie [un novecojušie līdzekļi](../get-started/removed-deprecated-features-finance.md).
 > Izmantojiet šajā tabulā norādītās saites, lai uzzinātu vairāk par jauno PVN deklarāciju dizainu attiecīgajās valstīs.
 > 
 >
@@ -60,7 +60,7 @@ ms.locfileid: "8487753"
 > | UK             | [Sagatavošanās integrēšanai MRD iekļaušanai PVN](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>PVN deklarācijas apskats
-PVN deklarācija ir balstīta uz nodokļu transakciju summām. PVN deklarācijas ģenerēšanas process ietilpst PVN maksājuma procesā, kurš ir ieviests ar funkciju Nosegt un grāmatot PVN. Šī funkcija aprēķina PVN, kurš ir jāmaksā par attiecīgo periodu. Nosegšanas aprēķinā ir iekļauts atlasītajam nosegšanas periodam nodokļu transakcijām grāmatotais PVN. Process PVN deklarācijas datu aprēķināšanai ir balstīts uz attiecībām starp PVN kodiem un PVN pārskatu kodiem, kur PVN pārskatu kodi atbilst PVN deklarācijas lodziņiem (vai etiķetēm XML failā). Attiecībā uz katru PVN kodu ir jāiestata PVN pārskatu kodi katram transakcijas tipam, piemēram, ar nodokli apliekamajai pārdošanai, ar nodokli apliekamajiem pirkumiem, ar nodokli apliekamajam importam. Šie transakciju tipi ir aprakstīti tālāk šīs tēmas sadaļā PVN kodi PVN pārskatiem.
+PVN deklarācija ir balstīta uz nodokļu transakciju summām. PVN deklarācijas ģenerēšanas process ietilpst PVN maksājuma procesā, kurš ir ieviests ar funkciju Nosegt un grāmatot PVN. Šī funkcija aprēķina PVN, kurš ir jāmaksā par attiecīgo periodu. Nosegšanas aprēķinā ir iekļauts atlasītajam nosegšanas periodam nodokļu transakcijām grāmatotais PVN. Process PVN deklarācijas datu aprēķināšanai ir balstīts uz attiecībām starp PVN kodiem un PVN pārskatu kodiem, kur PVN pārskatu kodi atbilst PVN deklarācijas lodziņiem (vai etiķetēm XML failā). Attiecībā uz katru PVN kodu ir jāiestata PVN pārskatu kodi katram transakcijas tipam, piemēram, ar nodokli apliekamajai pārdošanai, ar nodokli apliekamajiem pirkumiem, ar nodokli apliekamajam importam. Šī veida darbības ir aprakstītas PVN kodus PVN pārskatu sadaļai tālāk šajā rakstā.
 
 Katram PVN pārskatu kodam ir jānorāda noteikts pārskata izkārtojums. Tajā pašā laikā PVN kodi ir saistīti ar noteiktu PVN iestādi, izmantojot PVN nosegšanas periodus. Katrai PVN iestādei ir jānorāda noteikts pārskata izkārtojums. Tādējādi PVN koda pārskatu iestatīšanā var atlasīt tikai PVN pārskatu kodus ar vienādu pārskata izkārtojumu, kas attiecībā uz šo PVN kodu ir iestatīti PVN iestādei PVN nosegšanas periodos. Ar pasūtījuma vai žurnāla grāmatošanu ģenerēta PVN transakcija ietver PVN kodu, PVN avotu, PVN virzienu un transakciju summas (nodokļu bāzes summu un nodokļu summu uzskaites valūtā, PVN valūtā un transakcijas valūtā). Pamatojoties uz nodokļu transakciju atribūtu kombināciju, transakciju summas veido kopējās summas PVN pārskatu kodiem, kas norādīti PVN kodiem. Nākamajā attēlā ir redzamas datu attiecības.
 

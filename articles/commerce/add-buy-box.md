@@ -1,6 +1,6 @@
 ---
-title: Iegādes lodziņa modulis
-description: Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+title: Pirkšanas lodziņa modulis
+description: Šajā rakstā ir apskatīti pirkšanas kasšu moduļi un aprakstīts, kā pievienot tos vietņu lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5167aac784bb3ab6a63033590178c2eead627b96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863557"
 ---
 # <a name="buy-box-module"></a>Pirkšanas lodziņa modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aplūkoti Buy box moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīti pirkšanas kasšu moduļi un aprakstīts, kā pievienot tos vietņu lapām Microsoft Dynamics 365 Commerce.
 
 Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas lapas (product details page - PDP)apgabalu, kas ir “virs ieloces” un kurā ir ietverta visa svarīgākā informācija, kas nepieciešama preces pirkuma veikšanai. (Apgabals, kas ir “virs ieloces”, ir redzams, kad lapa tiek ielādēta pirmo reizi, lai lietotājiem skatīšanai nebūtu jāritina uz leju.)
 

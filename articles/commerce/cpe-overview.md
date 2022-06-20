@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce novērtēšanas vides pārskats
-description: Šajā tēmā sniegts Microsoft Dynamics 365 Commerce novērtējuma vides pārskats.
+description: Šis raksts sniedz apskatu par Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 author: v-chgri
 ms.date: 07/16/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 8aa38d5f93bb1d5515d4b9abc6df1bd0e691c24d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867790"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce novērtēšanas vides pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts Microsoft Dynamics 365 Commerce novērtējuma vides pārskats.
+Šis raksts sniedz apskatu par Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 
 > [!NOTE]
 > Commerce novērtējuma vides nav vispārpieejamas, un tās tiek piešķirtas partneriem un klientiem pēc pieprasījuma. Lai iegūtu plašāku informāciju, sazinieties ar sava Microsoft partnera kontaktpersonu.

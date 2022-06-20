@@ -1,6 +1,6 @@
 ---
 title: Finanšu dimensiju kopas
-description: Šajā tēmā aprakstītas finanšu dimensiju kopas un sniegti daži padomi to lietošanas optimizēšanai.
+description: Šajā rakstā aprakstītas finanšu dimensiju kopas un sniegti daži padomi to lietošanas optimizēšanai.
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864286"
 ---
 # <a name="financial-dimension-sets"></a>Finanšu dimensiju kopas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas finanšu dimensiju kopas un sniegti daži padomi to lietošanas optimizēšanai.
+Šajā rakstā aprakstītas finanšu dimensiju kopas un sniegti daži padomi to lietošanas optimizēšanai.
 
 Dimensiju kopa ir sakārtots finanšu dimensiju saraksts, ko var izmantot, lai apkopotu Virsgrāmatas datus lietotāja definētā veidā. Dimensiju kopu primārā izmantošana ir definēt apgrozījuma bilanci.
 

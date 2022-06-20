@@ -1,6 +1,6 @@
 ---
 title: Sākumlapas pārskats
-description: Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
+description: Šajā rakstā ir sniegts pārskats par mājas lapu Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844676"
 ---
 # <a name="home-page-overview"></a>Sākumlapas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
+Šajā rakstā ir sniegts pārskats par mājas lapu Microsoft Dynamics 365 Commerce.
 
 Mājas lapa ir noklusējuma lapa, kur pircēji dodas, kad tie apmeklē e-tirdzniecības vietni. Parasti šī lapa parāda preces un veicināšanas pasākumus, izmantojot mārketinga moduļu kombināciju. Mājas lapai jābūt papildinātai ar attēliem un tekstu, lai iesaistītu pircējus.
 
@@ -33,7 +33,7 @@ Tālāk redzamajā attēlā ir parādīts mājas lapas piemērs, kura izveidota,
 
 ![Mājas lapas piemērs.](./media/Homepage2.PNG)
 
-Mājas lapas augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Mājas lapas apakšpusē ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircējus.
+Mājas lapas augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Mājas lapas apakšpusē ir kājene, kas satur tiešās saites uz dažādiem rakstiem, kas varētu būt soda procenti debitoriem.
 
 Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas pasākumus, izmantojot dažādus Dynamics 365 Commerce moduļus.
 
@@ -49,8 +49,8 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 
     ![Līdzekļu moduļu piemēri.](./media/Feature.PNG)
 
-- **Elements** — satura bloka elementa izkārtojuma modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Mājas lapas attēlā, kas parādīts iepriekš šajā tēmā, tiek lietots elementa izkārtojums modulis, kas tiek izmantots elementu **Iepirkties sievietēm**, **Iepirkties vīriešiem** un **Pirkt aksesuārus** trīs kolonnu atveidē.
-- **Video atskaņotājs** — video atskaņotāja modulis var tikt izmantots, lai mājas lapā parādītu video saturu. Mājas lapas ilustrācija, kas parādīta iepriekš šajā tēmā, ietver video atskaņotāja moduli.
+- **Elements** — satura bloka elementa izkārtojuma modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Šajā rakstā iepriekš parādītās mājas lapas ilustrācijā elementa izkārtojums tiek izmantots trīs kolonnu ražotnes, **·** **·** **ražotnes** un ražotnes krājumu renderēšanai.
+- **Video atskaņotājs** — video atskaņotāja modulis var tikt izmantots, lai mājas lapā parādītu video saturu. Šajā rakstā iepriekš parādītās mājas lapas ilustrācijā ir iekļauts video player modulis.
 - **Teksta bloks** — ar saturu papildināta bloka modulis var tikt izmantots, lai attēlotu mājas lapas teksta saturu vienas vai vairāku kolonnu izkārtojumā.
 - **Preču ieteikumi** — preču ieteikumu moduļi tiek izmantoti, lai mājas lapā parādītu sarakstus, piemēram, **Jauns**, **Populārs** un **Vispirktākais**. Šie saraksti parāda preces, pamatojoties uz iepirkšanās tendencēm, un tos var ģenerēt algoritmiski vai pārraudzīt manuāli. Tie palīdz klientiem ātri atklāt labākās preces un tad turpināt iepirkties.
 

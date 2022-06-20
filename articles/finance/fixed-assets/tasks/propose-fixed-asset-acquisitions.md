@@ -1,6 +1,6 @@
 ---
 title: Pamatlīdzekļa iegādes priekšlikums
-description: Šajā tēmā ir aprakstīts, kā iegūt pamatlīdzekli, izmantojot iegādes priekšlikumu Pamatlīdzekļu žurnālā.
+description: Šajā rakstā ir aprakstīts, kā iegūt pamatlīdzekli, lietojot iegādes priekšlikumu Pamatlīdzekļu žurnālā.
 author: moaamer
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd54642e5ec6c56fbc3a5ebb07fc8fdaf5545926
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 35d2171dc828cb0227f310e81be1d3e3359f41c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909074"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Pamatlīdzekļa iegādes priekšlikums
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iegūt pamatlīdzekli, izmantojot iegādes priekšlikumu Pamatlīdzekļu žurnālā. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai. Lai iegūtu pamatlīdzekli, izmantojot pamatlīdzekļu priekšlikumu žurnālu, vispirms ir jāizveido pamatlīdzekļa ieraksts un pēc tam jādefinē iegādes cena pamatlīdzekļu grāmatā.
+Šajā rakstā ir aprakstīts, kā iegūt pamatlīdzekli, lietojot iegādes priekšlikumu Pamatlīdzekļu žurnālā. Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai. Lai iegūtu pamatlīdzekli, izmantojot pamatlīdzekļu priekšlikumu žurnālu, vispirms ir jāizveido pamatlīdzekļa ieraksts un pēc tam jādefinē iegādes cena pamatlīdzekļu grāmatā.
 
 ## <a name="create-an-asset-acquisition-proposal"></a>Līdzekļa iegādes priekšlikuma izveide
 

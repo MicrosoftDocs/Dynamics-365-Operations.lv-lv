@@ -1,42 +1,42 @@
 ---
 title: Mobilie rēķinu apstiprinājumi
-description: Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs.
+description: Šis raksts ir paredzēts, lai sniegtuprakamu pieeju mobilo scenāriju izstrādei, lietošanas gadījumā ņemot kreditoru rēķinu apstiprinājumus mobilajām ierīcēm.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737359"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946279"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
 [!include [banner](../includes/banner.md)]
 
-Mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
+Mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šis raksts ir paredzēts, lai sniegtuprakamu pieeju mobilo scenāriju izstrādei, lietošanas gadījumā ņemot kreditoru rēķinu apstiprinājumus mobilajām ierīcēm. Šis raksts palīdzēs izveidot citas scenāriju variācijas un var tikt pielietoti citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-| Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Priekšnoteikumi                                                                                            | Apraksts                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Vide, kurā ir instalēta versija 1611 un 3. platformas atjauninājums (2016. gada novembris)                   |
 | Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevumu reģistrētājs var kļūdaini reģistrēt divas nolaižamo dialoglodziņu aizvēršanas komandas; tas ir ietverts 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums) |
 | Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails sniedz iespēju skatīt pielikumus mobilajā klientā; tas ir ietverts 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums)           |
 | Instalējiet labojumfailu KB 3208224.                                                                              | Kreditoru rēķinu apstiprināšanas mobilās lietojumprogrammas kods, kas ir ietverts versijā 7.0.1 (2016. gada maijs).                          |
-| Android vai iOS vai Windows ierīce, kurā ir instalēta mobilā programma. | Meklējiet programmu atbilstošajā programmu veikalā.                                                                                                                     |
+| Android vai iOS vai Windows ierīce, kurā ir instalēta mobilā programma. | Meklējiet programmu atbilstošajā programmu veikalā.                            |
 
 ## <a name="introduction"></a>Ievads
 Lai varētu apstiprināt kreditoru rēķinus mobilajā ierīcē, ir nepieciešami trīs labojumfaili, kas ir norādīti sadaļā Priekšnosacījumi. Šie labojumfaili nenodrošina rēķinu apstiprināšanas darbvietu. Lai uzzinātu, kas ir darbvieta attiecībā uz mobilajām ierīcēm, izlasiet mobilo ierīču risinājumu rokasgrāmatu, kas ir pieminēta sadaļā “Priekšnosacījumi”. Rēķinu apstiprināšanas darbplūsma ir jāizstrādā. 
@@ -51,11 +51,11 @@ Katra organizācija atšķirīgā veidā vada un definē savu kreditoru rēķinu
     -   Vai rēķina galvenē arī ir uzskaites sadales? Jā tā ir, vai šīm uzskaites sadalēm ir jābūt pieejamām ierīcē?
 
     > [!NOTE]
-    > Šajā tēmā nav paskaidrots, kā rediģēt uzskaites sadales, jo šī funkcionalitāte pašlaik netiek atbalstīta mobilajiem scenārijiem.
+    > Šajā rakstā nav izskaidrots, kā rediģēt uzskaites sadales, jo šī funkcionalitāte pašlaik netiek atbalstīta mobilos scenārijos.
 
 -   Vai lietotāji vēlēsies ierīcē redzēt rēķina pielikumus?
 
-Rēķinu apstiprināšanas mobilā risinājuma izstrāde atšķiras atkarībā no atbildēm uz šiem jautājumiem. Mērķis ir optimizēt lietotāja iespējas darbam ar biznesa procesu mobilajā ierīcē organizācijas ietvaros. Šīs tēmas turpinājumā ir aprakstīti scenārija varianti, kas ir izstrādāti, pamatojoties uz dažādām atbildēm uz iepriekš norādītajiem jautājumiem. 
+Rēķinu apstiprināšanas mobilā risinājuma izstrāde atšķiras atkarībā no atbildēm uz šiem jautājumiem. Mērķis ir optimizēt lietotāja iespējas darbam ar biznesa procesu mobilajā ierīcē organizācijas ietvaros. Pārējā rakstā mēs aplūkojām divas scenārija variācijas, kas pamatotas uz dažādām atbildēm uz iepriekšējiem jautājumiem. 
 
 Vienmēr, kad strādājat ar mobilo programmu veidotāju, noteikti publicējiet izmaiņas, lai nepieļautu atjauninājumu zaudēšanu.
 

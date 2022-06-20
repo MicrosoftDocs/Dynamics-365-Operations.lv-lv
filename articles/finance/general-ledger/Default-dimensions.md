@@ -1,6 +1,6 @@
 ---
 title: Finanšu dimensijas un grāmatošana
-description: Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
+description: Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā rakstā ir izskaidrots, kas ir katrs komponents un kā komponenti darbojas kopā.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910118"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
 [!include [banner](../includes/banner.md)]
 
-Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
+Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā rakstā ir izskaidrots, kas ir katrs komponents un kā komponenti darbojas kopā.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Kontu plāns un finanšu dimensiju komponenti
 
@@ -46,7 +46,7 @@ Pēc izvēles varat definēt līdzsvarošanas finanšu dimensiju. Lapā **Virsgr
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Galvenā konta noklusējuma/fiksētās finanšu dimensijas
 
-Noklusējuma dimensijas tiek iegūtas no dažādām vietām, piemēram, šablona ieraksti (piemēram, debitora vai kreditora ieraksti), dokumenta galvenes un galvenais konts. Šajā tēmā aplūkotas noklusējuma dimensijas galvenajā kontā atbilstoši juridiskajai personai. Varat definēt, vai galvenajā kontā katrai finanšu dimensijai ir iestatīta vērtība **Nav fiksēts** vai **Fiksēts**, kas tiek izmantota visās virsgrāmatas konta struktūrās. Ja finanšu dimensijai ir iestatīta vērtība **Nav fiksēts**, tiek izmantota noklusējuma vērtība, bet tā var tikt pārrakstīta. Šis princips attiecas uz visām noklusējuma vērtībām sistēmā, pat no šablona ierakstiem iegūtajām noklusējuma vērtībām. Ja finanšu dimensijai ir iestatīta vērtība **Fiksēts**, šī vērtība tiek lietota vienmēr neatkarīgi no tā, vai tas ir iegūta kā noklusējuma vērtība vai to ievadījis lietotājs.
+Noklusējuma dimensijas tiek iegūtas no dažādām vietām, piemēram, šablona ieraksti (piemēram, debitora vai kreditora ieraksti), dokumenta galvenes un galvenais konts. Šajā rakstā ir fokusējas uz noklusētajām dimensijām galvenajā kontā pēc juridiskās personas. Varat definēt, vai galvenajā kontā katrai finanšu dimensijai ir iestatīta vērtība **Nav fiksēts** vai **Fiksēts**, kas tiek izmantota visās virsgrāmatas konta struktūrās. Ja finanšu dimensijai ir iestatīta vērtība **Nav fiksēts**, tiek izmantota noklusējuma vērtība, bet tā var tikt pārrakstīta. Šis princips attiecas uz visām noklusējuma vērtībām sistēmā, pat no šablona ierakstiem iegūtajām noklusējuma vērtībām. Ja finanšu dimensijai ir iestatīta vērtība **Fiksēts**, šī vērtība tiek lietota vienmēr neatkarīgi no tā, vai tas ir iegūta kā noklusējuma vērtība vai to ievadījis lietotājs.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Noklusējuma dimensiju lietošanas secība grāmatošanas procesā
 

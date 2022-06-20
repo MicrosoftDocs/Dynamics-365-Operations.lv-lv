@@ -1,6 +1,6 @@
 ---
 title: Debitoru rēķini un atgriešanas pārdošanas pasūtījumi Austrumeiropas valstīs
-description: Šajā tēmā ir aprakstīts, kā iestatīt informāciju debitoru rēķiniem un pārdoto krājumu atgriešanas pasūtījumiem Austrumeiropas valstīs.
+description: Šajā rakstā ir aprakstīts, kā iestatīt informāciju debitoru rēķiniem un atgriezt pārdošanas pasūtījumus Austrumeiropas valstīs.
 author: epopov
 ms.date: 10/01/2018
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38d1708f6b113c4915b208941e1ebab70b07323f7523d742c54f3acb32b40569
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13fcdf2f939e225aa11776f4f6050490851ed7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852766"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Debitoru rēķini un atgriešanas pārdošanas pasūtījumi Austrumeiropas valstīs
 
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt informāciju debitoru rēķiniem un pārdoto krājumu atgriešanas pasūtījumiem Austrumeiropas valstīs.
+Šajā rakstā ir aprakstīts, kā iestatīt informāciju debitoru rēķiniem un atgriezt pārdošanas pasūtījumus Austrumeiropas valstīs.
 
 Par debitoru rēķiniem un pārdoto krājumu atgriešanas pasūtījumiem, kas tiek ģenerēti programmā Retail point of sale (POS), varat iestatīt tālāk aprakstīto informāciju.
 

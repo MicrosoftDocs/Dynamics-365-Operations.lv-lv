@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858529"
 ---
 # <a name="collections-management-key-concepts"></a>Kolekciju pārvaldības galvenie jēdzieni
 
@@ -34,7 +34,7 @@ Pirms sākat iekasēšanas darbību iestatīšanu vai apstrādi, jums ir jāsapr
 - Norakstīšanas transakcijas var izveidot, veicot vienu darbību.
 - Nepietiekamu naudas līdzekļu (NSF) maksājumus var apstrādāt, veicot vienu darbību.
 
-Šajā tēmā ir aprakstīts katrs jēdziens.
+Šajā rakstā ir aprakstīts katrs jēdziens.
 
 ## <a name="customer-aging-snapshots"></a>Debitora vecumstruktūru momentuzņēmumi
 
@@ -86,7 +86,7 @@ Darbību rūts satur pogas, kas ļauj skatīt saistīto informāciju par atlasī
 
 Var atcelt, atjaunot vai anulēt veselus procentu paziņojumus vai procentu paziņojumos ietvertas maksas un transakciju procentus. Varat to izdarīt saraksta lapas **Visi debitori** darbību rūts cilnē **Apkopot**, noklikšķinot uz **Procentu paziņojums**, **Darbību procenti** vai **Maksa**.
 
-Šīs korekcijas ietekmē tikai procentu paziņojumus un tajos ietvertos procentus un maksas. Lai iegūtu informāciju par to, kā norakstīt visas maksas, ko debitors ir parādā, skatiet šīs tēmas sadaļu [Norakstīšanas transakciju izveide](#creating-write-off-transactions).
+Šīs korekcijas ietekmē tikai procentu paziņojumus un tajos ietvertos procentus un maksas. Informāciju par to, kā norakstīt visas debitora parādāmās maksas, [skatiet šī](#creating-write-off-transactions) raksta sadaļā Norakstīšanas darbību izveide.
 
 Plašāku informāciju skatiet šeit: Procentu koda ar diapazonu izveidošana un šeit: Procentu apstrāde.
 

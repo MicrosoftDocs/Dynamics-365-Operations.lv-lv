@@ -1,6 +1,6 @@
 ---
-title: Kartēt kanālus uz e-komercijas vietnēm
-description: Šajā tēmā aprakstīti daži no biežāk izmantotajiem kanālu kartēšanas scenārijiem Microsoft Dynamics 365 Commerce, kurus var papildus izmantot vairumam citu biznesa prasību.
+title: Kanālu kartēšana uz e-komercijas vietnēm
+description: Šajā rakstā ir aprakstīti daži no biežāk izmantotajiem kanālu kartēšanas scenārijiem Microsoft Dynamics 365 Commerce, kas var tikt papildus apskatīti lielākajai daļai citu biznesa prasību.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902767"
 ---
-# <a name="map-channels-to-e-commerce-sites"></a>Kartēt kanālus uz e-komercijas vietnēm
+# <a name="map-channels-to-e-commerce-sites"></a>Kanālu kartēšana uz e-komercijas vietnēm
 
-Šajā tēmā aprakstīti daži no biežāk izmantotajiem kanālu kartēšanas scenārijiem Microsoft Dynamics 365 Commerce, kurus var papildus izmantot vairumam citu biznesa prasību.
+Šajā rakstā ir aprakstīti daži no biežāk izmantotajiem kanālu kartēšanas scenārijiem Microsoft Dynamics 365 Commerce, kas var tikt papildus apskatīti lielākajai daļai citu biznesa prasību.
 
 Dynamics 365 Commerce atbalsta daudzus biznesa scenārijus [tiešsaistes](#channels) kanālu kartēšanai, kam ir konfigurēta preču, [cenu un atlaižu kopa klientu e-komercijas](#e-commerce-sites) vietnes pieredzei.
 
-Šī tēma ietver sekojošos scenārijus:
+Šajā rakstā ir apskatīti šādi scenāriji:
 
 - **Vienas valodas kanāls, kam ir viena e-komercijas vietnes pieredze.** Piemēram, šajā scenārijā varētu būt viena zīmola vietne, kas ir konfigurēta ASV angļu tirgū.
 - **Daudzvalodu kanāls, kam ir viena lokalizēta vietu pieredze.** Piemēram, šajā scenārijā varētu būt iekļauts viens zīmola vietne, kas ir konfigurēta Kanādai ar francijas un angļu valodas atbalstu. Šajā scenārijā lietotājiem, kuri izvēlas dažādas valodas, ir viena un tā pati vietu pieredze, bet tā ir lokalizēta katra lietotāja izvēlētajā valodā.
@@ -63,7 +63,7 @@ Pamata scenārijā vienam kanālam ir viena valoda pārdošanai vienotā tirgū.
 
 ![Juridiskas personas, valūtas un valodas vērtības Adventure Works interneta veikalā, kas izcelts programmā Commerce Headquarters.](media/channel-mapping-3.png)
 
-Vienu tiešsaistes kanālu var kartēt uz vienu e-komercijas vietni vietas veidotājā. Informāciju par to, kā izveidot jaunu vietu un kartēt to [ar kanālu,](#map-a-channel-to-a-site-in-site-builder) skatiet sadaļā Kartēt kanālu uz vietni šīs tēmas sadaļā Vietas veidotājs.
+Vienu tiešsaistes kanālu var kartēt uz vienu e-komercijas vietni vietas veidotājā. Informāciju par to, kā izveidot jaunu vietu un kartēt to [ar kanālu,](#map-a-channel-to-a-site-in-site-builder) skatiet sadaļā Kartēt kanālu uz vietni šī raksta sadaļā Vietas veidotājs.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Vairākvalodu kanāls, kam ir viena lokalizēta vietu pieredze
 
@@ -73,7 +73,7 @@ Vienu tiešsaistes kanālu var kartēt uz vienu e-komercijas vietni vietas veido
 
 Katru kanāla valodu var konfigurēt ar savu domēna nosaukumu. Piemēram, domēnu `www.adventure-works.ca` var konfigurēt Kanādas angļu versijai, `www.adventure-works-fr.ca` un domēnu var konfigurēt Kanādas franču versijai. Alternatīva ir, ka dažādas valodas kanālā var konfigurēt vienā domēnā, un tad katrai valodai var izmantot citu ceļu. Piemēram, domēnu `www.adventure-works.ca` var konfigurēt Kanādas angļu versijai, `www.adventure-works.ca/fr` un tad ceļu var izmantot Kanādas franču versijai. [Ģeogrāfiskā noteikšana](geo-detection-redirection.md) var tikt iespējota arī, lai automātiski novirzītu lietotāju uz pareizo vietu atkarībā no lietotāja atrašanās vietas.
 
-Papildinformāciju par to, kā aktivizēt debitorus manuālai pārslēgšanās starp valodām, [skatiet šīs tēmas sadaļā Pievienot un konfigurēt](#add-and-configure-the-site-picker-module) vietas izvēles moduli. Informāciju par to, kā pielāgot lokalizētās lapas un fragmentus, skatiet sadaļā [Pārvaldīt vietnes saturu, kam ir vairāki kanāli un](#manage-site-content-that-has-multiple-channels-and-languages) valodas.
+Papildinformāciju par to, kā aktivizēt debitorus manuālai pārslēgšanās starp valodām, [skatiet](#add-and-configure-the-site-picker-module) šī raksta sadaļā Pievienot un konfigurēt vietas izvēles moduli. Informāciju par to, kā pielāgot lokalizētās lapas un fragmentus, skatiet sadaļā [Pārvaldīt vietnes saturu, kam ir vairāki kanāli un](#manage-site-content-that-has-multiple-channels-and-languages) valodas.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Vairākvalodu kanāls ar atšķirīgu vietu pieredzi katrai valodai
 
@@ -87,7 +87,7 @@ Zīmola vietai var būt nepieciešami vairāki tiešsaistes kanāli katrā reģi
 
 Šajā scenārijā katru tirgu var konfigurēt ar saviem domēnu nosaukumiem. Piemēram, domēnu `www.adventure-works.com` var konfigurēt ASV tirgum, un `www.adventure-works.de` domēnu var konfigurēt Vācijas tirgum. Alternatīvi katru tirgu var konfigurēt cita ceļa izmantošanai. Piemēram, domēnu `www.adventure-works.com` var konfigurēt ASV tirgum, un tad `www.adventure-works.com/de` ceļu var izmantot Vācijas tirgum. [Ģeogrāfiskā noteikšana](geo-detection-redirection.md) var tikt iespējota arī, lai automātiski novirzītu lietotājus uz pareizo vietu, pamatojoties uz viņu reģionu.
 
-Iespējams, vēlēsieties arī norādīt nolaižamo sarakstu, kas lietotājiem ļauj manuāli pārslēgties uz noteiktu tirgu. Papildinformāciju skatiet šīs tēmas [sadaļā Pievienot un konfigurēt vietnes](#add-and-configure-the-site-picker-module) atlasītāja moduli.
+Iespējams, vēlēsieties arī norādīt nolaižamo sarakstu, kas lietotājiem ļauj manuāli pārslēgties uz noteiktu tirgu. Papildinformāciju skatiet šī [raksta sadaļā Pievienot un konfigurēt](#add-and-configure-the-site-picker-module) vietnes atlasītāja moduli.
 
 Informāciju par to, kā konfigurēt vairākus kanālus vienā vietā, skatiet [sadaļā Vairāku kanālu konfigurēšana e-komercijas vietnē](#configure-multiple-channels-on-an-e-commerce-site).
 
@@ -180,7 +180,7 @@ Tā vietā, lai manuāli izveidotu katru lapu un fragmentu, jūs varat eksportē
 
 Vieta, kurā ir vairāki kanāli un/vai valodas, saglabā unikālu katras lapas variantu un fragmentu katrai kanāla kombinācijai un valodai. Šī darbība iespējo lapas variantus saturēt lokalizētus datus, bet arī sniedz jums elastīgumu, lai mainītu noteikta varianta lapas izskatu un darbību.
 
-Lai iegūtu informāciju par to, kā strādāt ar lapas variantiem, [skatiet Implementa lapas variantus katrai šīs](#implement-page-variants-for-each-language) tēmas valodas sadaļai.
+Lai iegūtu informāciju par to, kā strādāt ar lapas variantiem, [skatiet Implementa lapas variantus katrai](#implement-page-variants-for-each-language) valodas sadaļai šajā rakstā.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Vairāku kanālu konfigurēšana e-komercijas vietnē
 

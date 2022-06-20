@@ -1,6 +1,6 @@
 ---
 title: Personāla atlases kandidāti
-description: Šajā tēmā aprakstīts, kā pieņemt kandidātus Dynamics 365 Human Resources.
+description: Šajā rakstā aprakstīts, kā darbiniekus pieņemt darbā Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879255"
 ---
 # <a name="recruit-job-candidates"></a>Personāla atlases kandidāti
 
@@ -46,12 +46,13 @@ Ja neizmantojat atsevišķu personāla atlases programmu, varat arī manuāli p�
 Ja vēlaties iesniegt personāla atlases pieprasījumus HR personāla atlasei, jums vispirms jāiespējo **HR lietotāja pieredze un personāla** **atlases procesa pārvaldības funkcijas**.
 
 Tiklīdz funkcijas ir ieslēgtas, izvēlieties funkcionalitāti ar šādiem soļiem: 
-1. Dodieties uz **sadaļu Personāla vadībaSetupHuman** > **·** > **resursu parametri**.
-2. CilnēRecruitment  **iestatiet**  personāla atlases atspējotā **lauka** vērtību uz **Nē**.
-3. Nolaižot **personāla atlases** pieredzi, atlasiet HR personāla **atlasi**.   
+1. Dodieties uz **sadaļu Cilvēkresursu** > **iestatīšanas** > **personāla vadības parametri**.
+2.  **Cilnē Personāla atlase** iestatiet personāla atlasei iespējoto **lauku** uz **Jā**.
+3. Nolaižot **personāla atlases** pieredzi, atlasiet HR personāla **atlasi**.  
+4. Noklikšķiniet uz **Saglabāt**. 
 
 > [!Note] 
-> Kad **personāla atlase ir** atlasīta, personāla **atlases projekti** (mantojuma) tiks tikai lasāmi. 
+> Kad **personāla atlase ir** atlasīta, **personāla atlases projekti** (mantojuma) nebūs pieejami. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Pievienot personāla atlases pieprasījuma vietu

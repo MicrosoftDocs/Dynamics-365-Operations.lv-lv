@@ -1,6 +1,6 @@
 ---
 title: Virsgrāmatas konta bilances
-description: Šajā tēmā skaidroti divi veidi, kā skatīt virsgrāmatas kontu bilances - apgrozījuma bilances saraksta lapu un finanšu pārskatus.
+description: Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874498"
 ---
 # <a name="general-ledger-account-balances"></a>Virsgrāmatas konta bilances
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidroti divi veidi, kā skatīt virsgrāmatas kontu bilances - apgrozījuma bilances saraksta lapu un finanšu pārskatus. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.
+Šajā rakstā ir paskaidroti divi veidi, kā skatīt Virsgrāmatas kontu bilances, izmantojot lapu Apgrozījuma bilances saraksts un finanšu atskaites. Tajā ir arī aprakstīts, kā atjaunināt dimensiju kopu bilances.
 
 Ir dažādi veidi, kā lietotāji var apskatīt virsgrāmatas kontu bilances. Dažas no visbiežāk izmantotajām opcijām ir šādas:
 

@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par One voucher
-description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par One voucher funkcionalitāti. One voucher ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu.
+description: Šis raksts atbild uz bieži uzdotiem jautājumiem par Viena dokumenta funkcionalitāti. One voucher ļauj finanšu žurnālos (virsgrāmatas žurnālā, pamatlīdzekļu žurnālā, kreditoru maksājumu žurnālā u. c. žurnālos) ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859803"
 ---
 # <a name="one-voucher-faq"></a>Bieži uzdotie jautājumi par One voucher
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par One voucher funkcionalitāti. One voucher finanšu žurnāliem ļauj ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu. Šajā dokumentā iekļaujamie žurnāli var būt virsgrāmatas žurnāli, pamatlīdzekļu žurnāli un kreditoru maksājumu žurnāli, u.c.
+Šis raksts atbild uz bieži uzdotiem jautājumiem par Viena dokumenta funkcionalitāti. One voucher finanšu žurnāliem ļauj ievadīt vairākas apakšgrāmatas transakcijas saistībā ar vienu dokumentu. Šajā dokumentā iekļaujamie žurnāli var būt virsgrāmatas žurnāli, pamatlīdzekļu žurnāli un kreditoru maksājumu žurnāli, u.c.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Kad One voucher funkcionalitāte būs novecojusi?
 

@@ -1,6 +1,6 @@
 ---
 title: TDS aprēķinu formulas veidotājs
-description: Šī tēma sniedz piemēru tam, kā tiek aprēķināts No kopējo ienākumu summas atskaitīto nodoklis (TDS), pamatojoties uz formulu, kas noteikta katram TDS nodokļu kodam TDS grupā, kas pievienots darījumam.
+description: Šajā rakstā sniegts piemērs tam, kā tiek aprēķināts ieturētais nodoklis avotā (TDS), pamatojoties uz formulu, kas noteikta katrai TDS nodokļa kodam TDS grupā, kas pievienota darbībai.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889866"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>TDS aprēķinu formulas veidotājs
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts piemērs tam, kā tiek aprēķināts No kopējo ienākumu summas atskaitīto nodoklis (TDS), pamatojoties uz formulu, kas noteikta katram TDS nodokļa kodam. TDS nodokļu kodi ir definēti TDS grupā, kas pievienota darījumam. Pirms TDS formulu izstrādāšanas izpildiet pamata iestatījumu, kas nepieciešams TDS, kā norādīts šajos soļos. 
+Šajā rakstā sniegts piemērs tam, kā tiek aprēķināts ieturētais nodoklis avotā (TDS), pamatojoties uz formulu, kas noteikta katram TDS nodokļa kodam. TDS nodokļu kodi ir definēti TDS grupā, kas pievienota darījumam. Pirms TDS formulu izstrādāšanas izpildiet pamata iestatījumu, kas nepieciešams TDS, kā norādīts šajos soļos. 
 
 - Iestatiet TDS komponenta grupas, izmantojot **Ieturēto nodokļu komponentu grupas** lapu. 
 - Iestatiet TDS komponentus un pievienojiet TDS komponentu grupu TDS komponentiem, izmantojot **Ieturētā nodokļa komponentu** lapu. 

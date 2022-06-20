@@ -1,6 +1,6 @@
 ---
-title: Preču ieteikumu iespējošana
-description: Šajā tēmā izskaidrots, kā sniegt preces ieteikumus, kas balstīti uz mākslīgo intelektu – mašīnmācību (AI-ML), kas pieejama Microsoft Dynamics 365 Commerce klientiem.
+title: Iespējot preču ieteikumus
+description: Šajā rakstā skaidrots, kā veidot produktu ieteikumus, kas balstīti uz klienta inteliģences apmācību (AI-PARA) pieejamajiem Microsoft Dynamics 365 Commerce klientiem.
 author: bebeale
 ms.date: 08/31/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892075"
 ---
 # <a name="enable-product-recommendations"></a>Iespējot preču ieteikumus
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā sniegt preces ieteikumus, kas balstīti uz mākslīgo intelektu – mašīnmācību (AI-ML), kas pieejama Microsoft Dynamics 365 Commerce klientiem. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, skatiet [Preču ieteikumu pārskats](product-recommendations.md).
+Šajā rakstā skaidrots, kā veidot produktu ieteikumus, kas balstīti uz klienta inteliģences apmācību (AI-PARA) pieejamajiem Microsoft Dynamics 365 Commerce klientiem. Lai iegūtu vairāk informācijas par preču ieteikumu sarakstiem, skatiet [Preču ieteikumu pārskats](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Ieteikumu iepriekšpārbaude
 

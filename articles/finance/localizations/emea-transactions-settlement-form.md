@@ -1,6 +1,6 @@
 ---
 title: Skatīt nosegšanas transakcijas Austrumeiropai
-description: Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
+description: Šajā rakstā ir sniegta informācija par debitoru un kreditoru darbību nosegšanas lapām.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba3e168d188dfe0f808e7d7f7bab6192de25d25977023eb798a923ec97b43b82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b45dc7a8213c753491c367cef36d7dc1111270c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856549"
 ---
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Skatīt nosegšanas transakcijas Austrumeiropai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par lapu Nosegšanas transakcijas debitoriem un kreditoriem.
+Šajā rakstā ir sniegta informācija par debitoru un kreditoru darbību nosegšanas lapām.
 
 Izmantojiet lapu **Nosegšanas transakcijas**, lai skatītu informāciju par kompleksām nosegšanas transakcijām kādam debitoram vai kreditoram. Šis līdzeklis ir pieejams tikai juridiskām personām, kuru primārā adrese ir Lietuvā, Latvijā, Igaunijā, Čehijā, Ungārijā vai Polijā. Lapa **Nosegšanas transakcijas** ir atrodama tālāk norādītajās vietās.
 

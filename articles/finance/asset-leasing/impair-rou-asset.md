@@ -1,6 +1,6 @@
 ---
 title: Līdzekļa lietošanas tiesību mazināšana
-description: Šī tēma apraksta funkcionalitāti, kas reģistrē vērtības samazinājumu un koriģē uzskaites standartu kodifikācijas tēmas 842 (ASC 842) operatīvas nomas līdzekļu novecošanas grafiku.
+description: Šajā rakstā ir aprakstīta funkcionalitāte, kas reģistrē pasliktināšanos un koriģē grāmatvedības standartu codifikācijas tēmas 842 (ASC 842) operāciju nomas pamatlīdzekļu nolietojuma grafiku.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894118"
 ---
 # <a name="impair-right-of-use-assets"></a>Līdzekļa lietošanas tiesību mazināšana
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Ja līdzekļa lietošanas tiesību uzskaites summa nav atgūstama, iespējams, ir jāpārbauda, vai līdzekļa tiesības ir samazinātas. Ja nosakāt, ka līdzekļa tiesības ir samazinātas, līdzekļu noma var reģistrēt vērtības samazinājumu un atbilstoši koriģēt nolietojuma plānu. Šī tēma apraksta funkcionalitāti, kas reģistrē vērtības samazinājumu un koriģē uzskaites standartu kodifikācijas tēmas 842 (ASC 842) operatīvas nomas nolietojuma plānu. To pašu metodi piemēro arī starptautisko finanšu pārskatu standarta (IFRS 16) nomām.
+Ja līdzekļa lietošanas tiesību uzskaites summa nav atgūstama, iespējams, ir jāpārbauda, vai līdzekļa tiesības ir samazinātas. Ja nosakāt, ka līdzekļa tiesības ir samazinātas, līdzekļu noma var reģistrēt vērtības samazinājumu un atbilstoši koriģēt nolietojuma plānu. Šajā rakstā ir aprakstīta funkcionalitāte, kas reģistrē pasliktināšanos un koriģē grāmatvedības standartu codifikācijas tēmas 842 (ASC 842) operāciju nomas nolietojuma grafiku. To pašu metodi piemēro arī starptautisko finanšu pārskatu standarta (IFRS 16) nomām.
 
 LLT līdzekļa atlikums tiks amortizēts atlikušajam periodu skaitam neatkarīgi no tā, vai noma tika klasificēta kā finanšu noma saskaņā ar IFRS 16 vai operatīvā noma saskaņā ar ASC 842.
 
@@ -81,9 +81,9 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
 | Maksājumu biežums | Reizi gadā   |
 | Maksājuma summa    | 10,000     |
 
-### <a name="steps"></a>Soļi
+### <a name="steps"></a>Darbības
 
-1. Pēc nomas izveides, kā aprakstīts iepriekš šajā tēmā, dodieties uz nomas grāmatu un apstipriniet maksājumu grafiku. Pēc tam iegrāmatojiet sākotnējās atpazīšanas žurnāla ierakstu. Sākotnējam LLT aktīvam un nomas saistībām ir jābūt $ 70 235,81. Šajā piemērā noma tika klasificēta kā operatīvā noma saskaņā ar ASC 842.
+1. Pēc nomas izveides, kā aprakstīts iepriekš šajā rakstā, dodieties uz nomas grāmatu un apstipriniet maksājumu grafiku. Pēc tam iegrāmatojiet sākotnējās atpazīšanas žurnāla ierakstu. Sākotnējam LLT aktīvam un nomas saistībām ir jābūt $ 70 235,81. Šajā piemērā noma tika klasificēta kā operatīvā noma saskaņā ar ASC 842.
 2. Palaidiet partijas žurnāla apstrādi trīs reizes, lai simulētu trīs gadu paiešanu nomas maksājumiem, procentu izdevumiem un nolietojuma izdevumiem.
 3. Kad esat pabeidzis visu trīs pakešuzdevumu izpildi, atgriezieties pie nomas grāmatas un atveriet saistību un līdzekļu darījumu tabulas, lai skatītu LLT un nomas saistītu pašreizējo uzskaites vērtību. Pēc trīs gadiem, saistību vērtībai ir jābūt aptuveni $ -53 893,00, un līdzekļa vērtībai jābūt aptuveni $ 53 893,00. 
 

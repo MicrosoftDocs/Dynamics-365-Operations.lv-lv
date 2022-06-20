@@ -1,6 +1,6 @@
 ---
 title: Preču papildinformācijas lapu pārskats
-description: Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegts pārskats par preču informācijas lapām (PDP)Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884289"
 ---
 # <a name="product-details-pages-overview"></a>Preču papildinformācijas lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir sniegts pārskats par preču informācijas lapām (PDP)Microsoft Dynamics 365 Commerce.
 
 PDP sniedz detalizētu informāciju par preci, un ļaujiet klientiem izvēlēties preces opcijas, piemēram, izmēru, stilu un krāsu. PDP ir jāparāda visa preces informācija, kas klientam nepieciešama, lai pieņemtu lēmumu par pirkšanu.
 
@@ -35,7 +35,7 @@ Tālāk redzamajā attēlā parādīts PDP piemērs.
 
 ## <a name="header-and-footer-modules"></a>Galvenes un kājenes moduļi
 
-PDP augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Lapas apakšpusē ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircējus.
+PDP augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Lapas apakšpusē ir kājene, kas satur tiešās saites uz dažādiem rakstiem, kas varētu būt soda debitori.
 
 ## <a name="buy-box-module"></a>Pirkšanas lodziņa modulis
 

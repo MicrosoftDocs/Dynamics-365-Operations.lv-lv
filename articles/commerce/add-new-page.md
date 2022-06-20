@@ -1,6 +1,6 @@
 ---
 title: Jaunas vietnes lapas pievienošana
-description: Šajā tēmā aprakstīts, kā pievienot jaunu vietnes lapu risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā pievienot jaunu vietnes lapu Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871732"
 ---
 # <a name="add-a-new-site-page"></a>Jaunas vietnes lapas pievienošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā pievienot jaunu vietnes lapu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā pievienot jaunu vietnes lapu Microsoft Dynamics 365 Commerce.
 
 Pēc tam, kad esat izveidojis veidnes un fragmentus jūsu vietnei, nākamais solis ir izveidot lapas, kas tās izmanto. Lai sāktu darbu, jāatlasa veidne vai izkārtojums, lapas nosaukums un lapas vietrādis URL.
 
@@ -35,7 +35,7 @@ Jaunajai lapai varat izmantot veidni vai izkārtojumu. Papildinformāciju skatie
 
 ## <a name="specify-the-page-name"></a>Norādiet lapas nosaukumu
 
-Lapas nosaukumam ir jābūt unikālam jūsu vietnei, un tam ir jābūt aprakstošam, lai jūs to varētu viegli atrast un citi cilvēki zinātu, kam lapa ir paredzēta. Varat pārdēvēt savu lapu vēlāk, to rediģējot un pēc tam rekvizītu rūtī blakus lapas nosaukumam atlasot pildspalvas simbolu.
+Lapas nosaukumam jābūt unikālam jūsu vietnē, un tam jābūt aprakstošam, lai varētu to viegli atrast, un citiem cilvēkiem ir jāzina, kam paredzēta lapa. Varat pārdēvēt lapu vēlāk, to labojot, pēc tam rekvizītu rūtī atlasot pildspalvas simbolu blakus lapas nosaukumam.
 
 ## <a name="specify-the-page-url"></a>Norādiet lapas URL
 

@@ -1,6 +1,6 @@
 ---
 title: Izslēgt pamatlīdzekļus kā norakstītos
-description: Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzeklim, kas noņemts kā brāķis.
+description: Šajā dokumentā aprakstīts likvidēšanas darbību process pamatlīdzeklim, kas tika izslēgts kā brāķis.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855438"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Izslēgt pamatlīdzekļus kā norakstītos
 
 [!include [banner](../includes/banner.md)]
 
-Tēmā ir aprakstīts process, kurā tiek likvidētas transakcijas pamatlīdzeklim, kas noņemts kā brāķis. Transakciju veidi, kurus var likvidēt, ietver pamatlīdzekļa iegādi un uzkrātā nolietojuma transakcijas un citas pamatlīdzekļu transakcijas. Šo darbību likvidēšana ietekmē bilances kontus, piemēram, iegādes korekciju, nolietojuma korekciju, pārvērtēšanu, vērtības palielināšanu un vērtības samazināšanu.
+Šajā dokumentā aprakstīts likvidēšanas darbību process pamatlīdzeklim, kas tika izslēgts kā brāķis. Transakciju veidi, kurus var likvidēt, ietver pamatlīdzekļa iegādi un uzkrātā nolietojuma transakcijas un citas pamatlīdzekļu transakcijas. Šo darbību likvidēšana ietekmē bilances kontus, piemēram, iegādes korekciju, nolietojuma korekciju, pārvērtēšanu, vērtības palielināšanu un vērtības samazināšanu.
 
 | Darījums                                         | Debets (Dr.) | Kredīts (Kr.) |
 |-----------------------------------------------------|-------------|--------------|

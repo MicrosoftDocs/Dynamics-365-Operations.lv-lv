@@ -1,6 +1,6 @@
 ---
 title: Omni kanāla papildu automātiskās maksas
-description: Šajā tēmā ir aprakstītas iespējas pārvaldīt pasūtījuma citas maksas Commerce kanāla pasūtījumiem, izmantojot papildu automātisko maksu līdzekļus.
+description: Šajā rakstā ir aprakstītas iespējas pārvaldīt citas pasūtījuma maksas Commerce kanāla pasūtījumiem, izmantojot papildu automātiskās maksas līdzekļus.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851135"
 ---
-# <a name="omni-channel-advanced-auto-charges"></a>Multikanāla papildu automātiskās maksas
+# <a name="omni-channel-advanced-auto-charges"></a>Omni kanāla papildu automātiskās maksas
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to, kā konfigurēt un izvietot papildu automātisko maksu līdzekļus, kas ir pieejami Dynamics 365 for Retail versijā 10.0.
+Šajā rakstā ir sniegta informācija par versiju 10.0 pieejamo papildu automātisko Dynamics 365 for Retail maksu līdzekļu konfigurāciju un izvietošanu.
 
 Ja ir iespējoti papildu automātisko maksu līdzekļi, jebkurā atbalstītajā Commerce kanālā (pārdošanas punktā (POS), zvanu centrā un tiešsaistē) izveidotajiem pasūtījumiem var izmantot ERP lietojumprogrammā definētās [automātisko maksu](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigurācijas gan galvas, gan rindas līmeņa saistītajām maksām.
 

@@ -1,6 +1,6 @@
 ---
 title: Asinhronā debitora izveides režīms
-description: Šajā tēmā aprakstīts asinhronais debitoru izveides režīms Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts asinhronais debitoru izveides režīms Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880144"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Asinhronā debitora izveides režīms
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts asinhronais debitoru izveides režīms Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts asinhronais debitoru izveides režīms Microsoft Dynamics 365 Commerce.
 
 Komercijas programmā ir divi debitoru izveides veidi: sinhroni (vai sinhroni) un asinhroni (vai async). Klienti pēc noklusējuma tiek izveidoti sinhroni. Citiem vārdiem sakot, tos izveido Commerce galvenajā pārvaldē reāllaikā. Sinhronizācijas debitora izveides režīms ir no jauna, jo jaunie debitori nekavējoties var meklēt kanālos. Taču šim režīmam ir arī trūkums. Tā kā tas uz Commerce galveno pārvaldi ģenerē zvanus [Commerce Data Exchange: Reāllaika pakalpojums](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service), var tikt ietekmēts sniegums, ja secīgi tiek veikti vairāki klientu izveides zvani.
 

@@ -1,6 +1,6 @@
 ---
 title: Lietotāju un lomu pārvaldība e-tirdzniecībā
-description: Šajā tēmā izskaidrots, kā piešķirt lietotājiem piekļuvi Microsoft Dynamics 365 Commerce vietnes autorēšanas videi.
+description: Šajā rakstā skaidrots, kā piešķirt lietotājiem piekļuvi jūsu vietnes autorizēšanas videi Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868965"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Lietotāju un lomu pārvaldība e-tirdzniecībā
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā izskaidrots, kā piešķirt lietotājiem piekļuvi Microsoft Dynamics 365 Commerce vietnes autorēšanas videi.
+Šajā rakstā skaidrots, kā piešķirt lietotājiem piekļuvi jūsu vietnes autorizēšanas videi Microsoft Dynamics 365 Commerce.
 
 Lai palīdzētu kontrolēt lietotāju piekļuvi un piešķirtu lietotājiem atļaujas veikt noteiktus uzdevumus, vietnes autorēšanas vide izmanto drošības grupas, ko izveidojat Microsoft Azure Active Directory (Azure AD). Vispirms no Azure AD piešķiriet jaunu vai esošu drošības grupu katrai lomai autorēšanas vidē. Pēc tam piešķiriet vai atsauciet atļaujas atsevišķiem lietotājiem, vai nu pievienojot šos lietotājus atbilstošai drošības grupai, vai noņemot tos no drošības grupas.
 
@@ -50,7 +50,7 @@ Kad jūs nodrošināt Dynamics 365 Commerce Microsoft Dynamics Lifecycle Service
 
 ## <a name="administrator-role"></a>Administratora loma
 
-Kad jūs Commerce izveidojat jaunu vietni, jums tiek lūgts nodrošināt drošības grupu lomai **Administrators**. Skatīt šajā tēmā iepriekš minēto tabulu, lai apskatītu šai lomai piešķirtās atļaujas.
+Kad jūs Commerce izveidojat jaunu vietni, jums tiek lūgts nodrošināt drošības grupu lomai **Administrators**. Skatiet iepriekš šajā rakstā tabulu, lai iegūtu pārskatu par šīs lomas dotajām atļaujām.
 
 ## <a name="add-or-update-security-groups"></a>Drošības grupu pievienošana vai atjaunināšana
 

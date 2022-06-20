@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas pasūtījumu kredītu aizturēšana
-description: Šajā tēmā ir aprakstīti kārtulu iestatījumi, kas tiek izmantoti, lai nodotu pārdošanas pasūtījumu kredīta aizturēšanai.
+description: Šajā rakstā ir aprakstīti to noteikumu iestatījumi, kas tiek izmantoti pārdošanas pasūtījuma aizturēšanai kredītā.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856833"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pārdošanas pasūtījumu kredītu aizturēšana
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīti kārtulu iestatījumi, kas tiek izmantoti, lai nodotu pārdošanas pasūtījumu kredīta aizturēšanai. Kredīta pārvaldības aizturēšanas kārtulas var tikt piemērotas atsevišķam debitoram vai debitoru grupai. Aizturēšanas kārtulas nosaka atbildes uz tālāk norādītajiem apstākļiem.
+Šajā rakstā ir aprakstīti to noteikumu iestatījumi, kas tiek izmantoti pārdošanas pasūtījuma aizturēšanai kredītā. Kredīta pārvaldības aizturēšanas kārtulas var tikt piemērotas atsevišķam debitoram vai debitoru grupai. Aizturēšanas kārtulas nosaka atbildes uz tālāk norādītajiem apstākļiem.
 
 1. Kavēto dienu skaits
 2. Kontu statuss

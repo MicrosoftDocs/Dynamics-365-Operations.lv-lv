@@ -1,6 +1,6 @@
 ---
 title: Elektroniskās rēķinu izrakstīšanas pārskats
-description: Šajā tēmā sniegts pārskats par elektronisko rēķinu izrakstīšanu sistēmā Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+description: Šajā rakstā sniegts pārskats par elektronisko rēķinu izrakstīšanu Microsoft Dynamics 365 Finanses un Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 01/21/2022
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4ce5776216855fc664b9beba68036d41920ae602
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861301"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroniskās rēķinu izrakstīšanas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Elektroniskā rēķinu izrakstīšana korporācijai Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management un ir hyper-mērogojams vairāklīmeņu pakalpojums, kas iespējo konfigurējamu elektronisko rēķinu apstrādi un konfigurējamu elektronisko dokumentu apmaiņu. Apstrādes un integrācijas noteikumi ir pilnībā konfigurējami, un šī loģika darbojas ārpus programmām Finance un Supply Chain Management. Pakalpojums tiek paredzēts galvenokārt elektronisko rēķinu dokumentu apstrādei "bizness-valdība" scenārijos. Tomēr to var pielāgot citiem nolūkiem, piemēram, "bizness-biznesam" scenāriji dažādiem dokumentu tipiem.
+Elektroniskā rēķinu izrakstīšana Microsoft Dynamics 365. Dynamics 365 Supply Chain Management finanšu gadam un ir pār mērogojams vairāklīmeņu pakalpojums, kas iespējo konfigurējamu elektronisko rēķinu apstrādi un konfigurējamu elektronisko dokumentu apmaiņu. Apstrādes un integrācijas noteikumi ir pilnībā konfigurējami, un šī loģika darbojas ārpus programmām Finance un Supply Chain Management. Pakalpojums tiek paredzēts galvenokārt elektronisko rēķinu dokumentu apstrādei "bizness-valdība" scenārijos. Tomēr to var pielāgot citiem nolūkiem, piemēram, "bizness-biznesam" scenāriji dažādiem dokumentu tipiem.
 
 Elektronisko rēķinu izrakstīšana var palīdzēt sasniegt šādus mērķus:
 

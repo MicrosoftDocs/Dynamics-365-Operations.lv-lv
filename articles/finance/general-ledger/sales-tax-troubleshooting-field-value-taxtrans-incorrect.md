@@ -1,6 +1,6 @@
 ---
-title: Nepareiza lauka vērtība kolonnā TaxTrans
-description: Šajā tēmā sniegta informācija par nepareizu lauka vērtību novēršanu kolonnā TaxTrans.
+title: Nepareiza lauka vērtība laukā TaxTrans
+description: Šajā rakstā ir sniegta informācija par nepareizu lauku vērtību problēmu novēršana laukā TaxTrans.
 author: EricWangChen
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6d4e7fd1bae56c5a7cb9a1a558a5344b3e555e83
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6e7329ffdc04207116c92cb42e02750b176713fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899819"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>Nepareiza lauka vērtība kolonnā TaxTrans
 
 [!include [banner](../includes/banner.md)]
 
-Ja lauka vērtība kolonnā **TaxTrans** nav pareiza, izmantojiet informāciju šajā tēmā, lai mēģinātu atrisināt šo problēmu.
+Ja lauka vērtība vieno **TaxTrans** nav pareiza, izmantojiet informāciju šajā rakstā, lai mēģinātu atrisināt šo problēmu.
 
 ## <a name="overview-of-values"></a>Vērtību apskats
 Šajā sarakstā ir parādīts, kā **TaxTrans**, **TaxUncommitted** un **TmpTaxWorkTrans** ir līdzīgas datu kopas, bet darbojas citādi.

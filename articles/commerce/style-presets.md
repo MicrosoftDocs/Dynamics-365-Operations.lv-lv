@@ -1,6 +1,6 @@
 ---
 title: Darbs ar stila sākotnējiem iestatījumiem
-description: Šajā tēmā ir aprakstīts, kā strādāt ar stilu priekšiestatījumiem programmas Microsoft Dynamics 365 Commerce vietņu būvētājā.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar vietas stila iestatījumiem vietas veidotājā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900364"
 ---
 # <a name="work-with-style-presets"></a>Darbs ar stila sākotnējiem iestatījumiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā strādāt ar stilu priekšiestatījumiem programmas Microsoft Dynamics 365 Commerce vietņu būvētājā.
+Šajā rakstā ir aprakstīts, kā strādāt ar vietas stila iestatījumiem vietas veidotājā Microsoft Dynamics 365 Commerce.
 
 Stilu priekšiestatījums ir uzglabāta visu atļaujamo stila vērtību kopa visā vietnes dizainā. To var izmantot, lai nekavējoties mainītu vietnes izskatu no vietnes veidotāja. Stila priekšiestatījumi ļauj Commerce vietnes būvētāja autoriem ātri mainīt, priekšskatīt un aktivizēt stila vērtību kopu visā savā vietnē bez nepieciešamības izmantot kaskadētās stilu lapas (CSS) vai izvietot dizainus. Fontu stili, pogu stili un vietnes krāsas ir raksturīgi stila mainīgo piemēri, kurus var pārvaldīt, izmantojot stila priekšiestatījumus.
 

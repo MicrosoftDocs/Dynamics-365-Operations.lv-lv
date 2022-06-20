@@ -1,6 +1,6 @@
 ---
 title: Periodiskie uzdevumi periodiskiem līguma norēķiniem
-description: Šajā tēmā aprakstīti periodiskie uzdevumi, kas pieejami periodiskiem līguma norēķiniem.
+description: Šajā rakstā ir aprakstīti periodiskie uzdevumi, kas pieejami periodiskiem līguma norēķiniem.
 author: JodiChristiansen
 ms.date: 04/29/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 80f65d82881bb000f626c4225b3eac7dd1a2a44a
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: d834d1d7aa34448b4ef21606974538eb294b5d7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904793"
 ---
 # <a name="periodic-tasks-in-recurring-contract-billing"></a>Periodiskie uzdevumi periodiskiem līguma norēķiniem
 
-Šajā tēmā aprakstīti periodiskie uzdevumi, kas pieejami periodiskiem līguma norēķiniem.
+Šajā rakstā ir aprakstīti periodiskie uzdevumi, kas pieejami periodiskiem līguma norēķiniem.
 
 ## <a name="generate-invoice"></a>Ģenerēt rēķinu
 

@@ -1,6 +1,6 @@
 ---
 title: Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs
-description: Šajā tēmā ir aprakstīts, kā konfigurēt debitora konta maksājuma metodi sistēmā Microsoft Dynamics 365 Commerce. Tajā aprakstīts arī tas, kā kredīta limiti ietekmē starpkontu maksājuma tveršanu e-komercijas vietnēs "bizness-biznesam".
+description: Šajā rakstā ir aprakstīts, kā konfigurēt debitora konta maksājuma metodi sistēmā Microsoft Dynamics 365 Commerce. Tajā aprakstīts arī tas, kā kredīta limiti ietekmē starpkontu maksājuma tveršanu e-komercijas vietnēs "bizness-biznesam".
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878651"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā konfigurēt debitora konta maksājuma metodi sistēmā Microsoft Dynamics 365 Commerce. Tajā aprakstīts arī tas, kā kredīta limiti ietekmē starpkontu maksājuma tveršanu e-komercijas vietnēs "bizness-biznesam".
+Šajā rakstā ir aprakstīts, kā konfigurēt debitora konta maksājuma metodi sistēmā Microsoft Dynamics 365 Commerce. Tajā aprakstīts arī tas, kā kredīta limiti ietekmē starpkontu maksājuma tveršanu e-komercijas vietnēs "bizness-biznesam".
 
 Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem e-komercijas kanālā. Sistēmas iestatīšanas laikā programmā Dynamics 365 Commerce ir jākonfigurē katrs maksājuma veids, ko pieņem mazumtirgotājs. Debitora konta (vai "starpkonta") maksāšanas metode ir jāatbalsta B2B e-komercijas vietnēs. 
 

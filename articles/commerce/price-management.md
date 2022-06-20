@@ -1,6 +1,6 @@
 ---
 title: Mazumtirdzniecības pārdošanas cenu pārvaldība
-description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstītas koncepcijas pārdošanas cenu izveidošanai un pārvaldīšanai Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887014"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par pārdošanas cenu izveides un pārvaldības procesu programmā Dynamics 365 Commerce. Galvenā uzmanība ir pievērsta ar šo procesu saistītajiem jēdzieniem, kā arī dažādo konfigurācijas opciju ietekmei uz pārdošanas cenām.
+Šajā rakstā ir sniegta informācija par pārdošanas cenu izveides un pārvaldīšanas procesu Dynamics 365 Commerce. Galvenā uzmanība ir pievērsta ar šo procesu saistītajiem jēdzieniem, kā arī dažādo konfigurācijas opciju ietekmei uz pārdošanas cenām.
 
 ## <a name="terminology"></a>Terminoloģija
 
-Šajā tēmā tiek izmantoti tālāk norādītie termini.
+Šajā rakstā ir lietoti šādi termini.
 
-| Termins | Definīcija, lietojums un piezīmes |
+| Termiņš | Definīcija, lietojums un piezīmes |
 |---|---|
-| Cena | Summa, par kādu viena preces vienība tiek pārdota pārdošanas punktā (Point of Sale — POS) debitoram vai pārdošanas pasūtījumā. Šajā tēmā termins *cena* vienmēr attiecas uz pārdošanas cenu, nevis uz krājumu cenu vai izmaksu cenu. |
+| Cena | Summa, par kādu viena preces vienība tiek pārdota pārdošanas punktā (Point of Sale — POS) debitoram vai pārdošanas pasūtījumā. Šajā rakstā termins "cena *vienmēr* " attiecas uz pārdošanas cenu, nevis uz krājuma cenu vai izmaksu cenu. |
 | Pamatcena | Cena, kas izlaistai precei ir iestatīta laukā **Cena**. |
 | Tirdzniecības līguma cena | Cena, kas precei vai variantam ir iestatīta, izmantojot tirdzniecības līgumu ar tipu **Cena (pārdošana)**. |
-| Labākā cena | Ja precei var piemērot vairākas cenas vai atlaides — mazākā cenas summa un/vai lielākā atlaides summa, kura veido vismazāko iespējamo neto summu, kas debitoram ir jāmaksā. Šajā tēmā labākās cenas jēdziens vienmēr tiek saukts par “labāko cenu”. Šī labākā cena atšķiras no uzskaitījuma vērtības **Labākā cena**, kura tiek izmantota atlaižu vienlaicīguma režīmam, un šos jēdzienus nedrīkst sajaukt. |
+| Labākā cena | Ja precei var piemērot vairākas cenas vai atlaides — mazākā cenas summa un/vai lielākā atlaides summa, kura veido vismazāko iespējamo neto summu, kas debitoram ir jāmaksā. Šajā rakstā vislabākās cenas koncepcija vienmēr tiek saukta par "labāko cenu". Šī labākā cena atšķiras no uzskaitījuma vērtības **Labākā cena**, kura tiek izmantota atlaižu vienlaicīguma režīmam, un šos jēdzienus nedrīkst sajaukt. |
 
 ## <a name="price-groups"></a>Cenu grupas
 
@@ -97,7 +97,7 @@ Lai izmantotu cenu noteikšanas prioritāti cenām, cenu noteikšanas prioritāt
 
 Cenu noteikšanas prioritātes līdzeklis tika ieviests, lai atbalstītu scenāriju, kur mazumtirgotājs vēlas piemērot augstākas cenas kādā noteiktā veikalu kopā. Piemēram, mazumtirgotājs ir definējis reģionālās cenas Amerikas Savienoto Valstu austrumkrastam, bet vēlas norādīt augstākas cenas dažām precēm Ņujorkas veikalos, jo šajā pilsētā preču tirgošana izmaksā vairāk un/vai vietējā tirgū var izmantot augstāku cenu.
 
-Kā jau aprakstīts šīs tēmas sadaļā “Labākā cena”, cenu noteikšanas programma parasti atlasa mazāko no abām cenām. Tāpēc mazumtirgotājam parasti tiek liegts izmantot augstāko no abām cenām tādā veikalā, kas ietilpst gan cenu grupā Austrumkrasts, gan cenu grupā Ņujorka. Lai atrisinātu šo problēmu pirms cenu noteikšanas prioritātes līdzekļa ieviešanas, mazumtirgotājam bija nepieciešams definēt cenas katrai precei divas reizes un nedrīkstēja piešķirt abas cenu grupas. Vai arī šim mazumtirgotājam bija jāizveido papildu cenu grupas, lai preces, kurām ir augstākas cenas, nošķirtu no precēm, kurām ir parastās, t.i., zemākās cenas.
+Kā aprakstīts šī raksta sadaļā "Labākā cena", cenu noteikšanas programma parasti atlasa zemāko no divām cenām. Tāpēc mazumtirgotājam parasti tiek liegts izmantot augstāko no abām cenām tādā veikalā, kas ietilpst gan cenu grupā Austrumkrasts, gan cenu grupā Ņujorka. Lai atrisinātu šo problēmu pirms cenu noteikšanas prioritātes līdzekļa ieviešanas, mazumtirgotājam bija nepieciešams definēt cenas katrai precei divas reizes un nedrīkstēja piešķirt abas cenu grupas. Vai arī šim mazumtirgotājam bija jāizveido papildu cenu grupas, lai preces, kurām ir augstākas cenas, nošķirtu no precēm, kurām ir parastās, t.i., zemākās cenas.
 
 Taču cenu noteikšanas prioritātes līdzeklis ļauj mazumtirgotājam izveidot cenu noteikšanas prioritāti veikala cenām, kas ir augstāka par cenu noteikšanas prioritāti reģionālajām cenām. Vai arī mazumtirgotājs var izveidot cenu noteikšanas prioritāti tikai veikala cenām, bet reģionālajām cenām atstāt noklusējuma cenu noteikšanas prioritāti, kas ir 0 (nulle). Abi iestatījumi palīdz nodrošināt, ka veikala cenas vienmēr tiek izmantotas pirms reģionālajām cenām.
 
@@ -151,7 +151,7 @@ Izmantojot tirdzniecības līgumu žurnālu, varat izveidot pārdošanas cenas t
 
 Pārdošanas cenas tirdzniecības līgums **Tabula** ir paredzēts atsevišķam debitoram, kas tiek iestatīts tieši pārdošanas līgumam. Šis scenārijs nav tipiskais scenārijs “no uzņēmuma patērētājam” (Business-to-Consumer — B2C). Taču, ja tāds rodas, cenas noteikšanai cenu noteikšanas programma izmanto tirdzniecības līgumus **Tabula**.
 
-Pārdošanas cenas tirdzniecības līgums **Grupa** ir tāds tips, kas tiek izmantots visbiežāk. Ārpus pārdošanas cenas tirdzniecības līgumi **Grupa** ir paredzēti vienkāršai debitoru grupai. Taču programmatūrā Commerce debitoru grupas jēdziens ir paplašināts, lai tas būtu vispārīgāka cenu grupa. Cenu grupu var saistīt ar kanālu, piederību, lojalitātes programmu vai katalogu. Detalizētu informāciju par cenu grupām skatiet agrākā šīs tēmas sadaļā “Cenu grupas”.
+Pārdošanas cenas tirdzniecības līgums **Grupa** ir tāds tips, kas tiek izmantots visbiežāk. Ārpus pārdošanas cenas tirdzniecības līgumi **Grupa** ir paredzēti vienkāršai debitoru grupai. Taču programmatūrā Commerce debitoru grupas jēdziens ir paplašināts, lai tas būtu vispārīgāka cenu grupa. Cenu grupu var saistīt ar kanālu, piederību, lojalitātes programmu vai katalogu. Papildinformāciju par cenu grupām skatiet šī raksta sadaļā "Cenu grupas".
 
 > [!NOTE]
 > Tirdzniecības līguma cena vienmēr tiek izmantota pirms pamatcenas.

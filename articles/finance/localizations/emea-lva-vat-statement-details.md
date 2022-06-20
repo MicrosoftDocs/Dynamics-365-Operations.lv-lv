@@ -1,6 +1,6 @@
 ---
 title: PVN deklarācijas informācija Latvijai
-description: Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
+description: Šajā rakstā skaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 711385fc663b914e0fda15680d9df7572511ab8a76779775086e80de89965f82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60a3abf5b741f9b09f6de6066a4d7e699522120d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880622"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
+Šajā rakstā skaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 
-Šajā tēmā ir iekļauta valstij/reģionam specifiska informācija par pievienotās vērtības nodokļa (PVN) deklarāciju tikai juridiskajām personām Latvijā. Papildinformāciju par PVN deklarāciju ieviešanu skatiet rakstā [VAT pārskati par Eiropu](emea-vat-reporting.md).
+Šajā rakstā ir iekļauta valstij/reģionam specifiskā informācija par pievienotās vērtības nodokļa (PVN) pārskata iestatīšanu tikai Latvijas juridiskajām personām. Papildinformāciju par PVN deklarāciju ieviešanu skatiet rakstā [VAT pārskati par Eiropu](emea-vat-reporting.md).
 
 ## <a name="set-up-sales-tax-authorities"></a>PVN iestāžu iestatīšana
 Lai PVN deklarāciju ģenerētu atbilstošajai nodokļu iestādei pieprasītajā formātā, ir jāiestata pārskata izkārtojums PVN iestādēm. Lapā **PVN iestādes** laukam **Pārskata izkārtojums** iestatiet vērtību **Noklusējums**. Atlasiet PVN iestādi tam PVN apmaksas periodam, kurš tiks izmantots PVN kodiem.

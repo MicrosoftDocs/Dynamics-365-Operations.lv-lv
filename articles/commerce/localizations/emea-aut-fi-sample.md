@@ -1,6 +1,6 @@
 ---
 title: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
-description: Šajā tēmā sniegts pārskats par Austrijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegts austrijas finanšu integrācijas parauga apskats Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873362"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par Austrijas finanšu integrācijas paraugu Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir sniegts austrijas finanšu integrācijas parauga apskats Microsoft Dynamics 365 Commerce.
 
 Lai nodrošinātu atbilstību austrijas kases reģistru lokālajām finanšu prasībām, Dynamics 365 Retail Austrijas funkcionalitāte ietver pārdošanas punkta (POS) parauga integrāciju ar ārēju finanšu reģistrācijas pakalpojumu. Paraugs paplašina finanšu integrācijas [funkcionalitāti](fiscal-integration-for-retail-channel.md). Tas ir balstīts uz [EFR (Elektronisko finanšu reģistru)](https://www.efsta.eu/at/fiskalloesungen/oesterreich)[risinājumu no EFSTA](https://www.efsta.eu/at/) un nodrošina sakarus ar EFR pakalpojumu, izmantojot HTTPS protokolu. EFR pakalpojums ir jā vieso Retail aparatūras stacijā vai atsevišķā datorā, kam var izveidot savienojumu no aparatūras stacijas. Paraugs ir nodrošināts avota koda formā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
 
@@ -204,7 +204,7 @@ Papildinformāciju par to, kā strādāt ar kvīšu formātiem, skatiet [sadaļ�
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Iestatīt Fiskālo integrāciju Austrijai
 
-Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Austrijai ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē srcFiscalIntegrationEfr\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums (CRT) un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Austrijai ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums (CRT) un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Austrijas [finanšu integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-aut-fi-sample-sdk.md) Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
@@ -231,8 +231,8 @@ Lai iespējotu reģistrācijas procesu, izpildiet šīs darbības, lai iestatīt
     > [!WARNING]
     > Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas tālākmintās Retail SDK mapēs LCS izstrādātāja VM:
     >
-    > - **Finanšu dokumentu nodrošinātāja konfigurācijas faili:** RetailSdkSampleExtensionsCommerceRuntimeExtensions.DocumentProvider.EFRSampleConfiguration\\\\\\\\
-    > - **Finanšu savienotāja konfigurācijas fails:** RetailSdkSampleExtensionsHardwareStationExtension.EFRSampleConfiguration\\\\\\\\
+    > - **Finanšu dokumentu nodrošinātāja konfigurācijas faili:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\ konfigurācija
+    > - **Finanšu savienotāja konfigurācijas fails:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ Extension.EFRSample\\ konfigurācija
     > 
     > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
 
@@ -279,13 +279,13 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
 Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šādus soļus.
 
 1. Lejupielādējiet Solutions repozitoriju vai [Dynamics 365 Commerce lejupielādējiet](https://github.com/microsoft/Dynamics365Commerce.Solutions) to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet lejupielādes [Retail SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
-1. Atveriet EFR risinājumu dynamics365Commerce.SolutionsFiscalIntegrationEfrEFR.sln **\\\\\\** un izveidojiet to.
+1. Atveriet EFR risinājumu dynamics365Commerce.Solutions **\\ FiscalIntegration\\ Efr\\ EFR.sln** un izveidojiet to.
 1. Instalēt CRT paplašinājumus:
 
     1. Atrast paplašinājuma CRT instalētāju:
 
-        - **Commerce Scale Unit:** mapē EfrScaleUnitScaleUnit.EFR.InstallerbinDebugnet461 **\\\\\\\\\\** atrodiet mapi ScaleUnit.EFR.Installer **installer.**
-        - **CRT Modern POS lokāls:** **mapē EfrModernPOSModernPOS.EFR.InstallerbinDebugnet461\\\\\\\\\\** **atrodiet ModernPOS.EFR.Installer instalētāju.**
+        - **Commerce Scale Unit:** **mapē Efr\\ ScaleUnit\\ ScaleUnit.EFR.Installer\\ bin\\ Atkļūdošanas\\ net461** **atrodiet mapi ScaleUnit.EFR.Installer** installer.
+        - **Modern CRT POS lokāls:** **Efr\\ ModernPOS ModernPOS.EFR.Installer\\\\ bin\\ atkļūdošanas\\ net461** **mapē atrodiet ModernPOS.EFR.Installer instalētāju.**
 
     1. Startējiet CRT paplašinājuma instalētāju no komandrindas:
 
@@ -307,7 +307,7 @@ Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šā
 
     1. Instalēt aparatūras stacijas paplašinājumus:
 
-        1. **Mapē EfrHardwareStationHardwareStation.EFR.InstallerbinDebugnet461\\\\\\\\\\ atrodiet** HardwareStation.EFR.Installer **installer.**
+        1. **Mapē Efr\\ HardwareStation\\ HardwareStation.EFR.Installer\\ bin\\ Atkļūdošana\\ net461** atrodiet **HardwareStation.EFR.Installer instalētāju**.
         1. Startējiet paplašinājuma instalētāju no komandrindas, palaižot šādu komandu.
 
             ```Console
@@ -316,8 +316,8 @@ Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šā
 
     1. Instalēt POS paplašinājumus:
 
-        1. Atveriet POS **fiskālā savienotāja parauga risinājumu pie Dynamics365Commerce.SolutionsFiscalIntegrationPosFiscalConnectorSampleContoso.PosFiscalConnectorSample.sln\\\\\\** un izveidojiet to.
-        1. **Mapē PosFiscalConnectorSampleStoreCommerce.InstallerbinDebugnet461\\\\\\\\** atrodiet mapi Contoso.PosFiscalConnectorSample.StoreCommerce.Installer **installer.**
+        1. Atveriet POS **fiskālā savienotāja parauga risinājumu programmatūrā Dynamics365Commerce.Solutions\\ FiscalIntegration\\ PosFiscalConnectorSample\\ Contoso.PosFiscalConnectorSample.sln un izveidojiet** to.
+        1. Mapē PosFiscalConnectorSample **StoreCommerce.Installer\\ bin\\ Atkļūdot\\ net461\\** atrodiet Contoso.PosFiscalConnectorSample.StoreCommerce.Installer instalētāju **.**
         1. Startējiet paplašinājuma instalētāju no komandrindas, kas darbojas ar šādu komandu.
 
             ```Console
@@ -326,11 +326,11 @@ Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šā
 
 #### <a name="production-environment"></a>Ražošanas vide
 
-Izpildiet [darbības](fiscal-integration-sample-build-pipeline.md), kas sadaļā Konveijers ir jāiestata fiskālās integrācijas parauga būvējuma konveijers, lai ģenerētu un izlaistu mākoņa mēroga vienību un pašapkalpošanās izvietojamos iepakojumus fiskālās integrācijas parauga iepakojumam. EFR būvējuma-pipeline.yml **veidnesLFML** **fails var tikt atrasts Risinājumu repozitorija \\** YAML_Files konveijera [Dynamics 365 Commerce mapē.](https://github.com/microsoft/Dynamics365Commerce.Solutions)
+Izpildiet [darbības](fiscal-integration-sample-build-pipeline.md), kas sadaļā Konveijers ir jāiestata fiskālās integrācijas parauga būvējuma konveijers, lai ģenerētu un izlaistu mākoņa mēroga vienību un pašapkalpošanās izvietojamos iepakojumus fiskālās integrācijas parauga iepakojumam. EFR **būvējuma-pipeline.yml** veidnesLFML **\\** failu var atrast YAML_Files risinājumu repozitorija [Dynamics 365 Commerce konveijera](https://github.com/microsoft/Dynamics365Commerce.Solutions) mapē.
 
 ## <a name="design-of-extensions"></a>Paplašinājumu dizains
 
-Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Austrijai ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē srcFiscalIntegrationEfr\\\\**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, CRT kas ir Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Fiskālo reģistrācijas pakalpojumu integrācijas paraugs Austrijai ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, CRT kas ir Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Austrijas [finanšu integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-aut-fi-sample-sdk.md) Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
@@ -357,7 +357,7 @@ Savienotājs atbalsta šādus pieprasījumus:
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu dokumentu nodrošinātāja konfigurācijas faili atrodas **Risinājumu repozitorija mapē srcFiscalIntegrationEfrConfigurationsDocumentProviders\\\\\\\\**[Dynamics 365 Commerce:](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
+Finanšu dokumentu nodrošinātāja konfigurācijas faili atrodas **Risinājumu repozitorija mapē src\\ FiscalIntegration\\ Efr\\ Configurations\\ DocumentProviders**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/):
 
 - **DocumentProviderFiscalEFRSampleAustria** — finanšu dokumentu nodrošinātāja konfigurācijas fails.
 - **DocumentProviderNonFiscalEFRSampleAustria** – finanšu dokumentu nodrošinātāja konfigurācijas fails, kas nav finanšu dokumenti.
@@ -382,7 +382,7 @@ Finanšu savienotājs atbalsta šādus pieprasījumus:
 
 #### <a name="configuration"></a>Konfigurācija
 
-Finanšu savienotāja konfigurācijas **fails atrodas srcFiscalIntegrationEfrConfigurationsConnectorsConnectorEFRSample.xml\\\\\\\\\\**[Dynamics 365 Commerce risinājumu repozitorijā.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faila mērķis ir iespējot finanšu savienotāja iestatījumus, kas jākonfigurē no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
+Finanšu savienotāja konfigurācijas **fails atrodas src\\ FiscalIntegration\\ Efr\\ Configurations Connectors\\\\ ConnectorEFRSample.xml**[Dynamics 365 Commerce risinājumu repozitorijā](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Faila mērķis ir iespējot finanšu savienotāja iestatījumus, kas jākonfigurē no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>POS finanšu savienotāja paplašinājuma dizains
 
@@ -390,11 +390,11 @@ POS fiskālā savienotāja paplašinājuma mērķis ir sazināties ar POS finan�
 
 #### <a name="fiscal-connector-factory"></a>Fiskālais savienotāja rūpnīca
 
-Fiskālā savienotāja rūpnīca kartē savienotāja **nosaukumu finanšu savienotāja ieviešanai un atrodas failā Pos.ExtensionConnectorsFiscalConnectorFactory.ts\\\\**. Savienotāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
+Fiskālā savienotāja rūpnīca kartē savienotāja **nosaukumu finanšu savienotāja ieviešanai un atrodas failā Pos.Extension\\ Connectors\\ FiscalConnectorFactory.ts**. Savienotāja nosaukumam ir jāatbilst programmā Commerce Headquarters norādītajam finanšu savienotāja nosaukumam.
 
 #### <a name="efr-fiscal-connector"></a>EFR finanšu savienotājs
 
-EFR finanšu savienotājs ir novietots **failā Pos.ExtensionConnectorsEfrEfrFiscalConnector.ts\\\\\\**. Tas ievieš **IFiscalConnector interfeisu**, kas atbalsta šādus pieprasījumus:
+EFR finanšu savienotājs atrodas **failā Pos.Extension\\ Connectors\\ Efr\\ EfrFiscalConnector.ts**. Tas ievieš **IFiscalConnector interfeisu**, kas atbalsta šādus pieprasījumus:
 
 - **FiscalRegisterSubmitDocumentClientRequest** – šis pieprasījums nosūta dokumentus finanšu reģistrācijas pakalpojumam un atgriež atbildi no tā.
 - **FiscalRegisterIsReadyClientRequest** – šis pieprasījums tiek izmantots finanšu reģistrācijas pakalpojuma veselības pārbaudei.
@@ -402,7 +402,7 @@ EFR finanšu savienotājs ir novietots **failā Pos.ExtensionConnectorsEfrEfrFis
 
 #### <a name="configuration"></a>Konfigurācija
 
-Konfigurācijas fails atrodas **srcFiscalIntegrationEfrConfigurationsConnectors\\\\\\\\**[Dynamics 365 Commerce mapē Solutions repository.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Faila mērķis ir iespējot iestatījumus finanšu savienotājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
+Konfigurācijas fails atrodas **src\\ FiscalIntegration\\ Efr\\ Configurations Connectors\\ mapē** Solutions [Dynamics 365 Commerce repozitorijā](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Faila mērķis ir iespējot iestatījumus finanšu savienotājam, lai tos konfigurētu no programmas Commerce Headquarters. Faila formāts ir saskaņots ar finanšu integrācijas konfigurācijas prasībām. Ir pievienoti šādi iestatījumi:
 
 - **Galapunkta** adrese – finanšu reģistrācijas pakalpojuma URL.
 - **Taimauts** – laiks milisekundēs, ko savienotājs gaidīs uz finanšu reģistrācijas pakalpojuma atbildi.

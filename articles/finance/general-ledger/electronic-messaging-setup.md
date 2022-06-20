@@ -1,6 +1,6 @@
 ---
 title: Elektronisko ziņojumu iestatīšana
-description: Šajā tēmā ir sniegta informācija, kā iestatīt elektronisko ziņojumu (EM) funkcionalitāti.
+description: Šajā rakstā ir sniegta informācija, kā iestatīt elektronisko ziņojumu (EM) funkcionalitāti.
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874556"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronisko ziņojumu iestatīšana
 
@@ -66,7 +66,7 @@ Nākamajā tabulā ir aprakstīti lauki lapā **Ziņojuma statusi**.
 |---------------------|-------------|
 | Ziņojuma statuss      | Ievadiet unikālu ziņojuma statusa nosaukumu. Ziņojumu statusi tiek izmantoti, lai raksturotu elektroniskā ziņojuma stāvokli katrā noteiktā brīdī. Jūsu ievadītais nosaukums tiek rādīts lapā **Elektroniskie ziņojumi** un žurnālā, kas saistīts ar elektroniskajiem ziņojumiem. |
 | Apraksts         | Ievadiet ziņojuma statusa aprakstu. |
-| Atbildes tips       | Atlasiet ziņojuma statusa atbildes tipu. Dažu darbību apstrāde var radīt vairāk nekā vienu atbildes tipu. Piemēram, tipa **Tīmekļa pakalpojums** darbības var izraisīt vai nu atbildes tipu **Izpildīts veiksmīgi**, vai **Tehniska kļūda** atkarībā no darbības izpildes rezultāta. Šajā gadījumā definējet ziņojuma statusus abiem atbilžu tipiem. Lai iegūtu plašāku informāciju par darbību tipiem un ar tiem saistīto atbilžu tipiem, skatiet tēmu [Ziņojumu apstrādes darbību tipi](#action-types) sadaļu vēlāk šajā tēmā. |
+| Atbildes tips       | Atlasiet ziņojuma statusa atbildes tipu. Dažu darbību apstrāde var radīt vairāk nekā vienu atbildes tipu. Piemēram, tipa **Tīmekļa pakalpojums** darbības var izraisīt vai nu atbildes tipu **Izpildīts veiksmīgi**, vai **Tehniska kļūda** atkarībā no darbības izpildes rezultāta. Šajā gadījumā definējet ziņojuma statusus abiem atbilžu tipiem. Papildinformāciju par darbību tipiem un atbilžu tipiem, kas tiem ir saistītas, [skatiet](#action-types) tālāk šī raksta sadaļā Ziņojumu apstrādes darbību veidi. |
 | Ziņojuma krājuma statuss | Dažreiz elektroniskā ziņojuma statuss attiecīgi ietekmē saistīto ziņojumu vienumu statusu. Atlasiet ziņojuma vienuma statusu šajā laukā, lai saistītu to ar ziņojuma statusu. |
 | Atļaut dzēšanu        | Atzīmējiet šo izvēles rūtiņu, ja lietotāji var dzēst elektroniskos ziņojumus, kuriem ir šis statuss, lapā **Elektroniskie ziņojumi**. |
 
@@ -240,7 +240,7 @@ Tabulā ir aprakstīti lapā **Ziņojumu apstrādes darbības** esošie lauki.
 
 | Lauks                                     | apraksts |
 |-------------------------------------------|-------------|
-| Darbības veids                               | Atlasiet darbības tipu. Informāciju par pieejamajām opcijām skatiet sadaļā [Ziņojumu apstrādes darbību tipi](#action-types) vēlāk šajā tēmā. |
+| Darbības veids                               | Atlasiet darbības tipu. Papildinformāciju par pieejamajām opcijām skatiet [tālāk šī raksta sadaļā](#action-types) Ziņojumu apstrādes darbību veidi. |
 | Formāta kartēšana                            | Atlasiet ER formātu, kas jāizsauc attiecīgajai darbībai. Šis lauks ir pieejams tikai darbību tipiem **Elektr. pārsk. veidoš. eksports**, **Elektr. pārsk. veidoš. imports** un **Elektr. pārsk. veidoš. eksporta ziņojums**. |
 | Formāta kartējums URL ceļam               | Atlasiet ER formātu, kas jāizsauc attiecīgajai darbībai. Šis formāts tiek izmantots, lai veidotu ceļu URL adresei, kas tiks pievienota interneta pamatadresei, kas norādīta atlasītajam tīmekļa serverim. Šis lauks ir pieejams tikai darbību tipam **Tīmekļa pakalpojums**. |
 | Ziņojuma krājuma veids                         | Atlasiet ierakstu tipu, kuram ir jāizvērtē attiecīgā darbība. Šis lauks ir pieejams darbību tipiem **Ziņojuma vienuma izpildes līmenis**, **Elektroniskā pārskata veidošanas eksports**, **Elektroniskā pārskata veidošanas imports** un **Tīmekļa pakalpojumi**, un citiem tipiem. Ja šis lauks ir atstāts tukšs, tiek novērtēti visi ziņojumu vienumu tipi, kas definēti ziņojumu apstrādei. |

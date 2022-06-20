@@ -1,6 +1,6 @@
 ---
 title: Degresīvā nolietojuma aprēķināšanas metode
-description: Šajā tēmā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
+description: Šajā rakstā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
 author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a81a8f926c30ac26d10c8763f43f39504249616f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 52bf9d4e9cbc9cabda5d5ab17c1a00ecea0d0348
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883276"
 ---
 # <a name="reduce-balance-depreciation"></a>Degresīvā nolietojuma aprēķināšanas metode
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
+Šajā rakstā ir sniegts pārskats par degresīvās nolietojuma aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma profilu un lapā **Nolietojuma profili** laukā **Metode** atlasot Degresīvais nolietojums, līdzekļiem, kuriem piešķirts šis nolietojuma profils, nolietojuma procenti ir vienādi visos nolietojuma periodos.
 
@@ -41,7 +41,7 @@ Lapā **Nolietojuma tabulas** laukā **Nolietojuma aprēķina gads** varat atlas
 
 ### <a name="calendar"></a>Kalendārs
 
-Opcija **Kalendārs** atjaunina nolietojuma bāzi (parasti atlikusī vērtība mīnus lūžņu vērtība) katra gada 1. janvārī. Tālāk tekstā minētajā degresīvās nolietojuma aprēķināšanas metodes piemērā nolietojuma bāze ir aprēķinu pirmās izteiksmes skaitītājs aprēķina kolonnā. 
+Opcija **Kalendārs** atjaunina nolietojuma bāzi (parasti atlikusī vērtība mīnus lūžņu vērtība) katra gada 1. janvārī. Nolietojuma aprēķināšanas metodes piemērā tālāk šajā rakstā nolietojuma bāze ir aprēķinu pirmās izteiksmes skaitītājs aprēķina kolonnā. 
 
 Atlasot opciju **Kalendārs**, laukā **Periodu biežums** ir četras opcijas, kas nosaka nolietojuma uzkrājuma grāmatošanas datumus un summas kalendārā gada laikā:
 

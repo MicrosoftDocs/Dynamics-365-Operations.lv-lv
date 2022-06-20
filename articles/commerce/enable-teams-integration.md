@@ -1,6 +1,6 @@
 ---
 title: Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
-description: Šajā tēmā ir aprakstīts, kā aktivizēt Microsoft Dynamics 365 Commerce un Microsoft Teams integrāciju.
+description: Šajā rakstā ir aprakstīts, kā iespējot Microsoft Dynamics 365 Commerce un Microsoft Teams integrēt.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872832"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā aktivizēt Microsoft Dynamics 365 Commerce un Microsoft Teams integrāciju.
+Šajā rakstā ir aprakstīts, kā iespējot Microsoft Dynamics 365 Commerce un Microsoft Teams integrēt.
 
 Lai nodrošinātu Teams ar informāciju no Dynamics 365 Commerce un sinhronizētu uzdevumu pārvaldības līdzekļus starp Teams un pārdošanas punkta (POS) programmu, ir jāiespējo integrācijas līdzekļi programmā Commerce Headquarters.
 

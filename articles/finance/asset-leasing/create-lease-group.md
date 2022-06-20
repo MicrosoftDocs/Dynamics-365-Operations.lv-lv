@@ -1,6 +1,6 @@
 ---
 title: Nomas grupas izveide
-description: Šajā tēmā ir paskaidrots, kā iestatīt nomas grupas. Nomas grupas ir vajadzīgas, lai izveidotu jaunas nomas.
+description: Šajā rakstā ir izskaidrots, kā iestatīt nomas grupas. Nomas grupas ir vajadzīgas, lai izveidotu jaunas nomas.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 49a905e9f27f01898628e88c7af781aed1f25ec7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: cd1a6f61346233bf205657917c65fccd82167f7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895027"
 ---
 # <a name="create-a-lease-group"></a>Nomas grupas izveide
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt nomas grupas. Nomas grupas ir vajadzīgas, lai izveidotu jaunas nomas. Nomas grāmatas ir saistītas ar katru nomas grupu. Nomas grāmatas nosaka noklusējuma grāmatas, kas jāizveido katrai nomai. Varat piešķirt konkrētus kontus nomas grupai lapā **Nomas grāmatošanas parametri**.
+Šajā rakstā ir izskaidrots, kā iestatīt nomas grupas. Nomas grupas ir vajadzīgas, lai izveidotu jaunas nomas. Nomas grāmatas ir saistītas ar katru nomas grupu. Nomas grāmatas nosaka noklusējuma grāmatas, kas jāizveido katrai nomai. Varat piešķirt konkrētus kontus nomas grupai lapā **Nomas grāmatošanas parametri**.
 
 ## <a name="create-a-lease-book-and-add-a-lease-group"></a>Nomas grāmatas izveide un nomas grupas pievienošana
 

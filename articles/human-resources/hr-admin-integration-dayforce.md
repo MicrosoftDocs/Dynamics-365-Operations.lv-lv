@@ -1,6 +1,6 @@
 ---
 title: Integrācijas konfigurēšana ar Dayforce
-description: Šajā tēmā ir aprakstītas konfigurācijas darbības, kas nepieciešamas Microsoft Dynamics 365 Human Resources un Ceridian Dayforce integrācijai.
+description: Šajā rakstā ir aprakstīti nepieciešamie konfigurācijas soļi, kas nepieciešami integrēšanai starp Microsoft Dynamics 365 Human Resources un Ceriforce Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896139"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integrācijas konfigurēšana ar Dayforce
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691337"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources un Ceridian Dayforce integrācijai tiek izmantotas vairākas konfigurācijas darbības, kas ir aprakstītas šajā tēmā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
+Integrācija starp Microsoft Dynamics 365 Human Resources un Ceridian Dayforce balstās uz vairākām konfigurācijas darbībām, kas ir aprakstītas šajā rakstā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
 
 Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jāiespējo integrācija Human Resources. Integrācijai ir nepieciešami noteikti Human Resources dati. Tādēļ ir jāpārliecinās, vai uz Dayforce kartētie dati Human Resources ir konfigurēti veidā, kas atbalsta integrāciju. Integrācija izmanto tālāk norādītās vispārējās datu kategorijas.
 
@@ -37,7 +37,7 @@ Ja maksājumu izpildei izmantojat tādu pakalpojumu kā Dayforce, jāiespējo in
 - Algu dati, piemēram, apmaksas cikli, apmaksas periodi un ienākumu veidu kodi
 - Nodarbināto dati
 
-Šajā tēmā ir aprakstītas darbības, kas jāveic, lai iespējotu integrāciju, un ir paskaidroti integrācijai nepieciešamie datu tipi un detalizēta konfigurācijas informācija.
+Šajā rakstā ir aprakstīti soļi, kas jums ir jāievēro, lai iespējotu integrāciju, un skaidroti datu tipi un konfigurācijas detaļas, kas nepieciešamas integrācijai.
 
 ## <a name="enable-the-integration"></a>Integrācijas iespējošana
 

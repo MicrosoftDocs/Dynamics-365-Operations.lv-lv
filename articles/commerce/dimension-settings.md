@@ -1,6 +1,6 @@
 ---
 title: Displeja iestatījumu pielietošana preču dimensijām
-description: Šajā tēmā ir aplūkoti preču dimensiju displeja iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir ietverti preču dimensiju rādīšanas iestatījumi un aprakstīts, kā tās lietot Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899179"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Displeja iestatījumu pielietošana preču dimensijām
 
 [!include [banner](includes/banner.md)]
 
 
-Šajā tēmā ir aplūkoti preču dimensiju displeja iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir ietverti preču dimensiju rādīšanas iestatījumi un aprakstīts, kā tās lietot Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce atbalsta izmēru, stilu un krāsu izmērus, lai atšķirtu preces variantus. Dimensijas parasti tiek rādītas kā teksta vērtības, piemēram, "Mazs", "Vidējs" un "Liels" izmēriem un "Melns" un "Brūns" krāsām. Tomēr, ja prece atbalsta daudzas variācijas, var būt grūti pārlūkot preces variantus, jo, lai skatītu attēlu katram variantam, ir nepieciešamas vairākas atlases. Lai atvieglotu preces variantu pārlūkošanu, Commerce versijas 10.0.20 laidienā var izmantot attēlus un heksadecimālos kodus, lai dimensijas parādītu kā paraugus.
 

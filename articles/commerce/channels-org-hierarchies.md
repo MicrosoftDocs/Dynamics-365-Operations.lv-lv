@@ -1,6 +1,6 @@
 ---
 title: Iestatīt organizāciju hierarhijas
-description: Šajā tēmā aprakstīts, kā iestatīt organizāciju hierarhijas risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā iestatīt organizācijas hierarhijas Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847684"
 ---
 # <a name="set-up-organization-hierarchies"></a>Iestatīt organizāciju hierarhijas
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīt organizāciju hierarhijas risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā iestatīt organizācijas hierarhijas Microsoft Dynamics 365 Commerce.
 
 Pirms kanālu izveides ir jāapstiprina, ka jūs vēlaties iestatīt organizācijas hierarhijas.
 
@@ -34,8 +34,8 @@ Varat izmantot organizācijas hierarhijas, lai apskatītu jūsu uzņēmējtransa
 Pirms organizācijas hierarhijas izveides jāizveido organizācijas. Papildinformāciju skatiet sadaļā [Izveidot juridisku personu](channels-legal-entities.md) vai [izveidot struktūrvienības](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Papildinformāciju skatiet tālāk norādītajās tēmās.
-- [Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+Papildinformāciju skatiet šādos rakstos.
+- [Organizāciju un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Organizācijas hierarhijas plānošana](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Organizācijas hierarhijas izveide](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

@@ -1,6 +1,6 @@
 ---
 title: E-komercijas digitālās dāvanu kartes
-description: Šajā tēmā aprakstīts, kā digitālās dāvanu kartes darbojas Microsoft Dynamics 365 Commerce e-komercijas ieviešanā. Tajā sniegts arī apskats par svarīgiem konfigurācijas soļiem.
+description: Šajā rakstā ir aprakstīts, kā ciparu dāvanu kartes darbojas e-komercijas ieviešanas laikā Microsoft Dynamics 365 Commerce. Tajā sniegts arī apskats par svarīgiem konfigurācijas soļiem.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884908"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-komercijas digitālās dāvanu kartes
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā digitālās dāvanu kartes darbojas Microsoft Dynamics 365 Commerce e-komercijas ieviešanā. Tajā sniegts arī apskats par svarīgiem konfigurācijas soļiem.
+Šajā rakstā ir aprakstīts, kā ciparu dāvanu kartes darbojas e-komercijas ieviešanas laikā Microsoft Dynamics 365 Commerce. Tajā sniegts arī apskats par svarīgiem konfigurācijas soļiem.
 
 Programmā Dynamics 365 Commerce digitālo dāvanu karšu pirkšana notiek tāpat kā citu produktu pirkšanas sistēmā. Nav nepieciešams konfigurēt papildu moduļus. Ja grozam tiek pievienotas vairākas dāvanu kartes, dāvanu karšu krājumi netiek apkopoti vienā pārdošanas rindā. Šī darbība ir nepieciešama, jo katra pārdošanas rinda ir iekļauta rēķinā, izmantojot atsevišķu dāvanu kartes numuru.
 

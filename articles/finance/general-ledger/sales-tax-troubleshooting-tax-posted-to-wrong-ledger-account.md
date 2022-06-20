@@ -1,6 +1,6 @@
 ---
-title: Nodoklis ir grāmatots nepareizam virsgrāmatas kontam dokumentā
-description: Šajā tēmā sniegta traucējummeklēšanas informācija, kas var palīdzēt, grāmatojot nodokļus nepareizam Virsgrāmatas kontam dokumentā.
+title: Nodoklis ir grāmatots nepareizā virsgrāmatas kontā dokumentā
+description: Šajā rakstā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt, grāmatojot nodokļus nepareizā virsgrāmatas kontā dokumentā.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846746"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Nodoklis ir grāmatots nepareizam virsgrāmatas kontam dokumentā
 
 [!include [banner](../includes/banner.md)]
 
-Grāmatošanas laikā nodoklis varētu būt grāmatots nepareizam virsgrāmatas kontam dokumentā. Lai novērstu šo problēmu, ja nepieciešams, veiciet tālāk norādītās darbības. Piemēri šajā tēmā izmanto pārdošanas pasūtījumu kā biznesa dokumentu.
+Grāmatošanas laikā nodoklis varētu būt grāmatots nepareizam virsgrāmatas kontam dokumentā. Lai novērstu šo problēmu, ja nepieciešams, veiciet tālāk norādītās darbības. Piemēri šajā dokumentā izmanto pārdošanas pasūtījumu kā biznesa dokumentu.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Atrast nepareizi grāmatotās nodokļu transakcijas nodokļu kodu
 

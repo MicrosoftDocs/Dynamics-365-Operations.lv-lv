@@ -1,6 +1,6 @@
 ---
 title: Mazie kases posteņi Austrumeiropai un Krievijai
-description: Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
+description: Šajā rakstā ir sniegta informācija par sīksīkfailu funkcionalitāti, kas ļauj lietotājiem Igaunijai, Lietuvai, Čehijai, Ungārijai, Latvijai, Polijai un Krievijai atspoguļot kases operācijas sistēmā.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8d301cb7b16960d9f239719841516ca6354381c0011d0b2d8302f8b85012ed1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5e49f76753188ebeb39e4c14bf177b83bbb018
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871121"
 ---
 # <a name="petty-cash-for-eastern-europe-and-russia"></a>Mazie kases posteņi Austrumeiropai un Krievijai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
+Šajā rakstā ir sniegta informācija par sīksīkfailu funkcionalitāti, kas ļauj lietotājiem Igaunijai, Lietuvai, Čehijai, Ungārijai, Latvijai, Polijai un Krievijai atspoguļot kases operācijas sistēmā.
 
 Mazo kases posteņu funkcionalitāti varat izmantot, lai automatizētu kases operācijas ieņēmumiem un izdevumiem, primāro dokumentu veidošanai un saistīto pārskatu drukāšanai. Mazo kases posteņu funkcionalitāte jums ļauj veikt tālāk minētās operācijas.
 
@@ -100,7 +100,7 @@ Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet 
 <li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
 <li><strong>Kļūda</strong> — nedrīkst&#39;pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek&#39;ratificēts vai apstiprināts.</li>
 </ul>
-Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet tālāk šīs tēmas sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
+Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet &quot;&quot; tālāk šī raksta sadaļā Kases darbību apstiprināšana un grāmatošana.</td>
 </tr>
 <tr class="odd">
 <td>Atlikuma limits</td>

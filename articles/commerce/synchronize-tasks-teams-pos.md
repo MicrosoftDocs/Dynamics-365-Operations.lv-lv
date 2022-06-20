@@ -1,6 +1,6 @@
 ---
 title: Sinhronizēt uzdevumu pārvaldību starp Microsoft Teams un Dynamics 365 Commerce POS
-description: Šajā tēmā ir aprakstīts, kā sinhronizēt uzdevumu pārvaldību starp Microsoft Teams un Dynamics 365 Commerce pārdošanas punktu un pārdošanas punktu (POS).
+description: Šajā rakstā ir aprakstīts, kā sinhronizēt uzdevumu pārvaldību Microsoft Teams starp pārdošanas Dynamics 365 Commerce punktu un pārdošanas punktu (POS).
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b7bb38a415524290d1636eda1f379f3cdcf7e593
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874873"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sinhronizēt uzdevumu pārvaldību starp Microsoft Teams un Dynamics 365 Commerce POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā sinhronizēt uzdevumu pārvaldību starp Microsoft Teams un Dynamics 365 Commerce pārdošanas punktu un pārdošanas punktu (POS).
+Šajā rakstā ir aprakstīts, kā sinhronizēt uzdevumu pārvaldību Microsoft Teams starp pārdošanas Dynamics 365 Commerce punktu un pārdošanas punktu (POS).
 
 Viens no Teams integrācijas galvenajiem nolūkiem ir iespējot uzdevumu pārvaldības sinhronizāciju starp POS programmu un Teams. Šādā veidā veikala darbinieki uzdevumu pārvaldīšanai var izmantot vai nu POS programmu, vai Teams, un programmas nav jāpārslēdz.
 

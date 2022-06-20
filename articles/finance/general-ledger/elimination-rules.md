@@ -1,6 +1,6 @@
 ---
-title: Korekciju kārtulas
-description: Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām.
+title: Korekcijas kārtulas
+description: Šajā rakstā ir sniegta informācija par korekciju noteikumiem un dažādām korekciju ziņošanas iespējām.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864315"
 ---
-# <a name="elimination-rules"></a>Korekciju kārtulas
+# <a name="elimination-rules"></a>Korekcijas kārtulas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par korekciju kārtulām un dažādām korekciju ziņošanas iespējām.
+Šajā rakstā ir sniegta informācija par korekciju noteikumiem un dažādām korekciju ziņošanas iespējām.
 
 Korekcijas darbības ir nepieciešamas, kad pamata juridiska persona darbojas ar vienu vai vairākām pakārtotām juridiskām personām un tiek izmantoti konsolidētie finanšu pārskati. Konsolidētajos finanšu pārskatos jābūt iekļautām tikai darbībām, kas veiktas starp konsolidēto organizāciju un citām personām ārpus šīs organizācijas. Tāpēc transakcijas starp juridiskajām personām, kas pieder vienai un tai pašai organizācijai, ir jānoņem no virsgrāmatas vai jākoriģē virsgrāmatā tā, lai tās netiktu rādītas finanšu pārskatos. Ir vairāki veidi, kā ziņot korekcijas:
 
@@ -34,7 +34,7 @@ Korekcijas darbības ir nepieciešamas, kad pamata juridiska persona darbojas ar
 -   Var izmantot finanšu pārskatu, lai parādītu korekciju kontus un dimensijas noteiktā rindā vai kolonnā.
 -   Var izmantot atsevišķu juridisku personu manuālo darbību ierakstu grāmatošanai, lai izsekotu korekcijas.
 
-Šajā tēmā ir pievērsta uzmanība korekciju kārtulām, kas tiek apstrādātas konsolidēšanas vai korekcijas uzņēmumā. Korekciju kārtulas varat iestatīt, lai izveidotu korekciju transakcijas juridiskajā personā, kura ir norādīta kā korekcijas mērķa juridiskā persona. Šī mērķa juridiska persona ir pazīstama arī kā koriģēta juridiska persona. Korekcijas žurnāli var tikt izveidoti konsolidācijas procesa laikā vai izmantojot korekcijas žurnāla priekšlikumu. Pirms likvidēšanas noteikumu iestatīšanas jums ir jāiepazīstas ar sekojošajiem terminiem:
+Šis raksts fokusējas uz korekcijas noteikumiem, kas apstrādāti konsolidēšanas vai korekcijas uzņēmumā. Korekciju kārtulas varat iestatīt, lai izveidotu korekciju transakcijas juridiskajā personā, kura ir norādīta kā korekcijas mērķa juridiskā persona. Šī mērķa juridiska persona ir pazīstama arī kā koriģēta juridiska persona. Korekcijas žurnāli var tikt izveidoti konsolidācijas procesa laikā vai izmantojot korekcijas žurnāla priekšlikumu. Pirms likvidēšanas noteikumu iestatīšanas jums ir jāiepazīstas ar sekojošajiem terminiem:
 
 -   **Avota juridiska persona** — juridiska persona, kurai koriģējamās summas ir iegrāmatotas.
 -   **Mērķa juridiska persona** — juridiska persona, kurā tiek grāmatoti korekcijas noteikumi.

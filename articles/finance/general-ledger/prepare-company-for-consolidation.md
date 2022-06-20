@@ -1,6 +1,6 @@
 ---
 title: Juridiskas personas sagatavošana konsolidācijas procesam
-description: Konsolidācijas procesā darījumi no vairākām juridiskās personas kontu kopām tiek apkopoti vienā juridiskās personas kontu kopā. Šajā tēmā ir paskaidrots, kā sagatavot juridisku personu konsolidēšanai.
+description: Konsolidācijas procesā darījumi no vairākām juridiskās personas kontu kopām tiek apkopoti vienā juridiskās personas kontu kopā. Šajā rakstā skaidrots, kā sagatavot juridisku personu konsolidēšanai.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894031"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Juridiskas personas sagatavošana konsolidācijas procesam
 
 [!include [banner](../includes/banner.md)]
 
-Konsolidācijas procesā darījumi no vairākām juridiskās personas kontu kopām tiek apkopoti vienā juridiskās personas kontu kopā. Šajā tēmā ir paskaidrots, kā sagatavot juridisku personu konsolidēšanai.
+Konsolidācijas procesā darījumi no vairākām juridiskās personas kontu kopām tiek apkopoti vienā juridiskās personas kontu kopā. Šajā rakstā skaidrots, kā sagatavot juridisku personu konsolidēšanai.
 
 > [!NOTE]
 > Ieteicams izmantot pārvaldības pārskataeru Microsoft Dynamics 365 finansēm, lai apvienotu finanšu rezultātus vairākām juridiskajām personām konsolidētā formātā. Pārvaldības pārskata sagatavotājs ļauj izveidot konsolidētus finanšu pārskatus starp juridiskajām personām, izmantot Excel, lai importētu konsolidēšanas datus no citiem avotiem, un pārvērst summas jebkurā pārskatu valūtā bez nepieciešamības veikt konsolidācijas procesu Dynamics 365 Finansēs.

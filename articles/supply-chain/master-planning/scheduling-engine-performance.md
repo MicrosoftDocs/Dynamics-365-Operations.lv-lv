@@ -1,6 +1,6 @@
 ---
 title: plānošanas programmas veiktspējas uzlabošana
-description: Šajā tēmā ir sniegta informācija par plānošanas programmu un to, kā uzlabot veiktspēju.
+description: Šajā rakstā ir sniegta informācija par plānošanas programmu un to, kā uzlabot veiktspēju.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854302"
 ---
 # <a name="improve-scheduling-engine-performance"></a>plānošanas programmas veiktspējas uzlabošana
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469011"
 
 Resursu plānošanas programmu izmanto, plānojot maršrutus plānotajiem un nodotajiem ražošanas pasūtījumiem. Programma sākotnēji tika izlaista kā daļa no Dynamics AX 2012, un kopš tās izlaišanas programmai bijušo vairāki uzlabojumi.
 
-[Darbu veikalu plānošanas problēma](https://en.wikipedia.org/wiki/Job_shop_scheduling) ir ārkārtīgi sarežģīta, kombinēta problēma, kur risināšanas laiks eksponenciāli palielinās līdz ar lēmumu variantu skaitu. Nereti klienti iestata ražošanas maršrutus un saistītos datus veidā, kas izraisa plānošanas problēmu, ko nevar atrisināt saprātīgā laikā, pat lietojot vismodernāko aparatūru. Šī tēma palīdzēs jums izprast plānošanas programmu un to, kā noteiktiem iestatījumiem var būt ietekme uz veiktspēju.
+[Darbu veikalu plānošanas problēma](https://en.wikipedia.org/wiki/Job_shop_scheduling) ir ārkārtīgi sarežģīta, kombinēta problēma, kur risināšanas laiks eksponenciāli palielinās līdz ar lēmumu variantu skaitu. Nereti klienti iestata ražošanas maršrutus un saistītos datus veidā, kas izraisa plānošanas problēmu, ko nevar atrisināt saprātīgā laikā, pat lietojot vismodernāko aparatūru. Šis raksts palīdzēs izprast plānošanas programmu un kā noteikts iestatījums var ietekmēt veiktspēju.
 
 Lai uzlabotu plānošanas veiktspēju, vispārējās vadlīnijas iesaka samazināt problēmas sarežģītību, kas programmai ir jārisina. Daži no galvenajiem faktoriem, kas var ietekmēt veiktspēju, ir šādi:
 

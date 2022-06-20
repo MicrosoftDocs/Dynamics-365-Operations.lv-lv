@@ -1,6 +1,6 @@
 ---
 title: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
-description: Šajā tēmā skaidrots jaunās nodokļu funkcionalitātes atbalsts pārsūtīšanas pasūtījumiem, izmantojot nodokļu aprēķināšanas pakalpojumu.
+description: Šajā rakstā ir paskaidrots jaunās nodokļu funkcionalitātes atbalsts pārsūtīšanas pasūtījumiem, izmantojot nodokļu aprēķināšanas pakalpojumu.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869986"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā sniegta informācija par nodokļu aprēķināšanu un integrācijas grāmatošanu pārsūtīšanas pasūtījumos. Šī funkcionalitāte ļauj jums iestatīt nodokļu aprēķinu un grāmatošanu pārsūtīšanas pasūtījumos krājumu pārsūtīšanai. Saskaņā ar Eiropas Savienības (ES) pievienotās vērtības nodokļa (PVN) noteikumiem krājumu pārsūtīšana tiek uzskatīta par piegādi Kopienas iekšienē un iegādi Kopienas iekšienē.
+Šajā rakstā ir sniegta informācija par nodokļu aprēķināšanu un integrācijas grāmatošanu pārsūtīšanas pasūtījumos. Šī funkcionalitāte ļauj jums iestatīt nodokļu aprēķinu un grāmatošanu pārsūtīšanas pasūtījumos krājumu pārsūtīšanai. Saskaņā ar Eiropas Savienības (ES) pievienotās vērtības nodokļa (PVN) noteikumiem krājumu pārsūtīšana tiek uzskatīta par piegādi Kopienas iekšienē un iegādi Kopienas iekšienē.
 
 Lai konfigurētu un lietotu šo funkcionalitāti, ir jāveic trīs galvenās darbības:
 

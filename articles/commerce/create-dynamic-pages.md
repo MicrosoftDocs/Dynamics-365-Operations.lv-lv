@@ -1,6 +1,6 @@
 ---
 title: Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
-description: Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
+description: Šajā rakstā ir aprakstīts, kā iestatīt Microsoft Dynamics 365 Commerce e-komercijas lapu, kas var kalpot dinamiskam saturam, balstoties uz URL parametriem.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884667"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
+Šajā rakstā ir aprakstīts, kā iestatīt Microsoft Dynamics 365 Commerce e-komercijas lapu, kas var kalpot dinamiskam saturam, balstoties uz URL parametriem.
 
 E-komercijas lapu var konfigurēt, lai tā kalpotu dažādam saturam, pamatojoties uz segmentu vietrāža URL ceļā. Tāpēc šī lapa ir pazīstama kā dinamiskā lapa. Segments tiek izmantots kā parametrs lapas satura izgūšanai. Piemēram, lapa, kas ir izveidota vietņu veidotājā un nosaukta **\_ lietojumprogrammas skatītāja** informācija tiek kartēta uz URL `https://fabrikam.com/blog`. Pēc tam šo lapu var izmantot, lai parādītu dažādu saturu, balstoties uz pēdējo segmentu URL ceļā. Piemēram, pēdējais segments vietrādī URL `https://fabrikam.com/blog/article-1` ir **article-1**.
 

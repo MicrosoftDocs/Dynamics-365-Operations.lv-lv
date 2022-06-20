@@ -1,6 +1,6 @@
 ---
 title: Periodiskas datu eksportēšanas programmas izveide
-description: Šajā tēmā aprakstīts, kā izveidot Microsoft Azure loģikas programmu, kas eksportē datus no Microsoft Dynamics 365 Human Resources uz periodisku grafiku.
+description: Šajā rakstā ir aprakstīts, kā izveidot Microsoft Azure loģikas programmu, kas eksportē datus no Microsoft Dynamics 365 Human Resources periodiskā grafikā.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875834"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Periodiskas datu eksportēšanas programmas izveide
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688776"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā aprakstīts, kā izveidot Microsoft Azure loģikas programmu, kas eksportē datus no Microsoft Dynamics 365 Human Resources uz periodisku grafiku. Lai eksportētu datus, apmācība izmanto Human Resources DMF pakotnes REST programmas programmēšanas interfeisa (API) sniegtās priekšrocības. Kad dati ir eksportēti, loģikas programma saglabā eksportēto datu pakotni Microsoft OneDrive biznesam mapē.
+Šajā rakstā ir aprakstīts, kā izveidot Microsoft Azure loģikas programmu, kas eksportē datus no Microsoft Dynamics 365 Human Resources periodiskā grafikā. Lai eksportētu datus, apmācība izmanto Human Resources DMF pakotnes REST programmas programmēšanas interfeisa (API) sniegtās priekšrocības. Kad dati ir eksportēti, loģikas programma saglabā eksportēto datu pakotni Microsoft OneDrive biznesam mapē.
 
 ## <a name="business-scenario"></a>Biznesa scenārijs
 

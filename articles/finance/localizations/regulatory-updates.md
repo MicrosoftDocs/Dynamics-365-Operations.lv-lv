@@ -1,6 +1,6 @@
 ---
 title: Regulēšanas atjauninājumi
-description: Šajā tēmā sniegts plānoto un izdoto uzraudzības atjauninājumu saraksts Microsoft Dynamics 365 Finansēm.
+description: Šajā rakstā sniegts plānoto un izdoto uzraudzības atjauninājumu saraksts Microsoft Dynamics 365 Finansēm.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904286"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir uzskaitīti regulēšanas atjauninājumi, kas ir plānoti un izlaisti Dynamics 365 finanšu atbalstītās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var būt atšķirīga vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Šajā rakstā ir uzskaitīti regulēšanas atjauninājumi, kas ir plānoti un izlaisti Dynamics 365 finanšu atbalstītās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var būt atšķirīga vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Papildinformāciju par plānotajiem un izlaistajiem valstij specifiskajiem līdzekļiem skatiet Dynamics [365 un izlaišanas Power Platform plānos](/business-applications-release-notes/index).
 

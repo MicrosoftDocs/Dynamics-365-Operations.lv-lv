@@ -1,6 +1,6 @@
 ---
 title: Darbs ar iepriekš iestatītiem izkārtojumiem
-description: Šajā tēmā ir aprakstīts, kā strādāt ar iepriekš iestatītiem izkārtojumiem programmā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar izveidotiem izkārtojumiem Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896842"
 ---
 # <a name="work-with-preset-layouts"></a>Darbs ar iepriekš iestatītiem izkārtojumiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā strādāt ar iepriekš iestatītiem izkārtojumiem programmā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā strādāt ar izveidotiem izkārtojumiem Microsoft Dynamics 365 Commerce.
 
-Pirms izpildāt šajā tēmā aprakstītās procedūras, pārliecinieties, ka esat izlasījis sadaļu [Iepriekš iestatītie un pielāgotie izkārtojumi](templates-layouts-overview.md#preset-and-custom-layouts). Vispārīgam pārskatam skatiet sadaļu [Veidnes un izkārtojumu pārskats](templates-layouts-overview.md).
+Pirms šī raksta procedūru izpildīšanas noteikti izlasiet Iepriekš [iestatītos un pielāgotos izkārtojumus](templates-layouts-overview.md#preset-and-custom-layouts). Vispārīgam pārskatam skatiet sadaļu [Veidnes un izkārtojumu pārskats](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Jauna iepriekš iestatīta izkārtojuma izveide
 
@@ -78,7 +78,7 @@ Parasta prakse ir iestatīt noklusējuma dizainu visām lappusēm, kas izmanto i
 Lai iestatītu vai mainītu dizainu visām pakārtotajām lapām, kas izmanto jūsu iepriekš iestatīto izkārtojumu, veiciet šādas darbības.
 
 1. Izkārtojuma redaktorā struktūras kokā pa kreisi atlasiet lapas konteinera moduli. (Parasti šis modulis ir otrais mezgls un ir nosaukts **Noklusējuma lapu**.)
-1. Iekš **Tēma** rekvizītu rūts laukā labajā pusē atlasiet motīvu.
+1. **Rekvizītu** rūts laukā Tēma labajā pusē atlasiet tēmu.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Saglabājiet, atdodiet, priekšskatiet un publicējiet iepriekš iestatīto izkārtojumu
 
@@ -98,16 +98,16 @@ Pēc tam, kad iepriekš iestatītā izkārtojuma izmaiņas ir priekšskatītas, 
 > [!WARNING]
 > Uz iepriekš iestatītajiem izkārtojumiem var atsaukties vairākas lapas. Publicējot iepriekš iestatītu izkārtojumu, ņemiet vērā, ka var tikt ietekmēts vairāku lappušu izkārtojums.
 
-## <a name="rename-a-preset-layout"></a>Pārdēvējiet iepriekš iestatīto izkārtojumu
+## <a name="rename-a-preset-layout"></a>Izveidot iepriekš iestatīta izkārtojuma pārdēvēšanu
 
-Lai vietņu veidotājā pārdēvētu iepriekš iestatītu izkārtojumu, veiciet šīs darbības.
+Lai vietas veidotājā pārdēvētu izveidoto izkārtojumu, veiciet šādus soļus.
 
 1. Kreisajā navigācijas rūtī atlasiet **Izkārtojumi**.
-1. Atlasiet tā izkārtojuma nosaukumu, kuru vēlaties pārdēvēt.
-1. Izvēlieties **Rediģēt** lai sāktu izkārtojuma rediģēšanu.
+1. Atlasiet izkārtojuma nosaukumu izkārtojumam, ko vēlaties pārdēvēt.
+1. Atlasiet **Labot,** lai sāktu izkārtojuma rediģēšanu.
 1. Izkārtojuma rekvizītu rūtī atlasiet pildspalvas simbolu blakus izkārtojuma nosaukumam.
-1. Rediģējiet izkārtojuma nosaukumu pēc vajadzības.
-1. Atlasiet atzīmi, lai apstiprinātu vārda maiņu.
+1. Ja nepieciešams, labojiet izkārtojuma nosaukumu.
+1. Atzīmējiet izvēles rūtiņu, lai apstiprinātu nosaukuma maiņu.
 1. Atlasiet **Beigt rediģēšanu**.
 
 ## <a name="additional-resources"></a>Papildu resursi

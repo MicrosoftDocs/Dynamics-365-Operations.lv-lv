@@ -1,6 +1,6 @@
 ---
 title: Nodokļu aprēķina datu modelis
-description: Šajā tēmā ir sniegta informācija par nodokļu datu modeli un to, kā katra datu modeļa lauka vērtības tiek noteiktas nodokļu aprēķina darbību kontekstā.
+description: Šajā rakstā ir sniegta informācija par nodokļu datu modeli un to, kā katra datu modeļa lauka vērtības tiek noteiktas nodokļu aprēķina darbību kontekstā.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859700"
 ---
 # <a name="tax-calculation-data-model"></a>Nodokļu aprēķina datu modelis
 
-Šajā tēmā ir sniegta informācija par to, kā katra nodokļu datu modeļa lauka vērtības tiek noteiktas nodokļu aprēķina darbībās.
+Šajā rakstā ir sniegta informācija par to, kā lauka vērtības nodokļu datu modelī tiek noteiktas nodokļu aprēķina darbībās.
 
 Lauks *nodokļu datu modelis* tiek veidots no laukiem, kas nepieciešami nodokļu aprēķiniem. Microsoft nodrošina nodokļu *aprēķina datu modeli*, kas ietver galvenes laukus un darbību dokumentu rindu laukus Finanšu un operāciju programmās. Nodokļu aprēķina datu modelī definētie lauki ir pieejamas nodokļu aprēķina funkcijas konfigurācijas piemērojamības nosacījumu tabulu kolonnas.
 
@@ -99,7 +99,7 @@ Viens-divi datu modeļi var tikt iekļauti kā lauki darbības galvenē. Tomēr 
 | Nosūtīt uz provinci/štatu          | <ul><li>**Pārdošanas pasūtījums:**<ol><li>Galvene &gt; Piegādes adrese &gt; Štats</li></ol></li><li>**Pirkšanas pasūtījums:**<ol><li>Galvene &gt; Piegādes adrese &gt; Štats</li></ol></li><li>**Pārvietošanas pasūtījums – Nosūtīšana:**<ol><li>Galvene &gt; Uz noliktavu &gt; Primārā adrese &gt; Štats</li><li>Galvene &gt; Uz vietu &gt; Primārā adrese &gt; Štats</li></ol></li><li>**Pārsūtīšanas pasūtījums - Saņemšana:**<ol><li>Galvene &gt; Uz noliktavu &gt; Primārā adrese &gt; Štats</li><li>Galvene &gt; Uz vietu &gt; Primārā adrese &gt; Štats</li></ol></li><li>**Piedāvājuma pieprasījums:**<ol><li>Galvene &gt; Piegādes adrese &gt; Štats</li></ol></li><li>**Pārdošanas piedāvājums:**<ol><li>Galvene &gt; Piegādes adrese &gt; štats</li></ol></li><li>**Brīva teksta rēķins:**<ol><li>Galvene &gt; Debitora konts &gt; Noklusējuma piegādes adrese &gt; Štats</li><li>Galvene &gt; Debitora konts &gt; Primārā adrese &gt; Štats</li></ol></li><li>**Žurnāls (debitors):**<ol><li>Debitora konta noklusējuma &gt; piegādes adreses stāvoklis &gt;</li><li>Debitora konta primārās &gt; adreses stāvoklis &gt;</li></ol></li><li>**Žurnāls (kreditors):**<ol><li>Juridiska persona &gt; Noklusējuma piegādes adrese &gt; Štats</li><li>Juridiska persona &gt; Primārā adrese &gt; Štats</li></ol></li></ul> |
 | Nosūtīt uz pasta indeksu                 | <ul><li>**Pārdošanas pasūtījums:**<ol><li>Galvene &gt; Piegādes adresē &gt; Pasta indekss</li></ol></li><li>**Pirkšanas pasūtījums:**<ol><li>Galvene &gt; Piegādes adresē &gt; Pasta indekss</li></ol></li><li>**Pārvietošanas pasūtījums – Nosūtīšana:**<ol><li>Galvene &gt; Uz noliktavu &gt; Primārā adrese &gt; Pasta indekss</li><li>Galvene &gt; Uz vietu &gt; Primārā adrese &gt; Pasta indekss</li></ol></li><li>**Pārsūtīšanas pasūtījums - Saņemšana:**<ol><li>Galvene &gt; Uz noliktavu &gt; Primārā adrese &gt; Pasta indekss</li><li>Galvene &gt; Uz vietu &gt; Primārā adrese &gt; Pasta indekss</li></ol></li><li>**Piedāvājuma pieprasījums:**<ol><li>Galvene &gt; Piegādes adresē &gt; Pasta indekss</li></ol></li><li>**Pārdošanas piedāvājums:**<ol><li>Galvene &gt; Piegādes adresē &gt; Pasta indekss</li></ol></li><li>**Brīva teksta rēķins:**<ol><li>Galvene &gt; Debitora konts &gt; Noklusējuma piegādes adrese &gt; Pasta indekss</li><li>Galvene &gt; Debitora konts &gt; Primārā adrese &gt; Pasta indekss</li></ol></li><li>**Žurnāls (debitors):**<ol><li>Debitora konta &gt; noklusējuma piegādes adreses &gt; pasta indekss</li><li>Debitora konta &gt; primārās &gt; adreses pasta indekss</li></ol></li><li>**Žurnāls (kreditors):**<ol><li>Juridiska persona &gt; Noklusējuma piegādes adrese &gt; Pasta indekss</li><li>Juridiska persona &gt; Primāra adrese &gt; Pasta indekss</li></ol></li></ul> |
 | Vietne                             | <ul><li>**Pārdošanas pasūtījums:** Vieta</li><li>**Pirkšanas pasūtījums:** Vieta</li><li>**Pārsūtīšanas pasūtījums - Nosūtīšana:** No noliktavas vietas</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Uz noliktavas vietu</li><li>**Piedāvājuma pieprasījums:** Vieta</li><li>**Pārdošanas piedāvājums:** Vieta</li></ul> |
-| Nodokļa virziens                    | <ul><li>**Pārdošanas pasūtījums:** Izvade</li><li>**Pirkšanas pasūtījums:** Ievade</li><li>**Pārsūtīšanas pasūtījums - Nosūtīšana:** Izvade</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Ievade</li><li>**Pirkšanas pieprasījums:** Ievade</li><li>**Piedāvājuma pieprasījums:** Ievade</li><li>**Pārdošanas piedāvājums:** Izvade</li><li>**Brīva teksta rēķins:** Izvade</li></ul> |
+| Nodokļa virziens                    | <ul><li>**Pārdošanas pasūtījums:** Izvade</li><li>**Pirkšanas pasūtījums:** Ievade</li><li>**Pārsūtīšanas pasūtījums - Nosūtīšana:** Izvade</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Ievade</li><li>**Pirkšanas pieprasījums:** Ievade</li><li>**Piedāvājuma pieprasījums:** Ievade</li><li>**Pārdošanas piedāvājums:** Izvade</li><li>**Brīva teksta rēķins:** Izvade</li><li>**Žurnāls:** Izvade</li></ul> |
 | Kreditora konts                   | <ul><li>**Pirkšanas pasūtījums:** Kreditora konts</li><li>**Žurnāls (kreditors):** kreditora konts</li></ul> |
 | Kreditora rēķina saņēmējs           | <ul><li>**Pirkšanas pasūtījums:** Rēķina konts</li><li>**Žurnāls (kreditors):**<ol><li>Kreditora šablona &gt; rēķina konts</li><li>Kreditora konts</li></ol></li></ul> |
 | Noliktava                        | <ul><li>**Pārdošanas pasūtījums:** Noliktava</li><li>**Pirkšanas pasūtījums:** Noliktava</li><li>**Pārsūtīšanas pasūtījums - Nosūtīšana:** No noliktavas</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Uz noliktavu</li><li>**Piedāvājuma pieprasījums:** Noliktava</li><li>**Pārdošanas piedāvājums:** Noliktava</li></ul> |

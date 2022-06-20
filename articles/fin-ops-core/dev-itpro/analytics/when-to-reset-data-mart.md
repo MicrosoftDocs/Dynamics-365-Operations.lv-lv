@@ -1,6 +1,6 @@
 ---
 title: Data mart atiestatīšanas BUJ
-description: Šī tēma sniedz atbildes uz dažiem bieži uzdotiem jautājumiem par data mart atiestatīšanu.
+description: Šajā rakstā ir sniegtas atbildes uz dažiem bieži uzdotiem jautājumiem par datu martu atiestatījumiem.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892397"
 ---
 # <a name="data-mart-resets-faq"></a>Data mart atiestatīšanas BUJ
 
-Šī tēma sniedz atbildes uz dažiem bieži uzdotiem jautājumiem par data mart atiestatīšanu. Data mart atiestatīšana var būt laikietilpīgs process un atkarībā no apstākļiem var nebūt nepieciešamais risinājums. Tāpēc šī tēma ietver informāciju par apstākļiem, kuros data mart atiestatīšana var palīdzēt, kā arī gadījumos, kad tas, visticamāk, nepalīdzēs.
+Šajā rakstā ir sniegtas atbildes uz dažiem bieži uzdotiem jautājumiem par datu martu atiestatījumiem. Data mart atiestatīšana var būt laikietilpīgs process un atkarībā no apstākļiem var nebūt nepieciešamais risinājums. Tāpēc šis raksts ietver informāciju par apstākļiem, kuros datu martu atiestatīšana var palīdzēt, un arī apstākļus, kad maz ticams, ka palīdz.
 
 ## <a name="what-is-a-data-mart-reset"></a>Kas ir data mart atiestatīšana?
 

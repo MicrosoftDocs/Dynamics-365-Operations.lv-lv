@@ -1,6 +1,6 @@
 ---
 title: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
-description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanu Dynamics 365 Regulatory Configuration Services (RCS).
+description: Šajā rakstā ir izskaidrots, kā konfigurēt elektronisko rēķinu izrakstīšanu Dynamics 365 regulēšanas konfigurācijas pakalpojumos (RCS).
 author: gionoder
 ms.date: 11/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 985bed767442d196a9ce0528673b4ed5946379ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865647"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegta informācija par Elektronisko rēķinu izrakstīšanas konfigurācijas iespējām Dynamics 365 Regulatory Configuration Services (RCS).
+Šajā rakstā ir sniegta informācija par elektronisko rēķinu izrakstīšanas konfigurācijas iespējām Dynamics 365 regulēšanas konfigurācijas pakalpojumos (RCS).
 
 Izmantojot konfigurācijas iespējas, Elektronisko rēķinu izrakstīšana palīdz jums izpildīt uzņēmējdarbības un regulēšanas prasības elektroniskajiem rēķiniem bez nepieciešamības veikt kodēšanu. Un scenārijos, kad elektroniskie rēķini ir elektroniski jāapstiprina web pakalpojumam, konfigurācijas iespējas arī palīdz jums izpildīt ziņojumu apmaiņas ar Web pakalpojumu prasībām, neveicot nekādu kodu.
 
@@ -40,7 +40,7 @@ Papildinformāciju skatiet tēmā [Pārskats par elektronisko pārskatu (EP) vei
 
 ## <a name="electronic-invoicing-features"></a>Elektroniskās rēķinu izveides funkcijas
 
-Elektronisko rēķinu izrakstīšanas funkcijas ir atbildīgas par elektronisko rēķinu ģenerēšanu, izmantojot Elektronisko rēķinu izrakstīšanu. Tās iekapsulē konfigurācijas noteikumus un izmanto tos, lai apstrādātu datus, ko Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management nosūta elektronisko rēķinu izrakstīšanai un elektroniskajiem rēķiniem.
+Elektronisko rēķinu izrakstīšanas funkcijas ir atbildīgas par elektronisko rēķinu ģenerēšanu, izmantojot Elektronisko rēķinu izrakstīšanu. Tie iekapsulē konfigurācijas noteikumus un izmanto tos Microsoft Dynamics, lai apstrādātu datus, kas 365 Finanses Dynamics 365 Supply Chain Management un nosūtītu uz elektroniskajiem rēķiniem un elektroniskajiem rēķiniem.
 
 Funkcijas atbalsta arī scenārijus, kuros ir nepieciešama atbilstība failu formāta specifikācijām un izvade ir atsevišķs elektronisks fails. Vairākumā gadījumu failu formāta specifikācijas publicē nodokļu iestāde.
 

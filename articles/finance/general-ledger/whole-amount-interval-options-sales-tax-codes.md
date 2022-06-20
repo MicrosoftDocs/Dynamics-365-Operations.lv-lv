@@ -1,6 +1,6 @@
 ---
-title: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
-description: Šajā tēmā ir aprakstītas lauka Aprēķina metode opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
+title: PVN kodu visas summas un intervāla aprēķināšanas opcijas
+description: Šajā raksta ir aprakstītas lauka Aprēķina metode opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874466"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>PVN kodu visas summas un intervāla aprēķināšanas opcijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas lauka **Aprēķina metode** opcijas, kas attiecas uz PVN kodiem, un izskaidrots kā tiek aprēķināts intervālu un visu summu PVN.
+Šajā rakstā ir paskaidrotas opcijas PVN **kodu laukā** Aprēķināšanas metode un kā PVN tiek aprēķināts intervāliem un veselām summām.
 
 Varat iestatīt PVN kodu tā, lai tas tiktu aprēķināts, pamatojoties uz visu summu vai intervāla summu. Lapā **PVN kodi** izmantojiet lauku **Aprēķina metode** kopsavilkuma cilnē **Aprēķins**, lai izvēlētos PVN koda aprēķina metodi.
 - Visa summa — nodokļa likme tiek lietota visai apliekamajai summai.

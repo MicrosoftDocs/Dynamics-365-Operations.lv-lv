@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par preču ieteikumiem
-description: Šajā tēmā sniegta informācija par procesiem un rīkiem, ko varat izmantot, lai meklētu traucējumus problēmās, kas saistītas ar preču ieteikumiem vai to rezultātiem.
+description: Šajā rakstā ir sniegta informācija par procesiem un rīkiem, ko varat izmantot, lai novērstu problēmas, kas saistītas ar preces rekomendācijām vai to rezultātiem.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900451"
 ---
 # <a name="product-recommendations-faq"></a>Bieži uzdotie jautājumi par preču ieteikumiem
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegta informācija par procesiem un rīkiem, ko varat izmantot, lai meklētu traucējumus problēmās, kas saistītas ar [preču ieteikumiem](product-recommendations.md) vai to rezultātiem.
+Šajā rakstā ir sniegta informācija par procesiem un rīkiem, ko varat izmantot, lai novērstu problēmas, kas saistītas ar preces [rekomendācijām](product-recommendations.md) vai to rezultātiem.
 
 ## <a name="best-practices"></a>Labākās prakses
 Ir ļoti svarīgi izmantot preces šablonu un variantu koncepciju. Saprātīga variantu grupēšana pamata preces šablonā palīdz saraksta algoritmam un pakalpojumam izveidot labākus modeļus. Turklāt pakalpojumu var izmantot tikai vienam preces gadījumam, nevis ievietojot sarakstā visus cieši saistītos variantus. Kad visi cieši saistītie varianti tiek ievietoti sarakstā, var rasties kļūdaini vai dubulti rezultāti.

@@ -1,6 +1,6 @@
 ---
 title: Dokumentu un kvīšu hronoloģiska numerācija
-description: Šajā tēmā skaidrots, kā iestatīt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītajām kvītīm.
+description: Šajā rakstā skaidrots, kā iestatīt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītiem dokumentiem.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876388"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentu un kvīšu hronoloģiska numerācija
 
 [!include [banner](../includes/banner.md)]
 
 
-Dažās valstīs pastāv juridiska prasība numurēt dokumentus un saistītās kvītis hronoloģiskā secībā. Hronoloģija ir jāatbalsta ar periodiem. Visiem skaitļiem, kas attiecas uz agrākiem periodiem, jābūt mazākiem par skaitļiem, kas pieder vēlākiem periodiem. Lai atbilstu šai prasībai, ir ieviesta hronoloģiska numerācijas funkcionalitāte. Šajā tēmā skaidrots, kā konfigurēt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītajām kvītīm.
+Dažās valstīs pastāv juridiska prasība numurēt dokumentus un saistītās kvītis hronoloģiskā secībā. Hronoloģija ir jāatbalsta ar periodiem. Visiem skaitļiem, kas attiecas uz agrākiem periodiem, jābūt mazākiem par skaitļiem, kas pieder vēlākiem periodiem. Lai atbilstu šai prasībai, ir ieviesta hronoloģiska numerācijas funkcionalitāte. Šajā rakstā skaidrots, kā konfigurēt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītiem dokumentiem.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888591"
 ---
 # <a name="inventory-locations"></a>Krājumu vietas
 
@@ -29,7 +29,7 @@ ms.locfileid: "7573949"
 
 Krājumu atrašanās vietu dati tiek izmantoti kopā ar pamata noliktavu (WMS I), lai noteiktu, kur tiek glabāti krājumi un kur krājumi tiek izdoti no WMS I noliktavas.
 
-Šī tēma attiecas uz moduļa Krājumu vadība līdzekļiem. Tā neattiecas uz moduļa Noliktavas pārvaldība līdzekļiem.
+Šis raksts attiecas uz krājumu vadības moduļa funkcijām. Tā neattiecas uz moduļa Noliktavas pārvaldība līdzekļiem.
 
 Termins novietojums attiecas uz vietu, kur tiek uzglabāti krājumi un no kurienes tie tiek ņemti.
 

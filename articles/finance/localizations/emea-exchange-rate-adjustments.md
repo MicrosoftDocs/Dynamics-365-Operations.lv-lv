@@ -1,6 +1,6 @@
 ---
 title: Maiņas kursa korekcijas
-description: Šajā tēmā ir sniegta informācija par maiņas kursa korekciju juridiskām personām Igaunijā, Ungārijā, Čehijas Republikā, Latvijā, Lietuvā, Polijā un Krievijā.
+description: Šajā rakstā ir sniegta informācija par maiņas kursa pārrēķina funkcionalitāti lietotājiem igaunijai, Ungārijai, Čehijai, Latvijai, Lietuvai, Polijai un Krievijai.
 author: ShylaThompson
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 82f9d51bb882ae83c6382a424fbdff65900fd3822d70f496c0956c2e57180ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9e047872269b8fca56c702bd9599c759b0acd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889794"
 ---
 # <a name="exchange-rate-adjustments"></a>Maiņas kursa korekcijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par maiņas kursa korekciju juridiskām personām Igaunijā, Ungārijā, Čehijas Republikā, Latvijā, Lietuvā, Polijā un Krievijā.
+Šajā rakstā ir sniegta informācija par maiņas kursa pārrēķina funkcionalitāti lietotājiem igaunijai, Ungārijai, Čehijai, Latvijai, Lietuvai, Polijai un Krievijai.
 
 Igaunija, Ungārija, Čehijas Republikā, Latvija, Lietuva, Polija un Krievijā maiņas kursa korekcijas funkcionalitāte ietver tālāk minētos paplašinājumus, kas ir saistīti ar debitoriem un kreditoriem.
 

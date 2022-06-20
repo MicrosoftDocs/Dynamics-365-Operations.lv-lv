@@ -1,6 +1,6 @@
 ---
 title: Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
-description: Šajā tēmā skaidrots, kā izmantot svītrkodu datu avotus, lai ģenerētu svītrkoda attēlus.
+description: Šajā rakstā ir aprakstīts, kā izmantot svītrkoda datu avotus, lai ģenerētu svītrkodu attēlus.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880317"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
 
@@ -77,7 +77,7 @@ Konfigurējot **Svītrkoda** datu avotu, varat definēt konkrētus atveidošanas
 >
 > Kad tiek saistīts **Svītrkoda** datu avots ar šūnas elementu formātā un šūnas elements ir vai nu Word satura vadīkla, vai Excel attēls, datu avots ir norādīts kā funkcija, kam ir viens **Virknes** tipa parametrs. Šis parametrs jāizmanto, lai norādītu tekstu, kas ir jāpārveido par svītrkoda attēlu, un jālasa, kad tiek skenēts ģenerētais svītrkods.
 
-Papildinformācijai par šo līdzekli, aizpildiet šajā tēmā sniegtos piemērus.
+Lai iegūtu plašāku informāciju par šo funkciju, aizpildiet šajā rakstā sniegtos piemērus.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Piemērs: ģenerēt maksājuma čeku, kas satur svītrkodu, kas kodē maksājamo summu
 
@@ -103,7 +103,7 @@ Papildinformācijai par šo līdzekli, aizpildiet šajā tēmā sniegtos piemēr
 
 Šajā piemērā tiks izmantots norādītais ER risinājums, kas ir konfigurēts maksājumu pārbaužu ģenerēšanai. Šis risinājums ģenerē maksājuma čekus, kuros maksājamā summa ir rakstīta gan kā skaitlis, gan kā teksts. Jūs mainīsit šo ER risinājumu, lai čeks iekļautu arī ģenerēto svītrkodu, kur maksājamā summa ir kodēta, un to var nolasīt, izmantojot svītrkodu skeneri.
 
-Darbības var pabeigt uzņēmumā **USMF** programmā Microsoft Dynamics 365 Finance.
+Šos soļus var veikt **USMF** uzņēmumā Microsoft Dynamics 365 Finansēs.
 
 ### <a name="complete-the-prerequisites"></a><a name="ExamplePrerequisites"></a>Pabeigt priekšnosacījumus
 
@@ -112,7 +112,7 @@ Lai izpildītu šo piemēru, jums programmas Finance uzņēmumā USMF jābūt pi
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
 - Sistēmas administrators
 
-Ja vēl neesat izpildījis piemēru tēmā [Iegult attēlus un formas dokumentos, kurus ģenerējat, izmantojot ER](electronic-reporting-embed-images-shapes.md), lejupielādējiet tālāk norādītās parauga ER risinājumu konfigurācijas.
+Ja parauga piemērs nav pabeigts [iegultos attēlos un formās dokumentos, kas izveidoti, izmantojot ER rakstu, lejupielādējiet šādas ER](electronic-reporting-embed-images-shapes.md) risinājuma konfigurācijas.
 
 | Satura apraksts         | Faila nosaukums                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegta
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfigurāciju nodrošinātāja aktivizēšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārliecinieties, vai ir uzskaitīts [konfigurācijas nodrošinātājs](general-electronic-reporting.md#Provider) parauga uzņēmumam **Litware, Inc.** un vai tas ir atzīmēts kā aktīvs. Ja tas nav uzskaitīts vai tas nav atzīmēts kā aktīvs, izpildiet darbības, kas aprakstītas tēmā [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** pārliecinieties, vai ir uzskaitīts [konfigurācijas nodrošinātājs](general-electronic-reporting.md#Provider) parauga uzņēmumam **Litware, Inc.** un vai tas ir atzīmēts kā aktīvs. Ja tas nav uzskaitīts vai arī nav atzīmēts kā aktīvs, izpildiet darbības, kas norādītas sadaļā Konfigurācijas nodrošinātāja izveide, [un atzīmējiet to kā aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md) rakstu.
 
 ![Parauga uzņēmuma iestatīšana uz aktīvu lokalizācijas konfigurāciju lapā.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ Atlasītā formāta melnraksta versija ir atzīmēta kā pieejama, kad tiek pala
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Konvertēt ģenerēto čeku uz PDF
 
-Kā aprakstīts tēmā [Ģenerēt drukājamas FTI formas](er-generate-printable-fti-forms.md#finland), var izmantot speciālu fontu, lai izveidotu svītrkodus ģenerētajā dokumentā. Šādā gadījumā ģenerētā dokumenta papildu transformācijas var būt atkarīgas no šī fonta pieejamības transformācijas vidē. Piemēram, ja mēģināt pārvērst dokumentu PDF formātā vai priekšskatīt to vidē, kur trūkst fontu, svītrkodi netiks atveidoti pareizi.
+Kā aprakstīts Izstrādāt drukājamu [FTI](er-generate-printable-fti-forms.md#finland) formu rakstu, jūs variet izmantot īpašu fontu, lai izveidotu svītrkodus izstrādātā dokumentā. Šādā gadījumā ģenerētā dokumenta papildu transformācijas var būt atkarīgas no šī fonta pieejamības transformācijas vidē. Piemēram, ja mēģināt pārvērst dokumentu PDF formātā vai priekšskatīt to vidē, kur trūkst fontu, svītrkodi netiks atveidoti pareizi.
 
 Tomēr, izmantojot **Svītrkoda** datu avotu, lai izveidotu svītrkodus, šo svītrkodu atveidošana nav atkarīga no fonta. Tāpēc varat viegli pārveidot dokumentus, kas satur svītrkodus, uz PDF formātu. Sekojošajā attēlā redzams ģenerētā maksājuma čeka priekšskatījums, kas tika [konvertēts](electronic-reporting-destinations.md#OutputConversionToPDF) PDF failā, pamatojoties uz konfigurētā ER [adresāta](electronic-reporting-destinations.md)  iestatījumu.
 

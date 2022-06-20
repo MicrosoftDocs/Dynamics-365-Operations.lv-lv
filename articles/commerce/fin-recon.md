@@ -1,6 +1,6 @@
 ---
 title: Finanšu saskaņošana mazumtirdzniecības veikalos
-description: Šajā tēmā ir aprakstīta finanšu saskaņošana mazumtirdzniecības veikalos POS programmatūrai Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīta finanšu saskaņošana mazumtirdzniecības veikalos, kas ir paredzēts POS Microsoft Dynamics 365 Commerce.
 author: anpurush
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2afe967248136e9b658e1ee18053a54ab3f0d325c088a5eb2e522fac335c01f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19c0f6edd7756a611a234a162418ef5826bd5cc2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860248"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Finanšu saskaņošana mazumtirdzniecības veikalos
 

@@ -1,6 +1,6 @@
 ---
 title: Piemērs Kandidāta vaicājumam par nolīgšanu
-description: Šajā tēmā sniegts piemēram vaicājumam Kandidāts nolīgšanai elementam programmā Dynamics 365 Human Resources.
+description: Šajā rakstā ir sniegts piemērs vaicājumam par kandidātu nolīgšanas elementam Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848348"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Piemērs Kandidāta vaicājumam par nolīgšanu
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069225"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā sniegts piemēram vaicājumam Kandidāts nolīgšanai elementam programmā Dynamics 365 Human Resources.
+Šajā rakstā ir sniegts piemērs vaicājumam par kandidātu nolīgšanas elementam Dynamics 365 Human Resources.
 
-Šī tēma sniedz piemēru, demonstrējot, kā jūs varat izmantot *dziļas iespraušanas*, lai izveidotu visas jaunā kandidāta ieraksta detaļas vienā API operācijā. Papildinformāciju par dziļo iespraušanu skatiet sadaļā [Saistīto elementu ierakstu izveide vienā operācijā](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Šajā rakstā sniegts piemērs, demonstrētu, kā *varat izmantot dziļas iespraušanas*, lai izveidotu visas jaunā kandidāta ieraksta detaļas vienā API operācijā. Papildinformāciju par dziļo iespraušanu skatiet sadaļā [Saistīto elementu ierakstu izveide vienā operācijā](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 Elements **mshr_hcmcandidatetohireentity** ir unikāls, jo tas ir saistīts ar elementu **mshr_dirpersonentity**. Daudzi rekvizīti laukā **mshr_hcmcandidatetohireentity** (piemēram, **mshr_firstname**, **mshr_lastname** un **mshr_birthdate**) tiek atvasināti no ieraksta **mshr_dirpersonentity**. Ja grāmatojat jaunu kandidāta ierakstu **mshr_hcmcandidatetohireentity**, neizmantojot dziļas iespraušanas, šo rekvizītu vērtības var definēt tieši ierakstā **mshr_hcmcandidatetohireentity**. Saistītais **mshr_dirpersonentity** ieraksts tiek netieši izveidots ar rekvizītu definētajām vērtībām. Pēc tam varat izveidot jebkurus citus saistītus elementu ierakstus (piemēram, prasmes vai izglītības) kā atsevišķus API izsaukumus.
 

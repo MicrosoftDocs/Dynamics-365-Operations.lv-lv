@@ -1,6 +1,6 @@
 ---
-title: Iegūt līdzekļus, izmantojot sagādi
-description: Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas.
+title: Līdzekļu iegūšana, izmantojot sagādi
+description: Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891585"
 ---
-# <a name="acquire-assets-through-procurement"></a>Iegūt līdzekļus, izmantojot sagādi
+# <a name="acquire-assets-through-procurement"></a>Līdzekļu iegūšana, izmantojot sagādi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt lauku Pamatlīdzekļi un Kreditori integrāciju, lai automātiski izveidotu pamatlīdzekļus no pirkšanas pasūtījumiem vai kreditora rēķiniem vai automātiski grāmatotu pamatlīdzekļu iegādes un iegādes korekcijas transakcijas. Viena pirkšanas rinda izveidos vienu pamatlīdzekli neatkarīgi no daudzuma pirkšanas rindā. Ja nepieciešams izveidot vairākus pamatlīdzekļus, ir jāizveido vairākas pirkšanas rindas.
+Šajā rakstā aprakstīts, ka var iestatīt saistību starp laukiem Pamatlīdzekļi un Kreditori, lai no pirkšanas pasūtījumiem vai kreditora rēķiniem automātiski izveidotu pamatlīdzekļus vai automātiski iegrāmatotu pamatlīdzekļu iegādes vai iegādes pielāgošanas transakcijas. Viena pirkšanas rinda izveidos vienu pamatlīdzekli neatkarīgi no daudzuma pirkšanas rindā. Ja nepieciešams izveidot vairākus pamatlīdzekļus, ir jāizveido vairākas pirkšanas rindas.
 
  Pamatlīdzekļu un kreditoru saistīšanai ir pieejamas tālāk aprakstītās metodes, un visiem pamatlīdzekļiem ir jāizmanto vienāda metode.
 -   Pirms pamatlīdzekļa numura pievienošanas pirkšanas pasūtījuma vai kreditora rēķina rindā ir manuāli jāizveido pamatlīdzekļa ieraksts. Iegrāmatojot kreditora rēķinu, automātiski tiek iegrāmatota pamatlīdzekļa iegādes transakcija. Šī metode ir pēc noklusējuma.
@@ -38,7 +38,7 @@ Atlasiet vienu no pirmajām divām metodēm, ja vēlaties manuāli izveidot pama
 
 Neatkarīgi no tā, vai pamatlīdzekļi ir izveidoti manuāli, vai arī tiek izmantots elastīgāks mehānisms, ir jānoskaidro, vai iegādes transakciju var iegrāmatot tikai parametru lapā Pamatlīdzekļi vai arī to var iegrāmatot, veicot kreditora rēķina iegrāmatošanu. Dažas organizācijas vēlas, lai lietotāji iegādes un iegādes transakciju ierakstus parametru lapā Pamatlīdzekļi izveido manuāli, izmantojot manuālos žurnāla ierakstus vai piedāvājumus. 
 
-Šajā tēmā apskatīta detalizēta informācija par katru metodi.
+Šajā rakstā ir apskatīta detalizēta informācija par katru metodi.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a>Manuālai pamatlīdzekļu izveidošanai izmantojamās metodes
 Ja parametru lapā Pamatlīdzekļi ir atzīmēta opcija Atļaut līdzekļu iegādi iepirkuma procesā, iegrāmatojot kreditora rēķinu, kura rindās ir ievadīts pamatlīdzekļa numurs, iegāde tiek iegrāmatota automātiski un līdzekļa statuss mainās uz Atvērts. 

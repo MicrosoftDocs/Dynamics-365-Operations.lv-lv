@@ -1,6 +1,6 @@
 ---
 title: Klienta preču saņemšanas laika nišu izveidošana un atjaunināšana
-description: Šajā tēmā ir aprakstīts, kā izveidot, konfigurēt un atjaunināt klientu preču saņemšanas laika nišas programmā Commerce Headquarters.
+description: Šajā rakstā ir aprakstīts, kā programmā Commerce headquarters izveidot, konfigurēt un atjaunināt debitoru izdošanas laika slotus.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882237"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Klienta preču saņemšanas laika nišu izveidošana un atjaunināšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot, konfigurēt un atjaunināt klientu preču saņemšanas laika nišas programmā Commerce Headquarters.
+Šajā rakstā ir aprakstīts, kā programmā Commerce headquarters izveidot, konfigurēt un atjaunināt debitoru izdošanas laika slotus.
 
 Laika nišas funkcija sniedz mazumtirgotājiem veidu, kā definēt laika nišu krājumiem, kam ir ieslēgts klientu saņemšanas piegādes veids. Laika nišas ļauj mazumtirgotājiem noteikt dienas un laikus, kad pasūtījumi var tikt saņemti veikalā. Mazumtirgotāji var arī definēt pasūtījumu skaitu, ko var saņemt noteiktā periodā. Šādā veidā tirgotāji var ierobežot pasūtījumu skaitu, ko var saņemt noteiktā dienā un noteiktā laikā. Rezultāts ir labākas kvalitātes pieredze saviem klientiem.
 

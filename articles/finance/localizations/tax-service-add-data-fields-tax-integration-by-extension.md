@@ -1,6 +1,6 @@
 ---
-title: Pievienot datu laukus nodokļu integrācijai, izmantojot paplašinājumus
-description: Šajā tēmā skaidrots, kā izmantot X++ paplašinājumus datu lauku pievienošanai nodokļu integrācijā.
+title: Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus
+description: Šajā rakstā skaidrots, kā izmantot X++ paplašinājumus datu lauku pievienošanai nodokļu integrācijā.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871054"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Pievienot datu laukus nodokļu integrācijai, izmantojot paplašinājumu
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā skaidrots, kā izmantot X++ paplašinājumus datu lauku pievienošanai nodokļu integrācijā. Šos laukus var paplašināt līdz nodokļu pakalpojuma nodokļu datu modelim un izmantot nodokļu kodu noteikšanai. Papildinformāciju skatiet [Datu lauku pievienošana nodokļu konfigurācijās](tax-service-add-data-fields-tax-configurations.md).
+Šajā rakstā skaidrots, kā izmantot X++ paplašinājumus datu lauku pievienošanai nodokļu integrācijā. Šos laukus var paplašināt līdz nodokļu pakalpojuma nodokļu datu modelim un izmantot nodokļu kodu noteikšanai. Papildinformāciju skatiet [Datu lauku pievienošana nodokļu konfigurācijās](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Datu modelis
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Šajā kodā ir `_destination` ievietošanas objekts, kas tiek izmantots pieprasījuma ģenerēšanas laikā, un ir `_source` objekts`TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Nosakiet lauka nosaukumu, ko pieprasījumā izmanto kā **privātus konstantes soļus**. Virknei jābūt tieši tādai pašai kā tēmā Pievienot datu laukus nodokļu konfigurācijās pievienotajam zara nosaukumam ([nevis etiķetei)](tax-service-add-data-fields-tax-configurations.md).
+> Nosakiet lauka nosaukumu, ko pieprasījumā izmanto kā **privātus konstantes soļus**. Virknei jābūt tieši tādai pašai kā zara nosaukumam (nevis etiķetei), kas pievienots rakstam [Pievienot datu laukus nodokļu konfigurācijās](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Iestatiet lauku metodē **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine**, izmantojot **metodi SetField**. Otrā parametra datu tipam ir jābūt **virknei**. Ja datu tips nav virkne, **konvertējiet** to par virkni.
 > Ja datu tips ir X++ **uzskaitījuma** tips, **ieteicams lietot enum2Symbol** metodi, lai uzskaitījuma vērtību pārveidotu par virkni. Nodokļu konfigurācijā pievienot vērtībai ir jābūt tieši tādai pašai kā uzskaitījuma nosaukumam. Tālāk ir parādīts saraksts ar atšķirībām starp uzskaitījuma vērtību, iezīmi un nosaukumu.
@@ -382,7 +382,7 @@ Lai projektu varētu sekmīgi izveidot, pievienojiet modeļa atkarībām šādus
 
 Pēc iepriekšējo darbību veikšanas jūs varat apstiprināt savas izmaiņas.
 
-1. Finansēs dodieties uz **sadaļu Parādi kreditoriem** **un pievienojiet vietrādim &debug=vsCconfirmExit%2>** vietrādim URL. Piemēram,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Galaprodukts **&** ir būtisks.
+1. Finansēs dodieties uz **sadaļu Parādi kreditoriem** **un pievienojiet vietrādim &debug=vs%2 CconfirmExit>** vietrādim URL. Piemēram,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Galaprodukts **&** ir būtisks.
 2. Atveriet pirkšanas **pasūtījuma** lapu un atlasiet Jauns, **lai** izveidotu pirkšanas pasūtījumu.
 3. Iestatiet vērtību pielāgotajā laukā un pēc tam atlasiet **PVN**. Traucējummeklēšanas fails ar prefiksu **TaxServiceTroubleshootingLog tiek** lejupielādēts automātiski. Šajā failā ir ietverta darbību informācija, kas grāmatota nodokļu aprēķina pakalpojumā. 
 4. Pārbaudiet, vai pielāgotais lauks ir pievienots nodokļu pakalpojuma **aprēķina ievades JSON sadaļā** un vai tā vērtība ir pareiza. Ja vērtība nav pareiza, veiciet dubultklikšķi uz soļiem šajā dokumentā.

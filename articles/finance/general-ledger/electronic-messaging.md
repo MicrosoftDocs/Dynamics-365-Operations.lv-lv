@@ -1,8 +1,8 @@
 ---
 title: Elektr. ziņojumapm.
-description: Šajā tēmā ir sniegts apskats par elektronisko ziņojumapmaiņu un tās iestatīšanai nepieciešamo informāciju programmā Microsoft Dynamics 365 Finance.
+description: Šajā rakstā ir sniegta pārskata un iestatīšanas informācija elektroniskajai ziņojumapmaiņai Microsoft Dynamics 365 Finanses.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934719"
 ---
-# <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
+# <a name="electronic-messaging"></a>Elektr. ziņojumapm.
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegts pārskats un informācija par funkcionalitāti **Elektroniskie ziņojumi** (EM).
+Šajā rakstā ir sniegta pārskata un iestatīšanas informācija elektronisko **ziņojumu** (EM) funkcionalitātei.
 
 Nesen valdības un likumdošanas iestādes dažādās valstīs un reģionos visā pasaulē ieviesa pārskatu veidošanas prasības uzņēmumiem, kas reģistrēti attiecīgajās valstīs vai reģionos. Prasību mērķis ir nodrošināt iespēju iegūt datus no minētajiem uzņēmumiem elektroniskā formātā tieši no sistēmām, kurās tika veikta to uzskaite, uzglabāšana un apstrāde.
 
-EM funkcionalitāte programmā Microsoft Dynamics 365 Finance atbalsta dažādus procesus elektroniskajai sadarbspējai starp Finance un sistēmām, kuras valdības un likumdošanas iestādes nodrošina oficiālās informācijas ziņošanai, iesniegšanai un saņemšanai.
+EM funkcionalitāte Microsoft Dynamics 365 finansēs atbalsta dažādus procesus elektroniskai interoperaācijai starp Finansēm un sistēmām, kas sniedz iespēju veidot atskaites, iesniegt un saņemt oficiālo informāciju.
 
 EM funkcionalitāte ir integrēta modulī **Elektronisko pārskatu veidošana** (ER). Varat iestatīt ER formātus elektroniskajiem ziņojumiem. Papildinf. sk. tēmā [Elektr. pārskatu veidošana (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
@@ -58,6 +58,16 @@ EM funkcionalitāte atbalsta šādus scenārijus:
 - Saglab. un pārsk. žurnāla inf., kas saistīta ar darb., kuras tiek izpildītas ziņojumam vai ziņojuma vienumam.
 - Kontrolējiet apstrādi, izmantojot ziņoj. statusus un ziņoj. vienumu statusus.
 
+## <a name="security-privileges"></a>Drošības privilēģijas
+
+Elektroniskajiem ziņojumiem ir pieejamas šādas drošības privilēģijas.
+
+| Drošības privilēģija           | Piekļuves līmenis | Asociācija |
+|------------------------------|--------------|-------------|
+| Uzturēt elektroniskos ziņojumus | Šī privilēģija sniedz pilnu piekļuvi EM funkcijai. Ja jums ir šī privilēģija, jūs varat iestatīt elektronisko ziņojumapmaiņu un palaist visus procesus. | Šī privilēģija ir iekļauta drošības pienākumā **Uzturēt pārdošanas nodokļu transakcijas**. Šis pienākums ir iekļauts drošības lomā **Grāmatvedis**. |
+| Skatīt elektroniskos ziņojumus     | Šī privilēģija sniedz tikai lasīšanas piekļuvi EM funkcijai. Ja jums ir šī privilēģija, jūs varat skatīt elektroniskās ziņojumapmaiņas iestatījumus un ziņojumus. Taču jūs neko nevarat iestatīt vai palaist. | Šī privilēģija ir iekļauta drošības pienākumā **Vaicāt par pārdošanas nodokļu transakcijas statusu**. Šis pienākums ir iekļauts šādās drošības lomās:<ul><li>Iekasēšanas pārvaldnieks</li><li>Debitoru parādu darbinieks</li><li>Debitoru parādu vadītājs</li><li>Nodokļu grāmatvedis</li><li>Grāmatvedis</li><li>Uzskaites vadītājs</li><li>Uzskaites supervizors</li><li>Pārdošanas daļas vadītājs</li><li>Kreditoriem maksājamo parādu darbinieks</li></ul> |
+| Apstrādāt elektroniskos ziņojumus  | Šī privilēģija sniedz piekluvi tikai lapām **Elektroniskie ziņojumi** un **Elektronisko ziņojumu elementi**. Ja jums ir šī privilēģija, jūs varat palaist visu apstrādi, kas tiek izsaukta no šīm lapām. | Šī privilēģija ir iekļauta drošības pienākumā **Darbināt elektroniskos ziņojumus**. Šis pienākums ir iekļauts drošības lomā **Elektronisko ziņojumu operators**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Valstij specifiskās regulēšanas funkcijas, ko atbalsta EM funkcionalitāte
 
 Tabulā ir sniegta informācija par dažām valstij specifiskām regulēšanas funkcijām, ko atbalsta EM funkcionalitāte.
@@ -66,9 +76,9 @@ Tabulā ir sniegta informācija par dažām valstij specifiskām regulēšanas f
 |-------------|--------------|------------------------|
 | Spānija       | [Tūlītēja informācijas piegāde par PVN (Suminilla Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Ungārija     | [Tiešsaistes rēķinu izrakstīšanas sistēma](../localizations/emea-hun-online-invoicing.md) | |
-| Apvienotā Karaliste | [Nodokļu digitalizācija (Making Tax Digital - MTD) – PVN deklarācijas iesniegšana](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: Lielbritānijas digitālais nodoklis - PVN deklarācija sistēmā Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Apvienotā Karaliste | [Nodokļu digitalizācija (Making Tax Digital - MTD) – PVN deklarācijas iesniegšana](../localizations/emea-gbr-mtd-vat-integration.md) | [Finanses un operācijas: Lielbritānijas digitālais nodoklis - PVN deklarācija sistēmā Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Lietuva   | [i.SAF pārskatu veidošana](../localizations/emea-ltu-isaf.md) | |
-| Polija      | [PVN deklarācija ar reģistriem (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK PVN audita reģistri](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| Polija      | [PVN deklarācija ar reģistriem (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 finanses: MAKS./DARBA PVN audita reģistri](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Nīderlande | [PVN deklarācija Nīderlandēm](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | Čehijas Republika | [PVN deklarācija](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | Brazīlija      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -78,7 +88,13 @@ Tabulā ir sniegta informācija par dažām valstij specifiskām regulēšanas f
 | Krievija      | [Likmēto nodokļu deklarācija](../localizations/rus-assessed-tax-declaration.md) | |
 | Krievija      | [Transporta nodokļu deklarācija](../localizations/rus-transport-tax-declaration.md) | |
 | Krievija      | [Zemes nodokļu deklarācija](../localizations/rus-land-tax-declaration.md) | |
-
+| Norvēģija      | [PVN atgriešana ar tiešo iesniegšanu Altinn](../localizations/emea-nor-vat-return.md) | [Jauna PVN atgriešana ar tiešo iesniegšanu Altinn dynamics 365 finansēs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Francija      | [PVN deklarācija (Francija)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Austrija     | [PVN deklarācija (Austrija)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Vācija     | [PVN deklarācija (Vācija)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Nīderlande | [PVN deklarācija Nīderlandēm](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Zviedrija      | [PVN deklarācija (Zviedrija)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Šveice | [PVN deklarācija (Šveice)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

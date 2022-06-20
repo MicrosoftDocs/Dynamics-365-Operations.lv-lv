@@ -1,6 +1,6 @@
 ---
 title: Grāmatu skaits katrā žurnālā
-description: Šī tēma apraksta attiecības starp žurnāliem un līdzekļu grāmatām, kad, izmantojot pakešuzdevumu, izveidojat pamatlīdzekļa iegādes vai nolietojuma priekšlikumu. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam.
+description: Šajā rakstā ir aprakstīta saistība starp žurnāliem un pamatlīdzekļu grāmatām, ja pakešuzdevumā tiek veidots pamatlīdzekļa iegādes vai nolietojuma priekšlikums. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883334"
 ---
 # <a name="number-of-books-per-journal"></a>Grāmatu skaits katrā žurnālā
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma apraksta attiecības starp žurnāliem un līdzekļu grāmatām, kad, izmantojot pakešuzdevumu, izveidojat pamatlīdzekļa iegādes vai nolietojuma priekšlikumu. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam, izmantojot laukus sadaļā **Grāmatu skaits žurnālā**, cilnē **Vispārīgi**, kas atrodama lapā **Parametri** (**Pamatlīdzekļi \> Iestatījumi \> Pamatlīdzekļu iestatījumi**). Šie lauki ļauj jums sadalīt pamatlīdzekļu grāmatu skaitu uz iegādes žurnālu un nolietojuma žurnālu.
+Šajā rakstā ir aprakstīta saistība starp žurnāliem un pamatlīdzekļu grāmatām, ja pakešuzdevumā tiek veidots pamatlīdzekļa iegādes vai nolietojuma priekšlikums. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam, izmantojot laukus sadaļā **Grāmatu skaits žurnālā**, cilnē **Vispārīgi**, kas atrodama lapā **Parametri** (**Pamatlīdzekļi \> Iestatījumi \> Pamatlīdzekļu iestatījumi**). Šie lauki ļauj jums sadalīt pamatlīdzekļu grāmatu skaitu uz iegādes žurnālu un nolietojuma žurnālu.
 
 Iegādes priekšlikumam noklusētā vērtība ir vismaz 10 000 grāmatas. Nolietojuma priekšlikumam noklusētā vērtība ir vismaz 2000 grāmatas.
 

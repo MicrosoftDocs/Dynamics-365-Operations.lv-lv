@@ -1,6 +1,6 @@
 ---
-title: Finanšu dimensijas noklusējuma veidņu uzturēšana
-description: Šajā tēmā parādīts, kā uzstādīt finanšu dimensijas noklusējuma veidnes.
+title: Finanšu dimensiju noklusējuma veidņu uzturēšana
+description: Šajā rakstā ir parādīts, kā iestatīt finanšu dimensijas noklusējuma veidnes.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872417"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a>Finanšu dimensijas noklusējuma veidņu uzturēšana
+# <a name="maintain-financial-dimension-default-templates"></a>Finanšu dimensiju noklusējuma veidņu uzturēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā parādīts, kā uzstādīt finanšu dimensijas noklusējuma veidnes. Veidnes var izmantot, lai ātri sadalītu summas no pirmdokumentiem.
+Šajā rakstā ir parādīts, kā iestatīt finanšu dimensijas noklusējuma veidnes. Veidnes var izmantot, lai ātri sadalītu summas no pirmdokumentiem.
 
 1. Navigācijas rūtī dodieties uz **Moduļi > Virsgrāmata > Kontu plāns > Dimensijas >Finanšu dimensiju noklusējuma veidnes**.
 2. Atlasiet **Jauns**.

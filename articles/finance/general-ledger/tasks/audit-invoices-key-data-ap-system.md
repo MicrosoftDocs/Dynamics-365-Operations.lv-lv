@@ -1,6 +1,6 @@
 ---
 title: Rēķinu un pamatdatu auditēšana kreditoru modulī
-description: Šajā tēmā ir parādīts, kā auditēt rēķinus un pamatdatus kreditoru modulī.
+description: Šajā rakstā ir parādīts, kā pārbaudīt rēķinus un galvenos datus parādajiem kreditoriem.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: edb8799f8baf7b6ed775c73a1624abe794e692a3
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868359"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Rēķinu un pamatdatu auditēšana kreditoru modulī
 

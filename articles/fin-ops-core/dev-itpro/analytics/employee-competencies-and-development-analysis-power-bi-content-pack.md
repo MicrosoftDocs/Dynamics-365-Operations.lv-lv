@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Darbinieka zināšanas un attīstība
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Darbinieku kompetences un attīstība.
+description: Šajā rakstā ir aprakstītas darbinieku zināšanas un izstrādes Power BI saturs.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 572f6bcfa202995d90080e1a31476122f7ec23d71214d5ff0dd44ed919859c57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851021"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Power BI satura pakotne Darbinieka zināšanas un attīstība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Power BI satura pakotne Darbinieku kompetences un attīstība. 
+Šajā rakstā ir aprakstītas darbinieku zināšanas un izstrādes Power BI saturs. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
 Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Vadītās mācīšanās lapa Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.

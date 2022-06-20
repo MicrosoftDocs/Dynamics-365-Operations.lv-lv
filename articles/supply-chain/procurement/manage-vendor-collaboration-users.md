@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt kreditoru sadarbības lietotājus
-description: Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas.
+description: Šajā rakstā ir aprakstīts, kā var pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 515d995641f5bbe976643a38c26a46f7d8a115dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 823e92cadc36659264a70132ed1390c7bcf8bc5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852307"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā varat pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas. 
+Šajā rakstā ir aprakstīts, kā var pieprasīt jaunu kreditoru sadarbības lietotāju nodrošināšanu un kā pievienot jaunas kreditoru sadarbības kontaktpersonas. 
 
-Kreditoru sadarbības interfeiss programmā Dynamics 365 Supply Chain Management sniedz informāciju par ārējo kreditoru pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. Varat izveidot jaunas kreditoru sadarbības kontaktpersonas un pieprasīt, lai tiktu nodrošināti jauni lietotāji, ja strādājat kā ārējs kreditors ar drošības lomu **Kreditora administrators (ārējs)** vai līdzīgām atļaujām. Šos uzdevumus varat arī veikt, ja strādājat kā sagādes speciālists. Šajā tēmā šī loma atsaucas uz sagādes speciālistu, kurš strādā uzņēmumā, kam pieder Supply Chain Management instance. Papildinformāciju par to, kā ārējais kreditors var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Kreditoru sadarbības interfeiss programmā Dynamics 365 Supply Chain Management sniedz informāciju par ārējo kreditoru pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. Varat izveidot jaunas kreditoru sadarbības kontaktpersonas un pieprasīt, lai tiktu nodrošināti jauni lietotāji, ja strādājat kā ārējs kreditors ar drošības lomu **Kreditora administrators (ārējs)** vai līdzīgām atļaujām. Šos uzdevumus varat arī veikt, ja strādājat kā sagādes speciālists. Šajā rakstā šī loma attiecas uz sagādes profesionāli, kurš strādā uzņēmumā, kuram pieder Piegādes ķēžu pārvaldības instance. Papildinformāciju par to, kā ārējais kreditors var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Papildinformāciju par to, kā sagādes speciālists var izmantot moduli Kreditoru sadarbība, skatiet tēmā [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 

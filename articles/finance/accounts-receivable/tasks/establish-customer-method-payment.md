@@ -1,6 +1,6 @@
 ---
 title: Debitoru maksājuma metodes izveide
-description: Šajā tēmā ir paskaidrots, kā izveidot maksāšanas veidu klientu maksājumiem.
+description: Šajā rakstā ir izskaidrots, kā izveidot maksājuma metodi debitoru maksājumiem.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861507"
 ---
 # <a name="establish-customer-method-of-payment"></a>Debitoru maksājuma metodes izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot maksāšanas veidu klientu maksājumiem. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šajā rakstā ir izskaidrots, kā izveidot maksājuma metodi debitoru maksājumiem. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Debitori > Maksājumu iestatīšana > Maksāšanas veidi**.
 2. Atlasiet **Jauns**.

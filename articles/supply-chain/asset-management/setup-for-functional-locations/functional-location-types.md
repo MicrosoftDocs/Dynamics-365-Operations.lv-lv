@@ -1,6 +1,6 @@
 ---
 title: Funkcionālo novietojumu veidi
-description: Šajā tēmā aprakstīts, kā izveidot funkcionālo novietojumu veidus Līdzekļu pārvaldībā.
+description: Šajā rakstā ir aprakstīts, kā izveidot funkcionālo novietojumu tipus Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879226"
 ---
 # <a name="functional-location-types"></a>Funkcionālo novietojumu veidi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739159"
 
  
 
-Šajā tēmā aprakstīts, kā izveidot funkcionālo novietojumu veidus Līdzekļu pārvaldībā. Funkcionālo novietojumu veidus izmanto, lai pārvaldītu prasības funkcionālajiem novietojumiem, tostarp to, kā līdzekļi tiek uzstādīti funkcionālajā novietojumā. Var iestatīt līdzekļu veidus, uzturēšanas plānus, funkcionālā novietojuma atribūtus un līdzekļu atribūtu prasības, kas jāizmanto funkcionālā novietojumā, kurš izmanto konkrētu funkcionālā novietojuma veidu. Veidojot funkcionālo novietojumu, funkcionālā novietojuma veids ir obligāts.
+Šajā rakstā ir aprakstīts, kā izveidot funkcionālo novietojumu tipus Pamatlīdzekļu pārvaldībā. Funkcionālo novietojumu veidus izmanto, lai pārvaldītu prasības funkcionālajiem novietojumiem, tostarp to, kā līdzekļi tiek uzstādīti funkcionālajā novietojumā. Var iestatīt līdzekļu veidus, uzturēšanas plānus, funkcionālā novietojuma atribūtus un līdzekļu atribūtu prasības, kas jāizmanto funkcionālā novietojumā, kurš izmanto konkrētu funkcionālā novietojuma veidu. Veidojot funkcionālo novietojumu, funkcionālā novietojuma veids ir obligāts.
 
 >[!NOTE] 
 >Lai strādātu ar funkcionālajiem novietojumiem, ir jāizveido noklusējuma funkcionālais novietojums, kas tiks izmantots tikai jaunu līdzekļu izveides nolūkā. Šim noklusējuma funkcionālajam novietojumam ieteicams izveidot noklusējuma funkcionālā novietojuma veidu, kas ir patiešām vienkāršs un ļauj uzstādīt vairākus līdzekļus noklusējuma funkcionālajā novietojumā. Papildinformāciju par funkcionālo novietojumu iestatīšanu skatiet [Izveidot funkcionālos novietojumus](../functional-locations/create-functional-locations.md).

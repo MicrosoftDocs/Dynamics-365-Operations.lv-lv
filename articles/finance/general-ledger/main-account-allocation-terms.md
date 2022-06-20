@@ -1,6 +1,6 @@
 ---
 title: Sadalījuma nosacījumi
-description: Šajā tēmā sniegta informācija par sadalījuma nosacījumu izmantošanu galvenajā kontā.
+description: Šajā rakstā ir sniegta informācija par galvenā konta sadalījuma noteikumu izmantošana.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859832"
 ---
 # <a name="allocation-terms"></a>Sadalījuma nosacījumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā sniegta informācija par sadalījuma nosacījumu izmantošanu galvenajā kontā. Sadalījumu nosacījumi tiek izmantoti, lai summas izplatītu vairāku virsgrāmatu kontu kombinācijām. Tie palīdz nodrošināt, ka izdevumi vai ieņēmumi uzskaitē tiek aprēķināti pareizajam objektam.
+Šajā rakstā ir sniegta informācija par galvenā konta sadalījuma noteikumu izmantošana. Sadalījumu nosacījumi tiek izmantoti, lai summas izplatītu vairāku virsgrāmatu kontu kombinācijām. Tie palīdz nodrošināt, ka izdevumi vai ieņēmumi uzskaitē tiek aprēķināti pareizajam objektam.
 
 Katrs sadalījuma nosacījums, ko izveidojat galvenajā kontā, nosaka dokumenta procentuālo daļu, kas jāpiešķir no viena avota galvenā konta un finanšu dimensiju kombinācijas. Turklāt jūs nosakāt mērķa galveno kontu un finanšu dimensijas, kur summa tiks piešķirta. 
 

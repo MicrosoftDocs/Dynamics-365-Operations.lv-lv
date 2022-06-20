@@ -1,6 +1,6 @@
 ---
 title: Vērtējumu un atsauksmju apskats
-description: Šajā tēmā apskatīti vērtējumi un apskati programmā Microsoft Dynamics 365 Commerce.
+description: Šis dokuments aptver vērtējumus un pārskatus Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9fff5100dd1bebdd19fb7306980e98ca84027acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898914"
 ---
 # <a name="ratings-and-reviews-overview"></a>Vērtējumu un atsauksmju apskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā apskatīti vērtējumi un apskati programmā Microsoft Dynamics 365 Commerce.
+Šis dokuments aptver vērtējumus un pārskatus Microsoft Dynamics 365 Commerce.
 
 Vērtējumi un apskati ir izšķiroši e-tirdzniecības klientiem, kuri vēlas uzzināt, kā citi klienti uztver preci. Tie var arī palīdzēt patērētājiem pieņemt lēmumu veikt pirkumu. Dynamics 365 Commerce vērtējumu un apskatu risinājums ļauj mazumtirgotājiem iegūt no klientiem preču vērtējumus un apskatus. Pēc tam mazumtirgotāji savā e-tirdzniecības tīmekļa vietnē var parādīt vidējo vērtējumu un apskatu informāciju.
 
@@ -55,9 +55,9 @@ Vērtējumu un apskatu risinājums nodrošina arī biznesa informācijas (BI) ve
 
 [Iespējojiet moderatora manuālo vērtējumu un atsauksmju publicēšanu](manual-publish-rating-reviews.md)
 
-[Importēt un eksportēt vērtējumus un pārskatus](import-export-reviews.md)
+[Novērtējumu un pārskatu importēšana un eksportēšana](import-export-reviews.md)
 
-[Konfigurēt pakalpojumu-pakalpojuma autentifikāciju](service-to-service-auth.md)
+[Autentifikācijas starp pakalpojumiem konfigurēšana](service-to-service-auth.md)
 
 [BUJ par vērtējumiem un atsauksmēm](ratings-reviews-faq.md)
 

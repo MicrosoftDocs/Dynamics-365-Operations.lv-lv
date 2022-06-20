@@ -1,6 +1,6 @@
 ---
 title: Veikala darbalaika izveide un atjaunināšana
-description: Šajā tēmā ir aprakstīts, kā izveidot un atjaunināt darbalaiku programmā Commerce Headquarters.
+description: Šajā rakstā ir aprakstīts, kā programmā Commerce Headquarters izveidot un atjaunināt veikala stundas.
 author: josaw1
 ms.date: 7/30/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 703087f5311205e18b6b8f99b847b539770160b91574b12d505822c8e16ca96c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99d2f06be959e00656901c6ca8fc79fac32a3a6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884369"
 ---
 # <a name="create-and-update-store-hours"></a>Veikala darbalaika izveide un atjaunināšana
 

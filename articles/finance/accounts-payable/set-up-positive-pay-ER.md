@@ -1,6 +1,6 @@
 ---
 title: Iestatīt un ģenerēt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus
-description: Šajā tēmā skaidrots, kā iestatīt pozitīvo maksājumu, izmantojot elektroniskos pārskatus.
+description: Šajā rakstā skaidrots, kā iestatīt pozitīvo maksājumu, izmantojot elektroniskos pārskatus.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878223"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Iestatīt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus
 
-Šajā tēmā skaidrots, kā iestatīt pozitīvo maksājumu un ģenerēt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus.
+Šajā rakstā ir izskaidrots, kā iestatīt pozitīvo maksājumu un ģenerēt pozitīvo maksājumu failus, izmantojot elektroniskos pārskatus.
 
 > [!NOTE] 
 > Pirms bankas **pozitīvā maksājuma faila funkcijas ģenerēšanas** vispirms jāatsvaidzina elementu saraksts.
@@ -81,7 +81,7 @@ Pozitīvo maksājumu faili var saturēt konfidenciālu informāciju par maksāju
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronisko pārskatu izveides konfigurācijas iestatīšana
 
 1. Dodieties uz **elektronisko darbvietu \> pārskatu**.
-2. Microsoft **konfigurācijas nodrošinātāja** elementā atlasiet **Repositories**.
+2. Microsoft konfigurācijas nodrošinātāja **elementā atlasiet Repositories** **.**
 3. Atlasiet **Globāls** un pēc tam atlasiet **Atvērt**.
 4. Ja ir jāizveido savienojums ar repozitoriju, dialoglodziņā atlasiet zilo saiti.
 5. Konfigurācijas sarakstā atrodiet un atlasiet Pozitīvā maksājuma **modeļa pozitīvā \> maksājuma formātu**.

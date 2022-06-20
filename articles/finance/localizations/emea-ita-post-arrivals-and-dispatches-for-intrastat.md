@@ -1,6 +1,6 @@
 ---
 title: Intrastat saņemtā un nosūtītā grāmatošana
-description: Šajā tēma ir piemērs tam, kā grāmatot Intrastat saņemto un nosūtīto.
+description: Šajā rakstā sniegts piemērs, kurā parādīts, kā grāmatot Intrastat saņemšanas un nosūtīšanas.
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862969"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>Intrastat saņemtā un nosūtītā grāmatošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēma ir piemērs tam, kā grāmatot Intrastat saņemto un nosūtīto. Piemērā tiek izmantota **ITCO** juridiskā persona.
+Šajā rakstā sniegts piemērs, kurā parādīts, kā grāmatot Intrastat saņemšanas un nosūtīšanas. Piemērā tiek izmantota **ITCO** juridiskā persona.
 
 ## <a name="setup"></a>Iestatīt
 
@@ -32,7 +32,7 @@ ms.locfileid: "8724788"
 
     Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. Microsoft Dynamics 365 Finansēs definējiet šādas numuru sērijas kā nepārtrauktas: **Ikods\_ 397**, **Aikova16403\_**, **Pur407\_** un **PUREU\_**.
+2. Microsoft Dynamics 365 Finansēs definējiet šādas numuru sērijas kā nepārtrauktas: **Numerācija\_ 397**, **Aiko\_ kods 16403**, **Ierašana\_ 407** un **PUR\_ ES**.
 
     1. Atveriet **Organizācijas administrēšana** > **Numuru sērijas** > **Numuru sērijas**.
     2. Režģī atlasiet vienu no numuru sērijas kodiem.

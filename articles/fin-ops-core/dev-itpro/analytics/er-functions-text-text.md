@@ -1,6 +1,6 @@
 ---
 title: TEXT ER funkcija
-description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota TEXT elektroniskā pārskata (ER) funkcija.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek lietota funkcija TEXT Elektroniskie pārskati (ER).
 author: NickSelin
 ms.date: 12/10/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38550b8b5181b49bcb8504129932f185ea95e038e38d4581bc3e0fa076f4fb50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf9049463ca905952cab512884afad380b7b3d52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900169"
 ---
 # <a name="text-er-function"></a>TEXT ER funkcija
 
@@ -51,7 +51,7 @@ Vērtībām ar tipu *Reāls* šīs virknes pārveidošana ir ierobežota līdz d
 
 ## <a name="example"></a>Paraugs
 
-Ja Microsoft Dynamics 365 Finance instances servera lokalizācija ir definēta kā **EN-US**, `TEXT (NOW ())` pašreizējo Finance sesijas datumu, 2015. gada 17. decembri, atgriež kā teksta virkni **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` atgriež **"0.33"**.
+Microsoft Dynamics Ja 365 finanšu instances servera atrašanāsvieta ir definēta kā EN-US **,** atgriež pašreizējo finanšu sesijas datumu, 2015`TEXT (NOW ())`. gada 17. decembris, **kā teksta virkne "12/17/2015 07:59:23 AM"**. `TEXT (1/3)` atgriež **"0.33"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

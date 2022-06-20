@@ -1,6 +1,6 @@
 ---
 title: Nesaistīto atmaksu apstrāde Dynamics 365 Commerce Payment Connector pakalpojumā Adyen
-description: Šajā tēmā ir aprakstīts, kā darbojas nesaistītās atmaksas, kad tiek izmantots Microsoft Dynamics 365 Payment Connector pakalpojumam Adyen.
+description: Šajā rakstā ir aprakstīts, kā darbojas atsaistītas Microsoft Dynamics atmaksas, kad tiek izmantots 365 maksājumu savienotājs A atgriešanai.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885201"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Nesaistīto atmaksu apstrāde Dynamics 365 Commerce Payment Connector pakalpojumā Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā darbojas nesaistītās atmaksas, kad tiek izmantots [Microsoft Dynamics 365 Payment Connector pakalpojumam Adyen](adyen-connector.md). Kā arī tiek apskatīta iespēja apstrādāt atmaksu kā jaunu maksājuma metodi pārdošanas punktā (POS) vai zvanu centrā.
+Šajā rakstā ir aprakstīts, kā darbojas atsaistītas [Microsoft Dynamics atmaksas, kad tiek izmantots 365 maksājumu savienotājs A atgriešanai](adyen-connector.md). Kā arī tiek apskatīta iespēja apstrādāt atmaksu kā jaunu maksājuma metodi pārdošanas punktā (POS) vai zvanu centrā.
 
 Dynamics 365 Payment Connector pakalpojumam Adyen atbalsta iespēju apstrādāt atmaksas, izmantojot citu maksāšanas metodi, nevis to, kas tika izmantota sākotnējai transakcijai. Kaut arī mēs iesakām izmantot [saistītās atmaksas](linked-refunds.md), lai apstrādātu atmaksu kā jau nodrošināto sākotnējo maksājuma metodi, dažos scenārijos ir nepieciešamas citas atmaksas metodes. Piemēram, kartei, kas tika izmantota oriģinālajam maksājumam, tagad var būt beidzies derīguma termiņš, vai tā ir nozaudēta, vai arī lietotājs, iespējams, to ir atcēlis.
 

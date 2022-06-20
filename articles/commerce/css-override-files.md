@@ -1,6 +1,6 @@
 ---
-title: Darbs ar CSS pārlabošanas failiem
-description: Šajā tēmā aprakstīts, kāpēc, kad un kā lietot Stila lapu kaskadēšanas (CSS) labošanas failus risinājumā Microsoft Dynamics 365 Commerce.
+title: Darbs ar CSS ignorēšanas failiem
+description: Šajā rakstā ir aprakstīts, kādēļ un kā lietot kaskadēšanas stila lapas (CSS) ignorēšanas failus sadaļā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892864"
 ---
 # <a name="work-with-css-override-files"></a>Darbs ar CSS ignorēšanas failiem
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kāpēc, kad un kā lietot Stila lapu kaskadēšanas (CSS) labošanas failus risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kādēļ un kā lietot kaskadēšanas stila lapas (CSS) ignorēšanas failus sadaļā Microsoft Dynamics 365 Commerce.
 
 Pastāvīgā vietā stili parasti būtu jāapstrādā, izmantojot vietnes tēmu. Tēmas nodrošina galvenos CSS un stila iestatījumus moduļiem jebkurā lapā jūsu vietnē. Tēmas tiek izveidotas, izmantojot Dynamics 365 Commerce tiešsaistes programmatūras izstrādes komplektu (SDK), un tās tiek izvietotas jūsu tīmekļa vietnēs, izmantojot Microsoft Dynamics Lifecycle Services (LCS). Tēmas atkļūdošanas iespējas un moduļa saskarnes konfigurācijas SDK palīdz vietnes izstrādātājiem izveidot pielāgojamas un vienotas vietņu noformējuma pakotnes. Kad šīs dizaina pakotnes ir izvietotas vietnē, vietnes autori var koncentrēties uz satura izveidi, rediģēšanu un publicēšanu, nevis vietnes izstrādi.
 

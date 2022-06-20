@@ -1,6 +1,6 @@
 ---
-title: Konfigurēt tiešos maksājumus par PayPal
-description: Šajā tēmā ir aprakstīts, kā konfigurēt tiešos maksājumus PayPal, lai iespējotu ātrākas paņemšanu iespējas Microsoft Dynamics 365 Commerce.
+title: PayPal ekspresmaksājumu konfigurēšana
+description: Šajā rakstā ir aprakstīts, kā konfigurēt tiešos maksājumus PayPal, lai iespējotu ātrākas paņemšanu iespējas Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905286"
 ---
-# <a name="configure-express-payments-for-paypal"></a>Konfigurēt tiešos maksājumus par PayPal
+# <a name="configure-express-payments-for-paypal"></a>PayPal ekspresmaksājumu konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā konfigurēt tiešos maksājumus PayPal, lai iespējotu ātrākas paņemšanu iespējas Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā konfigurēt tiešos maksājumus PayPal, lai iespējotu ātrākas paņemšanu iespējas Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Galvenie termini
 
@@ -28,7 +28,7 @@ ms.locfileid: "8743602"
 |---|---|
 | PayPal Ar kuru | Klienta pieredze un integrācija, ko atbalsta PayPal savienotājs. Tas ir pazīstams arī kā PayPal poga. |
 | Maka | Maksājuma veids, kas neietver tradicionālas maksājuma īpašības, piemēram, Bankas identifikācijas numura (BIN) diapazons un beigu datums, kas tiek izmantoti, lai diferencētu kredītkaršu un debetkaršu tipus. |
-| Maksājuma steidzamais | Commerce modulis, kas atbalsta ātrāku norēķinu darbību, ja tiek izmantotas atbalstītās maksājuma metodes. Šī tēma ietver maksājuma ekspresmoduļa izmantošanu ar PayPal. |
+| Maksājuma steidzamais | Commerce modulis, kas atbalsta ātrāku norēķinu darbību, ja tiek izmantotas atbalstītās maksājuma metodes. Šajā rakstā ir apskatīta maksājuma ekspresmoduļa izmantošana ar PayPal. |
 
 Dynamics 365 Commerce piedāvā "PayPal Rīcībā" integrāciju". Konfigurējot Dynamics 365 maksājumu savienotāju klientam PayPal, poga PayPal tiek parādīta kā atlasāma maksājuma metode tiešsaistes pasūtījuma norēķināšanas laikā. Kad lietotāji izvēlas PayPal, tie tiek novirzīti uz to, lai aizpildītu savu maksājumu tieši caur PayPal, un tad tiek atgriezti tiešsaistes StoreFront, lai pabeigtu savu pasūtījumu. PayPal grozu norēķināšana ļauj klientiem izmantot savu maksājumu konta informāciju, lai uzpildītu norēķināšanas formu, lai viņi varētu ātrāk pabeigt norēķināšanas procesu.
 

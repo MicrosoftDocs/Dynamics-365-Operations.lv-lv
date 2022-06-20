@@ -1,6 +1,6 @@
 ---
-title: Lietošanas ilguma lineārā aprēķināšanas metode
-description: Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+title: Lineārā lietošanas ilguma nolietojums
+description: Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896468"
 ---
-# <a name="straight-line-service-life-depreciation"></a>Lietošanas ilguma lineārā aprēķināšanas metode
+# <a name="straight-line-service-life-depreciation"></a>Lineārā lietošanas ilguma nolietojums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
+Šajā rakstā ir sniegts pārskats par atlikušā lietošanas ilguma lineāro aprēķināšanas metodi.
 
 Iestatot pamatlīdzekļa nolietojuma profilu un lapas Nolietojuma profili laukā Metode atlasot opciju Lineārais lietošanas ilgums, pamatlīdzekļi, kuriem ir piešķirts šis nolietojuma profils, tiek uzskatīti par nolietotiem, pamatojoties uz pamatlīdzekļa kopējo lietošanas ilgumu. Galvenokārt tas nozīmē, ka visiem nolietojuma periodiem ir viena nolietojuma summa. 
 
@@ -41,7 +41,7 @@ Nolietojuma profilu lapas laukā Nolietojuma aprēķina gads varat atlasīt Kale
 
 Atlasot opciju Kalendārs, tiks izmantots laika intervāls no 1. janvāra līdz 31. decembrim, pat ja ir atšķirīgi noteikts finanšu kalendārs. 
 
-Opcija Kalendārs katra gada 1. janvārī atjaunina nolietojuma bāzi, kas parasti ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. 
+Opcija Kalendārs katra gada 1. janvārī atjaunina nolietojuma bāzi, kas parasti ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk piemēros šī raksta gadījumā nolietojuma bāze ir aprēķinu pirmās izteiksmes skaitītājs aprēķina kolonnā. 
 
 Atlasot opciju Kalendārs, laukā Periodu biežums ir četras opcijas, kas nosaka nolietojuma uzkrājuma grāmatošanas datumus un summas kalendārā gada laikā:
 - Reizi gadā grāmato summu 31. decembrī.

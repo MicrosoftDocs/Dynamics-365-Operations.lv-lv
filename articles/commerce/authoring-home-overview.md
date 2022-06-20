@@ -1,6 +1,6 @@
 ---
 title: Autorēšanas lapas pārskats
-description: Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir sniegts pārskats par autorizēšanas lapu sadaļā Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855008"
 ---
 # <a name="authoring-page-overview"></a>Autorēšanas lapas pārskats
 
   
  [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par autorēšanas lapu risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir sniegts pārskats par autorizēšanas lapu sadaļā Microsoft Dynamics 365 Commerce.
 
 Tīmekļa vietnes var izveidot, lai atbalstītu dažādas biznesa vajadzības. Tās var pārstāvēt visu uzņēmumu, piedāvāt vienu biznesa kanālu vai mērķēt uz noteiktu auditoriju vai auditorijas segmentu. Piemēram, apģērbu ražotājam varētu būt tīmekļa vietne, kas parāda visus tam piederošus zīmolus. Vienam un tam pašam apģērbu ražotājam varētu būt atsevišķa tīmekļa vietne katram no šiem zīmoliem, kā arī tīmekļa vietņu kopa ar luksusa modi, ārpustelpu modi un bērnu modi.
 

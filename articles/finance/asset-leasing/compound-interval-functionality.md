@@ -1,6 +1,6 @@
 ---
 title: Pievienošanas intervālu funkcionalitāte
-description: Šajā tēmā ir sniegta informācija, kas palīdzēs izvēlēties ikmēneša, ceturkšņa, pusgada un gada pievienošanas intervālus.
+description: Šis raksts sniedz informāciju, kas palīdzēs izvēlēties starp mēneša, ceturkšņa, pusgada un gada pievienošanas intervāliem.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886427"
 ---
 # <a name="compounding-interval-functionality"></a>Pievienošanas intervālu funkcionalitāte
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs izvēlēties ikmēneša, ceturkšņa, pusgada un gada pievienošanas intervālus. Pievienošanas intervāla funkcionalitāti izmanto, lai nomas maksājumu grafikā noteiktu pievienošanas periodu skaitu gadā. Katrs no četriem piemēriem šajā tēmā parāda, kā izskatīsies nomas maksājumu grafiks dažādiem intervāliem.
+Šis raksts sniedz informāciju, kas palīdzēs izvēlēties starp mēneša, ceturkšņa, pusgada un gada pievienošanas intervāliem. Pievienošanas intervāla funkcionalitāti izmanto, lai nomas maksājumu grafikā noteiktu pievienošanas periodu skaitu gadā. Katrs no četriem piemēriem šajā rakstā parāda, kā izskatīsies nomas maksājumu grafiks ar citu intervālu.
 
 Nav iespējams atlasīt pievienošanas intervālu, kas ir retāks nekā nomas maksājuma biežums. Piemēram, ceturkšņa pievienošanas intervālu nevar izmantot ar ikmēneša maksājuma biežumu, un gada pievienošanas intervālu nevar izmantot ar pusgada maksājuma biežumu. Ja mēģināsiet atlasīt pievienošanas intervālu, kas ir retāks nekā nomas maksājuma biežums, saņemsiet kļūdas ziņojumu.
 
 > [!NOTE]
-> Visos četros šīs tēmas piemēros pievienošanas intervāls atbilst maksājuma biežumam.
+> Visos četros piemēros šim rakstam saliktais intervāls atbilst maksājuma biežumam.
 
 ## <a name="examples"></a>Piemēri
 

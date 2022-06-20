@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
-description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (Electronic reporting — ER)formāta izstrādi, lai aizpildītu PDF veidni.
+description: Šajā rakstā ir sniegta informācija, kā noformēt elektronisko pārskatu (ER) formātu PDF veidnes aizpildīšanai.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908595"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šos soļus var veikt jebkurā Dynamics 365 Finanšu vai regulēšanas konfigurācijas pakalpojumu (RCS) uzņēmumā.
+Procedūras **šajā** **rakstā** ir piemēri, kas parāda, kā lietotājs vai nu sistēmas administratora lomā, vai elektronisko pārskatu izstrādātāja lomā var konfigurēt Elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskata veidnes. Šos soļus var veikt jebkurā Dynamics 365 Finanšu vai regulēšanas konfigurācijas pakalpojumu (RCS) uzņēmumā.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms sākat, jums ir nepieciešams kāds no tālāk minētajiem piekļuves veidiem atkarībā no pakalpojuma, ko izmantojat šajā tēmā aprakstīto procedūru pabeigšanai.
+Pirms sākat, jums ir jābūt vienam no tālāk minētajiem piekļuves tipiem atkarībā no pakalpojuma, kuru izmantojat, lai pabeigtu šajā rakstā norādītās procedūras:
 
 - Piekļuve Finance vienai no šīm lomām:
 

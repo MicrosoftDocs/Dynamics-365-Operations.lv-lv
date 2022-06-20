@@ -1,6 +1,6 @@
 ---
 title: Iepazīstināšana ar līdzekļiem
-description: Šajā tēmā ir sniegts pārskats par līdzekļiem Līdzekļu pārvaldībā.
+description: Šajā rakstā sniegts pārskats par pamatlīdzekļiem Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874193"
 ---
 # <a name="introduction-to-assets"></a>Iepazīstināšana ar līdzekļiem
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767512"
 
  
 
-Šajā tēmā ir sniegts pārskats par līdzekļiem Līdzekļu pārvaldībā. *Līdzeklis* ir jebkura veida aprīkojums, piemēram, mašīna vai mašīnas daļa, kam nepieciešama uzturēšana, apkope vai remonts.
+Šajā rakstā sniegts pārskats par pamatlīdzekļiem Līdzekļu pārvaldībā. *Līdzeklis* ir jebkura veida aprīkojums, piemēram, mašīna vai mašīnas daļa, kam nepieciešama uzturēšana, apkope vai remonts.
 
-Līdzeklis tiek automātiski atjaunināts ar saistīto informāciju. Piemēram, šī saistītā informācija var būt par jauniem vai atjauninātiem darba pasūtījumiem. Varat izveidot līdzekļus, izmantojot izvēlnes elementu **Visi līdzekļi** vai izvēlnes elementu **Gaidošie līdzekļi**. Šajā tēmā ir paskaidrots, kā izveidot līdzekļus, izmantojot izvēlnes elementu **Visi līdzekļi**. Informāciju par to, kā veidot līdzekļus, izmantojot izvēlnes elementu **Gaidošie līdzekļi**, skatiet sadaļā [Līdzekļu izveide, pamatojoties uz pirkšanas pasūtījumiem](../objects/create-objects-based-on-purchase-orders.md).
+Līdzeklis tiek automātiski atjaunināts ar saistīto informāciju. Piemēram, šī saistītā informācija var būt par jauniem vai atjauninātiem darba pasūtījumiem. Varat izveidot līdzekļus, izmantojot izvēlnes elementu **Visi līdzekļi** vai izvēlnes elementu **Gaidošie līdzekļi**. Šajā rakstā ir izskaidrots, kā izveidot līdzekļus, izmantojot **izvēlnes elementu** Visi līdzekļi. Informāciju par to, kā veidot līdzekļus, izmantojot izvēlnes elementu **Gaidošie līdzekļi**, skatiet sadaļā [Līdzekļu izveide, pamatojoties uz pirkšanas pasūtījumiem](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Visi līdzekļi
 

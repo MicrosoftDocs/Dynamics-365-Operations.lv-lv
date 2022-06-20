@@ -1,6 +1,6 @@
 ---
-title: Iestatīt pamatlīdzekļus
-description: Šajā tēmā ir sniegts apskats par moduļa Pamatlīdzekļi iestatīšanu.
+title: Pamatlīdzekļu iestatīšana
+description: Šajā rakstā ir sniegts apskats par moduļa Pamatlīdzekļi iestatīšanu.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910147"
 ---
-# <a name="set-up-fixed-assets"></a>Iestatīt pamatlīdzekļus
+# <a name="set-up-fixed-assets"></a>Pamatlīdzekļu iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par moduļa **Pamatlīdzekļi** iestatīšanu. 
+Šajā rakstā sniegts pārskats par Pamatlīdzekļu **moduļa iestatīšanu**. 
 
 Parametri kontrolē pamatlīdzekļu vispārīgo darbību. Pamatlīdzekļu grupas jums ļauj grupēt savus līdzekļus un norādīt noklusējuma atribūtus katram grupai piešķirtajam līdzeklim. Pamatlīdzekļu grupām tiek piešķirtas grāmatas. Grāmatas seko līdzi pamatlīdzekļa finansiālajai vērtība laika gaitā, izmantojot nolietojuma tabulā definēto nolietojuma konfigurāciju.
 

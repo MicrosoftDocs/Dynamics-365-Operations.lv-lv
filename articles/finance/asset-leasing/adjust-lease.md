@@ -1,6 +1,6 @@
 ---
 title: Nomas korekcija
-description: Tēmā paskaidrots, kā koriģēt nomu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi.
+description: Šajā rakstā ir izskaidrots, kā koriģēt iznomāšanu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898332"
 ---
 # <a name="adjust-leases"></a>Nomas korekcija
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Tēmā paskaidrots, kā koriģēt nomu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi. Līdzekļu noma atbilst vadlīnijām, ko par nomas izmaiņu sniedz Grāmatvedības standartu kodifikācijas temats 842 (ASC 842) un Starptautiskais finanšu pārskatu standarts 16 (IFRS 16). ASC 842-20-15-1 definē izmaiņas nomā kā jebkādas līguma noteikumu un nosacījumu izmaiņas, kas izraisa izmaiņas nomas apjomā vai atlīdzībā. IFRS 16 39. pants nosaka, ka nomniekam jāpārvērtē nomas saistības, lai tās atspoguļotu izmaiņās nomas maksājumos.
+Šajā rakstā ir izskaidrots, kā koriģēt iznomāšanu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi. Līdzekļu noma atbilst vadlīnijām, ko par nomas izmaiņu sniedz Grāmatvedības standartu kodifikācijas temats 842 (ASC 842) un Starptautiskais finanšu pārskatu standarts 16 (IFRS 16). ASC 842-20-15-1 definē izmaiņas nomā kā jebkādas līguma noteikumu un nosacījumu izmaiņas, kas izraisa izmaiņas nomas apjomā vai atlīdzībā. IFRS 16 39. pants nosaka, ka nomniekam jāpārvērtē nomas saistības, lai tās atspoguļotu izmaiņās nomas maksājumos.
 
 Organizācijām, kas ievēro ASC 842 vai IFRS 16, noma tiek pārvērtēta, lai atspoguļotu pašreizējās vērtības izmaiņas nākotnes minimālajos nomas maksājumos (PVFMLP). Ja PVFMLP palielinās, izveidotais žurnāla ieraksts būs debets lietojuma tiesību līdzekļu kontam (LLT) un kredīts nomas saistību kontam par starpību starp jauno PVFMLP un iepriekšējo PVFMLP. Ja PVFMLP samazinās, žurnāla ieraksts būs debets nomas saistību kontam un kredīts LLT kontam par starpību.
 

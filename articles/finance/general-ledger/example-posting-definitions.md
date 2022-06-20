@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865777"
 ---
 # <a name="posting-definition-examples"></a>Grāmatošanas definīciju piemēri
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722554"
 
 Šajā rakstā ir sniegti piemēri, kuros ir redzams, ka grāmatošanas definīcijas tiek lietotas pirkšanas pasūtījumu apgrūtinājumiem un budžeta asignējumiem.
 
-Pirms šīs tēmas lasīšanas jums ir jāpārzina grāmatošanas definīcijas un transakciju grāmatošanas definīcijas. Informāciju skatiet rakstā [Grāmatošanas definīcijas](posting-definitions.md). Tālāk sniegtos piemērus var iestatīt lapā **Grāmatošanas definīcijas**. Katrs piemērs satur trīs sadaļas.
+Pirms šī raksta lasīšanas jums ir jāiepazīstas ar grāmatošanas definīcijām un darbību grāmatošanas definīcijām. Informāciju skatiet rakstā [Grāmatošanas definīcijas](posting-definitions.md). Tālāk sniegtos piemērus var iestatīt lapā **Grāmatošanas definīcijas**. Katrs piemērs satur trīs sadaļas.
 
 -   Grāmatošanas definīcija — atbilstības kritēriji
 -   Grāmatošanas definīcija — ģenerētie ieraksti

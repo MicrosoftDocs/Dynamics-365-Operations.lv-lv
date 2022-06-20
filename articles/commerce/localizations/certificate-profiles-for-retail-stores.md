@@ -1,6 +1,6 @@
 ---
 title: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
-description: Šajā tēmā sniegts pārskats par to, kā sertifikāti tiek izmantoti mazumtirdzniecības veikalos.
+description: Šajā rakstā ir sniegts pārskats par to, kā sertifikāti tiek izmantoti mazumtirdzniecības veikalos.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873033"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
 
@@ -28,7 +28,7 @@ ms.locfileid: "6719934"
 
 ## <a name="overview"></a>Pārskats
 
-Šajā tēmā sniegts pārskats par sertifikātu profiliem, kuri ir pieejami Microsoft Dynamics 365 Commerce. Šī funkcionalitāte paplašina līdzekli [Mazumtirdzniecības kanālu noslēpumu pārvaldība](../dev-itpro/manage-secrets.md), pievienojot atbalstu lokālajiem sertifikātiem.
+Šajā rakstā ir sniegts pieejamo sertifikātu profilu apskats Microsoft Dynamics 365 Commerce. Šī funkcionalitāte paplašina līdzekli [Mazumtirdzniecības kanālu noslēpumu pārvaldība](../dev-itpro/manage-secrets.md), pievienojot atbalstu lokālajiem sertifikātiem.
 
 Lai gan pārdošanas punkts (POS) darbojas bezsaistes režīmā, tas nevar piekļūt sertifikātiem, kas tiek glabāti galvenajā glabātuvē. Tā vietā ir jāizmanto lokāls sertifikāts. Tālāk ir norādītas atbalstītās iespējas:
 

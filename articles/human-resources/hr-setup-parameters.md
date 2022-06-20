@@ -1,6 +1,6 @@
 ---
-title: Konfigurēt Human Resources parametrus
-description: Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus parametrus programmā Dynamics 365 Human Resources.
+title: Human Resources parametru konfigurēšana
+description: Šajā rakstā skaidrots, kā iestatīt uzņēmuma parametrus Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856285"
 ---
-# <a name="configure-human-resources-parameters"></a>Konfigurēt Human Resources parametrus
+# <a name="configure-human-resources-parameters"></a>Human Resources parametru konfigurēšana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dažu cilvēkresursu parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā ir paskaidrots, kā iestatīt uzņēmumam raksturīgus cilvēkresursu parametrus.
+Dažu cilvēkresursu parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā skaidrots, kā iestatīt uzņēmuma raksturīgos cilvēkresursu parametrus.
 
 Divas lapas tiek izmantotas, lai iestatītu cilvēkresursu parametrus. Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**.
 

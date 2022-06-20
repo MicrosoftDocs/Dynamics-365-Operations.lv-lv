@@ -1,6 +1,6 @@
 ---
 title: Atvieglojumu pārvaldības darbvieta
-description: Šajā tēmā ir aprakstīta Atvieglojumu pārvaldības darbvieta programmā Dynamics 365 Human Resources.
+description: 'Šajā rakstā ir aprakstīta atvieglojumu pārvaldības darbvieta šeit: Dynamics 365 Human Resources.'
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e7f606ae3c5c0a66764cc3235837380725241f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7975d1723e07ae390961d4f44e0f34f2ff2df44d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902923"
 ---
 # <a name="benefits-management-workspace"></a>Atvieglojumu pārvaldības darbvieta
 
@@ -30,7 +30,7 @@ ms.locfileid: "8690032"
 
 [!include [preview feature](./includes/preview-feature.md)]
 
-Šajā tēmā ir aprakstīta **Atvieglojumu pārvaldības** darbvieta programmā Dynamics 365 Human Resources.
+Šajā rakstā ir aprakstīta atvieglojumu **pārvaldības darbvieta** šeit: Dynamics 365 Human Resources.
 
 > [!NOTE]
 > Lai skatītu **Atvieglojumu pārvaldības** darbvietu, Līdzekļa pārvaldībā vispirms ir jāiespējo līdzeklis **(Priekšskatījums) Atvieglojumu pārvaldības** darbvieta. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>![Atvieglojumu pārvaldības darbvietas iespējošana.](./media/hr-benefits-management-workspace-enable.png)
@@ -96,7 +96,7 @@ Lai skatītu citu atvieglojumu periodu, atlasiet to no nolaižamā saraksta **Pe
 Darbību elementus varat skatīt, atlasot elementu vai cilni. Atlasot cilni, var skatīt un atlasīt darbiniekus tieši darbvietas lapā.
 Cilne **Atvērt reģistrēšanu** nodrošina galvenos rādītājus atvērtam reģistrācijas procesam. 
 
-Informācija par atvērto reģistrāciju tiks parādīta 30 dienas pirms **Reģistrācijas sākuma datuma**. Tas ir definēts **Periodu** iestatījumu **Atvieglojumu pārvaldība** > **Saites** > **Periodi** laukā **Reģistrācijas sākuma datums**.  Lai mainītu šo iestatījumu, pārejiet uz sadaļu **Cilvēkresursu kopīgie parametriBenefits** > **managementOpen** > **reģistrācijas** opcijas un atjauniniet **lauku** Skaits.  
+Informācija par atvērto reģistrāciju tiks parādīta 30 dienas pirms **Reģistrācijas sākuma datuma**. Tas ir definēts **Periodu** iestatījumu **Atvieglojumu pārvaldība** > **Saites** > **Periodi** laukā **Reģistrācijas sākuma datums**.  Lai mainītu šo iestatījumu, pārejiet uz sadaļu **Cilvēkresursu kopīgie parametri** > **Atvieglojumu** > **pārvaldība Atveriet reģistrācijas opcijas** un atjauniniet **lauku** Skaits.  
 
 Cilnē **Atvērt reģistrāciju** ir pieejama šāda informācija:
  - Darbinieki, kas nav sākuši atvērtās reģistrācijas procesu

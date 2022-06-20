@@ -1,6 +1,6 @@
 ---
 title: Ieturētā nodokļa deklarācija Ēģiptei
-description: Šajā tēmā paskaidrots, kā konfigurēt un ģenerēt ieturētā nodokļa deklarācijas Ēģiptei.
+description: Šajā rakstā skaidrots, kā konfigurēt un ģenerēt ieturētā nodokļa deklarācijas Ēģiptei.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907692"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Ieturētā nodokļa deklarācija Ēģiptei (EG-00005)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403895"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Pārskats
-Šajā tēmā ir paskaidrots, kā iestatīt un ģenerēt ieturētā nodokļa deklarāciju un ieturētā nodokļa deklarācijas veidlapas Nr. 41 un 11 juridiskajām personām Ēģiptē 
+Šajā rakstā ir izskaidrots, kā iestatīt un ģenerēt ieturētā nodokļa deklarāciju un ieturētā nodokļa deklarācijas formas 41 un 11 juridiskai personai Ēģipte 
 
 Visiem Ēģiptes uzņēmumiem ir jāsagatavo veidlapa Nr. 41, kurā apkopoti visi nodokļi, kas tiek paturēti no vietējiem piegādātājiem un pakalpojumu sniedzējiem. Papildus veidlapai Nr. 41 ir jāizveido veidlapa Nr. 11, lai detalizētu visus ieturētos nodokļus no ārvalstu pakalpojumu sniedzējiem. 
 
-**Ieturētā nodokļa deklarācijas** pārskatā programmā Dynamics 365 Finance ir iekļauti tālāk minētie pārskati.
+Ieturētā **nodokļa deklarācijas** pārskats dynamics 365 Finanses ietver šādus pārskatus:
 
 - Deklarācijas veidlapa Nr. 41
 - Deklarācijas veidlapa Nr. 11.
@@ -58,7 +58,7 @@ Papildinformāciju par elektronisko pārskatu konfigurāciju importēšanu skati
 
 WHT deklarācijas veidlapu no Ēģiptes īstenošana ir balstīta uz elektronisko pārskatu (ER) konfigurācijām. Papildinformāciju par konfigurējamām pārskata iespējām un koncepcijām skatiet sadaļā [Elektronisko pārskatu sniegšana](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Informācijai par ražošanas un lietotāju pieņemšanas testēšanas (UAT) vidēm skatiet instrukcijas tēmā [Elektronisko pārskatu konfigurāciju lejupielāde no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Ražošanas un lietotāju pieņemšanas testēšanas (UAT) vidēs izpildiet rakstā sniegtos norādījumus. [Lejupielādējiet elektronisko pārskatu konfigurācijas no lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Lai ģenerētu ieturētās deklarācijas Ēģiptes juridiskajā personām, jāielādē šādas konfigurācijas:
 

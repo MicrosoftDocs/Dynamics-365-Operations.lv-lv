@@ -1,6 +1,6 @@
 ---
 title: Pasūtījumu uzmeklēšanas modulis
-description: Šajā tēmā aprakstīts pasūtījumu uzmeklēšanas modelis un kā to konfigurēt Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir apskatīts pasūtījumu uzmeklēšanas modulis un skaidrots, kā to konfigurēt Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869434"
 ---
 # <a name="order-lookup-module"></a>Pasūtījumu uzmeklēšanas modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts pasūtījumu uzmeklēšanas modelis un kā to konfigurēt Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir apskatīts pasūtījumu uzmeklēšanas modulis un skaidrots, kā to konfigurēt Microsoft Dynamics 365 Commerce.
 
 Pasūtījumu uzmeklēšanas modulis nodrošina veidlapu, kuru klienti var lietot, lai uzmeklētu pasūtījumus, kurus tie veikuši e-komercijas vietnē. To izmanto kā daļu no līdzekļa [Viesu izrakstīšanās pasūtījuma uzmeklēšana](order-lookup-guest.md). Pasūtījuma uzmeklēšanas moduli var izmantot, lai uzmeklētu pasūtījumus, kuri iesniegti ar e-komercijas vietni, mazumtirdzniecības pārdošanas punktu (POS) vai zvanu centru. Veidlapa var izgūt pasūtījumus, kurus iesnieguši gan viesi, gan reģistrēti lietotāji.
 

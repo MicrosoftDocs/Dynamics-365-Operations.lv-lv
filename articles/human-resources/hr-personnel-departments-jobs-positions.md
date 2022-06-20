@@ -1,6 +1,6 @@
 ---
 title: Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
-description: Šajā tēmā aprakstīta konceptuāla informācija par nodaļām, darbiem un amatiem, kas ir organizatoriska elementi, kas tiek uzturēti Personāla vadības ietvaros.
+description: Šajā rakstā ir aprakstīta konceptuāla informācija par nodaļām, darbiem un amatiem, kas ir uzņēmuma elementi, kuri tiek uzturēti personāla vadības ietvaros.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874280"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694828"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā tēmā ir sniegta konceptuāla informācija par šiem elementiem. 
+Nodaļas, amati un pozīcijas ir organizācijas elementi, kas tiek uzturēti personāla vadības procesā. Šajā rakstā ir sniegta konceptuāla informācija par šiem elementiem. 
 
 Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā rakstā aprakstītās koncepcijas.
 

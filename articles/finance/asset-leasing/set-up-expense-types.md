@@ -1,6 +1,6 @@
 ---
 title: Izdevumu veidu iestatīšana
-description: Šajā tēmā ir paskaidrots, kā līdzekļu pārvaldībā iestatīt izdevumu veidus.
+description: Šajā rakstā ir izskaidrots, kā iestatīt izdevumu tipus Pamatlīdzekļu izlaižot.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 349ba0f5fa040b7c9a957defe1140c4016d6fded
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9978041059437d5d3556236c7ac02c00db93f933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908043"
 ---
 # <a name="set-up-expense-types"></a>Izdevumu veidu iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā līdzekļu pārvaldībā iestatīt izdevumu veidus. Izmaksas, kas nav atainotas maksājumu grafikā, ir zināmas kā *Izdevumu izmaksas*. Šo izmaksu piemēri ietver īpašuma nodokļus, kopējās platības uzturēšanas izmaksas un apdrošināšanas izdevumus.
+Šajā rakstā ir izskaidrots, kā iestatīt izdevumu tipus Pamatlīdzekļu izlaižot. Izmaksas, kas nav atainotas maksājumu grafikā, ir zināmas kā *Izdevumu izmaksas*. Šo izmaksu piemēri ietver īpašuma nodokļus, kopējās platības uzturēšanas izmaksas un apdrošināšanas izdevumus.
 
 ## <a name="add-an-administrative-expense-type"></a>Administratīvo izmaksu tipa pievienošana
 

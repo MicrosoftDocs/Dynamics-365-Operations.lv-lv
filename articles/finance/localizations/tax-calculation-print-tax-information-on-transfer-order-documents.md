@@ -1,6 +1,6 @@
 ---
 title: Drukāt nodokļu informāciju pārsūtīšanas pasūtījuma dokumentos
-description: Šajā tēmā skaidrots, kā pārsūtīšanas pasūtījuma dokumentos var drukāt nodokļu informāciju, ko nosaka nodokļu aprēķināšanas pakalpojums.
+description: Šajā rakstā ir izskaidrots, kā pārsūtīšanas pasūtījuma dokumentos var drukāt nodokļu informāciju, ko nosaka nodokļu aprēķināšanas pakalpojums.
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855207"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Drukāt nodokļu informāciju pārsūtīšanas pasūtījuma dokumentos
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā drukāt nodokļu informāciju par pārsūtīšanas pasūtījuma dokumentiem. Varat izdrukāt pārsūtīšanas pasūtījuma pro-forma rēķina dokumentu krājumu pārsūtīšanai, kas tiek uzskatīts par iekšējo piegādi un kopienas iekšējām iegādēm Eiropas Savienības (ES) pievienotās vērtības nodokļa (PVN) noteikumos. 
+Šajā rakstā ir izskaidrots, kā drukāt nodokļu informāciju par pārsūtīšanas pasūtījuma dokumentiem. Varat izdrukāt pārsūtīšanas pasūtījuma pro-forma rēķina dokumentu krājumu pārsūtīšanai, kas tiek uzskatīts par iekšējo piegādi un kopienas iekšējām iegādēm Eiropas Savienības (ES) pievienotās vērtības nodokļa (PVN) noteikumos. 
 
 Pārsūtīšanas pasūtījuma dokumentiem tiek pievienoti šādi ar nodokļiem saistīti dati:
 
@@ -38,7 +38,7 @@ Lai konfigurētu šos datus, ir jāveic šādas galvenās darbības.
 
 1. [Iespējojiet un iestatiet nodokļu līdzekli pārsūtīšanas pasūtījumiem](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Izveidojiet un iestatiet vairākus juridiskas personas nodokļa reģistrācijas numurus](emea-multiple-vat-registration-numbers.md).
-3. Iestatiet neapliekamā nodokļa kodu, aprakstu, nodokļu direktīvas un drukājiet kodu nodokļu kodā. Šim piemēram, 365 Finance tiek izveidoti un sinhronizēti Microsoft Dynamics trīs nodokļu kodi: **NL-Exempt**, **BE-RC-21** un **BE-RC+21**.
+3. Iestatiet neapliekamā nodokļa kodu, aprakstu, nodokļu direktīvas un drukājiet kodu nodokļu kodā. Šajā piemērā trīs Microsoft Dynamics nodokļu kodi tiek izveidoti un sinhronizēti 365 Finanses: **NL-Exempt**, **BE-RC-21** un **BE-RC+21**.
 
     1. Programmā Finance dodieties uz **Nodoklis** \> **Uzstādīšana** \> **PVN** \> **PVN reģistrācijas kodi**.
     2. Atlasiet **Labot** un ievadiet **EK** reģistrācijas koda aprakstu. Piemēram, ievadiet **EK bez nodokļiem brīvās kravas ar nodokļa reģistrācijas numuru**.

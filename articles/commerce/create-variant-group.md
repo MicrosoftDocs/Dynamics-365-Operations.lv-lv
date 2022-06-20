@@ -1,6 +1,6 @@
 ---
 title: Variantu grupas izveide
-description: Šajā tēmā aprakstīts, kā izveidot izmēra, stila vai krāsu varianta grupu produktam risinājumā Microsoft Dynamics 365 Commerce.
+description: Šajā rakstā ir aprakstīts, kā izveidot preces izmēru, stilu vai krāsu variantu grupu Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874965"
 ---
 # <a name="create-a-variant-group"></a>Variantu grupas izveide
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot izmēra, stila vai krāsu varianta grupu produktam risinājumā Microsoft Dynamics 365 Commerce.
+Šajā rakstā ir aprakstīts, kā izveidot preces izmēru, stilu vai krāsu variantu grupu Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce atbalsta vairākus preču variantus. Vislabāk iestatīt variantu grupas dažādām preču kategorijām. Piemēram, izmēru grupu var izveidot t-krekliem, kuru izmēri ir īpaši mazi, mazi, vidēji, lieli un īpaši lieli, vai krāsu grupu var izveidot, lai iekļautu visas pieejamās preces krāsas. Pirms preču pievienošanas ir jāpievieno variantu grupas.
 
-Šajā tēmā tiks izveidota un konfigurēta izmēra grupa. Līdzīgas procedūras var izmantot stilu grupu un krāsu grupu pievienošanai un konfigurēšanai.
+Šajā rakstā tiks izveidota un konfigurēta izmēru grupa. Līdzīgas procedūras var izmantot stilu grupu un krāsu grupu pievienošanai un konfigurēšanai.
 
 ## <a name="create-a-size-group"></a>Izmēra grupas izveide
 

@@ -1,6 +1,6 @@
 ---
 title: Iestatījumu opcijas kreditoru rēķinu automatizācijai (priekšskatījums)
-description: Šajā tēmā aprakstītas opcijas, kas pieejamas kreditoru rēķinu automatizācijas iestatīšanai un konfigurēšanai.
+description: Šajā rakstā aprakstītas opcijas, kas ir pieejamas kreditoru rēķinu automatizācijas iestatīšanai un konfigurēšanai.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874846"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Kreditoru rēķinu automatizācijas iestatīšanas opcijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstītas opcijas, kas pieejamas kreditoru rēķinu automatizācijas iestatīšanai un konfigurēšanai. Rēķinu automatizācijas līdzekļi izmanto šādus iestatījumu parametru tipus:
+Šajā rakstā aprakstītas opcijas, kas ir pieejamas kreditoru rēķinu automatizācijas iestatīšanai un konfigurēšanai. Rēķinu automatizācijas līdzekļi izmanto šādus iestatījumu parametru tipus:
 
 - Parametri priekšapmaksu automātiskai piemērošanai importētajiem rēķiniem.
 - Parametri importēto kreditoru rēķinu iesniegšanai darbplūsmas sistēmā un grāmatoto preču ieejas plūsmas rindu saskaņošana ar gaidošām kreditora rēķina rindām.

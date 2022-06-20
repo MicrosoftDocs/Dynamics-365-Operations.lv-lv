@@ -1,6 +1,6 @@
 ---
 title: Uzkrāšanas shēmu izveide
-description: Šajā tēmā ir paskaidrots, kā izveidot uzkrāšanas shēmu.
+description: Šajā rakstā skaidrots, kā izveidot uzkrāšanas shēmu.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495c72a6ae19faac0cf2dff155c2073852cb1cbd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858430"
 ---
 # <a name="create-accrual-schemes"></a>Uzkrāšanas shēmu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot uzkrāšanas shēmu. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šajā rakstā skaidrots, kā izveidot uzkrāšanas shēmu. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
 1. Ejiet uz **Navigācijas rūts > Moduļi > Virsgrāmata > Žurnāla iestatīšana > Uzkrāšanas shēmas**.
 2. Atlasiet **Jauns**.

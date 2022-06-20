@@ -1,6 +1,6 @@
 ---
 title: Vietnes navigācijas pielāgošana
-description: Šajā tēmā aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu produktus pārlūkošanai Microsoft Dynamics 365 Commerce vietnē.
+description: Šajā rakstā ir aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu produktus pārlūkošanai jūsu Microsoft Dynamics 365 Commerce vietnē.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863465"
 ---
 # <a name="customize-site-navigation"></a>Vietnes navigācijas pielāgošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu produktus pārlūkošanai Microsoft Dynamics 365 Commerce vietnē.
+Šajā rakstā ir aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu produktus pārlūkošanai jūsu Microsoft Dynamics 365 Commerce vietnē.
 
 Tiešsaistes veikala skatlogs parasti ļauj klientiem atklāt un pārlūkot preces, pārvietojoties pa preču kategorijām. Šo iespēju parasti nodrošina cilnes lapas augšpusē vai navigācijas josla kreisajā pusē. Dynamics 365 Commerce varat izveidot un pārvaldīt savas kategoriju navigācijas hierarhijas struktūru un preces, kas ir iekļautas dažādās kategorijās.
 

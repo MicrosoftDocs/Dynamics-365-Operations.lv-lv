@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt vairākus B2C nomniekus Commerce vidē
-description: Šajā tēmā aprakstīts, kad un kā iestatīt vairākus katra kanāla Microsoft Azure Active Directory (Azure AD) biznesa-patērētāja (B2C) nomniekus lietotāja autentifikācijai īpašā Dynamics 365 Commerce vidē.
+description: Šajā rakstā ir Azure Active Directory Azure AD aprakstīts, kad un kā iestatīt vairākus uzņēmuma-patērētāja (B2C) nomniekus lietotāja autentifikācijai atvēlētajā Dynamics 365 Commerce vidē.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890573"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Konfigurēt vairākus B2C nomniekus Commerce vidē
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kad un kā iestatīt vairākus katra kanāla Microsoft Azure Active Directory (Azure AD) biznesa-patērētāja (B2C) nomniekus lietotāja autentifikācijai īpašā Dynamics 365 Commerce vidē.
+Šajā rakstā ir aprakstīts, kad un kā iestatīt vairākus Microsoft Azure Active Directory (Azure AD) bizness-patērētājam (B2C) nomniekus katrā kanālā lietotāja autentifikācijai atvēlētajā Dynamics 365 Commerce vidē.
 
 Dynamics 365 Commerce izmanto Azure AD B2C mākoņa identitātes pakalpojumu, lai atbalstītu lietotāja akreditācijas datus un autentifikācijas plūsmas. Lietotāji var izmantot autentifikācijas plūsmas, lai pieteiktos, pierakstītos un atjaunotu savu paroli. Azure AD B2C saglabā lietotāja sensitīvo autentifikācijas informāciju, piemēram, lietotāja vārdu un paroli. Lietotāja ieraksts ir unikāls katram B2C nomniekam, un tas izmanto vai nu lietotājvārda (e-pasta adreses) akreditācijas datus vai sociālās identitātes nodrošinātāja akreditācijas datus.
 

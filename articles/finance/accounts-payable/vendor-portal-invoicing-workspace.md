@@ -1,6 +1,6 @@
 ---
 title: Kreditora sadarbības rēķinu izveides darbvieta
-description: Šajā tēmā izskaidrots, kā jūs varat skatīt kreditora rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izveides darbvietas.
+description: Šajā rakstā skaidrots, kā var skatīt kreditoru rēķinus un iesniegt rēķinus no kreditora sadarbības rēķinu izrakstīšanas darbvietas.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 9ef4204e0be437b50af047704e07600653c877c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896555"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Kreditora sadarbības rēķinu izveides darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā var skatīt kreditoru rēķinus un iesniegt rēķinus no kreditoru **sadarbības rēķinu izrakstīšanas darbvietas**.
+Šajā rakstā skaidrots, kā var skatīt kreditoru rēķinus un iesniegt rēķinus no kreditoru **sadarbības rēķinu izrakstīšanas darbvietas**.
 
 Darbvietu **Kreditoru sadarbības rēķinu izveidošana** var izmantot, lai skatītu kreditoru rēķinu informāciju un lai iesniegtu rēķinus sistēmā, izmantojot darbplūsmas iespējas.
 

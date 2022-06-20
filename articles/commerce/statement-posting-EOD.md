@@ -1,6 +1,6 @@
 ---
 title: Izrakstu grāmatošanas funkcionalitātes uzlabojumi
-description: Šajā tēmā ir aprakstīti izrakstu grāmatošanas līdzeklim veiktie uzlabojumi.
+description: Šajā rakstā ir aprakstīti izrakstu grāmatošanas funkcijai veiktie uzlabojumi.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886910"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Izrakstu grāmatošanas funkcionalitātes uzlabojumi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīti pirmie izrakstu grāmatošanas līdzeklim veiktie uzlabojumi. Šie uzlabojumi ir pieejami versijā Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Šajā rakstā ir aprakstīta pirmā uzlabojumu kopa, kas tika veikta izrakstu grāmatošanas funkcijai. Šie uzlabojumi ir pieejami versijā Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Aktivizēšana
 

@@ -1,6 +1,6 @@
 ---
-title: Itālijas Intrastat
-description: Šajā tēmā ir ietverta informācija par Intrastat pārskatiem Itālijā.
+title: Itāļu Intrastat
+description: Šajā rakstā ir ietverta informācija par Intrastat pārskatiem Itālijā.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874368"
 ---
 # <a name="italian-intrastat"></a>Itālijas Intrastat
 
@@ -631,7 +631,7 @@ Lai iestatītu Itālijas specifiskās opcijas un varētu strādāt ar Intrastat,
 
     Papildinformāciju skatiet rakstā [Lejupielādēt elektronisko pārskatu konfigurācijas no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Risinājumā Dynamics 365 Finance dodieties uz **Nodokļi** > **Iestatījumi** > **Ārējās tirdzniecības parametri**.
+2. Programmā Dynamics 365 Finanses dodieties uz nodokļu **iestatījuma** > **ārējās** > **tirdzniecības parametriem**.
 3. Cilnē **Intrastat** kopsavilkuma cilnē **Vispārīgi** iestatiet šādus laukus:
 
     - **Izcelsmes/adresāta apgabals** – Izvēlieties sava uzņēmuma apgabalu. Šis apgabals tiks izmantots nosūtīšanai.
@@ -650,7 +650,7 @@ Lai iestatītu Itālijas specifiskās opcijas un varētu strādāt ar Intrastat,
 6. Kopsavilkuma cilnē **Statistiskā vērtība** iestatiet opciju **Drukāt un eksportēt statistikas datus** uz **Jā**, ja nepieciešams. Šis iestatījums aktivizē statistikas sadaļas pārsūtīšanu. Statistikas sadaļa sastāv no datiem par svaru, papildu vienībām, statistiskajām vērtībām, piegādes nosacījumiem, piegādes grafikiem, transportēšanas veidiem un izcelsmes reģioniem.
 
     > [!NOTE]
-    > Ceturkšņa deklarācijā Intrastat pārskatā netiks iekļauta statistikas sadaļa vai informācija par piegādes nosacījumiem un transportēšanas veidiem. Papildinformāciju skatiet tabulā sadaļā [Pārskats](#overview) iepriekš šajā tēmā.
+    > Ceturkšņa deklarācijā Intrastat pārskatā netiks iekļauta statistikas sadaļa vai informācija par piegādes nosacījumiem un transportēšanas veidiem. Papildinformāciju skatiet šī raksta [sadaļā](#overview) Pārskats.
 
 7. Cilne **Valsts/reģiona rekvizīti** uzskaita visas valstis vai reģionus, ar kuriem jūsu organizācija veic darījumus. Katrai valstij vai reģionam iestatiet šādus laukus:
 

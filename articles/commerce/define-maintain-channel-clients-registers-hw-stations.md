@@ -1,6 +1,6 @@
 ---
 title: Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
-description: Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
+description: Šajā rakstā ir aprakstīts, kā izveidot savienojumu ar jūsu Retail POS perifērijas ierīcēm.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897112"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Perifērijas ierīču savienošana ar pārdošanas punktu (POS)
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir izklāstīts, kā perifērijas ierīces savienot ar jūsu Retail POS.
+Šajā rakstā ir aprakstīts, kā izveidot savienojumu ar jūsu Retail POS perifērijas ierīcēm.
 
 > [!NOTE]
 > Lai iegūtu informāciju par noteiktiem instalēšanas norādījumiem, skatiet sadaļu [Retail aparatūras stacijas konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) un [Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Kvīšu profili tiek piešķirti printeriem aparatūras profilā. Tie tiek lieto
 
 #### <a name="hardware-profiles"></a>Aparatūras profili
 
-Aparatūras profili ir izskaidroti kā iepriekš šajā tēmā klienta iestatījuma komponents. Aparatūras profili tiek piešķirti tieši POS kases sistēmā vai koplietojamajā aparatūras stacijā, un tiek izmantoti, lai norādītu ierīču veidus, ko izmanto konkrēta POS kases sistēmas vai aparatūras stacija. Aparatūras profili tiek arī izmantoti, lai norādītu EFT iestatījumus, kuri tiek izmantoti, lai sazinātos ar maksājumu SDK.
+Iepriekš šajā rakstā aparatūras profili tiek skaidroti kā komponents klienta iestatīšanai. Aparatūras profili tiek piešķirti tieši POS kases sistēmā vai koplietojamajā aparatūras stacijā, un tiek izmantoti, lai norādītu ierīču veidus, ko izmanto konkrēta POS kases sistēmas vai aparatūras stacija. Aparatūras profili tiek arī izmantoti, lai norādītu EFT iestatījumus, kuri tiek izmantoti, lai sazinātos ar maksājumu SDK.
 
 #### <a name="visual-profiles"></a>Vizuālie profili
 

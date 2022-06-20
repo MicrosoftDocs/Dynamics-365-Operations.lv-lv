@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu konfigurāciju izveide pakalpojumā RCS un to augšupielāde globālajā repozitorijā
-description: Šajā tēmā skaidrots, kā izveidot elektronisko pārskatu (ER) konfigurāciju Microsoft Regulatory Configuration Services (RCS) un augšupielādēt to globālajā repozitorijā.
+description: Šajā rakstā skaidrots, kā izveidot elektronisko pārskatu (ER) konfigurāciju Microsoft regulēšanas konfigurācijas pakalpojumos (RCS) un augšupielādēt to Globālajā repozitorijā.
 author: JaneA07
 ms.date: 01/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894748"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigurāciju izveide Regulatory Configuration Services (RCS) un to augšupielāde globālajā repozitorijā
 
@@ -37,8 +37,8 @@ Lai varētu veikt šīs procedūras, ir jāizpilda šādi priekšnosacījumi:
 
 Jums ir jānodrošina, lai RCS vide būtu nodrošināta jūsu uzņēmumam. Ja jūsu organizācijai nav nodrošināta RCS instance, varat to darīt, izmantojot šādus soļus:
 
-1. Finanšu un operāciju programmā dodieties uz **organizācijas** \> **administrēšanas darbalauku elektronisko** \> **pārskatu sniegšanu**.
-2. Saistītajās saitēs / Ārējās saites atlasiet Regulēšanas pakalpojumi – konfigurācija un pēc tam sekojiet **instrukcijām**, lai **·** **pierakstītos** uz šādu uzkrājumu.
+1. Finanšu un operāciju programmā dodieties uz organizācijas administrēšanas **darbalauku** \> **elektronisko** \> **pārskatu sniegšanu**.
+2. Sadaļā **Saistītās saites/ Ārējās saites** atlasiet Regulēšanas **pakalpojumi –** konfigurācija un pēc tam sekojiet instrukcijām, lai **pierakstītos**, lai to nodrošinātu.
 
 Ja RCS vide jau ir nodrošināta jūsu organizācijai, izmantojiet lapas vietrādi URL, lai tai piekļūtu, un atlasiet **pierakstīšanās** opciju.
 
@@ -47,14 +47,14 @@ Ja RCS vide jau ir nodrošināta jūsu organizācijai, izmantojiet lapas vietrā
 > [!NOTE]
 > Ja šī ir pirmā reize, kad lietojāt RCS, jums nebūs pieejama neviena konfigurācija, no kuras iegūt. Jums būs jāimportē konfigurācija no globālā repozitorija. Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-1. **Pierakstīties** RCS un atlasiet Elektronisko **pārskatu** darbvietu.
+1. **Pierakstīties RCS** un atlasiet Elektronisko pārskatu **darbvietu**.
 2. Pārbaudiet, vai jums ir aktīvs konfigurācijas nodrošinātājs jūsu uzņēmumam, kas ir iestatīts kā aktīvs (skatiet priekšnosacījumus). 
 3. Atlasiet **Pārskatu konfigurācijas**.
 4. Atlasiet konfigurāciju, no kuras vēlaties atvasināt jauno versiju. Varat izmantot filtra lauku virs koka skata, lai sašaurinātu meklēšanu.
 5. Atlasiet **Izveidot konfigurāciju** \> **Atvasināt no nosaukuma**.
-6. Ievadiet nosaukumu un aprakstu un pēc tam atlasiet **Izveidot konfigurāciju,** lai izveidotu jaunu atvasinātu versiju ar statusu Melnraksts.
+6. Ievadiet nosaukumu un aprakstu un pēc tam atlasiet **Izveidot konfigurāciju**, lai izveidotu jaunu atvasinātu versiju ar statusu Melnraksts.
 7. Atlasiet jauno atvasināto konfigurāciju un, ja nepieciešams, veiciet papildu izmaiņas konfigurācijas formātā. 
-8. Kad izmaiņas ir pabeigtas, nepieciešams iestatīt konfigurācijas izmaiņu statusu uz Pabeigts, **lai varētu to publicēt** **repozitorijā**. Atlasiet **Labi**.
+8. Kad izmaiņas ir pabeigtas, nepieciešams iestatīt **konfigurācijas izmaiņu** **statusu** uz Pabeigts, lai varētu to publicēt repozitorijā. Atlasiet **Labi**.
 
 ![Jauna konfigurācijas versija RCS.](media/RCS_CompleteConfig.JPG)
 

@@ -1,6 +1,6 @@
 ---
 title: Nomas pievienošana vai kopēšana (priekšskatījums)
-description: Šajā tēmā aprakstīts, kā izveidot jaunu nomu, ievadot informāciju par to Līdzekļa nomā vai kopējot informāciju no esošas nomas.
+description: Šajā rakstā ir aprakstīts, kā izveidot jaunu nomas maksa, ievadot informāciju par to Pamatlīdzekļu izlaižot vai kopējot informāciju no esošās nomas.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880937"
 ---
 # <a name="add-or-copy-leases-preview"></a>Nomas pievienošana vai kopēšana (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā Līdzekļu nomā izveidot nomu no nulles un kā izveidot nomu, kopējot esošu nomu. Nomas izveides process no nulles ietver informācijas ievadīšanu jaunajai nomai un pēc tam nomas grafika izveidošanu. Pēc tam, kad ir iestatīta vismaz viena noma, iespējams, uzskatīsiet par vieglāku kopēt informāciju no esošas nomas un pēc tam rediģēt šo informāciju pēc nepieciešamības, lai izveidotu jaunu nomu.
+Šajā rakstā ir izskaidrots, kā izveidot nomas no jauna Pamatlīdzekļu izlaižot, un arī kā izveidot nomu, kopējot esošo nomu. Nomas izveides process no nulles ietver informācijas ievadīšanu jaunajai nomai un pēc tam nomas grafika izveidošanu. Pēc tam, kad ir iestatīta vismaz viena noma, iespējams, uzskatīsiet par vieglāku kopēt informāciju no esošas nomas un pēc tam rediģēt šo informāciju pēc nepieciešamības, lai izveidotu jaunu nomu.
 
 ## <a name="create-a-lease"></a>Nomas izveide
 
@@ -37,16 +37,16 @@ Veiciet tālāk norādītās darbības, lai izveidotu nomu Līdzekļu nomā.
 
 Nomas maksājuma sākuma datums nevar būt agrāks par nomas sākuma datumu. Ja ievadāt nomas maksājuma sākuma datumu, kas ir pirms nomas sākuma datuma, tiks parādīts kļūdas ziņojums.
 
-Pēc noklusējuma opcijas Sadalījuma maksājuma summa kopsavilkuma cilnē Vispārīgi, kas atrodas lapā Detalizēta informācija par nomu, tiek iestatīta uz Nē, ja opcija Atļaut maksājumu sadalījumu lapā Līdzekļu izlaižšanas parametri ir **iestatīta** **uz** **·** **·** **·** **·** **Jā**. 
+Pēc noklusējuma opcijas Sadalījuma maksājuma summa kopsavilkuma cilnē Vispārīgi, kas atrodas lapā Detalizēta informācija par nomu, tiek iestatīta uz Nē, **·** **·** **·** **·** **·** **ja opcija Atļaut maksājumu sadalījumu lapā Līdzekļu izlaižšanas parametri** ir iestatīta uz **Jā.** 
 
-Ja opcija Sadalījuma maksājuma summa ir iestatīta uz Jā, lauks Maksājuma summa kopsavilkuma **cilnē Maksājumu grafiks ir** **·** **·** **bloķēts**. Tā tiks iestatīta uz maksājumu kopsummu, kas vēlāk ir ievadīta maksājumu **summas sadalījuma** katalogā.
+Ja opcija **Sadalījuma maksājuma summa** ir iestatīta uz **Jā**, lauks **Maksājuma** summa kopsavilkuma **cilnē Maksājumu grafiks ir** bloķēts. Tā tiks iestatīta uz maksājumu kopsummu, kas vēlāk ir ievadīta maksājumu **summas sadalījuma** katalogā.
 
-Atlasiet **maksājuma summas** sadalījumu, lai atvērtu lapu, kurā varat pievienot informāciju par maksājumu tipiem. Poga **Pievienot kopsummas maksājuma** summai pārvietos kopsummas uz **lauku Maksājuma** summa.
+Atlasiet **maksājuma summas sadalījumu**, lai atvērtu lapu, kurā varat pievienot informāciju par maksājumu tipiem. Poga **Pievienot kopsummas maksājuma summai** pārvietos kopsummas uz lauku **Maksājuma** summa.
 
 > [!NOTE]
-> Ja pievienojat informāciju par maksājuma summu un pēc tam atlasāt taustiņu Esc, ievadītās summas netiks pievienotas laukam Maksājuma summa kopsavilkuma cilnē **Maksājumu** **·** **grafiks**. Tā vietā tie tiks glabāti **maksājuma summas sadalījuma** dialoglodziņā. Ja vēlaties, lai dialoglodziņš rādītu kopējo summu, atlasiet kolonnu Summa, atlasiet un turiet to (vai noklikšķiniet ar peles labo pogu) un pēc **tam atlasiet Kopsumma šajā** **kolonnā**. 
+> Ja pievienojat informāciju **par maksājuma summu un pēc tam atlasāt taustiņu Esc**, **·** **ievadītās** summas netiks pievienotas laukam Maksājuma summa kopsavilkuma cilnē Maksājumu grafiks. Tā vietā tie tiks glabāti **maksājuma summas sadalījuma** dialoglodziņā. Ja vēlaties, lai dialoglodziņš rādītu kopējo summu, atlasiet kolonnu Summa, **atlasiet** un turiet to (vai noklikšķiniet ar peles labo pogu) un pēc tam atlasiet **Kopsumma šajā kolonnā**. 
 
-Ar **pogu Kopēt rindu tiks** kopēts depozīts maksājuma sadalījums.
+Ar **pogu Kopēt** rindu tiks kopēts depozīts maksājuma sadalījums.
 
 ## <a name="create-a-lease-schedule"></a>Nomas grafika izveide
 

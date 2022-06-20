@@ -1,6 +1,6 @@
 ---
 title: Sērijveida kontrolētu preču atgriešana POS
-description: Šajā tēmā aprakstītas serializētu krājumu validēšanas iespējas kā daļa no atgriešanas procesa Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) programmā.
+description: Šajā rakstā ir aprakstītas serializēto krājumu validēšanas Microsoft Dynamics 365 Commerce iespējas kā daļa no atgriešanas procesa pārdošanas punkta (POS) programmā.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860325"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Sērijveida kontrolētu preču atgriešana POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstītas serializētu krājumu validēšanas iespējas kā daļa no atgriešanas procesa Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) programmā.
+Šajā rakstā ir aprakstītas serializēto krājumu validēšanas Microsoft Dynamics 365 Commerce iespējas kā daļa no atgriešanas procesa pārdošanas punkta (POS) programmā.
 
 > [!NOTE]
 > Commerce 10.0.20 un jaunākās versijās ir pieejams jauns līdzeklis ar nosaukumu **Vienotā atpakaļ atdošanas apstrādes pieredze programmā POS**. Lai izmantotu sērijas numura validāciju atgriezto pasūtījumu apstrādes laikā programmā POS, šis līdzeklis ir jāieslēdz. Informāciju par citām iespējām, ko šis līdzeklis nodrošina, kad tas ir ieslēgts, skatiet sadaļā [Atgriešanas izveide programmā POS](POS-returns.md).

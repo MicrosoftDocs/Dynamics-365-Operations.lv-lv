@@ -1,6 +1,6 @@
 ---
-title: Maksājuma metožu izmantošanas ierobežošana atgriešanām bez kvīts
-description: Šajā tēmā ir aprakstīts, kā var ierobežot noteiktu maksājumu veidu izmantošanu atmaksai, ja atgriešanas tiek veiktas bez kvīts.
+title: Maksāšanas metožu ierobežošana atgriešanām bez kvīts
+description: Šajā rakstā ir aprakstīts, kā noteiktus maksājuma tipus var ierobežot atmaksai, ja atgriešana tiek veikta bez saņemšanas.
 author: rapraj
 ms.date: 03/05/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 091d39ea9fe41d78b7f34f85ecd1894047e022d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896957"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Maksājuma metožu izmantošanas ierobežošana atgriešanām bez kvīts
 
 
 [!include [banner](includes/banner.md)]
 
-Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā tēmā ir aprakstīts, kā var ierobežot noteiktu maksājumu veidu izmantošanu atmaksai, ja atgriešanas tiek veiktas bez kvīts.
+Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīts, kā noteiktus maksājuma tipus var ierobežot atmaksai, ja atgriešana tiek veikta bez saņemšanas.
 
 ## <a name="set-up-payment-methods"></a>Iestatīt maksājuma metodes
 

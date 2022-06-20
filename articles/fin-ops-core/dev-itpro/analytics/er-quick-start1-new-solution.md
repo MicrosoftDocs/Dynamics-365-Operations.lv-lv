@@ -1,6 +1,6 @@
 ---
 title: Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
-description: Šajā tēmā skaidrots, kā noformēt elektronisko pārskatu (ER) risinājumu, lai izdrukātu pielāgotu pārskatu.
+description: Šajā rakstā skaidrots, kā projektēt elektronisko pārskatu (ER) risinājumu pielāgota pārskata drukāšanai.
 author: NickSelin
 ms.date: 08/10/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847493"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -292,7 +292,7 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu datu modeļa konfig
 Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skatiet [Elektronisko pārskatu (ER) apskatu](general-electronic-reporting.md#component-versioning).
 
 > [!NOTE]
-> Konfigurētais datu modelis ir jūsu abstrakta **Anketas** biznesa domēna pārstāvība, un tas neuztur attiecības ar artefaktiem, kas ir raksturīgi Microsoft Dynamics 365 Finance.
+> Konfigurētais datu modelis ir jūsu **anketas** biznesa domēna abstrakts attēlojums un nesatur saistības ar artefaktiem, kas ir specifiski Microsoft Dynamics 365 Finansēm.
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Konfigurētā datu modeļa kartēšanas izveidošana
 

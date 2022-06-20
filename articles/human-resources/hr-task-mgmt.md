@@ -1,6 +1,6 @@
 ---
 title: Uzdevumu pārvaldība
-description: Šajā tēmā skaidroti uzdevumu pārvaldības funkcijas, kas pieejamas programmā Microsoft Dynamics 365 Human Resources.
+description: Šajā rakstā ir paskaidrota uzdevumu pārvaldības funkcionalitāte, kas pieejama programmā Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897869"
 ---
 # <a name="task-management"></a>Uzdevumu pārvaldība
 
@@ -96,8 +96,8 @@ Uzdevuma saite nodrošina saiti ar ārējo Tīmekļa lapu vai dynamics 365 progr
 - **URL** – ja izvēlaties šo opciju, ievadiet tās Tīmekļa lapas URL, kurā vēlaties, lai persona, kas piešķirta uzdevumam, ietu uz to. Norādītā lapa var būt lapa, kas nav daļa no Dynamics 365 programmas.
 - **Detalizēta informācija** par darbinieku – ja atlasāt šo opciju, atlasiet vienu no šīm opcijām:
 
-    - **Darbinieku pašapkalpošanās darbības** – Šī opcija parāda lapu sarakstu, kas ir pieejamas Darbinieku **pašapkalpošanās.** Izmantojiet to, ja uzdevums, kas tika piešķirts uzņēmuma darbiniekam, ir jāpabeidz Darbinieku **pašapkalpošanās programmā**. Piemēram, ja vēlaties, lai darbinieks ievadītu savu personisko kontaktinformāciju, **atlasiet Darbinieku pašapkalpošanās darbības** un pēc tam atlasiet **Personīgā InformācijaPersonal&gt; informācija**.
-    - **Darbinieku pārvaldības darbības** – šī opcija parāda lapu sarakstu, kas ir saistītas ar darbinieka ierakstu, bet kuras darbiniekam nav pieejamas. Piemēram, ja vēlaties, lai uzdevuma īpašnieks ievadītu informāciju, kas ir raksturīga uzņēmuma darbiniekam, piemēram, kompensācijas informāciju, **atlasiet** Darbinieku pārvaldības darbības un **pēc tam izvēlieties CompensationFixed&gt; atlīdzību**.
+    - **Darbinieku pašapkalpošanās darbības** – Šī opcija parāda lapu sarakstu, kas ir pieejamas Darbinieku **pašapkalpošanās.** Izmantojiet to, ja uzdevums, kas tika piešķirts uzņēmuma darbiniekam, ir jāpabeidz Darbinieku **pašapkalpošanās programmā**. Piemēram, ja vēlaties, lai darbinieks ievadītu savu personisko kontaktinformāciju, atlasiet **Darbinieku pašapkalpošanās darbības** un pēc tam atlasiet Personīgā **informācija&gt; ar personisko informāciju**.
+    - **Darbinieku pārvaldības darbības** – šī opcija parāda lapu sarakstu, kas ir saistītas ar darbinieka ierakstu, bet kuras darbiniekam nav pieejamas. Piemēram, ja vēlaties, lai uzdevuma īpašnieks ievadītu informāciju, kas ir raksturīga uzņēmuma darbiniekam, piemēram, kompensācijas informāciju, **atlasiet** Darbinieku pārvaldības darbības un **&gt; pēc tam atlasiet Kompensācijas fiksētā kompensācija**.
 
 ### <a name="assignment-types"></a>Piešķires tipi
 

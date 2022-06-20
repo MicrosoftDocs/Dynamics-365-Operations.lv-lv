@@ -1,6 +1,6 @@
 ---
-title: Tirgojošo vienību kārtošanas secības maiņa
-description: Šajā tēmā paskaidroti jēdzieni saistība ar to, kā kontrolē parādīšanas secību dažādām tirgojošām vienībām pakalpojumā Dynamics 365 Commerce.
+title: Kārtošanas secības mainīšana virzīšanas tirgū elementiem
+description: Šajā rakstā ir skaidroti jēdzieni, kas ir saistīti ar parādīšanas pasūtījuma kontroli dažādām ar preču precēm saistītām entītijām Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847658"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Tirgojošo vienību kārtošanas secības maiņa
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779546"
 
 Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos. Dažādas funkcionalitātes var palīdzēt viegli pamanīt produktus. Piemēram, tie var pārlūkot kategorijas, meklēt un filtrēt.
 
-Šajā tēmā paskaidroti jēdzieni saistībā ar to, kā kontrolē parādīšanas secību dažādām tirgojošām vienībām. Tajā aprakstīts arī, kā mainīt kārtošanas secību.
+Šajā rakstā ir skaidroti jēdzieni, kas ir saistīti ar parādīšanas pasūtījuma kontrolēšanu dažādām ar precēm saistītām entītijām. Tajā aprakstīts arī, kā mainīt kārtošanas secību.
 
 ## <a name="overview"></a>Kopsavilkums
 

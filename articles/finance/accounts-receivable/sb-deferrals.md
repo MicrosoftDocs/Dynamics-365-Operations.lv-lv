@@ -1,6 +1,6 @@
 ---
 title: Ieņēmumi un izdevumu atliktie ieņēmumi no abonementa rēķiniem
-description: Šajā tēmā skaidrots, kā abonementa norēķinos iestatīt ieņēmumus un izdevumu atliktos maksājumus.
+description: Šajā rakstā ir izskaidrots, kā abonementa rēķinos iestatīt ieņēmumus un izdevumu atliktos maksājumus.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908101"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Ieņēmumi un izdevumu atliktie ieņēmumi no abonementa rēķiniem
 
-Šajā tēmā skaidrots, kā abonementa norēķinos iestatīt un izmantot ieņēmumus un izdevumu atliktos maksājumus. Atlikto maksājumu grafiki vienmēr tiek balstīti uz pamata oriģinālo dokumentu vai norēķinu grafiku un ir atkarīgi no tā. Tā kā tās ir izveidotas, pamatojoties uz noklusētajām vērtībām, tās nevar ievadīt vai izveidot atsevišķi.
+Šajā rakstā ir izskaidrots, kā abonementa norēķinos iestatīt un izmantot ieņēmumus un izdevumu atliktos maksājumus. Atlikto maksājumu grafiki vienmēr tiek balstīti uz pamata oriģinālo dokumentu vai norēķinu grafiku un ir atkarīgi no tā. Tā kā tās ir izveidotas, pamatojoties uz noklusētajām vērtībām, tās nevar ievadīt vai izveidot atsevišķi.
 
 Ieņēmumu un izdevumu atlikto maksājumu iestatīšanas un lietošanas process notiek vairākās lapās:
 

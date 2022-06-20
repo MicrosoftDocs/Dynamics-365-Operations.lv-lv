@@ -1,6 +1,6 @@
 ---
 title: Latvijas pārskats
-description: Šajā tēmā ir sniegtas saites uz Latvijai paredzētajiem Microsoft Dynamics 365 Finance dokumentācijas resursiem.
+description: Šajā rakstā ir sniegtas saites Microsoft Dynamics uz 365 Finanšu dokumentācijas resursiem Latvijā.
 author: kfend
 ms.date: 01/18/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43e0110e537939b4d8ed8528162c295a7d498e95
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: 3c7db5c02fc3f473444db2328d0acf9302d6e7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845161"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegtas saites uz Latvijai paredzētajiem dokumentācijas resursiem. 
+Šajā rakstā ir sniegtas saites uz dokumentēšanas resursiem Latvijā. 
 
 - [Pamatlīdzekļu uzskaite nodokļu aprēķinam](emea-lva-fixed-assets-accounting.md)
 - [Pamatlīdzekļu novietojuma maiņas izsekošana](emea-lva-fixed-assets-location-fields-change.md)
@@ -31,6 +31,7 @@ ms.locfileid: "8007559"
 - [Dabas resursu nodokļa pārskats](emea-lva-tax-natural-resources.md)
 - [PVN deklarācijas informācija](emea-lva-vat-statement-details.md)
 - [Latvijas Intrastat](emea-lva-intrastat.md)
+- [ES pārdošanas saraksts Latvijā](emea-lva-eu-sales-list.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
