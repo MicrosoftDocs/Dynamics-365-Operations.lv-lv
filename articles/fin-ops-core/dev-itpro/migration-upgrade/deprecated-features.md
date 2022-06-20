@@ -1,6 +1,6 @@
 ---
 title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
-description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai ieplānoti noņemšanai no iepriekšējiem Dynamics 365 for Finance and Operations laidieniem.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866190"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -28,16 +28,16 @@ ms.locfileid: "8063241"
 
 
 > [!IMPORTANT]
-> Šī tēma vairs netiek atjaunināta. Lai skatītu pašreizējo to līdzekļu sarakstu, kas ir noņemti vai novecojuši no Finance and Operations programmām, meklējiet **saturu "Noņemtie vai novecojušie līdzekļi"**, kas attiecas uz jūsu izmantoto lietotni.
+> Šis raksts vairs netiek atjaunināts. Lai skatītu pašreizējo līdzekļu sarakstu, kas ir noņemti vai novecojuši no finanšu un operāciju programmām, **meklējiet "Noņemtu vai novecojušu līdzekļu"** saturu, kas ir saistīts ar programmu, kuru izmantojat.
 
-Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai novecojuši programmā Dynamics 365 for Finance and Operations un iepriekšējos šīs preces laidienos.
+Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai novecojuši no Dynamics 365 for Finance and Operations šīs preces un iepriekšējiem šīs preces laidieniem.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizētu informāciju par objektiem Finance and Operations lietojumprogrammās var atrast tehnisko uzziņu [atskaitēs](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt šo atskaišu dažādās versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finance and Operations lietojumprogrammu versijā.
+Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 ar 31. platformas atjauninājumu
 
@@ -84,7 +84,7 @@ Detalizētu informāciju par objektiem Finance and Operations lietojumprogrammā
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **setUtcString()** metodi. Tā vietā izstrādātājiem ir jāizmanto metode **setUtcDateTime()**. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokalista atskaite (IT) – līdzekļa atsauces IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Bloķēšanas saraksta pārskats (IT) – funkcionalitātes atsauces IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: brīdinājums ir kompilēšanas laika kļūda ar platformas atjauninājumiem Finance and Operations lietojumprogrammu versijai 10.0.11. |
+| **Statuss**                         | Novecojis: brīdinājums ir kompilēšanas laika kļūda saistībā ar platformu atjauninājumiem finanšu un operāciju programmu versijā 10.0.11. |
 
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).
@@ -889,7 +889,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Dynamics AX ietver pakalpojumus, kas balstīti uz dokumentiem un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|

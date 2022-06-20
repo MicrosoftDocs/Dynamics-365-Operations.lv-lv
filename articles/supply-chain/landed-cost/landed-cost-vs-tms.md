@@ -1,6 +1,6 @@
 ---
 title: Kopējās izmaksas pret Transportēšanas pārvaldību
-description: Korporācija Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanas, Transportēšanas pārvaldību (TMS) un Kopējām izmaksām. Šajā tēmā apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un iezīmētas to atšķirības.
+description: Korporācija Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanas, Transportēšanas pārvaldību (TMS) un Kopējām izmaksām. Šajā rakstā ir apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un izceltas to atšķirības.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905926"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Kopējās izmaksas pret Transportēšanas pārvaldību
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanu: **Transportēšanas pārvaldību** (TMS) un **Kopējām izmaksām**. Šajā tēmā apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un iezīmētas to atšķirības. Šo informāciju iespējams izmantot, lai izlemtu, kurš modulis vislabāk atbilst jūsu uzņēmējdarbības praksei. Varat atrast, ka dažas uzņēmējdarbības prakses darbojas labāk ar TMS, turpretim citas darbojas vislabāk ar kopējām izmaksām. Pēc tam atkarībā no uzņēmējdarbības vajadzībām var izvēlēties izmantot tikai vienu moduli vai kombinēt šos divus moduļus.
+Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanu: **Transportēšanas pārvaldību** (TMS) un **Kopējām izmaksām**. Šajā rakstā ir apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un izceltas to atšķirības. Šo informāciju iespējams izmantot, lai izlemtu, kurš modulis vislabāk atbilst jūsu uzņēmējdarbības praksei. Varat atrast, ka dažas uzņēmējdarbības prakses darbojas labāk ar TMS, turpretim citas darbojas vislabāk ar kopējām izmaksām. Pēc tam atkarībā no uzņēmējdarbības vajadzībām var izvēlēties izmantot tikai vienu moduli vai kombinēt šos divus moduļus.
 
-Šī tēma nav visaptverošs pārskats par visām jebkura moduļa funkcijām. Tā vietā tā iezīmē pieejamo funkcionalitāti, kā tā attiecas uz preču transportēšanu no kreditora uz jūsu biznesa noliktavu, kur to var patērēt.
+Šis raksts nav visaptverošs pārskats par visām jebkura moduļa funkcijām. Tā vietā tā iezīmē pieejamo funkcionalitāti, kā tā attiecas uz preču transportēšanu no kreditora uz jūsu biznesa noliktavu, kur to var patērēt.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminoloģija, atsauces dati un pārskatu atšķirības
 

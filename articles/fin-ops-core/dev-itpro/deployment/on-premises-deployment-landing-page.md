@@ -1,6 +1,6 @@
 ---
-title: Lokālo izvietojumu sākumlapa
-description: Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem.
+title: Lokālā izvietojuma sākumlapa
+description: Šajā rakstā ir sniegta informācija un saites uz saturu par lokāliem izvietojumiem.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867417"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
 [!include [banner](../includes/banner.md)]
 
-Varat izvietot Dynamics 365 Finance + Operations (on-premises). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā tēmā ir sniegtas saites uz saturu, kurā ietverta informācija par lokālajiem izvietojumiem.
+Varat izvietot Dynamics 365 Finance + Operations (on-premises). Izvēloties lokālās izvietošanas veidu, sistēmas prasības, aparatūras lieluma maiņa un funkcionalitāte atšķiras no mākoņa izvietošanas. Šajā rakstā ir sniegtas saites uz saturu, kas satur lokāliem izvietojumiem specifisku informāciju.
 
 ## <a name="get-started"></a>Sākt darbu
 - [Lokāla izvietojuma pārskats](on-premises-overview.md)

@@ -1,6 +1,6 @@
 ---
 title: Darbs ar novietojuma direktīvām
-description: Šajā tēmā ir aprakstīts, kā strādāt ar atrašanās vietas direktīvām. Novietojuma direktīvas ir lietotāja definēti nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar novietojuma direktīvām. Novietojuma direktīvas ir lietotāja definēti nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903700"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103142"
 Novietojuma direktīvas ir nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai. Piemēram, pārdošanas pasūtījuma transakcijā novietojuma direktīva nosaka, kur krājumi tiks izdoti un kur izdotie krājumi tiks izvietoti. Atrašanās vietas direktīvas ietver galveni un saistītās rindas. Tie tiek izveidoti noteiktiem *darba pasūtījuma veidiem*.
 
 > [!NOTE]
-> Šī tēma attiecas uz moduļa **Noliktavas pārvaldība** līdzekļiem. Tas neattiecas uz līdzekļiem modulī [Krājumu vadība](../inventory/inventory-home-page.md).
+> Šis raksts attiecas uz noliktavas pārvaldības **moduļa** funkcijām. Tas neattiecas uz līdzekļiem modulī [Krājumu vadība](../inventory/inventory-home-page.md).
 
 Varat izmantot novietojuma direktīvas, lai veiktu tālāk norādītos uzdevumus.
 
@@ -109,7 +109,7 @@ Sekojošajā tabulā ir uzskaitīti lauki, kas ir specifiski noteiktiem darbu pa
 
 Lai atvertu lapu **Novietojuma direktīvas**, dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Novietojuma direktīvas**.
 
-No turienes varat apskatīt, izveidot un rediģēt savas atrašanās vietas direktīvas, izmantojot darbības rūts komandas. Informāciju par to, kā izmantot visus lapā pieejamos laukus, skatīt pārējās šīs tēmas sadaļās.
+No turienes varat apskatīt, izveidot un rediģēt savas atrašanās vietas direktīvas, izmantojot darbības rūts komandas. Skatiet pārējās šī raksta sadaļas, lai iegūtu informāciju par to, kā izmantot visus lapā pieejamos laukus.
 
 ## <a name="action-pane"></a>Darbības rūts
 
@@ -162,7 +162,7 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
 - **Piemērojamais izvietojuma kods** - Norādiet, vai atrašanās vietas direktīvas atgriešanas metodes kodam ir jāatbilst atgriešanas metodes kodam, kas tiek lietots, kad krājums ir saņemts, vai arī atrašanās vietas direktīvu var atlasīt, pamatojoties uz jebkuru atgriešanas metodes kodu. Ja atlasīsiet *Precīza atbilstība*, bet lauks **Atgriešanas metodes kods** ir tukšs, šai atrašanās vietas direktīvai tiks izmantot tikai tukši atgriešanas metodes kodi.
 
     > [!NOTE]
-    > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types) iepriekš šajā tēmā.
+    > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet šī raksta sadaļā [Lauki, kas ir raksturīgi darba](#fields-specific-types) pasūtījuma veidu sadaļai.
 
 - **Atrast pēc** – Norādiet, vai saņemtam daudzumam jābūt visam numura zīmes daudzumam, vai arī tam jābūt krājumam pēc krājuma. Lietojiet šo lauku, lai nodrošinātu, ka viss numura zīmes saturs tiek novietots vienā vietā un ka sistēma nepiedāvā sadalīt saturu vairākās vietās **IPPN** (numura zīmes saņemšanas), **Jauktas numura zīmes** saņemšanas un **Klasteru** saņemšanas procesiem. ( **Klasteru** saņemšanas procesam nepieciešams, lai būtu ieslēgts līdzeklis [Kastera saņemšanas līdzeklis](putaway-clusters.md) .) Atrašanās vietas direktīvas vaicājuma, rindu un novietojuma direktīvas darbības var atšķirties atkarībā no atlasītās vērtības. Kopsavilkuma cilne **Rindas** izmanto tikai tad, ja **Atrast** pēc ir iestatīts uz *Krājums*.
 
@@ -254,7 +254,7 @@ Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darb
 ## <a name="additional-resources"></a>Papildu resursi
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Palīdzības tēma: [Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
+- Palīdzības raksts: Noliktavas [darba kontrole, izmantojot darba veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

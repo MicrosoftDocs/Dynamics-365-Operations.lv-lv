@@ -1,6 +1,6 @@
 ---
 title: Apmaksa atbilstoši reģistrācijām
-description: Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbināto reģistrācijām.
+description: Šajā rakstā skaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz darbinieku reģistrācijām.
 author: johanhoffmann
 ms.date: 03/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 729e2f6c7c2dac598154b342244ab3d8eccaf4d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844385"
 ---
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir plaši paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbināto reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
+Šajā rakstā sīkāk skaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz darbinieku reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
 
 - Brīvais režīms
 - Virsstundas

@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
-description: Šajā tēmā ir paskaidrots, kā pielāgot Microsoft nodrošināto elektronisko pārskatu (ER) konfigurācijas, ko izmanto, lai ģenerētu pielāgotu elektronisko dokumentu.
+description: Šajā rakstā skaidrots, kā pielāgot Microsoft nodrošinātās elektronisko pārskatu (ER) konfigurācijas, kas tiek izmantotas, lai ģenerētu pielāgotu elektronisku dokumentu.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854703"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
 
@@ -32,9 +32,9 @@ Elektronisko [pārskatu (ER) struktūra](general-electronic-reporting.md) ļauj 
 
 ## <a name="overview"></a>Pārskats
 
-Šīs tēmas piemērā ir jānorāda federālā nodokļa identifikācijas kods kā jauns pielāgots atribūts katram debitoram, kuram tiek elektroniski izrakstīts rēķins. Tāpēc ir jāpielāgo pašreiz izmantotā rēķina struktūra, pievienojot jaunu krājumu, kas jāaizpilda ar nodokļa kodu katrā ģenerētajā e-rēķinā.
+Piemēram, šajā rakstā ir jānorāda federālā nodokļa identifikācijas kods kā jauns debitora, kas elektroniski izrakstīts rēķins, atribūts. Tāpēc ir jāpielāgo pašreiz izmantotā rēķina struktūra, pievienojot jaunu krājumu, kas jāaizpilda ar nodokļa kodu katrā ģenerētajā e-rēķinā.
 
-Šīs tēmas procedūrās ir paskaidrots, kā lietotājs sistēmas administratora, elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta lomā var veikt tālāk minētos uzdevumus jūsu Finance instancē:
+Procedūras šajā rakstā skaidro kā lietotājs Sistēmas administratora, elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta lomā var veikt sekojošos uzdevumus jūsu Finanšu instancē:
 
 - [Konfigurējiet minimālo ER parametru kopu, kas ir nepieciešama, lai sāktu izmantot ER struktūru](#ConfigureER).
 - [Importējiet standarta ER konfigurāciju sākotnējās versijas, kas tiek nodrošinātas, lai ģenerētu e-rēķinus](#ImportERConfigurations1).

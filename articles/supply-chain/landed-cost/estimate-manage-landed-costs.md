@@ -1,6 +1,6 @@
 ---
 title: Novērtēt un pārvaldīt kopējās izmaksas
-description: Sistēma izmanto automātisko izmaksu iestatījumu, lai noteiktu savu kopējo izmaksu novērtējumu. Šajā tēmā skaidrots, kā definēt dažādus scenārijus, lai nodrošinātu precīzāku novērtējumu.
+description: Sistēma izmanto automātisko izmaksu iestatījumu, lai noteiktu savu kopējo izmaksu novērtējumu. Šajā rakstā skaidrots, kā definēt dažādus scenārijus, lai nodrošinātu precīzāku novērtējumu.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854446"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Novērtēt un pārvaldīt kopējās izmaksas
 
@@ -50,7 +50,7 @@ Tālāk esošajā tabulā ir aprakstīti pieejamie lauki katrai veidnei.
 
 Lietojiet dialoglodziņu **Izmaksu novērtējums**, lai ģenerētu jaunu izmaksu novērtējumu, kura pamatā ir atlasītā izmaksu veidne, atlasītā krājumu kopa un cita detalizēta informācija par krājumu. Šie iestatījumi tad tiek izmantoti, lai noteiktu novērtētās preču kopējās izmaksas. Šie izmaksu novērtējumi galvenokārt tiek izmantoti darbam ar standarta izmaksu krājumiem. Pievienojot novērtētās zemes izmaksas krājumu standarta izmaksām, ir jāņem vērā mazākās novirzes darbības, kad preces tiek pievienotas reisam, jo standarta izmaksas atspoguļos šo zemes izmaksu prognozes.
 
-Lai atvērtu dialoglodziņu **Izmaksu novērtējums**, dodieties uz sadaļu **Kopējās izmaksas \> Periodiskie uzdevumi \> Izmaksu novērtējums**. Pēc tam katrā kopsavilkuma cilnē iestatiet laukus, kā aprakstīts sekojošās apakšsadaļās. Atlasiet **Labi**, lai izveidotu novērtējumu. **Izmaksu novērtējuma** lapa (**Kopējās izmaksas \> Uzziņas \> Izmaksu novērtējumi**), pēc tam tiek parādīts jūsu jaunais novērtējums, kā aprakstīts tālāk šajā tēmā.
+Lai atvērtu dialoglodziņu **Izmaksu novērtējums**, dodieties uz sadaļu **Kopējās izmaksas \> Periodiskie uzdevumi \> Izmaksu novērtējums**. Pēc tam katrā kopsavilkuma cilnē iestatiet laukus, kā aprakstīts sekojošās apakšsadaļās. Atlasiet **Labi**, lai izveidotu novērtējumu. Pēc **tam tiek** parādīta lapa Izmaksu **\>\> novērtējums (** vaicājumi par zemes izmaksu aprēķiniem) un parādīts jaunais novērtējums, kā aprakstīts tālāk šajā rakstā.
 
 ### <a name="settings-on-the-parameters-tab"></a>Iestatījumi cilnē Parametri
 
@@ -91,7 +91,7 @@ Lai skatītu vai pielāgotu krājuma apjoma un/vai svara datus, atlasiet krājum
 
 ## <a name="manage-estimated-costs"></a>Pārvaldīt novērtētās izmaksas
 
-Lai skatītu un rediģētu izveidotos izmaksu novērtējumus, dodieties uz sadaļu **Kopējās izmaksas \> Izmaksas \> Izmaksu novērtējumi**. Izmaksu **Izmaksu novērtējumi** saraksta rūtī kreisajā pusē ir parādītas visas pašreizējās izmaksu veidnes. Varat izmantot pogas Darbību rūtī, lai strādātu ar atlasīto novērtējumu. Ņemiet vērā, ka nevarat izveidot jaunu izmaksu novērtējumu no **Izmaksu novērtējuma** lapas. Tā vietā izmantojiet dialoglodziņu **Izmaksu novērtējums** (**Kopējās izmaksas \> Periodiskie uzdevumi \> Izmaksu novērtējums**), kā aprakstīts iepriekš šajā tēmā.
+Lai skatītu un rediģētu izveidotos izmaksu novērtējumus, dodieties uz sadaļu **Kopējās izmaksas \> Izmaksas \> Izmaksu novērtējumi**. Izmaksu **Izmaksu novērtējumi** saraksta rūtī kreisajā pusē ir parādītas visas pašreizējās izmaksu veidnes. Varat izmantot pogas Darbību rūtī, lai strādātu ar atlasīto novērtējumu. Ņemiet vērā, ka nevarat izveidot jaunu izmaksu novērtējumu no **Izmaksu novērtējuma** lapas. Tā vietā izmantojiet dialoglodziņu **Izmaksu novērtējums** (Zemes izmaksu **periodisko \> uzdevumu \> izmaksu novērtējums**), kā aprakstīts iepriekš šajā rakstā.
 
 **Izmaksu novērtējuma** lapa parāda, kā katra novērtētā izmaksas tika atvasināta. Tas parāda arī novērtētās kopējās izmaksas katram krājumam. Izmaksu novērtējumu var modificēt, izmainot izmaksu cenu un/vai valūtu, kas saistīta ar dažādām precēm. Ir arī iespējams modificēt saistītās reisa izmaksas gan reisa līmenī, gan konteinera līmenī. Ja lietojat šo lapu, lai modificētu izmaksas, izmaksu novērtējumā jums tiks piedāvāts pārrēķināt krājumu novērtētās izmaksas. Kad esat gatavs, varat izmantot novērtējumus, lai atjauninātu izmaksu veidnē esošo krājumu izmaksu cenu.
 

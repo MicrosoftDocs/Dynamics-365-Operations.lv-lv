@@ -1,6 +1,6 @@
 ---
-title: Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
-description: Šajā tēmā ir aprakstīts, kā iegult Power BI pārskatu darbvietas cilnē Analīze.
+title: Analīzes pievienošana darbvietām, izmantojot Power BI Embedded
+description: Šajā rakstā ir parādīts, kā iegult Power BI pārskatu darbvietas cilnē Analīze.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884554"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes pievienošana darbvietām, izmantojot Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis līdzeklis tiek atbalstīts programmā Finance and Operations (7.2 un jaunākās versijās).
+> Šis līdzeklis tiek atbalstīts programmā Finance and Operations (versija 7.2 un jaunākas versijas).
 
 ## <a name="introduction"></a>Ievads
-Šajā tēmā parādīts, kā iegult Microsoft Power BI atskaiti darbvietas cilnē **Analītika**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
+Šajā rakstā ir parādīts, kā iegult Microsoft Power BI pārskatu **darbvietas** cilnē Analīze. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 + Piekļuve izstrādātāju videi, kas darbina platformas 8. atjauninājumu vai jaunāku atjauninājumu.

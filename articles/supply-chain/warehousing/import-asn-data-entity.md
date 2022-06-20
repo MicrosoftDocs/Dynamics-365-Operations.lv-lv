@@ -1,6 +1,6 @@
 ---
-title: Importēt ienākošos NNS, izmantojot V3 datu elementu
-description: Šajā tēmā skaidrots, kā pārvaldīt ienākošo papildu nosūtīšanas paziņojumu (ASN) importu, izmantojot ienākošo ASN datu elementu.
+title: Ienākošo IPPN importēšana, izmantojot V3 datu elementu
+description: Šajā rakstā ir izskaidrots, kā pārvaldīt ienākošo papildu nosūtīšanas paziņojumu (ASN) importu, izmantojot ienākošo ASN datu elementu.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907121"
 ---
-# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importēt ienākošos NNS, izmantojot V3 datu elementu
+# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Ienākošo IPPN importēšana, izmantojot V3 datu elementu
 
 [!include [banner](../../includes/banner.md)]
 
@@ -26,7 +26,7 @@ Papildu paziņojums par nosūtīšanu (IPPN) jūs informē par kreditora piegād
 
 IPPN var palīdzēt noliktavas darbiniekiem uzzināt, kas notiek. Tādēļ viņi var sagatavoties. Turklāt noliktavas darbinieki var izmantot IPPN, lai saskaņotu nosūtīšanas informāciju ar iepriekš izveidoto saistīto pirkšanas pasūtījumu.
 
-Šajā tēmā ir apkopoti scenāriji, kas, izmantojot piemērus, parāda, kā strādāt ar IPPN failiem.
+Šajā rakstā ir parādīta scenāriju apkopojums, kas, izmantojot piemērus, parāda, kā strādāt ar ASN failiem.
 
 > [!IMPORTANT]
 > *Ienākošais IPPN* imports attiecas tikai uz krājumiem, kas ir iespējoti papildu noliktavu pārvaldību (WMS). Pirms saņemat IPPN, pirkšanas pasūtījums sistēmā jāreģistrē kreditoram, kas sūta šo IPPN.

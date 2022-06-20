@@ -1,6 +1,6 @@
 ---
 title: Kopumu izveide un apstrāde
-description: Tālāk ir aprakstīts, kā manuāli izveidot, apstrādāt un izlaist kopumu, lai izveidotu izdošanas darbu kravas, sūtījuma, ražošanas pasūtījuma vai Kanban pasūtījuma izveidei.
+description: Šajā rakstā ir aprakstīts, kā izveidot, apstrādāt un izlaist kopumu, lai izveidotu izdošanas darbu kravai, sūtījumam, ražošanas pasūtījumam vai Kanban pasūtījumam.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
-ms.translationtype: MT
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851280"
 ---
 # <a name="wave-creation-and-processing"></a>Kopumu izveide un apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Tālāk ir aprakstīts, kā manuāli izveidot, apstrādāt un izlaist kopumu, lai izveidotu izdošanas darbu kravas, sūtījuma, ražošanas pasūtījuma vai Kanban pasūtījuma izveidei. Varat izveidot šādus pasūtījuma veidu kopumus:
+Šajā rakstā ir aprakstīts, kā izveidot, apstrādāt un izlaist kopumu, lai izveidotu izdošanas darbu kravai, sūtījumam, ražošanas pasūtījumam vai Kanban pasūtījumam. Varat izveidot šādus pasūtījuma veidu kopumus:
 
 - **Pārdošanas pasūtījumi** — izmantojiet sūtījuma kopumus, lai iekļautu rindas no pārdošanas pasūtījumiem. Kad pārdošanas pasūtījums tiek izlaists uz noliktavu, pārdošanas pasūtījuma rindās var iekļaut kopumu.
 - **Ražošanas pasūtījumi** — izmantojiet ražošanas kopumus, lai precei iekļautu rindas no materiālu komplektiem (MK).

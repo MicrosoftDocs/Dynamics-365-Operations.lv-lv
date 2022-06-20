@@ -1,6 +1,6 @@
 ---
 title: Patēriņa pieprasījuma izveide
-description: Šajā tēmā ir aprakstīts pieprasījuma izveidošanas process.
+description: Šajā rakstā aprakstīts pieprasījuma izveides process.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888475"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Patēriņa pieprasījuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts pieprasījuma izveidošanas process. Tajā parādīti dažādi veidi, kā meklēt preces sagādes katalogā un kā pievienot preci, kas nav katalogā. Pirms sākt šo procedūru, jums ir jāiestata pirkšanas ierobežojumus uz Patēriņš kā pieprasījumu noklusējuma tipu. Šo procedūru var izmēģināt, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus. Šo procedūru var veikt tikai no lietotāja profila, kas ir iestatīts kā darbinieks. Šo uzdevumu parasti veic darbinieks. **Darbinieka** pieņemšanas darbā drošības loma ļaus veikt uzdevumus, vai, ja izmantojat USMF, varat pieteikties kā **Alicia**.
+Šajā rakstā aprakstīts pieprasījuma izveides process. Tajā parādīti dažādi veidi, kā meklēt preces sagādes katalogā un kā pievienot preci, kas nav katalogā. Pirms sākt šo procedūru, jums ir jāiestata pirkšanas ierobežojumus uz Patēriņš kā pieprasījumu noklusējuma tipu. Šo procedūru var izmēģināt, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus. Šo procedūru var veikt tikai no lietotāja profila, kas ir iestatīts kā darbinieks. Šo uzdevumu parasti veic darbinieks. **Darbinieka** pieņemšanas darbā drošības loma ļaus veikt uzdevumus, vai, ja izmantojat USMF, varat pieteikties kā **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Jauna pieprasījuma izveide

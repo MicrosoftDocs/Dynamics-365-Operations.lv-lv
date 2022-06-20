@@ -1,6 +1,6 @@
 ---
 title: Kreditoru sadarbība ar ārējiem kreditoriem
-description: Šajā tēmā ir paskaidrots, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījuma krājumiem.
+description: Šajā rakstā skaidrots, kā iepirkuma aģenti var sadarboties ar ārējiem kreditoriem, lai apmainītos ar informāciju par pirkšanas pasūtījumiem un sūtījumu krājumiem.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907295"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
 [!include [banner](../includes/banner.md)]
 
-Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 Supply Chain Management. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā tēmā ir paskaidrots, kā jūs varat sadarboties ar ārējiem kreditoriem, kuri izmanto kreditoru sadarbības interfeisu, lai strādātu ar pirkšanas pasūtījumiem, piedāvājumu pieprasījumiem un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
+Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 Supply Chain Management. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā rakstā skaidrots, kā var sadarboties ar ārējiem kreditoriem, kuri lieto kreditoru sadarbības interfeisu, lai strādātu ar POS, PP un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
 Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Šajā tēmā sniegtā informācija par kreditoru sadarbību attiecas tikai uz pašreizējo Supply Chain Management versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
+> Informācija par kreditoru sadarbības šajā rakstā attiecas tikai uz pašreizējo Piegādes ķēžu pārvaldības versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ Kreditoram nosūtītais pirkšanas pasūtījums, kura statuss ir <strong>Tiek p�
 <li>Aizstāt kādu krājumu.</li>
 </ul>
 Kreditors neva&#39;r mainīt preces informāciju un maksas. Taču kreditors var ierosināt šādu izmaiņu veikšanu, izmantojot piezīmes.</td>
-<td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts ar izmaiņām</strong>, un pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. Statusi norāda, kāda veida izmaiņas kreditors ir ierosinājis. Lai iegūtu informāciju par izmaiņu automātisko patēriņu, skatiet sadaļu &quot;Pirkšanas pasūtījuma atjaunināšana, kad kreditors iesaka izmaiņas&quot; tālāk šajā tēmā. </td>
+<td>Kreditora atbilde tiek ierakstīta kā <strong>Pieņemts ar izmaiņām</strong>, un pirkšanas pasūtījuma statuss joprojām ir <strong>Tiek pārskatīts ārēji</strong>. Statusi norāda, kāda veida izmaiņas kreditors ir ierosinājis. Papildinformāciju par automātisko izmaiņu patēriņu skatiet sadaļā Atjaunināt PP, &quot; kad kreditors iesaka izmaiņu&quot; sadaļu tālāk šajā rakstā. </td>
 </tr>
 </tbody>
 </table>

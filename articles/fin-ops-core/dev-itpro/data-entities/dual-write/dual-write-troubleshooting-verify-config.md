@@ -1,6 +1,6 @@
 ---
 title: Duālā ieraksta konfigurācijas verificēšana Finance and Operations programmās un platformā Dataverse
-description: Šajā tēmā ir paskaidrots, kā noteikt, vai dubultā rakstīšana ir konfigurēta Finance and Operations programmās un programmā Dataverse.
+description: Šajā rakstā ir izskaidrots, kā var noteikt, vai dubultā rakstīšana ir konfigurēta Finanšu un operāciju programmās un lietojumprogrammās Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884464"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Duālā ieraksta konfigurācijas verificēšana Finance and Operations programmās un platformā Dataverse
 
@@ -24,21 +24,21 @@ ms.locfileid: "8062804"
 
 
 
-Šajā tēmā ir sniegta problēmu novēršanas informācija divu rakstu integrācijai starp Finance and Operations programmām un Dataverse. Konkrēti, tajā ir paskaidrots, kā var noteikt, vai dubultā rakstīšana ir konfigurēta Finance and Operations programmās un programmā Dataverse.
+Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. It īpaši skaidrots, kā var noteikt, vai dubultās rakstīšanas konfigurācija ir konfigurēta Finanšu un operāciju programmās un kur Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Pārbaudiet, vai divrakstotā rakstīšana ir konfigurēta programmā Finanses un operācijas
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Apstipriniet, ka dubultās rakstīšanas konfigurācija ir konfigurēta Finanšu un operāciju programmā
 
 Lai noteiktu, vai kļūdas, kas tiek parādītas, mēģinot saglabāt rindu atjauninājumu, nāk no duālā ieraksta, vispirms pārbaudiet, vai duālais ieraksts ir konfigurēts.
 
-+ Ja jums ir administratora privilēģijas programmā Finanses un operācijas, dodieties uz Darbvietu **datu pārvaldība \> un atlasiet** elementu Divējāda rakstīšana **.** Ja tiek parādīta informācija par saistītajām vidēm un darbojošos tabulu karšu sarakstu, duālais ieraksts tiek konfigurēts.
++ Ja jums ir administratora privilēģijas programmā Finanses un operācijas **\>,** pārejiet uz sadaļu Darbalauku datu **pārvaldība un atlasiet** elementu Dubultā rakstīšana. Ja tiek parādīta informācija par saistītajām vidēm un darbojošos tabulu karšu sarakstu, duālais ieraksts tiek konfigurēts.
 
-    ![Programmas Finance and Operations savienojuma pārbaude, ja jums ir administratora tiesības.](media/verify_fin_ops_1.png)
+    ![Pārbauda finanšu un operāciju programmas savienojumu, kad jums ir administratora privilēģijas.](media/verify_fin_ops_1.png)
 
-+ Ja jums nav administratora privilēģiju, tiek parādīts kļūdas ziņojums *Nevar ierakstīt datus elementā \<entity name\>*. Piemērā nākamajā attēlā nevar izveidot klientu rindu programmā Finanses un operācijas, jo ir konfigurēta dubultā rakstīšana, bet programmā nav klientu grupas un maksājuma nosacījumu atsauces datu Dataverse.
++ Ja jums nav administratora privilēģiju, tiek parādīts kļūdas ziņojums *Nevar ierakstīt datus elementā \<entity name\>*. Šajā ilustrācijā redzamajā piemērā programmā Finanses un operācijas nevar izveidot debitoru rindu, jo ir konfigurēti duālās rakstīšanas iestatījumi, taču nepastāv debitoru grupas un maksājumu nosacījumu atsauces dati Dataverse.
 
-    ![Programmas Finance and Operations savienojuma pārbaude, ja jums nav administratora atļauju.](media/verify_fin_ops_2.png)
+    ![Pārbauda finanšu un operāciju programmas savienojumu, ja jums nav administratora privilēģiju.](media/verify_fin_ops_2.png)
 
-Informāciju par to, kā novērst problēmas, veidojot datus Finance and Operations programmās, skatiet rakstā [Tiešraides sinhronizācijas problēmu](dual-write-troubleshooting-live-sync.md) novēršana.
+Papildinformāciju par to, kā novērst problēmas, izveidojot datus Finanšu un operāciju programmās, skatiet sadaļā Traucējummeklēšanu [tiešās sinhronizācijas problēmas](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Pārbaudiet, vai duālais ieraksts ir konfigurēts pakalpojumā Dataverse
 

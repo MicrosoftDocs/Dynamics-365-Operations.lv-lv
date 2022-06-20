@@ -1,6 +1,6 @@
 ---
 title: Sadarbība ar kreditoriem, izmantojot kreditoru portālu
-description: Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra &amp; un 2016. gada maija Dynamics AX versijām.
+description: Šajā rakstā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījuma apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada &amp; maija Dynamics AXversijām.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bbcea318da3ca28b35c6b5ad237092da94dbd0d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f15a1087cd85df09c9633b9936058d74656067d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865184"
 ---
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarboties ar kreditoriem, izmantojot kreditoru portālu
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Sadarbība ar kreditoriem, izmantojot kreditoru portālu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījumu apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
+Šajā rakstā ir aprakstīts, kā iepirkuma aģenti var izmantot kreditoru portālu, lai sadarbotos ar ārējiem kreditoriem pirkšanas pasūtījuma apstiprināšanas procesa laikā. Šī informācija attiecas tikai uz 2016. februāra un 2016. gada maija Dynamics AX versijām.
 
-Šajā tēmā sniegtā informācija attiecas tikai uz 2016. gada februāra un 2016. gada maija Dynamics AX versijām. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
+Informācija šajā rakstā attiecas tikai uz Dynamics 2016. gada februāra un 2016. gada maija versijām AX. Papildinformāciju par jauno kreditoru sadarbības funkcionalitāti skatiet rakstā [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).  
 
 Kreditoru portāls ir paredzēts kreditoriem, kas neizmanto elektronisko datu savstarpējās apmaiņas (electronic data interchange — EDI) integrāciju ar programmu Microsoft Dynamics AX, lai nodrošinātu pirkšanas pasūtījumu (PP) informācijas apmaiņu. Portāls sniedz pirkšanas aģentiem iespēju nosūtīt PP kreditoram un pēc tam saņemt atbildi Apstiprināts vai Noraidīts tieši programmā Dynamics AX.  
 

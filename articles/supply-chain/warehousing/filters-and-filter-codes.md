@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt preču filtrus noliktavas darījumiem
-description: Šajā tēmā ir aprakstīts, kā konfigurēt produktu filtrus un filtru kodus, lai noliktavā krājumu vienības iedalītu kategorijās. Filtrus varat arī izmantot, lai norādītu, kuri debitori var pasūtīt noteiktu krājumu, un norādītu krājumus, ko iespējams iegādāties no konkrēta kreditora.
+description: Šajā rakstā ir aprakstīts, kā konfigurēt preču filtrus un filtru kodus, lai noliktavā kategorizētu krājumu krājumus. Filtrus varat arī izmantot, lai norādītu, kuri debitori var pasūtīt noteiktu krājumu, un norādītu krājumus, ko iespējams iegādāties no konkrēta kreditora.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850443"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Konfigurēt preču filtrus noliktavas darījumiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā konfigurēt produktu filtrus un filtru kodus, lai noliktavā krājumu vienības iedalītu kategorijās. Filtrus varat arī izmantot, lai norādītu, kuri debitori var pasūtīt noteiktu krājumu, un norādītu krājumus, ko iespējams iegādāties no konkrēta kreditora.
+Šajā rakstā ir aprakstīts, kā konfigurēt preču filtrus un filtru kodus, lai noliktavā kategorizētu krājumu krājumus. Filtrus varat arī izmantot, lai norādītu, kuri debitori var pasūtīt noteiktu krājumu, un norādītu krājumus, ko iespējams iegādāties no konkrēta kreditora.
 
 Turklāt varat iestatīt un izmantot filtru kodus, lai noliktavā esošās krājumu vienības automātiski sakārtotu un filtrētos vienumus kombinētu filtru grupās. Filtrus var izmantot, lai ievietotu krājumus kategorijās apstrādes, pirkšanas un pārdošanas procesiem. Ja vēlaties grupēt krājumus kopā vai atdalīt tos vienu no otra, ja to apstrādes veids ir atkarīgs no svara vai apstrādes ierobežojumiem. Varat arī norādīt, no kuriem debitoriem vai kreditoriem krājumu var iegādāties vai pārdot.
 
@@ -48,7 +48,7 @@ Preču filtri nodrošina līdz 10 **Filtra nosaukuma** raksturlielumiem, kas ir 
 
     ![Preču filtra iestatīšana.](media/Product_Filters10.png "Preču filtra iestatīšana")
 
-1. Laukā **Apraksts** ievadiet koda nosaukumu. Piemēram, *2. kods* varētu atainot kreditorus. Pēc tam varat veidot produktu filtru noteiktam kreditoram vai kreditoru grupai. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā [Kreditoru filtra kodu iestatīšana](#vendor-product-filters).
+1. Laukā **Apraksts** ievadiet koda nosaukumu. Piemēram, *2. kods* varētu atainot kreditorus. Pēc tam varat veidot produktu filtru noteiktam kreditoram vai kreditoru grupai. Papildinformāciju skatiet tālāk [šī raksta sadaļā](#vendor-product-filters) Iestatīt kreditoru filtru kodus.
 
     ![Preču filtru kopums.](media/Product_Filters.png "Preču filtru kopums")
 

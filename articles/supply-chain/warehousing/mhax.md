@@ -1,6 +1,6 @@
 ---
 title: Materiālu apstrādes aprīkojuma interfeiss (MHAX)
-description: Šajā tēmā ir aprakstīts, kā iestatīt materiālu apstrādes aprīkojuma interfeisu (MHAX), lai varētu izveidot savienojumu ar ārējā fiziskās materiālu apstrādes (MH) sistēmām.
+description: Šajā rakstā ir aprakstīts, kā iestatīt materiālu apstrādes aprīkojuma interfeisu (SIAAX), lai varētu izveidot savienojumu ar ārējā fiziskās materiālu apstrādes (UTT) sistēmām.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907092"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 
@@ -88,7 +88,7 @@ Lai izveidotu abonementu, dodieties uz **Materiālu apstrādes aprīkojuma inter
 
 Vaicājums var būt saistīts ar katru abonementu. Šis vaicājums filtrē darba rindas un virsrakstus, lai ierobežotu darbu, kas izmantos abonementu notikumu ģenerēšanai. Lai pievienotu vaicājumu abonementam, atlasiet izvēles rūtiņu **Palaist vaicājumu** atbilstošam abonementam **Abonementu** lapā un pēc tam atlasiet **Rediģēt vaicājumu** darbību rūtī. Parādās standarta Supply Chain Management vaicājuma redaktors.
 
-Turklāt abonementā ir ietverta *abonementa karte*, kas pēc vajadzības kartē laukus vai nu no darba virsraksta, vai darba rindas uz dažiem vai visiem 10 bezmaksas datu laukiem izejošajā notikumā. Lai atgrieztu informāciju MHAX servisam, parasti jūs ieļausiet darba rindas ieraksta ID vai *darba rindu pāra ID*. (Darba rindu pāra ID ir jauns rekvizīts, kas ļauj sistēmai izmantot vienu atgriešanas komandu, lai apstrādātu izdošanas un izvietošanas rindas.) Atlikušie lauki ir atkarīgi no lietošanas gadījuma. Tālāk šajā tēmā sniegti daži piemēri.
+Turklāt abonementā ir ietverta *abonementa karte*, kas pēc vajadzības kartē laukus vai nu no darba virsraksta, vai darba rindas uz dažiem vai visiem 10 bezmaksas datu laukiem izejošajā notikumā. Lai atgrieztu informāciju MHAX servisam, parasti jūs ieļausiet darba rindas ieraksta ID vai *darba rindu pāra ID*. (Darba rindu pāra ID ir jauns rekvizīts, kas ļauj sistēmai izmantot vienu atgriešanas komandu, lai apstrādātu izdošanas un izvietošanas rindas.) Atlikušie lauki ir atkarīgi no lietošanas gadījuma. Daži piemēri sniegti tālāk šajā rakstā.
 
 Lai iestatītu abonementa karti, atlasiet attiecīgo abonementu abonementu lapā **Abonementi** un pēc tam darbību rūtī atlasiet **Abonementa karte**. Redzamajā dialoglodziņā **Abonementa karte** varat piešķirt tabulu un lauku katram pieejamam datu laukam pēc izvēles.
 
@@ -161,7 +161,7 @@ Ja tiek nodrošināts darba rindu pāra ID, visas izdošanas, izvietošanas vai 
 
 Izdošanas rindām no numura zīmes kontrolētiem novietojumiem ir nepieciešams, lai **dati03** norādītu numura zīmi, no kuras ir jāizņem, neatkarīgi no tā, vai rindas ir atzīmētas ar darba rindas ieraksta ID vai darba rindu pāra ID. Laukam **data04** ir jānorāda darba virsraksta mērķa numura zīme importēšanai.
 
-Izvietošanas rindas nepieņem papildinformāciju. Tās tiek palaistas, balstoties tikai uz pašreizējās darba rindas atrašanās vietu un darba mērķa noliktavas vienības. Ja izvietošanas darbības jāveic citā vietā, mainiet darba rindas atrašanās vietu tā, kā tas ir aprakstīts tālāk šīs tēmas sadaļā [Ignorēt notikumus](#override-events).
+Izvietošanas rindas nepieņem papildinformāciju. Tās tiek palaistas, balstoties tikai uz pašreizējās darba rindas atrašanās vietu un darba mērķa noliktavas vienības. Ja izvietošanas darbības jāveic citā novietojumā, mainiet darba rindas atrašanās vietu tā, [kā](#override-events) tas ir aprakstīts tālāk šī raksta sadaļā Ignorēt notikumus.
 
 Pielāgotām darba rindām nav nepieciešama vai atbalstīta papildinformācija saņemšanas notikumā.
 
@@ -220,7 +220,7 @@ Visbeidzot, jūsu ienākošā rinda sāks kļūt pilna ar jau apstrādātiem rin
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Iegūt ātro pārskatu, izmantojot rindas pārvaldnieku
 
-Lai iegūtu ātru pārskatu par visām aktivitātēm, kas attiecas uz jūsu saņemšanas un nosūtīšanas rindām, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \> Darbvietas \> Rindu pārvaldnieks**. Lapa **Rindas pārvaldnieks** nodrošina ciļņu un rūšu kopu, ko varat izmantot, lai pārraudzītu un izpētītu rindas. Tajā ir arī sniegtas noderīgas saites uz lielāko daļu citu šajā tēmā minēto lapu.
+Lai iegūtu ātru pārskatu par visām aktivitātēm, kas attiecas uz jūsu saņemšanas un nosūtīšanas rindām, dodieties uz **Materiālu apstrādes aprīkojuma interfeiss \> Darbvietas \> Rindu pārvaldnieks**. Lapa **Rindas pārvaldnieks** nodrošina ciļņu un rūšu kopu, ko varat izmantot, lai pārraudzītu un izpētītu rindas. Tā arī sniedz noderīgas saites uz lielāko daļu citu šajā rakstā minēto lapu.
 
 ## <a name="connect-to-the-mhax-service"></a>Savienot ar MHAX pakalpojumu
 

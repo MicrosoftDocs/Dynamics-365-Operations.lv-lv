@@ -1,7 +1,7 @@
 ---
 title: Kalendāri un vispārējā plānošana
-description: Šajā tēmā ir sniegts pārskats par piegādes ķēdes kalendāriem un to, kā tie ietekmē vispārējo plānošanu.
-author: ChristianRytt
+description: Šajā rakstā sniegts pārskats par piegādes ķēdes kalendāriem un to, kā tie ietekmē vispārējo plānošanu.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890978"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendāri un vispārējā plānošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par piegādes ķēdes kalendāriem un to, kā tie ietekmē vispārējo plānošanu.  Ir sniegti paskaidrojumi par dažādiem kalendāriem, ko izmanto vispārējās plānošanas programmā, tostarp, kā tie ietekmē nosūtīšanas un saņemšanas datumus plānotajos pasūtījumos. Visbeidzot, ir sniegti ieteikumi par kalendāru piešķiršanu, izmantošanu un atjaunināšanu.
+Šajā rakstā sniegts pārskats par piegādes ķēdes kalendāriem un to, kā tie ietekmē vispārējo plānošanu.  Ir sniegti paskaidrojumi par dažādiem kalendāriem, ko izmanto vispārējās plānošanas programmā, tostarp, kā tie ietekmē nosūtīšanas un saņemšanas datumus plānotajos pasūtījumos. Visbeidzot, ir sniegti ieteikumi par kalendāru piešķiršanu, izmantošanu un atjaunināšanu.
 
 ## <a name="definition-of-a-calendar"></a>Kalendāra definēšana
 

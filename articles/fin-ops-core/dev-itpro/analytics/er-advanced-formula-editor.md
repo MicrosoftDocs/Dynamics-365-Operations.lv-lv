@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu uzlabotās formulas redaktors
-description: Šajā tēmā aprakstīts, kā uzlabotās formulas redaktoru var izmantot, lai konfigurētu elektronisko pārskatu (ER) modeļu kartēšanas izteiksmes un formāta komponentus.
+description: Šajā rakstā ir aprakstīts, kā papildu formulas redaktoru var izmantot, lai konfigurētu izteiksmes Elektronisko pārskatu (ER) modeļu kartēšanā un formāta komponentos.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869104"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronisko pārskatu uzlabotās formulas redaktors
 
 [!include [banner](../includes/banner.md)]
 
-Papildus [Elektronisko pārskatu](general-electronic-reporting.md) [formulas redaktoram](general-electronic-reporting-formula-designer.md) varat izmantot uzlaboto elektronisko pārskatu formulas redaktoru, lai uzlabotu elektronisko pārskatu (ER) izteiksmju konfigurēšanas pieredzi. Uzlabotais redaktors ir pieejams pārlūkprogrammā, un to nodrošina [Monako redaktors](https://microsoft.github.io/monaco-editor). Tālāk apskatītajā tēmā ir aprakstītas visbiežāk izmantotās uzlabota redaktora funkcijas.
+Papildus [Elektronisko pārskatu](general-electronic-reporting.md) [formulas redaktoram](general-electronic-reporting-formula-designer.md) varat izmantot uzlaboto elektronisko pārskatu formulas redaktoru, lai uzlabotu elektronisko pārskatu (ER) izteiksmju konfigurēšanas pieredzi. Uzlabotais redaktors ir pieejams pārlūkprogrammā, un to nodrošina [Monako redaktors](https://microsoft.github.io/monaco-editor). Visbiežāk izmantotie papildu redaktora līdzekļi ir aprakstīti šajā rakstā:
 
 - [Kodu autoformatējums](#Autoformatting)
 - [IntelliSense](#IntelliSense)
@@ -39,7 +39,7 @@ Papildus [Elektronisko pārskatu](general-electronic-reporting.md) [formulas red
 
 ## <a name=""></a><a name="ActivateAdvEditor">Uzlabotās formulas redaktora aktivizēšana</a>
 
-Veiciet tālāk norādītās darbības, lai sāktu izmantot uzlabotās formulas redaktoru savā Microsoft Dynamics 365 Finance instancē.
+Veiciet šos soļus, lai sāktu izmantot papildu formulas redaktoru jūsu Microsoft Dynamics 365 Finanšu instancē.
 
 1.  Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2.  Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
@@ -50,7 +50,7 @@ Veiciet tālāk norādītās darbības, lai sāktu izmantot uzlabotās formulas 
 > [!NOTE]
 > Ņemiet vērā, ka šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
 
-Sākot ar Microsoft Dynamics 365 Finance versiju 10.0.19, varat kontrolēt, kurš ER formulas redaktors tiek piedāvāts pēc noklusējuma. Veiciet šīs darbības, lai iespējotu papildu formulas redaktoru visiem pašreizējās Finance instances lietotājiem un uzņēmumiem.
+Sākot ar Microsoft Dynamics 365 finanšu versiju 10.0.19, var kontrolēt, kurš ER formulas redaktors tiek piedāvāts pēc noklusējuma. Veiciet šīs darbības, lai iespējotu papildu formulas redaktoru visiem pašreizējās Finance instances lietotājiem un uzņēmumiem.
 
 1.  Atveriet darbvietu **Funkcionalitātes pārvaldība**.
 2.  Atrodiet sarakstā un atlasiet līdzekli **Iestatīt ER papildu formulas redaktoru kā noklusējuma redaktoru visiem lietotājiem**, pēc tam atlasiet **Aktivizēt tagad**.

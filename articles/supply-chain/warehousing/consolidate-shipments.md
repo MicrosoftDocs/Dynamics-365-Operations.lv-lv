@@ -1,6 +1,6 @@
 ---
 title: Konsolidēt sūtījumus, izmantojot sūtījumu konsolidāciju politikas
-description: Šajā tēmā ir apkopotas saites uz scenārijiem, kas parāda, kā strādāt ar sūtījumu konsolidācijas politikām.
+description: Šajā rakstā ir sniegta saišu kolekcija uz scenārijiem, kas parāda, kā strādāt ar piegādes konsolidācijas politikām.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 537997d18d2905d7c3eedc6a92716022468782dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: adc179192795dd848da76e12f76d7b1ca4127060
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893212"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>Konsolidēt sūtījumus, izmantojot sūtījumu konsolidāciju politikas
 

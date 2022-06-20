@@ -1,6 +1,6 @@
 ---
 title: Pievienot jaunus laukus biznesa dokumenta veidnei Microsoft Excel
-description: Šajā tēmā sniegta informācija par to, kā pievienot jaunus laukus biznesa dokumenta veidnei Microsoft Excel, izmantojot biznesa dokumentu pārvaldības līdzekli.
+description: Šajā rakstā ir sniegta informācija, kā biznesa dokumenta veidnei pievienot jaunus laukus Microsoft Excel, izmantojot biznesa dokumentu pārvaldības līdzekli.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869407"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Pievienot jaunus laukus biznesa dokumenta veidnei Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767246"
 
 Jūs varat pievienot jaunus laukus veidnei, kas tiek izmantota, lai izveidotu biznesa dokumentus Microsoft Excel formātā. Šos laukus var pievienot kā vietturus, kas tiek izmantoti, lai aizpildītu ģenerētos dokumentus ar nepieciešamo informāciju no programmas. Katram laukam, ko pievienojat, varat arī norādīt saistījumu ar datu avotiem, lai norādītu, kādi programmas dati tiks ievadīti laukā, kad veidne tiek lietota biznesa dokumentu ģenerēšanai.
 
-Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru. Šajā piemērā ir parādīts, kā atjaunināt veidni, lai aizpildītu laukus brīvā teksta rēķina veidlapās, kas tiek veidotas.
+Lai uzzinātu vairāk par šo īpašību, pabeidziet šajā rakstā minēto piemēru. Šajā piemērā ir parādīts, kā atjaunināt veidni, lai aizpildītu laukus brīvā teksta rēķina veidlapās, kas tiek veidotas.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Biznesa dokumentu pārvaldības konfigurēšana veidņu rediģēšanai
 
 Tā kā biznesa dokumentu pārvaldība (BDP) ir veidota papildus [Elektronisko paziņojumu (EP) pārskatu](general-electronic-reporting.md) sistēmai, pirms varat sākt strādāt ar BDP, ir jākonfigurē obligātie EP un BDP parametri.
 
-1.  Piesakieties Microsoft Dynamics 365 Finance instancei kā sistēmas administrators.
-2.  Veiciet šādas darbības no piemēra tēmā [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md):
+1.  Piesakieties Microsoft Dynamics 365 Finanšu instancē kā sistēmas administrators.
+2.  Izpildiet tālāk norādītos soļus piemērā biznesa dokumentu [pārvaldības pārskata](er-business-document-management.md) rakstā:
 
     1.  Konfigurējiet ER parametrus.
     2.  Ieslēdziet BDP.
@@ -150,7 +150,7 @@ Darbvietā **Biznesa dokumentu pārvaldība**, cilnes **Veidne** cilne labajā r
 4.  Sadaļā **Brīvā teksta rēķins**, atlasiet līmeni **Sākotnējais dokuments**, lai norādītu rēķinu tvērumu apstrādei.
 5.  Labajā rūtī, laukā **Pārskata formāts** atlasiet veidni **Brīvā teksta rēķins (Excel) Contoso** norādītajam dokumenta līmenim.
 
-    ![Atlasīta bezmaksas teksta Contoso veidne (Excel).](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Ir atlasīta brīva teksta rēķina (Excel) Contoso veidne.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Nospiediet taustiņu **Esc**, lai aizvērtu pašreizējo lapu.
 7.  Atlasīt **Drukāt \> Izvēlēts**.

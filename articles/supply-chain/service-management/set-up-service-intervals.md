@@ -1,6 +1,6 @@
 ---
 title: Pakalpojumu intervālu iestatīšana
-description: Šajā tēmā ir aprakstīts, kā iestatīt pakalpojumu intervālus. Pakalpojumu intervāls norāda biežumu, ar kādu pakalpojuma pasūtījuma rindas tiek izveidotas pakalpojumu līguma rindām, kad veidojat pakalpojumu pasūtījumus.
+description: Šajā rakstā ir aprakstīts, kā iestatīt pakalpojumu intervālus. Pakalpojumu intervāls norāda biežumu, ar kādu pakalpojuma pasūtījuma rindas tiek izveidotas pakalpojumu līguma rindām, kad veidojat pakalpojumu pasūtījumus.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 943ed0b8f329b45225b61247998e15a1d82356aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 56b8a31af061b90aeddfb460f6e86c2c5636b280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845958"
 ---
 # <a name="set-up-service-intervals"></a>Pakalpojumu intervālu iestatīšana  
 
@@ -48,7 +48,7 @@ Jūs vēlaties izveidot pakalpojumu intervālu ar biežumu 10 dienas.
 5. Laukā **Biežums** ierakstiet 10.
 6. Lai saglabātu pakalpojumu intervālu, nospiediet taustiņu kombināciju **Alt+S**.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Pakalpojumu intervāli ](service-intervals.md)  
 

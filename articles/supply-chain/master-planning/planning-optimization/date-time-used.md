@@ -1,6 +1,6 @@
 ---
 title: Datuma un laika parametri, kas tiek izmantoti Plānošanas optimizācijai
-description: Šajā tēmā ir sniegta informācija par datuma un laika parametriem, ko Plānošanas optimizēšana izmanto tās operācijas laikā.
+description: Šajā rakstā ir sniegta informācija par datuma un laika parametriem, ko plānošanas optimizēšana izmanto tās operācijas laikā.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885904"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Datuma un laika parametri, kas tiek izmantoti Plānošanas optimizācijai
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par datuma un laika parametriem, ko Plānošanas optimizēšana izmanto tās operācijas laikā.
+Šajā rakstā ir sniegta informācija par datuma un laika parametriem, ko plānošanas optimizēšana izmanto tās operācijas laikā.
 
 Turpretim iebūvētajā vispārējās plānošanas programmā tiek izmantoti darbību datumi visos aprēķinos, bet Plānošanas optimizācija darbojas ar datuma un laika vērtībām, kas tiek konvertētas uz datumiem. Šī atšķirības uzvedība var izraisīt situācijas, kad, piemēram, budžeta darbības, kas ir izveidotas pusnaktī tajā dienā, kad ir palaista vispārējā plānošana, nav iekļautas, jo Plānošanas optimizācija apsver, ka tās ir izveidotas pirms pašreizējā datuma.
 

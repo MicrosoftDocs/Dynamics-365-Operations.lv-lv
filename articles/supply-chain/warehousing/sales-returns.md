@@ -1,6 +1,6 @@
 ---
-title: Atgrieztās pārdotās preces
-description: Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
+title: Pārdošanas ieņēmumi
+description: Šajā rakstā ir sniegta informācija par atgriešanas pasūtījumu procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860411"
 ---
-# <a name="sales-returns"></a>Atgrieztās pārdotās preces
+# <a name="sales-returns"></a>Pārdošanas ieņēmumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par atgriešanas pasūtījumu apstrādes procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
+Šajā rakstā ir sniegta informācija par atgriešanas pasūtījumu procesu. Tajā ir ietverta informācija par debitoru atgriešanām un to ietekmi uz izmaksu aprēķināšanu un rīcībā esošo krājumu daudzumu.
 
 Debitori var atgriezt krājumus dažādu iemeslu dēļ. Piemēram, krājums var būt bojāts vai neatbilst debitora prasībām. Atgriešanas pasūtījums sākas, kad debitors iesniedz krājuma atgriešanas pieprasījumu. Pēc debitora pieprasījuma saņemšanas tiek izveidots atgriešanas pasūtījums.
 
@@ -84,7 +84,7 @@ Pēc atgriešanas virsraksta pabeigšanas varat izveidot atgriešanas rindas, iz
 -   Izveidojiet atgriešanas rindu, izmantojot funkciju **Atrast pārdošanas pasūtījumu**. Ir ieteicams atgriešanas pasūtījuma izveides laikā izmantot šo funkciju. Funkcija **Atrast pārdošanas pasūtījumu** nodrošina atsauces izveidi starp atgriešanas rundu un rēķinā iekļauto pārdošanas pasūtījuma rindu un rindas informācijas, piemēram, krājuma numura, daudzuma, cenas, atlaides un izmaksu vērtību, izgūšanu no pārdošanas rindas. Atsauce palīdz nodrošināt, ka tad, kad prece tiek atgrieza uzņēmumam, tās vērtība ir tāda pati kā vienības cena pārdošanas laikā. Atsauce arī nepieļauj atgriešanas pasūtījumu izveidi daudzumam, kas pārsniedz rēķinā norādīto pārdoto daudzumu.
 
 >[!NOTE] 
->Atgriešanas rindas, kurām ir atsauce uz pārdošanas pasūtījumu, tiek apstrādātas kā pārdošanas korekcijas vai atcelšana. Papildinformāciju skatiet šīs tēmas nākamajā sadaļā “Grāmatošana Virsgrāmatā”.
+>Atgriešanas rindas, kurām ir atsauce uz pārdošanas pasūtījumu, tiek apstrādātas kā pārdošanas korekcijas vai atcelšana. Papildinformāciju skatiet tālāk šī raksta sadaļā "Grāmatot Virsgrāmatā".
 
 ### <a name="charges"></a>Maksas
 
@@ -179,7 +179,7 @@ Pirms atgriezto krājumu fiziskas saņemšanas krājumos, grāmatojot pavadzīmi
 
 [![Saņemšanas process.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Pastāv vairākas citas šī procesa variācijas, kas nav aprakstītas šajā tēmā. Tālāk ir norādītas dažas no šīm variācijām.
+Procesam ir vairākas citas variācijas, kas nav ietvertas šajā rakstā. Tālāk ir norādītas dažas no šīm variācijām.
 
 -   Saņemšanas žurnāla izveidei neizmantojiet sarakstu **Saņemšanas darbību apskats**. Tā vietā manuāli izveidojiet saņemšanas žurnālu. Atgriešanas pasūtījumu atsauce ir **pārdošanas pasūtījums**.
 -   Ja lietojat moduli Noliktavas pārvaldība, ģenerējiet palešu transportēšanas darbības. Palešu transportēšanas laikā atgriešanas rindas statuss ir **Pienācis**.

@@ -1,6 +1,6 @@
 ---
 title: TABLENAME2ID ER funkcija
-description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota TABLENAME2ID elektroniskā pārskata (ER) funkcija.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek izmantota FUNKCIJA TABLENAME2ID Electronic Reporting (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a500eda75fbb5867f74b56753ee45016c60803b06f508340540764a6cd0399cc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5deea69d5c43be599ccf02c0344ba8d662a6e0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886854"
 ---
 # <a name="tablename2id-er-function"></a>TABLENAME2ID ER funkcija
 
@@ -47,7 +47,7 @@ Iegūtā skaitliskā vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Šīs funkcijas izpildei var būt atšķirīgi rezultāti dažādās Microsoft Dynamics 365 Finance instancēs, pat ja tiek izmantots viens un tas pats uzņēmuma nosaukums.
+Šīs funkcijas izpildei var būt dažādi rezultāti dažādos Microsoft Dynamics 365 Finanšu gadījumos, pat ja tiek izmantots viens uzņēmuma nosaukums.
 
 ## <a name="example"></a>Paraugs
 

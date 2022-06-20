@@ -1,6 +1,6 @@
 ---
 title: Personāla atlases procesu pārvaldība
-description: Šajā tēmā aprakstīta koncepcija, ko personāla atlases var izmantot, lai izsekotu soļus personāla atlases procesā.
+description: Šajā rakstā ir aprakstīta koncepcija, ko personāla atlases veicēji var izmantot, lai sekotu darbībām personāla atlases procesā.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910324"
 ---
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
 > [!IMPORTANT]
-> Šajā tēmā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem. 
+> Šajā rakstā personāla atlases funkcionalitāte tiks saukta par personāla atlases projektiem un fokusiem uz kandidātiem, pieteikumiem un personāla atlases projektiem. 
 
 
-Šajā tēmā ir aprakstīta metode, ko personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesa darbības, tostarp vakanču izsludināšanu un kandidātu piesaisti, informācijas par kandidātu un pieteikumu izsekošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi izsludināto vakanču aizpildīšanai organizācijā.
+Šajā tēmā ir aprakstīta metode, kuru personāla atlases speciālisti var izmantot, lai izsekotu personāla atlases procesā veicamajām darbībām, kas iekļauj sludinājumu par vakancēm publicēšanas pasākumus, informācijas par kandidātu un pieteikumu noskaidrošanu, kandidātu intervēšanu un viena vai vairāku kandidātu atlasi organizācijā izsludināto vakanču aizpildīšanai.
 
 ## <a name="overview"></a>Pārskats
 

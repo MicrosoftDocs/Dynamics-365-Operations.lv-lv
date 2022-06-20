@@ -1,6 +1,6 @@
 ---
 title: Kreditoru sadarbības iestatīšana un uzturēšana
-description: Šajā tēmā ir izskaidrots, kā iestatīt piegādātāju sadarbību Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā nodrošināt jaunus piegādātāju sadarbības lietotājus un pārvaldīt šo lietotāju drošības lomas.
+description: Šajā rakstā skaidrots, kā iestatīt kreditoru sadarbības Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā nodrošināt jaunus piegādātāju sadarbības lietotājus un pārvaldīt šo lietotāju drošības lomas.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890833"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Kreditoru sadarbības iestatīšana un uzturēšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677567"
 
 Kreditoru sadarbības interfeiss sniedz ierobežotu informācijas kopumu par ārējo piegādātāja lietotāju pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. No šī interfeisa piegādātājs var arī atbildēt uz piedāvājuma pieprasījumiem (PP) un skatīt un rediģēt pamata uzņēmuma informāciju.
 
-Šajā tēmā ir izskaidrots, kā iestatīt piegādātāju sadarbību Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā iestatīt darbplūsmu tā, lai tā nodrošinātu jaunus piegādātāja sadarbības lietotājus un kā pārvaldīt šo lietotāju drošības lomas.
+Šajā rakstā skaidrots, kā iestatīt kreditoru sadarbības Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā iestatīt darbplūsmu tā, lai tā nodrošinātu jaunus piegādātāja sadarbības lietotājus un kā pārvaldīt šo lietotāju drošības lomas.
 
 > [!NOTE]
 > Informācija par drošības lomu iestatīšanu kreditoru sadarbībasm attiecas tikai uz pašreizējo Finanšu un operāciju versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Papildinformāciju par lietotāju atļaujām Piegādātāju portālam Microsoft Dynamics AX skatiet sadaļā [Piegādātāju portāla lietotāja drošība](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ Lomu **Piegādātājs (ārējā)** var izmantot ārējiem piegādātājiem, kas 
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Iestatīt drošības lomas, kas tiek izmantotas, kad tiek izmantoti potenciālie piegādātāji
 
-Uzņēmuma piegādātājiem, kas tiek uzsākti ar potenciālā piegādātāja reģistrācijas pieprasījuma starpniecību, jums ir jāiestata ārējas drošības loma. Šī loma tiks piešķirta jauniem lietotājiem nodrošinājuma procesa laikā, ko kontrolē darbplūsma ar **Lietotāja pieprasījuma darbplūsma (platforma)** tipu. Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Iestatīt darbplūsmas, lai apstrādātu piegādātāju sadarbības lietotāju pieprasījumus](#set-up-workflows-to-process-vendor-collaboration-user-requests).
+Uzņēmuma piegādātājiem, kas tiek uzsākti ar potenciālā piegādātāja reģistrācijas pieprasījuma starpniecību, jums ir jāiestata ārējas drošības loma. Šī loma tiks piešķirta jauniem lietotājiem nodrošinājuma procesa laikā, ko kontrolē darbplūsma ar **Lietotāja pieprasījuma darbplūsma (platforma)** tipu. Papildinformāciju skatiet tālāk [šī raksta sadaļā Iestatīt darbplūsmas kreditoru sadarbības](#set-up-workflows-to-process-vendor-collaboration-user-requests) lietotāju pieprasījumu apstrādātu.
 
 Informāciju par to, kā pievienot potenciālos piegādātājus, skatiet sadaļā [Pievienot piegādātājus](vendor-onboarding.md).
 

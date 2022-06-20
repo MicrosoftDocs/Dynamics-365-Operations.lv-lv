@@ -1,6 +1,6 @@
 ---
 title: Ražošanas izpildes interfeisa konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā izveidot vienu vai vairākas konfigurācijas ražotnes izpildes interfeisam. Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfigurāciju un darbu filtru, kas ir raksturīgs pārlūkam un ierīcei. Konfigurācijā ir jāiestata politikas, kas jāpiemēro specifiskam lietojumam.
+description: Šajā rakstā ir aprakstīts, kā ražošanas izpildes interfeisam izveidot vienu vai vairākas konfigurācijas. Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfigurāciju un darbu filtru, kas ir raksturīgs pārlūkam un ierīcei. Konfigurācijā ir jāiestata politikas, kas jāpiemēro specifiskam lietojumam.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899416"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -31,15 +31,15 @@ Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfi
 - Ierīcē, kas atrodas uzņēmuma zālē, darbinieki reģistrējas, kad tie ierodas birojā, un viņi reģistrējas, kad tie aiziet, beidzot dienu.
 - Ierīcē ražotnē mašīnu operatori reģistrējas, kad tie sāk un pabeidz darbus. Viņi reģistrē arī pārtraukumus un netiešās aktivitātes.
 
-Šajā tēmā aprakstītas dažādas opcijas ražošanas stāva izpildes interfeisa konfigurēšanai katrai jūsu vietā izmantojamai ierīcei.
+Šajā rakstā aprakstītas dažādas opcijas ražošanas stāva izpildes interfeisa konfigurēšanai katrai ierīcei, kas tiek lietota jūsu vietnē.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ieslēgt ražošanas stāva izpildes interfeisu un ar to saistītās papildu funkcijas
 
-Ražošanas stāva izpildes interfeiss, kā arī vairāki papildu iestatījumi, kas aprakstīti šajā tēmā, ir jāieslēdz sistēmā, lai tos varētu izmantot. Izmantojiet lapu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu jebkuru vai visus tālākajās apakšnodaļās norādītos līdzekļus pēc nepieciešamības.
+Ražošanas izpildes interfeiss, pieskaitot vairākus šajā rakstā aprakstītos izvēles iestatījumus, ir jāieslēdz savā sistēmā pirms to lietošanas. Izmantojiet lapu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu jebkuru vai visus tālākajās apakšnodaļās norādītos līdzekļus pēc nepieciešamības.
 
 ### <a name="the-production-floor-execution-interface"></a>Ražošanas izpildes interfeiss
 
-Šī ir primārā funkcija, kas aprakstīta šajā tēmā, un ir priekšnoteikums visām pārējām šajā sadaļā minētajām funkcijām. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 tas ir obligāts un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot Ražošanas*[stāva izpildes līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šī ir šajā rakstā aprakstītā primārā funkcija un ir priekšnoteikums visām pārējām šajā sadaļā minētajām funkcijām. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 tas ir obligāts un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, tad administratori šo funkcionalitāti var ieslēgt vai izslēgt, *meklējot Ražošanas*[stāva izpildes līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Ģenerēt numura zīmes
 
@@ -146,7 +146,7 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 - Aktivizējiet materiālu patēriņa korekcijas **no pārskata progresa** dialoglodziņa. (Šai funkcionalitātei ir nepieciešams arī *Reģistrēt materiālu patēriņu ražošanas izpildes interfeisa funkcijai (nav WMS*).)
 - Iespējojiet meklēšanu pēc projekta ID.
 
-Informācija par to, kā izmantot iestatījumus, ir sniegta tālāk šajā tēmā.
+Informācija par to, kā izmantot iestatījumus, ir sniegta tālāk šajā rakstā.
 
 Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
@@ -168,7 +168,7 @@ Kopsavilkuma cilnē Vispārīgi ir pieejami **šādi** iestatījumi:
 
 - **Ierašanās un aiziešanas laiks** - iestatiet *šo* opciju uz Jā, lai izveidotu vienkāršotu interfeisu, kas nodrošina tikai ierašanās un aiziešanas funkcionalitāti. Šis iestatījums atspējo lielāko daļu citu opciju šajā lapā. Pirms šīs opcijas iespējošanas no **Clnes atlases** kopsavilkuma cilnē ir jānoņem visas rindas.
 - **Iespējot meklēšanu** – iestatiet šo opciju kā *Jā*, lai iekļautu meklēšanas lauku darbu sarakstā. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai arī var atrast visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot svītrkodu vai skenējot svītrkodu.
-- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad, ja opcija* Aktivizēt meklēšanu **arī ir iestatīta uz** *Jā*.
+- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad*, ja opcija **Aktivizēt meklēšanu** arī ir iestatīta uz *Jā*.
 - **Automātiski atvērt sākuma dialogu** – kad šī opcija *ir* iestatīta uz Jā, automātiski tiek atvērts dialoglodziņš Sākt darbu, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Automātiski atvērt pārskata norises dialoglodziņu** — *kad* šī opcija ir iestatīta uz Jā, automātiski tiek atvērts pārskata norises dialoglodziņš, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Aktivizēt materiālu koriģēšanu** – iestatiet šo opciju *uz Jā*, lai **iespējotu** pogu **Koriģēt materiālu pārskata** norises dialoglodziņā. Darbinieki var izvēlēties šo pogu, lai koriģētu darba materiālu patēriņu.

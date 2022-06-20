@@ -1,6 +1,6 @@
 ---
 title: Atribūtiem atbilstošas pārdošanas cenas ierobežojumiem atbilstošām preču konfigurācijām
-description: Šajā tēmā ir aprakstīts, kā veidot pārdošanas cenu modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu.
+description: Šajā rakstā ir aprakstīts, kā veidot pārdošanas cenas modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857466"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribūtiem atbilstošas pārdošanas cenas ierobežojumiem atbilstošām preču konfigurācijām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā veidot pārdošanas cenu modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu. Katram preces konfigurācijas modelim var izveidot vairākus pārdošanas cenu modeļus.
+Šajā rakstā ir aprakstīts, kā veidot pārdošanas cenas modeļus ar pārdošanas cenām, pamatojoties uz komponentiem un atribūtiem, nevis uz fizisko materiālu komplektu un maršrutu. Katram preces konfigurācijas modelim var izveidot vairākus pārdošanas cenu modeļus.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Atbilstošo preču informācijas pārvaldības parametru iestatīšana
 

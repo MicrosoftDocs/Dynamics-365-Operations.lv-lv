@@ -1,6 +1,6 @@
 ---
 title: Krājumu drošības rezerves izpilde
-description: Šajā tēmā ir apskatīta krājumu drošības rezerves izpilde un veids, kā iestatīt drošības rezervi krājumiem.
+description: Šajā rakstā ir apskatīta drošības rezerves nosacījumu izpilde un kā iestatīt krājumu drošības rezervju daudzumu.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887404"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
@@ -88,7 +88,7 @@ Ja tiek izmantoti **Minimuma principi**, atzīmējiet izvēles rūtiņu **Minimu
 Nākamajā scenārijā ir parādīts, kā šis parametrs darbojas un kādas ir atšķirības starp tā vērtībām.
 
 > [!NOTE]
-> Visās šīs tēmas ilustrācijās x ass apzīmē krājumus, y ass apzīmē dienas, joslas apzīmē krājumu līmeni, un bultiņas apzīmē transakcijas, piemēram, pārdošanas pasūtījumu rindas, pirkšanas pasūtījumu rindas vai plānotus pasūtījumus.
+> Visiem šī raksta ilustrācijām x ass attēlo krājumus, y ass apzīmē dienas, joslas attēlo krājumu līmeni, bultiņas attēlo darbības, piemēram, pārdošanas pasūtījuma rindas, pirkšanas pasūtījuma rindas vai plānotos pasūtījumus.
 
 [![Kopējs drošības rezervju izpildes scenārijs.](media/Scenario1.png)](media/Scenario1.png)
 

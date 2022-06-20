@@ -1,6 +1,6 @@
 ---
 title: Līdzekļi un darba pasūtījumi
-description: Šajā tēmā aprakstīti līdzekļi un darba pasūtījumi Līdzekļu pārvaldībā.
+description: Šajā rakstā ir aprakstīti līdzekļi un darba pasūtījumi Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869696"
 ---
 # <a name="assets-and-work-orders"></a>Līdzekļi un darba pasūtījumi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718111"
 
  
 
-Šajā tēmā aprakstīti līdzekļi un darba pasūtījumi Līdzekļu pārvaldībā. Līdzekļi un darba pasūtījumi ir Līdzekļu pārvaldības centrālās daļas. *Līdzeklis* ir mašīna vai mašīnas daļa, kam nepieciešama nepārtraukta uzturēšana un apkope. Līdzekļus var izveidot hierarhiskā struktūrā, un tie var būt saistīti ar funkcionālajiem novietojumiem. Uzturēšanas darbus līdzekļu struktūrā var plānot visos līmeņos.
+Šajā rakstā ir aprakstīti līdzekļi un darba pasūtījumi Pamatlīdzekļu pārvaldībā. Līdzekļi un darba pasūtījumi ir Līdzekļu pārvaldības centrālās daļas. *Līdzeklis* ir mašīna vai mašīnas daļa, kam nepieciešama nepārtraukta uzturēšana un apkope. Līdzekļus var izveidot hierarhiskā struktūrā, un tie var būt saistīti ar funkcionālajiem novietojumiem. Uzturēšanas darbus līdzekļu struktūrā var plānot visos līmeņos.
 
 Katram līdzeklim tiek iestatīti dažādi dati, piemēram, informācija par preci un līdzekļa specifikācija, un nepieciešamie uzturēšanas plāni. Nākamajā attēlā ir redzams pārskats par līdzekļu datiem un līdzekļu piederību darba veidiem. Sarkanaiss teksts tiek izmantots piemēriem, kas parāda pārmantošanu un atkarības.
 

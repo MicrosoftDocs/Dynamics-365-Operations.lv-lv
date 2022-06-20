@@ -1,6 +1,6 @@
 ---
 title: Konsolidēt sūtījumus, ja piegādes konsolidācijas politika tiek ignorēta
-description: Šī tēma piedāvā scenāriju, kur viena vai vairākas pārdošanas rindas ir manuāli jāpārvieto uz noliktavu no lapas Pārvietot uz noliktavu, un sistēmas definētā sūtījumu konsolidācijas politika ir jāignorē pirms pārvietošanas.
+description: Šajā rakstā ir norādīts scenārijs, kad viena vai vairākas pārdošanas rindas ir manuāli jānolaiž noliktavā no lapas Izlaist noliktavai, un pirms izlaišanas ir jāi pvn jāatbilst sistēmas definētam piegādes konsolidācijas ierobežojumam.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878705"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Konsolidēt sūtījumus, ja piegādes konsolidācijas politika tiek ignorēta
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma piedāvā scenāriju, kur viena vai vairākas pārdošanas rindas ir manuāli jāpārvieto uz noliktavu no lapas **Pārvietot uz noliktavu**, un sistēmas definētā sūtījumu konsolidācijas politika ir jāignorē pirms pārvietošanas. Sūtījuma konsolidācijas politikas ignorēšana var būt nepieciešama, ja, piemēram, pasūtījums, kas parasti netiek konsolidēts ar atvērtiem sūtījumiem, ir jākonsolidē ar atvērtiem sūtījumiem.
+Šajā rakstā ir norādīts scenārijs, kad viena vai vairākas pārdošanas rindas ir manuāli jānolaiž noliktavā no lapas Izlaist noliktavai, un pirms izlaišanas ir jāi pvn jāatbilst sistēmas definētam piegādes konsolidācijas **ierobežojumam**. Sūtījuma konsolidācijas politikas ignorēšana var būt nepieciešama, ja, piemēram, pasūtījums, kas parasti netiek konsolidēts ar atvērtiem sūtījumiem, ir jākonsolidē ar atvērtiem sūtījumiem.
 
 Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopu un pēc tam ignorēsiet noklusējuma sūtījumu konsolidācijas politiku pirms pasūtījumu nodošanas noliktavā.
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
+Šī raksta scenārijā ir atsauces uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti korporācijai Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 

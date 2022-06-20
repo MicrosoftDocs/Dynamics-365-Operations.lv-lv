@@ -1,6 +1,6 @@
 ---
 title: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
-description: Šajā tēmā ir aprakstīts, kā lietot formatēšanas metodes etiķešu vērtību drukāšanai.
+description: Šajā rakstā ir aprakstīts, kā izmantot formatēšanas metodes vērtību drukāšanai uz etiķetēm.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847880"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
 
@@ -53,7 +53,7 @@ Vairāki plaši pieejami etiķešu ģenerēšanas rīki var jums palīdzēt form
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Krājumu darbību arhīvs*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 šī funkcija ir obligāta un to nevar izslēgt.)
+Ja sistēmā vēl nav ietverti šajā rakstā aprakstītie līdzekļi, [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*pārejiet uz sadaļu Līdzekļu pārvaldība un slēdziet līdzekli Uzlabotie numura zīmes etiķešu izkārtojumi.* (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 šī funkcija ir obligāta un to nevar izslēgt.)
 
 ## <a name="custom-number-formats"></a>Pielāgoti skaitļu formāti
 
@@ -129,7 +129,7 @@ Jūs varat drukāt no ekrāna metodes, izmantojot sekojošo formātu.
 $DisplayMethod()$
 ```
 
-Jūs varat kombinēt šo formātu ar citiem tipiem, kas tika aprakstīti iepriekš šajā tēmā. Piemēram, jums ir ekrāna metode, kas ir nosaukta `DisplayListOfItemsNumbers()`, un jūs vēlaties izdrukāt šīs metodes pirmo preces numuru. Šajā gadījumā, var izmantot sekojošo kodu.
+Šo formātu var kombinēt ar citiem veidiem, kas tika aprakstīti iepriekš šajā rakstā. Piemēram, jums ir ekrāna metode, kas ir nosaukta `DisplayListOfItemsNumbers()`, un jūs vēlaties izdrukāt šīs metodes pirmo preces numuru. Šajā gadījumā, var izmantot sekojošo kodu.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

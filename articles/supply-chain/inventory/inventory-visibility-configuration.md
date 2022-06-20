@@ -1,8 +1,8 @@
 ---
-title: Krājumu redzamības konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā izmantot Krājumu redzamības programmu.
+title: Inventory Visibility konfigurēšana
+description: Šajā rakstā ir aprakstīts, kā konfigurēt krājumu redzamību.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895820"
 ---
-# <a name="configure-inventory-visibility"></a>Krājumu redzamības konfigurēšana
+# <a name="configure-inventory-visibility"></a>Inventory Visibility konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā aprakstīts, kā konfigurēt krājuma redzamību, izmantojot Inventory Visibility programmu pakalpojumā Power Apps.
+Šajā rakstā ir aprakstīts, kā konfigurēt krājumu redzamību, izmantojot krājumu redzamības programmu Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Ievads
 
-Pirms sākat strādāt ar Krājumu redzamību, ir jāveic šāda konfigurācija, kā aprakstīts šajā tēmā:
+Pirms sākat strādāt ar krājumu redzamību, ir jāveic šāda konfigurācija, kā aprakstīts šajā rakstā:
 
 - [Datu avotu konfigurācija](#data-source-configuration)
 - [Nodalījuma konfigurācija](#partition-configuration)
@@ -41,7 +41,7 @@ Pirms sākat darbu, uzinstalējiet un iestatiet Inventory Visibility pievienojum
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Inventory Visibility lietojumprogrammas Konfigurāciju lapa
 
-Pakalpojuma Power Apps lapa **Konfigurācijas** [Inventory Visibility programmā](inventory-visibility-power-platform.md) palīdz iestatīt rīcībā esošo konfigurāciju un vieglās rezervācijas konfigurāciju. Pēc pievienojumprogrammas instalēšanas noklusējuma konfigurācija ietver Microsoft Dynamics 365 Supply Chain Management (datu avotu `fno`) vērtību. Varat pārskatīt noklusējuma iestatījumus. Turklāt, pamatojoties uzņēmuma prasībās un ārējās sistēmas krājumu grāmatošanas prasībās, varat pārveidot konfigurāciju, lai standartizētu veidu, kādā var vairākās sistēmās grāmatot, organizēt un vaicātas krājumu izmaiņas. Pārējās šīs tēmas sadaļās paskaidrots, kā lietot katru lapas **Konfigurācijas** daļu.
+Pakalpojuma Power Apps lapa **Konfigurācijas** [Inventory Visibility programmā](inventory-visibility-power-platform.md) palīdz iestatīt rīcībā esošo konfigurāciju un vieglās rezervācijas konfigurāciju. Pēc pievienojumprogrammas instalēšanas noklusējuma konfigurācija ietver Microsoft Dynamics 365 Supply Chain Management (datu avotu `fno`) vērtību. Varat pārskatīt noklusējuma iestatījumus. Turklāt, pamatojoties uzņēmuma prasībās un ārējās sistēmas krājumu grāmatošanas prasībās, varat pārveidot konfigurāciju, lai standartizētu veidu, kādā var vairākās sistēmās grāmatot, organizēt un vaicātas krājumu izmaiņas. Pārējās šī raksta sadaļas skaidro kā izmantot katru konfigurācijas **lapas** daļu.
 
 Pēc konfigurācijas pabeigšanas pārliecinieties, ka programmā atlasiet opciju **Atjaunināt konfigurāciju**.
 
@@ -54,6 +54,7 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 | *OnHandReservation* | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Šī izvēles funkcija aktivizē rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas. Papildinformāciju skatiet sadaļā Rīcībā [esošo krājumu redzamības izmaiņu grafiks un apsolīšanai pieejamais](inventory-visibility-available-to-promise.md). |
+| *Sadalījums* | Šī izvēles funkcija iespējo krājumu redzamību, lai varētu nodrošināt krājumu aizsardzību (ringfencing) un pārsaukt kontroli. Plašāku informāciju skatiet krājumu redzamības [krājumu sadalījumā](inventory-visibility-allocation.md). |
 | *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti papildu noliktavas procesiem (WHS krājumi). Papildinformāciju skatiet noliktavas [redzamības atbalsta sadaļā WHS krājumiem](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
@@ -116,7 +117,7 @@ Dimensijas konfigurācijas nolūks ir standartizēt vairāku sistēmu integrāci
 >
 > Krājumu (pielāgotas) dimensijas var būt rezervētas Supply Chain Management. Šādā gadījumā tā vietā varat lietot paplašinātās dimensijas.
 
-Ārējās sistēmas var piekļūt krājumu redzamībai, izmantojot tā RESTful API. Integrācijai krājumu redzamība ļauj konfigurēt _ārējo datu avotu_ un _ārējo dimensiju_ kartēšanu uz _pamatdimensijām_. Tālāk ir sniegts dimensiju kartēšanas tabulas piemērs.
+Ārējās sistēmas var piekļūt krājumu redzamībai, izmantojot tā RESTful API. Integrācijai krājumu redzamība ļauj konfigurēt _ārējo datu avotu_ un _ārējo dimensiju_ kartēšanu uz _pamatdimensijām_. Šeit parādīts dimensiju kartēšanas tabulas piemērs.
 
 | Ārējā dimensija | Pamata dimensija |
 |---|---|
@@ -318,7 +319,14 @@ Lai iestatītu produktu hierarhijas indeksus, veiciet tālāk norādītās darb�
 1. Pēc noklusējuma ir sniegts indeksu saraksts. Lai modificētu esošo indeksu, izvēlieties **Labot** vai **Pievienot** atbilstošā indeksa sadaļā. Lai izveidotu jaunu indeksu kopu, atlasiet **Jauna indeksu kopa**. Katrai rindai katrā indeksu kopā laukā **Dimensija** atlasiet pamatdimensiju sarakstā. Automātiski tiek ģenerētas šādu lauku vērtības:
 
     - **Kopas numurs** – dimensijas, kas pieder vienai grupai (indeksam), tiks grupētas kopā, un tām tiks piešķirts vienāds kopas numurs.
-    - **Hierarhija** – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kuras var vaicāt dimensiju grupā (indekss). Piemēram, ja iestatāt dimensiju grupu, kam ir hierarhijas secība *Stils*, *Krāsa* un *Lielums*, sistēma atbalsta trīs vaicājumu grupu rezultātus. Pirmā grupa ir tikai stils. Otrā grupa ir stila un krāsas kombinācija. Trešā grupa ir stila, krāsas un izmēra kombinācija. Citas kombinācijas netiek atbalstītas.
+    - **Hierarhija** – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kuras var vaicāt dimensiju grupā (indekss). Piemēram, ja iestatāt *dimensiju* grupu, kam ir stila, *·* *krāsas* un izmēra hierarhijas secība, sistēma atbalsta trīs vaicājumu grupu rezultātu. Pirmā grupa ir tikai stils. Otrā grupa ir stila un krāsas kombinācija. Trešā grupa ir stila, krāsas un izmēra kombinācija. Citas kombinācijas netiek atbalstītas.
+
+> [!TIP]
+> Šeit sniegti daži padomi, kas jāpatur prātā, iestatot indeksu hierarhiju:
+>
+> - Pamatdimensijas, kas ir definētas nodalījuma konfigurācijās, nav jādefinē indeksa konfigurācijās. Ja pamatdimensija atkal ir definēta indeksa konfigurācijā, nevarēsiet vaicāt pēc šī indeksa.
+> - Ja ir tikai jāvaicā krājumi, kas uzkrāti pēc visām dimensiju kombinācijām, pēc tam iestatiet vienu indeksu, kas satur pamatdimensiju `Empty`.
+> - Ir jābūt vismaz vienai indeksu hierarhijai (piemēram, `Empty` satur pamatdimensiju), pretējā gadījumā vaicājumiem neizdosies kļūda "Nav iestatīta indeksu hierarhija."
 
 ### <a name="example"></a>Paraugs
 
@@ -372,11 +380,6 @@ Indekss ļauj veikt rīcībā esošo krājumu vaicājumu šādos veidos:
     - T-krekls, sarkans, mazs, standarta, 6
     - T-krekls, sarkans, liels, standarta, 7
 
-> [!NOTE]
-> Pamatdimensijas, kas ir definētas nodalījuma konfigurācijās, nav jādefinē indeksa konfigurācijās.
-> 
-> Ja ir jāvaicā tikai tas inventārs, kurš ir apkopots ar visām izmēru kombinācijām, jūs varat iestatīt vienu rādītāju, kas satur bāzes izmēru `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervācijas konfigurācija (nav obligāti)
 
 Rezervācijas konfigurācija ir nepieciešama, ja vēlaties izmantot vieglās rezervēšanas funkciju. Konfigurācija sastāv no divām fundamentālajām daļām:
@@ -390,7 +393,7 @@ Veicot rezervāciju, iespējams, vēlēsieties zināt, vai rīcībā esošie kr�
 
 Iestatot kartējumu no fiziskā mēra uz aprēķināto mērījumu, iespējojiet Krājumu redzamības pakalpojumu, lai automātiski validētu rezervāciju pieejamību, pamatojoties uz fizisko mērījumu.
 
-Pirms kartēšanas iestatīšanas, lapas **Konfigurācija** cilnēs **Datu avots** un **Aprēķinātais līdzeklis** ir jābūt definētiem fiziskajiem līdzekļiem, aprēķinātajiem līdzekļiem un to datu avotiem programmā Power Apps (kā iepriekš aprakstīts šajā tēmā).
+Pirms **šīs** **kartēšanas** iestatīšanas konfigurācijas lapas cilnēs Datu avots un Aprēķinātais **mērs** Power Apps jādefinē fiziskie mēri, aprēķinātie mēri un to datu avoti (aprakstīts iepriekš šajā rakstā).
 
 Lai definētu vieglās rezervācijas kartēšanu, veiciet šādas darbības.
 
@@ -460,7 +463,7 @@ Rezervāciju hierarhija apraksta dimensiju secību, kas jānorāda, veicot rezer
 
 Rezervāciju hierarhija nav atkarīga no preču indeksu hierarhijas. Šī neatkarību ļauj ieviest kategoriju pārvaldību, kur lietotāji var sadalīt dimensijas detalizētāk, lai noteiktu prasības precīzākai rezervāciju veikšanai. Jūsu vieglās rezervācijas hierarhijai vajadzētu saturēt komponentus `SiteId` un `LocationId`, jo tie veido dalīšanās konfigurāciju. Veicot rezervāciju, ir jākonkretizē produkta dalījums.
 
-Tālāk ir sniegts dimensiju hierarhijas piemērs.
+Šajā piemērā ir vieglās rezervācijas hierarhijas piemērs.
 
 | Pamata dimensija | Hierarhija |
 |---|---|
@@ -508,7 +511,7 @@ Inicializācijas posmā Inventory Visibility iestata noklusējuma konfigurāciju
 
 Šajā sadaļā ir aprakstīts, kā `iv` datu avots tiek konfigurēts.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Iv datu avotam konfigurētie fiziskie pasākumi
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Fiziskie pasākumi, kas konfigurēti datu avotam "iv"
 
 Datu avotam ir konfigurēti šādi `iv` fiziskie pasākumi:
 
@@ -651,11 +654,11 @@ Pēc tam konfigurējiet `InventoryDemand` aprēķināto mērījumu ar `iv` datu 
 | Papildinājums | `iv` | `ReservPhysical` |
 | Papildinājums | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Datu avota fno konfigurācija
+#### <a name="configuration-of-the-fno-data-source"></a>"fno" datu avota konfigurācija
 
 Šajā sadaļā ir aprakstīts, kā `fno` datu avots tiek konfigurēts.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Fno datu avota dimensiju kartēšana
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Dimensiju kartējumi "fno" datu avotam
 
 Šajā tabulā uzskaitītie dimensiju kartējumi ir konfigurēti datu `fno` avotam.
 
@@ -687,7 +690,7 @@ Pēc tam konfigurējiet `InventoryDemand` aprēķināto mērījumu ar `iv` datu 
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>fno datu avotam konfigurētie fiziskie pasākumi
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Fiziskie pasākumi, kas konfigurēti "fno" datu avotam
 
 Datu avotam ir konfigurēti šādi `fno` fiziskie pasākumi:
 
@@ -699,11 +702,11 @@ Datu avotam ir konfigurēti šādi `fno` fiziskie pasākumi:
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Datu avota fno konfigurācija
+#### <a name="configuration-of-the-pos-data-source"></a>"pos" datu avota konfigurācija
 
 Šajā sadaļā ir aprakstīts, kā `pos` datu avots tiek konfigurēts.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>pos datu avotam konfigurētie fiziskie pasākumi
+##### <a name="physical-measures-for-the-pos-data-source"></a>"POS" datu avota fiziskie pasākumi
 
 Datu avotam ir konfigurēti šādi `pos` fiziskie pasākumi:
 
@@ -720,14 +723,14 @@ Pēc tam konfigurējiet `AvailQuantity` aprēķināto mērījumu ar `pos` datu a
 | Papildinājums | `pos` | `PosInbound` |
 | Atņemšana | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Datu avota konfigurācija
+#### <a name="configuration-of-the-iom-data-source"></a>"iom" datu avota konfigurācija
 
 Datu avotam ir konfigurēti šādi `iom` fiziskie pasākumi:
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Datu avota erp konfigurācija
+#### <a name="configuration-of-the-erp-data-source"></a>"erp" datu avota konfigurācija
 
 Datu avotam ir konfigurēti šādi `erp` fiziskie pasākumi:
 

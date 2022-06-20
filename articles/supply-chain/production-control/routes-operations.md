@@ -1,6 +1,6 @@
 ---
 title: Maršruti un operācijas
-description: Šajā tēmā ir sniegta informācija par maršrutiem un operācijām.
+description: Šajā rakstā ir sniegta informācija par maršrutiem un darbībām.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856024"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
+Šajā rakstā ir sniegta informācija par maršrutiem un darbībām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
 
 ## <a name="overview"></a>Pārskats
 
@@ -223,7 +223,7 @@ Ja lietojat šo pieeju, izpildes laika un citu rekvizītu uzturēšanai galvenok
 Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai resursu grupu, var atšķirties lietojamo resursu darbības ātrums. Tāpēc var atšķirties operācijas izpildei nepieciešamais laiks. Lai novērstu šo problēmu, varat izmantot operācijas saites lauku **Formula**, lai norādītu izpildes laika aprēķināšanas veidu. Pieejamas šādas opcijas
 
 - **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
-- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**. Noslodzes vērtība nav specifiska noteiktai mērvienībai, tāpēc tā netiek konvertēta, pamatojoties uz **lauku Ražīguma** vienība, kas ir tikai aprakstošs lauks, kas netiek izmantots aprēķinos.
+- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**. Noslodzes vērtība nav raksturīga **noteiktai** mērvienībai, tādēļ tā nav konvertēta, pamatojoties uz lauku Noslodzes vienība, kas ir tikai aprakstošs lauks, kas netiek izmantots aprēķinos.
 - **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
 - **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 

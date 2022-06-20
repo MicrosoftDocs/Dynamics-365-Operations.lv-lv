@@ -1,6 +1,6 @@
 ---
-title: Līdzekļa atribūtu pārskats
-description: Šajā tēmā ir sniegts pārskats par līdzekļu atribūtiem Līdzekļu pārvaldībā.
+title: Līdzekļa atribūta pārskats
+description: Šajā rakstu ir sniegts pārskats par līdzekļu atribūtiem Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d1585f200e4baba519085685a41979c70a64fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862748"
 ---
-# <a name="asset-attribute-overview"></a>Līdzekļa atribūtu pārskats
+# <a name="asset-attribute-overview"></a>Līdzekļa atribūta pārskats
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Šajā tēmā ir sniegts pārskats par līdzekļu atribūtiem Līdzekļu pārvaldībā. Līdzekļu atribūti ir rekvizīti, kas ir saistīti ar līdzekļa veidu vai līdzekli. Ja esat iestatījis [atribūtu veidus](../setup-for-functional-locations/specification-types.md) un izmantojis tos līdzekļiem, varat iegūt pārskatu par līdzekļiem iestatītajām atribūtu vērtībām. Šis pārskats ir parādīts divās lapās Līdzekļu pārvaldībā: **Līdzekļa atribūtu pārskats** un **Līdzekļa atribūti**.
+Šajā rakstu ir sniegts pārskats par līdzekļu atribūtiem Pamatlīdzekļu pārvaldībā. Līdzekļu atribūti ir rekvizīti, kas ir saistīti ar līdzekļa veidu vai līdzekli. Ja esat iestatījis [atribūtu veidus](../setup-for-functional-locations/specification-types.md) un izmantojis tos līdzekļiem, varat iegūt pārskatu par līdzekļiem iestatītajām atribūtu vērtībām. Šis pārskats ir parādīts divās lapās Līdzekļu pārvaldībā: **Līdzekļa atribūtu pārskats** un **Līdzekļa atribūti**.
 
 Lapā **Līdzekļu atribūtu pārskats** ir parādīta atsevišķa rinda katram līdzeklim. Rinda rāda visus atribūtu veidus, kas ir saistīti ar šo līdzekli. Lai atvērtu un izmantotu lapu **Līdzekļu atribūtu pārskats**, veiciet tālāk norādītās darbības.
 

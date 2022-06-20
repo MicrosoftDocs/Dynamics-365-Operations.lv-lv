@@ -1,6 +1,6 @@
 ---
 title: Navigācijas meklēšana
-description: Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām.
+description: Šajā rakstā ir izskaidrots, kā izmantot meklēšanas funkcionalitāti, lai naviģētu uz lapām.
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872683"
 ---
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069988"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir paskaidrots, kā izmantot meklēšanas funkcionalitāti, lai pārietu uz lapām.
+Šajā rakstā ir izskaidrots, kā izmantot meklēšanas funkcionalitāti, lai naviģētu uz lapām.
 
 Lietojumprogrammā ir ietverti vairāki apgabali un lapas, kas palīdz veikt dažādus uzdevumus. Lai ātri atrastu uzdevumu veikšanai nepieciešamās lapas, izmantojiet navigācijas meklēšanas līdzekli.
 

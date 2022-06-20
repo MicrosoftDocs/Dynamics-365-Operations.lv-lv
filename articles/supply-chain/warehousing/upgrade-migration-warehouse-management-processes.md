@@ -1,6 +1,6 @@
 ---
 title: Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management
-description: Šajā tēmā ir sniegts apskats par preču un noliktavas pārvaldības migrēšanas opcijām.
+description: Šajā rakstā sniegts pārskats par preču un noliktavu pārvaldības migrācijas opcijām.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857088"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par jaunināšanas procedūru, jauninot no Microsoft Dynamics AX 2012 R3, kur darbojas modulis WMSII, uz Supply Chain Management.
+Šajā rakstā ir sniegts pārskats Microsoft Dynamics AX par procesu, kad tika jaunināts no 2012 R3, uz WMSII moduli un piegādes ķēžu pārvaldība.
 
 Supply Chain Management vairs neatbalsta Microsoft Dynamics AX 2012 mantoto moduli **WMSII**. Tā vietā varat izmantot moduli **Noliktavas pārvaldība**. Modulī WMSII finanšu krājumam varēja atlasīt krājumu dimensiju Novietojums un Paletes ID, taču programmatūrā Supply Chain Management krājumu dimensiju Paletes ID nevar izmantot finanšu krājumam.
 

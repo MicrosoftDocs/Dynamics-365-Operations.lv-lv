@@ -1,6 +1,6 @@
 ---
 title: ER funkciju saraksts biznesa jomai specifiskā kategorijā
-description: Šajā tēmā ir sniegta informācija par biznesa jomai specifiskām funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
+description: Šajā rakstā ir sniegta informācija par biznesa domēnam specifiskām funkcijām, kas tiek atbalstītas Elektronisko pārskatu veidošana (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9df826dcc0b672977d4d8af1feb985ab9a0ab7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879954"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>ER funkciju saraksts biznesa jomai specifiskā kategorijā
 
 [!include [banner](../includes/banner.md)]
 
-Elektronisko pārskatu (ER) domēnam specifiskas funkcijas var izmantot, lai veiktu aprēķinus un datu piekļuves pieprasījumus, kas ir specifiski Microsoft Dynamics 365 Finance ieviešanai. Šajā tēmā ir sniegts šo funkciju kopsavilkums.
+Elektronisko pārskatu (ER) domēnam specifiskās funkcijas var izmantot, lai veiktu aprēķinus un datu piekļuves pieprasījumus Microsoft Dynamics, kas raksturīgi 365 Finanšu ieviešanai. Šajā rakstā ir sniegts šo funkciju kopsavilkums.
 
 ## <a name="list-of-supported-functions"></a>Atbalstīto funkciju saraksts
 

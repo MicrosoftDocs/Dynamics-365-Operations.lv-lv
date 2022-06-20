@@ -1,6 +1,6 @@
 ---
 title: MK veidotāja funkcionalitāte
-description: Šajā tēmā ir aprakstīts, kā jūs varat izmantot lapu MK koka struktūras veidotājs, lai izstrādātu materiālu komplektu (MK) koka struktūras un strādātu ar tām.
+description: Šajā rakstā ir aprakstīts, kā jūs varat izmantot MK veidotāja lapu, lai materiālu komplektiem (MK) projektētu koka struktūras un strādātu ar tām.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fda2b1d835afdcf06a50528748861fecc6792f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844271"
 ---
 # <a name="bom-designer-functionality"></a>MK veidotāja funkcionalitāte
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā jūs varat izmantot lapu MK koka struktūras veidotājs, lai izstrādātu materiālu komplektu (MK) koka struktūras un strādātu ar tām. Varat noklikšķināt uz Iestatīšana, lai atlasītu dažādas konfigurācijas, un norādīt, kāda informācija tiek rādīta koka rindās.
+Šajā rakstā ir aprakstīts, kā jūs varat izmantot MK veidotāja lapu, lai materiālu komplektiem (MK) projektētu koka struktūras un strādātu ar tām. Varat noklikšķināt uz Iestatīšana, lai atlasītu dažādas konfigurācijas, un norādīt, kāda informācija tiek rādīta koka rindās.
 
 Ja atverat lapu **BOM veidotājs** no lapas **Izlaistās preces**, tā parāda materiālu komplektu hierarhiju, kas ir aktīva un apstiprināta atlasītajam krājumam, krājuma noklusējuma pasūtījuma vietu un faktisko datumu.  
 

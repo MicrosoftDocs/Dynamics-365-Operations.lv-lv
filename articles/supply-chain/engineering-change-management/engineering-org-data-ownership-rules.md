@@ -1,6 +1,6 @@
 ---
 title: Inženiertehniskie uzņēmumi un datu īpašumtiesību noteikumi
-description: Šajā tēmā skaidrots, kā var izmantot vienu vai vairākus inženiertehniskus uzņēmumus, lai nodrošinātu, ka produktu pamatdati ir centralizēti izveidoti un uzturēti. Inženiertehniskais uzņēmums ir uzņēmums, kam pieder tehniskie produkti un ar inženieriju saistītie dati.
+description: Šajā rakstā skaidrots, kā var izmantot vienu vai vairākus tehnikas uzņēmumus, lai nodrošinātu, ka preču pamatdati tiek izveidoti un uzturēti centrālajā līmenī. Inženiertehniskais uzņēmums ir uzņēmums, kam pieder tehniskie produkti un ar inženieriju saistītie dati.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 47662203669d5dd466990be397c9a4aaf1dd9932
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875544"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Inženiertehniskie uzņēmumi un datu īpašumtiesību noteikumi
 

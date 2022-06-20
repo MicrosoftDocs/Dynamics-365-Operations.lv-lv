@@ -1,6 +1,6 @@
 ---
 title: Sistēmas noteikta darbu secība
-description: Šajā tēmā ir sniegta informācija par sistēmas noteiktu darbu secību. Šī funkcija sniedz iespēju kārtot un filtrēt darba pasūtījumus, kurus sistēma sniedz lietotājiem izpildei. Tas noder scenārijos, kad ir nepieciešami papildu kritēriji, lai virzītu noliktavas izdošanas procesu.
+description: Šajā rakstā ir sniegta informācija par sistēmā vadītu darbu secības informāciju. Šī funkcija sniedz iespēju kārtot un filtrēt darba pasūtījumus, kurus sistēma sniedz lietotājiem izpildei. Tas noder scenārijos, kad ir nepieciešami papildu kritēriji, lai virzītu noliktavas izdošanas procesu.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849131"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistēmas noteikta darbu secība
 
@@ -44,7 +44,7 @@ Lai varētu izmantot līdzekli Sistēmas noteikta darba secība, tas vispirms ir
 
 ### <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Lai strādātu ar scenāriju, izmantojot šajā tēmā norādītās vērtības, ir jāstrādā ar sistēmu, kurā ir instalēti standarta demonstrācijas dati. Turklāt ir jāatlasa **USMF** juridiskā persona. Scenārijā tiek izmantota noliktava nr. *51* no demonstrācijas datiem.
+Lai strādātu scenārijā, izmantojot šajā rakstā uzrādītās vērtības, ir jāstrādā sistēmā, kur ir instalēti standarta demonstrācijas dati. Turklāt ir jāatlasa **USMF** juridiskā persona. Scenārijā tiek izmantota noliktava nr. *51* no demonstrācijas datiem.
 
 > [!IMPORTANT]
 > Pirms pasūtījumu izdošanas noliktavā pārliecinieties, vai izdošanas vietās ir pietiekami daudz krājumu visām precēm pasūtījumos.

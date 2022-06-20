@@ -1,6 +1,6 @@
 ---
 title: Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo krājumu segumu
-description: Šajā tēmā ir aprakstīts, kā izmantot drošības rezerves žurnālu, lai atjauninātu krājumu drošības rezervju daudzumu, aprēķinot minimālo vajadzību priekšlikumus, pamatojoties uz vēsturiskiem darījumiem.
+description: Šajā rakstā ir aprakstīts, kā izmantot drošības rezerves žurnālu, lai atjauninātu krājumu drošības rezervju daudzumu, aprēķinot minimālo vajadzību priekšlikumus, pamatojoties uz vēsturiskiem darījumiem.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851774"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Drošības krājumu žurnāla lietošana, lai atjauninātu minimālo krājumu segumu
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468557"
 
 Drošības rezerve norāda krājuma papildu daudzumu, kas tiek glabāts noliktavā, lai samazinātu risku, ka krājums iziet no krājumiem. Drošības rezerve tiek izmantota kā buferis gadījumā, ja tiek ievadīti pārdošanas pasūtījumi, bet piegādātājs nevar atbilst debitora pieprasītajam nosūtīšanas datumam.
 
-Šajā tēmā ir aprakstīts, kā izmantot drošības rezerves žurnālu minimālo vajadzību priekšlikumu jāaprēķina, pamatojoties uz vēsturiskām darbībām, un pēc tam krājumu vajadzību atjaunināt ar priekšlikumiem.
+Šajā rakstā ir aprakstīts, kā izmantot drošības rezerves žurnālu minimālo vajadzību priekšlikumu jāaprēķina, pamatojoties uz vēsturiskām darbībām, un pēc tam krājumu vajadzību atjaunināt ar priekšlikumiem.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Minimālās vajadzības izmantošanas apskats
 
@@ -43,7 +43,7 @@ Drošības rezerve ir iestatīta katra **krājuma krājumu** vajadzības lapā. 
 
 Drošības rezervju žurnāli tiek izmantoti, lai aprēķinātu piedāvāto minimālo daudzumu, pamatojoties uz krājuma vēsturisko izmantojumu min./maks. nolūkiem vai krājumu plāna nolūkiem. Vēsturiskā izmantošana parāda visas izdošanas darbības norādītajā periodā. Šīs izdošanas darbības ietver pārdošanas pasūtījuma darbības un krājumu pielāgojumus. Aprēķini identificē arī piedāvātā minimālā daudzuma ietekmi uz krājumu vērtību un krājumu vērtības izmaiņas, salīdzinot ar pašreizējiem minimālajiem daudzumiem.
 
-Katra drošības krājumu žurnāla rinda ataino krājumu un tā vajadzības dimensijas. Šīs žurnāla rindas tiek izveidotas un parādītas drošības **rezervju žurnāla rindu** lapā (**Vispārējās plānošanas vispārējās plānošanas \> izpildes \> drošības \> krājumu aprēķins**). Biznesa process drošības rezerves žurnālu izmantošanai, lai aprēķinātu piedāvātos minimālos daudzumus, ir aprakstīts tālāk šajā tēmā.
+Katra drošības krājumu žurnāla rinda ataino krājumu un tā vajadzības dimensijas. Šīs žurnāla rindas tiek izveidotas un parādītas drošības **rezervju žurnāla rindu** lapā (**Vispārējās plānošanas vispārējās plānošanas \> izpildes \> drošības \> krājumu aprēķins**). Biznesa process drošības rezerves žurnālu izmantošanai, lai aprēķinātu piedāvātos minimālos daudzumus, ir aprakstīts tālāk šajā rakstā.
 
 Plānotājs izmanto drošības rezerves žurnālu, lai aprēķinātu piedāvāto minimālo daudzumu atlasītajiem krājumiem, pamatojoties uz vēsturisko lietojumu atlasītajos periodos. Piedāvāto minimumu var manuāli ignorēt pēc vajadzības, un jūs variet pārskatīt piedāvātā minimuma ietekmi uz krājuma vērtību. Kad žurnāls ir iegrāmatots, automātiski tiek atjaunināti saistītie minimālie krājumu vajadzības daudzumi.
 
@@ -89,7 +89,7 @@ Sekojiet šiem soļiem, lai automātiski ģenerētu žurnāla rindas.
 
     - **No datuma** – atlasiet perioda sākuma datumu, kam izejas plūsmas jāiekļauj aprēķinā.
     - **Līdz datumam** – atlasiet perioda, kam šajā aprēķinā jāiekļauj izejas plūsmas, beigu datumu. Starp sākuma un beigu datumiem jābūt vismaz diviem mēnešiem.
-    - **Aprēķināt standarta novirzi** – iestatiet šo opciju kā Jā *,* lai aprēķinātu standarta novirzi. Šī opcija jāiestata kā Jā *,* lai izmantotu opciju **Izmantot** pakalpojumu līmeni, kad aprēķināt priekšlikumu (kā aprakstīts tālāk šajā tēmā).
+    - **Aprēķināt standarta novirzi** – iestatiet šo opciju kā Jā *,* lai aprēķinātu standarta novirzi. Šī opcija jāiestata kā Jā *,* lai izmantotu opciju **Izmantot** pakalpojumu līmeni, kad aprēķināt priekšlikumu (kā aprakstīts tālāk šajā rakstā).
 
 1. Kopsavilkuma cilnē **Ieraksti var** iestatīt filtrus un ierobežojumus, lai noteiktu iekļautos krājumus. (Piemēram, var filtrēt pēc **Vajadzības grupas** vērtība.) Atlasiet **Opciju Filtrs**, lai atvērtu standarta vaicājumu redaktora dialoglodziņu, kurā varat definēt atlases kritērijus, kārtošanas kritērijus un savienojumus. Šie lauki darbojas tāpat, kā citi Microsoft vaicājumu veidi Dynamics 365 Supply Chain Management.
 1. Kopsavilkuma cilnē **Izpildīt fonā** atlasiet, vai uzdevumu palaist pakešuzdevumu režīmā un/vai iestatīt periodisku grafiku. Lauki darbojas tāpat, kā citi [fona darbu](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) veidi pakalpojumā Supply Chain Management.
@@ -110,7 +110,7 @@ Jūs varat manuāli pievienot un/vai noņemt žurnāla rindas jebkurā laikā (v
 Parādītie aprēķini neietekmēs katras preces faktisko minimālo daudzumu **vērtības**, kamēr darbību rūtī nav atlasīts Grāmatot. Tajā laikā katrai precei **tiks** piemērotas jaunas minimālās daudzuma vērtības.
 
 1. Dodieties uz **vispārējās plānošanas \> vispārējās plānošanas palaistā \> drošības \> krājuma aprēķinu**.
-1. Atveriet žurnālu, lai aprēķinātu priekšlikumu. Vai arī izveidojiet jaunu žurnālu tā, kā aprakstīts iepriekš šajā tēmā.
+1. Atveriet žurnālu, lai aprēķinātu priekšlikumu. Vai arī izveidojiet jaunu žurnālu tā, kā aprakstīts iepriekš šajā rakstā.
 1. Kopsavilkuma cilnē **Žurnāla** rindas atlasiet Aprēķināt **priekšlikumu** rīkjoslā. (Nav jāatlasa neviena rindas.)
 1. **Dialoglodziņā Aprēķināt priekšlikumu krājumu minimuma līmenim** iestatiet šādus laukus:
 

@@ -1,6 +1,6 @@
 ---
 title: Ražošanas izpildes interfeisa stila veidošana
-description: Šajā tēmā skaidrots, kā konfigurēt formu vadīklas, lai tiem tiktu pielietoti noklusējuma ražošanas izpildes stili.
+description: Šajā rakstā ir izskaidrots, kā konfigurēt formu kontroles, lai tiem pielietoti noklusējuma ražošanas izpildes stili.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859145"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa stila veidošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā konfigurēt formu vadīklas, lai tiem tiktu pielietoti noklusējuma ražošanas izpildes stili.
+Šajā rakstā ir izskaidrots, kā konfigurēt formu kontroles, lai tiem pielietoti noklusējuma ražošanas izpildes stili.
 
 ## <a name="forms-and-dialogs"></a>Formas un dialogi
 
@@ -31,7 +31,7 @@ Stilus formai vai dialogam var lietot tikai tad, ja ir izpildītas tālāk norā
 - Ja formai ir jābūt līdzīgai esošajai pārskata norises formai, formas vai dialoga nosaukumam jāsākas ar `JmgProductionFloorExecutionCustomInputDialog`.
 - Formā vai dialogā var būt detaļu formas daļa. Lai pielietotu tai stilus, detaļu formas daļas nosaukumam ir jāsākas ar `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Ja formai vai dialogam ir jābūt vienkāršam skatam, tad vienkāršā skata nosaukumam jāsākas ar `JmgProductionFloorExecutionCustomDialog`. Formu, kurām ir vienkāršs skatījums, piemēri ietver sākuma formu un netiešo aktivitāšu formu.
-- Visām vadīklām dialogā jābūt konfigurētām tā, kā tas ir aprakstīts šajā tēmā.
+- Visām vadīklām dialogā jābūt konfigurētām tā, kā tas ir aprakstīts šajā rakstā.
 
 > [!IMPORTANT]
 > Līdzekļiem, kas ir minēti šī saraksta pirmos divos aizzīmju punktos, nepieciešama Supply Chain Management versija 10.0.19 vai jaunāka.
@@ -72,9 +72,9 @@ private void setCaption()
 
 Uzrakstot virsraksta kodu, lietojiet šādus noteikumus:
 
-- Ir jābūt galvenās grupas `TableRowHeaderGroup` nosaukumam.
-- Ar katru teksta bloku (kas atdalīts ar biļeteniem) `HeaderFieldWithSeparatorText` jāsākas.
-- Pēdējā teksta nosaukumam ir jāsākas `HeaderFieldText` ar.
+- Ir jābūt galvenās grupas nosaukumam `TableRowHeaderGroup`.
+- Ar katru teksta bloku (kas atdalīts ar biļeteniem) jāsākas `HeaderFieldWithSeparatorText`.
+- Pēdējā teksta nosaukumam ir jāsākas ar `HeaderFieldText`.
 - `CaptionImage` var izlaist.
 
 ### <a name="progress-indicator"></a>Norises indikators
@@ -83,13 +83,13 @@ Var iekļaut progresa indikatoru, kas tiek rādīts virsraksta labajā pusē. Š
 
 ![Tipisks norises indikators.](media/pfe-styles-header-progress.png "Parasts norises indikators")
 
-Lai rādītu progresa indikatoru, teksta laukam jābūt `ShowProgress` nosauktam.
+Lai rādītu progresa indikatoru, teksta laukam jābūt nosauktam `ShowProgress`.
 
 ## <a name="grid"></a>Režģis
 
 Stili tiek lietoti automātiski. Nav nepieciešama īpaša konfigurācija.
 
-Režģim ir nepieciešams stils, un pielāgotajā formā ir jāpārraksta `TabularView``run()` metode, jo vēl netiek atbalstīts jauns režģis. Pievienojiet šādu kodu.
+Režģim ir `TabularView` nepieciešams stils, `run()` un pielāgotajā formā ir jāpārraksta metode, jo vēl netiek atbalstīts jauns režģis. Pievienojiet šādu kodu.
 
 ```xpp
 public void run()
@@ -100,7 +100,7 @@ public void run()
 }
 ```
 
-Lai atsvaidzinātu datus galvenajā skatījumā, iespējams, vēlēsieties izmantot `this.parmParentForm().updateLayout();` kaut ko `click` citu, ko vēlaties izmantot darbības metodē. (Piemēram, skatiet `JmgProductionFloorExecutionReportFeedbackAction` klasi.) Pārliecinieties, `parmDataSource` kas ir `init` iestatīts jaunās formas metodē `formCaller.parmDataSource(this.dataSource(1));` (). Piemēram, skatiet `JmgProductionFloorExecutionMainGrid` formu.
+Lai atsvaidzinātu datus galvenajā skatījumā, iespējams, vēlēsieties izmantot kaut ko `this.parmParentForm().updateLayout();` citu, `click` ko vēlaties izmantot darbības metodē. (Piemēram, skatiet klasi `JmgProductionFloorExecutionReportFeedbackAction` .) Pārliecinieties, `parmDataSource` kas ir iestatīts `init` jaunās formas metodē (`formCaller.parmDataSource(this.dataSource(1));`). Piemēram, skatiet `JmgProductionFloorExecutionMainGrid` formu.
 
 ## <a name="card-view"></a>Kartes skats
 
@@ -131,7 +131,7 @@ Iestatiet biznesa kartē šādus rekvizītus:
 - **Stils:** *saraksts*
 - **Paplašinātais stils:** *cardList*
 - **Daudzkārš. atlase:** *Nē*
-- **Rādīt sietās** *iezīmes: Nē*
+- **Rādīt sietās iezīmes:** *Nē*
 
 ![Biznesa karte.](media/pfe-styles-business-card.png)
 
@@ -140,12 +140,12 @@ Iestatiet biznesa kartē šādus rekvizītus:
 Stilus radio pogām var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Katra radio poga ir ietverta formu grupā.
-- Grupas nosaukums sākas `RadioTextBelow` ar vai atkarībā no `RadioTextRight` tā, kur vēlaties, lai teksts parādās.
+- Grupas nosaukums sākas ar `RadioTextBelow` vai `RadioTextRight` atkarībā no tā, kur vēlaties, lai teksts parādās.
 
 Iestatiet radio pogā šādus rekvizītus:
 
 - **Pārslēgšanās poga:** *pārbaude*
-- **Pārslēgt vērtību:** *ja ir* jāatlasa radiopoga; pretējā gadījumā *izslēgts*
+- **Pārslēgt vērtību: ja** *ir* jāatlasa radiopoga; pretējā gadījumā *izslēgts*
 
 Šajā attēlā parādīts piemērs, kur teksts parādās zem radiopogām.
 
@@ -171,10 +171,10 @@ Stilus pogām var lietot tikai tad, ja ir izpildītas tālāk norādītās pras�
 Iestatiet pogās šādus rekvizītus:
 
 - **Pogu displejs:** *TextWithImageLeft*
-- **Parastais** attēls: šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *CoffeeScript*.
+- **Parastais attēls:** šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *CoffeeScript*.
 - **Teksts:** šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *Sākuma pārtraukums*.
-- **Platums:** *Auto vai* *SizeToContent*
-- **Augstums:** *·* Automātisks *vai SizeToContent*
+- **Platums:** *Auto* vai *SizeToContent*
+- **Augstums:** *Automātisks* *vai SizeToContent*
 
 ### <a name="primary-button"></a>Primārā poga
 
@@ -190,7 +190,7 @@ Stilus primārai pogai var lietot tikai tad, ja ir izpildītas tālāk norādīt
 Stilus sekundārai pogai var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Šī poga ir ietverta formu grupā.
-- Grupas nosaukums ir **Labais** panelis vai grupas nosaukums sākas `SecondaryButtonGroup` ar.
+- Grupas nosaukums ir Labais **panelis** vai grupas nosaukums sākas ar `SecondaryButtonGroup`.
 
 ![Sekundārā poga.](media/pfe-styles-second.png)
 
@@ -199,7 +199,7 @@ Stilus sekundārai pogai var lietot tikai tad, ja ir izpildītas tālāk norād�
 Stilus trešās grupas pogai var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Šī poga ir ietverta formu grupā.
-- Grupas nosaukums ir Pa **kreisi vai grupas nosaukums sākas**`ThirdButtonGroup` ar.
+- Grupas nosaukums ir Pa **kreisi vai** grupas nosaukums sākas ar `ThirdButtonGroup`.
 
 ![Trešās grupas poga.](media/pfe-styles-third.png)
 
@@ -208,15 +208,15 @@ Stilus trešās grupas pogai var lietot tikai tad, ja ir izpildītas tālāk nor
 Stilus ceturtās grupas pogai var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Šī poga ir ietverta formu grupā.
-- Grupas nosaukums sākas `FourthButtonGroup` ar.
+- Grupas nosaukums sākas ar `FourthButtonGroup`.
 
 Iestatiet pogā šādus rekvizītus:
 
 - **Pogas displejs:** *TextOnly*
-- **Parasts attēls:** šim rekvizītam ir jābūt tukšam.
+- **Parasts attēls: šim** rekvizītam ir jābūt tukšam.
 - **Teksts:** šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *Skats* vai *Rediģēt*.
-- **Platums:** *Automātisks*
-- **Augstums:** *Automātisks*
+- **Platums: Automātisks** *·*
+- **Augstums: Automātisks** *·*
 
 ![Ceturtās grupas poga.](media/pfe-styles-fourth.png)
 
@@ -230,10 +230,10 @@ Stilus plakanai pogai var lietot tikai tad, ja ir izpildītas tālāk norādīt�
 Iestatiet pogā šādus rekvizītus:
 
 - **Pogas displejs:** *ImageOnly*
-- **Parastais** attēls: šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *CoffeeScript*.
-- **Teksts:** šim rekvizītam jābūt tukšam.
-- **Platums:** *Auto vai* *SizeToContent*
-- **Augstums:** *·* Automātisks *vai SizeToContent*
+- **Parastais attēls:** šis rekvizīts nedrīkst būt tukšs. Piemēram, izmantojiet *CoffeeScript*.
+- **Teksts: šim** rekvizītam jābūt tukšam.
+- **Platums:** *Auto* vai *SizeToContent*
+- **Augstums:** *Automātisks* *vai SizeToContent*
 
 ![Plakanā poga.](media/pfe-styles-flat-button.png)
 
@@ -242,15 +242,15 @@ Iestatiet pogā šādus rekvizītus:
 Stilus var izmantot pogai Turpināt tikai tad, ja ir izpildītas tālāk norādītās prasības.
 
 - Šī poga ir ietverta formu grupā.
-- Grupas nosaukums sākas `ContinueButtonGroup` ar.
+- Grupas nosaukums sākas ar `ContinueButtonGroup`.
 
 Iestatiet pogā šādus rekvizītus:
 
 - **Pogas displejs:** *ImageOnly*
 - **Parasts attēls: uz** *priekšu*
-- **Teksts:** šim rekvizītam jābūt tukšam.
-- **Platums:** *Auto vai* *SizeToContent*
-- **Augstums:** *·* Automātisks *vai SizeToContent*
+- **Teksts: šim** rekvizītam jābūt tukšam.
+- **Platums:** *Auto* vai *SizeToContent*
+- **Augstums:** *Automātisks* *vai SizeToContent*
 
 ![Poga Turpināt.](media/pfe-styles-continue-button.png)
 
@@ -261,9 +261,9 @@ Kombinētais lodziņš ir trīs vadīklu kombinācija: ievades vadīkla, poga, k
 Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk norādītās prasības:
 
 - Šis kombinētais lodziņš ir ietverts formu grupā.
-- Grupas nosaukums sākas `Combobox` ar.
+- Grupas nosaukums sākas ar `Combobox`.
 - Grupā pirmā kontrole ir `AxFormStringControl` kontrole. Šī vadīkla parāda pašreizējo vērtību, un tā ir vieta, kur lietotājs ievada nepieciešamo vērtību.
-- Otra kontrole ir `CommonButton` kontrole, un tās nosaukums sākas `ClearButton` ar. Šai pogai ir jāietver kods, kas izmanto `enable` rekvizītu, lai parādītu vai slēptu pogu. Piemēram, lai parādītu vai slēptu pogu **Dzēst**, kamēr lietotājs ievada informāciju ievades vadīklā, varat izmantot šādu kodu.
+- Otra kontrole ir kontrole, `CommonButton` un tās nosaukums sākas ar `ClearButton`. Šai pogai ir jāietver kods, kas izmanto rekvizītu `enable`, lai parādītu vai slēptu pogu. Piemēram, lai parādītu vai slēptu pogu **Dzēst**, kamēr lietotājs ievada informāciju ievades vadīklā, varat izmantot šādu kodu.
 
     ```xpp
     public void textChange()
@@ -288,7 +288,7 @@ Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk n
     }
     ```
 
-    Izmantojiet tālāk norādīto kodu `clicked` pogas Dzēst **·** metodei.
+    Izmantojiet tālāk norādīto kodu pogas `clicked` Dzēst **metodei**.
 
     ```xpp
     public void clicked()
@@ -298,9 +298,9 @@ Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk n
     }
     ```
 
-    Iestatiet ievades kontroles `AxFormStringControl` vērtību, ja forma tiek inicializēta, izmantojot `init` metodi. Ja vērtība nav tukša, iespējojiet pogu **Notīrīt**. Ja vērtība ir tukša, atspējojiet pogu **Notīrīt**.
+    Iestatiet ievades kontroles vērtību, `AxFormStringControl` ja forma tiek inicializēta, izmantojot `init` metodi. Ja vērtība nav tukša, iespējojiet pogu **Notīrīt**. Ja vērtība ir tukša, atspējojiet pogu **Notīrīt**.
 
-- Trešā kontrole ir `CommonButton` kontrole, un tās nosaukums sākas `SearchButton` ar.
+- Trešā kontrole ir kontrole, `CommonButton` un tās nosaukums sākas ar `SearchButton`.
 
 Šajā attēlā redzamas divas kombinētā lodziņa vadīklas. Kombinētajam lodziņam kreisajā pusē ir tukšs teksta lodziņš, un poga **Notīrīt** tiek atspējota. Kombinētajam lodziņam labajā pusē lodziņā ir teksts, un poga **Notīrīt** tiek ietspējota.
 
@@ -311,10 +311,10 @@ Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk n
 Ātrā filtra vadīkla pievieno lapai meklēšanas lauku. Stilus var izmantot ātram filtram, ja tiek izpildītas tālāk norādītās prasības.
 
 - Šis ātrais filtrs ir ietverts formu grupā.
-- Grupas nosaukums sākas `SearchInputGroup` ar.
+- Grupas nosaukums sākas ar `SearchInputGroup`.
 - Grupā pirmā vadīkla ir `QuickFilter` vadīkla. (Šī kontrole ir vieta, kur lietotājs ievada meklēšanas virkni.)
-- Otra kontrole ir `FormStaticTextControl``NumberOfResults` nosaukta. (Šī kontrole nav obligāta. Ja tā ir iekļauta, tā parāda atrasto krājumu skaitu.)
-- Trešā kontrole ir `CommonButton` kontrole, un tās nosaukums sākas `ClearButton` ar.
+- Otra kontrole ir nosaukta `FormStaticTextControl``NumberOfResults`. (Šī kontrole nav obligāta. Ja tā ir iekļauta, tā parāda atrasto krājumu skaitu.)
+- Trešā kontrole ir kontrole, `CommonButton` un tās nosaukums sākas ar `ClearButton`.
 
 Šajā attēlā redzamas divas ātrā filtra vadīklas. Ātram filtram kreisajā pusē ir tukšs ātrais filtrs, un rezultātu skaits nav redzams. Ātrais filtrs labajā pusē satur meklēšanas virkni un parāda rezultātu skaitu.
 
@@ -322,7 +322,7 @@ Stilus kombinētajam lodziņam var lietot tikai tad, ja ir izpildītas tālāk n
 
 ## <a name="center-align-elements-on-a-tab"></a>Elementu līdzināšana cilnē uz centru
 
-Lai līdzinātu elementus cilnes centrā, grupas nosaukumam `TabContentGroup` jāsākas, un grupai ir jābūt ar šādiem rekvizītiem:
+Lai līdzinātu elementus cilnes centrā, grupas nosaukumam jāsākas `TabContentGroup`, un grupai ir jābūt ar šādiem rekvizītiem:
 
 - **Platuma režīms:**`SizeToAvailable`
 - **Augstuma režīms:**`SizeToAvailable`
@@ -331,14 +331,14 @@ Lai līdzinātu elementus cilnes centrā, grupas nosaukumam `TabContentGroup` j�
 
 Lai sakārtotu pielāgotu režģi, detaļu daļu un ātro filtru tā, lai tie būtu līdzīgi standarta dizainam, atcerieties šādus punktus, kad tos visus ievietosiet kopā:
 
-- Ja režģim ir ātrais filtrs, grupā, ar kuru sākas nosaukums, vajadzētu būt gan režģim, gan ātram `GridGroup` filtram.
-- Lai detaļu daļai pielietotu stilus, grupas nosaukumam ir jāsākas `DetailInformationGroup` ar šo:
+- Ja režģim ir ātrais filtrs, grupā, ar kuru sākas nosaukums, vajadzētu būt gan režģim, gan ātram filtram `GridGroup`.
+- Lai detaļu daļai pielietotu stilus, grupas nosaukumam ir jāsākas ar `DetailInformationGroup` šo:
 
 Šajā attēlā parādīts parasts režģis, kurā ir iekļauts ātrais filtrs un detaļu daļa labajā pusē.
 
 ![Tipisks režģis, kas ietver ātru filtru un detaļu daļu.](media/pfe-styles-align-grid.png "Tipisks režģis, kas ietver ātru filtru un detaļu daļu")
 
-Režģī, detaļu daļā un ātrajā filtrā var izveidot, izmantojot struktūru, kā parādīts šajā Visual Studio ilustrācijā.
+Visual Studio Režģī, detaļu daļā un ātrajā filtrā var izveidot, izmantojot struktūru, kā parādīts šajā ilustrācijā.
 
 ![Tipiska kodu struktūra, kas izlīdzina režģi, detaļu daļu un ātro filtru.](media/pfe-styles-header-code-structure2.png "Tipiska kodu struktūra, kas izlīdzina režģi, detaļu daļu un ātro filtru")
 

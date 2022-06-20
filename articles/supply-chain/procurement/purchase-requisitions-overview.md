@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pieprasījuma apskats
-description: Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi.
+description: Šajā rakstā aprakstīta pirkšanas pieprasījuma darbplūsma un dažādi statusi, kas var iekļaut pirkšanas pieprasījumu.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905752"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta pirkšanas pieprasījuma darbplūsma un iespējamie pirkšanas pieprasījuma statusi.
+Šajā rakstā aprakstīta pirkšanas pieprasījuma darbplūsma un dažādi statusi, kas var iekļaut pirkšanas pieprasījumu.
 
 Atkarībā no jūsu uzņēmuma iestatījumiem, var izveidot organizācijā izmantoto preču pirkšanas pieprasījumus. Pirkšanas pieprasījums ir iekšējs dokuments, kas pilnvaro iepirkumu departamentu pirkt krājumus vai pakalpojumus.  
 

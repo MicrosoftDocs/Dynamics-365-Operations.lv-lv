@@ -1,6 +1,6 @@
 ---
 title: Mazāk par autokravu (LTL) klases
-description: Šajā tēmā skaidrots, kas ir mazāk par autokravu (LTL) klases, un apraksta, kā to iestatīt sistēmā Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā skaidrots, kas ir mazāk nekā kravas kravas (LTL) klases, un apraksta, kā tās iestatīt sistēmā Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857204"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Mazāk par autokravu (LTL) klases
 
@@ -33,7 +33,7 @@ Mazāk par autokravu (LTL) klase, ir kravas pārvadāšanas klase, ko izmanto, l
 - Nosakiet iepakojuma prasības katrai LTL klasei, pārbaudot starptautiskos LTL standartus. Šādā veidā tiek nodrošināts, ka preces ir labi aizsargātas un droši nosūtītas.
 - Iegūstiet precīzus nosūtīšanas novērtējumus, balstoties uz LTL kravas klasi katrai precei.
 
-Šajā tēmā aprakstīts, kā izveidot LTL klasi programmā Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, kā izveidot LTL klases sistēmā Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Izveidot LTL klasi
 

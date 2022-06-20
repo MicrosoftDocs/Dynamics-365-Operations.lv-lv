@@ -1,6 +1,6 @@
 ---
 title: Piezīmju integrācija
-description: Šajā tēmā aprakstīta piezīmju datu integrācija duālajā ierakstā.
+description: Šajā rakstā ir aprakstīta piezīmju datu integrācija divkodības ierakstā.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876720"
 ---
 # <a name="note-integration"></a>Piezīmju integrācija
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062779"
 
 
 
-Biznesa procesu laikā Microsoft Dynamics 365 lietotāji bieži apkopo informāciju par saviem klientiem. Šī informācija tiek reģistrēta kā aktivitātes un piezīmes. Šajā tēmā aprakstīta piezīmju datu integrācija duālajā ierakstā.
+Biznesa procesu laikā Microsoft Dynamics 365 lietotāji bieži apkopo informāciju par saviem klientiem. Šī informācija tiek reģistrēta kā aktivitātes un piezīmes. Šajā rakstā ir aprakstīta piezīmju datu integrācija divkodības ierakstā.
 
 Klienta informāciju var klasificēt vairākos veidos:
 
@@ -30,7 +30,7 @@ Klienta informāciju var klasificēt vairākos veidos:
 + **Izmantojamā informācija Dynamics 365 lietotājam** — piemēram, klients, kurš iegādājas vienību Surface, ievada īpašas instrukcijas, kas norāda, ka ierīcei pirms piegādes ir jābūt iesaiņotai kā dāvanai. Šīs instrukcijas ir izmantojama informācija, kas jāapstrādā Contoso darbiniekam, kurš ir atbildīgs par iepakošanu.
 + **Informācija, kas nav izmantojama** — piemēram, klients apmeklē Contoso veikalu un sarunas ar veikala darbinieku laikā pauž interesi par *Halo* spēlēm un spēļu piederumiem. Veikala darbinieks izdara piezīmi par šo informāciju. Pēc tam preču ieteikumu programma to izmanto, lai klientam varētu sniegt ieteikumus.
 
-Kopumā izmantojamā informācija tiek uztverta kā *darbības* Finance and Operations programmās un klientu iesaistes programmās. Nerīkojama informācija tiek uztverta kā *piezīmes* Finance and Operations programmās un kā *anotācijas klientu iesaistes* programmās.
+Parasti darbību informācija tiek tverta kā aktivitātes *Finanšu un operāciju* programmās un debitoru aktivitāšu programmās. Ne darbību ne darbību informācija tiek tverta kā *piezīmes* Finanšu un operāciju programmās un *kā anotācijas* debitoru iesiešanas programmās.
 
 > [!TIP]
 > Lai arī piezīmes ir paredzētas neizmantojamajai informācijai, programmas neliegs jums tās izmantot, lai saglabātu un apstrādātu izmantojamo informāciju, ja vēlaties tās izmantot šādā veidā.
@@ -39,7 +39,7 @@ Microsoft pašlaik izlaiž funkcionalitāti piezīmju integrācijai. (Funkcional
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Piezīmes izveide programmā Customer Engagement
 
-Lai izveidotu piezīmi klientu piesaistes programmā un pēc tam sinhronizētu to ar programmu Finanses un operācijas, rīkojieties šādi.
+Lai izveidotu piezīmi debitoru piezīmju programmā un pēc tam sinhronizētu to ar programmu Finanses un operācijas, izpildiet šīs darbības.
 
 1. Programmā Customer Engagement atveriet klienta konta ierakstu.
 2. Rūtī **Laika skala** atlasiet plus zīmi (**+**) un pēc tam atlasiet **Piezīme**, lai izveidotu piezīmi.
@@ -54,7 +54,7 @@ Lai izveidotu piezīmi klientu piesaistes programmā un pēc tam sinhronizētu t
 
     ![Jauna piezīme klienta laika skalā.](media/notes-ce-3.png)
 
-4. Piesakieties programmā Finanses un operācijas un atveriet to pašu klienta ierakstu. Ievērojiet, ka poga **Pielikumi** button (saspraudes simbols) augšējā labajā stūrī norāda, ka ierakstam ir pielikums.
+4. Piesakieties programmā Finanses un operācijas un atveriet vienu un to pašu debitora ierakstu. Ievērojiet, ka poga **Pielikumi** button (saspraudes simbols) augšējā labajā stūrī norāda, ka ierakstam ir pielikums.
 
     ![Paziņojums par pielikumu.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Lai izveidotu piezīmi klientu piesaistes programmā un pēc tam sinhronizētu t
 
     ![Piezīme no programmas Customer Engagement.](media/notes-ce-5.png)
 
-Visi piezīmes atjauninājumi tiek sinhronizēti uz šur un atpakaļ starp programmu Finance and Operations un klientu piesaistīšanas programmu.
+Visi piezīmes atjauninājumi tiek sinhronizēti atpakaļ un uz priekšu starp programmu Finanses un operācijas un debitoru piesaistes programmu.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Piezīmes izveide programmā Finanses un operācijas
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Piezīmes izveide finanšu un operāciju programmā
 
-Piezīmi var izveidot arī programmā Finanses un operācijas, un tā tiks sinhronizēta ar klientu piesaistes programmu.
+Piezīmi var izveidot arī programmā Finanses un operācijas, un tā tiks sinhronizēta ar debitoru iesaistes programmu.
 
-Lai izveidotu piezīmi programmā Finanses un operācijas un pēc tam sinhronizētu to ar klientu piesaistes programmu, rīkojieties šādi.
+Lai izveidotu piezīmi finanšu un operāciju programmā un pēc tam sinhronizētu to ar debitoru piezīmju programmu, izpildiet šīs darbības.
 
-1. Programmas Finanses un operācijas **lapā Pielikumi** atlasiet **Jauna** \> **piezīme**.
+1. Finanšu un operāciju programmas lapā Pielikumi atlasiet **Jauna** **piezīme**.\>**·**
 
-    ![Piezīmes izveide programmā Finanses un operācijas.](media/notes-fo-1.png)
+    ![Piezīmes izveide finanšu un operāciju programmā.](media/notes-fo-1.png)
 
 2. Ievadiet nosaukumu un īsu norādījumu kopu un pēc tam atlasiet **Saglabāt**.
 
@@ -84,17 +84,17 @@ Lai izveidotu piezīmi programmā Finanses un operācijas un pēc tam sinhroniz�
 
 Piezīmi var klasificēt kā iekšēju vai ārēju.
 
-- Programmas Finanses **un operācijas lapā Pielikumi atveriet piezīmi** un pēc tam **laukā Ierobežojums** atlasiet **Iekšējais** vai **Ārējais**.
+- Programmas Finanses un operācijas lapā **Pielikumi atveriet** **piezīmi un pēc tam laukā Ierobežojums** atlasiet Iekšējais **vai** Ārējais **·**.
 
     ![Ierobežojuma lauks.](media/notes-fo-4.png)
 
 Var izveidot arī vietrādi URL.
 
-1. Programmas **Finanses un operācijas lapā Pielikumi** atlasiet **Jauns** \> **URL.**
+1. Finanšu un operāciju programmas lapā Pielikumi atlasiet **Jauns** **URL**.\>**·**
 2. Ievadiet virsrakstu un vietrādi URL.
 3. Laukā **Ierobežojums** atlasiet **Iekšējais** vai **Ārējais**.
 
-    ![URL izveide programmā Finanses un operācijas.](media/notes-fo-5.png)
+    ![Tiek veidots VIETRĀDIs URL finanšu un operāciju programmā.](media/notes-fo-5.png)
 
 4. Atlasiet **Saglabāt**.
 

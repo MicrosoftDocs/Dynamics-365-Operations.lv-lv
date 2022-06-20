@@ -1,6 +1,6 @@
 ---
 title: Atgriezeniska izmaksu aprēķināšana
-description: Šajā tēmā tiek ieviests atgriezeniskas izmaksu aprēķināšanas jēdziens, kas tiek izmantots ražošanai Lean manufacturing.
+description: Šis raksts iepazīstina ar atgriezeniskas izmaksu aprēķināšanas koncepciju, kas tiek izmantota Lean manufacturing.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906100"
 ---
 # <a name="backflush-costing"></a>Atgriezeniska izmaksu aprēķināšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā tiek ieviests atgriezeniskas izmaksu aprēķināšanas jēdziens, kas tiek izmantots ražošanai Lean manufacturing. 
+Šis raksts iepazīstina ar atgriezeniskas izmaksu aprēķināšanas koncepciju, kas tiek izmantota Lean manufacturing. 
 
 Izmaksu aprēķināšana ražošanai Lean manufacturing ļauj ražošanas plūsmā izmantot izmaksu uzkrāšanas metodi, kas ir pazīstama kā atgriezeniska izmaksu aprēķināšana. Atgriezeniskas izmaksu aprēķināšanas metodes ietvaros izmantotie tiešie materiāli tiek uzkrāti ražošanas plūsmas nepabeigtā projekta (NP) izmaksu kontā. Tiek izmantota standarta izmaksu krājumu modeļu grupa. Preces, kas tiek saņemtas no ražošanas plūsmas, tiek atskaitītas no NP pēc standarta izmaksām. Galvenā atšķirība starp atgriezenisko izmaksu aprēķināšanu un standarta izmaksām ir tāda, ka atgriezeniskās izmaksu aprēķināšanas gadījumā novirzes netiek aprēķinātas atbilstoši Kanban vai pabeigtajām precēm. Tā vietā novirzes tiek aprēķinātas atbilstoši ražošanas plūsmām noteiktā periodā. Ar šo metodi tiek ieviesta patiesi racionāla koncepcija atskaišu veidošanai par materiālu patēriņu. Par specializēto izdoto materiālu daudzumu netiek ziņots Kanban vai ražošanas pasūtījumā. Tā vietā pilnas partijas vai materiālu apstrādes vienības tiek iekļautas ražošanas plūsmā. Pēc tam, kad partijas vai materiālu apstrādes vienības ir reģistrētas kā tukšas, tās tiek norādītas kā patērētas. Papildu patēriņu var izmantot atkarībā no [ražošanas plūsmas konfigurācijas](../production-control/lean-manufacturing-modeling-lean-organization.md). Pirms var izmantot papildu patēriņu, organizācijām jāsniedz iespēja izmantot materiālus ražošanas plūsmas NP ietvaros. Periodiskā atgriezeniskā izmaksu aprēķināšana nosaka NP faktisko vērtību līdz perioda beigām. Šī noteikšana pamatojas uz Kanban materiālu apstrādes vienībām un Kanban darba statusu. Atšķirības starp efektīvajām vērtībām un faktiskajām NP vērtībām pa izmaksu grupām un krājumiem tiek uzskaitītas un parādītas kā novirzes.
 

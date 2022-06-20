@@ -1,6 +1,6 @@
 ---
 title: Produktu saņemšana pret pirkšanas pasūtījumiem
-description: Šajā tēmā ir aprakstītas dažādas opcijas, lai prod. reģistrētu kā saņemtus.
+description: Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904048"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Produktu saņemšana pret pirkšanas pasūtījumiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas dažādas opcijas, lai prod. reģistrētu kā saņemtus.
+Šajā rakstā ir izklāstītas dažādās opcijas, kas ir pieejamas, lai produktus reģistrētu kā saņemtus.
 
 Produktu ieejas plūsma ir process, kas paredzēts, lai reģistrētu, kādi pasūtītie produkti tika saņemti, lai pēc tam pirkšanas pasūtījumu (PP) rindas varētu apstrādāt rēķinu izrakstīšanai. Reizēm produktiem ir jāizpilda sākotnējā reģistrēšana, kur tiek ierakstīta papildu informācija no piegādātāja, pirms produkti tiek saņemti. Kad produkti tiek piegādāti, tie vispirms tiek atzīmēti kā **Reģistrēts**. Produktiem var būt nepieciešams izpildīt papildu procesus, piemēram, kvalitātes pārvaldību, pirms tie visbeidzot tiek atzīmēti kā **Saņemts**.
 

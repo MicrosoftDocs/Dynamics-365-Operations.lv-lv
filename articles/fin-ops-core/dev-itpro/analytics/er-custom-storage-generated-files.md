@@ -1,6 +1,6 @@
 ---
 title: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
-description: Šajā tēmā izskaidrots, kā paplašināt elektronisko pārskatu veidošanas (Electronic Reporting — ER) formātu ģenerēto dokumentu glabāšanas vietu sarakstu.
+description: Šajā rakstā ir izskaidrots, kā paplašināt elektronisko pārskatu (ER) formātu ģenerēto dokumentu glabāšanas vietu sarakstu.
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898861"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
 [!include[banner](../includes/banner.md)]
 
-Elektronisko pārskatu veidošanas (ER) struktūras lietojumprogrammas interfeiss (API) ļauj paplašināt ER formātu ģenerēto dokumentu glabāšanas vietu sarakstu. Šajā tēmā skaidrots, kā pievienot pielāgotu glabāšanas vietu ģenerētajiem dokumentiem, deleģējot uzdevumu izveidot ER galamērķus uz noklusējuma mērķa rūpnīcu un pēc tam ieviešot pielāgotu klasi ar savu mērķa loģiku.
+Elektronisko pārskatu veidošanas (ER) struktūras lietojumprogrammas interfeiss (API) ļauj paplašināt ER formātu ģenerēto dokumentu glabāšanas vietu sarakstu. Šajā rakstā ir izskaidrots, kā pievienot pielāgotu uzglabāšanas vietu ģenerētajiem dokumentiem, deleģējot uzdevumu izveidot ER adresātus noklusējuma mērķa fabrikai un pēc tam ieviešot pielāgotu klasi, kam ir sava mērķa loģika.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -35,7 +35,7 @@ Izvietojiet topoloģiju, kas atbalsta pastāvīgu būvēšanu. Papildinformācij
 
 Jums jābūt arī piekļuvei šīs topoloģijas izstrādes videi.
 
-Visus šīs tēmas uzdevumus var pabeigt **USMF** uzņēmumā.
+Visus uzdevumus šajā rakstā var izpildīt uzņēmumā **USMF**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Pamatlīdzekļu atjaunošanas ER formāta importēšana
 

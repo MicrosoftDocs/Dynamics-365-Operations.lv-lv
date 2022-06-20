@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
-description: Šajā tēmā skaidrots, kā pārvaldīt vairākus atvasinātus kartējumus, kas tika konfigurēti atsevišķam modeļa saknei.
+description: Šajā rakstā skaidrots, kā pārvaldīt vairākus atvasinātus kartējumus, kas tika konfigurēti atsevišķa modeļa saknei.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892484"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 
@@ -26,15 +26,15 @@ ms.locfileid: "8324116"
 
 Elektronisko [pārskatu (ER) datu](general-electronic-reporting.md) modeļu komponents tiek izmantots katrā konfigurētajā ER formāta komponentā, kā datu avots izejošo dokumentu ģenerēšanai. Lai aprakstītu vienu biznesa domēnu, konfigurējiet datu modeļa komponentu, kam ir daudz saknes definīciju. 
 
-Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER modeļa kartēšanas komponentu kā Microsoft Dynamics 365 Finance raksturīgu datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
+Katra saknes definīcija ļauj jums attēlot šī domēna datus tādā veidā, kas ir piemērots īpašiem pārskatu nolūkiem. Katrai saknes definīcijai jūs varat konfigurēt ER modeļa kartēšanas komponentu kā Microsoft Dynamics 365 Finanšu – specifisku datu modeļa implementēšanu. Šādā veidā aprakstiet, kā izpildlaikā tiks aizpildīts datu modelis.
 
 ER modeļa kartēšanas komponenti var atrasties ER datu modeļa [konfigurācijās](general-electronic-reporting.md#Configuration) un ER modeļa kartēšanas konfigurācijās. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai. Viena ER konfigurācija var ietvert daudzus kartēšanas komponentus, katrs no tiem ir konfigurēts vienai saknes definīcijai.
 
 Daudzi konfigurācijas nodrošinātāji var piedāvāt ER modeļa kartēšanas konfigurācijas tam pašam ER datu modelim. Šīs modeļa kartēšanas konfigurācijas var ietvert kartēšanas komponentus dažādām saknes definīcijām. Jūs varat izmantot modeļa kartējumu vienai saknes definīcijai, ko piedāvā viens [nodrošinātājs](general-electronic-reporting.md#Provider), un izmantot modeļa kartēšanu citai saknes definīcijai, ko piedāvā cits nodrošinātājs.
 
-Šīs tēmas procedūrās skaidrots, kā pārvaldīt vairākas ER modeļa kartēšanas konfigurācijas no ER datu modeļa, ja tās satur dažādus modeļu kartēšanas komponentus, kas konfigurēti tai pašai saknes definīcijai. 
+Procedūras šajā rakstā skaidro kā pārvaldīt vairākas ER modeļa kartēšanas konfigurācijas ER datu modelim, ja tās satur dažādus modeļu kartēšanas komponentus, kas konfigurēti tai pašai saknes definīcijai. 
 
-Lai pabeigtu šajā tēmā minētās darbības, ir jābūt piešķirtai sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.
+Lai izpildītu šajā rakstā sniegtās procedūras, jums jābūt piešķirtai sistēmas administratora vai elektronisko pārskatu izstrādātāja lomai.
 
 Visas tālāk norādītās procedūras var veikt uzņēmumā USMF. Kodēšana nav nepieciešama.
 

@@ -1,6 +1,6 @@
 ---
 title: Rezervēt krājumu daudzumus
-description: Šajā tēmā ir aprakstītas dažādās opcijas, kas ir pieejamas krājumu rezervēšanai.
+description: Šajā rakstā aprakstītas dažādas opcijas, kas pieejamas krājumu rezervēšanai.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899445"
 ---
 # <a name="reserve-inventory-quantities"></a>Rezervēt krājumu daudzumus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas dažādās opcijas, kas ir pieejamas krājumu rezervēšanai.
+Šajā rakstā aprakstītas dažādas opcijas, kas pieejamas krājumu rezervēšanai.
 
 Krājumu daudzumus noteiktiem pārdošanas pasūtījumiem varat rezervēt automātiski. Tas nozīmē, ka rezervēto krājumu nevar izņemt no noliktavas citiem pasūtījumiem, ja vien netiek atcelta šī krājuma rezervācija vai daļa no krājuma rezervācijas.
 

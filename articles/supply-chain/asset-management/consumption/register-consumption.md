@@ -1,6 +1,6 @@
 ---
 title: Patēriņa reģistrēšana
-description: Šajā tēmā ir aprakstīts, kā reģistrēt patēriņu Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā reģistrēt patēriņu Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886049"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -90,7 +90,7 @@ Veicot patēriņa reģistrācijas, noteiktā secībā reģistrācijām tiek piev
 - *Krājumu reģistrācijas:* vispirms tiek pievienotas finanšu dimensijas no žurnāla virsraksta, ja tādas ir. Pēc tam tiek pievienotas finanšu dimensijas no saistītā darba pasūtījuma projekta. Pēc tam tiek pievienotas finanšu dimensijas no vietas. Visbeidzot, tiek pievienotas finanšu dimensijas no krājuma.
 
 >[!NOTE]
->Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Šis ir standarta iestatījums ar citām Finance and Operations programmām.
+>Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Šis ir standarta iestatījums programmatūrā Finance and Operations.
 
 
 

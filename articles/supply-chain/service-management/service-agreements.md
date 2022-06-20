@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905607"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Izstrādes un veidošanas pakalpojumu līgumu pārskats
 
@@ -72,7 +72,7 @@ Katrā pakalpojumu līguma rindā ir detalizēti aprakstīts piedāvātā pakalp
 -  Norāda, vai rinda ir apturēta. Ja rinda ir apturēta, nevarat šai atsevišķajai rindai izveidot pakalpojuma pasūtījumus.
 -  Projekta iestatījumi, tādi kā kategorija un rindas statuss.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Pakalpojumu līgumu izveide](create-service-agreements.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Procesu rokasgrāmatas struktūra
-description: Šajā tēmā ir sniegta informācija par procesa ceļveža struktūru izstrādātājiem, kas paplašina mūsu noliktavas mobilos procesus X++.
+description: Šajā rakstā ir sniegta informācija par procesa ceļveža struktūru izstrādātājiem, kas paplašina mūsu noliktavas mobilos procesus X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860440"
 ---
 # <a name="process-guide-framework"></a>Procesu rokasgrāmatas struktūra
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par procesa ceļveža struktūru izstrādātājiem, kas paplašina noliktavas mobilos procesus X++. Noliktavas mobilie procesi ir paplašināmi, jo procesi tiek sadalīti nelielās darbībās. Katras darbības biznesa loģika un lietotāja interfeisa veidošana ir izgūta atsevišķās klasēs, kas atļauj paplašināmību.
+Šajā rakstā ir sniegta informācija par procesa ceļveža struktūru izstrādātājiem, kas paplašina noliktavas mobilos procesus X++. Noliktavas mobilie procesi ir paplašināmi, jo procesi tiek sadalīti nelielās darbībās. Katras darbības biznesa loģika un lietotāja interfeisa veidošana ir izgūta atsevišķās klasēs, kas atļauj paplašināmību.
 
 ## <a name="overview-of-the-existing-design"></a>Esošā dizaina apskats
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Šajā tēmā varat atrast to pašu pirmkodu X++ metodēm, izmantojot lietojumprogrammu pārlūku. Veiciet filtrēšanu pēc klases nosaukuma un pēc tam ar peles labo pogu noklikšķiniet uz klases nosaukuma un atlasiet **Skatīt kodu**.
+> Šajā rakstā varat atrast to pašu pirmkodu X++ metodēm, izmantojot programmu pārlūkprogrammas programmu. Veiciet filtrēšanu pēc klases nosaukuma un pēc tam ar peles labo pogu noklikšķiniet uz klases nosaukuma un atlasiet **Skatīt kodu**.
 
 ### <a name="step-3-start-the-production-order"></a>3. darbība: Ražošanas pasūtījuma sākšana
 
@@ -421,7 +421,7 @@ To darot, tajā ir pieprasīta darbība izveidot darbības klasi nosaukumam, kas
 
 ### <a name="summary"></a>Kopsavilkums
 
-Lai apkopotu visu šajā tēmā izskaidroto informāciju, skatiet vispārēju procesam nepieciešamā koda kopsavilkumu:
+Lai apkopotu visu, kas šajā rakstā ir izskaidrots, skatiet vispārēju procesam nepieciešamā koda kopsavilkumu:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Lai apkopotu visu šajā tēmā izskaidroto informāciju, skatiet vispārēju pr
         ```
 
         > [!NOTE]
-        > Metode **generateItemInfoForProdId()**, kas tiek izmantota krājumu informācijas etiķešu ģenerēšanas laikā, ir izslēgta no šīs tēmas. Šī metode meklē dažas tabulas, lai iegūtu krājuma ID, aprakstu un dimensijas. Ja vēlaties labāk izprast **generateItemInfoForProdId()**, aplūkojiet avota kodu.
+        > Metode **generateItemInfoForProdId()**, kas tiek izmantota krājumu informācijas etiķešu ģenerēšanas laikā, ir izslēgta no šī raksta. Šī metode meklē dažas tabulas, lai iegūtu krājuma ID, aprakstu un dimensijas. Ja vēlaties labāk izprast **generateItemInfoForProdId()**, aplūkojiet avota kodu.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Lai apkopotu visu šajā tēmā izskaidroto informāciju, skatiet vispārēju pr
 
 ### <a name="extending-a-business-process"></a>Biznesa procesa paplašināšana
 
-Līdz šim šajā tēmā ir uzsvērts, kā izveidot jaunu procesu, izmantojot **ProcessGuide** struktūru. Šajā pēdējā sadaļā atradīsiet dažus piemērus tam, kā šo biznesa procesu var paplašināt.
+Līdz šim šis raksts ir izcelts, kā veidot jaunu procesu, izmantojot **ProcessGuide** struktūru. Šajā pēdējā sadaļā atradīsiet dažus piemērus tam, kā šo biznesa procesu var paplašināt.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Pievienot darbību plūsmai (izmantojot ProcessGuideNavigationAgentDefault)
 

@@ -1,6 +1,6 @@
 ---
 title: Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
-description: Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Finance and Operations programmām vai Microsoft Dynamics Lifecycle Services (LCS).
+description: Šajā rakstā ir izskaidrots, kā iegūt palīdzību saistībā ar finanšu un operāciju programmām vai Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866436"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "8068038"
 
 [!INCLUDE [PEAP](../../../includes/peap-2.md)]
 
-Šajā tēmā ir paskaidrots, kā saņemt palīdzību saistībā ar Finance and Operations programmām vai Microsoft Dynamics Lifecycle Services (LCS). 
+Šajā rakstā ir izskaidrots, kā iegūt palīdzību saistībā ar finanšu un operāciju programmām vai Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>
@@ -51,7 +51,7 @@ ms.locfileid: "8068038"
 <td>Sistēmā <a href="https://lcs.dynamics.com/">LCS</a> izmantojiet <strong>problēmu meklētāja</strong> rīku, lai ātri meklētu Microsoft zināšanu bāzes (KB) rakstus, labojumfailus un kļūdu apiešanas risinājumus saistībā ar ziņotajām problēmām. Šeit var redzēt, kuras ziņotās problēmas šobrīd tiek vai jau ir novērstas noteiktā funkciju apgabalā. Papildinformāciju skatiet šeit: <a href="issue-search-lcs.md">Problēmu meklētājs (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Saņemiet atbalstu savā programmā Finanses un operācijas.</td>
+<td>Saņemiet atbalstu finanšu un operāciju programmā.</td>
 <td>Programmas augšējā labajā stūrī atlasiet pogu <strong>Palīdzība</strong> (<strong>?</strong>) un atlasiet <strong>Atbalsts</strong>. Problēmas tiek ziņotas LCS cilnē <strong>Aktīvās problēmas</strong>. Tieši tur administratori var noteikt, vai jānodrošina iekšējs atbalsts vai problēmas jāiesniedz korporācijai Microsoft.</td>
 </tr>
 <tr>

@@ -1,6 +1,6 @@
 ---
-title: Iestatīt sūtījumu
-description: Šajā tēmā ir paskaidrots, kā izmantot ienākošo sūtījumu krājumu procesus.
+title: Sūtījuma iestatīšana
+description: Šajā rakstā skaidrots, kā izmantot ienākošo sūtījumu krājumu procesus.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872041"
 ---
-# <a name="set-up-consignment"></a>Iestatīt sūtījumu
+# <a name="set-up-consignment"></a>Sūtījuma iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izmantot ienākošo sūtījumu krājumu procesus.
+Šajā rakstā skaidrots, kā izmantot ienākošo sūtījumu krājumu procesus.
 
-Sūtījuma krājumi ir krājumi, kas pieder kreditoram, bet tiek glabāti jūsu bāzes vietā. Kad esat gatavs patērēt vai izmantot krājumu, jūs pārņemat krājuma īpašumtiesības. Šajā tēmā ir ietverta informācija par to, kā fiziski saņemt krājumus, kas ir kreditora īpašumā, neveidojot virsgrāmatas transakcijas, kā sākt ražošanas procesu, kad krājumus, kas ir kreditora īpašumā, var fiziski rezervēt, un kā mainīt izejmateriālu īpašumtiesības, lai patēriņu spētu apstrādāt kā daļu no ražošanas pasūtījuma apstrādes. Ir arī informācija par to, kā kreditori var pārraudzīt to krājumu patēriņu, izmantojot kreditoru sadarbības interfeisu.
+Sūtījuma krājumi ir krājumi, kas pieder kreditoram, bet tiek glabāti jūsu bāzes vietā. Kad esat gatavs patērēt vai izmantot krājumu, jūs pārņemat krājuma īpašumtiesības. Šajā rakstā ir iekļauta informācija par to, kā fiziski saņemt kreditora rīcībā esošos krājumus, neizveidojot virsgrāmatas darbības, kā sākt ražošanas procesu, kur kreditora piederošo krājumu var fiziski rezervēt. un kā mainīt izejmateriālu īpašumtiesības, lai patēriņu spētu apstrādāt kā daļu no ražošanas pasūtījuma apstrādes. Ir arī informācija par to, kā kreditori var pārraudzīt to krājumu patēriņu, izmantojot kreditoru sadarbības interfeisu.
 
 ## <a name="overview-of-the-consignment-process"></a>Sūtījuma procesa pārskats
 

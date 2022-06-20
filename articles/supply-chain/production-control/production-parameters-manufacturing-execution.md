@@ -1,6 +1,6 @@
 ---
 title: Ražošanas parametri ražošanas izpildes procesā
-description: Šajā tēmā ir sniegta informācija par ražošanas parametru iestatīšanu modulī Ražošanas izpilde.
+description: Šajā rakstā ir sniegta informācija par ražošanas parametru iestatīšanu ražošanas izpildē.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873671"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Ražošanas parametri ražošanas izpildes procesā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par ražošanas parametru iestatīšanu modulī Ražošanas izpilde.
+Šajā rakstā ir sniegta informācija par ražošanas parametru iestatīšanu ražošanas izpildē.
 
 Moduli **Ražošanas izpilde** galvenokārt ir paredzēts izmantot ražošanas uzņēmumos. To var izmantot, lai reģistrētu ražošanas darbu vai projektu laiku un krājumu patēriņu. Pirms moduli Ražošanas izpilde izmantot darbu reģistrācijai, ir jāiestata dažādi ražošanas parametri, kas nosaka, kā un kad reģistrācijas tiek grāmatotas ražošanas procesa laikā. Ražošanas parametru iestatījumi ietekmē krājumu pārvaldību, ražošanas pārvaldību un izmaksu aprēķinu.
 

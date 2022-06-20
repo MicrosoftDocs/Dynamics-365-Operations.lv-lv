@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar Globālo krājumu uzskaiti
-description: Šajā tēmā ir aprakstīts, kā sākt darbu ar Globālo krājumu uzskaiti.
+description: Šajā rakstā ir aprakstīts, kā uzsākt darbu ar globālo krājumu uzskaiti.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891094"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
@@ -38,12 +38,18 @@ Globālā krājumu uzskaite ir pievienojumprogramma. Lai padarītu šīs funkcij
 
 Globālā krājumu uzskaite šobrīd neatbalsta visus izmaksu pārvaldības līdzekļus, kas ir iebūvēti Supply Chain Management. Tāpēc ir svarīgi novērtēt, vai līdzekļu kopa, kas pašlaik ir pieejama, atbilst jūsu prasībām.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Kā iegūt Globālās krājuma uzskaites publisku priekšskatījumu
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a> Kā iegūt globālā krājuma uzskaites pievienojumprogrammu
 
 > [!IMPORTANT]
 > Lai izmantotu Globālo krājumu uzskaiti, ir jābūt LCS iespējotai augstas pieejamības videi (nevis OneBox videi). Turklāt jāizmanto Supply Chain Management versiju 10.0.19 vai jaunāku.
 
-Lai pieteiktos Globālās krājumu uzskaites publiskajam priekšskatījumam, nosūtiet savu LCS vides ID pa e-pastu [Globālās krājumu uzskaites grupai](mailto:GlobalInvAccount@microsoft.com). Pēc programmas apstiprināšanas grupa nosūtīs jums e-pasta ziņojumu, kas ietvers Globālās krājumu uzskaites beta atslēgu un jūsu pakalpojuma galapunktus. Pēc beta atslēgas saņemšanas varat [instalēt pievienojumprogrammu](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Piegādes ķēdes pārvaldības versija no 10.0.19 līdz 10.0.26
+
+Lai instalētu Globālo krājumu uzskaiti Piegādes ķēdes pārvaldības versijai 10.0.19 uz 10.0.26, [sāciet ar pievienojumprogrammas instalēšanu](#install). Pēc tam nosūtiet savu LCS vides ID un uzņēmuma nosaukumu, sūtīt e-pasta ziņojumu uz globālo [krājumu uzskaites grupu](mailto:GlobalInvAccount@microsoft.com). Komanda nosūtīs jums sekojuma e-pastu, kas satur jūsu Globālā krājuma uzskaites pakalpojuma galapunktus.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Piegādes ķēdes pārvaldības versija 10.0.27 un jaunāka
+
+Lai instalētu Globālo krājumu uzskaiti Piegādes ķēdes pārvaldības versijai 10.0.27 un jaunākai versijai, [tikai instalējiet pievienojumprogrammu](#install). Šīm Piegādes ķēžu pārvaldības versijām globālie krājumu uzskaites pakalpojuma galapunkti tiks iestatīti automātiski, tādēļ jums tos nav nepieciešams atrast manuāli. Ja pievienojumprogrammas iestatīšanas laikā rodas problēmas, lūdzu, sazinieties ar globālo [krājumu uzskaites grupu](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licencēšana
 
@@ -84,7 +90,7 @@ Pēc tam izveidojiet programmas lietotājus Globālajā krājumu uzskaitē progr
 1. Dodieties uz **Papildu iestatījumi \> Sistēma \> Drošība \> Lietotāji** un izveidojiet programmas lietotāju. Izmantojiet lauku **Skats**, lai mainītu lapas skatu uz *Programmas lietotāji*.
 1. Atlasiet **Jauns**.
 1. Iestatiet lauku **Programmas ID** uz *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet *Sistēmas administrators*. Ja ir loma ar nosaukumu *Common Data Service Lietotājs*, atlasiet to arī.
+1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet *Sistēmas administrators*. Ja ir loma ar nosaukumu Lietotājs *Common Data Service*, atlasiet to.
 1. Atkārtojiet iepriekšējās darbības, bet iestatiet lauku **Pieteikuma ID** uz *5f58fc56-0202-49a8-ac9e-0946b049718b*.
 
 Papildinformāciju skatiet nodaļā [Programmas lietotāja izveide](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -98,12 +104,7 @@ Ja jūsu Dataverse instalācijas noklusējuma valoda nav angļu valoda, veiciet 
 
 Izpildiet šīs darbības, lai instalētu pievienojumprogrammu, kuru var izmantot Globālajai krājumu uzskaitei.
 
-1. [Parakstīties](#sign-up) Globālās krājuma uzskaites publiskam priekšskatījumam.
 1. Pierakstieties [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Dodieties uz **Priekšskatīt līdzekļu pārvaldību**.
-1. Atlasiet plus zīmi (**+**).
-1. Laukā **Kods** ievadiet savu papildinājuma beta atslēgu Globālajai krājuma uzskaitei. (Kad pierakstījieties, jums vajadzētu saņemt beta atslēgu ar e-pasta ziņojumu.)
-1. Atlasiet **Atbloķēt**.
 1. Atveriet LCS vidi, kurā vēlaties pievienot pakalpojumu.
 1. Doties **Pilna detalizēta informācija**.
 1. Dodieties uz **Power Platform integrāciju** un atlasiet **Iestatīšana**.
@@ -124,6 +125,8 @@ Veiciet šīs darbības, lai iestatītu integrāciju starp Globālo krājumu uzs
 1. Cilnē Visi **meklējiet** līdzekli ar nosaukumu (Priekšskatījums) Globālo *krājumu uzskaite*.
 1. Atlasiet **Iespējot tagad**.
 1. Dodieties uz sadaļu **Globālā krājumu uzskaite \> Iestatīšana \> Globālās krājumu uzskaites parametri \> Integrācijas parametri**.
-1. Laukos **Datu pakalpojuma galapunkts** un **Globālās krājumu uzskaites galapunkts** ievadiet vietrāžus URL no e-pasta ziņojuma, ko Globālās krājumu uzskaites grupa nosūtīja, kad pierakstījieties priekšskatījumā.
+1. Atkarībā no tā, kuru Piegādes ķēžu pārvaldības versiju jūs izmantojat, veiciet vienu no šīm darbībām:
+    - **Piegādes ķēdes pārvaldības versija 10.0.19 līdz 10.0.26**: **·** **datu** pakalpojuma galapunkta un globālā krājuma uzskaites galapunkta laukos ievadiet URL, kas tika sūtīti jums pa e-pastu [no globālās krājumu uzskaites komandas (](#sign-up) skatiet arī Kā iegūt globālās krājumu uzskaites pievienojumprogrammu).
+    - **Piegādes ķēdes pārvaldības versija 10.0.27 un jaunāka**: jums nav jāievada galapunkti, tāpēc varat izlaist šo soli.
 
 Globālā krājumu uzskaite tagad ir gatava lietošanai.

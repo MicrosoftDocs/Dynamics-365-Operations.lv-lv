@@ -1,8 +1,8 @@
 ---
-title: Krājumu redzamības krājumu sadalījums
-description: Šī tēma skaidro veidu, kā iestatīt un izmantot krājumu sadalījuma funkciju, kas ļauj jums rezervēt atvēlēto krājumu, lai nodrošinātu, ka varat izpildīt jūsu ienesīgākos kanālus un debitorus.
+title: Inventory Visibility krājumu sadalījums
+description: Šajā rakstā skaidrots, kā iestatīt un izmantot krājumu sadalījuma funkciju, kas ļauj jums rezervēt atvēlēto krājumu, lai nodrošinātu, ka varat izpildīt jūsu ienesīgākos kanālus un debitorus.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8787470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852510"
 ---
-# <a name="inventory-visibility-inventory-allocation"></a>Krājumu redzamības krājumu sadalījums
+# <a name="inventory-visibility-inventory-allocation"></a>Inventory Visibility krājumu sadalījums
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,7 +26,7 @@ ms.locfileid: "8787470"
 
 Daudzos gadījumos ražotājiem, mazumtirgotājiem un citiem piegādes ķēdes biznesa turētājiem ir iepriekš jāpiešķir krājumi svarīgiem pārdošanas kanāliem, vietām vai debitoriem vai noteiktiem pārdošanas notikumiem. Krājumu sadalījums ir tipiskā pārdošanas darbību plānošanas procesa prakse un tiek veikta pirms notiek faktiskās pārdošanas darbības un pārdošanas pasūtījums tiek izveidots.
 
-Piemēram, velosipēda uzņēmumam ir ierobežots krājums ļoti populāram velosipēdam. Šis uzņēmums dara gan pārdošanu tiešsaistē, gan veikalā. Katrā pārdošanas kanālā uzņēmumam ir daži svarīgi korporatīvi partneri (tirgi un lieli mazumtirgotāji), kas pieprasa, lai tiktu saglabāta noteikta uzņēmuma pieejamo krājumu daļa. Tāpēc velosipēda uzņēmumam jāvar līdzsvarot krājumu sadali pa kanāliem, kā arī pārvaldīt tā VIP partneru izredzes. Labākais veids, kā sasniegt abus mērķus, ir izmantot krājumu sadalījumu, lai katrs kanāls un mazumtirgotājs varētu saņemt noteiktus piešķirtos daudzumus, ko vēlāk var pārdot patērētājiem.
+Piemēram, velosipēda uzņēmumam ir ierobežots krājums ļoti populāram velosipēdam. Šis uzņēmums dara gan pārdošanu tiešsaistē, gan veikalā. Katrā pārdošanas kanālā uzņēmumam ir daži svarīgi korporatīvais partneri (tirgus un lielie mazumtirgotāji), kas pieprasa, lai tiktu saglabāta noteikta uzņēmuma pieejamo krājumu daļa. Tāpēc velosipēda uzņēmumam jāvar līdzsvarot krājumu sadali pa kanāliem, kā arī pārvaldīt tā VIP partneru izredzes. Labākais veids, kā sasniegt abus mērķus, ir izmantot krājumu sadalījumu, lai katrs kanāls un mazumtirgotājs varētu saņemt noteiktus piešķirtos daudzumus, ko vēlāk var pārdot patērētājiem.
 
 Krājumu sadalījumam ir divi pamata biznesa nolūki:
 
@@ -35,7 +35,7 @@ Krājumu sadalījumam ir divi pamata biznesa nolūki:
 
 ## <a name="allocation-definition-in-inventory-visibility-service"></a>Sadalījuma definīcija krājumu redzamības pakalpojumā
 
-Lai arī sadalījuma funkcija krājumu redzamības pakalpojumā neatcēlo fizisko krājumu daudzumu, tā atsaucas uz pieejamo fizisko krājumu daudzumu, *lai* definētu tā sākotnējo pieejamo virtuālās kopas daudzumu. Krājumu sadalījums krājumu redzamība ir mīksts sadalījums. Tas tiek veikts pirms faktiskās pārdošanas darbību realizācijas un nav atkarīgs no pārdošanas pasūtījumiem. Piemēram, varat piešķirt krājumus saviem vissvarīgākajiem pārdošanas kanāliem vai lielajiem korporatīvajiem mazumtirgotājiem, pirms jebkurš gala debitors apmeklē pārdošanas kanālu vai mazumtirdzniecības veikalu tā pirkšanai.
+Lai arī sadalījuma funkcija krājumu redzamības pakalpojumā neatcēlo fizisko krājumu daudzumu, tā atsaucas uz pieejamo fizisko krājumu daudzumu, *lai* definētu tā sākotnējo pieejamo virtuālās kopas daudzumu. Krājumu sadalījums krājumu redzamība ir mīksts sadalījums. Tas tiek veikts pirms faktiskās pārdošanas darbību realizācijas un nav atkarīgs no pārdošanas pasūtījumiem. Piemēram, varat piešķirt krājumus saviem vissvarīgākajiem pārdošanas kanāliem vai lieliem korporatīvajiem mazumtirgotājiem, pirms jebkurš gala debitors apmeklē pārdošanas kanālu vai mazumtirdzniecības veikalu tā pirkšanai.
 
 Krājumu sadalījuma un krājuma vieglās rezervēšanas [starpība ir tā](inventory-visibility-reservations.md), ka vieglā rezervēšana parasti ir saistīta ar faktiskajām pārdošanas darbībām (pārdošanas pasūtījuma rindas). Tāpēc, ja vēlaties kopā izmantot sadalījuma un vieglās rezervēšanas funkcijas, ieteicams vispirms veikt krājumu sadalījumu un pēc tam viegli rezervēt piešķirtos daudzumus. Papildinformāciju skatiet sadaļā " [Patērēt kā vieglās rezervēšanas"](#consume-to-soft-reserved).
 
@@ -98,7 +98,7 @@ Datu avotam ir nosaukums `@iv`.
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Pievienot citus fiziskos mērus pieejamajam aprēķinātā mēram
 
-Lai izmantotu sadalījumu, jāiestata pieejamais aprēķinātais līdzeklis (`@iv`.`@available_to_allocate`). Piemēram, jums ir `fno` datu avots un mērs, `onordered``pos` datu avots un mērs, `inbound``fno.onordered` un jūs vēlaties rīcībā veikt sadalījumu uz rīcībā esošo summu `pos.inbound` un. Šajā gadījumā tam `@iv.@available_to_allocate` ir jāietver `pos.inbound` formulā `fno.onordered` un šajā formulā. Lūk, piemērs:
+Lai izmantotu sadalījumu, jāiestata pieejamais aprēķinātais līdzeklis (`@iv.@available_to_allocate`). Piemēram, jums ir `fno` datu avots un mērs, `onordered``pos` datu avots un mērs, `inbound``fno.onordered` un jūs vēlaties rīcībā veikt sadalījumu uz rīcībā esošo summu `pos.inbound` un. Šajā gadījumā tam `@iv.@available_to_allocate` ir jāietver `pos.inbound` formulā `fno.onordered` un šajā formulā. Šeit parādīts piemērs:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Grupas nosaukumi tiek iestatīti lapā **Krājumu redzamības Power App** konfig
 
 Piemēram, ja izmantosiet četrus grupu nosaukumus un iestatāt tos \[`channel``customerGroup` uz, `region`, `orderType`\] šie nosaukumi būs derīgi ar sadalījumu saistītiem pieprasījumiem, kad izsaucat konfigurācijas atjauninājuma API.
 
-### <a name="allcoation-using-tips"></a>Pieskaņošana, izmantojot padomus
+### <a name="allocation-using-tips"></a>Sadalījums, izmantojot padomus
 
-- Katrai precei sadalījuma funkcijai ir jāizmanto tas pats dimensijas līmenis atbilstoši preču indeksa hierarhijai, ko [iestatījāt preču indeksa hierarhijas konfigurācijā](inventory-visibility-configuration.md#index-configuration). Piemēram, indeksa hierarhija ir Vieta, Vieta, Labojumi, Lielums. Ja atrašanās vieta, Vieta, Krāsa ir iedalīta kādai precei noteiktu daudzumu. Nākamreiz, ko izmantojat, lai piešķirtu, būtu arī atrašanās vieta, atrašanās vieta, krāsas līmenis, ja izmantojat Vieta, Vieta, Krāsa, Izmēra līmenis vai Vieta, Atrašanās vietas līmenis, dati nebūs konsekventi.
-- Mainot sadalījuma grupas nosaukumu, netiks ietekmēti pakalpojumā saglabātie dati.
+- Katrai precei sadalījuma funkcijai ir *jāizmanto* tas pats dimensijas līmenis atbilstoši preču indeksa hierarhijai, ko [iestatījāt preču indeksa hierarhijas konfigurācijā](inventory-visibility-configuration.md#index-configuration). Piemēram, pieņemsim, ka indeksa hierarhija ir \[`Site``Location`, `Color`,`Size`\]. Ja dimensijas līmenī piešķirsiet \[`Site``Location` noteiktu daudzumu vienai precei, `Color`\] nākamais reizi, kad vēlaties piešķirt šo preci, \[`Site` vajadzētu piešķirt arī vienādu līmeni, `Location`. `Color`\] Lietojot līmeni \[`Site`, vai `Location` arī `Color`, `Size`\]\[`Site` dati `Location`\] būs neatbilstīgi.
+- Ja tiek mainīti sadales grupas nosaukums, pakalpojumā saglabātie dati netiks ietekmēti.
 - Sadalījumam ir jānotiek pēc tam, kad produktam ir pozitīvs rīcībā esošo daudzumu.
+- Lai iedalītu preces no augsta *sadalījuma līmeņa* grupas apakšgrupai, izmantojiet `Reallocate` API. Piemēram, \[`channel` jums ir sadalījuma grupu hierarhija, `customerGroup``region``orderType`\]\[un jūs vēlaties piešķirt preci no sadalījuma grupas tiešsaistē, VIP \]\[apakšsadalīšanas grupai Online, VIP, EU\], izmantojiet API, `Reallocate` lai pārvietotu daudzumu. Ja izmantojat `Allocate` API, tas piešķirs daudzumu no virtuālās parastās kopas.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a> Sadalījuma API izmantošana
 
@@ -267,7 +268,7 @@ Piemēram, ir astoņi sadalīti pakalpojumi, kuriem ir dimensiju vietne =1, atra
 
 No mērvienības ir piešķirti astoņi `pos.inbound` rakstzīmes.
 
-Tagad, trīs velosipēdi tiek pārdoti, un tie tiek ņemti no sadalījuma kopas. Lai reģistrētu šo kustību, varat veikt izsaukumu, kam ir šāds pieprasījuma pamatteksts.
+Tagad tiek pārdoti trīs velosipēdi, un tie tiek ņemti no sadalījuma kopas. Lai reģistrētu šo kustību, varat veikt izsaukumu, kam ir šāds pieprasījuma pamatteksts.
 
 ```json
 {
@@ -295,9 +296,9 @@ Tagad, trīs velosipēdi tiek pārdoti, un tie tiek ņemti no sadalījuma kopas.
 
 Pēc šī zvana precei piešķirtais daudzums tiks samazināts par 3. Turklāt krājumu redzamība ģenerēs rīcībā esošo izmaiņu notikumu, kur `pos.inbound` = *-3*. Alternatīvi vērtību var saglabāt tā `pos.inbound`, kā tā ir, un tikai patērēt iedalīto daudzumu. Tomēr šajā gadījumā jāizveido cits fizisks mērs, lai saglabātu patērētos daudzumus vai izmantotu iepriekš definēto mērījumu `@iv.@consumed`.
 
-Šajā pieprasījumā ievērojiet, ka comsume reqeust pamattekstā izmantotais fiziskais mērs jāizmanto pretēja modifera tips (papildinājums vai atņemšanas), salīdzinot ar modifikatora tipu, ko izmanto aprēķinātajā mērvienībā. Tātad šajā patērētā pamattekstā `iv.inbound` ir vērtība `Subtraction` nevis `Addition`.
+Šajā pieprasījumā ievērojiet, ka fiziskajam mērvienībai, ko izmantojat patērētā pieprasījuma pamattekstā, ir jāizmanto pretējs modifikatora tips (papildinājums vai atņemšanas), salīdzinot ar aprēķinātajā mērvienībā izmantoto modifikatora tipu. Tātad šajā patērētā pamattekstā `iv.inbound` ir vērtība `Subtraction` nevis `Addition`.
 
-`fno` Patērētā pamattekstā nevar izmantot datu avotu, jo mēs vienmēr pieprasām, lai krājumu redzamība datu avotam nemainītos `fno` datus. Datu plūsma ir vienvirziena, kas nozīmē, ka `fno` visām daudzuma izmaiņām datu avotam ir jābūt no jūsu Piegādes ķēžu pārvaldības vides.
+Datu `fno` avotu nevar izmantot patērētājam pamattekstā, jo mēs vienmēr pieprasām, ka krājumu redzamība datu avotam nevar mainīt `fno` nekādus datus. Datu plūsma ir vienvirziena, kas nozīmē, ka `fno` visām daudzuma izmaiņām datu avotam ir jābūt no jūsu Piegādes ķēžu pārvaldības vides.
 
 #### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a> Patērēt kā vieglās rezervācijas
 
@@ -343,7 +344,7 @@ Kad vēlaties patērēt daudzumu 3 un tieši rezervēt šo daudzumu, varat veikt
 
 #### <a name="query"></a>Vaicājums
 
-`Query` Izmantojiet API, lai izgūtu ar sadalījumu saistītu informāciju par dažām precēm. Varat izmantot dimensiju filtrus un sadalījuma grupu filtrus, lai sašaurinātu rezultātus. Dimensijām jāsakrīt exatcly ar to, ko vēlaties izgūt, piemēram, \[vieta =1, atrašanās vieta=11\]\[būs ar vietu=1, novietojums=11, krāsa=\] sarkana.
+`Query` Izmantojiet API, lai izgūtu ar sadalījumu saistītu informāciju par dažām precēm. Varat izmantot dimensiju filtrus un sadalījuma grupu filtrus, lai sašaurinātu rezultātus. Dimensijām jāatbilst precīzi tam, ko vēlaties izgūt, piemēram, \[atrašanās vieta=1, atrašanās vieta=11\]\[būs ar vietu=1, novietojums=11, krāsa=\] sarkana.
 
 ```json
 {

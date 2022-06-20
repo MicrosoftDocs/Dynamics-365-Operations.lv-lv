@@ -1,6 +1,6 @@
 ---
 title: Jauna noliktavas izkārtojuma izveide
-description: Šajā tēmā ir aprakstīts, kā iestatīt informāciju par vietām noliktavā.
+description: Šajā rakstā ir aprakstīts, kā iestatīt informāciju par atrašanās vietām noliktavā.
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859319"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Jauna noliktavas izkārtojuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt informāciju par vietām noliktavā. Tā attiecas tikai uz noliktavām, kas izveidotas, izmantojot “pamata noliktavu” krājumu vadības modulī, nevis uz noliktavām, kas izveidotas noliktavas vadības modulī. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+Šajā rakstā ir aprakstīts, kā iestatīt informāciju par atrašanās vietām noliktavā. Tā attiecas tikai uz noliktavām, kas izveidotas, izmantojot “pamata noliktavu” krājumu vadības modulī, nevis uz noliktavām, kas izveidotas noliktavas vadības modulī. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
 
 
 ## <a name="set-the-default-location-capacity"></a>Iestatīt noklusējuma novietojuma noslodzi

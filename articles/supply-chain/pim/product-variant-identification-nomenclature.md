@@ -1,6 +1,6 @@
 ---
 title: Preces variantu numuru no nosaukumu nomenklatūra
-description: Šajā tēmā ir aprakstīts, kā iestatīt preču numuru nomenklatūru, lai aizstātu fiksēto formātu [preces šablona numurs-konfigurācija-izmērs-krāsa-stils].
+description: Šajā rakstā ir aprakstīts, kā var iestatīt preču numuru sēriju, lai aizstātu fiksēto [Preces šablona numurs – konfigurācija - izmērs - krāsa - stils] formātu.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b437279c275244e96692c1a629e891973d30d48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850617"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Preces variantu numuru no nosaukumu nomenklatūra
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt preču numuru nomenklatūru, lai aizstātu fiksēto formātu [preces šablona numurs-konfigurācija-izmērs-krāsa-stils]. Jaunajai nomenklatūrai ir mērķim pielāgots formāts, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēles teksta atdalītāji. Varat arī izveidot preču nosaukumu nomenklatūru. Varat arī izveidot nomenklatūru, lai norādītu konfigurācijas, kas ir izveidotas, izmantojot ierobežojumiem atbilstošo preču konfiguratoru. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti.
+Šajā rakstā ir aprakstīts, kā var iestatīt preču numuru sēriju, lai aizstātu fiksēto [Preces šablona numurs – konfigurācija - izmērs - krāsa - stils] formātu. Jaunajai nomenklatūrai ir mērķim pielāgots formāts, kurā ir ietverts preces šablona numurs, aktīvās preces dimensijas un jūsu izvēles teksta atdalītāji. Varat arī izveidot preču nosaukumu nomenklatūru. Varat arī izveidot nomenklatūru, lai norādītu konfigurācijas, kas ir izveidotas, izmantojot ierobežojumiem atbilstošo preču konfiguratoru. Šajās nomenklatūrās var būt jūsu izvēlētie atribūti.
 
 Jaunās preces variantu numuru un preces variantu nosaukumu nomenklatūras sniedz iespēju iekļaut segmentus preces variantu identifikatoros. Šajos segmentos var būt ietverts preces šablona numurs un nosaukums, preces dimensijas ID un nosaukums, numuru sērijas, teksta konstantes un atribūti. Šī funkcija sniedz iespēju ātri atrast noteiktu preces variantu, kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu. Gan preces variantu numuru, gan preces variantu nosaukumu nomenklatūras varat izveidot, izmantojot lapu **Preču nomenklatūra**. Lai atvērtu šo lapu, noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Iestatījumi**.
 

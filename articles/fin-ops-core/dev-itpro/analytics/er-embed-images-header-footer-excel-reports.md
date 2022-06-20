@@ -1,6 +1,6 @@
 ---
 title: ER formāta izveide, lai ģenerētu pārskatu Excel formātā ar iegultiem attēliem lapas galvenēs vai kājenēs
-description: Šajā tēmā skaidrots, kā izmantot Elektronisko pārskatu (ER), lai ģenerētu biznesa dokumentus, kam ir iegulti attēli un formas lapas galvenēs vai kājenēs.
+description: Šajā rakstā skaidrots, kā izmantot elektroniskos pārskatus (ER), lai ģenerētu biznesa dokumentus, kuriem ir attēli un formas iegulti lapas galvenēs un kājenēs.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854848"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formāta izveide, lai ģenerētu pārskatu Excel formātā ar iegultiem attēliem lapas galvenēs vai kājenēs
 
 [!include[banner](../includes/banner.md)]
 
-Šī tēma skaidro, kā lietotājs sistēmas administratora vai elektronisko pārskatu funkcionālā konsultanta lomā var veikt šos uzdevumus:
+Šajā rakstā skaidrots, kā lietotājs sistēmas administratora vai elektroniskā pārskata funkcionālā konsultanta lomā var veikt šos uzdevumus:
 
 - Konfigurēt parametrus [Elektronisko pārskatu (ER)](general-electronic-reporting.md) veidošanas struktūrai.
 - Importēt ER [konfigurācijas](general-electronic-reporting.md#Configuration), ko [nodrošina](general-electronic-reporting.md#Provider) Microsoft un ko izmanto, lai ģenerētu [brīvā teksta rēķinus](../../../finance/accounts-receivable/create-free-text-invoice-new.md), pamatojoties uz [veidnes](er-fillable-excel.md#excel-file-component) formātā Microsoft Excel.
 - Izveidot Microsoft nodrošinātās standarta ER formāta konfigurācijas [pielāgotu (atvasinātu)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) versiju.
 - Modificēt pielāgoto ER formāta konfigurāciju, lai tā ģenerētu brīvā teksta rēķina pārskatu, kam kājenē ir uzņēmuma logotipa attēls.
 
-Šīs tēmas procedūras var pabeigt **USMF** uzņēmumā. Kodēšana nav nepieciešama. Pirms sākšanas, lejupielādējiet un saglabājiet tālāk norādīto failu:
+Šajā rakstā šīs procedūras var izpildīt **USMF** uzņēmumā. Kodēšana nav nepieciešama. Pirms sākšanas, lejupielādējiet un saglabājiet tālāk norādīto failu:
 
 | Apraksts        | Faila nosaukums |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Standarta ER konfigurāciju importēšana
 
-Lai pievienotu standarta ER konfigurācijas savai pašreizējai Dynamics 365 Finance instancei, jums tās ir jāimportē no šai instancei konfigurētā ER [repozitorija](general-electronic-reporting.md#Repository).
+Lai pievienotu standarta ER konfigurācijas pašreizējai Dynamics 365 Finanšu instancei, jums tās jāimportē no ER [repozitorija](general-electronic-reporting.md#Repository), kas tika konfigurēts šim gadījumam.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji**, lai skatītu **Microsoft** nodrošinātāja repozitoriju sarakstu.

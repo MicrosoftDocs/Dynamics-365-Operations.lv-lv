@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Darbaspēka rādītāji
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Darbaspēka rādītāji.
+description: Šajā rakstā ir aprakstīts darbaspēka metriskās sistēmas Power BI saturs.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884493"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Power BI satura pakotne Darbaspēka rādītāji
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta satura pakotne **Darbaspēka rādītāji** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts **darbaspēka metriskās sistēmas** Microsoft Power BI saturs. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 Power BI saturs **Darbaspēka rādītāji** tiek rādīts darbvietā **Personāla pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.
 
-- Microsoft Dynamics 365 Finance
+- Microsoft Dynamics 365 Finanses
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji

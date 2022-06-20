@@ -1,6 +1,6 @@
 ---
 title: Noenkurošana
-description: Šajā tēmā paskaidrots, kā iespējot un lietot enkurošanu.
+description: Šajā rakstā ir izskaidrots, kā iespējot un izmantot noenkurošanu.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903816"
 ---
 # <a name="anchoring"></a>Noenkurošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēma sniegta informācija par enkurošanas procedūru. Tajā aprakstīta konfigurācija, kura ir vajadzīga, un loģika, kura tiek palaista, kad noliktavas darbinieks nomaina vai nu izstādīšanas vietu vai iekraušanas vietu.
+Šajā rakstā ir sniegta detalizēta informācija par noenkurošanas procesu. Tajā aprakstīta konfigurācija, kura ir vajadzīga, un loģika, kura tiek palaista, kad noliktavas darbinieks nomaina vai nu izstādīšanas vietu vai iekraušanas vietu.
 
 Enkurošanas līdzeklis ļauj pārlabot izstādīšanas vai iekraušanas vietu. Visi atvērtie nolikumi pēc tam tiks pārvirzīti uz jauno izstādīšanas vai iekraušanas vietu, kuru būsi norādījuši.
 
@@ -36,11 +36,11 @@ Enkurojuma konfigurēšana mobilo ierīču izvēlnes elementiem veic, izmantojot
 > [!IMPORTANT]
 > Turpmāku atvērto nolikumu vieta tiks mainīta tikai tajās darba rindās, kuras ir ģenerētas no vienas un tās pašas darba veidnes rindas. Citiem vārdiem sakot, sistēma enkuros nolikuma rindas, kuras ceļas no vienas un tās pašas darba veidnes rindas.
 
-Šajā tēmā sniegts scenārijs, kurā parādīts, kā darbojas enkurošana. Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopu un izlaidīsiet to noliktavā. Pēc tam tiks pārlabota piedāvātā izstādīšanas vieta un pārbaudīts, ka visi atlikušie izvietošanas darbi ir novirzīti uz jauno vietu.
+Šajā rakstā ir sniegts scenārijs, kurā parādīts, kā noenkurošana darbojas. Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopu un izlaidīsiet to noliktavā. Pēc tam tiks pārlabota piedāvātā izstādīšanas vieta un pārbaudīts, ka visi atlikušie izvietošanas darbi ir novirzīti uz jauno vietu.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Scenārija priekšnosacījums: padarīt pieejamus demonstrācijas datus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu *USMF*, pirms sākat darbu.
+Šī raksta scenārijā ir atsauces uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti korporācijai Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu *USMF*, pirms sākat darbu.
 
 ## <a name="scenario-setup"></a>Scenāriju iestatīšana
 

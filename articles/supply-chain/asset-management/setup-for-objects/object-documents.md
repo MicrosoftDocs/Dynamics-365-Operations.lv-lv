@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu dokumenti
-description: Šī tēma paskaidro līdzekļu dokumentus Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidroti līdzekļu dokumenti Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899474"
 ---
 # <a name="asset-documents"></a>Līdzekļu dokumenti
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722491"
 
  
 
-Šī tēma paskaidro līdzekļu dokumentus Līdzekļu pārvaldībā.
+Šajā rakstā skaidroti līdzekļu dokumenti Līdzekļu pārvaldībā.
 
 Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automātiski saistīti, piemēram, ar darbu veidiem, līdzekļu ražotājiem, līdzekļu veidiem vai līdzekļiem. Šī funkcionalitāte tiek izmantota, kad tiek izlaistas atjauninātas dokumenta versijas. Šādā gadījumā jums vienkārši jāievieto atjauninātais dokuments standarta atrašanās vietā, ko izmantojat Supply Chain Management dokumentiem, un jāpievieno dokuments jūsu izveidotajam līdzekļu dokumenta ierakstam. Pēc tam atjauninātajam dokumentam var piekļūt no izvēlnes elementiem **Visi līdzekļi**, **Aktīvie līdzekļi**, **Mani aktīvie līdzekļi**, **Visi darba pasūtījumi** un **Aktīvie darba pasūtījuma darbi** . Dokumentu pievienošanas process līdzekļa dokumenta ierakstam izmanto standarta dokumentu apstrādes sistēmu.
 

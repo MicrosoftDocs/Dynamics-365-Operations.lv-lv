@@ -1,6 +1,6 @@
 ---
 title: Sinhronizējiet līguma rēķinus risinājumā Field Service ar brīva teksta rēķiniem risinājumā Supply Chain Management
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Field Service ietverto līgumu rēķinu sinhronizēšanai ar brīva teksta rēķiniem programmā Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti līgumu rēķinu sinhronizēšanai Dynamics 365 field Service brīva teksta rēķinos Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c4ef70af71ae223baaa2abb2b64428beab946e3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900888"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sinhronizējiet līguma rēķinus risinājumā Field Service ar brīva teksta rēķiniem risinājumā Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060768"
 
 
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Field Service ietverto līgumu rēķinu sinhronizēšanai ar brīva teksta rēķiniem programmā Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu līgumu rēķinus Dynamics 365 Field Service ar brīva teksta rēķiniem Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 

@@ -1,6 +1,6 @@
 ---
 title: Krājumu saņemšanas pārskata profila iestatīšana
-description: Šī tēma koncentrējas uz ierašanās pārskata profila iestatīšanu.
+description: Šis raksts fokusējas uz saņemšanas pārskata profila iestatīšanu.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872012"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Krājumu saņemšanas pārskata profila iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šī tēma koncentrējas uz ierašanās pārskata profila iestatīšanu. Saņemšanas pārskata profils ir noteikumu kopums, kas tiks izmantots, kad lietotājs atver saņemšanas pārskata lapu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šo procedūru parasti veic saņemšanas darbinieks.
+Šis raksts fokusējas uz saņemšanas pārskata profila iestatīšanu. Saņemšanas pārskata profils ir noteikumu kopums, kas tiks izmantots, kad lietotājs atver saņemšanas pārskata lapu. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF. Šo procedūru parasti veic saņemšanas darbinieks.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Krājumu pārvaldība > Iestatīšana> Izplatīšana > Ierašanās pārskata profili**.
 2. Atlasiet **Jauns**. Tā kā būs gandrīz vienmēr jāstrādā vienā noliktavā, izkraujot kravas no pilnām kravas automašīnām, jums vajadzētu izveidot saņemšanas pārskata profilu, lai vienkāršotu saņemto krājumu reģistrācijas procesu.  

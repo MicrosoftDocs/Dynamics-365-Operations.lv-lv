@@ -1,6 +1,6 @@
 ---
 title: Pakalpojumu līguma grupu izveide
-description: Tiek sniegta pakāpeniska procedūra ar norādījumiem, kā veidot pakalpojumu līguma grupas.
+description: Šajā rakstā ir sniegta procedūra ar informāciju, kā veidot pakalpojumu līgumu grupas.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 9d94dfe38a6aef765bb1089908827275c00b3dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889491"
 ---
 # <a name="create-service-agreement-groups"></a>Pakalpojumu līguma grupu izveide 
 
@@ -37,7 +37,7 @@ Pakalpojumu līgumu grupas is noderīgas pakalpojumu līgumu kārtošanai un fil
 > [!NOTE]
 > Ja pakalpojuma līguma grupa ir definēta lapas **Pakalpojumu pārvaldības parametri** laukā **Pakalpojuma līguma grupa**, programma iesaka šo grupu visiem jaunajiem pakalpojumu līgumiem, ko veidojat.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Pakalpojumu līguma pārskats](service-agreement-groups.md)
 

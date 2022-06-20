@@ -1,6 +1,6 @@
 ---
 title: Potenciālā klienta-naudas duālais ieraksts
-description: Šajā tēmā ir sniegta informācija par potenciālā klienta pārvēršanu naudā duālajā ierakstā.
+description: Šajā rakstā ir sniegta informācija par potenciālo klientu skaidrā naudā duālās rakstīšanas laikā.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860114"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -29,7 +29,7 @@ Programmu interfeisos var piekļūt apstrādes statusiem un rēķina informācij
 Informāciju par debitoru un kontaktpersonu integrāciju skatiet integrētajā [debitoru pamatdatā](customer-mapping.md). Informāciju par produktu integrāciju skatiet sadaļā [Unificētā preču pieredze](product-mapping.md).
 
 > [!NOTE]
-> Sistēmā Dynamics 365 Sales gan potenciālais klients, gan debitors attiecas uz ierakstu tabulā **Konts**, kur kolonna **RelationshipType** ir **Potenciālais klients** vai **Debitors**. Ja biznesa loģika ietver **Konta** kvalifikācijas procesu, kur **Konta** ieraksts ir izveidots un vispirms kvalificēts kā potenciālais klients un tikai pēc tam kā debitors, tad tas tiek sinhronizēts ar Finance and Operations programmu tikai tad, ja tas ir debitors (`RelationshipType=Customer`). Ja vēlaties, lai **Konta** rinda tiktu sinhronizēta kā potenciālais klients, tad, lai integrētu potenciālā klienta datus, vajadzīga pielāgota karte.
+> Sistēmā Dynamics 365 Sales gan potenciālais klients, gan debitors attiecas uz ierakstu tabulā **Konts**, kur kolonna **RelationshipType** ir **Potenciālais klients** vai **Debitors**. Ja biznesa **loģika** **ietver** konta kvalifikācijas procesu, kur konta ieraksts ir izveidots un vispirms kvalificēts kā potenciālais klients, un tad tas tiek sinhronizēts ar programmu Finanses un operācijas tikai tad, kad tas ir debitors ().`RelationshipType=Customer` Ja vēlaties, lai **Konta** rinda tiktu sinhronizēta kā potenciālais klients, tad, lai integrētu potenciālā klienta datus, vajadzīga pielāgota karte.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -96,7 +96,7 @@ Ja sinhronizējat no Supply Chain Management uz Sales tiek iegūts šāds rezult
 Tabulai **Pasūtījums** ir pievienotas jaunas kolonnas, kas tiek rādītas lapā. Lielākā daļa šo kolonnu parādās programmas Sales cilnē **Integrēšana**. Lai uzzinātu vairāk par to, kā statusa kolonnas tiek kartētas, skatiet [Kartēšanas iestatīšana pārdošanas pasūtījuma statusa kolonnām](sales-status-map.md).
 
 + Pogas **Izveidot rēķinu** un **Atcelt pasūtījumu** lapā **Pārdošanas pasūtījumā** ir slēptas programmā Sales.
-+ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[ statuss\]** noklusējuma vērtību **Aktīvs**.
++ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
 
 ## <a name="invoices"></a>Rēķini
 
@@ -122,7 +122,7 @@ Potenciālā kliente pārveidošana naudā ietver pamata tabulas karšu vākšan
 [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi | |
 [CDS pārdošanas piedāvājuma rindas](mapping-reference.md#214) | quotedetails | |
 [Izlaistās preces V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini | Pārdošanas rēķinu virsrakstu V2 tabula programmā Finance and Operations ietver rēķinus par pārdošanas pasūtījumiem un brīva teksta rēķiniem. Dubultās rakstīšanas gadījumā Dataverse tiek lietots filtrs, kas filtrēs jebkurus brīvā teksta rēķinu dokumentus. |
+[Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini | Programmas Finanses un operācijas tabula Pārdošanas rēķinu virsrakstos V2 ir ietverti rēķini par pārdošanas pasūtījumiem un brīva teksta rēķiniem. Dubultās rakstīšanas gadījumā Dataverse tiek lietots filtrs, kas filtrēs jebkurus brīvā teksta rēķinu dokumentus. |
 [Pārdošanas rēķinu rindas V2](mapping-reference.md#117) | invoicedetails | |
 [Pārdošanas pasūtījumu izcelsmes kodi](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

@@ -1,6 +1,6 @@
 ---
 title: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Supply Chain Management
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto Kontaktpersonu (Kontaktu) un Kontaktpersonu (Klientu) sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti kontaktpersonu (kontaktpersonu) un kontaktpersonu (debitoru) entītiju sinhronizēšanai no Dynamics 365 pārdošanas uz Dynamics 365 piegādes ķēžu pārvaldību.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857349"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062519"
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Microsoft Dataverse programmām](/powerapps/administrator/data-integrator).
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto Kontaktpersonu (Kontaktu) un Kontaktpersonu (Klientu) tabulu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
+Šajā rakstā aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti kontaktpersonu (kontaktpersonu) un kontaktpersonu (debitoru) tabulu sinhronizēšanai tieši no Dynamics 365 pārdošanas uz Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
@@ -126,7 +126,7 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 ![Kontaktpersonas-debitora veidnes kartēšana datu integrētājā.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 

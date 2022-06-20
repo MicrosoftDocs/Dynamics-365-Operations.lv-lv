@@ -1,7 +1,7 @@
 ---
 title: Vispārējās plānošanas veiktspējas uzlabošana
-description: Šajā tēmā ir paskaidrotas dažādas opcijas, kas var palīdzēt uzlabot vispārējās plānošanas veiktspēju vai novērst problēmas.
-author: ChristianRytt
+description: Šajā rakstā ir izskaidrotas dažādas opcijas, kas var palīdzēt uzlabot vispārējās plānošanas veiktspēju vai novērst problēmas.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897608"
 ---
 # <a name="improve-master-planning-performance"></a>Vispārējās plānošanas veiktspējas uzlabošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrotas dažādas opcijas, kas var palīdzēt uzlabot vispārējās plānošanas veiktspēju vai novērst problēmas. Tajā ir ietverta informācija par parametriem un iestatījumiem, un par ieteicamajām konfigurācijām un darbībām. Tajā ietverts arī visu svarīgo parametru kopsavilkums, kuri jāņem vērā, kad ir ilgstoši vispārējās plānošanas darbi.
+Šajā rakstā ir izskaidrotas dažādas opcijas, kas var palīdzēt uzlabot vispārējās plānošanas veiktspēju vai novērst problēmas. Tajā ir ietverta informācija par parametriem un iestatījumiem, un par ieteicamajām konfigurācijām un darbībām. Tajā ietverts arī visu svarīgo parametru kopsavilkums, kuri jāņem vērā, kad ir ilgstoši vispārējās plānošanas darbi.
 
-Šī tēma ir paredzēta sistēmas administratoriem vai IT lietotājiem, kuriem ir iespēja veikt problēmu novēršanu. Tā ir paredzēta arī ražošanas vai piegādes plānotājiem, jo tajā ir iekļauta informācija par parametriem, kas saistīti ar uzņēmējdarbības plānošanas prasībām. 
+Šis raksts paredzēts sistēmas administratoriem vai IT lietotājiem, kuriem ir iespēja novērst problēmu. Tā ir paredzēta arī ražošanas vai piegādes plānotājiem, jo tajā ir iekļauta informācija par parametriem, kas saistīti ar uzņēmējdarbības plānošanas prasībām. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parametri, kas saistīti ar vispārējās plānošanas veiktspēju
 
@@ -151,9 +151,9 @@ Pirms vajadzības darbības sākšanas ir jāveic pirmsvajadzības solis, kura l
 ## <a name="performance-checklist-summary"></a>Veiktspējas kontrolsaraksta kopsavilkums
 
 - **Pavedienu skaits** — iestatiet vērtību, kas ir lielāka par **0** (nulli).
-- **Uzdevumu skaits palīga uzdevumu komplektā** — iestatiet vērtību, kas ir lielāka par **0** (nulli). (Izmantojiet formulas, kas sniegtas iepriekš šajā tēmā.)
+- **Uzdevumu skaits palīga uzdevumu komplektā** — iestatiet vērtību, kas ir lielāka par **0** (nulli). (Izmantojiet formulas, kas iepriekš sniegtas šajā rakstā.)
 - **Kešatmiņas izmantošana** — iestatiet vienumu **Maksimāla**, ja vien sistēmai netrūkst atmiņas.
-- **Pasūtījumu skaits apstiprināšanas komplektā** — iestatiet vērtību, kas ir lielāka par **0** (nulli). (Izmantojiet formulu, kas sniegta iepriekš šajā tēmā.)
+- **Pasūtījumu skaits apstiprināšanas komplektā** — iestatiet vērtību, kas ir lielāka par **0** (nulli). (Izmantojiet iepriekš norādīto formulu šajā rakstā.)
 - **Periodi** — pielāgojiet sava uzņēmuma vajadzībām.
 - **Darbības un aizkavēšanās** — atspējojiet darbības un aizkavēšanās, ja tās nelietojat.
 - **Vienlaicīgi viena lielas noslodzes rutīna** — nepalaidiet vispārējo plānošanu kopā ar citām lielas noslodzes rutīnām.

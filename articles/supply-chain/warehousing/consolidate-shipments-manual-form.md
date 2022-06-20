@@ -1,6 +1,6 @@
 ---
 title: Manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu
-description: Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā un pēc tam vēlāk tiek konsolidēti, izmantojot lapu Konsolidēt sūtījumus.
+description: Šajā rakstā ir scenārijs, kurā vairāki pasūtījumi ir izlaisti nosūtīšanai uz noliktavu un pēc tam konsolidēti vēlāk, izmantojot lapu Konsolidēt sūtījumus.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 5a2f4a9ed05460f9beedf8653ec80b01c84a7b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897347"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā un pēc tam vēlāk tiek konsolidēti, izmantojot lapu **Konsolidēt sūtījumus**.
+Šajā rakstā ir scenārijs, kurā vairāki pasūtījumi ir izlaisti nosūtīšanai uz noliktavu un pēc tam konsolidēti vēlāk, izmantojot **lapu Konsolidēt sūtījumus**.
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
+Šī raksta scenārijā ir atsauces uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti korporācijai Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 

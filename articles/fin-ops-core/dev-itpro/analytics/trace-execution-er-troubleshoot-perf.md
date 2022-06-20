@@ -1,6 +1,6 @@
 ---
 title: Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot veiktspējas izsekošanas līdzekli elektronisko pārskatu veidošanā (ER), lai novērstu veiktspējas problēmas.
+description: Šajā rakstā ir sniegta informācija, kā izmantot veiktspējas izsekošanas līdzekli elektroniskajā pārskatā (ER), lai novērstu veiktspējas problēmas.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851956"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formātu izpildes izsekošana, lai novērstu veiktspējas problēmas
 
@@ -98,7 +98,7 @@ Pieņemsim, ka esat sācis izstrādāt jaunu ER risinājumu, lai ģenerētu jaun
 
 Pieņemsim, ka esat pabeidzis izstrādāt ER risinājuma pirmo versiju. Tagad vēlaties to pārbaudīt savā instancē un analizēt izpildes veiktspēju.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigurācijas importēšana no RCS uz Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigurācijas importēšana no pakalpojuma RCS programmā Finance and Operations
 
 1. Piesakieties savā programmas instancē.
 2. Šīs apmācības ietvaros importēsit konfigurācijas no savas RCS instances (kur izstrādājat ER komponentus) savā instancē (kur tos testējat un izmantojat). Tāpēc ir jāpārliecinās, ka ir sagatavoti visi vajadzīgie artefakti. Norādījumus skatiet procedūrā [Importēt elektronisko pārskatu (ER) konfigurācijas no Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
@@ -134,7 +134,7 @@ Datu modeļa un modeļa kartējuma konfigurāciju atbilstošās versijas automā
             - Katra datu avota palaišana formata kartējumā, kas tiek izsaukts datu iegūšanai
             - Katra formāta vienuma apstrāde, lai ievadītu datus ģenerētajā izvadē
 
-            Vērtība **Apkopotās izsekošanas formāts** ir pieejama Microsoft Dynamics 365 Finance versijā 10.0.20 vai jaunākā versijā.
+            Uzkrātā **izsekošanas formāta** vērtība ir pieejama Microsoft Dynamics 365 Finanšu versijā 10.0.20 vai jaunākā versijā.
 
             ER formāta veidotājā un ER modeļu kartēšanas veidotājā varat apskatīt kopējo viena komponenta izpildes laiku. Papildus tam, izsekošana satur detaļas par izpildi, piemēram, izpildes skaitu un minimālo un maksimālo vienas izpildes laiku.
 
@@ -305,27 +305,27 @@ Tas arī var būt noderīgi, lai samazinātu LedgerTransTypeList datu avotam vei
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Modificētās ER modeļa kartējuma konfigurācijas importēšana no RCS programmā
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER konfigurācijas importēšana no pakalpojuma RCS programmā Finance and Operations](#import-configuration) minētās darbības, lai importētu konfigurācijas **Veiktspējas izsekošanas kartējums** versiju 1.2.
+Atkārtojiet iepriekš [šī raksta sadaļā "Importēt ER konfigurāciju no RCS](#import-configuration) finanšu un operāciju sadaļā", lai importētu Veiktspējas izsekošanas kartēšanas konfigurācijas versiju 1.2 **·**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Modificētā ER risinājuma palaišana, lai izsekotu izpildi
 
 ### <a name="run-the-er-format"></a>ER formāta palaišana
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
+Atkārtojiet darbības, kas iepriekšējā [šī raksta sadaļā Palaist ER](#run-format) formātu, lai ģenerētu jaunu veiktspējas izsekošanu.
 
 ## <a name="work-with-the-execution-trace"></a>Darbs ar izpildes izsekošanu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Eksportēt ģenerēto izsekošanu no programmas
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [Eksportēt ģenerēto izsekošanu no programmas](#export-trace) minētās darbības, lai saglabātu jaunu veiktspējas izsekošanu lokāli.
+Lai lokāli saglabātu jaunu [veiktspējas izsekošanu, atkārtojiet](#export-trace) iepriekš šī raksta sadaļā Ģenerētās izsekošanas darbības.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Importēt ģenerēto izsekošanu RCS
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [Importēt ģenerēto izsekošanu RCS](#import-trace) minētās darbības, lai importētu jauno veiktspējas izsekošanu pakalpojumā RCS.
+Atkārtojiet iepriekš šī raksta [sadaļā Ģenerētās izsekošanas darbības RCS](#import-trace), lai importētu jauno veiktspējas izsekošanu UZ RCS.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Veiktspējas izsekošanas izmantošana analīzes veikšanai pakalpojumā RCS — modeļa kartējums
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [Veiktspējas izsekošanas izmantošana analīzes veikšanai pakalpojumā RCS — modeļa kartējums](#use-trace) minētās darbības, lai analizētu jaunāko veiktspējas izsekošanu.
+Atkārtojiet darbības, kas sadaļā [Izmantot veiktspējas izsekošanu analīzei RCS -](#use-trace) modeļu kartēšana iepriekšējā šī raksta sadaļā, lai analizētu jaunāko veiktspējas izsekošanu.
 
 Ņemiet vērā, ka korekcijas, kuras veicāt modeļa kartējumam, likvidēja datu bāzes vaicājumu dublikātus. Datu bāzu tabulu un datu avotu izsaukumu skaits šim modeļa kartējumam arī ir samazināts. Tādēļ ir uzlabojusies ER risinājuma kopējā veiktspēja.
 
@@ -355,7 +355,7 @@ Ja izmantojat vienu no šīm versijām, varat analizēt ģenerēto veiktspējas 
 
 ### <a name="run-the-er-format"></a>ER formāta palaišana
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
+Atkārtojiet darbības, kas iepriekšējā [šī raksta sadaļā Palaist ER](#run-format) formātu, lai ģenerētu jaunu veiktspējas izsekošanu.
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju.
 
@@ -379,7 +379,7 @@ Tā kā ER struktūrā ir veikti uzlabojumi, PerfView formātā ģenerētā veik
 
 ### <a name="run-the-er-format"></a>ER formāta palaišana
 
-Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
+Atkārtojiet darbības, kas iepriekšējā [šī raksta sadaļā Palaist ER](#run-format) formātu, lai ģenerētu jaunu veiktspējas izsekošanu.
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju. Šajā izsekošanā tagad ir informācija par piekļuvi SQL datu bāzei ER formāta izpildes laikā.
 

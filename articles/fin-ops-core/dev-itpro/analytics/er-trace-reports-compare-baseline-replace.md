@@ -1,6 +1,6 @@
 ---
 title: Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
-description: Šajā tēmā ir aprakstīti ER bāzlīnijas funkcionalitātes uzlabojumi Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs).
+description: Šajā rakstā ir aprakstīti ER bāzlīnijas funkcijas Microsoft Dynamics 365 for Finance and Operations uzlabojumi versijā 10.0.3 (2019. gada jūnijs).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847406"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta pirmā uzlabojumu kopa, kas ieviesta elektronisko pārskatu veidošanas (ER) struktūras bāzlīnijas līdzeklī. Šie uzlabojumi ir pieejami Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs) un jaunākās versijās.
+Šajā rakstā ir aprakstīta pirmā uzlabojumu kopa, kas tika veikta elektronisko pārskatu (ER) struktūras bāzlīnijas funkcijai. Šie uzlabojumi ir pieejami Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs) un jaunākās versijās.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Bāzlīnijas kārtulu iestatīšanas automatizācija
 
-Tēmā [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md) ir paskaidrots, kā konfigurēt ER struktūru, lai apkopotu informāciju par ER formāta izpildēm un novērtētu šo izpilžu rezultātus. Šajā tēmā sniegtajā piemērā ir parādītas veicamās darbības.
+Izsekošanas [ģenerētie pārskata](er-trace-reports-compare-baseline.md) rezultāti un salīdzināti tos ar bāzlīnijas vērtību rakstu skaidro, kā konfigurēt ER struktūru, lai apkopotu informāciju par ER formāta izpildi un novērtētu šo izpildi rezultātus. Šajā rakstā parādīts piemērs par soļiem, kas ir jāpabeidz.
 
 Tālāk ir norādītas dažas darbības.
 
@@ -45,7 +45,7 @@ Tālāk ir norādītas dažas darbības.
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Piemērs: bāzlīnijas kārtulu iestatīšanas automatizācija
 
-Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas tēmā [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md) sniegtajā piemērā, līdz sadaļai “Jaunas bāzlīnijas pievienošana izveidotam ER formātam”.
+Lai šajā piemērā veiktu darbības, [vispirms ir jāveic soļi piemērā Izsekošanas](er-trace-reports-compare-baseline.md) ģenerētie pārskata rezultāti un jāsalīdzina tos ar bāzlīnijas vērtību rakstu, izmantojot sadaļu "Pievienot jaunu bāzlīniju izveidotam ER formātam".
 
 ### <a name="review-added-baseline"></a>Pievienotas bāzlīnijas pārskatīšana
 
@@ -80,7 +80,7 @@ Bāzlīnija tika pievienota atlasītajam formātam **Formāts ER bāzlīniju apg
 
 ### <a name="run-the-format"></a>Formāta palaišana
 
-Tagad varat pabeigt atlikušās piemēra darbības tēmā [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md), sākot no sadaļas “Paredzētā ER formāta palaišana un žurnāla pārskatīšana, lai analizētu rezultātus”.
+Tagad varat veikt atlikusīs darbības piemērā izsekošanas [ģenerētos pārskata rezultātos un salīdzināt tos](er-trace-reports-compare-baseline.md) ar bāzlīnijas vērtību rakstu, sākot ar sadaļu "Palaist izveidoto ER formātu un pārskatīt žurnālu, lai analizētu rezultātus".
 
 > [!NOTE]
 > Dzēšot automātiski pievienoto bāzlīnijas kārtulu kopsavilkuma cilnē **Bāzlīnijas**, pielikums ar atsauci netiek automātiski dzēsts.
@@ -91,7 +91,7 @@ Ja ER formāts ir izstrādāts, lai ietvertu informāciju, kas, palaižot formā
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Piemērs: bāzlīnijas konfigurēšana, lai tā ignorētu pastāvīgi mainītās ER izvades daļas
 
-Lai izpildītu šajā piemērā norādītās darbības, vispirms ir jāizpilda darbības, kas aprakstītas tēmā [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md) sniegtajā piemērā.
+Lai veiktu šajā piemērā norādītās darbības, [vispirms ir jāveic soļi piemērā Izsekošanas ģenerētos pārskata rezultātos un jāsalīdzina tos ar bāzlīnijas vērtību](er-trace-reports-compare-baseline.md) rakstu.
 
 ### <a name="modify-a-configured-er-format"></a>Konfigurēta ER formāta modificēšana
 
@@ -142,7 +142,7 @@ Atlasītais ER formāta komponents ir pievienots komponentu sarakstam kopsavilku
 
 ### <a name="make-a-new-baseline-rule"></a>Jaunas bāzlīnijas kārtulas izveide
 
-Izpildiet darbības, kas aprakstītas šīs tēmas sadaļā “Piemērs: bāzlīnijas kārtulu iestatīšanas automatizācija”. Paziņojums brīdina, ka izejošais fails ir ģenerēts, izmantojot bāzlīnijas iestatījumus, un ir notikusi formāta saistījumu piespiedu aizstāšana.
+Izpildiet šī raksta sadaļā "Piemērs: Bāzlīnijas kārtulu iestatījuma automātisks piemērs". Paziņojums brīdina, ka izejošais fails ir ģenerēts, izmantojot bāzlīnijas iestatījumus, un ir notikusi formāta saistījumu piespiedu aizstāšana.
 
 ![Paziņojums lapā Konfigurācijas.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Lapas Konfigurācijas paziņojuma ekrānuzņēmums")
 

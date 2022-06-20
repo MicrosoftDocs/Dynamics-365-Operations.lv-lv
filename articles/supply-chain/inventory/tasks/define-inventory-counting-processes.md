@@ -1,6 +1,6 @@
 ---
 title: Krājumu inventarizācijas procesu definēšana
-description: Šajā tēmā ir aprakstīta pamata krājumu inventarizācijas procesu konfigurācija, izveidojot inventarizācijas grupu un inventarizācijas žurnālu.
+description: Šajā rakstā ir aprakstīta pamata krājumu inventarizācijas procesu konfigurēšana, izveidojot inventarizācijas grupu un inventarizācijas žurnālu.
 author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bb86c99e74dc8251ed48c0b749c0b0ef1ce75e34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879024"
 ---
 # <a name="define-inventory-counting-processes"></a>Krājumu inventarizācijas procesu definēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta pamata krājumu inventarizācijas procesu konfigurācija, izveidojot inventarizācijas grupu un inventarizācijas žurnālu. Tajā arī parādīts, kā iespējot inventarizācijas politikas noliktavas un krājuma līmenī. Šos uzdevumus parasti veic noliktavas vadītājs. Tā paveikšanai ir nepieciešams, lai būtu izveidotas dažas izlaistas preces un noliktavas. Ja izmantojat demonstrācijas datu uzņēmumu, šo procedūru varat palaist USMF uzņēmumā, izmantojot jebkuru krājumā esošu vienumu.
+Šajā rakstā ir aprakstīta pamata krājumu inventarizācijas procesu konfigurēšana, izveidojot inventarizācijas grupu un inventarizācijas žurnālu. Tajā arī parādīts, kā iespējot inventarizācijas politikas noliktavas un krājuma līmenī. Šos uzdevumus parasti veic noliktavas vadītājs. Tā paveikšanai ir nepieciešams, lai būtu izveidotas dažas izlaistas preces un noliktavas. Ja izmantojat demonstrācijas datu uzņēmumu, šo procedūru varat palaist USMF uzņēmumā, izmantojot jebkuru krājumā esošu vienumu.
 
 
 ## <a name="create-a-counting-group"></a>Inventarizācijas grupas izveidošana

@@ -1,6 +1,6 @@
 ---
 title: Neatbilstību problēmu veidi
-description: Šajā tēmā aprakstīts, kā izveidot un izmantot problēmu veidus neatbilstībām.
+description: Šajā rakstā ir aprakstīts, kā izveidot un izmantot problēmu tipus neatbilstībai.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857755"
 ---
 # <a name="problem-types-for-nonconformances"></a>Neatbilstību problēmu veidi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot un izmantot problēmu veidus neatbilstībām.
+Šajā rakstā ir aprakstīts, kā izveidot un izmantot problēmu tipus neatbilstībai.
 
 Izmantojiet lapu **Problēmveidi**, lai definētu to kvalitātes problēmu klasifikāciju, kas var rasties dažādiem neatbilstības veidiem. Katram jūsu izveidotajiem problēmas veidam ir jānorāda neatbilstību veidi, ar kuriem var izmantot problēmas veidu. Jūs varat iestatīt tālāk minētos neatbilstību veidus.
 

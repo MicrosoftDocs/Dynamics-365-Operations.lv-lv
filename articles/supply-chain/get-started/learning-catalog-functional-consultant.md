@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851889"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management funkcionālo konsultantu apmācības katalogs
 
@@ -68,7 +68,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Kurss MB-300T01-A: galvenie kopējie līdzekļi Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Šajā kursā tiks apspriesti galvenie kopīgie līdzekļi Microsoft Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Kurss MB-300T02-: pamata konfigurācija Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Šis kurss apspriež pamata konfigurācijas uzdevumus Microsoft Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Kurss MB-300T03-A: datu migrācija un sagatavošana darbam Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Šis kurss apspriež datu migrāciju un palaišanas sagatavošanu Microsoft Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
-| [Lifecycle īstenošanas sākumlapa](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Šīs tēmas apraksta programmas, rīkus un procesus, kas ir pieejami saistībā ar jūsu Microsoft Dynamics 365 for Finance and Operations projekta ieviešanas dzīves ciklu. | Dokumentācija | |
+| [Lifecycle īstenošanas sākumlapa](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Šajos rakstos ir aprakstītas programmas, rīki un procesi, kas ir pieejami saistībā ar projekta ieviešanas dzīves Microsoft Dynamics 365 for Finance and Operations ciklu. | Dokumentācija | |
 
 ## <a name="migration-and-upgrade"></a>Migrācija un jaunināšana<a name="migration"></a>
 
@@ -105,7 +105,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 | [Warehousing Mobile App (VIR816PAL)](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | Šī Tech Talk apspriedīs uzlabotās noliktavas sistēmu Dynamics 365 for Operations un to, kādu vietu nākotnē ieņem uzlabotais noliktavas mobilais interfeiss. Mēs pētīsim jauno, izlaisto mobilo lietojumprogrammu, kā arī to, kā tā tiek salīdzināta ar WMDP. Mēs uzzināsim, kas ir nepieciešams, lai instalētu, konfigurētu un ekspluatētu šo mobilo lietojumprogrammu, un kā to var izmantot, lai tās ieviešana nestu jums labumu. | Tīmekļa konferences brīva ierakstīšana | 54 minūtes |
 | [Piegādātāju sadarbība (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Šī Tech Talk nodrošinās iepazīšanos ar piegādātāju sadarbības funkciju, tostarp atbildes patēriņu, kas ir iekļauts jūlija (pavasara) izlaidumā. | Tīmekļa konferences brīva ierakstīšana | 58 minūtes |
 | [Krājumu un noliktavas migrēšanas process, lai izmantotu papildu noliktavas pārvaldību (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Šajā Tech Talk mēs jums iemācīsim, kā migrēt esošos noliktavas iestatījumus un krājumus ar atvērtajām darbībām avansa noliktavas pārvaldībā, izmantojot jaunās iespējas, lai mainītu noliktavas dimensiju grupu krājumus un iespējotu noliktavas, lai izmantotu papildu noliktavas pārvaldības procesus | Tīmekļa konferences brīva ierakstīšana | 54 minūtes |
-| [Piegādes ķēdes pārvaldības sākumlapa](/dynamics365/unified-operations/supply-chain/) | Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem piegādes ķēdes pārvaldības līdzekļiem programmā Microsoft Dynamics 365 for Finance and Operations. | Dokumentācija | |
+| [Piegādes ķēdes pārvaldības sākumlapa](/dynamics365/unified-operations/supply-chain/) | Šajā rakstā ir sniegts palīdzības rakstu un citu resursu saraksts piegādes ķēdes pārvaldības funkcijām.Microsoft Dynamics 365 for Finance and Operations | Dokumentācija | |
 | [Pieprasījuma papildināšana izejmateriālu izdošanai (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Šī TechTalk attieksies uz izejmateriālu savākšanai un pieprasījuma papildināšanu izejvielu savākšanai. | Tīmekļa konferences brīva ierakstīšana | 38 minūtes |
 | [Kurss MB-330T01-: Konfigurējiet un lietojiet Supply Chain Management Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | Šajā kursā tiek aprakstīts, kā konfigurēt un izmantot Supply Chain Management Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 2 dienas |
 | [Kurss MB-330T02-A: Izmantojiet kvalitātes pārvaldību, starpuzņēmumu tirdzniecību un vispārējo plānošanu Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Šajā kursā tiek apspriests, kā izmantot kvalitātes pārvaldību, starpuzņēmumu tirdzniecību un vispārējo plānošanu Dynamics 365 for Finance and Operations. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |

@@ -1,6 +1,6 @@
 ---
 title: Ierobežotā plāna ģenerēšana
-description: Šajā tēmā paskaidrots, kā izveidot plānu, kurā ņemti vērā gan materiāla, gan noslodzes ierobežojumi.
+description: Šajā rakstā skaidrots, kā izveidot plānu, kurā tiek ņemti vērā gan materiālu, gan noslodzes ierobežojumi.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 65884d556724cd6132fe328e95a5bec78885c174
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904019"
 ---
 # <a name="generate-a-constrained-plan"></a>Ierobežotā plāna ģenerēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā izveidot plānu, kurā ņemti vērā gan materiāla, gan noslodzes ierobežojumi. Šis plāns nodrošina, ka ražošana nesākas, pirms materiāli kļūst pieejami, un resursiem netiek pārsniegta rezervācija. 
+Šajā rakstā skaidrots, kā izveidot plānu, kurā tiek ņemti vērā gan materiālu, gan noslodzes ierobežojumi. Šis plāns nodrošina, ka ražošana nesākas, pirms materiāli kļūst pieejami, un resursiem netiek pārsniegta rezervācija. 
 
 Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta ražošanas plānotājam.
 

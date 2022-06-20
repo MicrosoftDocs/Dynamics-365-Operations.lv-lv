@@ -1,8 +1,8 @@
 ---
 title: Lietotāja pieredzes personalizēšana
-description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
+description: Šajā rakstā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845447"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602995"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā izskaidrots, kā varat personalizēt programmu, un ir aptvertas šādas tēmas: 
+Šajā rakstā ir izskaidrots, kā varat personalizēt programmu un nosedz šādus jautājumus: 
 
 - **Visas sistēmas opcijas** — šīs personalizēšanas opcijas tiek veiktas iestatīšanas lapā un ir pieejamas visiem lietotājiem. Kā piemērus varētu minēt krāsu dizainu un laika joslu. 
 - **Ierobežota personalizācijas piekļuve** – šajā piekļuves līmenī, lietotāja darbības, kas ir saistītas ar tipisku lapas lietojumu, tiek automātiski saglabātas, un tās tiek atjaunotas nākamreiz, kad apmeklējat lapu. Piemēram, programma saglabā režģa kolonnu platumu, ja tās koriģējat, kā arī kopsavilkuma ciļņu izvēršanas vai sakļaušanas stāvokli. 
@@ -58,7 +58,7 @@ Papildus lietotāja iestatījumu mainīšanai var arī skatīt vai izdzēst liet
 
 - **Režģa kolonnas platums** – varat pielāgot režģī rādīto kolonnu platumu, atlasot izmēra maiņas joslu pa kreisi vai pa labi no kolonnas virsraksta un pēc tam bīdot to pa kreisi vai pa labi, līdz kolonna ir nepieciešamajā platumā. Programma saglabā platumu, ko iestatāt kolonnai. Nākamreiz, atverot lapu, kolonnas lielums tiks mainīts līdz tādam platumam.
 - **Režģa kājenes un kolonnu kopsumma** — *(Pieejams tikai, kad ir iespējots jaunā režģa kontrole)* Jūs varat izlemt, vai kopsumma ir jāparāda jebkuras skaitliskas kolonnas apakšpusē, un to, vai ir redzama režģa kājene. Programma saglabā šos datus un pielieto tos nākamreiz , kad atverat lapu. Plašāku informāciju skatiet sadaļā [Režģa iespējas](grid-capabilities.md). 
-- **Kopsavilkuma cilnes** – dažām lapām ir izvēršamas sadaļas, kas tiek sauktas par *kopsavilkuma cilnēm*. Programma glabā informāciju par kopsavilkuma cilnēm, kuras esat izvērsis vai sakļāvis. Nākamreiz, kad jūs atvērsit šo lapu, būs izvērstas vai sakļautas tās pašas kopsavilkuma cilnes, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm jūs varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu kopsavilkuma cilni, jo programmai nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. Kā šajā tēmā ir paskaidrots tālāk, varat mainīt arī kopsavilkuma ciļņu secību lapā.
+- **Kopsavilkuma cilnes** – dažām lapām ir izvēršamas sadaļas, kas tiek sauktas par *kopsavilkuma cilnēm*. Programma glabā informāciju par kopsavilkuma cilnēm, kuras esat izvērsis vai sakļāvis. Nākamreiz, kad jūs atvērsit šo lapu, būs izvērstas vai sakļautas tās pašas kopsavilkuma cilnes, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm jūs varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu kopsavilkuma cilni, jo programmai nav jāizgūst informācija par šo kopsavilkuma cilni, kamēr tā nav izvērsta. Kā izskaidrots tālāk šajā rakstā, varat arī mainīt Kopsavilkuma cilni secību lapā.
 - **Papildinformācijas lodziņi** – Dažām lapām ir rūts **Saistīta informācija**, kurā ir parādīta tikai lasāma informācija, kas saistīta ar pašreizējo lapas tēmu. Katru sadaļu rūtī **Saistīta informācija** sauc par *Papildinformācijas lodziņš*. Varat izvērst vai sakļaut rūti **Saistīta informācija**, kā arī varat izvērst vai sakļaut atsevišķus papildinformācijas lodziņus. Programma saglabā šīs preferences. Nākamreiz, kad atverat šo lapu, tiek izvērsta vai sakļauta rūts **Saistīta informācija** un atsevišķo papildinformācijas lodziņu stāvoklis, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Reizēm jūs varat palīdzēt uzlabot sistēmas veiktspēju, sakļaujot kādu **Saistītās informācijas** rūti vai papildinformācijas lodziņu, jo programmai nav jāizgūst informācija par šiem Papildinformācijas lodziņiem, kamēr tā nav izvērsta.
 - **Darbību rūtis** – vairumā lapu *darbību rūts* tiek rādīta lapas augšdaļā. Darbību rūtī ir pogas daudzām darbībām, ko pašreizējā lapā varat veikt. Bieži vien šīs pogas ir sakārtotas cilnēs. Varat *piespraust* visu darbību rūti atvērtā veidā, vai arī norādīt, ka pēc noklusējuma tai ir jābūt sakļautai. Nākamreiz, kad jūs atvērsit šo lapu, būs atvērtas vai sakļautas Darbības rūtis, ņemot vērā jūsu pēdējo mijiedarbību ar šo lapu. Ja jūs piespraudāt darbības rūti atvērtā veidā, tiks rādīta pēdējā cilne, kuru izmantojāt.
 - **Ātrie filtri** – *ātrais filtrs* tiek rādīts virs daudziem režģiem. Ar ātro filtru varat filtrēt režģi, pamatojoties uz vienu jūsu atlasīto kolonnu. Programma saglabā kolonnu, pēc kuras veicāt filtrēšanu. Pēc tam nākamajā reizē, kad atverat lapu, šis režģis izmantos to pašu kolonnu, lai filtrētu pēc noklusējuma. Taču pēc tam joprojām varat izvēlēties citu kolonnu, lai filtrētu šo režģi.
@@ -156,11 +156,11 @@ Dažām lapām, kurās ir ietverti saraksti, personalizēšanas līdzeklis **Pie
 
 - Lai darbvietai pievienotu kādu sarakstu, vispirms kārtojiet vai filtrējiet lapā esošo sarakstu, lai informācija tajā tiktu rādīta tā, kā to vēlaties rādīt darbvietā. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saraksts**. Kad atlasāt vienumu **Konfigurēt**, tiek parādīts dialoglodziņš, kur varat atlasīt kolonnas, kuras ir jārāda šīs darbvietas sarakstā. Varat arī norādīt etiķeti, kas ir izmantota sarakstam šajā darbvietā.
 - Lai darbvietai pievienotu kādu elementu, vispirms filtrējiet lapā esošo sarakstu, lai tajā būtu redzami dati, kurus vajag apkopot vai kuriem vēlaties ātri piekļūt. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Elements**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto elementam šajā darbvietā. Var arī norādīt, vai elementam ir jārāda skaits. Pēc tam, kad elements ir pievienots darbvietai, varat to atlasīt, lai atvērtu pašreizējo lapu no darbvietas. Pēc tam varat apskatīt filtrēto sarakstu, kas ir saistīts ar elementu.
-    - Sākot ar versiju 10.0.26, ja **līdzeklis Atļaut lietotājiem atlasīt un mainīt elementu izmērus** ir iespējots, dialoglodziņā **Elementu** konfigurēšana varat atlasīt vienu no četriem pieejamajiem **elementu izmēriem jaunajam elementam**. Šis līdzeklis arī ļauj pielāgot elementa lielumu pēc tam, kad tas ir izveidots tieši no darbvietas.   
-- Lai pievienotu saiti uz darbvietu, vispirms filtrējiet lapā esošo sarakstu tā, lai tajā būtu redzami jums interesējošie dati. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saite**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto šai saitei. Varat arī pēc izvēles norādīt etiķeti sadaļai, kurā var ievietot šo saiti. Ja šīs sadaļas nav, tiks izveidota jauna sadaļa.
+    - Sākot ar versiju 10.0.26, **ja** ir iespējota funkcija Atļaut lietotājiem atlasīt un mainīt elementa izmērus, **·** **dialoglodziņā** Konfigurēt elementu varat atlasīt vienu no četriem pieejamiem elementa izmēriem jaunajam elementam. Šis līdzeklis arī ļauj pielāgot elementa lielumu pēc tā izveidošanas tieši no darbvietas.   
+- Lai pievienotu saiti uz darbvietu, vispirms filtrējiet lapā esošo sarakstu tā, lai tajā būtu redzami jums interesējošie dati. (Ja ir ieslēgts līdzeklis **Saglabātie skati**, nevar turpināt darbu, kamēr nav saglabāts skats, kam ir šie nosacījumi.) Pēc tam atlasiet **Pievienot darbvietai**. Atlasiet darbvietu un pēc tam laukā **Prezentācija** atlasiet **Saite**. Kad ir atlasīts vienums **Konfigurēt**, tiek paradīts dialoglodziņš, kur varat norādīt etiķeti, kuru ir jāizmanto šai saitei. Varat arī pēc izvēles norādīt iezīmi sadaļai, kur šo saiti var ievietot. Ja sadaļas nav, tiks izveidota jauna sadaļa.
 
 > [!NOTE]
-> No versijas 10.0.25, konfigurējot sarakstu, elementu vai saiti, iespējams, būs jāatlasa arī darbvietas skati, kuriem vēlaties pievienot elementu, ja **ir iespējots (Priekšskatījums) saglabāto skatu atbalsts darbvietām**. Pieejamie darbvietas skati tiks parādīti **katra dialoglodziņa Konfigurēšana** sadaļā Darbvietas **opcijas**. 
+> No versijas 10.0.25, konfigurējot sarakstu, elementu vai saiti, iespējams, ir jāatlasa arī darbvietas skati, kam vēlaties pievienot elementu, **ja ir iespējots (Priekšskatījums**) Saglabātie skati darbvietu līdzeklim. Pieejamie darbvietas skati tiks parādīti katra **dialoglodziņa** Konfigurēt sadaļā Darbvietas **opcijas**. 
 
 Kad jūs pievienojat sarakstu, elementu vai saiti darbvietai, varat atvērt šo darbvietu un mainīt tajā elementu secību, ja vēlaties.
 
@@ -168,19 +168,19 @@ Kad jūs pievienojat sarakstu, elementu vai saiti darbvietai, varat atvērt šo 
 
 Dažās darbvietās ir skaita elementi (t.i., elementi, kuros ir skaitļi), un jūs varētu vēlēties šos elementus rādīt arī savā informācijas panelī. Darbvietā ar peles labo pogu noklikšķiniet uz skaita elementa, atlasiet **Personalizēt** un pēc tam elementa rekvizīta logā atlasiet **Piespraust informācijas panelim**. Nākamajā reizē, kad atverat (un atsvaidzināt) informācijas paneli, šis skaits tiek rādīts zem attiecīgās darbvietas navigācijas elementa. Varat atlasīt, lai šis skaits tieši novirzītu uz datiem, kurus tas attēlo.
 
-### <a name="changing-the-size-of-a-tile"></a>Elementa lieluma maiņa
-Sākot ar versiju 10.0.26, **līdzeklis Atļaut lietotājiem atlasīt un mainīt elementu izmērus** ļauj lietotājiem modificēt jebkura elementa, kas nav KPI elements, izmērus, izmantojot personalizāciju. Darbvietā ar peles labo pogu noklikšķiniet uz elementa un pēc tam atlasiet **Personalizēt**. Elementa rekvizītu logā atlasiet vēlamo izmēru nolaižamajās opcijās **Elementu izmēru**. Flīžu izmērs nekavējoties pielāgosies. Ja darbvietu **līdzeklis (Preview) Saglabāto skatu atbalsts ir iespējots**, šo personalizāciju var saglabāt darbvietas skatā.  
+### <a name="changing-the-size-of-a-tile"></a>Elementa izmēra maiņa
+Sākot ar versiju 10.0.26, **funkcija Atļaut lietotājiem atlasīt un mainīt elementa izmērus** ļauj lietotājiem mainīt jebkādu elementu, kas nav KPI elements, izmantojot personalizāciju. Darbvietā ar peles labo pogu noklikšķiniet uz elementa un pēc tam atlasiet **Personalizēt**. Elementa rekvizītu logā atlasiet vēlamo lielumu no elementa **lieluma opcijām**. Elementa lielums tiks pielāgots nekavējoties. Ja (**priekšskatījums) Saglabātie skati atbalsta darbalauku** līdzeklim ir iespējots, šo personalizēšanu var saglabāt darbvietas skatā.  
 
 ### <a name="personalizing-your-dashboard"></a>Sava informācijas paneļa personalizēšana
 
-Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu. To var personalizēt tāpat kā jebkuru citu lapu sistēmā, izmantojot tos pašus mehānismus, kas aprakstīti iepriekš šajā tēmā. 
+Informācijas panelis bieži vien ir pirmā lapa, ko redzat, atverot programmu. To var personalizēt kā jebkuru citu sistēmas lapu, izmantojot tos pašus mehānismus, kas aprakstīti iepriekš šajā rakstā. 
 
 > [!WARNING]
 > Pašlaik, slēpjot saturu informācijas panelī, ir svarīgi tieši norādīt elementu, nevis ap to esošo atstarpi. Ja grupa tiek paslēpta ap elementu, var rasties negaidīti rezultāti, ja vēlāk tiek pievienoti papildu elementi vai ja sistēma ir pārslēgta uz citu valodu.
 
 Viena unikāla personalizācijas iespēja, kas ir pieejama informācijas panelī, ir spēja pievienot elementus. 
 
-- Ja ir izslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietai](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
+- Ja ir izslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Varat arī pievienot sarakstus, sāņus un saites uz darbvietu, [kā](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) aprakstīts Šī raksta sadaļā Pievienošana, saraksti un saites uz darbvietu.
 - Ja ir ieslēgta **Pilnas lappuses programmu** funkcija, jūs pievienojat jaunu elementu, ar peles labo pogu noklikšķinot uz elementa informācijas panelī un pēc tam atlasot **Pievienot programmu**. Dialoglodziņā izvēlieties, vai vēlaties pievienot elementu jaunai darbvietai vai elementu, kurā ir saturs no Power Apps vai vietnes. Pēc tam veiciet norādītās darbības, lai konfigurētu izvēlēto opciju. Informācijas paneļa apakšā tiek izveidots jauns elements. Papildinformāciju par to, kā pievienot, rediģēt, dzēst un koplietot šīs iegultās lietojumprogrammas, skatiet sadaļā [Iegult pamatnes programmas no Power Apps](embed-power-apps.md) un [Iegult trešās puses programmas](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Personalizāciju koplietošana
@@ -232,11 +232,11 @@ Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu perso
 Cits veids, kā koplietot personalizēšanas, ir caur eksportu un importu. Atsevišķi lietotāji vai administrators, kas darbojas viņu vārdā, var izmantot šo metodi, lai eksportētu viņu personalizēšanas vai skatus, un tad piešķirt eksportēto failu citiem lietotājiem importēšanai. Alternatīvi lietotāji var sniegt eksportētās personalizēšanas lietotājam, kam ir administratora privilēģijas, un šis lietotājs var izmantot **Personalizēšanas** administrēšanas lapu, lai pielietotu personalizēšanas failu daudziem lietotājiem vienlaicīgi.
 
 > [!IMPORTANT]
-> Tā kā personalizācijas joprojām pastāv visos atjauninājumos, visu personalizāciju atkārtota importēšana pēc pakalpojuma atjaunināšanas vai jebkurā citā laikā ir nevajadzīga un ļoti atturīga.
+> Kad personalizācijas pastāv starp atjauninājumiem, visu personalizāciju atkārtoti importējot pēc pakalpojuma atjaunināšanas vai jebkurā citā laikā, nav nepieciešams un tiek ļoti mazināts.
 
 #### <a name="export"></a>Eksportēt
 
-Vispārīgā gadījumā varat eksportēt vienu no saviem skatiem vai personalizācijām, atverot atbilstošo lapu, atverot personalizēšanas rīkjoslu **Personalizēšana** un pēc tam atlasot **Eksportēt**. Papildinformāciju par rīkjoslu skatiet šī temata iepriekšējā sadaļa [Personalizēšana](#personalization-toolbar). Alternatīvi, ja ir iespējoti [saglabātie skati](saved-views.md), varat atvērt **Iestatījums \> Lietotāja opcijas \> Personalizēšana**, lai apskatītu visu savu personalizēšanas sarakstu sistēmā. No turienes varat atlasīt eksportējamos skatus vai personalizēšanas un pēc tam atlasīt **Eksportēt**.
+Vispārīgā gadījumā varat eksportēt vienu no saviem skatiem vai personalizācijām, atverot atbilstošo lapu, atverot personalizēšanas rīkjoslu **Personalizēšana** un pēc tam atlasot **Eksportēt**. Papildinformāciju par rīkjoslu skatiet šī [raksta sadaļā](#personalization-toolbar) Personalizēšanas rīkjosla. Alternatīvi, ja ir iespējoti [saglabātie skati](saved-views.md), varat atvērt **Iestatījums \> Lietotāja opcijas \> Personalizēšana**, lai apskatītu visu savu personalizēšanas sarakstu sistēmā. No turienes varat atlasīt eksportējamos skatus vai personalizēšanas un pēc tam atlasīt **Eksportēt**.
 
 Turklāt administratori var eksportēt citu lietotāju personalizēšanas, izpildot šādas darbības.
 
@@ -277,7 +277,7 @@ Ja ir iespējoti saglabātie skati, izpildiet šīs darbības.
 
 Lapa **Personalizācija** ir galvenais centrmezgls personalizēšanas pārvaldībai organizācijas līmenī. Šīs lapas saturs un iespējas ir atkarīgas no tā, vai ir ieslēgts līdzeklis **Saglabātie skati**.
 
-Attiecībā uz klientiem, kuri ir ieslēguši līdzekli **Saglabātie skati**, skatiet sadaļu "Skatu pārvaldīšana globāli" tēmā [Saglabātie skati](saved-views.md).
+Klientiem, kas ir ieslēdzuši līdzekli **Saglabātie** skati, skatiet sadaļu "Globāli pārvaldīt skatus", kas atrodas rakstā [Saglabātie](saved-views.md) skati.
 
 Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekli, šai lapai ir četras cilnes:
 
@@ -285,6 +285,9 @@ Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekl
 - **Notīrīt** – varat notīrīt visas lapai vai darbvietai paredzētās personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, lai redzētu sarakstu ar lietotājiem, kuri to ir personalizējuši. Pēc tam atlasiet lietotājus, kuriem ir nepieciešams notīrīt šīs lapas vai darbvietas personalizācijas, un atlasiet **Notīrīt**. Tiek dzēstas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja šai lapai vai darbvietai bija saglabāta kāda personalizācija, šo personalizāciju var importēt vēlreiz.
 - **Lietotāji** – Atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko lietotājs ir personalizējis. Pēc tam varat ieslēgt vai izslēgt lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizēšanu lietotājam. Turklāt varat atiestatīt līdzekļa remarkas lietotājam. Šādā gadījumā, ja lietotājs iepriekš noraidīja visus uznirstošos logus, kas ievies jaunus līdzekļus, tie atkal parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
 - **Sistēma** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā visi personalizācijas tiek dzēsti visiem lietotājiem, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
+
+### <a name="service-updates-and-personalization"></a>Pakalpojumu atjauninājumi un personalizēšana
+Pārvietojot uz jaunu preces versiju, personalizēšanas datus nav nepieciešams dzēst vai atiestatīt. Personalizēšanas un saglabātie skatījumu dati turpinās darbu atjaunināšanas laikā. To izņēmumi var ietvert izmaiņas pašā formā, kas anulē personalizēšanu (piemēram, noņemta kontrole) vai izmaiņas formas bāzes vaicājumā, kas maina tās datu avota apakškoks, tādējādi tas vairs neatbilst datu avota apakškokam, kas saistīts ar skatījuma vaicājumu.
 
 ## <a name="personalizing-inventory-dimensions"></a>Krājumu dimensiju personalizēšana.
 

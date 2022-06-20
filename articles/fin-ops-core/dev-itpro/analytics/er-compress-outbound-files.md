@@ -1,6 +1,6 @@
 ---
 title: Elektroniskajos pārskatos ģenerētu dokumentu saspiešana
-description: Šajā tēmā ir paskaidrots, kā saspiest lielus dokumentus, kas tiek ģenerēti, izmantojot elektronisko pārskatu (ER) formātu.
+description: Šajā rakstā skaidrots, kā saspiest lielus dokumentus, kas ģenerēti Elektronisko pārskatu (ER) formātā.
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864812"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroniskajos pārskatos ģenerētu dokumentu saspiešana 
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Kādā brīdī pēc tam dokuments ir jālejupielādē no Microsoft Dynamics 365 Finance programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
+Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Tad dokuments jālejupielādē no jūsu Microsoft Dynamics 365 Finanšu programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
 
 Konfigurējot risinājumu, varat pielāgot savu elektronisko pārskatu formātu operāciju noformētājā, pievienojot **Mapes** veida saknes elementu, lai saspiestu saturu, kas tiek ģenerēts ar to ligzdotajiem elementiem. Saspiešana darbojas “tieši laikā”, tādējādi samazinot maksimālo atmiņas izmantojumu un lejupielādējamā faila lielumu.
 
 > [!NOTE]
 > Failu saspiešana aizņem papildu procentus no centrālā procesora lietojuma.
 
-Papildinformācijai par šo pieeju, aizpildiet šajā tēmā sniegto piemēru.
+Plašāku informāciju par šo pieeju aizpildiet piemēru šajā rakstā.
 
 ## <a name="example-compress-an-outbound-document"></a>Piemērs: izejoša dokumenta saspiešana
 
@@ -41,7 +41,7 @@ Papildinformācijai par šo pieeju, aizpildiet šajā tēmā sniegto piemēru.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai varētu pabeigt procedūras šajā tēmā, ir jāveic tālāk norādītās darbības.
+Pirms šajā rakstā norādīto procedūru veikšanas ir jāveic tālāk norādītās darbības.
 
 1. [Aktivizēt konfigurāciju nodrošinātāju](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Importēt ER konfigurāciju failu paraugu](er-defer-xml-element.md#import-the-sample-er-configurations).

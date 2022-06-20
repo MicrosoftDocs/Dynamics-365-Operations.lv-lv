@@ -1,6 +1,6 @@
 ---
 title: Biznesa dokumenti, ko atbalsta Globālā krājumu uzskaite
-description: Šajā tēmā uzskaitīti biznesa dokumenti, kurus atbalsta Globālā krājumu uzskaite. Tajā sniegts arī detalizēts piemērs par pirkšanas pasūtījuma dokumentiem.
+description: Šajā rakstā ir uzskaitīti biznesa dokumenti, kas tiek atbalstīti ar globālo krājumu uzskaiti. Tajā sniegts arī detalizēts piemērs par pirkšanas pasūtījuma dokumentiem.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875428"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Biznesa dokumenti, ko atbalsta Globālā krājumu uzskaite
 
@@ -32,7 +32,7 @@ Ir divu veidu biznesa dokumenti:
 - **Dokumenti, kuriem ir žurnāls** – šie dokumenti ietver produktu ieejas plūsmu, pirkšanas rēķinu, pavadzīmi un pārdošanas rēķina dokumentus.
 - **Dokumenti, kuriem nav žurnāla** - šie dokumenti ietver uzskaites, kustības un krājumu korekciju dokumentus.
 
-Vēlāk šajā tēmā pirkšanas pasūtījumi tiks izmantoti kā piemērs procesa ilustrēšanai.
+Vēlāk šajā rakstā pirkšanas pasūtījumi tiks izmantoti kā piemērs procesa ilustrēšanai.
 
 Šajā tabulā uzskaitīti dokumenti, kurus atbalsta pašreizējais laidiens.
 

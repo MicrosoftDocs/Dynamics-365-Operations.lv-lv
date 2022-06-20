@@ -1,6 +1,6 @@
 ---
 title: Plānošana ar iespējā balstītu resursa atlasi
-description: Šajā tēmā aprakstīta resursu plānošana bezgalīgās kapacitātes plānošanas laikā, kad norādāt iespējas kā resursu prasības darbībai.
+description: Šajā rakstā ir aprakstīta resursu atlase neierobežotās noslodzes plānošanas laikā, kad operācijai kā resursu prasības tiek norādītas iespējas.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847967"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Plānošana ar iespējā balstītu resursa atlasi
 
 [!include [banner](../../includes/banner.md)]
 
-Norādot resursu prasības ražošanas maršruta darbībai, jūs definējat vajadzīgos nosacījumus darbības izpildei. Piemēram, darbībai var būt vajadzīgs konkrēts resurss vai resursu grupa vai prasmju vai iespēju apvienojums. Šajā tēmā aprakstīta resursu plānošana bezgalīgās kapacitātes plānošanas laikā, kad norādāt iespējas kā resursu prasības darbībai.
+Norādot resursu prasības ražošanas maršruta darbībai, jūs definējat vajadzīgos nosacījumus darbības izpildei. Piemēram, darbībai var būt vajadzīgs konkrēts resurss vai resursu grupa vai prasmju vai iespēju apvienojums. Šajā rakstā ir aprakstīta resursu atlase neierobežotās noslodzes plānošanas laikā, kad operācijai kā resursu prasības tiek norādītas iespējas.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>Iespējā balstīta plānošanas rīka ieslēgšana
 

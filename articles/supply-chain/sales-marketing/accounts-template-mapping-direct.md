@@ -1,6 +1,6 @@
 ---
 title: Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto kontu sinhronizēšanai ar programmu Supply Chain Management.
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu kontus no Dynamics 365 Pārdošanas uz Piegādes ķēžu pārvaldību.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851570"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Programmā Sales esošo kontu tieša sinhronizēšana ar klientiem programmā Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063089"
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Microsoft Dataverse programmām](/powerapps/administrator/data-integrator).
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Sales ietverto kontu tiešai sinhronizēšanai ar programmu Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu kontus tieši no Dynamics 365 Sales uz Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
@@ -101,7 +101,7 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 
 ![Veidņu kartēšana līdzeklī Datu integrācija.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)

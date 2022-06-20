@@ -1,6 +1,6 @@
 ---
 title: ORDERBY ER funkcija
-description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota ORDERBY elektroniskā pārskata (ER) funkcija.
+description: Šajā rakstā ir sniegta informācija par to, kā tiek izmantota orderBY elektronisko pārskatu (ER) funkcija.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 963d55bcf98a9109c8b6ceb57edf5b55f15a2b0f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883764"
 ---
 # <a name="orderby-er-function"></a>ORDERBY ER funkcija
 
@@ -40,18 +40,18 @@ ORDERBY (location, list, expression 1[, expression 2, …, expression N])
 ```
 
 > [!NOTE]
-> Šī sintakse tiek atbalstīta Microsoft Dynamics 365 Finance versija 10.0.25 un jaunāka versija.
+> Šī sintakse tiek atbalstīta Microsoft Dynamics 365 Finanšu versijai 10.0.25 vai jaunākai versijai.
 
 ## <a name="arguments"></a>Argumenti
 
-`location`:*[Stīga](er-formula-supported-data-types-primitive.md#string)*
+`location`: *[virkne](er-formula-supported-data-types-primitive.md#string)*
 
-Vieta, kur jāveic šķirošana. Ir derīgas šādas opcijas:
+Vieta, kur jāveic kārtošana. Ir derīgas šādas opcijas:
 
 - "Vaicājums"
-- "Atmiņā"
+- "InMemory"
 
-`list`:*[Ierakstu saraksts](er-formula-supported-data-types-composite.md#record-list)*
+`list`: *[ierakstu saraksts](er-formula-supported-data-types-composite.md#record-list)*
 
 *Ierakstu saraksta* tipa datu avota datu tipa derīgs ceļš.
 
@@ -73,76 +73,76 @@ Iegūtais ierakstu saraksts.
 
 ### <a name="syntax-1"></a>Sintakse 1
 
-Datu šķirošana vienmēr tiek veikta lietojumprogrammu servera atmiņā. Sīkāku informāciju skatiet [piemērs 1](#example-1).
+Datu kārtošana vienmēr tiek veikta programmas servera atmiņā. Detalizētāku informāciju skatiet [1. piemērā](#example-1).
 
 ### <a name="syntax-2"></a>Sintakse 2
 
 ### <a name="sorting-in-memory"></a>Kārtošana atmiņā
 
-Kad`location` arguments ir norādīts kā **Atmiņā**, datu šķirošana tiek veikta lietojumprogrammu servera atmiņā. Sīkāku informāciju skatiet [2. piemērs](#example-2).
+Ja arguments `location` norādīts kā **InMemory**, datu kārtošana tiek veikta programmu servera atmiņā. Detalizētāku informāciju skatiet [2. piemērā](#example-2).
 
 ### <a name="sorting-in-database"></a>Kārtošana datu bāzē
 
-Kad`location` arguments ir norādīts kā **Vaicājums**, datu šķirošana tiek veikta datu bāzes līmenī. Šajā gadījumā,`list` argumentam jānorāda uz vienu no tālāk norādītajiem [Elektroniskā ziņošana (ER)](general-electronic-reporting.md) datu avoti, kas norāda lietojumprogrammas avotu, kuram var izveidot tiešu datu bāzes vaicājumu:
+Ja arguments `location` norādīts kā **Vaicājums**, datu bāzes līmenī tiek veikta datu kārtošana. Šajā gadījumā argumentam jānorāda uz vienu no šiem elektronisko pārskatu (ER)`list` datu avotiem, kas norāda programmas avotu, [kam](general-electronic-reporting.md) var izveidot tiešu datu bāzes vaicājumu:
 
-- Datu avots *Tabulas ieraksti* veids
-- Saistība ar datu avotu *Tabulas ieraksti* veids
-- Datu avots *Aprēķinu lauks* veids
+- Tabulas ierakstu *tipa datu* avots
+- Tabulas ierakstu tipa datu *avota* relācija
+- Aprēķina lauka tipa *datu* avots
 
-The`expression 1` un`expression N` argumentiem ir jānorāda uz ER datu avota laukiem, kas norāda attiecīgos lietojumprogrammas avota laukus, kuriem var izveidot arī tiešu datu bāzes vaicājumu.
+Argumentiem `expression 1``expression N` un argumentiem ir jānorāda uz ER datu avota laukiem, kas norāda atbilstīgos programmas avota laukus, kuriem var izveidot arī tiešu datu bāzes vaicājumu.
 
-Ja nevar izveidot tiešu datu bāzes vaicājumu, tiek veikta validācija [kļūda](er-components-inspections.md#i18) notiek ER modeļa kartēšanas izstrādātājā. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `ORDERBY`, nevar palaist izpildlaikā.
+Ja nevar izveidot tiešu datu bāzes vaicājumu, ER modeļu kartēšanas [veidotājā](er-components-inspections.md#i18) rodas apstiprināšanas kļūda. Ziņojumā, ko saņemat, norādīts, ka ER izteiksmi, kas ietver funkciju `ORDERBY`, nevar palaist izpildlaikā.
 
-Lai nodrošinātu labāku veiktspēju, mēs iesakām izmantot **Vaicājums** opciju, ja kārtošana ir konfigurēta lietojumprogrammu datu avotiem, kas var saturēt lielu skaitu ierakstu (piemēram, darījumu lietojumprogrammu tabulām).
+Lai uzlabotu veiktspēju, ieteicams lietot opciju Query **,** ja kārtošana ir konfigurēta programmas datu avotiem, kas var saturēt lielu skaitu ierakstu (piemēram, transakciju programmas tabulām).
 
 > [!NOTE]
-> The`ORDEBY` pašu funkciju nevar pārtulkot tiešā datu bāzes vaicājumā. Tāpēc ER datu avots, kas satur šo funkciju, nav vaicājams. To nevar izmantot arī ER funkciju ietvaros, piemēram, [FILTRA](er-functions-list-filter.md) un [ALLITEMSQUERY](er-functions-list-allitemsquery.md), kur var izmantot tikai vaicājumus datu avotus.
+> Pašu `ORDEBY` funkciju nevar tulkot tiešās datu bāzes vaicājumā. Tāpēc ER datu avots, kas satur šo funkciju, nav vaicājams. To nevar izmantot arī ER [funkciju, piemēram, FILTER](er-functions-list-filter.md)[un ALLITEMSQUERY](er-functions-list-allitemsquery.md), t.i., ietverot tikai vaicājamus datu avotus.
 
-Sīkāku informāciju skatiet [3. piemērs](#example-3) un [4. piemērs](#example-4).
+Papildinformāciju skatiet [3. un](#example-3)[4. piemērā](#example-4).
 
-### <a name="comparability"></a>Salīdzināmība
+### <a name="comparability"></a>Salīdzināmību
 
-Tā kā SQL datu bāzes dzinējs un finanšu lietojumprogrammu serveris var izmantot atšķirīgu ranžēšanas vērtību vienai rakstzīmei, viena un tā paša ierakstu saraksta kārtošanas rezultāts var atšķirties, ja [Stīga](er-formula-supported-data-types-primitive.md#string) lauks tiek izmantots šķirošanai. Sīkāku informāciju skatiet [5. piemērs](#example-5).
+Tā kā SQL datu bāzes programma un finanšu programmas serveris vienai rakstzīmei var izmantot atšķirīgu rangu vērtību, [viena un tā paša ierakstu saraksta kārtošanas rezultāts var atšķirties, ja Virknes](er-formula-supported-data-types-primitive.md#string) lauks tiek izmantots kārtošanai. Detalizētāku informāciju skatiet [5. piemērā](#example-5).
 
 ## <a name="example-1-in-memory-default-execution"></a><a name="example-1"></a> 1. piemērs: noklusējuma izpilde atmiņā
 
 Ja ievadāt datu avotu **DS** tipam *Aprēķinātais lauks* un tajā ir izteiksme `SPLIT ("C|B|A", "|")`, izteiksme `FIRST( ORDERBY( DS, DS. Value)).Value` atgriež teksta vērtību **A**.
 
-## <a name="example-2-in-memory-explicit-execution"></a><a name="example-2"></a> 2. piemērs: skaidra izpilde atmiņā
+## <a name="example-2-in-memory-explicit-execution"></a><a name="example-2"></a> 2. piemērs: atmiņā precīzi formulēta izpilde
 
-Ja **Pārdevējs** ir konfigurēts kā ER datu avots *Tabulas ieraksti* veids, kas attiecas uz **VendTable** tabula, gan izteiksme`ORDERBY (Vendor, Vendor.'name()')` un izteiksme`ORDERBY ("InMemory", Vendor, Vendor.'name()')` atgriezt piegādātāju sarakstu, kas ir sakārtots pēc nosaukuma augošā secībā.
+Ja **kreditors ir konfigurēts kā ER** *datu* avots tabulas ierakstu tipam, kas attiecas uz VendTable **tabulu, gan izteiksme, gan izteiksme atgriež kreditoru sarakstu,**`ORDERBY (Vendor, Vendor.'name()')` kas sakārtots pēc nosaukuma augošā secībā.`ORDERBY ("InMemory", Vendor, Vendor.'name()')`
 
-Kad konfigurējat izteiksmi`ORDERBY ("Query", Vendor, Vendor.'name()')` ER modeļa kartēšanas izstrādātājā apstiprinājums [kļūda](er-components-inspections.md#i8) notiek projektēšanas laikā, jo`Vendor.'name()'` ceļš attiecas uz lietojumprogrammas metodi, kurai ir loģika, kuru nevar pārtulkot tiešā datu bāzes vaicājumā.
+Konfigurējot `ORDERBY ("Query", Vendor, Vendor.'name()')` izteiksmi ER modeļa kartēšanas veidotājā, [izstrādes](er-components-inspections.md#i8) laikā rodas apstiprināšanas kļūda, jo ceļš attiecas uz programmas metodi, `Vendor.'name()'` kam ir loģika, ko nevar tulkot tiešajā datu bāzes vaicājumā.
 
 ## <a name="example-3-database-query"></a><a name="example-3"></a> 3. piemērs: datu bāzes vaicājums
 
-Ja **TaxTransaction** ir konfigurēts kā ER datu avots *Tabulas ieraksti* veids, kas attiecas uz **TaxTrans** tabula, izteiksme`ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` sakārto ierakstus lietojumprogrammu datu bāzes līmenī un atgriež nodokļu darījumu sarakstu, kas ir sakārtots pēc nodokļu koda augošā secībā.
+**Ja TaxTransaction** ir konfigurēts kā tabulas ierakstu tipa *ER* **datu avots, kas attiecas uz tabulu TaxTrans**, `ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` izteiksme kārto ierakstus programmas datu bāzes līmenī un atgriež to nodokļu darbību sarakstu, kas kārtotas pēc nodokļu koda augošā secībā.
 
-## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> 4. piemērs. Pieprasāmi datu avoti
+## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> 4. piemērs: Vaicājami datu avoti
 
-Ja **TaxTransaction** ir konfigurēts kā ER datu avots *Tabulas ieraksti* veids, kas attiecas uz **TaxTrans** galds, **TaxTransactionFiltered** ER datu avotu var konfigurēt tā, lai tajā būtu ietverta izteiksme`FILTER(TaxTransaction, TaxCode="VAT19")` kas ienesīs darījumus ar noteiktu nodokļu kodu. Tā kā konfigurētais **TaxTransactionFiltered** ER datu avots ir vaicājams, izteiksmi `ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` var konfigurēt tā, lai filtrēto nodokļu darbību saraksts, kas sakārtots pēc darbības datuma augošā secībā, atgrieztos.
+**Ja TaxTransaction** ir konfigurēts kā tabulas ierakstu tipa *ER* **datu avots, kas attiecas uz tabulu TaxTrans**, **taxTransactionFiltered** ER `FILTER(TaxTransaction, TaxCode="VAT19")` datu avotu var konfigurēt, lai tas satur izteiksmi, kura ienestu darbības norādītajam nodokļu kodam. Tā kā konfigurētais **TaxTransactionFiltered** ER datu avots ir vaicājums, `ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` izteiksmi var konfigurēt, lai atgrieztu filtrēto nodokļu darbību sarakstu, kas sakārtots pēc darbības datuma augošā secībā.
 
-Konfigurējot **TaxTransactionOrdered** kā VR datu avotu *ar aprēķināto lauka* tipu, kas satur izteiksmi `ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` un VER datu avotu *ar aprēķināto lauka* tipu, kas satur izteiksmi `FILTER(TaxTransactionOrdered, TaxCode="VAT19")`, ER modeļa kartēšanas noformētājā noformēšanas laikā rodas validācijas [kļūda](er-components-inspections.md#i18). Šī kļūda rodas tāpēc, ka funkcijas FILTER pirmajam argumentam [ir jāatsaucas uz vaicājamu ER datu avotu, bet](er-functions-list-filter.md#usage-notes) TaxTransactionOrdered **datu avots, kurā ir** funkcija, nav vaicājams.`ORDERBY`
+**Ja taxTransactionOrdered** konfigurējat kā aprēķinātā lauka tipa *ER*`ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` datu avotu, kas satur izteiksmi un aprēķinātā lauka tipa, kas satur izteiksmi, ER *·*`FILTER(TaxTransactionOrdered, TaxCode="VAT19")` datu avotu, apstiprināšanas [kļūda](er-components-inspections.md#i18) rodas izstrādes laikā ER modeļu kartēšanas veidotājā. Šī kļūda rodas, jo pirmajam filtra funkcijas argumentam [ir](er-functions-list-filter.md#usage-notes) jāatsaucas uz vaicājumāmu ER datu avotu, **bet TaxTransactionOrdered** datu `ORDERBY` avots, kas ietver funkciju, nav vaicājams.
 
-## <a name="example-5-comparability"></a><a name="example-5"></a> 5. piemērs: Salīdzināmība
+## <a name="example-5-comparability"></a><a name="example-5"></a> 5. piemērs: Pieturamība
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
-1. Ievadiet datu avotu **DS1** ar *lauka* tipu Aprēķinātais, kurā ir izteiksme `SPLIT ("D1|_D2|D3", "|")`.
-2. **[Atveriet lapu Finanšu dimensijas vērtības](../../../finance/general-ledger/financial-dimensions.md)** un atlasiet **dimensiju CostCenter**.
-3. Ievadiet šādas dimensijas vērtības: **D1**, **\_ D2** un **D3**.
+1. Ievadiet aprēķinātā **lauka tipa datu avotu** *DS1*, kas satur izteiksmi `SPLIT ("D1|_D2|D3", "|")`.
+2. Atveriet lapu **[Finanšu dimensijas](../../../finance/general-ledger/financial-dimensions.md)** vērtības un atlasiet izmaksu **centra dimensiju**.
+3. Ievadiet šādas dimensiju vērtības: **D1**, **\_ D2** un **D3**.
 
 ### <a name="sorting-in-memory"></a>Kārtošana atmiņā
 
-1. Konfigurējiet datu avotu **DS2** *ar aprēķināto lauka* tipu, kurā ir izteiksme `ORDERBY("InMemory", DS1, DS1.Value)`.
-2. Ievērojiet, ka izteiksme `FIRST(DS2).Value` atgriež teksta vērtību **"D1"**, izteiksme `INDEX(DS2, COUNT(DS2)).Value` atgriež teksta vērtību **"\_ D2"**, un izteiksme `STRINGJOIN(DS2, DS2.Value, "|")` atgriež teksta vērtību **"D1D3D2\|\|\_"**.
+1. Konfigurējiet aprēķinātā **lauka tipa datu avotu** *DS2*, kas satur izteiksmi `ORDERBY("InMemory", DS1, DS1.Value)`.
+2. Ievērojiet, ka `FIRST(DS2).Value` izteiksme atgriež teksta vērtību "D1"**,**`INDEX(DS2, COUNT(DS2)).Value` izteiksme atgriež teksta vērtību "**D2"\_,**`STRINGJOIN(DS2, DS2.Value, "|")` un izteiksme atgriež teksta vērtību "D1 **D3\| D2"\|\_.**
 
 ### <a name="sorting-in-database"></a>Kārtošana datu bāzē
 
-1. Ievadiet datu avotu DS3 **ar** tabulas ierakstu *tipu, kas attiecas uz entītiju* FinancialDimensionValueEntity **·**.
-2. Konfigurējiet datu avotu **DS4** lauka *tipam* Aprēķinātais, kurā ir izteiksme `FILTER(DS3, DS3.FinancialDimension="CostCenter")`.
-3. Konfigurējiet datu avotu **DS5** ar *lauka* tipu Aprēķinātais, kurā ir izteiksme `ORDERBY(DS4, DS4.DimensionValue)`.
-4. Ievērojiet, ka izteiksme `FIRST(DS5).Value` atgriež teksta vērtību **"\_ D2"**, izteiksme `INDEX(DS5, COUNT(DS5)).Value` atgriež teksta vērtību **"D3"**, un izteiksme `STRINGJOIN(DS5, DS5.Value, "|")` atgriež teksta vērtību **"\_ D2D1D3\|\|"**.
+1. Ievadiet tabulas **ierakstu tipa datu avotu** *DS3*, kas attiecas uz elementu **FinancialDimensionValueEntity**.
+2. Konfigurējiet aprēķinātā **lauka tipa datu avotu** *DS4*, kas satur izteiksmi `FILTER(DS3, DS3.FinancialDimension="CostCenter")`.
+3. Konfigurējiet aprēķinātā **lauka tipa datu avotu** *DS5*, kas satur izteiksmi `ORDERBY(DS4, DS4.DimensionValue)`.
+4. Ievērojiet, ka `FIRST(DS5).Value`**izteiksme atgriež teksta vērtību "\_ D2"**, `INDEX(DS5, COUNT(DS5)).Value`**izteiksme atgriež teksta vērtību "D3"**, `STRINGJOIN(DS5, DS5.Value, "|")`**un izteiksme atgriež teksta vērtību "\_ D2\| D1\| D3"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

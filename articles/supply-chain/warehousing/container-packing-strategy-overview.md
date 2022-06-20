@@ -1,6 +1,6 @@
 ---
 title: Konteinera iepakošanas stratēģijas
-description: Šajā tēmā aprakstītas atšķirības starp konteinera iepakošanas stratēģiju un sniegti piemēri.
+description: Šajā rakstā ir aprakstītas atšķirības starp konteinera iepakojuma stratēģiju un sniegti piemēri.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862371"
 ---
 # <a name="container-packing-strategies"></a>Konteinera iepakošanas stratēģijas
 
 [!include [banner](../includes/banner.md)]
 
-Šī *konteinera iepakošanas stratēģija* ir stratēģija, ko varat izmantot, lai definētu krājumu sadalījumus konteineros. Šajā tēmā skaidrotas atšķirības starp stratēģijām *Iepakot visos atvērtajos konteineros* un *Iepakot tikai pašreizējā konteinerā*.
+Šī *konteinera iepakošanas stratēģija* ir stratēģija, ko varat izmantot, lai definētu krājumu sadalījumus konteineros. Šajā rakstā ir izskaidrotas atšķirības starp pakotni visos *atvērtos konteineros un* Iepakot *pašreizējos konteineros tikai stratēģiju*.
 
 - **Iepakot visos atvērtajos konteineros** — sistēmai ir jāpārbauda visi atvērtie konteineri, kas jau ir izveidoti konteinerizācijas cikla laikā, lai pārliecinātos, vai krājums ietilps vienā no tiem. Iepakošanas laikā sistēma pārbauda katru krājumu, lai noteiktu, vai tas iederas jebkurā no iepriekš izveidotajiem konteineriem. Ja krājums neietilpst esošajā konteinerā, sistēma izveido jaunu konteineru un turpina, līdz pabeigta visa pasūtījuma iepakošana.
 

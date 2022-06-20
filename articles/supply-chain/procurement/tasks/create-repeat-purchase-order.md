@@ -1,6 +1,6 @@
 ---
 title: Atkārtota pirkšanas pasūtījuma izveide
-description: Šajā tēmā parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu, kopējot rindas no iepriekšēja pirkšanas pasūtījuma dokumenta jaunā vai esošā pirkšanas pasūtījumā.
+description: Šajā rakstā ir parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu (PP), kopējot rindas no agrāka pirkšanas pasūtījuma dokumenta uz jaunu PP vai esošo PP.
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865097"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Atkārtota pirkšanas pasūtījuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu, kopējot rindas no iepriekšēja pirkšanas pasūtījuma dokumenta jaunā vai esošā pirkšanas pasūtījumā. Atkārtotu pasūtījumu izveidošanai pastāv divas metodes. Varat izmantot darbības, kas no darbību rūts ir pieejamas dokumenta līmenī, vai varat izmantot rindas detaļu darbības. Dokumenta līmeņa darbības galvenokārt ir paredzētas jaunu pirkšanas pasūtījumu izveidošanai, pievienojot rindas un virsraksta informāciju no cita pasūtījuma, kamēr rindas detaļu darbība galvenokārt ir paredzēta rindu pievienošanai jau esošam pasūtījumam. Šajā ceļvedī rādīto piemēru var izmantot paraugdatu uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
+Šajā rakstā ir parādīts, kā izveidot atkārtotu pirkšanas pasūtījumu (PP), kopējot rindas no agrāka pirkšanas pasūtījuma dokumenta uz jaunu PP vai esošo PP. Atkārtotu pasūtījumu izveidošanai pastāv divas metodes. Varat izmantot darbības, kas no darbību rūts ir pieejamas dokumenta līmenī, vai varat izmantot rindas detaļu darbības. Dokumenta līmeņa darbības galvenokārt ir paredzētas jaunu pirkšanas pasūtījumu izveidošanai, pievienojot rindas un virsraksta informāciju no cita pasūtījuma, kamēr rindas detaļu darbība galvenokārt ir paredzēta rindu pievienošanai jau esošam pasūtījumam. Šajā ceļvedī rādīto piemēru var izmantot paraugdatu uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Izveidot jaunu atkārtotu pirkšanas pasūtījumu

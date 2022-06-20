@@ -1,6 +1,6 @@
 ---
-title: Pārskats par kvalitātes un neatbilstības pārvaldību
-description: Šī tēma iepazīstina ar kvalitātes un neatbilstības pārvaldības līdzekļiem Microsoft Dynamics 365 Supply Chain Management un skaidrots, kā tie var palīdzēt uzlabot preču kvalitāti jūsu piegādes ķēdē.
+title: Kvalitātes un neatbilstības pārvaldīšanas apskats
+description: Šis raksts iepazīstina ar Microsoft kvalitātes un neatbilstības pārvaldības Dynamics 365 Supply Chain Management līdzekļiem un skaidrots, kā tie var palīdzēt uzlabot preču kvalitāti jūsu piegādes ķēdē.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907498"
 ---
-# <a name="quality-and-nonconformance-management-overview"></a>Pārskats par kvalitātes un neatbilstības pārvaldību
+# <a name="quality-and-nonconformance-management-overview"></a>Kvalitātes un neatbilstības pārvaldīšanas apskats
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma iepazīstina ar kvalitātes un neatbilstības pārvaldības līdzekļiem Microsoft Dynamics 365 Supply Chain Management un skaidrots, kā tie var palīdzēt uzlabot preču kvalitāti jūsu piegādes ķēdē.
+Šis raksts iepazīstina ar Microsoft kvalitātes un neatbilstības pārvaldības Dynamics 365 Supply Chain Management līdzekļiem un skaidrots, kā tie var palīdzēt uzlabot preču kvalitāti jūsu piegādes ķēdē.
 
 Kvalitātes garantija iekļauj produkta testēšanu un nekondīcijas materiāla pārvaldīšanu. Kvalitātes pārvaldības procesi jūsu piegādes ķēdē palīdz nodrošināt augstu produkta kvalitātes līmeni. Šie procesi arī palīdz optimizēt piegādes ķēdes procesus un palielināt debitoru apmierinātību. Kvalitātes pārvaldība jums var palīdzēt pārvaldīt apgrozījumu laikus, kad strādājat ar nekondīcijas precēm, neatkarīgi no šo preču izcelsmes vietas. Diagnostikas rezultātus varat saistīt ar labošanas uzdevumiem. Sistēmā var tikt ieplānoti problēmu novēršanas uzdevumi, tādējādi palīdzot nepieļaut šo problēmu turpmāku atkārtošanos. Kvalitātes pārvaldība sniedz iespēju arī izsekot problēmas (tostarp iekšējās problēmas) pēc problēmas veida un noteikt gan īstermiņa, gan ilgtermiņa risinājumus. Statistika par galvenajiem darba kvalitātes rādītājiem (KPI) sniedz ieskatu par neatbilstības problēmām, kas ir radušās iepriekš, un risinājumiem, kas tika lietoti to labošanai. Varat izmantot vēsturiskos datus, lai pārskatītu iepriekš veikto kvalitātes pasākumu efektivitāti un noteiktu, kuri pasākumi ir piemēroti turpmākai izmantošanai.
 

@@ -1,6 +1,6 @@
 ---
 title: Failu importēšana XML formātā ar neobligātiem atribūtiem
-description: Šajā tēmā ir sniegta informācija par tādu ER formātu veidošanu, kuri nosaka XML atribūtus ienākošo elektronisko dokumentu parsēšanai XML formātā.
+description: Šajā rakstā ir sniegta informācija par ER formātu dizainu, kuri nosaka XML atribūtus ienākošo elektronisko dokumentu parsiem XML formātā.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873227"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failu importēšana XML formātā ar neobligātiem atribūtiem
 
@@ -26,7 +26,7 @@ ms.locfileid: "6757301"
 
 Varat veidot elektronisko pārskatu (Electronic Reporting — ER) formātus ienākošo dokumentu parsēšanai XML formātā. Izveidotajā ER formātā noteiktus XML elementu atribūtus var norādīts kā neobligātus. Tādējādi jūs varat pareizi apstrādāt ienākošos failus gan ar šādiem XML atribūtiem, gan bez tiem. Pēc tam saturu no šiem failiem varat izmantot, lai atjauninātu programmas datus.
 
-Lai par šo līdzekli uzzinātu vairāk, izpildiet darbības, kas ir aprakstītas tēmā [(RCS) Failu importēšana XML formātā ar neobligātiem atribūtiem](tasks/import-files-xml-format-optional-attributes.md), kura veido daļu no biznesa procesa 7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677). Šo uzdevuma ceļvedi un saistītos parauga failus varat lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
+Lai uzzinātu vairāk par šo funkciju, izpildiet darbības dokumentā, [(RCS) Importējiet failus XML](tasks/import-files-xml-format-optional-attributes.md) formātā ar izvēles atribūtiem, kas ir daļa no 7.5.4.3 Iegūt/izstrādāt IT pakalpojuma/risinājuma komponentu (10677) biznesa procesu. Šo uzdevuma ceļvedi un saistītos parauga failus varat lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Satura apraksts       | Fails                                                         |
@@ -38,7 +38,7 @@ Lai par šo līdzekli uzzinātu vairāk, izpildiet darbības, kas ir aprakstīta
 Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var izveidot ER formāta konfigurāciju, lai importētu XML formātā tādus failus, kuros ir neobligāti atribūti. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības procedūrā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md). Pirms sākšanas lejupielādējiet un lokāli saglabājiet failu IncomingDocumentToLearnHowToHandleOptionalAttributes.xml no Microsoft lejupielādes centra (https://go.microsoft.com/fwlink/?linkid=874684 ).
 
 1. Dodieties uz **Organizācijas administrēšana** > **Darbvietas** > **Elektronisko pārskatu veidošana**.
-2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un ir atzīmēts kā **Aktīvs**. Ja neredzat šo konfigurācijas nodrošinātāju, izpildiet darbības tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un ir atzīmēts kā **Aktīvs**. Ja šī konfigurācijas nodrošinātājs nav redzams, izpildiet rakstu norādītās darbības, [izveidojiet konfigurācijas nodrošinātājus un atzīmējiet tos kā aktīvus](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Noklikšķiniet uz **Pārskatu veidošanas konfigurācijas**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Jaunas datu modeļa konfigurācijas izveide

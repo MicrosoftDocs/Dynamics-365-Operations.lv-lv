@@ -1,6 +1,6 @@
 ---
-title: Iegult trešās puses programmas
-description: Šajā tēmā ir paskaidrots, kā iegult trešās puses programmas, lai atbalstītu produkta funkcionalitāti.
+title: Trešās puses programmu iegulšana
+description: Šajā rakstā ir izskaidrots, kā iegult trešās puses programmas preces funkcionalitātes palielināšanai.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868613"
 ---
 # <a name="embed-third-party-apps"></a>Iegult trešās puses programmas
 
 [!include [banner](../includes/banner.md)]
 
-Daudzi debitori biznesa izpildē izmanto vairākas programmas. Dažas no šīm programmām ir trešās puses tīmekļa programmas, kas darbojas kopā ar Finance and Operations programmām. Lai nodrošinātu vienkāršāku lietotāja pieredzi, varat izmantot līdzekli **Pilnas lapas programmas**, lai iegultu šīs trešās puses programmas tieši jūsu Finance and Operations programmās (ar nosacījumu, ka trešās puses programmas ļauj iegulšanu). Šādā veidā lietotāji var piekļūt vietnēm un nepieciešamām programmām, nepārslēdzot cilnes vai logus.
+Daudzi debitori biznesa izpildē izmanto vairākas programmas. Dažas no šīm programmām ir trešās puses tīmekļa programmas, kas darbojas kopā ar Finanšu un operāciju programmām. Lai nodrošinātu daudz daudz lielākas lietotāju pieredzes pieredzi, varat izmantot līdzekli Pilnas lapas programmas, **lai** iegultu šīs trešās personas programmas tieši jūsu Finanšu un operāciju programmās (nodrošināts, ka trešās puses programmas ļauj iegulties). Šādā veidā lietotāji var piekļūt vietnēm un nepieciešamām programmām, nepārslēdzot cilnes vai logus.
 
-Pirms varat produktā iegult trešās puses programmas, līdzekļa pārvaldībā ir jāslēdz līdzekli **Pilnas lapas programmas** . Pēc tam varat izmantot vienu no šīm metodēm, lai iegultu trešās puses programmu vai vietni. Šīs metodes ir analogas metodēm, kas tiek izmantotas, lai iegultu pamatnes programmas no Microsoft Power Apps uz Finance and Operations programmām.
+Pirms varat produktā iegult trešās puses programmas, līdzekļa pārvaldībā ir jāslēdz līdzekli **Pilnas lapas programmas** . Pēc tam varat izmantot vienu no šīm metodēm, lai iegultu trešās puses programmu vai vietni. Šīs metodes ir analogas metodēm, kas tiek izmantotas, lai iegultu canvas programmas no Microsoft Power Apps Finanšu un operāciju programmām.
 
 - Iegult programmu vai vietni esošajā lapā kā jaunu cilnes lapu (koptabulu, kopsavilkuma cilni, failu vai darbvietas sadaļu).
 - Izveidojiet jaunu pilnas lapas pieredzi programmai vai vietnei no informācijas paneļa.
@@ -53,14 +53,14 @@ Izmantojiet šo procedūru, ja vēlaties papildināt esošu sistēmas lapu ar ie
     > - Programmai vai vietnei jābūt konfigurētai tā, lai atļautu sevi iegult.
 
 6. Atlasiet **Saglabāt**, lai iegultu programmu lapā. Programma tiek pievienota kā pēdējā cilnes vai grupas sadaļas daļa.
-7. Apstipriniet, ka programma parādās, kā paredzēts. Ja programma nav atveidota, skatiet tālāk šīs tēmas sadaļu [Problēmu novēršana](#troubleshooting).
+7. Apstipriniet, ka programma parādās, kā paredzēts. Ja programma netiek atveidota, skatiet tālāk šī raksta [sadaļu](#troubleshooting) Problēmu novēršana.
 8. Atveriet skatījuma atlasītāju un atlasiet **Saglabāt** (ja programmai jābūt saistītai ar pašreizējo skatu) vai **Saglabāt kā** (lai saglabātu programmu citā skatā).
 
     Ja lapai nav skatījuma atlasītāja (piemēram, ja lapa ir dialoglodziņš vai darbvieta), varat izlaist šo darbību.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Iegult vietni kā pilnas lapas pieredzi no informācijas paneļa
 
-Izmantojiet šo procedūru, ja programma, kuru vēlaties iegult, nav saistīta ar esošu lapu vai ja vēlaties, lai programmai būtu pilna lapu pieredze Finance and Operations programmā.
+Izmantojiet šo procedūru, ja programma, kuru vēlaties iegult, nav saistīta ar esošu lapu vai ja vēlaties iegūt pilnu lapas pieredzi programmai Finanšu un operāciju programmā.
 
 1. Atveriet informācijas paneli.
 2. Atlasiet un turiet lapu (vai noklikšķiniet ar peles labo pogu) informācijas paneli, atlasiet **Personalizēt** un pēc tam atlasiet **Pievienot lapu**.
@@ -75,7 +75,7 @@ Izmantojiet šo procedūru, ja programma, kuru vēlaties iegult, nav saistīta a
     > - Programmai vai vietnei jābūt konfigurētai tā, lai atļautu sevi iegult.
 
 5. Atlasiet **Saglabāt**, lai programmu pievienotu informācijas panelim kā jaunu elementu.
-6. Atlasiet vadības panelī jaunu elementu un apstipriniet, ka programma tiek parādīta, kā paredzēts. Ja programma nav atveidota, skatiet tālāk šīs tēmas sadaļu [Problēmu novēršana](#troubleshooting).
+6. Atlasiet vadības panelī jaunu elementu un apstipriniet, ka programma tiek parādīta, kā paredzēts. Ja programma netiek atveidota, skatiet tālāk šī raksta [sadaļu](#troubleshooting) Problēmu novēršana.
 
 ## <a name="sharing-embedded-apps"></a>Iegulto programmu koplietošana
 
@@ -89,7 +89,7 @@ Kad ir iegulta programma, izmantojot vienu no metodēm, kas aprakstītas iepriek
 
 ## <a name="viewing-embedded-apps"></a>Iegulto programmu skatīšana
 
-Lai skatītu iegulto programmu lapā programmās Finance and Operations, vienkārši atveriet lapu, kurā ir iegulta programma. Atcerieties, ka dažās lapās iegultām programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne vai kopsavilkuma cilne, vai panelis, vai kā jauna darbvietas sadaļa.
+Lai skatītu finanšu un operāciju programmu lapā iegulto programmu, atveriet lapu, kurā ir iegultā programma. Atcerieties, ka dažās lapās iegultām programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne vai kopsavilkuma cilne, vai panelis, vai kā jauna darbvietas sadaļa.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Iegulto programmu rediģēšana vai noņemšana
 
@@ -126,6 +126,6 @@ Ja tīmekļa vietne nav atveidota pareizi pēc tās iegultas Finance and Operati
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Izstrādātājs] Vietnes modelēšana formā
 
-Lai gan šī tēma ir vērsta uz trešās puses programmu vai vietņu iegulšanu, izmantojot personalizāciju, izstrādātāji var arī iegult tās formā, izmantojot Visual Studio izstrādes pieredzi. Vienkārši pievienojiet **WebsiteHostControl** kontroli formai. Kontrolei pieejamie metadatu rekvizīti nodrošina tādas pašas iespējas kā personalizēšanas pieredzei.
+Lai gan šis raksts ir fokusēts uz iegultajām trešās puses programmām vai vietnēm, izmantojot personalizāciju, izstrādātāji var arī iegult tās formā, izmantojot Visual Studio izstrādes pieredzi. Vienkārši pievienojiet **WebsiteHostControl** kontroli formai. Kontrolei pieejamie metadatu rekvizīti nodrošina tādas pašas iespējas kā personalizēšanas pieredzei.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

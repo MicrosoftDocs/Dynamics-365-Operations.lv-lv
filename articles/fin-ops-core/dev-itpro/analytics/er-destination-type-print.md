@@ -1,6 +1,6 @@
 ---
 title: ER galamērķa printera tips
-description: Šajā tēmā sniegta informācija par to, kā konfigurēt arhīva mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
+description: Šajā rakstā skaidrots, kā var konfigurēt printera mērķi katrai mapei vai faila komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845575"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printera mērķis
 
@@ -34,7 +34,7 @@ Pirms sākat, vispirms jāinstalē un jākonfigurē dokumentu maršrutēšanas a
 
 ## <a name="make-the-printer-destination-available"></a>Galamērķa printera pieejamības nodrošināšana
 
-Lai nodrošinātu galamērķa **Printeris** pieejamību pašreizējā Microsoft Dynamics 365 Finance instancē, dodieties uz darbvietu **Līdzekļu pārvaldība** un ieslēdziet tālāk norādītos līdzekļus norādītajā secībā.
+Lai printera **mērķis** Microsoft Dynamics būtu pieejams pašreizējā 365 Finansu instancē, **dodieties** uz līdzekļu pārvaldības darbvietu un slēdziet šādus līdzekļus šādā secībā:
 
 1. Elektronisko pārskatu izejošo dokumentu konvertēšana no Microsoft Office dokumentu formāta uz PDF formātu
 2. Dokumentu maršrutēšanas aģents kā izejošo dokumentu elektronisko pārskatu veidošanas adresāts
@@ -45,22 +45,22 @@ Lai nodrošinātu galamērķa **Printeris** pieejamību pašreizējā Microsoft 
 
 #### <a name="pdf-printing"></a>PDF drukāšana
 
-Finance versijās pirms versijas 10.0.18 printera **mērķi var konfigurēt tikai failu komponentiem, kas tiek izmantoti,** lai ģenerētu izvadi drukājamā PDF formātā (**PDF apvienošanās** vai **PDF faila** formāta elementi) vai Microsoft Office Excel Word formātā (**Excel faila** formāta elements). Kad izvade tiek ģenerēta PDF formātā, tā tiek nosūtīta uz printeri. Kad izvade tiek ģenerēta Office formātā, **izmantojot Excel faila** formāta elementu, tā tiek automātiski konvertēta PDF formātā un pēc tam nosūtīta uz printeri.
+Finanšu versijās pirms versijas 10.0.18 printera mērķi var konfigurēt tikai failu komponentiem, **kas** tiek izmantoti izvadei drukājamā PDF formātā (**PDF apvienošanas** **vai PDF** failu formāta elementi) Microsoft Office Excel un Word formātā (**Excel faila** formāta elements). Kad izvade ir izveidota PDF formātā, tā tiek nosūtīta uz printeri. Kad izvade tiek ģenerēta Office formātā, **izmantojot Excel** faila formāta elementu, tas automātiski tiek pārveidots PDF formātā un pēc tam nosūtīts uz printeri.
 
-Tomēr no versijas 10.0.18 varat konfigurēt **printera** mērķi elementam **Common file** format. Šis formāta elements galvenokārt tiek izmantots, lai ģenerētu izvadi TXT vai XML formātā. Er formātu, kas satur **kopējā faila** formāta elementu, var konfigurēt kā saknes formāta elementu un **binārā satura** formāta elementu kā vienīgo ligzdoto elementu zem tā. Šādā gadījumā elements Common file **format izveidos izvadi formātā,** kas norādīts ar saistījumu, kuru konfigurējat binārā **satura** formāta elementam. Piemēram, varat konfigurēt šo saistījumu, lai aizpildītu [šo](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) elementu ar dokumentu pārvaldības [pielikuma saturu](../../fin-ops/organization-administration/configure-document-management.md) PDF vai Office (Excel vai Word) formātā. Izvadi var izdrukāt, izmantojot konfigurēto **printera** mērķi. 
+Tomēr no versijas 10.0.18 varat konfigurēt **printera** mērķi kopēja faila **formāta** elementam. Šis formāta elements lielākoties tiek izmantots, lai ģenerētu izvadi TXT vai XML formātā. Varat konfigurēt **ER** **formātu, kas kopējā faila formāta elementu satur kā saknes formāta elementu un Bināro** satura formāta elementu kā vienīgais ligzdotais elements zem tā. Šajā gadījumā kopējā faila formāta **elements** izveidos izvadi formātā, kas norādīts ar saistījumu, ko **konfigurējat Binārā satura formāta** elementam. Piemēram, varat konfigurēt [šo](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format)[saistīšanu](../../fin-ops/organization-administration/configure-document-management.md), lai aizpildītu šo elementu ar dokumentu pārvaldības pielikuma saturu PDF vai Office (Excel vai Word) formātā. Varat izdrukāt izvades informāciju, izmantojot konfigurēto printera **mērķi**. 
 
 > [!NOTE]
-> Atlasot CommonFile **\\ formāta elementu printera** mērķa konfigurēšanai **, projektēšanas laikā nav iespējams garantēt, ka atlasītais elements radīs izvadi PDF formātā vai izvadē, ko var** konvertēt PDF formātā. Tāpēc tiek parādīts šāds brīdinājuma ziņojums: "Lūdzu, pārliecinieties, vai atlasītā formāta komponenta ģenerēto izvadi var pārvērst par PDF failu. Pretējā gadījumā noņemiet atzīmi no opcijas "Konvertēt uz PDF"." Ir jāveic darbības, lai novērstu izpildlaika problēmas, ja drukāšanai izpildlaikā ir nodrošināta izvade, kas nav PDF izvade vai izvade, kas nav PDF izvade. Ja vēlaties saņemt izvadi Office (Excel vai Word) formātā, **ir jāatlasa opcija Konvertēt uz PDF**.
+> Kad izvēlaties **\\** **Kopējā** faila formāta elementu, lai konfigurētu Printera mērķi, nav veida, kā nodrošināt, ka izvēlētajam elementam jāražo izvade PDF formātā vai izvade, ko var konvertēt PDF formātā. Tāpēc jūs saņemat šādu brīdinājuma ziņojumu: "Lūdzu, pārliecinieties, ka atlasītā formāta komponenta ģenerēto izvadi var pārvērst PDF formātā. Pretējā gadījumā noņemiet atzīmi no opcijas Pārvērst par PDF." Jāveic darbības, lai palīdzētu novērst izpildlaika problēmas, ja izpildlaikā tiek nodrošināta drukāšanai, kas nav PDF vai nav PDF konvertējama izvade. Ja vēlaties saņemt izvades informāciju Office (Excel vai Word) formātā, **jābūt atlasītai opcijai Pārvērst par PDF**.
 >
-> Versijā 10.0.26 un jaunākās versijās, lai izmantotu **opciju Konvertēt uz PDF**, konfigurētā **printera** mērķa dokumenta maršrutēšanas tipa **parametram** ir jāatlasa **PDF**.
+> Versijā 10.0.26 un jaunākā versijā, lai izmantotu opciju Pārvērst par PDF, **ir jāatlasa PDF** **konfigurētā** printera mērķa dokumentu maršrutēšanas **tipa parametram.** **·**
 
-#### <a name="zpl-printing"></a>ZPL druka
+#### <a name="zpl-printing"></a>ZPL drukāšana
 
-Versijā 10.0.26 un jaunākās versijās varat konfigurēt **printera mērķi CommonFile** **formāta elementam\\, atlasot** ZPL **parametram** Dokumenta maršrutēšanas **tips**. Šādā gadījumā **opcija Konvertēt uz PDF** izpildlaikā tiek ignorēta, un TXT vai XML izvade tiek nosūtīta tieši uz atlasīto printeri, izmantojot dokumentu maršrutēšanas aģenta (DRA [) zebras programmēšanas valodas (ZPL) līgumu](install-document-routing-agent.md). Izmantojiet šo līdzekli ER formātam, kas attēlo ZPL II uzlīmju izkārtojumu, lai drukātu dažādas etiķetes.
+Versijā 10.0.26 un jaunākā versijā varat konfigurēt printera mērķi kopējam faila formāta elementam, **·** **\\** atlasot ZPL **dokumentu** maršrutēšanas tipa parametram.**·** Šajā gadījumā **izpildlaikā opcija Pārvērst par PDF** tiek ignorēta, un TXT vai XML izvade tiek nosūtīta tieši uz atlasīto printeri, izmantojot Līgumu Par Papildmaksu programmēšanas valodu (ZPL), [kas atrodas Dokumentu maršrutēšanas aģentam (DRA).](install-document-routing-agent.md) Izmantojiet šo funkciju ER formātam, kas parāda ZPL II etiķetes izkārtojumu dažādu etiķešu drukāšanai.
 
-[![Parametra Dokumenta maršrutēšanas tipa iestatīšana dialoglodziņā Mērķa iestatījumi.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+[![Dokumentu maršrutēšanas tipa parametra iestatīšana dialoglodziņā Mērķa iestatījumi.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
 
-Papildinformāciju par šo līdzekli skatiet rakstā [Jauna ER risinājuma noformēšana ZPL uzlīmju drukāšanai](er-design-zpl-labels.md).
+Plašāku informāciju par šo līdzekli skatiet Izstrādājiet [jaunu ER risinājumu ZPL etiķešu drukāšanai](er-design-zpl-labels.md).
 
 ### <a name="limitations"></a>Ierobežojumi
 

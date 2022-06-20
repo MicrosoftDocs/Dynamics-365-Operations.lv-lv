@@ -1,6 +1,6 @@
 ---
 title: Izlaist uz noliktavu
-description: Šajā tēma sniegta informācija par izlaišanas noliktavā procedūru. Tajā aprakstītas tās entitījas, kuras tiek izveidotas, izlaižot pasūtījumu uz noliktavu, un opcijas, kuras varat lietot, lai iniciētu šo procesu.
+description: Šajā rakstā ir sniegta detalizēta informācija par pārsūtīšanas uz noliktavu procesu. Tajā aprakstītas tās entitījas, kuras tiek izveidotas, izlaižot pasūtījumu uz noliktavu, un opcijas, kuras varat lietot, lai iniciētu šo procesu.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893183"
 ---
 # <a name="release-to-warehouse"></a>Izlaist uz noliktavu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēma sniegta informācija par izlaišanas noliktavā procedūru. Tajā aprakstītas tās entitījas, kuras tiek izveidotas, izlaižot pasūtījumu uz noliktavu, un opcijas, kuras varat lietot, lai iniciētu šo procesu.
+Šajā rakstā ir sniegta detalizēta informācija par pārsūtīšanas uz noliktavu procesu. Tajā aprakstītas tās entitījas, kuras tiek izveidotas, izlaižot pasūtījumu uz noliktavu, un opcijas, kuras varat lietot, lai iniciētu šo procesu.
 
 ## <a name="release-to-warehouse-overview"></a>Izlaišanas noliktavā pārskats
 
-Izlaišana noliktavā ir process, kurā inventārs tiek sagatavots izsūtīšanas apstrādei. Izlaižot pasūtījumu uz noliktavu, sistēma izveidot kravu rindas un sūtījumus. Ja ir iestatīta automātiskā kopuma apstrāde, tiek izveidotas arī kravas un vajadzīgais darbs. Iesaistīto entitīju konfigurācija ir atkarīga no sistēmas iestatījumiem. Šajā tēmas sadaļā sniegts pārskats par vienībām, kuras tiek izveidotas, veicot izlaišanu uz noliktavu, un sistēmas iestatījumi, kuri šīs vienības definē.
+Izlaišana noliktavā ir process, kurā inventārs tiek sagatavots izsūtīšanas apstrādei. Izlaižot pasūtījumu uz noliktavu, sistēma izveidot kravu rindas un sūtījumus. Ja ir iestatīta automātiskā kopuma apstrāde, tiek izveidotas arī kravas un vajadzīgais darbs. Iesaistīto entitīju konfigurācija ir atkarīga no sistēmas iestatījumiem. Šajā sadaļas sadaļā ir pārskata entītijas, kas izveidotas, kad tiek nodotas izpildei noliktavas procesā, un sistēmas iestatījumus, kas tos definē.
 
 *Sūtījums* ir pārdošanas pasūtījumu vai pārsūtīšanas pasūtījuma rindu grupa, kura attiecas uz vienu un to pašu klientu vai vienu un to pašu piegādes adresi.
 
@@ -67,7 +67,7 @@ Beigās, kad pasūtījums tiek izdots noliktavai, automatizētākā plūsma darb
 
 Atkarībā no kopumu veidnēm, darba veidnēm un atrašanās vietas direktīvu iestatījumiem, daži šīs plūsmas darbi var kļūt par manuāliem. Taču vispārīgā plūsma paliek nemainīga.
 
-Ir vairākas opcijas, kā varat izlaist pasūtījumu uz noliktavu. Varat darbību veikt manuāli vai varat iestatīt pakešdarbu. Pārējās šīs tēmas sadaļas tiek sīkāk aplūkoti veidi, kādos varat veikt izlaišanu uz noliktavu.
+Ir vairākas opcijas, kā varat izlaist pasūtījumu uz noliktavu. Varat darbību veikt manuāli vai varat iestatīt pakešdarbu. Pārējās šī raksta sadaļas detalizēti pārskata dažādus veidus, kā veikt darbības ar noliktavu.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Manuāla izlaišana uz noliktavu no lapām Pārdošanas pasūtījumi un Pārsūtīšanas pasūtījumi
 

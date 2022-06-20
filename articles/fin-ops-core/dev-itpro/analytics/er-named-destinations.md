@@ -1,6 +1,6 @@
 ---
 title: Drukas pārvaldības ierakstam raksturīgo ER adresātu konfigurēšana
-description: Šajā tēmā ir paskaidrots, kā konfigurēt drukas pārvaldības ierakstam raksturīgus adresātus elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.
+description: Šajā rakstā skaidrots, kā konfigurēt drukas pārvaldības ierakstu specifiskus adresātus Elektronisko pārskatu (ER) formātam, kas ir konfigurēts nosūtīšanas dokumentu ģenerēšanai.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872718"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Drukas pārvaldības ierakstam raksturīgo ER adresātu konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma skaidro, kā lietotājs sistēmas administratora vai debitoru parādu lietveža lomā var veikt tālāk minētos uzdevumus.
+Šajā rakstā skaidrots, kā lietotājs sistēmas administratora vai debitoru parādu darbinieks var veikt šādus uzdevumus:
 
 - Konfigurējiet nosauktos [Elektronisko pārskatu (ER)](general-electronic-reporting.md) galamērķus ER risinājumam, kas ģenerē brīvā teksta rēķinus.
 - Piešķiriet ER adresātu vienam [drukas pārvaldības](document-reporting-services.md) ierakstam.
@@ -37,7 +37,7 @@ ms.locfileid: "8603059"
 
 Varat konfigurēt [adresātus](electronic-reporting-destinations.md) katrai mapei failu izvades komponentā elektroniskās ziņošanas (ER) [formāta](general-electronic-reporting.md) [konfigurācijā](general-electronic-reporting.md#Configuration), kas tiek izmantota izejošā dokumenta izveidei. Izmantojot šī tipa ER formātu, ja jums ir atbilstošas piekļuves tiesības, izpildlaikā varat mainīt arī konfigurētos adresāta iestatījumus.
 
-Microsoft Dynamics 365 Finance **versijā 10.0.17 un jaunākās versijās** ER formātam var [iestatīt](er-apis-app10-0-17.md) darbības kodu, lai norādītu darbību, ko lietotāji veic, palaižot šo ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos varat atlasīt ER formātu, kas ģenerē noteiktu biznesa dokumentu, piemēram, brīva teksta rēķinu. Pēc tam varat atlasīt **Skatīt**, lai priekšskatītu rēķinu, vai **Drukāt**, lai nosūtītu to uz printeri. Ja izpildlaikā darbība ir izpildīta ER formātam, varat [konfigurēt dažādus ER adresātus dažādām lietotāja darbībām](er-action-dependent-destinations.md).
+Microsoft Dynamics 365 Finanšu **versijā 10.0.17** un vēlāk darbības kodu var iestatīt ER formātam, lai norādītu darbību, ko lietotāji veic, [palaižot](er-apis-app10-0-17.md) šo ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos varat atlasīt ER formātu, kas ģenerē noteiktu biznesa dokumentu, piemēram, brīva teksta rēķinu. Pēc tam varat atlasīt **Skatīt**, lai priekšskatītu rēķinu, vai **Drukāt**, lai nosūtītu to uz printeri. Ja izpildlaikā darbība ir izpildīta ER formātam, varat [konfigurēt dažādus ER adresātus dažādām lietotāja darbībām](er-action-dependent-destinations.md).
 
 Finance **10.0.21 un jaunākā versijā** nosauktu adresātu var [iestatīt](er-apis-app10-0-21.md) ER formātam un piešķirt drukas pārvaldības ierakstam, kas tiek apstrādāts, palaižot ER formātu. Piemēram, **Debitoru parādu** modulī drukas pārvaldības iestatījumos vēlaties konfigurēt **Oriģinālo** ierakstu, lai veiktu tālāk minētās darbības.
 

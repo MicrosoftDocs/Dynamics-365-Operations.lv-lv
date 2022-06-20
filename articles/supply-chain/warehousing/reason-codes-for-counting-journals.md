@@ -1,6 +1,6 @@
 ---
 title: Iemeslu kodi krājumu inventarizācijai
-description: Šajā tēmā ir aprakstīts, kā iestatīt un lietot iemeslu kodus inventarizācijas uzdevumiem.
+description: Šajā rakstā ir aprakstīts, kā iestatīt un izmantot iemeslu kodus uzskaitīšanas uzdevumiem.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857117"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Iemeslu kodi krājumu inventarizācijai
 
@@ -42,7 +42,7 @@ Pirms šīs sistēmas iestatīšanas iesakām definēt stratēģiju darbam ar ie
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Ieslēdziet iemesla koda līdzekļus savā sistēmā
 
-Ja savā sistēmā neredzat visus līdzekļus, kas ir aprakstīti šajā tēmā, iespējams, būs jāieslēdz līdzekli *Rīcībā esošo korekciju grāmatošana, izmantojot konfigurējamus pamatojuma kodus, kas saistīti ar korespondējošo kontu*. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Ja neredzat visus līdzekļus, kas ir aprakstīti šajā rakstā jūsu sistēmā, iespējams, būs jāieslēdz rīcībā esošo korekciju grāmatošana, izmantojot konfigurējamus pamatojuma kodus, *kas saistīti ar korespondējošo kontu* līdzekli. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Rīcībā esošo korekciju grāmatošana, izmantojot konfigurējamus pamatojuma kodus, kas saistīti ar korespondējošo kontu*
@@ -111,7 +111,7 @@ Lai iestatītu inventarizācijas iemesla kodus, veiciet tālāk norādītās dar
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Iestatiet inventarizācijas iemeslu kodu grupas
 
-*Uzskaites iemeslu kodu grupas* var izmantot kā daļu no mobilās programmas Warehouse Management izvēlnes vienumiem *Pielāgojums* un *Korekcija*, lai ierobežotu inventarizācijas iemeslu kodu sarakstu. (Papildinformāciju par inventarizācijas iemesla kodu grupām skatiet tālāk šīs tēmas sadaļā [Iestatiet mobilās ierīces izvēlnes vienumus pielāgošanai un koriģēšanai](#setup-adjustment-in-out).)
+*Uzskaites iemeslu kodu grupas* var izmantot kā daļu no mobilās programmas Warehouse Management izvēlnes vienumiem *Pielāgojums* un *Korekcija*, lai ierobežotu inventarizācijas iemeslu kodu sarakstu. (Papildinformāciju par inventarizācijas iemeslu kodu grupām skatiet [Iestatiet mobilās ierīces izvēlnes vienumus tālāk šī raksta sadaļā koriģēšanai un](#setup-adjustment-in-out) koriģēšanai.)
 
 1. Pārejiet uz sadaļu **Krājumu pārvaldība** \> **Iestatījums** \> **Krājumi** \> **Inventarizācijas iemesla koda grupas**.
 1. Lai pievienotu grupu, darbību rūtī atlasiet **Jauns**.
@@ -174,7 +174,7 @@ Lai iestatītu mobilās ierīces izvēlnes vienumu ienākošajai korekcijai un i
         - *Slēpt* – nerādīt iemesla kodu.
 
     - **Rediģēt inventarizācijas iemesla kodu** – iestatiet šo opciju uz *Jā*, lai darbinieks iemesla kodu varētu rediģēt, kad inventarizācijas laikā tas tiek rādīts mobilajā ierīcē. Iestatiet to uz *Nē*, lai neļautu darbiniekam labot kodu.
-    - **Inventarizācijas iemesla koda grupa** – atlasiet iemesla koda grupu, ja vēlaties ierobežot darbiniekiem piedāvāto opciju sarakstu. Informāciju par to, kā iestatīt iemesla koda grupas, skatiet iepriekš šajā tēmā sadaļā [Iestatīt inventarizācijas iemeslu kodu grupas](#reason-groups). 
+    - **Inventarizācijas iemesla koda grupa** – atlasiet iemesla koda grupu, ja vēlaties ierobežot darbiniekiem piedāvāto opciju sarakstu. Papildinformāciju par iemeslu kodu grupu iestatīšanai skatiet [šī raksta](#reason-groups) sadaļā Iestatīt inventarizācijas iemeslu kodu grupas. 
 
 > [!NOTE]
 > Kad piešķirat inventarizācijas iemesla kodu grupu izvēlnes vienumiem *Ienākošā korekcija* un *Izējošā korekcija*, kur opcija **Izmantot procesa rokasgrāmatu** ir iestatīta uz *Jā*, varat iegūt ierobežotu inventarizācijas iemeslu kodu sarakstu kā daļu no apstrādes mobilajā programmā Warehouse Management.

@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par krājumu izmaksu uzskaiti
-description: Šī tēma atbild uz dažiem bieži uzdotiem jautājumiem par krājumu izmaksu ēšanu Microsoft sistēmā Dynamics 365 Supply Chain Management.
+description: Šis raksts atbild uz dažiem bieži uzdotiem jautājumiem par krājumu izmaksu ēšanu Sistēmā Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850849"
 ---
 # <a name="inventory-costing-faq"></a>Bieži uzdotie jautājumi par krājumu izmaksu uzskaiti
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma atbild uz dažiem bieži uzdotiem jautājumiem par krājumu izmaksu ēšanu Microsoft sistēmā Dynamics 365 Supply Chain Management.
+Šis raksts atbild uz dažiem bieži uzdotiem jautājumiem par krājumu izmaksu ēšanu Sistēmā Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Krājumu slēgšana, koriģēšana un pārrēķins
 
@@ -359,7 +359,7 @@ Ieteicams bieži pārraudzīt un labot negatīvos krājumus, ja jūsu organizāc
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Vai ir jāizveido jauns krājums, ja krājumi ir negatīvi un es izmantoju pārvietojamu vidējo?
 
-Nē. Ja jūsu organizācija ļauj krājumiem pārvietoties fiziski un jūs izmantojat pārvietojamu vidējo kā savu krājumu modeli, sistēma izmantos atkāpšanās izmaksu secību, **kas ir piešķirta lapā Krājumu un noliktavas pārvaldības parametri**, lai noteiktu, kā izmaksas tiks piešķirtas jūsu izejas plūsmasm. Parasti ieteicams izvairīties no atļaut krājumam fiziski atgriezties negatīvi. Plašāku informāciju skatiet pārējos jautājumus šīs tēmas [sadaļā](#negative-inventory) Negatīvi krājumi.
+Nē. Ja jūsu organizācija ļauj krājumiem pārvietoties fiziski un jūs izmantojat pārvietojamu vidējo kā savu krājumu modeli, sistēma izmantos atkāpšanās izmaksu secību, **kas ir piešķirta lapā Krājumu un noliktavas pārvaldības parametri**, lai noteiktu, kā izmaksas tiks piešķirtas jūsu izejas plūsmasm. Parasti ieteicams izvairīties no atļaut krājumam fiziski atgriezties negatīvi. Papildinformāciju skatiet pārējos jautājumus šī [raksta sadaļā](#negative-inventory) Negatīvi krājumi.
 
 ## <a name="not-stocked-products"></a>Preces, kas nav uzkrātas
 
@@ -433,7 +433,7 @@ Ja pastāv cenas atšķirība starp fizisko atjauninājumu grāmatošanu un ieej
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Kad es izmantoju pārvieto vidējo, kas notiek, ja pirms saņemšanas ir izejas plūsma?
 
-Parasti pirms ieejas plūsmas var būt izdošana, jo ļaujat krājumu modeļu grupai fiziski negatīvus krājumus vai arī tā ir ar atpakaļejošo datumu. Plašāku informāciju skatiet šīs tēmas [sadaļā Negatīvi](#negative-inventory) krājumi.
+Parasti pirms ieejas plūsmas var būt izdošana, jo ļaujat krājumu modeļu grupai fiziski negatīvus krājumus vai arī tā ir ar atpakaļejošo datumu. Plašāku informāciju skatiet šī raksta [sadaļā](#negative-inventory) Negatīvi krājumi.
 
 Ja esat vieno savas darbības, ieteicams rūpīgi apsvērt biznesa procesu un operācijas, lai noteiktu, vai ir veids, kā izvairīties no šī scenārija. Ja tiek dublēta krājuma darbība, kas izmanto pārvietojamu vidējo, sistēma darbībai piešķirs pašreizējo pārvietojamo vidējo rādītāju. Vēlākās problēmas nav pielāgotas. Papildinformāciju par vidējās vērtības pārvietošanu ar atpakaļeīgām darbībām skatiet sadaļā [Vidējā pārvietošana](moving-average.md).
 

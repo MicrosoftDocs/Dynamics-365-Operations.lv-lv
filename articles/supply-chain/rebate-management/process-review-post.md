@@ -1,6 +1,6 @@
 ---
 title: Apstrādāt, pārskatīt un grāmatot atlaides
-description: Šajā tēmā ir aprakstīts, kā apstrādāt atlaižu pārvaldības piedāvājumus, aprēķināt to atlaides, pārskatīt ģenerētās darbības, grāmatot darbības un pārskatīt grāmatojumus.
+description: Šajā rakstā ir aprakstīts, kā apstrādāt jūsu atlaižu pārvaldības darījumus, aprēķināt atlaides, pārskatīt ģenerētās darbības, grāmatot darbības un pārskatīt grāmatojumus.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901942"
 ---
 # <a name="process-review-and-post-rebates"></a>Apstrādāt, pārskatīt un grāmatot atlaides
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā apstrādāt atlaižu pārvaldības piedāvājumus, aprēķināt to atlaides, pārskatīt ģenerētās darbības, grāmatot darbības un pārskatīt grāmatojumus.
+Šajā rakstā ir aprakstīts, kā apstrādāt jūsu atlaižu pārvaldības darījumus, aprēķināt atlaides, pārskatīt ģenerētās darbības, grāmatot darbības un pārskatīt grāmatojumus.
 
 ## <a name="change-the-status-of-a-deal"></a>Piedāvājuma statusa maiņa
 
@@ -45,7 +45,7 @@ Dodieties uz **Atlaižu pārvaldība \> Periodiskie uzdevumi \> Aprēķināt FIF
 
 Jūs varat izveidot pārdošanas pasūtījumus vai pirkšanas pasūtījumus, kuriem ir avota transakcijas pirms vai pēc piemērojama atlaides pārvaldības darījuma izveides.
 
-Jūs varat iestatīt katru darījuma rindu tā, lai tā automātiski izveidotu atlaides uzkrājumu, grāmatojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma piegādi vai rēķinu. Iestatiet lauku **Transakcijas veids** darījuma rindai uz *Piegāde* vai *Rēķins* un iestatiet opciju **Apstrādāt grāmatošanas laikā** uz *Jā*. Ja lauka **Transakcijas veids** iestatījums ir *Pasūtījums*, grāmatošanas apstrāde ir deaktivizēta. Avota transakcijām, kas tika izveidotas pēc darījuma aktivizēšanas, jūs joprojām varat apstrādāt uzkrājumus, kā aprakstīts sadaļā [Procesa atlaides pārvaldības darījumi](#process-deals) vēlāk šajā tēmā.
+Jūs varat iestatīt katru darījuma rindu tā, lai tā automātiski izveidotu atlaides uzkrājumu, grāmatojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma piegādi vai rēķinu. Iestatiet lauku **Transakcijas veids** darījuma rindai uz *Piegāde* vai *Rēķins* un iestatiet opciju **Apstrādāt grāmatošanas laikā** uz *Jā*. Ja lauka **Transakcijas veids** iestatījums ir *Pasūtījums*, grāmatošanas apstrāde ir deaktivizēta. Avota transakcijām, kas tika izveidotas pēc darījuma aktivizēšanas, jūs joprojām varat apstrādāt uzkrājumus, [kā aprakstīts Procesa](#process-deals) atlaides pārvaldības darījumu sadaļā vēlāk šajā rakstā.
 
 ### <a name="enable-price-details"></a>Iespējot detalizētu informāciju par cenu
 

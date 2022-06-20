@@ -1,6 +1,6 @@
 ---
 title: Produkta datu elementi
-description: Šajā tēmā ir sniegta informācija par dažādām entītijām, kuras var izmantot, lai importētu un eksportētu produktu datus.
+description: Šajā rakstā ir sniegta informācija par dažādiem elementiem, kurus var izmantot preču datu importēšanai un eksportēšanai.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e37e0928d8633a81d3a736527f2545cd61055a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859203"
 ---
 # <a name="product-data-entities"></a>Produkta datu elementi
 

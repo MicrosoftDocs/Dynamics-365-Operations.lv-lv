@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas līgumu pārskats
-description: Šajā tēmā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
+description: Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903845"
 ---
 # <a name="sales-agreements-overview"></a>Pārdošanas līgumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
+Šajā rakstā ir sniegta informācija par pārdošanas līgumiem. Pārdošanas līgums ir līgums, ar kuru debitors piekrīt laika gaitā iegādāties noteiktu daudzumu preču vai iegādāties preces par noteiktu summu apmaiņā pret īpašām cenām un atlaidēm.
 
 Pārdošanas līgums ir vienošanās, kas nosaka, ka laika gaitā klientam jāiegādājas preces noteiktā daudzumā vai par konkrētu summu apmaiņā pret īpašām cenām, īpašām atlaidēm un citiem īpašiem nosacījumiem, piemēram, maksājuma un piegādes nosacījumiem. Pārdošanas līguma cenām un atlaidēm ir prioritāte pār jebkādām cenām un atlaidēm, kas ir norādītas jebkuros jau pastāvošajos tirdzniecības līgumos.  
 

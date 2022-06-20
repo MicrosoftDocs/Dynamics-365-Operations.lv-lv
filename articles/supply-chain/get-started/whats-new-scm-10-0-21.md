@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.21.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8739392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849537"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.21 (2021. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.21. Šai versijai ir būvējuma numurs 10.0.960, un tas ir pieejams šeit:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.21. Šai versijai ir būvējuma numurs 10.0.960, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2021. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2021. gada septembris
@@ -119,9 +119,9 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
-Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdzības tēmas. Tās ne vienmēr ir saistītas ar jaunajiem līdzekļiem, kas pievienoti šim laidienam, kā uzskaitīts iepriekšējā sadaļā, taču tās var palīdzēt jums pilnīgāk izmantot esošos līdzekļus.
+Mēs nesen pievienojam vai būtiski atjauninājām šādus palīdzības rakstus. Tās ne vienmēr ir saistītas ar jaunajiem līdzekļiem, kas pievienoti šim laidienam, kā uzskaitīts iepriekšējā sadaļā, taču tās var palīdzēt jums pilnīgāk izmantot esošos līdzekļus.
 
-| Līdzekļu apgabals | Jaunas vai atjauninātas tēmas |
+| Līdzekļu apgabals | Jauni vai atjaunināti raksti |
 |---|---|
 | Vispārējā plānošana | [Krājumu prognozes](../master-planning/inventory-forecast.md) |
 | Vispārējā plānošana | [Parametri, kas netiek izmantoti plānošanas optimizācijai](../master-planning/planning-optimization/not-used-parameters.md) |
@@ -130,7 +130,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 | Vispārējā plānošana | [Plāna vēstures un plānošanas žurnālu skatīšana](../master-planning/planning-optimization/plan-history-logs.md) |
 | Noliktavas pārvaldība | [Konteineru iepakošanas stratēģijas](../warehousing/container-packing-strategy-overview.md) |
 | Noliktavas pārvaldība | [Cikla inventarizācijas piemēru scenāriji](../warehousing/cycle-counting-scenarios.md) |
-| Noliktavas vadība | [Importēt ienākošos NNS, izmantojot V3 datu elementu](../warehousing/import-asn-data-entity.md) |
+| Noliktavas vadība | [Ienākošo IPPN importēšana, izmantojot V3 datu elementu](../warehousing/import-asn-data-entity.md) |
 | Noliktavas vadība | [Pārdošanas pasūtījumu un pārsūtīšanas pasūtījumu pārmērīga izdošana](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Noliktavas pārvaldība | [Kopuma etiķešu drukāšanas plānošana kopuma laikā](../warehousing/configure-task-based-wave-label-printing.md) |
 | Noliktavas pārvaldība | [Kas jauns vai mainīts mobilajā programmā Warehouse Management](../warehousing/whats-new-wma.md) |
@@ -153,12 +153,12 @@ Apskatiet [Dynamics 365 un rūpniecības mākoņi: 2021. gada 2. laidiena plāns
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
-Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) apraksta līdzekļus, kas ir vai ir ieplānots noņemšanai no Supply Chain Management.
+Noņemtie [vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) rakstā apraksta funkcijas, kas ir noņemtas vai ieplānotas izņemšanai vai nolietojumam Piegādes ķēžu pārvaldībai.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
-Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
+Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) par nolietojumu tiks papildu pievienots 12. rakstu funkcionalitātes Noņemtie vai novecojušie 12 mēnešu skaits pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 

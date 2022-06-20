@@ -1,6 +1,6 @@
 ---
-title: Iestatīt ER formāta parametrus juridiskai personai
-description: Šajā tēmā izskaidrots, kā iestatīt elektronisko pārskatu (ER) formātu parametrus juridiskai personai.
+title: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
+description: Šajā rakstā skaidrots, kā var iestatīt parametrus elektronisko pārskatu (ER) formātam katrai juridiskajai personai.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890217"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644504"
 
 Lai veiktu šīs darbības, vispirms ir jāpabeidz darbības, kas aprakstītas tēmā [Konfigurēt ER formātus, lai izmantotu parametrus, kas konkretizēti juridiskai personai](er-app-specific-parameters-configure-format.md).
 
-Lai pabeigtu piemērus šajā tēmā, jums ir jābūt piekļuvei Microsoft Dynamics 365 Finanses vienai no šīm lomām:
+Lai aizpildītu piemērus šajā rakstā, jums ir jābūt piekļuvei Microsoft Dynamics 365 Finanses vienai no šīm lomām:
 
 - Elektroniskā pārskata izstrādātājs
 - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -221,7 +221,7 @@ Lai importētu parametrus, veiciet tālāk norādītās darbības:
 
 Varat arī izmantot šo eksporta-importa pieeju, lai pārsūtītu ER formātam piesaistītos programmas parametrus, kas sākotnēji tika konfigurēti vienā Finance instancē citai Finance instancei.
 
-Ja konfigurējat programmai raksturīgos parametrus vienai ER formāta versijai un pēc tam importējat vēlāku šī formāta versiju pašreizējā finanšu instancē, esošie programmai raksturīgie parametri importētajā versijā netiks piemēroti, ja izmantojat **Iepriekšējo ER formātu līdzekļa versiju izmantot programmai noteiktus parametrus**. Papildinformāciju skatiet šīs tēmas turpinājumā esošajā sadaļā [Esošo paramteru atkāŗtota izmantošana](#reuse-existing-parameters).
+Ja konfigurējat programmai raksturīgos parametrus vienai ER formāta versijai un pēc tam importējat vēlāku šī formāta versiju pašreizējā finanšu instancē, esošie programmai raksturīgie parametri importētajā versijā netiks piemēroti, ja izmantojat **Iepriekšējo ER formātu līdzekļa versiju izmantot programmai noteiktus parametrus**. Papildinformāciju skatiet tālāk šī [raksta sadaļā](#reuse-existing-parameters) Esošo parametru atkārtota izmantošana.
 
 Ņemiet vērā arī to, ka, atlasot failu importēšanai, programmai specifisko parametru struktūra šajā failā tiek salīdzināta ar atbilstošā **Uzmeklēšanas** tipa datu avota struktūru, kas atlasīta importēšanai. Importēšana tiek veikta, kad katrs programmai specifiskais parametrs atbilst atbilstošā datu avota struktūrai, kas ir atlasīta importēšanai. Ja struktūras nesakrīt, saņemsit brīdinājuma ziņojumu, kurā teikts, ka importēšanu nevar veikt. Ja vēlaties, lai imports tiktu veikts, esošie programmai specifiskajam parametri atlasītajam ER formātam tiks notīrīti, un tie būs jāiestata no sākuma.
 

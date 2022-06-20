@@ -1,6 +1,6 @@
 ---
-title: Klienta brīdinājuma paziņojumi pa e-pastu
-description: Šajā tēmā ir sniegta informācija par to, kā iestatīt nosacījumus, kas nodrošina e-pasta paziņojumu nosūtīšanu iepriekš definētu notikumu gadījumā.
+title: Klienta brīdinājumu paziņojumi pa e-pastu
+description: Šajā rakstā ir sniegta informācija par to, kā iestatīt kārtulas, kas sūta e-pasta paziņojumus, kas ir iepriekš definētie notikumi.
 author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 469c7fdda40780d6e559819103d73d7a4e7132a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878283"
 ---
 # <a name="client-alert-notifications-by-email"></a>Klienta brīdinājumu paziņojumi pa e-pastu
 

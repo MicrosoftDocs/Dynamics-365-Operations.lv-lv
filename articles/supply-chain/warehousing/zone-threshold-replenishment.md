@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893125"
 ---
 # <a name="zone-threshold-replenishment"></a>Zonas sliekšņa papildināšana
 
@@ -45,7 +45,7 @@ Lai varētu izmantot līdzekli *Zonas sliekšņa papildināšana*, tas vispirms 
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Uz zonu pamatotas papildināšanas iestatīšana
 
-Lai iestatītu uz zonu pamatotu papildināšanu, ir jākonfigurē vairākas sistēmas daļas. Šajā sadaļā ir izklāstīti vairāki iestatījumi un nodrošināti demonstrācijas dati, ko varat ievadīt, ja šīs tēmas beigās vēlaties strādāt ar scenāriju.
+Lai iestatītu uz zonu pamatotu papildināšanu, ir jākonfigurē vairākas sistēmas daļas. Šī sadaļa iepazīstina ar dažādiem iestatījumiem un nodrošina demonstrācijas datu vērtības, kuras varat ievadīt, ja vēlaties strādāt scenārijā šī raksta beigās.
 
 ### <a name="set-up-directive-codes"></a>Direktīvas kodu iestatīšana
 
@@ -57,7 +57,7 @@ Lai skatītu vai rediģētu direktīvas kodus, dodieties uz **Noliktavas pārval
 
 #### <a name="prepare-demo-data-directive-codes"></a>Demonstrācijas datu direktīvas kodu sagatavošana
 
-Šajā piemērā ir parādīts, kā sagatavot direktīvas kodu. Ja plānojat strādāt ar scenāriju šīs tēmas beigās, izmantojiet šeit sniegtās demonstrācijas datu vērtības. Pretējā gadījumā izmantojiet savas vērtības.
+Šajā piemērā ir parādīts, kā sagatavot direktīvas kodu. Ja plānojat strādāt šī raksta beigās, izmantojiet demonstrācijas datu vērtības, kas ir sniegtas šeit. Pretējā gadījumā izmantojiet savas vērtības.
 
 1. Atlasiet **USMF** juridisko personu, lai strādātu ar demonstrācijas datiem.
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Direktīvas kodi**.
@@ -79,7 +79,7 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Demonstrācijas datu papildināšanas veidnes sagatavošana
 
-Šajā piemērā ir parādīts, kā sagatavot papildināšanas veidni. Ja plānojat strādāt ar scenāriju šīs tēmas beigās, izmantojiet šeit sniegtās demonstrācijas datu vērtības. Pretējā gadījumā izmantojiet savas vērtības.
+Šajā piemērā ir parādīts, kā sagatavot papildināšanas veidni. Ja plānojat strādāt šī raksta beigās, izmantojiet demonstrācijas datu vērtības, kas ir sniegtas šeit. Pretējā gadījumā izmantojiet savas vērtības.
 
 1. Atlasiet **USMF** juridisko personu, lai strādātu ar demonstrācijas datiem.
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Papildināšana \> Papildināšanas veidnes**.
@@ -144,7 +144,7 @@ Piemērus par to, kā izmantot iestatījumus, lai izveidotu nepieciešamās izdo
 
 #### <a name="prepare-demo-data-location-directives"></a>Demonstrācijas datu novietojuma direktīvas sagatavošana
 
-Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs tēmas beigās, ir jāizveido divas novietojuma direktīvas — viena izdošanai un viena izvietošanai.
+Lai sagatavotu demonstrācijas datus tā, lai tos varētu izmantot šī raksta beigās, jāizveido divas novietojuma direktīvas: viena izvēlei un viena izvietošanas mērķiem.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Papildināšanas izdošanas direktīvas izveide
 
@@ -258,7 +258,7 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Parauga scenārijam nepieciešamo parauga datu sagatavošana
 
-Pirms sākt darbu ar scenāriju, aktivizējiet parauga datus un iestatiet līdzekli, kā tas ir izklāstīts šajā sadaļā un iepriekšējās šīs tēmas sadaļās.
+Pirms darba sākšanas scenārijā ir jāaktivizē parauga dati un jāiestata funkcija, kā aprakstīts šajā sadaļā un šī raksta iepriekšējās sadaļās.
 
 #### <a name="use-the-usmf-legal-entity"></a>USMF juridiskas personas izmantošana
 
@@ -266,7 +266,7 @@ Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem 
 
 #### <a name="prepare-additional-sample-data"></a>Papildu parauga datu sagatavošana
 
-Kad atlasīsit **USMF** juridisko vienību, pievienojiet nepieciešamos papildu parauga datus, kas norādīti sadaļā [Uz zonu pamatotas papildināšanas iestatīšana](#setup) iepriekš šajā tēmā.
+Pēc TAM, kad **esat atlasījis USMF** juridisko personu, pievienojiet papildu parauga datus, kas ir nepieciešami, [kā](#setup) aprakstīts iepriekš šī raksta sadaļā Uz zonu balstīta papildināšana.
 
 #### <a name="check-your-on-hand-inventory"></a>Rīcībā esošo krājumu pārbaude
 

@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.15. (2021. gada janvāris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.15.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3141cea22b6ab80f36f5562fd450b0cd547d235d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879139"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.15. (2021. gada janvāris)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.15. Šai versijai ir būvējuma numurs 10.0.644, un tas ir pieejams šeit:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.15. Šai versijai ir būvējuma numurs 10.0.644, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2020. gada oktobris
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2020. gada novembris
@@ -57,9 +57,9 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.15 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.15 (2020. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.15 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.15 (2020. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
@@ -73,12 +73,12 @@ Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-pla
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
-Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) apraksta līdzekļus, kas ir vai ir ieplānots noņemšanai no Supply Chain Management.
+Noņemtie [vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) rakstā apraksta funkcijas, kas ir noņemtas vai ieplānotas izņemšanai vai nolietojumam Piegādes ķēžu pārvaldībai.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
-Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
+Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) par nolietojumu tiks papildu pievienots 12. rakstu funkcionalitātes Noņemtie vai novecojušie 12 mēnešu skaits pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 

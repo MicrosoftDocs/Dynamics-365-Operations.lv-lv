@@ -1,6 +1,6 @@
 ---
-title: Krājuma konsolidācija – novietojuma izmantojums
-description: Šajā tēmā ir sniegta informācija par funkcionalitāti, kas noliktavu pārvaldniekiem atvieglo iespēju skatīt un filtrēt noliktavas novietojumu tilpuma izmantojumu. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas Krājuma konsolidācija, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
+title: Krājumu konsolidācija — novietojuma utilizācija
+description: Šajā rakstā ir sniegta informācija par funkcionalitāti, kas noliktavas vadītājiem ļauj viegli apskatīt un filtrēt atrašanās vietu tilpuma izmantošanu noliktavā. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas Krājuma konsolidācija, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849189"
 ---
-# <a name="item-consolidation---location-utilization"></a>Krājuma konsolidācija – novietojuma izmantojums
+# <a name="item-consolidation---location-utilization"></a>Krājumu konsolidācija — novietojuma utilizācija
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par funkcionalitāti, kas noliktavu pārvaldniekiem atvieglo iespēju skatīt un filtrēt noliktavas novietojumu tilpuma izmantojumu. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas **Krājuma konsolidācija**, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
+Šajā rakstā ir sniegta informācija par funkcionalitāti, kas noliktavas vadītājiem ļauj viegli apskatīt un filtrēt atrašanās vietu tilpuma izmantošanu noliktavā. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas **Krājuma konsolidācija**, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
 
 ## <a name="turn-on-the-features"></a>Līdzekļu ieslēgšana
 
-Lai varētu izmantot šajā tēmā aprakstītos līdzekļus, tie ir jāieslēdz jūsu sistēmā. Administratori var izmantot darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Ieslēdziet abus šos līdzekļus, tādā secībā, kādā tie ir norādīti. (Abi līdzekļi ir paredzēti modulim **Noliktavas pārvaldība**.)
+Pirms varat izmantot šajā rakstā aprakstītos līdzekļus, tie ir jāslēdz savā sistēmā. Administratori var izmantot darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Ieslēdziet abus šos līdzekļus, tādā secībā, kādā tie ir norādīti. (Abi līdzekļi ir paredzēti modulim **Noliktavas pārvaldība**.)
 
 1. Noliktavas vietas statuss
 2. Krājumu konsolidācijas novietojuma utilizācija
@@ -51,7 +51,7 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Krājuma konsolidācijas un novietojuma izmantojuma iestatīšana
 
-Šajā sadaļā ir aprakstīts, kā sagatavot sistēmu, lai izmantotu krājuma konsolidāciju un novietojuma izmantojumu. Procedūrās tiek izmantoti vērtību paraugi no standarta demonstrācijas datiem. Ja plānojat strādāt ar scenārija piemēru, kas ir sniegts tālāk šajā tēmā, atlasiet **USMF** juridisko personu (kurā ir standarta demonstrācijas dati) un izveidojiet katru šajā sadaļā aprakstīto ierakstu. Ja neplānojat strādāt ar scenārija piemēru, šeit sniegtās vērtības var uzskatīt par tādu iestatīšanas veidu piemēriem, kas ir jāpabeidz, lai izmantotu līdzekļus.
+Šajā sadaļā ir aprakstīts, kā sagatavot sistēmu, lai izmantotu krājuma konsolidāciju un novietojuma izmantojumu. Procedūrās tiek izmantoti vērtību paraugi no standarta demonstrācijas datiem. Ja plānojat strādāt, izmantojot piemēra scenāriju, kas ir sniegts tālāk šajā rakstā, **izvēlieties USMF** juridisko personu (kas satur standarta demonstrācijas datus) un izveidojiet katru ierakstu, kas ir aprakstīts šajā sadaļā. Ja neplānojat strādāt ar scenārija piemēru, šeit sniegtās vērtības var uzskatīt par tādu iestatīšanas veidu piemēriem, kas ir jāpabeidz, lai izmantotu līdzekļus.
 
 ### <a name="released-product"></a>Izlaistā prece
 

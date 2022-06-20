@@ -1,6 +1,6 @@
 ---
 title: Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Sales.
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu preces no Dynamics 365 Supply Chain Management Dynamics 365 pārdošanas.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855995"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062467"
 > [!NOTE]
 > Pirms risinājuma No potenciāla klienta līdz skaidrai naudai lietošanas izlasiet rakstu [Datu integrēšana pakalpojumā Microsoft Dataverse programmām](/powerapps/administrator/data-integrator).
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču tiešai sinhronizēšanai ar programmu Dynamics 365 Sales.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu preces tieši no Dynamics 365 Supply Chain Management Dynamics 365 pārdošanas.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
@@ -107,7 +107,7 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 ![Veidnes kartēšana datu integrētājā.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 

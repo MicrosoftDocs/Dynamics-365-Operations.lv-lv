@@ -1,6 +1,6 @@
 ---
 title: Darba pasūtījumu dzīves ciklu stāvokļi
-description: Šajā tēmā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi Līdzekļu pārvaldībā.
+description: Šajā rakstā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi, kas atrodas līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860875"
 ---
 # <a name="work-order-lifecycle-states"></a>Darba pasūtījumu dzīves ciklu stāvokļi
 
@@ -69,7 +69,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
 
     Kopsavilkuma cilnes **Detalizēta informācija** laukā **Dzīves cikla modeļi** ir parādīts to darba pasūtījumu dzīves cikla modeļu skaits, kuri izmanto dzīves cikla stāvokli.
 
-8. Kopsavilkuma cilnes **Vispārīgi** sadaļā **Darba pasūtījums** atlasiet funkcijas, kurām vajadzētu būt pieejamām šajā dzīves cikla stāvoklī, iestatot atbilstošās opcijas uz **Jā**. Opciju aprakstu skatiet šajā tēmā iepriekš esošajā tabulā.
+8. Kopsavilkuma cilnes **Vispārīgi** sadaļā **Darba pasūtījums** atlasiet funkcijas, kurām vajadzētu būt pieejamām šajā dzīves cikla stāvoklī, iestatot atbilstošās opcijas uz **Jā**. Aprakstu par opcijām skatiet iepriekšējā šī raksta tabulā.
 9. Sadaļas **Projekts** laukā **Posms** atlasiet projekta posmu, kas ir saistīts ar šo dzīves cikla stāvokli.
 10. Sadaļā **Projekts** iestatiet opciju **Slēgt darbības** uz **Jā** ja projekta darbības, kas saistītas ar katru darba pasūtījuma uzdevumu, ir nepieciešams automātiski slēgt, kad darba pasūtījums ir šajā dzīves cikla stāvoklī.
 
@@ -77,7 +77,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
     > Lai atrastu projekta darbības numuru, kas ir saistīts ar darba pasūtījuma uzdevumu, atlasiet **Līdzekļu pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**. Atveriet darba pasūtījumu un pēc tam atlasiet darba pasūtījuma uzdevumu. Darbības numurs ir redzams laukā **Darbības numurs**, kas atrodas sadaļā **Projekts** (cilnē **Vispārīgi**, kas atrodas kopsavilkuma cilnē **Detalizēta informācija par rindu** ).
 
 11. Sadaļā **Prognoze** iestatiet opcijas **Kopēt stundas prognozi**, **Kopēt krājuma prognozi** un/vai **Kopēt izdevumu prognozi** opciju uz **Jā**, ja darba pasūtījuma projekta prognozes ir nepieciešams automātiski kopēt darba pasūtījuma žurnālos, kad darba pasūtījums ir šajā dzīves cikla stāvoklī.
-12. Sadaļā **Grafiks** iestatiet vienu no opcijām uz **Jā**, ja darba pasūtījuma grafika statuss ir jāatjaunina, kad darba pasūtījums ir šajā dzīves cikla stāvoklī. Opciju **Gatavs**, **Sākt**, **Pabeigt** un **Dzēst grafika rindas** aprakstus skatiet tabulā, kas atrodama iepriekš šajā tēmā.
+12. Sadaļā **Grafiks** iestatiet vienu no opcijām uz **Jā**, ja darba pasūtījuma grafika statuss ir jāatjaunina, kad darba pasūtījums ir šajā dzīves cikla stāvoklī. Aprakstus par opcijām **Gatavs**, **Sākums** **·**, Beigas un **Dzēst grafiku** skatiet iepriekšējā šī raksta tabulā.
 
     > [!NOTE]
     > Lai skatītu grafika rindas, kas ir saistītas ar darba pasūtījuma uzdevumiem, atlasiet **Līdzekļu pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**. Atveriet darba pasūtījumu, kopsavilkuma cilnē **Darba pasūtījuma uzdevumi** atlasiet darba pasūtījuma uzdevumu un skatiet saistītu informāciju kopsavilkuma cilnē **Detalizēta informācija par cilni**. Laukā **Statuss**, kas atrodas cilnē **Grafiks**, redzams darba pasūtījuma uzdevuma statuss. Lauku **Statuss** var iestatīt uz šādām vērtībām: **Ieplānots**, **Gatavs**, **Sākts**, **Apturēts** un **Pabeigts**.

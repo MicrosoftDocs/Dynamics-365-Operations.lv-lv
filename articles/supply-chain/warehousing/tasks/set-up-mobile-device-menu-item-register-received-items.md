@@ -1,6 +1,6 @@
 ---
 title: Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus
-description: Šī tēma koncentrējas uz mobilās ierīces izvēlnes krājumu iestatīšanu.
+description: Šis raksts fokusējas uz mobilās ierīces izvēlnes vienuma iestatīšanu.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882320"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus
 
 [!include [banner](../../includes/banner.md)]
 
-Šī tēma koncentrējas uz mobilās ierīces izvēlnes krājumu iestatīšanu. Šis izvēlnes elements tiek izmantots, lai reģistrētu tādu krājumu ieejas plūsmu, kas pasūtīti, izmantojot pirkšanas pasūtījumus. 
+Šis raksts fokusējas uz mobilās ierīces izvēlnes vienuma iestatīšanu. Šis izvēlnes elements tiek izmantots, lai reģistrētu tādu krājumu ieejas plūsmu, kas pasūtīti, izmantojot pirkšanas pasūtījumus. 
 
 Šo ceļvedi var izmantot demonstrācijas datu uzņēmumā USMF. Šī procedūra ir paredzēta noliktavas pārvaldniekam.
 

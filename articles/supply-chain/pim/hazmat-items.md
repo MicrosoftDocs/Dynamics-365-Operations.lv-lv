@@ -1,6 +1,6 @@
 ---
 title: Bīstamie materiāli precēs, pasūtījumos, sūtījumos un kravās
-description: Šajā tēmā skaidrots, kā iestatīt bīstamas materiālu īpašības izlaistām precēm, kā likt krājumu ierobežojumus bīstamām precēm un kā iekļaut bīstamos materiālus pārdošanas pasūtījumā, sūtījumā vai kravā.
+description: Šajā rakstā skaidrots, kā noteikt bīstamu materiālu rekvizītus izlaistajām precēm, kā noteikt krājumu limitus bīstamām precēm un kā pārdošanas pasūtījumā, sūtījumā vai kravu iekļaut bīstamus materiālus.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860701"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Bīstamie materiāli precēs, pasūtījumos, sūtījumos un kravās
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt bīstamas materiālu īpašības izlaistām precēm, kā likt krājumu ierobežojumus bīstamām precēm un kā iekļaut bīstamos materiālus pārdošanas pasūtījumā, sūtījumā vai kravā.
+Šajā rakstā skaidrots, kā noteikt bīstamu materiālu rekvizītus izlaistajām precēm, kā noteikt krājumu limitus bīstamām precēm un kā pārdošanas pasūtījumā, sūtījumā vai kravu iekļaut bīstamus materiālus.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Iestatīt bīstamo materiālu specifikācijas precēm
 
@@ -109,11 +109,11 @@ Bīstamā materiāla rezultāts = *&lt;LineQty&gt;* × *&lt;HazmatQty&gt;* × *&
 - *&lt;UnitConversion&gt;* ir pārveidošanas koeficients, kas tiek izmantots, lai konvertētu no vienības, kas tiek izmantota kravas rindas daudzumam, un vienību, kas noteikta precei laukā **Vienība** kopsavilkuma cilnē **Materiālu pārvaldība**.
 - *&lt;Multiplier&gt;* ir reizinātājs, kas ir norādīts precei laukā **Reizinātājs** kopsavilkuma cilnē **Materiālu pārvaldība**.
 
-Šis rezultāts tiek paziņots katrai kravas rindai, kas satur preci, kurā ir norādītas šīs vērtības. Lai iegūtu papildu informāciju, skatiet [Sūtījumi, kuros ir ietverti bīstami materiāli](#hazmat-shipments) un [Kravas, kas iekļauj bīstamos materiālus](#hazmat-loads) šīs tēmas turpinājumā.
+Šis rezultāts tiek paziņots katrai kravas rindai, kas satur preci, kurā ir norādītas šīs vērtības. Plašāku informāciju skatiet kravās, kas [ietver bīstamus materiālus un kravas, kas ietver](#hazmat-shipments) bīstamas materiālu sadaļas [tālāk](#hazmat-loads) šajā rakstā.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Kā tiek aprēķināts bīstamā materiāla svars
 
-Noslodzes un noslodzes rindas, kas satur preces, kurās **Ierobežotā daudzuma** opcija kopsavilkuma cilnē **Materiālu pārvaldība** ir iestatīta uz **Jā**, parādīs kopējo bīstamo materiāla svaru, kā aprakstīts [Sūtījumi, kas ietver bīstamus materiālus](#hazmat-shipments) un [Noslodzes, kas iekļauj bīstamus materiālus](#hazmat-loads) šīs tēmas turpinājumā. Bīstamā materiāla svars tiek aprēķināts, izmantojot šādu formulu:
+Kravas un **kravas** **rindas**, kurās ir preces, kuru ierobežota daudzuma opcija materiālu pārvaldības fastTab **ir** iestatīta uz Jā, parāda kopējo bīstamu materiālu svaru, kā aprakstīts sūtījumos, [kas ietver bīstamus materiālus un kravas, kas vēlāk šajā rakstu satur bīstamu materiālu sadaļas.](#hazmat-shipments)[...](#hazmat-loads) Bīstamā materiāla svars tiek aprēķināts, izmantojot šādu formulu:
 
 Bīstamā materiāla svars = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

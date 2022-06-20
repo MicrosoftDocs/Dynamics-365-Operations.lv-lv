@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.26 (2022. gada maijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.26.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: MT
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850762"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.26 (2022. gada maijs)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.26. Šai versijai ir būvējuma numurs 10.0.1192, un tas ir pieejams šeit:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.26. Šai versijai ir būvējuma numurs 10.0.1192, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2022. gada marts
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2022. gada aprīlis
@@ -29,7 +29,7 @@ ms.locfileid: "8625256"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varētu atjaunināt šo tēmu, lai iekļautu līdzekļus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varētu atjaunināt šo rakstu, lai ietvertu līdzekļus, kas to veidojās pēc šī raksta sākotnējā publicēšanas.
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas jādara līd
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
-Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdzības tēmas. Šīm tēmām nav obligāti jābūt saistītām ar jaunajiem līdzekļiem, kas tika pievienoti šim laidienam, kā norādīts iepriekšējās sadaļās. Tomēr tie var palīdzēt iegūt vairāk no esošajiem līdzekļiem.
+Mēs nesen pievienojam vai būtiski atjauninājām šādus palīdzības rakstus. Šiem rakstiem nav obligāti jābūt saistītiem ar jaunajiem līdzekļiem, kas tika pievienoti šim laidienam, kā norādīts iepriekšējās sadaļās. Tomēr tie var palīdzēt iegūt vairāk no esošajiem līdzekļiem.
 
-| Līdzekļu apgabals | Jaunas vai atjauninātas tēmas |
+| Līdzekļu apgabals | Jauni vai atjaunināti raksti |
 |---|---|
-| Izmaksu pārvaldība | Atjauninātie piemēri un diagrammas tika pievienotas katrai no šīm tēmām:<ul><li>[FIFO ar fizisko vērtību un iezīmēšanu](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO ar fizisko vērtību un iezīmēšanu](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO uz datums ar fizisko vērtību un iezīmēšanu](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Faktiskā vidējo izmaksu cena](../cost-management/running-average-cost-price.md)</li><li>[Vidējā svērtā ar fizisko vērtību un iezīmēšanu](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Izmaksu pārvaldība | Atjauninātie piemēri un diagrammas tika pievienotas katram no šiem rakstiem:<ul><li>[FIFO ar fizisko vērtību un iezīmēšanu](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO ar fizisko vērtību un iezīmēšanu](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO uz datums ar fizisko vērtību un iezīmēšanu](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Faktiskā vidējo izmaksu cena](../cost-management/running-average-cost-price.md)</li><li>[Vidējā svērtā ar fizisko vērtību un iezīmēšanu](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Sagāde un avoti | [Pirkšanas pasūtījuma rindas datu neatbilstības](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi
@@ -81,12 +81,12 @@ Apskatiet [Dynamics 365 un rūpniecības mākoņi: 2022. gada 1. laidiena plāns
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
-Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) apraksta līdzekļus, kas ir vai ir ieplānots noņemšanai no Supply Chain Management.
+Noņemtie [vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) rakstā apraksta funkcijas, kas ir noņemtas vai ieplānotas izņemšanai vai nolietojumam Piegādes ķēžu pārvaldībai.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
-Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
+Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) par nolietojumu tiks papildu pievienots 12. rakstu funkcionalitātes Noņemtie vai novecojušie 12 mēnešu skaits pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 

@@ -1,6 +1,6 @@
 ---
 title: E-pasta ziņojuma ER adresāta tips
-description: Šajā tēmā sniegta informācija par to, kā konfigurēt arhīva mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
+description: Šajā rakstā ir izskaidrots, kā konfigurēt e-pasta adresātu katrai mapei vai faila komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845662"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -120,7 +120,7 @@ Lapas **Formulas veidotājs** laukā **Formula** ievadiet dokumentam specifisku 
 
 ![E-pasta avota konta konfigurēšana.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Ja konfigurētās lomas kontu numuri ir unikāli visai Microsoft Dynamics 365 Finance instancei, dialoglodziņa **E-pasta ziņojuma adresāts** lauks **E-pasta ziņojuma avota uzņēmums** var palikt tukšs.
+Ja konfigurētās lomas Microsoft Dynamics konta numuri ir unikāli visai 365 Finansu instancei, **·** **e**-pasta avota lauks E-pasta ziņojuma dialoglodziņā var palikt tukšs.
 
 Vai arī var būt situācija, kad dažādas puses [globālajā adrešu grāmatā](../../fin-ops/organization-administration/overview-global-address-book.md) ir reģistrētas dažādos uzņēmumos ([juridiskas personas](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) tādā veidā, ka tās visas izmanto vienu konta numuru, lai aizpildītu konfigurēto lomu. Šādā gadījumā konfigurētās lomas kontu numuri nav unikāli visai finanšu instancei. Tāpēc, lai skaidri atlasītu pusi, nevar norādīt tikai konta numuru. Jānorāda arī uzņēmums, kam puse reģistrēta, lai aizpildītu konfigurēto lomu. Atlasiet pogu **Saistīt** (ķēdes simbols) blakus dialoglodziņa **E-pasta adresāts** laukam **E-pasta avota uzņēmums**, lai atvērtu lapu [Formulas veidotājs](general-electronic-reporting-formula-designer.md). Pēc tam varat izmantot šo lapu, lai konfigurētu formulu, kas izpildlaikā atgriež tā uzņēmuma kodu, kas ir atrodams vēlamajā avotā.
 
@@ -162,7 +162,7 @@ Tālāk atrodamajā attēlā redzama ER formāta struktūra, kas tika konfigurē
 
 [![ER formāta struktūra, kas ģenerē izejošos dokumentus.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Tālāk atrodamajā attēlā parādīts process (kā aprakstīts šajā tēmā) ar atsevišķu komponentu grupēšanu un jaunas grupas galamērķa **E-pasta ziņojums** iespējošanu, lai atgādinājuma vēstule tiktu nosūtīta kopā ar atbilstošiem debitoru rēķiniem kā e-pasta pielikumi.
+Šajā ilustrācijā parādīts atsevišķu komponentu grupēšanas process atbilstoši šim rakstam un **e**-pasta adresāta iespējošana jaunajai grupai, lai atgādinājuma vēstules piezīme tiek nosūtīta kopā ar atbilstošiem debitora rēķiniem kā e-pasta pielikumi.
 
 [![Atsevišķu komponentu grupēšana un e-pasta ziņojuma galamērķa iespējošana.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

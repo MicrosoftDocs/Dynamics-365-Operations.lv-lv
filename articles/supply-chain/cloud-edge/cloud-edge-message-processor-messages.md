@@ -1,6 +1,6 @@
 ---
 title: Ziņojumu apstrādātāja ziņojumi
-description: Šajā tēmā ir sniegta informācija par ziņojumu procesora ziņojumu līdzekli mēroga vienības darba noslodzei.
+description: Šajā rakstā ir sniegta informācija par ziņojumu procesora ziņojumu līdzekli mēroga vienības darba noslodzei.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a5f8d48ba697df389150f70ac159e690156de33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893618"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069433"
 
 Ziņojumu procesora ziņojumi tiek izmantoti, palaižot mākoņa un malas skalas vienības [ražošanas darba noslodzei](cloud-edge-workload-manufacturing.md) un [noliktavas pārvaldības darba noslodzei](cloud-edge-workload-warehousing.md).
 
-Centrmezgla un mēroga vienības izvietošanas vides apmainās ar lielu datu apjomu, lai saglabātu sinhronizāciju. Daži no apmainītajiem datiem izraisīs papildu loģiku *ziņojumu procesors*. Varat skatīt ziņojumus, kurus ir apstrādājis ziņojumu procesors, dodoties uz **Sistēmas administrēšana > Ziņojumu procesors > Ziņojumu procesora ziņojumi**.
+Pārkraušanas centra un mēroga vienības izvietošanas vides veic liela datu apjoma apmaiņu, lai saglabātu to sinhronizāciju. Daži no apmainītajiem datiem izraisīs papildu loģiku ziņojumu *procesorā*. Jūs varat skatīt ziņojumus, kas **ir apstrādāti ar ziņojumu procesoru, ejot uz Sistēmas administrēšanas > ziņojumu procesora > ziņojumu procesora ziņojumiem**.
 
 ## <a name="message-grid-columns-and-filters"></a>Ziņojumu režģa kolonnas un filtri
 

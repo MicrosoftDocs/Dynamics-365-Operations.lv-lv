@@ -1,6 +1,6 @@
 ---
 title: Transportēšanas pārvaldības pārskats
-description: Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Supply Chain Management.
+description: Šajā rakstā ir sniegts pārskats par transportēšanas pārvaldības funkcionalitāti Piegādes ķēžu pārvaldībā.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897463"
 ---
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par zvanu transportēšanas pārvaldības funkcionalitāti Supply Chain Management.
+Šajā rakstā ir sniegts pārskats par transportēšanas pārvaldības funkcionalitāti Piegādes ķēžu pārvaldībā.
 
 Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēšanu, kā arī ļauj identificēt kreditoru un maršrutēšanas risinājumus ienākošiem un izejošiem pasūtījumiem. Piemēram, var norādīt ātrāko ceļu vai vislētāko sūtījuma likmi. Šajā tabulā ir aprakstīti galvenie scenāriji attiecībā uz moduļa Transportēšanas pārvaldība lietošanu.
 

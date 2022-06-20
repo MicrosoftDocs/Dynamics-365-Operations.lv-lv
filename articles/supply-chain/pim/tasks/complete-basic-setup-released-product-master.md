@@ -1,6 +1,6 @@
 ---
 title: Pilnīga izlaistās preces šablona pamata iestatīšana
-description: Šajā tēmā tiek parādīts, kā veikt minimālo uzstādīšanu, kas ir nepieciešama pirms preces šablonu varēs izmantot MK versijās.
+description: Šajā rakstā ir parādīts, kā pabeigt minimālo iestatījumu, kas nepieciešams, pirms preces šablons var tikt izmantots MK versijās.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844884"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Pilnīga izlaistās preces šablona pamata iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā tiek parādīts, kā veikt minimālo uzstādīšanu, kas ir nepieciešama pirms preces šablonu varēs izmantot MK versijās.
+Šajā rakstā ir parādīts, kā pabeigt minimālo iestatījumu, kas nepieciešams, pirms preces šablons var tikt izmantots MK versijās.
 
 Šī ir trešā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 

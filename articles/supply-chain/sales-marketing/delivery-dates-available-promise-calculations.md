@@ -1,6 +1,6 @@
 ---
 title: Pasūtījumu solīšana
-description: Šī tēma sniedz informāciju par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
+description: Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 21af95f06182863c6ba74e4329052fc15c1b49a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878821"
 ---
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma sniedz informāciju par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
+Šajā rakstā ir sniegta informācija par pasūtījuma solīšanu. Pasūtījuma solīšana jums palīdz saviem klientiem droši apsolīt piegādes datumus un nodrošina elastību, lai jūs spētu ievērot solītos datumus.
 
 Pasūtījumu solīšana aprēķina agrākos nosūtīšanas un saņemšanas datumus, un tā ir balstīta uz piegādes datuma kontroles metodi un transportēšanas dienām. Varat izvēlēties no četrām piegādes datuma kontroles metodēm:
 

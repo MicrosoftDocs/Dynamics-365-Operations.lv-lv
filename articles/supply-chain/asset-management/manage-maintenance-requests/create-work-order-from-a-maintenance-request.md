@@ -1,6 +1,6 @@
 ---
 title: Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
-description: Šajā tēmā izskaidrots, kā izveidot darba pasūtījumu Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā izveidot darba pasūtījumu no uzturēšanas pieprasījuma Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909706"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Darba pasūtījumu izveide no uzturēšanas pieprasījumiem
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726925"
  
 
 
-Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pasūtījumiem. Šajā tēmā aprakstīts ātrākais veids, kā strādāt ar uzturēšanas pieprasījumiem, vienlaicīgi atjaunināt vairākus uzturēšanas pieprasījumus un pēc tam vienlaicīgi izveidot darba pasūtījumu vairākiem uzturēšanas pieprasījumiem. Lapā **Aktīvie uzturēšanas pieprasījumi** vai **Mania funkcionālā novietojuma uzturēšanas pieprasījumi** varat vienlaikus strādāt ar vienu uzturēšanas pieprasījumu un pārveidot vienu uzturēšanas pieprasījumu par darba pasūtījumu.
+Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pasūtījumiem. Šajā rakstā aprakstīts ātrākais veids, kā strādāt ar uzturēšanas pieprasījumiem, vienlaicīgi atjaunināt vairākus uzturēšanas pieprasījumus un pēc tam izveidot darba pasūtījumu vairākiem uzturēšanas pieprasījumiem. Lapā **Aktīvie uzturēšanas pieprasījumi** vai **Mania funkcionālā novietojuma uzturēšanas pieprasījumi** varat vienlaikus strādāt ar vienu uzturēšanas pieprasījumu un pārveidot vienu uzturēšanas pieprasījumu par darba pasūtījumu.
 
 > [!NOTE]
 > Katru uzturēšanas pieprasījumu var saistīt tikai ar vienu darba pasūtījumu. Taču vienā darba pasūtījumā var iekļaut vairākus uzturēšanas pieprasījumus pat tad, ja uzturēšanas pieprasījumiem ir dažādi līdzekļi.

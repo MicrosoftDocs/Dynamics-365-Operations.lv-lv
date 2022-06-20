@@ -1,6 +1,6 @@
 ---
 title: Globālie mobilās ierīces parametri
-description: Šajā tēmā skaidrots, kā iestatīt mobilās ierīces lietotāja iestatījumus Noliktavas pārvaldības parametru lapā.
+description: Šajā rakstā ir izskaidrots, kā iestatīt mobilās ierīces iestatījumus lapā Noliktavas pārvaldības parametri.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847764"
 ---
 # <a name="global-mobile-device-parameters"></a>Globālie mobilās ierīces parametri
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt globālos noliktavu pārvaldības parametrus, kuri ietekmē to, kā sistēma mijiedarbojas ar mobilajām ierīcēm.
+Šajā rakstā ir izskaidrots, kā iestatīt globālās noliktavas pārvaldības parametrus, kas ietekmē veidu, kā sistēma mijiedarbojas ar mobilajām ierīcēm.
 
 Papildinformāciju par to, kā iestatīt noliktavu darbiniekus, skatiet sadaļā [Noliktavas darbinieka pārvaldība](manage-warehouse-workers.md). Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes apstrādi mobilajās ierīcēs, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md). Papildinformāciju par ciklu skaitīšanas procesiem skatiet rakstā [Ciklu skaitīšana](cycle-counting.md) un [Ciklu skaitīšanas scenāriju piemēri](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Atveriet Noliktavu pārvaldības parametru lapu
 
-Lai atvērtu **Noliktavu pārvaldības parametru** lapu, dodieties uz **Noliktavu pārvaldība\> Iestatīšana\> Noliktavu pārvaldības parametri**. Pēc tam varat iestatīt laukus, kuri ir saistīti ar mobilo ierīču darbu, kā aprakstīts nākamajā šīs tēmas sadaļā.
+Lai atvērtu **Noliktavu pārvaldības parametru** lapu, dodieties uz **Noliktavu pārvaldība\> Iestatīšana\> Noliktavu pārvaldības parametri**. Pēc tam varat iestatīt laukus, kas ir saistīti ar mobilās ierīces darbu, kā aprakstīts šī raksta nākamajā sadaļā.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Mobilās ierīces kopsavilkuma cilne cilnē Vispārīgi
 

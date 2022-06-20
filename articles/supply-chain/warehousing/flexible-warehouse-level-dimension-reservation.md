@@ -1,6 +1,6 @@
 ---
-title: Elastīga noliktavas līmeņa dimensiju rezervāēšanas politika
-description: Šajā tēmā ir aprakstīta krājumu rezervēšanas politika, kas ļauj uzņēmumiem, kuri pārdod pēc partijas izsekotās preces un nodrošina savu loģistiku kā WMS darbības, rezervēt konkrētas partijas debitoru veiktiem pārdošanas pasūtījumiem pat tad, ja rezervāciju hierarhiju, kas ir kas saistīta ar precēm, nevar izmantot īpašu partiju rezervācijai.
+title: Elastīga noliktavas līmeņa dimensiju rezervācijas politika
+description: Šajā rakstā ir aprakstīts krājumu rezervēšanas politika, kas ļauj uzņēmumiem pārdot partijas izsekotas preces un palaist to loģistiku kā WMS iespējotas operācijas rezervē noteiktas partijas debitoru pārdošanas pasūtījumiem, pat ja rezervāciju hierarhija, kas saistīta ar precēm, neļauj rezervēt noteiktu partiju.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885817"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
@@ -28,7 +28,7 @@ Ja *Partijas lejpusēja\[novietojuma\]* tipa krājumu rezervēšanas hierarhija 
 
 Līdzīgā veidā licencētas numura zīmes nevar rezervēt precēm pārdošanas pasūtījumos, kad šīs preces ir saistītas ar noklusējuma rezervāciju hierarhiju.
 
-Šajā tēmā aprakstīta krājumu rezervēšanas politika, kas ļauj šiem uzņēmumiem rezervēt noteiktas partijas vai licencētas numura zīmes pat tad, ja preces ir saistītas ar rezervāciju hierarhiju *Partijas lejpusējs\[novietojums\]*.
+Šajā rakstā ir aprakstīts krājumu rezervēšanas politika, kas ļauj šiem uzņēmumiem rezervēt noteiktas partijas vai numura zīmes, *pat ja preces ir saistītas ar partiju rezervēšanas\[\]* hierarhiju zem novietojuma.
 
 ## <a name="inventory-reservation-hierarchy"></a>Krājumu rezervāciju hierarhija
 

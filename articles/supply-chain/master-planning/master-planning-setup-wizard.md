@@ -1,6 +1,6 @@
 ---
 title: Vispārējās plānošanas iestatīšanas ceļvedis (satur video)
-description: Šajā tēmā ir aprakstīts, kā palaist vispārējās plānošanas iestatīšanas ceļvedi, lai iestatītu vispārējo plānošanu.
+description: Šajā rakstā ir aprakstīts, kā palaist vispārējās plānošanas iestatīšanas ceļvedi, lai iestatītu vispārējo plānošanu.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875338"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts ceļvedis **Vispārējās plānošanas iestatīšanas vednim**. Tajā ir paskaidrots, kā tiek aprēķināti parametru ieteikumi, kā arī sniegti piemēri, kas parāda, kā dažādi uzņēmumi iestata vispārējo plānošanu, pamatojoties uz to biznesa vajadzībām.
+Šajā rakstā ir sniegts Vispārējās plānošanas iestatīšanas **ceļveža ceļvedis**. Tajā ir paskaidrots, kā tiek aprēķināti parametru ieteikumi, kā arī sniegti piemēri, kas parāda, kā dažādi uzņēmumi iestata vispārējo plānošanu, pamatojoties uz to biznesa vajadzībām.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

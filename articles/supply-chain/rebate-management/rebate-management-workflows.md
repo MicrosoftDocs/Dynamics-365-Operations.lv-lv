@@ -1,6 +1,6 @@
 ---
 title: Atlaižu pārvaldības darījumu darbplūsmas
-description: Šajā tēmā skaidrots, kā iestatīt atlaižu pārvaldības darījuma darbplūsmu, lai apstiprinātu un aktivizētu darījumus.
+description: Šajā rakstā ir izskaidrots, kā iestatīt atlaižu pārvaldības darījuma darbplūsmu, lai apstiprinātu un aktivizētu darījumus.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869522"
 ---
 # <a name="rebate-management-deal-workflows"></a>Atlaižu pārvaldības darījumu darbplūsmas
 
@@ -35,7 +35,7 @@ Lietotāji nevar manuāli apstiprināt darījumus. Darbplūsma vienmēr ir jāiz
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Izveidot un pārvaldīt atlaižu pārvaldības darījumu darbplūsmas
 
-Lai strādātu ar Atlaižu pārvaldības darījumu darbplūsmām, dodieties uz **Atlaižu pārvaldība \> Iestatījumi \> Atlaižu pārvaldības darbplūsmas**. Tur varat skatīt, izveidot un atjaunināt darbplūsmas pēc vajadzības. KVienlaicīgi var būt aktīvs tikai viens darbplūsmas veids. Papildinformāciju par darbplūsmām, kā strādāt ar **Atlaižu pārvaldības darbplūsmu** lapu un kā izveidot darbplūsmas, skatiet [Darbplūsmas sistēmas pārskats](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) un ar to saistītās tēmas.
+Lai strādātu ar Atlaižu pārvaldības darījumu darbplūsmām, dodieties uz **Atlaižu pārvaldība \> Iestatījumi \> Atlaižu pārvaldības darbplūsmas**. Tur varat skatīt, izveidot un atjaunināt darbplūsmas pēc vajadzības. KVienlaicīgi var būt aktīvs tikai viens darbplūsmas veids. Papildinformāciju par darbplūsmām, kā **strādāt** ar atlaižu pārvaldības darbplūsmu lapu un kā izveidot darbplūsmas, skatiet darbplūsmas [sistēmas](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) pārskatā un saistītajos rakstos.
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Izmantojiet darbplūsmu, lai aktivizētu darījumu
 

@@ -1,6 +1,6 @@
 ---
 title: PowerBI.com risinājums Finanšu veiktspēja
-description: Šajā tēmā ir aprakstīts PowerBI.com risinājums Finanšu veiktspēja.
+description: Šajā rakstā ir aprakstīts finanšu veiktspējas PowerBI.com risinājums.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910420"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767807"
 > [!NOTE]
 > Šis PowerBI.com risinājums ir novecojis, kā dokumentēts sadaļā [Noņemti vai novecojuši līdzekļi programmā Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šajā tēmā ir aprakstīts PowerBI.com risinājums **Finanšu veiktspēja**. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā aprakstīts finanšu **veiktspējas** PowerBI.com risinājums. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="main-account-setup"></a>Galvenā konta iestatīšana
 Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Ja tiek izmantoti šie kontu tipi un tiek veikta pārskatu izveide, izmantojot Power BI, zīmes tiek mainītas uz pretējām un summas tiek rādītas kā pozitīvas vērtības.

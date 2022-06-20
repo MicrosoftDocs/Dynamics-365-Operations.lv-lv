@@ -1,6 +1,6 @@
 ---
 title: Vairāklīmeņu līdzekļi
-description: Šajā tēmā ir paskaidrots, kā izveidot un dzēst vairāklīmeņu līdzekļus.
+description: Šajā rakstā ir izskaidrots, kā izveidot un dzēst daudzlīmeņu līdzekļus.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908777"
 ---
 # <a name="multi-level-assets"></a>Vairāklīmeņu līdzekļi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769615"
 
  
 
-Šajā tēmā ir paskaidrots, kā izveidot un dzēst vairāklīmeņu līdzekļus. Varat izveidot līdzekļus un saistītos pakārtotos līdzekļus hierarhiskā koka struktūrā. Šādā veidā var parādīt relācijas un atkarības starp līdzekļiem. Uzturēšanas darbi var būt saistīti ar visiem koka struktūras līmeņiem. Statistiku var izveidot arī individuālam līmenim vai kā visu pakārtoto līdzekļu līmeņu summu.
+Šajā rakstā ir izskaidrots, kā izveidot un dzēst daudzlīmeņu līdzekļus. Varat izveidot līdzekļus un saistītos pakārtotos līdzekļus hierarhiskā koka struktūrā. Šādā veidā var parādīt relācijas un atkarības starp līdzekļiem. Uzturēšanas darbi var būt saistīti ar visiem koka struktūras līmeņiem. Statistiku var izveidot arī individuālam līmenim vai kā visu pakārtoto līdzekļu līmeņu summu.
 
 Saraksta lapā **Visi līdzekļi** (**Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**) kolonnā **Līdzeklis** līdzekļi ir uzskaitīti hierarhiskā kārtībā. Kolonnā **Vecākelements** tiek rādīts saistītais vecākelements. Turklāt, ja līdzekļi un pakārtotie līdzekļi jau ir izveidoti, sadaļā **Līdzekļu koks** rūtī **Saistītā informācija** tiek parādīti līdzekļi koka struktūrā.
 

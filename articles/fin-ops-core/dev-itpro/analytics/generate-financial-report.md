@@ -1,6 +1,6 @@
 ---
 title: Ģenerēt finanšu pārskatus
-description: Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu.
+description: Šajā rakstā ir sniegta informācija par finanšu pārskata ģenerēšanu.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,31 +15,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898832"
 ---
 # <a name="generate-financial-reports"></a>Ģenerēt finanšu pārskatus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta vispārīga informācija finanšu atskaites ģenerēšanu.
+Šajā rakstā ir sniegta informācija par finanšu pārskata ģenerēšanu.
 
 Lai ģenerētu pārskatu, atveriet pārskata definīciju un rīkjoslā atlasiet **Ģenerēt**. Tiek **atvērta lapa Pārskata** rindas statuss, kas norāda pārskata atrašanās vietu rindā.
 
 Pārskata ģenerēšanas gaitā šie pārskata rindas statusa rādītāji var būt redzami pārskata rindas **statusa** lapā.
 
-| Statuss          | Novads | Apraksts|
+| Statuss          | Stāvoklis | Apraksts|
 |-----------------|--------|--------------------|
 | Rindas        | Pagaidu |Pārskata definīcija tiek pārbaudīta, pirms pārskats tiek ievietots ģenerēšanas rindā.                    |
 | Ievietots rindā          | Pagaidu | Pārskats ievada pārskata ģenerēšanas rindu un gaida apstrādi.                      |
 | Apstrāde      | Pagaidu | Šis statuss parasti seko rindā ievietotajam **statusam**, un parasti pāriet uz beigu **statusu**, kad apstrāde ir pabeigta.       |
 | Notiek pēcapstrāde | Pagaidu | Šis statuss seko statusam **Apstrāde** un norāda, ka tiek apkopoti visi pārskata dati, bet tiek veiktas arī citas darbības, piemēram, aprēķināšana un apkopojums.            |
 | Atcelšana      | Pagaidu | Pārskats tiek atcelts pēc lietotāja pieprasījuma. Šis stāvoklis rodas no lietotāja pieprasītās atcelšanas pārskatam rindā **ievietotajā vai** **apstrādes** stāvoklī. Sistēma mēģina ievietot pārskatu stāvoklī **Atcelts**, ja vien sistēma nav pārāk tālu un tai jā finalizēt citā stāvoklī. |
-| Atcelts        | Gala | Pārskata apstrāde ir pabeigta, bet netika pabeigta lietotāja pieprasītās apturēšanas dēļ.            |
+| Atcelta        | Gala | Pārskata apstrāde ir pabeigta, bet netika pabeigta lietotāja pieprasītās apturēšanas dēļ.            |
 | Pabeigts       | Gala | Pārskats ir gatavs lietošanai.                      |
 | Neizdevās          | Gala | Pārskata apstrāde pabeigta, bet neizdevās, un to nevarēja izmantot. |
 

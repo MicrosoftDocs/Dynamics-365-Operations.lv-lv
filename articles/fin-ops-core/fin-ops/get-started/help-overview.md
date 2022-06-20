@@ -1,6 +1,6 @@
 ---
 title: Palīdzības sistēma (satur video)
-description: Šajā tēmā ir sniegts pārskats par palīdzības sistēmu finanšu un operāciju programmām.
+description: Šajā rakstā sniegts palīdzības sistēmas apskats finanšu un operāciju programmām.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898374"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -53,7 +53,7 @@ Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogra
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
-Lai abonētu RSS plūsmu ar visiem atjauninājumiem, kas veikti docs.microsoft.com saturu finanšu un operāciju programmās, izmantojiet šo saiti:
+Lai abonētu visu finanšu un operāciju programmu saturam docs.microsoft.com ESAT veicis VISU atjauninājumu PLŪSMU, izmantojiet šādu saiti:
 
 [RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -70,7 +70,7 @@ Varat arī abonēt RSS plūsmu pēc programmas:
 
 ### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes
 
-Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet komentāru lapas apakšdaļā.
+Ja jums ir atsauksmes vai jautājumi par rakstu, atstājiet mums komentāru lapas apakšpusē.
 
 1. Atlasiet **Atsauksmes**, lai pārietu uz komentāru sadaļu lapas apakšdaļā. Pēc tam atlasiet vai nu **Preces atsauksmes**, vai **Pieteikties, lai sniegtu dokumentācijas atsauksmes**.
 
@@ -83,7 +83,7 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 
 ## <a name="contribute-to-the-documentation"></a>Dokumentācijas papildināšana
 
-Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, tēmā atlasiet pogu **Rediģēt** (zīmuļa simbols). Tālāk redzamajā videoklipā ir parādīts, kā varat papildināt mūsu dokumentāciju.
+Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, ar rakstu **atlasiet** pogu Rediģēt (zīmulis). Tālāk redzamajā videoklipā ir parādīts, kā varat papildināt mūsu dokumentāciju.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](/
 
 Uzdevuma ceļvedis ir kontrolēta, strukturēta, interaktīvu pieredze, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Uzdevumu ceļvežus varat atvērt (atskaņot) no rūts **Palīdzība**. Kad pirmo reizi atlasāt uzdevuma ceļvedi, rūtī **Palīdzība** tiek rādītas soli-pa-solim instrukcijas par šo uzdevumu. Ir pieejami lokalizēti uzdevumu ceļveži.
 
-Microsoft izlaistās uzdevumu ceļveža bibliotēkas preču versijām, izmantojot Dynamics 365 for Finance and Operations 2017. gada decembra versiju. Šīs tēmas sadaļa [Piekļuve uzdevumu ceļvežiem rūtī Palīdzība](#accessing-task-guides-from-the-help-pane) paskaidro, kā atrast savam produktam atbilstošos Uzdevumu ceļvežus.
+Microsoft izlaistās uzdevumu ceļveža bibliotēkas preču versijām, izmantojot Dynamics 365 for Finance and Operations 2017. gada decembra versiju. Uzdevumu [piekļūšanas ceļveži no šī raksta palīdzības](#accessing-task-guides-from-the-help-pane) rūts sadaļas skaidro veidu, kā atrast pareizās uzdevumu ceļvežus jūsu precei.
 
 ![Uzdevuma ceļveža lasīšanas skats.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Lai piekļūtu palīdzības saturam, atlasiet pogu **Palīdzība** (**?**) un p�
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Piekļuve Palīdzības tēmām no rūts Palīdzība
 
-No rūts **Palīdzība** varat piekļūt tēmām, kas attiecas uz klientu. Kad rūti **Palīdzība** atverat pirmo reizi, cilnē **Palīdzība** tiek parādītas tēmas, kas attiecas uz pašlaik atvērto lapu. Ja nav atrasta neviena tēma, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad **Palīdzības** rūtī atlasāt tēmu, tā tiek atvērta jaunā cilnē jūsu pārlūkā.
+No rūts **Palīdzība** varat piekļūt tēmām, kas attiecas uz klientu. Kad rūti **Palīdzība** atverat pirmo reizi, cilnē **Palīdzība** tiek parādītas tēmas, kas attiecas uz pašlaik atvērto lapu. Ja nav atrasta neviena tēma, varat ievadīt atslēgvārdus, lai precizētu meklēšanu. Kad palīdzības rūtī atlasāt **rakstu**, tas tiek atvērts jaunā pārlūkprogrammas cilnē.
 
 > [!IMPORTANT]
 > Šī sadaļa neattiecas uz programmu Dynamics 365 Human Resources. Personāla vadības Palīdzības sistēma automātiski savienojas ar produkta uzdevumu ceļvedi. Kā arī jūs nevarat Personāla vadībai izveidot pielāgotus uzdevumu ceļvežus.

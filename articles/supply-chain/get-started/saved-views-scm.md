@@ -1,6 +1,6 @@
 ---
 title: Standarta saglabātie skati Supply Chain Management
-description: Šajā tēmā aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot.
+description: Šajā rakstā ir aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887578"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standarta saglabātie skati Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management ietver vairākus saglabātus skatus, ko varat iespējot un lietot pēc nepieciešamības. Daži no šiem standarta saglabātajiem skatiem ir optimizēti un nosaukti noteiktai lomai vai uzdevumam (piemēram, "Kvalitātes kontrole" vai "Saņemšana"). Citi ir optimizēti, tādējādi tajos ir ietverti tikai lauki un iestatījumi, ko norāda Microsoft lietošanas statistika, visbiežāk tiek izmantoti debitori. Uz šiem saglabātajiem skatiem parasti tiek saukti kā uz *vienkāršotajiem* skatiem. Šajā tēmā aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot un pielāgot.
+Microsoft Dynamics 365 Supply Chain Management ietver vairākus saglabātus skatus, ko varat iespējot un lietot pēc nepieciešamības. Daži no šiem standarta saglabātajiem skatiem ir optimizēti un nosaukti noteiktai lomai vai uzdevumam (piemēram, "Kvalitātes kontrole" vai "Saņemšana"). Citi ir optimizēti, tādējādi tajos ir ietverti tikai lauki un iestatījumi, ko norāda Microsoft lietošanas statistika, visbiežāk tiek izmantoti debitori. Uz šiem saglabātajiem skatiem parasti tiek saukti kā uz *vienkāršotajiem* skatiem. Šajā rakstā ir aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot un pielāgot.
 
 Pilnīgu informāciju par to, kā strādāt ar saglabātajiem skatiem, ieskaitot standarta saglabātos skatus, pēc to iespējošanas, skatiet [Saglabātie skati](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Papildinformāciju par to, kā pielāgot un pārdēvēt saglabātos skatus, skat
 
 Lai izmantotu jebkurus saglabātos skatus neatkarīgi no tā, vai izmantosit standarta saglabātos skatus, *·*[aktivizējot](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) līdzekli Saglabātie skati līdzekļu pārvaldībā (no versijas 10.0.21, šī funkcija ir iespējota pēc noklusējuma).
 
-Šīs tēmas pārējās sadaļās ir sniegtas tabulas, kurās ir aprakstīti standarta saglabātie skati, kas pašlaik ir pieejami katram atbilstošajam modulim. Katrā tabulā ir parādīts katra saglabātā skata nosaukums, lapa, kurā to var atrast, un tā apraksts. Katrā tabulā ir parādīts arī tās funkcionalitātes nosaukums, kas ietver saglabāto skatu. Lai redzētu standarta saglabāto skatu jūsu sistēmā, ir jāieslēdz norādītā funkcija [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). No versijas 10.0.25 visi uzskaitītie skati ir ieslēgti pēc noklusējuma.
+Šī raksta pārējās sadaļās ir sniegtas tabulas, kurās ir aprakstīti standarta saglabātie skati, kas pašlaik ir pieejami katram atbilstošajam modulim. Katrā tabulā ir parādīts katra saglabātā skata nosaukums, lapa, kurā to var atrast, un tā apraksts. Katrā tabulā ir parādīts arī tās funkcionalitātes nosaukums, kas ietver saglabāto skatu. Lai redzētu standarta saglabāto skatu jūsu sistēmā, ir jāieslēdz norādītā funkcija [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). No versijas 10.0.25 visi uzskaitītie skati ir ieslēgti pēc noklusējuma.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Krājumu vadības moduļa saglabātie skati
 
@@ -50,9 +50,9 @@ Tabulā ir aprakstīti krājumu vadības modulim pieejamie saglabātie skati.
 | Rīcībā esošā saraksts | Finanšu dati | Šis vienkāršotais skats ļauj fokusam uz finanšu informāciju, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
 | Rīcībā esošā saraksts | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitātes kontroli, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
 | Rīcībā esošā saraksts | saņemšanu, | Šis vienkāršotais skats ļauj koncentrēties uz saņemtajām darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Rīcībā esošā saraksts | Piegāde | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Darījumi | Vienkāršots | Šis vienkāršotais skats ļauj pārskatīt krājumu statusu, netraucējot finanšu informāciju un citus laukus, kas tiek lietoti mazāk bieži. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Pārsūtīšanas pasūtījumi | Piegāde | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Rīcībā esošā saraksts | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Transakcijas | Vienkāršots | Šis vienkāršotais skats ļauj pārskatīt krājumu statusu, netraucējot finanšu informāciju un citus laukus, kas tiek lietoti mazāk bieži. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Pārsūtīšanas pasūtījumi | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
 | Pārsūtīšanas pasūtījumi | saņemšanu, | Šis vienkāršotais skats ļauj koncentrēties uz saņemšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
 | Pārsūtīšanas pasūtījumi | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitāts kontroli, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
 | Pārsūtīšanas pasūtījumi | Finanšu dati | Šis vienkāršotais skats ļauj koncentrēties uz finanšu informāciju, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |

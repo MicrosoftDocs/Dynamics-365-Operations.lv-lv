@@ -1,6 +1,6 @@
 ---
 title: Iestatīt dažādas iepakošanas un glabāšanas dimensijas
-description: Šajā tēmā ir parādīts, kā norādīt, kurai procesam (iepakošanai, uzglabāšanai vai ligzdotam iepakojumam) tiek izmantota katra noteiktā dimensija.
+description: Šajā rakstā ir parādīts, kā norādīt, kurai procesam (iepakošanai, uzglabāšanai vai ligzdotam iepakojumam) tiek izmantota katra noteiktā dimensija.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905491"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Iestatīt dažādas iepakošanas un glabāšanas dimensijas
 
@@ -33,7 +33,7 @@ Daži krājumi tiek iepakoti vai uzglabāti tā, ka katram no vairākiem dažād
 *Noliktavas dimensijas* tiek atbalstītas pat tad, ja nav iespējota funkcija *Iepakojuma preces dimensijas*. Jūs tos iestatāt, izmantojot **Fizisko dimensiju** lapu programmā Supply Chain Management. Šīs dimensijas tiek izmantotas visos procesos, kuros nav norādītas iepakošanas un ligzdotās iepakojuma dimensijas.
 
 *Iepakošanas* un *ligzdotā iepakojuma* dimensijas tiek iestatītas, izmantojot lapu **Fizisko preču dimensijas**, kas tiek pievienotas, iespējojot iespēju *Iepakojuma preces dimensijas*.
-Šajā tēmā sniegts scenārijs, kas parāda, kā izmantot šo funkciju.
+Šajā rakstā ir sniegts scenārijs, kas parāda, kā izmantot šo funkciju.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Ieslēgt iepakojuma preču dimensiju līdzekli
 

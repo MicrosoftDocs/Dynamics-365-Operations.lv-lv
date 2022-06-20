@@ -1,6 +1,6 @@
 ---
 title: Krājumu darbību papildinformācija
-description: Šajā tēmā sniegts pārskats par darbību informācijas lapu, kurā ir sniegta detalizēta informācija par atlasīto krājumu darbību.
+description: Šajā rakstā sniegts pārskats par darbību informācijas lapu, kurā ir sniegta detalizēta informācija par atlasīto krājumu darbību.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859392"
 ---
 # <a name="inventory-transaction-details"></a>Krājumu darbību papildinformācija
 
@@ -36,8 +36,8 @@ Lapa **Detalizēta informācija** par darbībām ir sadalīta vairākās FastTab
 
 | Kopsavilkuma cilne | Apraksts |
 |---|---|
-| Vispārējā daļa | Šajā Kopsavilkuma cilnē ir parādīta pamatinformācija par atlasīto krājumu darbību. Papildus laukiem, kas parādās lapā Krājumu **darbības**, tajā iekļauti papildu lauki, kas ir aprakstīti tālāk šajā tēmā. |
-| Grāmatojumi | Šajā kopsavilkuma cilnē ir parādīta informācija, kas saistīta ar atlasītās krājumu darbības fiziskajiem, finanšu un segšanas aspektiem. Atkarībā no pašreizējā darbības statusa daži lauki var būt tukši. Tomēr šie lauki tiks iestatīti automātiski, grāmatojot darbības. Papildus laukiem, kas parādās lapā **Krājumu** darbības, šajā FastTab ir iekļauti papildu lauki, kas ir aprakstīti tālāk šajā tēmā. |
+| Vispārējā daļa | Šajā Kopsavilkuma cilnē ir parādīta pamatinformācija par atlasīto krājumu darbību. Papildus laukiem, kas parādās lapā Krājumu **darbības**, tajā iekļauti papildu lauki, kas ir aprakstīti tālāk šajā rakstā. |
+| Grāmatojumi | Šajā kopsavilkuma cilnē ir parādīta informācija, kas saistīta ar atlasītās krājumu darbības fiziskajiem, finanšu un segšanas aspektiem. Atkarībā no pašreizējā darbības statusa daži lauki var būt tukši. Tomēr šie lauki tiks iestatīti automātiski, grāmatojot darbības. Papildus laukiem, kas parādās lapā **Krājumu** darbības, šajā FastTab ir ietverti papildu lauki, kas ir aprakstīti tālāk šajā rakstā. |
 | Virsgrāmatas grāmatošana | Šajā kopsavilkuma cilnē ir parādīts grāmatošanas tips un Virsgrāmatas konts, kas tiek izmantots fiziskai atjaunināšanai, finanšu atjaunināšanai, fiziskiem ieņēmumiem, fiziskajām papildmaksām, finanšu ieņēmumiem un finanšu izmaksām, kas saistītas ar atlasīto krājumu darbību. |
 | Atsauces | Šajā Kopsavilkuma cilnē tiek parādīta papildu informācija par avota darbību, kas izveidoja atlasīto krājumu darbību. Piemēram, šī informācija var iekļaut detalizētu informāciju no pirkšanas pasūtījuma vai pārdošanas pasūtījuma. |
 | Saistītā informācija | Šajā kopsavilkuma cilnē tiek parādīta papildinformācija par atlasīto krājumu darbību. Šie lauki, iespējams, netiks iestatīti, ja neizmantojat dažus līdzekļus, piemēram, sagādes kategorijas vai projektus. |

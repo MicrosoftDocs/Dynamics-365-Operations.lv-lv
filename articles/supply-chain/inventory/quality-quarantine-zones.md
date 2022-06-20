@@ -1,6 +1,6 @@
 ---
 title: Karantīnas zonas neatbilstībai
-description: Šajā tēmā aprakstīts, kā izveidot un izmantot karantīnas zonas neatbilstībām.
+description: Šajā rakstā ir aprakstīts, kā izveidot un izmantot karantīnas zonas neatbilstībai.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857726"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Karantīnas zonas neatbilstībai
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot un izmantot karantīnas zonas neatbilstībām.
+Šajā rakstā ir aprakstīts, kā izveidot un izmantot karantīnas zonas neatbilstībai.
 
 Izmantojiet lapu **Karantīnas zonas**, lai definētu zonas, ko var piešķirt neatbilstībām. Kad jūs izveidojat neatbilstību, jūs variet iestatīt laukus **Karantīnas zona** un **Karantīnas veids** cilnē **Vispārīgi** lapā **Neatbilstības**. Lauks **Karantīnas zona** parasti norāda apgabalu vai vietu, kur atrodas krājums. Lauks **Karantīnas veids** nosaka, vai krājums ir *Ierobežotas lietošanas* vai *Nav derīgs*.
 

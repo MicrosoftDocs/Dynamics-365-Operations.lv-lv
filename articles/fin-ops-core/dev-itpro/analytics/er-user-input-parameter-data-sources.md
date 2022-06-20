@@ -1,6 +1,6 @@
 ---
 title: Izmantot LIETOTĀJA IEVADES PARAMETRU datu avotus, lai norādītu pārskata parametrus
-description: Šajā tēmā skaidrots, kā izmantot LIETOTĀJA IEVADES PARAMETRU datu avotus, lai norādītu jūsu ģenerēto pārskatu parametrus.
+description: Šajā rakstā skaidrots, kā izmantot LIETOTĀJA IEVADES PARAMETRU datu avotus, lai norādītu parametrus pārskatiem, ko ģenerējiet.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872977"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Izmantot LIETOTĀJA IEVADES PARAMETRU datu avotus, lai norādītu pārskata parametrus
 
 [!include[banner](../includes/banner.md)]
 
-Veidojot elektronisko [pārskatu](general-electronic-reporting.md) (ER) [modeļu](er-overview-components.md#model-mapping-component) kartēšanu un ER [formāta](er-overview-components.md#format-component) komponentus, *varat izmantot LIETOTĀJA IEVADES PARAMETRA* tipa datu avotus, lai iegūtu nepieciešamās vērtības, kuras var norādīt datu ievades laukos dialoglodziņa izpildlaikā, pirms sākas ER formāta izpilde. Šajā tēmā aprakstīti pašlaik *atbalstītie LIETOTĀJA* IEVADES PARAMETRU datu avoti.
+Veidojot elektronisko [pārskatu](general-electronic-reporting.md) (ER) [modeļu](er-overview-components.md#model-mapping-component) kartēšanu un ER [formāta](er-overview-components.md#format-component) komponentus, *varat izmantot LIETOTĀJA IEVADES PARAMETRA* tipa datu avotus, lai iegūtu nepieciešamās vērtības, kuras var norādīt datu ievades laukos dialoglodziņa izpildlaikā, pirms sākas ER formāta izpilde. Šajā rakstā ir aprakstīti pašlaik *atbalstītie* LIETOTĀJA IEVADES PARAMETRU datu avoti.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a> Obligātie rekvizīti
 

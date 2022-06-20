@@ -1,6 +1,6 @@
 ---
 title: Atlaižu pārvaldības parametri
-description: Šajā tēmā ir aprakstīta Atlaižu pārvaldības parametru lapa. Šī lapa satur iestatījumus, kas ietekmē grāmatošanu, statusa atjauninājumus, numuru secības un citu uzvedību.
+description: Šajā rakstā ir aprakstīta lapa Atlaižu pārvaldības parametri. Šī lapa satur iestatījumus, kas ietekmē grāmatošanu, statusa atjauninājumus, numuru secības un citu uzvedību.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895530"
 ---
 # <a name="rebate-management-parameters"></a>Atlaižu pārvaldības parametri
 
@@ -45,7 +45,7 @@ Sekojošajā tabulā ir aprakstīti lauki, kas ir pieejami cilnes **Atlaižu pā
 
 ## <a name="number-sequences-tab"></a>Cilne Numuru sērijas
 
-Izmantojiet lapas **Atlaižu pārvaldības parametri** cilni **Numuru sērijas**, lai piešķirtu numuru sērijas kodus dažādām numuru sērijām, kuras izmanto Atlaižu pārvaldība. Tabulā ir aprakstīts katras šīs numuru sērijas nolūks. Papildinformāciju par numuru sērijām skatiet [sadaļā Numuru sēriju pārskats](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) un ar to saistītās tēmas.
+Izmantojiet lapas **Atlaižu pārvaldības parametri** cilni **Numuru sērijas**, lai piešķirtu numuru sērijas kodus dažādām numuru sērijām, kuras izmanto Atlaižu pārvaldība. Tabulā ir aprakstīts katras šīs numuru sērijas nolūks. Papildinformāciju par numuru sērijām skatiet [sadaļā Numuru sēriju apskats](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) un saistītie dokumenti.
 
 | Atsauce | Apraksts |
 |---|---|

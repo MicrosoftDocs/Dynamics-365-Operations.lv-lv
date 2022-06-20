@@ -1,6 +1,6 @@
 ---
 title: Tehniskās versijas un tehnisko preču kategorijas
-description: Šajā tēmā ir sniegta informācija par tehnisko versiju koncepciju. Tehniskās versijas nodrošina, ka dažādi produkta stāvokļi un to dati tiek saglabāti un dzēsti, un tos var vizualizēt sistēmā.
+description: Šajā rakstā ir sniegta informācija par tehnoloģiju versiju koncepciju. Tehniskās versijas nodrošina, ka dažādi produkta stāvokļi un to dati tiek saglabāti un dzēsti, un tos var vizualizēt sistēmā.
 author: t-benebo
 ms.date: 04/07/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
-ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.openlocfilehash: a98ead81a61ceac2ed721848847164f76e758f80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8553367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872070"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehniskās versijas un tehnisko preču kategorijas
 
@@ -60,7 +60,7 @@ Kā jau teikts, veidojot tehnisko produktu, sākotnējā tehniskā versija tiek 
 
 ## <a name="track-versions-in-transactions"></a>Izsekošanas versijas darījumos
 
-Kad izmantojat tehnisko izmaiņu pārvaldību, jūsu preces šablona dati vienmēr ietver vienu vai vairākas tehniskās versijas. Uzstādot tehniskos produktus, varat izvēlēties, vai tehniskā versija arī ir daļa no *loģistikajiem darījumiem*. (Papildinformāciju skatiet sadaļu [Iestatiet tehnisko produktu kategorijas](#product-category) tālāk šajā tēmā.) Ja loģistikas ietekme ir nozīmīga, tā atšķiras atkarībā no produkta un uzņēmuma. Dažreiz tiek izmantota tikai pēdējā produkta versija. Tāpēc, kad tiek ieviesta jauna versija, iepriekšējo versiju vairs nevar izmantot. Citos gadījumos ir nepieciešama iepriekšējā versija loģistikas darījumos, lai pārvarētu šādus izaicinājumus:
+Kad izmantojat tehnisko izmaiņu pārvaldību, jūsu preces šablona dati vienmēr ietver vienu vai vairākas tehniskās versijas. Uzstādot tehniskos produktus, varat izvēlēties, vai tehniskā versija arī ir daļa no *loģistikajiem darījumiem*. (Plašāku informāciju skatiet [Iestatiet inženierzinātnes preču](#product-category) kategoriju sadaļu tālāk šajā rakstā.) Ja neproduktiskā ietekme ir būtiska, tā atšķiras pēc preces un uzņēmuma. Dažreiz tiek izmantota tikai pēdējā produkta versija. Tāpēc, kad tiek ieviesta jauna versija, iepriekšējo versiju vairs nevar izmantot. Citos gadījumos ir nepieciešama iepriekšējā versija loģistikas darījumos, lai pārvarētu šādus izaicinājumus:
 
 - Loģistikas struktūrvienībai ir jānosūta divi produkta gabali klientam. Šādā gadījumā ir jāizlemj, vai vēlaties vai ļausiet nosūtīt divas atšķirīgas versijas.
 - Vēlāk tiek atklāts, ka rodas problēma un vai tā ir saistīta ar konkrētām izmaiņām. Šādā gadījumā var būt noderīgi precīzi noteikt, kura versija tika nosūtīta katrā pasūtījumā.
@@ -118,7 +118,7 @@ Iestatiet tālāk norādītos laukus preces tehniskās kategorijas kopsavilkuma 
 | Preces dimensijas grupa | Iestatījums **Atsekošanas versijas darījumos** palīdz izvēlēties produkta dimensijas grupu. Ja norādītajā vēlaties izsekot versijas darījumiem, tiks rādītas tās produktu dimensiju grupas, kurās tiek izmantota *versijas* dimensija. Pretējā gadījumā tiks attēlotas tikai tās produkta dimensiju grupas, kurās *versijas* dimensija netiek izmantota. |
 | Preces dzīves cikla stāvoklis izveides laikā | Iestatiet noklusējuma produktu dzīves cikla stāvokli, kas nepieciešams, kad tas tiek izveidots pirmo reizi. Papildinformāciju skatiet šeit: [Produktu dzīves cikla stāvokļi un darījumi](product-lifecycle-state-transactions.md). |
 | Versijas numura kārtula | Atlasiet versijas numura kārtulu, kas attiecas uz kategoriju:<ul><li>**Manuāli** — katrai jaunajai versijai izvēlieties versijas numuru.</li><li>**Automātiski** — sistēma iestata versijas numuru, pamatojoties uz jūsu definēto formātu. Iestatot formātu, izmantojiet numura zīmi (\#) tā , lai tā norādītu ciparu un jebkuru citu rakstzīmi, lai attēlotu konstantu vērtību. Piemēram, definējot formātu kā *V-\#\#*, pirmā versija būs "V-01", otrā versija būs "V-02", un tā tālāk.</li><li>**Saraksts** — sistēma paņem nākamo numuru no iepriekš definēto pielāgoto vērtību saraksta.</li></ul> |
-| Īstenot spēkā stāšanos | Atlasiet, vai tehnisko versiju efektivitāti datumiem jābūt blakusesošiem, vai var būt pārtraukumi un pārklāšanās. Šis iestatījums ietekmē veidu, kādā varat izmantot laukus **Spēkā no** un **Spēkā līdz** katrai tehniskajai versijai, uz kuru attiecas kategorija.<ul><li>Ja šī opcija ir iestatīta uz *Jā*, katrai versijai ir jānorāda **Spēkā no** vērtība, un starp versijām nav pieļaujami ne pārklājumi, ne pārrāvumi. Katras hehniskās versijas datumu diapazons ir tieši saistīts ar iepriekšējām un nākamajām tehniskajām versijām, ja tādas ir. Šādā gadījumā visjaunākā versija tiek izmantota vienmēr, un vecākas versijas vairs netiek lietotas.</li><li>Ja šī opcija ir iestatīta uz **Nē**, tehniskajām versijām nav ierobežojumu attiecībā uz efektivitāti, un ir atļauti gan pārklājumi, gan pārrāvumi. Šādā gadījumā vienlaicīgi var būt aktīvas vairākas versijas, un var strādāt ar jebkuru aktīvu versiju.</li></ul><p>Šī opcija ietekmē arī MK un maršrutus, kas ir saistīti ar produkta versiju. Plašāku informāciju skatiet šīs tēmas sadaļā [Izveidot savienojumu ar MK un maršrutiem tehniskajām versijām](#boms-routes).</p> |
+| Īstenot spēkā stāšanos | Atlasiet, vai tehnisko versiju efektivitāti datumiem jābūt blakusesošiem, vai var būt pārtraukumi un pārklāšanās. Šis iestatījums ietekmē veidu, kādā varat izmantot laukus **Spēkā no** un **Spēkā līdz** katrai tehniskajai versijai, uz kuru attiecas kategorija.<ul><li>Ja šī opcija ir iestatīta uz *Jā*, katrai versijai ir jānorāda **Spēkā no** vērtība, un starp versijām nav pieļaujami ne pārklājumi, ne pārrāvumi. Katras hehniskās versijas datumu diapazons ir tieši saistīts ar iepriekšējām un nākamajām tehniskajām versijām, ja tādas ir. Šādā gadījumā visjaunākā versija tiek izmantota vienmēr, un vecākas versijas vairs netiek lietotas.</li><li>Ja šī opcija ir iestatīta uz **Nē**, tehniskajām versijām nav ierobežojumu attiecībā uz efektivitāti, un ir atļauti gan pārklājumi, gan pārrāvumi. Šādā gadījumā vienlaicīgi var būt aktīvas vairākas versijas, un var strādāt ar jebkuru aktīvu versiju.</li></ul><p>Šī opcija ietekmē arī MK un maršrutus, kas ir saistīti ar produkta versiju. Papildinformāciju skatiet tālāk šī [raksta sadaļā MK un maršrutu savienošana ar](#boms-routes) inženierzinātnes versijām.</p> |
 | Lietot numura kārtulas nomenklatūru | Iestatiet šo opciju kā *Jā*, lai iespējotu produkta numura definēšanas kārtulas, izmantojot numuru sērijas, tehnisko atribūtu nosaukumus un vērtības un teksta konstantes kā segmentus. Lai izveidotu vai modificētu kārtulas, atlasiet pogu **Rediģēt**. |
 | Lietot nosaukuma kārtulas nomenklatūru | Iestatiet šo opciju kā *Jā*, lai iespējotu kārtulas nosaukuma definēšanai, izmantojot tehnisko atribūtu nosaukumus, tehnisko atribūtu vērtības un teksta konstantes kā segmentus. Lai izveidotu vai modificētu kārtulas, atlasiet pogu **Rediģēt**. |
 | Lietot apraksta kārtulas nomenklatūru | Iestatiet šo opciju kā *Jā*, lai iespējotu kārtulas apraksta definēšanai, izmantojot tehnisko atribūtu nosaukumus, tehnisko atribūtu vērtības un teksta konstantes kā segmentus. Lai izveidotu vai modificētu kārtulas, atlasiet pogu **Rediģēt**. |

@@ -1,6 +1,6 @@
 ---
 title: Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management
-description: Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Dynamics 365 Sales un Dynamics 365 Supply Chain Management.
+description: Šajā rakstā aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai veiktu pārdošanas pasūtījumu sinhronizāciju tieši starp Dynamics 365 Pārdošanu un Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854157"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061522"
 
 
 
-Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Dynamics 365 Sales un Dynamics 365 Supply Chain Management.
+Šajā rakstā aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai veiktu pārdošanas pasūtījumu sinhronizāciju tieši starp Dynamics 365 Pārdošanu un Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Datu plūsma risinājumā No potenciālā klienta līdz skaidrai naudai
 
@@ -203,7 +203,7 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 
 [![Veidņu kartēšana datu integrācijā, pārdošanas pasūtījumi (Sales uz Supply Chain Management) — tieši: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 

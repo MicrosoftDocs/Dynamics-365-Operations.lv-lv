@@ -1,6 +1,6 @@
 ---
 title: Bīstamo materiālu pārskats
-description: Šī tēma sniedz apskatu par līdzekļiem, kas ir saistīti ar bīstamu materiālu apstrādi un dokumentēšanu preču informācijas pārvaldības un noliktavu pārvaldības laikā.
+description: Šajā rakstā sniegts pārskats par funkcijām, kas saistītas ar bīstamu materiālu apstrādi un dokumentēšanu preču informācijas pārvaldības un noliktavas pārvaldības laikā.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905810"
 ---
 # <a name="hazardous-materials-overview"></a>Bīstamo materiālu pārskats
 
@@ -50,7 +50,7 @@ Kad šī funkcionalitāte tika izstrādāta, tika minētas šādas kopējas regu
 
 Katra regulu kopa sniedz standartizētus bīstamo preču un atsauču kodu sarakstus. Tādēļ Supply Chain Management sniedz atsauču tabulu kopīgos kodus šajos sarakstos. Katram sarakstam ir arī daži unikāli kodi, kurus varat definēt.
 
-Lai iegūtu vairāk informācijas par to, kā iestatīt noteikumus un vērtības bīstamiem materiāliem un kā piešķirt vērtības attiecīgajām precēm, skatiet sekojošās tēmas:
+Papildinformāciju par to, kā iestatīt bīstamu materiālu noteikumus un vērtības un kā piešķirt vērtības attiecīgām precēm, skatiet šādos rakstos:
 
 - [Bīstamo materiālu iestatīšana](hazmat-setup.md)
 - [Bīstamie materiāli precēs, pasūtījumos, sūtījumos un kravās](hazmat-items.md)

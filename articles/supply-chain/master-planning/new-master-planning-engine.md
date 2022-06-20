@@ -1,6 +1,6 @@
 ---
 title: Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
-description: Šajā tēmā ir sniegta informācija par jauno vispārējās plānošanas programmu, Plānošanas optimizāciju un par migrēšanu no esošās programmas.
+description: Šajā rakstā ir sniegta informācija par jauno vispārējās plānošanas programmu, plānošanas optimizāciju un par migrāciju no esošās programmas.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846103"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 
 [!include [banner](../includes/banner.md)]
 
-Iebūvēto vispārējās plānošanas programmu ir paredzēts padarīt par novecojušu (novecojis). Tas tiek aizstāts ar Plānošanas optimizācijas pievienojumprogrammu risinājumam Microsoft Dynamics 365 Supply Chain Management. Šajā tēmā ir sniegta informācija par ietekmi uz jauno un esošo izvietošanu. Tajā ir iekļauta informācija par nepieciešamajām darbībām.
+Iebūvēto vispārējās plānošanas programmu ir paredzēts padarīt par novecojušu (novecojis). Tas tiek aizstāts ar Plānošanas optimizācijas pievienojumprogrammu risinājumam Microsoft Dynamics 365 Supply Chain Management. Šajā rakstā ir sniegta informācija par ietekmi uz jauniem un esošiem izvietojumiem. Tajā ir iekļauta informācija par nepieciešamajām darbībām.
 
 Plānošanas optimizācija ļauj veikt vispārējās plānošanas aprēķinus, kas notiek ārpus Supply Chain Management un Azure SQL datu bāzes. Priekšrocības, kas saistītas ar Plānošanas optimizācijas funkcionalitāti, vispārējās plānošanas izpildes laikā ietver uzlabotu veiktspēju un minimālu ietekmi uz SQL datu bāzi. Jo ātro plānošanu var veikt arī darba stundu laikā, lai plānotāji varētu nekavējoties reaģēt uz pieprasījumu vai parametru izmaiņām.
 
@@ -63,7 +63,7 @@ Varat pieprasīt izņēmumu, ja ir jāturpina izmantot iebūvēto vispārējās 
 
 Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft nodrošinās pagarinājuma periodu līdz izņēmuma termiņa beigām. Vides administrators tiks informēts, kad vajadzīgie līdzekļi ir kļuvuši pieejami un pagarinājuma periods ir sācies.
 
-Šajā plūsmkartē ir apkopota šajā tēmā sniegtā informācija, lai varētu ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962). Preču grupa ir atbildīga par katra izņēmuma pieprasījuma vērtēšanu un apstiprināšanu, tāpēc, lūdzu, iesniedziet savu pieprasījumu tieši preču grupai, izmantojot norādīto saiti, un neveidojiet tai atbalsta biļeti. Ja jūsu pieprasījums tiek noraidīts, lūdzu, neveidojiet atbalsta biļeti, jo Microsoft Support nevar atkārtoti novērtēt vai piešķirt izņēmumus.
+Šajā plūsmkartē tiek apkopota šajā rakstā sniegtā informācija, tādējādi varat ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962). Preču grupa ir atbildīga par katra izņēmuma pieprasījuma vērtēšanu un apstiprināšanu, tāpēc, lūdzu, iesniedziet savu pieprasījumu tieši preču grupai, izmantojot norādīto saiti, un neveidojiet tai atbalsta biļeti. Ja jūsu pieprasījums tiek noraidīts, lūdzu, neveidojiet atbalsta biļeti, jo Microsoft Support nevar atkārtoti novērtēt vai piešķirt izņēmumus.
 
 ![Izņēmumu plūsmkarte.](media/exception-diagram.png "Izņēmumu plūsmkarte")
 

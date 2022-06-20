@@ -1,6 +1,6 @@
 ---
 title: Fiksēta saņemtā krājuma cena
-description: Šajā tēmā skaidrots, kā var konfigurēt un izmantot fiksētās kvīšu cenas programmā Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā skaidrots, kā var konfigurēt un izmantot fiksētās kvīšu cenas programmā Microsoft Dynamics 365 Supply Chain Management.
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
-ms.translationtype: MT
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907585"
 ---
 # <a name="fixed-receipt-price"></a>Fiksēta saņemtā krājuma cena
 
 [!include [banner](../includes/banner.md)]
 
-**Fiksētā saņemtā** krājuma cena ir opcija *, kuru var atlasīt krājumu modeļu grupā, ja lietojat krājumu modeli, kas nav Standarta izmaksas vai Pārvietots* *novērtētais vidējais*. Agrākās versijās šīs Microsoft Dynamics AX opcijas nosaukums bija Standarta **izmaksas**. Tā tika pārdēvēta par **fiksēto ieejas** plūsmas cenu, kad sistēmā Dynamics AX 2012 tika ieviests jauns standarta izmaksu krājumu modelis. Šajā tēmā skaidrots, kā var konfigurēt un izmantot fiksētās ieejas plūsmas cenas Dynamics 365 Supply Chain Management.
+**Fiksētā saņemtā** krājuma cena ir opcija *, kuru var atlasīt krājumu modeļu grupā, ja lietojat krājumu modeli, kas nav Standarta izmaksas vai Pārvietots* *novērtētais vidējais*. Agrākās versijās šīs Microsoft Dynamics AX opcijas nosaukums bija Standarta **izmaksas**. Tā tika pārdēvēta par **fiksēto ieejas** plūsmas cenu, kad sistēmā Dynamics AX 2012 tika ieviests jauns standarta izmaksu krājumu modelis. Šajā rakstā skaidrots, kā var konfigurēt un izmantot fiksētās ieejas plūsmas cenas Dynamics 365 Supply Chain Management.
 
 ## <a name="about-fixed-receipt-prices"></a>Par fiksētas saņemtā krājuma cenām
 

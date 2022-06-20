@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu veidotāja atbalstītie saliktie datu tipi
-description: Šajā tēmā ir sniegta informācija par saliktu datu tipiem, kas tiek atbalstīti elektronisko pārskatu veidotāja (ER) formulās.
+description: Šajā rakstā ir sniegta informācija par saliktajiem datu tipiem, kas tiek atbalstīti elektronisko pārskatu (ER) formulās.
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869320"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronisko pārskatu veidotāja atbalstītie saliktie datu tipi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par saliktu datu tipiem, kas tiek atbalstīti [elektronisko pārskatu veidotāja (ER)](general-electronic-reporting.md) izteiksmēs. Saliktu datu tipi ir [class](#class), [container](#container), [record](#record), [record list](#record-list) un [object](#object).
+Šajā rakstā ir sniegta informācija par saliktajiem datu tipiem, kas tiek atbalstīti [elektronisko pārskatu (ER)](general-electronic-reporting.md) izteiksmēs. Saliktu datu tipi ir [class](#class), [container](#container), [record](#record), [record list](#record-list) un [object](#object).
 
 ## <a name="class"></a><a name="class"></a>Klase
 

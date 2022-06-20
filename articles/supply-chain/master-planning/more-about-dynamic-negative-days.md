@@ -1,6 +1,6 @@
 ---
 title: Negatīvās dienas un dinamiskās negatīvās dienas
-description: Šajā tēmā ir sniegta informācija par negatīvām dienām un dinamiskām negatīvām dienām, un to, kā varat tās izmantot, lai palīdzētu savam uzņēmumam.
+description: Šajā rakstā ir sniegta informācija par negatīvām dienām un dinamiskām negatīvām dienām, kā arī par to, kā tās var izmantot biznesam.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846132"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatīvās dienas un dinamiskās negatīvās dienas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par negatīvām dienām un dinamiskām negatīvām dienām, un to, kā varat tās izmantot, lai palīdzētu savam uzņēmumam. *Negatīvo dienu periods* norāda dienu skaitu, ko esat gatavs gaidīt, pirms veicat jaunu papildināšanas pasūtījumu, ja ir negatīvs krājumu daudzums.
+Šajā rakstā ir sniegta informācija par negatīvām dienām un dinamiskām negatīvām dienām, kā arī par to, kā tās var izmantot biznesam. *Negatīvo dienu periods* norāda dienu skaitu, ko esat gatavs gaidīt, pirms veicat jaunu papildināšanas pasūtījumu, ja ir negatīvs krājumu daudzums.
 
-Šajā tēmā ir norādīta šāda informācija:
+Šajā rakstā jūs uzzina sekojošo informāciju:
 
 - Kā tiek izveidoti plānotie pasūtījumi
 - Saistība starp negatīvo dienu periodu un krājuma izpildes laiku
 - Kā tiek aprēķināts dinamisko negatīvo dienu periods un kā aprēķinā tiek ņemts vērā krājuma izpildes laiks
 - Kā interpretēt [ieteikumus attiecībā uz izpildes laika uzlabošanu materiālu vajadzību plānošanai (MRP) (vispārējā plānošana)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx), kas ir saistīti ar negatīvām dienām
 
-Šajā tēmā ir izmantoti trīs hipotētiski scenāriji, lai palīdzētu jums izprast šo informāciju. Scenāriju atšķirība ir brīdis, kurā tiek saņemts pieprasījums: pirms krājuma izpildes laika perioda, tā laikā vai pēc tā.
+Šis raksts izmanto trīs šāda iemesla scenārijus, lai palīdzētu izprast šo informāciju. Scenāriju atšķirība ir brīdis, kurā tiek saņemts pieprasījums: pirms krājuma izpildes laika perioda, tā laikā vai pēc tā.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>1. scenārijs. Pieprasījums rodas pirms krājuma izpildes laika perioda
 
@@ -93,7 +93,7 @@ Nākamajā attēlā ir parādīts šā gadījuma grafisks skats.
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E gadījums. Izmantot gan negatīvās dienas, kas pārsniedz krājuma izpildes laiku, gan dinamisko negatīvo dienu periodu
 
-Iestatot vienumam Dienas(-) skaitli, kas ir lielāks par krājuma izpildes laiku, un izmantojot arī dinamisko negatīvo dienu periodu, dinamisko negatīvo dienu periods ir 6 + 6 + 0 = 12 dienas. Lietojot šo pieeja, var tikt iegūts ļoti ilgs periods, kurā MRP ir jāmeklē rezultāti. Informāciju par to, kā E gadījums ir saistīts ar situāciju, kad iestatāt ilgu negatīvo dienu periodu, skatiet šīs tēmas sadaļā [Secinājumi](#conclusion).
+Iestatot vienumam Dienas(-) skaitli, kas ir lielāks par krājuma izpildes laiku, un izmantojot arī dinamisko negatīvo dienu periodu, dinamisko negatīvo dienu periods ir 6 + 6 + 0 = 12 dienas. Lietojot šo pieeja, var tikt iegūts ļoti ilgs periods, kurā MRP ir jāmeklē rezultāti. Papildinformāciju par to, kā gadījums E ir saistīts ar situāciju, kurā negatīvās dienas iestatāt uz ilgu laika periodu, [skatiet šī](#conclusion) raksta sadaļu Noslēgums.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>2. scenārijs. Pieprasījums rodas krājuma izpildes laika periodā
 
@@ -142,7 +142,7 @@ Iestatot vienumam Dienas(-) vērtību **0** (nulle) un izmantojot tikai dinamisk
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>E gadījums. Izmantot gan negatīvās dienas, kas pārsniedz krājuma izpildes laiku, gan dinamisko negatīvo dienu periodu
 
-Iestatot vienumam Dienas(-) skaitli, kas ir lielāks par krājuma izpildes laiku, un izmantojot arī dinamisko negatīvo dienu periodu, dinamisko negatīvo dienu periods ir 6 + 6 – 4 = 8 dienas. Lietojot šo pieeja, var tikt iegūts ļoti ilgs periods, kurā MRP ir jāmeklē rezultāti. Informāciju par to, kā E gadījums ir saistīts ar situāciju, kad iestatāt ilgu negatīvo dienu periodu, skatiet šīs tēmas sadaļā [Secinājumi](#conclusion).
+Iestatot vienumam Dienas(-) skaitli, kas ir lielāks par krājuma izpildes laiku, un izmantojot arī dinamisko negatīvo dienu periodu, dinamisko negatīvo dienu periods ir 6 + 6 – 4 = 8 dienas. Lietojot šo pieeja, var tikt iegūts ļoti ilgs periods, kurā MRP ir jāmeklē rezultāti. Papildinformāciju par to, kā gadījums E ir saistīts ar situāciju, kurā negatīvās dienas iestatāt uz ilgu laika periodu, [skatiet šī](#conclusion) raksta sadaļu Noslēgums.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>3. scenārijs. Pieprasījums rodas pēc krājuma izpildes laika perioda
 
@@ -204,7 +204,7 @@ Iestatot vienumam Dienas(-) vērtību **0** (nulle) un izmantojot tikai dinamisk
 
 ## <a name="conclusion"></a>Nobeigums
 
-Kā liecina trīs šajā tēmā aprakstītie scenāriji, vienumam Dienas(-) ieteicams iestatīt skaitli, kas ir lielāks par vajadzību grupā esošo krājumu izpildes laiku. Ieteicams arī izmantot tikai dinamiskās negatīvās dienas un iestatīt vienumam Dienas(-) dienu skaitu, ko esat gatavs gaidīt, pirms jauna papildināšanas pasūtījuma veikšanas, ja ir negatīvi krājumi (citiem vārdiem sakot, dienu skaitu, par kuru esat gatavs papildus aizkavēt pieprasījumu). Turklāt krājumiem vienā vajadzību grupā ir jābūt līdzīgiem izpildes laikiem.
+Šajā rakstā ir redzams trīs scenāriji, ieteicams negatīvās dienas iestatīt uz skaitli, kas ir lielāks par vajadzību grupas krājumu izpildes laiku. Ieteicams arī izmantot tikai dinamiskās negatīvās dienas un iestatīt vienumam Dienas(-) dienu skaitu, ko esat gatavs gaidīt, pirms jauna papildināšanas pasūtījuma veikšanas, ja ir negatīvi krājumi (citiem vārdiem sakot, dienu skaitu, par kuru esat gatavs papildus aizkavēt pieprasījumu). Turklāt krājumiem vienā vajadzību grupā ir jābūt līdzīgiem izpildes laikiem.
 
 Iestatot vienumam Dienas(-) vērtību **0** (nulle) un neizmantojot dinamiskās negatīvās dienas, MRP vienmēr izveido jaunu plānoto pasūtījumu, lai izpildītu pieprasījumu. Šādā gadījumā ir svarīgi darbā izmantot darbību ziņojumus, lai nodrošinātu, ka neizveidojas pārāk liels krājumu atlikums.
 

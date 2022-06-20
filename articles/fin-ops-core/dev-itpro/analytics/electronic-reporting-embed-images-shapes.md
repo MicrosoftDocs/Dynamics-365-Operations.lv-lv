@@ -1,6 +1,6 @@
 ---
 title: Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER
-description: Šajā tēmā skaidrots, kā izmantot Elektronisko pārskatu rīku, lai ģenerētu biznesa dokumentus, kam ir iegulti attēli un formas.
+description: Šajā rakstā skaidrots, kā izmantot Elektronisko pārskatu rīku, lai ģenerētu biznesa dokumentus, kam ir iegulti attēli un formas.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 550ecca31af48e624e292b342d909abd6eb3e87af122f736eb388524b42f1e05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe0e6d6def50670566f44cfb5cd6bb4abe5faf15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851053"
 ---
 # <a name="embed-images-and-shapes-in-documents-that-you-generate-by-using-er"></a>Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER
 

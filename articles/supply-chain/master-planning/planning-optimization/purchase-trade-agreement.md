@@ -1,6 +1,6 @@
 ---
 title: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
-description: Šajā tēmā aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotam pasūtījumam, pamatojoties uz labāko cenu vai izpildes laiku, kas atrodams pirkšanas tirdzniecības līgumos.
+description: Šajā rakstā ir aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotajam pasūtījumam, balstoties uz labāko cenu vai izpildes laiku, kas atrodams pirkšanas tirdzniecības līgumos.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873758"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotam pasūtījumam, pamatojoties uz labāko cenu vai izpildes laiku, kas atrodams starp visiem pirkšanas tirdzniecības līgumiem, kuri norādīti attiecīgajai precei.
+Šajā rakstā ir aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotajam pasūtījumam, pamatojoties uz labāko cenu vai izpildes laiku, kas tiek atrasts starp visiem pirkšanas tirdzniecības līgumiem, kas ir noteikti norādītajai precei.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Pirkšanas tirdzniecības līgumu ieslēgšana plānošanas optimizācijas līdzeklim
 

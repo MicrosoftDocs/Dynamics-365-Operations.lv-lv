@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
-description: Šajā tēmā aprakstīts, kā projektēt elektronisko pārskatu (ER) konfigurāciju un noteikt tās atkarību no citiem programmatūras komponentiem.
+description: Šajā rakstā ir aprakstīts, kā projektēt elektronisko pārskatu (ER) konfigurāciju un noteikt tās atkarību no citiem programmatūras komponentiem.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883573"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
 
@@ -46,7 +46,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 7. Atlasiet Microsoft Dynamics 365 for Operations (1611).
 8. Laukā Versija ierakstiet "[7.1.1541.3036,8)".
     * [7.1.1541.3036,8)  
-    * Ievadītās atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tai ir jābūt pabeigtai Finance and Operations versijā ne vecākā par 7.1.1541.3036 vai jaunākā, bet ne jaunākā par galveno versiju 8.   
+    * Ievadītās atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā tiek iepriekš lejupielādēta, tā jāpabeidz finanšu un operāciju versijā 7.1.1541.3036 vai vēlāk, bet nedrīkst pārsniegt galveno versiju 8.   
 9. Noklikšķiniet uz Saglabāt.
 10. Aizvērt lapu.
 11. Noklikšķiniet uz Mainīt statusu.
@@ -136,7 +136,7 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
 25. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
-    * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija 'Parauga kartēšana (alternatīvi)' tiks lejupielādēta, savukārt konfigurācija 'Parauga kartēšana' tiks izlaista.  
+    * Ja piereģistrējaties finanšu un operācijās, reģistrējaties vienu nodrošinātāju, piekļūstiet tam pašam LCS projektam un lejupielādējiet to pašu datu modeļa konfigurāciju, tad tiks lejupielādēta konfigurācija "Parauga kartēšana (alternatīva)", bet konfigurācija "Parauga kartēšana" tiek izlaista.  
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -1,6 +1,6 @@
 ---
-title: Brīdinājumu noteikumu veidošana
-description: Šajā tēmā ir sniegta informācija par brīdinājumiem un ir paskaidrots, kā izveidot brīdinājuma kārtulu.
+title: Brīdinājumu kārtulu veidošana
+description: Šajā rakstā ir sniegta informācija par brīdinājumiem un skaidrots, kā veidot brīdinājuma noteikumus.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853622"
 ---
 # <a name="create-alert-rules"></a>Brīdinājumu kārtulu veidošana
 
@@ -75,7 +75,7 @@ Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdin
 
 ## <a name="alerts-as-business-events"></a>Brīdinājumi kā biznesa notikumi
 
-Brīdinājumus var sūtīt ārēji, izmantojot biznesa notikumu ietvaru. Veidojot brīdinājumu, iestatiet **Organizācijas mēroga** uz **Nē** un iestatiet **Sūtīt ārēji** uz **Jā**. Kad ir gatavs biznesa notikumu aktivizējošai brīdinājums, varat aktivizēt plūsmu, kas iebūvēta Power Automate, izmantojot trigeri **Kad notiek biznesa notikums** Finance and Operations savienotājā, vai arī tieši nosūtīt notikumu biznesa notikumu galapunktam, izmantojot **Biznesa notikumu katalogu**.
+Brīdinājumus var sūtīt ārēji, izmantojot biznesa notikumu ietvaru. Veidojot brīdinājumu, iestatiet **Organizācijas mēroga** uz **Nē** un iestatiet **Sūtīt ārēji** uz **Jā**. Pēc tam, kad brīdinājums izraisījis biznesa notikumu, jūs varat izraisīt plūsmu, kas veidota, Power Automate **izmantojot** Kad biznesa notikums rodas savienotājā Finanses un operācijas, **vai skaidri nosūtīt notikumu biznesa notikumu galapunktam, izmantojot biznesa notikumu katalogu**.
 
 ## <a name="create-an-alert-rule"></a>Brīdinājuma kārtulas izveide
 

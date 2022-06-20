@@ -1,6 +1,6 @@
 ---
 title: Programmā Supply Chain Management ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
-description: Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Dynamics 365 Field Service.
+description: Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu krājumu līmeņa informāciju no Dynamics 365 Supply Chain Management uz Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844798"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Programmā Supply Chain Management ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060949"
 
 
 
-Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietvertās krājumu līmeņu informācijas sinhronizēšanai ar programmu Dynamics 365 Field Service.
+Šajā rakstā ir aprakstītas veidnes un pamatā esošie uzdevumi, kas tiek izmantoti, lai sinhronizētu krājumu līmeņa informāciju no Dynamics 365 Supply Chain Management uz Dynamics 365 Field Service.
 
 [![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
@@ -64,7 +64,7 @@ Programmā Field Service integrācijas risinājums izveido krājumu žurnālus s
 
 Programma Supply Chain Management darbosies kā šablons krājumu līmeņiem. Tādēļ ir svarīgi iestatīt integrāciju darba pasūtījumiem, pārsūtīšanām un korekcijām no programmas Field Service programmā Supply Chain Management, ja šī funkcionalitāte tiek izmantota programmā Field Service, kopā ar krājumu līmeņu sinhronizāciju no programmas Supply Chain Management.
 
-Produktus un noliktavas, kurās krājumu līmeņi tiek apgūti no piegādes ķēdes pārvaldības, var kontrolēt, izmantojot uzlaboto vaicājumu un filtrēšanu (Power Query).
+Preces un noliktavas, kur krājumu līmeņi tiek vadīti no Piegādes ķēžu pārvaldības, var tikt kontrolēti ar Papildu vaicājumu un filtrēšanu (Power Query).
 
 > [!NOTE]
 > Ir iespējams izveidot vairākas noliktavas programmā Field Service (ja atlasīts iestatījums **Tiek ārēji uzturēts= Nē**) un pēc tam kartēt tās uz vienu noliktavu programmā Supply Chain Management, izmantojot funkcionalitāti Izvērsts vaicājums un filtrēšana. Tas tiek izmantots gadījumos, ja vēlaties, lai programma Field Service pārvalda detalizētu krājumu līmeni un tikai nosūta atjauninājumus uz programmu Supply Chain Management. Šajā gadījumā programma Field Service nesaņems krājumu līmeņu atjauninājumus no programmas Supply Chain Management. Papildinformāciju skatiet sadaļā [Programmā Field Service ietverto krājumu korekcijas darbību sinhronizēšana ar programmu Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) un [Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).

@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas pasūtījumu apstiprināšana un ratificēšana
-description: Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
+description: Šajā rakstā ir aprakstīti statusi, kādus pirkšanas pasūtījums ir spēkā pēc tā izveidošanas, un izmaiņu pārvaldības iespējošanas ietekme uz PO.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907382"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
+Šajā rakstā ir aprakstīti statusi, kas pirkšanas pasūtījumam (PP) tiek piešķirti pēc tam, kad tas ir izveidots, un pirkšanas pasūtījumu izmaiņu pārvaldības iespējošanas sekas.
 
 Kad ir izveidots pirkšanas pasūtījums (PP), iespējams, tam ir jāizpilda apstiprināšanas process. Kad kreditors pasūtījumam ir piekritis, pirkšanas pasūtījumam tiek iestatīts statuss **Ratificēts**.
 

@@ -1,6 +1,6 @@
 ---
 title: Plānoto pasūtījumu apstiprināšana
-description: Šajā tēmā skaidrots, kā apstiprināt plānotos pasūtījumus. Kad plānotie pasūtījumi ir apstiprināti, tie kļūst par faktiskajiem pirkšanas pasūtījumiem, pārsūtīšanas pasūtījumiem vai ražošanas pasūtījumiem.
+description: Šajā rakstā skaidrots, kā apstiprināt plānotos pasūtījumus. Kad plānotie pasūtījumi ir apstiprināti, tie kļūst par faktiskajiem pirkšanas pasūtījumiem, pārsūtīšanas pasūtījumiem vai ražošanas pasūtījumiem.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857523"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -29,11 +29,11 @@ Ir trīs plānoto pasūtījumu apstiprināšanas metodes:
 - **Automātiskā apstiprināšana** – nosakiet noklusēto apstiprināšanas periodu vajadzības grupām, atsevišķiem krājumiem un krājumu un vispārējo plānu kombinācijām. Pēc tam vispārējās plānošanas izpildes laikā plānotie pasūtījumi tiks automātiski apstiprināti, ja pasūtījuma datums ir norādītajā apstiprināšanas periodā.
 - **Apstiprināšana, pamatojoties uz vaicājumu** – definējiet vaicājumu, lai atlasītu plānotos pasūtījumus, pamatojoties uz to rekvizītiem. Jūs variet iestatīt pakešuzdevumu, lai palaistu vaicājumu un apstiprinātu atbilstošus pasūtījumus regulārā grafikā.
 
-Šajā tēmā ir sīkāk aprakstīta katra metode.
+Šajā rakstā ir sīkāk aprakstīta katra metode.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Iespējot šajā tēmā aprakstītos līdzekļus
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Iespējot šajā rakstā aprakstītos līdzekļus
 
-Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynamics 365 Supply Chain Management instalācijās, kas izmanto plānošanas optimizāciju. Tomēr daži no šajā tēmā aprakstītajiem līdzekļiem pirms to izmantošanas ir jāieslēdz līdzekļu pārvaldībā.
+Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynamics 365 Supply Chain Management instalācijās, kas izmanto plānošanas optimizāciju. Tomēr dažas no šajā rakstā aprakstītajām funkcijām ir jāieslēdzas Līdzekļu pārvaldībā pirms to lietošanas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ieslēgt vai izslēgt plānoto pasūtījumu paralēlo apstiprināšanas darbību
 
@@ -97,7 +97,7 @@ Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā da
 > Atvasinātiem pasūtījumiem (t.i. pakārtotie pirkšanas pasūtījumi), kas ir apstiprināti, būs statuss *Pārskatīšanā*, ja ir ieslēgta gadījuma izmaiņu izsekošana.
 
 > [!IMPORTANT]
-> Pirms šajā sadaļā aprakstīto līdzekli var izmantot kopā ar plānošanas optimizāciju, sistēmā ir jābūt ieslēgtam [*Plānošanas optimizācijas automātiskas apstiprināšanas* līdzeklim](#enable-features), kā aprakstīts šīs tēmas sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar iebūvēto vispārējās plānošanas programmu.
+> Pirms šajā sadaļā aprakstīto līdzekli var izmantot kopā ar plānošanas optimizāciju, [*·*](#enable-features) sistēmā ir jābūt ieslēgtai līdzeklim Plānošanas optimizācijas automātiska apstiprināšana, kā aprakstīts šī raksta sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar iebūvēto vispārējās plānošanas programmu.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automātiskā apstiprināšana ar plānošanas optimizāciju pret iebūvēto plānošanas programmu
 
@@ -130,7 +130,7 @@ Uz vaicājumiem balstīta apstiprināšana ļauj plānot apstiprināšanu, pamat
 Automātisko apstiprināšanu var apvienot ar vaicājumu apstiprināšanu. Piemēram, uz vaicājumu balstītam apstiprināšanas darbam ir nākotnes periods, kas ir garāks nekā laika periods atbilstošai automātiskās apstiprināšanas seguma konfigurācijai. Tādēļ uz vaicājumu balstīts apstiprināšanas darbs apstrādās tā plānotos pasūtījumus pirms automātiskās apstiprināšanas aktivizēšanas. Šo darbību var izmantot, lai plānotu pasūtījumus noteiktiem kreditoriem citādi nekā līdzīgu produktu pasūtījumus no citiem kreditoriem.
 
 > [!IMPORTANT]
-> Pirms šajā sadaļā aprakstīto līdzekli var izmantot, sistēmā ir jābūt ieslēgtam [*Plānotā pasūtījuma apstiprināšana ar filtrešanu* līdzeklim](#enable-features), kā aprakstīts šīs tēmas sākumā.
+> Pirms šajā sadaļā aprakstīto funkciju iespējams izmantot, [*·*](#enable-features) Plānoto pasūtījumu apstiprināšanas ar filtrēšanas funkciju jābūt ieslēgtam jūsu sistēmā, kā aprakstīts šī raksta sākumā.
 
 Lai apstiprinātu plānoto pasūtījumu, izmantojot apstiprināšanas procesu, kas balstīts uz vaicājumiem, veiciet šīs darbības.
 

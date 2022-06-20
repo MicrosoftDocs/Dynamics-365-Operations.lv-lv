@@ -1,6 +1,6 @@
 ---
-title: Testēšanas ar elektroniskajiem pārskatiem automatizēšana
-description: Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu (Electronic reporting — ER) struktūras bāzlīnijas līdzekli, lai automatizētu dažu funkciju testēšanu programmā .
+title: Testēšanas ar elektroniskiem pārskatiem automatizēšana
+description: Šajā rakstā skaidrots, kā var izmantot elektronisko pārskatu (ER) struktūras bāzlīnijas funkciju, lai automatizētu funkcionalitātes pārbaudi.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892774"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testēšanas ar elektroniskiem pārskatiem automatizēšana
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu (Electronic reporting — ER) struktūru, lai automatizētu dažu funkciju testēšanu. Šīs tēmas piemērā ir parādīts, kā automatizēt kreditoru maksājumu apstrādes testēšanu.
+Šajā rakstā skaidrots, kā var lietot Elektronisko pārskatu (ER) struktūru, lai automatizētu dažu funkciju pārbaudi. Šajā rakstā lietotais piemērs parāda, kā automatizēt kreditoru maksājumu apstrādes pārbaudi.
 
 Programma izmanto ER struktūru, lai izveidotu maksājumu failus un atbilstošos dokumentus kreditoru maksājumu apstrādes laikā. ER struktūra sastāv no datu modeļa, modeļa kartēšanas un formāta komponentiem, kas atbalsta maksājumu apstrādi dažādiem maksājumu veidiem un dokumentu izveidi dažādos formātos. Šos komponentus var lejupielādēt no Microsoft Dynamics Lifecycle Services (LCS) un importēt instancē.
 
@@ -54,15 +54,15 @@ Funkcionālie prasmīgie lietotāji var izpildīt piemērotības lietotājam un 
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālāk norādītie priekšnosacījumi.
+Pirms varat izpildīt šajā rakstā norādītos uzdevumus, ir jāizpilda šādi priekšnosacījumi:
 
 - Izvietojiet topoloģiju, kas atbalsta testu automatizāciju. Jums ir jābūt piekļuvei šīs topoloģijas instancei ar lomu **Sistēmas administrators**. Minētajā topoloģijā ir jāietver demonstrācijas dati, kas tiks izmantoti šajā piemērā. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana un lietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md).
-- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
+- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet tēmā [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
 
     ![RSAT iestatījumi.](media/GER-Configure.png "RSAT iestatījumu dialoglodziņa ekrānuzņēmums")
 
 - Lai kārtotu testa gadījumus komplektos veiksmīgai pareizas izpildes secības nodrošināšanai un lai varētu apkopot testu izpildes žurnālus turpmākai pārskatu sniegšanai un izmeklēšanai, jums ir nepieciešama piekļuve pakalpojumam Azure DevOps no izvietotās topoloģijas.
-- Lai izpildītu šajā tēmā sniegto piemēru, mēs iesakām lejupielādēt failu [ER izmantošana RSAT testiem](https://go.microsoft.com/fwlink/?linkid=874684). Šajā zip failā ir tālāk norādītās uzdevumu vadlīnijas.
+- Lai pabeigtu piemēru šajā rakstā, mēs iesakām lejupielādēt [ER lietojumu RSAT testiem](https://go.microsoft.com/fwlink/?linkid=874684). Šajā zip failā ir tālāk norādītās uzdevumu vadlīnijas.
 
     | Saturs                                           | Faila nosaukums un atrašanās vieta |
     |---------------------------------------------------|------------------------|

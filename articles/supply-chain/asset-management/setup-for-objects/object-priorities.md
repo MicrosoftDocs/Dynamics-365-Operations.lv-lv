@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pakalpojumu līmeņi
-description: Šajā tēmā ir paskaidroti līdzekļu pakalpojumu līmeņi Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidroti līdzekļu pakalpojumu līmeņi Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908690"
 ---
 # <a name="asset-service-levels"></a>Līdzekļu pakalpojumu līmeņi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6723603"
 
  
 
-Šajā tēmā ir paskaidroti līdzekļu pakalpojumu līmeņi Līdzekļu pārvaldībā. Līdzekļu pakalpojumu līmeņi ir saistīti ar līdzekļiem, un tiek pārsūtīti uz uzturēšanas pieprasījumiem un darba pasūtījumiem. Tos izmanto, lai darba pasūtījumu plānošanas laikā aprēķinātu darba uzdevumu prioritāti. Līdzekļu pakalpojumu līmeni var mainīt, ja ir nepieciešamas izmaiņas.
+Šajā rakstā skaidroti līdzekļu pakalpojumu līmeņi Līdzekļu pārvaldībā. Līdzekļu pakalpojumu līmeņi ir saistīti ar līdzekļiem, un tiek pārsūtīti uz uzturēšanas pieprasījumiem un darba pasūtījumiem. Tos izmanto, lai darba pasūtījumu plānošanas laikā aprēķinātu darba uzdevumu prioritāti. Līdzekļu pakalpojumu līmeni var mainīt, ja ir nepieciešamas izmaiņas.
 
 Plašāku informāciju par iestatījumiem, kas ir saistīti ar vērtējuma rezultātu aprēķināšanu darba pasūtījumu plānošanai, skatiet nodaļā [Līdzekļu pārvaldības parametri](../setup-for-objects/enterprise-asset-management-parameters.md). Līdzekļu pakalpojumu līmenim jāiestata vismaz viens noklusējuma ieraksts. Šo noklusējuma ierakstu izmanto, ja darba pasūtījuma plānošanas laikā netiek atrasta neviena cita atbilstība.
 

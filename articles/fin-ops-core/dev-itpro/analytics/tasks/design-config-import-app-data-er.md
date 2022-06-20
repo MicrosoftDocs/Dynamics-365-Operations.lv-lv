@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83fbcd2cedab02643f8a2b22a098343ff065047d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884175"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigurāciju noformēšana ienākošo dokumentu parsēšanai
 
@@ -27,7 +27,7 @@ ms.locfileid: "6756385"
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.
 
-Šīs darbības var veikt, izmantojot jebkuru datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas ir uzskaitīti tēmā "Ienākošo dokumentu parsēšana, lai atjauninātu programmas datus" ([Ienākošo dokumentu parsēšana](../parse-incoming-electronic-documents.md)). Minētie faili ir: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Šīs darbības var veikt, izmantojot jebkuru datu kopu. Pirms sākat, lejupielādējiet un saglabājiet raksta uzskaitītos failus sadaļā "Parsēt ienākošos dokumentus, lai atjauninātu programmas datus" (Parsēt [ienākošos dokumentus](../parse-incoming-electronic-documents.md)). Minētie faili ir: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.

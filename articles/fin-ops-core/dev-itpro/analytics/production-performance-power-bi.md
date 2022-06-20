@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Ražošanas veiktspēja
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Ražošanas veiktspēja.
+description: Šajā rakstā ir aprakstīts, kas ir iekļauts Ražošanas veiktspējas Power BI saturā.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881466"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI satura pakotne Ražošanas veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts satura pakotnē **PRažošanas veiktspēja** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts, kas ir iekļauts **Ražošanas veiktspējas** Microsoft Power BI saturā. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -63,7 +63,7 @@ Power BI satura pakotnes **Ražošanas veiktspēja** pārskatu lapās tiek izman
 
 Tālāk esošajā tabulā ir norādīti galvenie apkopošanas mērījumi, kas tiek izmantoti Power BI satura pakotnes izveidei.
 
-| Elements                   | Galvenie apkopošanas mērījumi  | Datu avots Finance and Operations programmām | Lauks              |
+| Elements                   | Galvenie apkopošanas mērījumi  | Finance and Operations programmu datu avots | Lauks              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

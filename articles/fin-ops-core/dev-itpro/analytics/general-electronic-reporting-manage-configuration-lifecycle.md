@@ -1,6 +1,6 @@
 ---
-title: Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība
-description: Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Dynamics 365 Finance.
+title: Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
+description: Šajā rakstā ir aprakstīts, kā pārvaldīt Dynamics 365 Finance elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906802"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārvaldīt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurāciju Dynamics 365 Finance.
+Šajā rakstā ir aprakstīts, kā pārvaldīt Dynamics 365 Finance elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
 
 ## <a name="overview"></a>Pārskats
 
@@ -73,7 +73,7 @@ Ar ER konfigurācijas dzīves ciklu ir saistītas tālāk norādītās lomas un
 | Kreditoriem maksājamo rēķinu darbinieks            | Izmantot ER artefaktus noteiktā biznesa procesā.                | Piemēram, loma **Kreditoriem maksājamo rēķinu darbinieks**, kas sniedz iespēju ģenerēt rēķinu apstrādes elektroniskos maksājumu ziņojumus, pamatojoties uz ER formātu, kas ir konfigurēts noteiktai maksājumu metodei. |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER konfigurācijas izstrādes dzīves cikls
-Tālāk minēto ar ER saistīto apsvērumu dēļ ER konfigurācijas ir ieteicams veidot izstrādes vidē kā atsevišķā Finance and Operations instancē:
+Tālāk minēto ar ER saistīto apsvērumu dēļ ER konfigurācijas ir ieteicams veidot izstrādes vidē kā atsevišķu Finance and Operations instanci.
 
 - Lietotāji, kam ir loma **Elektronisko pārskatu izstrādātājs** vai **Elektronisko pārskatu veidošanas funkcionālais konsultants**, var rediģēt konfigurācijas un palaist tās testēšanas nolūkos. Šis scenārijs var izraisīt klašu un tabulu metožu izsaukumus, kas var kaitēt biznesa datiem un instances izmantošanas veiktspējai.
 - Klašu un tabulu metožu kā ER konfigurāciju ER datu avotu izsaukumus neierobežo ieejas punkti un reģistrēts uzņēmuma saturs. Tādēļ lietotāji, kuriem ir loma **Elektronisko pārskatu izstrādātājs** vai **Elektronisko pārskatu veidošanas funkcionālais konsultants**, var piekļūt konfidenciāliem uzņēmuma datiem.

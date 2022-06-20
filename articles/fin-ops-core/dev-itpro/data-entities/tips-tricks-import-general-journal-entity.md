@@ -1,6 +1,6 @@
 ---
 title: Dokumentu importēšana, izmantojot Virsgrāmatas žurnāla entītiju
-description: Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
+description: Šajā raksta ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867616"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Dokumentu importēšana, izmantojot Virsgrāmatas žurnāla entītiju
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065074"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
+Šajā raksta ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
 
 Elementu Virsgrāmatas žurnāls varat izmantot, lai importētu dokumentus, kuru konta vai korespondējošā konta tips ir **Virsgrāmata**, **Debitors**, **Kreditors** vai **Banka**. Dokumentu var ievadīt kā vienu rindu, izmantojot gan lauku **Konts**, gan lauku **Korespondējošais konts**, vai kā vairāku rindu dokumentu, kurā tiek izmantots tikai lauks **Konts** (un lauks **Korespondējošais konts** katrā rindā tiek atstāts tukšs). Elements Virsgrāmatas žurnāls neatbalsta visus kontu tipus. Tā vietā pastāv citi elementi tādiem scenārijiem, kur ir nepieciešamas citādas kontu tipu kombinācijas. Piemēram, lai importētu projekta darījumu izmantojiet elementu Projekta izdevumu žurnāls. Katrs elements ir paredzēts specifisku scenāriju atbalstam. Tas nozīmē, ka šajos scenārijos var būt pieejami papildu lauki. Tomēr papildu lauki elementos var nebūt pieejami dažādiem scenārijiem.
 

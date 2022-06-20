@@ -1,6 +1,6 @@
 ---
 title: Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Field Service
-description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevums, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Field Service.
+description: Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu preces no Dynamics 365 Supply Chain Management uz Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 114550f01f3aed197480fb6830fe913dbfa7b570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860556"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas veidnes un pamata uzdevums, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Field Service.
+Šajā rakstā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti, lai sinhronizētu preces no Dynamics 365 Supply Chain Management Dynamics 365 field Service.
 
 Izmantotā veidne **Field Service preces (no Supply Chain Management uz Field Service)** balstās uz veidni **Preces (no Supply Chain Management uz Sales) — tieši** no risinājuma No potenciālā klienta līdz skaidrai naudai. Papildinformāciju skatiet sadaļā [Preces (no Supply Chain Management uz Sales) — tieši](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Šajā tēmā ir aprakstītas tika atšķirības starp veidnēm **Field Service preces (no Supply Chain Management uz Field Service)** un **Preces (no Supply Chain Management uz Sales) — tieši**.
+Šajā rakstā aprakstītas tikai atšķirības **starp Field Service precēm (piegādes ķēdes pārvaldība lauka pakalpojumam)** **un precēm (piegādes ķēdes pārvaldība pārdošanai) - tiešas** veidnes.
 
 ## <a name="templates-and-tasks"></a>Veidnes un uzdevumi
 

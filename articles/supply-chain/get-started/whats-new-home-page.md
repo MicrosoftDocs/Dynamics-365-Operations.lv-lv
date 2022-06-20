@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
-description: Šī tēma norāda uz tēmām, kas apraksta jaunos un mainītos līdzekļus katrā Dynamics 365 Supply Chain Management laidienā.
+description: Šis raksts norāda uz rakstiem, kas apraksta jaunās un mainītās funkcijas katrā versijas versijā Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893444"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812977"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management laidieni
 
-Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management programmas laidienā, skatiet šādas tēmas.
+Lai redzētu, kas jauns vai mainīts katrā šī gada versijā Dynamics 365 Supply Chain Management, skatiet sekojošos rakstos.
 
 | Versija | Procesa numurs | Automātiskā atjauninājuma pieejamība | Papildinformācija |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Lai redzētu, kas jauns vai mainīts katrā Dynamics 365 Supply Chain Management
 
 ## <a name="releases-before-november-2019"></a>Izlaidumi līdz 2019. gada novembrim
 
-Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gada novembrim, skatiet šādas tēmas.
+Lai redzētu, kas jauns vai mainīts laidienos pirms 2019. gada novembris, skatiet sekojošos rakstus.
 
 | Nodot izpildei | Versija | Procesa numurs | Pieejamība | Papildinformācija |
 |---|---|---|---|---|

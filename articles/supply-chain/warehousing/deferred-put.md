@@ -1,6 +1,6 @@
 ---
 title: Noliktavas darba atliktā apstrāde
-description: Šajā tēmā ir aprakstīta funkcionalitāte, kas padara noliktavas darba izvietot operāciju atlikto apstrādi pieejamu programmā  Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīta funkcionalitāte, kas atlikto noliktavas darba izvietošanas operāciju apstrādi padara pieejamu Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899300"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Noliktavas darba atliktā apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta funkcionalitāte, kas padara izvietošanas operāciju noliktavas darbam atlikto apstrādi pieejamu programmā Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīta funkcionalitāte, kas atlikto izvietošanas operāciju apstrādi noliktavas darbam padara pieejamu Dynamics 365 Supply Chain Management.
 
 Atliktās apstrādes funkcionalitāte ļauj noliktavas darbiniekiem turpināt darīt citu darbu, kamēr izvietošanas operācija tiek apstrādāta fonā. Atliktā apstrāde ir noderīga, ja ir jāapstrādā daudzas darba rindas un darbinieks var ļaut šo darbu apstrādāt asinhroni. Tas noder arī tad, ja serverim var būt ad hoc vai neplānoti palielinājumi apstrādes laikā, un palielinātais apstrādes laiks var ietekmēt lietotāja produktivitāti.
 

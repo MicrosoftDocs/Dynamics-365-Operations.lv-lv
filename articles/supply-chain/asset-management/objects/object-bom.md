@@ -1,6 +1,6 @@
 ---
 title: Līdzekļa MK
-description: Šajā tēmā ir aprakstīti līdzekļu materiālu komplekti (MK) Līdzekļu pārvaldībā.
+description: Šajā rakstā ir aprakstīti pamatlīdzekļu materiālu komplekti (MK) Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882784"
 ---
 # <a name="asset-boms"></a>Līdzekļa MK
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751989"
 
  
 
-Šajā tēmā ir aprakstīti līdzekļu materiālu komplekti (MK) Līdzekļu pārvaldībā. Lapā **Līdzekļa MK** tiek parādīts visu to preču (rezerves daļu un citu vienību) saraksts, kuras tiek izmantotas līdzeklism visā tā dzīves cikla laikā. Kad veidojat jaunu līdzekli, apsveriet iespēju iestatīt līdzekļa MK kā iestatīšanas procedūras daļu. Šādi var izsekot līdzekļa vienību vēsturi no izveides datuma.
+Šajā rakstā ir aprakstīti pamatlīdzekļu materiālu komplekti (MK) Pamatlīdzekļu pārvaldībā. Lapā **Līdzekļa MK** tiek parādīts visu to preču (rezerves daļu un citu vienību) saraksts, kuras tiek izmantotas līdzeklism visā tā dzīves cikla laikā. Kad veidojat jaunu līdzekli, apsveriet iespēju iestatīt līdzekļa MK kā iestatīšanas procedūras daļu. Šādi var izsekot līdzekļa vienību vēsturi no izveides datuma.
 
 Kad esat pabeidzis uzturēšanas darbu un krājuma patēriņš ir reģistrēts darba pasūtījumā, varat izsekot to rezerves daļu un citu vienību patēriņu, kas ir izmantotas līdzeklim. Šī funkcionalitāte ļauj saglabāt pilnīgu vienību patēriņa ierakstu par visiem jūsu līdzekļiem. Piemēram, var izmantot ierakstu, lai pārraudzītu, vai konkrēta rezerves daļa bieži tiek aizstāta, vai lai reģistrētu rezerves daļas vai citas vienības, kas pašlaik tiek izmantotas līdzeklim.
 

@@ -1,6 +1,6 @@
 ---
 title: Ražošanas plānošana
-description: Šajā tēmā ir aprakstīta ražošanas plānošana un skaidrots, kā modificēt plānotos ražošanas pasūtījumus, izmantojot plānošanas optimizāciju.
+description: Šajā rakstā ir aprakstīta ražošanas plānošana un skaidrots, kā modificēt plānotos ražošanas pasūtījumus, izmantojot plānošanas optimizāciju.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873787"
 ---
 # <a name="production-planning"></a>Ražošanas plānošana
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469063"
 
 Optimizācijas plānošana atbalsta vairākus ražošanas scenārijus. Ja migrēsit no esošās iebūvētās vispārējās plānošanas programmas, ir svarīgi atcerēties kādu no mainītajiem scenārijiem.
 
-Tālāk sniegtais video sniedz īsu ievadu dažiem šajā tēmā minētajiem koncepcijām: [Dynamics 365 Supply Chain Management: optimizācijas uzlabojumu plānošana](https://youtu.be/u1pcmZuZBTw).
+Tālāk sniegtais video sniedz īsu ievadu dažiem šajā rakstā minētajiem jēdzieniem: Optimizācijas [Dynamics 365 Supply Chain Management uzlabojumu plānošana](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Plānotie ražošanas pasūtījumi Plānošanas optimizācijai*.
+Ja sistēmā vēl nav ietverti šajā rakstā aprakstītie līdzekļi, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*pārejiet uz sadaļu Līdzekļu pārvaldība un slēdziet līdzekli Plānotie ražošanas pasūtījumi optimizācijas plānošanai.*
 
 ## <a name="planned-production-orders"></a>Plānotie ražošanas pasūtījumi
 
@@ -65,7 +65,7 @@ Ja vēlaties mainīt informāciju plānotajā pasūtījumā un redzēt ietekmi u
 2. Apstipriniet plānoto pasūtījumu.
 3. Palaidiet vispārējo plānošanu.
 
-Palaižot vispārējo plānošanu, nav jāizmanto filtri, ja iekļauti plānotie ražošanas pasūtījumi. Papildinformāciju skatiet šīs tēmas turpinājumā esošajā sadaļā [Filters](#filters).
+Palaižot vispārējo plānošanu, nav jāizmanto filtri, ja iekļauti plānotie ražošanas pasūtījumi. Papildinformāciju skatiet tālāk šī [raksta](#filters) sadaļā Filtri.
 
 > [!NOTE]
 > Ja plānotā pasūtījuma piegādes datums tiek mainīts uz vēlāku datumu, pieprasījums var tikt piesaistīts jaunajam plānotajam pasūtījumam. Šī darbība notiek, kad jaunais piegādes datums izraisa piesaistītā pieprasījuma aizkavēšanos, bet atbilstīgi izpildes laika iestatījumiem aizkavēšanos var kavēt.

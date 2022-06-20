@@ -1,6 +1,6 @@
 ---
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
-description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt sistēmā Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kas ir ieplānoti noņemšanai Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865271"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma tiks atjaunināta, kolīdz būs dokumentēti jauni noņemti vai novecojuši līdzekļi Dynamics 365 Supply Chain Management.
+Šis dokuments tiks atjaunināts, jo tiks dokumentēti jauni noņemti vai novecojuši līdzekļi Dynamics 365 Supply Chain Management.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.

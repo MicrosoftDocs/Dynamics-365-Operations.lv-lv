@@ -1,6 +1,6 @@
 ---
 title: Rīcībā esošo krājumu saraksts
-description: Šajā tēmā ir aprakstīts, kā izmantot rīcībā esošo sarakstu lapu, lai pārbaudītu rīcībā esošo krājumu detaļas. Tas parāda dažus veidus, kā dažādās filtrēšanas un šķirošanas iespējas darbojas kopā, un to, kā šīs iespējas dažreiz var radīt negaidītus rezultātus, kad tās tiek apvienotas.
+description: Šajā rakstā ir aprakstīts, kā izmantot rīcībā esošo krājumu saraksta lapu, lai pārbaudītu detalizētu rīcībā esošo krājumu informāciju. Tas parāda dažus veidus, kā dažādās filtrēšanas un šķirošanas iespējas darbojas kopā, un to, kā šīs iespējas dažreiz var radīt negaidītus rezultātus, kad tās tiek apvienotas.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879053"
 ---
 # <a name="inventory-on-hand-list"></a>Rīcībā esošo krājumu saraksts
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izmantot **rīcībā esošo sarakstu** lapu, lai pārbaudītu rīcībā esošo krājumu detaļas. Tas parāda dažus veidus, kā dažādās filtrēšanas un šķirošanas iespējas darbojas kopā, un to, kā šīs iespējas dažreiz var radīt negaidītus rezultātus, kad tās tiek apvienotas.
+Šajā rakstā ir aprakstīts, kā izmantot **rīcībā esošo krājumu saraksta lapu**, lai pārbaudītu detalizētu rīcībā esošo krājumu informāciju. Tas parāda dažus veidus, kā dažādās filtrēšanas un šķirošanas iespējas darbojas kopā, un to, kā šīs iespējas dažreiz var radīt negaidītus rezultātus, kad tās tiek apvienotas.
 
 ## <a name="query-your-on-hand-inventory"></a>Rīcībā esošo krājumu vaicājums
 
@@ -35,9 +35,9 @@ Lai pārbaudītu krājumu pieejamību, dodieties uz **Krājumu pārvaldība \> V
 Izmantojiet tālāk norādītos rīkus, lai atrastu preču kopu, ko meklējat:
 
 - Darbību rūtī atlasiet [**Dimensijas**](#dimensions), lai atvērtu dialoglodziņu, kur varat pievienot vai noņemt kolonnas, kas tiek rādītas **Rīcībā esošajā** režģī.
-- [**Filtru** rūtī](#filters-pane) ievadiet vērtības konkrētiem laukiem, lai parādītu tikai tos ierakstus, kas atbilst šīm vērtībām. Ņemiet vērā, ka šeit definētie filtri attiecas uz avota tabulām, ko var apkopot vēlāk, atbilstoši dimensijām, ko esat atlasījis rādīšanai. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
+- [**Filtru** rūtī](#filters-pane) ievadiet vērtības konkrētiem laukiem, lai parādītu tikai tos ierakstus, kas atbilst šīm vērtībām. Ņemiet vērā, ka šeit definētie filtri attiecas uz avota tabulām, ko var apkopot vēlāk, atbilstoši dimensijām, ko esat atlasījis rādīšanai. Papildinformāciju par to, kā šī darbība var ietekmēt jūsu rezultātus [, skatiet tālāk](#examples) šī raksta piemēros.
 - Rūtī **Filtri** atlasiet **Lietot**, lai ģenerētu rīcībā esošo krājumu salīdzināšanas sarakstu **Rīcībā esošajā** režģī.
-- **Rīcībā esošajā** režģī atlasiet jebkuru kolonnas virsrakstu, lai kārtotu vai filtrētu pēc vērtībām šajā kolonnā. QuickFilter, kas atrodas režģa sākumā, piedāvā papildu filtrēšanas opcijas. Šie filtri attiecas uz rezultātiem, nevis uz avota tabulām. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
+- **Rīcībā esošajā** režģī atlasiet jebkuru kolonnas virsrakstu, lai kārtotu vai filtrētu pēc vērtībām šajā kolonnā. QuickFilter, kas atrodas režģa sākumā, piedāvā papildu filtrēšanas opcijas. Šie filtri attiecas uz rezultātiem, nevis uz avota tabulām. Papildinformāciju par to, kā šī darbība var ietekmēt jūsu rezultātus [, skatiet tālāk](#examples) šī raksta piemēros.
 
 Katram saskaņotajam vienumam **Rīcībā esošais** režģis sniedz šādas krājumu informācijas kolonnas.
 
@@ -64,7 +64,7 @@ Izmantojiet **Filtru** rūti, lai filtrētu rīcībā esošo krājumu sarakstu t
 > [!IMPORTANT]
 > **Rīcībā esošā saraksta** lapa tiek apkopota no detalizētas rīcībā esošo krājumu tabulas, kas ietver visas pieejamās dimensijas. Tomēr saraksts šajā lapā ir kopsavilkums. Tāpēc tā var apvienot rindas no avota tabulas, apkopojot vērtības atbilstoši parādītajām dimensijām.
 >
-> Filtri, ko nosakāt **Filtru** rūtī, attiecas uz avota tabulu, nevis uz apkopoto sarakstu. Šī uzvedība reizēm var izraisīt negaidītus rezultātus. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
+> Filtri, ko nosakāt **Filtru** rūtī, attiecas uz avota tabulu, nevis uz apkopoto sarakstu. Šī uzvedība reizēm var izraisīt negaidītus rezultātus. Papildinformāciju par to, kā šī darbība var ietekmēt jūsu rezultātus [, skatiet tālāk](#examples) šī raksta piemēros.
 > 
 > Tomēr [režģī sniegtie filtri](#grid-filters) *attiecas* uz apkopoto sarakstu. Šie filtri ietver gan QuickFilter režģa augšpusē, gan katra kolonnas virsraksta filtru.
 
@@ -75,7 +75,7 @@ Varat modificēt filtru kopu, kas ir pieejama **Filtru** rūtī, veicot šādas 
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Atlasīt rādāmās dimensijas
 
-Dimensijas sniedz vairāk par katru rīcībā esošo vienumu, kas atrodas rīcībā esošajā krājumā, un sniedz vairāk veidu, kā kārtot un filtrēt sarakstu. Dimensijas, ko atlasāt, lai parādītu, ietekmē arī to, kā rindas tiek apkopotas **Rīcībā esošā saraksta** lapā. Šis apkopojums, savukārt, var ietekmēt to, kā avota tabulu rindas tiek apvienotas redzamajos rezultātos. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
+Dimensijas sniedz vairāk par katru rīcībā esošo vienumu, kas atrodas rīcībā esošajā krājumā, un sniedz vairāk veidu, kā kārtot un filtrēt sarakstu. Dimensijas, ko atlasāt, lai parādītu, ietekmē arī to, kā rindas tiek apkopotas **Rīcībā esošā saraksta** lapā. Šis apkopojums, savukārt, var ietekmēt to, kā avota tabulu rindas tiek apvienotas redzamajos rezultātos. Papildinformāciju par to, kā šī darbība var ietekmēt jūsu rezultātus [, skatiet tālāk](#examples) šī raksta piemēros.
 
 Lai pielāgotu rādāmo krājumu dimensiju atlasi, veiciet šīs darbības.
 
@@ -89,7 +89,7 @@ Lai pielāgotu rādāmo krājumu dimensiju atlasi, veiciet šīs darbības.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrēt rīcībā esošo krājumu saraksta izvadi
 
-Varat atlasīt jebkuru kolonnas virsrakstu **Rīcībā esošajā** režģī, lai kārtotu vai filtrētu pēc vērtībām šajā kolonnā. QuickFilter, kas atrodas režģa sākumā, piedāvā papildu filtrēšanas opcijas. Šie filtri attiecas uz rezultātiem, nevis uz avota tabulām. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
+Varat atlasīt jebkuru kolonnas virsrakstu **Rīcībā esošajā** režģī, lai kārtotu vai filtrētu pēc vērtībām šajā kolonnā. QuickFilter, kas atrodas režģa sākumā, piedāvā papildu filtrēšanas opcijas. Šie filtri attiecas uz rezultātiem, nevis uz avota tabulām. Papildinformāciju par to, kā šī darbība var ietekmēt jūsu rezultātus [, skatiet tālāk](#examples) šī raksta piemēros.
 
 > [!NOTE]
 > Nevar filtrēt un kārtot pēc visām kolonnām. Lielākajā daļā daudzuma kolonnu nav iekļautas kārtošanas un filtrēšanas vadīklas, jo tās ir aprēķinātie lauki. Kolonna **Pēc pasūtījuma** ir izņēmums.

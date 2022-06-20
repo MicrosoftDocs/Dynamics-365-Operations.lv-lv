@@ -1,8 +1,8 @@
 ---
 title: Instalēt krājumu uztveramības pievienojumprogrammu
-description: Šajā tēmā ir aprakstīts, kā instalēt Krājumu redzamības pievienojumprogrammu programmā Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīts, kā instalēt krājumu redzamības pievienojumprogrammu programmai Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895704"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
+Šajā rakstā ir aprakstīts, kā instalēt krājumu redzamības pievienojumprogrammu programmai Microsoft Dynamics 365 Supply Chain Management.
 
-Šajā tēmā ir aprakstīts, kā instalēt Krājumu redzamības pievienojumprogrammu programmā Microsoft Dynamics 365 Supply Chain Management.
+Lai instalētu Krājumu uztveramības pievienojumprogrammu, izmantojot Microsoft Dynamics Lifecycle Services (LCS). LCS ir sadarbības portāls, kas nodrošina vides un regulāri atjauninātu pakalpojumu kopu, kas palīdz pārvaldīt jūsu Finance and Operations programmu dzīves ciklu. Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Lai instalētu Krājumu uztveramības pievienojumprogrammu, izmantojot Microsoft Dynamics Lifecycle Services (LCS). LCS ir sadarbības portāls, kas nodrošina vides un regulāri atjauninātu pakalpojumu kopu, kas palīdz pārvaldīt jūsu Finance and Operations programmu dzīves ciklu.
-
-Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Ieteicams pievienoties lietotāju grupai Krājumu redzamība– pievienojumprogramma, kurā varat atrast noderīgas ceļvežus, iegūt visjaunākos atjauninājumus un grāmatot visus jautājumus, kas jums varētu rasties par krājumu redzamības redzamību. Lai pievienoties, lūdzu, nosūtiet e-pasta ziņojumu krājumu redzamības [produktu inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) un ietveriet jūsu Piegādes ķēžu pārvaldības vides ID.
 
 ## <a name="inventory-visibility-prerequisites"></a>Krājumu redzamības priekšnosacījumi
 
@@ -44,6 +44,9 @@ Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalēt krājumu uztveramības pievienojumprogrammu
 
 Pirms pievienojumprogrammas instalēšanas reģistrējiet programmu un pievienojiet klienta slepeno informāciju Azure Active Directory (Azure AD) jūsu Azure abonementā. Norādījumus skatiet sadaļā [Pieteikuma reģistrēšana](/azure/active-directory/develop/quickstart-register-app) un [Klienta slepenās informācijas pievienošana](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Noteikti atzīmējiet **Programmas (klienta) ID**, **Klienta slepeno informāciju** un **Nomnieka ID** vērtības, jo jums tās būs nepieciešamas vēlāk.
+
+> [!IMPORTANT]
+> Ja ir vairāk nekā viena LCS vide, izveidojiet katrai Azure AD no tām atšķirīgu programmu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tādēļ būs derīga tikai pēdējā instalēšana.
 
 Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD izpildiet šīs darbības, lai instalētu Krājumu redzamības pievienojumprogrammu.
 
@@ -72,11 +75,18 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Atlasiet **Instalēt**. Pievienojumprogrammas statuss tiks rādīts kā **Instalē**. Pēc tam, kad instalēšana ir pabeigta, atsvaidziniet lapu. Statusam ir jāmainās uz **Instalēts**.
 1. Programmas Dataverse kreisās navigācijas rūtī izvēlieties sadaļu **Programmas** un pārbaudiet, vai **Krājumu redzamība** ir veiksmīgi instalēta Power Apps. Ja nav sadaļas **Programmas**, sazinieties ar Krājumu redzamības preču grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> Mēs iesakām pievienoties krājumu redzamības pievienojumprogrammas lietotāju grupai, kurā varat atrast noderīgas rokasgrāmatas, saņemt mūsu jaunākos atjauninājumus un publicēt visus jautājumus par krājumu redzamības izmantošanu. Lai pievienotos, lūdzu, nosūtiet e-pasta ziņojumu krājumu redzamības produktu komandai uz e-pastu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) un iekļaujiet savu Supply Chain Management vides ID.
-
-> [!IMPORTANT]
-> Ja jums ir vairāk nekā viena LCS vide, izveidojiet katrai videi atšķirīgu Azure AD lietojumprogrammu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tikai pēdējā instalētā vide būs derīga.
+> [!NOTE]
+> Ja no LCS lapas instalēšanai ir nepieciešama vairāk nekā viena stunda, iespējams, jūsu lietotāja kontam, iespējams, trūkst atļaujas instalēt risinājumus Dataverse vidē. Lai atrisinātu problēmu, izpildiet šīs darbības:
+>
+> 1. Atceliet krājumu redzamības pievienojumprogrammu instalēšanas procesu no LCS lapas.
+> 1. Piesakieties [Microsoft 365 administrēšanas](https://admin.microsoft.com) centrā un pārliecinieties, vai lietotāja kontam, kuru vēlaties izmantot, lai instalētu pievienojumprogrammu, ir piešķirta licence "Dynamics 365 Unified Operations Plāns". Ja nepieciešams, piešķiriet licenci.
+> 1. Piesakieties administratora [Power Platform centrā,](https://admin.powerplatform.microsoft.com) izmantojot attiecīgo lietotāja kontu. Pēc tam instalējiet krājumu redzamības pievienojumprogrammu, veicot šādas darbības:
+>     1. Atlasiet vidi, kurā vēlaties instalēt pievienojumprogrammu.
+>     1. Atlasiet **Dynamics 365 programmas**.
+>     1. Atlasiet **programmu Instalēšana**.
+>     1. Atlasīt **krājumu redzamību**
+>
+> 1. Kad instalēšana pabeigta, atgriezieties lapā LCS un mēģiniet vēlreiz atkārtoti **instalēt krājumu redzamības** pievienojumprogrammu.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Atinstalēt Krājumu redzamības pievienojumprogrammu
 

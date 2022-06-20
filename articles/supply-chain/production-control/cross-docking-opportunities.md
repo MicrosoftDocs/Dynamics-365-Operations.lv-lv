@@ -1,6 +1,6 @@
 ---
 title: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
-description: Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
+description: Šajā rakstā ir aprakstīts, kā pārvaldīt to materiālu pārkraušanu sadales centrā, par kuru tiek ziņots kā par pabeigtu no ražošanas rindas uz nosūtīšanas transportēšanas doku.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea3ae6cb83d6577ba76d7e2aff9a05973b314cfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849334"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pārvaldīt materiāla pārkraušanu sadales centrā, kad ražošanas līnijā tiek reģistrēta materiāla pabeigšana un tas tiek pārvietots uz izejošās plūsmas transportēšanas sadales centru.
+Šajā rakstā ir aprakstīts, kā pārvaldīt to materiālu pārkraušanu sadales centrā, par kuru tiek ziņots kā par pabeigtu no ražošanas rindas uz nosūtīšanas transportēšanas doku.
 
 ## <a name="introduction"></a>Ievads
 

@@ -1,6 +1,6 @@
 ---
 title: Plānošanas optimizācijas paplašināmība
-description: Šajā tēmā ir aprakstīti Plānošanas optimizācijas atbalstītie paplašināmības scenāriji.
+description: Šajā rakstā ir aprakstīti paplašināmības scenāriji, kas tiek atbalstīti optimizācijas plānošanā.
 author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 7d649110959e6bcfdaeb32dd53c55dbc446ed1be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857549"
 ---
 # <a name="planning-optimization-extensibility"></a>Plānošanas optimizācijas paplašināmība
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti Plānošanas optimizācijas atbalstītie paplašināmības scenāriji, kas saistīti ar vispārējo plānošanu. Šīs iespējas ir pieejamas no Microsoft versijas Dynamics 365 Supply Chain Management 10.0.13.
+Šajā rakstā ir aprakstīti paplašināmības scenāriji, kas ir saistīti ar vispārējo plānošanu un tiek atbalstīti optimizācijas plānošanā. Šīs iespējas ir pieejamas no Microsoft versijas Dynamics 365 Supply Chain Management 10.0.13.
 
 ## <a name="custom-processing-when-master-planning-is-completed"></a>Pielāgota apstrāde pēc vispārējās plānošanas pabeigšanas
 

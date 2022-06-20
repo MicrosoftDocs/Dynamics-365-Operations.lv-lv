@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a61e501d843e220259f9e26aac4309e6902d7a22
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a9ff9cb71b08d94e45e82c2b8f81550c9f8aba64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897753"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Mācību katalogs Dynamics 365 Supply Chain Management administratoriem
 
@@ -42,7 +42,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Migrēt datus un doties tiešsaistē, izmantojot finanšu un operāciju programmas](/learn/paths/migrate-data-go-live-finance-operations/) | Kā funkcionāls konsultants jums ir jāsaprot, kā sagatavot klienta datus migrācijai, strādāt ar datu pārvaldību un veikt lietotāju pieņemšanas pārbaudes, lai strādātu ar Finanšu un operāciju programmām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
 | [Darbs ar analīzi un pārskatiem programmā Finance and Operation](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | Biznesa līderi var pieņemt svarīgus lēmumus savā uzņēmumā, ja tiem ir precīza izpratne par pamata finanšu un darbības datiem. Bez datu pārredzamības biznesa līderiem jāuzņemas gandrīz neiespējams uzdevums. Izmantojot analīzes un pārskatu sniegšanu finanšu un operāciju programmās, var sniegt iespējas katram biznesa lietotājam, atkarībā no viņu drošības tiesībām, lai iegūtu priekšstatus, kas nepieciešamas, lai pieņemtu šos svarīgus lēmumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 1.5 stundas |
 | [Finanšu un operāciju ieviešanas projekta pārvaldība](/learn/paths/implement-finance-operations/) | Uzziniet svarīgākos elementus un labāko praksi, lai pārvaldītu sekmīgu finanšu un operāciju ieviešanas projektu. No pirmā soļa, kad plānojat un projektējiet savu projekta metodoloģiju, FastTrack pakalpojumu izmantošanu, izstrādes stratēģiju, datu pārvaldību un daudz ko citu, lai varētu uzturēt un pārraudzīt jūsu darbības pēc to sākšanas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 11.5 stundas |
-| [Sistēmas administrēšanas sākumlapa](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Šī tēma norāda uz saturu Microsoft Dynamics 365 for Finance and Operations sistēmas administratoriem. Šis saturs palīdzēs jums sistēmu konfigurēt tā, lai tā darbotos efektīvi un bez traucējumiem jūsu organizācijai. | Dokumentācija | |
+| [Sistēmas administrēšanas sākumlapa](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Šis raksts norāda uz sistēmas administratoru saturu Microsoft Dynamics 365 for Finance and Operations. Šis saturs palīdzēs jums sistēmu konfigurēt tā, lai tā darbotos efektīvi un bez traucējumiem jūsu organizācijai. | Dokumentācija | |
 | [Finance and Operations: Dynamics 365 (DYN542PAL2) apmācības](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack piedāvā apmācības katram Dynamics 365 for Finance and Operations projektam. Šajā TechTalk mēs paskaidrosim, kā veikt apmācību procesu, iziesim cauri apmācību sesijas saturam kopā ar jums, un atklāsim, kā tuvākajā nākotnē tiks veiktas efektīvākas un ērtākas apmācības. Šī sesija ir īpaši svarīga visiem, kas strādā ar debitoriem projekta sākumposmā, starp licences darījuma slēgšanu un projekta ieviešanas uzsākšanu. | Tīmekļa konferences brīva ierakstīšana | 62 minūtes |
 | [Lokālā biznesa datu izvietošana (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Lūdzu pievienojieties TechTalk, lai iegūtu pārskatu par lokālās izvietošanas opciju Dynamics 365 for Finance and Operations, Enterprise Edition. Šajā sesijā mēs apskatīsim lokālās izvietošanas risinājuma arhitektūru, ALM aspektu, sistēmas prasības un to, kā nodrošināt Life Cycle Services projektu. | Tīmekļa konferences brīva ierakstīšana | 48 minūtes |
 | [Kopēšana uz juridisku personu (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Šajā sesijā mēs apspriedīsim jaunu funkciju datu pārvaldības struktūrā, kopēt uz juridisku personu. Vispirms mēs īsumā pārskatīsim jaunās funkcijas, kas pievienotas datu pārvaldības sistēmai 8. platformā, kas paredzēta darbvietai, veidnēs un datu projektos, un pēc tam pārrunāsim papildu funkcionalitāti, kas pievienota Kopēšanai uz juridisku personu. | Tīmekļa konferences brīva ierakstīšana | 54 minūtes |

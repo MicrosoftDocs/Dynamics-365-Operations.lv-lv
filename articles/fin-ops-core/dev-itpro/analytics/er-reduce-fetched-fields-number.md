@@ -1,6 +1,6 @@
 ---
 title: Uzlabot ER risinājumu veiktspēju, samazinot izpildlaikā ienesto tabulas lauku skaitu
-description: Šajā tēmā skaidrots, kā jūs varat palīdzēt uzlabot veiktspēju, samazinot tabulas lauku skaitu, kas tiek ienests izpildlaikā.
+description: Šajā rakstā skaidrots, kā jūs varat palīdzēt uzlabot veiktspēju, samazinot tabulas lauku skaitu, kas tiek ienests izpildlaikā.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847456"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Uzlabot ER risinājumu veiktspēju, samazinot izpildlaikā ienesto tabulas lauku skaitu
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811832"
 
 Varat projektēt elektronisko [pārskatu (](general-electronic-reporting.md) ER) formātus [...](er-overview-components.md#format-components-for-outgoing-electronic-documents), kas ģenerē izejošos dokumentus dažādos formātos. Kad dokuments ir ģenerēts, ER formāts izsauc datu avotus, kas tika konfigurēti atbilstošā ER modeļa [kartēšanā](er-overview-components.md#model-mapping-component). Lai konfigurētu piekļuvi programmas tabulām, vaicājumiem vai entītijām ierakstu izgūšanai, varat izmantot tabulas ierakstu tipa ER *datu avotus*. Pēc noklusējuma tabulas ierakstu tipa *datu avots* izgūst visu lauku vērtības pieprasītajā ierakstos. Tomēr šī tipa datu avotu var konfigurēt tā, lai inesekotu tikai lauka vērtības, kas nepieciešamas palaistam ER formātam. Šī konfigurācija palīdz samazināt atmiņas patēriņu programmas serverim, kas veic datu izgūšanu un turpmāku ierakstīšanas kešdarbi.
 
-Lai uzzinātu vairāk par to, kā ierobežot tabulas *ierakstu* tipa datu avotu ieneses lauku sarakstu, aizpildiet šīs tēmas piemēru.
+Lai uzzinātu vairāk par to, kā *ierobežot datu avotu ieneses lauku sarakstu tabulas ierakstu tipam*, izpildiet šajā rakstā minēto piemēru.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Piemērs: samazināt izpildlaikā ienesto tabulas lauku skaitu
 
@@ -49,7 +49,7 @@ Izpildiet sadaļā [ER struktūras konfigurēšana](er-quick-start2-customize-re
 
 ### <a name="import-the-sample-er-configurations"></a>Parauga ER konfigurācijas failu importēšana
 
-Ja nav [vēl pabeigtas citas ER risinājuma izstrādes piemērs pielāgotā pārskata tēmas drukāšanai, lejupielādējiet un lokāli saglabājiet XML failus šādām ER](er-quick-start1-new-solution.md) risinājuma konfigurācijām.
+Ja neesat [izpildījis piemērus jaunā ER risinājuma izstrādāšanā, lai izdrukātu pielāgotu pārskata rakstu, lejupielādējiet un lokāli saglabājiet XML failus šādām ER](er-quick-start1-new-solution.md) risinājuma konfigurācijām.
 
 | Satura apraksts            | Faila nosaukums |
 |--------------------------------|-----------|
@@ -97,7 +97,7 @@ Pēc tam veiciet šos soļus, lai augšupielādētu finanšu instancei paredzēt
 
     ![Pārskatiet sniegto modeļa kartējumu modeļu kartēšanas veidotāja lapā, kad grupas skats ir ieslēgts.](./media/er-reduce-fetched-fields-number-mapping1.png)
 
-7. Darbību rūtī vēlreiz atlasiet Grupas skats **, lai** izslēgtu grupas **skatu**, un pēc tam atlasiet Rādīt **visu tikai** \> **kartēto.**
+7. Darbību rūtī vēlreiz atlasiet Grupas skats **, lai** izslēgtu grupas **skatu**, un pēc tam atlasiet Rādīt **visu tikai** \> **kartēto**.
 
     Ievērojiet, ka daži pieteikuma tabulas `KMCollection` lauki tiek izmantoti, lai aizpildītu **anketas** ierakstu sarakstu ER datu modelī:
 

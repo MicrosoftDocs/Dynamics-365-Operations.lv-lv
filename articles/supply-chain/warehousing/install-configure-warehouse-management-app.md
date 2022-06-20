@@ -1,6 +1,6 @@
 ---
-title: Instalējiet un savienojiet lietotni Warehouse Management mobile
-description: Šajā tēmā ir paskaidrots, kā instalēt lietotni Warehosue Management mobile katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
+title: Mobilās programmas Warehouse Management instalēšana un savienošana
+description: Šajā rakstā ir izskaidrots, kā instalēt noliktavas pārvaldības mobilo programmu katrā no mobilajām ierīcēm un konfigurēt to, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103417"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941771"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalējiet un savienojiet lietotni Warehouse Management mobile
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobilās programmas Warehouse Management instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šajā tēmā aprakstīts, kā konfigurēt jauno lietotni Warehouse Management mobile. Ja vēlaties meklēt informāciju par vecās Warehouse programmas konfigurēšanu (jau novecojusi), skatiet sadaļu [Warehouse lietotnes instalēšana un savienošana](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Šajā rakstā ir aprakstīts, kā konfigurēt jauno noliktavas pārvaldības mobilo programmu. Ja vēlaties meklēt informāciju par vecās Warehouse programmas konfigurēšanu (jau novecojusi), skatiet sadaļu [Warehouse lietotnes instalēšana un savienošana](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Šajā tēmā ir paskaidrots, kā instalēt lietotni Warehouse Management mobile katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
+Šajā rakstā ir izskaidrots, kā lejupielādēt un instalēt noliktavas pārvaldības mobilo programmu katrā no mobilajām ierīcēm un kā konfigurēt programmu, lai savienotu ar jūsu Piegādes ķēdes pārvaldības vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 
 ## <a name="system-requirements"></a>Sistēmas prasības
 
@@ -39,7 +39,7 @@ Lietotne Warehouse Management mobile ir pieejama Windows un Google Android oper�
 - Windows 10 (universālā Windows platforma \[UWP\]) 2018. gada oktobra veidotāju atjauninājums 1809 (būvējums 10.0.17763) vai jaunāka versija
 - Android 4.4 vai jaunāka versija
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Piegādes ķēžu pārvaldībā vai izslēgt noliktavas pārvaldības mobilās programmas līdzekļus vai izslēgt
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Ieslēgt vai izslēgt noliktavas pārvaldības mobilās programmas līdzekļus piegādes ķēžu pārvaldībā
 
 Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmā ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
@@ -87,11 +87,11 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 
     ![Lietojumprogrammas reģistrācijas vednis.](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
 
-1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID turpmāk šajā tēmā tiks dēvēts kā *klienta ID*.
+1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID vēlāk šajā rakstā tiks saukts par klienta *ID*.
 
     ![Lietojumprogrammas (klienta) ID.](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
 
-1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Papildinformāciju skatiet sadaļā [Autentificēt, izmantojot sertifikātu vai klienta noslēpumu](#authenticate) šīs tēmas turpinājumā.)
+1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Plašāku informāciju skatiet [Autentificēties, vēlāk izmantojot sertifikāta vai klienta slepeno](#authenticate) sadaļu.)
 
     - **Augšupielādēt sertifikātu** – augšupielādēt sertifikātu, ko izmantot kā noslēpumu. Ir ieteicams izmanto šo pieeju, jo tā ir drošāka un to var arī pilnīgāk automatizēt. Ja izmantojat lietotni Warehouse Management mobile Windows ierīcēs, pierakstiet **Nospiedums** vērtību, kas tiek parādīta pēc sertifikāta augšupielādes. Šī vērtība būs nepieciešama, konfigurējot sertifikātu Windows ierīcēs.
     - **Jauns klienta noslēpums** – izveidojiet atslēgu, ievadot atslēgas aprakstu un ilgumu sadaļā **Paroles**, un pēc tam atlasiet **Pievienot**. Izveidojiet atslēgas kopiju un glabājiet to drošībā.
@@ -101,7 +101,7 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogrammas Azure AD, skatiet tālāk norādītos resursus:
 
 - Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Pilnīgu informāciju par to, kā manuāli izveidot tīmekļa pakalpojumu lietojumprogrammu programmā Azure AD, skatiet tālāk norādītās tēmas:
+- Pilnīgu informāciju par to, kā manuāli izveidot Web pakalpojumu lietojumprogrammu Azure AD, skatiet šādos rakstos:
 
     - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
     - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
     ![Azure Active Directory lietojumprogrammas.](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
 
 > [!TIP]
-> Viens no šo iestatījumu izmantošanas veidiem ir izveidot klienta ID Azure katrai fiziskajai ierīcei un pēc tam pievienot katru klienta ID **Azure Active Directory lietojumprogrammu** lapai. Ja ierīce ir nozaudēta, to var viegli noņemt Supply Chain Management, noņemot no lapas klienta ID. (Šī pieeja darbojas, jo savienojuma akreditācijas dati, kas tiek saglabāti katrā ierīcē, norāda arī klienta ID, kā aprakstīts tālāk šajā tēmā.)
+> Viens no šo iestatījumu izmantošanas veidiem ir izveidot klienta ID Azure katrai fiziskajai ierīcei un pēc tam pievienot katru klienta ID **Azure Active Directory lietojumprogrammu** lapai. Ja ierīce ir nozaudēta, to var viegli noņemt Supply Chain Management, noņemot no lapas klienta ID. (Šī pieeja darbojas, jo savienojuma akreditācijas dati, kas tiek saglabāti katrā ierīcē, norāda arī klienta ID, kā aprakstīts tālāk šajā rakstā.)
 >
 > Turklāt noklusējuma valodu, numuru formātu un laika joslas iestatījumus katram klienta ID nosaka preferences, kas tiek iestatītas **Lietotāja ID** vērtībai, kas šeit tiek kartēta. Tāpēc jūs varētu izmantot šīs preferences, lai izveidotu noklusējuma iestatījumus katrai ierīcei vai ierīču kolekcijai, balstoties uz klienta ID. Tomēr šie noklusējuma iestatījumi tiks ignorēti, ja tie ir definēti arī *noliktavas programmas lietotāja kontam*, ko darbinieks izmantos, lai pieteiktos ierīcē. (Lai iegūtu papildinformāciju, skatiet sadaļu [Mobilo ierīču lietotāju konti](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentificēt, izmantojot sertifikātu vai klienta noslēpumu
 
-Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierīci Supply Chain Management. Autentifikāciju var veikt, izmantojot klienta noslēpumu vai sertifikātu. Ja importēsit savienojuma iestatījumus, ieteicams izmantot sertifikātu nevis klienta noslēpumu. Tā kā klienta noslēpums vienmēr ir jāglabā drošībā, to nevar importēt no savienojuma iestatījumu faila vai QR koda, kā aprakstīts tālāk šajā tēmā.
+Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierīci Supply Chain Management. Autentifikāciju var veikt, izmantojot klienta noslēpumu vai sertifikātu. Ja importēsit savienojuma iestatījumus, ieteicams izmantot sertifikātu nevis klienta noslēpumu. Tā kā klienta noslēpums vienmēr ir jāsaglabā droši, jūs nevarat importēt to no savienojuma iestatījumu faila vai QR koda, kā aprakstīts tālāk šajā rakstā.
 
 Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas identitāti, kad tiek pieprasīta pilnvara. Sertifikāta publiskā daļa tiek augšupielādēta programmu reģistrācijā Azure portālā, savukārt pilnais sertifikāts ir jāizvieto katrā ierīcē, kurā ir lietotne Warehouse Management mobile. Jūsu organizācija ir atbildīga par sertifikāta pārvaldību attiecībā uz rotāciju un tā tālāk. Varat izmantot pašparakstītus sertifikātus, bet vienmēr izmantojiet neeksportējamus sertifikātus.
 
@@ -266,7 +266,7 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
 
 1. Ievadiet sekojošo informāciju:
 
-    - **Izmantot klienta noslēpumu** – iestatiet šo opciju uz _Jā_, lai izmantotu klienta noslēpumu autentificējoties Supply Chain Management. Iestatiet to uz _Nē_, lai autentifikācijai izmantotu sertifikātu. (Plašāku informāciju skatiet [Izveidojiet Web pakalpojumu programmu Azure Active Directory](#create-service) iepriekš šīs tēmas sadaļā.)
+    - **Izmantot klienta noslēpumu** – iestatiet šo opciju uz _Jā_, lai izmantotu klienta noslēpumu autentificējoties Supply Chain Management. Iestatiet to uz _Nē_, lai autentifikācijai izmantotu sertifikātu. (Plašāku informāciju skatiet [Izveidojiet web pakalpojumu programmu šī Azure Active Directory](#create-service) raksta iepriekšējā sadaļā.)
     - **Savienojuma nosaukums** — ievadiet jaunā savienojuma nosaukumu. Šis nosaukums tiks parādīts laukā **Atlasīt savienojumu** nākamajā reizē, kad atvērsit savienojuma iestatījumus. Jūsu ievadītajam nosaukumam jābūt unikālam. (Citiem vārdiem sakot, tam ir jābūt atšķirīgam no visiem pārējiem ierīcē saglabātajiem savienojumu nosaukumiem, ja tajā tiek saglabāti citi savienojumu nosaukumi.)
     - **Active direktorija klienta ID** – ievadiet klienta ID, kuru pierakstījāt, iestatot Azure AD sadaļā [Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory](#create-service).
     - **Active direktorija klienta noslēpums** – šis lauks ir pieejams tikai tad, ja opcija **Izmantot klienta noslēpumu** ir iestatīta uz _Jā_. Ievadiet klienta noslēpumu, kuru pierakstījāt, iestatot Azure AD, sadaļā [Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory](#create-service).

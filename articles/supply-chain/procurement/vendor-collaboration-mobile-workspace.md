@@ -1,6 +1,6 @@
 ---
 title: Kreditoru sadarbības mobilā darbvieta
-description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Kreditoru sadarbība. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
+description: Šajā rakstā ir sniegta informācija par Kreditoru sadarbības mobilo darbvietu. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851657"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Šajā tēmā ir sniegta informācija par mobilo darbvietu **Kreditoru sadarbība**. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
+Šajā rakstā ir sniegta informācija par Kreditoru sadarbības **mobilo** darbvietu. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 
 Šo mobilo darbvietu ir paredzēts izmantot ar mobilo programmu Finanses un operācijas (Dynamics 365).
 
@@ -97,7 +97,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 </tr>
 <tr class="even">
 <td>Piegādātāja lietotājam ir jānodrošina piekļuve kreditoru sadarbības tīmekļa interfeisam tīmekļa klientā un ir jāiestata kreditoru sadarbības lietotājs.</td><td>Iepirkumu speciālisti un sistēmas administrators</td>
-<td>Izpildiet tālāk esošajās tēmās aprakstītās darbības, lai iestatītu kreditoru sadarbības tīmekļa interfeisu un strādātu ar to.
+<td>Lai iestatītu un strādātu ar kreditora sadarbības web interfeisu, rīkojieties saskaņā ar tālāk minētajiem rakstiem.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Lietot kreditoru sadarbību, lai strādātu ar ārējiem kreditoriem</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Pārvaldīt kreditoru sadarbības lietotājus</a></li>

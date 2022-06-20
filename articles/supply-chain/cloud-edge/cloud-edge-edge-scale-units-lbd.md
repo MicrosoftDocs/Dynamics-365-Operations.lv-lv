@@ -1,6 +1,6 @@
 ---
 title: Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD
-description: Šajā tēmā skaidrots, kā nodrošināt lokālās malas skalas vienības, izmantojot pielāgotu aparatūru un izvietošanu, kas ir balstīta uz vietējiem uzņēmuma datiem (LBD).
+description: Šajā rakstā ir izskaidrots, kā nodrošināt lokālās malas skalas vienības, izmantojot pielāgotu aparatūru un izvietošanu, kas ir balstīta uz vietējiem uzņēmuma datiem (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882755"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD
 
@@ -27,7 +27,7 @@ Malas apjoma vienībām ir svarīga loma sadalītajā topoloģijā piegādes ķ�
 
 Malu skalas vienības var izvietot, izveidojot vietējos biznesa datus (LBD) [lokālajā vidē](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) un pēc tam konfigurējot to, lai darbotos kā mēroga vienība jūsu sadalītajā topoloģijā piegādes ķēdes pārvaldībai. To var sasniegt, saistot lokālo LBD vidi ar Supply Chain Management vidi mākonī, kas konfigurēta tā, lai darbotos kā pārkraušanas mezgls.  
 
-Šajā tēmā ir aprakstīts, kā iestatīt lokālas LBD vidi kā malas skalas vienību un pēc tam saistīt to ar pārkraušanas punktu.
+Šajā rakstā ir aprakstīts, kā iestatīt lokālas LBD vidi kā malas skalas vienību un pēc tam saistīt to ar pārkraušanas punktu.
 
 ## <a name="infrastructure-considerations"></a>Infrastruktūras apsvērumi
 
@@ -44,21 +44,21 @@ Tālāk ir sniegts pārskats par izvietošanas darbībām.
 
 1. **Iestatiet un izvietojiet LBD vidi ar *tukšu* datu bāzi.**
 
-    Izmantojiet LCS, lai izvietotu LBD vidi ar jaunāko topoloģiju un tukšu datu bāzi. Papildinformāciju skatiet tālāk šīs tēmas sadaļā sadaļā Iestatījumi un [izvietojiet LBD vidi ar tukšu datu bāzes sadaļu](#set-up-deploy). Jums jāizmanto Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka tās versija pārkraušanas punkta un mēroga vienības vidēs.
+    Izmantojiet LCS, lai izvietotu LBD vidi ar jaunāko topoloģiju un tukšu datu bāzi. Papildinformāciju skatiet tālāk šī [raksta sadaļā Iestatījumi un izvietojiet](#set-up-deploy) LBD vidi ar tukšu datu bāzes sadaļu. Jums jāizmanto Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka tās versija pārkraušanas punkta un mēroga vienības vidēs.
 
 1. **Augšupielādēt mērķa pakotnes LBD projekta aktīvos LCS.**
 
-    Sagatavojiet programmu, platformu un pielāgošanas pakotnes, ko izmantojat pārkraušanas centrā un malu skalas vienībā. Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Augšupielādes mērķa iepakojumos LBD projekta līdzekļa sadaļā LCS](#upload-packages).
+    Sagatavojiet programmu, platformu un pielāgošanas pakotnes, ko izmantojat pārkraušanas centrā un malu skalas vienībā. Papildinformāciju skatiet tālāk [šī raksta sadaļā Augšupielādēt mērķa pakotnes LBD projekta līdzekļa sadaļā LCS](#upload-packages).
 
 1. **Pakalpojumu LBD vidē ar mērķa pakotnēm.**
 
-    Šis solis nodrošina, ka viens un tas pats būvējums un pielāgojumi tiek izvietoti pārkraušanas mezglā un centrā. Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Pakalpojums LBD vide ar mērķa pakotnēm](#service-target-packages).
+    Šis solis nodrošina, ka viens un tas pats būvējums un pielāgojumi tiek izvietoti pārkraušanas mezglā un centrā. Papildinformāciju skatiet tālāk [šī raksta sadaļā Pakalpojums](#service-target-packages) LBD vidē ar mērķa pakotnēm.
 
 1. **Pabeidziet mēroga vienības konfigurāciju un darba noslodzes piešķiri.**
 
-    Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Piešķirt savu LBD malas skalas vienību pārkraušanas mezglu](#assign-edge-to-hub).
+    Papildinformāciju skatiet tālāk [šī raksta sadaļā LBD malas skalas](#assign-edge-to-hub) vienības piešķiršana pārkraušanas punkta sadaļai.
 
-Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru šī procesa posmu.
+Pārējās šī raksta sadaļās ir sniegta plašāka informācija par to, kā izpildīt šīs darbības.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Iestatiet un izvietojiet LBD vidi ar tukšu datu bāzi
 
@@ -67,7 +67,7 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
 1. Sekojiet instrukcijām [Iestatījumi un lokālo vižu izvietošana (Platformas atjauninājums 41 vai jaunāks)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Jums jāizmanto Piegādes ķēdes pārvaldības versija 10.0.21 vai jaunāka tās versija pārkraušanas punkta un mēroga vienības vidēs. Turklāt infrastruktūras skriptiem jālieto versija 2.12.0 vai jaunāka. 
 
     > [!IMPORTANT]
-    > **Pirms** izpildāt šajā tēmā aprakstītās darbības, izlasiet pārējās šīs sadaļas darbības.
+    > Pirms izpildāt šajā rakstā aprakstītās **darbības**, izlasiet pārējās šīs sadaļas darbības.
 
 1. Pirms aprakstīt konfigurāciju infrastruktūras \\ConfigTemplate.xml failā, palaidiet šādu skriptu:
 
@@ -95,7 +95,7 @@ Atlikušajās šīs tēmas sadaļās ir sniegta plašāka informāciju par katru
 
         | Lietotājs            | Veids | Datu bāzes loma |
         |-----------------|------|---------------|
-        | svc-LocalAgent$ | gMSA (datu) | dbowner;dbowner\_     |
+        | svc-LocalAgent$ | gMSA (datu) | Db īpašnieks\_     |
 
 1. Turpiniet sekot instrukcijām iestatīšanas [un lokālas vides izvietošanā (platformas atjaunināšana 41 vai jaunāka)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
 1. Pēc TAM, kad esat pabeidzis [AD FS konfigurēšanas](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) darbību, sekojiet šiem soļiem:

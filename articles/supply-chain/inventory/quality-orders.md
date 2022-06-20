@@ -1,6 +1,6 @@
 ---
 title: Kvalitātes pasūtījumi
-description: Šajā tēmā ir aprakstīts, kā manuāli vai automātiski izveidot kvalitātes pasūtījumus un kā strādāt ar tiem, lai veiktu pārbaudes un ierakstītu pārbaužu rezultātus sistēmā Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīts, kā manuāli vai automātiski izveidot kvalitātes pasūtījumus un kā strādāt ar tiem, lai veiktu pārbaudes un ierakstītu pārbaužu rezultātus sistēmā Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857784"
 ---
 # <a name="quality-orders"></a>Kvalitātes pasūtījumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā manuāli vai automātiski izveidot kvalitātes pasūtījumus un kā strādāt ar tiem, lai veiktu pārbaudes un ierakstītu pārbaužu rezultātus sistēmā Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, kā manuāli vai automātiski izveidot kvalitātes pasūtījumus un kā strādāt ar tiem, lai veiktu pārbaudes un ierakstītu pārbaužu rezultātus sistēmā Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Automātiski izveidoti kvalitātes pārbaudes pasūtījumi
 
@@ -39,7 +39,7 @@ Lai manuāli izveidotu kvalitātes pārbaudes pasūtījumu, izpildiet tālāk ap
 
 1. Dodieties uz **Krājumu pārvaldība \> Periodiskie uzdevumi \> Kvalitātes pārvaldība \> Kvalitātes pārbaudes pasūtījumi**.
 1. Atlasiet **Jauns**.
-1. Dialoglodziņā **Kvalitātes pārbaudes pasūtījumi** laukā **Atsauces tips** atlasiet krājuma atsauci, ar ko būs saistīts jūsu kvalitātes pārbaudes pasūtījums. Atlasīšanai pieejamo atsauces tipu aprakstu skatiet tālāk šīs tēmas sadaļā [Kvalitātes pasūtījuma atsauces tipi](#ref-types).
+1. Dialoglodziņā **Kvalitātes pārbaudes pasūtījumi** laukā **Atsauces tips** atlasiet krājuma atsauci, ar ko būs saistīts jūsu kvalitātes pārbaudes pasūtījums. Atlasīšanai pieejamo atsauču tipu aprakstu skatiet tālāk šī raksta [sadaļā Kvalitātes](#ref-types) pasūtījuma atsauces tipi.
 
     > [!NOTE]
     > Krājumiem, kas saistīti ar atlasīto atsauci, jābūt pieejamiem. Ja atsauču tipa, daudzuma un krājumu dimensiju kombinācijai, ko atlasāt, nav pieejami krājumi, saņemsit kļūdas ziņojumu.
@@ -88,7 +88,7 @@ Varat izmantot kvalitātes pārbaudes pasūtījuma lapu, lai manuāli izveidotu 
 
 ### <a name="from-the-quality-orders-page"></a>No kvalitātes pārbaudes pasūtījumu lapas
 
-Lai manuāli izveidotu kvalitātes pārbaudes pasūtījumus un skatītu visus esošos kvalitātes pārbaudes pasūtījumus, dodieties uz **Krājumu pārvaldība \> Periodiskie uzdevumi \> Kvalitātes pārvaldība \> Kvalitātes pasūtījumi**. Šīs tēmas pārējās sadaļas sniedz plašāku informāciju par to, kā strādāt ar lapu **Kvalitātes pārbaudes pasūtījumi**.
+Lai manuāli izveidotu kvalitātes pārbaudes pasūtījumus un skatītu visus esošos kvalitātes pārbaudes pasūtījumus, dodieties uz **Krājumu pārvaldība \> Periodiskie uzdevumi \> Kvalitātes pārvaldība \> Kvalitātes pasūtījumi**. Šajā rakstā pārējās sadaļās ir sniegta papildinformācija par to, kā strādāt ar Kvalitātes **pasūtījumu** lapu.
 
 ### <a name="from-sales-orders"></a>No pārdošanas pasūtījumiem
 

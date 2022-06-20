@@ -1,6 +1,6 @@
 ---
 title: Jauna elektronisko pārskatu risinājuma izveide ZPL etiķešu izdrukāšanas nolūkā
-description: Šajā tēmā skaidrots, kā projektēt jaunu elektronisko pārskatu (ER) risinājumu Etiķešu programmēšanas valodas (ZPL) etiķešu drukāšanai.
+description: Šajā rakstā skaidrots, kā projektēt jaunu elektronisko pārskatu (ER) risinājumu Etiķešu programmēšanas valodas (ZPL) etiķešu drukāšanai.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845720"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Jauna elektronisko pārskatu risinājuma izveide ZPL etiķešu izdrukāšanas nolūkā
 
 [!include [banner](../includes/banner.md)]
 
 
-Šajā tēmā skaidrots, kā lietotājs Sistēmas administratora, [elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta loma var konfigurēt elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūras parametrus, projektēt nepieciešamās ER konfigurācijas jauna ER [risinājumam, lai piekļūtu noliktavas pārvaldības sistēmas datiem un ģenerētu pielāgotas noliktavas vietas etiķetes Vaibras programmēšanas](general-electronic-reporting.md#Configuration) valodā (ZPL) II formātā. Šīs darbības var veikt uzņēmumā **USRT**.
+Šajā rakstā skaidrots, kā lietotājs Sistēmas administratora, [elektronisko pārskatu izstrādātāja vai elektronisko pārskatu funkcionālā konsultanta loma var konfigurēt elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūras parametrus, projektēt nepieciešamās ER konfigurācijas jauna ER [risinājumam, lai piekļūtu noliktavas pārvaldības sistēmas datiem un ģenerētu pielāgotas noliktavas vietas etiķetes Vaibras programmēšanas](general-electronic-reporting.md#Configuration) valodā (ZPL) II formātā. Šīs darbības var veikt uzņēmumā **USRT**.
 
 ## <a name="business-scenario"></a>Biznesa scenārijs
 
@@ -138,7 +138,7 @@ Konfigurētā formāta rediģējamu versiju varat skatīt formāta veidotāja **
 
 Tālāk sniegtajā piemērā ZPL etiķetēm tiek izmantota printera paradītā programma, lai ekrānā parādītu ģenerēto iezīmju priekšskatījumu. Izpildiet šīs darbības, lai aktivizētu šo opciju.
 
-1. Pievienojiet printera [ER](er-destination-type-print.md) mērķi **noliktavas** vietas etiķetes ER formātam un konfigurējiet to [, lai nosūtītu ģenerētās iezīmes no finansēm uz Dokumentu maršrutēšanas aģentu (DRA)](install-document-routing-agent.md).
+1. Pievienojiet printera [ER](er-destination-type-print.md) mērķi **noliktavas** vietas etiķetes ER formātam un konfigurējiet to [, lai nosūtītu ģenerētās iezīmes no finansēm uz dokumentu maršrutēšanas aģentu (DRA).](install-document-routing-agent.md)
 2. Instalējiet un konfigurējiet DRA, lai maršrutēt ģenerētās etiķetes no Finansēm uz lokālo printeri, kas ir pieejams no pašreizējās darbstacijas.
 3. Pievienojiet pašreizējai darbstacijai lokālo printeri un konfigurējiet to, lai ģenerētās etiķetes no DIK būtu printera programma.
 4. Instalējiet printera programma kā hroma pārlūkprogrammas paplašinājumu un konfigurējiet to, lai ģenerētās etiķetes no lokālā printera ieturēs tīmekļa pakalpojumā, kas renderēs ģenerētās etiķetes un atgriezīs tās printera paralēlā priekšskatījumā.
@@ -238,7 +238,7 @@ Sagatavojiet ER mērķi, lai padotu ģenerētās etiķetes no Finansēm uz DRA.
 2. **Elektronisko pārskatu adresāta** lapas Darbību rūtī atlasiet **Jauns**.
 3. **Atsauces laukā** atlasiet Noliktavas vietas **etiķetes**.
 4. Kopsavilkuma cilnē **Faila adresāts** atlasiet **Jauns**.
-5. Laukā **Nosaukums ievadiet** Iezīmes **·**.
+5. Laukā **Nosaukums** ievadiet **Iezīmes**.
 6. Laukā **Faila komponenta nosaukums** atlasiet **Pārskats**.
 7. Atlasiet **Iestatījumi**.
 8. **Dialoglodziņa Mērķa iestatījumi** cilnē Printeris **iestatiet** opciju Iespējots **uz** **Jā**.

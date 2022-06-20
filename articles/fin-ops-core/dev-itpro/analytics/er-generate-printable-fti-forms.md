@@ -1,6 +1,6 @@
 ---
 title: Drukājamu FTI veidlapu ģenerēšana
-description: Šajā tēmā ir paskaidrots, kā izmantot elektronisko pārskatu izveides (Electronic reporting — ER) struktūru, lai ģenerētu drukājamas brīva teksta rēķinu (free text invoice — FTI) formas Microsoft Office dokumentu formātā.
+description: Šajā rakstā skaidrots, kā izmantot Elektronisko pārskatu (ER) struktūru, lai izveidotu drukājamas brīvā teksta rēķinu (FTI) formas kā Microsoft Office dokumentus.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868834"
 ---
 # <a name="generate-printable-fti-forms"></a>Drukājamu FTI formu ģenerēšana
 
 [!include[banner](../includes/banner.md)]
 
-Elektronisko pārskatu izveides (ER) struktūra sniedz iespēju ģenerēt drukājamas brīva teksta rēķinu (FTI) formas Microsoft Office dokumentu formātā. Šajā tēmā ir sniegta informācija par to, kā veidot savas konfigurācijas, kā arī detalizēta informācija par pieejamajām konfigurācijas veidnēm.
+Elektronisko pārskatu izveides (ER) struktūra sniedz iespēju ģenerēt drukājamas brīva teksta rēķinu (FTI) formas Microsoft Office dokumentu formātā. Šajā rakstā ir sniegta informācija par to, kā veidot savas konfigurācijas, kā arī detalizēta informācija par pieejamām konfigurācijas veidnēm.
 
 ## <a name="overview"></a>Pārskats
 
 Papildus esošajai iespējai ģenerēt drukājamas FTI formas, izmantojot Microsoft SQL Server Reporting Services (SSRS), tagad varat izmantot arī ER struktūru. Varat pārvaldīt drukājamās FTI formas programmās Microsoft Office Excel un Word. Varat arī modificēt izkārtojumu, datu plūsmu un formatējumu, lai nodrošinātu atbilstību konkrētām prasībām, neveicot koda izmaiņas.
 
 > [!NOTE]
-> Ja vēlaties vispirms iepazīties ar pārskatu par esošajām drukājamo FTI veidlapu risinājuma parauga ER konfigurācijām, atveriet uzreiz sadaļu **ER konfigurāciju parauga lejupielāde, lai ģenerētu drukājamas FTI veidlapas**, kas pieejama tālāk šajā tēmā.
+> Ja vēlaties sākt ar pārskatu par esošajām ER konfigurācijām šim drukājamā FTI formu risinājuma paraugam, **varat doties tieši uz sadaļu Lejupielādēt ER konfigurācijas, lai vēlāk šajā rakstā izveidotu drukājamas FTI** formas.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>FTI drukājamajām veidlapām paredzētu pielāgotu konfigurāciju izveide
 Jums ir jāizveido ER konfigurāciju kopa kā daļa no pielāgotā drukājamo FTI veidlapu risinājuma.
@@ -107,8 +107,8 @@ FTI veidlapas varat arī ģenerēt, kad grāmatojat FTI, ieslēdzot iestatījum
 
 ER platforma ģenerētajiem dokumentiem pašlaik atbalsta tālāk norādītos galamērķus.
 
-- **Lejupielādētais fails** — ģenerētās veidlapas tiek piedāvātas kā lejupielādes, ko var saglabāt, izmantojot pārlūkprogrammu.
-- **Ekrāns** — Microsoft 365 programma Excel tiek izmantota ģenerēto FTI veidlapu priekšskatīšanai Excel formātā.
+- **Lejupielādētais fails** — ģenerētās veidlapas tiek piedāvātas kā lejupielādes, ko var saglabāt, izmantojot pārlūkprogrammu.
+- **Ekrāns** — programma Microsoft 365 Excel tiek izmantota ģenerēto FTI formu priekšskatīšanai Excel formātā.
 - **SharePoint mape** — ģenerētās formas tiek saglabātas atbilstoši dokumentu pārvaldības struktūras iestatījumiem.
 - **Lietojumprogrammas arhīvs** — ģenerētās formas tiek glabātas kā izpildes žurnāla ierakstu pielikumi Microsoft Azure krātuvē.
 - **E-pasts** — ģenerētās veidlapas tiek nosūtītas kā e-pasta pielikumi.

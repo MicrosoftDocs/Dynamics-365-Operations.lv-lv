@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas ierobežojumu izveide
-description: Šajā tēmā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem.
+description: Šajā rakstā ir parādīts, kā izveidot pirkšanas ierobežojumus, lai saskaņotu ar biznesa procesiem pirkšanai.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878850"
 ---
 # <a name="create-purchasing-policies"></a>Pirkšanas ierobežojumu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir parādīts, kā izveidot pirkšanas politikas, lai tās atbilstu jūsu biznesa pirkšanas procesiem. Lai varētu izveidot pirkšanas politikas, ir jāiestata pirkšanas politikas parametri. Pirkšanas politiku var izveidot, modificēt un noņemt, bet pirkšanas politiku nevar dzēst. Šo procedūru parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus.
+Šajā rakstā ir parādīts, kā izveidot pirkšanas ierobežojumus, lai saskaņotu ar biznesa procesiem pirkšanai. Lai varētu izveidot pirkšanas politikas, ir jāiestata pirkšanas politikas parametri. Pirkšanas politiku var izveidot, modificēt un noņemt, bet pirkšanas politiku nevar dzēst. Šo procedūru parasti veic pirkšanas vadītājs. Šo procedūru varat lietot, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus.
 
 
 ## <a name="set-up-policy-parameters"></a>Iestatīt politikas parametrus

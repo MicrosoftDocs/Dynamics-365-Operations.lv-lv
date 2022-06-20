@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas pasūtījumu sūtīšana bez noliktavas
-description: Šajā tēmā paskaidrots, kā atjaunināt pārdošanas pasūtījumu, kad preces tiek nosūtītas debitoram.
+description: Šajā rakstā ir izskaidrots, kā atjaunināt pārdošanas pasūtījumu, kad preces tiek nosūtītas debitoram.
 author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862487"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pārdošanas pasūtījumu sūtīšana bez noliktavas
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā paskaidrots, kā atjaunināt pārdošanas pasūtījumu, kad preces tiek nosūtītas debitoram. Šis ceļvedis attiecas uz izpildes plūsmu, kas nav iestatīta noliktavas vadībai (ne pamata, ne uzlabotai noliktavai), un tādēļ preču izdošana nav jāreģistrē pirms nosūtīšanas. Šo procedūru varat izpildīt, izmantojot savus datus vai demonstrācijas datu uzņēmumu USMF. Abos gadījumos, pirms sākt šo uzdevumu, izveidojiet pārdošanas pasūtījumu inventarizētajai precei, kuras daudzums ir lielāks nekā 1 Lai izvairītos no grāmatošanas kļūdas, nepieciešams pārbaudīt, vai preces rīcībā esošais daudzums vietā un noliktavā, ko atlasījāt pasūtījumā, sedz pasūtījuma daudzumu.
+Šajā rakstā ir izskaidrots, kā atjaunināt pārdošanas pasūtījumu, kad preces tiek nosūtītas debitoram. Šis ceļvedis attiecas uz izpildes plūsmu, kas nav iestatīta noliktavas vadībai (ne pamata, ne uzlabotai noliktavai), un tādēļ preču izdošana nav jāreģistrē pirms nosūtīšanas. Šo procedūru varat izpildīt, izmantojot savus datus vai demonstrācijas datu uzņēmumu USMF. Abos gadījumos, pirms sākt šo uzdevumu, izveidojiet pārdošanas pasūtījumu inventarizētajai precei, kuras daudzums ir lielāks nekā 1 Lai izvairītos no grāmatošanas kļūdas, nepieciešams pārbaudīt, vai preces rīcībā esošais daudzums vietā un noliktavā, ko atlasījāt pasūtījumā, sedz pasūtījuma daudzumu.
 
 ## <a name="post-packing-slip-for-an-order"></a>Pasūtījuma pavadzīmes grāmatošana
 1. Navigācijas panelī atveriet **Moduļi > Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi**.

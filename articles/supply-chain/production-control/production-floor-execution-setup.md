@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 0ae9ca901a7af8275db419e25a7297a77aab284e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857407"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 
@@ -28,7 +28,7 @@ Ražotnes izpildes interfeiss tiek iestatīts visām ierīcēm ražotnē. Uzņē
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Iestatīt konfigurāciju un filtrus noteiktai ierīcei
 
-Lai uzstādītu ierīces konfigurācijas un darbu filtrus, piesakieties lapā Ražošanas stāva izpilde, izmantojot kontu, kam ir drošības loma, kas ietver laika uzraudzības **·** pienākumu *·* uzturēšana. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
+Lai uzstādītu ierīces konfigurācijas un darbu filtrus, **·** *piesakieties* lapā Ražošanas stāva izpilde, izmantojot kontu, kam ir drošības loma, kas ietver laika uzraudzības pienākumu uzturēšana. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
 
 1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kurā ietilpst *Uzturēt laika uzraudzības* pienākumu.)
 1. Pārliecinieties, ka konfigurācija ir pieejama ierīcei, kuru iestatāt. Ja konfigurācija jau pastāv, tiek nodrošināta noklusējuma konfigurācija. Papildinformāciju par to, kā iestatīt konfigurāciju, skatiet tēmā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).

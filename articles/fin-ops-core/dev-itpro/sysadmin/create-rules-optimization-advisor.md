@@ -1,6 +1,6 @@
 ---
 title: Kārtulu izveide optimizācijas padomniekam
-description: Šajā tēmā ir aprakstīts, kā pievienot jaunas kārtulas darbvietai Optimizācijas padomnieks.
+description: Šajā rakstā ir aprakstīts, kā optimizācijas ēšanai pievienot jaunus noteikumus.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850910"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Kārtulu izveide optimizācijas padomniekam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā izveidot jaunas kārtulas darbvietai **Optimizācijas padomnieks**. Piemēram, varat izveidot jaunu kārtulu, kas nosaka, kuriem piedāvājuma pieprasījuma (PP) gadījumiem ir tukšs nosaukums. Gadījumiem izmantojot nosaukumus, tie ir viegli identificējami un meklējami. Šajā piemērā vienkāršoti parādīts, ko var panākt, izmantojot optimizācijas kārtulas. 
+Šajā rakstā skaidrots, kā izveidot jaunus optimizācijas **sēņu noteikumus**. Piemēram, varat izveidot jaunu kārtulu, kas nosaka, kuriem piedāvājuma pieprasījuma (PP) gadījumiem ir tukšs nosaukums. Gadījumiem izmantojot nosaukumus, tie ir viegli identificējami un meklējami. Šajā piemērā vienkāršoti parādīts, ko var panākt, izmantojot optimizācijas kārtulas. 
 
 *Kārtula* ir atzīme programmas datos. Ja tiek izpildīts nosacījums, ko novērtē kārtula, tiek izveidotas iespējas optimizēt procesus vai uzlabot datus. Šīs iespējas var izmantot, un papildus var mērīt veikto darbību ietekmi. 
 

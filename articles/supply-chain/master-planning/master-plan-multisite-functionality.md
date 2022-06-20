@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844914"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 
@@ -37,7 +37,7 @@ Kad dimensija ir obligāta, dimensijas lielumu jāievada visās krājuma darbīb
 
 Kad noliktava nav iestatīta kā obligāta, tā var nebūt zināma sākotnējā pieprasījumā. Plānošanas programmai jānosaka, kādu noliktava izmantot, pamatojoties uz iestatījumiem, kas definēti vienībai, atsevišķām noliktavām un pasūtījuma rindas detaļām.
 
-Tālāk sniegtajās tēmās ir aprakstīts, kā plānot dziņa darbus, ja izmantojamās noliktavas noteikšanai definēti dažādi iestatījumi.
+Sekojošos rakstos aprakstīts, kā plānošanas programma darbojas, ja tiek definēti dažādi iestatījumi, lai noteiktu noliktavu, ko izmantot.
 
 [Galvenais plāns vietas un noliktavas segumam, noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

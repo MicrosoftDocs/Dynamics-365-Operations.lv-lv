@@ -1,6 +1,6 @@
 ---
 title: Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
-description: Šajā tēmā aprakstīts, kā konfigurēt izvēlnes elementu novirzīšanu, lai darbinieki varētu novietot pašreizējo uzdevumu, veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
+description: Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes krājumus tā, lai darbinieki varētu izpildīt pašreizējo uzdevumu, veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863597"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Šajā tēmā aprakstītie līdzekļi attiecas tikai uz jauno Warehouse Management mobile programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
+> Šajā rakstā aprakstītie līdzekļi attiecas tikai uz jauno noliktavas pārvaldības mobilo programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
 
-Šajā tēmā aprakstīts, kā konfigurēt izvēlnes elementu novirzīšanu, lai darbinieki varētu novietot pašreizējo uzdevumu, veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
+Šajā rakstā ir aprakstīts, kā ir jākonfigurē izvēlnes elementiem tā, lai darbinieki varētu "veikt pašreizējo uzdevumu", veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
 
 Novirzīšana ir atsevišķs izvēlnes elements, ko var atvērt, veicot galveno uzdevumu. Novirzīšanas beigās darbinieks tiek atgriezts vietā, kur atstāj galveno uzdevumu. Konfigurācijas laikā ir jānorāda izvēlnes vienums, kam jādarbojas kā novirzīšanai. Jūs arī atlasāt, kuras lauku vērtības no galvenā uzdevuma automātiski jāpārsūta (jākopē) uz novirzīšanu un jāievada tur. Tāpēc jums ir jāsaprot, kur uzdevumu plūsmā vēlaties, lai novirzīšana būtu pieejama darbiniekiem. Jums jānodrošina arī, lai informācija, kas jākopē uzdevumu plūsmā, būtu pieejama šajā uzdevumu plūsmas darbībā.
 
@@ -46,7 +46,7 @@ Lai iespējotu nepieciešamos līdzekļus, pirms varat konfigurēt mobilo ierī�
     - **Modulis:** *Noliktavas pārvaldība*
     - **Līdzekļa nosaukums:** *Warehouse management programmas novirzīšana*
 
-    Šis līdzeklis ir līdzeklis, kas ir aprakstīts šajā tēmā.
+    Šī funkcija ir šajā rakstā aprakstīta funkcija.
 
 1. Atjauniniet lauku nosaukumus Warehouse Management mobilajā programmā, apmeklējot **Warehouse Management \> Iestatījums \> Mobilā ierīce \> Warehouse programmas lauku nosaukumi** un atlasot **Izveidot noklusējuma iestatījumus**. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
 1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
@@ -57,7 +57,7 @@ Izmantojiet šo procedūru, lai iestatītu novirzīšanu no izvēlnes raksturīg
 
 1. Izveidojiet izvēlnei raksturīgu pārlabošanu atbilstošai izvēlnei un darbību, kā tas ir aprakstīts sadaļā [Pielāgot darbību nosaukumus un instrukcijas mobilajai programmai Warehouse Management](mobile-app-titles-instructions.md).
 1. Atrodiet to **Soļa ID** un **Izvēlnes elementu nosaukumu** vērtību kombināciju, ko vēlaties rediģēt, un pēc tam atlasiet vērtību kolonnā **Soļa ID**.
-1. Lapā, kas tiek parādīta kopsavilkuma cilnē **Pieejamās novirzīšanās (izvēlnes vienumi)**, varat norādīt izvēlnes elementu, kam jādarbojas kā novirzīšana. Var arī atlasīt, kuras lauku vērtības no galvenā uzdevuma automātiski jākopē uz un no novirzīšanas. Piemērus, kas parāda, kā izmantot šos iestatījumus, skatiet tālāk šīs tēmas scenārijos.
+1. Lapā, kas tiek parādīta kopsavilkuma cilnē **Pieejamās novirzīšanās (izvēlnes vienumi)**, varat norādīt izvēlnes elementu, kam jādarbojas kā novirzīšana. Var arī atlasīt, kuras lauku vērtības no galvenā uzdevuma automātiski jākopē uz un no novirzīšanas. Piemērus, kas parāda, kā izmantot šos iestatījumus, skatiet tālāk šī raksta scenārijos.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>1. scenārija paraugs: pārdošanas izdošana, ja pieprasījums par novietojumu darbojas kā novirzīšana
 

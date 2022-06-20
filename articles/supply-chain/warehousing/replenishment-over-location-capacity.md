@@ -1,6 +1,6 @@
 ---
 title: Papildināšana, pārsniedzot vietas ietilpību
-description: Šajā tēmā ir sniegta informācija par funkciju Papildināšana, pārsniedzot vietas ietilpību. Šī funkcija ļauj veikt visus papildināšanas darbus, kas būs nepieciešami šīs dienas izveidošanai, un pārvalda šī papildināšanas darba pieejamību, lai nodrošinātu, ka saņemšanas vieta neizbeidzas krājumi un tā nepārsniedz noslodzi.
+description: Šajā rakstā ir sniegta informācija par vietas noslodzes papildināšanas līdzekli. Šī funkcija ļauj veikt visus papildināšanas darbus, kas būs nepieciešami šīs dienas izveidošanai, un pārvalda šī papildināšanas darba pieejamību, lai nodrošinātu, ka saņemšanas vieta neizbeidzas krājumi un tā nepārsniedz noslodzi.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899242"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildināšana, pārsniedzot vietas ietilpību
 
@@ -37,7 +37,7 @@ Lai padarītu šo līdzekli pieejamu, aktivizējiet tālāk norādītos līdzek�
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Iestatīt līdzekli piemēra scenārijam
 
-Šajā sadaļā ir sniegti norādījumi un piemērs, kas parāda, kā iestatīt šo funkciju un sagatavot parauga datus piemēru scenārijam, kas sniegts tālāk šajā tēmā.
+Šajā sadaļā ir sniegtas vadlīnijas un piemērs, kā iestatīt šo funkciju, un sagatavot parauga datus piemēra scenārijam, kas sniegts tālāk šajā rakstā.
 
 ### <a name="enable-sample-data"></a>Iespējot datu paraugu
 
@@ -145,7 +145,7 @@ Papildināšanas veidnes ir kārtulu kopa, kas kontrolē novietojuma papildinā�
 
 ## <a name="example-scenario"></a>Piemēra situācija
 
-Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus un to iestatījis, varat strādāt ar šo scenāriju, lai izmēģinātu *Papildināšana, pārsniedzot vietas ietilpību* funkciju. Šajā scenārijā parādītās vērtības pieņem, ka strādājat ar standarta demonstrācijas datiem, ar kuriem atlasījāt **USMF** juridisko personu un ka sagatavojāt parauga ierakstus, kas ir aprakstīti iepriekš šajā tēmā. Šis scenārijs kalpo arī kā piemērs, kas parāda, kā līdzekli var izmantot ražošanas iestatījumā.
+Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus un to iestatījis, varat strādāt ar šo scenāriju, lai izmēģinātu *Papildināšana, pārsniedzot vietas ietilpību* funkciju. Šajā scenārijā parādītās vērtības pieņem, ka strādājat ar standarta demonstrācijas datiem, **atlasījāt USMF** juridisko personu un ka sagatavojāt parauga ierakstus, kas ir aprakstīti iepriekš šajā rakstā. Šis scenārijs kalpo arī kā piemērs, kas parāda, kā līdzekli var izmantot ražošanas iestatījumā.
 
 ### <a name="create-replenishment-work"></a>Izveidot papildināšanas darbu
 

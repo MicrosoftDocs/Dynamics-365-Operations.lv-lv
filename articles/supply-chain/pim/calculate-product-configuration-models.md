@@ -1,6 +1,6 @@
 ---
 title: Biežāk uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
-description: Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem.
+description: Šajā rakstā ir aprakstīti preču konfigurācijas modeļu aprēķini un skaidrots, kā lietot aprēķinus kopā ar ierobežojumiem.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890949"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Biežāk uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti preču konfigurācijas modeļu aprēķini un ir paskaidrots, kā šos aprēķinus lietot kopā ar ierobežojumiem.
+Šajā rakstā ir aprakstīti preču konfigurācijas modeļu aprēķini un skaidrots, kā lietot aprēķinus kopā ar ierobežojumiem.
 
 Aprēķinus var izmantot aritmētisko vai loģisko operāciju veikšanai. Tie papildina izteiksmju ierobežojumus preču konfigurācijas modeļos. Aprēķinus var definēt lapā **Detalizēta informācija par ierobežojumam atbilstošu preces konfigurācijas modeli** un pēc tam izveidot izteiksmes aprēķiniem izteiksmju redaktorā. Papildu informāciju skatiet sadaļā Aprēķinu izveide.
 

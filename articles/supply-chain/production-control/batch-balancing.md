@@ -1,6 +1,6 @@
 ---
 title: Partijas līdzsvarošana
-description: Šajā tēmā ir aprakstīts partijas līdzsvarošanas process.
+description: Šajā rakstā ir aprakstīts partijas līdzsvarošanas process.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856053"
 ---
 # <a name="batch-balancing"></a>Partijas līdzsvarošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā tiek nodrošināts partijas līdzsvarošanas process.
+Šajā rakstā ir aprakstīts, kā tiek atbalstīts partijas līdzsvarošanas process.
 
 Lai iegūtu papildu informāciju, noskatieties [videoklipu par partijas līdzsvarošanu](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ Palīgvielas līdzsvarotais daudzums tiek aprēķināts kā starpība starp part
 Partijas līdzsvarošanas process tiek veikts no lapas **Partijas līdzsvarošana**.
 Atlasiet **Izmaksu pārvaldība \> Partijas pasūtījumi**, un pēc tam cilnē **Process** atlasiet **Partijas līdzsvarošana**. Funkcija Partijas līdzsvarošana ir pieejama partijas pasūtījumiem ar statusu **Sākts**.
 
-Kopumā partijas līdzsvarošanu var lietot partijas pasūtījumiem, ja formulā ir vismaz viena formulas rinda, kur **Sastāvdaļas veids** ir *Aktīva*. (Šīs kārtulas izņēmumu skatiet tālāk šīs tēmas sadaļā “Partijas pasūtījumi, kas nav piemērojami partijas līdzsvarošanai”).
+Kopumā partijas līdzsvarošanu var lietot partijas pasūtījumiem, ja formulā ir vismaz viena formulas rinda, kur **Sastāvdaļas veids** ir *Aktīva*. (Šīs kārtulas izņēmumu skatiet tālāk šajā rakstā sadaļā "Partijas pasūtījumi, kas nav piemērojami partijas līdzsvarošanai".
 
 Partijas līdzsvarošanas procesu var sadalīt divos apakšprocesos:
 

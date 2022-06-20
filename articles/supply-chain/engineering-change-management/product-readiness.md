@@ -1,6 +1,6 @@
 ---
 title: Preces gatavība
-description: Šajā tēmā izskaidrots, kā var izmantot gatavības pārbaudes, lai nodrošinātu, ka preces pamatdati ir pabeigti, pirms tā tiek izmantota darbībās.
+description: Šajā rakstā skaidrots, kā var lietot gatavības pārbaudes, lai nodrošinātu, ka precei ir pabeigti nepieciešamie pamatdati, pirms tā tiek izmantota darbībās.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856227"
 ---
 # <a name="product-readiness"></a>Preces gatavība
 
@@ -61,7 +61,7 @@ Ja precei tiek izveidots jauna inženiertehniskā *versija*, sistēma pārbauda,
 - Tehniskā versija ir iestatīta uz neaktīvu, lai bloķētu preces izmantošanu.
 
 > [!NOTE]
-> Gatavības pārbaudes politikas varat iestatīt arī standarta (ne inženiertehniskām) precēm. Papildinformāciju skatiet tālāk šīs tēmas sadaļā [Standarta preču gatavības pārbaudes](#standard-products).
+> Gatavības pārbaudes politikas varat iestatīt arī standarta (ne inženiertehniskām) precēm. Papildinformāciju skatiet tālāk [šī raksta sadaļā Gatavības](#standard-products) pārbaudes standarta precēm.
 
 ## <a name="view-readiness-checks"></a>Skatīt gatavības pārbaudes
 
@@ -151,7 +151,7 @@ Katrai rindai, kuru pievienojat, iestatiet tālāk norādītos laukus.
 | Uzņēmums | Ja **Izpildes** lauks tiek iestatīts uz *Viens uzņēmums*, atlasiet uzņēmumu. |
 | Īpašnieka tips | Atlasiet, vai personai vai komandai ir jāpiešķir gatavības pārbaudes. |
 | Īpašnieks | Atlasiet personu vai komandu, kam ir jāpiešķir gatavības pārbaude, ko ģenerē rinda. |
-| Anketa | Atlasiet anketu, kas jāizmanto kontrolsarakstam. Kontrolsaraksts ir vietējais kontrolsaraksts uzņēmumā, kur pabeigta gatavības pārbaude. Sistēmai ir jāvar novērtēt, vai kontrolsaraksts ir pareizi atbildēts. Tāpēc kontrolsaraksts ir jāiestata tā, lai novērtējums tiktu veikts, pamatojoties uz pareizām atbildēm. Papildinformāciju par to, kā izveidot anketas, skatiet [Anketu lietošana](/dynamicsax-2012/appuser-itpro/using-questionnaires) un ar to saistītās tēmas. |
+| Anketa | Atlasiet anketu, kas jāizmanto kontrolsarakstam. Kontrolsaraksts ir vietējais kontrolsaraksts uzņēmumā, kur pabeigta gatavības pārbaude. Sistēmai ir jāvar novērtēt, vai kontrolsaraksts ir pareizi atbildēts. Tāpēc kontrolsaraksts ir jāiestata tā, lai novērtējums tiktu veikts, pamatojoties uz pareizām atbildēm. Papildinformāciju par to, kā izveidot anketas [,](/dynamicsax-2012/appuser-itpro/using-questionnaires) skatiet sadaļā Anketu izmantošana un saistītie dokumenti. |
 | Automātisks apstiprinājums | Gatavības pārbaudes ieraksti ietver izvēles rūtiņu **Apstiprināts**, kas norāda apstiprinājuma statusu. Atzīmējiet izvēles rūtiņu **Automātisks apstiprinājums** pārbaudēm, kas jāiestata uz apstiprināts uzreiz pēc tam, kad piešķirtais lietotājs tos pabeidz. Nodzēsiet šo izvēles rūtiņu, lai pieprasītu tiešu apstiprinājumu kā papildu darbību. |
 | Obligāts | Atzīmējiet šo izvēles rūtiņu pārbaudēm, kas jāaizpilda piešķirtajam lietotājam. Obligātās pārbaudes nevar izlaist. |
 
@@ -159,7 +159,7 @@ Katrai rindai, kuru pievienojat, iestatiet tālāk norādītos laukus.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Gatavības politiku piešķiršana standarta un inženiertehniskajām precēm
 
-Kad jūs izveidojat jaunu preci, kas pamatota uz inženiertehnisko kategoriju, jūs izveidojat gan *izlaisto preci*, gan saistīto *kopīgoto preci* . Veids, *kādā* izpildei nodotajām precēm tiek atrisinātas gatavības politikas, ir atkarīgs no tā, vai sistēmai ir ieslēgta preču gatavības pārbaudes ([detalizētu](#standard-products) informāciju par šo funkciju skatiet sadaļas Gatavības pārbaude standarta precēm tālāk šajā tēmā, kā to ieslēgt vai izslēgt).
+Kad jūs izveidojat jaunu preci, kas pamatota uz inženiertehnisko kategoriju, jūs izveidojat gan *izlaisto preci*, gan saistīto *kopīgoto preci* . Veids, *kādā* izpildei nodotajām precēm tiek atrisinātas gatavības politikas, ir atkarīgs no tā, vai sistēmai ir ieslēgta preču gatavības pārbaudes ([detalizētu](#standard-products) informāciju par šo funkciju un to ieslēgt vai izslēgt skatiet sadaļā Gatavības pārbaudes standarta precēm tālāk šajā rakstu).
 
 - Kad *Preču gatavības pārbaužu* funkcija jūsu sistēmā ir *izslēgta*, gatavības politika tiek iestatīta un rādīta tikai [inženiertehniskās kategorijas](engineering-versions-product-category.md) ierakstos. Lai uzzinātu, kura politika attiecas uz izlaistu preci, sistēma pārbauda **Preces gatavības politikas** lauku saistītajai inženiertehniskajai kategorijai. Var mainīt esošas preces gatavības politiku, rediģējot saistīto inženiertehnisko kategoriju (nevis kopīgoto preci).
 - Ja *Preces gatavības pārbaudes* funkcija ir *ieslēgta*, tā pievieno **Preču gatavības politikas** lauku lapai **Prece** (kur ir iestatītas koplietotas preces) un lapai **Izlaistā prece** (kur vērtība ir tikai lasāma un tiek ņemta no saistītās koplietojamās preces). Sistēma atrod izlaistās preces gatavības politiku, pārbaudot saistīto koplietoto preci. Kad jūs izmantojat inženiertehnisko kategoriju jaunas inženiertehniskās preces izveidošanai, sistēma izveido gan kopīgu preci, gan izlaisto preci un kopē jebkuru **Preces gatavības politikas** iestatījumu inženiertehniskajai kategorijai jaunajā kopīgotajā precē. Tad varat mainīt esošas preces gatavības politiku, rediģējot saistīto kopīgoto preci (nevis izlaisto inženiertehnisko kategoriju).
@@ -188,14 +188,14 @@ Jūs varat iespējot preču gatavības pārbaudes standarta (ne inženiertehnisk
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Izveidot standarta preču gatavības politikas
 
-Tiek izveidota gatavības politika standarta precēm tāpat kā inženiertehniskajām precēm. Informāciju skatiet iepriekš šajā tēmā.
+Tiek izveidota gatavības politika standarta precēm tāpat kā inženiertehniskajām precēm. Skatiet informāciju iepriekš šajā rakstā.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Piešķirt gatavības politikas standarta precēm
 
-Lai piešķirtu standarta precei gatavības politiku, atveriet saistīto koplietoto preci un iestatiet lauku **Preču gatavības politika** uz tās politikas nosaukumu, kuru jālieto. Plašāku informāciju skatiet iepriekš šajā tēmā sadaļā [Gatavības politiku piešķiršana standarta un inženiertehniskajām precēm](#assign-policy).
+Lai piešķirtu standarta precei gatavības politiku, atveriet saistīto koplietoto preci un iestatiet lauku **Preču gatavības politika** uz tās politikas nosaukumu, kuru jālieto. Plašāku informāciju skatiet šī raksta [sadaļā Gatavības politiku piešķiršana](#assign-policy) standarta un konstruēšanas precēm.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Skatīt un pārstrādāt standarta preču gatavības pārbaudes
 
-Kad šī funkcija ir ieslēgta, jūs skatāt un apstrādājam gatavības pārbaudes standarta precēm tāpat, kā jūs to darām inženiertehniskajai precei. Informāciju skatiet iepriekš šajā tēmā.
+Kad šī funkcija ir ieslēgta, jūs skatāt un apstrādājam gatavības pārbaudes standarta precēm tāpat, kā jūs to darām inženiertehniskajai precei. Skatiet informāciju iepriekš šajā rakstā.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

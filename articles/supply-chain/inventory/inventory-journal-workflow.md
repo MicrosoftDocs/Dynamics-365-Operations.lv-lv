@@ -1,6 +1,6 @@
 ---
 title: Krājumu žurnāla apstiprināšanas darbplūsmas
-description: Šajā tēmā ir aprakstīts, kā uzstādīt un izmantot krājumu žurnālu apstiprināšanas darbplūsmas dažādu veidu fizisko krājumu transakcijām. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
+description: Šajā rakstā ir aprakstīts, kā iestatīt un lietot krājumu žurnālu apstiprināšanas darbplūsmas dažādiem fizisko krājumu darbību tipiem. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873990"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā uzstādīt un izmantot krājumu žurnālu apstiprināšanas darbplūsmas dažādu veidu fizisko krājumu transakcijām, piemēram, izejas un ieejas plūsmu grāmatošanu, krājumu kustības, materiālu komplektu (MK) izveidošanu un fizisko krājumu saskaņošanu. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
+Šajā rakstā ir aprakstīts, kā iestatīt un lietot krājumu žurnālu apstiprināšanas darbplūsmas dažādiem fizisko krājumu darbību tipiem, piemēram, izejas plūsmām un ieejas plūsmām, krājumu kustībām, materiālu komplektiem (MK) un fizisko krājumu saskaņošanai. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
 
 > [!NOTE]
 > Krājumu žurnāla apstiprināšanas darbplūsmas attiecas tikai uz transakcijām, kas ierakstītas, izmantojot Krājumu vadības moduli. Tās nestrādā ar krājumu žurnāliem, kas tiek izraisīti no Noliktavas pārvaldības moduļa.
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Krājumu žurnāla apstiprināšanas darbplūsmas līdzekļa iespējošana
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības lapu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Inventāra un noliktavas pārvaldība*
 - **Funkcionalitātes nosaukums:** *Inventāra žurnāla apstiprināšanas darbplūsma*
@@ -44,7 +44,7 @@ Darbplūsmas atbalsta versijas kontroli, un katrai darbplūsmai ir darbplūsmas 
 
 Lai izveidotu jūsu krājumu žurnāla apstiprināšanas darbplūsmas:
 
-1. Dodieties uz **Krājumu vadība \> Iestatīšana \> Krājumu pārvaldības darbplūsmas**.
+1. Dodieties uz **Krājumu vadība \> Iestatīšana\> Krājumu pārvaldības darbplūsmas**.
 1. Atlasiet **Jauns** darbību rūtī.
 1. Izvēlieties krājumu žurnāla tipu, kuram vēlaties iestatīt darbplūsmu:
     - **Krājumu etiķešu inventarizācijas žurnāls**

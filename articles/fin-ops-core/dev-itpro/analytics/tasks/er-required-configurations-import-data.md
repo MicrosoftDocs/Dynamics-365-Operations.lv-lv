@@ -1,6 +1,6 @@
 ---
 title: ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
-description: Šajā tēmā aprakstīts, kā izveidot elektronisko pārskatu konfigurācijas datu importēšanai programmā Microsoft Dynamics 365 Finance no ārējā faila.
+description: Šajā rakstā ir aprakstīts, kā projektēt elektronisko pārskatu konfigurācijas, lai importētu datus Microsoft Dynamics 365 Finanšu programmā no ārējā faila.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865898"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 
@@ -241,7 +241,7 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
 
-    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Financeversijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
+    Ja instalējāt labojumfailu "KB 4012871 STANDARTA modeļa kartēšanas atbalstu atsevišķās konfigurācijās, lai [varētu norādīt dažādu veidu priekšnosacījumus to izvietošanai dažādās Dynamics 365 Finanses versijās" (](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) KB 4012871), izpildiet nākamo darbību "Ieslēgt karodziņu "Modeļa kartēšanas noklusējums" ievadītās formāta konfigurācijas izpildei. Pretējā gadījumā izlaidiet nākamo darbību.  
 
 21. Modeļu kartējuma laukā Noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.

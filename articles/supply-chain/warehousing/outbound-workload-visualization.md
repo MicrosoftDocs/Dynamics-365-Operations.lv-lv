@@ -1,6 +1,6 @@
 ---
 title: Izejošās darba slodzes vizualizācija
-description: Šajā tēmā ir sniegta informācija par izejošo darba slodzes vizualizāciju. Šī funkcionalitāte ļauj noliktavas pārvaldniekiem un uzraugiem izveidot pielāgotas darba slodzes diagrammas, ko var izmantot, lai pārraudzītu pašreizējā darba norisi un atlikušo daudzumu. Noliktavas pārvaldnieki var izveidot vairākus skatījumus un iestatīt automātisko atsvaidzināšanu pēc to nepieciešamības.
+description: Šajā rakstā ir sniegta informācija par izejošās darba noslodzes vizualizāciju. Šī funkcionalitāte ļauj noliktavas pārvaldniekiem un uzraugiem izveidot pielāgotas darba slodzes diagrammas, ko var izmantot, lai pārraudzītu pašreizējā darba norisi un atlikušo daudzumu. Noliktavas pārvaldnieki var izveidot vairākus skatījumus un iestatīt automātisko atsvaidzināšanu pēc to nepieciešamības.
 author: Mirzaab
 ms.date: 08/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851338"
 ---
 # <a name="outbound-workload-visualization"></a>Izejošās darba slodzes vizualizācija
 

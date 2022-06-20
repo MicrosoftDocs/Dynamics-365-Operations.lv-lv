@@ -1,6 +1,6 @@
 ---
 title: Programmas metadatu sagatavošana lietošanai ar RCS
-description: Šajā tēmā ir aprakstīts, kā izveidot jaunu pārskata konfigurāciju, kas satur programmas metadatus.
+description: Šajā rakstā ir aprakstīts, kā izveidot jaunu pārskata konfigurāciju, kas satur programmas metadatus.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868802"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Programmas metadatu sagatavošana lietošanai ar RCS
 [!include [banner](../../includes/banner.md)]
 
-Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var izveidot jaunu elektronisko pārskatu (Electronic reporting — ER) konfigurāciju, kurā ir programmas metadati ER modeļa kartēšanas konfigurāciju veidošanai pakalpojumā Regulatory Configuration Service (RCS). Šī konfigurācija tiks izmantota, lai izstrādātu parauga ER modeļa kartēšanas konfigurāciju, kura ir paredzēta piekļūšanai ārējās tirdzniecības transakcijām. Šajā piemērā tiek izveidota konfigurācija parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas ir aprakstītas tēmā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md).
+Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs” var izveidot jaunu elektronisko pārskatu (Electronic reporting — ER) konfigurāciju, kurā ir programmas metadati ER modeļa kartēšanas konfigurāciju veidošanai pakalpojumā Regulatory Configuration Service (RCS). Šī konfigurācija tiks izmantota, lai izstrādātu parauga ER modeļa kartēšanas konfigurāciju, kura ir paredzēta piekļūšanai ārējās tirdzniecības transakcijām. Šajā piemērā tiek izveidota konfigurācija parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā. Lai veiktu šīs darbības, vispirms ir jāveic soļi rakstā, izveidojiet konfigurācijas nodrošinātājus [un atzīmējiet tos kā aktīvus](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 1.    Dodieties uz **Organizācijas administrēšana** > **Darbvietas** > **Elektronisko pārskatu veidošana**. 

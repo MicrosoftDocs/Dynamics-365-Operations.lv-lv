@@ -1,6 +1,6 @@
 ---
 title: Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
+description: Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877426"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par to kā izmantot darba veidnes un vietas direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
+Šajā rakstā aprakstīts, kā izmantot darba veidnes un novietojuma direktīvas, lai noteiktu, kā un kur darbs tiek veikts noliktavā.
 
 Tas, kādas instrukcijas noliktavas darbinieki saņem mobilajā ierīcē, ir atkarīgs no darba veidnēm, kuras iestatāt programmā Dynamics 365 Supply Chain Management, lai definētu dažādos noliktavas procesus un uzdevumus. Darba veidnes nosaka, kā darbs tiek veikts katram noliktavas procesam. Saistot novietojuma direktīvu ar darba veidnēm, var palīdzēt garantēt, ka darbs notiek noteiktās noliktavu fiziskās daļās.
 
@@ -73,7 +73,7 @@ Atrašanās vietas direktīvas nosaka, *kur* krājumi jāizdod un *kur* tie jāi
 ## <a name="additional-resources"></a>Papildu resursi
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Palīdzības tēma: [Darbs ar novietojuma direktīvām](create-location-directive.md)
+- Palīdzības raksts: darbs [ar novietojuma direktīvām](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

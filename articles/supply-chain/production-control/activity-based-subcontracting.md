@@ -1,6 +1,6 @@
 ---
 title: No aktivitātēm atkarīgu apakšlīgumu slēgšana
-description: Šajā tēmā ir detalizēti aprakstīts, kā lean ražošanas procesā izmantot ražošanas plūsmā izmantot apakšlīgumā paredzētās aktivitātes.
+description: Šajā rakstā ir sīkāk aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšuzņēmēja darbības.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890746"
 ---
 # <a name="activity-based-subcontracting"></a>No aktivitātēm atkarīgu apakšlīgumu slēgšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir detalizēti aprakstīts, kā lean ražošanas procesā izmantot ražošanas plūsmā apakšlīgumā paredzētas aktivitātes.
+Šajā rakstā ir sīkāk aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšuzņēmēja darbības.
 
 Programmā Microsoft Dynamics 365 Supply Chain Management ir pieejamas divas apakšlīgumu slēgšanas metodes: ražošanas pasūtījumi un lean ražošanas process. Ja izmantojat lean ražošanas procesa metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean ražošanas procesa izmaksu aprēķināšanas risinājumā.
 

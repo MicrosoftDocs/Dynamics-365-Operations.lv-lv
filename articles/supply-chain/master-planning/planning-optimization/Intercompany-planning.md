@@ -1,6 +1,6 @@
 ---
 title: Starpuzņēmumu plānošana
-description: Šī tēma apraksta starpuzņēmumu plānošanu un izskaidro, kā to konfigurēt ar Plānošanas optimizāciju programmā Microsoft Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīta starpuzņēmumu plānošana un skaidrots, kā konfigurēt starpuzņēmumu plānošanu ar Microsoft plānošanas optimizāciju Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850675"
 ---
 # <a name="intercompany-planning"></a>Starpuzņēmumu plānošana
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468501"
 
 Dažām organizācijām loģistikas darbības ir atkarīgas no citām juridiskām personām (uzņēmumiem) organizācijā. Šīs operācijas tiek apstrādātas, izmantojot starpuzņēmumu pārdošanu un pirkšanu, jo katrai juridiskajai personai ir atsevišķs kontu plāns.
 
-Šī tēma apraksta starpuzņēmumu plānošanu un izskaidro, kā to konfigurēt ar Plānošanas optimizāciju programmā Microsoft Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīta starpuzņēmumu plānošana un skaidrots, kā konfigurēt starpuzņēmumu plānošanu ar Microsoft plānošanas optimizāciju Dynamics 365 Supply Chain Management.
 
-Šī tēma izmanto šādus svarīgus starpuzņēmumu nosacījumus:
+Šajā rakstā tiek lietoti šādi svarīgi starpuzņēmumu nosacījumi:
 
 - **Iepriekšējā plūsma** – relatīvā atsauce uzņēmumā vai piegādes ķēdē. Tā norāda kustību izejmateriālu piegādātāja virzienā.
 - **Pakārtotā plūsma** – relatīvā atsauce uzņēmumā vai piegādes ķēdē. Tā norāda kustību klienta virzienā.

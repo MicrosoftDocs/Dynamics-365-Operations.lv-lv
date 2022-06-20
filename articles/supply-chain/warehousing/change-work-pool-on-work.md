@@ -1,6 +1,6 @@
 ---
 title: Mainīt darba pūlu darbam
-description: Šajā tēmā ir paskaidrots, kā darba vienumiem var izmantot pogu Mainīt darba pūlu, lai mainītu esošā darba pūlu.
+description: Šajā rakstā ir aprakstīts, kā var izmantot pogu Mainīt darba pūlu darba vienumiem, lai mainītu esošā darba kopu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900627"
 ---
 # <a name="change-work-pool-on-work"></a>Mainīt darba pūlu darbam
 
@@ -34,14 +34,14 @@ Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Iestatīt līdzekli Mainīt darba pūlu darbam
 
-Lai izmantotu šo līdzekli, ir jābūt iestatītiem darba pūliem. Varat arī iestatīt darba veidnes, lai tās automātiski piešķirtu pūlu. Ja vēlaties strādāt ar piemēra scenāriju, kas ir sniegts tālāk šajā tēmā, iestatiet sistēmu, kā aprakstīts šajā sadaļā.
+Lai izmantotu šo līdzekli, ir jābūt iestatītiem darba pūliem. Varat arī iestatīt darba veidnes, lai tās automātiski piešķirtu pūlu. Ja vēlaties strādāt kopā ar piemēra scenāriju, kas sniegts tālāk šajā rakstā, iestatiet sistēmu tā, kā aprakstīts šajā sadaļā.
 
 ### <a name="set-up-work-pools"></a>Darba pūlu iestatīšana
 
 Darba pūli ļauj kārtot darba vienumus pēc veida. Lai strādātu ar līdzekli *Mainīt darba pūlu darbam*, ir jābūt pieejamiem vismaz diviem darba pūliem. Veiciet tālāk norādītās darbības, lai skatītu un pievienotu darba pūlus.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba pūli**.
-1. Ja strādājat ar uzņēmuma **USMF** demonstrācijas datiem un šajā tēmā strādāsiet ar piemēra scenāriju, pievienojiet divus darba pūlus, ar šādiem iestatījumiem:
+1. Ja strādājat ar demonstrācijas **datiem no USMF** uzņēmuma un vēlāk veiksiet darbību šī raksta piemēra scenārijā, pievienojiet divas darba kopas ar šādiem iestatījumiem:
 
     - 1. darba pūls:
 
@@ -57,9 +57,9 @@ Darba pūli ļauj kārtot darba vienumus pēc veida. Lai strādātu ar līdzekli
 
 ### <a name="set-up-work-templates"></a>Iestatīt darba veidnes
 
-Katrai darba veidnei varat iestatīt noklusējuma darba pūlu, pēc nepieciešamības. Katrai atbilstošajai veidnei ir jāpiešķir darba pūls kolonnā **Darba pūla ID**. Šādā gadījumā visi darba vienumi, kas tiek ģenerēti, izmantojot doto veidni, automātiski pārmanto piešķirto darba pūlu. Ja strādājat ar uzņēmuma **USMF** demonstrācijas datiem un šajā tēmā strādāsiet ar piemēra scenāriju,veiciet tālāk norādītās darbības.
+Katrai darba veidnei varat iestatīt noklusējuma darba pūlu, pēc nepieciešamības. Katrai atbilstošajai veidnei ir jāpiešķir darba pūls kolonnā **Darba pūla ID**. Šādā gadījumā visi darba vienumi, kas tiek ģenerēti, izmantojot doto veidni, automātiski pārmanto piešķirto darba pūlu. Ja strādājat ar usMF **uzņēmuma** demonstrācijas datiem un turpināsiet izmantot šī raksta parauga scenāriju, sekojiet šiem soļiem.
 
-1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba veidnes**.
+1. Doties uz **Noliktavas pārvaldība \> Iestatīšana \> Darbs \> Darba veidnes**.
 1. Darbību rūtī atlasiet **Rediģēt**, lai lapu padarītu rediģējamu.
 1. Rediģējiet veidni, iestatot šādas vērtības:
 
@@ -70,7 +70,7 @@ Katrai darba veidnei varat iestatīt noklusējuma darba pūlu, pēc nepieciešam
 
 ## <a name="example-scenario"></a>Piemēra situācija
 
-Šajā scenārijā ir parādīts, kā mainīt pašreizējo darba vienumu apstrādes straumi, mainot to darba pūlu. Tas izmanto uzņēmuma **USMF** demonstrācijas datus un iestatījumus, kas tika ieteikti iepriekš šajā tēmā.
+Šajā scenārijā ir parādīts, kā mainīt pašreizējo darba vienumu apstrādes straumi, mainot to darba pūlu. Tas izmanto demonstrācijas datus no **USMF** uzņēmuma un iestatījumus, kas tika ieteikti iepriekš šajā rakstā.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Izveidot pārdošanas pasūtījumu un nodot to noliktavai
 

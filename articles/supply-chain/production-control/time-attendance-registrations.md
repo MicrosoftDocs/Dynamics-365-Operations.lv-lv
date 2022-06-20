@@ -1,6 +1,6 @@
 ---
 title: Laika un apmeklētības reģistrācijas pārskats
-description: Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
+description: Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
 author: johanhoffmann
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f648663d81cd37a1df7794ee9d5ad6598fb16594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875222"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Laika un apmeklētības reģistrācijas pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
+Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā rakstā sniegta informācija par reģistrācijas veidiem, to aprēķināšanu, apstiprināšanu un darbplūsmas izmantošanu, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
 
 ## <a name="registrations"></a>Reģistrācijas
 

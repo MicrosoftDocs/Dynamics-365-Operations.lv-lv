@@ -1,6 +1,6 @@
 ---
-title: Konfigurēt darbu karti ierīcēm
-description: Šajā tēmā ir aprakstītas dažādas opcijas darba kartes ierīces konfigurēšanai.
+title: Darbu kartes konfigurēšana ierīcēm
+description: Šajā rakstā ir aprakstītas dažādas darbu kartes ierīces konfigurācijas opcijas.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860730"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigurēt darbu karti ierīcēm
 
 [!include [banner](../includes/banner.md)]
 
-Darba kartes ierīci izmanto ražotnes darbinieki, lai reģistrētu savu ikdienas darbu, piemēram, kad darbi sākti, ziņošana par darbu, netiešo aktivitāšu reģistrēšana un prombūtnes norādīšana. Šīs reģistrācijas ir pamats, lai izsekotu norises un izmaksas ražošanas pasūtījumos un lai aprēķinātu pamatu darbinieku atalgojumam. Šajā tēmā ir aprakstītas dažādas opcijas darba kartes konfigurēšanai.
+Darba kartes ierīci izmanto ražotnes darbinieki, lai reģistrētu savu ikdienas darbu, piemēram, kad darbi sākti, ziņošana par darbu, netiešo aktivitāšu reģistrēšana un prombūtnes norādīšana. Šīs reģistrācijas ir pamats, lai izsekotu norises un izmaksas ražošanas pasūtījumos un lai aprēķinātu pamatu darbinieku atalgojumam. Šajā rakstā ir aprakstītas dažādas darbu karšu ierīču konfigurācijas opcijas.
 
 ## <a name="enable-new-features-in-feature-management"></a>Jaunu līdzekļu iespējošana līdzekļu pārvaldībā
 
-Daži šajā tēmā aprakstītie iestatījumi ir jāaktivizē jūsu sistēmā, pirms tie jums būs pieejami. Izmantojiet lapu [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu jebkuru vai visus tālāk norādītos līdzekļus pēc nepieciešamības.
+Dažiem šajā rakstā aprakstītajiem iestatījumiem ir jābūt iespējotiem jūsu sistēmā, pirms tie būs jums pieejami. Izmantojiet lapu [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai iespējotu jebkuru vai visus tālāk norādītos līdzekļus pēc nepieciešamības.
 
 ### <a name="generate-license-plate"></a>Ģenerēt numura zīmi
 

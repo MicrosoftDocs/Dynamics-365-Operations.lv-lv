@@ -1,6 +1,6 @@
 ---
 title: Ievadīt algu sākuma bilances
-description: Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem.
+description: Šajā dokumentā ir aprakstīti sākuma bilanču ievadīšanas soļi ienākumu kodiem, atvilkumiem, atvieglojumiem un nodokļiem.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850023"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Ievadīt algu sākuma bilances
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas darbības sākuma bilanču ievadīšanai attiecībā uz ienākumu veida kodiem, ieturējumiem, atvieglojumiem un nodokļiem. Šī informācija ir vērtīga partneriem, kuri datus jaunai algu ieviešanai pārsūtīta no citas sistēmas. Lai sagatavotos ievadīt sākuma algu bilances, mēs pārbaudām tālāk norādīto informāciju.
+Šajā dokumentā ir aprakstīti sākuma bilanču ievadīšanas soļi ienākumu kodiem, atvilkumiem, atvieglojumiem un nodokļiem. Šī informācija ir vērtīga partneriem, kuri datus jaunai algu ieviešanai pārsūtīta no citas sistēmas. Lai sagatavotos ievadīt sākuma algu bilances, mēs pārbaudām tālāk norādīto informāciju.
 
 - Darbinieka ieraksti ir ievadīti un ir pieejami sistēmā
 - Darbiniekiem tiek iestatīti un tiek piešķirti tālāk norādītie dati.

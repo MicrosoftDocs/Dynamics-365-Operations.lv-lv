@@ -1,6 +1,6 @@
 ---
 title: Pirkšanas līguma izveide
-description: Šajā tēmā aprakstīta pirkšanas līguma izveide.
+description: Šajā rakstā ir ceļvedis par pirkšanas līguma izveidi.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877571"
 ---
 # <a name="create-a-purchase-agreement"></a>Pirkšanas līguma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstīta pirkšanas līguma izveide. Parasti to veic pirkšanas pārvaldnieks. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākt, jāiestata pirkšanas līgumu klasifikācijas. Kad esat izveidojis vienošanos, to var izmantot, veidojot PP, un šādi pirkšanas līguma nosacījumi tiks kopēti virsrakstā un jebkurās pasūtījuma rindās, kuras līgums ietekmē.
+Šajā rakstā ir ceļvedis par pirkšanas līguma izveidi. Parasti to veic pirkšanas pārvaldnieks. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākt, jāiestata pirkšanas līgumu klasifikācijas. Kad esat izveidojis vienošanos, to var izmantot, veidojot PP, un šādi pirkšanas līguma nosacījumi tiks kopēti virsrakstā un jebkurās pasūtījuma rindās, kuras līgums ietekmē.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Jauna pirkšanas līguma izveide

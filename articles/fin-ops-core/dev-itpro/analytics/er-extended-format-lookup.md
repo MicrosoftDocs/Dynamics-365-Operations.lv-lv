@@ -1,6 +1,6 @@
 ---
 title: Elektronisko pārskatu (ER) paplašinātā formāta uzmeklēšana
-description: Šajā tēmā aprakstīts, kā ER formāta uzmeklēšanā var iestatīt ER formāta atsauci, ja nepieciešamais formāts tiek glabāts globālajā repozitorijā.
+description: Šajā rakstā ir aprakstīts, kā ER formāta atsauci var iestatīt ER formāta meklējot, kad nepieciešamais formāts tiek saglabāts Globālajā repozitorijā.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901653"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Ļaut lietotājiem iestatīt ER formāta atsauci, pieprasot formātu no globālās krātuves
 
 [!include [banner](../includes/banner.md)]
 
-Jūs variet izmantot [Elektronisko pārskatu](general-electronic-reporting.md) (ER) struktūru, lai konfigurētu formātus nosūtīšanas dokumentiem saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Varat arī izmantot ER struktūru, lai konfigurētu formātus ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa.
+Jūs variet izmantot [Elektronisko pārskatu](general-electronic-reporting.md) (ER) struktūru, lai konfigurētu formātus nosūtīšanas dokumentiem saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Varat arī izmantot ER struktūru, lai konfigurētu formātus ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 finanšu instancē ienākošo vai izejošo biznesa dokumentu apstrādei kā daļu no noteikta biznesa procesa.
 
 Parasti jānorāda, kāds ER formāts konkrētā biznesa procesā jāizmanto. Lai to izdarītu, atlasiet uzmeklēšanas laukā vienu ER formātu, kas ir konfigurēts kā daļa no biznesa procesam raksturīgiem parametriem. Šie uzmeklēšanas lauki parasti tiek ieviesti, izmantojot attiecīgo ER struktūras API. Plašāku informāciju skatiet [ER struktūras API kods formāta kartēšanas uzmeklēšanas atspoguļošanai](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

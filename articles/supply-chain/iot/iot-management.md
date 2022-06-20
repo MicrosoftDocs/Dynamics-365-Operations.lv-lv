@@ -1,6 +1,6 @@
 ---
 title: IoT informācijas pārraudzība un pārvaldība
-description: Šajā tēmā ir paskaidrots, kā pārraudzīt un pārvaldīt IoT informāciju.
+description: Šajā rakstā skaidrots, kā pārraudzīt un pārvaldīt Iot Intelligence.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e078f1895b44ca388b75f5cd3d19e0e8f7c36630
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a640b523adac619377e19d670f932d4d85cfb6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852423"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT informācijas pārraudzība un pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā pārraudzīt un pārvaldīt IoT informāciju.
+Šajā rakstā skaidrots, kā pārraudzīt un pārvaldīt Iot Intelligence.
 
 ## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Pārraudzīt scenārijus programmā Microsoft Dynamics 365 Supply Chain Management
 
@@ -54,7 +54,7 @@ Kad scenārijs darbojas, šādas izmaiņas ir aizliegtas:
 
 ## <a name="simulation-options"></a>Simulācijas opcijas
 
-Var simulēt rūpnīcas mašīnas signālus. Papildinformāciju skatiet šādās tēmās:
+Var simulēt rūpnīcas mašīnas signālus. Papildinformāciju skatiet šajos rakstos:
 
 + [IoT DevKit AZ3166 savienošana ar Azure IoT centrmezglu](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi tiešsaistes simulatora savienošana ar Azure IoT centrmezglu (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)

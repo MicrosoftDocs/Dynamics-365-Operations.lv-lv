@@ -1,6 +1,6 @@
 ---
 title: Preces apstiprināšana klastera izdošanai
-description: Šajā tēmā ir aprakstīts, kā varat iestatīt krājuma pārbaudi kopā ar klastera izdošanu.
+description: Šajā rakstā ir aprakstīts, kā iestatīt krājumu pārbaudi kopā ar klastera izdošanu.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d14d015811a72bc0ba05b65473331b047dbcc49c104f633c50ee497d92ff3e7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a7b67a583a263eb731abec353159ed3fc2175319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900598"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Preces apstiprināšana klastera izdošanai
 

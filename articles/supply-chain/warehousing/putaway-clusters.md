@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863655"
 ---
 # <a name="putaway-clusters"></a>Izvietošanas klasteri
 
@@ -27,7 +27,7 @@ Izvietošanas klasteri piedāvā veidu, kā vienlaicīgi izvēlēties vairākas 
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Ieslēgt vai izslēgt klastera izvietošanas līdzekli
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, jūsu *sistēmai* jābūt ieslēgtai līdzeklim Klastera putaway. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot klastera*[izvietošanas līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, *jūsu sistēmai jābūt ieslēgtai līdzeklim Cluster putaway*. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot klastera*[izvietošanas līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Piemēra scenārija iestatījumi
 

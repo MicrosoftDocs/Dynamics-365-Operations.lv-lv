@@ -1,6 +1,6 @@
 ---
 title: Kopumu sadalījums
-description: Šajā tēmā ir aprakstīts, kā iestatīt kopuma sadalījuma darbību, tostarp to, kā tam iespējot paralēlo apstrādi.
+description: Šajā rakstā ir aprakstīts, kā iestatīt kopuma sadalījuma darbību, tostarp to, kā tam iespējot paralēlo apstrādi.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906956"
 ---
 # <a name="wave-allocation"></a>Kopumu sadalījums
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695540"
 
 Kopuma apstrāde var būt laikietilpīga, un lielākā daļa apstrādes laika tiek pavadīta sadalījuma solī un darba izveides solī.
 
-Tagad ir iespējams darbināt katru no šiem soļiem paralēli, kas var uzlabot kopuma apstrādes veiktspēju un ļaut lielāku kopumu caurlaidi tajā pašā noliktavā. Šajā tēmā skaidrots, kā iestatīt kopuma sadalījuma metodi paralēlai palaišanai. Papildinformāciju par to, kā iestatīt darba izveidi paralēlai palaišanai, skatiet sadaļā [Darba izveides plānošana kopuma laikā](configure-wave-schedule-work-creation.md).
+Tagad ir iespējams darbināt katru no šiem soļiem paralēli, kas var uzlabot kopuma apstrādes veiktspēju un ļaut lielāku kopumu caurlaidi tajā pašā noliktavā. Šajā rakstā ir aprakstīts, kā iestatīt kopuma sadalījuma metodi paralēlai palaišanai. Papildinformāciju par to, kā iestatīt darba izveidi paralēlai palaišanai, skatiet sadaļā [Darba izveides plānošana kopuma laikā](configure-wave-schedule-work-creation.md).
 
 Iepriekš bija iespējams piešķirt tikai vienu kopumu noliktavā vienlaicīgi. Šis ierobežojums ir noņemts un aizstāts ar jaunu ierobežojumu, kas bloķē tikai krājumu un dimensijas, kas atrodas virs novietojuma rezervāciju hierarhijā. Dimensijas virs novietojuma vienmēr ietver preču dimensijas. Piemēram, ja krājums ir konfigurēts, izmantojot *Krāsu*, tad varianti *Sarkans*, *Zils* un *Dzeltens* var tikt apstrādāti paralēli.
 

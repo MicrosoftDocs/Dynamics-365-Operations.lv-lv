@@ -1,6 +1,6 @@
 ---
 title: Programmai atbilstošo metadatu sagatavošana izmantošanai RCS un ER
-description: Šajā tēmā ir paskaidrots, kā sagatavot programmai atbilstošus metadatus izmantošanai pakalpojumā Regulatory Configuration Service (RCS) un elektroniskajos pārskatos ( Electronic Reporting — ER).
+description: Šajā rakstā skaidrots, kā sagatavot programmai raksturīgos metadatus regulēšanas konfigurācijas pakalpojumam (RCS) un elektroniskajiem pārskatiem (ER).
 author: NickSelin
 ms.date: 04/04/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d41069cf03e9ce49a3faa4f3933d91edd3b7d360
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864649"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programmai atbilstošo metadatu sagatavošana izmantošanai RCS un ER
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegti šādi uzdevumu piemēri:
+Šajā rakstā ir sniegti šādu uzdevumu piemēri:
 
 - [RCS izmantojamo programmas metadatu sagatavošana](#prepare-application-metadata-that-can-be-used-in-rcs)
 - [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](#access-application-metadata-by-using-an-er-configuration)
@@ -97,7 +97,7 @@ Lai varētu izpildīt šo procedūru, vispirms ir jāveic tālāk norādītās p
 
 1. Dodieties uz **Visas darbvietas \> Elektroniskie pārskati**.
 2. Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam Litware, Inc. ir pieejams un ir atzīmēts kā **Aktīvs**. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda procedūra [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
-3. Importējiet ER metadatu konfigurāciju, kas satur programmas metadatus un kas ir konfigurēta elektronisko dokumentu ģenerēšanai ārējās tirdzniecības uzņēmējdarbībai. Jūs izveidojāt šo ER metadatu konfigurāciju un eksportējāt to kā XML failu procedūrā [RCS izmantojamo programmas metadatu sagatavošana](#prepare-application-metadata-that-can-be-used-in-rcs), kas norādīta iepriekš šajā tēmā.
+3. Importējiet ER metadatu konfigurāciju, kas satur programmas metadatus un kas ir konfigurēta elektronisko dokumentu ģenerēšanai ārējās tirdzniecības uzņēmējdarbībai. Jūs izveidojāt šo ER metadatu konfigurāciju un eksportējis to kā XML [failu sagatavotās programmas metadatos, kas var tikt izmantoti rcS](#prepare-application-metadata-that-can-be-used-in-rcs) procedūrā iepriekš šajā rakstā.
 
     1. Atlasiet **Metadatu konfigurācijas**.
     2. Atlasiet **Maiņa**.
@@ -198,12 +198,12 @@ Ja vēlaties, varat paplašināt esošo metadatu kopu programmā. Pēc tam jūs 
 
 Šī procedūra parāda, kā RCS lietotājs, kuram ir loma **Sistēmas administrators** vai **Elektronisko pārskatu izstrādātājs**, var izveidot jaunu ER modeļa kartēšanu, izmantojot programmas metadatus. Programmas metadatiem jāpiekļūst tiešsaistē, izmantojot ar RCS saistīto programmu. Parauga ER modeļa kartēšana jākonfigurē piekļuvei ārējās tirdzniecības transakcijām.
 
-Lai izpildītu šo procedūru, vispirms rīkā RCS izpildiet procedūru [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md). Ja vēl neesat izpildījis iepriekš šajā tēmā aprakstīto procedūru [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](#access-application-metadata-by-using-an-er-configuration) dodieties uz lapu [Elektronisko pārskatu uzdevumu ceļvedis izmantošanai Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739), lai jau laikus lejupielādētu un lokāli saglabātu šādas ER konfigurācijas: **Ārējās tirdzniecības metadati.xml**, **Ārējās tirdzniecības modelis.xml** un **Ārējās tirdzniecības kartēšana.xml**.
+Lai izpildītu šo procedūru, vispirms rīkā RCS izpildiet procedūru [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md). [Ja nav vēl pabeigtas piekļuves programmas metadatus, izmantojot ER](#access-application-metadata-by-using-an-er-configuration) konfigurācijas procedūru iepriekš šajā rakstā, [dodieties uz elektronisko pārskatu uzdevumu rokasgrāmatām par 8.1 Dynamics 365 for Finance and Operations lapu, lai iepriekš lejupielādētu šādus ER konfigurācijas failus un saglabātu tos](https://go.microsoft.com/fwlink/?linkid=2082739) lokāli: **ārējās tirdzniecības metadati.xml**, Ārējās **tirdzniecības modelis.xml** un Ārējās **tirdzniecības kartēšana.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Nepieciešamo ER konfigurāciju iegūšana
 
-Ja esat jau izpildījis darbības, kas ir aprakstītas iepriekš šājā tēmā norādītajā procedūrā [Piekļuve programmas metadatiem, izmantojot ER konfigurāciju](#access-application-metadata-by-using-an-er-configuration), jums jau ir visas nepieciešamās ER konfigurācijas (ārējās tirdzniecības metadatu, modeļa un kartēšanas konfigurācijas) pašreizējā RCS instancē. Šādā gadījumā šo procedūru varat izlaist.
+Ja piekļuves programmas [metadati jau ir pabeigti, iepriekš izmantojot ER](#access-application-metadata-by-using-an-er-configuration) konfigurācijas procedūru šajā rakstā, jums jau ir visas nepieciešamās ER konfigurācijas (ārējās tirdzniecības metadati, modelis un kartēšanas konfigurācijas) pašreizējā RCS instancē. Šādā gadījumā šo procedūru varat izlaist.
 
 1. Dodieties uz **Visas darbvietas \> Elektroniskie pārskati**.
 2. Atlasiet **Pārskatu konfigurācijas**.

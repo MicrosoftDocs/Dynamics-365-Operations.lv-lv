@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvaldības darbvietas izmantošana
-description: Šajā tēmā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), lai darbinātu Līdzekļu pārvaldības mobilo darbvietu, kuru darbinieki var izmantot līdzekļu pārvaldības uzdevumu veikšanai.
+description: Šajā rakstā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), lai darbinātu Līdzekļu pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870847"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības darbvietas izmantošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), **lai darbinātu Līdzekļu** pārvaldības mobilo darbvietu, kuru darbinieki var izmantot līdzekļu pārvaldības uzdevumu veikšanai.
+Šajā rakstā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), **lai darbinātu Līdzekļu** pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Iestatīt uzturēsanas darbinieku lietotājus Supply Chain Management
 

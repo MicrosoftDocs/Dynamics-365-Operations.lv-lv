@@ -1,6 +1,6 @@
 ---
 title: Izcelsmes valsts/reģions
-description: Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošinātu preču atbilstību noteiktiem sertifikācijas standartiem. Šie sertifikāti bieži ir atkarīgi no izcelsmes valsts/reģiona. Šajā tēmā ir sniegta informācija par izcelsmes valsts/reģiona līdzekli, kas ļauj saistīt preci ar tās izcelsmes valsti/reģionu un sekot tās preču sertifikācijai.
+description: Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošinātu preču atbilstību noteiktiem sertifikācijas standartiem. Šie sertifikāti bieži ir atkarīgi no izcelsmes valsts/reģiona. Šajā rakstā ir sniegta informācija par izcelsmes valsts īpašību, kas ļauj jums saistīt preci ar tā izcelsmes valsti un sekot līdzi sava produkta sertifikācijai.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 60d5a2067b8e3d311af89fb09cfa3b5c007db219
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882523"
 ---
 # <a name="country-of-origin"></a>Izcelsmes valsts/reģions
 
@@ -28,7 +28,7 @@ Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošin�
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Ieslēgt izcelsmes valsts līdzekli
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības lapu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
 
 - **Modulis:** *Preču informācijas pārvaldība*
 - **Līdzekļa nosaukums:** *Izcelsmes valsts pārvaldības līdzeklis*

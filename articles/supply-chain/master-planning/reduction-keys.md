@@ -1,6 +1,6 @@
 ---
 title: Prognozes samazināšanas principi
-description: Šajā tēmā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
+description: Šajā rakstā sniegti piemēri, kas parāda, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854273"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozes samazināšanas principi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par dažādām metodēm, kas tiek izmantotas, lai samazinātu prognozes vajadzības. Šeit ir iekļauti katras metodes rezultātu piemēri. Šeit ir arī izskaidrots, kā izveidot, iestatīt un izmantot prognozes samazināšanas principu. Dažās metodēs prognozes samazināšanas principu izmanto, lai samazinātu prognozes vajadzības.
+Šajā rakstā ir sniegta informācija par dažādām metodēm, kas tiek izmantotas prognožu prasību samazināšanai. Šeit ir iekļauti katras metodes rezultātu piemēri. Šeit ir arī izskaidrots, kā izveidot, iestatīt un izmantot prognozes samazināšanas principu. Dažās metodēs prognozes samazināšanas principu izmanto, lai samazinātu prognozes vajadzības.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Metodes, kuras izmanto, lai samazinātu prognozes vajadzības
 

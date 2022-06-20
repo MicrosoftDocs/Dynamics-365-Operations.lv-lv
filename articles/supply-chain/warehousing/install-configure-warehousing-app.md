@@ -1,6 +1,6 @@
 ---
 title: Noliktavas programmas instalēšana un savienošana
-description: Šajā tēmā ir paskaidrots, kā instalēt noliktavas programmu katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
+description: Šajā rakstā ir izskaidrots, kā instalēt noliktavas programmu katrā no mobilajām ierīcēm un konfigurēt to, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885759"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šajā tēmā ir aprakstīts, kā konfigurēt veco Warehouse programmu (kas tagad ir novecojusi). Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu (pašreiz publiskā priekšskatījumā), skatiet sadaļu lietotnes [Warehouse Management mobile instalēšana un savienošana](install-configure-warehouse-management-app.md).
+> Šajā rakstā ir aprakstīts, kā konfigurēt veco noliktavas programmu (kas tagad ir novecojusi). Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu (pašreiz publiskā priekšskatījumā), skatiet sadaļu lietotnes [Warehouse Management mobile instalēšana un savienošana](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Šajā tēmā aprakstīts, kā konfigurēt noliktavas lietotni mākoņa izvietojumiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šajā rakstā ir aprakstīts, kā konfigurēt noliktavas programmu mākonī izvietotiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Noliktavas programma ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 
-Šajā tēmā ir paskaidrots, kā instalēt noliktavas programmu katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
+Šajā rakstā ir izskaidrots, kā instalēt noliktavas programmu katrā no mobilajām ierīcēm un konfigurēt to savienojumam ar piegādes ķēžu pārvaldības vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 
 ## <a name="system-requirements"></a>Sistēmas prasības
 
@@ -76,11 +76,11 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 
     ![Lietojumprogrammas reģistrācijas vednis.](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
 
-1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID turpmāk šajā tēmā tiks dēvēts kā *klienta ID*.
+1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID vēlāk šajā rakstā tiks saukts par klienta *ID*.
 
     ![Lietojumprogrammas (klienta) ID.](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
 
-1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Papildinformāciju skatiet sadaļā [Autentificēt, izmantojot sertifikātu vai klienta noslēpumu](#authenticate) šīs tēmas turpinājumā.)
+1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Plašāku informāciju skatiet [Autentificēties, vēlāk izmantojot sertifikāta vai klienta slepeno](#authenticate) sadaļu.)
 
     - **Augšupielādēt sertifikātu** – augšupielādēt sertifikātu, ko izmantot kā noslēpumu. Ir ieteicams izmanto šo pieeju, jo tā ir drošāka un to var arī pilnīgāk automatizēt. Ja izmantojat noliktavas programmu Windows ierīcēs, pierakstiet **Nospiedums** vērtību, kas tiek parādīta pēc sertifikāta augšupielādes. Šī vērtība būs nepieciešama, konfigurējot sertifikātu Windows ierīcēs.
     - **Jauns klienta noslēpums** – izveidojiet atslēgu, ievadot atslēgas aprakstu un ilgumu sadaļā **Paroles**, un pēc tam atlasiet **Pievienot**. Izveidojiet atslēgas kopiju un glabājiet to drošībā.
@@ -90,7 +90,7 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogrammas Azure AD, skatiet tālāk norādītos resursus:
 
 - Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Pilnīgu informāciju par to, kā manuāli izveidot tīmekļa pakalpojumu lietojumprogrammu programmā Azure AD, skatiet tālāk norādītās tēmas:
+- Pilnīgu informāciju par to, kā manuāli izveidot Web pakalpojumu lietojumprogrammu Azure AD, skatiet šādos rakstos:
 
     - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
     - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentificēt, izmantojot sertifikātu vai klienta noslēpumu
 
-Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierīci Supply Chain Management. Autentifikāciju var veikt, izmantojot klienta noslēpumu vai sertifikātu. Ja importēsit savienojuma iestatījumus, ieteicams izmantot sertifikātu nevis klienta noslēpumu. Tā kā klienta noslēpums vienmēr ir jāglabā drošībā, to nevar importēt no savienojuma iestatījumu faila vai QR koda, kā aprakstīts tālāk šajā tēmā.
+Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierīci Supply Chain Management. Autentifikāciju var veikt, izmantojot klienta noslēpumu vai sertifikātu. Ja importēsit savienojuma iestatījumus, ieteicams izmantot sertifikātu nevis klienta noslēpumu. Tā kā klienta noslēpums vienmēr ir jāsaglabā droši, jūs nevarat importēt to no savienojuma iestatījumu faila vai QR koda, kā aprakstīts tālāk šajā rakstā.
 
 Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas identitāti, kad tiek pieprasīta pilnvara. Sertifikāta publiskā daļa tiek augšupielādēta programmu reģistrācijā Azure portālā, savukārt pilnais sertifikāts ir jāizvieto katrā ierīcē, kurā ir instalēta noliktavas programma. Jūsu organizācija ir atbildīga par sertifikāta pārvaldību attiecībā uz rotāciju un tā tālāk. Varat izmantot pašparakstītus sertifikātus, bet vienmēr izmantojiet neeksportējamus sertifikātus.
 

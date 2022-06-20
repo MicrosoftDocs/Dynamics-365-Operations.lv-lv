@@ -1,6 +1,6 @@
 ---
 title: Kreditoru sadarbība ar debitoriem
-description: Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar pirkšanas pasūtījumiem un uzraudzītu sūtījuma krājumus.
+description: Šajā rakstā ir aprakstīts, kā var izmantot kreditoru sadarbības, lai strādātu ar PREČU pirkšanas pasūtījumiem un pārraudzītu sūtījumu krājumus.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859174"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā varat izmantot kreditoru sadarbību, lai strādātu ar debitoriem programmā Microsoft Dynamics 365 Supply Chain Management. Kreditori var izpildīt biznesa procesu virknes no tālāk uzskaitītajām darbvietām.
+Šajā rakstā ir aprakstīts, kā var izmantot kreditoru sadarbības, lai strādātu ar debitoriem programmā Microsoft Dynamics 365 Supply Chain Management. Kreditori var izpildīt biznesa procesu virknes no tālāk uzskaitītajām darbvietām.
 
 - **Pirkšanas pasūtījuma akceptēšana** — pārraudzīt un atbildēt uz pirkšanas pasūtījumiem (purchase order — PO).
 - **Piegādātāja piedāvājuma izteikšana** — skatīt piedāvājumu pieprasījumus (request for quotation — RFQ) un reaģēt uz tiem, ievadot piedāvājumus.
 - **Kreditora informācija** — skatīt un atjaunināt kreditora pamatdatus.
-- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā tēmā nav aprakstīta darbvieta **Rēķinu izrakstīšana**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā rakstu nevar izmantot rēķinu izrakstīšanas **darbvietai**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Kreditori var pārraudzīt arī informāciju par sūtījumu krājumiem.
 
@@ -47,9 +47,9 @@ Darbvietā **Pirkšanas pasūtījuma akceptēšana** pastāv trīs tālāk aprak
 
 Lai strādātu ar pirkšanas pasūtījumiem, varat izmantot tālāk norādītās lapas.
 
-- **Pārskatāmie pirkšanas pasūtījumi** — šajā lapā ir tāda pati informācija, kāda tiek radīta darbvietas sarakstā **Pārskatāmie pirkšanas pasūtījumi**. Aprakstu skatiet iepriekš šajā tēmā.
+- **Pārskatāmie pirkšanas pasūtījumi** — šajā lapā ir tāda pati informācija, kāda tiek radīta darbvietas sarakstā **Pārskatāmie pirkšanas pasūtījumi**. Skatiet aprakstu šajā rakstā agrāk.
 - **Pirkšanas pasūtījuma kreditora akceptēšanas vēsture** — šajā lapā ir visi šim kreditoram sūtītie pirkšanas pasūtījumi un visas pirkšanas pasūtījumu versijas. Tajā ir arī visas no kreditora saņemtās atbildes.
-- **Atvērtie akceptētie pirkšanas pasūtījumi** — šajā lapā ir tāda pati informācija, kāda tiek radīta darbvietas sarakstā **Atvērtie akceptētie pirkšanas pasūtījumi**. Aprakstu skatiet iepriekš šajā tēmā.
+- **Atvērtie akceptētie pirkšanas pasūtījumi** — šajā lapā ir tāda pati informācija, kāda tiek radīta darbvietas sarakstā **Atvērtie akceptētie pirkšanas pasūtījumi**. Skatiet aprakstu šajā rakstā agrāk.
 - **Visi akceptētie pirkšanas pasūtījumi** — šajā lapā ir visi pirkšanas pasūtījumi, kas tika akceptēti. Šajā lapā parādīto esošo pirkšanas pasūtījumu klāstā tostarp ir arī tādi, kur ir saņemtas preces vai pakalpojumi. Šo sarakstu varat izmantot, lai uzraudzītu pirkšanas pasūtījumus, par kuriem varat sūtīt rēķinus.
 
 ### <a name="responding-to-pos"></a>Atbildēšana uz pirkšanas pasūtījumiem

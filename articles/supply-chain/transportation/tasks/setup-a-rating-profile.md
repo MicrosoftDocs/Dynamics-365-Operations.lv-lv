@@ -1,6 +1,6 @@
 ---
 title: Novērtējuma profili
-description: Šajā tēmā ir aprakstīts, kā iestatīt datus novērtējuma profiliem.
+description: Šajā rakstā ir aprakstīts, kā iestatīt datus novērtēšanas profiliem.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850481"
 ---
 # <a name="rating-profiles"></a>Novērtējuma profili
 
@@ -56,7 +56,7 @@ Lapā **Novērtējuma profili** varat pārskatīt visus pieejamos novērtējuma 
 1. Dodieties uz **Transportēšanas pārvaldība \> Iestatījumi \> Pārvadātāji \> Sūtījumu pārvadātāji**.
 1. Sarakstā atlasiet nosūtīšanas pārvadātāju.
 1. Kopsavilkuma cilnē **Novērtējuma profili** noklikšķiniet uz **Jauns**, lai izveidotu novērtējuma profilu.
-1. Iestatiet laukus jaunajam novērtējuma profilam. Šie lauki atbilst lapas **Novērtējuma profilu** laukiem, kā aprakstīts iepriekšējā šīs tēmas sadaļā.
+1. Iestatiet laukus jaunajam novērtējuma profilam. Šie lauki atbilst laukiem novērtējuma profilu **lapā**, kā aprakstīts iepriekšējā šī raksta sadaļā.
 
 > [!NOTE]
 > Lapā **Nosūtīšanas pārvadātāji** izveidotie profili tiek parādīti arī lapā **Novērtējuma profili**.

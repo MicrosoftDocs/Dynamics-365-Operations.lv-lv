@@ -1,6 +1,6 @@
 ---
 title: Tranzīta preču apstrāde
-description: Šajā tēmā ir aprakstīts, kā strādāt ar tranzīta preču pasūtījumiem. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar tranzītpasūtījumu precēm. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854389"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzīta preču apstrāde
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā strādāt ar tranzīta preču pasūtījumiem. Šis pasūtījuma veids tiek izmantots tikai **Kopīgo izmaksu** modulī. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā. Tā vietā preces tiek iekļautas rēķinā, kad tās atstāj kreditora noliktavu vai izcelsmes ostu, un finanšu izmaksas tiek atpazītas, kad sākas reiss. Šī funkcionalitāte ļauj jums pareizi īpašumtiesības nodot krājumiem, jo preces bieži kļūst par jūsu organizācijas rekvizītu, kad tās atstāj nosūtīšanas ostu.
+Šajā rakstā ir aprakstīts, kā strādāt ar tranzītpasūtījumu precēm. Šis pasūtījuma veids tiek izmantots tikai **Kopīgo izmaksu** modulī. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā. Tā vietā preces tiek iekļautas rēķinā, kad tās atstāj kreditora noliktavu vai izcelsmes ostu, un finanšu izmaksas tiek atpazītas, kad sākas reiss. Šī funkcionalitāte ļauj jums pareizi īpašumtiesības nodot krājumiem, jo preces bieži kļūst par jūsu organizācijas rekvizītu, kad tās atstāj nosūtīšanas ostu.
 
 Kad tiek izmantoti tranzītkravu pasūtījumi, finansiāli atjauninātie krājumi tiek saņemti pagaidu noliktavā, kas zināma kā tranzītkravu noliktava. Tad preces paliek šajā noliktavā, līdz tās var saņemt gala adresāta noliktavā (t.i., noliktavā, kas ir noteikta pirkšanas rindā). Tos nevar manuāli noņemt.
 

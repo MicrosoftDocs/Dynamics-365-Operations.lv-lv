@@ -1,6 +1,6 @@
 ---
 title: (ER) konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā
-description: Šajā tēmā skaidrots, kā lietotāji var konfigurēt jaunu elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus kā Microsoft Word dokumentus.
+description: Šajā rakstā skaidrots, kā lietotāji var konfigurēt jaunu elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus kā Microsoft Word dokumentus.
 author: NickSelin
 ms.date: 12/17/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893017"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>(ER) konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā
 

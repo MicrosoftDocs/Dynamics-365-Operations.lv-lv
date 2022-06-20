@@ -1,6 +1,6 @@
 ---
 title: Mērvienību pārvaldība
-description: Šajā tēmā aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.
+description: Šajā rakstā ir aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un tās aprakstu, kā arī definēt konvertēšanas noteikumus saistītajām vienībām.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863916"
 ---
 # <a name="manage-units-of-measure"></a>Mērvienību pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.
+Šajā rakstā ir aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un tās aprakstu, kā arī definēt konvertēšanas noteikumus saistītajām vienībām.
 
 ## <a name="open-the-units-page"></a>Atveriet vienības lapu
 
 Lai izveidotu mērvienības un strādātu ar tām, kas ir pieejamas jūsu sistēmā, dodieties uz **Organizācijas administrēšana \> Iestatījums \> Vienības \> Vienības**.
 
-Pārējās šīs tēmas sadaļās aprakstīts, ko varat darīt lapā **Vienības**.
+Atlikušās šī raksta sadaļas apraksta, ko varat darīt **vienību** lapā.
 
 ## <a name="create-standard-units-and-conversions"></a>Standarta vienību un pārveidošanu izveide
 

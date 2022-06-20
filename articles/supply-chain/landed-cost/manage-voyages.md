@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt reisus
-description: Šajā tēmā ir aprakstīts, kā strādāt ar reisiem. Parasti reiss ir kuģis. Tomēr atkarībā no jūsu prakses un procedūrām var pārstāvēt kreditoru, pirkšanas pasūtījumu vai kādu citu krājumu, kas ir noderīgs jūsu organizācijai.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar reisiem. Parasti reiss ir kuģis. Tomēr atkarībā no jūsu prakses un procedūrām var pārstāvēt kreditoru, pirkšanas pasūtījumu vai kādu citu krājumu, kas ir noderīgs jūsu organizācijai.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905868"
 ---
 # <a name="manage-voyages"></a>Pārvaldīt reisus
 
@@ -96,7 +96,7 @@ Lai atvērtu **Rindu** skatu, atveriet reisu un pēc tam atlasiet cilni **Rindas
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Informācija par Reisa virsraksta kopsavilkuma cilni
 
-**Reisa virsraksta** kopsavilkuma cilne reisa **Rindu** skatā satur pamatinformāciju, kas apraksta reisu. Daudzi no šajā kopsavilkuma cilnē parādītajiem laukiem tiek parādīti arī **Galvenes** skatījumā, kā aprakstīts tālāk šajā tēmā.
+**Reisa virsraksta** kopsavilkuma cilne reisa **Rindu** skatā satur pamatinformāciju, kas apraksta reisu. Daudzi no šajā FastTab parādītajiem laukiem tiek parādīti arī virsraksta **skatā**, kā aprakstīts tālāk šajā rakstā.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Informācija par Reisa rindu kopsavilkuma cilni
 

@@ -1,6 +1,6 @@
 ---
 title: Plānotā pārkraušana sadales centrā
-description: Šajā tēmā ir aprakstīta uzlabota plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums ir novirzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas apgabalu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
+description: Šajā rakstā ir aprakstīta detalizēta plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums tiek virzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas vietu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863684"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma apraksta detalizētu plānoto pārkraušanu sadales centrā. Šajā tēmā ir aprakstīta uzlabota plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums ir novirzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas apgabalu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
+Šajā rakstā ir aprakstīta detalizēta plānotā pārkraušana sadales centrā. Šajā tēmā ir aprakstīta uzlabota plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums ir novirzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas apgabalu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
 
 Pārkraušana sadales centrā ļauj darbiniekiem izlaist ienākošo krājumu izvietošanu un izejošo krājumu izsniegšanu, kas jau ir atzīmēta izejošam pasūtījumam. Tāpēc, krājuma saskares reižu skaits tiek minimizēts iespēju robežās. Turklāt, ņemot vērā, ka ir mazāka mijiedarbība ar sistēmu, laika un vietas ietaupījums noliktavas ražotnē ir palielināts.
 
@@ -37,7 +37,7 @@ Saņemšanas pasūtījuma saņemšanas laikā pārkraušanas sadales centrā ies
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Iespējot plānotās pārkraušanas opcijas
 
-Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet tālāk norādītās funkcijas šādā secībā:
+Ja sistēmā vēl nav ietverti šajā rakstā aprakstītie līdzekļi, [pārejiet](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) uz sadaļu Līdzekļu pārvaldība un slēdziet šādus līdzekļus šādā secībā:
 
 1. *Plānotā pārkraušana sadales centrā*
 1. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*

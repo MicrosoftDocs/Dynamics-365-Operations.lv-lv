@@ -1,6 +1,6 @@
 ---
 title: SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem
-description: Šajā tēmā ir sniegta informācija par SQL Server pārskatu izveides pakalpojumu (SSRS) konfigurēšanu lokālam izvietojumam.
+description: Šajā rakstā ir sniegta informācija par SQL servera pārskata pakalpojumu (SSRS) konfigurēšanu lokālai izvietošanai.
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 16a35a8dae50cc1bc949f33de87b2beab8b528b3
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: ae1e78a268d6c61cc4ab6afd9e3f6d6b1bd1561a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876926"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem
 
 [!include [banner](../includes/banner.md)]
 
-Izmantojiet šīs tēmas darbības, lai konfigurētu SQL Server pārskatu izveides pakalpojumus (SSRS) jūsu izvietošanai Microsoft Dynamics 365 Finance + Operations (on-premises).
+Izmantojiet šajā rakstā norādītās darbības, lai konfigurētu SQL Server pārskatu izveides pakalpojumus (SSRS) jūsu izvietošanai Microsoft Dynamics 365 Finance + Operations (on-premises).
 
 1. Atveriet programmu Pārskatu izveides pakalpojumu konfigurācijas pārvaldnieks.
 2. Atstājiet noklusējuma vērtības laukā **Servera nosaukums**, kam ir jābūt pašreizējās mašīnas nosaukumam, un laukā **Pārskatu servera instance** — **MSSQLSERVER**.

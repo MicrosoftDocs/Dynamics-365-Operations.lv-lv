@@ -1,6 +1,6 @@
 ---
 title: Plānot darba pasūtījumus
-description: Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumus Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidrots, kā plānot darba pasūtījumus Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845059"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718063"
 
  
 
-Šajā tēmā ir aprakstīts, kā plānot darba pasūtījumus Līdzekļu pārvaldībā. 
+Šajā rakstā skaidrots, kā plānot darba pasūtījumus Līdzekļu pārvaldībā. 
 
 Nepieciešamo stundu skaitu darba pasūtījumam definē prognozēto stundu summa mīnus grāmatotās stundas. Ja ir nepieciešams vairāk laika, prognoze attiecīgi ir jāpielāgo. Sadaļā **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** varat skatīt vai rediģēt prognozes darba pasūtījumam, atlasot to un noklikšķinot uz **Prognoze** cilnē **Darba pasūtījums**. Kad darba pasūtījumi ir izveidoti un novērtēti, nākamā darbība ir piešķirt tiem uzturēšanas speciālistus un rīkus to izpildei.
 

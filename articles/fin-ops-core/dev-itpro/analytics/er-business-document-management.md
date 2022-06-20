@@ -1,6 +1,6 @@
 ---
-title: Pārskats par biznesa dokumentu pārvaldību
-description: Šajā tēmā ir sniegta informācija par to, kā izmantot biznesa dokumentu pārvaldības līdzekli elektroniskā pārskata struktūrā.
+title: Biznesa dokumentu pārvaldības pārskats
+description: Šajā rakstā ir sniegta informācija, kā izmantot ER struktūras biznesa dokumentu pārvaldības funkciju.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903622"
 ---
 # <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
 
@@ -40,7 +40,7 @@ Pašreiz biznesa dokumentu pārvaldības līdzeklis ir ieviests tikai mākoņa i
 
 Lai izmantotu Biznesa dokumentu pārvaldību veidņu rediģēšanai Excel vai Word formātos, izmantojot Microsoft Office datora lietojumprogrammas, jums ir jābūt instalētai programmai Microsoft Office 2010 vai jaunākajai versijai. Tā tiek atbalstīta mākonī un lokālajā izvietojumā.
 
-Lai izmantotu biznesa dokumentu pārvaldību veidņu rediģēšanai Excel vai Word formātos, izmantojot programmas, jums Microsoft 365 jābūt Office tīmekļa Microsoft 365 abonementam. Tas tiek atbalstīts mākoņa izvietošanā.
+Lai izmantotu biznesa dokumentu pārvaldību veidņu rediģēšanai Excel vai Word formātos Microsoft 365, izmantojot programmas, jums jābūt Microsoft 365 Office tīmekļa abonementam. Tas tiek atbalstīts mākoņa izvietošanā.
 
 ## <a name="business-document-availability"></a>Biznesa dokumentu pieejamība
 
@@ -50,7 +50,7 @@ Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2020. gada oktobra laidien
 
 Papildu pārskati kļūs pieejami turpmākajos laidienos. Īpaši paziņojumi par papildu pārskatiem tiks nosūtīti atsevišķi. Lai uzzinātu, kā pārskatīt pašlaik pieejamo pārskatu sarakstu, skatiet tālāk sadaļu [ER konfigurāciju saraksts, kas izlaistas finansēs, lai atbalstītu tālāk norādītos konfigurējamus biznesa dokumentus](#list-of-configurations-cbd).
 
-Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
+Lai uzzinātu vairāk par šo īpašību, pabeidziet šajā rakstā minēto piemēru.
 
 ## <a name="configure-er-parameters"></a>Konfigurējiet ER parametrus
 
@@ -60,7 +60,7 @@ Tā kā Biznesa dokumentu pārvaldība ir izveidota, balstoties uz ER struktūru
 
 ## <a name="import-er-solutions"></a>ER risinājumu importēšana
 
-Šīs procedūras piemērā tiek izmantoti parauga EP konfigurācijas. Jums ir jāimportē jūsu pašreizējā Dynamics 365 Finance instancē tās EP konfigurācijas, kas ietver biznesa dokumentu veidnes, kuras var rediģēt, izmantojot biznesa dokumentu pārvaldību. Lejupielādējiet un pēc tam lokāli saglabājiet tālāk norādītos failus šīs procedūras pabeigšanai.
+Šīs procedūras piemērā tiek izmantoti parauga EP konfigurācijas. Pašreizējā Dynamics 365 Finance instancē jums jāimportē ER konfigurācijas, kas satur biznesa dokumentu veidnes, kuras var rediģēt, izmantojot biznesa dokumentu pārvaldību. Lejupielādējiet un pēc tam lokāli saglabājiet tālāk norādītos failus šīs procedūras pabeigšanai.
 
 **ER debitoru rēķinu risinājuma paraugs**
 
@@ -231,7 +231,7 @@ Biznesa lietotāji var piekļūt biznesa dokumentu veidnēm rediģēšanai Bizne
 - Lietotāji, kuriem piešķirta loma **Sistēmas administrators**.
 - Lietotāji, kuriem ir piešķirta jebkāda loma, kas ir konfigurēta pienākuma izpildei **Uzturēt Biznesa dokumentu pārvaldības parametrus** (AOT nosaukums **ERBDManageTemplates**).
 
-Izmantojiet šādu procedūru, lai rediģētu brīva teksta rēķinu veidnes Biznesa dokumentu pārvaldības darbvietā. Pirms pabeigt šo procedūru, jums ir jāpabeidz visas iepriekšējās procedūras šajā tēmā.
+Izmantojiet šādu procedūru, lai rediģētu brīva teksta rēķinu veidnes Biznesa dokumentu pārvaldības darbvietā. Pirms šīs procedūras pabeigšanas jābūt pabeigtām visām iepriekšējām procedūrām šajā rakstā.
 
 1. Pierakstieties kā lietotājs ar piekļuvi Biznesa dokumentu pārvaldības darbvietai.
 2. Atveriet Biznesa dokumentu pārvaldības darbvietu
@@ -405,9 +405,9 @@ Rediģējot ER formāta veidni, kas pieder pašreizējam aktīvajam nodrošināt
 
 ### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Es atlasīju Rediģēt dokumentu, bet tā vietā, lai atvērtu BDM veidnes redaktora lapu Finansēs, es tiku nosūtīts uz tīmekļa Microsoft 365 lapu.
 
-Šis jautājums ir zināms, kas ietver Microsoft 365 virzienmaiņu. Tas notiek, ja Microsoft 365 parakstāties pirmo reizi. Lai novērstu šo problēmu, atlasiet **Atpakaļ** pārlūkprogrammā, lai atgrieztos iepriekšējā lapā.
+Šis jautājums ir zināms, kas ietver virzienmaiņu Microsoft 365. Tas notiek, ja parakstāties Microsoft 365 pirmo reizi. Lai novērstu šo problēmu, atlasiet **Atpakaļ** pārlūkprogrammā, lai atgrieztos iepriekšējā lapā.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Es saprotu, kā rediģēt veidni, izmantojot pirmo programmas sesiju, un kā izmantot veidni otrajā programmas sesijā un pielāgot veidni, lai redzētu, kā manas izmaiņas ietekmē Microsoft 365 ģenerēto biznesa dokumentu. Vai es varu izmantot Office datora lietojumprogrammu tādā pašā veidā?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Es saprotu, Microsoft 365 kā rediģēt veidni, izmantojot pirmo programmas sesiju, un kā izmantot veidni otrajā programmas sesijā un pielāgot veidni, lai redzētu, kā manas izmaiņas ietekmē ģenerēto biznesa dokumentu. Vai es varu izmantot Office datora lietojumprogrammu tādā pašā veidā?
 
 Jā, varat. Pirmajā piemērošanas sesijā atlasiet **Atvērt datora lietojumprogrammu**. Jūsu veidne tiks saglabāta pagaidu failu krātuvē un atvērta datora lietojumprogrammā Office. Tālāk, pabeidziet šādas darbības, lai priekšskatītu savas veidnes izmaiņas ģenerētajā biznesa dokumentā:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849363"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkšanas pieprasījuma darbplūsma
 
@@ -89,7 +89,7 @@ Nākamajā attēlā ir parādīts, kā cauri darbplūsmai var maršrutēt atsevi
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Darbplūsmas konfigurēšana pirkšanas pieprasījumiem
 Lai pirkšanas pieprasījumu maršrutētu pārskatīšanai, jums ir jākonfigurē pirkšanas pieprasījuma darbplūsmas procesi. Jūsu definētais darbplūsmas process kontrolē mijiedarbību starp lietotāju, kas pieprasīja krājumus (pieprasītāju), un darbplūsmas pārskatītāju un apstiprinātāju. Pirkšanas pieprasījuma maršrutēšana ir atkarīga no nosacījumiem, kas norādīti darbplūsmas konfigurācijā. Piemēram: šie nosacījumi nosaka, kad pirkšanas pieprasījums jāmaršrutē, kuram lietotājam vai lomai pirkšanas pieprasījums jāmaršrutē, un darbības, kādas lietotāji var veikt.  
 
-Šīs tēmas piemēros ir aprakstīts, kā pirkšanas pieprasījumu var maršrutēt cauri darbplūsmai kā vienu dokumentu vai kā atsevišķas pirkšanas pieprasījuma rindas. Varat arī pirkšanas pieprasījumiem konfigurēt darbplūsmu tā, lai parādītu pirkšanas pieprasījumu iekšējās kontroles pārskatīšanu, kas definēta jūsu organizācijai.  
+Piemēri šajā rakstā parāda, kā pirkšanas pieprasījums var tikt maršrutēts darbplūsmā kā atsevišķs dokuments vai kā atsevišķas pirkšanas pieprasījuma rindas. Varat arī pirkšanas pieprasījumiem konfigurēt darbplūsmu tā, lai parādītu pirkšanas pieprasījumu iekšējās kontroles pārskatīšanu, kas definēta jūsu organizācijai.  
 
 Dalībnieki vai pārskatītāji, kuriem šis uzdevums ir piešķirts darbplūsmā, var būt konkrētas lietotāju grupas dalībnieki, kuriem ir īpaša drošības loma, lietotāji, kuri ir saistīti ar vadības hierarhijas iesniedzēju vai nosaukti lietotāji vai lietotāji ar īpašu izdevumu atbildību.
 

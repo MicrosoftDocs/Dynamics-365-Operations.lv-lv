@@ -1,6 +1,6 @@
 ---
 title: Budžeta plānošanas jaunināšana
-description: Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.
+description: Šajā rakstā skaidrots, kas ir jāpārkonfigurē, un apraksta jaunas funkcijas, kas ir jāņem vērā pēc jaunināšanas pabeigšanas.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769195"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890411"
 ---
 # <a name="upgrade-budget-planning"></a>Jaunināt budžeta plānošanu
 
 [!include [banner](../includes/banner.md)]
 
-Attiecībā uz budžeta plānošanu starp programmu Microsoft Dynamics AX 2012 un programmu Dynamics 365 Finance pastāv būtiskas atšķirības. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā tēmā ir skaidrots, kas ir jāpārkonfigurē, kā arī ir aprakstīti jaunie līdzekļi, kas ir jāņem vērā pēc jaunināšanas.  
+Pastāv būtiskas atšķirības budžeta plānošanā starp Microsoft Dynamics AX 2012 un Dynamics 365 Finansēm. Daži līdzekļi netika jaunināti, tādēļ tiem ir nepieciešama pārkonfigurēšana. Šajā rakstā skaidrots, kas ir jāpārkonfigurē, un apraksta jaunas funkcijas, kas ir jāņem vērā pēc jaunināšanas pabeigšanas.  
 
-Attiecībā uz budžeta plānošanu programmā Finance ir daudz uzlabojumu, kas nebija pieejami Dynamics AX 2012. Šajā tēmā ir skaidrotas, kādas izmaiņas ir jāveic klientiem, kuri veic jaunināšanu. Tajā ir arī norādīti jaunie līdzekļi, kas ir jāņem vērā jaunināšanas procesā. Ņemot vērā izmaiņu apjomu, visus esošos budžeta plānus nevarēs atvērt līdz brīdim, kad ir pabeigtas šajā tēmā izklāstītās izmaiņas. Taču pārskatiem vajadzētu turpināt darboties, un tiem nav nepieciešamas papildu izmaiņas.
+Attiecībā uz budžeta plānošanu programmā Finance ir daudz uzlabojumu, kas nebija pieejami Dynamics AX 2012. Šajā rakstā ir izskaidrotas izmaiņas, kas jāveic debitoriem, kuri ir jāveic jaunināšanai. Tajā ir arī norādīti jaunie līdzekļi, kas ir jāņem vērā jaunināšanas procesā. Izmaiņu apjoma dēļ visus esošos budžeta plānus nevarēs atvērt, kamēr netiks veiktas šajā rakstā iezīmētās izmaiņas. Taču pārskatiem vajadzētu turpināt darboties, un tiem nav nepieciešamas papildu izmaiņas.
 
 ## <a name="overview-of-changes"></a>Izmaiņu apskats
-Finance and Operations budžeta veidošanā ir veiktas daudzas būtiskas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali programmā Finance vairs nepastāv.
+Versijas Dynamics 365 for Finance and Operations budžeta veidošanā ir veiktas daudzas būtiskas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali programmā Finance vairs nepastāv.
 
 -   Budžeta plāna veidnes (budžeta plānošanas konfigurācija)
 -   Budžeta plānu mapes (budžeta plānošanas konfigurācija)
@@ -58,7 +58,7 @@ Budžeta plānošanas procesi lielākoties ir tādi paši kā programmā AX 2012
 Programmā AX 2012 attaisnojuma dokumenti tika saglabāti pielikumu mapē. Iepriekšējie attaisnojuma dokumenti netiek jaunināti. Tagad attaisnojuma dokumenti tiek glabāti datu bāzē. Ja šī informācija ir jāsaglabā jauninātajā versijā, gala attaisnojuma dokumentus katram plānam varat augšupielādēt kā pielikumu, darbību rūtī izmantojot pogu **Attaisnojums**. Programmā AX 2012 Excel darblapas katram budžeta plānam tika izveidotas, pamatojoties uz veidni. Programmā Finance visi plāni atver izkārtojuma kopiju. Taču Excel failā veiktās izmaiņas netiek saglabātas. Visas formulas vai atbalsta informācija, kas tika izmantota atkarībā no plāna, ir jāpievieno, izmantojot komentārus, attaisnojuma dokumentu vai kādu citu papildu procesu.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>No AX 2012 jauninātas vides konfigurēšana
-Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā piemērā tiek izmantots jaunināts budžeta process no AX 2012 demonstrācijas datiem. Lai palīdzētu saistībā ar jaunināšanas procesu, kolonnām tika izveidoti noklusējuma konfigurācijas dati. Šos noklusējuma datus varat atjaunināt vai dzēst, ja tie neatbilst jūsu konfigurācijas prasībām. **Piezīme.** Pastāv jauni obligātie lauki, kas sistēmā nav iestatīti. Ja iestrēgstat kādā lapā, piemēram, lapā **Budžeta plānošanas konfigurācija**, un nevarat aiziet no tās, tad varat aizvērt savu pārlūkprogrammu un pēc tam to vēlreiz atvērt citā lapā, lai ievadītu informāciju pareizajā secībā. Pastāv obligātie lauki, kas vēl nav iestatīti. Tāpēc līdz brīdim, kad viss ir konfigurēts un visi obligātie lauki ir iestatīti, var rasties problēmas. Šajā tēmā ir paskaidrots, kāpēc nepieciešamības iestatīt šos laukus. Tālāk ir norādīti daži no šiem obligātajiem laukiem.
+Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā piemērā tiek izmantots jaunināts budžeta process no AX 2012 demonstrācijas datiem. Lai palīdzētu saistībā ar jaunināšanas procesu, kolonnām tika izveidoti noklusējuma konfigurācijas dati. Šos noklusējuma datus varat atjaunināt vai dzēst, ja tie neatbilst jūsu konfigurācijas prasībām. **Piezīme.** Pastāv jauni obligātie lauki, kas sistēmā nav iestatīti. Ja iestrēgstat kādā lapā, piemēram, lapā **Budžeta plānošanas konfigurācija**, un nevarat aiziet no tās, tad varat aizvērt savu pārlūkprogrammu un pēc tam to vēlreiz atvērt citā lapā, lai ievadītu informāciju pareizajā secībā. Pastāv obligātie lauki, kas vēl nav iestatīti. Tāpēc līdz brīdim, kad viss ir konfigurēts un visi obligātie lauki ir iestatīti, var rasties problēmas. Šajā rakstā skaidrots, kā iestatīt šos laukus pēc vajadzības. Tālāk ir norādīti daži no šiem obligātajiem laukiem.
 
 -   Lapa **Budžeta plānošanas process**: lauks **Noklusējuma konta struktūra**
 -   Lapa **Budžeta plānošanas process**: lauks **Izkārtojums** kopsavilkuma cilnē **Budžeta plānošanas stadijas kārtulas un izkārtojumi**
@@ -69,7 +69,7 @@ Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā p
    -   Budžeta plāna scenāriji: Faktiskās vērtības, Bāzlīnija, Budžeta pieprasījums, Apstiprinātais budžets
    -   Budžeta plāna rindas visiem scenārijiem 2017. gadā un faktiskajām vērtībām gan 2017., gan 2016. gadam
 
-   Programmā Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
+   Versijā Dynamics 365 for Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
 
    | Kolonnas nosaukums    | Budžeta plāna scenārijs | Kolonnas laika periods | Gada nobīde |
    |----------------|----------------------|--------------------|-------------|

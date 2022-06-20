@@ -1,6 +1,6 @@
 ---
 title: Puse un globālā adrešu grāmata
-description: Šajā tēmā ir aprakstīta dubultās rakstīšanas Puses un globālās adrešu grāmatas funkcionalitāte.
+description: Šajā rakstā ir aprakstīta Pušu un globālās adrešu grāmatas funkcionalitāte dubultās rakstīšanas.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892198"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -292,7 +292,7 @@ Tabulas karšu vākšana darbojas kopā puses un globālās adrešu grāmatas mi
 | [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
 | [Uzrunas](mapping-reference.md#228) | msdyn\_salutations |
 | [Kreditori V2](mapping-reference.md#202) | msdyn\_vendors |
-| [CDS adrešu lomas](mapping-reference.md#301) |msdaddressroles\_|
+| [CDS adrešu lomas](mapping-reference.md#301) |msdole\_ addressroles|
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
 

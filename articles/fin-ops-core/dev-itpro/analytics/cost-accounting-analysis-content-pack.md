@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotnes Izmaksu uzskaites analīze
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu uzskaites analīze.
+description: Šajā rakstā ir aprakstīts, kas ir iekļauts Izmaksu uzskaites analīzes saturā Power BI.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876897"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotnes Izmaksu uzskaites analīze
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīts, kas tiek iekļauts Microsoft Power BI satura **Izmaksu uzskaites analīzē**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts, kas ir iekļauts **Izmaksu uzskaites analīzes saturā** Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 

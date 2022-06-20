@@ -1,6 +1,6 @@
 ---
-title: Kas jauns vai mainīts mobilajā programmā Warehouse Management
-description: Šajā tēmā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+title: Jaunumi un izmaiņas mobilajā programmā Warehouse Management
+description: Šajā rakstā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
-ms.translationtype: MT
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661830"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945728"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas jauns vai mainīts mobilajā programmā Warehouse Management
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Jaunumi un izmaiņas mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir uzskaitīti jaunie līdzekļi, labojumi, uzlabojumi un zināmas problēmas katrai Microsoft Dynamics 365 Supply Chain Management Warehouse Management mobilās programmas izlaistajai versijai.
+Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versija 2.0.24.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Uzlabotas skenera lapas, lai iespējotu skenēšanas opciju detalizētās **informācijas lapās**.
+- Uzlaboti ekrāni, piemēram, skārienekrāns/skārienekrāns.
+- Uzlabotas veiktspējas problēmas Android.
+- Fiksēts vairāku virsrakstu novietojums, lai pieprasījuma lapā ļautu rādīt vairāk **karšu**.
+- Uzlabota ritināšana, tāpēc ir aktivizēts mazāk attāluma paginācijas ritināšanai.
+- Pievienots garš nospiediet, lai papildu tekstu rādītu **uzziņu** lapā.
+- Fiksētā trūkstošās ierīces ID informācijas Android.
+- Stabilitātes pieaugums.
+- Optimizēts pieteikšanās izkārtojums.
+- Pievienotas lasīšanas labās puses, lai aizvērtu uznirstošo dialogu lapas uz ciparu tastatūras, **detaļu** lapas un ievades lapām.
 
 ## <a name="version-20220"></a>Versija 2.0.22.0
 

@@ -1,6 +1,6 @@
 ---
 title: Uz prioritāti balstīta plānošana
-description: Šajā tēmā aprakstītas Uz prioritāti balstītas Microsoft plānošanas funkcijas Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873816"
 ---
 # <a name="priority-based-planning"></a>Uz prioritāti balstīta plānošana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā aprakstītas Uz prioritāti balstītas Microsoft plānošanas funkcijas Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no demand Driven Material Requirements Planning (DDMRP) soļi. Uz prioritāti balstīta plānošana iespējo plānošanas optimizāciju, lai ģenerētu plānotos pasūtījumus, kurus nosaka plānošanas prioritātes, nevis pieprasījumu datumi.
+Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no demand Driven Material Requirements Planning (DDMRP) soļi. Uz prioritāti balstīta plānošana iespējo plānošanas optimizāciju, lai ģenerētu plānotos pasūtījumus, kurus nosaka plānošanas prioritātes, nevis pieprasījumu datumi.
 
 Uz prioritāti balstīta plānošana ļauj piešķirt prioritāti papildināšanas pasūtījumiem, lai nodrošinātu steidzamu pieprasījumu pēc prioritātes tiek noteikt pēc mazāk svarīga pieprasījuma. Piemēram, krājumu papildināšanas pasūtījumam tiks prioritāte pār standarta uzpildīšanas papildināšanas pasūtījumu. Sistēma automātiski var sadalīt lielākus pasūtījumus atsevišķos mazākos pasūtījumos, kur pasūtījumu rindas tiek grupētas pēc prioritātes. Tad tas vispirms var apstrādāt visus augstas prioritātes pasūtījumus.
 
@@ -62,7 +62,7 @@ Tiek izmantota šāda formula:
 
 Šajā formulā neto *plūsmas pozīciju* aprēķina šādi:
 
-*Neto plūsmas pozīcijaOn-handOn-order* = *·* + *·* - Kvalificēts *pieprasījums*
+*Neto plūsmas pozīcija Rīcībā* = *esošie krājumi* + *- Kvalificēts* *pieprasījums*
 
 - *Pasūtītais ir* paredzētā piegāde.
 - *Kvalificēts* pieprasījums atspoguļo neto vajadzības, kurām ir vajadzības datums plānošanas periodā.

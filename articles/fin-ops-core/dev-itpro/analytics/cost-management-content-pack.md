@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Izmaksu pārvaldība
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu pārvaldība.
+description: Šajā rakstā ir aprakstīts, kas ir iekļauts Izmaksu pārvaldības Power BI saturā.
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876868"
 ---
 # <a name="cost-management-power-bi-content"></a>Power BI satura pakotne Izmaksu pārvaldība
 
@@ -168,9 +168,9 @@ Programmas dati tiek izmantoti, lai aizpildītu pārskatu lapas **Izmaksu pārva
 
 Power BI satura pakotnes izveidei tiek izmantoto tālāk norādīto objektu galvenie apkopotie mērījumi.
 
-| Objekts                          | Galvenie apkopošanas mērījumi | Datu avots programmai Finance and Operations | Lauks               |
+| Objekts                          | Galvenie apkopošanas mērījumi | Dynamics 365 for Finance and Operations datu avots | Lauks               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
-| CostObjectStatementCacheMonthly | Apjoms                     | CostObjectStatementCache               | Daudzums              |
+| CostObjectStatementCacheMonthly | Daudzums                     | CostObjectStatementCache               | Daudzums              |
 | CostObjectStatementCacheMonthly | Daudzums                   | CostObjectStatementCache               | Daudzums                 |
 | CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
 | CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
@@ -179,16 +179,16 @@ Tālāk esošajā tabulā ir norādīti galvenie aprēķinātie mērījumi Power
 
 | Mērs                            | Aprēķins |
 |------------------------------------|-------------|
-| Sākuma bilance                  | Sākuma bilance = \[ Beigu bilance\]-\[ Neto izmaiņas\] |
-| Sākuma bilances daudzums             | Sākuma bilances daudzums = \[ Beigu bilance daudzums\]-\[ Neto izmaiņu daudzums\] |
-| Beigu bilance                     | Beigu bilance = (CALCULATE(SUM(\[ Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\])))) |
-| Beigu bilances daudzums                | Beigu bilances daudzums = CALCULATE(SUM(\[ QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\]))) |
-| Neto apgrozījums                         | Neto izmaiņas = SUM(\[ AMOUNT\]) |
-| Neto izmaiņu daudzums                    | Neto izmaiņu daudzums = SUM(\[ QTY\]) |
-| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR(\[ Krājumu vidējā bilance\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[ Pārdoto vai patērēto krājumu izejošās plūsmas\])/\[ Krājumu vidējā bilance\]) |
-| Krājumu vidējā bilance          | Krājumu vidējā bilance = ((\[ Beigu bilance\] + \[ Sākuma bilance\]) / 2) |
-| Dienas, kad pieejami krājumi             | Dienas, kad pieejami krājumi = 365 / CostObjectStatementEntries\[ Krājumu apgrozījuma koeficients pēc summas\] |
-| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF (\[ Beigu bilance\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[ Beigu bilance\] \< 0), 0, 1), MAX(0, (\[ Beigu bilance\] - ABS(\[ Krājumu skaita summa\]))/\[ Beigu bilance\])) |
+| Sākuma bilance                  | Sākuma bilance = \[Beigu bilance\]-\[Neto izmaiņas\] |
+| Sākuma bilances daudzums             | Sākuma bilances daudzums = \[Beigu bilance daudzums\]-\[Neto izmaiņu daudzums\] |
+| Beigu bilance                     | Beigu bilance = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Beigu bilances daudzums                | Beigu bilances daudzums = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Neto apgrozījums                         | Neto izmaiņas = SUM(\[AMOUNT\]) |
+| Neto izmaiņu daudzums                    | Neto izmaiņu daudzums = SUM(\[QTY\]) |
+| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR(\[Krājumu vidējā bilance\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Pārdoto vai patērēto krājumu izejošās plūsmas\])/\[Krājumu vidējā bilance\]) |
+| Krājumu vidējā bilance          | Krājumu vidējā bilance = ((\[Beigu bilance\] + \[Sākuma bilance\]) / 2) |
+| Dienas, kad pieejami krājumi             | Dienas, kad pieejami krājumi = 365 / CostObjectStatementEntries\[Krājumu apgrozījuma koeficients pēc summas\] |
+| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF (\[Beigu bilance\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Beigu bilance\] \< 0), 0, 1), MAX(0, (\[Beigu bilance\] - ABS(\[Krājumu skaita summa\]))/\[Beigu bilance\])) |
 
 Tālāk minētās galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 

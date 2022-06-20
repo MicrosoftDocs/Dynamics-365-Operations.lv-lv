@@ -1,6 +1,6 @@
 ---
 title: Atlaižu pārvaldības darījumi
-description: Šajā tēmā aprakstīts, kā izveidot Atlaižu pārvaldības darījumus. Darījumi tiek izmantoti, lai kontrolētu dažādas metodes un bāzes atlaižu un patentmaksu aprēķināšanai. Tās iekļauj iekļaušanas un izslēgšanas kārtulas.
+description: Šajā rakstā ir aprakstīts, kā izveidot atlaižu pārvaldības darījumus. Darījumi tiek izmantoti, lai kontrolētu dažādas metodes un bāzes atlaižu un patentmaksu aprēķināšanai. Tās iekļauj iekļaušanas un izslēgšanas kārtulas.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851599"
 ---
 # <a name="rebate-management-deals"></a>Atlaižu pārvaldības darījumi
 
 [!include [banner](../includes/banner.md)]
 
-Atlaižu pārvaldības darījumi tiek izmantoti, lai kontrolētu dažādas metodes un bāzes atlaižu un patentmaksu aprēķināšanai. Tās iekļauj iekļaušanas un izslēgšanas kārtulas. Ir trīs atlaižu pārvaldības darījumu veidi: debitoru atlaides, debitoru patentmaksas un kreditora atlaides. Visiem trim veidiem tiek lietoti līdzīgi iestatījumi. Šī tēma norāda uz atšķirībām to atrašanās vietās.
+Atlaižu pārvaldības darījumi tiek izmantoti, lai kontrolētu dažādas metodes un bāzes atlaižu un patentmaksu aprēķināšanai. Tās iekļauj iekļaušanas un izslēgšanas kārtulas. Ir trīs atlaižu pārvaldības darījumu veidi: debitoru atlaides, debitoru patentmaksas un kreditora atlaides. Visiem trim veidiem tiek lietoti līdzīgi iestatījumi. Šis raksts norāda atšķirības tajās vietās, kur tās pastāv.
 
 ## <a name="create-a-deal"></a>Darījuma izveide
 
@@ -118,7 +118,7 @@ Kopsavilkuma cilnes **Atlaižu pārvaldības informācija** cilnē **Vispārīgi
 
 | Lauks | Apraksts |
 |---|---|
-| Aprēķina metode | Atlasiet metodi, kuru izmantot, kad atlasītā darījuma rinda ir kombinēta ar citām darījuma rindām (*Pakāpenisks*, *Kumulatīvs*, *Secīgs* vai *Kopējs*). Šī lauka vērtība var ievērojami ietekmēt atlaižu aprēķinu rezultātu. Lai iegūtu pilnu aprakstu par katru metodi un piemērus, kas parāda, kā tā ietekmē atlaides aprēķinu, skatiet tālāk šīs tēmas sadaļā [Darījuma rindu aprēķināšanas metodes](#calc-methods). |
+| Aprēķina metode | Atlasiet metodi, kuru izmantot, kad atlasītā darījuma rinda ir kombinēta ar citām darījuma rindām (*Pakāpenisks*, *Kumulatīvs*, *Secīgs* vai *Kopējs*). Šī lauka vērtība var ievērojami ietekmēt atlaižu aprēķinu rezultātu. Pilnu aprakstu par katru metodi un piemērus, kas parāda, kā tā ietekmē atlaides aprēķinu, [skatiet](#calc-methods) tālāk šī raksta sadaļā Darījuma rindu aprēķināšanas metodes. |
 | Pamats | Atlasiet, vai atlaide tiek piemērota, pamatojoties uz daudzumu (t.i., uz kopējo nopirkto vai pārdoto preču skaitu) vai uz vērtību (t.i., uz kopējo iegādāto vai pārdoto preču cenu). |
 | Darījuma veids | <p>Atlasiet procesa punktu, kad jāveic aprēķins:</p><ul><li>*Pasūtījums* – izmantot pasūtīto daudzumu vai vērtību kā pamatu aprēķinam.</li><li>*Piegādāts* – izmantot pasūtīto daudzumu vai vērtību kā pamatu aprēķinam.</li><li>*Rēķins* – izmantot aprēķināto daudzumu vai vērtību kā pamatu aprēķinam.</li></ul> |
 | Vienība | Ja atlasījāt *Daudzumu* laukā **Pamata**, atlasiet vienību, kurā ir jānorāda šis daudzums. |

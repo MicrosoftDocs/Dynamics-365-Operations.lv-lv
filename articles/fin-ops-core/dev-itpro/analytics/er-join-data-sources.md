@@ -1,6 +1,6 @@
 ---
 title: Izmantojiet SAVIENOJUMA datu avotus ER modeļu kartējumos, lai iegūtu datus no vairākām programmas tabulām
-description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot SAVIENOJUMA veida datu avotus.
+description: Šajā rakstā skaidrots, kā var izmantot JOIN tipa datu avotus Elektronisko pārskatu (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845546"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos
 
@@ -40,15 +40,15 @@ Konfigurētajā **Savienojuma** datu avotā, kad visu datu avotu veids ir **Tabu
 > [!NOTE]
 > Funkcijas **VALUEIN** izmantošana ER izteiksmēs, kas precizē nosacījumus ierakstu savienošanu savienojuma veida datu avotos, pagaidām vēl netiek atbalstīta. Papildinformāciju par šo funkciju skatiet lapā [Formulas izstrādātājs elektronisko pārskatu sniegšanā](general-electronic-reporting-formula-designer.md).
 
-Lai iegūtu papildinformāciju par šo līdzekli, aizpildiet šajā tēmā sniegto piemēru.
+Lai uzzinātu vairāk par šo īpašību, pabeidziet šajā rakstā minēto piemēru.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Piemērs: izmantot SAVIENOJUMA datu avotus ER modeļu kartējumos
 
-Tālākminētajās darbībās paskaidrots, kā sistēmas administrators vai elektronisko pārskatu noformētājs var konfigurēt elektronisko pārskatu (ER) modeļa kartēšanu, lai iegūtu datus no vairākām programmas tabulām uzreiz, izmantojot **Savienojuma** veida datu avotus nolūkā uzlabot datu piekļuves veiktspēju. Šīs darbības var veikt jebkuram uzņēmumam, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Services (RCS).
+Tālākminētajās darbībās paskaidrots, kā sistēmas administrators vai elektronisko pārskatu noformētājs var konfigurēt elektronisko pārskatu (ER) modeļa kartēšanu, lai iegūtu datus no vairākām programmas tabulām uzreiz, izmantojot **Savienojuma** veida datu avotus nolūkā uzlabot datu piekļuves veiktspēju. Šos soļus var veikt jebkuram Dynamics 365 Finanšu vai regulēšanas konfigurācijas pakalpojumu (RCS) uzņēmumam.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
-Lai izpildītu šīs tēmas piemērus, jums jābūt piekļuvei vienam no tālāk minētā atkarībā no tā, kāds pakalpojums tiek izmantots šo darbību pabeigšanai.
+Lai pabeigtu piemērus šajā rakstā, jums ir jābūt piekļuvei vienam no šiem, atkarībā no tā, kāds pakalpojums tiek izmantots, lai sacenšotu šos soļus:
 
 **Piekļuve Finance vienai no šīm lomām:**
 
@@ -257,9 +257,9 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
 ## <a name="limitations"></a>Ierobežojumi
 
-Kā redzams no piemēra šajā tēmā, **SAVIENOJUMA** datu avots var tikt izveidots no vairākiem datu avotiem, kas apraksta atsevišķas to ierakstu datu kopas, kas ir jāpievieno. Šos datu avotus jūs varat konfigurēt, izmantojot iebūvēto ER [FILTRA](er-functions-list-filter.md) funkciju. Konfigurējot datu avotu tā, ka tas tiek izsaukts ārpus **SAVIENOJUMA** datu avota, jūs varat izmantot uzņēmuma diapazonus kā daļu no nosacījuma datu atlasei. Sākotnējā **SAVIENOJUMA** datu avota ieviešana neatbalsta šāda veida datu avotus. Piemēram, kad izsaucat uz [FILTRA](er-functions-list-filter.md) balstītu datu avotu, kas ietilpst **SAVIENOJUMA** datu avota izpildes jomā, ja izsauktajam datu avotam ir uzņēmuma diapazoni kā daļa no nosacījuma datu atlasei, izveidojas izņēmums.
+Kā redzams šajā rakstā piemērā, **JOIN** datu avotu var izveidot no vairākiem datu avotiem, kas apraksta atsevišķu ierakstu datu kopas, kas visbeidzot jāpievieno. Šos datu avotus jūs varat konfigurēt, izmantojot iebūvēto ER [FILTRA](er-functions-list-filter.md) funkciju. Konfigurējot datu avotu tā, ka tas tiek izsaukts ārpus **SAVIENOJUMA** datu avota, jūs varat izmantot uzņēmuma diapazonus kā daļu no nosacījuma datu atlasei. Sākotnējā **SAVIENOJUMA** datu avota ieviešana neatbalsta šāda veida datu avotus. Piemēram, kad izsaucat uz [FILTRA](er-functions-list-filter.md) balstītu datu avotu, kas ietilpst **SAVIENOJUMA** datu avota izpildes jomā, ja izsauktajam datu avotam ir uzņēmuma diapazoni kā daļa no nosacījuma datu atlasei, izveidojas izņēmums.
 
-Microsoft Dynamics 365 Finance versijā 10.0.12 (2020. gada augusts) jūs varat izmantot uzņēmuma diapazonus kā daļu no nosacījuma datu atlasei uz [FILTRA](er-functions-list-filter.md) balstītos datu avotos, kas tiek izsaukti ar **SAVIENOJUMA** datu avota izpildes jomu. Programmas [vaicājuma](../dev-ref/xpp-library-objects.md#query-object-model) veidotāja ierobežojumu dēļ uzņēmumu diapazoni tiek atbalstīti tikai pirmajam **SAVIENOJUMA** datu avotam.
+Microsoft Dynamics 365 Finanšu versijā 10.0.12 (2020. gada augustā) varat izmantot uzņēmumu [diapazonus](er-functions-list-filter.md)**kā daļu no nosacījuma datu atlasei uz filtra bāzes datu avotos, kas tiek izsaukti JOIN datu avota izpildes** diapazonā. Programmas [vaicājuma](../dev-ref/xpp-library-objects.md#query-object-model) veidotāja ierobežojumu dēļ uzņēmumu diapazoni tiek atbalstīti tikai pirmajam **SAVIENOJUMA** datu avotam.
 
 ### <a name="example"></a>Paraugs
 

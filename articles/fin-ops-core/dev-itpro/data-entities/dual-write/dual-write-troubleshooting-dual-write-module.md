@@ -1,6 +1,6 @@
 ---
 title: Duālā ieraksta problēmu novēršana Finance and Operations programmās
-description: Šajā tēmā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas modulī Dubultā rakstīšana Finanšu un operāciju programmās.
+description: Šajā rakstā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas modulī Dubultā rakstīšana Finanšu un operāciju programmās.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864577"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Duālā ieraksta problēmu novēršana Finance and Operations programmās
 
@@ -22,10 +22,10 @@ ms.locfileid: "8613887"
 
 
 
-Šajā tēmā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. It īpaši tā sniedz informāciju, kas var palīdzēt jums novērst problēmas **ar Dubultās rakstīšanas moduli** Finanšu un operāciju programmās.
+Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. It īpaši tā sniedz informāciju, kas var palīdzēt jums novērst problēmas **ar Dubultās rakstīšanas moduli** Finanšu un operāciju programmās.
 
 > [!IMPORTANT]
-> Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
+> Dažas no problēmām, kurām šajā rakstu adresēs var būt nepieciešama sistēmas administratora loma vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Dubultās rakstīšanas moduli nevar ielādēt finanšu un operāciju programmā
 

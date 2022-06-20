@@ -1,6 +1,6 @@
 ---
 title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.25. (2022. gada aprīlis)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.25.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
 ms.date: 03/14/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 27f3233ebb3363abcbfc5b98b3786865fa32366c
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
-ms.translationtype: MT
+ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850791"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.25. (2022. gada aprīlis)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.25. Šai versijai ir būvējuma numurs 10.0.1149, un tas ir pieejams šeit:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.25. Šai versijai ir būvējuma numurs 10.0.1149, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2022. gada februāris
 - **Vispārēja laidiena (paša veikts atjauninājums) pieejamība:** 2022. gada marts
@@ -29,7 +29,7 @@ ms.locfileid: "8462444"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varētu atjaunināt šo tēmu, lai iekļautu līdzekļus, kas padarīja to par būvējumu pēc šīs tēmas sākotnējās publicēšanas.
+Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varētu atjaunināt šo rakstu, lai ietvertu līdzekļus, kas to veidojās pēc šī raksta sākotnējā publicēšanas.
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
@@ -75,7 +75,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Izmaksu pārvaldība | [Krājumu vērtības pārskata glabāšana](../cost-management/inventory-value-report-storage.md) | Ieslēgts pēc noklusējuma |
 | Izmaksu pārvaldība | Rādīt krājumu slēgšanas žurnālu režģī | Ieslēgts pēc noklusējuma |
 | Tehnisko izmaiņu pārvaldība | [Izmaiņu pārvaldības iespējošana esošajiem produktiem](../engineering-change-management/change-management-existing-products.md) | Ieslēgts pēc noklusējuma |
-| Tehnisko izmaiņu pārvaldība | [Tehnikas izmaiņu pārvaldība](../engineering-change-management/product-engineering-overview.md) | Ieslēgts pēc noklusējuma |
+| Tehnisko izmaiņu pārvaldība | [Tehnisko izmaiņu pārvaldība](../engineering-change-management/product-engineering-overview.md) | Ieslēgts pēc noklusējuma |
 | Tehnisko izmaiņu pārvaldība | [Tehniskie paziņojumi ražotājiem](../engineering-change-management/engineering-change-management.md) | Ieslēgts pēc noklusējuma |
 | Tehnisko izmaiņu pārvaldība | [Uzlabota atribūtu pārmantošana tehnisko izmaiņu pārvaldībai](../engineering-change-management/engineering-attributes-and-search.md) | Ieslēgts pēc noklusējuma |
 | Tehnisko izmaiņu pārvaldība | [Pārvaldīt izmaiņas formulās un to komponentos](../engineering-change-management/manage-formula-changes.md) | Ieslēgts pēc noklusējuma |
@@ -199,12 +199,12 @@ Apskatiet [Dynamics 365 un rūpniecības mākoņi: 2022. gada 1. laidiena plāns
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
-Tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) apraksta līdzekļus, kas ir vai ir ieplānots noņemšanai no Supply Chain Management.
+Noņemtie [vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) rakstā apraksta funkcijas, kas ir noņemtas vai ieplānotas izņemšanai vai nolietojumam Piegādes ķēžu pārvaldībai.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
-Pirms kāda funkcija tiek noņemta no preces, izslēgšanas paziņojums tiks izziņota tēma [Noņemtie vai novecošie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mēnešu laikā pirms noņemšanas.
+Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) par nolietojumu tiks papildu pievienots 12. rakstu funkcionalitātes Noņemtie vai novecojušie 12 mēnešu skaits pirms noņemšanas.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 

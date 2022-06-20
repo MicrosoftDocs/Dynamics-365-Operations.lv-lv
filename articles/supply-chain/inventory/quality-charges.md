@@ -1,6 +1,6 @@
 ---
 title: Maksa par neatbilstības operācijam
-description: Šajā tēmā ir aprakstīts, kā izveidot kvalitātes maksas, ko var izmantot operācijām neatbilstībai.
+description: Šajā rakstā ir aprakstīts, kā izveidot kvalitātes maksas, ko var izmantot ar operācijām neatbilstībai.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850733"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Maksa par neatbilstības operācijam
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot kvalitātes maksas, ko var izmantot operācijām neatbilstībai.
+Šajā rakstā ir aprakstīts, kā izveidot kvalitātes maksas, ko var izmantot ar operācijām neatbilstībai.
 
 Izmantojiet lapu **Kvalitātes maksas**, lai definētu maksu veidus, kas var pievienot operācijām neatbilstībām. Maksas ļauj izsekot detalizētu informāciju par maksām, ko esat parādā debitoram par neatbilstošiem produktiem, vai ko kreditors ir parādā jums par saņemtajiem neatbilstošiem produktiem. Maksas var izmantot arī, lai izsekotu izmaksas, kas nepieciešamas ārējiem kreditoriem vai pakalpojumiem operācijas veikšanai.
 

@@ -1,6 +1,6 @@
 ---
-title: Nosacījumu novērtējums
-description: Šajā tēmā ir paskaidrots, kā izveidot nosacījuma novērtējuma veidni un reģistrēt līdzekli Līdzekļu pārvaldībā.
+title: Nosacījuma novērtējums
+description: Šajā rakstā skaidrots, kā izveidot nosacījumu novērtēšanas veidni un reģistrāciju līdzeklim Pamatlīdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872099"
 ---
-# <a name="condition-assessment"></a>Nosacījumu novērtējums
+# <a name="condition-assessment"></a>Nosacījuma novērtējums
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Šajā tēmā ir paskaidrots, kā izveidot nosacījuma novērtējuma veidni un reģistrēt līdzekli Līdzekļu pārvaldībā. Nosacījumu novērtējumu veic regulāri, un primārais mērķis ir izveidot un uzturēt nosacījumu datus par līdzekļiem. Raugoties no profilaktiskās uzturēšanas perspektīvas, ir svarīgi pārraudzīt svarīgāko informāciju, piemēram, pašreizējo stāvokli un atlikušo mūža ilgumu. Turklāt, ja regulāri veicat nosacījumu novērtējumu, jūs varēsit pārraudzīt un salīdzināt iekārtu nosacījumus jūsu rūpnīcā.
+Šajā rakstā skaidrots, kā izveidot nosacījumu novērtēšanas veidni un reģistrāciju līdzeklim Pamatlīdzekļu pārvaldībā. Nosacījumu novērtējumu veic regulāri, un primārais mērķis ir izveidot un uzturēt nosacījumu datus par līdzekļiem. Raugoties no profilaktiskās uzturēšanas perspektīvas, ir svarīgi pārraudzīt svarīgāko informāciju, piemēram, pašreizējo stāvokli un atlikušo mūža ilgumu. Turklāt, ja regulāri veicat nosacījumu novērtējumu, jūs varēsit pārraudzīt un salīdzināt iekārtu nosacījumus jūsu rūpnīcā.
 
 Nosacījumu novērtējumu var izmantot, lai izmērītu un uzraudzītu daudzus jūsu iekārtu nosacījumus. Piemērs: jūs varētu mērīt jūsu mašīnu vibrācijas. Kad esat reģistrējis vibrācijas mērījumus Līdzekļu pārvaldībā par dažādu veidu iekārtām, varat meklēt jaunāko reģistrēto novērtējumu un skatīt vibrācijas mērījumus.
 

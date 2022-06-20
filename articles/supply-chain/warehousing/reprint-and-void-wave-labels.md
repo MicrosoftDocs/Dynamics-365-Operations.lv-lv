@@ -1,6 +1,6 @@
 ---
 title: Kopuma etiķešu atkārtota drukāšana un anulēšana
-description: Šajā tēmā ir paskaidrots, kā anulēt un atkārtoti drukāt esošās kopuma etiķetes.
+description: Šajā rakstā ir paskaidrots, kā anulēt un atkārtoti drukāt esošās kopuma etiķetes.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871838"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Kopuma etiķešu atkārtota drukāšana un anulēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā pārvaldīt kopuma apstrādes laikā ģenerētās etiķetes. (Detalizētu aprakstu un konfigurācijas instrukcijas skatiet sadaļā [Konfigurēt kopuma etiķešu drukāšanu](../warehousing/configure-wave-label-printing.md).)
+Šajā rakstā ir izskaidrots, kā pārvaldīt kopuma apstrādes ģenerētās etiķetes. (Detalizētu aprakstu un konfigurācijas instrukcijas skatiet sadaļā [Konfigurēt kopuma etiķešu drukāšanu](../warehousing/configure-wave-label-printing.md).)
 
 Kopuma etiķetes var atkārtoti drukāt jebkurā laikā. Piemēram, var būt nepieciešams drukāt vienu etiķeti, ja esošā etiķete ir pazaudēta vai bojāta. Vai arī noliktavas darbiniekam vai supervizoram var nākties atkārtoti drukāt veselu etiķešu rulli, ja ir mainījies visas kopuma etiķešu sērijas skaits un/vai sastāvs (piemēram, krājumu iztrūkuma vai citu iemeslu dēļ). Bieži pat tad, ja ir mainījies tikai kastu skaits, viss rullis ir jādrukā vēlreiz, lai saglabātu precīzu kopējo skaitu katras etiķetes “Kaste X no Y” sadaļā.
 
@@ -32,10 +32,10 @@ Kopuma etiķešu atkārtotas drukāšanas līdzeklis atbalsta šādu funkcionali
 - Anulējiet etiķetes un vienlaicīgi drukājiet tās atkārtoti. (Piemēram, iespēja anulēt etiķetes ir iegulta saīsinātajos izdošanas scenārijos.)
 - Notīriet kopuma etiķešu vēsturi.
 
-Šajā tēmā ir apkopoti scenāriji, kas, izmantojot piemērus, parāda, kā strādāt ar kopuma etiķešu atkārtotas drukāšanas līdzekli.
+Šajā rakstā ir scenāriju apkopojums, kuros tiek rādīts, piemēram, kā strādāt ar atkārtotas drukāšanas kopuma etiķešu funkciju.
 
 > [!IMPORTANT]
-> Lai strādātu ar šajā tēmā aprakstītajiem scenārijiem, vispirms ir jāieslēdz un jākonfigurē atbilstošie kopuma drukāšanas līdzekļi, kā aprakstīts sadaļā [Konfigurēt kopuma etiķešu drukāšanu](../warehousing/configure-wave-label-printing.md). Vairāki no šīs tēmas scenārijiem pieprasa vispirms strādāt ar attiecīgās tēmas scenārijiem, lai ģenerētu priekšnosacījumu datu paraugus.
+> Lai varētu izmantot šajā rakstā parādītos scenārijus, vispirms ir jāieslēdzas un jākonfigurē atbilstošās kopuma drukāšanas funkcijas, kā [aprakstīts sadaļā Konfigurēt kopuma etiķetes drukāšanu](../warehousing/configure-wave-label-printing.md). Vairākiem šī raksta scenārijiem arī ir nepieciešams, lai jūs vispirms strādātu šī raksta scenārijos, lai ģenerētu priekšnosacījumu parauga datus.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>1. scenārijs: atkārtota etiķešu drukāšana no tīmekļa klienta
 

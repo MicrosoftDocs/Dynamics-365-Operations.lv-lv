@@ -1,6 +1,6 @@
 ---
 title: Kvalitātes pārbaude
-description: Šajā tēmā ir sniegta informācija par Kvalitātes pārbaudes līdzekli. Šis līdzeklis ļauj noliktavas darbiniekiem ātri veikt pārbaudes uz vietas, kamēr tie saņem krājumus saņemšanas doka zonā.
+description: Šajā rakstā ir sniegta informācija par Kvalitātes pārbaudes līdzekli. Šis līdzeklis ļauj noliktavas darbiniekiem ātri veikt pārbaudes uz vietas, kamēr tie saņem krājumus saņemšanas doka zonā.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855062"
 ---
 # <a name="quality-check"></a>Kvalitātes pārbaude
 
@@ -41,11 +41,11 @@ Izmantojot šo funkciju, saņemšanas un kvalitātes pārbaude notiek šādi:
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Kvalitātes pārbaudes funkcijas izslēgšana vai izslēgšana
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, *sistēmai* jābūt ieslēgtai kvalitātes pārbaudes funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Kvalitātes pārbaudes līdzekli Līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, *sistēmai* jābūt ieslēgtai kvalitātes pārbaudes funkcijai. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.25, *·*[tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Kvalitātes pārbaudes līdzekli Līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Iestatīt līdzekli piemēra scenārijam
 
-Šajā sadaļā ir sniegti norādījumi un piemērs, kas parāda, kā iestatīt *Kvalitātes pārbaudes* funkciju un sagatavot parauga datus piemēru scenārijam, kas sniegts tālāk šajā tēmā.
+Šajā sadaļā ir sniegtas vadlīnijas *un piemērs, kā iestatīt funkciju Kvalitātes* pārbaude un sagatavot parauga datus piemēra scenārijam, kas sniegts tālāk šajā rakstā.
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 
@@ -270,7 +270,7 @@ Konfigurējiet izvēlnes elementu, lai mobilās ierīces varētu veikt **Kvalit�
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Piemēra situācija
 
-Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus un to iestatījis, varat strādāt ar šo scenāriju, lai izmēģinātu *Kvalitātes pārbaudes* funkciju. Šajā scenārijā parādītās vērtības pieņem, ka strādājat ar standarta demonstrācijas datiem, ar kuriem atlasījāt **USMF** juridisko personu un ka sagatavojāt parauga ierakstus, kas ir aprakstīti iepriekš šajā tēmā. Šis scenārijs kalpo arī kā piemērs, kas parāda, kā līdzekli var izmantot ražošanas iestatījumā.
+Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus un to iestatījis, varat strādāt ar šo scenāriju, lai izmēģinātu *Kvalitātes pārbaudes* funkciju. Šajā scenārijā parādītās vērtības pieņem, ka strādājat ar standarta demonstrācijas datiem, **atlasījāt USMF** juridisko personu un ka sagatavojāt parauga ierakstus, kas ir aprakstīti iepriekš šajā rakstā. Šis scenārijs kalpo arī kā piemērs, kas parāda, kā līdzekli var izmantot ražošanas iestatījumā.
 
 ### <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
 
@@ -357,7 +357,7 @@ Pēc tam, kad pirkšanas pasūtījums ir izveidots, to var saņemt, izmantojot *
 
 Tagad jūs esat pabeiguši kvalitātes pārbaudi un izveidojis kvalitātes pasūtījumu noraidītajai paletei. Lai skatītu izveidoto kvalitātes pasūtījumu, dodieties uz **Krājumu pārvaldība \> Periodiskie uzdevumi \> Kvalitātes pārvaldība \> Kvalitātes pasūtījumi**.
 
-Kvalitātes pasūtījumu pārbaudes tagad var apstrādāt. Šajā tēmā nav iekļauta kvalitātes testēšana.
+Kvalitātes pasūtījumu pārbaudes tagad var apstrādāt. Kvalitātes testēšana nav ietverta šajā rakstā.
 
 Papildinformāciju par kvalitātes pārvaldību skatiet [Pārskats par kvalitātes pārvaldību](../inventory/enable-quality-management.md)
 

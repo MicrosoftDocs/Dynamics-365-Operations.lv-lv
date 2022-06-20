@@ -1,6 +1,6 @@
 ---
 title: Inventory Visibility atbalsts WHS krājumiem
-description: Šajā tēmā ir aprakstīts Krājumu redzamības atbalsts krājumiem, kas ir iespējoti papildu noliktavas procesiem (WHS krājumiem).
+description: Šajā dokumentā ir aprakstīts krājumu redzamības atbalsts krājumiem, kas ir iespējoti papildu noliktavas procesiem (WHS krājumiem).
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895675"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>Inventory Visibility atbalsts WHS krājumiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts Krājumu redzamības atbalsts krājumiem, kas ir iespējoti papildu noliktavas procesiem (WHS krājumiem). Funkcija, kas pievieno šo iespēju krājumu redzamībai, tiek nosaukta kā Uzlabotā *WHS*.
+Šajā dokumentā ir aprakstīts krājumu redzamības atbalsts krājumiem, kas ir iespējoti papildu noliktavas procesiem (WHS krājumiem). Funkcija, kas pievieno šo iespēju krājumu redzamībai, tiek nosaukta kā Uzlabotā *WHS*.
 
 ## <a name="whs-items"></a>WHS krājumi
 

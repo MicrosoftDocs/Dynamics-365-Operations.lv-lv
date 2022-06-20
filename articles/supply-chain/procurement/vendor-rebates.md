@@ -1,6 +1,6 @@
 ---
 title: Kreditora atlaides
-description: Šajā tēmā ir sniegts apskats par visbiežāk lietotajiem uzdevumiem, kurus varat vēlēties izpildīt, kad strādājat ar kreditoru atlaidēm. Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
+description: Šajā rakstā sniegts pārskats par biežāk veicamajiem uzdevumiem, kurus, iespējams, vēlēsities veikt, strādājot ar kreditora atlaidēm. Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890804"
 ---
 # <a name="vendor-rebates"></a>Kreditora atlaides
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672967"
 
 Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
 
-Šajā tēmā ir sniegts apskats par visbiežāk lietotajiem uzdevumiem, kurus varat vēlēties izpildīt, kad strādājat ar kreditoru atlaidēm. Šis apskats ietver tālāk uzskaitītos uzdevumus.
+Šajā rakstā sniegts pārskats par biežāk veicamajiem uzdevumiem, kurus, iespējams, vēlēsities veikt, strādājot ar kreditora atlaidēm. Šis apskats ietver tālāk uzskaitītos uzdevumus.
 
 - Pārskatīt atlaižu līguma detalizēto informāciju.
 - Identificēt pasūtījumus, kas ir derīgi atlaižu saņemšanai, un ģenerēt atlaižu prasības.
@@ -34,7 +34,7 @@ Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju a
 
 ## <a name="audience-and-purpose"></a>Mērķauditorija un nolūks
 
-Informācija šajā tēmā ir paredzēta uzņēmumu biznesa lēmumu pieņēmējiem, tādos amatos kā iepirkumu daļas vadītājs, finanšu direktors (chief financial officer — CFO) un galvenais grāmatvedis, kuriem ir tālāk norādītie pienākumi.
+Informācija šajā rakstā ir paredzēta uzņēmuma uzņēmumu biznesa lēmumu pieņēmējiem, tādiem amatiem kā pirkšanas vadītājs, finanšu direktors (CFO) un grāmatvedības vadītājs, kam ir šādi pienākumi:
 
 - Vest pārrunas par kreditoru cenu un atlaižu līgumiem.
 - Pārvaldīt darbiniekus, kas apstrādā atlaižu prasības un iekasē maksājumus.

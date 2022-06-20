@@ -1,6 +1,6 @@
 ---
 title: Plānot pārdošanas vēstures datu tīrīšanu
-description: Šajā tēmā ir aprakstīts, kā jūs varat palīdzēt uzlabot sistēmas veiktspēju plānojot Pārdošanas atjaunināšanas vēstures tīrīšanas periodisko uzdevumu, lai palaistu regulārā intervālā.
+description: Šajā rakstā ir aprakstīts, kā var palīdzēt uzlabot sistēmas veiktspēju, plānojot pārdošanas atjaunināšanas vēstures tīrīšanas periodisko uzdevumu, lai palaistu regulārā intervālā.
 author: myvakalo
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900830"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Plānot pārdošanas vēstures datu tīrīšanu
 
@@ -28,7 +28,7 @@ Ja tiek izmantots pārdošanas *atjaunināšanas* vēstures tīrīšanas periodi
 
 ## <a name="turn-on-the-sales-history-cleanup-features"></a>Ieslēgt pārdošanas vēstures tīrīšanas funkcijas
 
-*Lai* iestatītu un lietotu pārdošanas atjaunināšanas vēstures tīrīšanas periodisko uzdevumu un visus šajā tēmā aprakstītos līdzekļus, *·* *ir* jāiespējo pārdošanas vēstures veiktspējas uzlabojumi un notīriet pārdošanas atjaunināšanas vēsturi, pamatojoties uz līdzekļu pārvaldības vecuma funkcijām, kā aprakstīts tālāk aprakstītajās apakšsadaļās.
+*Lai* iestatītu un lietotu pārdošanas atjaunināšanas vēstures tīrīšanas periodisko uzdevumu un visus šajā rakstā aprakstītos līdzekļus, *·* *ir* jāiespējo pārdošanas vēstures veiktspējas uzlabojumi un notīriet pārdošanas atjaunināšanas vēsturi, pamatojoties uz līdzekļu pārvaldības vecuma funkcijām, kā aprakstīts tālāk aprakstītajās apakšsadaļās.
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi
 

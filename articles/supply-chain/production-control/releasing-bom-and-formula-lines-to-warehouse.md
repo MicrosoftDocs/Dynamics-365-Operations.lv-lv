@@ -1,6 +1,6 @@
 ---
 title: MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
-description: Šajā tēmā ir aprakstīts, kā izejmateriālus MK rindām un formulas rindām izlaist nosūtīšanai uz noliktavu.
+description: Šajā rakstā ir aprakstīts izejmateriāla pārdošanas process MK rindām un formulas rindām uz noliktavu.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860614"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izejmateriālus materiālu komplektu (MK) rindām un formulas rindām izlaist nosūtīšanai uz noliktavu. Kad MK vai formulas rindu izlaižat nosūtīšanai uz noliktavu, sistēma vispirms nosaka, vai attiecīgais materiāls ražotnē jau ir pieejams ražošanas ievades novietojumā, kur šis materiāls tiks patērēts ražošanas procesam.
+Šajā rakstā ir aprakstīts izejmateriāla pārdošanas process materiālu komplekta (MK) rindām un formulas rindām uz noliktavu. Kad MK vai formulas rindu izlaižat nosūtīšanai uz noliktavu, sistēma vispirms nosaka, vai attiecīgais materiāls ražotnē jau ir pieejams ražošanas ievades novietojumā, kur šis materiāls tiks patērēts ražošanas procesam.
 
 - Ja materiāls ir pieejams ražošanas ievades novietojumā, tas tiek izdots no šī novietojuma uzreiz pēc tam, kad tiek dots signāls materiāla izlaišanai pārvietošanai uz noliktavu.
 - Ja materiāls nav pieejams ražošanas ievades novietojumā, materiāla izlaišana norāda, ka no novietojumiem noliktavā šis materiāls ir jāpārvieto uz ražošanas ievades novietojumu. Materiāls tiek pārvietots, izmantojot noliktavas darbu izejmateriālu izdošanai. Tādēļ ir jābūt konfigurētiem noliktavas procesiem izejmateriālu izdošanai. Papildinformāciju skatiet [Papildināšanas pārskats](../warehousing/replenishment.md) un [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](../warehousing/control-warehouse-location-directives.md).

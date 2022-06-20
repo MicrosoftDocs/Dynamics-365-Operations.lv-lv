@@ -1,6 +1,6 @@
 ---
-title: Darbplūsmas vēstures skatīšana
-description: Šajā tēmā ir aprakstītas darbības, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu.
+title: Skatīt darbplūsmas vēsturi
+description: Šajā rakstā ir aprakstīti soļi tā dokumenta statusa skatīšanai, kas iesniegts darbplūsmas sistēmā apstrādei un apstiprināšanai.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868584"
 ---
-# <a name="view-workflow-history"></a>Darbplūsmas vēstures skatīšana
+# <a name="view-workflow-history"></a>Skatīt darbplūsmas vēsturi
 
 [!include [banner](../../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Šajā tēmā ir aprakstītas darbības, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Šajā rakstā ir aprakstīti soļi tā dokumenta statusa skatīšanai, kas iesniegts darbplūsmas sistēmā apstrādei un apstiprināšanai. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 1. Dodieties uz **Navigācijas rūts > Moduļi > Kopīgi > Vaicājumi > Darbplūsma > Darbplūsmas vēsture**.
     - Lietojiet šo veidlapu, lai apskatītu apstrādes un apstiprināšanas nolūkos darbplūsmas sistēmā iesniegta dokumenta statusu.  

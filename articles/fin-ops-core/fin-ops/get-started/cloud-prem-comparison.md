@@ -1,6 +1,6 @@
 ---
 title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
-description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
+description: Rakstā ir parādīts, kuri līdzekļi tiek atbalstīti mākonī un lokāli.
 author: sericks007
 ms.date: 01/14/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4096089978032f150bf6d711711a948cf1d3232f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879780"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir parādīts to līdzekļu salīdzinājums, kas ir pieejami mākonī, salīdzinot ar lokālajiem līdzekļiem tālāk minētajām programmām.
+Šajā rakstā ir parādīts mākonī pieejamo līdzekļu salīdzinājums ar tālāk norādīto programmu lokāliem līdzekļiem:
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)

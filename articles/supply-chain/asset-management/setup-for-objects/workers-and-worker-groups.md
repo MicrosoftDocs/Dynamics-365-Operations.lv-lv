@@ -1,6 +1,6 @@
 ---
 title: Uzturēšanas speciālisti un speciālistu grupas
-description: Šajā tēmā ir pakaidroti uzturēšanas speciālisti un speciālistu grupas Līdzekļu pārvaldībā.
+description: Šajā rakstā skaidroti uzturēšanas darbinieki un darbinieku grupas Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860904"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Uzturēšanas speciālisti un speciālistu grupas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750128"
 
  
 
-Šajā tēmā ir pakaidroti uzturēšanas speciālisti un speciālistu grupas Līdzekļu pārvaldībā. Pamatlīdzekļu pārvaldībā varat pievienot uzturēšanas speciālistus funkcionālajiem novietojumiem. (Papildinformāciju par funkcionālajiem novietojumiem skatiet nodaļā [Funkcionālo novietojumu izveide](../functional-locations/create-functional-locations.md).) Šī funkcionalitāte var būt noderīga, ja, piemēram, plānojat uzturēšanas darbu iekārtā, kas atrodas funkcionālajā novietojumā 01, un jūs vēlaties piešķirt uzturēšanas speciālistus no tās pašas atrašanās vietas darba izpildei.
+Šajā rakstā skaidroti uzturēšanas darbinieki un darbinieku grupas Līdzekļu pārvaldībā. Pamatlīdzekļu pārvaldībā varat pievienot uzturēšanas speciālistus funkcionālajiem novietojumiem. (Papildinformāciju par funkcionālajiem novietojumiem skatiet nodaļā [Funkcionālo novietojumu izveide](../functional-locations/create-functional-locations.md).) Šī funkcionalitāte var būt noderīga, ja, piemēram, plānojat uzturēšanas darbu iekārtā, kas atrodas funkcionālajā novietojumā 01, un jūs vēlaties piešķirt uzturēšanas speciālistus no tās pašas atrašanās vietas darba izpildei.
 
 Varat arī izveidot uzturēšanas speciālistu grupas un saistīt uzturēšanas speciālistus ar tām. Šī funkcionalitāte noder, ja veicat vienkāršu darba pasūtījumu plānošanu un vēlaties ieplānot uzturēšanas speciālistu grupu darba pasūtījumā. Varat izmantot uzturēšanas speciālistus un uzturēšanas speciālistu grupas, lai iestatītu vēlamos uzturēšanas speciālistus un atbildīgos uzturēšanas speciālistus. 
 

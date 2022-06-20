@@ -1,6 +1,6 @@
 ---
 title: Slēgta piedāvājumu izteikšana PP
-description: Šajā tēmā ir aprakstīts, kā iestatīt aizzīmogotu izsoli, lai nodrošinātu, ka kreditora solītās atbildes ir slepenas, līdz pirkšanas personāls noņem aizzīmogotos piedāvājumus.
+description: Šajā rakstā ir aprakstīts, kā iestatīt aizzīmogotu solījumu, lai glabātu kreditora piedāvājuma atbilžu noslēpumu, līdz pirkšanas personāls tās atzīst.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890891"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Slēgta piedāvājumu izteikšana PP
 
@@ -148,7 +148,7 @@ Aizzīmogotās izsoles PP gadījuma izveides process ir gandrīz tāds pats kā 
 Aizzīmogotas izsoles PP gadījumu vērtībai **Piedāvājuma veids** jābūt *Aizzīmogotai*. Pastāv trīs veidi, kā piešķirt šo vērtību PP gadījumam:
 
 - Pēc vērtības izveides iestatiet vērtību tieši PP gadījumā.
-- Definējiet aizzīmogoto izsoli kā noklusējuma piedāvājuma tipu visiem PP gadījumiem Sagādes un avotu parametros. (Skatiet sadaļu [Iestatiet noklusējuma piedāvājuma veidu](#set-default-bid-type) iepriekš šajā tēmā.)
+- Definējiet aizzīmogoto izsoli kā noklusējuma piedāvājuma tipu visiem PP gadījumiem Sagādes un avotu parametros. (Skatiet [Iestatiet noklusējuma piedāvājuma tipa sadaļu](#set-default-bid-type) iepriekš šajā rakstā.)
 - Veidojot jaunu PP gadījumu, atlasiet lūguma veidu, kas ir iestatīts aizzīmogotai izsolei. (Skatiet sadaļu [Iestatīt noklusējuma piedāvājuma veidu](#set-default-bid-type).)
 
 Aizzīmogotās izsoles PP gadījuma vērtība **Beigu datums un laiks** nosaka, kad iesniegtos aizzīmogotos piedāvājumus var noņemt. Vērtība **Beigu datums un laiks** katrā rindā atbildīs virsraksta vērtībai.

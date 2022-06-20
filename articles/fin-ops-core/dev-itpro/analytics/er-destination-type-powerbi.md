@@ -1,6 +1,6 @@
 ---
 title: Power BI ER galgamērķa tips
-description: Šajā tēmā sniegta informācija par to, kā ER galamērķa tipu Power BI konfigurēt izejošajiem dokumentiem.
+description: Šajā rakstā ir sniegta informācija, kā konfigurēt Power BI ER adresāta tipu izejošajiem dokumentiem.
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50675c15ec1273d6955c36aef87f9aaa846d4247
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845604"
 ---
 # <a name="power-bi-destination"></a>Power BI galamērķis
 
@@ -28,7 +28,7 @@ ms.locfileid: "6777432"
 
 Varat konfigurēt galamērķi Microsoft Power BI katram mapes vai faila komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai. Pamatojoties uz galamērķa iestatījumiem, ģēnerētais dokuments tiek saglabāts iepriekš konfigurētā SharePoint mapē.
 
-Iestatiet **Iespējot** uz **Jā**, lai izmantotu savu ER konfigurāciju datu pārsūtīšanai no savas instances Dynamics 365 Finance uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurēšana, lai izvilktu datus Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Iestatiet **Iespējots** **kā Jā**, lai izmantotu ER konfigurāciju, lai noteiktu datu pārsūtīšanu no jūsu Dynamics 365 Finanšu instances uz Microsoft Power BI pakalpojumiem. Pārsūtītie faili tiek glabāti Microsoft SharePoint Server instancē, kas ir jākonfigurē šim mērķim. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurēšana, lai izvilktu datus Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 [![Adresāta iestatījumu lapa.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 

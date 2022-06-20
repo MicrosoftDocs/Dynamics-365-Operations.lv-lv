@@ -1,6 +1,6 @@
 ---
-title: Klientu portāls Dynamics 365 Supply Chain Management pārskats (satur video)
-description: Šī tēma iepazīstina ar Debitoru portālu un izskaidro, kam tas ir jāizmanto un kā tas darbojas.
+title: Debitora portāls apskatam Dynamics 365 Supply Chain Management (satur video)
+description: Šajā rakstā ir paskaidrots Klientu portāls un skaidrots, kam tas jālieto un kā tas darbojas.
 author: Henrikan
 ms.date: 06/16/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 50bdbe6c5f5d23f49bdf8040f2c7811a28da3f32
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901913"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Debitoru portāla Dynamics 365 Supply Chain Management pārskats
 
@@ -42,7 +42,7 @@ Debitoru portāla veidnei ir visas pielāgošanas iespējas, ko piedāvā portā
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-The [Klientu portāla veidnes pārskats Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) video (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas saraksts](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejams YouTube.
+Apskats [par Debitoru portāla veidni video (parādīts Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) iepriekš) ir iekļauts Finanšu un operāciju [par](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamajiem YouTube.
 
 ## <a name="who-should-use-it"></a>Kam tas ir jāizmanto?
 
@@ -62,7 +62,7 @@ Debitoru portāls tiek nodrošināts kā Power Apps portālu veidne. Tas ir atka
 
 [Power Apps portāli](/powerapps/maker/portals/overview) ir līdzeklis, kas ļauj lietotājiem izveidot ārēji vērstu tīmekļa vietni, kurā var pierakstīties cilvēki, kas nav organizācijas locekļi. Lai izveidotu portālus, ir nepieciešama neliela kodēšana vai tā nav vajadzīga vispār. Debitoru portāls ir viena no daudzām [Dynamics 365 portāla veidnēm](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365), kas pieejamas no Microsoft.
 
-[Dubultā rakstīšana](/powerapps/maker/portals/overview) ir gatavs infrastruktūras produkts, kas nodrošina gandrīz reāllaika mijiedarbību starp klientu piesaistes lietotnēm un Finance and Operations lietotnēm. Dual Write nodrošina divvirzienu integrāciju starp Finance and Operations programmām un Microsoft Dataverse. Tāpēc tas nodrošina integrētu lietotāja pieredzi programmās. Debitora portāls ir atkarīgs no tabulām, kas tiek sinhronizētas ar duālo ierakstu. Pirms Supply Chain Management datus var sakārtoti Debitoru portālā, ir jāiespējo duālais ieraksts visām atbilstošajām tabulām.
+[Dubultā rakstīšana](/powerapps/maker/portals/overview) ir ārpus kases sistēmas infrastruktūras produkts, kas nodrošina tuvu reāllaika mijiedarbību starp debitoru iesaistīšanos programmām un Finanšu un operāciju programmām. Dubultā rakstīšana nodrošina divvirzienu integrāciju starp Finanšu un operāciju programmām un Microsoft Dataverse. Tāpēc tas nodrošina integrētu lietotāja pieredzi programmās. Debitora portāls ir atkarīgs no tabulām, kas tiek sinhronizētas ar duālo ierakstu. Pirms Supply Chain Management datus var sakārtoti Debitoru portālā, ir jāiespējo duālais ieraksts visām atbilstošajām tabulām.
 
 ![Debitoru portāla atkarības.](media/customer-portal-elements.png "Debitoru portāla atkarības")
 

@@ -1,6 +1,6 @@
 ---
 title: Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
-description: Šajā tēmā ir paskaidrots, kas ir Uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
+description: Šajā rakstā ir izskaidrots, kādi ir Uzdevumu ierakstītāja un uzdevumu ceļveži, kā izveidot ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos jūsu Palīdzībā.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891819"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070530"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
+Šajā rakstā ir izskaidrots, kādi ir Uzdevumu ierakstītāja un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos jūsu Palīdzībā.
 
 > [!IMPORTANT]
 > Varat ierakstīt savus uzdevumu ceļvežus programmatūrai Dynamics 365 Human Resources, bet pašlaik tos nevar saglabāt Biznesa procesu modelētāja (BPM) bibliotēkā vai atvērt no palīdzības rūts. Varat tos saglabāt lokāli vai kaut kur tīklā, un pēc tam tos atvērt un vēlreiz atskaņot, izmantojot līdzekli Uzdevumu ierakstītājs. 

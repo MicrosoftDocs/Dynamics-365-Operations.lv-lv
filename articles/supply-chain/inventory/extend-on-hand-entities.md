@@ -1,6 +1,6 @@
 ---
 title: Paplašināt krājumu rīcībā esošos datu elementus
-description: Šī tēma sniedz piemēru, kas parāda, kā pievienot paplašinātos laukus INVENTORSITEONHANDENTITY un INVENTWAREHOUSEONHANDENTITY skatiem, lai rīcībā esošo krājumu datu subjektu iespējas varētu strādāt ar paplašinājumiem.
+description: Šajā rakstā sniegts piemērs, kā pievienot paplašinātus laukus skatā INVENTORSITEONHANDENTITY un INVENTWAREDALEONHANDENTITY, lai rīcībā esošo datu entītiju iespējas varētu strādāt ar paplašinājumiem.
 author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 352b466a185bcd0778ea17e598129864c1547987
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906042"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Paplašināt krājumu rīcībā esošos datu elementus
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management nodrošina [paplašināmības](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) līdzekļus, kas ļauj jums [pievienot laukus tabulām, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Šī tēma sniedz piemēru, kas parāda, kā pievienot paplašinātos laukus `INVENTORSITEONHANDENTITY` un `INVENTWAREHOUSEONHANDENTITY` skatiem, lai rīcībā esošo krājumu datu subjektu iespējas varētu strādāt ar paplašinājumiem. Papildu informāciju par datu elementiem skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management nodrošina [paplašināmības](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) līdzekļus, kas ļauj jums [pievienot laukus tabulām, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Šajā rakstā sniegts piemērs `INVENTORSITEONHANDENTITY``INVENTWAREHOUSEONHANDENTITY`, kurā parādīts, kā pievienot paplašinātus laukus un skatus, lai rīcībā esošo krājumu datu entītiju iespējas varētu strādāt ar paplašinājumiem. Papildu informāciju par datu elementiem skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Šeit ir saraksts ar dažām rīcībā esošo krājumu datu vienībām:

@@ -1,6 +1,6 @@
 ---
 title: Piedāvājuma pieprasījumu pārskats
-description: Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
+description: Šajā rakstā ir sniegts piedāvājumu pieprasījumu (IP) apskats. Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895588"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par piedāvājumu pieprasījumiem (request for quotation — RFQ). Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku.
+Šajā rakstā ir sniegts piedāvājumu pieprasījumu (IP) apskats. Organizācijas izsniedz piedāvājumu pieprasījumus, kad tām ir jāiegādājas preces vai pakalpojumi un tādēļ tās vēlas saņemt konkurētspējīgus piedāvājumus no vairākiem kreditoriem. Piedāvājuma pieprasījumā kreditoriem tiek lūgts piedāvāt norādītā krājuma daudzuma cenas un piegādes laiku.
 Kreditoriem var lūgt arī norādīt, vai pastāv jebkādas nejaušās izmaksas, piemēram, piegādes izmaksas, kā arī vai pastāv jebkādas atlaides lielu pasūtījumu vai savlaicīgas kreditora rēķina apmaksas gadījumā.
 
 Piedāvājumu pieprasījumu procedūra sastāv no tālāk uzskaitītajiem uzdevumiem.
@@ -45,7 +45,7 @@ Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumie
 
 Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt** ) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
+Šis raksts aptver PP apstrādes procesu, kad kreditoru sadarbības netiek izmantota. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 Ja jums jāveic PP grozījumus pēc nosūtīšanas, ir iespējams PP atkārtoti nosūtīt kreditoriem, kad pabeigsiet, izmantojot divas grozījuma darbības: izveidot un finalizēt.
 
@@ -59,7 +59,7 @@ Kad esat izvēlējies kādu piedāvājumu vai noteiktu skaitu rindu kādā pied�
 
 Piedāvājuma pieprasījuma gadījumam ir divi statusi: zemākais un augstākais, un šo statusu varat apskatīt saraksta lapā vienumam **Visi piedāvājumu pieprasījumi**. Zemākais statuss ir jebkuras piedāvājumu pieprasījuma gadījuma rindas vismazāk advancētais stāvoklis, un augstākais statuss ir jebkuras piedāvājumu pieprasījuma gadījuma rindas advancētais stāvoklis. Piemēram, pieņemsim, ka piedāvājuma pieprasījuma gadījums ar trīs rindām tiek nosūtīts diviem kreditoriem, tātad pastāv divi piedāvājumu pieprasījumi un katrā ir trīs rindas. Visas rindas ir **Nosūtīts**. Tagad piedāvājums tiek ievadīts no viena kreditora, un piedāvājuma pieprasījuma rindas iegūst statusu **Saņemts**. Tas nozīmē, ka no piedāvājuma pieprasījuma gadījuma trīs rindām visām šīm rindām ir statuss **Nosūtīts** attiecībā uz vienu piedāvājuma pieprasījumu un ir statuss **Saņemts** attiecībā uz otru piedāvājuma pieprasījumu. Viszemākais statuss tādā situācijā ir **Nosūtīts**, un visaugstākais statuss ir **Saņemts**.
 
-Šie statusi ir detalizētāk aprakstīti tālāk šajā tēmā.
+Šie statusi vēlāk tiks aprakstīti tālāk šajā rakstā.
 
 ## <a name="setting-up-rfq-functionality"></a>PP funkcionalitātes iestatīšana
 

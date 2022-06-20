@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt tehnisko produktu izmaiņas
-description: Šajā tēmā ir sniegta informācija par tehnisko izmaiņu pārvaldību. Tehnisko izmaiņu pārvaldība nodrošina strukturētus procesus, lai pārvaldītu tehnisko produktu izmaiņas, piedāvātu, pieprasītu un veiktu izmaiņas, pārskatītu un apstiprinātu izmaiņas, novērtētu to ietekmi uz esošajiem darījumiem un sekotu tiem.
+description: Šajā rakstā ir sniegta informācija par tehnoloģiju izmaiņu pārvaldību. Tehnisko izmaiņu pārvaldība nodrošina strukturētus procesus, lai pārvaldītu tehnisko produktu izmaiņas, piedāvātu, pieprasītu un veiktu izmaiņas, pārskatītu un apstiprinātu izmaiņas, novērtētu to ietekmi uz esošajiem darījumiem un sekotu tiem.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849595"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -123,7 +123,7 @@ Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nos�
     - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
 
 > [!IMPORTANT]
-> Poga **Paziņot par ražošanu** ir pieejama tikai tad, *ja jūsu sistēmai ir ieslēgts inženiertehniskie paziņojumi par ražošanas* līdzekli. Norādījumus par to, kā ieslēgt vai izslēgt šo līdzekli un tā priekšnosacījumus, skatiet rakstā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+> Poga **Ziņot par** ražošanu ir pieejama tikai tad *, ja jūsu sistēmai ir* ieslēgti ražošanas funkcijas paziņojumi. Norādījumus, kā ieslēgt šo līdzekli un tā priekšnosacījumus ieslēgt vai izslēgt, skatiet inženierzinātnes [izmaiņu pārvaldības apskatu](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
 
@@ -136,7 +136,7 @@ Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
 Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņojumu** lapā, jūs varat sekot saitēm uz saistītajiem izmaiņu pasūtījumiem vai ražošanas pasūtījumiem, atlasot kolonnu vērtības vai izmantojot saistītās komandas Darbību rūtī. Kad esat beidzis novērtēt izmaiņas un pēc tam, kad esat atcēlis vai modificējis ražošanas pasūtījumus pēc vajadzības, varat atzīmēt paziņojumu kā atrisinātu. Atlasiet paziņojumu un pēc tam Darbības rūtī atlasiet **Atrisināt**. Paziņojums ir noņemts no visu lietotāju skatiem.
 
 > [!IMPORTANT]
-> Lai varētu nosūtīt paziņojumus par ražošanas pasūtījumiem, *jūsu sistēmai ir jāieslēdz inženiertehniskie paziņojumi par ražošanas* līdzekli. Norādījumus par to, kā ieslēgt vai izslēgt šo līdzekli un tā priekšnosacījumus, skatiet rakstā [Inženiertehnisko izmaiņu pārvaldības pārskats](product-engineering-overview.md).
+> Spēja nosūtīt paziņojumus par ražošanas pasūtījumiem prasa, lai *jūsu sistēmai būtu* ieslēgti inženierzinātnes paziņojumi par ražošanas līdzekli. Norādījumus, kā ieslēgt šo līdzekli un tā priekšnosacījumus ieslēgt vai izslēgt, skatiet inženierzinātnes [izmaiņu pārvaldības apskatu](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 
@@ -217,15 +217,15 @@ Lielākā daļa tehnisko izmaiņu pasūtījumu lauku ir tādi paši kā izlaisto
 
 Varat izmantot pogu **Uzturēt/kopēt izmaiņu informāciju**, lai kopētu izmaiņu informāciju starp ietekmētajiem produktiem.
 
-## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Elektronisko parakstu izmantošana MK un maršrutu apstiprināšanai un aktivizēšanai
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Izmantot elektroniskos parakstus, lai apstiprinātu un aktivizētu MK un maršrutus
 
-Lai izmantotu elektroniskos parakstus materiālu komplektu (MK) un/vai maršruta izmaiņu apstiprināšanai un/vai aktivizēšanai, dodieties uz **Organizācijas administrēšanas \> iestatīšana Elektroniskā \> paraksta elektroniskā paraksta \> prasības**. Pēc tam pārliecinieties, vai katram no šiem vienumiem paraksts ir **iestatīts** uz *Jā*:
+Lai izmantotu elektroniskos parakstus, lai apstiprinātu un/vai aktivizētu materiālu komplektus (MK) un/vai maršruta izmaiņas, dodieties **uz Organizācijas \>\>\> administrēšanas iestatījuma Elektroniskā paraksta elektroniskā paraksta prasībām.** Pēc tam pārliecinieties, vai katram no šiem vienumiem paraksts **ir iestatīts** kā *Jā*:
 
 - Aktivizēt tehnisko izmaiņu pasūtījumu preču materiālu komplektu
 - Aktivizēt tehnisko izmaiņu pasūtījumu preču maršrutu
 - Apstiprināt tehnisko izmaiņu pasūtījumu preču materiālu komplektu
 - Apstiprināt tehnisko izmaiņu pasūtījumu preču maršrutu
 - Apstiprināt tehniskās versijas MK un MK versijas
-- Apstiprināt inženiertehnisko versiju un maršruta versiju
+- Apstiprināt inženierzinātnes versiju un maršruta versiju
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

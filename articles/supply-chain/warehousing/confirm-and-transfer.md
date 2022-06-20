@@ -1,6 +1,6 @@
 ---
 title: Apstiprināt un pārsūtīt
-description: Šajā tēmā ir paskaidrots, kā izmantot līdzekli apstiprināt un pārsūtīt, kas ļauj lietotājiem nosūtīt kravas no noliktavas, pirms tiek aizpildīts viss ar šīm kravām saistītais darbs.
+description: Šajā rakstā ir izskaidrots, kā izmantot funkciju Apstiprināt un pārsūtīt, kas lietotājiem ļauj nosūtīt kravas no noliktavas, pirms viņi pabeidz visu darbu, kas ir saistīts ar šīm kravām.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900569"
 ---
 # <a name="confirm-and-transfer"></a>Apstiprināt un pārsūtīt
 
@@ -55,11 +55,11 @@ Ir iespējams sadalīt tikai tās kravas, kas atbilst šādiem kritērijiem:
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Ieslēgt vai izslēgt apstiprināšanas un pārsūtīšanas līdzekli
 
-Lai izmantotu šajā tēmā aprakstīto funkcionalitāti, sistēmai *jābūt* ieslēgtai funkcijai Apstiprināt un pārsūtīt. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot līdzekli Apstiprināt un pārsūtīt līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+Lai izmantotu šajā rakstā aprakstīto funkcionalitāti, sistēmai *jābūt* ieslēgtai funkcijai Apstiprināt un pārsūtīt. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot līdzekli Apstiprināt un pārsūtīt līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-confirm-and-transfer"></a>Iestatīt apstiprināšanu un pārsūtīšanu
 
-Lai izmantotu līdzekli *Apstiprināt un pārsūtīt*, tas ir jāaktivizē katrā atbilstošajā kravas veidnē. Turklāt atkarībā no jūsu prasībām, iespējams, vēlēsities sagatavot darba veidnes, lai atbalstītu šo līdzekli. Ja vēlaties strādāt ar piemēra scenāriju, kas ir sniegts tālāk šajā tēmā, iestatiet sistēmu, kā aprakstīts šajā sadaļā. (Scenārija pamatā ir **USMF** demonstrācijas dati.)
+Lai izmantotu līdzekli *Apstiprināt un pārsūtīt*, tas ir jāaktivizē katrā atbilstošajā kravas veidnē. Turklāt atkarībā no jūsu prasībām, iespējams, vēlēsities sagatavot darba veidnes, lai atbalstītu šo līdzekli. Ja vēlaties strādāt kopā ar piemēra scenāriju, kas sniegts tālāk šajā rakstā, iestatiet sistēmu tā, kā aprakstīts šajā sadaļā. (Scenārija pamatā ir **USMF** demonstrācijas dati.)
 
 ### <a name="prepare-your-load-templates"></a>Kravas veidņu sagatavošana
 
@@ -69,9 +69,9 @@ Lai izmantotu līdzekli *Apstiprināt un pārsūtīt*, tas ir jāaktivizē katr�
 
 ### <a name="prepare-your-work-templates"></a>Darba veidņu sagatavošana
 
-Šis iestatījums ne vienmēr ir nepieciešams. Šeit parādītajā piemērā tiek nodrošināts, ka darbs var tikt sadalīts pēc sūtījuma, atbalstot piemēra scenāriju, kas sniegts tālāk šajā tēmā. Ir arī citi veidi, kā sasniegt šo rezultātu.
+Šis iestatījums ne vienmēr ir nepieciešams. Šeit parādītais piemērs nodrošina, ka darbu var pārtraukt pēc kravas, lai atbalstītu tālāk šajā rakstā norādīto piemēra scenāriju. Ir arī citi veidi, kā sasniegt šo rezultātu.
 
-1. Doties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba veidnes**.
+1. Doties uz **Noliktavas pārvaldība \> Iestatīšana \> Darbs \> Darba veidnes**.
 1. Režģa lapas augšdaļā atlasiet esošu darba veidni, kurā vēlaties iestatīt līdzekli *Apstiprināt un pārsūtīt*. (Ja strādājat ar **USMF** demonstrācijas datiem, atlasiet darba veidni **51 izdot posmam**.) Varat arī izveidot jaunu darba veidni.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai atvērtu dialoglodziņu **Pārdošana**.
 1. Dialoglodziņa **Pārdošana** cilnē **Kārtošana**, atlasiet **Pievienot**, lai režģim pievienotu rindu.

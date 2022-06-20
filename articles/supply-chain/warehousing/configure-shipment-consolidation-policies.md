@@ -1,6 +1,6 @@
 ---
 title: Sūtījumu konsolidācijas politiku konfigurēšana
-description: Šajā tēmā skaidrots, kā iestatīt noklusētās un pielāgotas sūtījumu konsolidācijas politikas.
+description: Šajā rakstā ir izskaidrots, kā iestatīt noklusējuma un pielāgotas piegādes konsolidācijas politikas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845929"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politiku konfigurēšana
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672575"
 
 Sūtījumu konsolidācijas process, kas izmanto sūtījuma konsolidācijas politikas, atļauj sūtījuma konsolidāciju automātiskās un manuālās nodošanas noliktavā laikā. Pēc šī līdzekļa ieslēgšanas jums ir jākonfigurē sākotnējās politikas. Ja neviena politika netiek konfigurēta, katra pārdošanas rinda ģenerēs atsevišķu sūtījumu, kurai ir viena noslodzes rinda.
 
-Šajā tēmā norādītie scenāriji rāda, kā iestatīt noklusējuma un pielāgotas sūtījumu konsolidācijas politikas.
+Šajā rakstā rādītie scenāriji parāda, kā iestatīt noklusējuma un pielāgotas piegādes konsolidācijas politikas.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Ieslēgt Sūtījumu konsolidācijas politiku līdzekli
 
 > [!IMPORTANT]
-> [Pirmajā scenārijā](#scenario-1), kas aprakstīts šajā tēmā, vispirms ir jāiestata noliktava, lai tiktu izmantota agrākā sūtījumu konsolidācijas funkcija. Tad būs pieejamas sūtījuma konsolidācijas politikas. Šādā veidā varat izbaudīt jaunināšanas scenārija darbību. Ja plānojat izmantot demonstrācijas datu vidi, lai ietu cauri pirmajam scenārijam, neieslēdziet līdzekli pirms scenārija izmantošanas.
+> Pirmajā scenārijā [,](#scenario-1) kas ir aprakstīts šajā rakstā, sākumā iestatīsiet noliktavu tā, lai tā izmantotu agrāko sūtījuma konsolidācijas funkciju. Tad būs pieejamas sūtījuma konsolidācijas politikas. Šādā veidā varat izbaudīt jaunināšanas scenārija darbību. Ja plānojat izmantot demonstrācijas datu vidi, lai ietu cauri pirmajam scenārijam, neieslēdziet līdzekli pirms scenārija izmantošanas.
 
 Lai varētu izmantot *Sūtījumu konsolidācijas politikas* līdzekli, tas ir jāieslēdz sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
@@ -40,7 +40,7 @@ Lai varētu izmantot *Sūtījumu konsolidācijas politikas* līdzekli, tas ir j�
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Katrs scenārijs šajā tēmā atsaucas uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
+Katrs šī raksta scenārijs atsaucas uz vērtībām un ierakstiem, kas iekļauti standarta demonstrācijas datos, kas tiek nodrošināti korporācijai Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>1. scenārijs: Noklusējuma sūtījumu konsolidācijas politiku konfigurēšana
 
@@ -339,7 +339,7 @@ Tagad, kad esat izveidojis visas savas politikas, jums ir jāizveido pasūtījum
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Piemēru scenāriji, kā izmantot sūtījumu konsolidācijas politikas
 
-Šie scenāriji parāda, kā varat izmantot jūsu izveidotās sūtījuma konsolidācijas politikas, lasot šo tēmu. Katrs scenārijs jums izskaidros sūtījumu konsolidācijas procesu, kas izmanto sūtījuma konsolidācijas politikas automātiskās vai manuālās nodošanas noliktavā laikā:
+Turpmākie scenāriji parāda, kā var izmantot piegādes konsolidācijas politikas, ko izveidojāt, lasot šo rakstu. Katrs scenārijs jums izskaidros sūtījumu konsolidācijas procesu, kas izmanto sūtījuma konsolidācijas politikas automātiskās vai manuālās nodošanas noliktavā laikā:
 
 - 1. scenārijs: [Konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu](../warehousing/consolidate-shipments-automatic.md)
 - 2. scenārijs: [konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Pārvietot uz noliktavu”](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

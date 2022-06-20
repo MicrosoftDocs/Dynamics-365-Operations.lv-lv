@@ -1,6 +1,6 @@
 ---
 title: Darba sākšana ar plānošanas optimizāciju
-description: Šajā tēmā ir paskaidrots, kā sākt izmantot plānošanas optimizācijas funkcionalitāti.
+description: Šajā rakstā ir izskaidrots, kā sākt izmantot plānošanas optimizācijas funkcionalitāti.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900975"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
@@ -99,7 +99,7 @@ Savienojuma statuss norāda pašreizējo savienojuma statusu starp Supply Chain 
 |---|---|---|
 | Savienojums izveidots | Ir izveidots savienojums starp plānošanas optimizācijas pakalpojumu un Supply Chain Management. | Jā |
 | Savienojuma iespējošana | Pieprasījums ieslēgt savienojumu ar plānošanas optimizācijas pakalpojumu pašlaik tiek veikts. | Nē |
-| Savienojums pārtraukts | Nav savienojuma ar plānošanas optimizācijas pakalpojumu. Savienojumu var ieslēgt no LCS, kā aprakstīts iepriekš šajā tēmā. | Nē |
+| Savienojums pārtraukts | Nav savienojuma ar plānošanas optimizācijas pakalpojumu. Savienojumu var ieslēgt no LCS, kā aprakstīts iepriekš šajā rakstā. | Nē |
 | Savienojuma atspējošana | Pieprasījums izslēgt savienojumu ar plānošanas optimizācijas pakalpojumu pašlaik tiek veikts. | Nē |
 | Statusa iegūšana | Sistēma gaida statusa informāciju no plānošanas optimizācijas pakalpojuma. | Nē |
 

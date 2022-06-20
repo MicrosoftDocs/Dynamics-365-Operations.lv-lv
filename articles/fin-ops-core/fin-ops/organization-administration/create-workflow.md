@@ -1,6 +1,6 @@
 ---
 title: Darbplūsmu pārskata izveide
-description: Šajā tēmā ir paskaidrots, kā izveidot darbplūsmu.
+description: Šajā rakstā skaidrots, kā izveidot darbplūsmu.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864491"
 ---
 # <a name="create-workflows-overview"></a>Darbplūsmu pārskata izveide
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067962"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot darbplūsmu.
+Šajā rakstā skaidrots, kā izveidot darbplūsmu.
 
 ## <a name="open-the-workflow-editor"></a>Atveriet darbplūsmas redaktoru
 
@@ -56,7 +56,7 @@ Izpildiet šīs darbības, lai konfigurētu darbplūsmas rekvizītus.
 
 1. Noklikšķiniet uz audekla, lai pārliecinātos, vai ir atlasīts darbplūsmas elements.
 2. Noklikšķiniet uz **Rekvizīti**, lai darbplūsmai atvērtu lapu **Rekvizīti**.
-3. Izpildiet tēmā [Konfigurēt darbplūsmas rekvizītus](configure-workflow-properties.md) aprakstītās procedūras.
+3. Izpildiet procedūras darbplūsmas rekvizītu [konfigurēšanas rakstā](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Konfigurējiet darbplūsmas elementus
 

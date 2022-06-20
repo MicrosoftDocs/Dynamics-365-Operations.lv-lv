@@ -1,6 +1,6 @@
 ---
 title: Saglabātie skati
-description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
+description: Šajā rakstā ir aprakstīts, kā izmantot saglabātos skatu līdzekļus.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845418"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -196,7 +196,7 @@ Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu da
 
 ## <a name="managing-views-globally"></a>Skatījumu pārvaldīšana globāli
 
-Kaut arī dažas pārvaldības iespējas ir pieejamas katrā lapā, kā norādīts šajā tēmā, **sistēmas administratori** un **saglabātā skata administratori** var pārvaldīt skatījumus, izmantojot lapu **Personalizācija**. Jo īpaši šai lapai ir tālāk minētās sadaļas un iespējas. 
+Lai arī dažas pārvaldības iespējas ir uz katras lapas virsmas, kā norādīts šajā rakstā, **·** **sistēmas** administratori un saglabātie skatījumu administratori var pārvaldīt daudz precīzākus sistēmas **skatus, izmantojot lapu Personalizēšana.** Jo īpaši šai lapai ir tālāk minētās sadaļas un iespējas. 
 
 - **Publicētie skati** — šajā sadaļā uzskaita visus jūsu organizācijai publicētos skatus. No šejienes varat atkārtoti publicēt skatu, kad būsit pielāgojis drošības lomas vai juridiskās personas, kurām skats ir paredzēts. Jūs varat arī eksportēt, dzēst vai atsaukt skatu publicēšanu. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu personīgu skata kopiju, lai varētu atjaunināt skatu vai iegūt labāku izpratni par tā saturu. 
 - **Nepublicētie skati** — šajā sadaļā uzskaitītas visas jūsu sistēmā esošās organizācijas skati, kas pašlaik netiek publicēti. Šie skati visbiežāk nonāk sistēmā, izmantojot importēšanas iespēju. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu šo skatu personīgas kopijas, lai varētu atjaunināt skatu vai iegūt labāku izpratni par to saturu.

@@ -1,6 +1,6 @@
 ---
 title: Pasūtījumu sūtīšana kā tiešās piegādes
-description: Šajā tēmā ir parādīts, kā pārdošanas pasūtījumam izveidot tiešu piegādi.
+description: Šajā rakstā ir parādīts, kā izveidot tiešo piegādi pārdošanas pasūtījumam.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875164"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Pasūtījumu sūtīšana kā tiešās piegādes
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir parādīts, kā pārdošanas pasūtījumam izveidot tiešu piegādi. Izmantojiet tiešo piegādi, ja vēlaties nosūtīt preces debitoram tieši no kreditora, nevis vispirms nosūtīt tās uz savu noliktavu. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Lai sekmīgi pabeigtu otro apakšuzdevumu "Tiešo piegāžu izveidošana, izmantojot rīku", pārliecinieties, ka krājumam, ko izvēlaties pārdošanas pasūtījumā, ir norādīts noklusējuma kreditors Izlaisto preču šablona kopsavilkuma cilnē Pirkšana.
+Šajā rakstā ir parādīts, kā izveidot tiešo piegādi pārdošanas pasūtījumam. Izmantojiet tiešo piegādi, ja vēlaties nosūtīt preces debitoram tieši no kreditora, nevis vispirms nosūtīt tās uz savu noliktavu. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Lai sekmīgi pabeigtu otro apakšuzdevumu "Tiešo piegāžu izveidošana, izmantojot rīku", pārliecinieties, ka krājumam, ko izvēlaties pārdošanas pasūtījumā, ir norādīts noklusējuma kreditors Izlaisto preču šablona kopsavilkuma cilnē Pirkšana.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Atsevišķa pasūtījuma iestatīšana tiešai piegādei
 1. Dodieties uz **Navigācijas rūts > Moduļi > Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi**.

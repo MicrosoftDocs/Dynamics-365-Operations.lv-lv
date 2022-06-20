@@ -1,6 +1,6 @@
 ---
 title: Optimizācijas padomnieka pārskats
-description: Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
+description: Šajā rakstā ir aprakstīts, kā var lietot optimizācijas iestatījumu, lai palīdzētu nodrošināt optimālu Finanšu un operāciju konfigurāciju.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865866"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
+Šajā rakstā ir aprakstīts, kā var lietot optimizācijas iestatījumu, lai palīdzētu nodrošināt optimālu Finanšu un operāciju konfigurāciju.
 
 ## <a name="overview"></a>Kopsavilkums
 

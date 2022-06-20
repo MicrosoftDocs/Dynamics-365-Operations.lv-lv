@@ -1,6 +1,6 @@
 ---
-title: Noliktavas procesu kvalitātes pārvaldība
-description: Šajā tēmā ir sniegta informācija par Noliktavas procesu kvalitātes pārvaldību iespēju. Šis līdzeklis paplašina kvalitātes pārvaldības iespējas un ļauj lietotājiem integrēt krājumu iztveršanas kontroli ar noliktavas saņemšanas procesu, izmantojot papildu noliktavas pārvaldību.
+title: Kvalitātes pārvaldība noliktavas procesiem
+description: Šajā rakstā ir sniegta informācija par noliktavas procesu funkciju kvalitātes pārvaldību. Šis līdzeklis paplašina kvalitātes pārvaldības iespējas un ļauj lietotājiem integrēt krājumu iztveršanas kontroli ar noliktavas saņemšanas procesu, izmantojot papildu noliktavas pārvaldību.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857842"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Noliktavas procesu kvalitātes pārvaldība
 
@@ -69,7 +69,7 @@ Pirms noliktavas darbu var ģenerēt automātiski, ir jāveic šādas darbības,
 1. Katram darba pasūtījuma veidam iestatiet novietojuma direktīvas, kas piemēro pareizās kvalitātes kontroles vietas, uz kurām jāpārvieto krājumi. Kad kvalitātes kontrole ir pabeigta, novietojuma direktīva _Kvalitātes pasūtījuma_ darba pasūtījuma veids nodrošina jauna mērķa novietojuma atlasi, lai krājumu varētu pārvietot no kvalitātes kontroles vietas.
 1. Iestatiet atbilstošos mobilās ierīces izvēlnes elementus, lai atbalstītu saņemto krājumu pārvietošanu uz kvalitātes kontroles vietu, un krājumu apriti, kas iztur vai neiztur kvalitātes kontroli no kvalitātes kontroles vietas uz jaunu atrašanās vietu.
 
-Lai soli pa solim redzētu, kā izpildīt šo iestatījumu, skatiet [piemēru scenāriju](#example-scenario) šīs tēmas beigās.
+Lai iegūtu soli-pa-solim piemēru, kas parāda, kā pabeigt šo iestatījumu, [skatiet](#example-scenario) piemēra scenāriju šī raksta beigās.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Iespējot noliktavu kvalitātes pārvaldībai
 
@@ -188,7 +188,7 @@ Kad **Kvalitātes specifikācijas** vērtība ir _Pilna noliktavas vienība_, **
 | Noslodze | Pilna noliktavas vienība | Jā _(slēgts/nav rediģējams)_ | <p>Novietojums: Jā</p><p>Noliktavas vienība: Jā _(slēgts/nav rediģējams)_</p> | Jā | 3 | <p>**Divi krājumi:**</p><ul><li>**Pasūtījuma rindas daudzums krājumam A: 120 EA (4 paletes)**</li><li>**Pasūtījuma rindas daudzums krājumam B: 90 EA (3 paletes)**</li></ul><p>**Viena noslodze, divas noslodzes rindas ar katru pasūtījuma rindu**</p><ol><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam A, 30 EA, LP1<p>Kvalitātes krājumu paraugu izdošanas darbs uz 30 EA</p><p>Kvalitātes pārbaudes pasūtījums 1 uz 30 EA</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam A, 30 EA, LP2<p>Pirkšanas pasūtījuma darbs uz 30 EA (izvietošanai)</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam A, 30 EA, LP3<p>Pirkšanas pasūtījuma darbs uz 30 EA (izvietošanai)</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam A, 30 EA, LP4<p>Kvalitātes krājumu paraugu izdošanas darbs uz 30 EA</p><p>Kvalitātes pārbaudes pasūtījums 1 uz 30 EA</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam B, 30 EA, LP5<p>Kvalitātes krājumu paraugu izdošanas darbs uz 30 EA</p><p>Kvalitātes pārbaudes pasūtījums 1 uz 30 EA</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam B, 30 EA, LP6<p>Pirkšanas pasūtījuma darbs uz 30 EA (izvietošanai)</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam A, 30 EA, LP7<p>Pirkšanas pasūtījuma darbs uz 30 EA (izvietošanai)</p></li></ol> |
 | Noslodze | Procenti = 10 | Jā _(slēgts/nav rediģējams)_ | <p>Novietojums: Nē</p><p>Noliktavas vienība: Nē</p> | Nē | Nav attiecināms | <p>**Pasūtījuma rindas daudzums: 100 EA**</p><p>**Neviena noslodze netiek veidota. Pasūtījuma tvērums tiek pielietots.**</p><ol><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam 50 EA, LP1<p>Kvalitātes krājumu paraugu izdošanas darbs uz 5 EA</p><p>Kvalitātes pārbaudes pasūtījums 1 uz 5 EA</p><p>Pirkšanas pasūtījuma darbs uz 45 EA (izvietošanai)</p></li><li>Reģistrēt kvīti Warehouse Management mobile programmā elementam 50 EA, LP2<p>Kvalitātes krājumu paraugu izdošanas darbs uz 5 EA</p><p>Kvalitātes pārbaudes pasūtījums 1 uz 5 EA</p><p>Pirkšanas pasūtījuma darbs uz 45 EA (izvietošanai)</p></li></ol> |
 
-Kad darbinieks apstiprina vienu no kvalitātes pasūtījumiem, kas tiek parādīti iepriekšējā tabulā, sistēma automātiski ģenerē kvalitātes pārbaudes pasūtījuma darbu, lai pārvietotu krājumus no kvalitātes kontroles novietojuma uz vietu, kas noteikta novietojuma direktīvā _Kvalitātes pasūtījuma_ darba pasūtījuma veids. Šim nolūkam var iestatīt jebkuru atrašanās vietu, piemēram, atgriešanas vai glabāšanas vietu atkarībā no kvalitātes pārbaudes pasūtījuma testa rezultāta. Šī iestatījumu piemēru skatiet tēmā [piemēru scenārijs](#example-scenario) šīs tēmas beigās.
+Kad darbinieks apstiprina vienu no kvalitātes pasūtījumiem, kas tiek parādīti iepriekšējā tabulā, sistēma automātiski ģenerē kvalitātes pārbaudes pasūtījuma darbu, lai pārvietotu krājumus no kvalitātes kontroles novietojuma uz vietu, kas noteikta novietojuma direktīvā _Kvalitātes pasūtījuma_ darba pasūtījuma veids. Šim nolūkam var iestatīt jebkuru atrašanās vietu, piemēram, atgriešanas vai glabāšanas vietu atkarībā no kvalitātes pārbaudes pasūtījuma testa rezultāta. Piemēram, šis iestatījums skatiet [piemēra scenāriju](#example-scenario) šī raksta beigās.
 
 Jūs varat atkārtoti atvērt kvalitātes pārbaudes pasūtījumu, kas jau ir apstiprināts, ar nosacījumu, ka kvalitātes pārbaudes pasūtījuma darbam, kas ir saistīts ar krājuma pārvietošanu no kvalitātes kontroles vietas, nav **Darba statusa** vērtība *Noslēgts* vai *Nepabeigts*.
 

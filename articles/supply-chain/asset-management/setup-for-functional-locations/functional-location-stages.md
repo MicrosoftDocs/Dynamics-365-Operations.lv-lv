@@ -1,6 +1,6 @@
 ---
 title: Funkcionālā novietojuma dzīves cikla stāvokļi
-description: Šajā tēmā ir aprakstīts, kā iestatīt funkcionālā novietojuma stāvokļus un dzīves cikla modeļus Līdzekļu pārvaldībā.
+description: Šajā rakstā ir aprakstīts, kā iestatīt funkcionālos novietojumus un dzīves cikla modeļus sadaļā Līdzekļu pārvaldība.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934731"
 ---
 # <a name="functional-location-lifecycle-states"></a>Funkcionālā novietojuma dzīves cikla stāvokļi
 
@@ -28,7 +28,7 @@ ms.locfileid: "6360974"
 
  
 
-Šajā tēmā ir aprakstīts, kā iestatīt funkcionālā novietojuma dzīves cikla stāvokļus un dzīves cikla modeļus Līdzekļu pārvaldībā. Funkcionālā novietojuma dzīves cikla stāvokļi definē stāvokļus, kādi var būt funkcionālajam novietojumam, piemēram, izveidots, aktīvs un beidzies. Varat skatīt visus funkcionālos novietojumus neatkarīgi no to dzīves cikla stāvokļa saraksta lapā **Visas funkcionālie novietojumi**. Funkcionālā novietojuma stāvokli var mainīt, atlasot to saraksta lapā **Visi funkcionālie novietojumi** un atlasot vienumu **Atjaunināt funkcionālā novietojuma stāvokli**.
+Šajā rakstā ir aprakstīts, kā iestatīt funkcionālo atrašanās vietas dzīves cikla valstu un dzīves cikla modeļus sadaļā Līdzekļu pārvaldība. Funkcionālā novietojuma dzīves cikla stāvokļi definē stāvokļus, kādi var būt funkcionālajam novietojumam, piemēram, izveidots, aktīvs un beidzies. Varat skatīt visus funkcionālos novietojumus neatkarīgi no to dzīves cikla stāvokļa saraksta lapā **Visas funkcionālie novietojumi**. Funkcionālā novietojuma stāvokli var mainīt, atlasot to saraksta lapā **Visi funkcionālie novietojumi** un atlasot vienumu **Atjaunināt funkcionālā novietojuma stāvokli**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Funkcionālā novietojuma dzīves cikla stāvokļu iestatīšana
 
@@ -39,6 +39,7 @@ ms.locfileid: "6360974"
 5. Atlasiet "Jā" uz pārslēgšanas pogas **Izveidot līdzekļus**, ja vajadzētu būt iespējamam automātiski izveidot līdzekli ar tādu pašu nosaukumu kā funkcionālajam novietojumam un uzstādīt to funkcionālajā novietojumā šajā stāvoklī.  
 >[!NOTE]
 >Šī pārslēgšanas poga attiecas uz lauku **Līdzekļa veids** kopsavilkuma cilnē **Vispārīgi** veidlapā **Funkcionālo novietojumu veidi** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Funkcionālie novietojumi** > **Funkcionālo novietojumu veidi**).
+
 6. Atlasiet "Jā" uz pārslēgšanas pogas **Pārdēvēt atrašanās vietu**, ja vajadzētu būt iespējamam mainīt funkcionālā novietojuma nosaukumu šajā stāvoklī.
 7. Atlasiet "Jā" uz pārslēgšanas pogas **Jaunas apakšvietas**, ja vajadzētu būt iespējamam pievienot jaunas apakšvietas funkcionālajam novietojumam šajā stāvoklī.
 8. Atlasiet "Jā" uz pārslēgšanas pogas **Uzstādīt līdzekļus**, ja vajadzētu būt iespējamam uzstādīt līdzekļus funkcionālajā novietojumā šajā stāvoklī.

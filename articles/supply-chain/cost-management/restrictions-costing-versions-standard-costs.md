@@ -1,6 +1,6 @@
 ---
 title: Izmaksu aprēķināšanas versiju ierobežojumi standarta izmaksām
-description: Šajā tēmā aprakstīti ierobežojumi, kas tiek lietoti standarta izmaksu aprēķināšanas versijai.
+description: Šajā rakstā ir aprakstīti ierobežojumi, kas standarta izmaksu grāmatošanas versijai ir spēkā.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867990"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Izmaksu aprēķināšanas versiju ierobežojumi standarta izmaksām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā aprakstīti ierobežojumi, kas tiek lietoti standarta izmaksu aprēķināšanas versijai. 
+Šajā rakstā ir aprakstīti ierobežojumi, kas standarta izmaksu grāmatošanas versijai ir spēkā. 
 
 Tālāk norādītie ierobežojumi palīdz nodrošināt atbilstību standarta izmaksu aprēķināšanas principiem.
 
@@ -37,9 +37,9 @@ Tālāk norādītie ierobežojumi palīdz nodrošināt atbilstību standarta izm
 
 -  MK aprēķinus ir jāveic viena līmeņa izvēršanas režīmā.
 
-Standarta izmaksu krājumu izmaksu datus iespējams kopēt uz citu izmaksu versiju, kas ietver standarta vai plānotās izmaksas. Tomēr krājumu izmaksu datus plānotajām izmaksām nevar kopēt uz izmaksu versiju ar standarta izmaksām, jo iepriekš šajā tēmā uzskaitītie ierobežojumi neattiecas uz plānotajām izmaksām.
+Standarta izmaksu krājumu izmaksu datus iespējams kopēt uz citu izmaksu versiju, kas ietver standarta vai plānotās izmaksas. Tomēr, krājumu izmaksu datus plānotajām izmaksām nevar kopēt uz izmaksu versiju, kas satur standarta izmaksas, jo agrāk uzskaitītie ierobežojumi šajā rakstā neattiecas uz plānotajām izmaksām.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 [Izmaksu aprēķināšanas versiju pārskats](costing-versions.md)
 

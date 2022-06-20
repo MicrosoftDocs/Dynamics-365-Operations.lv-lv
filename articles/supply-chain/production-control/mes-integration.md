@@ -1,6 +1,6 @@
 ---
 title: Integrācija ar trešās puses ražošanas izpildes sistēmām
-description: Šajā tēmā skaidrots, kā jūs varat Dynamics 365 Supply Chain Management integrēt Microsoft ar trešās puses ražošanas izpildes sistēmu (MES).
+description: Šajā rakstā skaidrots, kā jūs varat Dynamics 365 Supply Chain Management integrēt Microsoft ar trešās puses ražošanas izpildes sistēmu (LES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860643"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integrācija ar trešās puses ražošanas izpildes sistēmām
 
@@ -238,7 +238,7 @@ Materiālu patēriņa *(izdošanas saraksta) ziņojumam* vērtība `_messageType
 
 ## <a name="other-production-information"></a>Cita informācija par ražošanu
 
-Ziņojumi atbalsta darbības vai notikumus, kas notiek ražotnes jomā. Tos apstrādā, izmantojot šajā tēmā aprakstīto MES integrācijas struktūru. Dizainā ir pieņemts, ka cita atsauces informācija, ko koplietot ar MES (piemēram, ar preci saistīta informācija vai materiālu komplekts vai maršruts (ar tā specifiskiem iestatījumiem un konfigurācijas laikiem), kas tiek izmantoti noteiktā ražošanas pasūtījumā), [tiks](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) izgūta no sistēmas, izmantojot datu elementus, izmantojot faila pārsūtīšanu vai OData.
+Ziņojumi atbalsta darbības vai notikumus, kas notiek ražotnes jomā. Tos apstrādā, izmantojot šajā rakstā aprakstīto MES integrācijas struktūru. Dizainā ir pieņemts, ka cita atsauces informācija, ko koplietot ar MES (piemēram, ar preci saistīta informācija vai materiālu komplekts vai maršruts (ar tā specifiskiem iestatījumiem un konfigurācijas laikiem), kas tiek izmantoti noteiktā ražošanas pasūtījumā), [tiks](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) izgūta no sistēmas, izmantojot datu elementus, izmantojot faila pārsūtīšanu vai OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Saņemt atsauksmi par ziņojuma stāvokli
 
@@ -251,7 +251,7 @@ Kad MES ir nosūtījis ziņojumu Piegādes ķēžu pārvaldībai, iespējams, ka
 
 Šādos gadījumos varat izmantot standarta brīdinājuma funkcijas priekšrocības Piegādes ķēžu pārvaldībā. Papildinformāciju par to, kā darbojas standarta brīdinājumi, skatiet šādos resursos:
 
-- Palīdzības tēma: [brīdinājumu apskats](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Palīdzības dokuments: [Brīdinājumu apskats](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Video: brīdinājumu noteikumu opcijas šeit: [Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Piemēram, varat iestatīt šādus brīdinājumus, lai sniegtu atsauksmi par ziņojuma stāvokli:

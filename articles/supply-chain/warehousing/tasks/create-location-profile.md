@@ -1,6 +1,6 @@
 ---
 title: Vietas profila izveide
-description: Šajā tēmā ir paskaidrots, kā izveidot atrašanās vietas profilu pakalpojumā Dynamics 365 Supply Chain Management.
+description: Šajā rakstā skaidrots, kā izveidot atrašanās vietas profilu Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 98537f3ad45d66e348ecd489c60d95ef875e5c07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875048"
 ---
 # <a name="create-a-location-profile"></a>Vietas profila izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā izveidot atrašanās vietas profilu pakalpojumā Dynamics 365 Supply Chain Management. Katrai atrašanās vietai noliktavā ir jābūt ar to saistītam atrašanās vietas profilam, kas apraksta atrašanās vietas rekvizītus, piemēram, vai atrašanās vieta atļauj jauktus krājumus. Šajā procedūrā tiks izveidots profils atrašanās vietai, kurai nav nepieciešama noliktavas vienības kontrole. Tiks iespējoti jaukti krājumi un jauktu krājumu statusi, kā arī atļauta cikla inventarizācija. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
+Šajā rakstā skaidrots, kā izveidot atrašanās vietas profilu Dynamics 365 Supply Chain Management. Katrai atrašanās vietai noliktavā ir jābūt ar to saistītam atrašanās vietas profilam, kas apraksta atrašanās vietas rekvizītus, piemēram, vai atrašanās vieta atļauj jauktus krājumus. Šajā procedūrā tiks izveidots profils atrašanās vietai, kurai nav nepieciešama noliktavas vienības kontrole. Tiks iespējoti jaukti krājumi un jauktu krājumu statusi, kā arī atļauta cikla inventarizācija. Šo procedūru varat lietot ar demonstrācijas datu uzņēmumu USMF.
 
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Noliktavas pārvaldība > Iestatīšana> Noliktava > Atrašanās vietas profili**.

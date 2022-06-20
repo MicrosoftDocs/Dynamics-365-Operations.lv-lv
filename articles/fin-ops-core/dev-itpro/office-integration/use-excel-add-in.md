@@ -1,6 +1,6 @@
 ---
 title: Skatīt un atjaunināt entītijas datus programmā Excel
-description: Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
+description: Šajā rakstā ir izskaidrots, kā Microsoft Excel atvērt elementa datus, pēc tam skatīt, atjaunināt un rediģēt datus, izmantojot Microsoft Dynamics Excel pievienojumprogrammu.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862160"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762658"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākties no Excel vai Finanšu un operāciju programmām.
+Šajā rakstā ir izskaidrots, kā Microsoft Excel atvērt elementa datus, pēc tam skatīt, atjaunināt un rediģēt datus, izmantojot Microsoft Dynamics Excel pievienojumprogrammu. Lai atvērtu elementa datus, varat sākties no Excel vai Finanšu un operāciju programmām.
 
 Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 

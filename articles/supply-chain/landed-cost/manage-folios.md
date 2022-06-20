@@ -1,6 +1,6 @@
 ---
 title: Pārvaldīt folio
-description: Šajā tēmā ir aprakstīts, kā strādāt ar folio. Parasti folio veido viena kreditora preces vienai entītijai vai uzņēmumam vienā sūtījumā. Folio preces var būt vienā konteinerā vai izplatītas starp vairākiem konteineriem.
+description: Šajā rakstā ir aprakstīts, kā strādāt ar parametrām. Parasti folio veido viena kreditora preces vienai entītijai vai uzņēmumam vienā sūtījumā. Folio preces var būt vienā konteinerā vai izplatītas starp vairākiem konteineriem.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f908ae3c150a09af61bb0ee97469619744cd1079
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905897"
 ---
 # <a name="manage-folios"></a>Pārvaldīt folio
 
@@ -132,7 +132,7 @@ Lai atvērtu **Rindu** skatu, atveriet folio un pēc tam atlasiet cilni **Rindas
 
 ### <a name="information-on-the-folio-fasttab"></a>Kopsavilkuma cilne Informācija par folio
 
-Kopsavilkuma cilne **Folio** **Rindu** skatā rāda informāciju par folio. Lielākā daļa šīs informācijas parādās arī **Galvenes** skatā, kā aprakstīts iepriekš šajā tēmā.
+Kopsavilkuma cilne **Folio** **Rindu** skatā rāda informāciju par folio. Lielākā daļa šīs informācijas tiek parādīta arī virsraksta **skatā**, kā aprakstīts iepriekš šajā rakstā.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Kopsavilkuma cilnes Rindas informācija un pogas
 

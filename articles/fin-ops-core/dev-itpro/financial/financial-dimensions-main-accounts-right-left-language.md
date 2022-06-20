@@ -1,6 +1,6 @@
 ---
 title: Finanšu dimensijas un galvenie konti valodām ar rakstību no labās uz kreiso pusi
-description: Šajā tēmā ir aprakstīti daži no lēmumiem, kas jāpieņem, kad lietojat valodu ar rakstību no labās puses uz kreiso un ir jāiestata finanšu dimensijas un galvenie konti.
+description: Šajā rakstā ir aprakstīti lēmumi, kas jāveic, izmantojot valodu ar labās puses un kreiso pusi, un ir jāiestata finanšu dimensijas un galvenie konti.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866765"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Finanšu dimensijas un galvenie konti valodām ar rakstību no labās uz kreiso pusi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti daži no ieviešanas lēmumiem, kas ir jāņem vērā, kad lietojat valodu ar rakstību no labās puses uz kreiso un ir jāiestata finanšu dimensijas un galvenie konti.
+Šajā rakstā aprakstīti daži ieviešanas noteikumi, kurus būtu jāņem vērā, kad izmantojat valodu no labās uz kreiso pusi, un ir jāiestata finanšu dimensijas un galvenie konti.
 
 Finanšu dimensijas un galvenie konti ir galvenie implementēšanas plānošanas fāzes komponenti. Kad sistēma ir izveidotas finanšu dimensijas un galvenie konti, tie tiek izmantoti lapās **Konfigurēt kontu struktūras**, **Detalizēto kārtulu struktūras** un **Finanšu dimensijas konfigurācija programmu integrēšanai**. Šajās lapas definētā secība sistēmā tiek izmantota datu ievadei un patēriņam. Noteiktās sistēmas vietās finanšu dimensijas un galvenie konti tiek rādīti atsevišķos laukos. Citviet, piemēram, žurnālos, finanšu dimensijas un galvenie konti tiek rādīti kā viena virkne.
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850646"
 ---
 # <a name="product-lifecycle-state-overview"></a>Preču dzīves cikla stāvokļa pārskats
 
@@ -74,7 +74,7 @@ Preces dzīves cikla stāvokļi netiek atbalstīti datu elementos, un dzīves ci
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Novecojušu preču un preces variantu atrašana
 
-Varat palaist simulācijas analīzi, lai atrastu novecojušas izlaistās preces vai preču variantus, un pēc tam atjaunināt to preces dzīves cikla statusu. Lai atrastu novecojušas preces, skatiet [Novecojušu preces variantu atrašana un preces dzīves cikla stāvokļa piešķiršana](tasks/obsolete-product-variants.md). Šajā tēmā ir parādīts, kā atrast novecojušas izlaistās preces vai preces variantus un kā preces dzīves cikla stāvokli saistīt ar novecojušām precēm. Tajā ir arī parādīts, kā skatīt simulācijas rezultātus un novērtēt, cik preču un preces variantu tiks saistīti ar jaunu preces dzīves cikla stāvokli, izpildot atjauninājumu bez simulācijas.  
+Varat palaist simulācijas analīzi, lai atrastu novecojušas izlaistās preces vai preču variantus, un pēc tam atjaunināt to preces dzīves cikla statusu. Lai atrastu novecojušas preces, skatiet [Novecojušu preces variantu atrašana un preces dzīves cikla stāvokļa piešķiršana](tasks/obsolete-product-variants.md). Šajā rakstā ir parādīts, kā atrast novecojušas izlaistās preces vai preču variantus un kā saistīt preces dzīves cikla stāvokli ar novecojušajām precēm. Tajā ir arī parādīts, kā skatīt simulācijas rezultātus un novērtēt, cik preču un preces variantu tiks saistīti ar jaunu preces dzīves cikla stāvokli, izpildot atjauninājumu bez simulācijas.  
 
 Izpildot analīzi simulācijas režīmā, preces un preču varianti, kas identificēti kā novecojuši, tiek parādīti īpašā veidlapā, kur tos var vienkārši pārskatīt. Analīze meklē transakcijas un īpašus pamatdatus, lai identificētu preces, kurām nav pieprasījuma mainīgā periodā un nav pamatdatu, kas varētu radīt pieprasījumu. Jaunās izlaistās preces mainīgā periodā var izslēgt no analīzes. Ja analīzes simulācija atgriež prognozētos rezultātus, lietotājs var palaist analīzi un iestatīt jaunu preces dzīves cikla stāvokli visām precēm, ko analīze identificējusi kā novecojušas.  
 
@@ -97,7 +97,7 @@ Lai atlasītu un atjauninātu izlaistās preces un preču variantus, izmantojiet
 - Šai precei vai preces variantam nav aktīvu vai nākotnes pārdošanas vai pirkšanas līguma rindu.
 - Šī prece vai preces variants netiek lietots tādā MK, kurš ir piesaistīts plānošanai aktīvas preces vai varianta apstiprinātai MK versijai, kurai nav beidzies derīgums.
 
-## <a name="related-topics"></a>Saistītās tēmas
+## <a name="related-articles"></a>Saistītie raksti
 
 - [Jauna preču dzīves cikla stāvokļa izveide](tasks/new-product-lifecycle-state.md)
 - [Noklusējuma preču dzīves cikla stāvokļa izveide](tasks/default-product-lifecycle-state.md)
