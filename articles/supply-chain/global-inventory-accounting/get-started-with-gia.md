@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891094"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013560"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
@@ -69,37 +69,6 @@ Pirms iespējot pievienojumprogrammas funkcionalitāti, jums jāintegrē ar Micr
 
 Papildinformāciju skatiet rakstā [Iestatīt pēc vides izvietošanas](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Iestatīt Dataverse
-
-Pirms Dataverse iestatīšanas, pievienojiet nomniekam Globālās krājumu uzskaites pakalpojumu principus, izpildot šīs darbības.
-
-1. Instalējiet Azure AD moduli Windows PowerShell v2, kā aprakstīts [Pakalpojuma Azure Active Directory instalēšana PowerShell grafikam](/powershell/azure/active-directory/install-adv2).
-1. Izpildiet šādu PowerShell komandu.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Pēc tam izveidojiet programmas lietotājus Globālajā krājumu uzskaitē programmā Dataverse, veicot šādas darbības.
-
-1. Atveriet Dataverse vides URL.
-1. Dodieties uz **Papildu iestatījumi \> Sistēma \> Drošība \> Lietotāji** un izveidojiet programmas lietotāju. Izmantojiet lauku **Skats**, lai mainītu lapas skatu uz *Programmas lietotāji*.
-1. Atlasiet **Jauns**.
-1. Iestatiet lauku **Programmas ID** uz *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet *Sistēmas administrators*. Ja ir loma ar nosaukumu Lietotājs *Common Data Service*, atlasiet to.
-1. Atkārtojiet iepriekšējās darbības, bet iestatiet lauku **Pieteikuma ID** uz *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Papildinformāciju skatiet nodaļā [Programmas lietotāja izveide](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Ja jūsu Dataverse instalācijas noklusējuma valoda nav angļu valoda, veiciet šādas darbības.
-
-1. Pārejiet uz **Papildu iestatījums \> Administrēšana \> Valodas**.
-1. Atlasiet *Angļu* (*ValodasKods=1033*) un pēc tam atlasiet **Lietot**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Pievienojumprogrammas instalēšana
 
 Izpildiet šīs darbības, lai instalētu pievienojumprogrammu, kuru var izmantot Globālajai krājumu uzskaitei.
@@ -109,11 +78,21 @@ Izpildiet šīs darbības, lai instalētu pievienojumprogrammu, kuru var izmanto
 1. Doties **Pilna detalizēta informācija**.
 1. Dodieties uz **Power Platform integrāciju** un atlasiet **Iestatīšana**.
 1. Dialoglodziņā **Power Platform vides iestatīšana** atzīmējiet izvēles rūtiņu un pēc tam atlasiet **Iestatīšana**. Parasti iestatīšana ilgst no 60 līdz 90 minūtēm.
-1. Kad Microsoft Power Platform vides iestatīšana ir pabeigta, kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+1. Kad vides iestatīšana ir Microsoft Power Platform pabeigta, [Power Platform](https://admin.powerplatform.microsoft.com) piesakieties administrēšanas centrā un pēc tam instalējiet globālo krājumu uzskaites pievienojumprogrammu, veicot šādas darbības:
+   1. Atlasiet vidi, kurā vēlaties instalēt pievienojumprogrammu.
+   1. Atlasiet **Dynamics 365 programmas**.
+   1. Atlasiet **programmu Instalēšana**.
+   1. Atlasiet **Dynamics 365 globālo krājumu uzskaiti**.
+   1. Atlasiet **Tālāk,** lai instalētu.
+1. Atgriezieties pie LCS vides. Kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 1. Atlasiet **Globālā krājumu uzskaite**.
 1. Izpildiet instalācijas rokasgrāmatas darbības un akceptējiet nosacījumus un nosacījumus.
 1. Atlasiet **Instalēt**.
 1. Kopsavilkuma cilnē **Vides pievienojumprogramma** jūs redzēsiet, ka tiek instalēta Globālā krājumu uzskaite. Pēc dažām minūtēm statusam jāmainās no *Instalē* uz *Instalēts*. (Iespējams, ka ir jāatsvaidzina lapa, lai skatītu šīs izmaiņas.) Šajā brīdī Globālā krājumu uzskaite ir gatava lietošanai.
+
+Ja jūsu instalācijas noklusējuma valoda Dataverse nav angļu valoda, veiciet šādas darbības:
+1. Pārejiet uz **Papildu iestatījums \> Administrēšana \> Valodas**.
+1. Atlasiet *Angļu* (*ValodasKods=1033*) un pēc tam atlasiet **Lietot**.
 
 ## <a name="set-up-the-integration"></a>Iestatiet integrēšanu
 

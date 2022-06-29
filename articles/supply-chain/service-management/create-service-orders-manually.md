@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678267"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014856"
 ---
 # <a name="create-service-orders-manually"></a>Pakalpojumu pasūtījumu manuālā izveide    
 
@@ -34,7 +34,7 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Pakalpojumu pasūtījuma manuāla izveide no pakalpojumu līguma
 
-1.  Atlasiet **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Atlasiet **Pakalpojumu pārvaldības** \> **pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Izvēlieties pakalpojumu līgumu un izveidojiet jaunu pakalpojumu līgumu.
 
@@ -42,7 +42,7 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Pakalpojumu pasūtījuma manuāla izveide pakalpojumu pasūtījumu formā
 
-1.  Atlasiet **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1.  Atlasiet **Pakalpojumu pārvaldības pakalpojumu** \> **pasūtījumus** \> **Pakalpojumu pasūtījumi.**
 
 2.  Atlasiet **Jauns**, lai izveidotu jaunu pakalpojuma pasūtījumu.
 
@@ -53,7 +53,7 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 ## <a name="create-a-service-order-from-a-project"></a>Pakalpojumu pasūtījuma izveide no projekta
 
-1.  Dodieties uz **Projektu pārvaldība un uzskaite** \> **Vispārīgi** \> **Projekti** \> **Visi projekti**.
+1.  Dodieties uz **Projektu vadība un uzskaite** \> **Projekti** \> **Visi projekti**.
 
 2.  Veidlapas **Projekti** **Darbību rūtī** cilnē **Pārvaldīt** noklikšķiniet uz \> **Pakalpojums** \> **Pakalpojumu pasūtījumi**.
 
@@ -66,7 +66,7 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 Varat izveidot pakalpojumu pasūtījumu no veidlapas **Pārdošanas pasūtījumi**, izmantojot vedni **Izveidot jaunu pakalpojumu pasūtījumu, izmantojot pārdošanas pasūtījumu**.
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Pārdošanas pasūtījumi** \> **Visi pārdošanas pasūtījumi**.
+1.  Dodieties uz **Pārdošana un mārketings** \> **Pārdošanas pasūtījumi** \> **Visi pārdošanas pasūtījumi**.
 
 2.  Atveriet attiecīgo pārdošanas pasūtījumu.
 

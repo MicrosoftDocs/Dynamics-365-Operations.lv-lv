@@ -1,8 +1,8 @@
 ---
-title: BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
-description: Šajā rakstā ir izskaidrots, kā konfigurēt pirkšanu tiešsaistē, saņemt veikalā (BIOS) Microsoft Dynamics 365 Commerce novērtēšanas vidē pēc tās nodrošināšanas.
+title: Konfigurēt BTOPS kastēs Dynamics 365 Commerce
+description: Šajā rakstā ir skaidrots, kā konfigurēt pirkšanu tiešsaistē, saņemt veikalā (BIOS) Microsoft Dynamics 365 Commerce kases vidē pēc tās nodrošināšanas.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861970"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013179"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Konfigurēt BTOPS kastēs Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir izskaidrots, kā konfigurēt pirkšanu tiešsaistē, savākšanu veikalā (BIOS) Microsoft Dynamics 365 Commerce novērtēšanas vidē pēc vides nodrošināšanas.
+Šajā rakstā ir skaidrots, kā pēc vides nodrošināšanas konfigurēt pirkšanu tiešsaistē, savākšanu veikalā (BIOS) Microsoft Dynamics 365 Commerce kases vidē.
 
 ## <a name="prerequisite"></a>Priekšnoteikumi
 
-Veiciet šajā rakstā sniegtās procedūras tikai pēc tam, kad Commerce novērtēšanas vide ir nodrošināta un konfigurēta. Informāciju par to, kā nodrošināt un konfigurēt jūsu vidi, skatiet [Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md) un [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](./cpe-post-provisioning.md).
+Veiciet šajā rakstā sniegtās procedūras tikai pēc tam, kad Commerce kastu vide ir nodrošināta un konfigurēta. Papildinformāciju par to, kā nodrošināt un konfigurēt vidi, [skatiet sadaļu Kases Dynamics 365 Commerce vides nodrošināšana](provisioning-guide.md) un [kases Dynamics 365 Commerce vides konfigurēšana](./cpe-post-provisioning.md).
 
 Pēc tam, kad commercea vide ir nodrošināta un konfigurēta līdz beigām, varat izmantot šo rakstu, lai iespējotu B IZAS scenārijus.
 
@@ -67,7 +67,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 5. Tiek parādīts autentifikācijas dialoglodziņš. Atlasiet kontu, kas izmanto e-pasta adresi, kas iepriekš bija saistīta ar darbinieku **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šajā gadījumā izpildiet sadaļā "Saistīt darbinieku ar savu identitāti" [, kas atrodas rakstu Konfigurēt novērtēšanas Dynamics 365 Commerce vidi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šajā gadījumā veiciet darbības, kas sadaļā Saistīt darbinieku ar savu identitāti, [kas atrodas kas atrodas lodziņos Kastes Dynamics 365 Commerce vides konfigurēšana](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Kad tiek parādīta uzvedne ar aicinājumu ļaut organizācijai pārvaldīt ierīci, atlasiet **Tikai šo programmu**.
 7. Kad aktivizēšana ir pabeigta, atlasiet **Sākt darbu**.
@@ -140,13 +140,9 @@ Par visiem vispārējiem jautājumiem kā pirmo darbību vienmēr ir jākonsult�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
+[Kases vides Dynamics 365 Commerce nodrošināšana](provisioning-guide.md)
 
-[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
-
-[Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
-
-[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
+[Konfigurēt kases vides neobligātos Dynamics 365 Commerce līdzekļus](cpe-optional-features.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874193"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016019"
 ---
 # <a name="introduction-to-assets"></a>Iepazīstināšana ar līdzekļiem
 
@@ -36,7 +36,7 @@ Līdzeklis tiek automātiski atjaunināts ar saistīto informāciju. Piemēram, 
 
 ## <a name="all-assets"></a>Visi līdzekļi
 
-Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**. Saraksta lapā **Visi līdzekļi** ir redzami visi līdzekļi un zināma ar tiem saistītā informācija. Lai skatītu tikai aktīvos līdzekļus, atlasiet **Aktīvie līdzekļi**. Lai skatītu tikai līdzekļus, kas uzstādīti funkcionālajos novietojumos, ar kuriem esat saistīts kā uzturēšanas darbinieks, atlasiet **Mani aktīvie līdzekļi**. (Šī saistība ir iestatīta lapā **Darbinieki**. Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
+Atlasiet **Pamatlīdzekļu pārvaldības** \> **līdzekļi** \> **visi pamatlīdzekļi**. Saraksta lapā **Visi līdzekļi** ir redzami visi līdzekļi un zināma ar tiem saistītā informācija. Lai skatītu tikai aktīvos līdzekļus, atlasiet **Aktīvie līdzekļi**. Lai skatītu tikai līdzekļus, kas uzstādīti funkcionālajos novietojumos, ar kuriem esat saistīts kā uzturēšanas darbinieks, atlasiet **Mani aktīvie līdzekļi**. (Šī saistība ir iestatīta lapā **Darbinieki**. Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
 
 Režģa skatā **Visi līdzekļi** atlasiet saiti kolonnā **Līdzeklis**, lai skatītu detalizētu informāciju par atlasīto ierakstu. Lai rediģētu ierakstu, atlasiet pogu **Rediģēt**. Detalizētajā skatā tiek parādīta detalizēta informācija, kas ir saistīta ar līdzekli. Rūts labajā pusē **Saistītā informācija** ietver papildu ar līdzekli saistītu informāciju. Izvērsiet rūti, lai parādītu saistīto informāciju par atlasīto līdzekli.
 

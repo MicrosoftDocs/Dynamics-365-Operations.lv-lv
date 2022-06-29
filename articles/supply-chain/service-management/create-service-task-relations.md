@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678239"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015264"
 ---
 # <a name="create-service-task-relations"></a>Izveidot pakalpojumu uzdevuma attiecības    
 
@@ -30,7 +30,7 @@ Jūs varat saistīt pakalpojumu uzdevumus ar pakalpojumu līgumiem vai pakalpoju
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Saistības izveidošana ar pakalpojuma līgumu
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Atlasiet eksistējošu pakalpojumu līgumu un izveidojiet jaunu pakalpojumu līgumu
 
@@ -48,7 +48,7 @@ Pakalpojuma līgumā izveidotā pakalpojumu uzdevumu saistība ir pieejama no vi
 
 ## <a name="create-a-relation-with-a-service-order"></a>Saistības izveidošana ar pakalpojuma pasūtījumu
 
-1.  Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1.  Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 
 2.  Atlasiet eksistējošu pakalpojumu pasūtījumu un izveidojiet jaunu pakalpojumu pasūtījumu.
 

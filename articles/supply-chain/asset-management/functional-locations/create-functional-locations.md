@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869725"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015846"
 ---
 # <a name="create-functional-locations"></a>Izveidot funkcionālos novietojumus
 
@@ -41,7 +41,7 @@ Lai varētu strādāt ar funkcionālajiem novietojumiem, sāciet ar funkcionālo
 
 Ja izmantojat funkcionālos novietojumus, vispirms izveidojiet vienu noklusējuma atrašanās vietu, kas jāizmanto, veidojot jaunus līdzekļus. Šis funkcionālais novietojums ir tas, ko atlasāt **Līdzekļu pārvaldībā** > **Iestatīšanā** > **Līdzekļu pārvaldības parametros** > **Līdzekļu** saitē > laukā **Noklusējuma funkcionālais novietojums**. Noklusējuma funkcionālo novietojumu var izmantot, kad veidojat jaunus līdzekļus un vēl neesat iestatījis šo līdzekļu funkcionālā novietojuma struktūru.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Funkcionālie novietojumi** > **Visi funkcionālie novietojumi**.  
+1. Atlasiet **Līdzekļa pārvaldības funkcionālās** > **vietas Visas** > **funkcionālās vietas**.  
 2. Laukā **Visi funkcionālie novietojumi** atlasiet **Jauns**.
 3. Laukā **Funkcionālais novietojums** ievietojiet ID, piemēram, "0000" vai "Noklusējums", lai norādītu, ka šis ir īpašs funkcionālais novietojums.
 4. Laukā **Nosaukums** ievadiet noklusējuma funkcionālā novietojuma nosaukumu.
@@ -53,7 +53,7 @@ Ja izmantojat funkcionālos novietojumus, vispirms izveidojiet vienu noklusējum
 
 Šī procedūra apraksta, kā jūs izveidojat funkcionālos novietojumus, kas nepieciešami uzturēšanas pārvaldībai jūsu uzņēmumā.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Funkcionālie novietojumi** > **Visi funkcionālie novietojumi**. Funkcionālo novietojumu varat izveidot no režģa skata vai detalizētas informācijas skata.
+1. Atlasiet **Līdzekļa pārvaldības funkcionālās** > **vietas Visas** > **funkcionālās vietas**. Funkcionālo novietojumu varat izveidot no režģa skata vai detalizētas informācijas skata.
 2. Atlasiet pogu **Jauns**.
 3. Ievadiet ID laukā **Funkcionālais novietojums**.
 4. Laukā **Nosaukums** ievadiet funkcionālā novietojuma nosaukumu.

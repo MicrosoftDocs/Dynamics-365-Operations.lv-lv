@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669493"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016367"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Veidņu MK pārvaldīšana objektu attiecībās 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669493"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>Veidnes MK pievienošana pakalpojuma objektam
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Noklikšķiniet **uz Pakalpojumu pārvaldības** \> **pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Veiciet dubultklikšķi uz pakalpojuma līguma, kurā objektu attiecībām vēlaties pievienot veidnes MK.
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669493"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>Pakalpojumu MK dzēšana no pakalpojumu objekta
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Noklikšķiniet **uz Pakalpojumu pārvaldības** \> **pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Veiciet dubultklikšķi uz pakalpojuma līguma, kurā no objektu attiecībām vēlaties dzēst pakalpojumu MK.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669493"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>Pakalpojumu MK vēstures pārvietošana no viena pakalpojumu līguma uz citu
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Noklikšķiniet **uz Pakalpojumu pārvaldības** \> **pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Veiciet dubultklikšķi uz pakalpojuma līgumu, no kura pārvietotu pakalpojumu MK.
 

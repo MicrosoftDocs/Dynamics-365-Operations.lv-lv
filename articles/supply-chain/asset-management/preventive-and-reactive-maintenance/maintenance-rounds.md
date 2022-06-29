@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852876"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016512"
 ---
 # <a name="maintenance-rounds"></a>Uzturēšanas cikls
 
@@ -87,7 +87,7 @@ Nākamajā ilustrācijā ir redzams piemērs uzturēšanas ciklam, kurā ietilps
 
 Kad esat uzstādījis uzturēšanas ciklu, jūs palaižat grafika darbu, lai ieplānotu visus darbus, kas ir saistīti ar uzturēšanas ciklu.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Periodiski** > **Preventīvā uzturēšana** > **Ieplānot uzturēšanas ciklus** vai **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas grafiks** > **Visas uzturēšanas grafiks** vai **Atvērt uzturēšanas grafika rindas** vai **Atvērt uzturēšanas grafiku kopas** > atlasiet uzturēšanas grafika rindu sarakstā > pogas **Uzturēšanas cikli**.
+1. Noklikšķiniet **uz** > **·** > **Pamatlīdzekļu** > **pārvaldības periodiskās preventīvās** **·** > **·** > **·** **·** **uzturēšanas** grafika uzturēšanas kārtas vai Līdzekļa pārvaldības uzturēšanas grafiks Visi uzturēšanas grafiks vai Atvērt uzturēšanas grafika rindas vai Atvērt uzturēšanas grafika kopas > atlasiet uzturēšanas grafika rindu sarakstā > **Poga Uzturēšana.**
 
 2. Laukā **Periods** atlasiet perioda tipu, kuru izmantot plānošanas darbam.
 
@@ -102,7 +102,7 @@ Kad esat uzstādījis uzturēšanas ciklu, jūs palaižat grafika darbu, lai iep
 
 6. Noklikšķiniet uz **Labi**.
 
-7. Tagad jūs varat redzēt uzturēšanas ciklu darbus opcijā **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas grafiks** > **Visi uzturēšanas grafiki** vai **Atvērt uzturēšanas grafika rindas**. Ja ieplānotie cikli ir saistīti ar darba pasūtījumu kopu, jūs arī redzēsit uzturēšanas saraksta rindas opcijā **Atvērt uzturēšanas grafika kopas**. Uzturēšanas grafika rindām, kuras izveidotas no cikla, ir atsauces tips "Uzturēšanas cikli".
+7. Tagad ir iespējams skatīt uzturēšanas noapaļošanas darbus **Pamatlīdzekļu** > **·** > **pārvaldības uzturēšanas grafikā Visi uzturēšanas grafiks vai** Atvērt **uzturēšanas grafika rindas**. Ja ieplānotie cikli ir saistīti ar darba pasūtījumu kopu, jūs arī redzēsit uzturēšanas saraksta rindas opcijā **Atvērt uzturēšanas grafika kopas**. Uzturēšanas grafika rindām, kuras izveidotas no cikla, ir atsauces tips "Uzturēšanas cikli".
 
 Divās nākamajās ilustrācijās ir parādīts darba grafiks dialoglodziņā **Plānot uzturēšanas ciklus** un uzturēšanas grafika rindas, kas izveidotas **Visos uzturēšanas grafikos**, pamatojoties uz šo plānoto darbu.
 

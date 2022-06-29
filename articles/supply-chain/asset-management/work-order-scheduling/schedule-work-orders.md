@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845059"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016744"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845059"
 
 Šajā rakstā skaidrots, kā plānot darba pasūtījumus Līdzekļu pārvaldībā. 
 
-Nepieciešamo stundu skaitu darba pasūtījumam definē prognozēto stundu summa mīnus grāmatotās stundas. Ja ir nepieciešams vairāk laika, prognoze attiecīgi ir jāpielāgo. Sadaļā **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi** varat skatīt vai rediģēt prognozes darba pasūtījumam, atlasot to un noklikšķinot uz **Prognoze** cilnē **Darba pasūtījums**. Kad darba pasūtījumi ir izveidoti un novērtēti, nākamā darbība ir piešķirt tiem uzturēšanas speciālistus un rīkus to izpildei.
+Nepieciešamo stundu skaitu darba pasūtījumam definē prognozēto stundu summa mīnus grāmatotās stundas. Ja ir nepieciešams vairāk laika, prognoze attiecīgi ir jāpielāgo. Līdzekļu **pārvaldības darba** > **·** > **·** **pasūtījumos** visi darba pasūtījumi vai Aktīvie darba pasūtījumi var skatīt vai rediģēt prognozes darba pasūtījumā, **·** **atlasot darba pasūtījumu un noklikšķinot uz Prognozi cilnē Darba** pasūtījums. Kad darba pasūtījumi ir izveidoti un novērtēti, nākamais solis darbu pasūtījumu izpildē ir iedalīt nepieciešamos uzturēšanas darbiniekus un rīkus.
 
 Var ieplānot tikai tos darba pasūtījumus, kuriem ir tāds darba pasūtījuma dzīves cikla stāvoklis, kas ļauj ieplānot. Ieplānošanas atļauja tiek iestatīta ar sadaļas **Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Dzīves cikla stāvokļi** > kopsavilkuma cilnes **Vispārīgi** > pārslēgšanas pogu **Atļaut ieplānošanu**.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi**.
+1. Noklikšķiniet **uz Līdzekļu pārvaldības** > **darbs pasūtīj visus** > **darba pasūtījumus**.
 
 2. Sarakstā atlasiet darba pasūtījumus, kurus vēlaties ieplānot. Sarakstu var kārtot, piemēram, pēc **Pašreizējā dzīves cikla stāvokļa**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880456"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016802"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozes, darba pasūtījumi un projekti
 
@@ -60,7 +60,7 @@ Piemēram, sekojošajā ilustrācijā, ņemot vērā to, ka ir iestatīts **Krav
 
 ![1. attēls.](media/01-integration-to-pma.png)
 
-Projekta ID, kas ir paredzēts darba pasūtījuma uzdevumā, un saistītā aktivitātes numura mērķis, ir izsekot izmaksas, kas ir saistītas ar darba pasūtījuma uzdevumu un līdzekli, kas tam atlasīts **Projekta vadības un uzskaites** modulī. (Lai skatītu projekta ID un aktivitātes numuru, atlasiet **Pamatlīdzekļu pārvaldība** > **Kopīgie** > **Darba pasūtījumi** > **Visi darba pasūtījumi** un pēc tam atlasiet darba pasūtījumu. **Rindas detaļas** kopsavilkuma cilnē lauks **Projekta ID** rāda projekta ID, un **Aktivitātes numurs** lauks rāda aktivitātes numuru.) Lai iegūtu vairāk informācijas par izmaksu kontroli Pamatlīdzekļu pārvaldībā, skatiet [Izmaksu un datumu kontrole](../controlling-and-reporting/cost-and-date-control.md).
+Projekta ID, kas ir paredzēts darba pasūtījuma uzdevumā, un saistītā aktivitātes numura mērķis, ir izsekot izmaksas, kas ir saistītas ar darba pasūtījuma uzdevumu un līdzekli, kas tam atlasīts **Projekta vadības un uzskaites** modulī. (Lai skatītu projekta ID un aktivitātes numuru, atlasiet **Līdzekļu pārvaldības** > **darbs pasūta** > **visus darba pasūtījumus** un pēc tam atlasiet darba pasūtījumu. **Rindas detaļas** kopsavilkuma cilnē lauks **Projekta ID** rāda projekta ID, un **Aktivitātes numurs** lauks rāda aktivitātes numuru.) Lai iegūtu vairāk informācijas par izmaksu kontroli Pamatlīdzekļu pārvaldībā, skatiet [Izmaksu un datumu kontrole](../controlling-and-reporting/cost-and-date-control.md).
 
 Sekojošā ilustrācija rāda grafisku pārskatu par darba pasūtījumu projektiem un atbilstošām projektu aktivitātēm.
 

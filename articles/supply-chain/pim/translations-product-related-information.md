@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850559"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015411"
 ---
 # <a name="product-related-translations-faq"></a>Bieži uzdotie jautājumi par tulkojumiem, kas saistīti ar precēm
 
@@ -43,20 +43,20 @@ Preču tulkoto informāciju varat apskatīt jebkurā ārējā pirmdokumentā, pi
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>"Kā izveidot tulkojumu preču informācijai?
 Lai izveidotu preces tulkojumu, izpildiet tālāk aprakstītās darbības:
-1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Izlaistās preces**.
+1.  Noklikšķiniet uz **Preču informācijas pārvaldības izlaistās** &gt; **·** &gt; **preces**.
 2.  Atlasiet preci un darbību rūtī grupā **Valodas** noklikšķiniet uz **Tulkojumi**.
 3.  Lapas **Teksta tulkojums** laukā **Valoda** atlasiet valodu. Lai pievienotu vairāk valodu, izvērsiet lauku **Valoda** un pēc tam noklikšķiniet uz **Labi**.
 4.  Grupā **Tulkotais teksts** ievadiet tulkojumus laukos **Apraksts** un **Preces nosaukums**.
 
 Lai izveidotu preču īpašību tulkojumu, izpildiet tālāk aprakstītās darbības:
-1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Izlaistās preces**.
+1.  Noklikšķiniet uz **Preču informācijas pārvaldības izlaistās** &gt; **·** &gt; **preces**.
 2.  Sadaļā **Iestatījumi** noklikšķiniet uz **Atribūti** un pēc tam noklikšķiniet uz **Atribūti**.
 3.  Lapā **Atribūti** noklikšķiniet uz **Tulkot**.
 4.  Lapas **Teksta tulkojums** laukā **Valoda** atlasiet valodu. Lai pievienotu vairāk valodu, izvērsiet lauku **Valoda** un pēc tam noklikšķiniet uz **Labi**.
 5.  Grupā **Tulkotais teksts** ievadiet tulkojumus laukos **Apraksts**, **Draudzīgais nosaukums** un **Palīdzības teksts**.
 
 Lai izveidotu preces dimensijas tulkojumu, izpildiet tālāk aprakstītās darbības:
-1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Izlaistās preces**.
+1.  Noklikšķiniet uz **Preču informācijas pārvaldības izlaistās** &gt; **·** &gt; **preces**.
 2.  Atlasiet preci un pēc tam noklikšķiniet uz **Preces dimensijas**.
 3.  Atlasiet vienu no preču dimensiju saitēm: **Konfigurācijas**, **Izmēri**, **Krāsas** vai **Stils**.
 4.  Atlasiet dimensijas vērību un pēc tam noklikšķiniet uz **Tulkot**.

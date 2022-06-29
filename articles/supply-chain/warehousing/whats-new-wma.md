@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
-ms.translationtype: HT
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945728"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954668"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Jaunumi un izmaiņas mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>Versija 2.0.25.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+
+- Palielināta veiktspēja;
+- Stabilitātes pieaugums.
+- Uzlabots **uzziņas lapa,** lai atbalstītu garākus tekstus apakšvirsrakstos.
+- Iekļauts spēja nekavējoties atcelt plūsmu ar vienu piespieklikšķi (**kad Atcelt** ir vienīgā darbība, kas pieejama zem **Papildu darbības**).
+- Fiksētā problēma, kuras laikā reizēm var zaudēt fokusu starp ievades vadīklām **lapā Rediģēt** savienojumu un pielāgotās lapās.
+- Fiksētā problēma, kur pogas reizēm var kļūt bezatbildīgas un paliek kā atlasītas, kad tās ir iekļautas ritināšanas skatā.
+- Fiksētā problēma, kur galvenajā lapā dažreiz var tikt izmantots nepareizs izkārtojums.
 
 ## <a name="version-20240"></a>Versija 2.0.24.0
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860672"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022528"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -263,9 +263,6 @@ Darbinieks reģistrē pārtraukumu, atlasot **Pārtraukums** un pēc tam atlasot
 
 ## <a name="view-the-my-day-dialog"></a>Skatīt dialogu "Mana diena"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Dialogs **Mana** diena sniedz darbiniekiem to reģistrāciju un bilanču apskatu. Dialogs ir sadalīts šādās trīs sadaļās:
 
 - Galvenā sadaļa uzskaita reģistrācijas, ko pašreizējais darbinieks veicis atlasītajā datumā. Tā atveras, parādot reģistrācijas pašreizējai dienai, un sniedz datuma uztvērēju, kas ļauj darbiniekam skatīt pārējās dienas.
@@ -275,9 +272,6 @@ Dialogs **Mana** diena sniedz darbiniekiem to reģistrāciju un bilanču apskatu
 Administratori var pievienot šo **funkciju**[interfeisam, novietojot pogu Mana diena uz rīkjoslas katrai atbilstošai cilnei, kā aprakstīts Design ražošanas izpildes interfeisu.](production-floor-execution-tabs.md)
 
 ## <a name="working-in-teams"></a>Darbs komandās
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Ja vienā ražošanas darbā ir piešķirti vairāki darbinieki, viņi var veidot grupu. Grupa var nominēt vienu darbinieku kā atbildīgo. Tad atlikušie darbinieki automātiski kļūst par šī vadītāja asistentiem. Iegūtajai komandai tikai atbildīgo ir jāreģistrē darba statuss. Laika ieraksti attiecas uz visiem grupas dalībniekiem.
 

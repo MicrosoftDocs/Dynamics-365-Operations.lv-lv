@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849653"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016135"
 ---
 # <a name="calculate-capacity-load"></a>Aprēķināt noslodzes grafiku
 
@@ -35,7 +35,7 @@ Līdzekļu pārvaldībā varat aprēķināt noslodzi
 
 Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamo noslodzi konkrētam periodam. Noslodzes aprēķinu var veikt visiem līdzekļiem vai atlasītiem līdzekļiem. Jūs varat izveidot aprēķinu arī dīkstāves uzturēšanas dēļ darbībām vai darba pasūtījumu apkopojumiem.
 
-1. Klikšķiniet uz pogas **Līdzekļu pārvaldība** > **Pieprasījumi** > **Noslodze** vai **Līdzekļu pārvaldība** > **Vispārīgi** > **Darbu pasūtījuma kopas** > **Visas darbu pasūtījumu kopas** / **Aktīvās darba pasūtījumu kopas** >, atlasiet darba pasūtījumu kopu sarakstā > **Noslodze** vai **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāve uzturēšanas dēļ** > **Visas dīkstāves uzturēšanas dēļ darbības** / **Aktīvās dīkstāves uzturēšanas dēļ darbības** >, atlasiet uzturēšanas darbību sarakstā > **Noslodze**.
+1. **·** > **·** > **·** **·** > **·** > **·** / **Noklikšķiniet** uz Līdzekļu pārvaldības uzziņas Noslodzes noslodzes noslodze vai Līdzekļu pārvaldības darba pasūtījumu kopas Visas darba pasūtījumu kopas Aktīvās darba pasūtījumu kopas > atlasiet darbu pasūtījumu kopu sarakstā > **·** **·** > **·** > **·** / **Noslodzes** noslodzes poga vai Līdzekļu pārvaldības dīkstāves uzturēšanas dīkstāves aktivitātes Visas uzturēšanas dīkstāves aktivitātes > atlasiet uzturēšanas aktivitāti sarakstā > **Noslodzes** noslodze.
 
 2. Dialogā **Aprēķināt noslodzi** atlasiet periodu, kuram vēlaties veikt aprēķinu, laukos **Sākuma datums/laiks** un **Beigu datums/laiks**.
 

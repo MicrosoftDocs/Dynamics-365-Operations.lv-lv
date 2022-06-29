@@ -1,8 +1,8 @@
 ---
-title: Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
-description: Šajā rakstā ir izskaidrots, kā konfigurēt neobligātās funkcijas novērtēšanas Microsoft Dynamics 365 Commerce videi.
+title: Konfigurēt kases vides neobligātos Dynamics 365 Commerce līdzekļus
+description: Šajā rakstā ir skaidrots, kā konfigurēt izvēles līdzekļus kastu Microsoft Dynamics 365 Commerce videi.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861918"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013242"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Konfigurēt kases vides neobligātos Dynamics 365 Commerce līdzekļus
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir izskaidrots, kā konfigurēt neobligātās funkcijas novērtēšanas Microsoft Dynamics 365 Commerce videi.
+Šajā rakstā ir skaidrots, kā konfigurēt izvēles līdzekļus kastu Microsoft Dynamics 365 Commerce videi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk minētie priekšnosacījumi:
+Ja vēlaties pazemināt darbību e-pasta līdzekļus, ir jāizpilda šādi priekšnosacījumi:
 
-- Jums ir pieejams e-pasta serveris (vienkāršā pasta pārsūtīšanas protokola \[SMTP\] serveris), kuru var izmantot no Microsoft Azure abonementa, kurā tika nodrošināta novērtējuma vide.
+- Jums ir pieejams e-pasta serveris (vienkārša pasta pārsūtīšanas protokola \[SMTP\] serveris), Microsoft Azure ko var izmantot no abonementa, kur nodrošināti skārbas vidi.
 - Jums ir pieejams pilnībā kvalificēts servera domēna nosaukums (FQDN)/IP adrese, SMTP porta numurs un autentifikācijas informācija.
 
 ## <a name="configure-the-image-back-end"></a>Attēla aizmugures konfigurēšana
@@ -39,10 +39,10 @@ Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk m
 ### <a name="find-your-media-base-url"></a>Savas multivides bāzes URL atrašana
 
 > [!NOTE]
-> Lai varētu pabeigt šo procedūru, jums ir jāizpilda darbības, kas norādītas sadaļā [Savas vietnes iestatīšana pakalpojumā Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Lai varētu pabeigt šo procedūru, jums ir jāizpilda darbības, kas norādītas sadaļā [Savas vietnes iestatīšana pakalpojumā Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Piesakieties Commerce vietņu veidotājā, izmantojot URL vietrādi, kuru atzīmējāt, kad nodrošināšanas laikā inicializējāt e-komerciju (skatiet [e-komercijas inicializēšana](provisioning-guide.md#initialize-e-commerce)).
-1. Atveriet vietni **Fabrikam**.
+1. Atveriet **Fabrikam**, **Adventure Works** vai **Adventure Works biznesa** vietni, ar kuru vēlaties strādāt.
 1. Kreisās puses izvēlnē atlasiet **Multivides bibliotēka**.
 1. Atlasiet jebkuru atsevišķu attēla līdzekli.
 1. Rekvizītu inspektors labajā pusē atrodiet rekvizītu **Publiskais URL**. Vērtība ir vietrādis URL. Tas ir piemērs:
@@ -98,9 +98,9 @@ Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir 
 
 ## <a name="customize-email-templates"></a>E-pasta veidņu pielāgošana
 
-Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Varat arī atjaunināt veidņu saites, lai tās pārvietotu uz novērtējuma vidi. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
+Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Vai arī vēlaties atjaunināt veidnēs esošās saites, lai tās pārietu uz kases vides informāciju. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
 
-1. Tīmekļa pārlūkā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidņu ZIP failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) savā lokālajā datorā. Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
+1. Tīmekļa pārlūkprogrammā lejupielādējiet demonstrācijas noklusējuma e-pasta [Microsoft Dynamics 365 Commerce veidņu zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) lokālajā datorā. Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
 
     - Pasūtījuma apstiprinājuma veidne
     - Dāvanu kartes izsniegšanas veidne
@@ -167,15 +167,11 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
+[Kases vides Dynamics 365 Commerce nodrošināšana](provisioning-guide.md)
 
-[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
+[Konfigurēt kases Dynamics 365 Commerce vides](cpe-post-provisioning.md)
 
-[Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md)
-
-[BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
-
-[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
+[Konfigurēt BTOPS kastēs Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
