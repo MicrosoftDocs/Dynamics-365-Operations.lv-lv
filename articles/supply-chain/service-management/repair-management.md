@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7026453bf3a0eda2b9bc4d8538150974bd6aa634
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 32372a6a54e2adfbf511e2247be4a9baa28b4b53
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847909"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015206"
 ---
 # <a name="repair-management"></a>Labošanas pārvaldība       
 
@@ -75,7 +75,7 @@ Variet izveidot arī remonta rindas katram remonta procesa solim.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Izveidojiet remonta rindu pakalpojuma pasūtījumā
 
-1.  Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1.  Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 
 2.  Izvēlieties pakalpojuma pasūtījumu ar pakalpojuma objektu, ko nepieciešams izlabot.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905029"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016425"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)
 
@@ -818,7 +818,7 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 | Koriģēt kreditora īpašumā esošos krājumus, izmantojot uzskaites žurnālu. | Ir svarīgi saglabāt rīcībā esošo krājumu sistēmu sinhronizētu ar faktisko fizisko krājumu. Kreditora īpašumā esošos krājumus var koriģēt, izmantojot uzskaites procesus, piemēram, daudzuma korekcija un uzskaites žurnāla procesi. |
 | Uzziniet vairāk par sūtījuma atbalstu sistēmā Dynamics 365 for Operations | Papildinformāciju par sūtījuma apstrādes procesu atbalstu skatiet tēmās [Sūtījums](../../../supply-chain/inventory/consignment.md), [Sūtījuma iestatīšana](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Sūtījuma papildināšanas pasūtījuma izveide (uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) un [Sūtījumu krājumu īpašumtiesību maiņa, pamatojoties uz ražošanas pieprasījumu (Uzdevuma ceļvedis)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Kreditora sadarbība (iepriekš zināma kā Kreditoru portāls)
+### <a name="vendor-collaboration"></a>Kreditoru sadarbība
 
 | Ko iespējams izdarīt | Kāpēc tas ir svarīgi |
 |-----------------|-----------------------|

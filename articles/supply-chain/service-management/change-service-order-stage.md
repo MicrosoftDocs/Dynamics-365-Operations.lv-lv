@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edb31515f890a08b6cabae42820e5cdcbe1eaeae
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 94bcbdb0ea136bae2bcb8fa8ef0bd9304e772b49
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677315"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014885"
 ---
 # <a name="change-the-service-order-stage"></a>Pakalpojuma pasūtījuma posma maiņa 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8677315"
 
 Veiciet šīs darbības, lai pārvietotu pakalpojuma pasūtījumu uz nākamo posmu pakalpojuma darbplūsmā vai mainītu to atpakaļ uz iepriekšējo posmu.
 
-1.  Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1.  **Klikšķiniet Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 
 2.  Atlasiet pakalpojuma pasūtījumu un tad noklikšķiniet cilni **Nosūtīt**.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903874"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015323"
 ---
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
@@ -117,7 +117,7 @@ Lai norādītu, vai ir jāparāda brīdinājums vai kļūda, ja tiek pārsniegts
 
 Lai kredīta limita summu norādītu konkrētam debitoram, izmantojiet formu **Debitori**. Lai veiktu izmaiņas šajā formā, jums ir jābūt dalībniekam ar tādu drošības lomu, kurai ir piešķirts pienākums Uzturēt debitoru pamatdatus (CustCustomersMaintain).
 
-1.  Noklikšķiniet uz **Debitoru parādi** \> **Vispārīgi** \> **Debitori** \> **Visi debitori**. Veiciet dubultklikšķi uz debitora konta.
+1.  Noklikšķiniet uz **Debitoru parādiem** \> **visiem** \> **debitoriem**. Veiciet dubultklikšķi uz debitora konta.
 
 2.  Formas **Debitori** darbību rūtī noklikšķiniet uz **Rediģēt**.
 
@@ -132,7 +132,7 @@ Lai kredīta limita summu norādītu konkrētam debitoram, izmantojiet formu **D
 
 Reizēm debitora kredīta limitu var būt nepieciešams pārbaudīt manuāli. Debitora kredīta limitu varat manuāli pārbaudīt, piemēram, pirms sākat ievadīt pārdošanas pasūtījumu. Lai kredīta limitus pārbaudītu manuāli, varat izmantot formu **Pārdošanas pasūtījums**. Lai veiktu izmaiņas šajā formā, jums ir jābūt dalībniekam ar tādu drošības lomu, kurai ir piešķirts pienākums Uzturēt pārdošanas pasūtījumu (SalesOrderMaintain).
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Pārdošanas pasūtījumi** \> **Visi pārdošanas pasūtījumi**. Veiciet dubultklikšķi uz pārdošanas pasūtījuma.
+1.  Noklikšķiniet **uz Pārdošanas un mārketinga** \> **pārdošanas pasūtījumi** \> **visi pārdošanas pasūtījumi.** Veiciet dubultklikšķi uz pārdošanas pasūtījuma.
 
 2.  Formas **Pārdošanas pasūtījums** darbību rūts cilnē **Pārvaldīt** noklikšķiniet uz **Pārbaudīt kredīta limitu**.
 

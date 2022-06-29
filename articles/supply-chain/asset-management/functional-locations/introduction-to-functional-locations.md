@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882842"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016048"
 ---
 # <a name="introduction-to-functional-locations"></a>Ievads funkcionālajos novietojumos
 
@@ -59,7 +59,7 @@ Pēc funkcionālā novietojuma hierarhijas izveides nākamā darbība ir uzstād
 
 ## <a name="all-functional-locations"></a>Visi funkcionālie novietojumi
 
-Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Funkcionālie novietojumi** \> **Visi funkcionālie novietojumi**, lai atvērtu saraksta lapu **Visi funkcionālie novietojumi**. Šajā lapā tiek rādīti visi funkcionālie novietojumi un zināma informācija, kas ir saistīta ar katru no tiem. Lai skatītu tikai aktīvos funkcionālos novietojumus, atlasiet **Aktīvie funkcionālie novietojumi**. Lai skatītu tikai funkcionālos novietojumus, kuriemm esat saistīts kā darbinieks, atlasiet **Mani aktīvie funkcionālie novietojumi**. (Šī saistība ir iestatīta lapā **Darbinieki**. Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
+Atlasiet **Līdzekļa pārvaldības** \> **funkcionālās vietas** \> **Visas funkcionālās vietas**, lai atvērtu **saraksta lapu Visas funkcionālās** vietas. Šajā lapā tiek rādīti visi funkcionālie novietojumi un zināma informācija, kas ir saistīta ar katru no tiem. Lai skatītu tikai aktīvos funkcionālos novietojumus, atlasiet **Aktīvie funkcionālie novietojumi**. Lai skatītu tikai funkcionālos novietojumus, kuriemm esat saistīts kā darbinieks, atlasiet **Mani aktīvie funkcionālie novietojumi**. (Šī saistība ir iestatīta lapā **Darbinieki**. Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
 
 Saraksta lapā **Visi funkcionālie novietojumi** atlasiet saiti kolonnā **Funkcionālais novietojums**, lai skatītu detalizētu informāciju par atlasīto ierakstu. Lai rediģētu funkcionālo novietojumu, atlasiet pogu **Rediģēt**. Detalizētajā skatā tiek parādīta detalizēta informācija, kas ir saistīta ar atrašanās vietu. Tajā labajā pusē ir arī rūts **Saistītā informācija**. Šajā rūtī ir redzama funkcionālā novietojuma hierarhija. Rūti **Saistītā informācija** var izvērst un sakļaut.
 

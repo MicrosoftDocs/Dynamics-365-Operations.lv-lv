@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890949"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015498"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Biežāk uzdotie jautājumi par preču konfigurācijas modeļu aprēķiniem
 
@@ -73,7 +73,7 @@ Jūs varat pārrakstīt mērķa atribūtam aprēķināto vērtību, izņemot gad
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Kā mērķa atribūtu var iestatīt kā slēptu vai tikai lasāmu?
 Lai atribūtu iestatītu kā slēptu vai tikai lasāmu, izpildiet tālāk aprakstītās darbības.
 
-1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Preču konfigurācijas modeļi**.
+1.  Noklikšķiniet **uz Preču informācijas pārvaldības** &gt; **preču** &gt; **konfigurācijas modeļiem**.
 2.  Atlasiet preces konfigurācijas modeli un pēc tam darbību rūtī noklikšķiniet uz **Rediģēt**.
 3.  Lapā **Detalizēta informācija par ierobežojumam atbilstošu preces konfigurācijas modeli** atlasiet atribūtu, kas tiks izmantots kā mērķa atribūts.
 4.  Kopsavilkuma cilnē **Atribūti** atlasiet **Slēpts** vai **Tikai lasāms**.
@@ -96,7 +96,7 @@ Ja aprēķinam noņemat ievades vērtību, tiek noņemta arī mērķa atribūta 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Kāpēc tiek parādīts kļūdas ziņojums, lai gan esmu veiksmīgi validējis savu preču modeli?
 Aprēķini nav iekļauti validācijā. Ir jāpārbauda preču konfigurācijas modelis, lai atrastu aprēķinu kļūdas. Nākamajās darbībās ir paskaidrots, kā pārbaudīt preču konfigurācijas modeli.
 
-1.  Noklikšķiniet uz **Preču informācijas pārvaldība** &gt; **Vispārīgi** &gt; **Preču konfigurācijas modeļi**.
+1.  Noklikšķiniet **uz Preču informācijas pārvaldības** &gt; **preču** &gt; **konfigurācijas modeļiem**.
 2.  Atlasiet preces konfigurācijas modeli un pēc tam darbību rūtī grupā **Izpildīt** noklikšķiniet uz **Pārbaudīt**.
 
 

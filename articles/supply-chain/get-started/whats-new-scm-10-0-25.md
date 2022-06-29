@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850791"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954501"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.25. (2022. gada aprīlis)
 
@@ -155,7 +155,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Noliktavas vadība | [Krājumu manuālas pārvietošanas operācijas atliktā apstrāde](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligāts |
 | Noliktavas vadība | Nelietot, lai izveidotu noslodzes, kas neatbilst kopuma noslodzes veidošanas veidnes prasībām | Obligāts |
 | Noliktavas vadība | [Uzlaboti noliktavas vienību etiķešu izkārtojumi](../warehousing/document-routing-layout-for-license-plates.md) | Obligāts |
-| Noliktavas vadība | [Novērtējiet visas vairāku SKU atrašanās vietas direktīvu darbības](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obligāts |
+| Noliktavas vadība | [Novērtējiet visas vairāku SKU atrašanās vietas direktīvu darbības](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Obligāts |
 | Noliktavas vadība | Paslēpt lauku Kopējā vērtība lapā “Visas kravas” un “Detalizēta informācija par kravu” | Obligāts |
 | Noliktavas vadība | Numurzīmes etiķetes būvēšanas konfigurācija | Obligāts |
 | Noliktavas vadība | Noslodzes rindas manuālā korekcija administratoriem vai līdzīgiem uzticamiem lietotājiem | Obligāts |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890833"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023765"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Kreditoru sadarbības iestatīšana un uzturēšana
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890833"
 Kreditoru sadarbības interfeiss sniedz ierobežotu informācijas kopumu par ārējo piegādātāja lietotāju pirkšanas pasūtījumiem, rēķiniem un sūtījumu krājumiem. No šī interfeisa piegādātājs var arī atbildēt uz piedāvājuma pieprasījumiem (PP) un skatīt un rediģēt pamata uzņēmuma informāciju.
 
 Šajā rakstā skaidrots, kā iestatīt kreditoru sadarbības Dynamics 365 Supply Chain Management. Tajā skaidrots arī, kā iestatīt darbplūsmu tā, lai tā nodrošinātu jaunus piegādātāja sadarbības lietotājus un kā pārvaldīt šo lietotāju drošības lomas.
-
-> [!NOTE]
-> Informācija par drošības lomu iestatīšanu kreditoru sadarbībasm attiecas tikai uz pašreizējo Finanšu un operāciju versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Papildinformāciju par lietotāju atļaujām Piegādātāju portālam Microsoft Dynamics AX skatiet sadaļā [Piegādātāju portāla lietotāja drošība](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Piegādātāju sadarbības drošības lomu iestatīšana
 
@@ -118,7 +115,7 @@ Lai iestatītu šo zarošanu, izveidojiet jaunu darbplūsmas tipu **Lietotāja p
 2. Piešķiriet uzdevumu personai, kas ir atbildīga par jaunu Microsoft Azure Active Directory (Azure AD) lietotāju kontu pieprasīšanu Azure portālā. Izmantojiet iepriekš definēto **Sūtīt Azure B2B lietotāja uzaicinājumu** uzdevumu šai darbībai. B2B lietotājus var automātiski eksportēt Azure AD. Izmantojiet iepriekš definēto **Uzkrājumu Azure AD B2B lietotāju**. Papildinformāciju skatiet sadaļā [B2B lietotāju eksportēšana Azure AD](../../fin-ops-core/dev-itpro/sysadmin/implement-b2b.md).
 3. Piešķiriet apstiprinājuma uzdevumu personai, kas tiek augšupielādēta pakalpojumā Azure. Ja konts nav veiksmīgi izveidots, šī persona noraida uzdevumu un beigs darbplūsmu. Šo apstiprināšanas uzdevumu var izlaist, ja esat ietveris darbību, kas automātiski eksportē jaunos lietotāja kontus uz Azure, izmantojot B2B programmas programmēšanas interfeisu (API).
 4. Pievienojiet automatizētu uzdevumu, kas nodrošina jaunu lietotāju. Izmantojiet iepriekš definēto **Automātiskās nodrošināšanas lietotājs** uzdevumu šai darbībai.
-5. Pievienojiet uzdevumu, kas informē jauno lietotāju. Jūs, iespējams, vēlēsieties nosūtīt jaunajam lietotājam sveiciena e-pastu, kurā ir iekļauts URL Supply Chain Management. Šajā e-pasta ziņojumā var izmantot **E-pasta ziņojumu** lapā izveidoto veidni un pēc tam atlasīt lapā **Lietotāja darbplūsmas parametri**. Veidnē var būt ietverta **%portalURL%** etiķete. Kad tiek ģenerēts sveiciena e-pasta ziņojums, šis tags tiks aizstāts ar Supply Chain Management nomnieka vietrādi URL.
+5. Pievienojiet uzdevumu, kas informē jauno lietotāju. Jūs, iespējams, vēlēsieties nosūtīt jaunajam lietotājam sveiciena e-pastu, kurā ir iekļauts URL Supply Chain Management. Šajā e-pasta ziņojumā var izmantot **E-pasta ziņojumu** lapā izveidoto veidni un pēc tam atlasīt lapā **Lietotāja darbplūsmas parametri**. Veidnē var būt ietverta **%portalURL%** etiķete. Kad sveiciena e-pasts ir ģenerēts, šī atzīme tiks aizstāta ar Piegādes ķēdes pārvaldības nomnieka URL.
 
     > [!NOTE]
     > Šo darbplūsmu var izmantot vairākos scenārijos, kuros ir iesaistīts lietotājs, kurš to ietver. Piemēram, to var izmantot, kad potenciālajiem piegādātājiem vai kontaktpersonām nepieciešams piegādātāja sadarbības konts. Tāpēc e-pastu vajadzētu uzskatīt par vispārēju pārskatu, ko var izmantot vairākiem nolūkiem.
@@ -138,13 +135,7 @@ Izveidojiet **Deaktivizēšanas lietotāju pieprasījumu darbplūsmas platformas
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Iespējot kreditoru sadarbību konkrētam kreditoram
 
-Pirms kādam kreditoru sadarbības lietotājam izveidot lietotāja kontu, jāiestata kreditors tā, lai tas varētu izmantot kreditoru sadarbību. Lapas **Kreditori** cilnē **Vispārīgi** iestatiet lauku **Sadarbības aktivizēšana**. Pieejamas šādas opcijas:
-
-- **Aktīvs (PP tiek akceptēts automātiski)** – ja kreditors pirkšanas pasūtījumus pieņem bez izmaiņu pieprasījuma, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
-- **Aktīvs (pirkšanas pasūtījums netiek akceptēts automātiski)** — kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
-
-> [!NOTE]
-> Šo uzdevumu var izpildīt arī sagādes profesionāļi jūsu uzņēmumā.
+Pirms kādam kreditoru sadarbības lietotājam izveidot lietotāja kontu, jāiestata kreditors tā, lai tas varētu izmantot kreditoru sadarbību. Papildinformāciju par to, kā to izdarīt, skatiet [kreditoru sadarbības ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Novērst problēmu saistībā ar jaunu kreditoru sadarbības lietotāju nodrošināšanu
 

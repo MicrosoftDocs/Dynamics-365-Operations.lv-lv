@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851628"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015560"
 ---
 # <a name="import-vendor-catalogs"></a>Kreditoru katalogu importēšana
 
@@ -46,7 +46,7 @@ Lai importētu piegādātāja kataloga datus, jums ir jāizpilda tālāk minēti
 
 4. Konfigurējiet darbplūsmu katalogu importēšanai. Izveidojiet CMR faila veidni un kopīgojiet to ar piegādāju.
 
-5. Lai izveidotu piegādātāja katalogu, atlasiet **Sagāde un avoti** \> **Vispārīgi** \> **Katalogi** \> **Piegādātāju katalogi**. Šajā katalogā tiek grupēti kataloga uzturēšanas pieprasījuma (CMR) faili, ko saņemat no sava piegādātāja. 
+5. Atlasiet **sagādes un avotu katalogu** \> **piegādātāju** \> **katalogus**, lai izveidotu piegādātāju katalogu. Šajā katalogā tiek grupēti kataloga uzturēšanas pieprasījuma (CMR) faili, ko saņemat no sava piegādātāja.
 
 6. Augšupielādējiet CMR failu.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882726"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017121"
 ---
 # <a name="asset-view"></a>Līdzekļa skats
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882726"
 
 Šajā rakstā ir aprakstīts līdzekļu skats Pamatlīdzekļu pārvaldībā. Lapā **Līdzekļa skats** tiek rādīti aktīvie līdzekļi un funkcionālie novietojumi koka skatā. Tāpēc varat viegli iegūt pārskatu par līdzekļa relācijām funkcionālajiem novietojumiem. Turklāt varat skatīt detalizētu informāciju par funkcionālajiem novietojumiem, līdzekļiem un saistītiem materiālu komplektiem (MK). Varat arī ātri iegūt pārskatu par aktīvajiem uzturēšanas pieprasījumiem un darba pasūtījumiem, kas saistīti ar līdzekli.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Līdzekļa skats**.
+1. Izvēlieties **Pamatlīdzekļu pārvaldības** \> **·** \> **līdzekļu skats**.
 2. Lai mainītu skatu, kas tiek parādīts lapā, atlasiet jaunu vērtību laukā **Skats**.
 
     > [!NOTE]

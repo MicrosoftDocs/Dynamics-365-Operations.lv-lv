@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879226"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015788"
 ---
 # <a name="functional-location-types"></a>Funkcionālo novietojumu veidi
 
@@ -57,7 +57,7 @@ Tagad ir izveidots noklusējuma funkcionālā novietojuma veids, kas jāizmanto 
 7. Lauks **Līdzekļa veids** tiek izmantots, ja vēlaties automātiski izveidot *vienu* līdzekli funkcionālajam novietojumam ar tādu pašu ID un nosaukumu kā funkcionālajam novietojumam, kuru veidojat. Piemēram, tas var būt būtiski, ja veidojat statisku funkcionālo novietojumu, piemēram, ēku vai konveijeru. Šādā gadījumā atlasiet līdzekļa veidu, kuru vēlaties izmantot automātiski izveidotam līdzeklim. Atcerieties, ka gadījumā, ja veicat atlasi šajā laukā, pārslēgšanas pogai **Vairāki līdzekļi** jābūt iestatītai uz "Nē".
 8. Kopsavilkuma cilnē **Līdzekļu veidi** atlasiet līdzekļu veidus, kas ir saistīti ar funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet līdzekļu veidus. Ja šeit pievienojat līdzekļu veidus, funkcionālā novietojumā var uzstādīt tikai tos līdzekļus, kas izmanto šo funkcionālā novietojuma veidu. Ja kopsavilkuma cilnē **Līdzekļu veidi** nav atlasīts neviens līdzekļu veids, var uzstādīt visus līdzekļu veidus.
 9. Kopsavilkuma cilnē **Uzturēšanas plāni** atlasiet uzturēšanas plānus, kas automātiski jāiestata jaunos funkcionālos novietojumos, izmantojot šo funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet uzturēšanas plānus. Ja šeit pievienojat uzturēšanas plānus, funkcionālajā novietojumā var izmantot tikai šos plānus, izmantojot šo funkcionālā novietojuma veidu.
-10. Kopsavilkuma cilnē **Līdzekļa atribūtu prasības** iestatiet līdzekļa atribūtus, kas automātiski jāiestata jaunos funkcionālos novietojumos, izmantojot šo funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet atribūtu. Šīs atribūtu prasības darbojas kā vadlīnijas. Tās nav validētas attiecībā uz līdzeklim iestatītiem atribūtiem (**Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi** > atlasiet līdzekli saraksta lapā > cilne **Vispārīgi** > poga **Atribūti** ). Atribūtu prasības tiek parādītas, instalējot līdzekļus funkcionālajos novietojumos.
+10. Kopsavilkuma cilnē **Līdzekļa atribūtu prasības** iestatiet līdzekļa atribūtus, kas automātiski jāiestata jaunos funkcionālos novietojumos, izmantojot šo funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet atribūtu. Šīs atribūtu prasības darbojas kā vadlīnijas. Tie nav pārbaudīti attiecībā pret līdzekļa iestatītajiem atribūtiem (**·** > **·** > **Līdzekļa** pārvaldības līdzekļi visi pamatlīdzekļi >**saraksta** lapā atlasiet līdzekli, > cilne Vispārīgi > **poga** Atribūti). Atribūtu prasības tiek parādītas, instalējot līdzekļus funkcionālajos novietojumos.
 11. Kopsavilkuma cilnē **Atļautie veidi** atlasiet funkcionālo novietojumu veidus, kuriem jābūt derīgiem pakārtotiem funkcionālā novietojuma veidiem, kas saistīti ar vecākelementa funkcionālā novietojuma veidu, kurš izmanto atlasīto funkcionālā novietojuma veidu.
 12. Kopsavilkuma cilnē **Atribūti** atlasiet funkcionālā novietojuma atribūtus, kas automātiski jāiestata jaunos funkcionālos novietojumos, izmantojot šo funkcionālā novietojuma veidu. Atlasiet **Pievienot rindu** un atlasiet atribūtu.
 
