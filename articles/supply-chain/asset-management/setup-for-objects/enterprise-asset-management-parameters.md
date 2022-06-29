@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870816"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015817"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -37,7 +37,7 @@ Cilne **Pamatlīdzekļi** nodrošina šādus iestatījumus:
 
 - **Noklusējuma funkcionālais novietojums** ir standarta funkcionālais novietojums, kas tiek automātiski atlasīts līdzekļiem, kad veidojat jaunus līdzekļus.  
 - Laukā **Standarta kalendārs** atlasiet kalendāru, kas jāizmanto līdzekļu KPI aprēķināšanai, ja līdzeklim nav atlasīts neviens resurss.  
-- Laukā **Skats** atlasiet standarta skatu, kas tiek parādīts, atverot lapu **Līdzekļu skats** (**Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Līdzekļu skats**).
+- Laukā **Skats** atlasiet standarta skatu, kas tiek rādīts, kad atverat **līdzekļu skatu** (**pamatlīdzekļu** > **pārvaldības līdzekļu** > **skats**).
 - **Noklusējuma pieprasījuma veids** ir standarta uzturēšanas pieprasījuma veids, kas tiek automātiski atlasīts, veidojot jaunu pieprasījumu.  
 - Darbu veidu prognozes tiek glabātas par atlasīto projektu laukā **Prognozēt projektu**. Katram darba veidam automātiski tiek izveidota jauna aktivitāte attiecībā uz prognozēto projektu. Pēc tam prognozes par darba veidu tiek saglabātas prognozētajā projektā.  
 - Laukā **Modelis** atlasiet prognozēto modeli, kas tiek izmantots darba veida un darba pasūtījumu prognozēm.
