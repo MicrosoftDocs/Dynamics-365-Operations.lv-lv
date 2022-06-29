@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873671"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016164"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Ražošanas parametri ražošanas izpildes procesā
 
@@ -63,7 +63,7 @@ Lapā **Ražošanas parametri** automātisks MK patēriņš tiek iestatīts tr�
 
 Katram posmam laukā **Automātisks MK patēriņš** var atlasīt vienu no trim ražošanas pasūtījuma krājumu izdošanas metodēm.
 
-- **Norakstīšanas princips** — šī opcija tiek izmantota kopā ar opciju, kas noteikta attiecībā uz MK modulī **Ražošana**. Noklikšķiniet uz **Ražošanas kontrole** &gt; **Vispārīgi** &gt; **Ražošanas pasūtījumi** &gt; **Visi ražošanas pasūtījumi**. Lapā **Visi ražošanas pasūtījumi** sarakstā izvēlieties ražošanas pasūtījumu un pēc tam darbību rūti noklikšķiniet uz **MK**. Lapas **MK** cilnes **Iestatījumi** laukā **Norakstīšanas princips** atlasiet vienu no šīm opcijām:
+- **Norakstīšanas princips** — šī opcija tiek izmantota kopā ar opciju, kas noteikta attiecībā uz MK modulī **Ražošana**. Noklikšķiniet uz **Ražošanas kontroles** &gt; **ražošanas pasūtījumi** &gt; **visi ražošanas pasūtījumi**. Lapā **Visi ražošanas pasūtījumi** sarakstā izvēlieties ražošanas pasūtījumu un pēc tam darbību rūti noklikšķiniet uz **MK**. Lapas **MK** cilnes **Iestatījumi** laukā **Norakstīšanas princips** atlasiet vienu no šīm opcijām:
 
   - **Sākums**;
   - **Beigas**;

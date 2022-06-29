@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891239"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016831"
 ---
 # <a name="create-maintenance-requests"></a>Izveidot uzturēšanas pieprasījumus
 
@@ -32,9 +32,9 @@ Uzturēšanas pieprasījumus var izmantot, ja uzturēšanas darbinieki vai ražo
 
 **Piemērs:** kamēr uzturēšanas darbinieks veic remontu, viņš atklāj, ka ir nepieciešama cita līdzekļa tajā pašā atrašanās vietā apkope. Taču uzturēšanas darbiniecei nav ne laika, ne nepieciešamo rezerves daļu, lai veiktu remonta darbus. Tāpēc viņš izveido uzturēšanas pieprasījumu līdzeklim un ievada īsu problēmas aprakstu.
 
-Sadaļa **Aktīvie uzturēšanas pieprasījumi** rūtī **Saistītā informācija**, kas atrodas lapas **Visi līdzekļi** vai **Aktīvie līdzekļi** labajā pusē (**Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**) rāda aktīvos uzturēšanas pieprasījumus, kas ir pievienoti atlasītajam līdzeklim.
+Saistītās **informācijas** **·** **·** **rūts** sadaļas Aktīvās uzturēšanas pieprasījumi lapas Visi līdzekļi vai Aktīvie līdzekļi (**·** \> **Visi pamatlīdzekļi vai Aktīvie līdzekļi) labajā pusē rāda aktīvos** \> **·** **uzturēšanas pieprasījumus**, kas ir pievienoti atlasītajam pamatlīdzeklim.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Uzturēšanas pieprasījumi** \> **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi**.
+1. Atlasiet Līdzekļu **pārvaldības uzturēšanas** \> **pieprasījumus visiem** \> **uzturēšanas pieprasījumiem vai** Aktīvajai **uzturēšanai pieprasījumus.**
 2. Atlasiet **Jauns**.
 3. Dialoglodziņā **Izveidot pieprasījumu** laukā **Uzturēšanas pieprasījuma veids** atlasiet uzturēšanas pieprasījuma veidu. Tiek ieteikts noklusētais veids.
 4. Laukā **Apraksts** ievadiet nosaukumu vai virsrakstu, kas īsumā apraksta uzturēšanas pieprasījumu.

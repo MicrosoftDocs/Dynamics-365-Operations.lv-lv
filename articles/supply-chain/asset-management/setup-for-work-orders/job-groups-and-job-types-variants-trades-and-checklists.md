@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887607"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016773"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Uzturēšanas darbu tipi, kategorijas, varianti, tirdzniecība un kontrolsaraksti
 
@@ -243,7 +243,7 @@ Jūs varat uzstādīt pakešuzdevumu, lai atjauninātu uzturēšanas darba tipa 
 
 Pēc tam, kad izveidojat nepieciešamās uzturēšanas darba tipa noklusējuma kombinācijas, jūs varat izmantot lapu **Visi līdzekļi**, lai iegūtu pārskatu par šībrīža uzturēšanas darba tipa noklusējumu, kas ir saistīts ar konkrētu līdzekli. Pārskats uzrāda visas uzturēšanas darba tipa noklusējuma kombinācijas, kuras var izmantot līdzekļa veidā, kurš ir atlasīts līdzeklim. Šīs kombinācijas ietver kombinācijas, kurām ir uzturēšanas darba tipu variantu un uzturēšanas darba amatu variācijas.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** \> **Līdzekļi** \> **Visi līdzekļi vai** Aktīvie **līdzekļi.**
 2. Sarakstā atlasiet līdzekli, kuram skatīti uzturēšana darba tipa kombināciju pārskatu.
 3. Darbību rūtī, cilnē **Vispārīgi**, grupā **Saistīta informācija** atlasiet **Uzturēšanas darbu tipi**.
 
