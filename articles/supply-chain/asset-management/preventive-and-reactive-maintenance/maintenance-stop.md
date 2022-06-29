@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897695"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016483"
 ---
 # <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas aktivitātes
 
@@ -36,16 +36,16 @@ Dīkstāve uzturēšanas dēļ tiek izmantota, lai iegūtu pārskatu par noslodz
 
 Kad dīkstāves uzturēšanas dēļ reģistrācijā ir atlasīti līdzekļi, visas atvērtās uzturēšanas grafika rindas un darba pasūtījuma uzturēšanas darbi, kas attiecas uz aktīviem darba pasūtījumiem, tiek iekļauti dīkstāves uzturēšanas dēļ reģistrācijā.
 
-## <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas dēļ aktivitātes
+## <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas aktivitātes
 
-Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas uzturēšanas dīkstāves dēļ darbības**, lai atvērtu sarakstu ar visām dīkstāves uzturēšanas dēļ darbībām un redzētu informāciju, kas saistīta ar darbībām. Noklikšķiniet uz saites kolonnā **Dīkstāves uzturēšanas dēļ darbības**, lai atvērtu detalizētu skatu. Nākamajā attēlā ir parādīts saraksta **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
+Noklikšķiniet **uz Pamatlīdzekļu pārvaldības** > **dīkstāves** > **uzturēšanas** darbības Visas uzturēšanas dīkstāves darbības, lai atvērtu visu uzturēšanas dīkstāves aktivitāšu sarakstu un skatītu daļu no informācijas, kas saistīta ar aktivitātēm. Noklikšķiniet uz saites kolonnā **Dīkstāves uzturēšanas dēļ darbības**, lai atvērtu detalizētu skatu. Nākamajā attēlā ir parādīts saraksta **Dīkstāves uzturēšanas dēļ aktivitātes** piemērs.
 
 ![1. attēls.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Izveidojiet dīkstāves uzturēšanas dēļ aktivitāti
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Dīkstāves uzturēšanas dēļ darbības** > **Visas dīkstāves uzturēšanas dēļ darbības** vai **Aktīvās uzturēšanas dīkstāves dēļ darbības**.
+1. Noklikšķiniet uz **Pamatlīdzekļu pārvaldības dīkstāves** > **uzturēšanas darbības** > **Visas uzturēšanas dīkstāves aktivitātes vai** Aktīvās **uzturēšanas dīkstāves darbības**.
 
 2. Klikšķiniet **Jauns**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a91417e771902ffdc099591434befad2a3c137
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 17ada399e131f247ac7017e8819df4168d463cf5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678552"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015440"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Atbilstības skatīšana attiecībā uz līgumiem par pakalpojumu līmeni    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678552"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Atbilstības skatīšana attiecībā uz līgumiem par pakalpojumu līmeni
 
-1.  Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**. Atlasiet pakalpojuma pasūtījumu un veiciet dubultklikšķi, lai pasūtījumam atvērtu detalizētas informācijas formu.
+1.  **Klikšķiniet Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**. Atlasiet pakalpojuma pasūtījumu un veiciet dubultklikšķi, lai pasūtījumam atvērtu detalizētas informācijas formu.
 
 2.  Cilnes **Vispārīgi** laukā **Atbilstība** skatiet procentuālo daudzumu laika, kas iztērēts pakalpojuma pasūtījumam, salīdzinājumā ar laiku, kas norādīts līguma par pakalpojumu līmeni dokumentā.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907295"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023793"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907295"
 Modulis **Kreditoru sadarbība** ir paredzēts kreditoriem, kuri neizmanto elektroniskās datu apmaiņas (EDI) integrāciju ar Microsoft Dynamics 365 Supply Chain Management. Tā ļauj kreditoriem strādāt ar pirkšanas pasūtījumiem (purchase order — PO), rēķiniem, sūtījuma krājumu informāciju un piedāvājumu pieprasījumiem (requests for quotation — RFQ), kā arī ļauj kreditoriem piekļūt daļām no saviem kreditora pamatdatiem. Šajā rakstā skaidrots, kā var sadarboties ar ārējiem kreditoriem, kuri lieto kreditoru sadarbības interfeisu, lai strādātu ar POS, PP un sūtījumu krājumiem. Tajā ir arī paskaidrots, kā konkrētam kreditoram sniegt iespēju lietot kreditoru sadarbību un kā definēt informāciju, kuru redz visi kreditori, kad viņi atbild uz kādu pirkšanas pasūtījumu.
 
 Papildinformāciju par to, ko ārējie kreditori var darīt kreditoru sadarbības interfeisā, skatiet tēmā [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Informācija par kreditoru sadarbības šajā rakstā attiecas tikai uz pašreizējo Piegādes ķēžu pārvaldības versiju. Programmā Microsoft Dynamics AX 7.0 (2016. gada februāris) un Microsoft Dynamics AX programmas versijā 7.0.1 (2016. gada maijs) jūs ar kreditoriem sadarbojaties, izmantojot moduli **Kreditoru portāls**. Informāciju par moduli **Kreditoru portāls** skatiet šeit: [Sadarbība ar kreditoriem, izmantojot moduli Kreditoru portāls](collaborate-vendors-vendor-portal.md).
 
 Papildinformāciju par to, kā kreditori var lietot kreditoru sadarbības rēķinu izrakstīšanas procesus, skatiet tēmā [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Informāciju par to, kā nodrošināt jauna kreditora sadarbības lietotājus, skatiet tēmā [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Administrators konfigurē vispārīgos iestatījumus kreditoru sadarbībai, piem
 
 Lai ārējam kreditoram varētu izveidot lietotāju kontus, jums šis kreditora konts ir jākonfigurē, lai attiecīgais kreditors varētu izmantot kreditoru sadarbību. Lapas **Kreditori** cilnē **Vispārīgi** iestatiet lauku **Sadarbības aktivizēšana**. Ir pieejamas tālāk minētās opcijas.
 
-- **Aktīvs (pirkšanas pasūtījums tiek akceptēts automātiski)** — ja kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski.
+- **Aktīvs (pirkšanas pasūtījums tiek akceptēts automātiski)** — ja kreditors pirkšanas pasūtījumus pieņem bez izmaiņām, šie pirkšanas pasūtījumi tiek akceptēti automātiski. Ja izmantojat šo opciju, noteikti plānojiet *Apstiprināt* pieņemtos pirkšanas pasūtījumus no kreditora sadarbības pakešuzdevuma, kurš ir atbildīgs par apstiprinājumu apstrādi. Instrukcijas skatiet nākamajā sadaļā.
 - **Aktīvs (pirkšanas pasūtījums netiek akceptēts automātiski)** — kad kreditors ir pieņēmis pirkšanas pasūtījumus, jūsu organizācijai šie pirkšanas pasūtījumi ir jāakceptē manuāli.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Automātiskas apstiprināšanas pakešuzdevuma plānošana
+
+**Ja vienam vai vairākiem kreditoriem izmantojat opciju Aktīvs (PP ir automātiski akceptēts)** (kā aprakstīts iepriekšējā sadaļā), *jums* jāplāno Apstiprināt pieņemtos pirkšanas pasūtījumus no kreditora sadarbības pakešuzdevuma, kas ir atbildīgs par jūsu PO apstrādi un akceptēšanu. Pretējā gadījumā automātiskie apstiprinājumi nekad nebūs. Lai plānotu šo darbu, izmantojiet šādu procedūru.
+
+1. Dodieties uz **Sagādes un avotu Pirkšanas \> pasūtījumu pirkšanas pasūtījuma \> apstiprinājumu Apstiprināt \> pieņemtos pirkšanas pasūtījumus no kreditora sadarbības**.
+1. Dialoglodziņā Apstiprināt **pieņemtos pirkšanas pasūtījumus** no kreditora sadarbības dialoglodziņa **kopsavilkuma cilnes Palaist** kopsavilkuma cilnē Izpildīt atlasiet **Periodiskums**.
+1. Dialoglodziņā Definēt **atkārtošanās** dialoglodziņu definējiet grafiku, kurā darbs jāveic. Izvēloties grafiku, apsveriet šādas problēmas:
+
+    - Ja sistēma apstrādā lielu apjomu datu un darbina daudzus pakešuzdevumus, var rasties problēma. Šajā gadījumā, iespējams, šo darbu nevajadzētu palaist vairāk nekā ik pēc 10 minūtēm (atkarībā no citām prasībām). Ja veiktspēja jums nav problēma, varat to palaist tik bieži, cik tas nepieciešams ik pēc 1 līdz 2 minūtēm.
+    - Ja jūsu kreditori preču piegāde ir ātra (laikā, kad viņi ir vienojušies), periodiskumam vajadzētu būt biežiem (ik pēc 10 līdz 30 minūtēm). Šādā veidā noliktavas darbinieki pēc apstiprināšanas varēs saņemt preces pret apstiprināto PP.
+    - Ja jūsu kreditoriem ir ilgs izpildes laiks (vairāk nekā 24 stundas), varat iestatīt, lai šis uzdevums darbotos tikai vienu reizi dienā.
+
+1. Atlasiet **Labi,** lai piemērotu grafiku un atgrieztos pie pieņemtajiem **pirkšanas pasūtījumiem no kreditora sadarbības** dialoglodziņa.
+1. Ja nepieciešams, iestatiet papildu fona opcijas. Dialoglodziņš nodrošina parastās opcijas pakešuzdevumu iestatīšanai Piegādes ķēžu pārvaldībā.
+
+Papildinformāciju par pakešuzdevumiem skatiet sadaļā Pakešapstrādes [apskats](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Norādīšana, vai kreditoram vajadzētu redzēt cenu informāciju
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fe5726203ffc7fef12c02196f511bc4c3c9be2a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 370722d5c2f66e316d7c37f711cdd086bc53f6a8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674846"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014827"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Abonementa apmaksas dienu samazināšana 
 
@@ -31,7 +31,7 @@ Lai samazinātu esošas abonementa maksas dienu skaitu, varat izveidot jaunu dar
 
 ## <a name="reduce-the-days-on-a-subscription-fee"></a>Samazināt dienu skaitu abonementa maksā
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu abonementi** \> **Visi pakalpojumu abonementi**. Atlasiet pakalpojuma abonementu un darbību rūtī noklikšķiniet uz **Abonēšanas maksas**.
+1.  Noklikšķiniet **uz Pakalpojumu** \> **pārvaldības pakalpojumu abonementi** \> **visi pakalpojumu abonementi**. Atlasiet pakalpojuma abonementu un darbību rūtī noklikšķiniet uz **Abonēšanas maksas**.
 
 2.  Laukā **Abonementa tips** atlasiet **Dienu skaita samazināšana**.
 

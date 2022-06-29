@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893647"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014957"
 ---
 # <a name="procurement"></a>Sagāde
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893647"
 
 Līdzekļu pārvaldībā varat iegūt pārskatu par pirkšanas pieprasījumiem un pirkšanas pasūtījumiem, kas saistīti ar darba pasūtījumiem. Jūs varat izveidot pirkšanas pasūtījumu vai pirkšanas pieprasījumu arī no darba pasūtījuma.
 
-Saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšanas pieprasījums**) tiek parādīts pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšanas pieprasījuma** darbības rūtī, lai veiktu dažādas darbības:
+Darba **pasūtījuma pirkšanas pieprasījumu** saraksta lapa (**Līdzekļu pārvaldības** > **sagādes** > **darba pasūtījuma** pirkšanas pieprasījums) rāda ar darba pasūtījumiem saistīto pirkšanas pieprasījumu sarakstu. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšanas pieprasījuma** darbības rūtī, lai veiktu dažādas darbības:
 
 - Lai atvērtu saistīto pirkšanas pieprasījumu, atlasiet **Pirkšanas pieprasījums**. 
 - Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
@@ -39,7 +39,7 @@ Attēlā tālāk ir parādīts sarakstu lapas **Darba pasūtījumu pirkšanas pi
 ![1. attēls.](media/08-work-orders.png)
 
 
-Saraksta lapā **Darba pasūtījuma pirkšana** (**Līdzekļu pārvaldība** > **Vispārīgi** > **Sagāde** > **Darba pasūtījuma pirkšana**) tiek parādīti pirkšanas pieprasījumi, kas saistīti ar darba pasūtījumiem. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
+Darba **pasūtījuma pirkšanas** saraksta lapa (Līdzekļu **pārvaldības** > **sagādes** > **darba pasūtījuma** pirkšana) rāda ar darba pasūtījumiem saistīto pirkšanas pasūtījumu sarakstu. Kad šajā lapā atlasāt darba pasūtījuma uzdevumu, varat izmantot pogas grupā **Rādīt** **Darba pasūtījuma pirkšana** darbības rūtī, lai veiktu dažādas darbības:
 
 - Lai atvērtu saistīto pirkšanas pasūtījumu, atlasiet **Pirkšanas pasūtījums**. 
 - Lai atvērtu saistīto darba pasūtījumu, atlasiet **Darba pasūtījums**.
@@ -69,7 +69,7 @@ Pirkšanas pieprasījumā datums laukā **Pieprasītais datums**, kas norādīts
 
 Saraksta lapā **Visi darba pasūtījumi** jūs varat atlasīt darba pasūtījuma uzdevumu un tad izveidot saistītu pirkšanas pasūtījumu vai pirkšanas pieprasījumu. Šādā veidā jūs palīdzat nodrošināt projekta relācijas starp pirkšanas pasūtījumu vai pirkšanas pieprasījumu un darba pasūtījumu.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
+1. Atlasiet **Līdzekļu pārvaldības darba** > **pasūtījumus visiem** > **darba pasūtījumiem** vai aktīvajiem **darba pasūtījumiem**.
 
 2. Atlasiet darba pasūtījumu, lai izveidotu pirkšanas pasūtījumu, un pēc tam atlasiet **Rediģēt**.
 

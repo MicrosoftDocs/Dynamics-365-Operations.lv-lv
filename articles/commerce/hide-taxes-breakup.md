@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 669534a6611860ac73439460afedce341310cc7d
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881794"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027339"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>Nodokļu pārtraukuma informācijas slēpšana pasūtījumu kopsavilkumos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā rakstā ir aprakstīts, kā slēpt nodokļu pārtraukuma informāciju pasūtījuma kopsavilkumus par grozu, pārbaudi, pasūtījuma apstiprināšanu un pasūtījuma informācijas lapām Microsoft Dynamics 365 Commerce.
 

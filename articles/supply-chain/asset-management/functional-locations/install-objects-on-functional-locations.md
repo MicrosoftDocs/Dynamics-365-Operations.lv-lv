@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894506"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016077"
 ---
 # <a name="install-assets-on-functional-locations"></a>Līdzekļu uzstādīšana funkcionālajos novietojumos
 
@@ -40,7 +40,7 @@ Kad esat uzstādījis līdzekļus funkcionālajā novietojumā, pēc vajadzības
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Līdzekļu struktūras uzstādīšana funkcionālajā novietojumā
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Funkcionālie novietojumi** \> **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi**.
+1. Atlasiet **Līdzekļa pārvaldības funkcionālās** \> **vietas Visas** \> **funkcionālās vietas vai** Aktīvās **funkcionālās vietas.**
 2. Atlasiet funkcionālo novietojumu, kurā uzstādīt līdzekli.
 3. Atlasiet **Uzstādīt līdzekli**.
 

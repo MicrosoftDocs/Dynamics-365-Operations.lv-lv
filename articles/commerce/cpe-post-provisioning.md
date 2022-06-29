@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
-description: Šajā rakstā ir izskaidrots, kā Microsoft Dynamics 365 Commerce konfigurēt novērtēšanas vidi pēc tās nodrošinājuma.
+title: Konfigurēt kases Dynamics 365 Commerce vides
+description: Šajā rakstā ir aprakstīts, kā konfigurēt kastu Microsoft Dynamics 365 Commerce vidi pēc tās nodrošinājuma.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892334"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013113"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides konfigurēšana
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Konfigurēt kases Dynamics 365 Commerce vides
 
 [!include [banner](includes/banner.md)]
 
-Šajā rakstā ir izskaidrots, kā Microsoft Dynamics 365 Commerce konfigurēt novērtēšanas vidi pēc tās nodrošinājuma.
+Šajā rakstā ir aprakstīts, kā konfigurēt kastu Microsoft Dynamics 365 Commerce vidi pēc tās nodrošinājuma.
 
-Veiciet šajā rakstā sniegtās procedūras tikai pēc tam, kad ir nodrošināta Commerce novērtēšanas vide. Informāciju par to, kā nodrošināt Commerce novērtējuma vidi, skatiet [Commerce novērtējuma vides nodrošināšana](provisioning-guide.md).
+Veiciet šajā rakstā sniegtās procedūras tikai pēc tam, kad ir nodrošināta Commerce kastu vide. Papildinformāciju par To, kā nodrošināt Commerce sēklodziņa vidi, skatiet [sadaļu Commerce kases kases vides nodrošināšana](provisioning-guide.md).
 
-Kad jūsu Commerce novērtējuma vide ir pilnībā nodrošināta, ir jāpabeidz papildu pēc nodrošināšanas konfigurācijas darbības, pirms var sākt novērtēt vidi. Lai veiktu šīs darbības, ir jāizmanto Microsoft Dynamics Lifecycle Services (LCS) un Dynamics 365 Commerce.
+Kad Commerce kastu vide ir nodrošināta beigās, pirms varat sākt izmantot vidi, ir jāveic papildu pēc nodrošinājuma konfigurācijas darbības. Lai veiktu šīs darbības, ir jāizmanto Microsoft Dynamics Lifecycle Services (LCS) un Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Pirms darba sākšanas
 
 1. Pierakstieties [LCS portālā](https://lcs.dynamics.com).
 1. Dodieties uz savu projektu.
-1. Augšējā izvēlnē atlasiet **Mākoņvides**.
 1. No saraksta atlasiet savu vidi.
 1. Vides informācijas labajā pusē atlasiet **Pieteikties vidē**. Jūs tiksiet nosūtīts uz Commerce galveno biroju.
-1. Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī).
-1. Dodieties uz **commerce parametru \> konfigurācijas** parametriem un nodrošiniet, ka parametram ProductSearch.UseAzureSearch **ir ievadīts** ieraksts un vai vērtība ir iestatīta kā **patiesa**. Ja šī ieraksta nav, to **·** **\>** var pievienot, iestatīt vērtību kā patiesu un pēc tam atlasīt Kanāla datu bāzes pilnu datu sinhronizāciju commerce Scale vienībai, kas ir saistīta ar jūsu e-commerce vietni.
+1. Pārliecinieties, ka ir atlasīta **USRT** juridiskā persona (augšējā labajā stūrī). Šī juridiskā persona ir iepriekš konfigurēta demonstrācijas datos.
+1. Dodieties uz **commerce parametru \> konfigurācijas** parametriem un nodrošiniet, ka parametram ProductSearch.UseAzureSearch **ir ievadīts** ieraksts un vai vērtība ir iestatīta kā **patiesa**. Ja šī ieraksta nav, pievienojiet to un iestatiet vērtību kā **patiesu**.
 1. Pārejiet uz **retail and Commerce \> Headquarters iestatīšanas \> Commerce plānotāju \> Inicializējiet Commerce plānotāju**. **Izvēlnē Inicializēt Commerce Scheduler** izniršanas izvēlni iestatiet opciju **Dzēst esošo** konfigurāciju **kā** Jā un pēc tam atlasiet **Labi**.
-1. Lai Commerce Scale Unit pievienotu kanālus, **dodieties uz mazumtirdzniecības un Commerce \> Headquarters \> iestatīšanas Commerce plānotāja \>** kanāla datu bāzi un pēc tam kreisajā rūtī atlasiet Commerce Scale Unit. Kopsavilkuma cilnē **Mazumtirdzniecības** kanāls pievienojiet **AW** tiešsaistes veikalu, **AW biznesa tiešsaistes** **veikalu un Fabrikam paplašinātos tiešsaistes veikala kanālus**. Pēc izvēles varat arī pievienot mazumtirdzniecības veikalus, ja izmantosit POS (piemēram, Sietlā, **·** **San Arko** un **San Arko).**
+1. Lai veikala un e-komercijas kanāli darbotos pareizi, tie ir jāpievieno Commerce Scale Unit. Dodieties uz **mazumtirdzniecības un \> Commerce \> Headquarters iestatīšanas \> Commerce plānotāja kanāla** datu bāzi un pēc tam kreisajā rūtī atlasiet Commerce Scale Unit. Kopsavilkuma cilnē **Mazumtirdzniecības** kanāls pievienojiet **AW tiešsaistes veikalu,** AW **biznesa** tiešsaistes veikalu un Fabrikam **paplašinātos tiešsaistes veikala kanālus,** ja plānojat izmantot šos e-komercijas kanālus. Pēc izvēles varat arī pievienot mazumtirdzniecības veikalus, ja izmantojat pārdošanas punktu (POS) (piemēram, **Sietlī**, **SanKo**, Un/vai **SanKo**).
+1. Lai nodrošinātu, ka visas izmaiņas tiek sinhronizētas ar kanāla datu bāzi, atlasiet **Commerce Scale Unit \>** kanāla datu bāzes pilnu datu sinhronizāciju.
 
 Pēc nodrošināšanas darbību laikā Commerce Headquarters, pārliecinieties, ka **USRT** juridiskā persona vienmēr ir atlasīta.
 
@@ -52,7 +52,7 @@ Pēc nodrošināšanas darbību laikā Commerce Headquarters, pārliecinieties, 
 Lai saistītu darbinieku ar jūsu identitāti, veiciet Commerce Headquarters norādītās darbības.
 
 1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Moduļi \> Mazumtirdzniecība un komercija \> Darbinieki \> Nodarbinātie**.
-1. Sarakstā atrodiet un atlasiet šādu ierakstu **000713 – Endrjū Kollete**.
+1. Sarakstā atrodiet un atlasiet šādu ierakstu **000713 – Endrjū Kollete**. Šis piemērs ir saistīts ar SanVānko veikalu, kas tiks izmantots nākamajā sadaļā.
 1. Darbību rūtī atlasiet **Commerce**.
 1. Atlasiet **Piesaistīt esošu identitāti**.
 1. Laukā **E-pasts** (pa labi no **Meklēt, izmantojot e-pastu**) ievadiet savu e-pasta adresi.
@@ -76,24 +76,24 @@ Lai aktivizētu mākoņa POS, veiciet LCS norādītās darbības.
 1. Atlasiet **Aktivizēt**. Jūs esat izrakstījies un aizvirzīts uz POS pierakstīšanās lapu.
 1. Tagad varat pieteikties mākoņa POS pieredzei, izmantojot operatora ID **000713** un paroli **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Iestatiet savu vietni pakalpojumā Commerce.
+## <a name="set-up-your-e-commerce-sites"></a>Iestatiet savas e-komercijas vietnes
 
-Lai sāktu iestatīt novērtējuma vietni pakalpojumā Commerce, veiciet tālāk norādītās darbības.
+Pastāv trīs pieejamas e-komercijas demonstrācijas vietnes: Fabrikam, Adventure Works un Adventure Works Business. Veiciet tālāk aprakstītās darbības, lai konfigurētu katru demonstrācijas vietu.
 
 1. Piesakieties vietņu veidotājā, izmantojot URL vietrādi, kuru atzīmējāt, kad nodrošināšanas laikā inicializējāt e-komerciju (skatiet [e-komercijas inicializēšana](provisioning-guide.md#initialize-e-commerce)).
-1. Atlasiet vietni **Fabrikam**, lai atvērtu vietnes iestatīšanas dialoglodziņu.
-1. Atlasiet domēnu, kuru ievadījāt, kad inicializējat e-Commerce.
-1. Kā noklusējuma kanālu atlasiet **Fabrikam paplašinātais tiešsaistes veikals**. (Pārliecinieties, ka atlasāt **paplašināto** tiešsaistes veikalu.)
+1. Izvēlieties vietu (Fabrikam **,** Adventure Works **,** Adventure Works Business **), lai atvērtu vietas** iestatīšanas dialoglodziņu.
+1. Atlasiet domēnu, kuru ievadījāt, kad inicializējāt Commerce.
+1. Galvenajā birojā atlasiet iepriekš konfigurēto tiešsaistes veikala kanālu (**Fabrikam paplašināto** tiešsaistes veikalu, **AW** **tiešsaistes veikalu vai AW biznesa tiešsaistes** veikalu), kas atbilst noklusējuma kanālam.
 1. Ka noklusējuma valodu atlasiet **en-us**.
-1. Atstājiet lauka **Path** vērtību tādu, kāda tā ir.
+1. Konfigurējiet ceļa laukus. Tas var būt tukšs vienai vietai, bet tas būs jākonfigurē, ja izmanto to pašu domēna nosaukumu vairākām vietām. Piemēram, `https://www.constoso.com` ja domēna nosaukums ir, varat izmantot tukšu ceļu fabrikam (`https://contoso.com`) un pēc tam izmantot "aw" Adventure Works (`https://contoso.com/aw`) un "awbusiness" Adventure Works biznesa vietnei (`https://contoso.com/awbusiness`).
 1. Atlasiet **Labi**. Tiek parādīts vietnes lapu saraksts.
-1. Atkārtojiet soļus 2-7 **AdventureWorks** vietai (kas kartē uz AW tiešsaistes **veikala kanālu)** **AdventureWorks un biznesa vietni (kas tiek kartēta uz AW biznesa tiešsaistes veikala** kanālu).**·** **Ja Fabrikam** vietas ceļš ir tukšs AdventureWorks, ir jāpievieno ceļi divām vietām (piemēram, "aw" un "awbusiness").
+1. Pēc izvēles atkārtojiet no 2. līdz 7. solim, lai pēc vajadzības konfigurētu citas demonstrācijas vietnes.
 
 ## <a name="enable-jobs"></a>Darbu iespējošana
 
 Lai iespējotu darbus pakalpojumā Commerce, izpildiet tālāk aprakstītās darbības.
 
-1. Pierakstieties vidē (HQ).
+1. Piesakieties galvenajā birojā vidē.
 1. Izmantojot izvēlni kreisajā pusē, dodieties uz **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Pakešuzdevumi**.
 
     Šīs procedūras atlikušie soļi jāaizpilda katram no šiem darbiem:
@@ -146,12 +146,11 @@ Lai vietnē veiktu pārbaudes transakcijas, varat izmantot tālāk minēto pārb
 
 ## <a name="next-steps"></a>Nākamās darbības
 
-Kad nodrošināšanas un konfigurēšanas darbības ir pabeigtas, varat sākt izmantot novērtējuma vidi. Izmantojiet Commerce vietnes veidotāja URL, lai dotos uz autorēšanas pieredzi. Izmantojiet Commerce vietnes URL, lai dotos uz mazumtirdzniecības klienta vietnes pieredzi.
+Kad nodrošinājuma un konfigurēšanas soļi ir pabeigti, var sākt izmantot kastes vidi. Izmantojiet Commerce vietnes veidotāja URL, lai dotos uz autorēšanas pieredzi. Izmantojiet Commerce vietnes URL, lai dotos uz mazumtirdzniecības klienta vietnes pieredzi.
 
-Lai konfigurētu neobligātos līdzekļus savai Commerce novērtējuma videi, skatiet [Commerce novērtējuma vides neobligāto līdzekļu konfigurācija](cpe-optional-features.md).
+Lai konfigurētu Commerce sūtnes vides izvēles līdzekļus, skatiet [sadaļu Izvēles līdzekļu konfigurēšana Commerce kases vides izvēles funkcijām](cpe-optional-features.md).
 
-> [!NOTE]
-> Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure Active Directory (Azure AD) “no uzņēmuma patērētājam” (Business-to-Consumer — B2C) nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka konfigurēšana nav nepieciešama novērtēšanas vidēm. Tomēr, ja jūs konfigurējat novērtēšanas vidi, lai izmantotu savu Azure AD B2C nomnieku, lūdzu, pievienojiet ``https://login.commerce.dynamics.com/_msdyn365/authresp`` kā atbildes URL Azure AD B2C programmā, izmantojot Azure portālu.
+Lai e-komercijas lietotāji varētu pieteikties e-komercijas vietnē, ir nepieciešama papildu konfigurācija, lai iespējotu vietas autentifikāciju, Azure Active Directory izmantojot "bizness-patērētājam" (B2C). Norādījumus skatiet uzņēmuma [Commerce B2C nomnieka iestatīšana](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 
@@ -177,15 +176,11 @@ Demonstrācijas dati tika nosūtīti Commerce versijā 10.0.26 un agrāk **, kad
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
+[Kases vides Dynamics 365 Commerce nodrošināšana](provisioning-guide.md)
 
-[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
+[Konfigurēt kases vides neobligātos Dynamics 365 Commerce līdzekļus](cpe-optional-features.md)
 
-[Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
-
-[BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
-
-[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
+[Konfigurēt BTOPS kastēs Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

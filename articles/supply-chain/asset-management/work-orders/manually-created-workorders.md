@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902087"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015032"
 ---
 # <a name="manually-created-work-orders"></a>Manuāli izveidotie darba pasūtījumi
 
@@ -34,9 +34,9 @@ Ir divi veidi, kādos var manuāli izveidot darba pasūtījumus:
 
 ## <a name="create-work-order"></a>Izveidot darba pasūtījumu
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
+1. Darba pasūtījumi **par pamatlīdzekļu** > **vadību -** > **visi darba pasūtījumi** vai aktīvie **darba pasūtījumi**
 
-2. Atlasiet **Jauns**.
+2. Atlasiet **Jauna**.
 
 3. Dialogā **Izveidot darba pasūtījumu** atlasiet darba pasūtījuma veidu laukā **Darba pasūtījuma veids**.
 
@@ -82,7 +82,7 @@ Ir divi veidi, kādos var manuāli izveidot darba pasūtījumus:
 
 Jūs varat izveidot darba pasūtījumu, kas ir saistīts ar esošo darba pasūtījumu. Šī spēja ir noderīga, ja, piemēram, vēlaties strādāt ar primāriem un sekundāriem darba pasūtījumiem. Jauns darba pasūtījums ir balstīts darba pasūtījuma darbā no esoša darba pasūtījuma.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
+1. Atlasiet **Līdzekļu pārvaldības darba** > **pasūtījumus visiem** > **darba pasūtījumiem** vai aktīvajiem **darba pasūtījumiem**.
 
 2. Atlasiet darba pasūtījumu, lai tam izveidotu saistīto darba pasūtījumu.
 
@@ -120,7 +120,7 @@ Attēlā tālāk ir parādīts sarakstu dialoga **Izveidot saistīto darba pasū
 
 Jūs varat ātri izveidot jaunu darba pasūtījumu no esoša darba pasūtījuma. Tādējādi darbs ar darba pasūtījumiem atšķiras no darba pasūtījumu izveides, kuri ir balstīti uz [uzturēšanas plāni](../preventive-and-reactive-maintenance/maintenance-plans.md). Tas ir noderīgi, ja, piemēram, darba pasūtījums satur daudzus darba pasūtījuma darbus un dažādiem darbiem jābūt pabeigtiem atšķirīgos līdzekļos regulāros intervālos.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**
+1. Atlasiet **Līdzekļu pārvaldības darba** > **pasūtījumus visiem** > **darba pasūtījumiem** vai aktīvajiem **darba pasūtījumiem**.
 
 2. Atlasiet darba pasūtījumu, no kura kopēt saturu.
 
@@ -142,7 +142,7 @@ Attēlā zemāk ir parādīts dialoglodziņš **Kopēt darba pasūtījumu**.
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Izveidojiet darba pasūtījumu balstītu uz uzturēšanas pieprasījumu
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Uzturēšanas pieprasījumi** > **Visi uzturēšanas pieprasījumi** vai **Aktīvie uzturēšanas pieprasījumi**.
+1. Atlasiet Līdzekļu **pārvaldības uzturēšanas** > **pieprasījumus visiem** > **uzturēšanas pieprasījumiem vai** Aktīvajai **uzturēšanai pieprasījumus**.
 
 2. Atlasiet uzturēšanas pieprasījumu, kuram izveidot darba pasūtījumu, un noklikšķiniet uz **Rediģēt**.
 

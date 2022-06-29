@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868106"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016280"
 ---
 # <a name="asset-manufacturers-and-models"></a>Līdzekļa ražotāji un modeļi
 
@@ -53,7 +53,7 @@ ms.locfileid: "8868106"
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Ražotāja un modeļa atlasīšana objektā
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības**\> **_līdzekļi_*\>**visi pamatlīdzekļi**.
 2. Kolonnā **Līdzeklis** atlasiet saiti līdzeklim. Tiek atvērta lapa **Detalizēta informācija**.
 3. Atlasiet **Rediģēt**.
 4. Kopsavilkuma cilnē **Vispārīgi** atlasiet vērtības laukos **Ražotājs** un **Modelis**.

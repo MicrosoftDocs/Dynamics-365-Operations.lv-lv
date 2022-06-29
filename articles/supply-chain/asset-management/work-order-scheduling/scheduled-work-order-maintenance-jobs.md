@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849624"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017034"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Plānotie darba pasūtījuma uzturēšanas darbi
 
@@ -32,7 +32,7 @@ Lapa **Ieplānotie darba pasūtījumu uzturēšanas darbi** parāda pārskatu pa
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Ieplānoto darba pasūtījumu uzturēšanas darbu skatīšana
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Ieplānotie darba pasūtījumu uzturēšanas darbi**. Tiek parādīts saraksts ar visiem darba pasūtījumiem, kas iestatīti darba pasūtījuma dzīves cikla stāvoklī “Ieplānots” vai “Notiek”.
+1. Noklikšķiniet **uz Līdzekļu pārvaldības** > **darba pasūtījumi** > **ieplānotos darbu pasūtījumu uzturēšanas darbus**. Tiek parādīts saraksts ar visiem darba pasūtījumiem, kas iestatīti darba pasūtījuma dzīves cikla stāvoklī “Ieplānots” vai “Notiek”.
 
 2. Sarakstu var kārtot, piemēram, pēc uzturēšanas speciālista. Var izmantot arī filtru, lai ierobežotu sarakstu un parādītu darba pasūtījumus, kas piešķirti konkrētam resursam vai uzturēšanas speciālistam.
 

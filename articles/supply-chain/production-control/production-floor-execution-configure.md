@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899416"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022570"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -113,9 +113,6 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 
 ### <a name="enable-the-my-day-dialog"></a>Iespējot dialogu "Mana diena"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Dialogs **Mana diena** sniedz darbiniekiem apskatu par viņu ikdienas reģistrācijām un pašreizējām bilancēm par apmaksāto laiku, apmaksātajām virsstundām, kavējumiem un apmaksātajiem kavējumiem.
 
 Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 
 ### <a name="enable-teams"></a>Iespējot grupas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Ja vienā ražošanas darbā ir piešķirti vairāki darbinieki, viņi var veidot grupu. Grupa var nominēt vienu darbinieku kā atbildīgo. Tad atlikušie darbinieki automātiski kļūst par šī vadītāja asistentiem. Iegūtajai komandai tikai atbildīgo ir jāreģistrē darba statuss. Laika ieraksti attiecas uz visiem grupas dalībniekiem.
 
 Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 - *Ražošanas grupas ražošanas izpildes interfeisā*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Iespējot papildu konfigurāciju ražošanas izpildes interfeisā
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Šī funkcija pievieno iestatījumus tālāk minētās funkcionalitātes lapai **Konfigurēt ražošanas izpildes** izpildi:
 
@@ -168,7 +159,7 @@ Kopsavilkuma cilnē Vispārīgi ir pieejami **šādi** iestatījumi:
 
 - **Ierašanās un aiziešanas laiks** - iestatiet *šo* opciju uz Jā, lai izveidotu vienkāršotu interfeisu, kas nodrošina tikai ierašanās un aiziešanas funkcionalitāti. Šis iestatījums atspējo lielāko daļu citu opciju šajā lapā. Pirms šīs opcijas iespējošanas no **Clnes atlases** kopsavilkuma cilnē ir jānoņem visas rindas.
 - **Iespējot meklēšanu** – iestatiet šo opciju kā *Jā*, lai iekļautu meklēšanas lauku darbu sarakstā. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai arī var atrast visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot svītrkodu vai skenējot svītrkodu.
-- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad*, ja opcija **Aktivizēt meklēšanu** arī ir iestatīta uz *Jā*.
+- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad, ja opcija* Aktivizēt meklēšanu **arī ir iestatīta uz** *Jā*.
 - **Automātiski atvērt sākuma dialogu** – kad šī opcija *ir* iestatīta uz Jā, automātiski tiek atvērts dialoglodziņš Sākt darbu, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Automātiski atvērt pārskata norises dialoglodziņu** — *kad* šī opcija ir iestatīta uz Jā, automātiski tiek atvērts pārskata norises dialoglodziņš, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Aktivizēt materiālu koriģēšanu** – iestatiet šo opciju *uz Jā*, lai **iespējotu** pogu **Koriģēt materiālu pārskata** norises dialoglodziņā. Darbinieki var izvēlēties šo pogu, lai koriģētu darba materiālu patēriņu.

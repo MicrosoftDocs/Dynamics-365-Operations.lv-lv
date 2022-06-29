@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469259"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960197"
 ---
 # <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
@@ -91,19 +91,13 @@ Prognozes autorizēšanas pirmā daļa (**Pieprasījuma apjoma prognozes UOM > K
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
-
-[Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
-
-[Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
-
-[Autorizēt koriģēto pieprasījuma apjoma prognozi](authorize-adjusted-forecast.md)
-
-[Prognozes precizitātes pārraudzība](monitor-forecast-accuracy.md)
-
-[Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi](remove-historical-outliers-calculating-demand-forecast.md)
-
-[Pieprasījuma prognozēšanas funkcionalitātes paplašināšana](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
+- [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
+- [Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
+- [Autorizēt koriģēto pieprasījuma apjoma prognozi](authorize-adjusted-forecast.md)
+- [Prognozes precizitātes pārraudzība](monitor-forecast-accuracy.md)
+- [Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi](remove-historical-outliers-calculating-demand-forecast.md)
+- [Video: paplašināt pieprasījuma prognozēšanas funkcionalitāti](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Webi plkst.: pieprasījuma apjoma prognozēšana ar Azure mašīnas apmācību sērijām](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908777"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017150"
 ---
 # <a name="multi-level-assets"></a>Vairāklīmeņu līdzekļi
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908777"
 
 Šajā rakstā ir izskaidrots, kā izveidot un dzēst daudzlīmeņu līdzekļus. Varat izveidot līdzekļus un saistītos pakārtotos līdzekļus hierarhiskā koka struktūrā. Šādā veidā var parādīt relācijas un atkarības starp līdzekļiem. Uzturēšanas darbi var būt saistīti ar visiem koka struktūras līmeņiem. Statistiku var izveidot arī individuālam līmenim vai kā visu pakārtoto līdzekļu līmeņu summu.
 
-Saraksta lapā **Visi līdzekļi** (**Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**) kolonnā **Līdzeklis** līdzekļi ir uzskaitīti hierarhiskā kārtībā. Kolonnā **Vecākelements** tiek rādīts saistītais vecākelements. Turklāt, ja līdzekļi un pakārtotie līdzekļi jau ir izveidoti, sadaļā **Līdzekļu koks** rūtī **Saistītā informācija** tiek parādīti līdzekļi koka struktūrā.
+Saraksta lapā **Visi līdzekļi** (Visi **līdzekļu vadības** \> **līdzekļi** \> **·** **·**) kolonna Aktīvs uzskaita līdzekļus hierarhiskā secībā. Kolonnā **Vecākelements** tiek rādīts saistītais vecākelements. Turklāt, ja līdzekļi un pakārtotie līdzekļi jau ir izveidoti, sadaļā **Līdzekļu koks** rūtī **Saistītā informācija** tiek parādīti līdzekļi koka struktūrā.
 
 Papildinformāciju par līdzekļa izveidi skatiet nodaļā [Līdzekļa izveide](../objects/create-an-object.md). Lai izveidotu pakārtotu līdzekli, kopsavilkuma cilnē **Vispārīgi** atlasiet primāro līdzekli laukā **Vecākelements**.
 
@@ -38,7 +38,7 @@ Papildinformāciju par līdzekļa izveidi skatiet nodaļā [Līdzekļa izveide](
 
 Ja jūsu uzņēmumam ir vairākas līdzīgas līdzekļu struktūras, varat izmantot funkciju Kopēt Līdzekļu pārvaldībā, lai tos ātri izveidotu.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** \> **līdzekļi** \> **visi pamatlīdzekļi**.
 2. Saraksta lapā **Visi līdzekļi** atlasiet līdzekli, kuru kopēt. Piemēram, ja vēlaties kopēt visu līdzekļu struktūru, tostarp pakārtotos līdzekļus, atlasiet primāro līdzekli.
 3. Atlasiet **Kopēt līdzekli**. Sadaļā **Kopēt no** lauks **Līdzeklis** ir iestatīts uz saraksta lapā atlasīto līdzekli.
 4. Sadaļā **Kopēt uz** laukā **Līdzeklis** ievadiet jaunā līdzekļa nosaukumu.

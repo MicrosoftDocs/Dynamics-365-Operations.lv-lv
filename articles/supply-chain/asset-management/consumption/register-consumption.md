@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886049"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015090"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -35,7 +35,7 @@ Dažos gadījumos, iespējams, jūs varat pievienot vai dzēst prognozes rindas 
 >[!NOTE]
 >Var iestatīt automātisku žurnālu grāmatošanu darba pasūtījuma dzīves cikla stāvoklī. Vairāk informācijas skatiet sadaļā [Darba pasūtījuma dzīves cikla stāvokļi](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-1. Klikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Noklikšķiniet **uz Līdzekļu pārvaldības** > **darbs pasūtījumiem** > **visi darba pasūtījumi** vai aktīvie **darba pasūtījumi**.
 
 2. Atlasiet darba pasūtījumu un noklikšķiniet uz **Žurnāli**.
 
@@ -61,7 +61,7 @@ Tālāk redzamajā ekrānuzņēmumā ir parādīts stundas vai krājuma reģistr
 
 Ja darba pasūtījumā ir vairāki darba pasūtījuma uzdevumi, varat reģistrēt darba stundas, izmantojot funkciju **Sadalīt stundas**, t. i., vienas stundas reģistrācijas rinda var tikt vienmērīgi sadalīta katrā darba pasūtījuma uzdevumā.
 
-1. Klikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Noklikšķiniet **uz Līdzekļu pārvaldības** > **darbs pasūtījumiem** > **visi darba pasūtījumi** vai aktīvie **darba pasūtījumi**.
 
 2. Atlasiet darba pasūtījumu un noklikšķiniet uz **Žurnāli**.
 

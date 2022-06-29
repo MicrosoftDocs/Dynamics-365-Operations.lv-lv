@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870905"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016106"
 ---
 # <a name="calculate-item-forecast"></a>Aprēķināt krājumu prognozi
 
@@ -36,7 +36,7 @@ Tāpat kā veikt noslodzes aprēķinus, kas aprakstīti iepriekšējā sadaļā,
 
 Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamo vienuma patēriņu (rezerves daļas un citi vienumi, kas vajadzīgi darba pasūtījuma pabeigšanai) noteiktam periodam. Vienuma prognozes aprēķinu var veikt visiem līdzekļiem vai atlasītiem līdzekļiem. Varat veikt arī dīkstāves uzturēšanas dēļ aprēķinu (**Visas dīkstāves uzturēšanas dēļ darbības** vai **Aktīvās dīkstāves uzturēšanas dēļ darbības**) vai darba pasūtījumu kopai (**Visas darba pasūtījumu kopas** vai **Aktīvās darba pasūtījumu kopas**).
 
-1. Klikšķiniet uz pogas **Aktīvu pārvaldība** > **Pieprasījumi** > **Vienuma prognoze** vai **Līdzekļu pārvaldība** > **Kopīgi** > **Darbu pasūtījuma kopas** > **Visas darbu pasūtījumu kopas** / **Aktīvās darba pasūtījumu kopas** > atlasiet darba pasūtījumu kopu sarakstā > **Vienuma prognoze** vai **Aktīvu pārvaldība** > **Vispārīgi** > **Dīkstāve uzturēšanas dēļ** > **Visas dīkstāves uzturēšanas dēļ darbības** / **Aktīvās dīkstāves uzturēšanas dēļ darbības** > atlasiet uzturēšanas darbību sarakstā > **Vienuma prognoze**.
+1. **·** > **·** > **·** **·** > **·** > **·** / **Noklikšķiniet** uz Līdzekļu pārvaldības uzziņas Krājumu prognoze vai Līdzekļu pārvaldības Darba pasūtījumu kopas Visas darbu pasūtījumu kopas Aktīvās darba pasūtījumu kopas > atlasiet darbu pasūtījumu kopu sarakstā > **·** **·** > **·** > **·** / **Krājuma** prognozes poga vai Līdzekļa pārvaldības dīkstāves uzturēšanas dīkstāves aktivitātes Visas uzturēšanas dīkstāves aktivitātes > atlasiet uzturēšanas dīkstāves aktivitāti sarakstā > **Krājumu prognozes** poga.
 
 2. Dialogā **Aprēķināt vienuma prognozi** atlasiet periodu, kuram vēlaties veikt aprēķinu, laukos **Sākuma datums/laiks** un **Beigu datums/laiks**.
 

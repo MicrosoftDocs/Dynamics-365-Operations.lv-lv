@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851280"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014624"
 ---
 # <a name="wave-creation-and-processing"></a>Kopumu izveide un apstrāde
 
@@ -60,9 +60,9 @@ Lai manuāli izveidotu kopumu, veiciet tālāk aprakstītās darbības:
 1. Pārliecinieties, vai atbilstošās [Kopuma veidnes](wave-templates.md) nav iestatītas automātiskai kopuma izveidei noliktavai un pasūtījumu tipiem, kur vēlaties to darīt manuāli.
 1. Atkarībā no izveidojamā kopuma veida, noklikšķiniet uz vienas tālāk minētajām opcijām:
 
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi kopumi**. Darbību rūtī atlasiet **Kopums**.
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi ražošanas kopumi**. Darbību rūtī atlasiet **Ražošanas kopums**.
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi Kanban kopumi**. Darbību rūtī atlasiet **Izveidot kopumu**.
+    - Ejiet uz **Noliktavas pārvaldība** \> **Izejošie kopumi Nosūtīšanas** \> **kopumi** \> **Visi kopumi.** Darbību rūtī atlasiet **Kopums**.
+    - Pārejiet uz **Noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Ražošanas kopumi Visiem** \> **ražošanas kopumiem.** Darbību rūtī atlasiet **Ražošanas kopums**.
+    - Pārejiet uz **noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Kanban kopumiem** \> **visiem Kanban kopumiem.** Darbību rūtī atlasiet **Izveidot kopumu**.
 
 1. Laukā **Apraksts** ievadiet īsu kopuma aprakstu. Tam jāraksturo, kas tiks apstrādāts kopumā.
 
@@ -87,9 +87,9 @@ Kad kopums ir izveidots, bet vēl nav izlaists, varat manuāli norādīt, ko taj
 
 1. Atkarībā no kopuma veida, lai pievienotu rindas, veiciet vienu no šīm darbībām:
 
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi kopumi**. Darbību rūtī atlasiet **Kopums**.
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi ražošanas kopumi**. Darbību rūtī atlasiet **Ražošanas kopums**.
-    - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi Kanban kopumi**. Darbību rūtī atlasiet **Izveidot kopumu**.
+    - Ejiet uz **Noliktavas pārvaldība** \> **Izejošie kopumi Nosūtīšanas** \> **kopumi** \> **Visi kopumi.** Darbību rūtī atlasiet **Kopums**.
+    - Pārejiet uz **Noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Ražošanas kopumi Visiem** \> **ražošanas kopumiem.** Darbību rūtī atlasiet **Ražošanas kopums**.
+    - Pārejiet uz **noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Kanban kopumiem** \> **visiem Kanban kopumiem.** Darbību rūtī atlasiet **Izveidot kopumu**.
 
 1. Atlasiet kopumu. Sadaļā Darbību rūts noklikšķiniet uz viena no tālāk aprakstītajiem vienumiem:
 
@@ -121,9 +121,9 @@ Lai manuāli apstrādātu kopumu, kurā ir viss nepieciešamais saturs, rīkojie
 
 1. Atkarībā no apstrādājamā kopuma veida veiciet tālāk norādītās darbības:
 
-    - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi kopumi**. Darbību rūtī atlasiet **Kopums**.
-    - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi ražošanas kopumi**. Darbību rūtī atlasiet **Ražošanas kopums**.
-    - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi Kanban kopumi**. Darbību rūtī atlasiet **Izveidot kopumu**.
+    - Atlasiet **Noliktavas pārvaldības Izejošie** \> **kopumi Nosūtīšanas** \> **kopumi** \> **Visi kopumi.** Darbību rūtī atlasiet **Kopums**.
+    - Atlasiet **Noliktavas pārvaldības** \> **Izejošie kopumi** \> **Ražošanas kopumi Visi** \> **ražošanas kopumi.** Darbību rūtī atlasiet **Ražošanas kopums**.
+    - Atlasiet **noliktavas pārvaldības** \> **izejošos kopumus** \> **Kanban kopumiem visiem** \> **Kanban kopumiem.** Darbību rūtī atlasiet **Izveidot kopumu**.
 
 1. Atlasiet apstrādājamo kopumu. Darbību rūtī atlasiet **Apstrādāt**.
 
@@ -141,9 +141,9 @@ Lai manuāli izlaistu kopumu, veiciet tālāk aprakstītās darbības:
 
 1. Atkarībā no apstrādājamā kopuma veida veiciet tālāk norādītās darbības:
 
-      - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi kopumi**. Darbību rūtī atlasiet **Kopums**.
-      - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi ražošanas kopumi**. Darbību rūtī atlasiet **Ražošanas kopums**.
-      - Atlasiet **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi Kanban kopumi**. Darbību rūtī atlasiet **Izveidot kopumu**.
+      - Atlasiet **Noliktavas pārvaldības Izejošie** \> **kopumi Nosūtīšanas** \> **kopumi** \> **Visi kopumi.** Darbību rūtī atlasiet **Kopums**.
+      - Atlasiet **Noliktavas pārvaldības** \> **Izejošie kopumi** \> **Ražošanas kopumi Visi** \> **ražošanas kopumi.** Darbību rūtī atlasiet **Ražošanas kopums**.
+      - Atlasiet **noliktavas pārvaldības** \> **izejošos kopumus** \> **Kanban kopumiem visiem** \> **Kanban kopumiem.** Darbību rūtī atlasiet **Izveidot kopumu**.
 
 1. Atlasiet izlaižamo kopumu. Darbību rūtī atlasiet **Izveidot kopumu**.
 
@@ -179,9 +179,9 @@ Ja nepieciešams, varat atcelt kopumu, kas ir apstrādāts. Lai atceltu kopumu u
 
 1. Atkarībā no atceļamā kopuma veida veiciet tālāk norādītās darbības:
 
-      - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi kopumi**.
-      - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi ražošanas kopumi**.
-      - Dodieties uz **Noliktavas pārvaldība** \> **Vispārēji** \> **Kopumi** \> **Sūtījuma kopumi** \> **Visi Kanban kopumi**.
+      - Ejiet uz **Noliktavas pārvaldība** \> **Izejošie kopumi Nosūtīšanas** \> **kopumi** \> **Visi kopumi.**
+      - Pārejiet uz **Noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Ražošanas kopumi Visiem** \> **ražošanas kopumiem.**
+      - Pārejiet uz **noliktavas** \> **pārvaldības izejošajiem kopumiem** \> **Kanban kopumiem** \> **visiem Kanban kopumiem.**
 
 1. Atlasiet atceļamo kopumu. Darbību rūts cilnē **Darbs** atlasiet **Atcelt**.
 

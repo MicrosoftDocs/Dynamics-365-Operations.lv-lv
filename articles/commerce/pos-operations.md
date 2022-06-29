@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852723"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027287"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Lielākā daļa darbību, ko lietotāji veic pārdošanas punktā (POS), tiek uzskatītas par operācijām. Operācijas tiek konfigurēts un pārvaldītas Dynamics 365 Commerce operāciju uzskaites daļā. Daudzas operācijas var pievienot pogām, kas ir ietvertas POS pogu režģī. Pēc tam lietotāji var atlasīt pogas, lai izsauktu attiecīgās operācijas un veiktu ar tām saistītās funkcijas. Lai operāciju varētu pievienot pogu rindai pogu rindas veidotājā, tā vispirms ir jāatzīmē kā lietotāja operācija POS operāciju skatā programmā Commerce Headquarters (**Retail un Commerce Channel \> Setup POS setup \> POS \>\> Operations**.)
 

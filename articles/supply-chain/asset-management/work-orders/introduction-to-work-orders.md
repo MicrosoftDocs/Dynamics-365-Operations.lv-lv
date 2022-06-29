@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902836"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016715"
 ---
 # <a name="introduction-to-work-orders"></a>Ievads par darba pasūtījumiem
 
@@ -47,15 +47,15 @@ Darba pasūtījumus var izveidot šādos veidos:
 
 ## <a name="all-work-orders"></a>Visi darba pasūtījumi
 
-Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** , lai atvērtu **Visi darba pasūtījumi** sarakstu lapu. Šajā lapā tiek rādīti visi darba pasūtījumi un daļa informācijas, kas ir saistīta ar katru no tiem.
+Atlasiet **Līdzekļu pārvaldības darbs** > **pasūtījumus** > **visiem darba pasūtījumiem**, lai atvērtu **saraksta lapu Visi** darba pasūtījumi. Šajā lapā tiek rādīti visi darba pasūtījumi un daļa informācijas, kas ir saistīta ar katru no tiem.
 
 Zemāk redzamajā ilustrācijā ir parādīts sarakstu lapas **Visi darba pasūtījumi** piemērs.
 
 ![1. attēls.](media/01-work-orders.png)
 
-Lai skatītu tikai aktīvo darba pasūtījumu sarakstu, atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Aktīvie darba pasūtījumi**. 
+Lai skatītu tikai aktīvo darba pasūtījumu sarakstu, atlasiet Līdzekļu pārvaldības **darba pasūtījumi** > **aktīvie** > **darba pasūtījumi**. 
 
-Lai skatītu sarakstu ar darba pasūtījuma darbiem, kuri satur līdzekļus, kas instalēti funkcionālā novietojumā, ar kuru esat saistīts kā speciālists, atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Mani funkcionālā novietojuma darba pasūtījuma uzturēšanas darbi**. (Saikne starp darbiniekiem un funkcionālajiem novietojumiem ir iestatīta lapā **Speciālisti** .) Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
+Lai skatītu darbu pasūtījumu darbu sarakstu, kas ietver līdzekļus, kas ir instalēti funkcionālās vietās, kuras esat saistīts kā darbinieks, **·** > **·** > **atlasiet Līdzekļu vadības darba pasūtījumi Manas funkcionālās atrašanās vietas darba pasūtījuma uzturēšanas darbi.** (Saikne starp darbiniekiem un funkcionālajiem novietojumiem ir iestatīta lapā **Speciālisti** .) Papildinformāciju skatiet sadaļā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md).)
 
 Tālāk ir norādīti daži veidi, kā varat izmantot **Visi darba pasūtījumi** lapu:
 

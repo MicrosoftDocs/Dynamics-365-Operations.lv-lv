@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882407"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015177"
 ---
 # <a name="service-order-item-requirements"></a>Pakalpojumu pasūtījumu krājumu prasības
 
@@ -36,7 +36,7 @@ Tiklīdz kādam pakalpojuma pasūtījumam ir izveidota krājuma prasība, to var
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Krājuma prasības apskatīšana no pakalpojuma pasūtījuma
 
-1. Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1. Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 1. Noklikšķiniet uz **Nosūtīt** un pēc tam noklikšķiniet uz **Krājuma prasība**, lai atvērtu formu **Krājumu prasības**.
 1. Noklikšķiniet uz cilnes **Projekts** un pārbaudiet lauku **Pakalpojuma pasūtījums**, lai redzētu krājuma vajadzības pakalpojumu pasūtījumus.
 
@@ -44,13 +44,13 @@ Tiklīdz kādam pakalpojuma pasūtījumam ir izveidota krājuma prasība, to var
 
 Ja elementa prasības ir izveidotas pakalpojuma pasūtījumā, nebūs iespējams dzēst pakalpojuma pasūtījumu. Lai varētu dzēst pakalpojuma pasūtījumu, ir jāizdzēš krājumu prasība.
 
-1. Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1. Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 1. Noklikšķiniet uz **Nosūtīt** un pēc tam noklikšķiniet uz **Krājuma prasība**, lai atvērtu formu **Krājumu prasības**. Šajā formā ir uzskaitītas visas pakalpojuma pasūtījumā izveidotās krājumu prasības.
 1. Atlasiet dzēšamo krājuma prasību un pēc tam noklikšķiniet uz **Dzēst**.
 
 –vai–
 
-1. Dodieties uz **Projektu pārvaldība un uzskaite** \> **Vispārīgi** \> **Projekti** \> **Visi projekti**.
+1. Dodieties uz **Projektu vadība un uzskaite** \> **Projekti** \> **Visi projekti**.
 1. Atveriet projektu, kuram ir pakalpojumu pasūtījums ar izveidoto krājumu prasību.
 1. Veidlapas **Projekti** labajā rūtī atlasiet **Krājumu prasības**. Veidlapā **Krājumu prasības** ir uzskaitītas krājumu prasības, kas ir saistītas ar atlasīto projektu.
 1. Atlasiet dzēšamo krājuma prasību un pēc tam noklikšķiniet uz **Dzēst**.

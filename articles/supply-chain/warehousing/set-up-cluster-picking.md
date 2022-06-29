@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862313"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014768"
 ---
 # <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
 
@@ -74,9 +74,14 @@ Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu,
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Krājumu pārbaudes klastera izdošanai iestatīšana
 
-1. Mobilās ierīces izvēlnes vienumā atveriet iestatīšanas formu darba apstiprināšanai:  **Noliktavas pārvaldība** \> **Noliktavas pārvaldība** \> **Iestatījumi** \>  **Mobilā ierīce** \> **Mobilās ierīces izvēlnes vienumi**.
+1. Pārejiet uz **sadaļu Noliktavas** > **pārvaldības iestatījuma** > **mobilās ierīces** > **mobilās ierīces izvēlnes vienumi**.
+1. Saraksta rūtī atlasiet izvēlnes elementu, kuru vēlaties iestatīt.
+1. Darbību rūtī atlasiet Darba **apstiprinājuma iestatījumi**.
+1. Veiciet vienu no tālāk šīm darbībām:
+    - Ja darba tipam, kuru vēlaties iestatīt **, jau** pastāv rinda, atlasiet to un pēc tam **darbību** rūtī atlasiet Rediģēt.
+    - Ja atbilstoša rinda nepastāv, atlasiet Jauns darbību **rūtī** un pēc tam iestatiet darba **veidu** kā atbilstošu veidu.
+1. Atzīmējiet **izvēles rūtiņu Preces** apstiprināšana jaunajai vai atlasītajai rindai. Tādējādi darbinieki varēs pārbaudīt katru krājuma vienību, izmantojot mobilo ierīci.
 
-1. Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**. Opcija **Preces apstiprināšana** jums ļauj skenēšanas laikā mobilajā ierīcē pārbaudīt katru krājumu vienību.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

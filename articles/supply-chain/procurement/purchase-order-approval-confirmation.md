@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907382"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016454"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -50,7 +50,7 @@ Kad ir iespējota izmaiņu pārvaldība, pirkšanas pasūtījumi tiek vadīti ca
 ## <a name="confirming-purchase-orders"></a>Pirkšanas pasūtījumu ratificēšana
 Pirkšanas pasūtījumiem, kuru apstiprinājuma statuss ir **Apstiprināts**, pirms to ratificēšanas var izpildīt papildu darbības. Piemēram, iespējams, jums kāds pirkšanas pieprasījums ir jāsūta kreditoram, lai uzzinātu informāciju par cenām, atlaidēm vai piegādes datumiem. Šādā gadījumā pirkšanas pasūtījumam varat iestatīt statusu **Tiek pārskatīts ārēji**, izmantojot darbību **Pirkšanas pieprasījums**.
 
-Kreditori, kas ir iestatīti kreditoru portāla lietošanai, var pārskatīt portālā esošos pasūtījumus un tos apstiprināt vai noraidīt. Šī pārskatīšanas procesa laikā pirkšanas pasūtījuma statuss ir **Tiek pārskatīts ārēji**. Kreditoru portālu var konfigurēt tā, lai ratificēšana no kreditora automātiski ratificētu šo pasūtījumu programmatūrā Supply Chain Management. Pirkšanas pasūtījumu varat arī ratificēt manuāli, kad esat saņēmis ratifikāciju no kreditora. Ja kreditors kādu pirkšanas pasūtījumu noraida, tad noraidījums tiek saņemts kopā ar noraidīšanas iemeslu un izmaiņu ierosinājumiem. Šajā gadījumā pirkšanas pasūtījuma statuss saglabājas kā **Tiek pārskatīts ārēji**.
+Kreditori, kas iestatīti lietot kreditoru sadarbības moduli, var pārskatīt pasūtījumus portālā un tos apstiprināt vai noraidīt. Šī pārskatīšanas procesa laikā pirkšanas pasūtījuma statuss ir **Tiek pārskatīts ārēji**. Kreditoru sadarbības moduli var konfigurēt tā, lai kreditora apstiprinājums automātiski apstiprinātu pasūtījumu Piegādes ķēžu pārvaldībā. Pirkšanas pasūtījumu varat arī ratificēt manuāli, kad esat saņēmis ratifikāciju no kreditora. Ja kreditors kādu pirkšanas pasūtījumu noraida, tad noraidījums tiek saņemts kopā ar noraidīšanas iemeslu un izmaiņu ierosinājumiem. Šajā gadījumā pirkšanas pasūtījuma statuss saglabājas kā **Tiek pārskatīts ārēji**.
 
 Pastāv arī iespēja ģenerēt pasūtījuma pro forma ratifikāciju, pirms ir apstrādāta faktiskā ratifikācija. Šī opcija tikai izveido atskaiti, kuru var koplietot ar kreditoru. Tā neizveido nekādu žurnāla informāciju.
 

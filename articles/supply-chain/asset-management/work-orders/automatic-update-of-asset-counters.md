@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856256"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016222"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju automātiska atjaunināšana
 
@@ -53,7 +53,7 @@ Kā minēts iepriekš, automātisko skaitītāju vērtības var arī atjaunināt
 
 5. Atlasiet **Labi**. 
 
-Pēc automātiskās līdzekļu skaitītāja atjaunināšanas varat apskatīt skaitītāja reģistrācijas, kas saistītas ar līdzekli lapā **Līdzekļu skaitītāji**. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Līdzekļi** > **Visi līdzekļi**, atlasiet līdzekli un pēc tam darbību rūts cilnas **Līdzeklis** grupā **Profilaktiski** atlasiet **Skaitītāji**.
+Pēc automātiskās līdzekļu skaitītāja atjaunināšanas varat apskatīt skaitītāja reģistrācijas, kas saistītas ar līdzekli lapā **Līdzekļu skaitītāji**. Atlasiet **Pamatlīdzekļu vadības** > **līdzekļi** > **Visi** pamatlīdzekļi, **·** **atlasiet** līdzekli un pēc tam darbību rūtī cilnes Pamatlīdzeklis sadaļā Preventīvā grupa atlasiet Skaitītāji.**·**
 
 Lapā **Līdzekļu apkopotā vērtība** ir pārskats par jaunāko reģistrāciju, kas veikta visiem skaitītāju veidiem visiem līdzekļiem. Atlasiet **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļi** > **Līdzekļu apkopotā vērtība**. Šī lapa ir līdzīga lapai **Līdzekļu skaitītāji**, taču jūs nevarat pievienot vai rediģēt reģistrācijas. Tā ir tikai pārskatam.
 

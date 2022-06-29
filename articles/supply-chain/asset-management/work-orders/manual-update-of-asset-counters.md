@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897724"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016599"
 ---
 # <a name="manual-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju manuāla atjaunināšana
 
@@ -34,7 +34,7 @@ Atlasītais skaitītāja veids var būt iestatīts tā, lai tas pārmantotu skai
 
 Lapā **Visi līdzekļi** jūs izveidojat stundu vai daudzuma skaitītāja reģistrācijas līdzeklim, pamatojoties uz jūsu līdzekļa lasījumiem.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi**
+1. Atlasiet **Pamatlīdzekļu pārvaldības** > **līdzekļi** > **visi pamatlīdzekļi**.
 
 2. Atlasiet līdzekli un pēc tam darbības rūtī, cilnē **Līdzeklis** grupā **Profilaktiska** atlasiet **Skaitītāji**. Lapā **Līdzekļu skaitītāji** ir redzams saraksts ar visām iepriekšējām skaitītāju reģistrācijām, kas tika veiktas atlasītajā līdzeklī.
 

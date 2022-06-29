@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888417"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016954"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Krājumu prasību izveide pakalpojumu pasūtījumiem
 
@@ -34,14 +34,14 @@ Krājumu prasības pakalpojumu pasūtījumiem tiek apstrādātas ar projektu. La
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Krājumu vajadzības izveide pakalpojuma pasūtījumam
 
-1. Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1. Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu pasūtījumi**.
 1. Atlasiet pakalpojuma pasūtījumu, kuram vēlaties izveidot krājumu vajadzību.
 1. Sadaļas **Darbību rūts** cilnē **Nosūtīšana** noklikšķiniet uz **Krājumu prasība**.
 1. Veidlapā **Krājumu vajadzības** ievadiet informāciju par nepieciešamo krājumu. Papildinformāciju par noteiktiem laukiem skatiet rakstā [Krājumu vajadzības (veidlapa)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Krājumu vajadzības izveide pakalpojuma līgumam
 
-1. Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1. Dodieties uz **Pakalpojumu pārvaldības** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 1. Atveriet pakalpojuma līgumu, kuram vēlaties izveidot krājumu vajadzību.
 1. Kopsavilkuma cilnē **Rindas** atlasiet **Pievienot**, lai izveidotu jaunu rindu.
 1. Laukā **Transakcijas veids** atlasiet vienumu **Krājums**.

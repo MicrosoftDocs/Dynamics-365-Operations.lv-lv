@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893705"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015614"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Izveidot līdzekļus, pamatojoties uz pirkšanas pasūtījumiem
 
@@ -45,7 +45,7 @@ Vispirms iestatiet vienības, kas jāizmanto līdzekļu veidošanai no pirkšana
 
 ## <a name="create-assets-from-pending-assets"></a>Līdzekļu izveide no gaidošiem līdzekļiem
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Gaidošie līdzekļi**.
+1. Noklikšķiniet **uz Nenokārtoti** > **·** > **līdzekļu vadības līdzekļi**.
 2. Tiks parādīts pirkšanas pasūtījumu atjaunināts saraksts, pamatojoties uz vienībām, kas atlasītas laukā **Līdzekļu vienības**.
 3. Varat filtrēt pirkšanas pasūtījumu statusu, lai atlasītu, kurā dzīves cikla stāvoklī šis līdzeklis ir jāizveido. Piemēram, varat izveidot līdzekļus tikai tad, ja preču ieejas plūsma ir iegrāmatota pirkšanas pasūtījumā.
 4. Pirkšanas pasūtījuma rindā atlasiet saiti **Atsauces numurs**, lai skatītu detalizētu informāciju par vienību.

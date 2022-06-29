@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872099"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015061"
 ---
 # <a name="condition-assessment"></a>Nosacījuma novērtējums
 
@@ -47,7 +47,7 @@ Nosacījumu novērtējums tiek veidots par līdzekļiem. Pirms veicat nosacījum
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Nosacījumu novērtējuma reģistrācijas izveide līdzeklim
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** > **līdzekļi** > **visi pamatlīdzekļi**.
 2. Sarakstā atlasiet līdzekli, kuram vēlaties izveidot nosacījumu novērtējuma reģistrāciju.
 3. Cilnē **Vispārīgie iestatījumi** noklikšķiniet uz **Nosacījumu novērtējums**.
 4. Noklikšķiniet uz **Jauns**, lai veiktu jaunu reģistrāciju.
@@ -62,7 +62,7 @@ Nosacījumu novērtējums tiek veidots par līdzekļiem. Pirms veicat nosacījum
 Kad esat veicis nosacījumu novērtējuma reģistrēšanu līdzeklim, varat izdrukāt nosacījumu novērtējuma atskaiti.
 
 >[!NOTE]
->Varat arī reģistrēt nosacījumu novērtējumu darba pasūtījumā (**Līdzekļu pārvaldība** > **Kopīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** > **Nosacījumu novērtējuma** poga.)
+>Darba pasūtījumā var arī reģistrēt nosacījumu novērtējumu (Pamatlīdzekļu **pārvaldības darba** > **pasūtījumi visi darba pasūtījumu** > **nosacījuma** > **novērtēšanas** poga.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

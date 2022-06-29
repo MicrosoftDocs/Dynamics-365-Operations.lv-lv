@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677091"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017249"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Vienības izmaksu cena un atgrieztā laidiena ID        
 
@@ -38,7 +38,7 @@ Lai atgriešanai no debitora izmantotu citas izmaksas, nevis pašreizējās izma
 
 Pēc noklusējuma, pievienojot krājumus atgriešanas pasūtījumam, tie tiek atgriezti krājumos pašreizējā izmaksu cenā. Lai norādītu citu vienības izmaksu cenu, rīkojieties šādi.
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Visi atdošanas pasūtījumi**.
+1.  Noklikšķiniet **uz Pārdošanas un mārketinga** \> **pārdoto preču atgriešanas visi** \> **atgriešanas pasūtījumi**.
 
 2.  **Darbību rūts** grupā **Jauns** noklikšķiniet uz **Atgriešanas pasūtījums**.
 
@@ -54,7 +54,7 @@ Pēc noklusējuma, pievienojot krājumus atgriešanas pasūtījumam, tie tiek at
 
 Atgriešanas rindu izveidei vēlams izmantot šo metodi. Lai izmantotu preču izmaksas brīdī, kad pārdevāt preces debitoram, izveidojiet atgriešanas pasūtījumu un norādiet atgriežamo pārdošanas rindu.
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Visi atdošanas pasūtījumi**.
+1.  Noklikšķiniet **uz Pārdošanas un mārketinga** \> **pārdoto preču atgriešanas visi** \> **atgriešanas pasūtījumi**.
 
 2.  **Darbību rūts** grupā **Jauns** noklikšķiniet uz **Atgriešanas pasūtījums**.
 

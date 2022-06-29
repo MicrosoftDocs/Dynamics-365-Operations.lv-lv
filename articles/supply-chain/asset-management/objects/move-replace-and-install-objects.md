@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872129"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015584"
 ---
 # <a name="move-replace-and-install-assets"></a>Līdzekļu pārvietošana, aizstāšana un uzstādīšana
 
@@ -44,7 +44,7 @@ Izmantojiet funkciju **Pārvietot līdzekli**, lai pārvietotu līdzekli uz citu
 > [!NOTE]
 > Nelietojiet šo funkciju, ja līdzekļi tiek laboti vai īslaicīgi aizstāti. Tā vietā izmantojiet funkciju **Aizvietot līdzekli**, kas ir aprakstīta tālāk šajā rakstā.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** \> **Līdzekļi** \> **Visi līdzekļi vai** Aktīvie **līdzekļi.**
 2. Sarakstā atlasiet līdzekli, kuru pārvietot. Ja līdzeklim ir pakārtotie līdzekļi, jūs pārvietojat arī šos līdzekļus.
 3. Atlasiet **Pārvietot līdzekli**.
 4. Lai pārvietotu līdzekli tā, lai tas kļūtu par līdzekļa struktūras sastāvdaļu, atlasiet jauno līdzekli laukā **Primārais līdzeklis**. Ja pārvietojat pakārtotu līdzekli un vēlaties to padarīt par patstāvīgu līdzekli, kam nav struktūras attiecību, atstājiet lauku **Primārais līdzeklis** tukšu.
@@ -58,7 +58,7 @@ Izmantojiet funkciju **Aizstāt līdzekli** saistībā ar nolietota līdzekļa r
 > [!NOTE]
 > Ja labošanas cehs ir saistīts ar jūsu ražošanas nodaļu, varat izveidot funkcionālos novietojumus, piemēram, **Remonts**, **Brāķis** un **Glabāšana**, lai pārvaldītu līdzekļu remontu un aizstāšanu.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** \> **Līdzekļi** \> **Visi līdzekļi vai** Aktīvie **līdzekļi.**
 2. Sarakstā atlasiet aizstājamo pakārtoto līdzekli. Ja līdzeklim ir pakārtotie līdzekļi, jūs aizstājat arī šos līdzekļus.
 3. Atlasiet **Aizstāt līdzekli**.
 
@@ -79,7 +79,7 @@ Izmantojiet funkciju **Uzstādīt līdzekli**, lai uzstādītu līdzekļu strukt
 > [!NOTE]
 > Vienmēr atlasiet primāro līdzekli. Primārais līdzeklis un saistītie pakārtotie līdzekļi tiks pārvietoti uz atlasīto funkcionālo novietojumu.
 
-1. Atlasiet **Līdzekļu pārvaldība** \> **Kopīgi** \> **Līdzekļi** \> **Visi līdzekļi** vai **Aktīvie līdzekļi**.
+1. Atlasiet **Pamatlīdzekļu pārvaldības** \> **Līdzekļi** \> **Visi līdzekļi vai** Aktīvie **līdzekļi.**
 2. Sarakstā atlasiet primāro līdzekli, kuru uzstādīt citā funkcionālajā novietojumā.
 3. Atlasiet **Uzstādīt līdzekli**.
 

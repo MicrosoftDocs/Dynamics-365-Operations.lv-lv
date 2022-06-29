@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857900"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015003"
 ---
 # <a name="add-fault-to-work-order"></a>Pievienot kļūmi darba pasūtījumam
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857900"
 
 Kļūmes, kas iestatītas kļūmju noformētājā, varat pievienot darba pasūtījumam. Vienam vai vairākiem kļūdas ierakstiem jābūt piesaistītiem tiem līdzekļu veidiem, kas tiek izmantoti darba pasūtījumā atlasītajam līdzeklim. Plašāku informāciju par iestatīšanu skatiet zem saites [KĻūmju pārvaldība](../setup-for-work-orders/fault-management.md).
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Vispārīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
+1. Atlasiet **Līdzekļu pārvaldības darba** > **pasūtījumus visiem** > **darba pasūtījumiem vai** aktīvajiem **darba pasūtījumiem**.
 
 2. Atlasiet darba pasūtījumu, kuram izveidot kļūmju reģistrāciju, un pēc tam darbības rūts cilnē **Darba pasūtījums**, kas atrodas grupā **Līdzekļi**, atlasiet **Līdzekļa kļūme**.
 
@@ -64,7 +64,7 @@ Saraksta **Līdzekļu kļūmes** lapā ir pārskats par visām kļūmēm, kas re
 
 Saraksta **Visi līdzekļi** lapā varat izdrukāt līdzekļu kļūmju pārskatu, kas parāda visas kļūmju reģistrācijas un kļūmju statistikas grafisko pārskatu.
 
-1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Visi līdzekļi**
+1. Atlasiet **Pamatlīdzekļu pārvaldības** > **līdzekļi** > **visi pamatlīdzekļi**.
 
 2. Atlasīt līdzekli, kuram jādrukā kļūmju pārskats.
 

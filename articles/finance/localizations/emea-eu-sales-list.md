@@ -2,7 +2,7 @@
 title: ES pārdošanas saraksta pārskats
 description: Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323478"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012502"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
@@ -74,7 +74,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 </tr>
 <tr class="odd">
 <td><strong>Iestatījumi:</strong> PVN reģistrācijas numuri</td>
-<td>Izveidojiet PVN <strong>reģistrācijas numurus</strong> jūsu partneriem lapā Visi debitori (<strong></strong>&gt;<strong></strong>&gt;<strong></strong> dodieties uz Sadaļu Pārdošanas un mārketinga debitori visi debitori, <strong></strong>&gt;<strong>atlasiet debitora ierakstu un pēc tam atlasiet Debitoru reģistrācijas PVN)</strong><strong>vai kreditoru lapu (</strong><strong></strong>&gt;<strong></strong>&gt;<strong>dodieties uz lapu Sagāde un avotu kreditori, atlasiet kreditora ierakstu un</strong> pēc tam atlasiet Kreditori.<strong></strong>&gt;<strong>Reģistrācijas NUMURS</strong>( ID)). Kopsavilkuma cilnes <strong>Reģistrācijas ID</strong> cilnē Vispārīgi <strong></strong> izveidojiet ierakstu un norādiet šādu informāciju:
+<td>Izveidojiet PVN reģistrācijas numurus jūsu partneriem lapā <strong>Visi debitori</strong> ( dodieties uz Sadaļu <strong>Pārdošanas un mārketings</strong> &gt; <strong>Debitori</strong> &gt; <strong>Visi debitori</strong>, atlasiet <strong>Debitori</strong> &gt; <strong>Debitoru reģistrācijas ID</strong>)vai <strong>kreditoru</strong> lapu (dodieties uz lapu <strong>Sagāde un avoti</strong> &gt; <strong>kreditori</strong> &gt; <strong>kreditora</strong> ierakstu un pēc tam atlasiet <strong>Kreditori</strong> &gt; <strong>Reģistrācijas ID</strong>). Kopsavilkuma cilnes <strong>Reģistrācijas ID</strong> cilnē Vispārīgi <strong></strong> izveidojiet ierakstu un norādiet šādu informāciju:
 <ul>
 <li><strong>Reģistrācijas tips</strong> – atlasiet reģistrācijas veidu, kas <strong>piešķirts PVN ID</strong> reģistrācijas kategorijai attiecībā uz valsti/reģionu, kurā atrodas darījumu partneris.</li>
 <li><strong>Reģistrācijas numurs</strong> – ievadiet citas puses PVN reģistrācijas numuru.</li>
@@ -150,7 +150,7 @@ Alternatīvi PVN reģistrācijas numurus saviem atdošanas darījumiem varat izv
 -   Projekta rēķini
 -   Kreditora rēķini
 
-Darbība tiek uzskatīta par EK tirdzniecības darbību, ja darbības piegādes adrese ir kādā no ES dalībvalstīm. Šādām valstīm/reģioniem, cilnē **Valsts/reģiona parametri** ir jābūt ierakstam lapā **Ārējās tirdzniecības parametri**, un **Valsts/reģiona tips** vērtībai ir jābūt iestatītam uz **ES**. EK tirdzniecības darbības tiek atzīmētas laukā **Saraksta kods** lauks. Izmantojot šo lauku, jūs varat arī atdalīt vispārējās EK tirdzniecības darbības no triangulārās tirdzniecības darījumiem. Informāciju par kopienas iekšējās tirdzniecības transakcijām varat apkopot lapā **ES pārdošanas saraksts** (noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **Ārējā tirdzniecība** &gt; **ES pārdošanas saraksts**), izmantojot funkciju **Pārsūtīt**. Šī funkcija ļauj iekļaut darbības, kurām ir dažādu pārskatu veidu summas (t. i., krājumu vai pakalpojumu), saskaņā ar krājumu PVN grupām, kas norādītas darbību rindās. Jūs varat lietot arī citus filtrus, lai noteiktu darbības, kas jāiekļauj. Funkcija **Pārsūtīt** lapā **ES pārdošanas saraksts** izveido ierakstu katrai EK tirdzniecības darbībai, kas ir iekļauta, un norāda darījuma partnera konta numuru, valsti/reģionu, PVN reģistrācijas numuru, rēķina numuru un datumu, kā arī katra pārskata tipa rindu kopskaitu. Tas arī nokopē vērtību **Saraksta kods** no darbības. Saraksta kodu darbībai var manuāli mainīt lapā **ES pārdošanas saraksts**. Funkcija **Pārsūtīt** izveido ierakstus, kur vērtība **Pārskata statuss** ir iestatīta uz **Iekļauts**. Jūs varat pārbaudīt informāciju, kas tiek apkopota lapā **ES pārdošanas saraksts**, izmantojot funkciju **Apstiprināt**.
+Darbība tiek uzskatīta par EK tirdzniecības darbību, ja darbības piegādes adrese ir kādā no ES dalībvalstīm. Šādām valstīm/reģioniem, cilnē **Valsts/reģiona parametri** ir jābūt ierakstam lapā **Ārējās tirdzniecības parametri**, un **Valsts/reģiona tips** vērtībai ir jābūt iestatītam uz **ES**. EK tirdzniecības darbības tiek atzīmētas laukā **Saraksta kods** lauks. Izmantojot šo lauku, jūs varat arī atdalīt vispārējās EK tirdzniecības darbības no triangulārās tirdzniecības darījumiem. Informāciju par kopienas iekšējās tirdzniecības transakcijām varat apkopot lapā **ES pārdošanas saraksts** (noklikšķiniet uz **Nodokļi** &gt; **Deklarācijas** &gt; **Ārējā tirdzniecība** &gt; **ES pārdošanas saraksts**), izmantojot funkciju **Pārsūtīt**. Šī funkcija ļauj iekļaut darbības, kurām ir dažādu pārskatu veidu summas (t. i., krājumu vai pakalpojumu), saskaņā ar krājumu PVN grupām, kas norādītas darbību rindās. Jūs varat lietot arī citus filtrus, lai noteiktu darbības, kas jāiekļauj. Funkcija **Pārsūtīt** lapā **ES pārdošanas saraksts** izveido ierakstu katrai EK tirdzniecības darbībai, kas ir iekļauta, un norāda darījuma partnera konta numuru, valsti/reģionu, PVN reģistrācijas numuru, rēķina numuru un datumu, kā arī katra pārskata tipa rindu kopskaitu. Tas arī nokopē vērtību **Saraksta kods** no darbības. Saraksta kodu darbībai var manuāli mainīt lapā **ES pārdošanas saraksts**. Funkcija **Pārsūtīt** izveido ierakstus, kur vērtība **Pārskata statuss** ir iestatīta uz **Iekļauts**. Jūs varat pārbaudīt informāciju, kas tiek apkopota lapā **ES pārdošanas saraksts**, izmantojot funkciju **Apstiprināt**. Varat iegūt detalizētu informāciju par rēķinu (pārdošanas virzienam), izmantojot **kopsummu** funkciju.
 
 ### <a name="generating-the-eu-sales-list-report"></a>ES pārdošanas saraksta pārskata izveide
 
@@ -160,8 +160,26 @@ Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju 
 
 Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts** ), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
 
+## <a name="list-of-country-specific-topics"></a>Valstij specifisku tēmu saraksts
 
-
+| Valsts/reģions          | Saite      |
+|------------------|-----------|
+| Austrija          | [ES pārdošanas saraksts Austrijai](emea-aut-eu-sales-list.md)| 
+| Beļģija          |[ES pārdošanas saraksts, kas paredzēts Beļģijai](emea-bel-eu-sales-list.md)|
+| Čehijas Republika          |[ES pārdošanas saraksts Čehijai](emea-cze-eu-sales-list.md)|
+| Dānija          |[ES pārdošanas saraksts Dānijai](emea-dnk-eu-sales-list.md)|
+| Igaunija          |[ES pārdošanas saraksts Igaunijai](emea-est-eu-sales-list.md)|
+| Somija          |[ES pārdošanas saraksts Somijai](emea-fin-eu-sales-list.md)|
+| Francija          |[ES pārdošanas saraksts Francijai](emea-fra-eu-sales-list.md)|
+| Vācija          |[ES pārdošanas saraksts Vācijai](emea-deu-eu-sales-list.md)|
+| Ungārija          |[ES pārdošanas saraksts Ungārijai](emea-hun-eu-sales-list.md)|
+| Latvija          |[ES pārdošanas saraksts Latvijā](emea-lva-eu-sales-list.md)|
+| Lietuva          |[ES pārdošanas saraksts Lietuvai](emea-ltu-eu-sales-list.md)|
+| Nīderlande          |[ES pārdošanas saraksts Nīderlandei](emea-nl-eu-sales-list.md)|
+| Polija          |[ES pārdošanas saraksts Polijai](emea-pol-eu-sales-list.md)|
+| Spānija          |[ES pārdošanas saraksts Spānijai (pārskats 349)](emea-esp-sales-list.md)|
+| Zviedrija          |[ES pārdošanas saraksts Zviedrijai](emea-swe-eu-sales-list.md)|
+| Apvienotā Karaliste (Ziemeļīrija)          |[ES pārdošanas saraksts Apvienotajai Karalistei (Īrija)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
