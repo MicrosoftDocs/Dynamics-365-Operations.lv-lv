@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: "Supply Chain Management 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: "Supply Chain Management 10.0.25 (2022.\_gada aprīlis)"
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -176,7 +174,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Finance and\_Operations programmu arhitektūra"
+                - name: Finanšu un operāciju programmu arhitektūra
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Līdzekļu pārvaldības integrēšana ar programmu Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-        - name: Datu pārvaldība
-          items:
             - name: Mērķa elementi
               href: asset-management/data-management/target-entities.md
         - name: Izmaksu uzskaite
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Iekļaut fizisko vērtību
                   href: cost-management/include-physical-value.md
+                - name: Fiksēta saņemtā krājuma cena
+                  href: cost-management/fixed-receipt-price.md
+                - name: Grāmatot izmaksu kontā uzskaites principā
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Izmaksu objekti
                   href: cost-management/cost-object.md
                 - name: Izmaksu objekta bilances skatīšana
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Rīcībā esošo krājumu saraksts
                   href: inventory/inventory-on-hand-list.md
+                - name: Krājumu transakcijas detalizētā informācija
+                  href: inventory/inventory-transactions-details.md
                 - name: Krājumu līmeņu inicializēšana noliktavā
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Fizisko krājumu pārsūtīšana noliktavā
@@ -2111,7 +2113,9 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Sagāde un avoti
           items:
-            - name: Sagādes un avotu apskats
+            - name: Sagādes un avotu sākumlapa
+              href: procurement/procurement-sourcing.md
+            - name: Sagādes un avotu pārskats
               href: procurement/procurement-sourcing-overview.md
             - name: Sagādes un avotu darbplūsma
               href: procurement/procurement-sourcing-workflows.md
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: Pirkšanas pasūtījuma izveide
                   href: procurement/tasks/create-purchase-order.md
+                - name: Budžeta noteikta pirkšanas pasūtījuma izveide
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: Pirkšanas pasūtījuma izveide ar piegādes grafiku
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Pirkšanas pasūtījuma izveide vienreizējam piegādātājam
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: Konfigurācijas izveide atbilstoši ierobežojumiem
                   items:
+                    - name: Preces konfigurācijas modeļu pārskats
+                      href: pim/product-configuration-models.md
                     - name: Preces konfigurācijas modeļa iestatīšana
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Preces konfigurācijas modeļa aprēķini
@@ -2933,6 +2941,8 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Debitoru portāla pielāgošana un izmantošana
                   href: sales-marketing/customer-portal-customize.md
+            - name: Debitoru kredītlimiti
+              href: sales-marketing/credit-limits-customers.md
             - name: Mazumtirdzniecības atlaide
               href: sales-marketing/trade-allowance.md
             - name: Jauna tirdzniecības līguma izveide
@@ -2951,6 +2961,8 @@
                       href: service-management/service-agreement-groups.md
                     - name: Pakalpojumu līgumu izveide
                       href: service-management/create-service-agreements.md
+                    - name: Pakalpojuma līguma grupu izveide
+                      href: service-management/create-service-agreement-groups.md
                     - name: Pakalpojumu intervāli
                       href: service-management/service-intervals.md
                     - name: Pakalpojumu intervālu iestatīšana
@@ -2972,7 +2984,7 @@
                     - name: Pakalpojumu objektu pārskats
                       href: service-management/service-objects.md
                     - name: Pakalpojumu objektu izveide
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Krājumu vienību pievienošana pakalpojumu objektiem
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Pakalpojumu objektu grupas
@@ -3117,9 +3129,11 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Pakalpojumu pasūtījumu krājumu prasības
                           href: service-management/service-order-item-requirements.md
+                        - name: Adreses pievienošana pakalpojuma pasūtījumam
+                          href: service-management/add-address-service-order.md
                         - name: Abonementa darbplūsmas pārskats
                           href: service-management/subscription-workflow-overview.md
-                        - name: Pakalpojumu pasūtījumu kombinēšana
+                        - name: Kombinēt pakalpojumu pasūtījumus
                           href: service-management/combine-service-orders.md
                         - name: Pakalpojumu abonementu izveide no abonementu grupas
                           href: service-management/create-service-subscriptions-from-subscription-group.md
@@ -3137,8 +3151,10 @@
                           href: service-management/set-up-service-activity-types.md
                         - name: Izvēlētā tehniķa iestatīšana
                           href: service-management/set-up-preferred-technician.md
-                        - name: Nosūtīšanas darba grupu iestatīšana
+                        - name: Iestatīt nosūtīšanas darba grupas
                           href: service-management/set-up-dispatch-teams.md
+                        - name: Skatīt nosūtīšanas grupas
+                          href: service-management/view-dispatch-teams.md
                         - name: Pakalpojumu pasūtījumu prioritāšu noteikšana
                           href: service-management/prioritize-service-orders.md
                         - name: Pakalpojumu pasūtījumu statusa skatīšana
@@ -3257,8 +3273,6 @@
                   href: landed-cost/landed-cost-enable.md
                 - name: Kopējo sūtījuma izmaksu parametri
                   href: landed-cost/landed-cost-parameters.md
-                - name: Kopējo sūtījuma izmaksu sagādes un avotu parametri
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Brauciena statusa iestatīšana
                   href: landed-cost/voyage-status-setup.md
                 - name: Pārvadāšanas konteinera iestatīšana
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Informācijas par nosūtīšanu iestatīšana
                   href: landed-cost/shipping-information-setup.md
+                - name: Automātiska izmaksu iestatīšana
+                  href: landed-cost/auto-cost-setup.md
                 - name: Izmaksu aprēķināšanas parametru vērtību iestatīšana
                   href: landed-cost/costing-parameters-setup.md
+                - name: Kopējo sūtījuma izmaksu sagādes un avotu parametri
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Kreditora iestatījumi pievienoti kopējam sūtījuma izmaksām
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Virsgrāmatas noklusējuma apraksti
                   href: landed-cost/defult-descriptions.md
-            - name: Kreditora iestatījumi pievienoti kopējam sūtījuma izmaksām
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: 'Darbs ar braucieniem, konteineriem un iesaiņojumiem'
               items:
                 - name: Braucienu pārvaldība
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Rīcībā esošo krājumu datu elementu paplašināšana
               href: inventory/extend-on-hand-entities.md
-        - name: Problēmu novēršana
-          items:
-            - name: Izmaksu pārvaldība
-              items:
-                - name: Krājumu vecumstruktūru pārskata neatbilstība
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: 'Brīdinājumi vai kļūdas par virsgrāmatas perioda statusa mainīšanu, neslēdzot krājumus'
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Funkcionālās atšķirības starp krājumu vērtību/novecošanās pārskatiem un to glabāšanas versijām
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: 'Atjaunināšanas konflikts rodas, kad krājumu novērtēšanas metode ir standarta izmaksas vai pārvieto vidējo vērtību'
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: 'Trūkstoši lauka iestatījumi, kopējot krājumu modeļu grupas citā juridiskajā personā'
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Pārskatā “Netiešās izmaksas procesā” ir iekļauti dzēsti ražošanas pasūtījumi
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: 'Pirkšanas uzkrājums, kas grāmatots ar nulles summu nulles vērtības produktu ieejas plūsmai'
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Fiziski saņemtie pirkšanas pasūtījumi neparādās krājumu slēgšanas pārskatā
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Lapas Krājuma cena cilnē Aktīvās cenas nav sākuma datuma
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Krājumu pārvaldība
-              items:
-                - name: Nevar atrast nolaižamo dialoglodziņu Darbplūsma krājumu žurnāliem
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: 'Krājumu žurnāla darbplūsma netiek pabeigta, un žurnālu nevar apstrādāt'
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: 'Jūsu krājumu žurnāls ir bloķēts, un darbplūsmas pakešuzdevums nedarbojas'
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Krājumu žurnālā mērvienības un mērvienību daudzums nedarbojas pareizi
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Krājumu žurnāla darbplūsmas nosacījumi attiecas uz žurnāla līmeni, nevis rindas līmeni'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: 'Filtra rūts rīcībā esošo krājumu saraksta lapā nedarbojas, kā paredzēts'
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Maksimālais decimāldaļu skaits noliktavas vienībai ir 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Vairākas krājumu transakcijas partijas numuriem bez iestatījuma “Fiziski atjauninot”
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: 'Stornējot pārskatu kā pabeigtu, tiek izveidota neparedzēta atvērta transakcija'
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Izdošanas saraksta pārskatā netiek rādītas žurnālam pievienotas jaunas piezīmes
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: 'Sāktā karantīnas pasūtījuma daudzums netiek atjaunināts, kad pasūtījums tiek sadalīts'
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: 'Lauks “Pēdējās pārbaudes datums” netiek atjaunināts, kad tiek veidoti vairāki kvalitātes pārbaudes pasūtījumi'
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Sadalot pieļaujamā svara daudzumu, tiek izmantots minimālais daudzums, nevis nominālais daudzums'
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Vispārējā plānošana
-              items:
-                - name: 'Sistēma nevar atrast plānotu pasūtījumu, strādājot ar vairākiem pasūtījumiem'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: MK izvēršana rīkojas atšķirīgi apstiprinātiem un novērtētiem ražošanas pasūtījumiem
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: 'Kavējuma vērtība netiek atjaunināta, pārplānojot plānoto pasūtījumu'
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: 'Plānotajiem pasūtījumiem nepieciešams ilgs laiks, lai atjauninātu'
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Plānotie pasūtījumi tiek ģenerēti krājumos esošām precēm ar ražošanas pasūtījumiem
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Ražošanas plānošanā nav apsvērtas drošības rezerves
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: Vispārējā plānošana pārsniedz pieejamo noslodzi
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Nevarēja atrast pietiekamu noslodzi
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: 'Palaižot iebūvēto vispārējās plānošanas programmu, tiek parādīta kļūda'
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: "Krājumam nevar būt MK\_vai formula"
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Vispārējā plāna parametri nepastāv
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: 'Plānotajam ražošanas pasūtījumam ir jābūt plānotam, pirms to var apstiprināt'
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: 'Prece ir aizturēta šāda veida darījumiem:'
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Atlasītais formulas cipars nav apstiprināts lietošanai partijas pasūtījumā.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Kreditora kods nav autorizēts noteiktai precei un datumam
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: 'Apstiprinot plānotos pasūtījumus, nav norādīts kreditors'
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: 'Tieši atvasinātos apstiprinātos pasūtījumus apstrādā darbplūsma, kas pašlaik tiek pārskatīta'
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Vispārējās plānošanas krājumus nevar filtrēt pēc to saistītajām vajadzības grupas vērtībām
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Pamata plānošana ģenerē fantoma preču plānotos pasūtījumus
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: 'Izveidots plānotais pirkšanas pasūtījums, kad pirkums pastāv negatīvās dienās'
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Nevar atjaunināt prognozētās vienības izmaksas, kad importējat pieprasījuma apjoma prognozes ierakstus'
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: No prognožu rindām nevar noņemt noliktavas pieprasījuma apjoma prognozes dimensiju
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'Jums tiek piedāvāts saglabāt krājumu vajadzības iestatījumus, pat ja neesat veicis izmaiņas'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Sagāde
-              items:
-                - name: Pirkšanas pasūtījuma rindas datu neatbilstības
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: 'Viena vai vairākas uzskaites sadales ir vai nu pārāk sadalītas, vai arī nepietiekami sadalītas'
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Pirkšanas pasūtījuma darbību var veikt tikai pilnībā sadalītiem rindu numuriem
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Nevar mainīt apstiprinātā piegādātāja spēkā stāšanās datumu
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Atceltie pirkšanas pasūtījumi ir redzami darbvietas melnrakstu sarakstā
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Transakcijas var grāmatot bloķētā virsgrāmatas kontā
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: 'Atceļot piegādes atlikumu, pirkšanas pasūtījums tiek pārvietots uz apstiprinātu stāvokli'
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Nevar konsolidēt vairāku produktu ieejas plūsmas vienā pirkšanas pasūtījumā
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Noklusējuma nodokļu grupa un termiņatlaide nav aizpildīti no rēķina konta
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Piegādes nosaukums netiek sinhronizēts pēc pirkšanas pasūtījuma piegādes adreses maiņas
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Kreditora rēķina grāmatošanas laikā rodas izņēmums
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Importētie pirkšanas pasūtījumi rāda nepareizus rindu numurus
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Pirkšanas līguma maksimālais ierobežojums nav spēkā pirkšanas pieprasījumā
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Pirkšanas pasūtījuma apstiprināšanas laikā rodas kļūda "Objekta atsauce nav iestatīta"
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: 'Uzskaites sadales ir vai nu pārāk sadalītas, vai arī nepietiekami sadalītas'
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Pirkšanas līguma lapai nevar pievienot lauku Cenas vienība
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Pirkšanas pasūtījumi neatspoguļo juridiskās personas valodas iestatījumus
-                  href: troubleshooting/procurement/po-language.md
-                - name: Pirkšanas pasūtījuma kvīts neietver visas maksas
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: 'Vienības cenas pirkšanas pasūtījumos netiek aprēķinātas, pamatojoties uz vienību pārveidošanu'
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Virsgrāmatas iestatījumā nav ieslēgta Grāmatošana izmaksu kontā
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: 'Kļūda, atkārtoti iesniedzot pirkšanas pasūtījumu darbplūsmai pēc izmaiņām'
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Tirdzniecības līguma valūtas konvertēšanas problēmas
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Tirdzniecības līguma nosacījumi netiek lietoti importētajām pasūtījuma rindām
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Tirdzniecības līgumus var izveidot no noraidītajiem piedāvājumu pieprasījumiem (PP)
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: 'Kreditora atlaide netiek uzkrāta, pamatojoties uz rēķiniem'
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Produktu ieejas plūsmas dokumenta numurs tiek patērēts pat tad, ja dokuments netiek ģenerēts'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Nevar izrakstīt rēķinu uz klientu vērstam pārdošanas pasūtījumam
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Pēc izmaiņu pieprasīšanas pirkšanas pieprasījumam nevar pievienot rindu
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Preču informācijas pārvaldība
-              items:
-                - name: Nevar dzēst izlaistu preci
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: 'Ja tiek aprēķināti preču konfigurācijas modeļi, nepareizi noapaļoti veseli skaitļi'
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: 'Krājuma teksts tiek pārrakstīts, kad prece tiek konfigurēta pārdošanas pasūtījuma rindā'
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: 'Nevarat lietot veidni, lai izveidotu izlaistu preci'
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: 'Nevarat importēt krājumu, izmantojot elementu Izlaistās preces V2'
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Pirkšanas pasūtījumos netiek rādīts tulkotais preces teksts
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Ražošanas kontrole
-              items:
-                - name: Atgriezeniskas izmaksu aprēķināšanas kļūda krājumu slēgšanas laikā
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Nevar pabeigt ražošanas pasūtījumu MK consumptionCost vērtības kļūdas dēļ
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: 'Veidojot jaunu ražošanas pasūtījumu, nevar ievietot materiālu komplektu un maršrutu'
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Iepriekš nepabeigtie darbi tiek pabeigti, ziņojot par daļēju daudzumu pēdējā darbā'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: 'Preces RM nevar pilnībā rezervēt, kad ražošanas pasūtījums tiek izlaists'
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: 'Kļūda: ziņošanas par pabeigšanu atjaunināšana neizdodas ar trūkstošu daudzumu'
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Kļūda pabeigtās ražošanas žurnāla grāmatošanas laikā
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: 'Kļūda, mainot ražošanas pasūtījuma statusu no Faktiski pabeigts uz Beigt'
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Ražošanas pasūtījumi netiek parādīti Marķējuma lapā
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Resursa nosaukums netiek atjaunināts pēc darbinieka vārda mainīšanas adrešu grāmatā
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: 'Kopējā preču daudzuma kļūda, mēģinot pabeigt ražošanas pasūtījumu'
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Nevar izsekot pabeigto preču sērijas numurus attiecībā pret patērēto preču sērijas numuriem
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Nevar rezervēt vai izlaist darbu, jo pašlaik tiek izmantoti procesi'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: "Netiek ievēroti norakstīšanas principa iestatījumi MK\_rindās"
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: "Atlasot jaunu laidiena\_ID, partijas numurs tiek notīrīts"
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: 'Novēlota atlase netiek ievērota, atiestatot ražošanas pasūtījumus pakešuzdevumā'
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: 'Lietotāji var noņemt materiālu rindu atzīmi precēm, par kurām ir ziņots kā par pabeigtām'
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Kļūda pabeigtās ražošanas žurnāla grāmatošanas laikā
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: "Noliktava izdošanas saraksta žurnālā netiek atjaunināta MK\_rindā"
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Atlaižu pārvaldība
-              items:
-                - name: 'Neizdodas debitoru atlaižu kumulācija, izmantojot krājumu atlaižu grupas'
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Pārdošana un mārketings
-              items:
-                - name: Pārdošanas atjauninājumu vēstures tīrīšanas darbs neizdodas. vai arī tam ir veiktspējas problēmas
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Komplekta krājums netiek atbalstīts starpuzņēmumu procesā
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: 'Nevar atcelt starpuzņēmumu pirkšanas pasūtījumu, kas ir saistīts ar pārdošanas pasūtījumu'
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: 'Atceļot pasūtījumu, rezervācijas nevar noņemt'
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Ja datumiem, kas pārklājas, pastāv divi tirdzniecības līgumi, vienmēr tiek atlasīts viens un tas pats'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Nevar mainīt pārdošanas piedāvājuma rindā norādīto pakalpojumu krājuma pārdošanas daudzumu
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: 'Nodokļu informācija netiek atjaunināta, ja pārdošanas pasūtījuma virsrakstā ir mainīta atrašanās vieta'
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: 'Atceļot pārdošanas pasūtījumu, daudzumu nevar samazināt'
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Sistēmas administratori nevar notīrīt pasūtījumu aizturēšanas, jo nav autorizēti'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Transportēšanas pārvaldība
-              items:
-                - name: Saskaņošanas iemeslu dēļ kā kredīta kontu var pievienot tikai galveno kontu
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Noliktavas pārvaldība
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Neparedzēta atšķirība starp pieprasījuma un sesijas datiem testēšanas laikā
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: 'Iestatot programmas savienojumu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: 'Veicot atjaunināšanu un migrēšanu uz noliktavas pārraudzības sistēmu, nav atrasts sertifikācijas ceļa uzticamības enkurs'
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Nevar grāmatot apturētas pārdošanas pasūtījuma rindas pavadzīmi
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Apstrādes problēmas rodas pēc mēroga vienības noliktavas darba noslodzes instalēšanas
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: 'Tiek parādīta automātiska partijas numura rezervēšanas uzvedne pat tad, ja ir pieejami krājumi'
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Nepabeigtā papildināšanas darba dēļ izdošanas darbu nevar atbloķēt
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Nevar atcelt pavadzīmi pēc tās grāmatošanas no pārdošanas pasūtījuma
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: 'Nevar pārvietot numura zīmi, ja sērijas numuram ir atļauta tukša izejas plūsma un tukša ieejas plūsma'
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Nevar pārvietot krājumu uz atrašanās vietu, ko kontrolē numura zīme'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Nevar atrast klastera profilu
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Piegādes pavadzīmes labojumu nevar apstrādāt
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: 'Kļūda, apstiprinot sūtījumu pēc sērijas krājuma pārsūtīšanas pasūtījuma izveides'
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: Tiešā piegāde nevar veikt apstrādi noliktavā ar iespējotu noliktavas pārvaldības sistēmu
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: 'Krājumu veidi tiek jaukti, izmantojot sadales centra pārvaldības profilu'
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Vairāku sSKU opcija nevērtē vairāku vietu direktīvas darbības
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: 'Izdošanas darbs netiek ģenerēts nekavējoties, kad tiek izlaista izejošā krava'
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: 'Nederīgas numura zīmes kļūda, skenējot numura zīmes ID mobilajā programmā'
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: 'Krājumu īpašnieks nav atļauts, apstrādājot kustības noliktavas programmā'
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: 'Sistēma nevar atjaunināt krājumu daudzumu, jo nav pietiekoši daudz transakciju'
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Kolonnā Darba veids nevar atlasīt krājumu statusa izmaiņas
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: 'Nederīgas numura zīmes vai atrašanās vietas kļūda, skenējot mobilajā programmā'
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: 'Numura zīmes daudzums nav derīgs, reģistrējot ienākošos pasūtījumus'
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: 'Numura zīmes specifikācijas kļūda, apstiprinot pārsūtīšanas pasūtījuma sūtījumu'
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Viena no rindām jau ir kravā
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: 'Kravas svara kļūda un atjaunināšana atcelta, apstrādājot darbu starp vietām'
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Jauktā numura zīmes saņemšana nestrādā nevienam izvietojuma kodam, izņemot Kredītu'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: 'Var izmantot tikai administratora lomu, lai piekļūtu mobilās ierīces programmas emulatoram'
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: 'Problēmas, pārejot no pamata noliktavas uz uzlaboto noliktavu'
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: 'Izmantojot sistēmas vadītu klastera izdošanu, klasterim nav atrasts pietiekami daudz darba'
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: 'Pasūtījuma statuss paliek Daļēji izlaists pat tad, kad pārdošanas pasūtījums ir iekļauts rēķinā'
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: 'Nevaru izmantot Warehouse Management mobilo programmu, lai veiktu daļēju izdošanu'
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Iespējot krājumu statusa izmaiņas daļēja daudzuma darbam
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Drukāt piegādes pavadzīmi vai iepakošanas saturu pēc noliktavas vai vietas
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: 'Daudzums nav derīgs, ja pastāv izdošanas darbs ir ar vairākiem LPs vienā atrašanās vietā'
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: 'Daudzums nav derīgs, veicot sadalītu izdošanu vairākās partijās'
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Nevar izlaist daļēji nosūtītu kravu uz noliktavu
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Sistēma nevar veikt rezervācijas, jo krājumos ir pieejami 0,00'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: 'Nevar izveidot noslodzes rindu pārdoto preču atgriešanas pasūtījumam, jo nav derīgas krājumu dimensijas'
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Pārdošanas pasūtījumu nevarēja izlaist ar izejošajām noliktavas operācijām
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Kravas sūtījums ir apstiprināts, bet neviena rinda nav grāmatota'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: 'Slotu veidošanas veidnēs nav apsvērti rīcībā esošie krājumi partijas krājumiem, kas ir augstāki par krājumiem'
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: 'Nevar izlaist daļēja daudzuma kravu, ja partijas hierarhija ir virs rezervāciju hierarhijas'
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Neapstiprināti pirkšanas pasūtījumi tiek apstiprināti pēc atjauninātās produktu ieejas plūsmas
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Pārdošanas pasūtījuma rindā nevar atsaukt krājumu rezervēšanu
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Nevar apstiprināt sūtījumu, jo klients ir aizturēts'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Nevar apstiprināt sūtījumu, jo noslodzes rindu daudzums ir nulle'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: 'Nevar atjaunināt noslodzes rindu, jo izpildei nodotais daudzums būtu negatīvs'
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Atceltas produktu ieejas plūsmas neatjaunina darījumu statusu uz reģistrētu
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Fiziskā daudzuma decimāldaļas noapaļošana nav pareiza
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Vienības fiziskais atlikums nedrīkst būt nulle
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: Pavadzīmes ģenerēšanas laikā izdotais daudzums nav pietiekams
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: Pavadzīmes ģenerēšanas laikā daudzums pārsniedz piegādes pārsniegšanas procentuālo vērtību
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Daudzums, ko mēģināt atjaunināt, pārsniedz saņemto/piegādāto daudzumu'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: Pavadzīmes ģenerēšanas laikā daudzums pārsniedz piegādes nepietiekamības procentuālo vērtību
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: 'Izvēloties atrašanās vietu izdošanas saraksta reģistrācijas laikā, rodas kļūda'
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Pakošanas stacija nerāda preču piezīmes
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Atrašanās vietas profils neļauj izmantot negatīvus krājumus, bet ir atļauti negatīvi rīcībā esoši krājumi'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Vairākām darba galvenēm vienā kvītī tiek drukāta tikai viena iezīme
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: 'Nevar apstiprināt sūtījumu, jo kalendārā radās problēma'
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Sūtījumu nevar apstiprināt nepabeigta vai trūkstoša darba dēļ.
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: 'Nevar apstiprināt sūtījumu, jo nav izdoti krājumi'
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: 'Nevar apstiprināt sūtījumu, jo daudzums ir nulle'
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Nevar apstiprināt sūtījumu, jo daudzums pārsniedz pasūtījuma pārsniegšanas procentuālo daudzumu'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Nevar apstiprināt sūtījumu, jo daudzums pārsniedz nepilna pasūtījuma procentuālo daudzumu'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Pēdējās slēgtās darba rindas statusam ir jābūt Izvietot
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Noslodzes rindu svara lauki neatbilst noslodzes svara laukiem
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Kopuma dati nav paredzēti tīrīšanai
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Svara vērtībai jābūt pozitīvai
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Darbu nevar atcelt, jo tas ir bloķēts'
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Darbu nevar atcelt statusa dēļ
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Darbs nav bloķēts
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Darbs paliek bloķēts
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Nevar atcelt lietotājam izveidotu darbu
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Finanšu un operāciju programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

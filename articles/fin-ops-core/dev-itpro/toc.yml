@@ -1,10 +1,10 @@
-- name: Finance and Operations programmu izstrāde un administrēšana
+- name: Finanšu un operāciju programmu izstrāde un administrēšana
   items:
-    - name: Finance and Operations programmu izstrāde un administrēšana
+    - name: Finanšu un operāciju programmu izstrāde un administrēšana
       items:
-        - name: "Finance and\_Operations programmu dokumentācija"
+        - name: Finanšu un operāciju programmu dokumentācija
           href: ../fin-ops/index.md
-        - name: Finance and Operations programmu izstrāde un administrēšana
+        - name: Finanšu un operāciju programmu izstrāde un administrēšana
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: "Platformas atjauninājumi versijai 10.0.26 (2022.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: "Platformas atjauninājumi versijai 10.0.25 (2022.\_gada aprīlis)"
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -202,7 +200,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: 'Dokumentu importēšana, izmantojot virsgrāmatas žurnāla elementu'
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Datu migrācijas optimizēšana Finance and Operations programmām
+                - name: Datu migrācijas optimizēšana finanšu un operāciju programmām
                   href: sysadmin/optimize-data-migration.md
             - name: Datu elementu izstrāde
               items:
@@ -376,11 +374,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Plānošana un sagatavošanās lokāliem izvietojumiem
                       href: deployment/plan-onprem-deployment.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) atbalstītā programmatūra
+                    - name: Lokāla atbalstītā programmatūra
                       href: deployment/onprem-compatibility.md
                     - name: Aparatūras izmēru prasības
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Autentifikācija risinājumā Dynamics 365 Finance + Operations (on-premises)
+                    - name: Autentifikācija lokālās vidēs
                       href: deployment/authentication-onprem.md
                 - name: Lokālas vides iestatīšana un izvietošana
                   items:
@@ -408,9 +406,9 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Starpniekserveru konfigurēšana lokālās vidēs
                       href: deployment/onprem-reverseproxy.md
-                    - name: Noliktavas programmas konfigurēšana lokālajiem izvietojumiem
+                    - name: Programmas Warehousing konfigurēšana lokālajiem izvietojumiem
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: RSAT Finance + Operations (on-premises) vidēs
+                    - name: Iespējot RSAT lokālās vidēs
                       href: deployment/onprem-rsat-configuration.md
                     - name: Tīkla printera ierīču instalēšana lokālās vidēs
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Vienas un tās pašas AD FS instances atkārtota izmantošana vairākās vidēs
                       href: deployment/onprem-reuseadfs.md
-                    - name: Windows Server jaunināšana Microsoft Dynamics 365 Finance + Operations (on-premises) vidēs
+                    - name: Windows Server jaunināšana lokālajās vidēs
                       href: deployment/onprem-upgrade-os.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) vides SQL Server instances jaunināšana
+                    - name: Lokālo vižu SQL Server instances jaunināšana vai aizstāšana
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Vietējais aģents
                   items:
@@ -980,8 +978,10 @@
               items:
                 - name: Konfigurācijas pārvaldnieka pārskats
                   href: lifecycle-services/configuration-manager-lcs.md
-                - name: Konfigurācijas pārvaldnieka iestatīšana
+                - name: Iestatīt konfigurācijas pārvaldnieku
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: Kopējiet konfigurācijas
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: Koda jaunināšanas pakalpojuma konfigurēšana
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Metodoloģiju izveide vai atjaunināšana
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps paplašinājuma apmācība (publiskais priekšskatījums)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: "Dynamics\_365 Translation Service Visual Studio Code paplašinājums (publiskais priekšskatījums)"
+                - name: Visual Studio paplašinājums (privāts priekšskatījums)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: Visual Studio Code paplašinājums (publiskais priekšskatījums)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platform integrācija
           items:
@@ -1080,9 +1082,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Duālā ieraksta iestatīšana no Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
+                    - name: Duālā ieraksta iespējošana esošajām finanšu un operāciju programmām
                       items:
-                        - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
+                        - name: Duālā ieraksta iespējošana esošajām finanšu un operāciju programmām
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Sistēmas prasības un priekšnosacījumi
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1196,15 +1198,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Tiešās sinhronizācijas problēmu novēršana
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Duālā ieraksta problēmu novēršana Finance and Operations programmās
+                        - name: Duālā ieraksta problēmu novēršana finanšu un operāciju programmās
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Pušu un globālās adrešu grāmatas problēmu novēršana
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Problēmu novēršana saistībā ar risinājumu apzināšanu
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Finance and Operations programmu jaunināšanas problēmu novēršana
+                        - name: Finanšu un operāciju programmu jaunināšanas problēmu novēršana
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Duālā ieraksta konfigurācijas verificēšana Finance and Operations programmās un platformā Dataverse
+                        - name: Duālā ieraksta konfigurācijas verificēšana finanšu un operāciju programmās un platformā Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Kļūdas kodi tabulas kartes darbspējas pārbaudei
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1578,9 +1580,9 @@
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: "Atbalsta saņemšana saistībā ar Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
               href: lifecycle-services/21vianet-support.md
-            - name: Tehniskā atbalsta iestatīšana Finance and Operations programmām
+            - name: Tehniskā atbalsta iestatīšana finanšu un operāciju programmām
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operations programmu atbalsta pieredzes pārvaldība
+            - name: Finanšu un operāciju programmu atbalsta pieredzes pārvaldība
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Ražošanas atbalsts un pārraudzība
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1602,13 +1604,15 @@
               href: sysadmin/implement-b2b.md
             - name: Datu uzturēšana
               href: sysadmin/DataMaintenancePortal.md
+            - name: Pārvaldīt piekļuvi tīkla printeriem juridiskajām personām
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Drošība
               items:
                 - name: Uz lomām balstīta drošība
                   href: sysadmin/role-based-security.md
                 - name: Drošības arhitektūra
                   href: sysadmin/security-architecture.md
-                - name: Šifrēšana Finance and Operations programmās
+                - name: Šifrēšana finanšu un operāciju programmās
                   href: sysadmin/encryption.md
                 - name: Sesijas dīkstāves taimauta iestatīšana
                   href: sysadmin/session-idle-timeout.md

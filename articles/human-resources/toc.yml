@@ -6,7 +6,7 @@
           href: index.md
         - name: Jaunumi un izmaiņas
           items:
-            - name: Jaunumi un izmaiņas Finanšu un operāciju programmās
+            - name: Jaunumi un izmaiņas finanšu un operāciju programmās
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas programmā Human Resources
               items:
@@ -496,6 +496,8 @@
                   items:
                     - name: Personāla atlases projekta procesa pārvaldība
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Iestatīt personāla atlases projektus
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Kandidāta un pieteikuma datu manuāla ievade
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Darba pieprasījumu izstrāde un atvēršana
@@ -626,6 +628,10 @@
                   items:
                     - name: Iestatīt atvieglojumu plānus
                       href: hr-benefits-plans-setup.md
+                    - name: Izveidot darbinieku atvieglojumu plānus
+                      href: hr-benefits-plans-worker.md
+                    - name: Iestatīt nākotnes dzīves notikumus
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Iestatīt brīvā režīma kredīta programmas
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Apstrādāt atvieglojumu plānus
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Elementi
               items:
+                - name: Darba papildinformācija
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Nodarbinātības veida opcija
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: MyLeaveRequests pārskats

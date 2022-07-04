@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maijs)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (aprīlis)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -174,7 +172,7 @@
               items:
                 - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: "Finance and\_Operations programmu arhitektūra"
+                - name: Finanšu un operāciju programmu arhitektūra
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -462,6 +460,8 @@
                   items:
                     - name: Ieņēmumu un izdevumu atlikšanu iestatīšana
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Atliktā maksājuma grāmatošanas metode
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Atlikšanas grafiku izveide
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Atlikto maksājumu noklusējuma transakcijas
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Finanšu pārskata komponenti
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Skatīt un izveidot finanšu pārskatus
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Valūtas iespējas finanšu pārskatos
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Nesadalītās peļņas aprēķins finanšu pārskatā
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Bankas kontu numuru iestatīšana Brazīlijai
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Pārsūtīšanas pasūtījumi
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Nodokļi
                   items:
                     - name: Brazīlijas nodokļu pārskats
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Gada beigu slēgšana
                   href: localizations/emea-cze-hun-year-end.md
+                - name: ES pārdošanas saraksts
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Dānija
               items:
                 - name: Dānijas pārskats
@@ -2128,10 +2134,10 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: Projekta rēķina izveide un grāmatošana publiskā sektora debitoram
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: "ES\_pārdošanas saraksts"
+                - name: ES pārdošanas saraksts
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: OIOUBL elektronisko rēķinu izrakstīšanas konfigurācijas importēšana
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Klientu elektroniskie rēķini Dānijā
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Brīvā teksta rēķina grāmatošana ar maksājuma kvīti
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Projekta rēķina grāmatošana ar maksājuma kvīti
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: ISO20022 tiešā debeta konfigurācijas importēšana
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Priekšnoteikumi ISO 20022 kredīta pārskaitījuma formātam
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: ISO20022 pārvietošanai kredītā konfigurācijas importēšana
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: Uzņēmuma bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Atliktie PVN aprēķini
                   href: localizations/emea-hun-deferred-vat.md
+                - name: ES pārdošanas saraksts
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Islande
               items:
                 - name: Islandes pārskats
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: "TDS\_reģistrācijas numuru iestatīšana juridiskām personām"
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: "Ieturētā nodokļa sastāvdaļu grupu iestatīšana TDS\_nodokļu veidam"
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: "Ieturētā nodokļa iestāžu iestatīšana TDS\_nodokļu veidam"
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: "Nodokļa komponentu iestatīšana TDS\_nodokļu veidam"
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Līdzekļu norakstīšanas saistību grāmatošanas un tirgus atlaižu likmju galveno kontu konfigurēšana
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Patēriņa nodokļu pārskats
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Konsolidētie rēķini
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Pamatlīdzekļa ar papildu nolietojumu izveide
@@ -3416,7 +3430,9 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Pamatlīdzekļu iegūšana un to nodošana ekspluatācijā
                           href: localizations/rus-fixed-asset-acquisition.md
-                        - name: Nolietojuma aprēķināšana
+                        - name: Transportlīdzekļi un nekustamais īpašums kā pamatlīdzekļi
+                          href: localizations/rus-vehicles-realty.md
+                        - name: Aprēķināt nolietojumu
                           href: localizations/rus-depreciation-calculation.md
                         - name: Pamatlīdzekļu daļēja izjaukšana (likvidācija)
                           href: localizations/rus-fixed-assets-disassembly.md
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Mazvērtīgie pamatlīdzekļi (NVFA) (Krievija)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'NVFA, darba apģērba un speciālā aprīkojuma (Krievija) primārās formas'
+                          href: localizations/rus-nvfa.md
                         - name: Darba drēbju/speciāla aprīkojuma uzskaite (Krievija)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Pamatlīdzekļu integrēšana ar līdzekļu pārvaldības moduli
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Peļņas nodokļu deklarācija
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Pārskats par operācijām ar izsekojamām precēm
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Organizācijas administrēšana
                   items:
                     - name: Ar adresi saistītā informācija par nodokļu reģistrāciju
