@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2c36ebe0957cff85fff6af1d979503f9e6e60d28
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895791"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066736"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standarta izmaksu priekšnosacījumu pārskats
 
@@ -73,8 +73,8 @@ Klientiem, kas vēlas mainīt savus esošos krājumus uz standarta izmaksu krāj
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 
-- [Tiešo materiālu standarta izmaksu iestatīšana programmā Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
-- [Standarta tiešās darbaspēka izmaksas programmā Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+- [Kā iestatīt standarta izmaksas tiešajiem materiāliem finansēs un operācijās](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [Standarta tiešās darbaspēka izmaksas finansēs un operācijās](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845418"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125156"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -215,7 +215,7 @@ Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kā iespējot saglabātos skatus manā vidē?
 
 > [!NOTE]
-> Lai **iespējotu līdzekli** Saglabātie skati, ir jāiespējo personalizēšanas sistēma Finansēs un operācijās. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
+> Lai **iespējotu saglabātus** skatus, finanšu un operāciju programmās ir jāiespējo personalizēšanas sistēma. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
 
 Funkciju pārvaldībā jebkurā vidē varat ieslēgt vai izslēgt līdzekli **Saglabātie skati**. Kad tas ir ieslēgts, saglabātie skati tiks iespējoti visās turpmākajās lietotāja sesijās.
 
@@ -255,3 +255,4 @@ Publicējot skatu juridiskai personai vai publicējot skatu kā noklusējuma ska
 - **Versija 10.0.21 vai jaunāka versija:** ja ir ieslēgta **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem**, skatījuma atlasītājs parāda skatu tikai konkrētajām juridiskajām personām. Šī darbība notiek tāpēc, ka līdzeklis iespējo skatu (tostarp personiskus skatus) saistīt ar noteiktām juridiskām personām.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

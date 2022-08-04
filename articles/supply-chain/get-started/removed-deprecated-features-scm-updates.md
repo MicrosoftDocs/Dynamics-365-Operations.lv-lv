@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865271"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171521"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "8865271"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši.
 
 > [!NOTE]
-> Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+> Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.19 laidienā
@@ -48,11 +48,11 @@ ms.locfileid: "8865271"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.18 laidienā
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- Noliktavu darbība (noliktavas lietotne)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a> Piegādes ķēdes pārvaldība — noliktava (noliktavas programma)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | 2021. gada aprīlis, *Dynamics 365 for Finance and Operations — Warehousehousing* (noliktavas programma) ir novecojusi un netiks atbalstīta pēc 2022. gada aprīlī. Tagad tā tiek aizstāta ar *Warehouse Management mobile programmu*, kas tika izlaista ar Supply Chain Management versiju 10.0.17. Jaunā lietojumprogramma ir pilnīgs aizvietojums, bet tā izmanto to pašu pamatā esošo sistēmu, kas atvieglo migrāciju. Ja nepieciešams, abas lietotnes var izmantot līdzās, lai palīdzētu lietotājiem pakāpeniski pielāgoties, kad viņi mācās izmantot jauno lietotni.<br><br>Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu, skatiet sadaļu [Warehouse Management mobile lietotne](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) un [Instalēt un savienot Warehouse Management mobile lietotni](../warehousing/install-configure-warehouse-management-app.md). |
+| **Novecošanas/noņemšanas pamatojums** | 2021. gada aprīlis, *Piegādes ķēdes pārvaldība —* noliktava (noliktavas programma) ir nolietota un netiks atbalstīta pēc 2022. gada aprīlī. Tagad tā tiek aizstāta ar *Warehouse Management mobile programmu*, kas tika izlaista ar Supply Chain Management versiju 10.0.17. Jaunā lietojumprogramma ir pilnīgs aizvietojums, bet tā izmanto to pašu pamatā esošo sistēmu, kas atvieglo migrāciju. Ja nepieciešams, abas lietotnes var izmantot līdzās, lai palīdzētu lietotājiem pakāpeniski pielāgoties, kad viņi mācās izmantot jauno lietotni.<br><br>Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu, skatiet sadaļu [Warehouse Management mobile lietotne](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) un [Instalēt un savienot Warehouse Management mobile lietotni](../warehousing/install-configure-warehouse-management-app.md). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, aizstāta ar jauno Warehouse Management mobile lietotni. |
 | **Ietekmētie produkta apgabali**         | Supply Chain Management - noliktavas lietotne |
 | **Izvietošanas iespēja**              | Mākonis un lokāls |
@@ -98,3 +98,4 @@ Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984912"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206731"
 ---
 # <a name="document-printing-overview"></a>Dokumentu drukāšanas pārskats
 
@@ -54,7 +54,7 @@ Tā kā atkarībā no scenārija risinājumi ir dažādi, programmas nodrošina 
 - **2. scenārija** ietvaros tiks izmantotas klienta lietojumprogrammas un Microsoft 365 pakalpojumi.
 - **3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.
 
-Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.
+Papildus platformai, kas tiek izvietota Azure abonementā, finanšu un operāciju programmas nodrošina klientus ar integrētu pirmās puses Azure programmu, kas palīdz lietotājiem vieglāk izmantot domēna viesotās ierīces dokumentu drukāšanai.
 
 ## <a name="service-overview"></a>Pakalpojuma apskats
 Kamēr viesoto programmu izveidotie dokumenti gaida izdrukāšanu tīklam pievienotā ierīcē, šie dokumenti tiek saglabāti Azure BLOB krātuvē. [Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla printēšanu](install-document-routing-agent.md) izmanto Azure autentifikāciju, lai izveidotu drošu kanālu uz Azure pakalpojumiem.

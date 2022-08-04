@@ -1,6 +1,6 @@
 ---
-title: Duālā ieraksta problēmu novēršana Finance and Operations programmās
-description: Šajā rakstā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas modulī Dubultā rakstīšana Finanšu un operāciju programmās.
+title: Dubultās rakstīšanas problēmu novēršana finanšu un operāciju programmās
+description: Šajā rakstā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas saistībā ar Dubultās rakstīšanas moduli finanšu un operāciju programmās.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864577"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111176"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Duālā ieraksta problēmu novēršana Finance and Operations programmās
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Dubultās rakstīšanas problēmu novēršana finanšu un operāciju programmās
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. It īpaši tā sniedz informāciju, kas var palīdzēt jums novērst problēmas **ar Dubultās rakstīšanas moduli** Finanšu un operāciju programmās.
+Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Dataverse. It īpaši tā sniedz informāciju, kas var palīdzēt jums novērst problēmas saistībā ar **Dubultās rakstīšanas moduli** finanšu un operāciju programmās.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kurām šajā rakstu adresēs var būt nepieciešama sistēmas administratora loma vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
@@ -71,13 +71,13 @@ Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādu kļūdas zi�
 
 Lai atrisinātu problēmu, izveidojiet biļeti datu integrācijas grupai. Pievienojiet tīkla izsekošanu, lai datu integrācijas grupa varētu atzīmēt kartes kā **Nedarbojošās** aizmugursistēmā.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Iespējojiet paralēlo apstrādi finanšu un operāciju programmās, lai uzlabotu veiktspēju
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Iespējot paralēlo apstrādi finanšu un operāciju programmās, lai uzlabotu veiktspēju
 
-Paralēlās apstrādes iespējošana var samazināt laiku, kas nepieciešams datu importēšanai no Dynamics 365 debitoru ieslēgšanas Microsoft Dataverse programmām un uz programmām Finanses un Operācijas. 
+Paralēlās apstrādes iespējošana var samazināt laiku, kas nepieciešams datu importēšanai no Dynamics 365 debitoru ieslēgšanas Microsoft Dataverse programmām, kā arī no finanšu un operāciju programmām. 
 
-Lai iespējotu paralēlo apstrādi Finanšu un operāciju programmās, veiciet sekojošos soļus.
+Lai iespējotu paralēlo apstrādi finanšu un operāciju programmās, veiciet sekojošos soļus.
 
-1. Piesakieties finanšu un operāciju vidē.
+1. Piesakieties jūsu finanšu un operāciju vidē.
 2. Dodieties uz **datu > struktūras parametriem**.
 3. Atlasiet **elementa iestatījumus un** atlasiet Konfigurēt **elementa izpildes parametrus**.
 4. Pievienot parametrus paralēlai apstrādei:
@@ -97,7 +97,7 @@ Mēģinot palaist sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļ�
 Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda: Šīs kļūdas labojums ir atkarīgs no kļūdas cēloņa:
 
 + Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.
-+ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja programmas Finanses un operācijas kolonna nav kolonna, [kartēs izpildiet sadaļā Trūkstošo tabulu kolonnu problēmas soļus](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
++ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja finanšu un operāciju programmas kolonna nav norādīta, [kartēs izpildiet sadaļā Trūkstošo tabulu kolonnu problēmas soļus](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiju neatbilstības kļūda un duālo rakstīšanas risinājumu jaunināšana
 
@@ -112,3 +112,4 @@ Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādus kļūdas zi
 Lai novērstu problēmas, atjauniniet duālās rakstīšanas Dataverse risinājumus. Noteikti jauniniet uz jaunāko risinājumu, kas atbilst nepieciešamajam risinājuma versijai.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -1,8 +1,8 @@
 ---
 title: Īsinājumtaustiņi
-description: Šajā rakstā sniegts pārskats par īsinājumtaustiņi kombinācijām, ko varat izmantot, strādājot ar Finanšu un operāciju programmām.
+description: Šajā rakstā sniegts pārskats par īsinājumikonas taustiņu kombinācijām, ko varat izmantot, strādājot ar finanšu un operāciju programmām.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866122"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140445"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -27,7 +27,7 @@ ms.locfileid: "8866122"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Tastatūras īsinājumikonas var palīdzēt ātri un efektīvi ievadīt datus Finanšu un operāciju programmās. 
+Īsinājumtaustiņi var palīdzēt ātri un efektīvi ievadīt datus finanšu un operāciju programmās. 
 
 > [!NOTE]
 > Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
@@ -197,6 +197,7 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Aizvērt navigācijas sarakstu detalizētas informācijas veidlapā (kad navigācijas saraksts ir aktivizēts) | Esc                        |
 | Pāriet uz galvenās lapas saturu (kamēr fokuss atrodas citā rūtī)                    | Alt+M,M                    |
 | Pāriet uz papildinformācijas rūti (šī darbība var ietvert tās atvēršanu)                       | Alt+M,B vai Ctrl+F2         |
+| Pāriet uz nākamo līdzekļa remarku                                              | Alt+M,C                    |
 
 > [!NOTE]
 > **Racionalizēta tabulēšanas** darbību pilnas lapas formu funkcija, kas ieviesta versijā 10.0.26, ļauj lietotājiem pārvietoties pa visiem lapas reģioniem, nepieprasot peli vai atvēlētu tastatūras saīsni, lai pārvietotos starp reģioniem. Lai ātri pārvietotos starp lapas reģioniem, joprojām var izmantot esošās tastatūras saīsnes (piemēram, Alt+M taustiņa saīšņus).
@@ -259,13 +260,14 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Rādīt vairāk/mazāk informācijas animētajā uznirstošajā uzvednē (kamēr tiek demonstrēts uzdevuma ceļvedis) | Alt+R,M                    |
 
 ## <a name="focus-management"></a>Fokusa pārvaldība 
-Fokusa pārvaldība apraksta, kā lietotāja fokuss tiek apstrādāts programmā. Finanšu un operāciju programmām ir specializēti fokusa uzvedības, kas ir paredzēti lietotāju produktivitātes optimizēšanai, it īpaši datu ievades scenārijiem. Fokusa uzvedība ietver sekojošo:  
+Fokusa pārvaldība apraksta, kā lietotāja fokuss tiek apstrādāts programmā. Finanšu un operāciju programmām ir specializēti fokusa uzvedības, kas ir paredzēti lietotāju produktivitātes optimizācijā, it īpaši datu ievades scenārijos. Fokusa uzvedība ietver sekojošo:  
 
 -  Kad lapa ir ielādēta, pirmajai rediģējamai ievades kontrolei lapā būs fokuss un tā var pieņemt lietotāja ievadi nekavējoties. Ja lapā nav rediģējamas ievades kontroles, atkāpšanās opcija sākotnējam fokusam ir pirmā ievades kontrole lapā, kam seko pirmā, fokusējamā kontrole lapā.   
--  Parasti, kad poga ir atlasīta, darbība tiek apstrādāta un fokuss var atgriezties lapā. Ja tā notiek, fokuss tie atgriežas pie atlasītās pogu kontroles. Tas ir patiess Finanšu un operāciju programmās **,** izņemot gadījumus, kad poga ir novietota Darbību rūtī vai rīkjoslā. Šajos gadījumos, kad darbība ir pabeigta, fokuss atgriežas uz pēdējo kontroli ārpus Darbību rūts (vai rīkjoslas), kam bija fokuss *pirms* pogas izvēles.
+-  Parasti, kad poga ir atlasīta, darbība tiek apstrādāta un fokuss var atgriezties lapā. Ja tā notiek, fokuss tie atgriežas pie atlasītās pogu kontroles. Tas ir patiess finanšu un operāciju programmās **,** izņemot gadījumus, kad poga ir novietota Darbību rūtī vai rīkjoslā. Šajos gadījumos, kad darbība ir pabeigta, fokuss atgriežas uz pēdējo kontroli ārpus Darbību rūts (vai rīkjoslas), kam bija fokuss *pirms* pogas izvēles.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Tastatūras saīsnes trūkstošu kontu analīzei](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

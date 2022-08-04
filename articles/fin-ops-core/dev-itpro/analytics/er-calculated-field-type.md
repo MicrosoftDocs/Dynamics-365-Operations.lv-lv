@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934725"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108335"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -36,7 +36,7 @@ Lai pabeigtu piemērus šajā rakstā, jums ir jābūt šādai piekļuvei:
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-- Piekļuve Regulatory Configuration Services (RCS) instancei, kas ir bijusi nodrošināta tam pašam nomniekam, kuram nodrošināta Finance and Operations instance, vienai no šādām lomām:
+- Piekļuve uzraudzības konfigurācijas pakalpojumiem (RCS), kas ir nodrošināti tam pašam nomniekam kā finanšu un operācijas vienai no šīm lomām:
 
     - Elektroniskā pārskata izstrādātājs
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
@@ -84,7 +84,7 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
             - Nodokļu vērtību summa.
             - Piemērotās nodokļa likmes minimālā vērtība.
 
-    Modeļa kartēšana šajā konfigurācijā implementē pamatdatu modeli jebkuram no šajā modelī izveidotajiem ER formātiem un ir izpildīts Finance and Operations. Tādējādi **Nodokļu** un **Gr** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem datu avotiem.
+    Modeļa kartēšana šajā konfigurācijā ievieš pamatdatu modeli jebkuram no šim modelim izveidotajiem un finanšu un operācijām izveidotajiem ER formātiem. Tādējādi **Nodokļu** un **Gr** datu avotu saturs ir pakļauts ER formātiem, piemēram, abstraktiem datu avotiem.
 
     ![Modeļa kartēšanas veidotāja lapa, kurā parādīti Tax un Gr datu avoti.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** t
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

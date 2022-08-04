@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888040"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067718"
 ---
 # <a name="revenue-recognition-overview"></a>Ieņēmumu atzīšanas pārskats
 
@@ -35,7 +35,7 @@ Parasti ieņēmumu atzīšanas procesu var izmantot, lai veiktu šos uzdevumus:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-Kā [izmantot ieņēmumu atzīšanu Dynamics 365 Finanšu](https://youtu.be/v3amIsiqvoo) video (parādīts iepriekš) [ir iekļauts Finanšu un operāciju vietnē, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejama YouTube.
+Kā [izmantot ieņēmumu atzīšanu Dynamics 365 Finanšu](https://youtu.be/v3amIsiqvoo) video (parādīts iepriekš) [ir iekļauts finanšu un operāciju](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) versijā, kas pieejama YouTube.
 
 Ieņēmumu atzīšanas līdzeklis nodrošina elastīgu platformu, kas ļauj jums noteikt uzņēmuma specifiskos noteikumus, lai varētu atpazīt gan ieņēmumu cenu, gan ieņēmumu grafiku.
 
@@ -53,3 +53,4 @@ Ja līguma izmaiņa rada jaunu pārdošanas pasūtījuma rindu, kas jāpievieno 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

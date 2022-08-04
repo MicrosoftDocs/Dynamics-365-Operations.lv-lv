@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909617"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067857"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Noliktavas parametri kopuma apstrādei
 
@@ -52,7 +52,7 @@ Lai iestatītu noliktavu parametrus kopuma apstrādei, izpildiet tālāk aprakst
 > [!NOTE]
 > Kopuma apstrādei izmantotajā kopuma veidnē varat norādīt iestatījumus, kuri automatizē kopuma apstrādi. Ja pakešuzdevumam iestatāt grafiku, tā hronometrāža ir jāsaskaņo ar automatizācijas iestatījumiem kopuma veidnē. Papildinformāciju skatiet [Kopuma veidņu izveide](wave-templates.md).
 >
-> Ja izmantojat *Transporta pārvaldību* un *Uzlabotu noliktavas pārvaldību*, varat norādīt, vai kopuma apstrādes laikā ir jāveic kravu konsolidēšana. Tas var noderēt, piemēram, ja vairākas mazas kravas var nosūtīt vienlaicīgi. Lai konsolidētu noslodzes, kad apstrādājat kopumu, cilnē **Noslodzes** atzīmējiet izvēles rūtiņu **Konsolidēt noslodzes kopuma apstrādes laikā**.</P>
+> Ja izmantojat transportēšanas *pārvaldības* un *noliktavas pārvaldības procesus (WMS),* varat norādīt, vai, apstrādājot kopumu, konsolidēt noslodzes. Tas var noderēt, piemēram, ja vairākas mazas kravas var nosūtīt vienlaicīgi. Lai konsolidētu noslodzes, kad apstrādājat kopumu, cilnē **Noslodzes** atzīmējiet izvēles rūtiņu **Konsolidēt noslodzes kopuma apstrādes laikā**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Pilnas vai daļējas rezervācijas iestatīšana ražošanas kopumiem
 

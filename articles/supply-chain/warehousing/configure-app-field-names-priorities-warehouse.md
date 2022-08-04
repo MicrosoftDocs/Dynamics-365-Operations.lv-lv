@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893241"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065964"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Lauku konfigurēšana mobilajai programmai Warehouse Management
 
@@ -135,7 +135,7 @@ Pamatojoties uz iepriekšējā tabulā iestatīto noliktavas programmas lauku pr
 -   2. rinda: Preces apraksts
 -   3. rinda: Izmērs
 
-Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par programmu Dynamics 365 for Finance and Operations — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Dynamics 365 Supply Chain Management — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

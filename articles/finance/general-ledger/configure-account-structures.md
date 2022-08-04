@@ -2,7 +2,7 @@
 title: Konfigurēt kontu struktūras
 description: Šajā rakstā ir sniegta informācija par kontu struktūrām un finanšu dimensijām.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907985"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141284"
 ---
 # <a name="configure-account-structures"></a>Kontu struktūru konfigurēšana
 
@@ -91,6 +91,8 @@ Lai turpinātu pievienot papildu kritērijus, noklikšķiniet uz **Dublēt segme
 Iestatot kontu struktūras, varat ievērot dažas labākās prakses. Taču tās ir tikai vadlīnijas, tādēļ daļu no šīs diskusijas ir jāveido visaptverošai apspriešanai par jūsu uzņēmumu, izaugsmes plānu un uzturēšanas plānu.
 
 - Galveno kontu izveidojiet kā pirmo vai pēc iespējas tuvāk konta struktūras sākumam, lai konta ievadīšanas laikā lietotāji saņemtu pēc iespējas labāku vadīto funkcionalitāti.
+  
+  - Pārbaudiet, vai jebkurām trešās puses risinājumiem, kurus plānojat izmantot galvenā konta atbalstam pirmajā amatā.
 
 - Pēc iespējas vairāk atkārtoti izmantojiet tās pašas kontu struktūras, lai samazinātu uzturēšanu visās jūsu juridiskajās personās.
 

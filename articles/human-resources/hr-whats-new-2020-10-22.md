@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b183ea08a2decc2696ca3bc3997b5cf7f04652d4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862806"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068067"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 22. oktobrī
 
@@ -41,7 +41,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 | --- | --- | --- |
-| Platformas atjauninājums 10.0.14(38) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.14 (2020. gada novembris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| Platformas atjauninājums 10.0.14(38) | -- | [Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.14 (2020. gada novembris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850443"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067534"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Konfigurēt preču filtrus noliktavas darījumiem
 
@@ -95,7 +95,7 @@ Lai krājumu grupai iestatītu filtru kodus, izpildiet šādas darbības.
     Piemēram, ja ir atlasīta izvēles rūtiņa **Izmantot filtra 1. kodu** un **Izmantot filtra 2. kodu** , tad gan krājumu filtra 1. kodam, gan 2. kodam ir jāatbilst šīs krājumu grupas filtru grupas iestatījumam, lai varētu atlasīt šo filtru grupu. Izveidojot jaunu krājumu, atlasītā filtru grupa būs noklusējuma filtru laukos **1. grupa** un **2. grupa** kopsavilkuma cilnē **Noliktava** detalizētai informācijai par **Izpildei nodoto preci**.
 
 > [!IMPORTANT]
-> Preču filtru kodi ir iespējoti tikai krājumiem, kas izmanto papildu noliktavas pārvaldību.
+> Preču filtru kodi ir iespējoti tikai krājumiem, kas izmanto noliktavas vadības procesus (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Filtru kodu norādīšana izlaistajām precēm
 
@@ -158,7 +158,7 @@ Lai iestatītu kreditoru filtru kodus, izpildiet šīs darbības.
 1. Laukos no **1. koda** līdz **10. kodam** atlasiet filtru kodus, lai izmantotu kā kritēriju, lai ierobežotu krājumus, kas ir pieejami kreditoriem atlasītajā krājumu grupā. Atlase jāveic katram filtru kodam, kas ir iestatīts krājumu grupai.
 
 > [!NOTE]
-> Kreditora preču filtru iestatījums attiecas uz izlaistajām precēm, kur noliktavas vadības procesi ir iespējoti saistītai noliktavas dimensiju grupai. Filtru kodi tiek izmantoti, lai noteiktu, vai sistēma ļaus lietotājiem iegādāties norādīto krājumu no konkrētā kreditora, kad tie izveido pirkšanas pasūtījuma rindas. Microsoft Dynamics 365 Supply Chain Management ir divas metodes, kā rīkoties ar kreditora apstiprinājumu. Ja pastāv viena vai vairākas izlaistās preces, kur lauks **Apstiprinātais kreditors** ir iestatīts uz *Tikai brīdinājums* vai *Nav atļauts*, šiem krājumiem var iespējot abas kreditora apstiprinājuma metodes. Šī situācija var radīt problēmas, kad lietotāji izveido pirkšanas pasūtījuma rindas.
+> Kreditora preču filtru iestatījums attiecas uz izlaistajām precēm, kur noliktavas pārvaldības procesi (WMS) ir iespējoti saistītai noliktavas dimensiju grupai. Filtru kodi tiek izmantoti, lai noteiktu, vai sistēma ļaus lietotājiem iegādāties norādīto krājumu no konkrētā kreditora, kad tie izveido pirkšanas pasūtījuma rindas. Microsoft Dynamics 365 Supply Chain Management ir divas metodes, kā rīkoties ar kreditora apstiprinājumu. Ja pastāv viena vai vairākas izlaistās preces, kur lauks **Apstiprinātais kreditors** ir iestatīts uz *Tikai brīdinājums* vai *Nav atļauts*, šiem krājumiem var iespējot abas kreditora apstiprinājuma metodes. Šī situācija var radīt problēmas, kad lietotāji izveido pirkšanas pasūtījuma rindas.
 
 ## <a name="see-also"></a>Skatiet arī
 

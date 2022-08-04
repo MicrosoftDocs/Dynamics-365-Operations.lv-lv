@@ -1,6 +1,6 @@
 ---
 title: Noņemtie vai novecojušie platformas līdzekļi
-description: Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformas atjauninājumiem Finanšu un operāciju programmām.
+description: Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformu atjauninājumiem finanšu un operāciju programmām.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945809"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069928"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformas atjauninājumiem Finanšu un operāciju programmām.
+Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformu atjauninājumiem finanšu un operāciju programmām.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Līdzekļu nolietošana ir spēkā no 2022. gada jūnija
@@ -39,14 +39,14 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam mobilo lietojumprogrammu un platformu Finanses un operācijas (Dynamics 365), lai konsolidētu vienu mobilo platformu, kas ir Power Apps. |
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam finanšu un operāciju (Dynamics 365) mobilo programmu un platformu, lai konsolidētu vienu mobilo platformu, kas ir Power Apps. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, mobilo pieredzi finanšu un operāciju programmas datu pamatā var veidot ar Power Platform integrāciju. Papildinformāciju [skatiet šeit](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)[: grāmatot un](../power-platform/build-mobile-experiences.md) veidot mobilo pieredzi. |
 | **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis. Atbalsta beigu datums ir paredzēts 2024. gada oktobrisi. |
 
 
-## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.29
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.29
 
 ### <a name="panorama-tab-style"></a>Modes cilnes stils
 
@@ -118,7 +118,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.23
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.23
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize notikums
 
@@ -141,7 +141,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2023. gada aprīlis. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.21
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.21
 
 ### <a name="skype-for-business-online-support"></a>Skype uzņēmumiem tiešsaistes atbalsts
 
@@ -201,7 +201,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Statuss**                         | Šī funkcija ir noņemta. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.17
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.17
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -228,7 +228,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX 2012 uzņēmuma portālu (EP) saistītie metadatu artefakti ir novecojuši, jo EP nekad nav atbalstīts Finanšu un operāciju programmās. |
+| **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX 2012 uzņēmuma portālu (EP) saistītie metadatu artefakti ir novecojuši, jo EP nekad nav atbalstīts finanšu un operāciju programmās. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visu |
@@ -246,7 +246,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Izvietošanas iespēja**              | Visus|
 | **Statuss**                         | Novecojis: Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.15
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.15
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio pievienojumprogramma, lai lietotu metadatu labojumfailus
 
@@ -259,7 +259,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Statuss**                         | Izmantojot versiju 10.0.15, pievienojumprogramma vairs nav iekļauta Visual Studio rīkos. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.14
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.14
 
 ### <a name="online-users-page"></a>Tiešsaistes lietotāju lapa 
 
@@ -272,7 +272,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Statuss**                         | Līdz 2021. gada oktobrim šī veidlapa tiks noņemta.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.13
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.13
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Pielāgots kods, kas definēts SSRS pārskata rekvizītos 
@@ -316,7 +316,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Statuss**                         | Versijā 10.0.13/Platform atjauninājums 37, ir vispārēji pieejami saglabāto skatījumu līdzekļi, un klienti pēc izvēles var ieslēgt šo līdzekli. Saglabātā skatījuma līdzeklis kļūs obligāts 2021. gada oktobra laidienā. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.12
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.12
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Režģa vai grupas vadīklu veidlapas paplašinājumi, kas satur nederīgas lauku atsauces
 
@@ -326,9 +326,9 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis kompilatora brīdinājums tiks aizstāts ar kompilatora kļūdu turpmākajā atjauninājumā. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Kompilētāja brīdinājums tiek iekļauts platformas atjauninājumos Finanšu un operāciju programmu versijai 10.0.12. |
+| **Statuss**                         | Kompilētāja brīdinājums tiek iekļauts platformas atjauninājumos finanšu un operāciju programmu versijai 10.0.12. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.11
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.11
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Precīzi drošie saraksti pašapkalpošanās videi
 
@@ -354,7 +354,7 @@ Detalizēta informācija par objektiem Finanšu un operāciju programmās var ti
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tabulas metadatu definīcijās lauku grupas var ietvert lauku atsauces, kas nav derīgas. Ja šīs lauku grupas ir izvietotas, tās var izraisīt izpildlaika kļūmes modulī Financial Reporting un Microsoft SQL Server pārskatu izveides pakalpojumos (SSRS). Platformas atjauninājums 23 ieviesa kompilatora *brīdinājumu*, kas ļāva risināt šo metadatu problēmu. Platformas atjauninājumi finanšu un operāciju programmu versijā 10.0.11 šī problēma tiek kategorizēta kā kompilētāja *kļūda*.<p>Lai novērstu šo problēmu, izpildiet sekojošās darbības.</p><ol><li>Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</li><li>Pārkompilēt.</li><li>Pārliecinieties, vai kļūdas ir novērstas.</li></ol> |
+| **Novecošanas/noņemšanas pamatojums** | Tabulas metadatu definīcijās lauku grupas var ietvert lauku atsauces, kas nav derīgas. Ja šīs lauku grupas ir izvietotas, tās var izraisīt izpildlaika kļūmes modulī Financial Reporting un Microsoft SQL Server pārskatu izveides pakalpojumos (SSRS). Platformas atjauninājums 23 ieviesa kompilatora *brīdinājumu*, kas ļāva risināt šo metadatu problēmu. Platformas atjauninājumi finanšu un operāciju programmu versijā 10.0.11 šī problēma tiek dalīta kategorijās kā kompilētāja *kļūda*.<p>Lai novērstu šo problēmu, izpildiet sekojošās darbības.</p><ol><li>Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</li><li>Pārkompilēt.</li><li>Pārliecinieties, vai kļūdas ir novērstas.</li></ol> |
 | **Vai ir aizstāts ar citu līdzekli?**   | Šī kompilatora kļūda neatgriezeniski aizstāj kompilatora brīdinājumu.  |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
@@ -398,3 +398,4 @@ Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

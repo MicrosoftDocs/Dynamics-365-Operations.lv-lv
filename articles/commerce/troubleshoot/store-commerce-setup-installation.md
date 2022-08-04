@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870470"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168952"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Traucējummeklēšanu veikala Commerce iestatīšanas un instalēšanas problēmas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir izskaidrots, kā novērst iestatīšanas un instalēšanas problēmas Microsoft Dynamics 365 Commerce store Commerce programmā.
 
@@ -31,13 +30,13 @@ Kad ievadāt derīgu Mākoņa pārdošanas punkta (CPOS) URL, varat saņemt savi
 
 Šajā gadījumā pārskatiet url e-pastogrāfiskajām kļūdām vai nosakiet, vai CPOS nevar tikt sasniegts, jo tas ir bezsaistē.
 
-Turklāt pārbaudiet, vai mākoņa mēroga vienības (CSU) versija ir 10.0.25 (9.35.\*\*) vai jaunāka versija. Lai izmantotu store Commerce programmu, ir nepieciešama CPOS versija 10.0.25 vai jaunāka.
+Turklāt pārbaudiet, vai mākoņa mēroga vienības (CSU) versija ir 10.0.25 (9.35.\*.\*) vai jaunāka versija. Lai izmantotu store Commerce programmu, ir nepieciešama CPOS versija 10.0.25 vai jaunāka.
 
 ## <a name="i-cant-install-the-app-because-modern-pos-is-already-installed"></a>Programmu nevar instalēt, jo modern POS jau ir instalēts
 
 Instalēšanas laikā var tikt parādīts kļūdas ziņojums, piemēram, šajā piemērā:
 
-> Šī produkta (Modern POS) versija (9\*\*...\*) ir iepriekš instalēta, izmantojot mantojuma instalētāju.
+> Šī produkta (Modern POS) versija (9.\*.\*.\*) ir iepriekš instalēta, izmantojot mantojuma instalētāju.
 
 Lai izlabotu kļūdu, jums jāatinstalē programma Modern Point of Sale (MPOS) visiem datorā ājiem un pēc tam jāmēģina vēlreiz. Varat apstiprināt, vai MPOS ir noņemts visiem lietotājiem, palaižot norādīto PowerShell komandu.
 

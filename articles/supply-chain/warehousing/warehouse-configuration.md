@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983008"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065193"
 ---
 # <a name="warehouse-configuration-overview"></a>Noliktavas konfigurācijas pārskats
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983008"
 Šajā rakstā ir paskaidrots, kā konfigurēt noliktavu. Tajā ir ietverta informācija par to, kā iespējot noliktavas izkārtojumu un noliktavas procesus.
 
 > [!NOTE]
-> Šis raksts attiecas uz moduļa **Noliktavas pārvaldība** (uzlabotās noliktavas) līdzekļiem. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
+> Šis raksts attiecas uz noliktavas pārvaldības **moduļa** funkcijām. Tas neattiecas uz noliktavas līdzekļiem modulī **Krājumu vadība**.
 
 ## <a name="warehouse-layout"></a>Noliktavas izkārtojums
-Noliktavu vadības sistēma programmatūrā Supply Chain Management sniedz jums elastīgus veidus, kā definēt savas noliktavas izkārtojumu, lai tas atbilstu mainīgajām vajadzībām, tāpēc varat sasniegt optimālu noliktavas efektivitāti.
+Noliktavas vadības procesi (WMS) Piegādes ķēžu pārvaldībā sniedz elastīgus veidus, kā definēt noliktavas izkārtojumu, lai atbilstu mainīgām vajadzībām, tādējādi jūs varat sasniegt optimālu noliktavas efektivitāti.
 
 -   Optimālai preču izvietošanai varat izveidot augstas prioritātes un zemas prioritātes glabāšanas zonas.
 -   Noliktavas varat sadalīt zonās, lai pielāgotos dažādām glabāšanas vajadzībām, piemēram, temperatūras prasībām vai dažādiem krājumu apgrozījuma ātrumiem.
@@ -42,7 +42,7 @@ Noliktavu vadības sistēma programmatūrā Supply Chain Management sniedz jums 
 -   Novietojumus varat grupēt, izmantojot fiziskās ietilpības ierobežojumu iestatījumus.
 -   Varat kontrolēt veidu, kā krājumi tiek glabāti un izdoti, pamatojoties uz vaicājuma definētām kārtulām.
 
-Lai programmatūrā Supply Chain Management izmantotu noliktavas pārvaldību, jums ir jāizveido noliktava, un tā jāiespējo papildu vai specializētākām noliktavas pārvaldības darbībām. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**.
+Lai piegādes ķēžu pārvaldībā lietotu WMS, ir jāizveido noliktava un jāiespējo tā WMS. Lapā **Noliktavas** atzīmējiet opciju **Izmantot noliktavas pārvaldības procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonu grupas, zonas, novietojumu tipi un novietojumi
 

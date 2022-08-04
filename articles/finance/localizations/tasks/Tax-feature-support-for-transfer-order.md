@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869986"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203115"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
@@ -111,7 +111,10 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
 6. Nosakiet krājumu nodokļu grupas piemērojamību.
 
     1. Atlasiet **Pārvaldīt kolonnas** un pēc tam atlasiet kolonnas, kas ir jāizmanto, lai izveidotu piemērojamības tabulu.
-    2. Pievienot piemērojamības noteikumus. Neatstājiet tukšu lauku **Krājumu Nodokļu grupa**.
+    2. Pievienot piemērojamības noteikumus.
+        
+       > [!NOTE]
+       > Ja krājumu PVN grupa, kas pēc noklusējuma ir noklusējusi jūsu apliekamā dokumenta rindās, jau ir pareiza, atstājiet šo matricu tukšu. 
         
         Pievienojiet jaunu noteikumu par pārsūtīšanas pasūtījuma nosūtīšanu un saņemšanu.
         1. Lapā **Piemērošanas noteikumi** atlasiet **Pievienot**.

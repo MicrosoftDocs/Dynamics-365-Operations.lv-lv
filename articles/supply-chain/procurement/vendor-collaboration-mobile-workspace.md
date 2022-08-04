@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851657"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112156"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Kreditoru sadarbības mobilā darbvieta
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851657"
 
 Šajā rakstā ir sniegta informācija par Kreditoru sadarbības **mobilo** darbvietu. Šī darbvieta palīdz kreditoriem pastāvīgi būt informētiem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām.
 
-Šo mobilo darbvietu ir paredzēts izmantot ar mobilo programmu Finanses un operācijas (Dynamics 365).
+Šo mobilo darbvietu ir paredzēts izmantot ar finanšu un operāciju (Dynamics 365) mobilo programmu.
 
 ## <a name="overview"></a>Pārskats 
 Mobilā darbvieta **Kreditoru sadarbība** kreditoriem pastāvīgi nodrošina informāciju par jaunajiem pirkšanas pasūtījumiem, lai viņi varētu redzēt pirkšanas pasūtījumus un uz tiem reaģēt tīmekļa klientā. 
@@ -110,7 +110,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dynamics 365):
+Lejupielādējiet un instalējiet finanšu un operāciju (Dynamics 365) mobilo programmu:
 
 -   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ Kad debitors apstiprina pirkšanas pasūtījumu (t.i., pirkšanas pasūtījuma s
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

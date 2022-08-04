@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867278"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103944"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finanses, piegādes ķēžu pārvaldība un komercija ASV valdības kopienas mākonī (GCC)
 
@@ -38,9 +38,9 @@ Kad sākotnējais borts ir pabeigts, sekojiet instrukcijām projekta [izpildē](
 
 ## <a name="environment-deployment"></a>Vides izvietošana
 
-Pēc projekta pabeigšanas varat pārskatīt LCS papildu iespējas, kas aprakstītas [Pakalpojumā Lifecycle Services (LCS) finanšu un operāciju programmu klientiem](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Pēc tam pārvietojieties uz vides izvietošanu.
+Pēc projekta pabeigšanas varat pārskatīt LCS papildu iespējas, kas aprakstītas [pakalpojumā Lifecycle Services (LCS) finanšu un operāciju programmu klientiem](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Pēc tam pārvietojieties uz vides izvietošanu.
 
-- Lai izvietotu Microsoft pārvaldītas vides, izmantojot LCS, [izpildiet norādījumus programmu lietojumprogrammu Lifecycle Services (LCS) klientiem Lifecycle Services (LCS](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience)).
+- Lai izvietotu Microsoft pārvaldītas vides, izmantojot LCS, [izpildiet norādījumus pakalpojumā Lifecycle Services (LCS) finanšu un operāciju programmu klientiem](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Mākoņa viesoto vidi skatiet sadaļu [Izstrādes vides izvietošana un piekļuve](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Ir jāpabeidz arī resursu pārvaldnieka ietveršanas process saviem savienotājiem, [kā aprakstīts Sadaļā Pabeidziet Azure resursu pārvaldnieka darbības procesu ASV valdības Lifecycle Services projektiem](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Jā. Tomēr, ja jūsu partneris izmanto identitāti, kas nav GCC identitāte, at
 - [Mākoņa izvietošanas pārskats](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,5 +1,5 @@
 ---
-title: Konfigurēt Finanšu un operāciju programmu Palīdzības pieredzi
+title: Konfigurēt Palīdzības pieredzi finanšu un operāciju programmām
 description: Šajā rakstā ir sniegta informācija par Palīdzības sistēmas komponentiem dažām Microsoft Dynamics 365 programmām.
 author: margoc
 ms.date: 08/11/2021
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900134"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123630"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Finanšu un operāciju programmu Palīdzības pieredzi
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Konfigurēt Palīdzības pieredzi finanšu un operāciju programmām
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Šajā rakstā jūs atradīsiet pārskatu par Finanšu un operāciju programmu Palīdzības sistēmas komponentiem, piemēram, Microsoft Dynamics 365 Finanses Dynamics 365 Supply Chain Management, Dynamics 365 Commerce un Dynamics 365 Human Resources. Šajā rakstā ir izskaidrots arī, kā izveidot savienojumu ar šiem komponentiem un sniegts procesa kopsavilkums par pielāgotas palīdzības izveidei.
+Šajā rakstā jūs atradīsiet pārskatu par Palīdzības sistēmas komponentiem finanšu un operāciju programmām, piemēram, Microsoft Dynamics 365 Finanses, Dynamics 365 Supply Chain Management Dynamics 365 Commerce un Dynamics 365 Human Resources. Šajā rakstā ir izskaidrots arī, kā izveidot savienojumu ar šiem komponentiem un sniegts procesa kopsavilkums par pielāgotas palīdzības izveidei.
 
 ## <a name="help-architecture"></a>Palīdzības arhitektūra
 
@@ -63,7 +63,7 @@ Lai konfigurētu risinājuma uzdevumu ceļvežus, veiciet šīs darbības lapā 
 2. Atlasiet BPM bibliotēkas (atlasītajā projektā), no kurām izgūt uzdevumu ierakstus.
 3. Iestatiet BPM bibliotēku attēlošanas secību. Displejs nosaka secību, kādā uzdevumu ieraksti no bibliotēkām tiks rādīti rūtī **Palīdzība**.
 
-Kad šīs darbības pabeigtas **, varat atvērt palīdzības** rūti **un atlasīt cilni** Uzdevumu ceļveži. Tagad redzēsiet uzdevumu ceļvežus, kas attiecas uz lapu, kuru pašlaik izmantojat Finanšu un operāciju programmās. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
+Kad šīs darbības pabeigtas **, varat atvērt palīdzības** rūti **un atlasīt cilni** Uzdevumu ceļveži. Tagad redzēsiet uzdevumu ceļvežus, kas attiecas uz lapu, kuru pašlaik izmantojat finanšu un operāciju programmās. Ja netiek atrasts neviens uzdevuma ceļvedis, varat ievadīt atslēgvārdus, lai precizētu meklēšanu.
 
 ### <a name="showing-translated-task-guides"></a>Tulkotu uzdevumu ceļvežu parādīšana
 
@@ -103,3 +103,4 @@ Ja vēlaties sadarboties ar Microsoft, strādājot ar rīkiem un procesiem palī
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692231"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070178"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse virtuālās tabulas vaicājumu optimizācija
 
@@ -49,12 +49,12 @@ Viens no iemesliem lēnai darbībai ar Dataverse virtuālām tabulam pakalpojuma
 Piemērs, kur, iespējams, redzat šo ietekmi, ir vaicājumos pret nodarbināto (**mshr_hcmworkerentity**) vai pamata nodarbināto (**mshr_hcmworkerbaseentity**) elementu. Jūs varat redzēt veiktspējas problēmas paradīsies dažos dažādos veidos:
 
 - **Palēnināta vaicājuma izpilde**: vaicājums attiecībā uz virtuālo tabulu var atgriezt paredzamos rezultātus, bet tas var aizņemt vairāk laika, nekā paredzēts vaicājuma izpildes pabeigšanai.
-- **Vaicājuma noildze**: vaicājuma taimauts var būt aizies un atgriezta šāda kļūda: "Marķieris tika iegūts, lai izsauktu finanses un operācijas, bet Finanses un operācijas atgrieza kļūdu ar tipu InternalServerError."
+- **Vaicājuma taimauts**: vaicājuma taimauts, un tika atgriezta šāda kļūda: "Marķieris tika iegūts, lai izsauktu finanses un operācijas, bet finanses un operācijas atgrieza kļūdu ar tipu InternalServerError."
 - **Neparedzēta kļūda**: vaicājums var atgriezt 400 veida kļūdas ar šādu ziņojumu: "Radusies negaidīta kļūda."
 
   ![Kļūdas veids 400 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Ierobežošana**: vaicājums var pārmērīgi izmantot servera resursus un tikt pakļauts ierobežošanai. Šajā gadījumā vaicājums atgriež šādu kļūdu: "Marķieris tika iegūts, lai izsauktu Finanses un operācijas, bet Finanses un operācijas atgrieza kļūdu ar tipu 429." Papildinformāciju par ierobežošanu pakalpojumā Human Resources skatiet sadaļā [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md).
+- **Ierobežošana**: vaicājums var pārmērīgi izmantot servera resursus un tikt pakļauts ierobežošanai. Šajā gadījumā vaicājums atgriež šādu kļūdu: "Marķieris tika iegūts, lai izsauktu finanses un operācijas, bet finanses un operācijas atgrieza kļūdu ar tipu 429." Papildinformāciju par ierobežošanu pakalpojumā Human Resources skatiet sadaļā [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md).
 
   ![Kļūdas veids 429 uz HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Papildinformāciju par lapošanu skatiet sadaļā [Norādīt elementu skaitu, ka
 - [Bieži uzdotie jautājumi par ierobežošanu](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

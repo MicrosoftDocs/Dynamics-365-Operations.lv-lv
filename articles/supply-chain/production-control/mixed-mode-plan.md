@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857436"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065994"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Jaukta režīma plānošana — atsevišķu avotu, procesa avotu un racionālo avotu apvienošana
 
@@ -33,7 +33,7 @@ Varat atlasīt vispārējo stratēģiju preces piegādei, neatkarīgi no preces 
 
 Piemēram, var būt Kanban kontrole komplektācijā, kur materiāli ir ņemti komplektēšanas zonai atbilstoši ražošanas pasūtījumiem, Kanban, pārsūtīšanām, partijas pasūtījumiem, vai jebkurai kombinācijai, kas ir lietderīga piegādes ķēdes raksturlielumiem, bet jums joprojām var būt visu piegāžu pilna redzamība. Šī iespēja noved pie optimizētiem piegādes ķēdes procesiem un uzlabotas redzamības piegādes ķēdē.  
 
-Vispārējā plānošanā izmantojamo piegādes politiku granularitāte ir atkarīga no noliktavas dimensijām, kas ir iespējotas kā vajadzības dimensijas. Lai iespējotu vispārējo plānošanu, lai kontrolētu papildināšanu un piegādes dažādu tipu novietojumos (piemēram, atdalot dažādu ražošanas vienību ražošanas stāvus vai atdalot dažādu tipu materiālu un pabeigto preču noliktavas), ieteicams iespējot vietu un noliktavu kā vajadzības dimensijas. Alternatīvi, noliktavu kā nodrošinājuma dimensiju var izlaist. Šajā gadījumā, kad izmantojat papildu noliktavas vadību, visas kustības noliktavā tiek kontrolētas ar noliktavas darbu, bet visas kustības starp noliktavām var kontrolēt ar atvilkumu Kanban.
+Vispārējā plānošanā izmantojamo piegādes politiku granularitāte ir atkarīga no noliktavas dimensijām, kas ir iespējotas kā vajadzības dimensijas. Lai iespējotu vispārējo plānošanu, lai kontrolētu papildināšanu un piegādes dažādu tipu novietojumos (piemēram, atdalot dažādu ražošanas vienību ražošanas stāvus vai atdalot dažādu tipu materiālu un pabeigto preču noliktavas), ieteicams iespējot vietu un noliktavu kā vajadzības dimensijas. Alternatīvi, noliktavu kā nodrošinājuma dimensiju var izlaist. Tādā gadījumā, ja izmantojat noliktavas vadības procesus (WMS), visas kustības noliktavā kontrolē noliktavas darbs, kamēr visas kustības starp noliktavām var kontrolēt atvilkumu Kanban.
 
 ## <a name="supply-policies"></a>Piedāvājuma politikas
 Režīma plānošana nodrošina preces piedāvājuma veida kontroli un atvasināto pieprasījumu (krājumu patēriņš no materiālu komplekta \[MK\]) izsniegšanas kontroli, pamatojoties uz piedāvājumu. Pamatojoties uz pasūtījuma tipu, sistēma automātiski izvēlas materiālus, kas atbilst prasībām.  

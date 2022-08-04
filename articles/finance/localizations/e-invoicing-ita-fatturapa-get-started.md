@@ -2,7 +2,7 @@
 title: Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 description: Šajā rakstā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Itālijai un iestatīt tiešo Itālijas FatturaPA integrāciju ar Apmaiņas sistēmu (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853197"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203175"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 
@@ -58,7 +58,7 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 6. Pievienojiet katrai sistēmā definētai apakškategorijai specifiskus nosacījumus un pēc tam saglabājiet izmaiņas.
 
     > [!NOTE]
-    > Kolonnā Nosaukums **noteiktas** vērtības vietā varat atlasīt **\* vērtību Tukšs\*** **\*\*** vai Nav tukšs vietturis.
+    > Kolonnā **Nosaukums** noteiktas vērtības vietā varat atlasīt vērtību **\*Tukšs\*** vai **\*Nav tukšs\*** vietturis.
 
 ### <a name="configure-a-processing-pipeline-for-export"></a>Konfigurēt eksporta apstrādes konveijeru
 
@@ -67,12 +67,15 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 3. Sadaļā Konveijera **apstrāde** dodieties cauri darbībām un iestatiet visus nepieciešamos laukus:
 
     - Parakstīšanas **dokumenta** darbībai laukā **Sertifikāta nosaukums** norādiet ciparparaksta sertifikātu.
-    - Lai iesniegtu darbību, iestatiet url **adreses un** **sertifikātu laukus**.**·** Lauka Sertifikāti **vērtība** ir sertifikātu ķēde, no kuras pirmais ir saknes CA sertifikāts (caentrate.cer), un otrais no tiem ir Klienta sertifikāts.
+    - Lai iesniegtu darbību, iestatiet url **adreses un** **sertifikātu laukus**.**·** Lauka Sertifikāti **vērtība** ir sertifikātu ķēde, no kuras pirmais ir saknes CA sertifikāts (caentrate.cer), un otra ir Klienta sertifikāts.
 
-4. Atlasiet **Pārbaudīt,** lai pārliecinātos, ka visi obligātie lauki ir iestatīti.
-5. Saglabājiet izmaiņas un aizveriet lapu.
-6. Cilnē Iestatījumi **atlasiet** Projekta rēķini **un pēc** tam atlasiet **Rediģēt**.
-7. Atkārtojiet soļus no 3. līdz 5. projekta rēķiniem.
+4. Sadaļā Piemērojamības **noteikumi** pārejiet caur klauzulām un pārskatiet vai iestatiet nepieciešamos laukus:
+    - Pārskatiet **klauzulu LegalEntityID** un atjauniniet ar pareizu vērtību no savas juridiskās personas.
+
+5. Atlasiet **Pārbaudīt,** lai pārliecinātos, ka visi obligātie lauki ir iestatīti.
+6. Saglabājiet izmaiņas un aizveriet lapu.
+7. Cilnē Iestatījumi **atlasiet** Projekta rēķini **un pēc** tam atlasiet **Rediģēt**.
+8. Atkārtojiet soļus no 3. līdz 6. projekta rēķiniem.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Konfigurēt konveijera apstrādi importēšanai
 
@@ -161,7 +164,7 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 
     2. Atlasiet **reģistru** un pēc tam atlasiet tikko izveidoto programmas reģistrāciju.
     3. Dodieties uz **API atļaujām** un atlasiet **Piešķirt administratora atļauju**.
-    4. Pārejiet uz **sertifikātiem > noslēpumiem,** **atlasiet Augšupielādes** sertifikāts un augšupielādējiet .cer sertifikāta failu S2S autentifikācijai.
+    4. Dodieties uz **sertifikātiem &noslēpumiem**, **atlasiet Augšupielādēt** sertifikātu un .cer sertifikāta failu S2S autentifikācijai.
     5. Dodieties uz **uzņēmuma** programmām un atlasiet izveidoto programmu.
     6. Saglabājiet **programmas ID** (klienta ID) **un objekta ID** vērtības programmai.
     7. Rēķinu izrakstīšanas pakalpojuma komandai jāpiešķir programmas piekļuve pakalpojumam. Nosūtīt šādu parametru vērtības uz <D365EInvoiceSupport@microsoft.com>:
@@ -234,7 +237,7 @@ Veiciet šīs darbības datorā, kur tiek viesots starpniekservera pakalpojums.
 
 1. Pievienojieties VM, izmantojot Attālās darbvirsmas savienojumu.
 2. Atveriet lokālā datora sertifikāta papildprogrammu. Papildinformāciju skatiet šeit [: Kā skatīt sertifikātus ar MMC pieķeršanos](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
-3. Importējiet **ražošanas caentrate.cer** sertifikātu un **CAEntratetest.cer** testēšanai uzticamo [saknes sertifikācijas iestāžu krātuvē](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** ir saknes CA sertifikāts, ko sniedza iestāde.)
+3. Importējiet **kaentrēšanu.cer** ražošanas sertifikātu **un CAEntratetest.cer** testēšanai uzticamo [saknes sertifikācijas iestāžu krātuvē](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** ir saknes CA sertifikāts, ko sniedza iestāde.)
 4. Vadības panelī atveriet **ieslēgšanu vai izslēgšanas Windows** **·** \> **līdzekļus vai dodieties uz servera pārvaldniekam pievienot lomas** un līdzekļus servera operētājsistēmai (OS), un slēdziet interneta informācijas pakalpojumu (IIS) līdzekļus:
 
     - Tīmekļa pārvaldības rīki
@@ -242,9 +245,9 @@ Veiciet šīs darbības datorā, kur tiek viesots starpniekservera pakalpojums.
     - Interneta web pakalpojumi
         - Programmas izstrādes funkcijas
             - .NET paplašināmība 4.7 (vai 4.8)
-            - ASP
+            - Asp
             - ASP.NET 4.7 (vai 4.8)
-            - CGI
+            - Cgi
             - ISAPI paplašinājumi
             - ISAPI filtri
         - Parastās HTTP funkcijas
@@ -331,7 +334,7 @@ Veiciet šīs darbības datorā, kur tiek viesots starpniekservera pakalpojums.
 21. Programmā File Explorer piešķiriet **TĪKLA pakalpojumu un** **IIS AppPool\\ SdiAppPool** (**vai IIS AppPool\\ DefaultAppPool**, ja izmantojat noklusējuma pūlu) **piekļuvi žurnāliem** **un failu mapēm**.
 
     1. Atlasiet un turiet (vai noklikšķiniet ar peles labo pogu) uz vienas no mapēm, un pēc tam atlasiet **Rekvizīti**.
-    2. Dialoglodziņa Rekvizīti **cilnē Drošība** **atlasiet Rediģēt**.**·**
+    2. Dialoglodziņa Rekvizīti **cilnē Drošība** **atlasiet Rediģēt** **.**
     3. Pievienojiet lietotājus, ja tie nav uzskaitīti.
     4. Atkārtojiet 1. līdz 3. soli citai mapei.
 

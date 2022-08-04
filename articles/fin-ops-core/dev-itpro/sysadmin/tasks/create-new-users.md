@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595390"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103331"
 ---
 # <a name="create-new-users"></a>Jaunu lietotāju izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Pirms varat piekļūt Finance and Operations programmām, vispirms jums jābūt pievienotam lapai **Lietotāji** (**Sistēmas administrēšana \> Lietotāji \> Lietotāji**). Lietotāji ietver jūsu organizācijas iekšējos darbiniekus vai ārējos debitorus un kreditorus. Lietotājus var manuāli importēt vai pievienot. Visiem lietotājiem jābūt korekti licencētiem atbilstošai lietošanai.
+Pirms varat piekļūt finanšu un operāciju programmām, vispirms jāpievieno lietotāju lapai **(** Sistēmas **administrēšanas \> lietotāju \> lietotāji**). Lietotāji ietver jūsu organizācijas iekšējos darbiniekus vai ārējos debitorus un kreditorus. Lietotājus var manuāli importēt vai pievienot. Visiem lietotājiem jābūt korekti licencētiem atbilstošai lietošanai.
 
-Papildinformāciju par to, kā pirkt un licencēt Finance and Operations lietojumprogrammas, skatiet [Microsoft Dynamics 365 licencēšanas rokasgrāmatā](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Informāciju par to, kā pirkt un licencēt finanšu un operāciju programmām, skatiet [Microsoft Dynamics 365. licencēšanas rokasgrāmatā](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Piešķiriet licenci lietotājam
-Sistēmas administratori var [piešķirt licences lietotājiem](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) [Microsoft 365 administrēšanas centrā](/office365/admin/admin-overview/about-the-admin-center).
+Sistēmas administratori [var piešķirt licences lietotājiem](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) administrēšanas [Microsoft 365 centrā](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Ārēja lietotāja pievienošana Azure AD un licences piešķiršana 
-Ārējiem lietotājiem jābūt norādītiem savā nomnieka direktorijā (Azure Active Directory (Azure AD)), lai tiem varētu piešķirt licences. Šie ārējie lietotāji jāpievieno nomniekam Azure AD kā vieslietotāji un pēc tam jāpiešķir atbilstošās licences. Finance and Operations programmām ir prasība, ka viesa lietotāja uzņēmumam ir jāizmanto Azure AD. Papildinformāciju skatiet [Pievienot Azure Active Directory B2B sadarbības lietotājus Azure portālā](/azure/active-directory/b2b/add-users-administrator).
+Ārējiem lietotājiem jābūt norādītiem savā nomnieka direktorijā (Azure Active Directory (Azure AD)), lai tiem varētu piešķirt licences. Šie ārējie lietotāji jāpievieno nomniekam Azure AD kā vieslietotāji un pēc tam jāpiešķir atbilstošās licences. Finanšu un operāciju programmu vajadzība ir, lai viesa lietotāja uzņēmumam būtu jāizmanto Azure AD. Papildinformāciju skatiet [Pievienot Azure Active Directory B2B sadarbības lietotājus Azure portālā](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Jaunu lietotāju importēšana no Azure AD 
 1. Dodieties uz **Sistēmas administrēšana** \> **Lietotāji** \> **Lietotāji**.

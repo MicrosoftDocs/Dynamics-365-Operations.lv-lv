@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869262"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109586"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronisko pārskatu veidošanas (ER) apskats
 
@@ -66,7 +66,7 @@ ER pašlaik atbalsta teksta, XML, JSON, PDF, Microsoft Word un Microsoft Excel O
 
 ER programmai ir šādas iespējas:
 
-- Tā nodrošina vienu kopēju rīku elektronisko pārskatu izveidei dažādos domēnos un aizstāj vairāk nekā 20 dažādas programmas, kas izpilda kāda veida elektronisko pārskatu izveides darbības programmā Finance and Operations.
+- Tas ir atsevišķs koplietojams rīks elektroniskajiem pārskatiem dažādos domēnos, un tas aizstāj vairāk nekā 20 dažādas programmas, kas veic dažu veidu elektroniskos pārskatus finanšu un operāciju vajadzībām.
 - Tā atskaišu formātu izolē no pašreizējās implementācijas. Citiem vārdiem, formāts ir piemērojamas dažādām versijām.
 - Tā atbalsta pielāgota formāta izveidošanu, balstoties uz sākotnējo formātu. Turklāt tā ietver iespējas automātiskai pielāgotā formāta jaunināšanai, ja sākotnējais formāts tiek mainīts, jo ir ieviestas kādas lokalizācijas/pielāgošanas prasības.
 - Tas kļūst par primāro standarta rīku lokalizācijas prasību atbalstam elektronisko atskaišu izveidē — gan korporācijai Microsoft, gan Microsoft partneriem.
@@ -126,7 +126,7 @@ ER konfigurācija tiek koplietota programmas uzņēmumiem.
 
 #### <a name="provider"></a><a name="Provider"></a>Nodrošinātājs
 
-ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu katras ER konfigurācijas autoru (īpašnieku). ER jums ļauj pārvaldīt konfigurāciju nodrošinātāju sarakstu. Formāta konfigurācijas, kas ir izlaistas elektroniskajiem dokumentiem Finance and Operations risinājuma ietvaros, ir atzīmētas kā piederošas **Microsoft** konfigurācijas nodrošinātājam.
+ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu katras ER konfigurācijas autoru (īpašnieku). ER jums ļauj pārvaldīt konfigurāciju nodrošinātāju sarakstu. Formāta konfigurācijas, kas ir izlaistas elektroniskajiem dokumentiem kā daļa no finanšu un operāciju risinājuma, tiek atzīmētas kā pieder Microsoft **konfigurācijas** nodrošinātājam.
 
 Lai uzzinātu, kā reģistrēt jaunu ER nodrošinātāju, noskatieties uzdevuma ceļvedi **ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu** (daļa no biznesa procesa **7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)** ).
 
@@ -143,7 +143,7 @@ ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi 
 
 Repozitorijs **LCS koplietotā bibliotēka** nodrošina piekļuvi konfigurāciju sarakstam koplietojamo līdzekļu bibliotēkā pakalpojumā Lifecycle Services (LCS). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS koplietojamo līdzekļu bibliotēkas jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
 
-Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts, kad repozitorijs tika reģistrēts. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Varat arī importēt konfigurācijas no **LCS projekta repozitorija** uz pašreizējo finanšu un operāciju programmu instanci.
+Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts, kad repozitorijs tika reģistrēts. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Varat arī importēt konfigurācijas no **LCS projekta repozitorija** uz pašreizējo jūsu finanšu un operāciju programmu instanci.
 
 Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā instancē. 
 
@@ -270,3 +270,4 @@ ER konfigurāciju saraksts programmai Finance tiek pastāvīgi atjaunināts. Atv
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

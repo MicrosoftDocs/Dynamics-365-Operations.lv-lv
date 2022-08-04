@@ -1,6 +1,6 @@
 ---
 title: Videoklipi
-description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar Finance and Operations programmām, kuri ir pieejami vietnē YouTube un citās vietnēs.
+description: Šajā lapā ir uzskaitīti Microsoft izveidotie "how-to" un Tech videoklipi, kas ir saistīti ar finanšu un operāciju programmām, kas ir pieejamas YouTube citās vietnēs.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958143"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124957"
 ---
 # <a name="videos"></a>Videoklipi 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi Finance and Operations programmām, kas tiek viesoti šajā kanālā.
+[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti "how-to" videoklipus finanšu un operāciju programmām, kas tiek viesotas kanālā.
 
 > [!Note]
 > Daži no uzskaitītajiem videoklipiem tika publicēti ar iepriekšējo preces nosaukumu, bet tie joprojām ir piemērojami.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Videoklipi par Finance and Operations izstrādi un administrēšanu
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Videoklipus finanšu un operāciju izstrādei un administrēšanai
 
 ### <a name="data-integration"></a>Datu integrācija
 
-- [Darba pasūtījumu sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations programmām](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sinhronizēt darba pasūtījumu starp finanšu Dynamics 365 for Field Service un operāciju programmām](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Datu pārvaldība
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958143"
 ### <a name="intelligence"></a>Informācija
 
 - [Iegultas atskaites rediģēšana analītiskā darbvietā](https://youtu.be/_8WlwmSggcQ)
-- [PowerBI.com pārskatu iegulšana Finance and Operations programmās](https://youtu.be/gGWuNJDoi-M)
-- [Savas datu bāzes (BYOD) pārcelšana uz Finance and Operations programmām](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kā iegult PowerBI.com pārskatus finanšu un operāciju programmās](https://youtu.be/gGWuNJDoi-M)
+- [Novietot savu datu bāzi (BYOD) finanšu un operāciju programmām](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Izmaksu pārvaldības pakalpojuma Power BI satura izmantošana sistēmā Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958143"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

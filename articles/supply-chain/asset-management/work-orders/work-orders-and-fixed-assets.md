@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885991"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111994"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Darba pasūtījumi un pamatlīdzekļi
 
 [!include [banner](../../includes/banner.md)]
 
 
-Līdzekļu pārvaldībā līdzekļi var būt saistīti ar pamatlīdzekļiem, un šiem līdzekļiem varat izveidot darba pasūtījumus. Ja izmantojat šo funkcionalitāti, varat iegūt pilnīgu pārskatu par pamatlīdzekļiem, saistītajiem investīciju projektiem un izmaksām, kas reģistrētas ieguldījumu projektiem moduļos **Projekta pārvaldība un uzskaite** un **Pamatlīdzekļi** programmā Microsoft Dynamics 365 for Finance and Operations.
+Līdzekļu pārvaldībā līdzekļi var būt saistīti ar pamatlīdzekļiem, un šiem līdzekļiem varat izveidot darba pasūtījumus. Ja tiek izmantota šī funkcionalitāte, ir iespējams pilnībā apskatīt pamatlīdzekļus, saistītos investīciju projektus un izmaksas, **·** **kas ir reģistrētas** investīciju projektos projektu vadības un uzskaites un pamatlīdzekļu moduļos finanšu un operāciju programmās.
 
 >[!NOTE]
 >Lauks **Pamatlīdzekļa numurs** darba pasūtījuma uzdevuma projektā tiek aizpildīts tikai tad, ja darba pasūtījuma uzdevuma projektā kā projekta veids ir izvēlēts veids **Investīcijas**.

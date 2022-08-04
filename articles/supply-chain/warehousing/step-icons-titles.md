@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ed2baff1851eba488233c050cef1f8f73b6bcee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890601"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067308"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Darbību ikonu un nosaukumu piešķiršana Warehouse Management mobilajai programmai
 
@@ -317,8 +317,8 @@ Sistēmā ir ietverta standarta darbību ikonu kolekcija, ko varat izmantot arī
 <td><img src="media/step-icons-weight-to-consume.png" alt="Weight to consume step icon" title="Svars, kas tiek patērēts darbības ikona"><br>WeightToConsume</td>
 </tr>
 <tr>
-<td><img src="media/step-icons-whs-adjustment-type.png" alt="WHS adjustment type step icon" title="WHS korekcijas tipa darbības ikona"><br>WHSAdjustmentType</td>
-<td><img src="media/step-icons-whs-receiving-exception.png" alt="WHS receiving exception step icon" title="WHS saņemšanas izņēmuma darbības ikona"><br>WHSReceivingException</td>
+<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="WMS korekcijas tipa darbības ikona"><br>WHSAdjustmentType</td>
+<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="WMS saņemšanas izņēmuma darbības ikona"><br>WHSReceivingException</td>
 <td><img src="media/step-icons-wms-location-id.png" alt="WMS location ID step icon" title="WMS atrašanās vietas ID darbības ikona"><br>WMSLocationID</td>
 <td><img src="media/step-icons-work-id.png" alt="Work ID step icon" title="Darba ID darbības ikona"><br>WorkId</td>
 </tr>

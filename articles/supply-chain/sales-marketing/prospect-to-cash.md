@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857233"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103600"
 ---
 # <a name="prospect-to-cash"></a>No potenciālā klienta līdz skaidrai naudai
 
@@ -43,13 +43,13 @@ Pašreizējā versijā risinājums No potenciālā klienta līdz skaidrai naudai
 ## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management sistēmas prasības
 Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tālāk norādītajās versijās.
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (2017. gada decembris)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finanses un operācijas, Uzņēmuma izdevums 7.3 (2017. gada decembris)
 
-- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada decembris) — lietojumprogrammas būvējums 7.3.11971.56116 ar 12. platformas atjauninājumu (7.0.4709.41129)
+- Dynamics 365 Finanses un operācijas, Uzņēmuma izdevums (2017. gada decembris) — lietojumprogrammu būvējuma 7.3.11971.56116 ar platformu atjaunināšanas 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise izdevums (2017. gada jūlijs)
 
-- Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs) — ar 8. platformas atjauninājumu (lietojumprogrammas būvējums 7.2.11792.56024 ar platformas būvējumu 7.0.4565.16212).
+- Dynamics 365 Finanses un operācijas, Uzņēmuma izdevums (2017. gada jūlijs) — ar platformas atjauninājumu 8 (programmas būvējuma 7.2.11792.56024 platformas būvējuma 7.0.4565.16212).
 - Ir nepieciešami tālāk minētie labojumfaili.
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)**— šis labojumfails ļauj veikt pārdošanas pasūtījumu sinhronizēšanu no Sales uz Supply Chain Management, izmantojot līdzekli Datu integrācija. Tas nodrošina arī vairākus citus uzlabojumus.
@@ -59,9 +59,9 @@ Integrācija No potenciālā klienta līdz skaidrai naudai tiek atbalstīta tāl
     > [!NOTE]
     > Ir nepieciešams instalēt tikai labojumfailu KB4045570, jo tā instalācijā ir ietvertas citos labojumfailos ietvertās izmaiņas. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations versija 1611 (2016. gada novembris)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 Finanšu un operāciju versija 1611 (2016. gada novembris)
 
-- Dynamics 365 for Finance and Operations versija 1611 (2016. gada novembris) ar 8. platformas atjauninājumu vai jaunāka versija
+- Dynamics 365 Finanšu un operāciju versija 1611 (2016. gada novembris) ar 8. platformas atjauninājumu vai jaunāku versiju
 
 - Ir nepieciešami tālāk minētie labojumfaili.
 

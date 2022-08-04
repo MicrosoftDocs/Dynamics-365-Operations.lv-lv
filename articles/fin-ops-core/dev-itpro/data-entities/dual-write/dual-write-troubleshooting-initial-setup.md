@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882089"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111206"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -22,20 +22,20 @@ ms.locfileid: "8882089"
 
 
 
-Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse. Konkrēti, šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
+Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Dataverse. Konkrēti, šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kurām šajā rakstu adresēs var būt nepieciešama sistēmas administratora loma vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Finanšu un operāciju programmu nevar saistīt ar Dataverse
 
-**Nepieciešama loma, lai iestatītu dubultās rakstīšanas:** sistēmas administratoru finanšu un operāciju programmās un Dataverse.
+**Nepieciešama loma, lai iestatītu dubultās rakstīšanas:** sistēmas administrators finanšu un operāciju programmās un Dataverse.
 
 Kļūdas lapā **Iestatīt saiti uz Dataverse** parasti izraisa nepilnīgas iestatīšanas vai atļauju problēmas. Pārliecinieties, ka visa darbspējas pārbaude iet uz lapu **Iestatīt saiti uz Dataverse**, kā parādīts nākamajā attēlā. Nevarat saistīt duālo ierakstu, ja vien nav izieta pilnīga darbspējas pārbaude.
 
 ![Veiksmīga darbspējas pārbaude.](media/health_check.png)
 
-Jums jābūt nomnieka Azure AD administratora akreditācijas datiem, lai saistītu Finanšu un operāciju un Dataverse vides. Pēc vides saistīšanas lietotāji var pieteikties, izmantojot sava konta akreditācijas datus un atjauninot esošo tabulas karti.
+Lai saistītu finanses un Azure AD operācijas un vides, ir jābūt nomnieka administratora akreditācijas Dataverse datiem. Pēc vides saistīšanas lietotāji var pieteikties, izmantojot sava konta akreditācijas datus un atjauninot esošo tabulas karti.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Atrodiet ierobežojumu attiecībā uz to juridisko personu vai uzņēmumu skaitu, kurus var saistīt duālajam ierakstam
 
@@ -55,7 +55,7 @@ Duālais ieraksts neatbalsta vairākas juridiskas personas/uzņēmumus ar vienā
 
 Lai atbloķētu debitoru, noņemiet Dataverse tabulā **cdm_company** esošos ierakstu dublikātus. Ari tad, ja tabulā **cdm_company** ir tukši ieraksti, noņemiet vai izlabojiet tos.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Atverot dubultās rakstīšanas lapu Finanšu un operāciju programmās, radās kļūda
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Atverot dubultās rakstīšanas lapu finanšu un operāciju programmās, radās kļūda
 
 Mēģinot saistīt Dataverse vidi duālajam ierakstam, jūs varētu saņemt šādu kļūdas ziņojumu:
 
@@ -70,7 +70,7 @@ Mēģinot saistīt Dataverse vidi duālajam ierakstam, jūs varētu saņemt šā
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Atlasiet **Akceptēt**, lai akceptētu. Jūs dodat atļauju instalēt programmu (ar `id=33976c19-1db5-4c02-810e-c243db79efde`) nomniekā.
-+ Šī programma ir nepieciešama, lai Dataverse komunicēt ar programmām Finanses un Operācijas.
++ Šī programma ir nepieciešama, lai Dataverse sazinātos ar finanšu un operāciju programmām.
 
     ![Problēmu novēršana sākotnējās iestatīšanas laikā.](media/Initial-sync-setup-troubleshooting-1.png)
 
@@ -85,7 +85,8 @@ Jūs varētu saņemt šādu kļūdas ziņojumu:
 
 Problēmai, kad vide nav atklājama, var būt divi iemesli.
 
-+ Lietotājs, kurš tika izmantots pieteikšanās veikšanai, nav tajā pašā nomniekā, kas ir Finanšu un operāciju instance.
-+ Ir dažas mantojuma finanšu un operāciju instances, kas tika Microsoft viesotas, kurām bija atklājumu problēma. Lai to labotu, atjauniniet Finanšu un operāciju instanci. Vide kļūst atklājama ar jebkādu atjauninājumu.
++ Lietotājs, kurš tika izmantots pieteikšanās veikšanai, nav tajā pašā nomniekā, kas ir finanšu un operāciju instance.
++ Ir daži mantojuma finanšu un operāciju gadījumi, kas tika viesoti Microsoft un kuriem bija atklājumu problēma. Lai to labotu, atjauniniet finanšu un operāciju gadījumu. Vide kļūst atklājama ar jebkādu atjauninājumu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

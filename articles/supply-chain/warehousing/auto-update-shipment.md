@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903758"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067887"
 ---
 # <a name="shipment-auto-updates"></a>Sūtījuma automātiskie atjauninājumi
 
@@ -30,7 +30,7 @@ Automātiskās atjaunināšanas piegādes funkcionalitāte automātiski atjaunin
 
 Kad automātiskās atjaunošanas sūtījuma funkcionalitāte netiek izmantota, tikai kvantitāte samazinās automātiskā plūsmā, līdz tiek izveidots noliktavas darbs. Lietotājiem ir manuāli jāatjaunina vai jādzēš rindas, un tad atkārtoti jāaizpilda rindas, ja pasūtījuma daudzums ir palielināts vai tiek pievienotas jaunas pasūtījuma rindas. Izmantojot automātiskās atjaunināšanas sūtījuma funkcionalitāti, uzņēmumi var bez raizēm sniegt atjauninājumus noliktavai, neuztraucoties, ka ar to saistītie sūtījumi un kravas neatspoguļo pasūtījumu rindas atjauninājumus.
 
-Automātiskās atjaunināšanas sūtījuma funkcionalitāte attiecas uz pārdošanas pasūtījuma rindām un pārsūtīšanas pasūtījuma rindām, un tā ir ieslēgta konkrētai noliktavai. Tāpēc uzņēmumi pēc nepieciešamības var piemērot dažādas automātiskās atjaunināšanas sūtījumu ierobežojumus noliktavās. Pēc noklusējuma automātiskās atjaunināšanas sūtījuma ierobežojumu daudzuma samazinājumam piemēro visām noliktavām, kas izmanto noliktavas pārvaldības procesus. Kad šis noklusējuma politikas iestatījums tiek izmantots, tikai daudzuma samazināšanās automātiski tiek veikta sūtījumam un kravai līdz tiek veikti noliktavas darbi. Šī uzvedība līdzinās uzvedībai, kas tika izmantota pirms automātiskās atjaunināšanas sūtījumu funkcionalitātes ieviešanas.
+Automātiskās atjaunināšanas sūtījuma funkcionalitāte attiecas uz pārdošanas pasūtījuma rindām un pārsūtīšanas pasūtījuma rindām, un tā ir ieslēgta konkrētai noliktavai. Tāpēc uzņēmumi pēc nepieciešamības var piemērot dažādas automātiskās atjaunināšanas sūtījumu ierobežojumus noliktavās. Pēc noklusējuma automātiski atjaunināt nosūtīšanas politiku daudzuma samazināšanai tiek piemērota visām noliktavām, kas izmanto noliktavas vadības procesus (WMS). Kad šis noklusējuma politikas iestatījums tiek izmantots, tikai daudzuma samazināšanās automātiski tiek veikta sūtījumam un kravai līdz tiek veikti noliktavas darbi. Šī uzvedība līdzinās uzvedībai, kas tika izmantota pirms automātiskās atjaunināšanas sūtījumu funkcionalitātes ieviešanas.
 
 ## <a name="main-elements-of-the-functionality"></a>Funkcionalitātes galvenie elementi
 

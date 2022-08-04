@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015351"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178509"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Attiecas uz:** savrupas infrastruktūras personāla vadība_ 
 
-
+> [!NOTE]
+> Sākot no 2022. gada jūnija, cilvēkresursu vides var izvietot tikai finanšu un operāciju programmas infrastruktūrai. Papildinformāciju skatiet finanšu [un operāciju infrastruktūras sadaļu Personāla vadības nodrošināšana](hr-admin-setup-provision-fo.md).
 
 Šajā rakstā skaidrots process, kā nodrošināt jaunu ražošanas vidi korporācijai Microsoft Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ Pirms sākat nodrošināt jaunu ražošanas vidi, jābūt nodrošinātiem tālā
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources apgrozījuma vides nodrošināšana
 
 >[!NOTE]
-> Sākot no 2022. gada aprīlī, cilvēkresursu izmēģinājuma vides nebūs pieejamas savrupā programmā. Potenciālie debitori, kuri interesējas par cilvēkresursu spēju vērtēšanu finanšu un operāciju programmās, var to darīt, izmantojot bezmaksas 30 dienas izmēģinājuma darbību kopā ar demonstrācijas datiem. Dynamics 365 Finanses ietvers personāla vadības iespējas, kas tiks iesniegtas finanšu infrastruktūrasm, sapludinot savrupu programmu. Papildinformāciju [skatiet sadaļu HR piedāvājumu sapludināšana sniedz jums iespējas kopā ar debitoriem](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) . Lai iegūtu plašāku informāciju par Dynamics 365 finanšu izmēģinājuma versijām, skatiet pakāpenības [rokasgrāmatu](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
+> Sākot no 2022. gada aprīlī, cilvēkresursu izmēģinājuma vides nebūs pieejamas savrupā programmā. Potenciālie debitori, kuri interesējas par cilvēkresursu spēju vērtēšanu finanšu un operāciju programmās, to var izdarīt, izmantojot bezmaksas 30 dienas izmēģinājuma darbību kopā ar demonstrācijas datiem. Dynamics 365 Finanses ietvers personāla vadības iespējas, kas tiks iesniegtas finanšu infrastruktūrasm, sapludinot savrupu programmu. Papildinformāciju skatiet šeit: [HR piedāvājumu sapludināšana sniedz jums iespējas kopā ar debitoriem](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Lai iegūtu vairāk informācijas par Dynamics 365 finanšu izmēģinājuma versijām, skatiet pakāpeniskas [pamācības](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 
 
-Izmēǵinājuma vides ļauj novērtēt cilvēkresursu funkciju personām, kurām vēl nav piekļuves Human Resources videi. Ja nodrošināt izmēģinājuma vidi un autentificētajam lietotājam jau ir piekļuve vienai vai vairākām esošām Human Resources vidēm, lietotājs tiks pārvirzīts uz esošo vidi vai vižu sarakstu.
+Apgrozījuma vides palīdz novērtēt personāla vadības funkcionalitāti personām, kurām vēl nav piekļuves cilvēkresursu videi. Ja nodrošināt izmēģinājuma vidi un autentificētajam lietotājam jau ir piekļuve vienai vai vairākām esošām Human Resources vidēm, lietotājs tiks pārvirzīts uz esošo vidi vai vižu sarakstu.
 
-Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 30 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 30 dienu pārbaudes periodam. Kad izmēģinājuma periods beidzas, vide un visi tajā izmantotie dati tiks dzēsti, un tos nevar atgūt. Vidi nevar pārvērst par kastu vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 Izveidojot Human Resources izmēģinājuma vidi, nomniekam tiek izveidota arī Power Apps izmēģinājuma vide un saistīta ar Human Resources vidi. Power Apps videi, kas tiek nodēvēta par "TestDrive", ir tāds pats izmēģinājuma periods kā Human Resources videi.
 
@@ -56,14 +57,14 @@ Izveidojot Human Resources izmēģinājuma vidi, nomniekam tiek izveidota arī P
 
 ## <a name="plan-human-resources-environments"></a>Human Resources vižu plānošana
 
-Pirms jūs izveidojiet pirmo Human Resources vidi, jums uzmanīgi jāplāno jūsu projekta vides vajadzības. Human Resources pamata abonementā ir ietvertas divas vides: ražošanas vide un smilškastes vides. Atkarībā no projekta sarežģītības, iespējams, ir jāiegādājas papildu smilškastes vides, lai atbalstītu projekta aktivitātes. 
+Pirms jūs izveidojiet pirmo Human Resources vidi, jums uzmanīgi jāplāno jūsu projekta vides vajadzības. Human Resources pamata abonementā ir ietvertas divas vides: ražošanas vide un smilškastes vides. Atkarībā no projekta sarežģītības, iespējams, jāiegādājas papildu kastēs vides, lai atbalstītu projekta aktivitātes. 
 
 Papildu vides apsvērumi.
 
-- **Datu migrācija**: jums var būt nepieciešams apsvērt papildu vidi datu migrācijas aktivitātēm, lai ļautu jūsu smilškastes vidi izmantot testēšanas nolūkiem visā projektā. Ja ir papildu vide, testēšanas un konfigurēšanas laikā datu migrācijas aktivitātes var turpināties dažādās vidēs vienlaicīgi.
-- **Integrācija**: jums var būt nepieciešams apsvērt papildu vidi, lai konfigurētu un testētu integrācijas. Tās varētu ietvert tādas vietējā integrācijas kā Ceriforce dayforce vai LinkedIn Talent Hub integrācijas vai pielāgotas integrācijas, piemēram, algas, kandidātu izsekošanas sistēmas vai atvieglojumu sistēmas un nodrošinātāju integrācijas.
-- **Apmācība**: iespējams, būs nepieciešama atsevišķa vide, kas konfigurēta ar apmācību datu kopu, lai darbiniekus apmācītu par to, kā lietot jauno sistēmu. 
-- **Vairākfāžu projekts**: jums var būt nepieciešama papildu vide, lai atbalstītu konfigurāciju, datu migrāciju, testēšanu vai citas aktivitātes projekta fāzē, kas tiek plānota pēc sākotnējās projekta uzsākšanas.
+- **Datu migrācija**: datu migrācijas aktivitātes, lai ļautu izmantot jūsu kastu vidi testēšanas nolūkiem visā projektā. Ja ir papildu vide, testēšanas un konfigurēšanas laikā datu migrācijas aktivitātes var turpināties dažādās vidēs vienlaicīgi.
+- **Integrācija**: konfigurēt un pārbaudīt integrācijas, kas varētu ietvert vietējo integrāciju, piemēram, Ceriforce Dayforce, vai pielāgotas integrācijas.
+- **Apmācība**: iespējams, būs nepieciešama atsevišķa vide, kas ir konfigurēta ar apmācību datu kopu, lai darbiniekus māca par jaunās sistēmas lietošanu. 
+- **Vairākfāzies projekts**: atbalsts konfigurācijai, datu migrācijai, testēšanai vai citām darbībām projekta fāzē, kas tiek plānota pēc sākotnējā projekta darbības sākuma.
 
  > [!IMPORTANT]
  > Apsverot vidi, mēs iesakām tālāk minētos aspektus.
@@ -100,7 +101,7 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
 2. Norāda, vai šī vide ir Human Resources ražošanas vai smilškastes instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.
    
     > [!NOTE]
-    > Human Resources instances tipu nevar mainīt pēc iestatīšanas. Pirms turpināt, pārbaudiet, vai ir atlasīts pareizais instances tips.</br></br>
+    > Personāla vadības instances tipu nevar mainīt pēc iestatīšanas. Pirms turpināt, pārbaudiet, vai ir atlasīts pareizais instances tips.</br></br>
     > Human Resources instances veids ir neatkarīgs no Microsoft Power Apps vides instances veida, kuru iestatāt Power Apps administrēšanas centrā.
     
 3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Human Resources izmēģinājuma vidē. Demonstrācijas dati ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un tos nekādā gadījumā nedrīkst lietot ražošanas vidē. Jums ir jāizvēlas šī opcija pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
@@ -111,7 +112,7 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
 
 6. Atlasiet **Jā**, lai piekristu nosacījumiem un sāktu izvietošanu.
 
-   Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm. Taču vidi nevar sākt izmantot, kamēr izvietošanas statuss tiek atjaunināts uz **Izvietots**. Šis process parasti aizņem dažas minūtes. Ja nodrošinājuma process ir nesekmīgs, sazinieties ar atbalsta dienestu.
+   Jūsu jaunā vide tiek rādīta navigācijas rūts kreisajā pusē, sarakstā ar vidēm. Tomēr jūs nevarat sākt izmantot vidi, kamēr izvietošanas statuss nav **Izvietots**. Šis process parasti aizņem dažas minūtes. Ja nodrošinājuma process nav izdevusies, sazinieties ar atbalsta dienestu.
 
 7. Lai izmantotu jauno vidi, atlasiet **Pieteikties Human Resources**.
 
@@ -140,7 +141,7 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
    
     - **Neatbalstītas ģeogrāfiskās vietas** — videi ir jābūt atbalstītā ģeogrāfiskā atrašanās vietā. Papildinformāciju skatiet sadaļā [Atbalstītas ģeogrāfiskās atrašanās vietas](hr-admin-setup-provision.md#supported-geographies).
 
-6. Divkāršās rakstīšanas iespējas Human Resources datu integrēšanai ar Power Apps vidi var izmantot tikai tad, ja videi ir atlasīta opcija **Iespējot Dynamics 365 programmas**. Papildu informāciju par divkāršo rakstīšanu skatiet sadaļā [Divkāršās rakstīšanas sākumlapa](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+6. Divkāršās rakstīšanas iespējas Human Resources datu integrēšanai ar Power Apps vidi var izmantot tikai tad, ja videi ir atlasīta opcija **Iespējot Dynamics 365 programmas**. Papildinformāciju skatiet Dubultās [rakstīšanas mājas lapā](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > Laikā, kad tiek izveidota Power Apps vide, ir jābūt atlasītai opcijai **Iespējot Dynamics 365 programmas**. Ja opcija netiek atlasīta nodrošināšanas laikā, jūs nevarēsit izmantot divkāršo rakstīšanu, lai integrētu datus starp Dynamics 365 Human Resources un Power Apps vidi vai lai vidē instalētu Dynamics 365 programmas, piemēram Dynamics 365 Sales un Field Service. Šī opcija nav atgriezeniska. 
@@ -175,3 +176,4 @@ Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoj
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

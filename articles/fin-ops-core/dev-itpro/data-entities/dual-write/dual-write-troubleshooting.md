@@ -1,6 +1,6 @@
 ---
 title: Vispārējā problēmu novēršana
-description: Šajā rakstā ir sniegta vispārīga traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse.
+description: Šajā rakstā ir sniegta vispārīga traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853660"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112370"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -22,7 +22,7 @@ ms.locfileid: "8853660"
 
 
 
-Šajā rakstā ir sniegta vispārīga traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Dataverse.
+Šajā rakstā ir sniegta vispārīga traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Dataverse.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kurām šajā rakstu adresēs var būt nepieciešama sistēmas administratora loma vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
@@ -55,21 +55,21 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 Izsekošanas žurnālu saturu var kopēt un ielīmēt citā programmā, piemēram, Notepad vai citos rīkos, lai skatītu žurnālus vai teksta failus un vieglāk skatīt visu saturu. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Iespējot atkļūdošanas režīmu, lai finanšu un operāciju programmās novērstu tiešsaistes sinhronizācijas problēmas
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Iespējot atkļūdošanas režīmu, lai finanšu un operāciju programmās novērstu tiešas sinhronizācijas problēmas
 
 **Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
-Dubultās rakstīšanas kļūdas, kas radušās Dataverse, var parādīties Finanšu un operāciju programmā. Lai iespējotu izvērsto kļūdu reģistrēšanu, izpildiet tālāk minētās darbības.
+Finanšu un operāciju programmā var parādīties Dataverse dubultās rakstīšanas kļūdas, kas radušās. Lai iespējotu izvērsto kļūdu reģistrēšanu, izpildiet tālāk minētās darbības.
 
 1. Visām projekta konfigurācijām finanšu un operāciju programmā **tabulā DualWriteProjectConfiguration** ir karodziņš **IsDebugMode**.
-2. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu pievienojumprogrammai Finanses un operācijas Excel un pievienojiet **lapai DualWriteProjectConfiguration**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+2. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu finanšu un operāciju Excel pievienojumā un pievienojiet **lapai DualWriteProjectConfiguration**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
 3. Projektā iestatiet **IsDebugMode** uz **Jā**.
 4. Palaidiet scenāriju, kas ģenerē kļūdas.
 5. Izvērstie žurnāli ir pieejami tabulā **DualWriteErrorLog**.
 6. Lai uzmeklēt tabulas pārlūka datus, izmantojiet šādu saiti: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, `999`aizvietošana.
 7. Atjauniniet vēlreiz pēc [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), kas ir pieejams platformas atjauninājumiem 37 vai jaunākai versijai. Ja šis labojums ir instalēts, atkļūdošanas režīms tvers vairāk žurnālu.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Pārbaudīt finanšu un operāciju programmas sinhronizācijas kļūdas virtuālajā datorā
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Pārbaudīt virtuālajā datorā sinhronizācijas kļūdas finanšu un operāciju programmā
 
 **Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
 
@@ -105,15 +105,15 @@ Otrā opcija:
 2.  Ja ir atlasīts 'Bloķēt trešās puses cepumus Inco cookies' vai 'Bloķēt trešās puses cepumus', dodieties uz "Vietnes, kas vienmēr var izmantot cepumus" un noklikšķiniet uz **Pievienot**. 
 3.  Pievienojiet jūsu Finanšu &operāciju lietojumprogrammu vietnes nosaukumu — https://<your_FinOp_instance>.cloudax.dynamics.com. Pārliecinieties, ka jūs atzīmējiet izvēles rūtiņu "Visi sīkfaili, tikai šajā vietā". 
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge Pārlūkprogrammas
+### <a name="microsoft-edge-browser"></a>Microsoft Edge pārlūkprogramma
 1.  Pārejiet uz iestatījumiem > vietnes atļaujām -> cepumus un vietas datus.
 2.  'Bloķēt trešās puses cepumus' izslēgšana.  
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Dataverse vidi no programmas Finanses un operācijas
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Dataverse vidi no finanšu un operāciju programmas
 
-**Nepieciešama loma, lai atsaistītu vidi:** sistēmas administrators programmai Finanses un operācijas vai Dataverse.
+**Nepieciešama loma, lai atsaistītu vidi:** sistēmas administrators finanšu un operāciju programmai vai Dataverse.
 
-1. Piesakieties finanšu un operāciju programmā.
+1. Pieteikties finanšu un operāciju programmā.
 2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
 3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
 4. Atlasiet **Atsaistīt vidi**.
@@ -132,23 +132,23 @@ Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šād
 3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**.
 4. Mainiet drošības iestatījumu uz **Parādīt visiem**.
 
-## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kā nodrošināt datu integrāciju, izmantojot vis pašreizējo Finanšu un operāciju shēmu
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kā nodrošināt datu integrāciju, izmantojot vis pašreizējo finanšu un operāciju shēmu
 
-Jūs variet saskarties ar datu problēmām jūsu datu integrācijā, ja netiek lietota visnosāk izmantotā shēma. Šīs darbības palīdzēs atsvaidzināt elementu sarakstu finanšu un operāciju programmās un elementus datu integrētājā.
+Jūs variet saskarties ar datu problēmām jūsu datu integrācijā, ja netiek lietota visnosāk izmantotā shēma. Šīs darbības palīdzēs atsvaidzināt elementu sarakstu finanšu un operāciju programmās un datu integrētājā elementus.
 
-### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atsvaidzināt elementu sarakstu Finanšu un operāciju vidē
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atsvaidzināt elementu sarakstu finanšu un operāciju vidē
 1.  Piesakieties finanšu un operāciju vidē.
 2.  Atlasiet **Datu pārvaldību**.
 3.  Iekšējo datu pārvaldību atlasiet Struktūras **parametri**.
 4.  Lapā Datu **importēšanas/eksportēšanas struktūras** parametri atlasiet cilni **Elementa iestatījumi** un atlasiet Atjaunināt **elementu sarakstu**. Tas var ilgt vairāk nekā 30 minūtes, lai atsvaidzinātu atkarībā no iesaistīto entītiju skaita.
-5.  Pārejiet uz **Datu pārvaldību** un atlasiet **Datu elementi,** lai pārbaudītu, vai ir uzskaitīti paredzamie elementi. Ja paredzamās entītijas nav uzskaitītas, pārbaudiet, vai entītijas parādās jūsu Finanšu un operāciju vidē un atjaunot trūkstošos elementus pēc nepieciešamības.
+5.  Pārejiet uz **Datu pārvaldību** un atlasiet **Datu elementi,** lai pārbaudītu, vai ir uzskaitīti paredzamie elementi. Ja paredzamās entītijas netiek uzskaitītas, pārbaudiet, vai entītijas parādās jūsu finanšu un operāciju vidē un pēc nepieciešamības atjauno trūkstošās entītijas.
 
 #### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Ja atsvaidzināšana neizdodas novērst problēmu, dzēsiet un pievienojiet elementus vēlreiz
 
 > [!NOTE]
 > Iespējams, ka vajadzēs apturēt visas apstrādes grupas, kas aktīvi lieto šos elementus pirms dzēšanas.
 
-1.  Atlasiet **Datu pārvaldību** jūsu Finanšu un operāciju vidē un atlasiet **Datu elementus**.
+1.  Atlasiet **Datu pārvaldību** jūsu finanšu un operāciju vidē un atlasiet **Datu elementi**.
 2.  Meklējiet elementus, kuriem ir problēmas, un atzīmējiet mērķa elementu, sagatavošanas tabulu, elementa nosaukumu un citus iestatījumus. Dzēst elementu vai elementus no saraksta.
 3.  Atlasiet **Jauns** un vēlreiz pievienojiet elementu vai elementus, izmantojot datus no 2. soļa. 
 
@@ -166,7 +166,7 @@ Iespējams, atbalsta komandai būs jāpārskata tīkla izsekošana, lai novērst
 3. Palaidiet scenāriju un ievērojiet reģistrētos pieprasījumus.
 4. Ar peles labo pogu noklikšķiniet uz ierakstiem un atlasiet **Saglabāt visu kā HAR ar saturu**.
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge Pārlūkprogrammas
+### <a name="microsoft-edge-browser"></a>Microsoft Edge pārlūkprogramma
 
 1. Atvērtajā cilnē nospiediet **F12** vai izvēlieties **Izstrādātāja rīki**, lai atvērtu izstrādātāja rīkus.
 2. Atveriet cilni **Tīkls**.
@@ -174,3 +174,4 @@ Iespējams, atbalsta komandai būs jāpārskata tīkla izsekošana, lai novērst
 4. Atlasiet **Saglabāt**, lai eksportētu rezultātus kā HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a139134fe5122e29b7087bca5ff2ee998fd4669
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852961"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070148"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8852961"
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
-Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.10 (2020. gada maijs)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
+Platformas izmaiņas iekļautas šīs nedēļas laidienā. Papildinformāciju skatiet Platformas [atjauninājumos finanšu un operāciju programmu versijā 10.0.10 (2020. gada maijs)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Šajā laidienā ir ietverti kļūdu labojumi un izmaiņas saglabātajos skatos.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Nodrošināts, lai Dataverse salasīšanas saraksti atbilst Atvaļinājumu uzskaitījumiem (436343)
 

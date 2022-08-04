@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716976"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065714"
 ---
 # <a name="establish-customer-payment-terms"></a>Debitoru maksājumu nosacījumu izveide
 
@@ -35,11 +35,11 @@ ms.locfileid: "8716976"
 7. Noklikšķiniet uz **Saglabāt**.
 8. Aizvērt lapu.
 9. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumu iestatīšana > Maksājumu nosacījumi**.
-10. Klikšķiniet **Jauns**. Apmaksas noteikumi tiek izmantoti, lai definētu, kā tiks aprēķināti apmaksas termiņi. Termiņatlaides datuma iestatīšana ir definēta atsevišķā lapā. 
+10. Klikšķiniet **Jauns**. **Maksāšanas termiņi tiek** izmantoti, lai definētu, kā tiks aprēķināti apmaksas datumi. Termiņatlaides datuma iestatīšana ir definēta atsevišķā lapā. 
 11. Ievadiet ID laukā **Maksājuma nosacījumi**.
 12. Ievadiet aprakstu laukā **Apraksts**.
-13. Atlasiet **Maksāšanas metodi**, piemēram, SPB, neto, pašreizējais mēnesis utt. Maksāšanas metode tiek izmantota, lai definētu sākuma veidu, kā tiks aprēķināta apmaksājamā summa. Piemēram, neto tiek izmantots, ja apmaksas datums vienmēr ir noteikts mēnešu vai dienu skaits pēc rēķina datuma. SPB var izmantot, ja maksājums ir nepieciešams, saņemot rēķinu, tāpēc apmaksas datums netiek rēķināts. Šim piemēram atlasiet 'Pašreizējais mēnesis'.  
-14. Ja aprēķinā iekļauta noteikta nedēļas diena vai datums, atlasiet **Maksājuma diena**. Atkarībā no maksāšanas termiņa var ievadīt daudzumu, norādot mēnešu vai dienu skaitu. Vai var izmantot **Maksājumu grafiku** vai **Maksājumu dienu**, kas jāpievieno maksāšanas metodes beigās. Ja apmaksas datums vienmēr ir nākamā mēneša 10. datums, atlasiet **Maksājumu dienu** 10. datumu. 
+13. Izvēlieties maksājuma **metodi,** piemēram, SPB **·**, **Neto**, Pašreizējais **mēnesis u.c**. Maksājuma **metode tiek** izmantota, lai definētu sākuma laiku, kādā maksājums tiks aprēķināts. Piemēram, Neto **tiek** izmantots, ja apmaksas datums vienmēr ir mēnešu vai dienu skaits pēc rēķina datuma. **SPB** var izmantot, kad maksājums tiek pieprasīts pēc rēķina, tādējādi apmaksas datums netiek aprēķināts. Izvēlieties **Šo uzdevumu** ceļvedi šo mēnesi.  
+14. Ja aprēķinā iekļauta noteikta nedēļas diena vai datums, atlasiet **Maksājuma diena**. Atkarībā no maksāšanas termiņa var ievadīt daudzumu, norādot mēnešu vai dienu skaitu. Vai arī jūs varat izmantot **Maksājumu** grafiku **vai Maksājuma** dienu, lai "pievienot" maksājuma metodes **beigās**. Ja apmaksas datums vienmēr ir nākamā mēneša 10. datums, atlasiet **Maksājumu dienu** 10. datumu. Ja izmantojat Maksājumu **kalendāru**, varat definēt, kā tiek noteikts izpildes datums, kad aprēķinātais datums no zemes ir uz ārpus darba dienas. Sākotnējo izpildes datumu aprēķina, izmantojot kalendārās dienas. Ja aprēķinātais datums nomā brīvdienā, varat koriģēt aprēķināto apmaksas datumu uz nākamo darba datumu vai agrāko darba dienu.
 15. Noklikšķiniet uz **Saglabāt**.
 16. Aizvērt lapu.
 17. Pārejiet uz sadaļu **Debitori > Maksājumu iestatījumi > Termiņatlaides**.
@@ -50,7 +50,7 @@ ms.locfileid: "8716976"
 22. Laukā **Dienas** ievadiet dienu skaitu, kas tiek aprēķināts termiņatlaides datumu. Ja ir atlasīts princips **Neto**, termiņatlaides datuma aprēķināšanai rēķina datumam tiks pieskaitīts noteikts dienu skaits.  
 23. Laukā **Atlaides procenti** ievadiet termiņatlaidi procentos.
 24. **Debitora atlaižu galvenajā kontā** ievadiet galveno kontu, kurā tiks grāmatota termiņatlaide debitora rēķiniem.
-25. Atlasiet opciju laukā **Atlaides korespondējošie konti**. Atlasot Konti rēķina rindās, termiņatlaide tiks iegrāmatota tajā pašā līdzekļu/izdevumu galvenajā kontā, kurā kreditora rēķina rindas. Atlasot Kreditoru rēķiniem izmantot galveno kontu, termiņatlaide tiks iegrāmatota galvenajā kontā, kurš definēts laukā Kreditoru rēķinu galvenais konts. Šim piemēram izvēlieties 'Kreditoru rēķiniem izmantot galveno kontu'. 
+25. Atlasiet opciju laukā **Atlaides korespondējošie konti**. Atlasot Konti rēķina rindās, termiņatlaide tiks iegrāmatota tajā pašā līdzekļu/izdevumu galvenajā kontā, kurā kreditora rēķina rindas. Ja kreditoru rēķiniem **atlasīsit** opciju Izmantot galveno kontu, **termiņatlaide tiks grāmatota galvenajā kontā, kas tiek definēts kreditora rēķinu galvenajā kontā**. Šim piemēram izvēlieties Izmantot **galveno kontu kreditora rēķiniem**. 
 26. Laukā **Kreditora atlaižu galvenais konts** ievadiet galveno kontu, kurā tiks grāmatota termiņatlaide kreditora rēķiniem.
 27. Noklikšķiniet uz **Saglabāt**.
 

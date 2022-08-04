@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fffe9c042c71dc220179bb6d1ba7fd59d5e53cc0
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846305"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069539"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources 2021. gada 19. aprīlis
 
@@ -41,7 +41,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 | --- | --- | --- |
-| Platformas atjauninājums 10.0.17 (41) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.17 (2021. gada aprīlis)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platformas atjauninājums 10.0.17 (41) | -- | [Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.17 (2021. gada aprīlis)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Pielāgoto lauku atbalsts atvieglojumu pārvaldības veidlapās | [Pielāgotā lauka atbalsts atvieglojumu pārvaldībai](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Atvieglojumu pārvaldības pārskats](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
@@ -77,7 +77,7 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 | Funkcija | Detalizētā informācija |
 | --- | --- |
 | Vadītāja ievadītās prasmes saviem darbiniekiem var automātiski apstiprināt ar darbplūsmu | Drīzumā. |
-| Platformas atjauninājums 10.0.18 (42) | Ir ieplānots, ka platformas atjaunināšana 10.0.18 sāks izriti ar pakalpojuma laidienu 2021. gada 17. maijā. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.18 (2021. gada maijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platformas atjauninājums 10.0.18 (42) | Ir ieplānots, ka platformas atjaunināšana 10.0.18 sāks izriti ar pakalpojuma laidienu 2021. gada 17. maijā. Papildinformāciju skatiet platformas [atjauninājumos finanšu un operāciju programmu versijā 10.0.18 (2021. gada maijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Pielāgotā lauka atbalsts atvieglojumu pārvaldības atbilstības noteikumos  | [Pielāgots lauka atbalsts atbilstības apstrādei](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2021 laidiena 1. kopuma pārskats](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -90,3 +90,4 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

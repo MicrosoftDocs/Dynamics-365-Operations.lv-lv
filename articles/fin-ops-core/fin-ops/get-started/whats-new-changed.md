@@ -1,6 +1,6 @@
 ---
-title: Jaunumi vai mainīti Finanšu un operāciju programmu mājas lapā
-description: Šajā lapā ir norādes uz tēmām, kas var palīdzēt jums uzzināt par jaunajiem līdzekļiem jaunākajās Finance and Operations programmās.
+title: Kas jauns vai mainīts finanšu un operāciju programmu mājas lapā
+description: Šī lapa norāda uz tēmām, kas var palīdzēt jums uzzināt par jaunajām funkcijām pēdējās finanšu un operāciju programmās.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908232"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125122"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Jaunumi vai mainīti Finanšu un operāciju programmu mājas lapā
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Kas jauns vai mainīts finanšu un operāciju programmu mājas lapā
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ Lai skatītu, kas jauns vai mainīts atsevišķi Dynamics 365 Human Resources, s
 
 ## <a name="platform-updates"></a>Platformas atjauninājumi
 
-Lai redzētu, kas jauns vai mainīts platformas atjauninājumos finanšu un operāciju programmām, skatiet šo rakstu:
+Lai redzētu, kas ir jauns vai mainīts Platformas atjauninājumos finanšu un operāciju programmām, skatiet šo rakstu:
 
 - [Jaunumi un izmaiņas Platform atjauninājumos](../../dev-itpro/get-started/whats-new-home-page.md)
 
@@ -60,3 +60,4 @@ Lai skatītu, kas jauns vai mainīts programmā Lifecycle Services, skatiet tāl
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

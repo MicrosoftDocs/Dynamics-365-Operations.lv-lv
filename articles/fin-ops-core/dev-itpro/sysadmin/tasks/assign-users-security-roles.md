@@ -1,6 +1,6 @@
 ---
-title: Drošības lomu piešķiršana lietotājiem
-description: Lai piekļūtu Finance and Operations programmām, lietotājiem jābūt piešķirtai drošības lomai.
+title: Piešķirt lietotājus drošības lomām
+description: Lai piekļūtu finanšu un operāciju programmām, lietotājiem jābūt piešķirtiem drošības lomām.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105542"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103874"
 ---
 # <a name="manage-users-and-security-roles"></a>Lietotāju un drošības lomu pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-Lai finanšu un operāciju programmās izmantotu jebko citu, nevis parastās iespējas, lietotājiem ir jābūt piešķirtiem drošības lomām. Jūs varat piešķirt lietotājus lomām automātiski, pamatojoties uz kārtulām un biznesa datiem, izslēgt lietotājus no automātiskās lomas piešķires vai pievienot lietotājus lomām manuāli.
+Lai izmantotu jebko citu, nevis parastās iespējas finanšu un operāciju programmās, lietotājiem ir jāpiešķir drošības lomas. Jūs varat piešķirt lietotājus lomām automātiski, pamatojoties uz kārtulām un biznesa datiem, izslēgt lietotājus no automātiskās lomas piešķires vai pievienot lietotājus lomām manuāli.
 
 ## <a name="automatically-assign-users-to-roles"></a>Automātiski piešķirt lietotājus lomām
 Šī procedūra skaidro kā sistēmas administratori var automātiski piešķirt lietotājiem lomas, pamatojoties uz biznesa datiem. 
@@ -73,3 +73,4 @@ Lietotājiem, kas manuāli ir piesaistīti drošības lomām, administratoram ar
    4. Sadaļā **Darbību rūts** atlasiet **Izslēgt no lomas**. Tagad **piešķires režīma** kolonna ir atjaunināta uz **Manuāli,** un lietotāji tagad ir izslēgti no lomas.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

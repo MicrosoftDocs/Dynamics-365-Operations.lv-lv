@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900685"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070415"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -82,7 +82,7 @@ Ja faktiskais svars tiek noteikts iepakošanas stacijā konteinera iepakošanas 
 > [!NOTE]
 > Tā kā opcija **Iepakošana** izraisa krājumu atjaunināšanu ar vidējo izvēlēto svaru, tas var izraisīt neatbilstību, kas var izraisīt pieļaujamā svara peļņas/zaudējumu korekciju un/vai starpību starp rīcībā esošo krājumu svaru un pieļaujamā svara etiķetes svaru.
 
-Iekšējiem noliktavas pārvaldības procesiem, piemēram, inventarizācijai un korekciju labojumiem, jūs varat definēt to, vai ir vai nav jānosaka svars. Ja svars netiek noteikts, tiek izmantots nominālais svars. Citas opcijas ļauj fiksēt svaru pēc pieļaujamā svara vienības un pēc uzskaites daudzuma.
+Iekšējiem procesiem, piemēram, uzskaites un pielāgošanas labojumiem, var definēt, vai svars ir jāiegūst. Ja svars netiek noteikts, tiek izmantots nominālais svars. Citas opcijas ļauj fiksēt svaru pēc pieļaujamā svara vienības un pēc uzskaites daudzuma.
 
 Varat arī definēt to, kā tiek noteikts svars. Vienā no divām galvenajām plūsmām tiek izsekotas pieļaujamā svara etiķetes un tās tiek izmantotas svara noteikšanai. Otrā plūsmā pieļaujamā svara etiķetes netiek izsekotas.
 
@@ -183,7 +183,7 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Citi ierobežojumi un darbības saistībā ar pieļaujamā svara preču apstrādi noliktavas pārvaldības ietvaros
 
 - Tādu izdošanas procesu laikā, kuru ietvaros lietotājam netiek prasīts norādīt izsekošanas dimensijas, svara piešķiršana tiek veikta, pamatojoties uz vidējo svaru. Šī darbība notiek tad, ja, piemēram, vienā vietā tiek izmantotas vairākas izsekošanas dimensijas un pēc tam, kad lietotājs ir apstrādājis izdošanu, šajā vietā ir palikusi tikai viena izsekošanas dimensijas vērtība.
-- Ja tiek rezervēti tādas pieļaujamā svara preces krājumi, kas ir konfigurēta noliktavas pārvaldības procesiem, rezervēšana tiek veikta, pamatojoties uz definēto minimālo svaru pat tad, ja šis daudzums ir vienāds ar pēdējo rīcībā esošo krājumu apstrādājamo daudzumu. Šī darbība atšķiras no darbības, kas tiek izmantota krājumiem, kuri nav konfigurēti noliktavas pārvaldības procesiem. Šim ierobežojumam ir viens izņēmums. Ražošanas izdošanai, kad pēdējais izdotais pieļaujamā svara preču daudzums, kuru kontrolē sērijas numurs, tiek izmantots faktiskais svars.
+- Kad krājumi ir rezervēti pieļaujamā svara precei, kas ir konfigurēta noliktavas vadības procesiem (WMS), rezervēšana tiek veikta, pamatojoties uz noteikto minimālo svaru, pat ja šis daudzums ir rīcībā esošo krājumu pēdējais apstrādes daudzums. Šī uzvedība atšķiras no to krājumu uzvedības, kas nav konfigurēti WMS. Šim ierobežojumam ir viens izņēmums. Ražošanas izdošanai, kad pēdējais izdotais pieļaujamā svara preču daudzums, kuru kontrolē sērijas numurs, tiek izmantots faktiskais svars.
 - Procesiem, kuru ietvaros noslodzes aprēķinam tiek izmantots svars (kopuma sliekšņiem, maksimālajiem darba pārtraukumiem, konteinera maksimālajām vērtībām, vietu noslodzei utt.), netiek izmantots faktiskais krājumu svars. Tā vietā, procesi tiek veikti, pamatojoties uz precei definēto fiziskās apstrādes svaru.
 - Kopumā pieļaujamā svara precēm netiek atbalstīta komercijas funkcionalitāte.
 - Pieļaujamā svara precēm krājumu statusu nevar atjaunināt no **Noliktavas statusa izmaiņām**.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899735"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067104"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
@@ -121,7 +121,7 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
-5. Lapas Detalizētā **atrašana** nolaižamajā sarakstā Meklēt **izvēlieties Finanšu** un operāciju virtuālā **datu avota konfigurācijas**.
+5. Lapā Detalizētā **atrašana** nolaižamajā sarakstā Meklēt **nolaižamo** sarakstu atlasiet Finanšu un operāciju **virtuālā datu avota konfigurācijas**.
 
    > [!NOTE]
    > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **finanšu un operāciju virtuālā datu** avota konfigurācijas nav pieejamas sarakstā, uzgaidiet kādu minūti un atsvaidziniet sarakstu.
@@ -218,3 +218,4 @@ Nolaižamā saraksta rūtī tiek rādīti pēdējie procesa izpildes rezultāti.
 [Lietojumprogrammu izveides pārskats Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

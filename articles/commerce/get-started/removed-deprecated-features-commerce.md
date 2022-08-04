@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kurus ir plānots noņemt no Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910528"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138591"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -31,7 +31,20 @@ ms.locfileid: "8910528"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!NOTE]
-> Detalizēta informācija par objektiem Finanšu un operāciju programmās var tikt atrasta tehniskajos [atsauces pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finanšu un operāciju programmu versijā.
+> Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Līdzekļu nolietojuma 2022. gada jūlijs
+
+### <a name="commerce-analytics-preview"></a>Commerce analīze (priekšskatījums)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Grupa Dynamics 365 Commerce ir analizējusi commernce analytics (Preview) līdzekļa lietojumu un uzņemšanu, un ir pieņemts lēmums vairs nevirzās uz priekšu, sasaistot līdzekli ar vispārējo pieejamību.   |
+| **Vai ir aizstāts ar citu līdzekli?**   | Pašlaik Commerce Analytics (preview) netiks aizstāta ar citu līdzekli vai risinājumu. Joprojām ir pieejams neapstrādāto darbību un pamatdatu eksports no finanšu un operāciju programmām uz Azure Data Lei, [kā paskaidrots finanšu un operāciju programmu eksportā uz Datu krātuvi](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneri un debitori var palīdzēt datu plūsmai izveidot jebkuru paredzēto analīzes pārskatu biznesa vajadzībām.
+| **Ietekmētie produkta apgabali**         | Commerce analīze (priekšskatījums) |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Līdz 2022. gada 30. augustam šo funkciju mēs skatīsim kā atspējošanu.  No šī datuma uz priekšu netiks veikta atsvaidzināšana pašreizējos pārskatos, ko Power BI nodrošina Commerce Analytics (Preview).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.25 laidienā
 
@@ -195,3 +208,4 @@ Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

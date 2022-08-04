@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874817"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111666"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Atdalīta dubultās rakstīšanas programmas instrumentācijas pakotne
 
@@ -33,7 +33,7 @@ Iepriekš dubultās rakstīšanas programmas instrumentācijas pakotne bija vien
 - Kopējais HCM
 - Dynamics 365 piegādes ķēde paplašināta
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finanšu un operāciju kopējā versija
+- Dynamics 365 finanses un operācijas Kopējās
 - Dynamics 365 uzņēmums
 - Valūtas maiņas kursi
 - Lauku pakalpojuma kopīgais
@@ -85,7 +85,7 @@ Duālā ierakstā cilvēkresursu pakotnē ir ietverti risinājumi un kartes, kas
 |----------------------------|------------------------------------------|
 | HCMCommon                  | Kopējais HCM                               |
 | msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources elementu kartes |
-| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources Enkura      |
+| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources enkurs      |
 
 Šajā pakotnē ir pieejamas šādas kartes.
 
@@ -247,7 +247,7 @@ Duālās rakstīšanas piezīmju pakotnē ir ietverti risinājumi un kartes, kas
 
 Šajā pakotnē ir pieejamas šādas kartes.
 
-| Finance and Operations                     | Customer Engagement |
+| Finanses un operācijas                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Pārdošanas pasūtījuma galvenes dokumenta pielikumi    | Anotācijas         |
 | Debitora pielikumi                       | Anotācijas         |
@@ -344,3 +344,4 @@ Duālās rakstīšanas puses un globālās adrešu grāmatas risinājumi ir atka
 - Duālās rakstīšanas programmas pamata pakotne
 - Dubultās rakstīšanas finanšu pakotne
 - Duālās rakstīšanas piegādes ķēdes iepakojums
+

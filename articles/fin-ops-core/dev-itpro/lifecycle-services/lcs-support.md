@@ -1,5 +1,5 @@
 ---
-title: Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
+title: Iegūt atbalstu finanšu un operāciju programmām vai Lifecycle Services (LCS)
 description: Šajā rakstā ir izskaidrots, kā iegūt palīdzību saistībā ar finanšu un operāciju programmām vai Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866436"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103409"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Atbalsta saņemšana saistībā ar Finance and Operations programmām vai Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Iegūt atbalstu finanšu un operāciju programmām vai Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,3 +72,4 @@ ms.locfileid: "8866436"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

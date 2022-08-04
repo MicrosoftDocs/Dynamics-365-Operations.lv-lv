@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849305"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065560"
 ---
 # <a name="flushing-principles"></a>Norakstīšanas principi
 
@@ -50,9 +50,9 @@ Norakstīšanas principi tiek konfigurēti noklusējuma vērtību hierarhijā. H
 ## <a name="description-of-the-flushing-principles"></a>Norakstīšanas principu apraksts
 
 ### <a name="manual"></a>Manuālā
-Manuālais norakstīšanas princips norāda, ka materiālu patēriņa reģistrācija ir manuāla darbība. Šis princips ir izmantojams, ja, piemēram, vēlaties izsekot laiku un izsekošanas nolūkos ir jāuzskaita patērēto partiju numuru vai sērijas numuru daudzums. Manuālais patēriņš tiek reģistrēts ražošanas izdošanas saraksta žurnālā. Krājumiem, kas ir iespējoti papildu noliktavas procesiem, var tikt piemērota pārnēsājama plūsma.
+Manuālais norakstīšanas princips norāda, ka materiālu patēriņa reģistrācija ir manuāla darbība. Šis princips ir izmantojams, ja, piemēram, vēlaties izsekot laiku un izsekošanas nolūkos ir jāuzskaita patērēto partiju numuru vai sērijas numuru daudzums. Manuālais patēriņš tiek reģistrēts ražošanas izdošanas saraksta žurnālā. Krājumiem, kas ir iespējoti noliktavas vadības procesiem (WMS), var pielietot rokā turamu plūsmu.
 
-### <a name="start"></a>Sākšana
+### <a name="start"></a>Sākt
 Sākšanas norakstīšanas princips norāda, ka materiāls tiks automātiski patērēts, kad tiks sākts ražošanas pasūtījums. Patērēto materiālu daudzums ir proporcionāls sākto materiālu daudzumam. Sākšanas norakstīšanas principu lietojot kopā ar ražošanas izpildes sistēmu, to var izmantot arī materiālu norakstīšanai, kad ir sākta operācija vai apstrādes darbs. Šis princips ir izmantojams, ja, piemēram, novirze patēriņā ir zema, materiāli ir zemas vērtības materiāli, nav izsekošanas prasību vai operācijām ir īss izpildes laiks. 
 
 ### <a name="finish"></a>Pabeigt

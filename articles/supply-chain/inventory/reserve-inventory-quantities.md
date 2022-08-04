@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899445"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201872"
 ---
 # <a name="reserve-inventory-quantities"></a>Rezervēt krājumu daudzumus
 
@@ -75,7 +75,7 @@ Pārdošanas pasūtījums, kuram ir jābūt automātiski rezervētam un piegād�
 
 Saistībā ar rezervācijām lapā **Krājumu un noliktavas vadības parametri** pastāv divas tālāk aprakstītās opcijas.
 -   Opcija **Rezervēt pasūtītos krājumus** cilnē **Vispārīgi** jums ļauj rezervēt krājumu ieejas plūsmas, kuras ir pasūtītas attiecībā pret krājumu izejas plūsmām moduļos Debitoru parādi, Projektu pārvaldība un uzskaite un Ražošanas kontrole. Šo šai opcijai noņemat atzīmi, varat rezervēt tikai tos krājumus, kas ir fiziski saņemti. Ja iestatīts noteikts krājums, lai pieņemtu negatīvus krājumus, šis lauks nav svarīgs.
--   Opcija **Rezervēt krājumus automātiski** cilnē **Transportēšana** nosaka noklusējuma iestatījumu, ja krājumi tiek automātiski rezervēti pārsūtīšanas pasūtījumiem. Atsevišķiem pārsūtīšanas pasūtījumiem var šo noklusējuma iestatījumu var ignorēt.
+-   Opcija **Rezervēt krājumus automātiski** cilnē Pārsūtīšana **nosaka** noklusējuma iestatījumu, ja krājumi tiek automātiski rezervēti pārsūtīšanas pasūtījumiem. Atsevišķiem pārsūtīšanas pasūtījumiem var šo noklusējuma iestatījumu var ignorēt.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Krājumu rezervēšanas politikas lapā Ražošanas parametri
 

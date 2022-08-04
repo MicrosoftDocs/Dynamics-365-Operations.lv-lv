@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.28. priekšskatījums (2022. gada augusts)
+title: Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.28 (2022. gada augusts)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902058"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186525"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28. priekšskatījums (2022. gada augusts)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.28 (2022. gada augusts)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft priekšskatījuma Dynamics 365 Supply Chain Management versijā 10.0.28. Šai versijai ir ražošanas numuru 10.0.1264 un tā ir pieejama šajā grafikā:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.28. Šai versijai ir ražošanas numuru 10.0.1264 un tā ir pieejama šajā grafikā:
 
 - **Priekšskatījuma laidiens:** 2022. gada maijs
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2022. gada jūlijs
@@ -35,7 +34,7 @@ ms.locfileid: "8902058"
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
 | Krājumi un loģistika | [Landed izmaksu integrācijas entītijas trešās puses kravas ekspediktiem](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Kopējo sūtīšanas izmaksu elementu pārskats](../landed-cost/landed-cost-entities-overview.md) | Aktivizēts pēc noklusējuma |
-| Plānošana | [Uz pieprasījumu balstīta materiālu prasību plānošana (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Drīzumā | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
+| Plānošana | [Uz pieprasījumu balstīta materiālu prasību plānošana (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
 | Plānošana | [Plānošanas optimizācijas atbalsts piegādes īšanai (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Drīzumā | Līdzekļu pārvaldība:<br>*(Priekšskatījums) CTP plānošanas optimizācijai* |
 | Plānošana | [Glabāšanas laika optimizācijas atbalsta plānošana](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Drīzumā | Aktivizēts pēc noklusējuma |
 
@@ -61,8 +60,8 @@ Mēs nesen pievienojam vai būtiski atjauninājām šādus Palīdzības rakstus.
 |---|---|
 | Izmaksu pārvaldība | [Fiksēta saņemtā krājuma cena](../cost-management/fixed-receipt-price.md) |
 | Izmaksu pārvaldība | [Bieži uzdotie jautājumi par krājumu izmaksu aprēķināšanu](../cost-management/inventory-costing-faq.md) |
-| Izmaksu pārvaldība | [Grāmatot izmaksu konta uzskaites principu](../cost-management/post-to-charge-account-accounting-principle.md) |
-| Krājumu vadība | [Krājumu darbību papildinformācija](../inventory/inventory-transactions-details.md) |
+| Izmaksu pārvaldība | [Grāmatot izmaksu kontā uzskaites principā](../cost-management/post-to-charge-account-accounting-principle.md) |
+| Krājumu vadība | [Krājumu transakcijas detalizētā informācija](../inventory/inventory-transactions-details.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -92,3 +91,4 @@ Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply C
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895820"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066676"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigurēšana
 
@@ -55,7 +55,7 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 | *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Šī izvēles funkcija aktivizē rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas. Papildinformāciju skatiet sadaļā Rīcībā [esošo krājumu redzamības izmaiņu grafiks un apsolīšanai pieejamais](inventory-visibility-available-to-promise.md). |
 | *Sadalījums* | Šī izvēles funkcija iespējo krājumu redzamību, lai varētu nodrošināt krājumu aizsardzību (ringfencing) un pārsaukt kontroli. Plašāku informāciju skatiet krājumu redzamības [krājumu sadalījumā](inventory-visibility-allocation.md). |
-| *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti papildu noliktavas procesiem (WHS krājumi). Papildinformāciju skatiet noliktavas [redzamības atbalsta sadaļā WHS krājumiem](inventory-visibility-whs-support.md). |
+| *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti noliktavas pārvaldības procesiem (WMS). Papildinformāciju skatiet šeit: [Krājumu redzamības atbalsts WMS krājumiem](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Atrast pakalpojuma galapunktu
 
@@ -63,7 +63,7 @@ Ja nezināt pareizo Krājumu redzamības pakalpojuma galapunktu, atveriet lapu *
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Datu avota konfigurācija
 
-Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi ietver `fno` (kas nozīmē "Dynamics 365 Finanšu un operāciju programmas") `pos` un (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
+Katrs datu avots atspoguļo sistēmu, no kuras nāk dati. Piemēram, datu avotu nosaukumi ietver `fno` (kas nozīmē "Dynamics 365 finanšu un operāciju programmas") `pos` un (kas nozīmē "pārdošanas punkts"). Pēc noklusējuma Krājumu redzamības programma Supply Chain Management ir iestatīta kā noklusējuma datu avots (`fno`).
 
 > [!NOTE]
 > Datu `fno` avots ir rezervēts Piegādes ķēžu pārvaldībai. Ja krājumu redzamības pievienojumprogramma ir integrēta Piegādes ķēdes pārvaldības vidē, mēs iesakām nedzēšam konfigurācijas, kas saistītas `fno` ar datu avotu.
@@ -809,3 +809,4 @@ Tabulā ir parādīta noklusējuma rezervāciju kartēšana.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

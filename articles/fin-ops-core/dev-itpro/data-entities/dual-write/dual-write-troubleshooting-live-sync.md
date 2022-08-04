@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896710"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111432"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiešsaistes sinhronizācijas problēmu novēršana
 
@@ -22,14 +22,14 @@ ms.locfileid: "8896710"
 
 
 
-Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp Finanšu un operāciju programmām un Microsoft Dataverse. Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar tiešsaistes sinhronizāciju.
+Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Microsoft Dataverse. Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar tiešsaistes sinhronizāciju.
 
 > [!IMPORTANT]
 > Dažām problēmām, kurām šajā rakstu adresēs var būt nepieciešama sistēmas administratora loma Azure Active Directory vai (Azure AD) nomnieka administratora akreditācijas dati. Katrā sadaļā ir paskaidrots, vai ir vajadzīga konkrēta loma vai akreditācijas dati.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Tiešsaistes sihronizācija parāda kļūdu rindas izveidnes laikā
 
-Veidojot rindu Finanšu un operāciju programmā, varat saņemt šādu kļūdas ziņojumu:
+Veidojot rindu finanšu un operāciju programmā, varat saņemt šādu kļūdas ziņojumu:
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"ziņojums\\":\\"Lietotājs nav organizācijas dalībnieks.\\"}}\], Attālais serveris atgrieza kļūdu: (403) Aizliegts."}}".*
 
@@ -47,11 +47,11 @@ Lai novērstu šo problēmu, pārliecinieties, vai priekšnosacījumu atsauces d
 
 Ja dati ir abās vietās un esat pārliecinājušies, ka problēma nav saistīta ar datiem, izpildiet tālāk minētās darbības.
 
-1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Pievienojumprogrammai Finanses un operācijas Excel **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai lietotu pievienojumprogrammu, iespējojiet dizaina režīmu finanšu un operāciju Excel pievienojumprogrammai **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
 2. Atlasiet un dzēsiet tos ierakstus, kuriem ir problēmas duālās rakstīšanas kartē un projektā. Katram divkāršās rakstīšanas kartējumam būs divi ieraksti.
 3. Publicējiet izmaiņas, izmantojot Excel pievienojumprogrammu. Šī darbība ir svarīga, jo tādējādi tiek dzēsti ieraksti no entitījas un pakārtotajām tabulām.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Apstrādāt privilēģiju lasīšanas vai rakstīšanas kļūdas, veidojot datus finanšu un operāciju programmā
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Apstrādāt lasīšanas vai rakstīšanas privilēģijas kļūdas, veidojot datus finanšu un operāciju programmā
 
 Ja izveidojat datus finanšu un operāciju programmā, varat saņemt kļūdas ziņojumu "Nederīgs pieprasījums".
 
@@ -77,7 +77,7 @@ Lai novērstu problēmu, ir jāiespējo trūkstošā privilēģija, kartēto Dyn
 
 **Problēmas novēršanai nepieciešamā loma:** Sistēmas administrators
 
-Izveidojot datus Finanšu un operāciju programmā, varat saņemt šādu kļūdas ziņojumu:
+Izveidojot datus finanšu un operāciju programmā, varat saņemt šādu kļūdas ziņojumu:
 
 *{"entityName": "CustCustomerV3Entity", "executionStatus": 2, "fieldResponses":\[\], "recordResponses":\[{"errorMessage": "**Nevar ģenerēt lietderīgās vērtības elementam CustCustomerV3Entity**", "logDateTime": "2019-08-27T 18:51:52.5843124Z", "verboseError": "Lietderīgas vērtības izveide neizdevās, kļūdas dēļ Nederīgs URI: URI ir tukšs."}\], "isErrorCountUpdated":true}*
 
@@ -90,11 +90,11 @@ Kļūdas ziņojums lietojumprogrammā Customer Engagement:
 > [!IMPORTANT]
 > Ja esat pārsaistījuši vides, jums ir jāaptur visas entitīju kartes, pirms turpināt veikt mazināšanas darbības.
 
-Lai novērstu šo problēmu, ir jāveic darbības gan programmā Dataverse Finanses, gan Operācijas.
+Lai novērstu šo problēmu, ir jāveic darbības gan finanšu Dataverse, gan operāciju programmā.
 
-1. Finanšu un operāciju programmā veiciet šādas darbības:
+1. Finanšu un operāciju programmā sekojiet šiem soļiem:
 
-    1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Pievienojumprogrammai Finanses un operācijas Excel **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+    1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai lietotu pievienojumprogrammu, iespējojiet dizaina režīmu finanšu un operāciju Excel pievienojumprogrammai **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
     2. Atlasiet un dzēsiet tos ierakstus, kuriem ir problēmas duālās rakstīšanas kartē un projektā. Katram divkāršās rakstīšanas kartējumam būs divi ieraksti.
     3. Publicējiet izmaiņas, izmantojot Excel pievienojumprogrammu. Šī darbība ir svarīga, jo tādējādi tiek dzēsti ieraksti no entitījas un pakārtotajām tabulām.
     4. Lai palīdzētu novērst kļūdas, atkārtoti sasaistot finanses Dataverse un operācijas vai vides, pārliecinieties, vai saglabājas nekādas duālās rakstīšanas konfigurācijas.
@@ -108,9 +108,9 @@ Lai novērstu šo problēmu, ir jāveic darbības gan programmā Dataverse Finan
     5. Atlasiet **Rezultāti**, lai skatītu konfigurācijas.
     6. Dzēst visas instances.
 
-3. Finanšu un operāciju programmā veiciet šādas darbības:
+3. Finanšu un operāciju programmā sekojiet šiem soļiem:
 
-    1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Pievienojumprogrammai Finanses un operācijas Excel **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+    1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai lietotu pievienojumprogrammu, iespējojiet dizaina režīmu finanšu un operāciju Excel pievienojumprogrammai **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
     2. Atlasiet un dzēsiet tos ierakstus, kuriem ir problēmas duālās rakstīšanas kartē un projektā. Katram divkāršās rakstīšanas kartējumam būs divi ieraksti.
     3. Publicējiet izmaiņas, izmantojot Excel pievienojumprogrammu. Šī darbība ir svarīga, jo tādējādi tiek dzēsti ieraksti no entitījas un pakārtotajām tabulām.
     4. Lai palīdzētu novērst kļūdas, atkārtoti sasaistot finanses Dataverse un operācijas vai vides, pārliecinieties, vai saglabājas nekādas duālās rakstīšanas konfigurācijas.
@@ -191,7 +191,7 @@ while(qRun.next())
 
 ## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Dati no finanšu un operāciju programmām nav sinhronizēti ar Dataverse
 
-Veicot tiešo sinhronizāciju, var rasties problēma, Dataverse kur tikai daļa datu ir sinhronizēta no finanšu un operāciju programmām vai arī dati vispār nav sinhronizēti.
+Tiešās sinhronizācijas laikā Dataverse var rasties problēma, kur tikai daļa datu tiek sinhronizēta no finanšu un operāciju programmām vai arī dati vispār nav sinhronizēti.
 
 > [!NOTE]
 > Šo problēmu ir jānovērš izstrādes posmā.
@@ -200,13 +200,13 @@ Pirms uzsākat problēmas novēršanu, pārskatiet šādus priekšnosacījumus:
 
 + Pārbaudiet, vai pielāgotās izmaiņas ir ierakstītas vienas transakcijas tvērumā.
 + Biznesa notikumi un divkāršās rakstīšanas ietvars neapstrādā `doinsert()`, `doUpdate()` un `recordset()` darbības vai ierakstus, kuros ir atzīmēts `skipBusinessEvents(true)`. Ja jūsu kods atrodas Šajās funkcijās, divkāršā rakstīšana netiks aktivizēta.
-+ Biznesa notikumi ir jāreģistrē kartējamajam datu avotam. Daži datu avoti var izmantot ārēju savienojumu, un tos var atzīmēt kā lasāmus tikai Finanšu un operāciju programmās. Šie datu avoti netiek izsekoti.
++ Biznesa notikumi ir jāreģistrē kartējamajam datu avotam. Daži datu avoti var izmantot ārēju savienojumu un var tikt atzīmēti kā lasāmi tikai finanšu un operāciju programmās. Šie datu avoti netiek izsekoti.
 + Izmaiņas tiks aktivizētas vienīgi tad, ja pārveidojumi atrodas kartētajos laukos. Nekartēto lauku pārveidojumi neaktivizēs divkāršo rakstīšanu.
 + Pārbaudiet, vai filtru aprēķini rada derīgu rezultātu.
 
 ### <a name="troubleshooting-steps"></a>Problēmu novēršanas darbības
 
-1. Pārskatiet lauku kartējumus divkāršās rakstīšanas administratora lapā. Ja lauks nav kartēts no finanšu un operāciju programmām Dataverse uz to, tas netiks izsekots. Piemēram, šajā ilustrācijā lauks Apraksts ir **izsekots** Dataverse no Finanšu un operāciju programmām, bet ne no programmas Apraksts. Šis lauks Finanšu un operāciju programmās netiks izsekots.
+1. Pārskatiet lauku kartējumus divkāršās rakstīšanas administratora lapā. Ja lauks nav kartēts no finanšu un operāciju programmām Dataverse uz to, tas netiks izsekots. Piemēram, šajā ilustrācijā lauks Apraksts tiek **izsekots** Dataverse no finanšu un operāciju programmām, bet ne no to. Šis lauks finanšu un operāciju programmās netiks izsekots.
 
     ![Izsekotais lauks.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Pirms uzsākat problēmas novēršanu, pārskatiet šādus priekšnosacījumus:
 
 ### <a name="sample-scenario"></a>Piemēra situācija
 
-Finanšu un operāciju programmās kontaktpersonas ieraksta adresei ir atjauninājums, bet adreses maiņa nav sinhronizēta Dataverse. Šāds scenārijs notiek, jo **BusinessEventsDefinition** tabulā nav ierakstu, kuriem būtu ietekmētās tabulas un entitījas apvienojums. Konkrēti, tabula **LogisticsPostalAddress** nav entitījas **smmContactpersonCDSV2Entity** datu avots. Entitījas **smmContactpersonCDSV2Entity** datu avots ir **smmContactPersonV2Entity**, savukārt entitītjas **smmContactPersonV2Entity** datu avots ir **LogisticsPostalAddressBaseEntity**. Tabula **LogisticsPostalAddress** ir entitījas **LogisticsPostalAddressBaseEntity** datu avots.
+Finanšu un operāciju programmās kontaktpersonas ieraksta adresei ir atjaunināts, bet adreses maiņa nav sinhronizēta Dataverse. Šāds scenārijs notiek, jo **BusinessEventsDefinition** tabulā nav ierakstu, kuriem būtu ietekmētās tabulas un entitījas apvienojums. Konkrēti, tabula **LogisticsPostalAddress** nav entitījas **smmContactpersonCDSV2Entity** datu avots. Entitījas **smmContactpersonCDSV2Entity** datu avots ir **smmContactPersonV2Entity**, savukārt entitītjas **smmContactPersonV2Entity** datu avots ir **LogisticsPostalAddressBaseEntity**. Tabula **LogisticsPostalAddress** ir entitījas **LogisticsPostalAddressBaseEntity** datu avots.
 
-Līdzīga situācija var rasties dažos nestandarta modeļos, piemēram, gadījumos, kad tabula, kas tiek modificēta Finanšu un operāciju programmās, nav sasaistīta ar entītiju, kas to ietver. Piemēram, primārā adrese ir dati, kas aprēķināti entitījā **smmContactPersonCDSV2Entity**. Divkāršās rakstīšanas satvars mēģina noteikt, kā izmaiņas pakārtotajā tabulā tiek kartētas atpakaļ uz entitījām. Parasti šāda pieeja ir pietiekama. Taču dažos gadījumos saite ir tik sarežģīta, ka vajadzīgs konkretizēt. Ir jāpārliecinās, ka saistītās tabulas **RecId** ir tieši pieejams entitījā. Pēc tam jāpievieno statiskā metode, lai pārraudzītu tabulas izmaiņas.
+Līdzīga situācija var rasties dažos nestandarta modeļos, piemēram, gadījumos, kad tabula, kas tiek modificēta finanšu un operāciju programmās, nav sasaistīta ar entītiju, kas to ietver. Piemēram, primārā adrese ir dati, kas aprēķināti entitījā **smmContactPersonCDSV2Entity**. Divkāršās rakstīšanas satvars mēģina noteikt, kā izmaiņas pakārtotajā tabulā tiek kartētas atpakaļ uz entitījām. Parasti šāda pieeja ir pietiekama. Taču dažos gadījumos saite ir tik sarežģīta, ka vajadzīgs konkretizēt. Ir jāpārliecinās, ka saistītās tabulas **RecId** ir tieši pieejams entitījā. Pēc tam jāpievieno statiskā metode, lai pārraudzītu tabulas izmaiņas.
 
 Piemēram, pārskatiet metodi **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. Lai apstrādātu šo situāciju, ir pārveidotas entitījas **CustCustomerV3entity** un **VendVendorV2Entity**.
 
@@ -250,19 +250,19 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 5. Apturiet visas divkāršās rakstīšanas kartes, kuras ir izveidotas entitījā **smmContactPersonCDSV2Entity**.
 6. Sāciet kartēšanu. Vajadzētu būt redzamai jaunai tabulai (Šajā piemērā — **LogisticsPostalAddress**), kuru sākāt izsekot, izmantojot kolonnu **RefTableName** rindai, kurā **refentityname** vērtība tabulā **BusinessEventsDefinition** ir vienāda ar **smmContactPersonCDSV2Entity**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Kļūda, izveidojot ierakstu, kurā no programmas Finanses un operācijas tika nosūtīti vairāki ieraksti vienā Dataverse paketē
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Kļūda, izveidojot ierakstu, kurā no finanšu un operāciju programmas vienā paketē no finanšu un operāciju programmas tiek Dataverse nosūtīti vairāki ieraksti
 
-Jebkurai darbībai finanšu un operāciju programma izveido datus paketē un sūta tos kā pakešuzdevumus Dataverse. Ja divi ieraksti ir izveidoti kā daļa no vienas darbības un tie sazzās viens ar otru, iespējams, saņemsit kļūdas ziņojumu, kas līdzīgs šim piemēram, programmā Finanses un operācijas:
+Jebkurai darbībai finanšu un operāciju programma izveido datus paketē un sūta tos kā pakešuzdevumus Dataverse. Ja divi ieraksti ir izveidoti kā daļa no vienas darbības un tie atsaucas viens uz otru, var tikt parādīts kļūdas ziņojums, kas ir līdzīgs šim piemēram finanšu un operāciju programmā:
 
 *Nevar rakstītn datus entitījā aaa_fundingsources. Nevar uzmeklēt ebecsfs_contracts ar vērtībām {PC00...}. Nevar uzmeklēt aaa_fundingsources ar vērtībām {PC00...}. Rakstīšana uz aaa_fundingources neizdevās ar kļūdas ziņojumu Izņēmuma ziņojums: Attālinātais serveris atgrieza kļūdu (400) Nederīgs pieprasījums.*
 
-Lai novērstu šo problēmu, izveidojiet elementa attiecības programmā Finanses un operācijas, lai norādītu, ka šīs divas entītijas ir saistītas viena ar otru un ka saistītie ieraksti tiek apstrādāti vienā un tajā pašā darbībā.
+Lai novērstu šo problēmu, izveidojiet elementa attiecības finanšu un operāciju programmā, lai norādītu, ka abas entītijas ir saistītas viena ar otru un ka saistītie ieraksti tiek apstrādāti vienā un tajā pašā darbībā.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Iespējo kļūdas ziņojumu izvērsto reģistrēšanu
 
-Finanšu un operāciju programmā varat saskarties ar kļūdām, kas saistītas ar Dataverse vidi. Kļūdas ziņojums varētu nesaturēt pilno ziņojuma tekstu vai citus saistošus datus. Lai iegūtu vairāk informācijas, varat iespējot izvērsto reģistrēšanu, iestatot IsDebugMode **karodziņu**, **kas ir norādīts DualWriteProjectConfigurationEntity** entītijā visās projekta konfigurācijās Finanšu un operāciju programmās.
+Finanšu un operāciju programmā var saskarties ar kļūdām, kas saistītas ar Dataverse vidi. Kļūdas ziņojums varētu nesaturēt pilno ziņojuma tekstu vai citus saistošus datus. Lai iegūtu vairāk informācijas, varat aktivizēt izvērsto reģistrēšanu, iestatot IsDebugMode **karodziņu**, **kas ir norādīts DualWriteProjectConfigurationEntity** entītijā visās projekta konfigurācijās finanšu un operāciju programmās.
 
-1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai izmantotu pievienojumprogrammu, iespējojiet dizaina režīmu Pievienojumprogrammai Finanses un operācijas Excel **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
+1. Izmantojot Excel pievienojumprogrammu, atveriet entitīju **DualWriteProjectConfigurationEntity**. Lai lietotu pievienojumprogrammu, iespējojiet dizaina režīmu finanšu un operāciju Excel pievienojumprogrammai **un pievienojiet darblapai DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet sadaļā [Elementa datu skatīšana un atjaunināšana programmā Excel](../../office-integration/use-excel-add-in.md).
 2. Iestatiet projektā karodziņu **IsDebugMode** uz **Jā**.
 3. Palaidiet scenāriju.
 4. Izvērstie ieraksti ir pieejami tabulā **DualWriteErrorLog**. Lai uzmeklētu datus, izmantojot tabulas pārlūku, izmantojiet šo URL: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ Finanšu un operāciju programmā varat saskarties ar kļūdām, kas saistītas 
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Kļūda, klientam vai kontaktpersonai pievienojot adresi
 
-Mēģinot pievienot debitora adresi vai kontaktu Finanšu un operāciju programmās, varat saņemt šādu kļūdas ziņojumu, Dataverse vai:
+Mēģinot pievienot debitora adresi vai kontaktu finanšu un operāciju programmās, varat saņemt šādu kļūdas ziņojumu:Dataverse
 
 *Nevar rakstīt datus uz entitīju msdyn_partypostaladdresses.Writes to DirPartyPostalAddressLocationCDSEntity neizdevās ar kļūdas ziņojumu Pieprasījums neizdevās ar statusa kodu BadRequest un CDS kļūdas kodu : 0x80040265 atbildes ziņojums: Spraudnī radās kļūda. Ieraksts ar atribūta vērtībām Atrašanās vietas ID jau pastāv. Entitījas atslēgai Atrašanās vietas ID atslēga ir vajadzīgs, ka šī atribūtu kopa satur unikālas vērtības. Atlasiet unikālās vērtības un mēģiniet vēlreiz.*
 
@@ -290,7 +290,7 @@ Iespējams, mēģinot pievienot klientu lietojumprogrammā Dataverse, saņemsit 
 
 *"RecordError0":"Rakstīšana neizdevās entitījai Klientu V3 ar nezināmu izņēmumu — Puses ieraksts netika atrasts puses veidam ´Organizācija´'"}.*
 
-Kad pakalpojumā Dataverse tiek izveidots klients, tiek ģenerēts jauns puses numurs. Kļūdas ziņojums tiek parādīts, kad debitora ieraksts kopā ar pusi ir sinhronizēts ar finanšu un operāciju programmām, bet debitora ieraksts ar citu puses numuru jau pastāv.
+Kad pakalpojumā Dataverse tiek izveidots klients, tiek ģenerēts jauns puses numurs. Kļūdas ziņojums tiek parādīts, kad debitora ieraksts kopā ar pusi ir sinhronizēts ar finanšu un operāciju programmām, bet debitora ieraksts ar citu puses numuru jau ir.
 
 Lai novērstu problēmu, atrodiet klientu, izmantojot puses uzmeklēšanu. Ja klients nepastāv, izveidojiet jaunu klienta ierakstu. Ja klients pastāv, izmantojiet esošo pusi, lai izveidotu jaunu klienta ierakstu.
 
@@ -300,7 +300,7 @@ Iespējams, saņemsit šādu kļūdas ziņojumu, mēģinot pakalpojumā Datavers
 
 *Nevar atjaunināt puses veidu no 'DirOrganization' uz 'DirPerson', tā vietā vajadzētu dzēst esošo pusi un pēc tam ievadīt jauno veidu.*
 
-Pakalpojumā Dataverse ir tabulas **msdyn_party** skaitļu secība. Kad Dataverse ir izveidots konts, tiek izveidota jauna puse (piemēram, **Organizācijas** tipa **Party-001**). Šie dati tiek sūtīti uz programmu Finanses un operācijas. Dataverse Ja vide ir Dataverse atiestatīta vai Finanšu un operāciju vide ir saistīta ar citu vidi, Dataverse un tad tiek izveidots jauns kontaktpersonas ieraksts, tiek izveidota jauna puses vērtība, **kas sākas ar Party-001**. Šoreiz izveidotais puses ieraksts būs **Personas** tipa **Party-001**. Kad šie dati ir sinhronizēti, finanšu un operāciju programmas parāda iepriekšējo kļūdas ziņojumu, **jo puses ieraksts Party-001** **ar organizācijas** tipu jau pastāv.
+Pakalpojumā Dataverse ir tabulas **msdyn_party** skaitļu secība. Kad Dataverse ir izveidots konts, tiek izveidota jauna puse (piemēram, **Organizācijas** tipa **Party-001**). Šie dati tiek sūtīti finanšu un operāciju programmai. Dataverse Ja vide tiek atiestatīta vai Dataverse finanšu un operāciju vide ir saistīta ar citu vidi, Dataverse un tad tiek izveidots jauns kontaktpersonas ieraksts, tiek izveidota jauna puses vērtība, **kas sākas ar Party-001**. Šoreiz izveidotais puses ieraksts būs **Personas** tipa **Party-001**. Kad šie dati ir sinhronizēti, finanšu un operāciju programmas rāda iepriekšējo kļūdas ziņojumu, **jo puses ieraksts Party-001** **ar organizācijas** tipu jau pastāv.
 
 Lai novērstu šo problēmu, nomainīt automātisko skaitļu secību Dataverse tabulas **msdyn_party** laukam **msdyn_partynumber** uz citu automātisko skaitļu secību.
 
@@ -355,3 +355,4 @@ Pēc metožu atjaunināšanas, izpildiet tālāk norādītās darbības.
 3. Sāciet kartēšanu. Jums vajadzētu redzēt mazāk ierakstu entitījās **smmContactPersonCDSV2Entity** un **CustCustomerV3Entity** un tabulā **BusinessEventsDefinition**, un sniegumam vajadzētu daļēji uzlaboties.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

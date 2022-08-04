@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892230"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109266"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Microsoft Office-stila lietotāja interfeiss biznesa dokumentu pārvaldībā
 
@@ -36,7 +36,7 @@ Jaunais lietotāja interfeiss (UI) ir saprotamāks un ērtāk lietojams. Biznesa
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-Jaunais [biznesa dokuments, lietojot biznesa dokumentu](https://youtu.be/gAIYl-mM_pw) pārvaldības video (parādīts iepriekš) ir iekļauts [Finanšu un operāciju par](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamajiem YouTube.
+Jauns [biznesa dokuments, lietojot biznesa dokumentu pārvaldības](https://youtu.be/gAIYl-mM_pw) video (parādīts iepriekš) ir iekļauts [finanšu un operāciju iespējas, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejamas YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Nodrošināt jauno dokumentu lietotāja interfeisa pieejamību biznesa dokumentu pārvaldībā
 
@@ -145,3 +145,4 @@ Plašāku informāciju skatiet [Biznesa dokumentu pārvaldības apskatā](er-bus
 7. Atlasiet **Labi**, lai apstiprinātu rediģēšanas procesa sākumu.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859700"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068854"
 ---
 # <a name="tax-calculation-data-model"></a>Nodokļu aprēķina datu modelis
 
 Šajā rakstā ir sniegta informācija par to, kā lauka vērtības nodokļu datu modelī tiek noteiktas nodokļu aprēķina darbībās.
 
-Lauks *nodokļu datu modelis* tiek veidots no laukiem, kas nepieciešami nodokļu aprēķiniem. Microsoft nodrošina nodokļu *aprēķina datu modeli*, kas ietver galvenes laukus un darbību dokumentu rindu laukus Finanšu un operāciju programmās. Nodokļu aprēķina datu modelī definētie lauki ir pieejamas nodokļu aprēķina funkcijas konfigurācijas piemērojamības nosacījumu tabulu kolonnas.
+Lauks *nodokļu datu modelis* tiek veidots no laukiem, kas nepieciešami nodokļu aprēķiniem. Microsoft nodrošina nodokļu *aprēķina datu modeli*, kas ietver darbību dokumentu galvenes laukus un rindu laukus finanšu un operāciju programmās. Nodokļu aprēķina datu modelī definētie lauki ir pieejamas nodokļu aprēķina funkcijas konfigurācijas piemērojamības nosacījumu tabulu kolonnas.
 
 > [!NOTE] 
 > Daži zari, kas definēti datu modelī, piemēram, **Ieraksta ID** un **Tabulas ID**, ir tehniskajiem nolūkiem. Tām nav pieejamo kolonnu nodokļu aprēķina līdzekļa konfigurācijā.
@@ -54,7 +54,7 @@ Varat arī skatīt nodokļu aprēķina datu modeli un pieejamās kolonnas piemē
 
     [![Pārvaldīt kolonnas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Nodokļu aprēķina datu modelis ir integrēts ar Finanšu un operāciju programmām. Katrā darbībā, kas attiecas uz nodokļu aprēķināšanu, piemērojamības nosacījumu tabulās definēto lauku vērtības tiek apkopotas un nosūtītas nodokļu aprēķina pakalpojumam aprēķinam. Versijā 40.46 ir pieejami 57 iepriekš definēti datu modeļi šādiem darbību tipiem: pirkšanas pasūtījumi, pārdošanas pasūtījumi, pārsūtīšanas pasūtījumi, pirkšanas pieprasījumi, piedāvājuma pieprasījumi un pārdošanas piedāvājumi.
+Nodokļu aprēķina datu modelis ir integrēts ar finanšu un operāciju programmām. Katrā darbībā, kas attiecas uz nodokļu aprēķināšanu, piemērojamības nosacījumu tabulās definēto lauku vērtības tiek apkopotas un nosūtītas nodokļu aprēķina pakalpojumam aprēķinam. Versijā 40.46 ir pieejami 57 iepriekš definēti datu modeļi šādiem darbību tipiem: pirkšanas pasūtījumi, pārdošanas pasūtījumi, pārsūtīšanas pasūtījumi, pirkšanas pieprasījumi, piedāvājuma pieprasījumi un pārdošanas piedāvājumi.
 
 ## <a name="version-updates-and-restrictions"></a>Versiju atjauninājumi un ierobežojumi
 
@@ -134,3 +134,4 @@ Divdesmit seši datu modeļi tiek iekļauti kā lauks darbības rindās. Kas att
 | Vienība                          | <ul><li>**Pārdošanas pasūtījums:** Vienība</li><li>**Pirkšanas pasūtījums:** Vienība</li><li>**Pārvietošanas pasūtījums – Nosūtīšana:** Vienība</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Vienība</li><li>**Pirkšanas pieprasījums:** Vienība</li><li>**Piedāvājuma pieprasījums:** Vienība</li><li>**Pārdošanas piedāvājums:** Vienība</li></ul> |
 | Varianta numurs                | <ul><li>**Pārdošanas pasūtījums:** Varianta numurs</li><li>**Pirkšanas pasūtījum:** Varianta numurs</li><li>**Pārdošanas piedāvājums:** Varianta numurs</li></ul> |
 | Noliktava                     | <ul><li>**Pārdošanas pasūtījums:**<ol><li>Rinda &gt; Noliktava</li><li>Prece &gt; Noliktava</li></ol></li><li>**Pirkšanas pasūtījums:**<ol><li>Rinda &gt; Noliktava</li><li>Prece &gt; Noliktava</li></ol></li><li>**Pārsūtīšanas pasūtījums - Nosūtīšana:** No noliktavas</li><li>**Pārsūtīšanas pasūtījums - Saņemšana:** Uz noliktavu</li><li>**Pirkšanas pieprasījums:** Rinda &gt; Noliktava</li><li>**Piedāvājuma pieprasījums:** Rinda &gt; Noliktava</li><li>**Pārdošanas piedāvājums:**<ol><li>Rinda &gt; Noliktava</li><li>Prece &gt; Noliktava</li></ol></li></ul> |
+

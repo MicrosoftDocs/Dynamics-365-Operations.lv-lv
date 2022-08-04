@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849450"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166881"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.24. (2022. gada februāris)
 
@@ -46,7 +46,7 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas jādara līd
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
 | Ražošanas kontrole | Ražošanas pasūtījumu materiālu pieejamības pārbaude pēc pieprasījuma | Ar šo funkciju tiek ātrāk atvērta lapa **Ražošanas pasūtījumi**, kas ir pieejama ražošanas pārvaldības **darbvietā**. Bez šīs funkcijas sistēma automātiski pārbauda, vai materiāli ir pieejami visiem norādītajiem ražošanas pasūtījumiem, tiklīdz atverat lapu, kas var aizņemt nozīmīgu laiku, ja ir liels pasūtījumu skaits. Kad šī funkcija ir iespējota, sistēma tā vietā nodrošina rīkjoslas pogu, kuru varat izmantot, lai sāktu materiālu pārbaudi tikai atlasītajiem pasūtījumiem un, kad nepieciešams. |
-| Ražošanas kontrole | (Priekšskatījums) Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS) | Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Šī funkcija atbalsta tikai tos krājumus, kas nav iespējoti papildu noliktavas procesu (WMS) izmantošanai. Atbalsts WMS iespējotiem krājumiem ir ieplānots turpmākajos laidienos.<p>Dažiem ražotājiem, it īpaši tiem, kas ietilpst procesa nozarēs, ir skaidri jāreģistrē par katru partiju vai ražošanas pasūtījumu patērēto materiālu daudzums. Piemēram, darbinieki var izmantot skalu, lai, sverot patērēto materiālu daudzumu, kad tie strādā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām jāreģistrē arī tie partijas numuri, kas patērēti, ražojot katru preci. |
+| Ražošanas kontrole | Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (nav WMS) | Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Šī funkcija atbalsta tikai tos krājumus, kas nav iespējoti noliktavas pārvaldības procesu (WMS) izmantošanai. Atbalsts WMS iespējotiem krājumiem ir ieplānots turpmākajos laidienos.<p>Dažiem ražotājiem, it īpaši tiem, kas ietilpst procesa nozarēs, ir skaidri jāreģistrē par katru partiju vai ražošanas pasūtījumu patērēto materiālu daudzums. Piemēram, darbinieki var izmantot skalu, lai, sverot patērēto materiālu daudzumu, kad tie strādā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām jāreģistrē arī tie partijas numuri, kas patērēti, ražojot katru preci. |
 | Ražošanas kontrole | Ziņot kā par pabeigtu noliktavas pārvaldības darba slodzē mākoņa un malas mēroga vienībai | Izmantojot šo līdzekli, darbinieki izmanto mobilo programmu Noliktavas pārvaldība, lai ziņotu par ražošanas vai partijas pasūtījuma pabeigšanu, ja programma darbojas attiecībā pret noliktavas pārvaldības darba slodzi mākonī vai malas mēroga vienībā. Papildinformāciju skatiet sadaļā ["Ziņot, kā pabeigts" un "putaway" uz svariem](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
 | Noliktavas vadība | Jaunas noslodzes plānošanas darba lapas | Iespējo divas jaunas noslodzes plānošanas darba lapas: **ienākošās noslodzes plānošanas līdzeklis** **un izejošās noslodzes plānošanas līdzeklis**. |
 
@@ -94,3 +94,4 @@ Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply C
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

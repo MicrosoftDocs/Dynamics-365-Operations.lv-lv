@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859435"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069822"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859435"
 
 Šajā rakstā ir sniegta informācija par rīcībā **esošo krājumu mobilo darbvietu**. Šī darbvieta jums palīdz jebkurā vietā un laikā gūt ieskatu par rezervēto un pieejamo krājumu daudzumu.
 
-Šo mobilo darbvietu ir paredzēts izmantot ar mobilo programmu Finanses un operācijas (Dynamics 365).
+Šo mobilo darbvietu ir paredzēts izmantot ar finanšu un operāciju (Dynamics 365) mobilo programmu.
 
 ## <a name="overview"></a>Pārskats
 Parasti uzņēmumos katru dienu tiek veiktas vairākas krājumu nosūtīšanas un saņemšanas darbības. Šīs krājumu kustības dēļ nepārtraukti mainās rīcībā esošo krājumu statuss. Mobilā darbvieta **Rīcībā esošie krājumi** sniedz iespēju skatīt starpuzņēmumu rīcībā esošo krājumu statusu, lai varētu gūt visjaunākos ieskatus par krājumu datiem jebkurā mobilajā ierīcē. Neatkarīgi no tā, vai strādājat noliktavā vai iepirkumu, pārdošanas, ražošanas vai vadības nodaļā vai ieņemat citu amatu, varat piekļūt rīcībā esošo krājumu datiem jebkurā laikā un vietā. 
@@ -94,7 +94,7 @@ Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dynamics 365):
+Lejupielādējiet un instalējiet finanšu un operāciju (Dynamics 365) mobilo programmu:
 
 -   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -131,3 +131,4 @@ Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dyna
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

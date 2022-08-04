@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853353"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070640"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Sava kontu plāna plānošana
 
@@ -40,10 +40,10 @@ Tālāk ir minēti daži faktori, kas jāņem vērā, plānojot savas organizāc
 - Juridiskās personas prasības atskaišu veidošanai
 - Nepieciešamā specifikācijas pakāpe ārējās organizācijās un savā organizācijā.
 
-Veidojiet kontu plānu lapā **Kontu plāns**. Galvenos kontus varat izveidot lapā **Kontu plāns** vai **Galvenie konti**. Galvenajos kontos nevajadzētu izmantot speciālās rakstzīmes, ko izmanto kā kontu plāna norobežotājus. Pretējā gadījumā var veidoties nestabilitāte vai arī būs nepieciešams vienmēr izmantot uzmeklēšanas rezultātus vai dialoglodziņu, ievadot kontu un dimensiju kombinācijas. Papildinformāciju skatiet šeit: [Izveidot galveno kontu](tasks/create-main-account.md).
+Veidojiet kontu plānu lapā **Kontu plāns**. Galvenos kontus varat izveidot lapā **Kontu plāns** vai **Galvenie konti**. Galvenajos kontos nevajadzētu izmantot speciālās rakstzīmes, ko izmanto kā kontu plāna norobežotājus. Pretējā gadījumā var veidoties nestabilitāte vai arī būs nepieciešams vienmēr izmantot uzmeklēšanas rezultātus vai dialoglodziņu, ievadot kontu un dimensiju kombinācijas. Papildinformāciju skatiet sadaļā [Galvenā konta izveidošana](tasks/create-main-account.md).
 
 > [!NOTE]
-> Dynamics 365 for Finance and Operations versijā 8.0 (2018. gada aprīlis) varat izmainīt kontu plāna norobežotāju lapā **Virsgrāmatas parametri**.
+> Programmā Dynamics 365 Finanšu versija 8.0 (2018. gada aprīlis) **jūs varat modificēt kontu plāna norobežotāju no Virsgrāmatas parametru** lapas.
 
 Ir ieteicams saistīt galvenos kontus ar galvenā konta kategorijām, lai varētu izmantot noklusējuma finanšu pārskatus, neveicot jebkādas izmaiņas. Tādējādi varat ātrāk un vieglāk izstrādāt un uzturēt pārskatus.
 
@@ -60,3 +60,4 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

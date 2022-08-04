@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860169"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109468"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -209,7 +209,7 @@ Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai
 ## <a name="job-history-clean-up-and-archival"></a>Darba vēstures tīrīšana un arhivēšana 
 Darba vēstures tīrīšanas un arhivēšanas funkcionalitāte aizstāj tīrīšanas funkcionalitātes iepriekšējās versijas. Šajā sadaļā tiks izskaidrotas šīs jaunās iespējas.
 
-Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas pakešuzdevuma izmantošana ļauj Finanšu un operāciju programmām automātiski ieplānot un palaist tīrīšanas pakešuzdevumu, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no pusnakts, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei. Sākot ar versiju 10.0.20, šis līdzeklis vienmēr ir iespējots.
+Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas pakešuzdevuma izmantošana ļauj finanšu un operāciju programmām automātiski ieplānot un palaist pakešuzdevumu notīrām, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no pusnakts, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei. Sākot ar versiju 10.0.20, šis līdzeklis vienmēr ir iespējots.
 
 Otrā izmaiņa tīrīšanas procesā ir iztīrītās izpildes vēstures arhivēšana. Tīrīšanas darbs arhivēs dzēstos ierakstus uz BLOB krātuvi, ko DIXF izmanto regulārai integrācijai. Arhivētais fails būs DIXF pakotnes formātā un būs pieejams BLOB 7 dienas, kuru laikā to iespējams lejupielādēt. Arhivēšanas faila noklusējuma 7 dienu ilgmūžību parametros iespējams mainīt uz maksimums 90 dienām.
 
@@ -235,3 +235,4 @@ Lai lejupielādētu arhivēto izpildes vēsturi, dodieties uz datu pārvaldības
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

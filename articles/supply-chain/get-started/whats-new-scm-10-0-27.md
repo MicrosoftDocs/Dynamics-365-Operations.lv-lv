@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: a50fcbe313901beab610400d8c59dd375f1af93e
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: ff92e6904b8042232159a0aea095d7a91c17d4b7
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022626"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124106"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.27. (2022. gada jūlijs)
 
@@ -92,3 +92,4 @@ Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply C
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

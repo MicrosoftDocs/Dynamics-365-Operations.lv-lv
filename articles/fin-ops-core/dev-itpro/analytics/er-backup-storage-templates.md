@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880398"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108958"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880398"
 
 Biznesa lietotāji izmanto [Elektronisko pārskatu (EP)](general-electronic-reporting.md), lai konfigurētu izejošo dokumentu formātus saskaņā ar dažādu valstu/reģionu juridiskajām prasībām. Konfigurēti ER formāti var izmantot iepriekš definētas veidnes, lai izveidotu izejošos dokumentus dažādos formātos Microsoft Excel, piemēram Microsoft Word, darbgrāmatās, dokumentos vai PDF dokumentos. Veidnes ir aizpildītas ar datiem, kam ir nepieciešams ģenerēto dokumentu konfigurētais darbplūsmas.
 
-Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. Katrs ER risinājums var tikt eksportēts no vienas Finance and Operations instances un importēts citā instancē.
+Katru konfigurētu formātu var publicēt kā EP risinājuma daļu noteiktu izejošo dokumentu ģenerēšanai. Katru ER risinājumu var eksportēt no viena finanšu un operāciju gadījuma un importēt citā instancē.
 
-ER struktūra izmanto [Dokumentu pārvaldības strukturēšanu](../../fin-ops/organization-administration/configure-document-management.md), lai saglabātu nepieciešamās veidnes pašreizējai Finance and Operations instancei. Atkarībā no ER struktūras iestatījumiem, Microsoft Azure Blob āšanas vai Microsoft SharePoint mapi var atlasīt kā fizisko primāro glabāšanas vietu veidnēm. (Papildinformāciju skatiet [Elektroniskā pārskata (EP) struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md).) DocuValue tabulā ir atsevišķs ieraksts katrai veidnei. Katrā ierakstā **AccessInformation** lauks saglabā veidnes faila ceļu, kas atrodas konfigurētajā glabāšanas vietā.
+ER struktūra izmanto dokumentu pārvaldības [konfigurēšanas sistēmu,](../../fin-ops/organization-administration/configure-document-management.md) lai pašreizējai finanšu un operāciju instancei saglabātu nepieciešamās veidnes. Atkarībā no ER struktūras iestatījumiem, Microsoft Azure Blob āšanas vai Microsoft SharePoint mapi var atlasīt kā fizisko primāro glabāšanas vietu veidnēm. (Papildinformāciju skatiet [Elektroniskā pārskata (EP) struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md).) DocuValue tabulā ir atsevišķs ieraksts katrai veidnei. Katrā ierakstā **AccessInformation** lauks saglabā veidnes faila ceļu, kas atrodas konfigurētajā glabāšanas vietā.
 
-Kad pārvaldāt Finance and Operations instances, varat izlemt migrēt pašreizējo instanci uz citu vietu. Piemēram, jūs varat migrēt savu ražošanas instanci uz jaunu sandbox vidi. Ja konfigurējāt ER struktūru, lai saglabātu veidnes BLOB krātuvē, DocuValue tabula jaunajā sandbox vidē attiecas uz BLOB uzglabāšanas instanci ražošanas vidē. Tomēr šai instancei nevar piekļūt no smilškastes vides, jo migrēšanas process neatbalsta artefaktu migrāciju BLOB krātuvē. Tāpēc, ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa dokumentus, tiek veikts izņēmums, un jūs tiekat informēts par trūkstošajām veidnēm. Varat arī izmantot ER tīrīšanas rīku, lai dzēstu un pēc tam atkārtoti importētu ER formāta konfigurāciju, kas satur veidni. Tā kā jums varētu būt vairāki ER formāta konfigurācijas, šis process var būt laikietilpīgs.
+Kad pārvaldāt finanšu un operāciju instances, iespējams, varat izlemt migrēt pašreizējo instanci uz citu vietu. Piemēram, jūs varat migrēt savu ražošanas instanci uz jaunu sandbox vidi. Ja konfigurējāt ER struktūru, lai saglabātu veidnes BLOB krātuvē, DocuValue tabula jaunajā sandbox vidē attiecas uz BLOB uzglabāšanas instanci ražošanas vidē. Tomēr šai instancei nevar piekļūt no smilškastes vides, jo migrēšanas process neatbalsta artefaktu migrāciju BLOB krātuvē. Tāpēc, ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa dokumentus, tiek veikts izņēmums, un jūs tiekat informēts par trūkstošajām veidnēm. Varat arī izmantot ER tīrīšanas rīku, lai dzēstu un pēc tam atkārtoti importētu ER formāta konfigurāciju, kas satur veidni. Tā kā jums varētu būt vairāki ER formāta konfigurācijas, šis process var būt laikietilpīgs.
 
 Lai varētu veidot biznesa dokumentus, veidnes ir iespējams izveidot, izveidojot veidnes rezerves veidnes, lai tās būtu vienmēr pieejamas.
 
@@ -46,7 +46,7 @@ Lai varētu veidot biznesa dokumentus, veidnes ir iespējams izveidot, izveidojo
 - Jūs importējat jaunu ER formāta konfigurāciju, kas satur veidni.
 - Pabeidziet ER formāta konfigurācijas versiju, kas ietver veidni.
 
-Veidņu dublējumkopijas tiek migrētas uz jaunu Finance and Operations instanci kā programmas datu bāzes daļu.
+Veidņu dublējuma kopijas tiek migrētas uz jaunu finanšu un operāciju instanci, kā daļu no programmu datu bāzes.
 
 Ja ir nepieciešama ER formāta veidne, lai varētu izveidot izejošos dokumentus, apstrādāt kreditoru maksājumus, ieskaitot maksājumu konsultāciju un kontroles pārskatu ģenerēšanu, piemēram, bet vajadzīgā veidne nav atrodama primārajā glabāšanas vietā, šādi notiek notikumi:
 
@@ -58,7 +58,7 @@ Ja ir nepieciešama ER formāta veidne, lai varētu izveidot izejošos dokumentu
 
 Lai iestatītu parametru **Automātiski izpildīt procedūru, lai atjaunotu bojātas veidnes partijā**, veiciet tālāk norādītās darbības.
 
-1. Risinājumā Finance and Operations dodieties uz sadaļu **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas atkļūdošanas žurnāli**.
+1. Finansēs un operācijās atveriet lapu **Organizācijas administrēšanas \> elektronisko pārskatu \> konfigurācijas**.
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Dialoglodziņā **lietotāja parametri** Iestatiet nepieciešamo vērtību **automātiski palaist procedūru, kā atjaunot bojātas veidnes partijas** parametrā.
 
@@ -83,7 +83,7 @@ Pēc noklusējuma automātiski tiek izveidotas to veidņu dublējumkopijas, kas 
 
 Ja iestatāt opciju **Pārtraukt veidot veidņu dublējumkopijas** uz **Jā** un nevēlaties paturēt dublējumkopijas, kas iepriekš tika veidotas no veidnēm, atlasiet **Iztīrīt dublējumu krātuvi** lapā **Elektronisko pārskatu parametri**.
 
-Ja jauninājāt savu vidi uz Finance and Operations versijas 10.0.5 (2019. gada oktobris) un vēlaties migrēt uz jaunu vidi, kas ietver ER formāta konfigurācijas, ko var palaist, pirms migrācijas atlasiet **Aizpildīt rezerves krātuvi** lapā **Elektronisko pārskatu parametri**. Šī poga sāk visu pieejamo veidņu dublējumkopijas izveidošanas procesu, lai tos varētu uzglabāt ar ER dublējuma glabāšanas vietu veidnēm.
+Ja jūs jauninājāt vidi uz finansēm un operāciju versiju 10.0.5 (2019. gada oktobris) un vēlaties migrēt uz jaunu vidi, kas ietver ER formāta konfigurācijas, kuras var darbināt, **·** **pirms** migrācijas atlasiet Aizpildīt dublējuma krātuvi Elektronisko pārskatu parametru lapā. Šī poga sāk visu pieejamo veidņu dublējumkopijas izveidošanas procesu, lai tos varētu uzglabāt ar ER dublējuma glabāšanas vietu veidnēm.
 
 ![Elektronisko pārskatu veidošanas parametru lapa.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Dodieties uz **Organizācijas administrēšana** \> **Elektroniskie pārskati** 
 
 ## <a name="supported-deployments"></a>Atbalstītie izvietojumi
 
-Finance and Operations versijā 10.0.5 ER veidņu dublējumkopiju glabāšanas līdzeklis ir pieejams tikai mākoņa izvietojumā.
+Finanšu un operāciju versijā 10.0.5 ER veidņu dublējuma glabāšanas funkcija ir pieejama tikai mākoņa izvietošanā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

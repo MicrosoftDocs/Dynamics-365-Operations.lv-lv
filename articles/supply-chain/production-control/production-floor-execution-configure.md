@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
-ms.translationtype: MT
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022570"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167767"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -92,9 +92,9 @@ No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta p
 
 Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Dažiem ražotājiem, it īpaši tiem, kas attiecas uz procesa nozarēm, ir skaidri jāreģistrē materiāla daudzums, kas tiek patērēts katrai partijai vai ražošanas pasūtījumam. Piemēram, darbinieki var izmantot svaru, lai novērtētu materiālu daudzumu, kas tiek patērēts viņu darba laikā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām ir jāreģistrē arī partijas numuri, kas tika patērēti katras preces ražošanai.
 
-Šim līdzeklim ir divas versijas. Viens atbalsta krājumus, *kas nav iespējoti* papildu noliktavas procesu (WMS) izmantošanai. Citi atbalsta krājumus, *kas* ir iespējoti WMS lietošanai. Lai lietotu šo funkcionalitāti, [aktivizējot](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vienu vai abus šos līdzekļus Līdzekļu pārvaldībā (šādā secībā), atkarībā no tā, vai ir krājumi, kas iespējoti WMS:
+Šim līdzeklim ir divas versijas. Viens atbalsta krājumus, *kas nav* iespējoti noliktavas pārvaldības procesu (WMS) izmantošanai. Citi atbalsta krājumus, *kas* ir iespējoti WMS lietošanai. Lai lietotu šo funkcionalitāti, [aktivizējot](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vienu vai abus šos līdzekļus Līdzekļu pārvaldībā (šādā secībā), atkarībā no tā, vai ir krājumi, kas iespējoti WMS:
 
-- *(Priekšskatījums) Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS)*
+- *Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (nav WMS)*
 - *(Priekšskatījums) Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)*
 
 > [!IMPORTANT]
@@ -159,7 +159,7 @@ Kopsavilkuma cilnē Vispārīgi ir pieejami **šādi** iestatījumi:
 
 - **Ierašanās un aiziešanas laiks** - iestatiet *šo* opciju uz Jā, lai izveidotu vienkāršotu interfeisu, kas nodrošina tikai ierašanās un aiziešanas funkcionalitāti. Šis iestatījums atspējo lielāko daļu citu opciju šajā lapā. Pirms šīs opcijas iespējošanas no **Clnes atlases** kopsavilkuma cilnē ir jānoņem visas rindas.
 - **Iespējot meklēšanu** – iestatiet šo opciju kā *Jā*, lai iekļautu meklēšanas lauku darbu sarakstā. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai arī var atrast visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot svītrkodu vai skenējot svītrkodu.
-- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad, ja opcija* Aktivizēt meklēšanu **arī ir iestatīta uz** *Jā*.
+- **Iespējojiet meklēšanu pēc projekta ID** – *iestatiet* šo opciju uz Jā, lai iespējotu darbinieku meklēšanu pēc projekta ID (papildus darba ID un pasūtījuma ID) ražošanas izpildes interfeisa meklēšanas laukā. Šo opciju var iestatīt uz Jā tikai *tad*, ja opcija **Aktivizēt meklēšanu** arī ir iestatīta uz *Jā*.
 - **Automātiski atvērt sākuma dialogu** – kad šī opcija *ir* iestatīta uz Jā, automātiski tiek atvērts dialoglodziņš Sākt darbu, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Automātiski atvērt pārskata norises dialoglodziņu** — *kad* šī opcija ir iestatīta uz Jā, automātiski tiek atvērts pārskata norises dialoglodziņš, **kad** darbinieki izmanto meklēšanas joslu, lai atrastu darbu.
 - **Aktivizēt materiālu koriģēšanu** – iestatiet šo opciju *uz Jā*, lai **iespējotu** pogu **Koriģēt materiālu pārskata** norises dialoglodziņā. Darbinieki var izvēlēties šo pogu, lai koriģētu darba materiālu patēriņu.

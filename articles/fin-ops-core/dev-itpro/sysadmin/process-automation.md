@@ -2,7 +2,7 @@
 title: Procesu automatizācija
 description: Šajā rakstā ir sniegta detalizēta informācija par to, kā procesa automatizācija ļauj vienkārši plānot procesus, ko darbojas pakešapstrādes serveris.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898614"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114941"
 ---
 # <a name="process-automation"></a>Procesu automatizācija
 
@@ -30,7 +30,7 @@ Procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu ser
 
 Centrālā administrēšanas lapa visu procesu automatizācijām ir atrodama Sistēmas administrēšanas modulī, kas atrodas izvēlnē **Iestatījumi**. Šajā lapā tiks uzskaitīti visi automatizētie procesi (sērijas), kas ir iestatīti sistēmā. Tas arī ļaus jums pievienot jaunu procesu automatizācijas tieši no šīs lapas. Pēc sērijas iestatīšanas varat pārvaldīt katru šī saraksta sēriju. Varat izvēlēties rediģēt visu sēriju, dzēst to, skatīt visus gadījumus saraksta skatā vai atspējot sēriju, ja vēlaties pauzēt plānoto darbu. 
 
-Visi procesi, kas ir atspējoti līdzekļu pārvaldībā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti. Procesa automatizācijas plānošanas programma balstās uz sistēmas pakešuzdevuma **Procesa automatizācijas aptauju sistēmas darbs** palaišanu. Darbs nekādā gadījumā nedrīkst tikt mainīts vai pārveidots. 
+Visi procesi, kas ir atspējoti līdzekļu pārvaldībā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti. Procesa automatizācijas plānošanas programma balstās uz sistēmas pakešuzdevuma **Procesa automatizācijas aptauju sistēmas darbs** palaišanu. Darbs nekādā gadījumā nedrīkst tikt mainīts vai pārveidots. Ja šis pakešuzdevums netiek palaists vai ir kļūdains, atlasiet Inicializēt procesa automatizāciju, **lai** atiestatītu pakešuzdevumu. Šī atiestatīšana nodrošina, ka visas jaunās automatizācijas, kas izlaistas jaunākas programmas versijā, tiek inicializētas. 
 
 ## <a name="calendar-view"></a>Kalendāra skats
 

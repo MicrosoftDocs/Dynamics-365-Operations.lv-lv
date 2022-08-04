@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d22ed879f309c0fbb999bf166aefd13f27376042
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069098"
 ---
 # <a name="warehouse-management-overview"></a>Noliktavas pārvaldības pārskats
 
@@ -39,7 +39,7 @@ Atbilstoši sava uzņēmuma vajadzībām jums ir jākonfigurē komponenti ienāk
 - [Novietojuma direktīvas iestatīšana pirkšanas pasūtījuma atlikšanai](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
 - [Pirkšanas pasūtījumu darba veidnes iestatīšana](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a>Noliktavas vadības procesi
+## <a name="warehouse-management-processes-wms"></a>Noliktavas vadības procesi (WMS)
 - Integrēts atbalsts avota dokumentiem attiecībā uz pārdošanas pasūtījumiem, atgriešanām, pārsūtīšanas pasūtījumiem, ražošanas pasūtījumiem un Kanban  
 - Elastīgs ienākošo un izejošo materiālu darbplūsmas atbalsts, pamatojoties uz vaicājumiem
 - Pilnīga integrācija ražošanas un transportēšanas piedāvājumos

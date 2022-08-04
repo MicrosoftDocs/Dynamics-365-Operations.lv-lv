@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879809"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111976"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Duālā ieraksta iestatīšana no Lifecycle Services
 
@@ -53,7 +53,7 @@ Veiciet šos soļus, lai iestatītu duālo rakstīšanu no LCS **Vides informāc
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saite uz Power Platform vidi.":::
 
-8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos dubultās rakstīšanas administrācijas apgabalā Finanšu un operāciju vidē. No turienes varat iestatīt elementu kartējumus.
+8. Kad saistīšana ir pabeigta, tiek parādīta hipersaite. Izmantojiet saiti, lai pieteiktos dubultās rakstīšanas administrācijas apgabalā finanšu un operāciju vidē. No turienes varat iestatīt elementu kartējumus.
 
 ## <a name="linking-mismatch"></a>Saistīšanas neatbilstība
 
@@ -71,3 +71,4 @@ Ja saņemat šo brīdinājumu, mēģiniet kādu no šiem risinājumiem:
 Iepriekš bija pieejama manuāla atbalsta biļetes opcija, bet tas bija pirms iepriekš minētā 1. opcijas.  Korporācija Microsoft vairs neatbalsta pieprasījumu manuālu atkārtotu saistīšanu, izmantojot atbalsta biļeti.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

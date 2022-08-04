@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860643"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068037"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integrācija ar trešās puses ražošanas izpildes sistēmām
 
@@ -252,9 +252,10 @@ Kad MES ir nosūtījis ziņojumu Piegādes ķēžu pārvaldībai, iespējams, ka
 Šādos gadījumos varat izmantot standarta brīdinājuma funkcijas priekšrocības Piegādes ķēžu pārvaldībā. Papildinformāciju par to, kā darbojas standarta brīdinājumi, skatiet šādos resursos:
 
 - Palīdzības dokuments: [Brīdinājumu apskats](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Video: brīdinājumu noteikumu opcijas šeit: [Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Video: [brīdinājuma noteikuma opcijas finansēs un operācijās](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Piemēram, varat iestatīt šādus brīdinājumus, lai sniegtu atsauksmi par ziņojuma stāvokli:
 
 - Izveidojiet biznesa notikumu ("Sūtīt ārēju"), kas tiek izmantots, ja ziņojums nav *izdevies*.
 - Nosūtiet paziņojumu un e-pasta ziņojumu IT administratoram vai ražošanas stāvu pārvaldniekam.
+

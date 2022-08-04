@@ -2,7 +2,7 @@
 title: Avansa rēķini Austrumeiropas valstīm
 description: Šajā rakstā ir sniegta informācija par avansa rēķiniem Austrumeiropai. Avansa rēķins ir dokuments, ko var izveidot debitoram vai kreditoram. Tajā norāda pārdošanas pasūtījuma priekšapmaksas summu.
 author: EvgenyPopovMBS
-ms.date: 05/25/2022
+ms.date: 07/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c722d8215c2b65e24008042c9a4d65bb419ad46a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bcf8424b311b595a114d3429fa7a3252e47e643d
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886289"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135928"
 ---
 # <a name="advance-invoices-for-eastern-europe"></a>Avansa rēķini Austrumeiropas valstīm
 
@@ -38,6 +38,26 @@ Izmantojot avansa rēķina funkcionalitāti, varat izpildīt tālāk noradītos 
 - Saistīt no debitoriem saņemtās priekšapmaksas ar avansa rēķiniem (pirms vai pēc priekšapmaksas grāmatošanas).
 - Mainīt PVN grāmatošanu iegrāmatotajās priekšapmaksās (t. i., pārvērst priekšapmaksu par maksājumu vai maksājumu par priekšapmaksu, vai arī mainīt grāmatošanas datumu, nodokļa likmi vai summu).
 - *Tikai Čehijas Republikai:* izveidot nodokļu dokumentu par apliekamo piegādi ar PVN.
+
+Rakstā ir šādas sadaļas:
+
+- [Avansa rēķini Polijā](#advance-invoices-for-poland)
+- [Debitoru iestatīšana avansa rēķiniem](#set-up-accounts-receivable-for-advance-invoices)
+- [Debitora avansa rēķina izveide](#create-a-customer-advance-invoice)
+- [PVN avansa rēķinos](#vat-on-advance-invoices)
+- [Avansa rēķina piesaiste pārdošanas pasūtījumam vai brīva teksta rēķinam](#link-an-advance-invoice-to-a-sales-order-or-a-free-text-invoice)
+- [Debitoru avansa rēķina izveide no pārdošanas pasūtījuma](#create-a-customer-advance-invoice-from-a-sales-order)
+- [Debitoru avansa rēķina izveide no brīva teksta rēķina](#create-a-customer-advance-invoice-from-a-free-text-invoice)
+- [Avansa rēķina drukāšana](#print-an-advance-invoice)
+- [Maksājuma priekšlikuma izveide no avansa rēķina](#create-a-payment-proposal-from-an-advance-invoice)
+- [Priekšapmaksas piesaiste avansa rēķinam](#link-a-prepayment-to-an-advance-invoice)
+- [Avansa rēķina piesaiste priekšapmaksai](#link-an-advance-invoice-to-a-prepayment)
+- [Avansa rēķina kredīta notas](#advance-invoice-credit-notes)
+- [Čehijas Republikas nodokļu dokumenti](#tax-documents-for-the-czech-republic)
+- [Kreditoru iestatīšana avansa rēķiniem](#set-up-accounts-payable-for-advance-invoices)
+- [Kreditora avansa rēķina izveide](#create-a-vendor-advance-invoice)
+- [Izmantot avansa rēķina un priekšapmaksas apstrādes funkcionalitāti](#use-the-advance-invoice-and-prepayment-handling-functionality)
+- [Atceļ PVN summas Čehijai](#reversing-sales-tax-amounts-for-czech-republic)
 
 ## <a name="advance-invoices-for-poland"></a>Avansa rēķini Polijā
 
@@ -119,7 +139,7 @@ Lai avansa rēķinu saistītu ar brīva teksta rēķinu, sekojiet šiem soļiem.
 ## <a name="create-a-customer-advance-invoice-from-a-sales-order"></a>Debitoru avansa rēķina izveide no pārdošanas pasūtījuma
 
 1. Izveidojiet jaunu vai atlasiet esošu pārdošanas pasūtījumu.
-1. Atlasiet rēķinu un **pēc tam atlasiet Ģenerēt** **·**&gt; avansa rēķinu.**·**
+1. Atlasiet rēķinu un pēc tam atlasiet **Ģenerēt** **avansa** rēķinu.&gt;**·**
 1. Lapā Izveidot **avansa rēķinu** iestatiet šādus laukus.
 
     | Lauks | Apraksts |
@@ -235,7 +255,7 @@ Lai saistītu avansa rēķinu ar pirkšanas pasūtījumu, sekojiet šiem soļiem
 ### <a name="create-a-vendor-advance-invoice-from-a-purchase-order"></a>Kreditora avansa rēķina izveide no pirkšanas pasūtījuma
 
 1. Izveidojiet jaunu vai atlasiet esošu pirkšanas pasūtījumu.
-1. Atlasiet rēķinu un **pēc tam atlasiet Ģenerēt** **·**&gt; avansa rēķinu.**·**
+1. Atlasiet rēķinu un pēc tam atlasiet **Ģenerēt** **avansa** rēķinu.&gt;**·**
 1. Lapā Izveidot **avansa rēķinu** iestatiet šādus laukus.
 
     | Lauks | Apraksts |
@@ -243,5 +263,33 @@ Lai saistītu avansa rēķinu ar pirkšanas pasūtījumu, sekojiet šiem soļiem
     | Procenti | Norādiet pirkšanas pasūtījuma priekšapmaksas procentuālo daļu. |
     | Pirkšanas pasūtījuma izveidošana | Atlasiet opciju. Avansa rēķina summa tiks aprēķināta, pamatojoties uz krājumu pirkšanas pasūtījuma summu. |
     | Grāmatošanas profils priekšapmaksas žurnāla dokumenta summā | Norādiet priekšapmaksas grāmatošanas metodi. |
+
+## <a name="use-the-advance-invoice-and-prepayment-handling-functionality"></a>Izmantot avansa rēķina un priekšapmaksas apstrādes funkcionalitāti
+
+Biznesa procesā var izmantot **avansa rēķina** un **priekšapmaksas** apstrādes funkcionalitāti. Lūk, piemērs:
+
+1. Lietotājs iesniedz avansa rēķinu, kam debitoram ir PVN priekšapmaksas veikšanai. Avansa rēķins nav grāmatots Virsgrāmatā.
+2. Lietotājs izveido un grāmato priekšapmaksu bez PVN.
+3. Lietotājs izveido priekšapmaksas apstrādi, un saista to ar avansa rēķinu. Lietotājs tad grāmato priekšapmaksas apstrādi un izveido nodokļu dokumentu. Sistēma grāmato PVN virsgrāmatā un saista PVN ar priekšapmaksu.
+
+> [!NOTE]
+> Notīriet vērtību **laukā Grāmatošanas** metode **kopsavilkuma** cilnē Avansa rēķins, cilnē **Atjaunināt** debitoru **parādu parametros**. Kad izveidojat avansa rēķinu, iestatiet opciju Grāmatot **nodokli** uz **Jā**.
+
+Lai izveidotu priekšapmaksas apstrādi un saistītu to ar avansa rēķinu, sekojiet šiem soļiem.
+
+1. Dodieties uz **debitoru** \> **parādiem** un atrodiet un atveriet debitora ierakstu.
+2. Darbību rūtī atlasiet Debitora darbības **, atlasiet** \> **priekšapmaksas** darbību un pēc tam atlasiet Priekšapmaksas **apstrāde**.
+3. Iestatiet opciju **Pārveidot par maksājumu** uz **Nē**.
+4. Atlasiet **avansa rēķinu,** lai saistītu priekšapmaksas apstrādi ar avansa rēķinu. Sistēma automātiski izveido PVN rindas no avansa rēķina.
+5. Grāmatojiet priekšapmaksas apstrādi. Sistēma automātiski izveido PVN darbības priekšapmaksai.
+
+## <a name="reversing-sales-tax-amounts-for-czech-republic"></a>Atceļ PVN summas Čehijai
+
+Lai manuāli definētu PVN summu atgriešanu, pamatojoties uz priekšapmaksas apstrādi, **aktivizējiet iespēju (Čehija) Aktivizēt manuālu PVN summu** ievadi. Papildinformāciju par to, kā iespējot līdzekļus, skatiet līdzekļu [pārvaldības pārskatā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+> [!NOTE]
+> Šī funkcionalitāte ir pieejama tikai Parādiem kreditoriem.
+
+Kad jūs atzīmējiet rēķina darbību apmaksai pret maksājumu, **jūs variet atjaunināt PVN summas atgriešanai uz cilnes Atgriezt PVN summas** **darbības lapā Nosegt** darbību. Pēc vajadzības var atjaunināt nodokļu summas laukā **Nodokļa summa apmaksai**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899329"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068602"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cikla inventarizācijas piemēru scenāriji
 
@@ -127,7 +127,7 @@ Izpildiet šīs darbības, lai apstiprinātu, ka visi scenārijiem nepieciešami
 1. Saraksta rūtī atlasiet noliktavu *61*. Ja nevienam esošam ierakstam nav šī nosaukuma, izveidojiet to.
 1. Kopsavilkuma cilnē **Noliktava** iestatiet šādas vērtības:
 
-    - **Izmantot noliktavas pārvaldības procesu:** *Jā* (šī vērtība iespējo noliktavu noliktavas pārvaldības procesiem.)
+    - **Izmantot noliktavas pārvaldības procesu: Jā** *·* (šī vērtība iespējo noliktavu noliktavas pārvaldības procesiem (WMS).)
     - **Atļaut numura zīmes pārvietošanu cikla inventarizācijas laikā:** *Jā* (šī vērtība ļauj darbiniekiem pārvietot numura zīmes cikla inventarizācijas laikā.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>1. scenārijs: vadītā cikla inventarizācija

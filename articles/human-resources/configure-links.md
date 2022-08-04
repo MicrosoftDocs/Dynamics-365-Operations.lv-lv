@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859671"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065299"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Izveidot saites no cilvēkresursu grupas uz citu finanšu vidi
 
@@ -53,7 +53,7 @@ Katrai saitei, ko izveidojat, būs definēta šāda informācija:
 
    Lai atrastu vajadzīgo izvēlnes elementu:
    1. Dodieties uz finanšu vidi un atveriet lapu, kas ir navigācijas mērķis. 
-   2. Kopējiet izvēlnes vienumu no vietrāža URL. Piemēram, ja vēlaties, lai saite jūs pārceltu uz darbinieku sarakstu programmā Finance and Operations, ievadiet vērtību, kas vietrādī URL ir redzama aiz “&mi”. 
+   2. Kopējiet izvēlnes vienumu no vietrāža URL. Piemēram, ja vēlaties, lai saite aizies uz darbinieku sarakstu finansēs un operācijās, ievadiet vērtību, kas URL parādās pēc "&mi". 
    3. Izvēlnes vienums pāriešanai uz darbinieku saraksta lapu šajā piemērā ir: HcmWorkerListPage_Employees.
 
  - **Saite uz datu avotu**: atlasiet datu avotu, uz kuru ir atsauce saite. Ir pieejami visbiežāk izmantotie avoti, piemēram, **Nodarbinātais** un **Amats**.
@@ -63,4 +63,5 @@ Katrai saitei, ko izveidojat, būs definēta šāda informācija:
 Sistēmas administratori redzēs jaunizveidotās saites uz definētām lapām pat tad, ja opcija **Iespējot šo saiti** būs ir iestatīta uz **Nē**. Šo funkcionalitāti var izmantot saišu testēšanai pirms to rādīšanas citiem darbiniekiem. Visas pārējās lomas redzēs tikai konfigurētās saites pēc **opcijas Iespējot šo saiti** iestatīšanas uz **Jā**. Darbinieki, kam ir piekļuve lapām, kurās saites tiek rādītas, varēs piekļūt šīm saitēm.
 
 Lietotājiem arī jābūt drošības tiesībām sekundārajā vidē, kas definētas, lai piekļūtu šīs vides lapām. Ja viņiem tādu nav, saites lietošanas laikā tiek parādīts drošības dialoglodziņš.
+
 

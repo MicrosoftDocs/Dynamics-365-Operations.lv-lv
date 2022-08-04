@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856111"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070445"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni
 
@@ -90,7 +90,7 @@ Varat lejupielādēt zip failu šai datu pakotnei. Šajā failā ir visi dati at
 
 Žurnālā **Skatīt izpildi** ir sniegta detalizēta informācija par katru importēto datu elementu. Varat izmantot sagatavošanas posmu datu skatu, lai ātri nokļūtu pie mērķa datiem. Šādi varat redzēt, kā importētie dati izskatās saistītajās programmas lapās. Kad lietojat noklusējuma datu veidnes, importēšanas secība katram datu elementam darbojas iepriekš definētā veidā, lai palīdzētu nodrošināt, ka visi atkarīgie dati tiek importēti vispirms. Ja daļu no projekta veido pielāgotie datu elementi, jums ir jāpārliecinās, vai ir definēta pareizā secība. Papildinformāciju skatiet šeit: [Konfigurācijas datu veidnes](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigurācijas kopēšanai no viena uzņēmuma uz jaunu uzņēmumu vienas instances ietvaros, noskatieties šo 3 minūšu video YouTube par [to, kā izmantot noliktavas veidni, lai kopētu konfigurāciju programmatūrai Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni, lai kopētu noliktavas konfigurāciju no viena uzņēmuma uz jaunu uzņēmumu tajā pašā instancē, skatiet šo 3 minūšu video YouTube [par to, kā izmantot noliktavas veidni, lai kopētu finanšu un operāciju konfigurāciju](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-article"></a>Saistītais raksts
 

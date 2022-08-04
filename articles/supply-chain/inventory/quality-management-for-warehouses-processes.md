@@ -1,6 +1,6 @@
 ---
 title: Kvalitātes pārvaldība noliktavas procesiem
-description: Šajā rakstā ir sniegta informācija par noliktavas procesu funkciju kvalitātes pārvaldību. Šis līdzeklis paplašina kvalitātes pārvaldības iespējas un ļauj lietotājiem integrēt krājumu iztveršanas kontroli ar noliktavas saņemšanas procesu, izmantojot papildu noliktavas pārvaldību.
+description: Šajā rakstā ir sniegta informācija par noliktavas procesu funkciju kvalitātes pārvaldību. Šī funkcija paplašina kvalitātes pārvaldības iespējas un ļauj lietotājiem integrēt krājumu paraugu ņemšanas kontroles noliktavas saņemšanas procesā, izmantojot noliktavas vadības procesus (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857842"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069248"
 ---
-# <a name="quality-management-for-warehouse-processes"></a>Noliktavas procesu kvalitātes pārvaldība
+# <a name="quality-management-for-warehouse-processes"></a>Kvalitātes pārvaldība noliktavas procesiem
 
 [!include [banner](../includes/banner.md)]
 
-Šis _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis ļauj jums integrēt krājumu iztveršanas kontroli ar noliktavas saņemšanas procesu, izmantojot papildu noliktavas pārvaldību. Noliktavas darbu var izveidot automātiski, lai pārvietotu krājumus uz kvalitātes kontroles novietojumu, pamatojoties uz procentuālu vai fiksētu daudzumu, vai pamatojoties uz katru *"n"* noliktavas vienību. Kad kvalitātes pārbaudes pasūtījums ir pabeigts, ir iespējams automātiski ģenerēt darbu, lai pārvietotu krājumus uz nākamo vietu procesa laikā atkarībā no kvalitātes rezultāta.
+Noliktavas _procesu funkcionalitātes kvalitātes pārvaldība_ ļauj integrēt krājumu paraugu ņemšanas kontroles noliktavas saņemšanas procesā, izmantojot noliktavas vadības procesus (WMS). Noliktavas darbu var izveidot automātiski, lai pārvietotu krājumus uz kvalitātes kontroles novietojumu, pamatojoties uz procentuālu vai fiksētu daudzumu, vai pamatojoties uz katru *"n"* noliktavas vienību. Kad kvalitātes pārbaudes pasūtījums ir pabeigts, ir iespējams automātiski ģenerēt darbu, lai pārvietotu krājumus uz nākamo vietu procesa laikā atkarībā no kvalitātes rezultāta.
 
 _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis paplašina pamata kvalitātes pārvaldības līdzekļa iespējas. Tas sniedz iespēju izveidot kvalitātes pārbaudes pasūtījumus krājumiem, kas tiek nosūtīti uz kvalitātes kontroles vietu, lai gan kvalitātes pārbaudes pasūtījumi ne vienmēr tiek pieprasīti. Tāpēc tas ļauj izveidot vieglu kvalitātes kontroles procesu, kura pamatā ir noliktavas darbs.
 
@@ -77,7 +77,7 @@ Pirms _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis tiek iespējots 
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Noliktavas**.
 1. Atlasiet noliktavu, lai iespējotu to kvalitātes pārvaldībai.
-1. **Noliktavas** kopsavilkuma cilnē iestatiet opciju **Iespējot kvalitātes pārbaudes pasūtījumu noliktavas procesiem** uz _Jā_. (Ņemiet vērā, ka šo opciju var iestatīt uz _Jā_ tikai noliktavām, kas izmanto noliktavu pārvaldības procesus.)
+1. **Noliktavas** kopsavilkuma cilnē iestatiet opciju **Iespējot kvalitātes pārbaudes pasūtījumu noliktavas procesiem** uz _Jā_. (Ievērojiet, ka šo opciju var iestatīt uz _Jā_ tikai noliktavām, kas izmanto noliktavas vadības procesus (WMS).)
 
 Kad opcija **Iespējot kvalitātes pārbaudes pasūtījumu noliktavas procesiem** ir iestatīta uz _Jā_, kvalitātes saistības iestatīšana kontrolē, vai _Noliktavas procesu kvalitātes pārvaldības_ funkcija tiek faktiski piemērota atlasītajai noliktavai. Jūs varat mainīt opcijas iestatījumu uz _Nē_ jebkurā laikā. Šādā gadījumā šis līdzeklis vairs netiks piemērots noliktavai neatkarīgi no kvalitātes saistības iestatījumiem.
 
@@ -97,7 +97,7 @@ Katrs [kvalitātes saistības ieraksts](enable-quality-management.md) nosaka pā
     - **Visi** – deaktivizējiet _Noliktavas procesu kvalitātes pārvaldības_ līdzekli. Atlasiet šo vērtību visiem atsauču veidiem, izņemot *Pirkums* un *Ražošana*.
 
 > [!NOTE]
-> _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis darbojas tikai tad, ja preces pirmdokumenta rindā tiek izmantoti papildu noliktavas pārvaldības procesi, un ja opcija **Iespējot kvalitātes pārbaudes pasūtījums noliktavas procesiem** ir iestatīta uz _Jā_ noliktavai pirmdokumenta rindā.
+> _Noliktavas procesu kvalitātes_ pārvaldība stājas spēkā tikai tad, ja pirmdokumenta rindas krājums izmanto noliktavas vadības procesus (WMS) **·** _un_ ja opcija Iespējot noliktavas procesu kvalitātes pasūtījumu ir iestatīta uz Jā noliktavai pirmdokumenta rindā.
 
 Kad katrs krājums ir reģistrēts (vai pabeigts), sistēma nosaka, kuras kvalitātes piesaistes uz to attiecas.
 

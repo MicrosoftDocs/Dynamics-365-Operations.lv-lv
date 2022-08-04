@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847604"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198385"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) un Cloud POS uzdevumu ierakstītājs un palīdzība
 
@@ -107,7 +107,7 @@ Lai atsāktu reģistrēšanas sesiju pēc tās pārtraukšanas noklikšķiniet u
 Uzdevuma reģistrētājs var nodrošināt Retail Modern POS lietotāja interfeisa ekrānuzņēmumu veikšanu biznesa procesa reģistrēšanas laikā. Lai ieslēgtu ekrānuzņēmumu veikšanas līdzekli, opcijai **Veikt ekrānuzņēmumu** iestatiet vērtību **Jā** un pēc tam uzņemiet ierakstu. Kad ierakstīšana ir pabeigta, noklikšķiniet uz **Apturēt** un lejupielādējiet Word dokumentu. Dokumentā būs ietvertas darbības ar attiecīgajiem ekrānuzņēmumiem.
 
 > [!NOTE]
-> Funkcija Veikt ekrānuzņēmumu netiek atbalstīta programmā Cloud POS.
+> Capture ekrānuzņēmuma funkcionalitāte netiek atbalstīta komponentā Store Commerce, Commerce Modern POS un Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Uzdevuma sākšana un beigšana
 

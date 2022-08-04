@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857378"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070475"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
@@ -50,7 +50,7 @@ Papildinformāciju par to, kā strādāt ar lapu **Ražošanas pasūtījuma nokl
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Reģistrēt partijas kontrolētos elementus kā pabeigtus
 
-Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par partijas elementiem. Šie scenāriji attiecas gan uz elementiem, kas ir iespējoti papildu noliktavas procesiem, gan uz elementiem, kas nav iespējoti papildu noliktavas procesiem.
+Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par partijas elementiem. Šie scenāriji attiecas gan uz krājumiem, kas ir iespējoti noliktavas pārvaldības procesiem (WMS), gan krājumiem, kas nav iespējoti WMS.
 
 - **Manuāli piešķirtie partijas numuri** - darbinieki ievada pielāgotu partijas numuru. Šis partijas numurs var būt no ārēja avota, kas sistēmai nav zināms.
 - **Iepriekš definētie partijas numuri** - darbinieki atlasa partijas numuru partiju numuru sarakstā, ko sistēma automātiski izveido pirms ražošanas pasūtījuma nodošanas darba kartes ierīcei.
@@ -129,7 +129,7 @@ Izmantojot šo scenāriju, lauks **Partijas numurs**, ko darba kartes ierīcē n
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Reģistrēt sērijveidā kontrolētos elementus kā pabeigtus
 
-Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par sērijveida kontrolētiem elementiem. Šie scenāriji attiecas gan uz elementiem, kas ir iespējoti papildu noliktavas procesiem, gan uz elementiem, kas nav iespējoti papildu noliktavas procesiem.
+Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par sērijveida kontrolētiem elementiem. Šie scenāriji attiecas gan uz krājumiem, kas ir iespējoti noliktavas pārvaldības procesiem (WMS), gan krājumiem, kas nav iespējoti WMS.
 
 - **Manuāli piešķirtie sērijas numuri** - darbinieki ievada pielāgotu sērijas numuru. Šis sērijas numurs var būt no ārēja avota, kas sistēmai nav zināms.
 - **Iepriekš definētie sērijas numuri** - darbinieki atlasa sērijas numuru sērijas numuru sarakstā, ko sistēma automātiski izveido pirms ražošanas pasūtījuma nodošanas darba kartes ierīcei.
@@ -212,7 +212,7 @@ Izmantojot šo scenāriju, lauks **Sērijas numurs**, ko darba kartes ierīcē n
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Ziņojums par pabeigšanu noliktavas unikālajai vienībai
 
-Papildu noliktavas procesi var izmantot noliktavas unikālās vienības dimensiju, lai izsekotu krājumus noliktavas vietās, kas ir iestatītas šim nolūkam. Šādā gadījumā ir nepieciešams unikāls noliktavas vienības identifikators, kad darbinieks ziņo par pabeigtajiem daudzumiem.
+Noliktavas vadības procesi (WMS) var izmantot numura zīmes dimensiju, lai izsekotu krājumus noliktavas vietās, kas ir iestatītas šim nolūkam. Šādā gadījumā ir nepieciešams unikāls noliktavas vienības identifikators, kad darbinieks ziņo par pabeigtajiem daudzumiem.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Noliktavas unikālās vienības ziņošanas un uzlīmes drukāšanas iespējošana
 

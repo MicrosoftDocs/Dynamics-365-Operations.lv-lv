@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868703"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068205"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868703"
 
 Šajā rakstā ir sniegta informācija par manas grupas **mobilo** darbvietu. Šī darbvieta vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus. Viņi var arī sūtīt uzslavas savā pārskatu ķēdē ietvertajām personām.
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
+Šo mobilo darbvietu ir paredzēts izmantot ar finanšu un operāciju mobilo programmu.
 
-## <a name="overview"></a>Kopsavilkums 
+## <a name="overview"></a>Pārskats 
 Mobilā darbvieta **Mana grupa** vadītājiem sniedz iespējas veikt tālāk norādītos uzdevumus.
 
 - Skatīt sarakstu ar vadītāja tiešajiem pārskatiem.
@@ -50,12 +50,12 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 <tbody>
 <tr class="odd">
 <td>Organizācijā ir jābūt izvietotam vienam no tālāk norādītajiem produktiem.
-<ul><li>Programma Finance and Operations</li>
+<ul><li>Finanšu un operāciju programma</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Sistēmas administrators</td>
-<td>Ja jūsu organizācijā vēl nav izvietota programma Finance and Operations, skatiet rakstu <a href="../deployment/deploy-demo-environment.md">Demonstrācijas vides izvietošana</a>. Ja jūsu organizācijā vēl&#39;nav izvietota programma Human Resources, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources tīmekļa lapā</a>.
+<td>Ja jūsu organizācijā&#39; vēl nav izvietota finanšu un operāciju programma, skatiet demonstrācijas <a href="../deployment/deploy-demo-environment.md">vides izvietošanu</a>. Ja jūsu organizācijā vēl&#39;nav izvietota programma Human Resources, sistēmas administrators var piekļūt izmēģinājumversijai <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources tīmekļa lapā</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,9 +68,9 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Lejupielādējiet un instalējiet finanšu un operāciju mobilo programmu:
 
--   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
@@ -99,3 +99,4 @@ Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

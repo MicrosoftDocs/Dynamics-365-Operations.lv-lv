@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894271"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111900"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrēt potenciālo klientu uz kases datiem no datu integrētāja uz duālo rakstīšanas metodi
 
@@ -32,7 +32,7 @@ Jums tas ir jāinstalē manuāli. Pēc instalēšanas viss paliek precīzi tāds
 
 Veiciet šīs darbības, lai migrētu potenciālo klientu uz skaidras naudas datiem no datu integrētāja uz duālo rakstīšanas metodi.
 
-1. Palaidiet potenciālo klientu skaidras naudas datu integrētājam darbiem, lai izpildītu vienu pilnu sinhronizāciju. Šādā veidā jūs nodrošināt, ka abām sistēmām (Finanšu un operāciju programmām un debitoru piesaistes programmām) ir visi dati.
+1. Palaidiet potenciālo klientu skaidras naudas datu integrētājam darbiem, lai izpildītu vienu pilnu sinhronizāciju. Šādā veidā jūs nodrošināt, ka abām sistēmām (finanšu un operāciju programmām un debitoru piesaistes programmām) ir visi dati.
 2. Lai palīdzētu novērst iespējamos datu zudumus, eksportējiet potenciālo klientu uz skaidras naudas datiem no Microsoft Dynamics 365 Sales uz Excel failu vai ar komatu atdalītu vērtību (CSV) failu. Eksportēt datus no šādām entītijām:
 
     - [Konts](#account-table)
@@ -51,21 +51,21 @@ Veiciet šīs darbības, lai migrētu potenciālo klientu uz skaidras naudas dat
 6. Iespējojiet dubultās rakstīšanas tabulas kartes un veiciet sākotnējo sinhronizāciju nepieciešamajiem atsauces datiem. (Plašāku informāciju skatiet [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).) Pieprasīto datu piemēri ietver debitoru grupas, maksājumu termiņus un maksājumu grafikus. Neiespējojiet dubultās rakstīšanas kartes tabulām, kurām nepieciešama inicializēšana, piemēram, kontam, piedāvājumam, piedāvājuma rindai, pasūtījuma un pasūtījuma rindu tabulām.
 7. Debitoru aktivācijas programmā atveriet sadaļu **Papildu iestatījumi \> Sistēmas iestatījumi \> Datu pārvaldība \> Dublikātu noteikšanas kārtulas** un deaktivizējiet visas kārtulas.
 8. Inicializējiet tabulas, kas uzskaitītas 2. darbībā. Norādījumus skatiet pārējās šī raksta sadaļās.
-9. Atveriet programmu Finanses un operācijas un iespējojiet tabulu kartes, piemēram, kontu, piedāvājumu, piedāvājuma rindu, pasūtījumu un pasūtījumu rindu tabulas kartes. Palaidiet sākotnējo sinhronizāciju. (Plašāku informāciju skatiet [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).) Šis process sinhronizēs papildu informāciju no programmas Finanses un operācijas, piemēram, apstrādes statusu, nosūtīšanas un norēķinu adreses, vietas un noliktavas.
+9. Atveriet finanšu un operāciju programmu un iespējojiet tabulu kartes, piemēram, konta, piedāvājuma, piedāvājuma rindas, pasūtījuma un pasūtījuma rindu tabulas kartes. Palaidiet sākotnējo sinhronizāciju. (Plašāku informāciju skatiet [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).) Šis process sinhronizēs papildu informāciju no finanšu un operāciju programmas, piemēram, apstrādes statusu, nosūtīšanas un norēķinu adreses, vietas un noliktavas.
 
 ## <a name="account-table"></a>Kontu tabula
 
 1. Kolonnā **Uzņēmums** ievadiet uzņēmuma nosaukumu, piemēram, **USMF**.
 2. Slejā **Attiecību tips** ievadiet **Debitoru** kā statisku vērtību. Iespējams, ka nevēlaties klasificēt katru konta ierakstu kā debitoru biznesa loģikā.
-3. Kolonnā Debitoru **grupas ID** ievadiet debitoru grupas numuru no programmas Finanses un operācijas. Noklusējuma vērtība no potenciālā klienta uz skaidras naudas risinājumu ir **10**.
-4. Ja izmantojat risinājumu Potenciālais klients, lai veiktu risinājumu skaidrā naudā, nepielāgojot **Konta numuru**, ievadiet **Konta numura vērtību** kolonnā **Puses numurs**. Ja ir pielāgojumi un nav zināms puses numurs, velciet šo informāciju no programmas Finanses un operācijas.
+3. Kolonnā Debitoru **grupas ID** ievadiet debitoru grupas numuru no finanšu un operāciju programmas. Noklusējuma vērtība no potenciālā klienta uz skaidras naudas risinājumu ir **10**.
+4. Ja izmantojat risinājumu Potenciālais klients, lai veiktu risinājumu skaidrā naudā, nepielāgojot **Konta numuru**, ievadiet **Konta numura vērtību** kolonnā **Puses numurs**. Ja ir pielāgojumi un nav zināms puses numurs, velciet šo informāciju no finanšu un operāciju programmas.
 
 ## <a name="contact-table"></a>Kontaktpersonu tabula
 
 1. Kolonnā **Uzņēmums** ievadiet uzņēmuma nosaukumu, piemēram, **USMF**.
 2. Iestatiet tālāk norādītās kolonnas, pamatojoties uz **IsActiveCustomer** vērtību CSV failā:
 
-    - Ja **IsActiveCustomer** CSV failā ir iestatīts uz **Jā**, iestatiet kolonnu **Pārdodams** uz **Jā**. Kolonnā Debitoru **grupas ID** ievadiet debitoru grupas numuru no programmas Finanses un operācijas. Noklusējuma vērtība no potenciālā klienta uz skaidras naudas risinājumu ir **10**.
+    - Ja **IsActiveCustomer** CSV failā ir iestatīts uz **Jā**, iestatiet kolonnu **Pārdodams** uz **Jā**. Kolonnā Debitoru **grupas ID** ievadiet debitoru grupas numuru no finanšu un operāciju programmas. Noklusējuma vērtība no potenciālā klienta uz skaidras naudas risinājumu ir **10**.
     - Ja **IsActiveCustomer** CSV failā ir iestatīts uz **Nē**, iestatiet kolonnu **Pārdodams** uz **Nē** un iestatiet kolonnu **Kontaktpersona** **Debitors**.
 
 3. Ja izmantojat potenciālo klientu skaidras naudas risinājumu, nepielāgojot **Kontaktpersonas numuru**, iestatiet šādas kolonnas:
@@ -76,7 +76,7 @@ Veiciet šīs darbības, lai migrētu potenciālo klientu uz skaidras naudas dat
 
 ## <a name="invoice-table"></a>Rēķinu tabula
 
-Tā kā dati no rēķinu **tabulas** ir paredzēti vienvirziena plūsmai no programmas Finanses un operācijas uz debitoru lietojumprogrammu, inicializēšana nav nepieciešama. Palaidiet sākotnējo sinhronizāciju, lai migrētu visus nepieciešamos datus no programmas Finanses un operācijas uz debitoru summu lietojumprogrammu. Papildinformāciju skatiet sadaļā [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).
+Tā kā dati no rēķinu **tabulas** ir paredzēti vienvirziena plūsmai no finanšu un operāciju programmas uz debitoru iesaistīšanas programmu, nav nepieciešama inicializācija. Palaidiet sākotnējo sinhronizāciju, lai migrētu visus nepieciešamos datus no finanšu un operāciju programmas uz debitoru lietojumprogrammu. Papildinformāciju skatiet sadaļā [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Pasūtījumu tabula
 
@@ -94,7 +94,7 @@ Tā kā dati no rēķinu **tabulas** ir paredzēti vienvirziena plūsmai no prog
 
 ## <a name="products-table"></a>Preču tabula
 
-Tā kā dati no tabulas **Preces** ir paredzēti vienvirziena plūsmēm no programmas Finanses un operācijas ar debitoru iesaistīšanas programmu, nav nepieciešama inicializācija. Palaidiet sākotnējo sinhronizāciju, lai migrētu visus nepieciešamos datus no programmas Finanses un operācijas uz debitoru summu lietojumprogrammu. Papildinformāciju skatiet sadaļā [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).
+Tā kā dati no tabulas **Preces** ir paredzēti vienvirziena plūsmai no finanšu un operāciju programmas uz debitoru iesaistīšanas programmu, nav nepieciešama inicializācija. Palaidiet sākotnējo sinhronizāciju, lai migrētu visus nepieciešamos datus no finanšu un operāciju programmas uz debitoru lietojumprogrammu. Papildinformāciju skatiet sadaļā [Sākotnējās sinhronizācijas apsvērumi](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Piedāvājuma un piedāvājuma preču tabulas
 
@@ -102,3 +102,4 @@ Tabulai **Piedāvājums** izpildiet iepriekš šī raksta [sadaļā Pasūtījumu
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

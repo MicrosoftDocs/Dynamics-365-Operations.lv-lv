@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876720"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111462"
 ---
 # <a name="note-integration"></a>Piezīmju integrācija
 
@@ -30,7 +30,7 @@ Klienta informāciju var klasificēt vairākos veidos:
 + **Izmantojamā informācija Dynamics 365 lietotājam** — piemēram, klients, kurš iegādājas vienību Surface, ievada īpašas instrukcijas, kas norāda, ka ierīcei pirms piegādes ir jābūt iesaiņotai kā dāvanai. Šīs instrukcijas ir izmantojama informācija, kas jāapstrādā Contoso darbiniekam, kurš ir atbildīgs par iepakošanu.
 + **Informācija, kas nav izmantojama** — piemēram, klients apmeklē Contoso veikalu un sarunas ar veikala darbinieku laikā pauž interesi par *Halo* spēlēm un spēļu piederumiem. Veikala darbinieks izdara piezīmi par šo informāciju. Pēc tam preču ieteikumu programma to izmanto, lai klientam varētu sniegt ieteikumus.
 
-Parasti darbību informācija tiek tverta kā aktivitātes *Finanšu un operāciju* programmās un debitoru aktivitāšu programmās. Ne darbību ne darbību informācija tiek tverta kā *piezīmes* Finanšu un operāciju programmās un *kā anotācijas* debitoru iesiešanas programmās.
+Parasti darbību informācija tiek uztverta kā aktivitātes finanšu *un* operāciju programmās un debitoru aktivitāšu programmās. Informācija, kas nav darbība, tiek tverta *kā* piezīmes finanšu un operāciju programmās, *kā arī kā anotācijas* debitoru iesaistīšanas programmās.
 
 > [!TIP]
 > Lai arī piezīmes ir paredzētas neizmantojamajai informācijai, programmas neliegs jums tās izmantot, lai saglabātu un apstrādātu izmantojamo informāciju, ja vēlaties tās izmantot šādā veidā.
@@ -39,7 +39,7 @@ Microsoft pašlaik izlaiž funkcionalitāti piezīmju integrācijai. (Funkcional
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Piezīmes izveide programmā Customer Engagement
 
-Lai izveidotu piezīmi debitoru piezīmju programmā un pēc tam sinhronizētu to ar programmu Finanses un operācijas, izpildiet šīs darbības.
+Lai izveidotu piezīmi debitoru piezīmju programmā un pēc tam sinhronizētu to ar finanšu un operāciju programmu, izpildiet šīs darbības.
 
 1. Programmā Customer Engagement atveriet klienta konta ierakstu.
 2. Rūtī **Laika skala** atlasiet plus zīmi (**+**) un pēc tam atlasiet **Piezīme**, lai izveidotu piezīmi.
@@ -54,7 +54,7 @@ Lai izveidotu piezīmi debitoru piezīmju programmā un pēc tam sinhronizētu t
 
     ![Jauna piezīme klienta laika skalā.](media/notes-ce-3.png)
 
-4. Piesakieties programmā Finanses un operācijas un atveriet vienu un to pašu debitora ierakstu. Ievērojiet, ka poga **Pielikumi** button (saspraudes simbols) augšējā labajā stūrī norāda, ka ierakstam ir pielikums.
+4. Piesakieties finanšu un operāciju programmā un atveriet to pašu debitora ierakstu. Ievērojiet, ka poga **Pielikumi** button (saspraudes simbols) augšējā labajā stūrī norāda, ka ierakstam ir pielikums.
 
     ![Paziņojums par pielikumu.](media/notes-ce-4.png)
 
@@ -62,13 +62,13 @@ Lai izveidotu piezīmi debitoru piezīmju programmā un pēc tam sinhronizētu t
 
     ![Piezīme no programmas Customer Engagement.](media/notes-ce-5.png)
 
-Visi piezīmes atjauninājumi tiek sinhronizēti atpakaļ un uz priekšu starp programmu Finanses un operācijas un debitoru piesaistes programmu.
+Visi piezīmes atjauninājumi tiek sinhronizēti atpakaļ un uz priekšu starp finanšu un operāciju programmu un debitoru piesaistes programmu.
 
 ## <a name="create-a-note-in-a-finance-and-operations-app"></a>Piezīmes izveide finanšu un operāciju programmā
 
-Piezīmi var izveidot arī programmā Finanses un operācijas, un tā tiks sinhronizēta ar debitoru iesaistes programmu.
+Piezīmi var izveidot arī finanšu un operāciju programmā, un tā tiks sinhronizēta ar debitoru iesaistes programmu.
 
-Lai izveidotu piezīmi finanšu un operāciju programmā un pēc tam sinhronizētu to ar debitoru piezīmju programmu, izpildiet šīs darbības.
+Lai izveidotu piezīmi finanšu un operāciju programmā un pēc tam sinhronizētu to ar debitoru piezīmju programmu, sekojiet šiem soļiem.
 
 1. Finanšu un operāciju programmas lapā Pielikumi atlasiet **Jauna** **piezīme**.\>**·**
 
@@ -84,17 +84,17 @@ Lai izveidotu piezīmi finanšu un operāciju programmā un pēc tam sinhronizē
 
 Piezīmi var klasificēt kā iekšēju vai ārēju.
 
-- Programmas Finanses un operācijas lapā **Pielikumi atveriet** **piezīmi un pēc tam laukā Ierobežojums** atlasiet Iekšējais **vai** Ārējais **·**.
+- Finanšu un operāciju programmas lapā **Pielikumi atveriet piezīmi un pēc tam laukā Ierobežojums** **atlasiet** Iekšējais **vai** Ārējais.**·**
 
     ![Ierobežojuma lauks.](media/notes-fo-4.png)
 
 Var izveidot arī vietrādi URL.
 
-1. Finanšu un operāciju programmas lapā Pielikumi atlasiet **Jauns** **URL**.\>**·**
+1. Finanšu un operāciju programmas pielikumu **lapā** atlasiet **Jauns** \> **URL.**
 2. Ievadiet virsrakstu un vietrādi URL.
 3. Laukā **Ierobežojums** atlasiet **Iekšējais** vai **Ārējais**.
 
-    ![Tiek veidots VIETRĀDIs URL finanšu un operāciju programmā.](media/notes-fo-5.png)
+    ![URL izveide finanšu un operāciju programmā.](media/notes-fo-5.png)
 
 4. Atlasiet **Saglabāt**.
 
@@ -121,3 +121,4 @@ Piezīmju integrācija ietver tabulas karšu vākšanu, kas darbojas kopā debit
 Kad piezīmju risinājums ir instalēts, to nevar atinstalēt. 
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850849"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068399"
 ---
 # <a name="inventory-costing-faq"></a>Bieži uzdotie jautājumi par krājumu izmaksu uzskaiti
 
@@ -112,11 +112,11 @@ Nē, nevar iespējot finanšu krājumu **opciju atrašanās** vietas **dimensija
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Vai iespējot opciju Izmantot noliktavas pārvaldības procesus noliktavas dimensiju grupai?
 
-Ja domājat, ka turpmāk vēlaties lietot papildu noliktavas vadības funkcijas, **jāiespējo opcija Izmantot noliktavas vadības procesus**. Pēc noliktavas dimensiju grupas saglabāšanas, tai vairs nevar mainīt **opcijas Izmantot noliktavas vadības procesu** iestatījumus. Ja izlemjat noliktavas vadības procesus izmantot vēlāk, jums būs jāizveido jauna noliktava, kur opcija ir iespējota. Nav automatizēta procesa, ko var izmantot, lai pārvietotu visus krājumus no vienas noliktavas uz citu noliktavu vai lai kopētu saistītās konfigurācijas uz jaunu noliktavu.
+Ja domājat, ka turpmāk vēlaties izmantot noliktavas vadības procesus (WMS), **jāiespējo opcija Izmantot noliktavas vadības procesus**. Pēc noliktavas dimensiju grupas saglabāšanas, tai vairs nevar mainīt **opcijas Izmantot noliktavas vadības procesu** iestatījumus. Ja izlemjat noliktavas vadības procesus izmantot vēlāk, jums būs jāizveido jauna noliktava, kur opcija ir iespējota. Nav automatizēta procesa, ko var izmantot, lai pārvietotu visus krājumus no vienas noliktavas uz citu noliktavu vai lai kopētu saistītās konfigurācijas uz jaunu noliktavu.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Vai iespējot noliktavas dimensiju grupai izmantot noliktavas pārvaldības procesus, pat ja neplānoju izmantot detalizētu noliktavu?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Vai iespējot noliktavas dimensiju grupai izmantot noliktavas pārvaldības procesus, pat ja neplānoju izmantot noliktavas vadības procesus (WMS)?
 
-Jā, pat ja neplānoat izmantot papildu noliktavas pārvaldības līdzekļus, **varat** iespējot noliktavas dimensiju grupai opciju Izmantot noliktavas vadības procesus. Lai izveidotu un apstrādātu darbības, jums būs jāpabeidz minimālā konfigurācija, piemēram, rezervāciju hierarhijas un vienību secību grupas. Tomēr papildu noliktavas iestatījumi parasti tiek ignorēti, ja manuāli apstrādājāt izdošanas sarakstus, pavadzīmes un produktu ieejas plūsmas (piemēram, pārdošanas pasūtījumu un pirkšanas pasūtījumu lapās).
+Jā, pat ja neplānoat izmantot noliktavas vadības procesus (WMS) līdzekļus, **noliktavas** dimensiju grupai varat iespējot opciju Izmantot noliktavas vadības procesus. Lai izveidotu un apstrādātu darbības, jums būs jāpabeidz minimālā konfigurācija, piemēram, rezervāciju hierarhijas un vienību secību grupas. Tomēr WMS iestatījumi lielākoties tiek ignorēti, manuāli apstrādājot izdošanas sarakstus, pavadzīmes un produktu ieejas plūsmas (piemēram, pārdošanas pasūtījuma un pirkšanas pasūtījumu lapās).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Kad ir jāiespējo opcija Fiziskie krājumi noliktavas vai izsekošanas dimensiju grupai?
 

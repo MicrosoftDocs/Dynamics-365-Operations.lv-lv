@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857088"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065816"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management 
 
@@ -37,11 +37,11 @@ Jaunināšanas laikā visas preces, kas ir saistītas ar noliktavas dimensiju gr
 Pēc jaunināšanas varat izmantot opciju kopu formā **Mainīt noliktavas dimensiju grupu krājumiem**, lai atbloķētu preces, kuras jaunināšanas laikā tika bloķētas, un pēc tam apstrādāt transakcijas šīm precēm.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Krājumu iespējošana Supply Chain Management 
-Šīs izmaiņas ir nepieciešamas, jo programmatūrā Supply Chain Management krājumu izsekošana ir daļa no noliktavas pārvaldības procesiem. Šiem procesiem visām noliktavām un to novietojumiem ir jābūt saistītiem ar novietojuma profilu. Ja vēlaties izmantot noliktavas pārvaldības procesus, ir jākonfigurē tālāk noradītie iestatījumi.
--   Esošajām noliktavām ir jāiespējo noliktavas pārvaldības procesu lietošana 
--   Esošās izlaistās preces ir jāsaista ar noliktavas dimensiju grupu, kas izmanto noliktavas pārvaldības procesus 
+Šīs izmaiņas ir nepieciešamas, jo Piegādes ķēdes pārvaldībā krājumu izsekošana ir daļa no noliktavas pārvaldības procesiem (WMS). Šiem procesiem visām noliktavām un to novietojumiem ir jābūt saistītiem ar novietojuma profilu. Ja vēlaties izmantot WMS, jābūt konfigurētiem šādiem nosacījumiem:
+-   Lai varētu lietot WMS, jāiespējo esošās noliktavas. 
+-   Esošās izlaistās preces ir jāsaista ar noliktavas dimensiju grupu, kas izmanto WMS. 
 
-Ja avota noliktavas dimensiju grupas izmanto krājumu dimensiju Paletes ID, to rīcībā esošo krājumu novietojumi, kas izmantoja krājumu dimensiju Paletes ID, ir jāsaista ar novietojuma profilu, kurā ir atlasīts parametrs **Izmantot unikālā noliktavas vienības identifikatora izsekošanu**. Ja esošās noliktavas nedrīkst iespējot noliktavas pārvaldības procesu lietošanai, rīcībā esošo krājumu noliktavas dimensiju grupas varat mainīt uz grupām, kurās tiek apstrādātas tikai krājumu dimensijas Vieta, Noliktava un Novietojums. 
+Ja avota noliktavas dimensiju grupas izmanto krājumu dimensiju Paletes ID, to rīcībā esošo krājumu novietojumi, kas izmantoja krājumu dimensiju Paletes ID, ir jāsaista ar novietojuma profilu, kurā ir atlasīts parametrs **Izmantot unikālā noliktavas vienības identifikatora izsekošanu**. Ja esošās noliktavas nav jāiespējo WMS lietošanai, esošo rīcībā esošo krājumu noliktavas dimensiju grupas var mainīt uz grupām, kas apstrādā tikai vietas, noliktavas un novietojuma krājumu dimensijas. 
 
 > [!NOTE] 
 >  Noliktavas dimensiju grupu krājumiem varat mainīt pat tad, ja pastāv atvērtas krājumu transakcijas.
@@ -56,12 +56,12 @@ Lai krājumu izmantotu kā daļu no noliktavas pārvaldības procesa, šim krāj
 Lai atbloķētu preces, kas tika bloķētas jaunināšanas laikā, ir jāatlasa jauna noliktavas dimensiju grupa precēm. Ņemiet vērā, ka varat mainīt noliktavas dimensiju grupu pat tad, ja pastāv atvērtas krājumu transakcijas. Lai lietotu krājumus, kas tika bloķēti jaunināšanas laikā, ir divas iespējas.
 
 -   Mainiet noliktavas dimensiju grupu krājumam uz noliktavas dimensiju grupu, kurā tiek izmantotas tikai krājumu dimensijas Vieta, Noliktava un Novietojums. Šo izmaiņu rezultātā vairs netiek izmantota krājumu dimensija Paletes ID.
--   Mainiet noliktavas dimensiju grupu krājumam uz noliktavas dimensiju grupu, kurā tiek izmantoti noliktavas pārvaldības procesi. Šo izmaiņu rezultātā tagad tiek izmantota krājumu dimensija Unikāls noliktavas vienības identifikators.
+-   Mainiet krājuma noliktavas dimensiju grupu uz noliktavas dimensiju grupu, kas izmanto WMS. Šo izmaiņu rezultātā tagad tiek izmantota krājumu dimensija Unikāls noliktavas vienības identifikators.
 
-## <a name="configure-warehouse-management-processes"></a>Noliktavas pārvaldības procesu konfigurēšana
+## <a name="configure-wms"></a>Konfigurēt WMS
 Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir jāizmanto noliktavas dimensiju grupa, kurā ir atlasīts parametrs **Izmantot noliktavas pārvaldības procesus**.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Noliktavas pārvaldības procesu lietošanas iespējošana noliktavām
+### <a name="enable-warehouses-to-use-wms"></a>Iespējot noliktavu WMS izmantošanu
 
 1.  Izveidojiet vismaz vienu jaunu novietojuma profilu.
 2.  Noklikšķiniet uz **Noliktavas pārvaldība** &gt; **Iestatīšana** &gt; **Iespējot noliktavas pārvaldības procesus** &gt; **Iespējot noliktavas iestatīšanu**.
@@ -70,7 +70,7 @@ Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir
 5.  Pārbaudiet izmaiņas. Kā daļa no pārbaudes procesa notiek dažādas datu integritātes pārbaudes. Lielāka jaunināšanas procesa ietvaros, iespējams, avota ieviešanā ir jākoriģē radušās problēmas. Šajā gadījumā būs nepieciešama papildu datu jaunināšana.
 6.  Apstrādājiet izmaiņas.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Noliktavas dimensiju grupas maiņa krājumiem, lai tā izmantotu noliktavas pārvaldības procesus
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Mainīt noliktavas dimensiju grupu krājumiem tā, lai tas izmanto WMS
 
 1.  Izveidojiet jaunu vienuma **Krājumu statuss** vērtību un piešķiriet to kā vienuma **Noklusējuma krājumu statusa ID** vērtību vienuma **Noliktavas pārvaldības parametri** iestatījumos.
 2.  Izveidojiet jaunu noliktavas dimensiju grupu, kurā ir atlasīts parametrs **Izmantot noliktavas pārvaldības procesus**.

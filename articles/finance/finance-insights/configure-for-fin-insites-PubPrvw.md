@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868523"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068111"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finanšu ieskatu konfigurācija — versija 10.0.20 vai jaunāka
 
@@ -38,7 +38,7 @@ Finanšu ieskatījumi apvieno funkcionalitāti no Microsoft Dynamics 365 Finans�
 
 Lai izvietotu vides, veiciet tālāk norādītās darbības.
 
-1. Programmā Microsoft Dynamics Lifecycle Services (LCS) izveidojiet vai atjauniniet Finance vidi. Videi nepieciešama programmas versija 10.0.20 vai jaunāka finanšu un operāciju programmu versija.
+1. Programmā Microsoft Dynamics Lifecycle Services (LCS) izveidojiet vai atjauniniet Finance vidi. Videi nepieciešama programmas versija 10.0.20 vai jaunāka no finanšu un operāciju programmām.
 2. Videi ir jābūt augstas pieejamības (AP) videi smilškastē. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Konfigurējot Finance Insights, izmantojot smilškastes vidi, jums vajadzēs kopēt ražošanas datus uz šo vidi, lai varētu prognozēt darbu. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas dati neietver pietiekamus vēsturiskos datus, lai nodrošinātu prognozēšanas modeļa tālumu. 
 
@@ -755,3 +755,4 @@ Pievienojumprogrammas instalēšana var ilgt vairākas minūtes.
 Ja interesējaties par atsauksmju sniegšanu vai vēlaties atbalstīt, sūtiet e-pasta ziņojumu uz finanšu [ieskatiem](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

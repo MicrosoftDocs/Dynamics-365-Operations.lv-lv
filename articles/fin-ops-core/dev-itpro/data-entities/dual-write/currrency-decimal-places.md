@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855592"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112280"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valūtas datu tipa migrācija duālajai rakstīšanai
 
@@ -29,7 +29,7 @@ Decimāldaļu skaita maiņas procesam ir divi soļi:
 1. Pieprasīt migrāciju no Microsoft.
 2. Mainīt decimāldaļu skaitu Dataverse.
 
-Programmai Finanses un operācijas ir Dataverse jāatbalsta vienāds decimāldaļu skaits valūtas vērtībās. Pretējā gadījumā datu zudums var rasties gadījumā, kad šī informācija tiek sinhronizēta starp programmām. Migrācijas process pārkonfigurē valūtas un maiņas kursa vērtību saglabāšanas veidu, bet nemaina nekādus datus. Kad migrācija ir pabeigta, valūtas kodu un izcenojumu decimāldaļu skaits var tikt palielināts, un datiem, ko lietotāji ievada un skata, var būt vairāk decimāldaļas precizitātes.
+Finanšu un operāciju programmai, un Dataverse tai ir jāatbalsta ar vienādu decimāldaļu skaitu valūtas vērtībām. Pretējā gadījumā datu zudums var rasties gadījumā, kad šī informācija tiek sinhronizēta starp programmām. Migrācijas process pārkonfigurē valūtas un maiņas kursa vērtību saglabāšanas veidu, bet nemaina nekādus datus. Kad migrācija ir pabeigta, valūtas kodu un izcenojumu decimāldaļu skaits var tikt palielināts, un datiem, ko lietotāji ievada un skata, var būt vairāk decimāldaļas precizitātes.
 
 Migrācija nav obligāta. Ja jums varētu būt noderīgs atbalsts vairāk decimāldaļām, mēs iesakām jums apsvērt migrāciju. Organizācijas, kurām nav nepieciešamas vērtības, kurām ir vairāk nekā četras decimāldaļas, nav jāmigrē.
 
@@ -37,7 +37,7 @@ Migrācija nav obligāta. Ja jums varētu būt noderīgs atbalsts vairāk decim�
 
 Esošo valūtas lauku glabāšana programmā Dataverse nevar atbalstīt vairāk par četrām decimāldaļām. Tāpēc migrācijas procesa laikā valūtas vērtības tiek pārkopētas uz jaunajiem iekšējiem laukiem datu bāzē. Šis process notiek nepārtraukti, līdz visi dati ir migrēti. Iekšēji migrācijas beigās jaunie glabāšanas tipi aizvieto vecos glabāšanas tipus, bet datu vērtības netiek mainītas. Valūtas lauki var atbalstīt līdz 10 decimāldaļām. Migrācijas procesa laikā Dataverse var turpināt tikt izmantots bez pārtraukumiem.
 
-Tajā pašā laikā valūtas maiņas kursi tiek modificēti tā, lai tie atbalstītu līdz 12 decimāldaļām pašreizējo 10 vietā. Šīs izmaiņas ir nepieciešamas, lai decimāldaļu vietu skaits būtu vienāds gan programmā Finanses, gan Operācijas, kā arī programmā Dataverse.
+Tajā pašā laikā valūtas maiņas kursi tiek modificēti tā, lai tie atbalstītu līdz 12 decimāldaļām pašreizējo 10 vietā. Šīs izmaiņas ir nepieciešamas, lai gan finanšu, gan operāciju programmā, kā arī decimāldaļu vietu skaits būtu vienāds Dataverse.
 
 Migrācija nemaina nekādus datus. Kad valūtas un maiņas kursu lauki ir pārveidoti, administratori var konfigurēt sistēmu, lai izmantotu līdz 10 decimāldaļām valūtas laukiem, norādot katras darījuma valūtas un cenu decimāldaļu skaitu.
 
@@ -100,3 +100,4 @@ Lai nodrošinātu noklusējuma valūtas decimālās precizitātes uzvedību migr
 |          | Maksimālā decimālā precizitāte, kas redzama datu bāzē un DB vaicājuma rezultātos UI | 10 cipari. Tomēr tikai 4 ir svarīgas ar visām nullēm virs 4 decimālzīmēm. Tas iespējo vienkāršāku un ātrāku organizācijas migrāciju, ja nepieciešams. | 10 cipari      | 10 cipari     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

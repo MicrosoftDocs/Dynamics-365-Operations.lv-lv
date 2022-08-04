@@ -1,6 +1,6 @@
 ---
 title: Integrētie debitoru pamatdati
-description: Šajā rakstā aprakstīta debitora datu integrācija starp Finansēm un Operācijām un Dataverse.
+description: Šajā rakstā ir aprakstīta debitoru datu integrācija starp finansēm un operācijām Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890461"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111730"
 ---
 # <a name="integrated-customer-master"></a>Integrētie debitoru pamatdati
 
@@ -30,9 +30,9 @@ Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. P
 
 ![Debitora datu plūsma.](media/dual-write-customer-data-flow.png)
 
-Debitorus kopumā var iedalīt divos tipos: komerciālie/organizāciju debitori un debitori/galalietotāji. Šie divi debitoru tipi tiek dažādi uzglabāti un apstrādāti programmās Finance and Operations un Dataverse.
+Debitorus kopumā var iedalīt divos tipos: komerciālie/organizāciju debitori un debitori/galalietotāji. Šie divi debitoru tipi tiek saglabāti un apstrādāti atšķirīgi finansēs un operācijās, kā arī Dataverse.
 
-Finanses un operācijas gan tirdzniecības/organizācijas debitori, gan debitori/ **gala lietotāji tiek apgūti vienā tabulā, kuras nosaukums ir CustTable** (CustCustomerV3Entity), **un tās tiek klasificētas, pamatojoties uz tipa** atribūtu. (Ja **Tips** ir iestatīts uz **Organizācija**, tad debitors ir komerciāls/organizācijas debitors, un ja **Tips** ir iestatīts uz **Persona**, tad debitors ir debitors/galalietotājs.) Primārā kontaktpersonas informācija tiek apstrādāta, izmantojot SMMContactPersonEntity elementu.
+Finansēs un operācijās gan tirdzniecības/organizācijas debitori, gan debitori/ **gala lietotāji tiek apgūti vienā tabulā, kuras nosaukums ir CustTable** (CustCustomerV3Entity), **un tās tiek klasificētas, pamatojoties uz tipa** atribūtu. (Ja **Tips** ir iestatīts uz **Organizācija**, tad debitors ir komerciāls/organizācijas debitors, un ja **Tips** ir iestatīts uz **Persona**, tad debitors ir debitors/galalietotājs.) Primārā kontaktpersonas informācija tiek apstrādāta, izmantojot SMMContactPersonEntity elementu.
 
 Programmā Dataverse komerciālie/organizāciju debitoru pamatdati tiek apkopoti Konta elementā, un tiek identificēti kā debitori, kas atribūts **RelationshipType** ir iestatīts uz **Debitors**. Gan debitorus/galalietotājus, gan kontaktpersonu ataino tabula Kontaktpersonas. Lai nodrošinātu skaidru dalījumu starp debitoru/galalietotāju un kontaktpersonu, elementam **Kontaktpersona** ir Būla karodziņš ar nosaukumu **Pārdodams**. Ja **Pārdodams** ir **Patiess**, kontaktpersona ir debitors/galalietotājs, un šai kontaktpersonai var izveidot piedāvājumus un pasūtījumus. Ja **Pārdodams** ir **Nepatiess**, kontaktpersona ir tikai debitora primārā kontaktpersona.
 
@@ -57,3 +57,4 @@ Finance and Operations programmas | Customer engagement programmas         | Apr
 [Apmaksas nosacījumi](mapping-reference.md#161) | msdyn_paymentterms | Šī veidne sinhronizē maksāšanas nosacījumu (apmaksas nosacījumu) atsauces datus par debitoriem un kreditoriem.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

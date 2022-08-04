@@ -1,6 +1,6 @@
 ---
 title: Palīdzības sistēma (satur video)
-description: Šajā rakstā sniegts palīdzības sistēmas apskats finanšu un operāciju programmām.
+description: Šajā rakstā sniegts palīdzības sistēmas apskats par finanšu un operāciju programmām.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898374"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124200"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -53,7 +53,7 @@ Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogra
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
-Lai abonētu visu finanšu un operāciju programmu saturam docs.microsoft.com ESAT veicis VISU atjauninājumu PLŪSMU, izmantojiet šādu saiti:
+Lai abonētu VISU finanšu un operāciju programmu saturam docs.microsoft.com ESAT veicis VISU atjauninājumu PLŪSMU, izmantojiet šādu saiti:
 
 [RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](/
 
 Uzdevuma ceļvedis ir kontrolēta, strukturēta, interaktīvu pieredze, kas jūs vada caur uzdevuma vai biznesa procesa darbībām. Uzdevumu ceļvežus varat atvērt (atskaņot) no rūts **Palīdzība**. Kad pirmo reizi atlasāt uzdevuma ceļvedi, rūtī **Palīdzība** tiek rādītas soli-pa-solim instrukcijas par šo uzdevumu. Ir pieejami lokalizēti uzdevumu ceļveži.
 
-Microsoft izlaistās uzdevumu ceļveža bibliotēkas preču versijām, izmantojot Dynamics 365 for Finance and Operations 2017. gada decembra versiju. Uzdevumu [piekļūšanas ceļveži no šī raksta palīdzības](#accessing-task-guides-from-the-help-pane) rūts sadaļas skaidro veidu, kā atrast pareizās uzdevumu ceļvežus jūsu precei.
+Microsoft izlaida uzdevumu ceļveža bibliotēkas preču versijām līdz 2017. gada decembra programmai Dynamics 365 Finanses un operācijas. Uzdevumu [piekļūšanas ceļveži no šī raksta palīdzības](#accessing-task-guides-from-the-help-pane) rūts sadaļas skaidro veidu, kā atrast pareizās uzdevumu ceļvežus jūsu precei.
 
 ![Uzdevuma ceļveža lasīšanas skats.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

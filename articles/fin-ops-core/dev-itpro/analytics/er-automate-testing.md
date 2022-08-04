@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892774"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109346"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testēšanas ar elektroniskiem pārskatiem automatizēšana
 
@@ -57,7 +57,7 @@ Funkcionālie prasmīgie lietotāji var izpildīt piemērotības lietotājam un 
 Pirms varat izpildīt šajā rakstā norādītos uzdevumus, ir jāizpilda šādi priekšnosacījumi:
 
 - Izvietojiet topoloģiju, kas atbalsta testu automatizāciju. Jums ir jābūt piekļuvei šīs topoloģijas instancei ar lomu **Sistēmas administrators**. Minētajā topoloģijā ir jāietver demonstrācijas dati, kas tiks izmantoti šajā piemērā. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana un lietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md).
-- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet tēmā [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
+- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt tā, lai tas darbotos ar finanšu un operāciju programmām, skatiet Azure DevOps [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
 
     ![RSAT iestatījumi.](media/GER-Configure.png "RSAT iestatījumu dialoglodziņa ekrānuzņēmums")
 

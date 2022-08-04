@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900975"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112200"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
@@ -40,7 +40,7 @@ Pirms plānošanas optimizācijas ieslēgšanas iesakām novērtēt plānošanas
 
 ## <a name="availability"></a>Pieejamība
 
-Optimizācijas plānošana pašlaik ir pieejama tālāk redzamajā Azure ģeogrāfiskā grafikā: AMERIKAS Savienotās Valstis, Kanāda, Brazīlija, Eiropa, Apvienotā Karaliste, Austrālija, Klusā okeāna, Japānas un Indija. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Optimizācijas plānošana pašlaik ir pieejama tālāk redzamajā Azure ģeogrāfiskā grafikā: AMERIKAS Savienotās Valstis, Kanāda, Brazīlija, Eiropa, Francija, Apvienotā Karaliste, Austrālija, Klusā okeāna, Japānas un Indijas. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Ņemiet vērā, ka plānošanas optimizācija neatbalsta Dynamics 365 Supply Chain Management lokālās izvietošanas.
 
@@ -135,3 +135,4 @@ Ja plānošanas optimizācija ir ieslēgta, vispārējā plānošana tiek veikta
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

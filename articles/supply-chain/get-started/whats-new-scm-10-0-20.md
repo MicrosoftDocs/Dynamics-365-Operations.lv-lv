@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888648"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123814"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 
@@ -73,7 +73,7 @@ Mēs nesen pievienojam vai būtiski atjauninājām šādus palīdzības rakstus.
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.20 (2021. gada jūlijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 ietver platformas atjauninājumus. Papildinformāciju skatiet informāciju par [Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.20 (2021. gada jūlijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
@@ -98,3 +98,4 @@ Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

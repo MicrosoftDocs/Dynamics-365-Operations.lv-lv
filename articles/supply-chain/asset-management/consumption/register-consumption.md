@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015090"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111760"
 ---
 # <a name="register-consumption"></a>Patēriņa reģistrēšana
 
@@ -90,7 +90,7 @@ Veicot patēriņa reģistrācijas, noteiktā secībā reģistrācijām tiek piev
 - *Krājumu reģistrācijas:* vispirms tiek pievienotas finanšu dimensijas no žurnāla virsraksta, ja tādas ir. Pēc tam tiek pievienotas finanšu dimensijas no saistītā darba pasūtījuma projekta. Pēc tam tiek pievienotas finanšu dimensijas no vietas. Visbeidzot, tiek pievienotas finanšu dimensijas no krājuma.
 
 >[!NOTE]
->Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Šis ir standarta iestatījums programmatūrā Finance and Operations.
+>Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Tas ir standarta iestatījums ar citām finanšu un operāciju programmām.
 
 
 

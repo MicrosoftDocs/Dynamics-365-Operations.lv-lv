@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873816"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186489"
 ---
 # <a name="priority-based-planning"></a>Uz prioritāti balstīta plānošana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no demand Driven Material Requirements Planning (DDMRP) soļi. Uz prioritāti balstīta plānošana iespējo plānošanas optimizāciju, lai ģenerētu plānotos pasūtījumus, kurus nosaka plānošanas prioritātes, nevis pieprasījumu datumi.
+Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no [demand Driven Material Requirements Planning (DDMRP) soļi](ddmrp-overview.md). Uz prioritāti balstīta plānošana iespējo plānošanas optimizāciju, lai ģenerētu plānotos pasūtījumus, kurus nosaka plānošanas prioritātes, nevis pieprasījumu datumi.
 
 Uz prioritāti balstīta plānošana ļauj piešķirt prioritāti papildināšanas pasūtījumiem, lai nodrošinātu steidzamu pieprasījumu pēc prioritātes tiek noteikt pēc mazāk svarīga pieprasījuma. Piemēram, krājumu papildināšanas pasūtījumam tiks prioritāte pār standarta uzpildīšanas papildināšanas pasūtījumu. Sistēma automātiski var sadalīt lielākus pasūtījumus atsevišķos mazākos pasūtījumos, kur pasūtījumu rindas tiek grupētas pēc prioritātes. Tad tas vispirms var apstrādāt visus augstas prioritātes pasūtījumus.
 
@@ -128,7 +128,7 @@ Piemēram, atkārtota pasūtījuma punkta daudzums tiek balstīts uz septiņu di
 
 ### <a name="manage-planning-priority-models"></a>Pārvaldīt plānošanas prioritāšu modeļus
 
-Strādāt ar plānošanas prioritāšu modeļiem. Rīkojieties.
+Strādāt ar plānošanas prioritāšu modeļiem. Izpildiet šīs darbības.
 
 1. Pāriet uz vispārējās **plānošanas iestatīšanas \> plānošanas \> prioritāšu modeļiem**.
 1. Atlasiet esošu modeli saraksta rūtī vai atlasiet Jauns **darbību** rūtī, lai izveidotu jaunu modeli.

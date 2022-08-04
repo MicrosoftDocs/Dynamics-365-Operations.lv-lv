@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905320"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112208"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
@@ -37,7 +37,7 @@ Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona*
 ![Kreditora paplašinātā datu plūsma.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ja pašapkalpošanās kreditoriem Power Apps izmantojat portālus, kreditora informācija var plūst tieši uz programmu Finanses un Operācijas.
+> Ja izmantojat portālus Power Apps pašapkalpošanās kreditoriem, kreditora informācija var plūst tieši uz finanšu un operāciju programmām.
 
 ## <a name="templates"></a>Veidnes
 
@@ -52,8 +52,9 @@ Finance and Operations programmas | Customer engagement programmas     | Aprakst
 [Maksājumu grafika rindas](mapping-reference.md#159) | msdyn_paymentschedulelines | Sinhronizē maksāšanas grafika rindu atsauces datus par debitoriem un kreditoriem.
 [Maksājumu grafiks](mapping-reference.md#160) | msdyn_paymentschedules | Šī veidne sinhronizē maksāšanas grafika atsauces datus par debitoriem un kreditoriem.
 [Apmaksas nosacījumi](mapping-reference.md#161) | msdyn_paymentterms | Šī veidne sinhronizē maksāšanas nosacījumu (apmaksas nosacījumu) atsauces datus par debitoriem un kreditoriem.
-[Kreditori V2](mapping-reference.md#202) | msdyn_vendors | Uzņēmumiem, kas izmanto pielāgotu risinājumu kreditoriem, var izmantot standarta komplektācijas kreditora konceptu, kas ir ieviests pakalpojumā Dataverse saistībā ar Finance and Operations programmu integrāciju.
+[Kreditori V2](mapping-reference.md#202) | msdyn_vendors | Uzņēmumi, kas kreditoriem izmanto pielāgotu risinājumu, var gūt labumu no nov atrašanās vietas kreditora koncepcijas Dataverse, kas tiek ieviesta finanšu un operāciju programmu integrācijas dēļ.
 [Kreditoru grupas](mapping-reference.md#200) | msdyn_vendorgroups | Šī veidne sinhronizē kreditoru grupas informāciju.
 [Piegādātāja maksāšanas metode](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Šī veidne sinhronizē kreditora maksājuma metodes informāciju.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670445"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135575"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ar fizisko vērtību un iezīmēšanu
 
@@ -128,7 +128,7 @@ Sekojošajā ilustrācijā tiek parādītas šīs darbības:
 - 6.a Krājumu fiziska izsniegšana ar daudzumu 1 pie izmaksu cenas USD 23.00 (finansiāli grāmatoto darbību tekošā vidējā vērtība)
 - 7\. Tiek veikta krājumu slēgšana. Pamatojoties uz atzīmēšanas principu, kas izmanto PRETfo metodi, iezīmētās darbības tiek nosegtas viena ar otru. Šajā piemērā 3b tiek nosegta pret 2b, un korekcija USD 6.00 iegrāmatota 3b, lai vērtība ienestu USD 22.00. Šajā piemērā netiek veikta papildu segšana, jo aizvēršana izveido segšanas tikai finansiāli atjauninātām darbībām.
 
-Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 27,50.
+Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atjaunināto darbību vidējo par summu USD 17,50.
 
 Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LIFO krājumu modeļa izvēle ar nozīmēšanu starp izsniegšanas un saņemšanas darījumiem.
 

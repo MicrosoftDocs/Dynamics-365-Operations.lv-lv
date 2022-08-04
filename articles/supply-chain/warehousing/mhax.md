@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907092"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068365"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-Jūs variet izmantot *materiālu apstrādes aprīkojuma interfeisu* (MHAX), lai ārējās fiziskās materiālu apstrādes (MH) sistēmas savienotu ar noliktavu, ko pārvalda papildu noliktavas pārvaldība (WMS) Microsoft Dynamics 365 Supply Chain Management. Interfeiss starp WMS un MH sistēmām sastāv no divām rindām: viena izejošajiem notikumiem (WMS uz MH) un viena ienākošajiem notikumiem (MH uz WMS). WMS sistēma ģenerē izejošos notikumus, balstoties uz darba rindām, kas ir izveidotas dažādos darba izveides un izpildes procesos. LĪDZ ar to MH sistēma regulāri reaģē uz WMS sistēmu, meklē jaunus notikumus un apstrādā atbildes. Kad MH ir pabeigta notikumu apstrāde saskaņā ar darba instrukcijām, tā nosūta ienākošos notikumus, piemēram, darba rindas pabeigšanu un īsu izdošanu.
+Jūs varat izmantot materiālu *apstrādes* aprīkojuma interfeisu (ATTIECĪBĀ UZAX), lai ārējās fiziskās materiālu apstrādes (NOSŪTĪŠANA) sistēmas savienotu ar noliktavu, ko pārvalda noliktavas vadības procesi (WMS) Sistēmā Microsoft Dynamics 365 Supply Chain Management. Interfeiss starp WMS un MH sistēmām sastāv no divām rindām: viena izejošajiem notikumiem (WMS uz MH) un viena ienākošajiem notikumiem (MH uz WMS). WMS sistēma ģenerē izejošos notikumus, balstoties uz darba rindām, kas ir izveidotas dažādos darba izveides un izpildes procesos. LĪDZ ar to MH sistēma regulāri reaģē uz WMS sistēmu, meklē jaunus notikumus un apstrādā atbildes. Kad MH ir pabeigta notikumu apstrāde saskaņā ar darba instrukcijām, tā nosūta ienākošos notikumus, piemēram, darba rindas pabeigšanu un īsu izdošanu.
 
 Šajā attēlā redzami dažādie elementi un secība, kas tiek veikta, kad izmantojat MHAX integrāciju.
 

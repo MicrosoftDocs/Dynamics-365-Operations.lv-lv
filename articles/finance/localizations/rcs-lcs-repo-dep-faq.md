@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849736"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065680"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) — Lifecycle Services (LCS) krātuves novecošana
 
@@ -29,8 +29,8 @@ ms.locfileid: "8849736"
 Microsoft Dynamics Lifecycle Services (LCS) izmantošana kā elektronisko pārskatu (ER) konfigurāciju krātuve repozitorijā ir novecojusi. Šis novecošana ietvers šādas izmaiņas:
 
 - Microsoft ražotās konfigurācijas, kas tiek izmantotas Microsoft Dynamics 365 lietojumprogrammās, vairs netiks publicētas LCS koplietojamo līdzekļu bibliotēkā. Tā vietā tās publicēs tikai ar RCS globālā repozitorija starpniecību. Tomēr konfigurācijas, kas paredzētas Dynamics AX 2012, tiks publicētas LCS koplietojamo līdzekļu bibliotēkā līdz AX 2012 atbalsta dzīves cikla beigām.
-- Funkcionalitāte, kas ļauj augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no finanšu un operāciju programmām un no RCS, tiks deaktivizēta. Tomēr joprojām varēsit izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā. Tādēļ joprojām var pievienot konfigurācijas LCS, lai tās varētu ietvert risinājumu pakotnēs.
-- Konfigurāciju imports no LCS turpinās būt pieejams un atbalstīts finanšu un operāciju programmās, kā arī RCS kādu laiku. Tomēr funkcionalitāte galu galā novecos. (Precīzs novecošanas datums tiks paziņots vēlāk.)
+- Funkcionalitāte, kas ļauj jums augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no finanšu un operāciju programmām, un no RCS, tiks deaktivizēta. Tomēr joprojām varēsit izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā. Tādēļ joprojām var pievienot konfigurācijas LCS, lai tās varētu ietvert risinājumu pakotnēs.
+- Konfigurāciju imports no LCS turpinās būt pieejams un atbalstīts finanšu un operāciju programmās, kā arī RCS jau kādu laiku. Tomēr funkcionalitāte galu galā novecos. (Precīzs novecošanas datums tiks paziņots vēlāk.)
 
 ## <a name="deprecation-notice"></a>Paziņojums par novecošanu
 
@@ -73,7 +73,7 @@ Izmantojiet Globalizācijas repozitoriju šādiem nolūkiem:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Vai šīs izmaiņas nozīmē, ka LCS nevar izmantot kā konfigurāciju centrālo krātuvi?
 
-Jā. Funkcionalitāte, kas ļauj jums augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no Finanšu un operāciju programmām, tiks novecojusi. Tomēr joprojām varat izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā, pēc nepieciešamības.
+Jā. Funkcionalitāte, kas ļauj jums augšupielādēt konfigurācijas projekta līdzekļu bibliotēkā LCS no finanšu un operāciju programmām, tiks novecojusi. Tomēr joprojām varat izmantot pārlūkprogrammu, kas atrodas LCS, lai augšupielādētu konfigurācijas projekta līdzekļu bibliotēkā, pēc nepieciešamības.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Es domāju, ka RCS bija globālo veidņu failu importēšanas aizstāšanas repozitorijs. Es nedomāju, ka tas tiek izmantots konfigurāciju glabāšanai. Kā ir pareizi?
 
@@ -81,7 +81,7 @@ RCS ir noformēšanas pakalpojums ER konfigurāciju izveidošanai un rediģēša
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Bez LCS, kāds ir ieteicamais konfigurāciju glabāšanas veids, lai “testa” un “ražošanas” konfigurācijas varētu viegli pārvaldīt un pārnest?
 
-RCS izmanto *savienoto programmu* konceptu. Savienots pieteikums veido savienojumu starp RCS un jebkuru Finanšu un operāciju programmu instanci. Tā kā RCS var izmantot konfigurāciju rediģēšanai, pievienoto programmu var izmantot, lai virzītu konfigurācijas tieši no veidotāja uz Finanšu un operāciju lietojumprogrammu vidēm. Tādēļ varat ātri mainīt un testēt savas konfigurācijas, neizmantojot LCS projekta līmeņa krātuvi.
+RCS izmanto *savienoto programmu* konceptu. Savienots pieteikums veido savienojumu starp RCS un jebkuru finanšu un operāciju programmu gadījumu. Tā kā RCS var izmantot konfigurāciju rediģēšanai, pievienoto programmu var izmantot, lai konfigurācijas virzītu tieši no veidotāja uz finanšu un operāciju lietojumprogrammu vidēm. Tādēļ varat ātri mainīt un testēt savas konfigurācijas, neizmantojot LCS projekta līmeņa krātuvi.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Vai ir kādi piemēri, kas parāda iestatīšanu un pārvaldību?
 

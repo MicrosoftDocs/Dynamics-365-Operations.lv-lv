@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870138"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068786"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Pamatlīdzekļu atjaunošanas pārskats
 
@@ -30,7 +30,7 @@ Pārskats **Pamatlīdzekļu atjaunošana** viegli lasāmā Microsoft Excel form�
 
 Pārskatā **Pamatlīdzekļu atjaunošana** izmantota elektronisko pārskatu (ER) platforma. Pirms pārskata izpildes no portāla Microsoft Dynamics Lifecycle Services (LCS) ir jāimportē pamatlīdzekļu modeļu un pamatlīdzekļu atjaunošanas konfigurācijas. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Šis pārskats ir pieejams versijā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 vai kā labojumfails versijai Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijs). Vidēs, kurās ir 2017. gada jūlija laidiens, ir jālieto trīs labojumfaili.
+Šis pārskats ir pieejams Microsoft Dynamics 365 Finanses, Uzņēmuma izdevums 7.3 Microsoft Dynamics vai kā labojumfails 365 Finanses, Uzņēmuma izdevums (2017. gada jūlijs). Vidēs, kurās ir 2017. gada jūlija laidiens, ir jālieto trīs labojumfaili.
 
 - **KB 4041754:** elektronisko pārskatu (ER) konfigurāciju nevar lejupielādēt no LCS, jo tā neattiecas uz pašreizējo versiju pēc platformas atjauninājumu pakotnes lietošanas
 - **KB 4056107:** elektronisko pārskatu (GER) 5. kumulatīvais atjauninājums
@@ -67,3 +67,4 @@ Tālāk esošajā tabulā ir aprakstīti pārskatā pieejamie lauki.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

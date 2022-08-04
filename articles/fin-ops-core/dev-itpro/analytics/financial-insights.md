@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464914"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109118"
 ---
 # <a name="financial-analysis"></a>Finanšu analīze
 
@@ -40,7 +40,7 @@ Darbvieta **Finanšu analīze** ļauj skatīt un filtrēt datus esošajos pārsk
 
 - [Power BI vizualizāciju pievienošana vai rediģēšana informācijas panelī](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance iestatīšana
+## <a name="dynamics-365-finance-setup"></a>Dynamics 365 finanšu iestatīšana
 **Virsgrāmata**
 
 Galvenā konta tips un galvenā konta kategorijas tiek izmantotas, lai aizpildītu atbilstošos noklusējuma galvenos kontus tipa **Bilance** finanšu pārskatos un dažādajos tipa **Peļņas vai zaudējumu aprēķins** finanšu pārskatos darbvietā **Finanšu analīze**.
@@ -78,7 +78,7 @@ Pašlaik iegultajos Power BI pārskatos ietvertos datus nevar ierobežot, nodro�
 | Nodoklis                                    | Lomas | Apraksts |
 |-----------------------------------------|-------|------------|
 | Skatīt pašreizējā uzņēmuma finanšu analīzi | <ul><li>Grāmatvedis</li><li>Uzskaites vadītājs</li><li>Uzskaites supervizors</li><li>Auditors</li><li>Budžeta pārvaldnieks</li><li>Iestādes vadītājs</li><li>Finanšu direktors</li><li>Finanšu kontrolieris</li></ul> | Šis pienākums nodrošina piekļuvi darbvietai Finanšu analīze. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Nevar pievienot citas juridiskās personas. |
-| Skatīt visa uzņēmuma finanšu analīzi   | Programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 šis pienākums nav piešķirts lomai. Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
+| Skatīt visa uzņēmuma finanšu analīzi   | Microsoft Dynamics 365 Finanses, Uzņēmuma izdevums 7.3, šis pienākums nav piešķirts lomai. Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Darbvietu “Financial reporting” un “Finanšu analīze” salīdzinājums
@@ -96,7 +96,7 @@ Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības star
 | **Atbalsts pārskatu veidošanas hierarhijai/organizācijas hierarhijai**   | Jā                                                               | Nē |
 | **Pārskats par apakšgrāmatu datiem**                             | Jā Ierobežoti Tikai kreditoram un debitoram                              | Jā Kreditors, debitors, kreditoru/debitoru grupas, kreditoru/debitoru adreses u. c. |
 | **Pārskata valūta**                                   | Jā Uzskaites valūta un pārvēršana pārskata valūtā       | Nē Tikai uzskaites valūta |
-| **Drošība**                                             | Jā Atbilstoši Finanšu pārskatu veidošanas koka drošībai | Ierobežoti Skatiet pārskatus par visiem uzņēmumiem (neatkarīgi no Finance and Operations drošības) vai tikai aktīvo uzņēmumu |
+| **Drošība**                                             | Jā Atbilstoši Finanšu pārskatu veidošanas koka drošībai | Ierobežots skatīt pārskatus par visiem uzņēmumiem (neatkarīgi no finanšu un operāciju drošības) vai tikai aktīvo uzņēmumu |
 | **Atbalsts atšķirīgiem kontu plāniem un finanšu gadiem** | Jā                                                               | Nē |
 | **Pārskats par ārējiem datiem**                              | Nē                                                                | Nē |
 | **Atbalsta konsolidācijas**                               | Jā                                                               | Ierobežoti Var izveidot pārskatu par vairākiem uzņēmumiem, taču izmanto tikai uzskaites valūtu |
@@ -244,3 +244,4 @@ Tālāk norādītajos resursos esošā informācija nav nepieciešama, lai iesp�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

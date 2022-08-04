@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906360"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065752"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
 [!include [banner](../includes/banner.md)]
 
-Funkcionalitāte, kas tika ieviesta Microsoft Dynamics 365 for Finance and Operations versijā 8.1 (2018. gada oktobris), sniedz iespēju mainīt pārskata valūtas pielietojumu un izmantot to kā otro uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
+Funkcionalitāte, kas Microsoft Dynamics ieviesta 365 Finanšu versijā 8.1 (2018. gada oktobris), ļauj pārskata valūtu atpirkt un izmantot kā otru uzskaites valūtu. Šī funkcionalitāte tiek saukta par *divkāršo valūtu*. Divkāršās valūtas izmaiņas nevar izslēgt, izmantojot konfigurācijas atslēgu vai parametru. Tā kā pārskata valūta tiek izmantota kā otrā norēķinu valūta, ir mainīts veids, kādā tiek aprēķināta pārskata valūta grāmatošanas loģikā.
 
 Turklāt ir uzlaboti vairāki moduļi, lai izsekotu, izmantotu un ziņotu par pārskata valūtu dažādos procesos. Ietekmētie moduļi:
 
@@ -209,3 +209,4 @@ Virsgrāmatas konsolidācijā ir pievienota jauna opcija, lai konsolidētu vai n
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

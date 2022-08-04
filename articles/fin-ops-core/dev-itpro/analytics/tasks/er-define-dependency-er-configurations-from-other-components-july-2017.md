@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883573"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111700"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883573"
 
 Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļa kartēšanas konfigurāciju pārvaldība” norādītās darbības un jums ir jābūt piešķirtai piekļuvei portālam Microsoft Dynamics Lifecycle Services (LCS).
 
-Šajā procedūrā ir parādīts, kā izstrādāt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurāciju un norādīt tās atkarību no citiem programmatūras komponentiem, lai varētu palīdzēt nodrošināt konfigurācijas pareizu lejupielādi noteiktā Finance and Operations versijā. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
+Šī procedūra parāda, kā projektēt Elektronisko pārskatu (ER) konfigurāciju un noteikt tās atkarību no citiem programmatūras komponentiem, lai jūs varētu palīdzēt nodrošināt, ka konfigurācija ir pareizi lejupielādēta noteiktā finanšu un operāciju versijā. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas parauga uzņēmumam Litware, Inc. 
 
 Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. 
 
@@ -59,7 +59,7 @@ Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļ
 18. Atlasiet vienumu Microsoft Dynamics AX 7.0 RTW.
 19. Laukā Versija ierakstiet "[7.0.1265.3015,7.1)".
     * [7.0.1265.3015,7.1)  
-    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā ir lejupielādēta iepriekš, tā ir jāizpilda programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, kuras versija ir 7.0.1265.3015 vai jaunāka, taču nav jaunāka par papildversiju 1.   
+    * Atkarības tiek novērtētas, kad šī konfigurācija ir lejupielādēta no ER repozitorija. Šī konfigurācijas versija tiks lejupielādēta no ER repozitorija, kad konfigurācijas 'Parauga datu modelis' 1. versija ir vai nu jau instalēta vai lejupielādēta iepriekš. Ja tā tiek lejupielādēta iepriekš, Microsoft Dynamics tā jāpabeidz 365 Finanšu, Uzņēmuma izdevumā, kura versijai jābūt 7.0.1265.3015 vai jaunākai, bet nedrīkst pārsniegt 1. papildversijai.   
 20. Noklikšķiniet uz Saglabāt.
 21. Aizvērt lapu.
 22. Noklikšķiniet uz Mainīt statusu.
@@ -136,10 +136,11 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
 25. Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
-    * Ja piereģistrējaties finanšu un operācijās, reģistrējaties vienu nodrošinātāju, piekļūstiet tam pašam LCS projektam un lejupielādējiet to pašu datu modeļa konfigurāciju, tad tiks lejupielādēta konfigurācija "Parauga kartēšana (alternatīva)", bet konfigurācija "Parauga kartēšana" tiek izlaista.  
+    * Ja piereģistrējaties finansēs un operācijās, reģistrējaties vienu nodrošinātāju, piekļūstiet tam pašam LCS projektam un lejupielādējiet to pašu datu modeļa konfigurāciju, tad tiks lejupielādēta konfigurācija "Parauga kartēšana (alternatīva)", bet konfigurācija "Parauga kartēšana" tiek izlaista.  
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

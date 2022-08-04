@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867417"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103978"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
@@ -53,7 +53,7 @@ Varat izvietot Dynamics 365 Finance + Operations (on-premises). Izvēloties lok�
 - [Elektronisko atskaišu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentu ģenerēšana, publicēšana un drukāšana lokālos izvietojumos](../analytics/printing-capabilities-on-premises.md)
 - [Starpniekserveru konfigurēšana lokālās vidēs](onprem-reverseproxy.md)
-- [Tehniskā atbalsta uzstādīšana programmām Finance and Operations](../lifecycle-services/support-experience.md)
+- [Iestatīt tehnisko atbalstu finanšu un operāciju programmām](../lifecycle-services/support-experience.md)
 - [Klienta interneta savienojamība](../user-interface/client-disconnected.md)
 - [Atjauninājumu lietošana lokālos izvietojumos](apply-updates-on-premises.md)
 - [Lokālo vižu atkārtota izvietošana](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Varat izvietot Dynamics 365 Finance + Operations (on-premises). Izvēloties lok�
 - [Skripti problēmu risināšanai lokālā vidē](onprem-tsg-implementations.md)
 - [Sertifikāta rotācija](certificate-rotation-on-prem.md)
 - [Lokālā diagnostika](on-premises-diagnostics.md)
-- [Noņemtie vai novecojuši līdzekļi programmai Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Noņemtas vai novecojušas finanšu un operāciju funkcijas](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokālie laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893096"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069188"
 ---
 # <a name="replenishment-overview"></a>Papildināšanas pārskats
 
@@ -70,8 +70,8 @@ Tā vietā, lai pieprasījumu vajadzētu saskaitīt sadalījuma procesa beigās 
 
 |      Priekšnoteikumi       |                                                                                                                                Apraksts                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Krājums           |                                                                                                        Krājumam jābūt iespējotam noliktavas pārvaldības procesiem.                                                                                                        |
-|        Noliktava        | Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem. Lai noliktavu aktivizētu noliktavas vadības procesiem, lapā <strong>Noliktavas</strong> atlasiet šo noliktavu un pēc tam atzīmējiet opciju <strong>Izmantot noliktavas pārvaldības procesus</strong>. |
+|          Krājums           |                                                                                                        Krājumam jābūt iespējotam noliktavas pārvaldības procesiem (WMS).                                                                                                        |
+|        Noliktava        | Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem (WMS). Lai iespējotu noliktavu WMS, <strong>lapā Noliktavas</strong> atlasiet noliktavu un pēc tam atlasiet opciju <strong>Izmantot noliktavas vadības procesus</strong>. |
 | Papildināšanas veidnes |                                                                   Ir jāiestata vismaz viena papildināšanas veidne minimālajai/maksimālajai papildināšanai, kopuma pieprasījuma papildināšanai vai kravas pieprasījuma papildināšanai.                                                                   |
 |        Novietojumi        |                                                                                                       Novietojumiem ir jābūt izveidotiem un savienotiem ar novietojuma profilu.                                                                                                       |
 |    Atrašanās vietu profili    |                                                                                                        Novietojumu profili ir nepieciešami, lai izveidotu novietojumus.                                                                                                        |

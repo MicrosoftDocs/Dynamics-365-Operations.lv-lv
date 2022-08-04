@@ -1,32 +1,33 @@
 ---
 title: Skatīt un izveidot finanšu pārskatus
-description: Šajā rakstā ir sniegti vingrinājumi, kas palīdz saprast finanšu pārskatu skatīšanu un izveidi programmā Microsoft Dynamics 365 Finance.
+description: Šajā rakstā ir sniegti uzdevumi, kas skaidro, kā skatīt un izveidot finanšu pārskatus Microsoft Dynamics 365 Finansēm.
 author: jcart1106
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReportingSetup
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 10814
-ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "10814"
+ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
+ms.search.form: FinancialReportingSetup
+ms.openlocfilehash: 77756b9f32268b091361e1e69be05a11eac19846
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724447"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205670"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegti vingrinājumi, kas palīdz saprast finanšu pārskatu skatīšanu un izveidi programmā Microsoft Dynamics 365 Finance. Finanšu pārskatu veidošanas ietvaros tiek izmantota programmas pārskatu skatīšanas funkcionalitāte un no viena klikšķa pārskatu veidotājs, kas sniedz iespēju izveidot un rediģēt finanšu pārskatus.
+Šajā rakstā ir sniegti uzdevumi, kas skaidro, kā skatīt un izveidot finanšu pārskatus Microsoft Dynamics 365 Finansēm. Finanšu pārskatu veidošanas ietvaros tiek izmantota programmas pārskatu skatīšanas funkcionalitāte un no viena klikšķa pārskatu veidotājs, kas sniedz iespēju izveidot un rediģēt finanšu pārskatus.
 
 ## <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. uzdevums. Noklusējuma finanšu pārskata ģenerēšana un pārlūkošana
 
@@ -151,7 +152,7 @@ ms.locfileid: "6724447"
 4. Atlasiet **Fails** &gt; **Saglabāt kā** un piešķiriet pārskatam nosaukumu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 5. Mainiet pamata gadu uz 2012.
 6. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Organizācijas hierarhijas**.
-7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso Holdings**.
+7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso krājumi**.
 8. Saglabājiet izmaiņas un ģenerējiet pārskatu. Ja tiek piedāvāts, atlasiet visas pārskata vienības. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 9. Atlasiet **Pārskata opcijas**.
 10. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Nodaļa**.
@@ -194,7 +195,7 @@ ms.locfileid: "6724447"
 
 [Skatīt finanšu pārskatus](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+[Dynamics 365 finanses, kas](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

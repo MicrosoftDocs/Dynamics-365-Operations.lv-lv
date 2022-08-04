@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850083"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124264"
 ---
 # <a name="alerts-overview"></a>Pārskats par brīdinājumiem
 
@@ -77,13 +77,13 @@ Brīdinājuma kārtula ietver piecus komponentus.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Videoklips [Kā izmantot brīdinājumus, lai pārraudzītu filtrēto datu](https://youtu.be/ZYKMcv6kl9s) (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), , kurš ir pieejams vietnē YouTube.
+Kā [lietot brīdinājumus, lai uzraudzītu filtrētos](https://youtu.be/ZYKMcv6kl9s) datus video (parādīts iepriekš) ir iekļauts [finanšu un operāciju pieejams](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)YouTube.
 
 ### <a name="alert-rule-options"></a>Brīdinājumu noteikumu opcijas
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Videoklips [Brīdinājumu noteikumu opcijas](https://youtu.be/cpzimwOjicM) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.
+Brīdinājuma [noteikuma opcijas](https://youtu.be/cpzimwOjicM) video (parādītas iepriekš) ir iekļautas finanšu [un operāciju lapās, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ir pieejamas YouTube.
 
 
 

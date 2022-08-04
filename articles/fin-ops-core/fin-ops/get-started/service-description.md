@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847165"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124932"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Pakalpojuma apraksts finanšu un operāciju programmām
 
 [!include[banner](../includes/banner.md)]
 
-Finanšu un operāciju programmas ir uzņēmuma resursu plānošanas (Enterprise Resource Planning — ERP) programmatūra, kas ir pakalpojuma (SAAS) piedāvājumi, kas ir veidoti [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Finanšu un operāciju pakalpojums nodrošina organizācijas ar ERP funkcionalitāti, kas atbalsta to unikālās prasības un palīdz tām mainīt biznesa vides, nepieprasot pārvaldīt infrastruktūru. Finanšu un operāciju lietojumprogrammas var ietvert vienu vai vairākus no šiem risinājumu apgabaliem:
+Finanšu un operāciju programmas ir uzņēmuma resursu plānošanas (Enterprise Resource Planning — ERP) programmatūra, kas ir pakalpojuma (SAAS) piedāvājumi, kas ir veidoti [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Finanšu un operāciju pakalpojums nodrošina organizācijas ar ERP funkcionalitāti, kas atbalsta to unikālās prasības un palīdz tām mainīt biznesa vides, nepieprasot pārvaldīt infrastruktūru. Finanšu un operāciju programmas var ietvert vienu vai vairākus no šiem risinājumu apgabaliem:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -37,7 +37,7 @@ Kopā ar [biznesa inteliģences](/power-bi/fundamentals/power-bi-service-overvie
 
 Pamatojoties uz prasībām, debitori izvēlas savu risinājumu pieeju. Viņi sadarbojas ar ieviešanas partneri, lai definētu, izstrādātu un pārbaudītu to risinājumu, izmantojot rīkus un paraugpraksi, kas sniegti pakalpojumos [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Ir četri parastie scenāriji:
 
-- Standarta finanšu un operāciju programmas "ārpus lodziņa" konfigurācija (nav paplašinājumu)
+- Standarta finanšu un operāciju programmas "ārpus kastes" konfigurācija (nav paplašinājumu)
 - Finanšu un operāciju programmu konfigurācija, kas ietver vienu vai vairākus ISV risinājumus
 - Finanšu un operāciju programmu konfigurācija, kas ietver vienu vai vairākus klientam raksturīgus paplašinājumus
 - Finanšu un operāciju programmu konfigurācija, kas ietver debitoram specifisku paplašinājumu un viena vai vairāku ISV risinājumu kombināciju
@@ -61,7 +61,7 @@ Klienti strādā ar savu partneri [un Microsoft FastTrack](/dynamics365/fasttrac
 
 ### <a name="microsoft-responsibilities"></a>Microsoft atbildība
 
-Microsoft pārvalda Finanšu un operāciju pakalpojumu, izvietojot, aktīvi pārraugot un apkalpošanas debitoru kastē un ražošanas vides Microsoft SaaS abonementā. Šī pārvaldība ietver nepieciešamo sistēmas infrastruktūru izveidi, lai palaistu pakalpojumu un proaktīvi sazinātos ar klientiem par pakalpojuma darbspēju. Pienākumi ietver:
+Microsoft pārvalda finanšu un operāciju pakalpojumu, izvietojot, aktīvi pārraugot un apkalpošanas debitoru kastē un ražošanas vides Microsoft SaaS abonementā. Šī pārvaldība ietver nepieciešamo sistēmas infrastruktūru izveidi, lai palaistu pakalpojumu un proaktīvi sazinātos ar klientiem par pakalpojuma darbspēju. Pienākumi ietver:
 
 **Infrastruktūras pārvaldība**
 - Drošība un izolēšana
@@ -89,11 +89,11 @@ Sistēma Microsoft konfigurē debitora ražošanas vides, kas ir lieluma, lai ap
 
 - Pareizi sadaliniet ražošanas vides resursus, balstoties uz debitora profilēšanas informāciju [LCS abonementa novērtēšanā](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - Nepārtraukti uzraudzīt un diagnostiku ražošanas vides pakalpojumu pieejamībai
-- Sistēmas veiktspējas problēmu analizēšana un traucējummeklēšana ar Finanšu un operāciju programmām
+- Sistēmas veiktspējas problēmu analizēšana un traucējummeklēšana ar finanšu un operāciju programmām
 
 Lai nodrošinātu, ka ieviešana ir konfigurēta augstas veiktspējas vajadzībām, debitoriem ir jāveic šie uzdevumi:
 
-- Sniedziet precīzu informāciju par finanšu un operāciju ieviešanu [LCS abonementa novērtējumā](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Nodrošiniet precīzu informāciju par finanšu un operāciju ieviešanu [LCS abonementa novērtējumā](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Izveidojiet un pārbaudiet paplašinājumus veiktspējai un apjomam.
 - Atbilstoši pārbaudiet datu konfigurācijas veiktspējai.
 - Pārliecinieties, vai ir mērogojams, veicot [veiktspējas pārbaudi](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) pirms uzturēšanās.
@@ -112,12 +112,12 @@ Papildinformāciju skatiet sadaļā [Īstenošanas projekta iesniegšana](../imp
 
 ## <a name="globalization"></a>Globalizācija
 
-Finanšu un operāciju programmas ir pieejamas no vairākiem Azure reģioniem visā pasaulē. Finanšu un operāciju programmas nodrošina funkcionalitāti, lai atbalstītu dažādas valstis/reģionus un dzimtās valodas. Papildinformāciju skatiet [lokalizācijas un regulēšanas līdzekļi](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Finanšu un operāciju programmas ir apkalpotas no vairākiem Azure reģioniem visā pasaulē. Finanšu un operāciju programmas nodrošina funkcionalitāti, lai atbalstītu dažādas valstis/reģionus un dzimtās valodas. Papildinformāciju skatiet [lokalizācijas un regulēšanas līdzekļi](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Valstij/reģionam specifiski apsvērumi
 
-- Debitoriem saistīto nozari vai komerciālās organizācijās, kas veic darījumus ar entītijām Francijā, kam nepieciešami lokālie dati, jāpārskata [Finanses un operācijas Francijā](../../dev-itpro/deployment/france-local-deployment.md).
-- Debitoriem, kuriem ir operācijas Ķīnā, ir jāpārskata [Azure Ķīnā lietotā tiešsaistes](/azure/china/)[grāmata, finanšu un operācijas, kas darbojas saskaņā ar 21Vianet Ķīnā lietoto.](../../dev-itpro/deployment/china-local-deployment.md)
+- Klientiem saistīto nozari vai komerciālās organizācijās, kas veic darījumus ar entītijām Francijā, kam nepieciešami lokālie dati, jāpārskata [Finanses un operācijas Francijā](../../dev-itpro/deployment/france-local-deployment.md).
+- Debitoriem, kuriem ir operācijas Ķīnā, ir jāpārskata [Azure Ķīnā lietotā tiešsaistes](/azure/china/)[grāmata, finanses un operācijas, ko nodrošina 21Vianet Ķīnā lietotā versija](../../dev-itpro/deployment/china-local-deployment.md).
 - Debitoriem, kuriem ir operācijas Krievijā, jāpārskata [Krievijas personas datu lokalizācijas likums](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Vispārīgā datu aizsardzības regula (VDAR)
@@ -182,7 +182,7 @@ LCS nodrošina [pašapkalpošanās nodrošināšana](../../dev-itpro/deployment/
 
 ## <a name="data-backup-and-retention"></a>Datu dublēšana un saglabāšana
 
-Datu bāzes Finanšu un operāciju vidēm SaaS abonementā ir aizsargātas ar automātisku dublējumu. Ražošanas vidēs automātiskās dublējumkopijas tiek saglabātas 28 dienas, ja vien Microsoft neveic atriti. Smilškastes (pakāpe 2+) vidēs tās tiek saglabātas septiņu dienu laikā. Ražošanas vides atrite var tikt veikta, ja jebkura plānotās apkopes atjaunināšanas laikā rodas kļūme.
+Datu bāzes finanšu un operāciju vidēm SAA abonementā ir aizsargātas ar automātisku dublējumu. Ražošanas vidēs automātiskās dublējumkopijas tiek saglabātas 28 dienas, ja vien Microsoft neveic atriti. Smilškastes (pakāpe 2+) vidēs tās tiek saglabātas septiņu dienu laikā. Ražošanas vides atrite var tikt veikta, ja jebkura plānotās apkopes atjaunināšanas laikā rodas kļūme.
 
 Papildinformāciju par automātisko dublējumu skatiet sadaļā [Automatizētās dublējumkopijas — Azure SQL datu bāze & SQL pārvaldīta instance](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -264,7 +264,7 @@ Debitora nomnieka administrators var piekļūt ražošanas instancēm vai instan
 | Vides veids | Nolūks | Debitora piekļuves līmenis |
 |---|---|---|
 | **Ar ražošanu nesaistīts**<br>1. pakāpes smilškaste | Vide, kas nav ražošanas vide, ko klienti izvieto izstrādes, demonstrācijas vai apmācības nolūkos. | 1. pakāpes smilškaste (tiek saukta arī par mākonī viesotu vidi) ir debitora pārvaldīta VM, kas ir izvietots debitora Azure abonementā no LCS. Tā kā debitora Azure abonements ir VM, debitoram ir pilna administratīvā piekļuve videi, izmantojot attālo darbvirsmu. |
-| **Ar ražošanu nesaistīts**<br>2. pakāpes (vai augstāka) smilškaste | Vide, kas nav ražošanas vide, ko debitori izmanto lietotāju pieņemšanas pārbaudei, integrācijas testēšanai, apmācībai, sagatavošanai vai jebkuram citam pirms produkcijas scenārijam. | 2. pakāpe un citas rūtiņas tiek izvietotas Finanšu un operāciju SAAS abonementā. Piekļuve Azure SQL datu bāzēm, kas ir saistītas ar ne produkcijas vidi, tiek piešķirtas, izmantojot [piekļuvu laikā](../../dev-itpro/database/database-just-in-time-jit-access.md). Attālās darbvirsmas piekļuve nav pieejama. |
+| **Ar ražošanu nesaistīts**<br>2. pakāpes (vai augstāka) smilškaste | Vide, kas nav ražošanas vide, ko debitori izmanto lietotāju pieņemšanas pārbaudei, integrācijas testēšanai, apmācībai, sagatavošanai vai jebkuram citam pirms produkcijas scenārijam. | 2. pakāpe un citas rūtiņas tiek izvietotas finanšu un operāciju SaaS abonementā. Piekļuve Azure SQL datu bāzēm, kas ir saistītas ar ne produkcijas vidi, tiek piešķirtas, izmantojot [piekļuvu laikā](../../dev-itpro/database/database-just-in-time-jit-access.md). Attālās darbvirsmas piekļuve nav pieejama. |
 | **Ražošana** | Ražošanas vide tiek izvietota, kad projekts ir [gatavs sākotnējai izvietošanai](../imp-lifecycle/environment-planning.md#production-system-readiness). | Ražošanas vides tiek izvietotas SaaS abonementā. Visa piekļuve ir caur pārlūku, pakalpojuma galapunktiem vai LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft administratīvās piekļuves tiesības
@@ -296,7 +296,7 @@ Papildinformāciju par nozīmīguma līmeņiem skatiet [šajā nozīmīguma tabu
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Biznesa nepārtrauktība, izmantojot augstu pieejamību un ārkārtas atgūšanu 
 
-Korporācija Microsoft nodrošina biznesa nepārtrauktību un ārkārtas atgūšanu finanšu un operāciju programmu ražošanas instancēm Azure reģiona plašu zaudējumu gadījumā. Papildinformāciju, iekļaujot pakalpojuma atgūšanas laika mērķi (RTO) un atgūšanas punkta uzdevumu (RPO), skatiet biznesa [nepārtrauktību un ārkārtas atgūšanu](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
+Korporācija Microsoft nodrošina biznesa nepārtrauktību un ārkārtas atgūšanu finanšu un operāciju programmu ražošanas gadījumiem Azure reģiona plašu zaudējumu gadījumā. Papildinformāciju, iekļaujot pakalpojuma atgūšanas laika mērķi (RTO) un atgūšanas punkta uzdevumu (RPO), skatiet biznesa [nepārtrauktību un ārkārtas atgūšanu](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Augsta pieejamība** - HA funkcionalitāte nodrošina veidus, kā novērst dīkstāves laiku, ko izraisa viena zara kļūme Azure datu centrā. Katra pakalpojuma mākoņa arhitektūrā tiek izmantotas Azure pieejamības kopas skaitļošanas pakāpei, lai novērstu viena punkta kļūmes notikumus. HA datu bāzēm ir nodrošināts, izmantojot [Azure SQL HA līdzekļus](/azure/azure-sql/database/high-availability-sla).
 - **Parādu atgūšana** – [Azure katastrofas seku likvidēšanas līdzekļi](/azure/best-practices-availability-paired-regions) aizsargā katru pakalpojumu pret pārtraukumiem, kas plaši ietekmē visu Azure datu centru. Tālāk ir norādītas dažas no šiem līdzekļiem:
@@ -307,17 +307,17 @@ Korporācija Microsoft nodrošina biznesa nepārtrauktību un ārkārtas atgūš
 
 Ja ārkārtas atgūšana tiek izmantota, lai atkoptu debitora ražošanas instanci, Microsoft un debitors izpildīt savus [incidenta pārvaldības](service-description.md#incident-management) pienākumus.
 
-Microsoft parādu atgūšanas plāni un procedūras tiek regulāri pārbaudīti, izmantojot sistēmas un organizācijas kontroles (SOC) auditus. Šie atbilstības auditi apstiprina Microsoft DR tehnisko un procedurālo procesu, tostarp Dynamics 365 Finanšu un operāciju programmas. [SOC atbilstība](/compliance/regulatory/offering-soc-2) audita pārskati un visi citi saskaņotības pārskati ir pieejami [Microsoft drošības centra saskaņotības piedāvājumos](/compliance/regulatory/offering-home).
+Microsoft parādu atgūšanas plāni un procedūras tiek regulāri pārbaudīti, izmantojot sistēmas un organizācijas kontroles (SOC) auditus. Šie atbilstības auditi apstiprina Microsoft DR tehnisko un procedurālo procesu, tostarp Dynamics 365 finanšu un operāciju programmas. [SOC atbilstība](/compliance/regulatory/offering-soc-2) audita pārskati un visi citi saskaņotības pārskati ir pieejami [Microsoft drošības centra saskaņotības piedāvājumos](/compliance/regulatory/offering-home).
 
 ## <a name="finance-and-operations-support-offerings"></a>Finanšu un operāciju atbalsta piedāvājumi
 
-Tehniskais atbalsts ir pieejams tirgū, kur tiek piedāvāti finanšu un operāciju pakalpojumi. [Atbalsta pieredze ir](../../dev-itpro/lifecycle-services/lcs-support.md) sniegta LCS vai Finanšu un operāciju programmās. Daži piemēri:
+Tehniskais atbalsts ir pieejams tirgū, kur tiek piedāvāti finanšu un operāciju pakalpojumi. [Atbalsta pieredze ir](../../dev-itpro/lifecycle-services/lcs-support.md) sniegta LCS vai finanšu un operāciju programmās. Daži piemēri:
 
 - [Problēmu meklētājs](../../dev-itpro/lifecycle-services/issue-search-lcs.md) LCS
-- [Integrētais tehniskais atbalsts](../../dev-itpro/lifecycle-services/support-experience.md) Finanšu un operāciju programmās
+- [Integrētais tehniskais atbalsts](../../dev-itpro/lifecycle-services/support-experience.md) finanšu un operāciju programmās
 - [Mākonī nodrošināts atbalsts](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) LCS
 
-Microsoft piedāvā finanšu un operāciju debitoriem trīs atbalsta plānus: Komplektācijā, Profesionālā Tiešā un atbalsts, kas ir iekļauts abonementā. Atbalsta līmenis katrā plānā atšķiras. Šajā tabulā parādīts trīs plānu salīdzinājums.
+Microsoft piedāvā finanšu un operāciju debitoriem trīs atbalsta plānus: Toms, Profesionāl Direct un atbalsts, kas iekļauts abonementā. Atbalsta līmenis katrā plānā atšķiras. Šajā tabulā parādīts trīs plānu salīdzinājums.
 
 | Atbalsta līdzeklis | Premier | Profesionālais tiešais atbalsts | Abonements |
 |---|---|---|---|
@@ -340,7 +340,7 @@ Korporācija Microsoft ir apņēmusies izmantot pakalpojuma pieejamības koefici
 
 ## <a name="important-resources"></a>Svarīgi resursi
 
-- **[Drošības centrs](https://www.microsoft.com/trust-center)** – iegūstiet informāciju par to, kur tiek glabāti jūsu Finanšu un operāciju dati, kā arī papildu informāciju par konfidencialitāti, atbilstību un drošības procedūrām.
+- **[Drošības centrs](https://www.microsoft.com/trust-center)** – iegūstiet informāciju par to, kur tiek uzglabāti jūsu finanšu un operāciju dati, kā arī papildu informāciju par konfidencialitāti, atbilstību un drošības procedūrām.
 - **[Licencēšanas noteikumi un dokumentācija](https://www.microsoftvolumelicensing.com/)** – ātri piekļūstiet licencēšanas noteikumiem, nosacījumiem un papildu informācijai, kas ir būtiska to preču un pakalpojumu izmantošanai, kas ir licencēti ar Microsoft apjoma licencēšanas programmu palīdzību.
 - **[Licencēšanas nosacījumi](https://www.microsoft.com/licensing/product-licensing/)** – šīs lapas resursi nosaka noteikumus un nosacījumus programmatūrai un tiešsaistes pakalpojumu produktiem, ko iegādājaties ar Microsoft komerciālās licencēšanas programmu palīdzību.
 - **[Microsoft Lifecycle Policy](/lifecycle/)** — šī lapa nodrošina konsekventas un paredzamas vadlīnijas atbalsta pieejamībai visā produkta dzīves laikā.
@@ -357,7 +357,7 @@ Korporācija Microsoft ir apņēmusies izmantot pakalpojuma pieejamības koefici
 
 ### <a name="business-process-modeler-bpm"></a>[Biznesa procesu modelētājs (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-Rīks LCS, kas palīdz veikt atšķirību analīzi dotajā implementācijā, izmantojot biznesa procesa definīcijas no Amerikas produktivitātes & Kvalitātes centra (APQC), kas tiek atbalstītas Finanšu un operāciju programmās.
+Rīks LCS, kas palīdz veikt atšķirību analīzi dotajā implementācijā, izmantojot biznesa procesa definīcijas no Amerikas produktivitātes > Kvalitātes centra (APQC), kas tiek atbalstītas finanšu un operāciju programmās.
 
 ### <a name="cloud-solution-provider"></a>Mākoņa risinājumu sniedzējs
 
@@ -377,19 +377,19 @@ Jebkurā periodā, kad lietotāji nevar pieteikties vai piekļūt viņu aktīvaj
 
 ### <a name="implementation-partner"></a>Ieviešanas partneris
 
-Partneris, kuru debitors atlasa, lai pielāgotu, konfigurētu, ieviestu un pārvaldītu tā Finanšu un operāciju risinājumus.
+Partneris, ko debitors izvēlas, lai pielāgotu, konfigurētu, ieviestu un pārvaldītu tā finanšu un operāciju risinājumus.
 
 ### <a name="incident"></a>Incidents
 
-Problēma, ar kuru klienti saskaras laikā, kad tie izmanto finanšu un operāciju pakalpojumu, un ka viņi iesniedz biļeti, izmantojot LCS.
+Problēma, ar kuru klienti saskaras laikā, kad tie izmanto finanšu un operāciju pakalpojumus, un ka viņi iesniedz biļeti, izmantojot LCS.
 
 ### <a name="microsoft-customer-support-services-css"></a>Microsoft klientu atbalsta pakalpojumi (CSS)
 
-Microsoft globālā atbalsta komanda, kas ir paredzēta kvalitātes pakalpojuma sniegšanu Finanšu un operāciju programmām.
+Microsoft globālā atbalsta komanda, kas ir paredzēta kvalitātes pakalpojuma sniegšanu finanšu un operāciju programmām.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-Administratīvais portāls finanšu un operāciju programmu dzīves cikla pārvaldībai no izmēģinājuma līdz ieviešanai, lai pēc ražošanas vadības un atbalsta. Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../dev-itpro/lifecycle-services/lcs.md).
+Administratīvais portāls finanšu un operāciju programmu dzīves cikla pārvaldībai no izmēģinājuma līdz ieviešanai, pēc ražošanas vadības un atbalsta. Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Ar ražošanu nesaistīta instance
 
@@ -411,7 +411,7 @@ Finanšu un operāciju vide, ko debitors izmanto, lai pārvaldītu tā "uz vieta
 
 ### <a name="service"></a>Pakalpojums
 
-Visi galvenie pakalpojumi, kas ir iekļauti Finanšu un operāciju programmās.
+Jebkurš no pamata pakalpojumiem, kas ir iekļauts finanšu un operāciju programmās.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Pakalpojuma līmeņa līgums (SLA) Microsoft tiešsaistes pakalpojumiem
 
@@ -427,4 +427,5 @@ Struktūra, kas sistemātiski vada ieviešanu caur novērtēšanas sērijām kri
 
 ### <a name="user"></a>Lietotājs
 
-Viena persona, kas izmanto Finanšu un operāciju vides un kas ir saistīta ar debitora nomnieku.
+Viena persona, kas izmanto finanšu un operāciju vides un ir saistīta ar debitora nomnieku.
+

@@ -1,6 +1,6 @@
 ---
 title: Līdzekļu pārvaldības darbvietas izmantošana
-description: Šajā rakstā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), lai darbinātu Līdzekļu pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
+description: Šajā rakstā ir aprakstīts, kā iestatīt programmu Microsoft Dynamics 365 Supply Chain Management un finanšu un operācijas (Dynamics 365) mobilo programmu, lai darbinātu Līdzekļu pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870847"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070059"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības darbvietas izmantošana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā iestatīt mobilo programmu Microsoft Dynamics 365 Supply Chain Management un Finanses un operācijas (Dynamics 365), **lai darbinātu Līdzekļu** pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
+Šajā rakstā ir aprakstīts, kā iestatīt programmu Microsoft Dynamics 365 Supply Chain Management un finanšu un operācijas (Dynamics 365) **mobilo** programmu, lai darbinātu Līdzekļu pārvaldības mobilo darbvietu, kuru darbinieki var izmantot, lai veiktu līdzekļu pārvaldības uzdevumus.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Iestatīt uzturēsanas darbinieku lietotājus Supply Chain Management
 
@@ -41,7 +41,7 @@ Katram lietotājam, kam ir nepieciešama piekļuve **Līdzekļu pārvaldības** 
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības mobilās darbvietas publicēšana
 
-Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Finanses un operācijas (Dynamics 365), **jāpublicē līdzekļu pārvaldības mobilā darbvieta**.
+Lai līdzekļu pārvaldības līdzekļi būtu pieejami finanšu un operāciju (Dynamics 365) mobilajā programmā, **jums jāpublicē līdzekļu pārvaldības mobilā darbvieta**.
 
 1. Supply Chain Management atlasiet pogu **Iestatījumi** (ātrumkārbas simbols augšējā labajā stūrī) un izvēlnē atlasiet **Mobilā programma**.
 1. Dialoglodziņā **Pārvaldīt mobilo programmu** atrodiet elementu **Līdzekļu pārvaldība**. Ja tajā ir teksts "Metadatos - nav publicēti", darbalauks vēl nav publicēts. Ja tajā ir teksts "Metadatos - publicēts", darbvieta jau ir publicēta, un jūš varat izlaist šīs procedūras atlikušo daļu.
@@ -50,14 +50,14 @@ Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Fina
 
 1. Atlasiet elementu **Līdzekļu pārvaldība** un pēc tam rīkjoslā atlasiet **Publicēt**. Pēc dažām sekundēm jums jāsaņem paziņojums par to, ka darbvietas publicēšana ir veiksmīgi pabeigta. Turklāt elementa tekstam jāmainās uz "Metadatos — publicēts."
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Instalējiet un iestatiet mobilo programmu Finanses un operācijas (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Instalējiet un iestatiet finanšu un operāciju (Dynamics 365) mobilo programmu
 
-1. Lai mobilajā ierīcē instalētu programmu Microsoft Finanses un operācijas **(Dynamics 365),** pārejiet uz vienu no tālāk minētajiem programmu veikaliem.
+1. Lai mobilajā ierīcē instalētu Microsoft finanšu un operācijas **(Dynamics 365)** programmu, dodieties uz vienu no tālāk minētajiem programmu veikaliem.
 
     - [Google Android ierīcēm](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Apple iOS ierīcēm](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Atveriet programmu Finanses un operācijas (Dynamics 365). Jāparādās pierakstīšanās lapai. **Pieteikšanās** laukā ievadiet Supply Chain Management URL vai atlasiet neseno URL sarakstā **Jaunākās vides** un pēc tam nospiediet **Savienot**.
+1. Atveriet finanšu un operāciju (Dynamics 365) programmu. Jāparādās pierakstīšanās lapai. **Pieteikšanās** laukā ievadiet Supply Chain Management URL vai atlasiet neseno URL sarakstā **Jaunākās vides** un pēc tam nospiediet **Savienot**.
 
     ![Pierakstīšanās lapa.](media/mobile-app-sign-in.png "Pierakstīšanās lapa")
 
@@ -80,7 +80,7 @@ Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Fina
 
 Papildinformāciju par to, kā strādāt ar **Līdzekļu pārvaldības** mobilo darbvietu, skatiet sadaļā [Līdzekļu pārvaldības mobilās darbvietas izmantošana](asset-management-mobile-workspace.md).
 
-Papildinformāciju par mobilo programmu Finanses un operācijas (Dynamics 365) skatiet mobilās [programmas mājas lapā](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Papildinformāciju par finanšu un operāciju (Dynamics 365) mobilo programmu skatiet mobilās [programmas mājas lapā](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

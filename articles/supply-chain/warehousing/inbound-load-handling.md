@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855937"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070325"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām noslodzēm pirkšanas pasūtījumiem
 
@@ -56,7 +56,7 @@ Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, ku
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Reģistrēt krājuma daudzumus, kas tiek saņemti ienākošajā noslodzē
 
-Microsoft Dynamics 365 Supply Chain Management atbalsta vairākas darbības pieejas, lai reģistrētu pasūtāmo preču saņemšanu. Tāpēc sistēmu var konfigurēt, lai tā atbilstu jūsu konkrētajām biznesa prasībām. Šajā sadaļā ir aprakstīts, kā reģistrēt ienākošos krājumu daudzumus, izmantojot mobilo ierīci, kad sistēmā ir ieslēgta uzlabota noliktavas pārvaldība. Tomēr ir alternatīva plūsma, kas ir balstīta uz krājumu saņemšanas žurnāla, nevis mobilās ierīces izmantošanu. Papildinformāciju par šo plūsmu skatiet [Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management atbalsta vairākas darbības pieejas, lai reģistrētu pasūtāmo preču saņemšanu. Tāpēc sistēmu var konfigurēt, lai tā atbilstu jūsu konkrētajām biznesa prasībām. Šajā sadaļā ir aprakstīts, kā reģistrēt ienākošo krājumu daudzumus, izmantojot mobilo ierīci, kad sistēmā ir ieslēgti noliktavas vadības procesi (WMS). Tomēr ir alternatīva plūsma, kas ir balstīta uz krājumu saņemšanas žurnāla, nevis mobilās ierīces izmantošanu. Papildinformāciju par šo plūsmu skatiet sadaļā [Reģistrēt krājumus, kas ir iespējoti noliktavas vadības procesiem, izmantojot krājumu saņemšanas žurnālu](tasks/register-items-advanced-warehousing.md).
 
 Kad noliktavā vispirms ierodas ienākošā noslodze, noliktavas darbiniekiem ir jāreģistrē sūtījumā iekļautie krājumu daudzumi. Parasti tie izmanto roku skenerus. Šī darbplūsma ir pieejama tikai tad, ja sistēmā ir šādi krājumi:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856053"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066552"
 ---
 # <a name="batch-balancing"></a>Partijas līdzsvarošana
 
@@ -149,7 +149,7 @@ Palīgvielas līdzsvarotais daudzums tiek aprēķināts kā starpība starp part
 Partijas līdzsvarošanas process tiek veikts no lapas **Partijas līdzsvarošana**.
 Atlasiet **Izmaksu pārvaldība \> Partijas pasūtījumi**, un pēc tam cilnē **Process** atlasiet **Partijas līdzsvarošana**. Funkcija Partijas līdzsvarošana ir pieejama partijas pasūtījumiem ar statusu **Sākts**.
 
-Kopumā partijas līdzsvarošanu var lietot partijas pasūtījumiem, ja formulā ir vismaz viena formulas rinda, kur **Sastāvdaļas veids** ir *Aktīva*. (Šīs kārtulas izņēmumu skatiet tālāk šajā rakstā sadaļā "Partijas pasūtījumi, kas nav piemērojami partijas līdzsvarošanai".
+Kopumā partijas līdzsvarošanu var lietot partijas pasūtījumiem, ja formulā ir vismaz viena formulas rinda, kur **Sastāvdaļas veids** ir *Aktīva*. (Šīs kārtulas izņēmumu skatiet tālāk šajā rakstā sadaļā "Partijas pasūtījumi, kas nav piemērojami partijas līdzsvarošanai".)
 
 Partijas līdzsvarošanas procesu var sadalīt divos apakšprocesos:
 
@@ -165,22 +165,22 @@ Apakšprocesā Bilances partijas sastāvdaļas tiek aprēķināts ražošanas pa
 
 ### <a name="confirm-and-release-the-formula"></a>Formulas apstiprināšana un izdošana
 
-Kad sastāvdaļas daudzumi ir aprēķināti, varat apstiprināt un izdot formulu. Izdošanas process atšķiras atkarībā no tā, vai preces ir iespējotas noliktavas pārvaldības procesiem:
+Kad sastāvdaļas daudzumi ir aprēķināti, varat apstiprināt un izdot formulu. Izlaišanas process atšķiras atkarībā no tā, vai preces ir iespējotas noliktavas vadības procesiem (WMS):
 
-- ja prece ir iespējota noliktavas pārvaldības procesiem, formulas rinda tiek izdota noliktavai saskaņā ar noliktavas pārvaldības procesu principiem. Formulas rinda tiek izdota ar daudzumiem, kas atbilst līdzsvarotajiem daudzumiem, un tiek izdota konkrētām partijām, kas ir atlasītas aktīvajām sastāvdaļām.
+- Ja WMS aktivizēta prece, formulas rinda tiek nodota izpildei noliktavā saskaņā ar WMS principiem. Formulas rinda tiek izdota ar daudzumiem, kas atbilst līdzsvarotajiem daudzumiem, un tiek izdota konkrētām partijām, kas ir atlasītas aktīvajām sastāvdaļām.
 
     > [!NOTE]
     > Formulas rindas var izdot noliktavai tikai kā daļu no līdzsvarošanas procesa partijas. Lai gan materiālu izdošanai ražošanai uz noliktavu ir pieejamas citas opcijas, šīs opcijas nevar izmantot formulas rindām.
 
-- Ja prece nav iespējota noliktavas pārvaldības procesiem, ražošanas izdošanas saraksts tiek izveidots precei tikai tad, kad formula tiek apstiprināta un atbrīvota.
+- Ja prece nav iespējota WMS, apstiprinot un izdodot formulu, precei tiek izveidots ražošanas izdošanas saraksts.
 
-Vienā formulā varat kombinēt preces, kas ir iespējotas noliktavas pārvaldības procesiem, un preces, kas nav iespējotas noliktavas pārvaldības procesiem. Ja divu veidu preces ir iekļautas vienā formulā, uz noliktavu tiek izdotas preces, kas ir iespējotas noliktavas pārvaldības procesiem. Ja prece nav iespējota noliktavas pārvaldības procesiem, izdošanas saraksts tiek izveidots tikai tad, kad formula tiek apstiprināta un izdota.
+Vienā formulā varat kombinēt preces, kas ir iespējotas noliktavas pārvaldības procesiem, un preces, kas nav iespējotas noliktavas pārvaldības procesiem. Kad divi preču tipi ir ietverti vienā formulā, preces, kas ir iespējotas WMS, tiek izlaistas noliktavā. Precēm, kas nav iespējotas WMS, izdošanas saraksts tiek izveidots, apstiprinot un izdodot formulu.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Partijas pasūtījumi, kas nav lietojami partijas līdzsvarošanā
 
 Ir divi kārtulas izņēmumi, kad partijas līdzsvarošanai var lietot partijas pasūtījumus, ja formulā ir vismaz viena formulas rinda, kur **Sastāvdaļas veids** ir *Aktīva*.
 
-1. Ja formulā ir aktīvā sastāvdaļa precei, kas ir iespējota noliktavas pārvaldības procesiem, bet partijas numurs ir rezervāciju hierarhijā zemāks par vērtību Atrašanās vieta, partijas pasūtījums nav lietojams partijas līdzsvarošanā.
+1. Ja formulā ir ietverta aktīva sastāvdaļa precei, kas ir iespējota WMS, bet partijas numurs atrodas zem novietojuma rezervāciju hierarhijā, partijas pasūtījums nav piemērojams partijas līdzsvarošanai.
 1. Ja formulas mērvienība atšķiras no aktīvās sastāvdaļas krājumu mērvienības, partijas pasūtījums nav piemērojams partijas līdzsvarošanai.
 
 Partijas pasūtījums, kas nav lietojams par partijas līdzsvarošanā, tiek pakļauts parastajam partijas pasūtījumu procesa ciklam.

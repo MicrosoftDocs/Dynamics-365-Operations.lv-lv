@@ -1,6 +1,6 @@
 ---
 title: Organizācijas hierarhija Dataverse
-description: Šajā rakstā aprakstīta organizācijas datu integrācija starp Finanšu un operāciju programmām un Dataverse.
+description: Šajā rakstā aprakstīta organizācijas datu integrācija starp finanšu un operāciju programmām un Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884737"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112024"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizācijas hierarhija Dataverse
 
@@ -28,11 +28,11 @@ Lai gan Dataverse nav organizācijas hierarhijas koncepta, tai ir daži brīvāk
 
 ## <a name="data-flow"></a>Datu plūsmas
 
-Biznesa ekosistēmai, kas sastāv no programmām Finance and Operations un Dataverse arī turpmāk būs organizācijas hierarhija. Šī organizācijas hierarhija ir veidota, pamatojoties uz Finance and Operations programmām, bet tā ir pakļauta Dataverse informatīviem un paplašināmības mērķiem. Nākamajā attēlā ir parādīta organizācijas hierarhijas informācija, kas ir atklāta Dataverse kā vienvirziena datu plūsma no Finance and Operations programmām uz Dataverse.
+Biznesa izmaiņas, kas sastāv no finanšu un operāciju Dataverse programmām un turpinās organizācijas hierarhiju. Šī organizācijas hierarhija ir veidota uz finanšu un operāciju programmām, bet tā Dataverse ir atklāta informatīvās un paplašināmības nolūkos. Šajā attēlā redzama organizācijas hierarhijas informācija, kas Dataverse ir atklāta kā vienvirziena datu plūsma no finanšu un operāciju programmām uz Dataverse.
 
 ![Arhitektūras attēls.](media/dual-write-data-flow.png)
 
-Organizācijas hierarhijas tabulas kartes ir pieejamas datu vienvirziena sinhronizācijai no Finanšu un operāciju programmām uz Dataverse.
+Organizācijas hierarhijas tabulas kartes ir pieejamas datu vienvirziena sinhronizācijai no finanšu un operāciju programmām uz Dataverse.
 
 ## <a name="templates"></a>Veidnes
 
@@ -52,3 +52,4 @@ Finance and Operations programmas | Customer engagement programmas     | Aprakst
 Iekšējās organizācijas informācija Dataverse tiek iegūta no divām tabulām — **Pārvaldības struktūrvienība** un **Juridiska persona**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

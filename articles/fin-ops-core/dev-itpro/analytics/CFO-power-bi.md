@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1ea8f12102cc2fac1948027f7c15d45bf5d1b15d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e98b9d772c3b42162566fe666c3eeba5d1fb2392
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881556"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108992"
 ---
 # <a name="cfo-overview-power-bi-content"></a>Power BI satura pakotne CFO apskats
 
 [!include [banner](../includes/banner.md)] 
 
-Šajā rakstā ir aprakstīts **CFO pārskata** Microsoft Power BI saturs. Šī Power BI satura pakotne ir paredzēta Microsoft Dynamics 365 for Finance and Operations versijas 7.2 lietotājiem. Ja izmantojat versiju 7.3 vai jaunāku versiju, lūdzu, skatiet šeit: [Finanšu ieskati](financial-insights.md).
+Šajā rakstā ir aprakstīts **CFO pārskata** Microsoft Power BI saturs. Šis Power BI saturs attiecas uz tiem, kuri Microsoft Dynamics lieto 365 Finanšu versiju 7.2. Ja izmantojat versiju 7.3 vai jaunāku versiju, lūdzu, skatiet šeit: [Finanšu ieskati](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 
@@ -44,3 +44,4 @@ Tālāk esošajā tabulā ir norādītas Power BI satura pakotnes, no kurām ir 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

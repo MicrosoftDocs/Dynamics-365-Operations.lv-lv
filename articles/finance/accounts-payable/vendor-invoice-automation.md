@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070700"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Rēķinu automatizācija skenētajiem dokumentiem
 
@@ -58,7 +58,7 @@ Datu pakotne ir darba vienība, kas ir jānosūta, lai varētu izveidot rēķina
 
 Kreditora rēķina dokumenta pielikums ir jauns datu elements, kas ir ieviests kā daļa no šī līdzekļa. Kreditora rēķina virsraksta elements ir modificēts tā, lai tas atbalstītu pielikumus. Kreditora rēķina rindas elements nav modificēts šim līdzeklim.
 
-Detalizētu informāciju par datu pakotnēm skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Papildinformāciju par to, kā izveidot datu pakotnes, izmantojot datu pārvaldības darbvietu, [skatiet sadaļā Datu pakotņu apstrāde un patērēšana dynamics 365 finanšu un operāciju programmu risinājumā](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Detalizētu informāciju par datu pakotnēm skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Papildinformāciju par to, kā izveidot datu pakotnes, izmantojot datu pārvaldības darbvietu, [skatiet Sadaļā Datu pakotņu apstrāde un patērēšana dynamics 365 finanšu un operāciju programmu risinājumā](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Lai ātri ģenerētu testa datus, kas ietver rēķinus un pielikumus, veiciet tālāk norādītās darbības.
 
@@ -86,7 +86,7 @@ Rēķini, kas tiek importēti, izmantojot datu pakotnes, ar juridisko personu, k
 
 ## <a name="exception-processing"></a>Izņēmumu apstrāde
 
-Scenārijos, kuros kreditora rēķini programmatūrā Finance and Operations nonāk, izmantojot integrāciju, ir nepieciešams viegls veids, kā kreditoru grupas dalībniekam apstrādāt izņēmumus vai neizdevušos rēķinus un izveidot gaidošos rēķinus no rēķiniem, kas neizdevās. Šī izņēmumu apstrāde kreditoru rēķiniem tagad ir daļa no Finance and Operations.
+Scenārijos, kuros kreditoru rēķini tiek ņemti vērā finansēs un operācijās, izmantojot integrāciju, kreditoru grupas dalībniekam ir jābūt viegls veids, kā apstrādāt izņēmumus vai neizdevušos rēķinus un izveidot neizlemto rēķinus, kas nav izrakstīti. Šī izņēmuma apstrāde kreditoru rēķiniem tagad ir daļa no finansēm un operācijām.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Piegādātāju rēķini, kuriem neizdevās importēt saraksta lapu
 
@@ -225,3 +225,4 @@ Pēc noklusējuma, ja lietotāja loma sniedz rediģēšanas tiesības jebkurā l
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

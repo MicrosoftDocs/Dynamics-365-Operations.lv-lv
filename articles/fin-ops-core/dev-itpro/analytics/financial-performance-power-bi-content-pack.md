@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910420"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109556"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šis PowerBI.com risinājums ir novecojis, kā dokumentēts sadaļā [Noņemti vai novecojuši līdzekļi programmā Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šis PowerBI.com ir novecojis kā dokumentēts [noņemtos vai novecojušus finanšu un operāciju līdzekļus](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Šajā rakstā aprakstīts finanšu **veiktspējas** PowerBI.com risinājums. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
+Šajā rakstā ir aprakstīts **finanšu veiktspējas** PowerBI.com risinājums. Tajā ir aprakstīts informācijas panelis un ietvertie pārskati, kā arī sniegta informācija par risinājuma izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="main-account-setup"></a>Galvenā konta iestatīšana
 Tā kā organizācijas vēlas, lai saistību un ieņēmumu summas pārskatos tiktu rādītas kā pozitīvas summas, galveno kontu iestatīšana ir svarīga. Lai šie galvenie konti tiktu rādīti kā pozitīvas summas, galvenā konta tips ir jāiestata uz **Saistība** vai **Ieņēmumi**. Ja tiek izmantoti šie kontu tipi un tiek veikta pārskatu izveide, izmantojot Power BI, zīmes tiek mainītas uz pretējām un summas tiek rādītas kā pozitīvas vērtības.

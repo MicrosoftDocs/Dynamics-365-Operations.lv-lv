@@ -1,6 +1,6 @@
 ---
 title: Uzņēmuma koncepcija pakalpojumā Dataverse
-description: Šajā rakstā ir aprakstīta uzņēmuma datu integrācija starp Finansēm un Operācijām un Dataverse.
+description: Šajā rakstā ir aprakstīta uzņēmuma datu integrācija starp finansēm un operācijām Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,29 +9,31 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873183"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205942"
 ---
-# <a name="company-concept-in-dataverse"></a>Uzņēmuma koncepts Dataverse
+# <a name="company-concept-in-dataverse"></a>Uzņēmuma koncepcija pakalpojumā Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
 
 
 
-Programmā Finance and Operations koncepts *uzņēmums* ir gan juridiska konstrukcija, gan biznesa konstrukcija. Tā ir arī datu drošības un redzamības robeža. Lietotāji vienmēr strādā viena uzņēmuma kontekstā, un lielāko daļu datu izslēdz uzņēmums.
+Finansēs un operācijās uzņēmuma koncepcija ir gan *juridiska* konstruēšanas, gan uzņēmuma konstruēšanas darbība. Tā ir arī datu drošības un redzamības robeža. Lietotāji vienmēr strādā viena uzņēmuma kontekstā, un lielāko daļu datu izslēdz uzņēmums.
 
 Dataverse nav līdzvērtīga koncepta. Tuvākais koncepts ir *biznesa vienība*, kas galvenokārt ir lietotāja datu drošības un redzamības robeža. Šim konceptam nav tādas pašas juridiskās vai biznesa ietekmes kā uzņēmuma konceptam.
 
 Tā kā biznesa vienība un uzņēmums nav līdzvērtīgi koncepti, nav iespējams piespiest vienu pret vienu (1:1) kartēšanu starp tiem Dataverse integrācijas nolūkā. Tomēr, tā kā lietotājiem pēc noklusējuma ir jābūt iespējai skatīt tās pašas rindas programmā un Dataverse, Microsoft ir ieviesis jaunu tabulu Dataverse ar nosaukumu cdm\_Uzņēmums. Šī tabula ir līdzvērtīga uzņēmuma tabulai programmā. Lai palīdzētu garantēt, ka rindu redzamība ir līdzvērtīga starp programmu un Dataverse standarta komplektācijā, mēs iesakām šādu iestatīšanu datiem Dataverse:
 
 + Katrai finanšu un operāciju uzņēmuma rindai, kas ir aktivizēta duālā rakstīšanai, tiek izveidota saistītā CDM\_ uzņēmuma rinda.
-+ Kad CDM\_Uzņēmums rinda ir izveidota un ir iespējota duālajam ierakstam, tiek izveidota noklusējuma biznesa vienība ar tādu pašu nosaukumu. Lai gan noklusējuma grupa šim biznesa vienībai tiek izveidota automātiski, biznesa vienība netiek izmantota.
-+ Tiek izveidota atsevišķa īpašnieka grupa ar tādu pašu nosaukumu. Arī tā ir saistīta ar biznesa vienību.
+
++ Kad CDM\_Uzņēmums rinda ir izveidota un ir iespējota duālajam ierakstam, tiek izveidota noklusējuma biznesa vienība ar tādu pašu nosaukumu. Kaut arī noklusējuma īpašnieka komanda tiek automātiski izveidota biznesa vienībai, biznesa vienība netiek izmantota.
++ Tiek izveidota atsevišķa īpašnieka komanda ar tādu pašu nosaukumu kā Dual Write sufikss. Arī tā ir saistīta ar biznesa vienību.
+
 + Pēc noklusējuma jebkuras rindas, kas tiek izveidota un duāli ierakstīta Dataverse, īpašnieks tiek iestatīts uz grupu "DW Owner", kas ir saistīta ar attiecīgo biznesa vienību.
 
 Nākamajos attēlos ir parādīts šīs datu iestatīšanas piemērs Dataverse.
@@ -43,7 +45,7 @@ Nākamajos attēlos ir parādīts šīs datu iestatīšanas piemērs Dataverse.
 + "Pārdošanas vadītāja" loma ir piešķirta "USMF pārdošanas" grupas dalībniekiem.
 + Lietotāji, kuriem ir "Pārdošanas vadītāja" loma, var piekļūt visām konta rindām, kas ir tās pašas biznesa vienības dalībnieki, kuras dalībnieki ir šie lietotāji.
 + "USMF pārdošanas" grupa ir saistīta ar iepriekš minēto USMF biznesa vienību.
-+ Tāpēc grupas USMF pārdošanas dalībnieki var redzēt jebkuru kontu, kas pieder "USMF DW" lietotājam, kas būtu no uzņēmuma tabulas USMF Finansēs un operācijās.
++ Tāpēc grupas USMF pārdošanas dalībnieki var redzēt jebkuru kontu, kas pieder "USMF DW" lietotājam, kurš būtu no uzņēmuma tabulas USMF finansēs un operācijās.
 
 ![Kā grupas var tikt izmantotas.](media/dual-write-company-2.png)
 

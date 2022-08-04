@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890063"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124716"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -38,7 +38,7 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 Finanšu un operāciju programmās lietotāji var redzēt kopsummas režģu skaitlisko kolonnu apakšdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
 
 ### <a name="showing-the-grid-footer"></a>Režģa kājenes parādīšana
-Katras finanšu un operāciju programmu tabulas režģa apakšā ir kājenes apgabals. Kājenē var tikt parādīta vērtīga informācija, kas saistīta ar datiem, kas parādās režģī. Tālāk ir sniegti daži šādas informācijas piemēri:
+Katras tabulas režģa apakšā ir kājenes apgabals finanšu un operāciju programmās. Kājenē var tikt parādīta vērtīga informācija, kas saistīta ar datiem, kas parādās režģī. Tālāk ir sniegti daži šādas informācijas piemēri:
 
 - Atlasīto rindu skaits tabulā (ja ir atlasīts vairāk nekā viens ieraksts)
 - Kopsummas, kas atrodas konfigurēto skaitlisko kolonnu lejasdaļā
@@ -86,7 +86,7 @@ Lai atbalstītu šo jauno uzvedību, rindas statusam ir pievienota jauna kolonna
 Kad lietotāji ievada datus pirms servera apstrādes vietas, tie var sagaidīt dažas datu ievades pieredzes pasliktinājumus, piemēram, informācijas trūkumu, kontroles līmeņa pārbaudi un noklusējuma vērtību ievadi. Lietotāji, kuriem nepieciešams nolaižamais saraksts, lai atrastu vērtību, tiek mudināti sagaidīt, kad serveris nokļūs pašreizējā rindā. Kontroles līmeņa validācija un noklusēto vērtību ievade arī notiks, kad serveris apstrādā šo rindu.
 
 ### <a name="pasting-from-excel"></a>Ielīmēšana no Excel
-Lietotāji vienmēr ir spēt eksportēt datus no finanšu un operāciju programmu režģiem, Microsoft Excel izmantojot **mehānismu Eksportēt uz Excel**. Tomēr iespēja ievadīt datus pirms sistēmas ļauj jaunajam režģim atbalstīt tabulu kopēšanu no Excel un to tiešo ielīmēt režģī Finanšu un operāciju programmās. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
+Lietotāji vienmēr ir spēt eksportēt datus no finanšu un operāciju programmu režģiem Microsoft Excel, izmantojot **mehānismu Eksportēt uz Excel**. Tomēr spēja ievadīt datus pirms sistēmas ļauj jaunajam režģim atbalstīt tabulu kopēšanu no Excel un to tiešo ielīmēt finanšu un operāciju programmu režģos. Režģa šūna, no kuras tiek sākta ielīmēšanas darbība, nosaka, kur kopēto tabulu sāk ielīmēt. Režģa saturs tiek pārrakstīts ar kopētās tabulas saturu, izņemot divos gadījumos:
 
 - Ja kolonnu skaits kopētajā tabulā pārsniedz kolonnu skaitu, kas paliek režģī, sākot no ielīmēšanas vietas, lietotājam tiek paziņots, ka papildu kolonnas ir ignorētas. 
 - Ja rindu skaits kopētajā tabulā pārsniedz rindu skaitu režģī, sākot no ielīmēšanas vietas, esošās šūnas tiek pārrakstītas ar ielīmēto saturu, un visas papildu rindas no kopētās tabulas tiek iespraustas kā jaunas rindas režģa apakšā. 
@@ -97,7 +97,7 @@ Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt 
 Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabulas datu grupēšana
-Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Microsoft Excel Lai gan to var izdarīt, eksportējot datus uz un izmantojot koptabulas, **grupēšanas** režģu funkcija, kas ir atkarīga no jaunās režģa kontroles funkcijas, ļauj lietotājiem organizēt savus tabulas datus ļoti svarīgiem veidiem Finanšu un operāciju programmās. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
+Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Microsoft Excel Lai gan to var izdarīt, eksportējot datus uz un izmantojot rakurstabulas, **grupēšanas režģu funkcija, kas ir atkarīga no jaunās režģa kontroles funkcijas, ļauj lietotājiem organizēt savus tabulas** datus diezgan veidos finanšu un operāciju programmās. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
 
 Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna kolonna **Grupēt pēc** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu.
 
@@ -168,7 +168,7 @@ Ja esat izvēlējies atsevišķu lapu, lai neizmantotu jauno režģi, iespējams
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Izstrādātājs] Atsevišķu režģu izvēle ārpus ierakstīšanas iespējas pirms sistēmas iespējas
 Daži scenāriji ir radušies, kas *neaizdod* sevi darbam, izmantojot ierakstot pirms režģa sistēmas iespējas. (Piemēram, daži kodi, kas tiek izraisīti, kad rinda ir validēta, izraisa datu avota izpēti, un tādējādi izpēte var sabojāt nesaistītos rediģējumus esošajās rindās.) Ja jūsu organizācija atklāj šādu scenāriju, ir pieejams API, kas ļauj izstrādātājam izvēlēties atsevišķu režģi no asinhronās rindu apstiprināšanas un atgriezties pie mantojuma uzvedības.
 
-Ja asinhronā rindas apstiprināšana režģī ir atspējota, lietotāji nevar izveidot jaunu rindu vai pārvietot režģī uz citu esošo rindu, kamēr pašreizējā rindā ir validācijas problēmas. Šīs darbības rezultātā tabulas no Excel nevar ielīmēt režģī Finanses un Operācijas.
+Ja asinhronā rindas apstiprināšana režģī ir atspējota, lietotāji nevar izveidot jaunu rindu vai pārvietot režģī uz citu esošo rindu, kamēr pašreizējā rindā ir validācijas problēmas. Šīs darbības rezultātā tabulas no Excel nevar ielīmēt finanšu un operāciju režģī.
 
 Lai izvēlētos atsevišķu režģi no asinhronās rindu apstiprināšanas, `super()` pievienojiet formas metodē šādu `run()` izsaukumu.
 
@@ -200,3 +200,4 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

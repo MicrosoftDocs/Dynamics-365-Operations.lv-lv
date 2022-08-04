@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849936"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151038"
 ---
 # <a name="purchase-order-posting"></a>Pirkšanas pasūtījuma grāmatošana
 
@@ -91,12 +91,12 @@ Tālāk sniegtajā tabulā ir norādīti noklusējuma grāmatošanas tipu piemē
 > Galvenie konti un galveno kontu nosaukumi ir tikai ieteikumi. Ieteicams<!--note from editor: Via Writing Style Guide.--> , ka strādājat ar savu grāmatvedi, lai noteiktu biznesa vajadzībām labāko konfigurāciju.
 
 
-| Grāmatošanas tips | Galvenā konta piemērs | Galvenā konta nosaukuma piemērs | Konta veids | Vai debets/kredīts? | Dzēšanas konts | P/F | Izpildiet | Apraksts |
+| Grāmatošanas tips | Galvenā konta piemērs | Galvenā konta nosaukuma piemērs | Konta veids | Vai debets/kredīts? | Dzēšanas konts | P/F | Sekot | Apraksts |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Saņemto pirkto materiālu izmaksas | 140100</br>140101 | Materiālu krājumi</br>Piegādātie materiāli, kas nav izrakstīti rēķinā | Līdzeklis | Debets | Jā | P | Rēķinā iekļauto pirkto materiālu izmaksas | Tiek izmantots, kad tiek grāmatota pirkšanas pasūtījuma produktu ieejas plūsma. Korespondējošais konts ir Pirkšanas izdevumi, kas nav rēķinos. Šī konta summa tiek anulēta, grāmatojot pirkšanas pasūtījuma rēķinu. |
+| Saņemto pirkto materiālu izmaksas | 140100</br>140101 | Materiālu krājumi</br>Piegādātie materiāli, kas nav izrakstīti rēķinā | Līdzeklis | Debets | Jā | P | Rēķinā iekļauto pirkto materiālu izmaksas | Tiek izmantots, kad pirkšanas pasūtījuma produktu ieejas plūsma ir iegrāmatota, korespondējošais konts ir Pirkšanas izdevumi, kas nav iegrāmatoti. Šī konta summa tiek anulēta, grāmatojot pirkšanas pasūtījuma rēķinu. |
 | Pirkšanas izdevumi, kas nav saistīti ar rēķiniem | 600180 | Materiālu ieejas plūsmas | Izdevumi | Debets | Jā | P | |Tiek izmantots, kad tiek grāmatota pirkšanas pasūtījuma produktu ieejas plūsma. Ieejas plūsmai tiek izveidoti divi dokumenti, lai atsekotu pirkšanas cenu novirzes, kad tiek izmantotas standarta izmaksas. Konta korespondējošais konts pirmajā dokumentā ir Pirkšanas uzkrājums. Otra dokumenta korespondējošais konts ir saņemto iegādāto materiālu izmaksu un pirkšanas cenas noviržu kontu summa. Šajā kontā grāmatotās summas tiek apgrieztas, grāmatojot pirkšanas pasūtījuma rēķinu. |
 | Rēķinā iekļauto pirkto materiālu izmaksas | 140100 | Materiālu krājumi | Līdzeklis | Debets | Nē | F  |Saņemto pirkto materiālu izmaksas | Tiek izmantots, kad ir iegrāmatots pirkšanas pasūtījuma rēķins. Korespondējošais konts ir preces pirkšanas izdevumi. Šis konts parāda krājumu jūsu bilancē. Šis konts parasti ir tas pats konts, ko izmanto piegādāto vienību izmaksām un pārdošanas pasūtījumam izrakstīto vienību izmaksām. |
-| Produkta pirkšanas izdevumi | 600180 | Materiālu ieejas plūsma | Izdevumi | Kredīts | Nē | F  | |Tiek izmantots, kad ir iegrāmatots pirkšanas pasūtījuma rēķins. Korespondējošais konts ir iegādāto materiālu izmaksas. Šis konts parāda krājumu jūsu bilancē. |
+| Produkta pirkšanas izdevumi | 600180 | Materiālu ieejas plūsma | Izdevumi | Kredīts | Jā | F  | |Tiek izmantots, kad ir iegrāmatots pirkšanas pasūtījuma rēķins. Rēķinam tiek izveidoti divi dokumenti, lai sekotu līdzi pirkšanas cenu noviržu izsekošanai, kad tiek izmantotas standarta izmaksas. Korespondējošais konts ir pirkšanas izdevumi, nerēķinots konts, kas tiek izmantots ieejas plūsmas grāmatošanai un atgriezts rēķina grāmatošanas laikā. Parāda izmaksas par krājumiem, kas iegādāti, izrakstot rēķinu, kas nav atspoguļots krājumu kontā bilancē. Šī ir pirkšanas cenas novirzes peļņas un zaudējumu grāmatošana, kuru visbiežāk var redzēt standarta izmaksu krājumu pirkumos.|
 | Fiksētas saņemtā krājuma cenas peļņa (Pirkšana, fiksētas saņemtā krājuma cenas peļņa*) | 510310 | Pirkšanas cenas novirze | Izdevumi | Kredīts | Nē | F | Fiksētas saņemtā krājuma cenas zaudējumi | Tiek izmantots, kad pirkšanas pasūtījuma rēķins tiek grāmatots, un rēķinā iekļautā cena atšķiras no krājuma noklusētajām izmaksām. Šo kontu izmanto, kad starpība ir augstāka. Korespondējošais konts ir fiksētas saņemtā krājuma cenas korespondējošais konts. |
 | Fiksētas saņemtā krājuma cenas zaudējumi (Pirkšana, fiksētas saņemtā krājuma cenas zaudējumi*) | 510310 | Pirkšanas cenas novirze | Izdevumi | Debets | Nē | F | Fiksētas saņemtā krājuma cenas peļņa | Tiek izmantots, kad pirkšanas pasūtījuma rēķins tiek grāmatots, un rēķinā iekļautā cena atšķiras no krājuma noklusētajām izmaksām. Šo kontu izmanto, ja starpība ir zemāka. Korespondējošais konts ir fiksētas saņemtā krājuma cenas korespondējošais konts. |
 | Fiksētas saņemtā krājuma cenas korespondējošais konts (Pirkšana, fiksētas saņemtā krājuma cenas korespondējošais*) | 140900 | Krājumu novirze | Līdzeklis | Abi | Nē | F  | |Tiek izmantots, kad pirkšanas pasūtījuma rēķins tiek grāmatots, un rēķinā iekļautā cena atšķiras no krājuma noklusētajām izmaksām. Šis konts ir korespondējošais konts fiksētās saņemšanas cenas peļņas un zaudējumu kontiem. |

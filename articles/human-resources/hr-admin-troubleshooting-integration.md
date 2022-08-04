@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879284"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067622"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
@@ -88,7 +88,7 @@ Izņēmumu apstrādei nav nepieciešama īpaša iestatīšana. Datu integrētāj
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Vai var iestatīt divvirzienu integrāciju?
 
-Nē, integrācija šobrīd ir vienvirziena (Cilvēkresursi- Finanses un operācijas). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
+Nē, integrācija šobrīd ir vienvirziena (Cilvēkresursi- finanses un operācijas). Tomēr ir pieejama noklusējuma veidne datu sūtīšanai no Human Resources uz Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Vai var atļaut ieraksta dzēšanu integrācijas ietvaros?
 
@@ -118,7 +118,7 @@ Minētajai kļūdai var būt šādi iemesli:
 
 - Datu pārsūtīšanas dēļ avotā (Dataverse) tika izgūti dublēti ieraksti.
 
-- Datu pārsūtīšanai ir nulles vērtības laukiem, kas ir nepieciešami risinājumā Finance and Operations. Pārbaudiet, vai dati, kas atrodas pakalpojumā Dataverse, atbilst Finance and Operations prasībām.
+- Datu pārsūtīšanas laukiem, kas ir nepieciešami finansēs un operācijās, ir nulles vērtības. Pārbaudiet, vai dati, kas atrodas pakalpojumā Dataverse, atbilst Finance and Operations prasībām.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ja radušās izpildes kļūdas un darbinieka ID netika sinhronizēts, kā atrast vēsturē darbu, kurā ir nesekmīgi apstrādātais darbinieka ieraksts?
 
@@ -150,7 +150,7 @@ Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Dataverse, p�
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Manu darbinieku adreses ir nepareizas pēc tam, kad tās ir importētas risinājumā Finance. Ko darīt?
 
-Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan Human Resources, gan Finance. Numuru sērijai ir jābūt unikālai abās pusēs, lai nebūtu adrešu sadursmju, integrējot datus no Dataverse uz Finance and Operations.
+Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan Human Resources, gan Finance. Numuru secībai abās pusēs Dataverse ir jābūt unikālai, tāpēc, integrējot datus no finansēm un operācijām, nav adreses griešanas.
 
 Veicot Human Resources ieviešanu, pārbaudiet, vai Human Resources un Finance nav vienādas numuru sērijas. Pārbaudiet, vai visas numuru sērijas nav identiskas, ja dati tiek uzturēti abās sistēmās.
 
@@ -184,3 +184,4 @@ Atsvaidziniet datu elementus risinājumā Finance, atverot sadaļu **Datu pārva
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

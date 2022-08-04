@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853079"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070564"
 ---
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
@@ -42,7 +42,11 @@ Mainīgās atlīdzības summas saviem darbiniekiem var aprēķināt, ņemot vēr
 Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. **Izmaksas nosacījumos** tiek aprakstīts, kā laika gaitā jāsadala mainīgās atlīdzības. Piemēram, izmaksu nosacījumā var būt norādīts, ka darbinieks saņems 25 procentus no kopējās atlīdzības katru gadu četru gadu laikā. Izmaksas nosacījumiem ir tikai informatīvs nolūks.
 
 ## <a name="variable-compensation-plans"></a>Atlīdzības mainīgās daļas struktūras
-**Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. Jums jāiestata arī aprēķina metode.
+**Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. 
+
+Parametrs **Ierobežot piekļuvi atlasītajām lomām** ierobežo piekļuvi atlīdzības plānam atlasītajām drošības lomām, kas ir piešķirtas šim plānam personāla vadībai. Piemēram, kad izveidojat atlīdzības plānus, kas ir vadītājam un nedrīkst būt redzami visām HR specifiskajām lomām, varat izmantot šo parametru, lai ierobežotu piekļuvi šiem kompensācijas plāniem. 
+
+Jums jāiestata arī aprēķina metode.
 
 -   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
 -   **Salikts** — atlīdzības summa tiek aprēķināta katrai unikalajai fiksētas atlīdzības izmaksu likmei, kas procesa notikumā darbiniekam bija iestatita no perioda sākuma datuma līdz perioda beigu datumam. Pēc tam likmes tiek saskaitītas, lai noteiktu gala atlīdzību. Piemēram, cikla laikā darbinieks tika pārcelts citā amatā, kam paredzēta citāda izmaksu likme. Šajā gadījumā mainīgā atlīdzība tiek pielāgota atbilstoši laika periodam, kad darbiniekam bija paredzēta katra izmaksu likme.

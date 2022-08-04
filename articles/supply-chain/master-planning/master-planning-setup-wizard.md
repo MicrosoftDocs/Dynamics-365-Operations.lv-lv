@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53dfd02ac2f42fd680eb71509dbd41214160f19
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875338"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066024"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
@@ -31,7 +31,7 @@ ms.locfileid: "8875338"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-Videoklips [Galvenais plānošanas iestatīšanas vednis programmā Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.
+Vispārējās [plānošanas iestatīšanas ceļvedis Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) video (parādīts iepriekš) ir iekļauts finanšu un operāciju [iestatījumos, kas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) pieejams YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Jūsu uzņēmuma specifiskās prasības

@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f97244f48cdfde6f9e91a459b123068480b9c80b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 81c20432a3094ef0fe3013c0867044ef3014adcb
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891123"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124624"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Mācību katalogs biznesa lēmumu pieņēmējiem, ņemot vērā Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 |---------|-------------|--------|--------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
-| [Sākt ar Finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis jūsu karjerai darbā ar Finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti ar jebkādu vēlamo lomu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Kurss MB-900T01-A: Dynamics 365 pamati](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kurss jūs iepazīstinās ar Dynamics 365 funkcionalitāti un biznesa vērtību. Kurss ietvers Dynamics 365 programmas, Power Platform, mākoņu koncepcijas, drošības modeli un licencēšanas apsvērumus. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Sākt darbu ar Līdzekļu pārvaldību Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Līdzekļu pārvaldība ir modulis līdzekļu un uzturēšanas darbu pārvaldībai programmā Dynamics 365 Supply Chain Management. Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem. Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |
 | [Sākt darbu ar Tehnisko izmaiņu pārvaldības pievienojumprogrammu Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management pilnvaro darbiniekus un organizācijas ar iespēju iegūt vienotu skatījumu par krājumiem, noliktavu, ražošanu, servisu un loģistiku un prognožu analīzi, kas pārvērš datus, lai atbalstītu labākos stratēģiskos lēmumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 2 stundas |

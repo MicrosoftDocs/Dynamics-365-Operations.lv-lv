@@ -2,19 +2,19 @@
 title: Commerce katalogu izveide B2B vietnēm
 description: Šajā rakstā ir aprakstīts, kā izveidot Commerce katalogus "bizness-biznesam Microsoft Dynamics 365 Commerce " (B2B).
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 7d4ed3e2a76924c2c3c0ba55e21ba648e8da7b76
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027036"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136831"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Commerce katalogu izveide B2B vietnēm
 
@@ -25,10 +25,13 @@ ms.locfileid: "9027036"
 > [!NOTE]
 > Šis raksts attiecas uz Dynamics 365 Commerce versiju 10.0.27 un vēlākiem laidieniem.
 
-Varat izmantot Commerce katalogus, lai identificētu preces, ko vēlaties piedāvāt savā B2B tiešsaistes veikalos. Izveidojot katalogu, jūs identificējiet tiešsaistes veikalus, kuros preces tiek piedāvātas, pievienojiet preces, kuras vēlaties iekļaut, un pastipriniet preču piedāvājumus, pievienojot detalizētu informāciju par preču mazumtirdzniecību. Katram B2B tiešsaistes veikalam var izveidot vairākus katalogus.
+Varat izmantot Commerce katalogus, lai identificētu preces, ko vēlaties piedāvāt savā B2B tiešsaistes veikalos. Izveidojot katalogu, jūs identificējiet tiešsaistes veikalus, kuros preces tiek piedāvātas, pievienojiet preces, kuras vēlaties iekļaut, un pastipriniet preču piedāvājumus, pievienojot detalizētu informāciju par preču mazumtirdzniecību. Katram B2B tiešsaistes veikalam var izveidot vairākus katalogus, kā parādīts šajā ilustrācijā.
+
+![Commerce preču katalogu priekšskatījums.](./media/Commerce_Catalogs.png)
 
 Commerce preču katalogi ļauj definēt šādu informāciju:
 
+- **Kataloga tips** - konfigurējiet vērtību kā **B2B**. Varat definēt B2B katalogam raksturīgos rekvizītus, piemēram, navigācijas hierarhiju, debitoru hierarhiju un kataloga atribūtu metadatus. 
 - **Katalogam raksturīga navigācijas hierarhija** — organizācijas var izveidot atšķirīgu kategorijas struktūru to konkrētam katalogam.
 - **Katalogam raksturīgi atribūtu metadati** — atribūti satur detalizētu informāciju par preci. Piešķirot atribūtus navigācijas hierarhijas kategorijai, šo atribūtu vērtības var definēt tai kategorijai piešķirto preču līmenī. Tad organizācijas var veikt šos uzdevumus:
 
@@ -41,11 +44,14 @@ Commerce preču katalogi ļauj definēt šādu informāciju:
 - **Cenu grupas** - jūs varat konfigurēt cenas un veicināšanas pasākumi, kas ir specifiski noteiktam katalogam. Šī iespēja ir galvenais iemesls kataloga definēšana B2B kanālam. Kataloga cenu grupas ļauj organizācijām padarīt produktus pieejamus to paredzētajām B2B organizācijām un piemērot savas vēlamās cenu noteikšanas un atlaides. B2B debitori, kuri pasūta no konfigurēta kataloga, var gūt labumu no īpašām cenām un veicināšanas pasākumiem pēc pieteikšanās Commerce B2B vietnē. Lai konfigurētu katalogam raksturīgās cenas, **atlasiet cenu** grupas **cilnē Katalogi**, lai saistītu vienu vai vairākas cenu grupas ar katalogu. Visi tirdzniecības līgumi, cenu korekcijas žurnāli un papildu atlaides, kas ir saistītas ar to pašu cenu grupu, tiks piemērotas, kad debitori ir pasūtīti no šī kataloga. (Papildu atlaides ietver sliekšņa, daudzuma un komplekta atlaides.) Papildinformāciju par cenu grupām skatiet sadaļā [Cenu grupas](price-management.md#price-groups).
 
 > [!NOTE]
-> Šī funkcija ir pieejama kā versijas Dynamics 365 Commerce 10.0.27 izlaide. Lai konfigurētu tādas katalogam specifiskas konfigurācijas kā navigācijas hierarhija un debitoru hierarhija, **programmā** Commerce headquarters atveriet līdzekļu pārvaldības darbvietu (**Sistēmas administrēšanas \>\> darbalauku līdzekļu pārvaldība**), **·** **iespējojiet vairāku katalogu lietošanu mazumtirdzniecības kanālu līdzeklī un pēc tam izpildiet 1110 CDX** darbu.
+> Šis līdzeklis ir pieejams, sākot ar versiju Dynamics 365 Commerce 10.0.27 izlaidi. Lai konfigurētu katalogam raksturīgās konfigurācijas, piemēram, navigācijas hierarhiju un debitoru hierarhiju programmā Commerce headquarters, **atveriet** līdzekļu pārvaldības darbvietu (**Sistēmas administrēšanas \>\> darbvietu līdzekļu pārvaldība**), **·** **iespējojiet vairāku katalogu lietošanu mazumtirdzniecības kanālu līdzeklī un pēc tam izpildiet 1110 CDX** darbu. Kad iespējojat šo iespēju, visi esošie katalogi, kas tiek izmantoti POS **veikaliem vai zvanu centram, tiks atzīmēti kā Kataloga veids = B2C** **lapā Katalogi**. Tikai esošie un jaunie katalogi, kas atzīmēti kā **kataloga tips = B2C**, ir piemērojami POS veikaliem un zvanu centram. 
 
-## <a name="catalog-process-flow"></a>Kataloga apstrādes plūsma
+## <a name="b2b-catalog-process-flow"></a>B2B kataloga apstrādes plūsma
 
 Kataloga izveides un apstrādes procesam ir četras galvenās darbības. Katrs solis ir detalizētā veidā izskaidrots nākamajā sadaļā.
+
+> [!NOTE]
+> Pirms turpināt, pārliecinieties, vai katalogs ir atzīmēts kā **Kataloga tips = B2B**.
 
 1. **[Konfigurācija](#configure-the-catalog)**
 
@@ -73,7 +79,7 @@ Lietojiet šīs sadaļas informāciju, lai iestatītu katalogu.
 
 Lai konfigurētu katalogu, programmā **\> Commerce headquarters dodieties uz sadaļu \> Mazumtirdzniecības un tirdzniecības katalogi** un preču klāsti.
 
-Izveidojot jaunu katalogu, tas vispirms ir jāsaista ar vienu vai vairākiem kanāliem. Kataloga izveides laikā var izmantot tikai tos krājumus [, kas](/dynamics365/unified-operations/retail/assortments) ir saistīti ar atlasīto kanāla preču klāstu. Lai saistītu katalogu ar vienu vai vairākiem kanāliem, **atlasiet Pievienot** **kataloga iestatīšanas lapas** **Commerce kanālu kopsavilkuma cilnē**.
+Izveidojot jaunu katalogu, tas vispirms ir jāsaista ar vienu vai vairākiem kanāliem. Kataloga izveides laikā var izmantot tikai tos krājumus [, kas](/dynamics365/unified-operations/retail/assortments) ir saistīti ar atlasīto kanāla preču klāstu. Lai saistītu katalogu ar vienu vai vairākiem kanāliem, **atlasiet Pievienot** **kataloga iestatīšanas lapas** **Commerce kanālu kopsavilkuma cilnē**. Pārliecinieties, ka katalogs ir atzīmēts kā **Kataloga tips = B2B**.
 
 #### <a name="associate-the-navigation-hierarchy"></a>Saistīt navigācijas hierarhiju
 
@@ -90,6 +96,17 @@ Lai konfigurētu katalogam pievienojamās preces, programmā Commerce headquarte
 Vai arī atlasiet mezglu navigācijas hierarhijā. Pēc tam preces varēsiet pievienot tieši kategorijai katalogā.
 
 #### <a name="associate-price-groups"></a>Saistīt cenu grupas
+
+Lai konfigurētu katalogam pievienojamās preces, programmā Commerce headquarters dodieties uz sadaļu **Mazumtirdzniecības un tirdzniecības \> katalogi un preču klāsts \> visiem katalogiem**. Pēc tam cilnē **Katalogi** atlasiet Pievienot **preces**. 
+
+Preces, kas **tika** pievienotas katalogam no navigācijas hierarhijas saknes zara, darbību rūtī atlasot Pievienot preces, pārmantos to kategorijas, ja avota navigācijas hierarhija ir saistīta arī ar katalogu. Izmaiņas kategorijās, kas tiek veiktas avota navigācijas hierarhijā, nekavējoties tiks atspoguļotas katalogos. Lai atjauninātu kanālus, vēlreiz publicējiet katalogus.
+
+Vai arī navigācijas hierarhijā varat atlasīt zaru un pievienot preces tieši katalogā atlasītajai kategorijai. 
+
+Kad pievienojat preces, būs **pieejama opcija Automātiski iekļaut visus variantus, ja būs atlasīts tikai** preces šablons. Lai nepieļautu visu variantu iekļaušanu, atlasiet preces šablonam vismaz vienu variantu. 
+
+> [!NOTE]
+> Ja liels preču šablonu atlasē izvēlaties automātiski iekļaut visus variantus, var rasties ilgāks apstrādes laiks. Apjomīgām atlasēm ieteicams **izvēlēties Iekļaut visus variantus** katalogu lapas darbību rūtī, lai palaistu operāciju pakešveida režīmā. Ja katalogā ietverat tikai preces šablonu un neietverat variantus, variantu atlasītājs var nebūt pieejams, kad pārvietojaties uz detalizētas informācijas lapu par preci. 
 
 Lai konfigurētu katalogam raksturīgās cenas, ir jāpiesaista katalogam viena vai vairākas cenu grupas. Lai saistītu cenu grupas ar katalogu, programmā Commerce headquarters dodieties uz sadaļu **Mazumtirdzniecības un tirdzniecības \> katalogi un preču klāsti \> visos katalogos**. Pēc tam cilnes **Katalogi** sadaļā Cenu **noteikšana** atlasiet **Cenu grupas**. Visi tirdzniecības līgumi, cenu korekcijas žurnāli un papildu atlaides (slieksnis, daudzums un komplekta atlaides), kas ir saistītas ar to pašu cenu grupu, tiks piemērotas, kad debitoru pasūtījums ir no kataloga.
 
@@ -122,6 +139,9 @@ Lai pārbaudītu katalogu, veiciet šādas darbības:
 1. Cilnes Katalogi lapas Visi katalogi **sadaļā** Pārbaudīt atlasiet **Pārbaudīt** katalogu **·**, lai izpildītu pārbaudi.**·** Šis solis ir obligāts. Tas apstiprinās, ka nepieciešamais iestatījums ir pareizs.
 1. Atlasiet **Skatīt rezultātus**, lai skatītu pārbaudes detaļas. Ja tiek atrastas kļūdas, jums jāizlabo dati un pēc tam vēlreiz jāpalaiž pārbaude, līdz tā tiek no jauna veikta.
 
+> [!NOTE]
+> Ja **kataloga tips = B2B**, apstiprināšana neizdosies, ja katalogam pievienosiet POS veikalus vai zvanu centru. B2B katalogiem drīkst būt tikai B2B tiešsaistes kanāli, kas ar tiem saistīti. Apstiprināšana neizdosies arī tad, ja debitora hierarhija nav saistīta ar B2B katalogu. 
+
 ### <a name="approve-the-catalog"></a>Apstiprināt katalogu
 
 Kad katalogs ir pārbaudīts, tam jābūt apstiprinātam.
@@ -143,3 +163,5 @@ Kad kataloga statuss ir **Apstiprināts**, to var publicēt, izvēlnē **Katalog
 [Commerce katalogu paplašināmības ietekme B2B pielāgojumiem](catalogs-b2b-sites-dev.md)
 
 [Bieži uzdotie jautājumi par Commerce katalogiem B2B vietnēm](catalogs-b2b-sites-FAQ.md)
+
+[Kataloga izdošanas modulis](catalog-picker.md)

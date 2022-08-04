@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890411"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124034"
 ---
 # <a name="upgrade-budget-planning"></a>Jaunināt budžeta plānošanu
 
@@ -30,7 +30,7 @@ Pastāv būtiskas atšķirības budžeta plānošanā starp Microsoft Dynamics A
 Attiecībā uz budžeta plānošanu programmā Finance ir daudz uzlabojumu, kas nebija pieejami Dynamics AX 2012. Šajā rakstā ir izskaidrotas izmaiņas, kas jāveic debitoriem, kuri ir jāveic jaunināšanai. Tajā ir arī norādīti jaunie līdzekļi, kas ir jāņem vērā jaunināšanas procesā. Izmaiņu apjoma dēļ visus esošos budžeta plānus nevarēs atvērt, kamēr netiks veiktas šajā rakstā iezīmētās izmaiņas. Taču pārskatiem vajadzētu turpināt darboties, un tiem nav nepieciešamas papildu izmaiņas.
 
 ## <a name="overview-of-changes"></a>Izmaiņu apskats
-Versijas Dynamics 365 for Finance and Operations budžeta veidošanā ir veiktas daudzas būtiskas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali programmā Finance vairs nepastāv.
+Finanšu un operāciju budžeta etaposā ir veiktas daudzas svarīgas izmaiņas. Šīs izmaiņas ir paredzēts, lai padarītu vienkāršāku budžeta plānošanas konfigurējamību, uzlabotu atkārtotu lietošanu un samazinātu ikgadējo uzturēšanu un uzstādīšanu. Tālāk norādītie AX 2012 apgabali programmā Finance vairs nepastāv.
 
 -   Budžeta plāna veidnes (budžeta plānošanas konfigurācija)
 -   Budžeta plānu mapes (budžeta plānošanas konfigurācija)
@@ -47,7 +47,7 @@ Kolonnas ir jauns jēdziens, kas aizstāj daļas no Excel veidnes, kā arī matr
 
 ### <a name="layouts"></a>Izkārtojumi
 
-Izkārtojumi ir jauns jēdziens, kas aizstāj Excel veidni. Izkārtojumi ietver kolonnas, kas definē, kuri budžeta vai faktiskie dati un periodi ir jārāda. Izkārtojumi tiek arī kopīgoti starp klientu un Excel pievienojumprogrammu. Tāpēc lietotāja funkcionalitāte, kad datus ievadāt vai skatāt programmas Finance and Operations klientā, ir labāka salīdzinājumā ar lietotāja funkcionalitāti programmā AX 2012. Lai ievadītu datus Finance klientā, jums vairs nav ierobežojuma, ka transakciju skatā varat skatīt un ievadīt tikai vienu scenāriju. Tā vietā salīdzinājuma skats jums ļauj ērti skatīt un ievadīt summas par vairākiem periodiem un kontiem vienlaicīgi. Izkārtojumus var arī definēt tā, lai jūs varētu ievadīt un skatīt valūtas, komentāru un citus neobligātus datus. Izkārtojumi jums ļauj arī definēt, kuras virsgrāmatas dimensijas un dimensiju apraksti ir jārāda. Izkārtojumi ietver arī scenārija ierobežojumus, lai definētu, kuras kolonnas veidnē var rediģēt un kurām kolonnām ir jābūt pieejamām programmā Excel. Kad izkārtojums ir definēts, tam tiek ģenerēta veidne. Šī veidne, savukārt, izveido atbilstošo Excel veidni. Pēc tam šo Excel veidni varat rediģēt, lai iekļautu vairāk formulu un formatējuma, un pēc tam to augšupielādēt vēlreiz. Pēc tam izkārtojumi tiek piešķirti katrai stadijas lomai lapā **Budžeta plānošanas process**. Tāpēc izkārtojumi aizstāj veidnes, kas tika piešķirtas un lietotas līdzīgā veidā.
+Izkārtojumi ir jauns jēdziens, kas aizstāj Excel veidni. Izkārtojumi ietver kolonnas, kas definē, kuri budžeta vai faktiskie dati un periodi ir jārāda. Izkārtojumi tiek arī kopīgoti starp klientu un Excel pievienojumprogrammu. Tāpēc lietotāja pieredze datu ievadīšanai vai AX skatīšanai finanšu un operāciju klientā ir lielāka nekā lietotāja pieredze 2012. gadā. Lai ievadītu datus Finance klientā, jums vairs nav ierobežojuma, ka transakciju skatā varat skatīt un ievadīt tikai vienu scenāriju. Tā vietā salīdzinājuma skats jums ļauj ērti skatīt un ievadīt summas par vairākiem periodiem un kontiem vienlaicīgi. Izkārtojumus var arī definēt tā, lai jūs varētu ievadīt un skatīt valūtas, komentāru un citus neobligātus datus. Izkārtojumi jums ļauj arī definēt, kuras virsgrāmatas dimensijas un dimensiju apraksti ir jārāda. Izkārtojumi ietver arī scenārija ierobežojumus, lai definētu, kuras kolonnas veidnē var rediģēt un kurām kolonnām ir jābūt pieejamām programmā Excel. Kad izkārtojums ir definēts, tam tiek ģenerēta veidne. Šī veidne, savukārt, izveido atbilstošo Excel veidni. Pēc tam šo Excel veidni varat rediģēt, lai iekļautu vairāk formulu un formatējuma, un pēc tam to augšupielādēt vēlreiz. Pēc tam izkārtojumi tiek piešķirti katrai stadijas lomai lapā **Budžeta plānošanas process**. Tāpēc izkārtojumi aizstāj veidnes, kas tika piešķirtas un lietotas līdzīgā veidā.
 
 ### <a name="budget-planning-processes"></a>Budžeta plānošanas procesi
 
@@ -69,7 +69,7 @@ Lai palīdzētu noteikt veidu, kā konfigurēt jaunināto sistēmu, nākamajā p
    -   Budžeta plāna scenāriji: Faktiskās vērtības, Bāzlīnija, Budžeta pieprasījums, Apstiprinātais budžets
    -   Budžeta plāna rindas visiem scenārijiem 2017. gadā un faktiskajām vērtībām gan 2017., gan 2016. gadam
 
-   Versijā Dynamics 365 for Finance and Operations tiks izveidotas tālāk norādītās kolonnas.
+   Finansēs un operācijās tiks izveidotas šādas kolonnas:
 
    | Kolonnas nosaukums    | Budžeta plāna scenārijs | Kolonnas laika periods | Gada nobīde |
    |----------------|----------------------|--------------------|-------------|

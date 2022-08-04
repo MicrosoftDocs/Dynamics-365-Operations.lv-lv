@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577772"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069732"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.-maks. papildināšanas procesa iestatīšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra parāda, kā iestatīt papildināšanas procesu, kas izmanto minimuma/maksimuma papildināšanas stratēģiju. Ja krājumu daudzums ir zem minimālā līmeņa, tiks izveidots uzdevums atrašanās vietas papildināšanai. Procedūra parāda arī kā lietot fiksētas izdošanas vietas, lai ļautu atjaunot krājumus pat tad, ja krājumu daudzums ir mazāks par minimālo līmeni, un to, kā iespējot papildināšanas procesa regulāru palaišanu, izmantojot pakešuzdevumu. Šos uzdevumus parasti veic noliktavas pārvaldnieks. Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības zemāk, vai to var palaist, izmantojot savus datus. Ja jūs izmantojat savus datus, pārliecinieties, ka jums ir noliktava, kas ir iespējota noliktavas vadības procesiem.
+Šī procedūra parāda, kā iestatīt papildināšanas procesu, kas izmanto minimuma/maksimuma papildināšanas stratēģiju. Ja krājumu daudzums ir zem minimālā līmeņa, tiks izveidots uzdevums atrašanās vietas papildināšanai. Procedūra parāda arī kā lietot fiksētas izdošanas vietas, lai ļautu atjaunot krājumus pat tad, ja krājumu daudzums ir mazāks par minimālo līmeni, un to, kā iespējot papildināšanas procesa regulāru palaišanu, izmantojot pakešuzdevumu. Šos uzdevumus parasti veic noliktavas pārvaldnieks. Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības zemāk, vai to var palaist, izmantojot savus datus. Ja izmantojat savus datus, pārliecinieties, vai ir noliktava, kas iespējota noliktavas vadības procesiem (WMS).
 
 
 ## <a name="create-a-fixed-picking-location"></a>Izveidojiet fiksētu izdošanas vietu

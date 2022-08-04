@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954544"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166845"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
@@ -29,7 +29,7 @@ Nodokļu aprēķins ir hipermērogojams daudznomnieku pakalpojums, kas ļauj Glo
 Nodokļu aprēķins ir integrēts ar Dynamics 365 Finansēm un Dynamics 365 Supply Chain Management. Visbeidzot tas integrēs arī ar Dynamics 365 Project Operations, Dynamics 365 Commerce un citām pirmās puses un trešās puses programmām.
 
 > [!IMPORTANT]
-> Iespējojot nodokļu aprēķinu, atsevišķas operācijas ar saistītajiem datiem var tikt veiktas datu centrā, kurš neuztur jūsu pakalpojuma datus. Pirms nodokļu aprēķina iespējošanas pārskatiet sadaļu [Noteikumi un nosacījumi](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md). Mums ir svarīga jūsu konfidencialitāte. Lai uzzinātu vairāk, izlasiet mūsu [Paziņojumu par konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Iespējojot nodokļu aprēķinu, atsevišķas operācijas ar saistītajiem datiem var tikt veiktas datu centrā, kurš neuztur jūsu pakalpojuma datus. Pirms nodokļu aprēķina iespējošanas pārskatiet sadaļu [Noteikumi un nosacījumi](https://go.microsoft.com/fwlink/?linkid=2156043). Mums ir svarīga jūsu konfidencialitāte. Lai uzzinātu vairāk, izlasiet mūsu [Paziņojumu par konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Nodokļu aprēķins ir uz mikropakalpojumiem balstīta nodokļu programma, kas piedāvā eksponenciālu mērogojamību un var palīdzēt veikt tālāk minētos uzdevumus.
 

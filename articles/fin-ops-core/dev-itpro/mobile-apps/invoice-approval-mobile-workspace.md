@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868674"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066396"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilā darbvieta Rēķinu apstiprinājumi
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868674"
 
 Šajā rakstā ir sniegta informācija par rēķinu **apstiprinājumiem mobilajā darbvietā**. Šajā darbvietā tiek sniegts saraksts ar rēķiniem, kas jums ir piešķirti, izmantojot kreditora rēķina virsraksta darbplūsmas procesu. 
 
-Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
+Šo mobilo darbvietu ir paredzēts izmantot ar finanšu un operāciju mobilo programmu.
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 
 Mobilā darbvieta **Rēķinu apstiprinājumi** darbiniekiem un vadītājiem no moduļa Kreditori ļauj apskatītu rēķinus, kas viņiem ir piešķirti kā daļa no kreditora rēķina virsraksta darbplūsmas procesa. Varat skatīt rēķina informāciju un pat detalizētu informāciju par rindām un sadali, lai varētu labāk pieņemtu informētus apstiprinājuma lēmumus. No šīs darbvietas varat veikt pasākumus, lai rēķinu pārvietotu darbplūsmas procesā. 
 
@@ -61,9 +61,9 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Lejupielādējiet un instalējiet finanšu un operāciju mobilo programmu:
 
--   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
@@ -88,3 +88,4 @@ Lejupielādēt un instalēt Finance and Operations mobilo programmu:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

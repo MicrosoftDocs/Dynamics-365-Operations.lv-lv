@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898403"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123660"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Iegult pamatnes programmas no Power Apps
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898403"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Finanšu un operāciju programmas atbalsta integrāciju ar Power Apps. Canvas programmas, kuras jūs, jūsu organizācija vai paplašinātās izmaiņas izstrādā, var tikt iegultas Finanšu un operāciju programmās, lai paplašinātu produkta funkcionalitāti. Piemēram, varat izveidot canvas programmu Power Apps no programmas Finanses un operācijas papildināšana ar informāciju, kas izgūta no citas sistēmas.
+Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Finanšu un operāciju programmas atbalsta integrāciju ar Power Apps. Canvas programmas, kuras jūs, jūsu organizācija vai plašāk izstrādātu plašumu, var tikt iegultas finanšu un operāciju programmās, lai paplašinātu produkta funkcionalitāti. Piemēram, varat veidot canvas programmu Power Apps, lai papildinātu finanšu un operāciju programmu ar informāciju, kas izgūta no citas sistēmas.
 
 Lai uzzinātu vairāk par pamatnes programmu iegulšanu, noskatieties īso video [Pamatnes programmu iegulšana](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -35,7 +35,7 @@ Lai uzzinātu vairāk par pamatnes programmu iegulšanu, noskatieties īso video
 
 Pirms pamatnes programma iegulšanas no Power Apps klientā vispirms ir jāatrod vai jāizveido pakalpojums, kas ietver vēlamo vizuālo informāciju vai funkcionalitāti. Šajā rakstā nav iekļauts detalizēts programmu veidošanas procesa apraksts. Ja pirmo reizi izmantojat Power Apps, skatiet [Power Apps dokumentācija](/powerapps/).
 
-Ir trīs veidi, kā iegult canvas programmu programmā Finanses un operācijas. Varat izmantot pieeju, kas vislabāk atbilst jūsu scenārijam. 
+Ir trīs veidi, kā iegult canvas programmu finanšu un operāciju programmā. Varat izmantot pieeju, kas vislabāk atbilst jūsu scenārijam. 
 
 - Iegulstiet pamatnes programmu pogā **Power Apps** standarta darbību rūtī lapā. Programmas, ko pievienojat šādā veidā, tiek parādītas kā izvēlnes pogas **Power Apps** vienumi, un programmas tiek atvērtas sānu rūtīs. 
 - Iegulstiet pamatnes programmu tieši esošajā lapā kā jaunu cilnes lapu (koptabulu, kopsavilkuma cilni, failu vai darbvietas sadaļu).
@@ -68,7 +68,7 @@ Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlati
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Pamatnes programmas iegulšana kā pilnas lapas pieredze no informācijas paneļa
 
-Varat vēlēties iegult vadības panelī esošu pārklases programmu, ja programma nav saistīta ar esošu lapu vai ja vēlaties skatīt programmu kā pilnu lapas pieredzi programmu Finanšu un operāciju programmā.
+Varat vēlēties iegult vadības panelī esošu pārklases programmu, ja programma nav saistīta ar esošu lapu vai ja vēlaties skatīt programmu kā pilnu lapas pieredzi finanšu un operāciju programmā.
 
 > [!NOTE]
 > Lai padarītu šo iespēju pieejamu, līdzekļa pārvaldībā ir jāieslēdz līdzeklis **Pilnas lapas programmas**. 
@@ -86,7 +86,7 @@ Iegulstot pamatnes programmu, ir jāiestata tālāk minētie parametri.
 
 - **Nosaukums** — ievadiet tekstu, kas jāparāda pogai vai cilnei, kas satur iegulto programmu. Iespējams, ka pakalpojuma nosaukums šajā laukā ir jāatkārto bieži.
 - **Programmas ID** — norādiet vispārēji unikālu identifikatoru (globally unique identifier - GUID) pamatnes programmai, ko vēlaties iegult. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [make.powerapps.com](https://make.powerapps.com) un pēc tam skatiet sadaļas **Detalizēta informācija** lauku **Programmas ID**.
-- **Programmas ievades konteksts** — varat atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz programmu kā ievadi. Papildinformāciju par to, kā programma var piekļūt datiem, kas tiek sūtīti no programmām Finanses un operācijas, skatiet sadaļā Programmas veidošana, [kas palīdz sadaļai Finanses un](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) operācijas sūtītos datus tālāk šajā rakstā.
+- **Programmas ievades konteksts** — varat atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz programmu kā ievadi. Papildinformāciju par to, kā programma var piekļūt datiem, kas tiek sūtīti no finanšu un operāciju programmām, skatiet sadaļā Programmas veidošana, [kas vēlāk šajā rakstā palīdz piekļūt no finanšu un operāciju programmām](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) nosūtīto datu.
 
     Sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta kā konteksts pamatnes programmā, izmantojot **cmp** URL parametru. Šī darbība neietekmēs mērķa pamatnes programmu, kamēr šī programma izmanto šo informāciju.
 
@@ -107,15 +107,15 @@ Kad pamatnes programma lapā ir iegulta un ir apstiprināts, ka tā darbojas par
     - Ja līdzeklis **Saglabātie skati** ir izslēgts, sistēmas administrators var piešķirt personalizēšanu, kas ietver pamatnes programmu atbilstošajai lietotāju kopai, izmantojot lapu **Personalizēšana**. Varat arī eksportēt lapas personalizācijas un nosūtīt tās vienam vai vairākiem lietotājiem. Pēc tam katrs no šiem lietotājiem var importēt personalizāciju. Personalizēšanas rīkjoslā ir pieejamas pogas, kas ļauj eksportēt un importēt personalizācijas.
 
 > [!NOTE]
-> Ja canvas programma ir koplietota ar ārējiem lietotājiem, šie lietotāji nevar izmantot iegulto programmu Finanšu un operāciju programmās. Tomēr viņi var piekļūt programmai tieši pakalpojumā Power Apps. Ārējie lietotāji ietver viesus un lietotājus, kas nepieder Microsoft 365 Azure direktorijam, kurā ir izvietota programma Finanses un operācijas.
+> Ja canvas programma ir koplietota ar ārējiem lietotājiem, šie lietotāji nevar izmantot iegulto programmu finanšu un operāciju programmās. Tomēr viņi var piekļūt programmai tieši pakalpojumā Power Apps. Ārējie lietotāji ietver viesus un lietotājus, kas nepieder Microsoft 365 Azure direktorijam, kurā ir izvietota finanšu un operāciju programma.
 
 Lai iegūtu sīkāku informāciju par personalizēšanas iespējām produktā un kā tās izmantot, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md) .
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Notiek canvas programmas veidošana, kas izmanto no Finanšu un operāciju programmām nosūtītos datus
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Notiek canvas programmas veidošana, kas izmanto no finanšu un operāciju programmām sūtītos datus
 
-Veidojot pārvadu programmu, kas tiks iegulta programmā Finanses un operācijas, viena svarīga procesa daļa ir izmantot ievades datus no programmas Finanses un operācijas. Izmantojot izstrādes Power Apps pieredzi, ievades datiem, kas ir nodoti no programmas Finanses **un operācijas, var piekļūt, izmantojot mainīgo Param("EntityId"**). Turklāt, sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta pamatnes programmā, izmantojot **Param("cmp")** mainīgo. 
+Veidojot pārvadu programmu, kas tiks iegulta finanšu un operāciju programmā, viena svarīga procesa daļa ir izmantot ievades datus no šīs finanšu un operāciju programmas. Izmantojot izstrādes Power Apps pieredzi, ievades datiem, kas ir nodoti no finanšu un operāciju programmas, var piekļūt, **izmantojot mainīgo Param("EntityId"**). Turklāt, sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta pamatnes programmā, izmantojot **Param("cmp")** mainīgo. 
 
-Piemēram, programmas funkcijā OnStart varat iestatīt ievades datus no Finanšu un operāciju programmām uz šādu mainīgo:
+Piemēram, programmas funkcijā OnStart varat iestatīt ievades datus no finanšu un operāciju programmām uz šādu mainīgo:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Pamatnes programmas skatīšana
 
-Lai finanšu un operāciju programmās skatītu iegulto kanvas programmu, dodieties tikai uz lapu, kurā ir iegulta programma. Atcerieties, ka programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne, kopsavilkuma cilne vai panelis, vai kā jauna darbvietas sadaļa. Kad lietotāji pirmo reizi mēģinās ielādēt programmu lapā, viņiem tiks piedāvāts pieteikties. Šī darbība nodrošina, ka lietotājiem ir attiecīgās atļaujas, lai lietotu programmu.
+Lai finanšu un operāciju programmās skatītu iegulto canvas programmu lapā, dodieties tikai uz lapu, kurā ir iegulta programma. Atcerieties, ka programmām var piekļūt, izmantojot **Power Apps** pogu standarta darbības rūtī. Vai arī tie var parādīties tieši lapā kā jauna cilne, kopsavilkuma cilne vai panelis, vai kā jauna darbvietas sadaļa. Kad lietotāji pirmo reizi mēģinās ielādēt programmu lapā, viņiem tiks piedāvāts pieteikties. Šī darbība nodrošina, ka lietotājiem ir attiecīgās atļaujas, lai lietotu programmu.
 
 ## <a name="editing-an-embedded-app"></a>Iegultā pakalpojuma rediģēšana
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

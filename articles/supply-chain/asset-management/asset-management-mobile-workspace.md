@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f215d5f6758f222a9dc6b382b172009836547ec
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902145"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067007"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības mobilās darbvietas izmantošana
 
@@ -46,7 +46,7 @@ Pirms varat izmantot **Līdzekļu pārvaldības** mobilo darbvietu, jūsu admini
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dynamics 365):
+Lejupielādējiet un instalējiet finanšu un operāciju (Dynamics 365) mobilo programmu:
 
 - [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -241,3 +241,4 @@ Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dyna
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

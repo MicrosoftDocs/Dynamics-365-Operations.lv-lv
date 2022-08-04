@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714840"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069128"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Mērvienību un uzkrājumu politikas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714840"
 
 Šajā raksta ir aprakstīts, kā noliktavas procesos izmantot noklusējuma vienības, kā arī vienību secību un pārveidošanu.
 
-Vienību secību grupas nosaka to vienību secību, ko var izmantot noliktavas operācijās. Tās tiek izveidotas lapā **Vienību secību grupas**. Šī secība rāda dažādo vienību attiecības. Pieņemsim, ka jūs uzglabājat paletes, uz kurām ir kastes, kurās ir atsevišķas krājumu vienības. Šādā gadījumā ir jānodrošina trīs dažādas vienības un slāņu loģiskā secība. Vienību sēriju grupas ļauj definēt noliktavas vienību grupēšanas ierobežojumus un noklusējuma vienības, kas ir jāizmanto dažādos noliktavas procesos. Šis raksts attiecas gan uz papildu noliktavas risinājumiem, kas ir pieejamai modulī Noliktavas pārvaldība, gan uz vienkāršākiem noliktavas risinājumu, kas ir pieejami modulī Krājumu vadība.
+Vienību secību grupas nosaka to vienību secību, ko var izmantot noliktavas operācijās. Tās tiek izveidotas lapā **Vienību secību grupas**. Šī secība rāda dažādo vienību attiecības. Pieņemsim, ka jūs uzglabājat paletes, uz kurām ir kastes, kurās ir atsevišķas krājumu vienības. Šādā gadījumā ir jānodrošina trīs dažādas vienības un slāņu loģiskā secība. Vienību sēriju grupas ļauj definēt noliktavas vienību grupēšanas ierobežojumus un noklusējuma vienības, kas ir jāizmanto dažādos noliktavas procesos. Šis raksts attiecas gan uz noliktavas pārvaldības procesiem (WMS), kas pieejami noliktavas pārvaldības modulī, gan uz pamata noliktavas risinājumu, kas ir pieejams krājumu vadības modulī.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Izlaisto preču vienību secību grupas
 Ja vēlaties izmantot izlaistās preces noliktavas darba procesos, tām ir jāpiešķir vienību secību grupa. Ja apstiprināt preci, kas ir saistīta ar noliktavas dimensiju grupu, un šai noliktavas dimensiju grupai ir norādīts opcijas **Izmantot noliktavas vadības procesus** iestatījums **Jā**, jūs saņemat kļūdas ziņojumu, ja precei nav definēts vienību secību grupas ID. Ja izmantotajā vienību secību grupā ir vairākas rindas (un tāpēc vairākas vienības), ir jāiestata vienību konvertēšana starp šīm vienībām. Šos iestatījumus varat veikt lapā **Mērvienību pārveidošana**. Mazākajai vienībai ar izlaisto preci saistītajā secību grupā ir jāatbilst krājumu vienībai, kas ir definēta atbilstošajai precei. Krājumu vienība ir vienība, kas tiek izmantota rīcībā esošo krājumu pamata aprēķiniem. Varat arī iestatīt preces šablonu preču variantu mērvienību konvertēšanu, izmantojot opciju **Iespējot mērvienību konvertēšanu**.

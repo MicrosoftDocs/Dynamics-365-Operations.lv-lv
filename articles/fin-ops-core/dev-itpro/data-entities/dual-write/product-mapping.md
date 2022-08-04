@@ -1,20 +1,20 @@
 ---
 title: Vienotā preču pieredze
-description: Šajā rakstā ir aprakstīta preču datu integrācija starp Finanšu un operāciju programmām un Dataverse.
+description: Šajā rakstā ir aprakstīta preču datu integrācija starp finanšu un operāciju programmām un Dataverse.
 author: t-benebo
-ms.date: 12/12/2019
+ms.date: 06/23/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1546cdaf3c63a7ff9a330ae8609595aaf48fbc48
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885003"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111492"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -22,13 +22,13 @@ ms.locfileid: "8885003"
 
 
 
-Ja biznesa ekosistēma ir izveidota no Dynamics 365 lietojumprogrammām, piemēram, Finance, Supply Chain Management un Sales, uzņēmumi bieži lieto šīs programmas, lai iegūtu preču datus. Tas ir tāpēc, ka šīs programmas nodrošina stabilu preču infrastruktūru, kas papildināta ar sarežģītākām cenu noteikšanas koncepcijām un precīziem rīcībā esošajiem krājumu datiem. Uzņēmumi, kuri izmanto ārējo Product Lifecycle Management (PLM) sistēmu, lai iegūtu produktu datus, var novirzīt produktus no Finance and Operations programmām uz citām Dynamics 365 programmām. Vienotā preču pieredze nodrošina integrētu preču datu modeli Dataverse, lai visi programmas lietotāji, ieskaitot Power Platform lietotājus, var izmantot bagātīgo preču datu priekšrocības, ko sniedz Finance and Operations programmas.
+Ja biznesa ekosistēma ir izveidota no Dynamics 365 lietojumprogrammām, piemēram, Finance, Supply Chain Management un Sales, uzņēmumi bieži lieto šīs programmas, lai iegūtu preču datus. Tas ir tāpēc, ka šīs programmas nodrošina stabilu preču infrastruktūru, kas papildināta ar sarežģītākām cenu noteikšanas koncepcijām un precīziem rīcībā esošajiem krājumu datiem. Uzņēmumi, kas izmanto ārēju produktu dzīves cikla pārvaldības (PLM) sistēmu preču datu avotu vajadzībām, var virzīt preces no finanšu un operāciju programmām uz citām Dynamics 365 programmām. Vienota produkta pieredze ietver integrētu preču datu modeli uz to Dataverse, lai visi programmas lietotāji, Power Platform ieskaitot lietotājus, varētu gūt labumu no bagātinātās preces datiem, kas nāk no finanšu un operāciju programmām.
 
 Lūk, preču datu modelis no Sales.
 
 ![Preču datu modelis CE.](media/dual-write-product-4.jpg)
 
-Šeit ir preču datu modelis no Finance and Operations lietojumprogrammas.
+Šeit atrodas preču datu modelis no finanšu un operāciju programmām.
 
 ![Datu modelis precēm finansēs un operācijās.](media/dual-write-products-5.jpg)
 
@@ -36,7 +36,7 @@ Lūk, preču datu modelis no Sales.
 
 ![Preču datu modelis Dynamics 365 lietojumprogrammās.](media/dual-write-products-6.jpg)
 
-Dubultās rakstīšanas tabulas kartes precēm ir veidotas, lai plūsmotu datus tikai vienu virziena, gandrīz reāllaikā no Finanšu un operāciju programmām uz Dataverse. Tomēr, ja nepieciešams, preču infrastruktūra ir atvērta, lai to izveidotu kā divvirzienu. Kaut arī varat to pielāgot, jums pašiem jāuzņemas atbildība, jo korporācija Microsoft šo pieeju neiesaka.
+Dubultās rakstīšanas tabulas kartes precēm ir veidotas, lai plūsmotu datus tikai vienu virziena, gandrīz reāllaikā no finanšu un operāciju programmām uz Dataverse. Tomēr, ja nepieciešams, preču infrastruktūra ir atvērta, lai to izveidotu kā divvirzienu. Kaut arī varat to pielāgot, jums pašiem jāuzņemas atbildība, jo korporācija Microsoft šo pieeju neiesaka.
 
 ## <a name="templates"></a>Veidnes
 
@@ -52,7 +52,7 @@ Finance and Operations programmas | Citas Dynamics 365 programmas | Apraksts
 [Preces kategorijas](mapping-reference.md#166) | msdyn_productcategories | Katra no preču kategorijām un informācija par tās struktūru un raksturlielumiem ir ietverta preču kategorijas tabulā.
 [Preču kategoriju piešķires](mapping-reference.md#167) | msdyn_productcategoryassignments | Lai piešķirtu preci kategorijai, var izmantot preču kategorijas piešķires tabulu.
 [Preču kategoriju hierarhijas](mapping-reference.md#168) | msdyn_productcategoryhierarchies | Varat izmantot preču hierarhijas, lai dalītu preces kategorijās vai grupās. Kategoriju hierarhijas ir pieejamas pakalpojumā Dataverse, izmantojot preču kategoriju hierarhijas tabulu.
-[Preču kategoriju hierarhijas lomas](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles | Preču hierarhijas var izmantot atšķirīgām lomām D365 Finance and Operations. Tās norāda, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomā tabula tiek izmantota.
+[Preču kategoriju hierarhijas lomas](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles | Produktu hierarhijas var izmantot dažādām lomām D365 finansēs un operācijās. Tās norāda, kura kategorija tiek izmantota katrai lomai, kurā preču kategorijas lomā tabula tiek izmantota.
 [Preču noklusējuma pasūtījuma iestatījumi V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
 [Preces dimensiju grupas](mapping-reference.md#173) | msdyn\_productdimensiongroups | Preču dimensiju grupa definē, kuras preces dimensijas definē preci.
 [Preces šablona krāsas](mapping-reference.md#187) | msdyn_sharedproductcolors | **Koplietojamās preces krāsas** tabula norāda krāsas, kas var būt konkrētam preces šablonam. Šis jēdziens tiek migrēts uz Dataverse, lai saglabātu datus saskaņotus.
@@ -64,7 +64,7 @@ Finance and Operations programmas | Citas Dynamics 365 programmas | Apraksts
 [Izlaistās preces V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Tabulā **msdtail\_ sharedproductdetails** ir kolonnas no finanšu un operāciju programmām, kas definē preci un kas satur preces finanšu un pārvaldības informāciju.
 [Izmēri](mapping-reference.md#174) | msdyn\_productsizes
 [Noliktavas dimensiju grupas](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Produktu noliktavas dimensiju grupa atbilst metodei, kas tiek izmantota, lai definētu preces novietojumu noliktavā.
-[Stili](mapping-reference.md#178) | msdyn\_productsytles
+[Stili](mapping-reference.md#178) | msdstyle\_ productstyles
 [Izsekošanas dimensiju grupas](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | Preču izsekošanas dimensiju grupa parāda metodi, kas tiek izmantota, lai izsekotu preci krājumos.
 [Vienības](mapping-reference.md#219) | uoms
 [Mērvienību pārveidošana](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
@@ -81,17 +81,17 @@ Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un
 
 ![Preču datu modelis.](media/dual-write-product.png)
 
-Iespējojot duālās rakstīšanas funkcionalitāti, preces no finanšu un operācijām tiks sinhronizētas citās Dynamics 365 precēs melnraksta **stāvoklī**. Tās tiek pievienotas pirmajam cenu sarakstam ar to pašu valūtu, kas tiek izmantota debitoru summu programmā, un cenu saraksta nosaukumā tiek izmantota alfabētiskā kārtošana. Citiem vārdiem sakot, tās tiek pievienotas pirmajam cenu sarakstam Dynamics 365 programmā, kas atbilst jūsu juridiskās tabulas valūtai, kur prece tika izdota Finanšu un operāciju programmā. Ja dotajā valūtā nav cenu saraksta, automātiski tiks izveidota cenu saraksts un prece tiks tam piešķirta.
+Iespējojot duālās rakstīšanas funkcionalitāti, finanšu un operāciju preces tiks sinhronizētas citās Dynamics 365 precēs melnraksta **stāvoklī**. Tās tiek pievienotas pirmajam cenu sarakstam ar to pašu valūtu, kas tiek izmantota debitoru summu programmā, un cenu saraksta nosaukumā tiek izmantota alfabētiskā kārtošana. Citiem vārdiem sakot, tās tiek pievienotas pirmajam cenu sarakstam Dynamics 365 programmā, kas atbilst jūsu juridiskās tabulas valūtai, kur produkts tiek izdots finanšu un operāciju programmā. Ja dotajā valūtā nav cenu saraksta, automātiski tiks izveidota cenu saraksts un prece tiks tam piešķirta.
 
-Dubultās rakstīšanas pardošanas darbību pašreizējā ieviešana, kas saista noklusējuma cenu sarakstu ar vienību, meklē valūtu, kas saistīta ar programmu Finanses un operācijas, un atrod pirmo cenu sarakstu debitoru saistību programmā, izmantojot alfabētisku kārtošanu cenu saraksta nosaukumā. Lai iestatītu noklusējuma cenu sarakstu noteiktai valūtai, kad jums ir vairāki cenu saraksti šai valūtai, cenu saraksta nosaukums ir jāatjaunina uz nosaukumu, kas alfabētiskajā secībā ir agrāk nekā jebkurš cits cenu saraksts tai pašai valūtai. Ja tai nav neviena cenu saraksta dotajā valūtā, tiek izveidota jauna.
+Pašreizējā dubultās rakstīšanas sarakstu ieviešana, kas saista noklusējuma cenu sarakstu ar vienību, meklē valūtu, kas saistīta ar finanšu un operāciju programmu, un atrod pirmo cenu sarakstu debitoru saistību programmā, izmantojot alfabētisku šķirošanu cenu saraksta nosaukumā. Lai iestatītu noklusējuma cenu sarakstu noteiktai valūtai, kad jums ir vairāki cenu saraksti šai valūtai, cenu saraksta nosaukums ir jāatjaunina uz nosaukumu, kas alfabētiskajā secībā ir agrāk nekā jebkurš cits cenu saraksts tai pašai valūtai. Ja tai nav neviena cenu saraksta dotajā valūtā, tiek izveidota jauna.
 
-Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**.
+Pēc noklusējuma preces no finanšu un operāciju programmām tiek sinhronizētas uz citām Dynamics 365 programmām melnraksta **stāvoklī**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**.
 
-Kad preces ir sinhronizētas, programmas **Finanses un operācijas** laukā Pārdošanas vienība ir jāievada vērtība, jo pārdošanas lauks ir obligāts.
+Kad preces ir sinhronizētas, **finanšu** un operāciju programmas laukā Pārdošanas vienība ir jāievada vērtība, jo pārdošanas lauks ir obligāts.
 
 Preču saimju veidošana no Dynamics 365 Sales netiek atbalstīta, izmantojot preču dubulto ierakstu sinhronizāciju.
 
-Preču sinhronizācija notiek no programmas Finanses un operācijas līdz Dataverse. Tas nozīmē Dataverse, ka preču tabulas kolonnu vērtības var tikt mainītas, bet, ja sinhronizācija tiek izraisīta (kad preces kolonna tiek modificēta finanšu un operāciju programmā), tas pārrakstīs vērtības Dataverse.
+Preču sinhronizācija notiek no finanšu un operāciju programmas uz programmu Dataverse. Tas nozīmē Dataverse, ka preču tabulas kolonnu vērtības var tikt mainītas, bet, ja sinhronizācija tiek izraisīta (ja preces kolonna tiek modificēta finanšu un operāciju programmā), tas pārrakstīs vērtības Dataverse.
 
 Finance and Operations programmas | Customer engagement programmas |
 ---|---
@@ -109,7 +109,7 @@ Finance and Operations programmas | Customer engagement programmas |
 ---|---
 [Krāsas](mapping-reference.md#170) | msdyn\_productcolors
 [Izmēri](mapping-reference.md#174) | msdyn\_productsizes
-[Stili](mapping-reference.md#178) | msdyn\_productsytles
+[Stili](mapping-reference.md#178) | msdstyle\_ productstyles
 [Konfigurācijas](mapping-reference.md#171) | msdyn\_productconfigurations
 
 Ja precei ir dažādas preces dimensijas (piemēram, preces šablona izmērs un krāsa ir tādas pašas kā preces dimensijas), katra atšķirīga prece (t.i., katrs preču variants) tiek definēta kā šo preču dimensiju kombinācija. Piemēram, preču numurs B0001 ir īpaši mazs, melns T krekls, un preces numurs B0002 ir neliels melns T krekls. Šādā gadījumā tiek definētas esošās preču dimensiju kombinācijas. Piemēram, no iepriekšējā piemēra T-krekls var būt īpaši mazs un melns, mazs un melns, vidējs un melns vai liels un melns, bet tas nevar būt īpaši liels un melns. Citiem vārdiem sakot, preču dimensijas, ko var veikt preces šablons, ir norādītas, un variantus var izlaist, pamatojoties uz šīm vērtībām.
@@ -139,7 +139,7 @@ Mērvienības un to atbilstošais pārveidojums ir pieejami Dataverse sekojošaj
 
 ![Mērvienību datu modelis.](media/dual-write-product-three.png)
 
-Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dynamics 365 lietojumprogrammām. Katrai mērvienību klasei Finance and Operations lietojumprogrammā tiek izveidota mērvienību grupa Dynamics 365 lietojumprogrammā, kas satur mērvienības, kas pieder pie mērvienību kategorijas. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība.
+Mērvienības koncepcija ir integrēta finanšu un operāciju programmās un citās Dynamics 365 programmās. Katrai mērvienību kategorijai finanšu un operāciju programmā vienību grupa tiek izveidota Dynamics 365 programmā, kas ietver mērvienības kategorijā. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība.
 
 Finance and Operations programmas | Customer engagement programmas |
 ---|---
@@ -147,28 +147,28 @@ Finance and Operations programmas | Customer engagement programmas |
 [Vienības](mapping-reference.md#219) | uoms
 [Mērvienību pārveidošana](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
-## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Sākotnējā atbilstošo datu vienību sinhronizēšana starp programmu Finance and Operations un Dataverse
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Vienību datu sākotnējā saskaņošana starp finansēm un operācijām un Dataverse
 
 ### <a name="initial-synchronization-of-units"></a>Sākotnējā vienību sinhronizācija
 
-Kad duālais ieraksts ir iespējots, vienības no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām. Vienību grupām, kas sinhronizētas no finanšu un operāciju programmām Dataverse, ir karodziņu kopa, kas norāda, ka tās ir "ārēji uzturētas".
+Kad ir iespējota dubultā rakstīšana, finanšu un operāciju programmu vienības tiek sinhronizētas ar citām Dynamics 365 programmām. Vienību grupām, kas sinhronizētas no finanšu un operāciju programmām Dataverse, ir karodziņu kopa, kas norāda, ka tās ir "ārēji uzturētas".
 
-### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Atbilstošās vienības un vienību klases/grupas dati no Finance and Operations un citām Dynamics 365 programmām
+### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Atbilstošu vienību un vienību klašu/grupu dati no finansēm un operācijām un citām Dynamics 365 programmām
 
-Pirmkārt, ir svarīgi atzīmēt, ka vienības integrācijas atslēga ir msdyn_symbol. Tāpēc šai vērtībai ir jābūt unikālai pakalpojumā Dataverse vai citās Dynamics 365 programmās. Tā kā citās Dynamics 365 programmās pāris "Vienību grupas ID" un "Nosaukums", kas nosaka vienības unikālumu, ir nepieciešams apsvērt dažādus scenārijus atbilstības vienību datiem starp Finanšu Dataverse un operāciju programmām un.
+Pirmkārt, ir svarīgi atzīmēt, ka vienības integrācijas atslēga ir msdyn_symbol. Tāpēc šai vērtībai ir jābūt unikālai pakalpojumā Dataverse vai citās Dynamics 365 programmās. Tā kā citās Dynamics 365 programmās pārim "Vienību grupas ID" un "Nosaukums", kas nosaka vienības unikālumu, ir nepieciešams apsvērt dažādus scenārijus Dataverse atbilstības vienības datiem starp finanšu un operāciju programmām un.
 
-Vienībām, kas atbilst/pārklājas Finance and Operations programmās un citās Dynamics 365 lietojumprogrammās:
+Vienībām, kas atbilst/pārklājas finanšu un operāciju programmās un citās Dynamics 365 programmās:
 
-+ **Vienība pieder vienību grupai citās Dynamics 365 programmās, kas atbilst saistītajai vienību klasei Finance and Operations programmās**. Šajā gadījumā citās Dynamics 365 msdyn_symbol kolonnā ir jāaizpilda mērvienības simbols no Finanšu un operāciju programmām. Tāpēc, kad dati tiks saskaņoti, vienību grupa tiks iestatīta kā "Uzturēta ārēji" citās Dynamics 365 programmās.
-+ **Vienība pieder kādai vienību grupai citās Dynamics 365 programmās, kas neatbilst saistītajai vienību klasei Finance and Operations programmās (neviena no esošajām vienību klasēm Finance and Operations programmās citās Dynamics 365 lietojumprogrammās).** Šādā gadījumā msdyn_symbol jāaizpilda ar nejaušu virkni. Ņemiet vērā, ka šai vērtībai ir jābūt unikālai citās Dynamics 365 programmās.
++ **Vienība pieder vienību grupai citās Dynamics 365 programmās, kas atbilst finanšu un operāciju programmu saistītai mērvienību kategorijai**. Šajā gadījumā citās Dynamics 365 msdyn_symbol kolonnās ir jāaizpilda mērvienības simbols no finanšu un operāciju programmām. Tāpēc, kad dati tiks saskaņoti, vienību grupa tiks iestatīta kā "Uzturēta ārēji" citās Dynamics 365 programmās.
++ **Vienība pieder vienību grupai citās Dynamics 365 programmās, kas neatbilst saistītajai mērvienību klasei finanšu un operāciju programmās (nav esošas vienības klases finanšu un operāciju programmās mērvienību klasei citās Dynamics 365 programmās).** Šādā gadījumā msdyn_symbol jāaizpilda ar nejaušu virkni. Ņemiet vērā, ka šai vērtībai ir jābūt unikālai citās Dynamics 365 programmās.
 
-Vienībām un vienību klasēm Finance and Operations programmās, kas nepastāv citās Dynamics 365 programmās:
+Vienībām un vienību klasēm finansēs un operācijās, kas nav esošās citās Dynamics 365 programmās:
 
 Kā daļa no dubultās rakstīšanas vienību grupām no finanšu un operāciju programmām, un tās atbilstošās vienības tiek izveidotas un sinhronizētas citās Dynamics 365 programmās Dataverse, un vienību grupa tiks iestatīta kā "Ārēji uzturēta". Nav nepieciešama papildu sāknēšana.
 
-Vienībām citās Dynamics 365 programmās, kas nepastāv Finance and Operations programmās:
+Vienībām citās Dynamics 365 programmās, kas nav finanšu un operāciju programmās:
 
-Kolonnai msdyn_symbol jābūt aizpildītai visām vienībām. Vienības vienmēr var izveidot Finance and Operations programmās atbilstošajā vienību klasē (ja tāda ir). Ja vienības klase nepastāv, vispirms ir jāizveido mērvienību klase (ņemiet vērā, ka finanšu un operāciju programmās nevarat izveidot mērvienību klasi, izņemot paplašinājumu, ja paplašinat uzskaitījumu), kas atbilst citai Dynamics 365 programmu vienību grupai. Pēc tam varat izveidot vienību. Ņemiet vērā, ka vienības simbolam Finance and Operations programmās jābūt msdyn_symbol, kas vienībai iepriekš norādīts citās Dynamics 365 programmās.
+Kolonnai msdyn_symbol jābūt aizpildītai visām vienībām. Vienības vienmēr var veidot finanšu un operāciju programmās atbilstošajā mērvienību kategorijā (ja tāda pastāv). Ja vienības klase nepastāv, vispirms ir jāizveido mērvienību klase (ņemiet vērā, ka finanšu un operāciju programmās nevar izveidot mērvienību klasi, izņemot paplašinājumu), ja paildināšana tiek paplašināta un atbilst citai Dynamics 365 programmu vienību grupai. Pēc tam varat izveidot vienību. Ievērojiet, ka vienības simbolam finanšu un operāciju programmās jābūt aizstājējam msdyn_symbol kas iepriekš norādīts vienības Dynamics 365 programmās.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Preces politikas: dimensija, izsekošanas un glabāšanas grupas
 
@@ -190,28 +190,29 @@ Finance and Operations programmas | Customer engagement programmas |
 
 ## <a name="integration-key-for-products"></a>Preču integrācijas atslēga
 
-Lai unikāli identificētu preces starp Dynamics 365 for Finance and Operations un precēm pakalpojumā Dataverse, tiek izmantotas integrācijas atslēgas.
-Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Dataverse. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. **Uzņēmums** norāda juridisko personu Finance and Operations, un **msdyn_productnumber** norāda preces numuru konkrētai precei Finance and Operations.
+Lai unikāli identificētu preces starp Dynamics 365 finansēm un precēm, kas ir Dataverse integrācijas atslēgās, tiek izmantotas.
+Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Dataverse. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. Uzņēmums **norāda** juridisko personu finansēs un operācijās, **un msdyn_productnumber** norāda preces numuru konkrētai precei finansēs un operācijās.
 
 Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka kolonnas etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr kolonna (productnumber) - unikālā preces atslēga - netiek rādīta.
 
 Ja izveidojat programmas pakalpojumā Dataverse, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber**, jo tā nav unikāla.
 
-## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Sākotnējā preču sinhronizācija un datu migrēšana no Dataverse uz Finance and Operations
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Preču sākotnējā sinhronizācija un datu migrācija no finanšu Dataverse uz finansēm un operācijām
 
 ### <a name="initial-synchronization-of-products"></a>Sākotnējā preču sinhronizācija
 
-Kad ir aktivizēta dubultā rakstīšana, preces no finanšu un operāciju programmām tiek sinhronizētas uz debitoru Dataverse lietojumprogrammām un to piesaistes. Preces, kas izveidotas Dataverse citās Dynamics 365 programmās pirms duālās rakstīšanas veikšanas, netiks atjauninātas un saskaņotas ar preču datiem no Finanšu un operāciju programmām.
+Kad ir aktivizēta dubultā rakstīšana, preces no finanšu un operāciju programmām tiek sinhronizētas uz debitoru Dataverse lietojumprogrammām un to piesaistes. Preces, kas izveidotas Dataverse citās Dynamics 365 programmās pirms duālās rakstīšanas veikšanas, netiks atjauninātas un saskaņotas ar preču datiem no finanšu un operāciju programmām.
 
-### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Atbilstošie preču dati no Finance and Operations un citām Dynamics 365 programmām
+### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Atbilst finanšu un operāciju un citu Dynamics 365 programmu preču datiem
 
-Ja finanšu un operāciju, kā arī citās Dynamics 365 programmās tiek paturētas (pārklājas/sakritības) Dataverse tās pašas preces, aktivizējot divkārtējas rakstīšanas produktu sinhronizāciju no Finanšu un operācijām, Dataverse un tai pašai precei tiks parādītas dublētas rindas.
-Lai izvairītos no iepriekšējās situācijas, ja citām Dynamics 365 programmām ir preces, kas pārklājas/pārklājas ar finansēm un operācijām, **tad** administratoram, kas aktivizē dubulto rakstiet, ir jāatsakās no kolonnām Uzņēmums (piemēram, "USMF") **un msdyn_productnumber** (piemēram, "1234:Black:S") pirms preču sinhronizācijas. Citiem vārdiem sakot, šīs Dataverse divas kolonnas produktā jāaizpilda ar attiecīgo uzņēmumu finansēs un operācijās, ar kurām precei ir jāatbilst preces numuram un tā numuram.
+Ja finanšu un operāciju, kā arī citās Dynamics 365 programmās tiek paturētas (pārklājas/sakritības) Dataverse preces, aktivizējot divkāju rakstiet preču sinhronizāciju no finansēm un darbībām, Dataverse un tai pašai precei tiks parādītas dublētas rindas.
+Lai izvairītos no iepriekšējās situācijas, ja citām Dynamics 365 programmām ir preces, kas pārklājas/atbilst finansēm un operācijām, **tad** administratoram, kas aktivizē dubulto rakstiet, ir jāatsakās no kolonnām Uzņēmums (piemēram, "USMF") **un msdyn_productnumber** (piemēram, "1234:Black:S") pirms preču sinhronizācijas. Citiem vārdiem sakot, šīs divas Dataverse ailes produktā jāaizpilda ar attiecīgo uzņēmumu finansēs un operācijās, ar kurām precei jāsakrīt ar preces numuru un ar tā produktu numuru.
 
-Pēc tam, kad sinhronizācija ir iespējota un notiek, preces no Finance and Operations tiks sinhronizētas ar saskaņotajām precēm pakalpojumā Dataverse un citās Dynamics 365 programmās. Tas ir attiecināms uz atšķirīgām precēm un preču variantiem.
+Pēc tam, kad ir iespējota un veikta sinhronizācija, Dataverse finanšu un operāciju preces tiks sinhronizētas ar saskaņotajiem produktiem un citām Dynamics 365 programmām. Tas ir attiecināms uz atšķirīgām precēm un preču variantiem.
 
-### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Preču datu migrēšana no citām Dynamics 365 programmām uz Finance and Operations
+### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Preču datu migrācija no citām Dynamics 365 programmām uz finansēm un operācijām
 
-Ja citām Dynamics 365 programmām ir preces, kas nav saistītas ar finansēm un operācijām, **administrators šo preču importēšanai programmatūrā Finanses un Operācijas vispirms var izmantot EcoResReleasedProductCreationV2Entity**. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš.
+Ja citām Dynamics 365 programmām ir preces, kas nav saistītas ar finansēm un operācijām, **administrators šo preču importēšanai finansēs un operācijās vispirms var izmantot EcoResReleasedProductCreationV2Entity**. Un, no otras puses, sakritiet preču datus no finansēm un operācijām un citām Dynamics 365 programmām, kā aprakstīts iepriekš.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

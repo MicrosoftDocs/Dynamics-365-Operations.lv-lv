@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862160"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108607"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862160"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Šajā rakstā ir izskaidrots, kā Microsoft Excel atvērt elementa datus, pēc tam skatīt, atjaunināt un rediģēt datus, izmantojot Microsoft Dynamics Excel pievienojumprogrammu. Lai atvērtu elementa datus, varat sākties no Excel vai Finanšu un operāciju programmām.
+Šajā rakstā ir izskaidrots, kā Microsoft Excel atvērt elementa datus, pēc tam skatīt, atjaunināt un rediģēt datus, izmantojot Microsoft Dynamics Excel pievienojumprogrammu. Lai atvērtu elementa datus, varat sākties no Excel vai finanšu un operāciju programmām.
 
 Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 
@@ -40,7 +40,7 @@ Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un
 
 Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana galveņu un rindu modeļiem](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atveriet elementa datus programmā Excel, kad sākat no programmas Finanses un operācijas
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atveriet elementa datus programmā Excel, kad sākat no finanšu un operāciju programmas
 1. Finanšu un operāciju programmas lapā atlasiet Atvērt **Microsoft Office**.
 
     Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
@@ -48,7 +48,7 @@ Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, n
 2. Atlasiet opciju **Atvērt programmā Excel** un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
 3. Programmā Excel atlasiet **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**.
-5. Ja tiek piedāvāts pieteikties, atlasiet pieteikos un pēc tam piesakieties, **izmantojot** tos pašus akreditācijas datus, kurus izmantojat, lai pieteiktos programmā Finanses un operācijas. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no un jūs pieraksta automātiski, ja iespējams. (Informāciju par pārlūkprogrammu, kas tiek izmantota balstoties uz operētājsistēmas, skatiet [Office pievienojumprogrammu lietotās pārlūkprogrammas](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Lai nodrošinātu, ka pierakstīšanās bija veiksmīga, pārbaudiet lietotājvārdu Excel pievienojumprogrammas augšējā labajā stūrī. 
+5. Ja tiek piedāvāts pieteikties, atlasiet pieteikos un pēc tam piesakieties, **izmantojot** tos pašus akreditācijas datus, kurus izmantojat, lai pieteiktos finanšu un operāciju programmā. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no un jūs pieraksta automātiski, ja iespējams. (Informāciju par pārlūkprogrammu, kas tiek izmantota balstoties uz operētājsistēmas, skatiet [Office pievienojumprogrammu lietotās pārlūkprogrammas](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Lai nodrošinātu, ka pierakstīšanās bija veiksmīga, pārbaudiet lietotājvārdu Excel pievienojumprogrammas augšējā labajā stūrī. 
 
 Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto elementu. Ņemiet vērā, ka darbgrāmatā nav nekādu datu, līdz Excel pievienojums tos ielasa.
 
@@ -146,3 +146,4 @@ Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

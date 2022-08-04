@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f0590c4c906e746b54ac30fd6531b8c1cd67915
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869522"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067338"
 ---
 # <a name="rebate-management-deal-workflows"></a>Atlaižu pārvaldības darījumu darbplūsmas
 
 [!include [banner](../includes/banner.md)]
 
-Lai apstiprinātu atlaižu darījumus, atlaižu pārvaldība izmanto to pašu darbplūsmas platformu, ko citas Finanšu un operāciju programmas. Divi darba procesi ir saistīti ar katru darbplūsmu:
+Lai apstiprinātu atlaižu darījumus, atlaižu pārvaldība izmanto to pašu darbplūsmas platformu, ko citas finanšu un operāciju programmas. Divi darba procesi ir saistīti ar katru darbplūsmu:
 
 - Viens darbplūsmas elements apstiprina darījumu.
 - Viens darbplūsmas elements aktivizē darījumu, lai lietotājs vai darbplūsmas process varētu apstiprināt darbības.
@@ -55,3 +55,4 @@ Jūs varat mainīt sekojošos iestatījumus darījumam pēc tā aktivizēšanas:
 - Līdz datumam
 
 Turklāt atlaides rindas var noņemt.
+

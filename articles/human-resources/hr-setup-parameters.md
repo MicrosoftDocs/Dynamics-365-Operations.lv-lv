@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856285"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065650"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources parametru konfigurēšana
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856285"
 
 Dažu cilvēkresursu parametru iestatījumi tiek koplietoti uzņēmumu starpā, savukārt citu parametru iestatījumi ir raksturīgi noteiktam uzņēmumam. Šajā rakstā skaidrots, kā iestatīt uzņēmuma raksturīgos cilvēkresursu parametrus.
 
-Divas lapas tiek izmantotas, lai iestatītu cilvēkresursu parametrus. Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir specifiski uzņēmumam (citiem vārdiem sakot, iestatījumi attiecas uz vienu uzņēmumu), izmanto lapu **Personāla vadības parametri**.
+Divas lapas tiek izmantotas, lai iestatītu cilvēkresursu parametrus. Parametriem, kas ir kopīgi visiem uzņēmumiem, izmanto lapu **Personāla vadības kopīgie parametri**. Parametriem, kas ir raksturīgi uzņēmumam, jūs izmantojiet personāla **vadības parametru** lapu.
 
 ![Dodieties uz Cilvēkresursu parametri.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ Dynamics 365 Finanses cilnes Atlīdzība iestatījumi nosaka, vai lietotājiem j
 
 Cilvēkresursu sadaļā varat lietot cilni **Atlīdzība**, lai izvēlētos ierobežot piekļuvi atlīdzības plāniem un iestatīt noklusējuma valūtu.
 
-Papildinformāciju par atlīdzību skatiet [Atlīdzības plānu pārskats](hr-compensation-overview.md).
+> [!NOTE]
+> Sapludinātajā infrastruktūra ir noņemts **lapas** Cilvēkresursu parametri **cilnes** **Atlīdzība** noklusējuma valūtas parametrs. Virzoties uz priekšu, valūtu **apstrādās** Virsgrāmatas valūtas parametrs, lai nodrošinātu, ka nepastāv konflikti attiecībā uz pastāvošu finanšu un operāciju funkcionalitāti un lai novērstu dublēšanos. Papildinformāciju par virsgrāmatas valūtas funkcionalitātes izmantošanu skatiet Sadaļā Virsgrāmatas [konfigurēšana](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Kompensāciju cilne.](./media/hr-setup-parameters-compensation.png)
+Papildinformāciju par atlīdzību skatiet [Atlīdzības plānu pārskats](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Numuru sērijas
 
@@ -122,7 +123,7 @@ Papildinformāciju par to, kā iestatīt darbinieku **pašapkalpošanos**, skati
 Pārvaldnieka pašapkalpošanās **cilnes iestatījumi ietekmē** pārvaldniekus, kas tiek skatīti pārvaldnieka **pašapkalpošanās sadaļā**. Šajā cilnē varat konfigurēt šādas opcijas:
 
 - Ierakstu, kuru skaits beidzas, diapazons
-- Informācijas pārvaldnieki var skatīt ierakstus, kuru termiņš beidzas
+- Informācija, ko vadītāji var skatīt ierakstos, kuru skaits beidzas
 - Vai vadītāji var skatīt atvērtās pozīcijas paplašinātiem pārskatiem
 - Izejas darbinieku skatījumi
 - Noderīgas saites vadītājiem

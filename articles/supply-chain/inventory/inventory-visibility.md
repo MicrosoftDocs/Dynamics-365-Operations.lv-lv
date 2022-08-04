@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897637"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066646"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Krājumu redzamības pievienojumprogrammas pārskats
 
@@ -35,7 +35,7 @@ Krājumu redzamības pakalpojums ir ļoti paplašināms, jo datu ievade un izvad
 
 Turklāt, tā kā ir veidota krājumu redzamība Microsoft Dataverse, tās datus var izmantot, lai veidotu un integrētu ar Power Apps. Var izmantot arī, lai Power BI izveidotu pielāgotus informācijas paneļus, kas atbilst uzņēmuma prasībām.
 
-## <a name="scalability"></a>Mērogojamību
+## <a name="scalability"></a>Mērogojams
 
 Atkarībā no datu apjoma krājumu redzamības pakalpojumu var samazināt vai samazināt. Mērogojamības pieredze ir lielākā daļa viengabalu, un to veic Microsoft platformu grupa, pamatojoties uz automātisku darbību datu apjoma noteikšanu un vērtēšanu.
 
@@ -61,9 +61,9 @@ Ir svarīga jūsu tuvāko turpmāko prognozēto krājumu redzamība (ieskaitot p
 
 ATP funkcija ir viegli pieņemt savā ikdienas pasūtījumu izpildes procesā. Līdzīgi, kā tas ir ar citiem krājumu redzamības piedāvājumiem, ATP funkcija ir *globāla un reāllaika*. Tāpēc jūs variet iestatīt vairākas ATP aprēķina formulas, lai būtu pilnīgas krājumu pieejamības vaicājumi, kas aptver visus jūsu biznesa kanālus un datu avotus. Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos.](inventory-visibility-available-to-promise.md)
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Saderība ar papildu noliktavas pārvaldības krājumiem
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Saderība ar noliktavas pārvaldības procesu (WMS) krājumiem
 
-Microsoft krājums, kas nodrošina ārpus kastes integrāciju ar papildu noliktavas pārvaldību (WHS), lai WHS debitori varētu gūt labumu no krājumu redzamības pakalpojuma. Katrā 2022. gada 1. laidiena laidienā (publiskais priekšskatījums martā), krājumu pakalpojums atbalsta WHS krājumu rīcībā esošos vaicājumus un ATP. Nākamajā laišanā WHS debitoriem tiks atbalstīts vieglās rezervēšanas un piešķiršanas līdzeklis. Papildinformāciju skatiet noliktavas [redzamības atbalsta sadaļā WHS krājumiem](inventory-visibility-whs-support.md).
+Microsoft krājums, kas nodrošina ārpus kastes integrāciju ar noliktavas pārvaldības procesiem (WMS), lai WMS debitori varētu gūt labumu arī no Krājumu redzamības pakalpojuma atvieglojumiem. Par 2022. gada 1. kopuma izlaidi (publiskais priekšskatījums martā), krājumu pakalpojums atbalsta WMS rīcībā esošo krājumu vaicājumus un ATP. Nākamajā laišanā WMS debitoriem tiks atbalstīta vieglās rezervēšanas un piešķiršanas funkcija. Papildinformāciju skatiet šeit: [Krājumu redzamības atbalsts WMS krājumiem](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Licencēšana
 

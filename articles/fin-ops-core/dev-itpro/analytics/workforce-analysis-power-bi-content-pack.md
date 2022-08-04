@@ -6,21 +6,22 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 264084
-ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "264084"
+ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.search.form: HcmWorkforceWorkspace
+ms.openlocfilehash: 156657e5f9876bd051f317f0bbcd8664807dd7d3
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884493"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206625"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Power BI satura pakotne Darbaspēka rādītāji
 
@@ -58,7 +59,7 @@ Tālāk esošajā tabulā ir uzskaitīti katrā pārskatā sniegtie rādītāji.
 Noteikti lejupielādējiet Power BI satura pakotni **Darbaspēka rādītāji**, kas attiecas uz izmantoto Microsoft Dynamics 365 versiju.
 
 > [!NOTE]
-> Pakalpojumā Lifecycle Services pieejamie .pbix formāta faili ir paredzēti tikai Finance and Operations programmām.
+> Pakalpojumā Lifecycle Services pieejamie .pb bez failiem tiek lietoti tikai finanšu un operāciju programmām.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Tālāk esošajā tabulā ir redzami elementi, uz kuriem šis saturs tika balstīts.

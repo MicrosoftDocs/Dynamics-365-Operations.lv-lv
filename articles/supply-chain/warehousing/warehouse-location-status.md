@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850414"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065470"
 ---
 # <a name="warehouse-location-status"></a>Noliktavas vietas statuss
 
@@ -165,7 +165,7 @@ Piemēra scenārijam sagatavojiet divus novietojuma profilus.
 1. Ņemiet vērā, ka lauks **Novietojuma statuss** tam novietojumam, no kura tika izdots pārdošanas pasūtījuma darbs, tagad ir iestatīts kā *Izdošana*, un ir atjaunināts lauks **Pēdējās aktivitātes datums un laiks**.
 
 > [!NOTE]
-> Novietojuma lauki tiek atjaunināti tikai ar noliktavas darbībām. Ja pārvietosit krājumus, izmantojot žurnālu vai citus procesus, kas nav noliktavas procesi, lauki netiks atjaunināti.
+> Novietojuma lauki tiek atjaunināti tikai ar noliktavas darbībām. Ja pārvietojat krājumus, izmantojot žurnālu vai citus procesus, kas nav WMS, lauki netiks atjaunināti.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

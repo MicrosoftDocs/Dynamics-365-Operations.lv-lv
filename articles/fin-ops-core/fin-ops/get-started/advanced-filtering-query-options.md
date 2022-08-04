@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856923"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123954"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
@@ -122,9 +122,9 @@ ms.locfileid: "8856923"
 <td>Divas secīgas dubultās pēdiņas (<strong>""</strong>) atrod rindas, kurām pašreizējai kolonnai nav vērtības.</td>
 </tr>
 <tr>
-<td>(<span class="code">Vaicājums Finanses un operācijas</span>) (Vaicājums Finanses un operācijas starp iekavām)</td>
+<td>(<span class="code">Finanšu un operāciju vaicājums</span>) (finanšu un operāciju vaicājums iekavās)</td>
 <td>Atbilst definētajam vaicājumam.</td>
-<td>Rakstiet vaicājumu kā SQL priekšrakstu iekavās, izmantojot vaicājuma valodu Finanses un operācijas.</td>
+<td>Ierakstiet vaicājumu kā SQL priekšrakstu iekavās, izmantojot finanšu un operāciju vaicājuma valodu.</td>
   <td><strong><span class="code">((AccountNum kā "US *") & & (DirPartyTable.Name piemēram, "* CONT"))</span></strong><br><br> 
        piemērs sintaksei filtra nosacījumam laukā no saknes datu avota, kā arī laukā no cita datu avota (visu klientu lapai)</td>
 </tr>

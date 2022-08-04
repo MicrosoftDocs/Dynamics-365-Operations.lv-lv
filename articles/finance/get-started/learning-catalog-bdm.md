@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eba7c10d08ade65f7ddf93cae06446b7e3452e37
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907839"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065305"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Mācību katalogs biznesa lēmumu pieņēmējiem, ņemot vērā Dynamics 365 finanses
 
@@ -31,7 +31,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 |---------|-------------|--------|--------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
-| [Sākt ar Finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis jūsu karjerai darbā ar Finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti ar jebkādu vēlamo lomu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Darba sākšana ar Dynamics 365 Finansēm](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finanses sniedz biznesa lietotājiem iespējas pielāgoties ātri maināmām biznesa vidēm. Tas uzņēmumiem nodrošina visu nepieciešamo, lai kontrolētu finanses un pārvaldītu līdzekļus ar precīzu informācijas apriti finanšu plānošanai un prognozēšanai, un lai palīdzētu uzturēt atjaunināšanu ar analīzes rīku palīdzību. Tā kā finanses ir jebkura biznesa pamatā, ir svarīgi esiet iepazinies ar Dynamics 365 Finanšu iespējām. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |
 | [Darba sākšana ar Izdevumu pārvaldību Dynamics 365 Project Operations](/learn/modules/get-started-expense-management/) | Izdevumu pārvaldības modulis Dynamics 365 Project Operations ļauj organizācijām izsekot un pārvaldīt darbinieku izdevumus. Izdevumu pārvaldība ļauj saglabāt maksājumu informāciju, importēt kredītkaršu darījumus un izsekot naudai, ko darbinieki tērē, kad rodas izdevumi jūsu organizācijai. Jūs varat arī iestatīt izdevumu politikas, automatizēt apstiprinājumus un nodrošināt racionalizētu biznesa procesu, izmantojot Project Operations. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 1 stunda |
 | [Darba sākšana ar Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Ar Dynamics 365 Intelligent Order Management debitori var pārvaldīt pasūtījumu instrumentāciju, lai izpildītu. Šīs iespējas ļauj organizācijām instrumentēt pasūtījumu plūsmas dažādās platformās un programmās. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 30 minūtes |

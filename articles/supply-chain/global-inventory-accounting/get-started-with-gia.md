@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013560"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177154"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Darba sākšana ar Globālo krājumu uzskaiti
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Globālā krājumu uzskaite ļauj veikt vairāku krājumu uzskaites Globālās krājumu uzskaites virsgrāmatās, kas iestatītas. Katru Globālās krājumu uzskaites virsgrāmatu jāsaista ar *konvenciju*. Konvencija ir šādu uzskaites ierobežojumu tipu apkopojums:
 
@@ -69,28 +67,34 @@ Pirms iespējot pievienojumprogrammas funkcionalitāti, jums jāintegrē ar Micr
 
 Papildinformāciju skatiet rakstā [Iestatīt pēc vides izvietošanas](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Pievienojumprogrammas instalēšana
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a> Instalēt vai atjaunināt pievienojumprogrammu un risinājumu
 
-Izpildiet šīs darbības, lai instalētu pievienojumprogrammu, kuru var izmantot Globālajai krājumu uzskaitei.
+Izmantojiet šo procedūru, lai instalētu vai atjauninātu Globālo krājumu uzskaites pievienojumprogrammu un risinājumu. Procedūras daļa, kas jums ir jāievēro, ir atkarīga no tā, vai instalējat pirmo reizi vai tikai nepieciešams atjaunināt risinājumu esošai instalācijai.
+
+- Ja pievienojumprogramma nekad nav instalēta iepriekš, izpildiet visas procedūras, lai instalētu gan pievienojumprogrammu, gan risinājumu.
+- Ja jūs jau izmantojat Globālo krājumu [Power Platform](https://admin.powerplatform.microsoft.com) uzskaiti, bet jums ir jāatjaunina risinājums administratora centrā, tad dariet tikai 6. soli un izlaidiet visus pārējos soļus.
+
+Lai instalētu vai atjauninātu pievienojumprogrammu un risinājumu:
 
 1. Pierakstieties [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Atveriet LCS vidi, kurā vēlaties pievienot pakalpojumu.
 1. Doties **Pilna detalizēta informācija**.
-1. Dodieties uz **Power Platform integrāciju** un atlasiet **Iestatīšana**.
+1. Dodieties uz **Power Platform Integrāciju** un atlasiet **Iestatījumi**.
 1. Dialoglodziņā **Power Platform vides iestatīšana** atzīmējiet izvēles rūtiņu un pēc tam atlasiet **Iestatīšana**. Parasti iestatīšana ilgst no 60 līdz 90 minūtēm.
-1. Kad vides iestatīšana ir Microsoft Power Platform pabeigta, [Power Platform](https://admin.powerplatform.microsoft.com) piesakieties administrēšanas centrā un pēc tam instalējiet globālo krājumu uzskaites pievienojumprogrammu, veicot šādas darbības:
-   1. Atlasiet vidi, kurā vēlaties instalēt pievienojumprogrammu.
+1. Kad vides Microsoft Power Platform iestatīšana ir pabeigta, piesakieties [Power Platform](https://admin.powerplatform.microsoft.com) administrēšanas centrā un pēc tam instalējiet vai atjauniniet globālo krājumu uzskaites risinājumu, veicot šādas darbības:
+   1. Atlasiet vidi, kurā vēlaties instalēt vai atjaunināt risinājumu.
    1. Atlasiet **Dynamics 365 programmas**.
    1. Atlasiet **programmu Instalēšana**.
    1. Atlasiet **Dynamics 365 globālo krājumu uzskaiti**.
    1. Atlasiet **Tālāk,** lai instalētu.
-1. Atgriezieties pie LCS vides. Kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+1. Kad risinājums ir pilnībā instalēts, atgriezieties pie LCS vides. Kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 1. Atlasiet **Globālā krājumu uzskaite**.
 1. Izpildiet instalācijas rokasgrāmatas darbības un akceptējiet nosacījumus un nosacījumus.
 1. Atlasiet **Instalēt**.
 1. Kopsavilkuma cilnē **Vides pievienojumprogramma** jūs redzēsiet, ka tiek instalēta Globālā krājumu uzskaite. Pēc dažām minūtēm statusam jāmainās no *Instalē* uz *Instalēts*. (Iespējams, ka ir jāatsvaidzina lapa, lai skatītu šīs izmaiņas.) Šajā brīdī Globālā krājumu uzskaite ir gatava lietošanai.
 
 Ja jūsu instalācijas noklusējuma valoda Dataverse nav angļu valoda, veiciet šādas darbības:
+
 1. Pārejiet uz **Papildu iestatījums \> Administrēšana \> Valodas**.
 1. Atlasiet *Angļu* (*ValodasKods=1033*) un pēc tam atlasiet **Lietot**.
 

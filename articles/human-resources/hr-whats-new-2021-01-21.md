@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1daf630d3a9354012db9b5b487d8a5ed11e0ed
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901094"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066706"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 21. janvāris
 
@@ -42,7 +42,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 | --- | --- | --- |
-| Platformas atjauninājums 10.0.16(40) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.16 (2021. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platformas atjauninājums 10.0.16(40) | -- | [Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.16 (2021. gada februāris)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Uzlaboti darbplūsmas pieprasījumi un apstiprinājumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Pieejamās aprūpes akta (ACA) saskaņotības atjauninājumi formai 1095-C, formai 1095-B un elektroniskie pārskati mantojuma atvieglojumos | -- | -- | 
 | Atvieglojumu pārvaldība tagad atbalsta ACA saskaņotības pārskatus ASV juridiskajām personām | -- | [Ģenerēt ACA pārskatus Atvieglojumu pārvaldībā](hr-benefits-management-aca-reports.md) |

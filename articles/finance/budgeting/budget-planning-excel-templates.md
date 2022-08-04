@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872504"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070670"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
@@ -79,7 +79,7 @@ Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķ
 [![Pievienot un ievietot kolonnu.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmatūru Dynamics 365 for Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
+> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Finanšu un operāciju saistītā tabula parasti tiek nosaukta kā "AXTable1". Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
 
 Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 
@@ -129,3 +129,4 @@ Varat arī izveidot un lietot rakurstabulas un diagrammas budžeta datu papildu 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

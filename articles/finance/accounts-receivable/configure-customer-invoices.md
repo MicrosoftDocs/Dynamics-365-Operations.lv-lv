@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876330"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129518"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -76,7 +76,7 @@ Kad grāmatojat rēķinu, daudzums **Rēķina atlikums** katram krājumam tiek a
 
 Inventāra transakcijas tiek atjauninātas ar rēķina numuru, un statuss pārdošanas pasūtījuma laukā **Rindas statuss** mainās uz **Iekļauts rēķinā**. 
 
-Pārdošanas pasūtījumu statusu skatiet saraksta lapā **Visi pārdošanas pasūtījumi**.
+Skatiet pārdošanas pasūtījumu statusu visu pārdošanas **pasūtījumu saraksta** lapā.
 
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Pārdošanas pasūtījumu vai pavadzīmju konsolidēšana grāmatošanai
 Izmantojiet šo procesu, kad viens vai vairāki pārdošanas pasūtījumi ir gatavi rēķina izrakstīšanai un vēlaties tos konsolidēt vienā rēķinā. 
@@ -90,6 +90,14 @@ Debitoru parādu parametru lapas cilnē Kopgrāmatošana **var konfigurēt pārd
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Grāmatot ieņēmumu kontā pārdošanas pasūtījuma rindām, kurās nav cenas un izmaksu
 Ir pieejama opcija, lai **virsgrāmatā** **atjauninātu ieņēmumu kontu pārdošanas** pasūtījuma rindām, kurām nav cenas un izmaksu. Lai iestatītu vai skatītu šo informāciju, **·** **·** **dodieties** uz kontu Grāmatot ieņēmumu kontā nulles cenai un nulles izmaksu pārdošanas pasūtījuma rēķina rindu parametru cilnē Virsgrāmata un PVN lapā Debitoru parādu parametri. (**Debitoru parādi > debitoru > parametru iestatīšanai**). Atlasiet **Jā,** lai atjauninātu **ieņēmumu** kontu pārdošanas pasūtījuma rēķina rindām, kam nav cenas un nav izmaksu. Ja ir atlasīta šī opcija, dokumentā būs 0,00 ieraksti debitoru bilances **un ieņēmumu** grāmatošanas **tipiem**. Ieņēmumu konts ir definēts krājumu grāmatošanas **parametru** lapā pārdošanas **pasūtījuma konta** definīcijas cilnē. Ja nav atlasīta šī opcija, rindas, kurās nav cenas vai izmaksu informācijas, netiek grāmatotas ieņēmumu **kontā**. Tā vietā dokumentā būs 0,00 ieraksts debitora bilances **grāmatošanas** tipam.
+
+## <a name="line-creation-sequence-number-information"></a>Informācija par rindu izveides secības numuru
+Grāmatojot debitora rēķina rindas, būs iespēja izveidot secīgus rindu izveides sērijas numurus. Rindu izveides secības numuri tiek piešķirti grāmatošanas procesa laikā. Atļaujot nes secības numerāciju, jūs varat palīdzēt uzlabot debitora rēķinu grāmatošanas veiktspēju. Rindas izveides sērijas numurus var izmantot trešās puses integrācija, kas gaida secības secību. Konsultējieties ar IT nodaļu par visiem paplašinājumiem, kas var integrēties ar rindu izveides secības numuriem.
+
+Lai iestatītu vai skatītu šo informāciju, **debitoru** parādu parametru lapā, **cilnē** Atjauninājumi iestatiet opciju Piešķirt secīgus rindu numurus, **grāmatojot debitora rēķina** rindas:
+
+- Iestatiet opciju Nē, lai **rindu** izveides secības numuriem izmantotu ne sērijas numerāciju.
+- Iestatiet opciju Jā **, lai** izmantotu secīgu numurēšanu. Juridisko personu, kurām ir primārā **adrese** Itālijā, opcija jāiestata kā Jā. Ja ir atspējots **vienums** **CustInvoiceTrans NoLineCreationSeqNumFlight,** tas ir jāiestata arī kā Jā.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildu iestatījumi, kas maina grāmatošanas darbību
 Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885817"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065904"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
 [!include [banner](../includes/banner.md)]
 
-Ja *Partijas lejpusēja\[novietojuma\]* tipa krājumu rezervēšanas hierarhija ir saistīta ar precēm, tad uzņēmumi, kuri pārdod pēc partijas izsekotās preces un nodrošina savu loģistiku kā operācijas, kas ir iespējotas Microsoft Dynamics 365 noliktavas vadības sistēmai (WMS), nevar rezervēt konkrētas šo preču partijas debitoru veiktiem pārdošanas pasūtījumiem.
+*\[\]* Ja partijas zemāka novietojuma tipa krājumu rezervāciju hierarhija ir saistīta ar precēm, uzņēmumi, kas pārdod partijas izsekotas preces un aktivizē to loģistiku kā operācijas, kas ir iespējotas noliktavas pārvaldības procesiem (WMS), nevar rezervēt noteiktas šo preču partijas debitora pārdošanas pasūtījumiem.
 
 Līdzīgā veidā licencētas numura zīmes nevar rezervēt precēm pārdošanas pasūtījumos, kad šīs preces ir saistītas ar noklusējuma rezervāciju hierarhiju.
 

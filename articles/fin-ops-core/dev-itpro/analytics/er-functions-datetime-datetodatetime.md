@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519932854dfd3e872433b0fb304e683c57cea1cb
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898496"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108503"
 ---
 # <a name="datetodatetime-er-function"></a>DATETODATETIME ER funkcija
 
@@ -47,7 +47,7 @@ Iegūtā datuma/laika vērtība.
 
 ## <a name="example-1"></a>1. piemērs
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` Atgriež pašreizējās Microsoft Dynamics 365 finanšu sesijas datumu, 2015. gada 24. decembris, **kā 12/24/2015 12:00:00 AM**. Šajā piemērā **CompInfo** ir elektronisko pārskatu (ER) datu avots ar veidu **Finance and Operations/Table**, un tas atsaucas uz tabulu CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` Atgriež pašreizējās Microsoft Dynamics 365 finanšu sesijas datumu, 2015. gada 24. decembris, **kā 12/24/2015 12:00:00 AM**. Šajā piemērā **CompInfo** ir finanšu un operāciju/**tabulas tipa elektronisko pārskatu (ER)** datu avots, un tas attiecas uz tabulu CompanyInfo.
 
 ## <a name="example-2"></a>2. piemērs
 

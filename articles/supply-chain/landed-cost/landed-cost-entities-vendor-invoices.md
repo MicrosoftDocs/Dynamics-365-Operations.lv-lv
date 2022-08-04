@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873932"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166749"
 ---
 # <a name="vendor-invoice-entities"></a>Kreditora rēķina elementi
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 Zemes **izmaksu modulis** ļauj konfigurēt izmaksu tipu kodus iekšējām izmaksām vai ārēji iegūtām izmaksām. Ja izmaksas uzņēmumā nav ārējas, no pakalpojumu sniedzēja tiek gaidīts rēķins. Šis rēķins tiek apstrādāts kā rēķinu žurnāls, ko var saistīt ar reisu, un rēķina vērtību var sadalīt starp vienu vai vairākām reisa izmaksām.
 

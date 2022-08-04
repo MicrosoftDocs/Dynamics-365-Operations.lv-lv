@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692427"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178539"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Attiecas uz:** savrupas infrastruktūras personāla vadība_ 
 
+> [!NOTE]
+> Sākot no 2022. gada jūnija, cilvēkresursu vides var izvietot tikai finanšu un operāciju programmas infrastruktūrai. Papildinformāciju skatiet finanšu [un operāciju infrastruktūras sadaļu Personāla vadības nodrošināšana](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finanšu un operāciju infrastruktūra neatbalsta kopijas instances funkciju. Varat izvietot jaunas vides un izmantot datu bāzes kustības, lai izveidotu kopijas. Papildinformāciju par pašapkalpošanās izvietošanu skatiet pārskatu [par pašapkalpošanās izvietošanu](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Papildinformāciju par datu bāzes kustību finanšu un operāciju infrastruktūrai skatiet datu bāzes [pārvietošanas operāciju mājas lapā](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Varat izmantot Microsoft Dynamics Lifecycle Services (LCS), lai kopētu Microsoft Dynamics 365 Human Resources datu bāzi uz smilškastes vidi. Ja jums ir cita smilškastes vide, varat arī kopēt datu bāzi no šīs vides uz mērķtiecīgu smilškastes vidi.
 
@@ -50,7 +55,7 @@ Kopējot Human Resources datu bāzi, notiek tālāk minētie notikumi.
 
 - Dokumenti Microsoft Azure Blob krātuvē netiek kopēti no vienas vides uz citu. Kā rezultātā visi pievienotie dokumenti un veidnes netiks kopētas un paliks avota vidē.
 
-- Visi lietotāji, izņemot tos, kuriem ir drošības loma Sistēmas administrators, un citi iekšējo pakalpojumu lietotāju konti nav pieejami. Administrators var dzēst vai aptumšot datus, pirms citi lietotāji drīkst ienākt atpakaļ sistēmā.
+- Visi lietotāji, izņemot tos, kuriem ir drošības loma Sistēmas administrators, un citi iekšējo pakalpojumu lietotāju konti nav pieejami. Lietotājs Administrators var dzēst datus, pirms citi lietotāji ir atļauti atpakaļ sistēmā.
 
 - Administratoram ir jāveic nepieciešamās konfigurācijas izmaiņas, piemēram, integrācijas galapunktu atkārtota pieslēgšana noteiktiem pakalpojumiem vai URL.
 
@@ -67,15 +72,17 @@ Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstietie
 
 3. Atlasiet instanci, kas jākopē, un pēc atlasiet **Kopēt**.
 
-4. Uzdevumrūtī **Kopēt instanci** atlasiet instanci, kuru pārrakstīt, un pēc tam atlasiet **Kopēt**. Uzgaidiet, līdz lauka **Kopēšanas statuss** vērtība tiek atjaunināta uz **Pabeigts**.
+4. Uzdevumrūtī **Kopēt instanci** atlasiet instanci, kuru pārrakstīt, un pēc tam atlasiet **Kopēt**. Uzgaidiet, līdz **lauks Kopēt** statusu tiks atjaunināts uz **Pabeigts**.
 
-   ![[Atlasiet instanci, kuru pārrakstīt.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Atlasīt pārrakstāmo instanci.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Atlasiet **Power Platform** un pierakstieties Microsoft Power Platform administrēšanas centrā.
 
-   ![[Atlasiet <a0/&Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Atlasiet Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Atlasiet Power Apps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
+
+Papildinformāciju par vides Power Apps kopēšanu skatiet sadaļā [Vides kopēšana](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Kad kopēšanas process ir pabeigts, pierakstieties mērķa instancē un iespējojiet Dataverse integrāciju. Papildinformāciju un instrukcijas skatiet [Pakalpojuma Dataverse integrācijas konfigurēšana](./hr-admin-integration-common-data-service.md).
 
@@ -115,7 +122,7 @@ Turklāt, kopējot instanci, mainās tālāk minētie statusi.
 
 ## <a name="environment-admin"></a>Vides administrators
 
-Visi mērķa smilškastes vides lietotāji, ieskaitot administratorus, tiek aizstāti ar avota vides lietotājiem. Pirms instances kopēšanas, pārliecinieties, ka esat administrators avota vidē. Ja neesat, nevarēsiet pierakstīties mērķa smilškastes vidē pēc tam, kad kopēšana tiks pabeigta.
+Visi mērķa smilškastes vides lietotāji, ieskaitot administratorus, tiek aizstāti ar avota vides lietotājiem. Pirms instances kopēšanas, pārliecinieties, ka esat administrators avota vidē. Ja ne, jūs nevarat pieteikties mērķa kastē vidē pēc kopēšanas pabeigšanas.
 
 Visi lietotāji, kuri nav administratori, ir atspējoti mērķa smilškastes vidē, lai novērstu neatļautu pierakstīšanos smilškastes vidē. Ja, nepieciešams, administratori var no jauna iespējot lietotājus.
 

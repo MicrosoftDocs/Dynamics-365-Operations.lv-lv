@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891036"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135605"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Plānošanas rīka kļūdas "Nav atrasts pietiekami daudz kapacitātes" novēršana
 
@@ -87,7 +87,7 @@ Lai pārskatītu plānošanas parametrus, izpildiet šīs darbības.
 
 ## <a name="review-capacity"></a>Pārskatiet noslodzi
 
-Šī kļūda var rasties, ja veicat plānošanu ar galīgu vērtību, taču nav pieejama noslodze.
+Kļūda var rasties, veicot ierobežotu plānošanu, bet nav brīvas noslodzes.
 
 Lai veiktu plānošanu ar bezgalīgu noslodzi, izpildiet šīs darbības.
 
@@ -99,17 +99,53 @@ Lai veiktu plānošanu ar bezgalīgu noslodzi, izpildiet šīs darbības.
 Lai pārskatītu pieejamo resursa noslodzi, izpildiet šīs darbības.
 
 1. Dodieties uz **Organizācijas pārvaldība \> Resursi \> Resursi** un atlasiet resursu, kas ir piemērojams pasūtījumam, kuru nevar ieplānot.
-1. Darbību rūts cilnes **Resursi** grupā **Skatīt** atlasiet opciju **Noslodze** vai **Noslodze grafiski** un pārliecinieties, ka ir pieejama noslodze.
+1. Darbību rūts **cilnē Resurss grupā** **Skats atlasiet Noslodzes grafiks vai** **·** **Noslodzes grafiks un pārliecinieties, vai ir pieejama noslodze.**
 
 Lai pārskatītu pieejamo resursu grupas noslodzi, izpildiet šīs darbības.
 
 1. Dodieties uz **Organizācijas pārvaldība \> Resursi \> Resursu grupas** un atlasiet resursu grupu, kas ir piemērojama pasūtījumam, kuru nevar ieplānot.
-1. Darbību rūts cilnes **Resursu grupa** grupā **Skatīt** atlasiet opciju **Noslodze** vai **Noslodze grafiski** un pārliecinieties, ka ir pieejama noslodze.
+1. Darbību rūtī cilnē Resursu **grupa** **grupā** Skats atlasiet Noslodzes grafiks **vai** **Noslodzes** grafiks un pārliecinieties, ka ir pieejama noslodze.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Vispārējās plānošanas grāmatas resursam, kad resursu kalendārs ir slēgts
 
 Izmantojot operāciju plānošanu, vispārējā plānošana plānos noslodzi saskaņā ar primārās resursu grupas kalendāru. Tā grāmatu par sekundāro operāciju vienlaicīgi ar primāro operāciju un neņemiet vērā sekundārās operācijas kalendārus vai noslodzi. Tā rezultātā ražošanas pasūtījums var tikt plānots slēgtā kalendārā vai laikā, kad sekundārā operācija nav pieejama (kalendārs slēgts, nav noslodzes).
 
 Izmantojot darbu plānošanu, vispārējā plānošanā, plānojot pasūtījumu, tiek ņemta vērā gan primārās, gan sekundārās operācijas noslodze un kalendārs. Lai pasūtījumu ieplānotu, kalendārus abu operāciju resursiem ir jābūt atvērtiem un tiem ir pieejama noslodze.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Maksimālais izpildes laiks ir par īsu
+
+Plānošanas programma nevarēs **plānot** pasūtījumu, ja atrašanās vietai iestatītais maksimālais darba izpildes laiks ir mazāks par krājumam norādīto izpildes laiku tā noklusējuma pasūtījuma iestatījumos vai vajadzības iestatījumos.
+
+Lai skatītu vai rediģētu **vietai iestatījumu** Maksimālais darba izpildes laiks, dodieties **\>\>** uz sadaļu Ražošanas kontroles iestatīšanas ražošanas kontroles parametri un atveriet **cilni** Vispārīgi.
+
+Lai skatītu vai rediģētu krājuma pasūtījuma noklusējuma iestatījumus, rīkojieties šādi:
+
+1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
+1. Sarakstā atrodiet un atlasiet atbilstošo preci.
+1. Darbību rūtī atveriet cilni Pārvaldīt krājumus **un** atlasiet Pasūtījuma noklusējuma **iestatījumus**.
+1. Izvērsiet kopsavilkuma cilni **Krājumi** un pēc nepieciešamības skatiet **vai rediģējiet krājumu izpildes** laika iestatījumu.
+
+Lai apskatītu vai rediģētu vajadzību iestatījumus krājumam, sekojiet šiem soļiem:
+
+1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
+1. Sarakstā atrodiet un atlasiet atbilstošo preci.
+1. Darbību rūtī atveriet cilni Plāns **un** atlasiet Krājumu **vajadzība**.
+1. Atveriet cilni **Izpildes laiks** un pēc nepieciešamības skatiet **vai rediģējiet** ražošanas laika vērtību.
+
+## <a name="excessive-quantity-of-required-resources"></a>Nepieciešamo resursu pārmērīga daudzums
+
+Plānošanas laikā programma mēģina saskaņot maršruta operācijai iestatīto resursu daudzumu ar piemērojamajiem resursiem saskaņā ar operācijas resursu prasībām. Pārāk liela resursu daudzuma iestatīšana var radīt to, ka maršruts nav realizējams, un tas radīs plānošanas kļūdu.
+
+Lai pārbaudītu gan norādīto daudzumu, gan pie piemērotos resursus atlasītajai precei, maršrutam un maršruta operācijai, izmantojiet šādas procedūras:
+
+1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
+1. Režģī atrodiet un atlasiet atbilstošo preci.
+1. Darbību rūtī atveriet cilni Inženiers **un** atlasiet **Maršrutu**.
+1. Režģī atrodiet un atlasiet atbilstošo maršrutu.
+1. Atveriet cilni **Pārskats** lapas apakšā.
+1. Atlasiet operāciju no izvēlēto maršruta operāciju saraksta.
+1. Atlasiet **Piederīgs** resursi, lai atvērtu dialogu, kur varat skatīt piederīgs resursus atlasītajai maršruta operācijai.
+1. Atveriet cilni **Resursu** noslodze. **Šeit** laukā Daudzums tiek rādīts resursu daudzums, kas vajadzīgs atlasītajai maršruta operācijai. Nepieciešamības gadījumā skatiet un/vai rediģējiet to.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

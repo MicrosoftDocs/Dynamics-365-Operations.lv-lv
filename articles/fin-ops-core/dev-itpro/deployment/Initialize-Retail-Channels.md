@@ -1,22 +1,22 @@
 ---
 title: Commerce Scale Unit (mākoņa) inicializēšana
 description: Šajā rakstā ir izskaidrots, kā inicializēt Commerce Scale Unit (mākonī)Microsoft Dynamics 365 Commerce.
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942857"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183369"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit (mākoņa) inicializēšana
 
@@ -36,7 +36,7 @@ Ja izmantojat 2. pakāpes tekstlodziņu vai ražošanas vidi, kuras programmas v
 3. Lai inicializētu Commerce Scale Unit, jums ir jābūt projekta īpašnieka atļaujām pakalpojumos Lifecycle Services.
 4. Pārliecinieties, vai vidē ir iespējotas mazumtirdzniecības licences konfigurācijas atslēgas. Papildinformāciju skatiet licences kodu [un konfigurācijas atslēgu pārskatā](../sysadmin/license-codes-configuration-keys-report.md). Lai lietotu Commerce Scale Unit, ir jābūt ieslēgtām šādām atslēgām.
 
-    - RetailBasic (mazumtirdzniecības preču basic
+    - RetailBasic
     - RetaileCommerce — ja plānojat izmantot pakalpojumu E-Commerce šim:Dynamics 365 Commerce.
     - RetailGiftCard — ja plānojat izmantot dāvanu kartes.
     - RetailInvent — ja plānojat izmantot krājumus.
@@ -51,30 +51,30 @@ Commerce Scale Unit ir pieejama izvietošanai tālākajos reģionos.
 
 | Globālā atrašanās vieta | Reģions              | Pieejamība        | Komentāri                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| AMERICAS        | ASV austrumi             | Vispārēji pieejams |                           |
-| AMERICAS        | ASV austrumi 2           | Vispārēji pieejams |                           |
-| AMERICAS        | ASV centrālā ziemeļu daļa    | Ierobežota noslodze    |                           |
-| AMERICAS        | ASV dienvidu centrālā daļa    | Ierobežota noslodze    |                           |
-| AMERICAS        | ASV centrālā daļa          | Vispārēji pieejams |                           |
-| AMERICAS        | ASV rietumi             | Vispārēji pieejams |                           |
-| AMERICAS        | Rietumu ASV 2           | Vispārēji pieejams |                           |
-| AMERICAS        | Kanādas Centrālā      | Ierobežota noslodze    |                           |
-| AMERICAS        | Kanādas austrumi         | Ierobežota noslodze    |                           |
-| AMERICAS        | Rietumu Centrālā ASV     | Ierobežota noslodze    |                           |
-| APAC            | Austrālijas austrumi      | Vispārēji pieejams |                           |
-| APAC            | Dienvidaustrumāzija      | Noslodze ierobežota | Izvietošana nav atļauta    |
-| APAC            | Japānas austrumi          | Vispārēji pieejams |                           |
-| APAC            | Japānas rietumi          | Vispārēji pieejams |                           |
-| APAC            | Austrālijas dienvidaustrumi | Vispārēji pieejams |                           |
-| APAC            | Austrumāzija           | Ierobežota noslodze    |                           |
-| APAC            | Indijas dienvidi         | Noslodze ierobežota | Izvietošana nav atļauta    |
-| APAC            | Indijas Centrālā       | Ierobežota noslodze    | Nepieciešams apstiprināšanas process |
-| EMEA            | Rietumeiropa         | Vispārēji pieejams |                           |
-| EMEA            | Ziemeļeiropa        | Vispārēji pieejams |                           |
-| EMEA            | Apvienotās Karalistes dienvidi            | Ierobežota noslodze    |                           |
-| EMEA            | Lielbritānijas Rietumi             | Ierobežota noslodze    |                           |
-| Šveice     | Šveices ziemeļi   | Ierobežota noslodze    | Nepieciešams apstiprināšanas process |
-| AAE             | Apvienoto Arābu Emirātu ziemeļi           | Ierobežota noslodze    | Nepieciešams apstiprināšanas process |
+| AMERICAS        | ASV austrumi             | Vispārēji pieejams |  Nav komentāru.                         |
+| AMERICAS        | ASV austrumi 2           | Vispārēji pieejams |  Nav komentāru.                          |
+| AMERICAS        | ASV centrālā ziemeļu daļa    | Ierobežota noslodze    |  Nav komentāru.                            |
+| AMERICAS        | ASV dienvidu centrālā daļa    | Ierobežota noslodze    |  Nav komentāru.                            |
+| AMERICAS        | ASV centrālā daļa          | Vispārēji pieejams |  Nav komentāru.                            |
+| AMERICAS        | ASV rietumi             | Vispārēji pieejams |  Nav komentāru.                            |
+| AMERICAS        | Rietumu ASV 2           | Vispārēji pieejams |  Nav komentāru.                            |
+| AMERICAS        | Kanādas Centrālā      | Ierobežota noslodze    |  Nav komentāru.                            |
+| AMERICAS        | Kanādas austrumi         | Ierobežota noslodze    |   Nav komentāru.                           |
+| AMERICAS        | Rietumu Centrālā ASV     | Ierobežota noslodze    |   Nav komentāru.                           |
+| APAC            | Austrālijas austrumi      | Vispārēji pieejams |   Nav komentāru.                           |
+| APAC            | Dienvidaustrumāzija      | Noslodze ierobežota | Izvietošana nav atļauta.    |
+| APAC            | Japānas austrumi          | Vispārēji pieejams |  Nav komentāru.                            |
+| APAC            | Japānas rietumi          | Vispārēji pieejams |   Nav komentāru.                           |
+| APAC            | Austrālijas dienvidaustrumi | Vispārēji pieejams |   Nav komentāru.                           |
+| APAC            | Austrumāzija           | Ierobežota noslodze    |   Nav komentāru.                           |
+| APAC            | Indijas dienvidi         | Noslodze ierobežota | Izvietošana nav atļauta.    |
+| APAC            | Indijas Centrālā       | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
+| EMEA            | Rietumeiropa         | Ierobežota noslodze    | Pašlaik nav pieejams LCS. |
+| EMEA            | Ziemeļeiropa        | Ierobežota noslodze    | Pašlaik nav pieejams LCS. |
+| EMEA            | Apvienotās Karalistes dienvidi            | Vispārēji pieejams |    Nav komentāru.                          |
+| EMEA            | Lielbritānijas Rietumi             | Vispārēji pieejams |    Nav komentāru.                          |
+| Šveice     | Šveices ziemeļi   | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
+| Aae             | Apvienoto Arābu Emirātu ziemeļi           | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
 
 Izvietošanas noslodze ierobežotās noslodzes reģionos ir īpaši ierobežota. Izvietošanas pieprasījumi katrā gadījumā tiek novērtēti pēc gadījuma. Ja ir nepieciešama uzņēmējdarbības vajadzība izvietošanai ierobežotās noslodzes reģionos, varat ievadīt atbalsta pieprasījumu pievienošanai gaidīšanas sarakstam. Pašlaik commerce Scale Unit izvietošanai nav atļauta noslodzes ierobežotās zonas. 
 

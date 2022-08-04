@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 259004773c4e5a7d8865d563da9bcfea3a116632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7fb922a35504b69aa8cc3d92cb981e8fb060290
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870963"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067592"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 12. jūlijs
 
@@ -80,7 +80,7 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 
 | Funkcija | Detalizētā informācija |
 | --- | --- |
-| Platformas atjauninājums 10.0.20 (44) | Ir ieplānots, ka platformas atjaunināšana 10.0.20 sāks izriti ar pakalpojuma laidienu 2021. gada 26. jūlijā. Papildinformāciju skatiet Programmu [Finanses un operācijas versijā 10.0.20 (2021. gada augustā)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Platformas atjauninājums 10.0.20 (44) | Ir ieplānots, ka platformas atjaunināšana 10.0.20 sāks izriti ar pakalpojuma laidienu 2021. gada 26. jūlijā. Plašāku informāciju skatiet Platformas [atjauninājumos finanšu un operāciju programmu versijai 10.0.20 (2021. gada augusts)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2021 laidiena 1. kopuma pārskats](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
@@ -92,3 +92,4 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

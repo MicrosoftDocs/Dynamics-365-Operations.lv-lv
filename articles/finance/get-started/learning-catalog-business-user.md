@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2c7b1faac6af3356e4621d932031e798413b6563
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889905"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069290"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Mācību katalogs Dynamics 365 Finanšu lietotājiem
 
@@ -31,7 +31,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 |---------|-------------|--------|--------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 8 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas   |
-| [Sākt ar Finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus.   Kā pirmais solis jūsu karjerai darbā ar Finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti ar jebkādu vēlamo lomu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus.   Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Darba sākšana ar Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Ar Dynamics 365 Intelligent Order Management debitori var pārvaldīt pasūtījumu instrumentāciju, lai izpildītu. Šīs iespējas ļauj organizācijām instrumentēt pasūtījumu plūsmas dažādās platformās un programmās. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 30 minūtes |
 | [Kurss MB-900T01-A: Dynamics 365 pamati](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kurss jūs iepazīstinās ar Dynamics 365 funkcionalitāti un biznesa vērtību. Kurss ietvers Dynamics 365 programmas, Power Platform, mākoņu koncepcijas, drošības modeli un licencēšanas apsvērumus. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 
@@ -39,8 +39,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 | Saturs | Apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Konfigurējiet savu organizāciju Finanšu un operāciju programmās](/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionāls konsultants, kas darbojas ar Finanšu un operāciju programmām, jums jāsaprot, kā iestatīt organizāciju savam klientam. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas  |
-| [Konfigurēt un strādāt ar analīzi un pārskatiem Finanšu un operāciju programmās](/learn/paths/configure-analytics-reporting-finance-operations/) | Biznesa līderi var pieņemt svarīgus lēmumus savā uzņēmumā, ja tiem ir precīza izpratne par pamata finanšu un darbības datiem. Biznesa lietotājs var arī konfigurēt un lietot elektronisko pārskatu veidošanas rīku bez vienas rindas koda, lai pieņemtu jaunus reglamentējošus nosacījumus un izveidotu biznesa dokumentus vajadzīgajā formātā, lai elektroniski apmainītos ar informāciju ar valdības institūcijām, bankām un citām pusēm. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
+| [Konfigurējiet savu organizāciju finanšu un operāciju programmās](/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionāls konsultants, kas strādā ar finanšu un operāciju programmām, jums jāsaprot, kā iestatīt organizāciju savam klientam. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas  |
+| [Konfigurēt un strādāt ar analītikai un pārskatiem finanšu un operāciju programmās](/learn/paths/configure-analytics-reporting-finance-operations/) | Biznesa līderi var pieņemt svarīgus lēmumus savā uzņēmumā, ja tiem ir precīza izpratne par pamata finanšu un darbības datiem. Biznesa lietotājs var arī konfigurēt un lietot elektronisko pārskatu veidošanas rīku bez vienas rindas koda, lai pieņemtu jaunus reglamentējošus nosacījumus un izveidotu biznesa dokumentus vajadzīgajā formātā, lai elektroniski apmainītos ar informāciju ar valdības institūcijām, bankām un citām pusēm. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
 
 ## <a name="financial-management"></a>Finanšu pārvaldība<a name="financial-management"></a>
 

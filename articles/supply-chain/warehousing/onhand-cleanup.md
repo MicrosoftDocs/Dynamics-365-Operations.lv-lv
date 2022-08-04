@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900511"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065155"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900511"
 
 Vaicājumu, kas tiek izmantoti rīcībā esošo krājumu aprēķināšanai, veiktspēju ietekmē to ierakstu skaits, kas atrodas iesaistītajās tabulās. Viens no veiktspējas uzlabošanas veidiem ir samazināt to ierakstu skaitu, kuri datu bāzei ir jāņem vērā.
 
-Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas tabulā InventSum un WHSInventReserve dzēš nevajadzīgos ierakstus. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WHS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
+Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas dzēš nevajadzīgos ierakstus un `InventSum` tabulas `WHSInventReserve`. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WMS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
 
 ## <a name="what-the-cleanup-job-does"></a>Kas ir tīrīšanas darbs
 
-Rīcībā esošo ierakstu tīrīšanas darbs dzēš visus ierakstus WHSInventReserve un InventSum tabulās, ja visas lauka vērtības ir *0* (nulle). Šos ierakstus var dzēst, jo tie neveicina rīcībā esošo informāciju. Darbs dzēš tikai tos ierakstus, kas ir zem līmeņa **Novietojums**.
+Rīcībā esošo ierakstu tīrīšanas darbs dzēš visus ierakstus no `WHSInventReserve``InventSum` un tabulām, kur visas lauka vērtības ir *0* (nulle). Šos ierakstus var dzēst, jo tie neveicina rīcībā esošo informāciju. Darbs dzēš tikai tos ierakstus, kas ir zem līmeņa **Novietojums**.
 
 Ja ir atļauti negatīvi fiziskie krājumi, tīrīšanas darbs, iespējams, nevarēs izdzēst visus atbilstošos ierakstus. Šī ierobežojuma iemesls ir tas, ka darbam ir jānodrošina īpašs scenārijs, kurā unikālajai noliktavas vienībai ir vairāki sērijas numuri, un viens no šiem sērijas numuriem ir kļuvis negatīvs. Piemēram, sistēmai būs nulle rīcībā esošajā unikālās noliktavas vienības līmenī, ja unikālajai noliktavas vienībai ir 1. sērijas numurs + 1 gab. un 2. sērijas numurs – 1 gab. Šajā īpašajā scenārijā darbs veic plašuma dzēšanu, vispirms mēģinot izdzēst no zemākiem līmeņiem.
 

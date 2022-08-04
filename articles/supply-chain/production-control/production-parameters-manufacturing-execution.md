@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: HT
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016164"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070385"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Ražošanas parametri ražošanas izpildes procesā
 
@@ -71,7 +71,7 @@ Katram posmam laukā **Automātisks MK patēriņš** var atlasīt vienu no trim
   - tukšs (nav opcija ir izvēlēta);
   - **Pieejams atrašanās vietā**.
 
-    Ja ražošanas izpildē cilnes **Sākums** laukā **Automātisks MK patēriņš** tika atlasīta metode **Norakstīšanas princips**, visi materiāli, kam iestatīta MK opcija **Sākums** tiek atvilkti no krājuma, kad operācija tiek sākta. Opcija **Pieejams atrašanās vietā** tiek izmantota precēm, kas ir iespējotas papildu noliktavas procesiem. Atlasot norakstīšanas principu, materiāli tiek norakstīti, kad izejmateriālu izdošanas noliktavas darbs ir pabeigts. Materiāli tiek norakstīti arī tad, kad MK rinda, kas izmanto šo norakstīšanas principu, tiek izdota noliktavā un materiāli ir pieejami ražošanas ievades atrašanās vietai.
+    Ja ražošanas izpildē cilnes **Sākums** laukā **Automātisks MK patēriņš** tika atlasīta metode **Norakstīšanas princips**, visi materiāli, kam iestatīta MK opcija **Sākums** tiek atvilkti no krājuma, kad operācija tiek sākta. Opcija **Pieejams atrašanās vietā** tiek izmantota precēm, kas ir iespējotas noliktavas vadības procesiem (WMS). Atlasot norakstīšanas principu, materiāli tiek norakstīti, kad izejmateriālu izdošanas noliktavas darbs ir pabeigts. Materiāli tiek norakstīti arī tad, kad MK rinda, kas izmanto šo norakstīšanas principu, tiek izdota noliktavā un materiāli ir pieejami ražošanas ievades atrašanās vietai.
 
     > [!NOTE]
     > Ja ražošanas izpildē laukam **Norakstīšanas princips** ir iestatīta opcija **Sākums**, tas pats princips ir jāatlasa cilnē **Operācijas** vai cilnē **Ziņot kā pabeigtu**. Šī prasība palīdz nodrošināt, ka materiāli tiek atskaitīti no tiem MK krājumiem, kuri ražošanas pasūtījumā kā norakstīšanas principu lieto opciju **Beigas**. Ja tas pats norakstīšanas princips nav atlasīts cilnē **Operācijas** vai **Ziņot kā pabeigtu**, materiāli var tikt atvilkti no krājumiem divas reizes.

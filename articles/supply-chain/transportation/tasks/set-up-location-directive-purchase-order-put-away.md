@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873497"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065500"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā skaidrots, kā iestatīt vienkāršu novietojuma direktīvu. Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros. Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF. Priekšnosacījumi: ir jāizveido atgriešanas metodes kods. Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes. Ja veidojat novietojuma direktīvu savos datos, jums jāiestata savai noliktavai un krājumiem papildu noliktavas pārvaldība. Šī procedūra ir paredzēta noliktavas pārvaldniekam.
+Šajā rakstā skaidrots, kā iestatīt vienkāršu novietojuma direktīvu. Parādītajā piemērā tiek izveidota novietojuma direktīva, ko jāizmanto, lai noteiktu vietu, kur ievietot krājumus, kuri ir saņemti pirkšanas pasūtījuma ietvaros. Šo uzdevumu ceļvedi var izpildīt, izmantojot minētos datus, izmantojot demonstrācijas datu uzņēmumu USMF. Priekšnosacījumi: ir jāizveido atgriešanas metodes kods. Šajā procedūrā mēs lietojam atgriešanas metodes kodu, ko sauc Mainīt etiķetes. Ja savus datos veidojat novietojuma direktīvu, noliktavai un krājumiem jāiestata noliktavas vadības procesi (WMS). Šī procedūra ir paredzēta noliktavas pārvaldniekam.
 
 1. Navigācijas rūtī ejiet uz **Moduļi > Noliktavas pārvaldība > Iestatīšana > Atrašanās vietas direktīvas**.
 2. Laukā **Darba pasūtījuma veids** atlasiet **Pirkuma pasūtījumi**.

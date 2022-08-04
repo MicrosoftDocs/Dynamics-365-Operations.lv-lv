@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902225"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065934"
 ---
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
@@ -52,11 +52,11 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda, pir
 <tbody>
 <tr class="odd">
 <td>Krājums</td>
-<td>Krājumam jābūt iespējotam noliktavas pārvaldības procesiem.</td>
+<td>Krājumam jābūt iespējotam noliktavas pārvaldības procesiem (WMS).</td>
 </tr>
 <tr class="even">
 <td>Noliktava</td>
-<td>Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem. Lai noliktavu aktivizētu noliktavas pārvaldības procesiem, lapā <strong>Noliktavas</strong> atlasiet noliktavu un pēc tam atzīmējiet opciju <strong>Izmantot noliktavas pārvaldības procesus</strong>. Lai cikla inventarizācijas laikā darbinieki varētu pārvietot paletes, kopsavilkuma cilnē <strong>Noliktavas pārvaldība</strong> atlasiet opciju <strong>Atļaut palešu pārvietošanu cikla inventarizācijas laikā</strong>.</td>
+<td>Noliktavai jābūt iespējotai noliktavas pārvaldības procesiem (WMS). Lai iespējotu WMS noliktavu, <strong></strong> lapā Noliktavas atlasiet noliktavu un pēc tam <strong>atlasiet opciju Izmantot noliktavas vadības procesus</strong>. Lai cikla inventarizācijas laikā darbinieki varētu pārvietot paletes, kopsavilkuma cilnē <strong>Noliktavas pārvaldība</strong> atlasiet opciju <strong>Atļaut palešu pārvietošanu cikla inventarizācijas laikā</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Darbu pūli</td>

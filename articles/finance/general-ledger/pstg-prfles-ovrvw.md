@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876129"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135849"
 ---
 # <a name="posting-profiles-overview"></a>Grāmatošanas metožu pārskats
 
-Finanšu un operāciju programmās termins "iegrāmatošanas profili" tiek izmantots, lai aprakstītu konfigurācijas, kas kontrolē, kā apakšgrāmatas konti tiek pārvērsti galvenajos kontos, tādējādi tos var izmantot darījumos, *kas* tiek grāmatoti virsgrāmatā. Piemēram, tās kontrolē veidu, kādā debitors tiek konvertēts uz debitoru parādu galveno kontu, kad tiek grāmatots rēķins.
+Finanšu un operāciju programmās termins "iegrāmatošanas profili" tiek izmantots, lai aprakstītu konfigurācijas, kas kontrolē, kā apakšgrāmatas konti tiek pārvērsti galvenajos kontos, tādējādi tos var izmantot darījumos, *kas* grāmatoti Virsgrāmatā. Piemēram, tās kontrolē veidu, kādā debitors tiek konvertēts uz debitoru parādu galveno kontu, kad tiek grāmatots rēķins.
 
 Dažiem moduļiem un funkcijām ir lapa, kas nosaukumā satur vārdus "grāmatošanas metode" (piemēram, debitora **grāmatošanas metode vai** Kreditora **grāmatošanas metode**). Turklāt dažiem moduļiem ir vairākas opcijas virsgrāmatas grāmatošanas konfigurēšanai darbībām, kas ģenerētas no apakšgrāmatas. Piemēram, ražošanas kontroles **modulī** varat iestatīt grāmatošanu pēc ražošanas grupas, resursa vai resursu grupas.
 
@@ -71,9 +71,9 @@ Ja dotajā grāmatošanas tipam jāizseko vairāki galvenie konti, ieteicams izm
 
 | Debitoru grupa | Nosaukums/vārds, uzvārds | Apraksts |
 |----------------|------|-------------|
-| ĀRĒJA | Ārējais debitors | Šī grupa tiek izmantota visiem standarta ārējiem debitoriem. |
-| EMP | Darbinieki | Šī grupa tiek izmantota visiem darbiniekiem, kuri veic pirkumus jūsu organizācijā. |
-| TIEŠAIS | Starpuzņēmumu pārdošana | Šī grupa tiek izmantota visiem starpuzņēmumu debitoru kontiem, kas tiek izmantoti ar integrācijas pārdošanas un pirkšanas pasūtījumiem. |
+| Ext | Ārējais debitors | Šī grupa tiek izmantota visiem standarta ārējiem debitoriem. |
+| Emp | Darbinieki | Šī grupa tiek izmantota visiem darbiniekiem, kuri veic pirkumus jūsu organizācijā. |
+| Int | Starpuzņēmumu pārdošana | Šī grupa tiek izmantota visiem starpuzņēmumu debitoru kontiem, kas tiek izmantoti ar integrācijas pārdošanas un pirkšanas pasūtījumiem. |
 
 Pēc tam grāmatošanas profilā jāiestata trīs rindas. Katrā rindā atlasiet grupas vērtību **un** saistīto galveno kontu.
 
@@ -111,13 +111,14 @@ Daudzi Dynamics 365 Finanses moduļi Dynamics 365 Supply Chain Management Dynami
 - Avansa norēķinu grāmatošana (drīzumā)
 - [Pamatlīdzekļu grāmatošanas metode](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Starpuzņēmumu grāmatvedības grāmatošana (drīzumā)
-- Noliktavas grāmatošanas metode (drīzumā)
+- [Krājuma grāmatošana](inventory-posting.md)
 - [Zemes izmaksu grāmatošana](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Grāmatošanas definīciju apskats](posting-definitions.md)
-- Ražošanas kontroles grāmatošana (drīzumā)
+- [Ražošanas uzdevuma grāmatošana](production-posting.md)
 - Projektu vadības un uzskaites grāmatošana (drīzumā)
 - Pakalpojumu pārvaldības grāmatošana (drīzumā)
 - Nodokļu grāmatošana (drīzumā)
 - Laika un apmeklētības grāmatošana (drīzumā)
 - Transportēšanas pārvaldības grāmatošana (drīzumā)
 - Atlaižu pārvaldības grāmatošanas profili (drīzumā)
+

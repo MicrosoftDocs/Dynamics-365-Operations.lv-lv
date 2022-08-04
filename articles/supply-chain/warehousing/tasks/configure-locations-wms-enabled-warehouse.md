@@ -1,6 +1,6 @@
 ---
 title: Vietu konfigurēšana noliktavā ar iespējotu NPS
-description: Šajā ceļvedī parādīts, kā konfigurēt novietojuma iestatīšanu jaunai noliktavai ar iespējotu NPS (noliktavai, kas izmanto papildu noliktavas pārvaldības procesus).
+description: Šajā rokasgrāmatā ir parādīts, kā konfigurēt atrašanās vietas iestatījumus jaunai, ar WMS iespējotu noliktavu (noliktava, kas izmanto noliktavas vadības procesus (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
-ms.translationtype: MT
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599352"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067279"
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Vietu konfigurēšana noliktavā ar iespējotu NPS
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Vietu konfigurēšana noliktavā ar iespējotu noliktavas pārvaldības sistēmu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā ceļvedī parādīts, kā konfigurēt novietojuma iestatīšanu jaunai noliktavai ar iespējotu NPS (noliktavai, kas izmanto papildu noliktavas pārvaldības procesus). Procesu parasti veic noliktavas pārvaldnieks. Šo ceļvedi varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai savus datus. Priekšnosacījums: jābūt konfigurētai vismaz vienai vietai.
+Šajā rokasgrāmatā ir parādīts, kā konfigurēt atrašanās vietas iestatījumus jaunai, ar WMS iespējotu noliktavu (noliktava, kas izmanto noliktavas vadības procesus (WMS)). Procesu parasti veic noliktavas pārvaldnieks. Šo ceļvedi varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai savus datus. Priekšnosacījums: jābūt konfigurētai vismaz vienai vietai.
 
 
 ## <a name="create-a-new-warehouse"></a>Jaunas noliktavas izveide
@@ -35,7 +35,7 @@ ms.locfileid: "7599352"
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
 5. Laukā **Vieta** atlasiet vai ierakstiet esošu vietas vērtību.
 6. Izvērsiet **Noliktava** atlasi.
-7. Iestatiet **Izmantot noliktavas vadības procesus opciju** uz Jā. Šis iestatījums ļauj palaist papildu noliktavas procesus, izmantojot noliktavas darbu un mobilās ierīces.
+7. Iestatiet **Izmantot noliktavas vadības procesus opciju** uz Jā. Izmantojot šo iestatījumu, varat darbināt noliktavas vadības procesus (WMS), izmantojot noliktavas darbu un mobilās ierīces.
 8. Aizvērt lapu.
 
 ## <a name="define-a-location-format"></a>Novietojuma formāta definēšana
@@ -68,7 +68,7 @@ ms.locfileid: "7599352"
 5. Aizvērt lapu.
 
 ## <a name="define-location-profile"></a>Novietojuma profila definēšana
-1. Dodieties uz **Navigācijas rūti > moduļi > Noliktavas pārvaldība > Iestatīšana > Noliktava > Atrašanās vietas profili**. Ir ļoti svarīgi definēt novietojuma profilus. Grupētu novietojumu noslodzes var kontrolēt šeit, kā arī politikas, saistībā ar kurām krājums tiek uzglabāts un kā tas tiek glabāts. Novietojumu profilus var izmantot kā filtrēšanas opcijas, lai kontrolētu dažādus noliktavas pārvaldības procesus. Lai iespējotu noliktavas pārvaldības procesus, ir jāizveido vismaz lietotāja novietojuma profils.
+1. Dodieties uz **Navigācijas rūti > moduļi > Noliktavas pārvaldība > Iestatīšana > Noliktava > Atrašanās vietas profili**. Ir ļoti svarīgi definēt novietojuma profilus. Grupētu novietojumu noslodzes var kontrolēt šeit, kā arī politikas, saistībā ar kurām krājums tiek uzglabāts un kā tas tiek glabāts. Novietojumu profilus var izmantot kā filtrēšanas opcijas, lai kontrolētu dažādus noliktavas pārvaldības procesus. Lai iespējotu WMS, jāizveido vismaz lietotāja atrašanās vietas profils.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Atrašanās vietas ID** ierakstiet vērtību.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.

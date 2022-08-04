@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844769"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103186"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Pārdošanas pasūtījumu mobilā darbvieta
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844769"
 
 Šajā rakstā ir sniegta informācija par pārdošanas pasūtījumu **mobilo** darbvietu. Šī darbvieta jums palīdz pastāvīgi būt informētam par saviem pārdošanas pasūtījumiem jebkurā vietā un jebkurā laikā. 
 
-Šo mobilo darbvietu ir paredzēts izmantot ar mobilo programmu Finanses un operācijas (Dynamics 365).
+Šo mobilo darbvietu ir paredzēts izmantot ar finanšu un operāciju (Dynamics 365) mobilo programmu.
 
 ## <a name="overview"></a>Pārskats
 Mobilajā darbvietā **Pārdošanas pasūtījumi** var apskatīt detalizētu informāciju par katru pārdošanas pasūtījumu. Šī informācija ietver pasūtījuma statusu, kontaktinformāciju par debitoru un kontaktinformāciju par pasūtījuma veicēju. Mobilā darbvieta **Pārdošanas pasūtījumi** sniedz iespēju nekavējoties skatīt pārdošanas pasūtījumus. Varat skatīt visus pārdošanas pasūtījumus, skatīt pārdošanas pasūtījumus pēc debitora vai skatīt informāciju par konkrētu pārdošanas pasūtījumu. 
@@ -118,7 +118,7 @@ Ja jūsu organizācijai ir izvietota Dynamics 365 for Operations versija 1611 a
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
-Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dynamics 365):
+Lejupielādējiet un instalējiet finanšu un operāciju (Dynamics 365) mobilo programmu:
 
 -   [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -143,3 +143,4 @@ Lejupielādējiet un instalējiet mobilo programmu Finanses un operācijas (Dyna
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

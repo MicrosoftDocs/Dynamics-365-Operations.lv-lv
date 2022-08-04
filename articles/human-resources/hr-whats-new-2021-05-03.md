@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df8bd0277e4f27c23ba25c886d12f589913e5d46
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902865"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066229"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2021. gada 3. maijs)
 
@@ -70,7 +70,7 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 
 | Funkcija | Detalizētā informācija |
 | --- | --- |
-| Platformas atjauninājums 10.0.18 (42) | Ir ieplānots, ka platformas atjaunināšana 10.0.18 sāks izriti ar pakalpojuma laidienu 2021. gada 17. maijā. Papildinformāciju skatiet Platformas [atjauninājumos Finanšu un operāciju programmu versijā 10.0.18 (2021. gada maijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platformas atjauninājums 10.0.18 (42) | Ir ieplānots, ka platformas atjaunināšana 10.0.18 sāks izriti ar pakalpojuma laidienu 2021. gada 17. maijā. Papildinformāciju skatiet platformas [atjauninājumos finanšu un operāciju programmu versijā 10.0.18 (2021. gada maijs)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Pielāgotā lauka atbalsts atvieglojumu pārvaldības atbilstības noteikumos  | [Pielāgots lauka atbalsts atbilstības apstrādei](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Pakalpojuma Dynamics 365 Human Resources 2021 laidiena 1. kopuma pārskats](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -83,3 +83,4 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

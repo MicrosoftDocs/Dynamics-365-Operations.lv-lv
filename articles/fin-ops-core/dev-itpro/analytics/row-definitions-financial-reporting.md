@@ -6,21 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 68873
-ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "68873"
+ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.search.form: FinancialReports
+ms.openlocfilehash: a60e66c372d85cc05219eaa17b7924aca5f3f337
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745916"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206324"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
 
@@ -42,7 +43,7 @@ Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda ka
 Rindas definīcijas var ietvert līdz 20 000 finanšu dimensiju rindu, kā arī tālāk minēto informāciju.
 
 - Aprakstošs teksts, kas piešķir atskaitei jēgu, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, **Skaidra nauda** vai **Kopējie ieņēmumi**.
-- Saites uz finanšu datiem, kuros var būt ietvertas dimensiju vērtības programmā Microsoft Dynamics 365 Finance.
+- Saites uz finanšu datiem, kas 365. finanšu datos Microsoft Dynamics var ietvert dimensiju vērtības
 
     > [!NOTE]
     > Varat iestatīt, lai katru reizi, kad tiek ģenerēts pārskats, rindu definīcijai tiktu iegūti dati no finanšu dimensiju sistēmas.

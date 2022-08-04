@@ -1,6 +1,6 @@
 ---
 title: Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
-description: Šajā rakstā ir aprakstīti ER bāzlīnijas funkcijas Microsoft Dynamics 365 for Finance and Operations uzlabojumi versijā 10.0.3 (2019. gada jūnijs).
+description: Šajā rakstā ir aprakstīti ER bāzlīnijas Microsoft Dynamics funkcijas uzlabojumi 365 finanšu versijā 10.0.3 (2019. gada jūnijs).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847406"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109148"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Uzlabot ģenerēto ER pārskatu rezultātu izsekošanu, lai salīdzinātu ar bāzlīnijas vērtībām
 
 [!include[banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīta pirmā uzlabojumu kopa, kas tika veikta elektronisko pārskatu (ER) struktūras bāzlīnijas funkcijai. Šie uzlabojumi ir pieejami Microsoft Dynamics 365 for Finance and Operations versijā 10.0.3 (2019. gada jūnijs) un jaunākās versijās.
+Šajā rakstā ir aprakstīta pirmā uzlabojumu kopa, kas tika veikta elektronisko pārskatu (ER) struktūras bāzlīnijas funkcijai. Šie uzlabojumi ir pieejami Microsoft Dynamics 365 Finanšu versijā 10.0.3 (2019. gada jūnijs) un vēlāk.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Bāzlīnijas kārtulu iestatīšanas automatizācija
 
@@ -208,3 +208,4 @@ Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e53b7667dd4589a7c6c14b8aaf8ba51017eee0d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877339"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068336"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Kravu un sūtījumu plānošana, izmantojot kravu plānošanas rīku
 
@@ -38,7 +38,7 @@ ms.locfileid: "8877339"
 7. Atlasiet preci **A0001**. **A0001** ir iespējots transportēšanas pārvaldībai.  
 8. Laukā **Vieta** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu, pēc tam atlasiet preci.
 9. Laukā **Daudzums** ierakstiet kādu skaitli.
-10. Laukā **Noliktava** šim piemēram ierakstiet vērtību '24'. Šī noliktava ir iespējota transportēšanas pārvaldībai un papildu noliktavas vadībai.  
+10. Laukā **Noliktava** šim piemēram ierakstiet vērtību '24'. Šī noliktava ir iespējota transportēšanas pārvaldības un noliktavas pārvaldības procesiem (WMS).  
 11. Atlasiet **Saglabāt**.
 12. Aizvērt lapu.
 

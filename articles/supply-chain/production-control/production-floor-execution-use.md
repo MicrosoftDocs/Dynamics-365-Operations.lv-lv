@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022528"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069792"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -217,7 +217,7 @@ Darbinieki var pielāgot materiālu patēriņu pieļaujamā svara krājumiem. Š
 
 Dialoglodziņā Pielāgot **materiālu darbinieks** var veikt un koriģēt materiālu rezervācijas, atlasot Rezervēt **materiālu**. Tiek **atvērts dialoglodziņš** Rezervēt materiālu, kurā ir redzami katras noliktavas un izsekošanas dimensijas fiziski pieejamie krājumi.
 
-Ja materiāls ir aktivizēts papildu noliktavas procesiem, saraksts parāda tikai fiziski pieejamo krājumu ražošanas ievades vietai materiālam. Ražošanas ievades vieta ir definēta resursā, kur ir plānots ražošanas darbs. Ja krājuma kods ir kontrolēts ar partiju vai sērijas numuru, tiek parādīts pilns fiziski pieejamo partijas un sērijas numuru saraksts. Lai norādītu rezervējajamo daudzumu, darbinieks var atlasīt Rezervēt **materiālu**. Lai noņemtu esošu rezervāciju, darbinieks var atlasīt Vienumu **Noņemt rezervāciju**.
+Ja materiāls ir iespējots noliktavas vadības procesiem (WMS), saraksts parāda tikai fiziski pieejamos krājumus ražošanas ievades vietai materiālam. Ražošanas ievades vieta ir definēta resursā, kur ir plānots ražošanas darbs. Ja krājuma kods ir kontrolēts ar partiju vai sērijas numuru, tiek parādīts pilns fiziski pieejamo partijas un sērijas numuru saraksts. Lai norādītu rezervējajamo daudzumu, darbinieks var atlasīt Rezervēt **materiālu**. Lai noņemtu esošu rezervāciju, darbinieks var atlasīt Vienumu **Noņemt rezervāciju**.
 
 Papildinformāciju par to, kā iestatīt ražošanas ievades vietu, skatiet šajā grāmatošanas vietā: [ražošanas ievades vietas iestatīšana](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

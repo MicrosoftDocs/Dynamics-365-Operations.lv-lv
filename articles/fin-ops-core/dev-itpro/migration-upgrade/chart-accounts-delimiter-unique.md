@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2fd29d747c7141b051e6c7c68db94abfd849f947
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866259"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123502"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Unikāla kontu plāna norobežotāja iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics AX 2012 kontu plānam un dimensijas vērtībām varēja izmantot vienu un to pašu norobežotāju. Pašreizējā Finanšu un operāciju versijās kontu plānam un dimensiju nosaukumiem vai vērtībām nevar būt vienāds norobežotājs. Ja norobežotājam ir dublikāts, to var mainīt pēc jaunināšanas. 
+Programmā Microsoft Dynamics AX 2012 kontu plānam un dimensijas vērtībām varēja izmantot vienu un to pašu norobežotāju. Pašreizējā finanšu un operāciju versijās kontu plānam un dimensiju nosaukumiem vai vērtībām nevar būt vienāds norobežotājs. Ja norobežotājam ir dublikāts, to var mainīt pēc jaunināšanas. 
 
 ## <a name="update-delimiter"></a>Norobežotāja atjaunināšana
 Ja ir radies konflikts ar kontu plānu, var mainīt kontu plāna norobežotāju un projekta/apakšprojekta ID formātu. Citus dimensiju norobežotājus nevar mainīt. 
@@ -39,3 +39,4 @@ Līdzīgi projekta/apakšprojekta ID visiem citiem pamatdatu ierakstiem, kas tie
 Ja norobežotāji jauninātajā vidē ir konfliktējoši, var veidoties nestabilitāte, ievadot vērtības segmentētas ievades vadīklā vai dimensiju ievades vadīklā. Tas nozīmē, ka būs nepieciešams vienmēr izmantot meklēšanas rezultātus vai uznirstošo izvēlni, ievadot kontu un dimensiju kombinācijas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

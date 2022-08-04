@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc8cd8616f1b82258fccbb2b41d5e72a90aaed63
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba24afd16a471abb36a6f7bc9a8610acec374190
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845117"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067977"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 5. oktobrī
 
@@ -41,7 +41,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 
 | Funkcija | Nodošanas izpildei plāns | Dokumentācija |
 |---|---|---|
-| Platformas atjauninājums 10.0.21 (45) | -- | [Platformas atjauninājumi Finanšu un operāciju programmu versijai 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platformas atjauninājums 10.0.21 (45) | -- | [Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.21 (2021. gada oktobris)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
@@ -86,7 +86,7 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 
 | Funkcija | Informācija |
 |---|---|
-| Platformas atjauninājums 10.0.22 (46) | Ir ieplānots, ka platformas atjauninājuma 10.0.22 izlaišana tiks sākta ar pakalpojuma laidienu 2021. gada 1. novembrī. Papildinformāciju skatiet Programmu [Finanses un operācijas versijā 10.0.22 (2021. gada novembrī)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platformas atjauninājums 10.0.22 (46) | Ir ieplānots, ka platformas atjauninājuma 10.0.22 izlaišana tiks sākta ar pakalpojuma laidienu 2021. gada 1. novembrī. Papildinformāciju skatiet platformas [atjauninājumos finanšu un operāciju programmu versijā 10.0.22 (2021. gada novembrī)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 
@@ -98,3 +98,4 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

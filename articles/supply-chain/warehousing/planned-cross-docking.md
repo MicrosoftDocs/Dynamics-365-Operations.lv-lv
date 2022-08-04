@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863684"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070295"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -118,7 +118,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Piegādes avots:** *Pirkuma pasūtījums*
 
 > [!NOTE]
-> Vaicājumu var iestatīt, lai kontrolētu, ja tiek izmantota īpaša pārkraušana sadales centra veidne. Veidnēm pārkraušanas sadales centra vaicājumam ir tikai tabula *InventTable* (krājumi) un iekšējā *WHSInventTable* (WHS krājumi) tabula. Ja vaicājumam vēlaties pievienot citas tabulas, varat tās pievienot, izmantojot tikai *esošos savienojumus* vai *neesošos savienojumus*. Filtrējot savienotās tabulas, katram atbilstošam ierakstam savienotajā tabulā tiek izgūts galvenās tabulas ieraksts. Ja savienojuma tips ir *esošie savienojumi*, meklēšana beidzas pēc pirmās atbilstības meklēšanas. Piemēram, ja pievienojat pārdošanas pasūtījuma rindu tabulu krājumu tabulai, sistēma validē un atgriež krājumus, kuriem vismaz vienai pārdošanas pasūtījuma rindai ir definēts nosacījums. Būtībā dati tiek iegūti no primāras (vienumu) tabulas, nevis no pakārtotās (pārdošanas pasūtījuma rindas) tabulas. Tāpēc filtrēšanu pēc pirmdokumentiem, piemēram, pārdošanas pasūtījuma rindām vai debitoriem, nevar veikt uzreiz.
+> Vaicājumu var iestatīt, lai kontrolētu, ja tiek izmantota īpaša pārkraušana sadales centra veidne. Veidnēm pārkraušanas sadales centra vaicājumam ir tikai tabula *InventTable* (krājumi) un iekšējā *WHSInventTable* (WMS krājumi) tabula. Ja vaicājumam vēlaties pievienot citas tabulas, varat tās pievienot, izmantojot tikai *esošos savienojumus* vai *neesošos savienojumus*. Filtrējot savienotās tabulas, katram atbilstošam ierakstam savienotajā tabulā tiek izgūts galvenās tabulas ieraksts. Ja savienojuma tips ir *esošie savienojumi*, meklēšana beidzas pēc pirmās atbilstības meklēšanas. Piemēram, ja pievienojat pārdošanas pasūtījuma rindu tabulu krājumu tabulai, sistēma validē un atgriež krājumus, kuriem vismaz vienai pārdošanas pasūtījuma rindai ir definēts nosacījums. Būtībā dati tiek iegūti no primāras (vienumu) tabulas, nevis no pakārtotās (pārdošanas pasūtījuma rindas) tabulas. Tāpēc filtrēšanu pēc pirmdokumentiem, piemēram, pārdošanas pasūtījuma rindām vai debitoriem, nevar veikt uzreiz.
 
 ### <a name="create-a-work-class"></a>Darba klases izveide
 

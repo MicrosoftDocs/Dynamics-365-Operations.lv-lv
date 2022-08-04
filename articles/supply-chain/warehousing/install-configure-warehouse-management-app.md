@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941771"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171461"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobilās programmas Warehouse Management instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> Šajā rakstā ir aprakstīts, kā konfigurēt jauno noliktavas pārvaldības mobilo programmu. Ja vēlaties meklēt informāciju par vecās Warehouse programmas konfigurēšanu (jau novecojusi), skatiet sadaļu [Warehouse lietotnes instalēšana un savienošana](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Šajā rakstā ir izskaidrots, kā lejupielādēt un instalēt noliktavas pārvaldības mobilo programmu katrā no mobilajām ierīcēm un kā konfigurēt programmu, lai savienotu ar jūsu Piegādes ķēdes pārvaldības vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 

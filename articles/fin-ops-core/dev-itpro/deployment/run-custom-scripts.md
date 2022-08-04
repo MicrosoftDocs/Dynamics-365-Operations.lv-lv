@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867334"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103526"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Pielāgotu X++ skriptu palaišana ar nulles dīkstāves laiku
 
@@ -120,7 +120,7 @@ Tālāk sniegtajā sarakstā ir aprakstītas dažas labākās prakses skripta ve
 
 Izmantojiet šo procedūru, lai augšupielādētu un palaistu skriptu.
 
-1. Finanšu un operāciju programmā dodieties uz sadaļu Sistēmas administrēšanas periodiskie **uzdevumi, datu \>\> bāzes pielāgotie skripti \>.**
+1. Finanšu un operāciju programmā dodieties uz sadaļu Sistēmas **administrēšanas periodiskie \> uzdevumi \> Datu \> bāzes pielāgotajiem skriptiem**.
 1. Atlasiet **Augšupielādēt**.
 1. Atlasiet izvietojamo pakotni, kuru izveidojāt, kā aprakstīts iepriekš šajā rakstā. Jums tiks piedāvāts norādīt skripta nolūku.
 1. Skriptu tagad jāapstiprina citam lietotājam, nevis lietotājam, kas to augšupielādēja. Apstiprinātājam ir jāveic šādas darbības:
@@ -149,6 +149,7 @@ Atlase pēdējā solī nosaka skripta beigu stāvokli. Ja nepieciešams, procesu
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Augšupielādēt un palaist izvietojamu pakotni, izmantojot LCS
 
-Tā vietā, lai izvietotu izvietojamo pakotni, izmantojot lietotāja interfeisu jūsu Finanšu un operāciju programmai, kā aprakstīts iepriekšējā sadaļā, varat to augšupielādēt LCS un izmantot regulāru procedūru tās izvietošanai. Papildinformāciju skatiet sadaļā [Izvietoto pakotņu instalēšana no komandrindas](../deployment/install-deployable-package.md).
+Tā vietā, lai izvietotu izvietojamo pakotni, izmantojot lietotāja interfeisu jūsu finanšu un operāciju programmai, kā aprakstīts iepriekšējā sadaļā, varat augšupielādēt to LCS un izmantot regulāru procedūru tās izvietošanai. Papildinformāciju skatiet sadaļā [Izvietoto pakotņu instalēšana no komandrindas](../deployment/install-deployable-package.md).
 
 Lai gan šai pieejai ir mazāk ierobežojumu, tā nodrošina mazāku kļūdu aizsardzību. Turklāt, tā kā tam ir jārestartē visi serveri, tas izraisīs dīkstāves laiku.
+

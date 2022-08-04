@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033665"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066423"
 ---
 # <a name="get-started-with-financial-reporting"></a>Darba sākšana ar finanšu pārskatiem 
 
@@ -151,7 +151,7 @@ Var izveidot neierobežotu pārskata koku skaitu, lai skatītu jūsu uzņēmuma 
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Finanšu pārskata atjaunināšana ar triecienvilni.
 
-Finanšu un operāciju programmas tiek atjauninātas katru mēnesi. Taču Finanšu pārskati ne vienmēr tiek atjaunināti šajā ritmā. Klientiem ir vairāk opciju par to, kad tie ievieš atjauninājumus Finanšu un operāciju programmām. Finanšu pārskatu atjauninājumi tiek instalēti automātiski. Finanšu pārskatam ir īpaša versija, kura tiek patērēta klienta vidē, kad tiek ieviests servisa atjauninājums, tiek iniciēts darbības pārtraukums vai kad klienta vide ir Apkopes režīmā. Šis process tiek saukts par *triecienvilni* vai *patieso līdzekli*, jo visi klientu ieviesumi ir iestatīti uz vienu un to pašu Finanšu pārskata versiju.
+Finanšu un operāciju programmas tiek atjauninātas katru mēnesi. Taču Finanšu pārskati ne vienmēr tiek atjaunināti šajā ritmā. Klientiem ir vairāk opciju par to, kad tie ievieš atjauninājumus finanšu un operāciju programmām. Finanšu pārskatu atjauninājumi tiek instalēti automātiski. Finanšu pārskatam ir īpaša versija, kura tiek patērēta klienta vidē, kad tiek ieviests servisa atjauninājums, tiek iniciēts darbības pārtraukums vai kad klienta vide ir Apkopes režīmā. Šis process tiek saukts par *triecienvilni* vai *patieso līdzekli*, jo visi klientu ieviesumi ir iestatīti uz vienu un to pašu Finanšu pārskata versiju.
 
 Katrā versijā izlaistās izmaiņas var atrast programmatūrā [Dynamics 365 Finance jaunā vai mainītā versijā](../../finance/get-started/whats-new-home-page.md). Platformu atjauninājumus un problēmu risinājumus var atrast sadaļā "Papildu resursi" katra laidiena lapas apakšdaļā.
 
@@ -254,3 +254,4 @@ Problēma: tiek parādīta kļūda "Nevar izveidot savienojumu ar finanšu pārs
 - [Pārskatu koka definīcijas finanšu pārskatos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
