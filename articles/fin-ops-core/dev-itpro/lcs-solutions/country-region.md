@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866542"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067688"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
@@ -62,8 +62,8 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 laidiena plāni
 [Dynamics 365 laidiena plāni](/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations programmu jaunumi
-Sadaļā [Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](../../fin-ops/get-started/whats-new-changed.md) ir uzskaitīti līdzekļi, kas iekļauti noteiktos Finance and Operations programmu laidienos.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finanšu un operāciju programmu jaunumi
+Sadaļā [Mājas lapa “Jaunumi un izmaiņas finanšu un operāciju programmās“](../../fin-ops/get-started/whats-new-changed.md) ir uzskaitīti līdzekļi, kas iekļauti noteiktos finanšu un operāciju programmu laidienos.
 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 Elektronisko pārskatu (ER) veidošanas rīks ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu likumu prasībām. ER jums ļauj šos formātus pārvaldīt to lietošanas cikla laikā. Papildinformāciju skatiet kādā no tālāk norādītajām tēmām.
@@ -133,3 +133,4 @@ Lai uzzinātu vairāk, skatiet [Palīdzības sistēma](../../fin-ops/get-started
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

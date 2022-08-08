@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906638"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206481"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Pārskatu veidošana un analīze, izmantojot Power BI sākumlapu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8906638"
 ## <a name="get-started"></a>Darba sākšana
 - [Piekļuve informācijai un atskaišu veidošana](information-access-reporting.md)
 - [Tehniskas sarunas: Atskaišu veidošanas opcijas](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Power BI Analīzes un Reporting Services emuārs](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (emuārs)
+- [finanses un operācijas: Power BI Analīzes un Reporting Services emuārs](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (emuārs)
 
 ## <a name="analytical-workspaces"></a>Analītiskās darbvietas
 Darbvietās var izmantot bagātīgas infografikas un vizuālos līdzekļus, ko atbalsta Microsoft Power BI. Šīs infografikas un vizuālie līdzekļi ietver daudzas trešo pušu nodrošinātās vadīklas. Tādējādi darbvietas lietotājiem var sniegt izteikti vizuālu un interaktīvu pieredzi.

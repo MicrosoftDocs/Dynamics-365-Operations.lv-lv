@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Platformas atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "Platformas atjauninājumi versijai 10.0.26 (2022.\_gada maijs)"
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: API caurlaides maksimizēšana
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: Finance and Operations savienotājs
+            - name: Finanšu un operāciju savienotājs
               href: data-entities/fin-ops-connector.md
             - name: Izstrāde integrācijai
               items:
@@ -106,39 +104,39 @@
                       items:
                         - name: No potenciālā klienta līdz skaidrai naudai
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
+                        - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem finanšu un operāciju programmā
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Programmā Finance and Operations ietverto preču tieša sinhronizēšana ar precēm programmā Sales
+                        - name: Finanšu un operāciju programmā ietverto preču tieša sinhronizēšana ar precēm programmā Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
+                        - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem finanšu un operāciju programmā
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
+                        - name: Finanšu un operāciju programmā ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
+                        - name: Pārdošanas pasūtījumu tieša sinhronizēšana no finanšu un operāciju programmas uz programmu Sales un otrādi
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
+                        - name: Finanšu un operāciju programmā ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Integrācijas konfigurēšana ar Field Service
                       items:
                         - name: Integrācijas konfigurēšanas ar Field Service pārskats
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
+                        - name: Finanšu un operāciju programmā ietverto preču sinhronizēšana ar precēm programmā Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations
+                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem finanšu un operāciju programmā
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
+                        - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem finanšu un operāciju programmā
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmu Finance and Operations
+                        - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar finanšu un operāciju programmu
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
+                        - name: Finanšu un operāciju programmā ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
+                        - name: Finanšu un operāciju programmā ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
+                        - name: Finanšu un operāciju programmā ietverto projektu saraksta sinhronizēšana ar programmu Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
+                        - name: Finanšu un operāciju programmā ietverto noliktavu sinhronizēšana ar programmu Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmā Finance and Operations
+                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu finanšu un operāciju programmā
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Project Service Automation integrācijas konfigurēšana
                       items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: Azure Resource Manager darbu izpildīšanas process ASV valdības LCS projektiem
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute un Finance and Operations
+                - name: Azure ExpressRoute un finanšu un operāciju programma
                   href: deployment/expressroute.md
-                - name: Finance and Operations arhitektūra
+                - name: Finanšu un operāciju arhitektūra
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Atjauninājumu lietošana mākoņvidēs
                   href: deployment/apply-deployable-package-system.md
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modeļi un pakotnes
                   href: dev-tools/models.md
-                - name: Finance and Operations projekta tips
+                - name: Finanšu un operāciju projekta tips
                   href: dev-tools/projects.md
                 - name: Rīku pievienojumprogrammas programmatūrai Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps paplašinājuma apmācība (publiskais priekšskatījums)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio paplašinājums (privāts priekšskatījums)
+                - name: Visual Studio paplašinājums (publiskais priekšskatījums)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Visual Studio Code paplašinājums (publiskais priekšskatījums)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse virtuālo elementu iespējošana
                   href: power-platform/enable-virtual-entities.md
-                - name: Power Apps portāli ar Finance and Operations
+                - name: Power Apps portāli ar finanšu un operāciju programmu
                   href: power-platform/power-portal-reference.md
-                - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajām entītijām
+                - name: Bieži uzdotie jautājumi par finanšu un operāciju virtuālajām entītijām
                   href: power-platform/faq.md
             - name: Biznesa notikumi
               items:
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Atbalsts
           items:
-            - name: Atbalsta saņemšana saistībā ar Finance and Operations un Lifecycle Services
+            - name: Atbalsta saņemšana saistībā ar finanšu un operāciju programmu un Lifecycle Services
               href: lifecycle-services/lcs-support.md
-            - name: Dynamics 365 atbalsta pārskats
+            - name: "Dynamics\_365 atbalsta pārskats"
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: "Atbalsta saņemšana saistībā ar Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
+            - name: "Atbalsta saņemšana saistībā ar finanšu un operāciju programmām\_— darbību nodrošina 21Vianet Ķīnā"
               href: lifecycle-services/21vianet-support.md
             - name: Tehniskā atbalsta iestatīšana finanšu un operāciju programmām
               href: lifecycle-services/support-experience.md
@@ -1698,9 +1696,9 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Jaunināt no AX 2012
               items:
-                - name: "Jaunināšana no AX\_2012 uz Finance and Operations"
+                - name: "Jaunināšana no AX\_2012 uz finanšu un operāciju programmu"
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: "AX\_2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
+                - name: "AX 2012 jaunināšana\_— Plānošana, izmantojot jauninājumu analizētāja rīku"
                   href: migration-upgrade/upgrade-analyzer-tool.md
                 - name: "AX\_2012 jaunināšana\_— Slodzes noteikšana, izmantojot koda jaunināšanas pakalpojumu"
                   href: migration-upgrade/analyze-code-upgrade.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: "Datu migrēšana no AX\_2009"
               items:
-                - name: "Datu migrēšana no AX\_2009 uz Finance and Operations"
+                - name: "Datu migrēšana no AX\_2009 uz finanšu un operāciju programmu"
                   href: migration-upgrade/data-migration-tool.md
                 - name: "AX\_2009 migrēšana\_— Datu migrēšanas rīka instalēšana"
                   href: migration-upgrade/install-dmt.md

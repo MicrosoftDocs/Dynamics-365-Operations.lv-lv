@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879081"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066063"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management sākumlapa
 
@@ -56,16 +56,16 @@ Informāciju par programmu Dynamics 365 Finance skatiet [Finance sākumlapā](.
 
 ## <a name="videos"></a>Videoklipi
 
-Šajā īsajā videoklipā apkopoti jaunie piegādes ķēdes pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 for Finance and Operations versijai 8.0 (2018. gada aprīlī).
+Šajā īsajā videoklipā apkopoti jaunie piegādes ķēdes pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 Finance versijai 8.0 (2018. gada aprīlī).
 
-- [Darba pasūtījumu sinhronizēšana starp Field Service un Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Darba pasūtījumu sinhronizēšana starp Field Service un finanšu un operāciju programmām](https://youtu.be/hAB4TDVMjxU)
 
-Šajos īsajos videoklipos apkopoti jaunie piegādes ķēžu pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 (2017. gada decembrī).
+Šajos īsajos videoklipos apkopoti jaunie piegādes ķēžu pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 Finance, Enterprise edition 7.3 (2017. gada decembrī).
 
 - [Optimizācijas padomnieks](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Noliktavas veidnes izmantošana, lai kopētu konfigurāciju](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Šajos īsajos videoklipos apkopoti jaunie piegādes ķēžu pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (2017. gada jūlijā).
+Šajos īsajos videoklipos apkopoti jaunie piegādes ķēžu pārvaldības līdzekļi, kas pievienoti Microsoft Dynamics 365 Finance, Enterprise Edition (2017. gada jūlijā).
 
 - [Darba sākšana ar moduli “Izmaksu uzskaite”](https://youtu.be/1pUDtJQZ8FU)
 - [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ Informāciju par programmu Dynamics 365 Finance skatiet [Finance sākumlapā](.
 - [Pirkšanas pasūtījumu apstiprināšana mobilajā ierīcē](https://youtu.be/gZ-gOlJe7H8)
 - [Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem](https://youtu.be/BtbuShkGj4I)
 
-Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes ķēžu pārvaldības funkcionalitāte no Finance and Operations iepriekšējām versijām. Šī funkcionalitāte tagad ir iekļauta programmā Dynamics 365 Supply Chain Management; pašreizējā versijā tiek lietoti tie paši jēdzieni un procedūras.
+Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes ķēžu pārvaldības funkcionalitāte no finanšu un operāciju programmu iepriekšējām versijām. Šī funkcionalitāte tagad ir iekļauta programmā Dynamics 365 Supply Chain Management; pašreizējā versijā tiek lietoti tie paši jēdzieni un procedūras.
 
 - **Izmaksu pārvaldība:**
   - [Izmaksu pārvaldības pārskats](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
