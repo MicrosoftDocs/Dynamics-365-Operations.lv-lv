@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186489"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335291"
 ---
 # <a name="priority-based-planning"></a>Uz prioritāti balstīta plānošana
 
@@ -30,7 +30,7 @@ Lai saņemtu ātru šīs funkcijas apskatu, skatiet sekojošo video: [Plānošan
 
 ## <a name="turn-on-priority-based-planning-in-your-system"></a>Ieslēgt prioritātes balstīts plānojums jūsu sistēmā
 
-Lai varētu izmantot šo līdzekli, sistēmā tas vispirms ir jāiespējo. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Vispārējā plānošana*
 - **Funkcionalitātes nosaukums:** *prioritātes vadīts MRP atbalsts optimizācijas plānošanai*
@@ -128,7 +128,7 @@ Piemēram, atkārtota pasūtījuma punkta daudzums tiek balstīts uz septiņu di
 
 ### <a name="manage-planning-priority-models"></a>Pārvaldīt plānošanas prioritāšu modeļus
 
-Strādāt ar plānošanas prioritāšu modeļiem. Izpildiet šīs darbības.
+Strādāt ar plānošanas prioritāšu modeļiem. Rīkojieties.
 
 1. Pāriet uz vispārējās **plānošanas iestatīšanas \> plānošanas \> prioritāšu modeļiem**.
 1. Atlasiet esošu modeli saraksta rūtī vai atlasiet Jauns **darbību** rūtī, lai izveidotu jaunu modeli.

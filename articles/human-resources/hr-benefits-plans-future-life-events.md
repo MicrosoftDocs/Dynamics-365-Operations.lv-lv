@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888859"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227991"
 ---
 # <a name="configure-future-life-events"></a>Konfigurēt nākotnes dzīves notikumus
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Varat plānot turpmākos dzīves notikumus Dynamics 365 Human Resources.
 
@@ -39,11 +40,12 @@ Varat plānot turpmākos dzīves notikumus Dynamics 365 Human Resources.
    | Dzīves notikums reģistrēts | Datums un laiks, kad reģistrēts dzīves notikums. |
    | Žurnāla tips | Parāda, vai tā ir viena no šīm darbībām:</br></br>- **Atjaunināt** — izmaiņas esošajā ierakstā, kas izseko dzīves notikumus</br></br>- **Ievietot** — jauna dzīves notikuma ieraksta izveide |
    | Dzīves notikuma veida ID | Dzīves notikuma veida unikālais identifikators. |
-   | Dzīves notikuma veids | Katalizators, lai atjauninātu darbinieka atvieglojumu reģistrāciju. Papildinformāciju skatiet sadaļā Dzīves notikumu izraisītāji. |
+   | Dzīves notikuma veids | Katalizators, lai atjauninātu darbinieka atvieglojumu reģistrāciju. Papildinformāciju skatiet sadaļā Dzīves notikums ar trigeriem. |
    | Statuss | Vai dzīves notikums ir vai nav apstrādāts. |
-   | Līnija | Turpmākā dzīves notikuma rindas numurs. |
+   | Rinda | Turpmākā dzīves notikuma rindas numurs. |
 
 4. Atlasiet **Saglabāt**. 
 
+Varat dzēst nākotnes dzīves notikumus. Ja apstrādāts nākotnes kalpošanas notikums tiek dzēsts, arī turpmākais ieraksts tiek dzēsts. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

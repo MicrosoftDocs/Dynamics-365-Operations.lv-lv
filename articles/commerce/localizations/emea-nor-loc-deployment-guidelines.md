@@ -2,23 +2,26 @@
 title: Izvietošanas vadlīnijas kases reģistriem Norvēģijai (mantojuma)
 description: Šis raksts ir izvietošanas rokasgrāmata, kurā parādīts, kā iespējot lokalizāciju Microsoft Dynamics 365 Commerce Norvēģijai.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894466"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346050"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Izvietošanas vadlīnijas kases reģistriem Norvēģijai (mantojuma)
 
 [!include [banner](../includes/banner.md)]
+
+> [!WARNING]
+> Šī fiskālās integrācijas parauga funkcionalitāte neizmanto fiskālās integrācijas [struktūras](./fiscal-integration-for-retail-channel.md) priekšrocības un vēlākos atjauninājumos tiks nolietota. Tā vietā izmantojiet funkcionalitāti [, kas ir balstīta uz fiskālās integrācijas struktūru](./emea-nor-fi-deployment.md).
 
 Šis raksts ir izvietošanas rokasgrāmata, kurā parādīts, kā iespējot lokalizāciju Microsoft Dynamics 365 Commerce Norvēģijai. Lokalizācija sastāv no vairākiem Commerce komponentu paplašinājumiem. Piemēram, paplašinājumi ļauj drukāt pielāgotos laukus kvītīs, reģistrēt papildu audita notikumus, pārdošanas darbības un maksājumu darbības Pārdošanas punktā (POS), digitāli parakstītas pārdošanas darbības un drukāt X un Z pārskatus lokālos formātos. Papildinformāciju par Norvēģijas lokalizāciju skatiet Kases [sistēmas funkcionalitāti Norvēģijai](./emea-nor-cash-registers.md).
 

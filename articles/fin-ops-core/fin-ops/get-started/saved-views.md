@@ -2,7 +2,7 @@
 title: Saglabātie skati
 description: Šajā rakstā ir aprakstīts, kā izmantot saglabātos skatu līdzekļus.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125156"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220338"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -31,11 +31,11 @@ ms.locfileid: "9125156"
 
 Personalizēšanai ir svarīga loma, lai ļautu lietotājiem un organizācijām optimizēt lietotāja pieredzi atbilstoši viņu vajadzībām. Papildinformāciju par personalizēšanu skatiet šeit: [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
-Tradicionālā personalizēšana ļauj lietotājiem vienā lapā veikt tikai vienu personalizācijas kopu. Ar **Saglabātajiem skatiem** personalizēšana tiek paplašināta vairākos svarīgos veidos:
+Tradicionālajai personalizēšanai ir pieejama tikai viena personalizēšanas kopa katrā lapā. Ar **Saglabātajiem skatiem** personalizēšana tiek paplašināta vairākos svarīgos veidos:
 
 - Skati ļauj lietotājiem iegūt vairākas personalizācijas kopas ar nosaukumu katrai formai, kuras pēc nepieciešamības var ātri mainīt. Tas ļauj lietotājam izveidot vairākus optimizētus lapas skatus, kur katrs skats ir pielāgots, lai atbilstu noteiktā biznesa uzdevuma veikšanas vajadzībām. 
 - Noteiktiem lapu tipiem izveidotie skati var ietvert arī lietotāja pievienotus filtrus vai sakārtojumus, kas ļauj lietotājiem ātri atgriezties pie parasti filtrētajām datu kopām. Papildinformāciju skatiet sadaļā [Lapas, kas atbalsta skatus](saved-views.md#what-pages-support-views). 
-- Skatus var publicēt lietotājiem ar noteiktām drošības lomām un konkrētām juridiskām personām. Tāpēc ikviens lietotājs, kuram ir noteikta loma un piekļuve noteiktai juridiskai personai, var piekļūt un lietot šo skatu, ja šim lietotājam nav atļaujas to personalizēt. Šī publicēšanas iespēja ļauj organizācijām definēt uzņēmumu, standarta skatus, kas ir optimizēti viņu uzņēmējdarbībai. Papildinformāciju skatiet sadaļā [Personalizēšanas pārvaldība organizācijas līmenī, izmantojot skatus](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+- Skatus var publicēt lietotājiem ar noteiktām drošības lomām un konkrētām juridiskām personām. Tāpēc jebkurš lietotājs, kuram ir noteikta loma un piekļuve norādītajai juridiskajai personai, var piekļūt šim skatam un to izmantot, pat ja šim lietotājam nav atļaujas personalizēt. Šī publicēšanas iespēja ļauj organizācijām definēt uzņēmumu, standarta skatus, kas ir optimizēti viņu uzņēmējdarbībai. Papildinformāciju skatiet sadaļā [Personalizēšanas pārvaldība organizācijas līmenī, izmantojot skatus](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 - Atšķirībā no tradicionālās personalizēšanas skati netiek automātiski saglabāti, kad lietotājs veic personalizāciju vai filtrē sarakstu. Lai piešķirtu lietotājiem elastību, lai izveidotu skatījumu pirms vai pēc izmaiņām, kas ir saistītas ar šo skatījumu, ir nepieciešamas tiešas saglabāšanas darbības. Šī prasība arī nodrošina, ka filtri vai personalizācijas, kas nav paredzētas ilgstošai lietošanai, neapzināti maina definīcijas. Katram skatījumam tiek saglabāti krājumi, kurus sistēma automātiski saglabā kā tipiskas lapas lietojuma daļu (piemēram, kolonnu platumi vai izvērsts vai sakļauts sadaļu stāvoklis).
 - Skatus var pievienot darbvietām kā mozaīkas, sarakstus vai saites. Tāpēc filtrēta datu kopa var tikt ieklāta darbvietā, un lietotāji var saistīt personalizācijas kopu, kas ir saistīta ar šo datu kopu ar mozaīku vai saiti.
 
@@ -46,7 +46,12 @@ Pēc tam, kad skati būs padarīti pieejami videi, jebkuras lapas augšdaļā, k
 Skata atlasītājam ir divi izmēru varianti: 
 
 - **Lieli skata atlasītāji** - lapās, kurās ir izcelts saraksts, būs lielāks skata atlasītājs vairāku iemeslu dēļ. Pats faktors, jo lielāks skatījuma atlasītājs norāda lapas, kur skatā var būt ietverti lietotāja definēti filtri un šķiro. Tā kā filtri un kārtošana ir ietverti skatos, tiek garantēts arī lielāks atlases lielums, jo skatījumu nosaukumi bieži būs ekrānam rādīto datu labākais apraksts, un paredzams, ka lietotāji šajos lapu tipos tiks mainīti starp skatījumiem bieži. Grupēšanu režģī var saglabāt arī skatos lapā ar lieliem skatījumu atlasītājiem. 
+    
+    [![Liels skatījuma atlasītājs, kas atbalsta vaicājuma modifikācijas skatā.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
+
 - **Mazi skata atlasītāji** - visām pārējām pilna ekrāna lapām (izņemot darbvietas un informācijas paneli) ir mazāks skata atlasītājs, kas tiek parādīts blakus lapas uzrakstam. Skatos šajās lapās ir ietvertas tikai personalizācijas, nevis lietotāja definēti filtri. Šajās lapās uzraksts vai ieraksta virsraksts bieži vien ir vissvarīgākā informācija lapas augšā. Skata atlasītāja mazāks lielums arī ataino mazāku prognozēto skatu pārslēgšanas biežumu nekā šajās lapās. 
+    
+    [![Mazs skatījuma atlasītājs, kas neatbalsta vaicājuma modifikācijas skatā.](./media/views-smallViewSelector.png)](./media/views-smallViewSelector.png)
  
 Atlasot skata nosaukumu, atveras skata atlasītājs un tajā tiek parādīts pieejamo skatu saraksts šai lapai.
 
@@ -64,6 +69,8 @@ Lai pārslēgtos uz citu skatu, vispirms atveriet skata atlasītāju un pēc tam
 Atšķirībā no tradicionālās personalizēšanas, skati netiek automātiski saglabāti, kad lietotājs personalizē lapu vai kad lietotājs lieto filtru sarakstam vai arī kārto to. Lai saglabātu šīs izmaiņas skatā, ir nepieciešama tieša darbība. Šī prasība dod lietotājiem elastību, lai izveidotu skatījumu pirms vai pēc izmaiņām, kas ir saistītas ar šo skatījumu, ir nepieciešamas tiešas saglabāšanas darbības. Tas arī nodrošina, ka vienreizēju filtru vai personalizācijas laikā netiek netīši mainītas definīcijas. Ņemiet vērā, ka parasti lapu lietojuma krājumi (piemēram, kolonnu platums vai sadaļu paplašināts vai sakļauts stāvoklis) tiek automātiski saglabāti pašreizējā skatā, pat bloķētiem skatiem.
 
 Lai nodrošinātu, ka pašreizējais skatījuma stāvoklis ir zināms, kad sākat mainīt skatu, to personalizējot vai filtrējot, blakus pašreizējam skata nosaukumam tiek parādīta zvaigznīte (\*). Šis simbols norāda, ka skatāt šo skatījumu nesaglabātā, pārveidotā versijā.
+
+[![Nesaglabātas izmaiņas skatījumā.](./media/views-unsavedChanges.png)](./media/views-unsavedChanges.png)
 
 Ja vēlaties saglabāt šīs izmaiņas, rīkojieties šādi.
 
@@ -117,7 +124,7 @@ Lai palīdzētu jums saprast, kā saglabātie skati palīdz uzlabot personalizā
 
 Bez skatiem administratori lietoja lapas personalizāciju kopu lietotājam vai lietotāju grupai, izmantojot lapu Personalizēšana. Ja šiem lietotājiem bija personalizēšanas tiesības, attiecīgajā lapā tika lietotas personalizācijas. Tomēr nebija iespējams novērst to, ka lietotāji varēja papildus personalizēt lapu, līdz ar to organizācija nevarēja nodrošināt, ka tās lietotājiem ir konsekvents lietotāja interfeiss. Ja kādam no šiem lietotājiem nebija personalizēšanas tiesību, personalizācijas, kuras tiem bija piešķīris administrators, netika ielādētas. Turklāt, ja organizācijā tika pieņemti darbā jauni lietotāji, administratoriem bija nepieciešams manuāli ielādēt lietotāja personalizāciju kopu. Nebija pieejams automātisks mehānisms, lai norādītu, ka noteiktai personalizāciju kopai jābūt pieejamai lietotājiem šajā lomā.
 
-**Saglabāto skatu** līdzeklis padara personalizāciju organizatorisko pārvaldību daudz vieglāku, galvenokārt pateicoties iespējai publicēt skatus lietotāju grupām. Pēc tam, kad skats ir publicēts, jebkurš lietotājs, kuram ir kāda no definētajām drošības lomām un piekļuve vienai no norādītajām juridiskajām personām, varēs skatīt un lietot skatu, pat ja arī šim lietotājam nav atļaujas to personalizēt. Lai gan katram lietotājam ir publicētā skata kopija, kurā tiek automātiski pielietotas lapas izmantošanas krājumi, tomēr neviens no lietotājiem nevar saglabāt publicētajā skatā personalizācijas vai vaicājuma atjauninājumus. Citiem vārdiem sakot, publicētie skati ir bloķēti. Turklāt, ja jaunajiem lietotājiem tiek dotas lomas juridiskām personām, kuras skatījumi tika publicēti, tie automātiski redzēs skatus, kas ir saistīti ar to lomām un juridiskajām personām. Administratoram nav jāveic papildu darbības. Tāpat, ja lietotāji maina lomas organizācijā vai ir devuši piekļuvi dažādām juridiskajām personām, tie var vairs nepiekļūt skatiem, kas iepriekš tika tiem publicēti. Pēc tam administratoram nav jāveic papildu darbības.
+**Saglabāto skatu** līdzeklis padara personalizāciju organizatorisko pārvaldību daudz vieglāku, galvenokārt pateicoties iespējai publicēt skatus lietotāju grupām. Pēc skata publicēšanas visi lietotāji, kuriem ir kāda no definētajām drošības lomām un piekļuve kādai no norādītajām juridiskajām personām, var skatīt un izmantot šo skatu pat tad, ja šim lietotājam nav piekļuves personalizēšanai. Lai gan katram lietotājam ir publicētā skata kopija, kurā tiek automātiski pielietotas lapas izmantošanas krājumi, tomēr neviens no lietotājiem nevar saglabāt publicētajā skatā personalizācijas vai vaicājuma atjauninājumus. Citiem vārdiem sakot, publicētie skati ir bloķēti. Turklāt, ja jaunajiem lietotājiem tiek dotas lomas juridiskām personām, kuras skatījumi tika publicēti, tie automātiski redzēs skatus, kas ir saistīti ar to lomām un juridiskajām personām. Administratoram nav jāveic papildu darbības. Tāpat, ja lietotāji maina lomas organizācijā vai ir devuši piekļuvi dažādām juridiskajām personām, tie var vairs nepiekļūt skatiem, kas iepriekš tika tiem publicēti. Pēc tam administratoram nav jāveic papildu darbības.
 
 Publicētā skata atjauninājumus var viegli izplatīt lietotājiem, atkārtoti publicējot skatu attiecīgajām drošības lomām un juridiskajām personām.
 
@@ -140,7 +147,7 @@ Lai publicētu skatu, veiciet šādas darbības.
     > [!NOTE]
     > Publicējot skatu kā noklusējuma skatu, ņemiet vērā šādus iestatījumus:
     >
-    > - Ja jūs publicējiet skatījumu kā noklusējuma skatu dažām vai visām juridiskajām personām, šāda rīcība notiek:
+    > - Ja jūs publicējiet skatījumu kā noklusējuma skatījumu dažām vai visām juridiskajām personām, notiek šāda darbība:
     >
     >    - Ja ir ieslēgta tikai iespēja **Saglabātie skati**, katram lietotājam tiek mainīts viens globālais noklusējuma skats. 
     >    - **Versija 10.0.21 vai jaunāka versija:** ja **Uzlabotās juridiskās personas atbalsts saglabātajiem skatiem** ir ieslēgts, un jūs publicējat skatu juridisko personu apakškopai, šo juridisko personu noklusējuma skats tiks mainīts katram mērķa lietotājam.
@@ -184,7 +191,7 @@ Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personaliz�
 
 Tāpat kā personisko skatu pārvaldības gadījumā dialoglodziņš **Pārvaldīt manus skatus** sniedz lietotājiem ar publicēšanas privilēģijām pamata uzturēšanas iespējas attiecīgajā lapā publicētajos skatos (papildus saviem personiskajiem skatiem). Lai atvērtu šo lapu, atlasiet skata nosaukumu, lai atvērtu skata atlasītāja nolaižamo izvēlni, atlasiet **Vairāk** un pēc tam atlasiet **Pārvaldīt manus skatus**.
 
-Lai gan visiem lietotājiem ir cilne **Mani skati**, kurā ir parādīti personiskie skati, lietotāji, kuriem ir publicēšanas privilēģijas ir arī cilne **Organizācijas skati**, kurā ir parādīti visi attiecīgās lapas publicētie un nepublicētie skati. Tā kā var būt vairāki lietotāji, kas varētu publicēt skatus, ir svarīgi, ka jūs varat pārvaldīt visus publicētos skatus pat, ja jūs neesat lietotājs, kurš ir publicējis doto skatu.
+Kaut arī visiem lietotājiem ir **cilne** Mani skati, kas parāda savus personiskos **skatus**, lietotājiem, kuriem ir publicēšanas privilēģijas, ir arī cilne Organizācijas skati, kurā ir parādīti visi šīs lapas publicētie un nepublicēti skati. Tā kā var būt vairāki lietotāji, kas varētu publicēt skatus, ir svarīgi, ka jūs varat pārvaldīt visus publicētos skatus pat, ja jūs neesat lietotājs, kurš ir publicējis doto skatu.
 
 Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu darbību kopums. 
 
@@ -199,7 +206,7 @@ Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu da
 Lai arī dažas pārvaldības iespējas ir uz katras lapas virsmas, kā norādīts šajā rakstā, **·** **sistēmas** administratori un saglabātie skatījumu administratori var pārvaldīt daudz precīzākus sistēmas **skatus, izmantojot lapu Personalizēšana.** Jo īpaši šai lapai ir tālāk minētās sadaļas un iespējas. 
 
 - **Publicētie skati** — šajā sadaļā uzskaita visus jūsu organizācijai publicētos skatus. No šejienes varat atkārtoti publicēt skatu, kad būsit pielāgojis drošības lomas vai juridiskās personas, kurām skats ir paredzēts. Jūs varat arī eksportēt, dzēst vai atsaukt skatu publicēšanu. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu personīgu skata kopiju, lai varētu atjaunināt skatu vai iegūt labāku izpratni par tā saturu. 
-- **Nepublicētie skati** — šajā sadaļā uzskaitītas visas jūsu sistēmā esošās organizācijas skati, kas pašlaik netiek publicēti. Šie skati visbiežāk nonāk sistēmā, izmantojot importēšanas iespēju. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu šo skatu personīgas kopijas, lai varētu atjaunināt skatu vai iegūt labāku izpratni par to saturu.
+- **Nepublicētie skati** — šajā sadaļā uzskaitītas visas jūsu sistēmā esošās organizācijas skati, kas pašlaik netiek publicēti. Šie skati visbiežāk nonāk sistēmā, izmantojot importēšanas iespēju. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Darbību Saglabāt kā personīgo **darbību varat** izmantot, lai izveidotu šo skatu personiskās kopijas, tādējādi varat labāk izprast šo skatu saturu.
 - **Personīgie skati** — šajā sadaļā uzskaitīti visi skati, kas ir sistēmas lietotāju izveidoti. No šejienes jūs varat publicēt personisku skatu organizācijai vai kopēt vienu vai vairākus no šiem skatiem citiem lietotājiem. Jūs arī varat eksportēt vai dzēst šos skatus, ja nepieciešams.
 - **Lietotāja iestatījumi** — atlasiet lietotāju, ko skatīt, vai pielāgojiet lietotāja spēju izmantot personalizēšanu vai nu visai sistēmai, vai arī noteiktām lapām, ko lietotājs ir apmeklējis. Varat skatīt un mijiedarboties ar lietotāja personalizācijām sistēmā. Varat arī dzēst visas šī lietotāja personalizācijas vai atiestatīt līdzekļa norādes lietotājam. Ja līdzekļa norādes tiek atiestatītas, visi uznirstošie logi, kas ievieš jaunus līdzekļus un ko lietotājs iepriekš noraidījis parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
 - **Sistēmas iestatījumi** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā neviena personalizācija netiek dzēsta nevienam lietotājam, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
@@ -225,7 +232,7 @@ Kad skati tiek iespējoti, visas esošās lietotāja un formas personalizācijas
 
 ### <a name="what-pages-support-views"></a>Kādas lapas atbalsta skatus? 
 
-Skati ir pieejami lielākajā daļā lapu, bet ne visās lapās. Konkrētāk, skati pašlaik ir pieejami visās pilnekrāna lapās, izņemot informācijas paneļus un darbvietas. Nepilnekrāna lapas, kas ietver dialoglodziņus, nolaižamos dialoglodziņus, uzmeklēšanas lodziņus un uzlabotos priekšskatījumus, pašlaik arī neatbalsta skatus. Skatu atbalsta ieviešana papildu lapu tipiem, piemēram, darbvietām un dialoglodziņiem, var būt iespējama turpmākos atjauninājumos.
+Skati ir pieejami lielākajā daļā lapu, bet ne visās lapās. Pašlaik skati ir pieejami visām pilnekrāna lapām, izņemot informācijas paneļus. Skatīt darbvietu atbalstu, ir pieejams, izmantojot darbvietas **līdzekli Saglabātie** skati. Pašlaik neatbalsta skatus, kas nav pilnekrāna lapas un kas ietver nolaižamos dialoglodziņus, uzmeklēšanas un uzlabotos priekšskatījumus. Izmantojot dialogu līdzekli Saglabātie skati **, ir pieejams atbalsts dialoglodziņiem**.
 
 ### <a name="who-is-allowed-to-publish-views"></a>Kam ir atļauts publicēt skatus?
 

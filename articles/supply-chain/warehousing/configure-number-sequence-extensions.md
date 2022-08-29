@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 62530c8ffc8be8d3bae562708872ba8eb00fa9cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b0102bde3548ccf976234e1938114289b80fbba
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847793"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335845"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Konfigurēt numuru sērijas noliktavas plūsmām
 
@@ -39,7 +39,7 @@ Līdzeklis pievieno šādu funkcionalitāti:
 
 ## <a name="turn-on-the-number-sequence-extensions-feature"></a>Ieslēgt līdzekli Numuru sērijas paplašinājumi
 
-Lai varētu izmantot līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms šo funkciju var lietot, tai jābūt ieslēgtai savā sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Numuru sērijas paplašinājumi*

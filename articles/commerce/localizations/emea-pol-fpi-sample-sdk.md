@@ -2,25 +2,29 @@
 title: Izvietošanas vadlīnijas fiskālā printera integrācijas paraugs Polijai (mantotais)
 description: Šajā rakstā ir sniegtas vadlīnijas par finanšu printera integrēšanas parauga izvietošanu Polijai no Microsoft Dynamics 365 Commerce mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851161"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337245"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Izvietošanas vadlīnijas fiskālā printera integrācijas paraugs Polijai (mantotais)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir sniegtas vadlīnijas par finanšu printera Microsoft Dynamics 365 Commerce integrēšanas parauga izvietošanu Polijai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Polijas [fiskālās printera integrācijas paraugs](emea-pol-fpi-sample.md). 
+> [!IMPORTANT]
+> Vadlīnijas šajā rakstā jālieto tikai tad, ja lietojat versiju Microsoft Dynamics 365 Commerce 10.0.28 vai agrāku versiju. No Commerce versijas 10.0.29 fiskālā printera integrācijas paraugs Polijai ir pieejams Commerce programmatūras izstrādes komplektā (SDK). Papildinformāciju skatiet kanāla [komponentu konfigurēšana](./emea-pol-fpi-sample.md#configure-channel-components).
+
+Šajā rakstā ir sniegtas vadlīnijas par fiskālā printera Dynamics 365 Commerce integrēšanas parauga izvietošanu Polijai no Retail SDK izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Polijas [fiskālās printera integrācijas paraugs](emea-pol-fpi-sample.md). 
 
 Polijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā rakstā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 

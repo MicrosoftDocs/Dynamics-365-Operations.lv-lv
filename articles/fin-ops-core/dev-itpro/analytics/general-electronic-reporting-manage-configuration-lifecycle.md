@@ -1,32 +1,32 @@
 ---
 title: Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
 description: Šajā rakstā ir aprakstīts, kā pārvaldīt Dynamics 365 Finance elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: HT
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109088"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337265"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronisko pārskatu veidošanas (ER) konfigurācijas dzīves cikla pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā pārvaldīt Dynamics 365 Finance elektronisko pārskatu (ER) konfigurāciju dzīves ciklu.
+Šajā rakstā ir aprakstīts, kā pārvaldīt [Dynamics](general-electronic-reporting.md) 365 Finance elektronisko pārskatu (ER) [konfigurāciju](general-electronic-reporting.md#Configuration) dzīves ciklu.
 
 ## <a name="overview"></a>Pārskats
 
@@ -84,7 +84,7 @@ Izstrādes vidē izstrādātās ER konfigurācijas var [augšupielādēt](#data
 
 ## <a name="data-persistence-consideration"></a>Datu noturības apsvērumi
 
-Dažādas ER [konfigurācijas](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) var [importēt](tasks/er-import-configuration-lifecycle-services.md) atsevišķi uz Finance instanci. Kad tiek importēta jauna ER konfigurācijas versija, sistēma kontrolē šīs konfigurācijas melnraksta versijas saturu:
+Dažādas ER [konfigurācijas](tasks/er-import-configuration-lifecycle-services.md) [versijas var importēt atsevišķi uz](general-electronic-reporting.md#Configuration) finanšu instanci. Kad tiek importēta jauna ER konfigurācijas versija, sistēma kontrolē šīs konfigurācijas melnraksta versijas saturu:
 
 - Kad importētā versija ir zemāka nekā visaugstākā šīs konfigurācijas versija pašreizējā Finance instancē, šīs konfigurācijas melnraksta versijas saturs paliek nemainīgs.
 - Kad importētā versija ir augstāka nekā jebkura cita šīs konfigurācijas versija pašreizējā Finance instancē, importētās versijas saturs tiek kopēts šīs konfigurācijas melnraksta versijā, lai ļautu turpināt rediģēt pēdējo pabeigto versiju.
@@ -105,6 +105,41 @@ Dažos gadījumos var būt nepieciešams, lai sistēma ignorētu konfigurētos p
 
     > [!NOTE]
     > Šis parametrs ir lietotājam raksturīgs un uzņēmumam raksturīgs.
+
+## <a name="dependencies-on-other-components"></a>Citu komponentu atkarības
+
+ER konfigurācijas var konfigurēt, kā atkarīgas [no](er-download-configurations-global-repo.md#import-filtered-configurations) citām konfigurācijām. Piemēram, [varat importēt ER datu modeļa konfigurāciju no globālā repozitorija savā Microsoft regulēšanas konfigurācijas pakalpojumos (RCS)](er-download-configurations-global-repo.md) vai Dynamics 365 finanšu instancē, un pēc tam izveidot jaunu [ER](er-overview-components.md#data-model-component)[...](../../../finance/localizations/rcs-overview.md)[...](er-overview-components.md#format-component)[formāta konfigurāciju, kas ir atvasināta no importētās ER datu modeļa konfigurācijas.](er-quick-start2-customize-report.md#DeriveProvidedFormat) Atvasinātā ER formāta konfigurācija būs atkarīga no bāzes ER datu modeļa konfigurācijas.
+
+![Atvasinātā ER formāta konfigurācija lapā Konfigurācijas.](./media/ger-configuration-lifecycle-img1.png)
+
+Kad formāta izstrāde pabeigta, varat mainīt ER formāta konfigurācijas sākotnējās versijas statusu no Melnraksts **uz** **Pabeigts**. Pēc tam varat kopīgot ER formāta konfigurācijas pabeigto versiju, publicējot [to globālajā](../../../finance/localizations/rcs-global-repo-upload.md) repozitorijā. Pēc tam varat piekļūt globālajai repozitorijai no jebkuras RCS vai Finanšu mākoņa instances. Varat importēt jebkuru ER konfigurācijas versiju, kas lietojumprogrammai ir piemērojama no globālā repozitorija šajā lietojumprogrammā.
+
+![Publicētā ER formāta konfigurācija konfigurācijas repozitorija lapā.](./media/ger-configuration-lifecycle-img2.png)
+
+Balstoties uz konfigurācijas atkarību, kad izvēlaties ER formāta konfigurāciju globālajā repozitorijā, lai importētu to uz jaunizveidotu RCS vai finanšu instanci, bāzes ER datu modeļa konfigurācija automātiski tiek atrasta globālajā repozitorijā un importēta kopā ar izvēlēto ER formāta konfigurāciju, kā bāzes konfigurāciju.
+
+Savu ER formāta konfigurācijas versiju var eksportēt arī no pašreizējās RCS vai finanšu instances un saglabāt to lokāli kā XML failu.
+
+![Eksportē ER formāta konfigurācijas versiju kā XML konfigurācijas lapā.](./media/ger-configuration-lifecycle-img3.png)
+
+**Finanšu versijās pirms versijas 10.0.29**, kad mēģināt importēt ER formāta konfigurācijas versiju no šī XML faila vai no repozitorija, kas nav Globālais repozitorijs jaunā izvietotā RCS vai finanšu instancē, kurā vēl nav nevienas ER konfigurācijas, tiks parādīts šāds izņēmums, lai jūs informētu, ka pamat konfigurāciju nevar iegūt:
+
+> Palikušas neatrisinātas atsauces.<br>
+Nevar izveidot objekta '\<imported configuration name\>' atsauci uz objektu 'Bāze' (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>).
+
+![Tiek importēta ER formāta konfigurācijas versija konfigurācijas repozitorija lapā.](./media/ger-configuration-lifecycle-img4.gif)
+
+**Ja** pamat konfigurāciju nevar atrast pašreizējā programmas instancē vai avota repozitorijā, ko pašlaik izmantojat (ja piemērojams), ER struktūra automātiski mēģinās atrast trūkstošās bāzes konfigurācijas nosaukumu globālajā repozitorija kešatmiņā. Tad tā piedāvās trūkstošās pamatkonfigurēšanas nosaukumu un globāli unikālo identifikatoru (GUID) izņēmuma, kas tiek izmests, tekstā.
+
+> Palikušas neatrisinātas atsauces.<br>
+Nevar izveidot objekta '\<imported configuration name\>' atsauci uz objektu 'Bāze' (\<name of the missed base configuration\>\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Izņēmums konfigurācijas repozitorija lapā, ja pamatkonfigurēšanu nevar atrast.](./media/ger-configuration-lifecycle-img5.png)
+
+Varat izmantot šo nosaukumu, lai atrastu pamat konfigurāciju un pēc tam to importētu manuāli.
+
+> [!NOTE]
+> Šī jaunā [opcija darbojas tikai tad, kad vismaz viens lietotājs jau ir pieteicies globālajā repozitorijā, izmantojot konfigurācijas repositories](er-download-configurations-global-repo.md#open-configurations-repository)[lapu vai vienu no globālajiem repozitorija uzmeklēšanas](er-extended-format-lookup.md) laukiem pašreizējā finanšu instancē un kad globālā repozitorija saturs ir ierakstīts kešatmiņā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

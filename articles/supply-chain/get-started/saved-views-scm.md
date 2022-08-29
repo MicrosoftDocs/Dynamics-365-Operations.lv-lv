@@ -2,7 +2,7 @@
 title: Standarta saglabātie skati Supply Chain Management
 description: Šajā rakstā ir aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot.
 author: kamaybac
-ms.date: 02/03/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f94fffb9aa2c208b8c2c0005a2892853eda66a01
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887578"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334841"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standarta saglabātie skati Supply Chain Management
 
@@ -47,15 +47,15 @@ Tabulā ir aprakstīti krājumu vadības modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Rīcībā esošā saraksts | Finanšu dati | Šis vienkāršotais skats ļauj fokusam uz finanšu informāciju, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Rīcībā esošā saraksts | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitātes kontroli, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Rīcībā esošā saraksts | saņemšanu, | Šis vienkāršotais skats ļauj koncentrēties uz saņemtajām darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Rīcībā esošā saraksts | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Transakcijas | Vienkāršots | Šis vienkāršotais skats ļauj pārskatīt krājumu statusu, netraucējot finanšu informāciju un citus laukus, kas tiek lietoti mazāk bieži. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Pārsūtīšanas pasūtījumi | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Pārsūtīšanas pasūtījumi | saņemšanu, | Šis vienkāršotais skats ļauj koncentrēties uz saņemšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Pārsūtīšanas pasūtījumi | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitāts kontroli, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Pārsūtīšanas pasūtījumi | Finanšu dati | Šis vienkāršotais skats ļauj koncentrēties uz finanšu informāciju, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Rīcībā esošā saraksts | Finanšu dati | Šis vienkāršotais skats ļauj fokusam uz finanšu informāciju, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Rīcībā esošā saraksts | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitātes kontroli, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Rīcībā esošā saraksts | Saņemšana | Šis vienkāršotais skats ļauj koncentrēties uz saņemtajām darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Rīcībā esošā saraksts | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt rīcībā esošos krājumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Transakcijas | Vienkāršots | Šis vienkāršotais skats ļauj pārskatīt krājumu statusu, netraucējot finanšu informāciju un citus laukus, kas tiek lietoti mazāk bieži. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Pārsūtīšanas pasūtījumi | Nosūtīšana | Šis vienkāršotais skats ļauj koncentrēties uz nosūtīšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Pārsūtīšanas pasūtījumi | Saņemšana | Šis vienkāršotais skats ļauj koncentrēties uz saņemšanas darbībām, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Pārsūtīšanas pasūtījumi | Kvalitātes kontrole | Šis vienkāršotais skats ļauj koncentrēties uz kvalitāts kontroli, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Pārsūtīšanas pasūtījumi | Finanšu dati | Šis vienkāršotais skats ļauj koncentrēties uz finanšu informāciju, kamēr pārvaldāt pārsūtīšanas pasūtījumus. | Saglabātie krājumu pārvaldības skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Vispārējā plānošanas moduļa saglabātie skati
 
@@ -63,8 +63,8 @@ Tabulā ir aprakstīti vispārīgajam modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Plānotie pasūtījumi: lapa Detalizēta informācija par plānoto pasūtījumu | Vienkāršoti | Vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti darbam ar viena plānotā pasūtījuma detaļām. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati plānotajiem pasūtījumiem<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Plānotie pasūtījumi: lapa Detalizēta informācija par plānoto pasūtījumu | Vienkāršots | Vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti darbam ar viena plānotā pasūtījuma detaļām. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati plānotajiem pasūtījumiem<br><br>(Pēc noklusējuma no versijas 10.0.25) |
+| Plānotie pasūtījumi: lapa Detalizēta informācija par plānoto pasūtījumu | Vienkāršoti | Vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti darbam ar viena plānotā pasūtījuma detaļām. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati plānotajiem pasūtījumiem<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Plānotie pasūtījumi: lapa Detalizēta informācija par plānoto pasūtījumu | Vienkāršots | Vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti darbam ar viena plānotā pasūtījuma detaļām. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati plānotajiem pasūtījumiem<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Sagādes un avotu moduļa saglabātie skati
 
@@ -72,10 +72,10 @@ Tabulā ir aprakstīti Sagādes un avotu modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Pirkšanas pasūtījuma dati | Pirkšanas pasūtījuma izveide | Šis vienkāršotais skats ir optimizēts jaunu pirkšanas pasūtījumu veidošanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pirkšanas pasūtījuma dati | Krājumu vadība | Šis vienkāršotais skats ir optimizēts ar krājumiem saistītu aktivitāšu veikšanai, piemēram, saņemtajiem krājumiem sekošanai, krājumu saņemšanai, neto prasību pārbaudei un pasūtījuma daudzumu pielāgošanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pirkšanas pasūtījuma dati | Finanšu pārvaldība | Šis vienkāršotais skats ir optimizēts ar finansēm saistītu aktivitāšu veikšanai, piemēram, cenu, kopsummu un maksu rēķinu izrakstīšanai un pārbaudei. | Saglabātie pirkšanas pasūtījumu skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pirkšanas pasūtījuma dati | Pasūtījuma apstiprinājums | Šis vienkāršotais skats ir optimizēts jaunu pirkšanas pasūtījumu apstiprināšanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
+| Pirkšanas pasūtījuma dati | Pirkšanas pasūtījuma izveide | Šis vienkāršotais skats ir optimizēts jaunu pirkšanas pasūtījumu veidošanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>Pēc noklusējuma no versijas 10.0.25. Obligāts no versijas 10.0.29.) |
+| Pirkšanas pasūtījuma dati | Krājumu vadība | Šis vienkāršotais skats ir optimizēts ar krājumiem saistītu aktivitāšu veikšanai, piemēram, saņemtajiem krājumiem sekošanai, krājumu saņemšanai, neto prasību pārbaudei un pasūtījuma daudzumu pielāgošanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>Pēc noklusējuma no versijas 10.0.25. Obligāts no versijas 10.0.29.) |
+| Pirkšanas pasūtījuma dati | Finanšu pārvaldība | Šis vienkāršotais skats ir optimizēts ar finansēm saistītu aktivitāšu veikšanai, piemēram, cenu, kopsummu un maksu rēķinu izrakstīšanai un pārbaudei. | Saglabātie pirkšanas pasūtījumu skati<br><br>Pēc noklusējuma no versijas 10.0.25. Obligāts no versijas 10.0.29.) |
+| Pirkšanas pasūtījuma dati | Pasūtījuma apstiprinājums | Šis vienkāršotais skats ir optimizēts jaunu pirkšanas pasūtījumu apstiprināšanai. | Saglabātie pirkšanas pasūtījumu skati<br><br>Pēc noklusējuma no versijas 10.0.25. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Preces informācijas pārvaldības moduļa saglabātie skati
 
@@ -83,11 +83,11 @@ Tabulā ir aprakstīti Preces informācijas pārvaldības modulim pieejamie sagl
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Izlaisto preču saraksts | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Nodoto preču papildinformācija | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Nodoto preču papildinformācija | Loģistikas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu loģistikas informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Nodoto preču papildinformācija | Pirkumu informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pirkumu informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Nodoto preču papildinformācija | Pārdošanas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pārdošanas informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Izlaisto preču saraksts | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Nodoto preču papildinformācija | Preces izveide | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, veidojot produktus. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Nodoto preču papildinformācija | Loģistikas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu loģistikas informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Nodoto preču papildinformācija | Pirkumu informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pirkumu informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Nodoto preču papildinformācija | Pārdošanas informācijas pārvaldība | Vienkāršots lapas skats, kurā iekļauti tikai tie lauki, kurus visbiežāk izmanto, pārvaldot produktu pārdošanas informāciju. | Saglabātie izlaisto preču skati<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Preču kontroles moduļa saglabātie skati
 
@@ -95,10 +95,10 @@ Tabulā ir aprakstīti Preču kontroles modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Ražosanas pasūtījumu informācijas lapa | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma no versijas 10.0.21) |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma no versijas 10.0.21) |
+| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Ražosanas pasūtījumu informācijas lapa | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabātie skati ražošanas kontrolei<br><br>(Pēc noklusējuma 10.0.21. versijā. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pārdošanas un mārketinga moduļa saglabātie skati
 
@@ -106,10 +106,10 @@ Tabulā ir aprakstīti Pārdošanas un mārketinga modulim pieejamie saglabātie
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Pavadzīmju žurnāls | Žurnāla pārskatīšana | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pavadzīmju žurnālu pārskatīšanai. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pārdošanas pasūtījums | Pasūtījuma izveide | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas pasūtījumu izveidei. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pārdošanas pasūtījums | Pasūtījuma pārskats | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas pasūtījumu pārskatīšanai. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Pārdošanas piedāvājums | Piedāvājuma izveide | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas piedāvājumu izveidei. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma no versijas 10.0.25) |
+| Pavadzīmju žurnāls | Žurnāla pārskatīšana | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pavadzīmju žurnālu pārskatīšanai. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Pārdošanas pasūtījums | Pasūtījuma izveide | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas pasūtījumu izveidei. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Pārdošanas pasūtījums | Pasūtījuma pārskats | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas pasūtījumu pārskatīšanai. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Pārdošanas piedāvājums | Piedāvājuma izveide | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti pārdošanas piedāvājumu izveidei. | Pārdošanas un mārketinga moduļa saglabātie skati<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Noliktavas pārvaldības moduļa saglabātie skati
 
@@ -117,13 +117,13 @@ Tabulā ir aprakstīti Noliktavas pārvaldības modulim pieejamie saglabātie sk
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Visas kravas | Ienākošās plūsmas apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošās kravas plūsmas apstrādei. | Saglabātie skati noslodzes apstrādei<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Visas kravas | Izejošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti izejošās kravas plūsmas apstrādei. | Saglabātie skati noslodzes apstrādei<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Visi sūtījumi | Ienākošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Visi sūtījumi | Izejošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Visi kopumi | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kopuma apstrādei<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Kravu plānošanas rīks | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kravu plānošanas rīkam<br><br>(Pēc noklusējuma no versijas 10.0.25) |
-| Detalizēta informācija par darbu | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats darba detalizētās informācijas lapai<br><br>(Pēc noklusējuma no versijas 10.0.25) |
+| Visas kravas | Ienākošās plūsmas apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošās kravas plūsmas apstrādei. | Saglabātie skati noslodzes apstrādei<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Visas kravas | Izejošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti izejošās kravas plūsmas apstrādei. | Saglabātie skati noslodzes apstrādei<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Visi sūtījumi | Ienākošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Visi sūtījumi | Izejošā apstrāde | Šis vienkāršotais skats ietver tikai tos laukus, kas visbiežāk tiek izmantoti ienākošo kravu apstrādei. | Saglabātie skati sūtījuma apstrādei<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Visi kopumi | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kopuma apstrādei<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Kravu plānošanas rīks | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kravu plānošanas rīkam<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
+| Detalizēta informācija par darbu | Vienkāršots | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats darba detalizētās informācijas lapai<br><br>(Pēc noklusējuma 10.0.25. versijā. Obligāts no versijas 10.0.29.) |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

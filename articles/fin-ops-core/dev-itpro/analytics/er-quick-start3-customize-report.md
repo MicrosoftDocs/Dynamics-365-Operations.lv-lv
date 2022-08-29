@@ -1,28 +1,26 @@
 ---
 title: Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
 description: Šajā rakstā skaidrots, kā pielāgot Microsoft nodrošinātās elektronisko pārskatu (ER) konfigurācijas, kas tiek izmantotas, lai ģenerētu pielāgotu elektronisku dokumentu.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854703"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278952"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
 
@@ -310,7 +308,7 @@ Kā lietotājs elektronisko pārskatu funkcionālā konsultanta lomā jūs varat
 5. Laukā **Nosaukums** ievadiet **Rēķina modelis (Litware)**.
 6. Atlasiet **Izveidot konfigurāciju**, lai pievienotu jaunu ER konfigurāciju.
 
-Varat izmantot ER datu modeļa izstrādātāju, lai rediģētu **Rēķina modeļa (Litware)** versijas 50.1 ER konfigurāciju **Melnrakstā** [statuss](general-electronic-reporting.md#component-versioning).
+Tagad varat izmantot ER datu modeļu veidotāju, lai rediģētu rēķina modeļa (Litware) **ER** konfigurācijas versiju 50.1 **melnraksta** statusā.
 
 ![ER konfigurācijas versija 50.1 Konfigurāciju lapā.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ Lai pievienotu jaunu federālā nodokļa identifikācijas koda vērtību, ir jā
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Pabiegt pielāgotu ER datu modeļa konfigurāciju
 
-Jums ir [jāpabeidz](general-electronic-reporting.md#component-versioning) darbs ar jūsu pielāgotās ER datu modeļa konfigurācijas versiju 50.1, lai to padarītu pieejamu, lai varētu pievienot citas pielāgotus ER konfigurācijas.
+Jums ir jāpabeidz darbs ar jūsu pielāgotās ER datu modeļa konfigurācijas versiju 50.1, lai to padarītu pieejamu, lai varētu pievienot citas pielāgotus ER konfigurācijas.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam atlasiet **Rēķina modelis (Litware)**.
@@ -394,7 +392,7 @@ Jums ir jāmodificē pielāgotā modeļa kartēšana un jādefinē, kā pielāgo
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Pabiegt pielāgotu ER modeļa kartēšanas konfigurāciju
 
-Jums ir [jāpabeidz](general-electronic-reporting.md#component-versioning) darbs ar jūsu pielāgotās ER modeļa kartēšanas konfigurācijas versiju 50.19.1, lai to padarītu pieejamu lietošanai.
+Jums ir jāpabeidz darbs ar jūsu pielāgotās ER modeļa kartēšanas konfigurācijas versiju 50.19.1, lai to padarītu pieejamu lietošanai.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Lapā **Konfigurācijas** konfigurācijas koka skata kreisajā rūtī izvērsiet **Debitora rēķina modelis** \> **CDebitora rēķina modeļa kartēšana** un atlasiet **Rēķina modeļa kartēšana (Litware)**.
@@ -428,7 +426,7 @@ Kā lietotājs elektronisko pārskatu funkcionālā konsultanta lomā jūs varat
 
 ![Pielāgota formāta pievienošana konfigurācija lapā Konfigurācijas.](./media/er-quick-start3-adding-custom-format.png)
 
-Tagad varat izmantot ER operācijua izstrādātāju, lai rediģētu **Peppol pārdošanas rēķinu (Litware)** versijas 11.2.2.1 ER konfigurāciju **Melnrakstā** [statuss](general-electronic-reporting.md#component-versioning).
+Tagad varat izmantot ER operāciju veidotāju, lai rediģētu 11.2.2.1 **ER konfigurācijas Pārdošanas rēķina (litware)** ER **versijas melnraksta** statusā.
 
 ![ER konfigurācijas versija 11.2.2.1 Konfigurāciju lapā.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ Jums ir jāmodificē pielāgotais formāts, pievienojot jaunu formāta elementu,
 
 #### <a name="complete-a-custom-format-configuration"></a>Pielāgotas formāta konfigurācijas pabeigšana
 
-Jums ir [jāpabeidz](general-electronic-reporting.md#component-versioning) darbs ar jūsu pielāgotās ER formāta konfigurācijas versiju 11.2.2.1, lai to padarītu pieejamu lietošanai.
+Lai jūsu pielāgotā ER formāta konfigurācijas 11.2.2.1 strādātu ar to, jums ir jāpabeidz jūsu darbs ar versiju.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Lapā **Konfigurācijas** konfigurācijas koka skata kreisajā rūtī izvērsiet **Debitora rēķina modelis** \> **UBL pārdošanas rēķins** \> **Peppol pārdošanas rēķins** un atlasiet **Peppol pārdošanas rēķins (Litware)**.
@@ -650,7 +648,7 @@ Versijas 32.6.7.2 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ver
 3. Darbības rūtī, kas atrodas grupā **Dokumenti** atlasiet **Sūtīt** \> **Oriģināls**.
 
     > [!NOTE] 
-    > Tā kā jums tagad ir divas **Peppol pārdošanas rēķina (litware)** ER formāta konfigurācijas versijas un nevienai versijai nav [spēkā esošā datuma](general-electronic-reporting.md#component-date-effectivity) vērtības, e-rēķina ģenerēšanai tiek izmantota jaunākā versija.
+    > Tā kā tagad ir divas **Veidota pārdošanas rēķina (Litware)** ER formāta konfigurācijas versijas, un nevienai versijai nav spēkā stāšanās datuma vērtības, pēdējā versija tiek izmantota e-rēķina ģenerēšanas laikā.
 
 4. Aizveriet lapu **Brīva teksta rēķins**.
 

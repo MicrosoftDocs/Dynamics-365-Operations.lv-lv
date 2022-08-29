@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895201"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227781"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu
 
@@ -78,6 +78,8 @@ Priekšapmaksu var noņemt no pirkšanas pasūtījuma, ja vien jūs jau neesat n
 Lai ierakstītu kreditora priekšapmaksas rēķinu, dodieties uz lapu **Kreditora rēķins**, atlasot opciju **Priekšapmaksas rēķins** lapā **Pirkšanas pasūtījumi** (**Kreditoru parādi \> Kopējais \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi \> Rēķina cilne \> Priekšapmaksas rēķins**). Ievadiet informāciju par priekšapmaksas rēķinu, tostarp rēķina numuru. Priekšapmaksas rēķina daudzumus mainīt nevar. Ja kreditoram ir izrakstīts rēķins par iepirkuma pasūtījumā definētās priekšapmaksas vērtības daļēju summu, var atjaunināt vienības cenu, lai atspoguļotu daļējo vērtību.
 
 Grāmatojot priekšapmaksas rēķinu, tiek atjaunināts kreditora atlikums un priekšapmaksas konts. Tiks atjaunināta arī vērtība **Priekšapmaksas pieteikums** priekšapmaksas definīcijā, kas ietverta pirkšanas pasūtījumā. Noklusējuma finanšu dimensijas ieraksti grāmatotajā priekšapmaksas dokumentā tiks ņemti no virsraksta informācijas pirkšanas pasūtījumā.
+
+Ja kreditoru **priekšapmaksas rēķina lapas** **rēķina** rindu finanšu bloķēšanas funkcija ir ieslēgta, tad priekšapmaksas galvenes vai rindu dimensijas nevar atjaunināt. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Grāmatot un nosegt maksājumus priekšapmaksas rēķinam
 Pēc tam priekšapmaksas rēķins tiks apmaksāts no lapas **Maksājumu žurnāls**. Lai piekļūtu maksājumu žurnāliem, noklikšķiniet uz **Kreditoru parādi u maksājumu \> Žurnāli \> Maksājumi \> Maksājumu žurnāls**. Pēc maksājuma nosegšanas iegrāmatošanas priekšapmaksas rēķinā, tiks atjaunināta pirkšanas pasūtījuma **Priekšapmaksas pieteikuma atlikusī** vērtība.

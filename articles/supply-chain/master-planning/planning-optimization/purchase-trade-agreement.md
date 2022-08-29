@@ -2,7 +2,7 @@
 title: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 description: Šajā rakstā ir aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotajam pasūtījumam, balstoties uz labāko cenu vai izpildes laiku, kas atrodams pirkšanas tirdzniecības līgumos.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873758"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335231"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873758"
 
 Šajā rakstā ir aprakstīts, kā plānošanas optimizācija var atrast kreditoru un/vai izpildes laiku plānotajam pasūtījumam, pamatojoties uz labāko cenu vai izpildes laiku, kas tiek atrasts starp visiem pirkšanas tirdzniecības līgumiem, kas ir noteikti norādītajai precei.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Pirkšanas tirdzniecības līgumu ieslēgšana plānošanas optimizācijas līdzeklim
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Ieslēgt vai izslēgt pirkšanas tirdzniecības līgumus optimizācijas līdzeklim Plānošana
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šis līdzeklis ir uzskaitīts tālāk minētajā veidā.
-
-- **Modulis:** *Vispārējā plānošana*
-- **Līdzekļa nosaukums:** *pirkšanas tirdzniecības līgumi plānošanas optimizācijai*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Pirkšanas tirdzniecības līgumus plānošanas *optimizācijas*[līdzeklim līdzekļu pārvaldības darbvietā.](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Sagatavojiet savu sistēmu, lai novērtētu pirkšanas tirdzniecības līgumus vispārējās plānošanas laikā
 

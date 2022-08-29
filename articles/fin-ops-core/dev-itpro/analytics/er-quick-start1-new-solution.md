@@ -1,28 +1,26 @@
 ---
 title: Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 description: Šajā rakstā skaidrots, kā projektēt elektronisko pārskatu (ER) risinājumu pielāgota pārskata drukāšanai.
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847493"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281788"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -289,7 +287,7 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu datu modeļa konfig
 
 ![Rediģējamās konfigurācijas versijas Konfigurāciju lapā.](./media/er-quick-start1-model-configuration.png)
 
-Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skatiet [Elektronisko pārskatu (ER) apskatu](general-electronic-reporting.md#component-versioning).
+Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skatiet [Elektronisko pārskatu (ER) apskatu](general-electronic-reporting.md).
 
 > [!NOTE]
 > Konfigurētais datu modelis ir jūsu **anketas** biznesa domēna abstrakts attēlojums un nesatur saistības ar artefaktiem, kas ir specifiski Microsoft Dynamics 365 Finansēm.

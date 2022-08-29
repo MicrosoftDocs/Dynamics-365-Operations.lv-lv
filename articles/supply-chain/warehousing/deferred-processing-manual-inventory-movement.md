@@ -2,7 +2,7 @@
 title: Atliktā manuālās krājumu kustības apstrāde
 description: Šajā rakstā ir aprakstīts, kā izmantot atlikto manuālo krājumu kustības apstrādi programmā Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863742"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336401"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Atliktā manuālās krājumu kustības apstrāde
 
@@ -32,10 +32,10 @@ Fona apstrāde tiek sasniegta, izmantojot [līdzekli Procesa noliktavas programm
 
 Lai padarītu šo līdzekli pieejamu, ieslēdziet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Tās jāslēdz šādā secībā:
 
-1. *Organizācijas mēroga darba aizturēšana*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
-1. *Apstrādāt noliktavas programmas notikumus*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25, šī funkcija ir ieslēgta pēc noklusējuma.)
-1. *Atliktas izvietošanas operācijas*
-1. *Krājumu manuālas pārvietošanas operācijas atliktā apstrāde*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25, šī funkcija ir obligāta, tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt.)
+1. *Organizācijas mēroga darba aizturēšana*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir obligāta un to nevar izslēgt.)
+1. *Apstrādāt noliktavas programmas notikumus*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
+1. *Atliktas izvietošanas operācijas*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
+1. *Krājumu manuālas pārvietošanas operācijas atliktā apstrāde*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir obligāta un to nevar izslēgt.)
 
 ## <a name="configure-the-work-processing-policies"></a>Darba apstrādes politiku konfigurēšana
 

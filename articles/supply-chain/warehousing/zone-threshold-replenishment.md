@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893125"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335951"
 ---
 # <a name="zone-threshold-replenishment"></a>Zonas sliekšņa papildināšana
 
@@ -38,7 +38,7 @@ Atšķirībā no uz novietojumu pamatotas min./maks. papildināšanas, uz zonu p
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Līdzekļa Zonas sliekšņa papildināšana ieslēgšana
 
-Lai varētu izmantot līdzekli *Zonas sliekšņa papildināšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot funkciju *Zonas sliekšņa papildināšana*, tai jābūt ieslēgtai savā sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Zonas sliekšņa papildināšana*
@@ -262,7 +262,7 @@ Pirms darba sākšanas scenārijā ir jāaktivizē parauga dati un jāiestata fu
 
 #### <a name="use-the-usmf-legal-entity"></a>USMF juridiskas personas izmantošana
 
-Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 #### <a name="prepare-additional-sample-data"></a>Papildu parauga datu sagatavošana
 

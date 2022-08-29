@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065560"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266434"
 ---
 # <a name="flushing-principles"></a>Norakstīšanas principi
 
@@ -56,7 +56,10 @@ Manuālais norakstīšanas princips norāda, ka materiālu patēriņa reģistrā
 Sākšanas norakstīšanas princips norāda, ka materiāls tiks automātiski patērēts, kad tiks sākts ražošanas pasūtījums. Patērēto materiālu daudzums ir proporcionāls sākto materiālu daudzumam. Sākšanas norakstīšanas principu lietojot kopā ar ražošanas izpildes sistēmu, to var izmantot arī materiālu norakstīšanai, kad ir sākta operācija vai apstrādes darbs. Šis princips ir izmantojams, ja, piemēram, novirze patēriņā ir zema, materiāli ir zemas vērtības materiāli, nav izsekošanas prasību vai operācijām ir īss izpildes laiks. 
 
 ### <a name="finish"></a>Pabeigt
-Pabeigšanas norakstīšanas princips norāda, ka materiāls tiks automātiski patērēts, kad būs pabeigts ražošanas pasūtījums vai operācija, kas ir iestatīta materiālu patērēšanai, būs reģistrēta kā pabeigta. Patērēto materiālu daudzums ir proporcionāls pabeigto materiālu daudzumam. Pabeigšanas norakstīšanas principu lietojot kopā ar ražošanas izpildes sistēmu, to var izmantot arī materiālu norakstīšanai, kad ir pabeigta operācija vai apstrādes darbs. Šis princips ir izmantojams tajās pašās situācijās, kurās lietojams sākšanas princips. Tomēr pabeigšanas princips ir piemērots operācijām, kurām ir garāks izpildes laiks un kurās materiālus nedrīkst iestatīt uz NP pirms operācijas pabeigšanas. 
+Pabeigšanas norakstīšanas princips norāda, ka materiāls tiks automātiski patērēts, kad būs pabeigts ražošanas pasūtījums vai operācija, kas ir iestatīta materiālu patērēšanai, būs reģistrēta kā pabeigta. Patērēto materiālu daudzums ir proporcionāls pabeigto materiālu daudzumam. Pabeigšanas norakstīšanas principu lietojot kopā ar ražošanas izpildes sistēmu, to var izmantot arī materiālu norakstīšanai, kad ir pabeigta operācija vai apstrādes darbs. Šis princips ir izmantojams tajās pašās situācijās, kurās lietojams sākšanas princips. Tomēr pabeigšanas princips ir piemērots operācijām, kurām ir garāks izpildes laiks un kurās materiālus nedrīkst iestatīt uz NP pirms operācijas pabeigšanas.
+
+> [!NOTE]
+> Nevar izmantot beigu tīrīšanas principu kopā ar plānošanas krājumiem. Tā vietā ieteicams izmantot sākt tīrīšanas principu. Plānošanas krājumiem ir ražošanas *tips* plānošanas prece, un tikai līdzproduktus un blakusprodukti var tikt ziņoti kā pabeigti partijas pasūtījumos, kas ir izveidoti plānošanas krājumiem.
 
 ### <a name="available-at-location"></a>Pieejams atrašanās vietā.
 Norakstīšanas princips Pieejams atrašanās vietā norāda, ka materiāls tiks automātiski patērēts, kad tas tiks reģistrēts kā izdots ražošanai. Materiāls ir reģistrēts kā izdots no vietas, kad ir pabeigts izejmateriālu izdošanas darbs vai kad materiāls ir pieejams ražošanas ievades vietā un materiālu komplekta rinda ir izlaista nosūtīšanai uz noliktavu. Procesa laikā ģenerētais izdošanas saraksts tiek grāmatots pakešuzdevumā. Šis princips ir izmantojams, ja, piemēram, attiecībā pret vienu ražošanas pasūtījumu ir jāveic daudz izdošanas darbību. Šajā gadījumā jums nav manuāli jāatjaunina izdošanas saraksts, un jūs varat iegūt pašreizējo NP bilances skatu.

@@ -1,26 +1,26 @@
 ---
 title: ER formāta izveide, lai ģenerētu pārskatu Excel formātā ar iegultiem attēliem lapas galvenēs vai kājenēs
 description: Šajā rakstā skaidrots, kā izmantot elektroniskos pārskatus (ER), lai ģenerētu biznesa dokumentus, kuriem ir attēli un formas iegulti lapas galvenēs un kājenēs.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854848"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281818"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formāta izveide, lai ģenerētu pārskatu Excel formātā ar iegultiem attēliem lapas galvenēs vai kājenēs
 
@@ -196,7 +196,7 @@ Piemēram šajā sadaļā varat izmantot ER konfigurācijas, ko nodrošina Micro
 
 ![Izveidojiet konfigurāciju pielāgotā maksājuma formātam nolaižamajā dialoglodziņā Izveidot konfigurāciju.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Tiek 240.112.1 **Brīvā teksta rēķina (Excel) pielāgošana** ER formāta konfigurācijas versija. Šīs versijas [statuss](general-electronic-reporting.md#component-versioning) ir **Melnraksts** un to var rediģēt. Pielāgotā ER formāta pašreizējais saturs atbilst Microsoft nodrošinātā formāta saturam.
+Tiek 240.112.1 **Brīvā teksta rēķina (Excel) pielāgošana** ER formāta konfigurācijas versija. Šīs versijas statuss ir Melnraksts **,** un to var rediģēt. Pielāgotā ER formāta pašreizējais saturs atbilst Microsoft nodrošinātā formāta saturam.
 
 ![ER formāta konfigurācijas jauna versija izveidota Konfigurāciju lapā.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Konfigurējiet savu pielāgoto formātu tā, lai uzņēmuma logotipa attēls bū
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Pielāgota formāta atzīmēšana kā izpildāms
 
-Tāpēc ka ir izveidota pielāgotā formāta pirmā versija un tai ir statuss **Melnraksts**, varat palaist formātu testēšanas nolūkos. Lai palaistu pārskatu, apstrādājiet kreditora maksājumu, izmantojot maksāšanas metodi, kas attiecas uz pielāgoto ER formātu. Pēc noklusējuma, izsaucot ER formātu no programmas, tiek [ņemtas vērā](general-electronic-reporting.md#component-versioning) tikai tās versijas, kuru statuss ir **Pabeigts** vai **Koplietots**. Šī darbība neļauj izmantot ER formātus, kuri nav pabeigti. Tomēr testējot, programmai var likt izmantot ER formāta versiju ar statusu **Melnraksts**. Šādā veidā var pielāgot pašreizējo formāta versiju, ja ir nepieciešamas kādas modifikācijas. Papildinformāciju skatiet sadaļā [Piemērojamība](electronic-reporting-destinations.md#applicability).
+Tāpēc ka ir izveidota pielāgotā formāta pirmā versija un tai ir statuss **Melnraksts**, varat palaist formātu testēšanas nolūkos. Lai palaistu pārskatu, apstrādājiet kreditora maksājumu, izmantojot maksāšanas metodi, kas attiecas uz pielāgoto ER formātu. Pēc noklusējuma, izsaucot ER formātu no programmas, **tiek izskatītas tikai versijas ar statusu** Pabeigts vai **Koplietots**. Šī darbība neļauj izmantot ER formātus, kuri nav pabeigti. Tomēr testējot, programmai var likt izmantot ER formāta versiju ar statusu **Melnraksts**. Šādā veidā var pielāgot pašreizējo formāta versiju, ja ir nepieciešamas kādas modifikācijas. Papildinformāciju skatiet sadaļā [Piemērojamība](electronic-reporting-destinations.md#applicability).
 
 Lai izmantotu ER formāta melnraksta versiju, jums jāatzīmē ER formāts.
 

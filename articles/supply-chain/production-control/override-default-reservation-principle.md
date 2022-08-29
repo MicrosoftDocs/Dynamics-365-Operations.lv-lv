@@ -2,7 +2,7 @@
 title: Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 description: Šajā rakstā ir aprakstīts, kā iestatīt noklusējuma rezervācijas principu katrai krājumu modeļu grupai, lai katram krājumam, kas ir daļa no ražošanas materiālu komplekta (MK) vai partijas pasūtījuma formulas, automātiski var piemērot dažādus rezervēšanas principus.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907237"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334601"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 
@@ -32,7 +32,7 @@ Piemēram, ja ir izejmateriāli vai sastāvdaļas, kam nepieciešams izdošanas 
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Ieslēgt vai izslēgt ignorēšanas noklusējuma ražošanas rezervēšanas līdzekli
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot ignorēt *noklusējuma ražošanas rezervācijas līdzekli* līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot līdzekļu pārvaldības darbvietā noklusēto ražošanas *rezervēšanas*[līdzekli](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Ražošanas rezervēšanas ierobežojuma piešķiršana krājumu modeļu grupai
 

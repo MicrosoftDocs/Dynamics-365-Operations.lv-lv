@@ -1,22 +1,22 @@
 ---
-title: Problēmu novēršanas problēmas no finanšu un operāciju programmu jauninājumiem
+title: Finanšu un operāciju programmu jaunināšanas problēmu novēršana
 description: Šajā rakstā ir sniegta traucējummeklēšanas informācija, kas var palīdzēt jums novērst problēmas, kas saistītas ar finanšu un operāciju programmu jaunināšanu.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b75034cbc8ca7a24472cfec1ad93d3dfef4a8fdc
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7ab75c3a7b6c53982a32658f376a9fd148c023e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111146"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289550"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problēmu novēršanas problēmas no finanšu un operāciju programmu jauninājumiem
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finanšu un operāciju programmu jaunināšanas problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 

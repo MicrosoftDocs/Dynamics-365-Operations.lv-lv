@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893154"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336281"
 ---
 # <a name="replenishment-strategies"></a>Papildināšanas stratēģijas
 
@@ -36,7 +36,7 @@ Aktīvākā sezona ir viens piemērs situācijai, kur *Maksimālā vietas noslod
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Ieslēgt Papildinājumu uz maksimumu, pamatojoties uz krājumu ierobežojumu līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [Funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Papildinājums uz maksimumu, pamatojoties uz krājumu ierobežojumiem*

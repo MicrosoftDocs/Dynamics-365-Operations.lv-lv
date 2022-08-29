@@ -2,7 +2,7 @@
 title: Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 description: Šajā rakstā ir sniegts beigu darbību skaits, kas parāda, kā strādāt ar inženierzinātnes izmaiņu pārvaldību.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889640"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334901"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 
@@ -45,7 +45,7 @@ Pirms mēģināt veikt kādu no izpildēm pārējā rakstā, izpildiet visas tā
 
 ### <a name="make-standard-demo-data-available"></a>Padarīt standarta demonstrācijas datus pieejamus
 
-Darbs sistēmā, kur [ir instalēti standarta demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Standarta demonstrācijas dati pievieno datus vairākām demonstrācijas juridiskajām personām (uzņēmumiem un organizācijām). Strādājot ar uzdevumiem, navigācijas joslas labajā pusē ir jāizmanto uzņēmuma atlasītāju, lai pārslēgtos starp vienu uzņēmumu (*DEMF*), kas ir iestatīts kā *inženiertehniskā organizācija* un citu uzņēmumu (*USMF*), kas iestatīts kā *operacionālā organizācija*.
+Darbs pie sistēmas, kur ir instalēti [standarta](../../fin-ops-core/fin-ops/get-started/demo-data.md) demonstrācijas dati. Standarta demonstrācijas dati pievieno datus vairākām demonstrācijas juridiskajām personām (uzņēmumiem un organizācijām). Strādājot ar uzdevumiem, navigācijas joslas labajā pusē ir jāizmanto uzņēmuma atlasītāju, lai pārslēgtos starp vienu uzņēmumu (*DEMF*), kas ir iestatīts kā *inženiertehniskā organizācija* un citu uzņēmumu (*USMF*), kas iestatīts kā *operacionālā organizācija*.
 
 ### <a name="set-up-an-engineering-organization"></a>Inženiertehniskās organizācijas iestatīšana
 
@@ -284,7 +284,7 @@ Lai pārskatītu produktu un to izlaistu *USMF* uzņēmumā, sekojiet šīm darb
 
 1. Atlasiet vērtību kolonnā **Produkta numurs**, lai atvērtu lapu **Produkta izlaides informācija**. Pievērsiet uzmanību šādām detaļām:
 
-    - Kopsavilkuma cilnē **Vispārēji** tiek parādīta informācija par produkta izlaišanu, piemēram, izlaides uzņēmumu (*DEMF* šim piemēram), izlaišanas vietu (*1*) un saņemšanas vietu (*1*). Tā kā vednī **Izlaides produkti** netika norādīta saņemšanas vieta, izlaišanas vietas vērtība tiek kopēta uz saņemšanas vietu.
+    - Kopsavilkuma cilnē **Vispārēji** tiek parādīta informācija par produkta izlaišanu, piemēram, izlaides uzņēmumu (*DEMF* šim piemēram), izlaišanas vietu (*1*) un saņemšanas vietu (*1*). Tā kā Izlaišanas preču vednī nav norādīta **saņemšanas** vieta, izlaižamās vietas vērtība tiek kopēta saņemšanas vietā.
     - Kopsavilkuma cilne **Detalizēta informācija par laidienu** rāda informāciju par produktu un versiju, kas tika izlaista. Šeit var modificēt tādus iestatījumus kā, piemēram, efektivitātes datumus.
     - Kopsavilkuma cilne **Maršruts** rāda produkta maršrutu. Tomēr šim piemēram, jūs neizlaižāt maršrutus.
 

@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861078"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323579"
 ---
 # <a name="create-a-working-time-calendar"></a>Darba laika kalendāra izveide
 
-
-> [!Important]
-> Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem atsevišķi Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Iestatiet vismaz vienu darba laika kalendāru, kas rāda darbības dienas un stu
 
 3. Sadaļā **Ģenerēšanas opcijas** atlasiet savas organizācijas darba dienas un ievadiet darba laikus. 
    - Lai pievienotu atvaļinājumu vai slēgšanu, atlasiet pogu **Pievienot** blakus **Brīvdienas un slēgšana**.
-   - Lai pievienotu nestrādājamo laiku, piemēram, pusdienas vai pārtraukumus, atlasiet **Pievienot** sadaļā **Nestrādājamais laiks** un ievadiet nosaukumu un laika diapazonu.
+   - Lai pievienotu laiku, kas nav darba laiks, piemēram, pusdienlaiks vai pārtraukumi, **·** **atlasiet** Pievienot sadaļā Ne darba laiks un ievadiet nosaukumu un laika diapazonu.
 
 4. Sadaļā **Dienas** atlasiet **Ģenerēt**, lai ģenerētu dienas kalendārā. Ievadiet datumu diapazonu savam kalendāram un atlasiet **Ģenerēt dienas**.
 
@@ -67,7 +64,7 @@ Brīvdienas un slēgšanu var pievienot vai mainīt atsevišķi no darba laika k
 
 Nestrādājamo laiku var pievienot vai mainīt atsevišķi no darba laika kalendāra.
 
-1. Organizācijas administrēšanas **lapā** atlasiet NE **DARBA LAIKU**.
+1. Lapā **Organizācijas administrēšana** atlasiet **Nestrādājamais laiks**.
 
 2. Atlasiet **Jauns** un ievadiet nestrādājamā laika nosaukumu un laika diapazonu.
 

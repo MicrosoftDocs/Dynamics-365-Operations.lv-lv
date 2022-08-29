@@ -2,7 +2,7 @@
 title: Novietojuma direktīvas krājumu izdošanas vecumstruktūras
 description: Šajā rakstā skaidrots, kā izdošanas laikā lietot "pirmais ārā" (FIRST in, first out – FIFO) un "pirmais ārā" (LIFO) novietojuma direktīvas.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068676"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335621"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Novietojuma direktīvas krājumu izdošanas vecumstruktūras
 
@@ -34,8 +34,8 @@ Kad krājumi pirmo reizi tiek saņemti vai izveidoti noliktavā, sistēma atjaun
 
 Lai padarītu šo līdzekli pieejamu, aktivizējiet tālāk norādītos līdzekļus [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) šādā secībā:
 
-1. Noliktavas vietas statuss
-1. Novietojuma direktīvas krājumu izdošanas vecumstruktūras
+1. *Noliktavas atrašanās* vietas statuss (versijā 10.0.29) šis līdzeklis ir obligāts un to nevar izslēgt. Papildinformāciju skatiet noliktavas [atrašanās vietas statusā](warehouse-location-status.md).
+1. *Novietojuma direktīvas krājumu izdošanas vecumstruktūras*
 
 ## <a name="feature-requirements"></a>Līdzekļa prasības
 
@@ -50,7 +50,7 @@ Lai izmantotu šo līdzekli, opcija **Iespējot novietojuma statusu** ir jāiest
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 
-Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 Varat izmantot šos scenārijus arī kā norādījumus šī līdzekļa izmantošanai ražošanas sistēmā. Tomēr šādā gadījumā jums ir jāaizstāj savas vērtības katram iestatījumam, kas šeit aprakstīts.
 

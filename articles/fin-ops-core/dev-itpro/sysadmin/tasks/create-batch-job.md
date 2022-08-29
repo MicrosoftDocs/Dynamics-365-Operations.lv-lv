@@ -1,24 +1,24 @@
 ---
 title: Pakešuzdevuma izveide
 description: Pakešuzdevums ir uzdevumu grupa, kas tiek iesniegta Programmas objektu servera (AOS) instancē automātiskai apstrādei.
-author: maertenm
+author: matapg007
 ms.date: 11/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: matgupta
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
-ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
+ms.search.form: BatchJob, SysRecurrence, BatchAlerts
+ms.openlocfilehash: 06fb9a18e70c316be97645ba76f9462cd3ccc729
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "7864177"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292456"
 ---
 # <a name="create-a-batch-job"></a>Pakešuzdevuma izveide
 
@@ -30,8 +30,8 @@ Pakešuzdevums ir uzdevumu grupa, kas tiek iesniegta Programmas objektu servera 
 ## <a name="create-the-batch-job"></a>Izveidot pakešuzdevumu
 1. Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Pieprasījumi > Pakešuzdevumi**.
 2. Atlasiet **Jauna**.
-3. Laukā **Darba apraksts** ievadiet pakešuzdevuma aprakstu.
-4. Laukā **Plānotais sākuma** datums/laiks ievadiet datumu un laiku, kad pakešuzdevumam jādarbojas.
+3. **Laukā Darba** apraksts ievadiet pakešuzdevuma aprakstu.
+4. Laukā **Plānotais sākuma datums/** laiks ievadiet datumu un laiku, kad pakešuzdevumam jādarbojas.
 5. Atlasiet **Saglabāt**.
 
 ## <a name="create-a-recurrence"></a>Izveidot atkārtošanos
@@ -45,33 +45,33 @@ Pakešuzdevums ir uzdevumu grupa, kas tiek iesniegta Programmas objektu servera 
 3. Atlasiet **Labi**.
 
 ## <a name="add-a-task-to-a-batch-job"></a>Pievienot uzdevumu pakešuzdevumam
-1.  Lapā **Pakešuzdevumi** atlasiet Skatīt **uzdevumus**.
-2.  Izvēlieties **Ctrl+N,** lai izveidotu uzdevumu.
+1.  Lapā Pakešuzdevumi **atlasiet** Skatīt **uzdevumus**.
+2.  Izvēlieties **Ctrl+N**, lai izveidotu uzdevumu.
 3.  Ievadiet pakešuzdevuma aprakstu.
-4.  Laukā **Datu faili atlasiet uzņēmuma datu** bāzi, kurā izpildīt uzdevumu.
-5.  Laukā **Klases nosaukums atlasiet uzdevumu** izpildāmo procesu. 
+4.  Laukā **Datu faili** atlasiet uzņēmuma datu bāzi, kurā izpildīt uzdevumu.
+5.  Laukā **Klases** nosaukums atlasiet uzdevumu izpildāmo procesu. 
 6.  Uzdevumam atlasiet pakešuzdevumu grupu, ja nepieciešams.
 
     Pakešuzdevumu grupai ir jāpiešķir klienta uzdevumi. Tās tiek automātiski piešķirtas noklusējuma pakešizpildes grupai (ko sauc arī par tukšo pakešuzdevumu grupu).
 
-7.  Atlasiet **Ctrl+S,** lai saglabātu uzdevumu.
-8.  Lai izvēlēto uzdevumu izveidotu atkarīgu no cita uzdevuma šajā darbā, izvēlieties režģi Ir nosacījumi un pēc tam izpildiet šīs darbības katram nosacījumam, **kuru** vēlaties definēt:
+7.  Atlasiet **Ctrl+S**, lai saglabātu uzdevumu.
+8.  Lai izvēlēto uzdevumu izveidotu atkarīgu no cita uzdevuma šajā darbā, **izvēlieties** režģi Ir nosacījumi un pēc tam izpildiet šīs darbības katram nosacījumam, kuru vēlaties definēt:
 
-    1. Atlasiet **Ctrl+N,** lai izveidotu nosacījumu.
+    1. Atlasiet **Ctrl+N**, lai izveidotu nosacījumu.
     2. Izvēlieties pamatelementa uzdevuma ID.
     3. Izvēlieties statusu, kurš pamata uzdevumam jāsasniedz pirms atkarīgā uzdevuma izpildes.
-    4. Atlasiet **Ctrl+S,** lai saglabātu nosacījumu.
+    4. Atlasiet **Ctrl+S**, lai saglabātu nosacījumu.
 
-    Ja definēsiet vairāk nekā vienu nosacījumu un ja atkarīgā uzdevuma veikšanai ir jāizpilda visi nosacījumi, atlasiet *nosacījuma* tipu **Visi**. Ja atkarīgais uzdevums var tikt *izpildīts* pēc jebkura nosacījuma izpildes, izvēlieties nosacījuma tipu **Jebkurš**.
+    Ja definēsiet vairāk nekā vienu nosacījumu un *ja* atkarīgā uzdevuma veikšanai ir jāizpilda visi nosacījumi, **izvēlieties nosacījuma tipu Visi**. Ja atkarīgais uzdevums var tikt izpildīts *pēc* jebkura nosacījuma izpildes, izvēlieties nosacījuma **tipu Jebkurš**.
 
-9.  Atlasiet, kā jārīkojas ar uzdevumu kļūdām. Lai ignorētu konkrēta uzdevuma kļūdu, cilnē Vispārīgi atlasiet šim uzdevumam opciju **Ignorēt** uzdevuma **kļūmi**. Ja ir atlasīta šī opcija, uzdevuma kļūda neizraisīs pakešuzdevuma atteici. Varat izmantot arī lauku Maksimālais atkārtoto mēģinājumu skaits, lai norādītu, cik reižu uzdevums ir atkārtots, pirms tiek uzskatīts, ka uzdevums **nav** izdevies. Saskaņā ar labāko praksi ieteicams neiesakām iestatīt lauku Maksimālais mēģinājumu skaits uz **vērtību**, kas ir lielāka par **5**.
+9.  Atlasiet, kā jārīkojas ar uzdevumu kļūdām. Lai ignorētu konkrēta uzdevuma kļūdu, cilnē **Vispārīgi** atlasiet šim **uzdevumam** opciju Ignorēt uzdevuma kļūmi. Ja ir atlasīta šī opcija, uzdevuma kļūda neizraisīs pakešuzdevuma atteici. Varat izmantot arī lauku **Maksimālais atkārtoto mēģinājumu** skaits, lai norādītu, cik reižu uzdevums ir atkārtots, pirms tiek uzskatīts, ka uzdevums nav izdevies. Saskaņā ar labāko praksi ieteicams neiesakām iestatīt lauku **Maksimālais mēģinājumu** skaits uz vērtību, kas ir lielāka par **5**.
 
-    Papildinformāciju par pakešizpildes mēģinājumiem skatiet [sadaļā Pakešizpildes mēģinājumu](../retryable-batch.md) iespējošana.
+    Papildinformāciju par pakešuzdevumu atkārtotiem mēģinājumiem skatiet sadaļā Pakešizpildes [mēģinājumu iespējošana](../retryable-batch.md).
 
 ## <a name="adjust-batch-job-status"></a>Pakešuzdevuma statusa pielāgošana
 1. Dodieties uz **Sistēmas administrēšana > Pieprasījumi > Pakešuzdevumi**.
 2. Atlasiet atbilstošo pakešuzdevumu.
-3. Darbību rūtī atlasiet pakešuzdevuma **rindas> Funkcijas > mainīt** statusu.
+3. Darbību rūtī atlasiet pakešuzdevuma rindas **> Funkcijas > mainīt statusu**.
 4. Atlasiet atbilstošo statusu.
     - **Aizturēt**: atlasiet pakešuzdevuma statusu **aizturēt**, lai tas tiktu aizturēts no pakešuzdevumu plānotāja. Līdzvērtīgs funkcijai *apturēt*.
     - **Gaida**: atlasiet pakešuzdevuma statusu **gaida**, lai tas gaidītu rindā, līdz to izvēlēsies pakešuzdevumu plānotājs. Līdzvērtīgs funkcijai *sākt*.

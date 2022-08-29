@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849131"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335471"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistēmas noteikta darbu secība
 
@@ -35,7 +35,7 @@ Tāpēc šī funkcionalitāte ļauj veikt tālāku noliktavas izdošanas procesu
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Ieslēdziet līdzekli Organizācijas līmeņa sistēmas noteikta darba secība
 
-Lai varētu izmantot līdzekli Sistēmas noteikta darba secība, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms sistēmas vadīta darba secības izmantošanas sistēmai jābūt ieslēgtai. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Organizācijas līmeņa sistēmas noteikta darba secība*
@@ -44,7 +44,7 @@ Lai varētu izmantot līdzekli Sistēmas noteikta darba secība, tas vispirms ir
 
 ### <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Lai strādātu scenārijā, izmantojot šajā rakstā uzrādītās vērtības, ir jāstrādā sistēmā, kur ir instalēti standarta demonstrācijas dati. Turklāt ir jāatlasa **USMF** juridiskā persona. Scenārijā tiek izmantota noliktava nr. *51* no demonstrācijas datiem.
+Lai strādātu scenārijā, izmantojot šajā rakstā uzrādītās vērtības, ir jāstrādā sistēmā, kur ir instalēti standarta [demonstrācijas](../../fin-ops-core/fin-ops/get-started/demo-data.md) dati. Turklāt ir jāatlasa **USMF** juridiskā persona. Scenārijā tiek izmantota noliktava nr. *51* no demonstrācijas datiem.
 
 > [!IMPORTANT]
 > Pirms pasūtījumu izdošanas noliktavā pārliecinieties, vai izdošanas vietās ir pietiekami daudz krājumu visām precēm pasūtījumos.

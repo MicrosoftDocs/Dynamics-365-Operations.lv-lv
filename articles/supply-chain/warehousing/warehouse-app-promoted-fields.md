@@ -2,7 +2,7 @@
 title: Konfigurējiet veicinātos laukus darbībām mobilajā programmā Warehouse Management
 description: Šajā rakstā ir aprakstīts, kā veicināt un izcelt konkrētu informāciju par jebkuru uzdevumu plūsmu uzdevumu plūsmām mobilajā programmā Noliktavas pārvaldība.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857059"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336071"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Konfigurējiet veicinātos laukus darbībām mobilajā programmā Warehouse Management
 
@@ -29,25 +29,12 @@ ms.locfileid: "8857059"
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Iespējojiet veicinātos laukus savā sistēmā
 
-Lai iespējotu nepieciešamos līdzekļus, pirms varat iestatīt atbalstītos laukus, ir jāveic tālāk norādītās darbības un jāģenerē nepieciešamie lauku nosaukumi mobilajā programmā Warehouse Management.
+Ja jūs palaižat Supply Chain Management versiju 10.0.28 vai agrāk, tad, pirms varat iestatīt reklamēto lauku, jums ir jāveic tālāk norādītās darbības, lai iespējotu nepieciešamos līdzekļus un ģenerētu nepieciešamos lauku nosaukumus mobilajā programmā Noliktavas pārvaldība. Ja jūs palaižat Piegādes ķēdes pārvaldības versiju 10.0.29 vai jaunāku versiju, šīs funkcijas ir obligātas un tās nevar izslēgt, tādēļ varat izlaist šo procedūru.
 
-1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
-1. Darbvietā [**Līdzekļu pārvaldība** darbvieta](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iespējojiet līdzekli, kas ir uzskaitīts šādā veidā:
-
-    - **Modulis:** *Noliktavas pārvaldība*
-    - **Līdzekļa nosaukums:** *Programmas Warehouse darbību norādījumi*
-
-    Papildinformāciju par līdzekli *Warehouse programmas darbību norādījumi* skatiet sadaļā [Warehouse Management mobilās lietojumprogrammas darbību nosaukumu pielāgošana un instrukcijas](mobile-app-titles-instructions.md). Šis līdzeklis ir priekšnosacījums līdzeklim *Warehouse programmas veicinātie lauki*.
-
-1. Iespējojiet līdzekli, kas ir uzskaitīts tālāk minētajā veidā:
-
-    - **Modulis:** *Noliktavas pārvaldība*
-    - **Līdzekļa nosaukums:** *Warehouse programmas veicinātie lauki*
-
-    Šī funkcija ir šajā rakstā aprakstīta funkcija.
-
-1. Atjauniniet lauku nosaukumus Warehouse Management mobilajā programmā, apmeklējot **Warehouse Management \> Iestatījums \> Mobilā ierīce \> Warehouse programmas lauku nosaukumi** un atlasot **Izveidot noklusējuma iestatījumus**. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
-1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
+1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**. (Skatiet [Līdzekļu pārvaldības apskats](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai iegūtu papildinformāciju par šo lapu.)
+1. Pārliecinieties, vai *jūsu sistēmai ir ieslēgta* noliktavas programmas darbību norādījumu funkcija. Šis līdzeklis ir priekšnosacījums līdzeklim *Warehouse programmas veicinātie lauki*. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 tas ir obligāts un to nevar izslēgt. Papildinformāciju par līdzekli *Warehouse programmas darbību norādījumi* skatiet sadaļā [Warehouse Management mobilās lietojumprogrammas darbību nosaukumu pielāgošana un instrukcijas](mobile-app-titles-instructions.md).
+1. Pārliecinieties, vai *jūsu sistēmai ir ieslēgta noliktavas* programmas reklamēto lauku funkcija. Šī ir šajā rakstā aprakstītā funkcija. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 tas ir obligāts un to nevar izslēgt.
+1. Atjauniniet lauku nosaukumus Warehouse Management mobilajā programmā, apmeklējot **Warehouse Management \> Iestatījums \> Mobilā ierīce \> Warehouse programmas lauku nosaukumi** un atlasot **Izveidot noklusējuma iestatījumus**. Atkārtojiet šo darbību katrai juridiskajai personai (uzņēmumam), kas izmanto mobilo programmu Noliktavas pārvaldība. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Konfigurēt veicinātos laukus no izvēlnes raksturīgās pārlabošanas
 
@@ -67,7 +54,7 @@ Izmantojiet šo procedūru, lai iestatītu veicinātos laukus.
 
 ### <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai izmantotu norādītos parauga ierakstus un vērtības šī scenārija izmantošanai, jāizmanto sistēma, kurā instalēti standarta demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
+Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā scenārijā, jums ir jāizmanto sistēma, kur ir instalēti [standarta](../../fin-ops-core/fin-ops/get-started/demo-data.md) demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Konfigurēt pārdošanas izdošanu, izmantojot atbalstītos soļus numura zīmes darbībā
 

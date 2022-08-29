@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: be3d72063ac18b9abea77d5aec6e230b0c930ae6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112370"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289366"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -105,7 +105,7 @@ Otrā opcija:
 2.  Ja ir atlasīts 'Bloķēt trešās puses cepumus Inco cookies' vai 'Bloķēt trešās puses cepumus', dodieties uz "Vietnes, kas vienmēr var izmantot cepumus" un noklikšķiniet uz **Pievienot**. 
 3.  Pievienojiet jūsu Finanšu &operāciju lietojumprogrammu vietnes nosaukumu — https://<your_FinOp_instance>.cloudax.dynamics.com. Pārliecinieties, ka jūs atzīmējiet izvēles rūtiņu "Visi sīkfaili, tikai šajā vietā". 
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge pārlūkprogramma
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Pārlūkprogrammas
 1.  Pārejiet uz iestatījumiem > vietnes atļaujām -> cepumus un vietas datus.
 2.  'Bloķēt trešās puses cepumus' izslēgšana.  
 
@@ -166,7 +166,7 @@ Iespējams, atbalsta komandai būs jāpārskata tīkla izsekošana, lai novērst
 3. Palaidiet scenāriju un ievērojiet reģistrētos pieprasījumus.
 4. Ar peles labo pogu noklikšķiniet uz ierakstiem un atlasiet **Saglabāt visu kā HAR ar saturu**.
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge pārlūkprogramma
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Pārlūkprogrammas
 
 1. Atvērtajā cilnē nospiediet **F12** vai izvēlieties **Izstrādātāja rīki**, lai atvērtu izstrādātāja rīkus.
 2. Atveriet cilni **Tīkls**.

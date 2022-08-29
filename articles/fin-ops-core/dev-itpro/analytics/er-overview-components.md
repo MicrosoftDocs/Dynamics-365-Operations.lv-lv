@@ -1,26 +1,26 @@
 ---
 title: Elektronisko pārskatu komponenti
 description: Šajā rakstā ir aprakstīti Elektronisko pārskatu (ER) komponenti.
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892455"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285037"
 ---
 # <a name="electronic-reporting-components"></a>Elektronisko pārskatu komponenti
 
@@ -113,7 +113,7 @@ Lai palaistu atsevišķu ER formāta konfigurāciju un importētu datus no ien�
 
 ER komponentiem tiek atbalstīta versiju izveide. ER komponentu izmaiņu pārvaldīšanai tiek sniegta tālāk aprakstītā darbplūsma.
 
-1. Sākotnēji izveidotā versija tiek atzīmēta kā versija **Melnraksts**. Šo versiju var rediģēt, un tā ir pieejama testu izpildīšanai.
+1. Sākotnēji izveidotā versija ir atzīmēta kā melnraksta **versija**. Šo versiju var rediģēt, un tā ir pieejama testu izpildīšanai.
 2. Versiju **Melnraksts** var pārveidot par versiju **Pabeigts**. Šo versiju var izmantot vietējos atskaišu procesos.
 3. Versiju **Pabeigts** var pārveidot par versiju **Koplietots**. Šī versija tiek publicēta Microsoft Dynamics Lifecycle Services (LCS), un to var izmantot globālu pārskatu izveides procesos.
 4. Versiju **Koplietots** var pārveidot par versiju **Pārtraukts**. Šo versiju var dzēst.
@@ -123,15 +123,37 @@ Versijas, kuru statuss ir **Pabeigts** vai **Koplietots**, ir pieejamas citai da
 - Komponentu var serializēt XML formātā un eksportēt kā XML formāta failu.
 - Komponentu var atkārtoti serializēt no XML faila un importēt programmā kā jaunu ER komponenta versiju.
 
+Papildinformāciju skatiet jaunas [datu modeļa konfigurācijas importēšanai un](er-quick-start1-new-solution.md#ImportDataModel)[atvasinātā formāta pabeigtās versijas eksportēšana](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Melnraksta versijas izpildlaikā
+
+Personālos ER struktūras lietotāja parametros varat aktivizēt opciju, kas ļauj jums norādīt, vai izpildlaikā jālieto ER konfigurācijas melnraksta versija. Papildinformāciju par to, kā **izveidot opciju** Palaist melnrakstu, kas pieejama jūsu ER konfigurācijām, [skatiet sadaļā Pielāgots formāts kā izpildāms](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> ER lietotāja parametri ir raksturīgi uzņēmumam un lietotājam raksturīgi.
+
+### <a name="draft-format-versions-at-runtime"></a>Melnraksta formāta versijas izpildlaikā
+
+Pēc noklusējuma, palaižot ER risinājumu, tā formāta komponentu melnraksta versijas tiek ignorētas. Tā vietā tiek izmantota tikai atbilstošā versija ar statusu, kas nav **Melnraksts**. Dažreiz varat vēlēties ER izmantot ER formāta konfigurācijas melnraksta versiju izpildlaikā. Piemēram, pēc nepieciešamo izmaiņu palaišanas melnraksta versijā, šo melnraksta versiju var izmantot testa palaišanai. Šādā veidā varat apstiprināt savu izmaiņu pareizību. Lai sāktu izmantot melnraksta formāta versiju, atbilstošā [...](er-quick-start2-customize-report.md#MarkFormatRunnable)**ER konfigurācijas opcija Palaist** melnrakstu ir jāiestata uz **Jā.**
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Melnraksta modeļa kartēšanas versijas izpildlaikā
+
+Pēc noklusējuma, palaižot ER risinājumu, vienmēr tiek lietotas tā modeļa kartēšanas komponentu melnraksta versijas. Dažreiz, iespējams, vēlēsieties, lai ER izpildlaikā ignorētu jūsu ER modeļa kartēšanas konfigurācijas melnraksta versiju. Versijā **10.0.29** un jaunākā versijā varat iespējot opciju Vienmēr ņemt vērā opciju "Palaist melnrakstu" ER **modeļa kartēšanas līdzekli, lai kontrolētu modeļa kartēšanas versiju,** kas tiek izmantota izpildlaikā. Ja šī funkcija ir iespējota, rodas šāda funkcionalitāte:
+
+- Ja modeļa **kartēšanas** konfigurācijai opcija Palaist **melnrakstu** ir iestatīta uz Nē, izpildlaikā tiek izmantota augstākā konfigurācijas versija, kas nav melnraksta. Izņēmums tiek izmetts, ja konfigurācija pašreizējā finanšu instancē nav pieejama.
+- Ja modeļa **kartēšanas** konfigurācijai opcija Palaist melnrakstu **ir** iestatīta uz Jā, izpildlaikā šīs konfigurācijas melnraksta versija tiek izmantota.
+
 ## <a name="component-date-effectivity"></a>Komponenta spēkā stāšanās datums
 
-ER komponentu versijas ir ar spēkā stāšanās datumu. ER komponentam varat iestatīt datumu "Spēkā no", lai norādītu datumu, kad šis komponents stājas spēkā pārskatu veidošanas procesiem. Lai definētu, vai komponents ir derīgs izpildei, tiek izmantots programmas sesijas datums. Ja noteiktam datumam ir derīgas vairākas versijas, tad atskaišu veidošanas procesiem tiek izmantota jaunākā versija.
+ER formāta komponentu versijas ir spēkā stāšanās datums. Varat iestatīt datumu "spēkā no" ER formāta komponentam, lai noteiktu datumu, kad komponents stājas spēkā pārskatu izveides procesos. Lai definētu, vai komponents ir derīgs izpildei, tiek izmantots programmas sesijas datums. Ja noteiktam datumam ir derīgas vairākas versijas, tad atskaišu veidošanas procesiem tiek izmantota jaunākā versija.
 
 ## <a name="component-access"></a>Komponenta piekļuve
 
-Piekļuve ER formāta komponentiem ir atkarīga no iestatījuma Starptautiskās standartizācijas organizācijas (ISO) valsts/reģiona kodam. Ja šis iestatījums atlasītajai formāta konfigurācijas versijai ir atstāts tukšs, formāta komponentam izpildes laikā var piekļūt no jebkura uzņēmuma. Ja šis iestatījums satur ISO valsts/reģiona kodus, formāta komponents ir pieejams tikai no uzņēmumiem, kuru primārā adrese ir definēta vienam no formāta komponenta ISO valsts/reģiona kodiem.
+Piekļuve ER formāta un modeļu kartēšanas komponentiem izpildlaikā ir atkarīga no starptautiskās standartizācijas organizācijas (ISO) valsts/reģiona koda iestatījuma. Ja šis iestatījums ir tukšs atlasītajai formāta vai modeļa kartēšanas konfigurācijas versijai, izpildlaikā no jebkura uzņēmuma var piekļūt formāta vai modeļa kartēšanas komponentam. Ja iestatījums satur ISO valsts/reģiona kodus, formāta vai modeļa kartēšanas komponents ir pieejams tikai no uzņēmumiem, kuriem ir primārā adrese, kas definēta vienam no formāta komponenta ISO valsts/reģiona kodiem.
 
-Datu formāta komponenta dažādām versijām var būt dažādi iestatījumi ISO valsts/reģiona kodiem.
+Dažādām formāta vai modeļa kartēšanas komponenta versijām var būt atšķirīgi ISO valsts/reģiona kodu iestatījumi.
+
+Papildinformāciju skatiet no valsts [konteksta atkarīgu ER modeļu kartējumu konfigurēšana](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

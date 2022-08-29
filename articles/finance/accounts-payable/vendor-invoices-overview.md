@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894176"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228757"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
@@ -71,10 +71,10 @@ Lai pārvaldītu kreditoru rēķinu pārskatīšanas procesu, organizācijā var
 
 Tālāk ir sniegti vairāki veidi, kā var novērst rēķina iesniegšanu darbplūsmā.
 
-- **Rēķina kopsumma un reģistrētā kopsumma nav vienādas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka kopsummas nav vienādas. Brīdinājums sniedz iespēju labot bilances pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja rēķina kopsumma un reģistrētā rēķina kopsumma nav vienādas** lapā **Līdzekļu pārvaldība**. 
-- **Rēķinā ir nepiešķirtas izmaksas.** Persona, kas iesniedza rēķinu, saņems brīdinājumu, ka rēķinā ir nepiešķirtas izmaksas, tāpēc ir iespējams labot bilances, pirms atkārtoti iesniedzat rēķinu darbplūsmai. Šis līdzeklis ir pieejams, ja ir ieslēgta opcija **Aizliegt iesniegšanu darbplūsmā, ja kreditora rēķinā nepiešķirtas izmaksas** lapā **Līdzekļu pārvaldība**.
-- **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Persona, kas iesniedza rēķinu, saņems ziņojumu, kurā norādīts, ka ir atrasts rēķins ar dublētu numuru. Numura dublikātu var labot pirms rēķina atkārtotas iesūtīšanas darbplūsmā. Šis brīdinājums tiks parādīts, kad parametrs ar nosaukumu **Pārbaudiet izmantoto rēķina numuru** Kreditoros ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.
-- **Rēķinā ir rinda, kurā rēķina daudzums ir mazāks par saskaņoto preču ieejas plūsmas daudzumu.** Persona, kas iesniedz rēķinu vai mēģina grāmatot, saņems ziņojumu, ka daudzumi nav vienādi. Šī ziņa sniedz iespēju labot vērtības pirms rēķina atkārtotas iesniegšanas darbplūsmā. Šis līdzeklis ir pieejams, ja lapā **Līdzekļu pārvaldība** ir ieslēgts parametrs **Bloķēt grāmatošanu un kreditora rēķinu iesniegšanu darbplūsmai** un ja lapā **Kreditoru parametri** ir ieslēgts parametrs **Bloķēt grāmatošanu un iesniegšanu darbplūsmai**.
+- **Rēķina kopsumma un reģistrētā kopsumma nav vienādas.** Lietotājs, kas iesniedza rēķinu, saņems brīdinājumu, ka kopsummas nav vienādas. Šis brīdinājums sniedz lietotājam iespēju labot bilances, pirms tie atkārtoti iesniedz rēķinu darbplūsmas sistēmā. Šī **funkcija** **·** **·** **ir** pieejama, ja aizliegt iesniegšanai darbplūsmā, ja rēķina kopsumma un reģistrētā rēķina kopsumma nav vienādi ar parametru līdzekļu pārvaldības lapā un opcija Darbplūsma, kad rēķina kopsumma un reģistrētā kopsumma nav vienāda ar parametru lapā Kreditoru parametri. 
+- **Rēķinā ir nepiešķirtas izmaksas.** Lietotājs, kas iesniedza rēķinu, saņems brīdinājumu, ka rēķinam ir nepiešķirtas maksas. Šādā veidā lietotājs var labot rēķinu, pirms tas atkārtoti iesniegts darbplūsmas sistēmā. Šī **funkcija** **·** **ir pieejama, ja opcija Aizliegt iesniegšanu darbplūsmai, ja kreditoru rēķinu parametrā kreditoru rēķinu parametrā ir nesadalītas maksas, un** **opcija** Darbplūsma, kad kreditoru parametru lapā pastāv nesadalītas maksas.
+- **Rēķinā ir tāds pats rēķina numurs kā citam iegrāmatotam rēķinam.** Lietotājs, kas iesniedza rēķinu, saņems brīdinājumu, ka atrasts rēķins ar dublikāta numuru. Lietotājs var labot dublikāta numuru, pirms tas atkārtoti iesniedz rēķinu darbplūsmas sistēmā. Brīdinājums tiks parādīts, ja parametrs **Pārbaudīt rēķina numuru, kas izmantots** parametrā Parādi kreditoriem, ir iestatīts uz **Noraidīt dublikātu**. Šis līdzeklis ir pieejams, ja parametrs **Aizliegt iesniegšanu darbplūsmā, ja rēķina numurs jau pastāv izliktā rēķinā, un jūsu sistēma nav iestatīta pieņemt rēķinu dublikātu numurus** ir ieslēgts lapā **Līdzekļu pārvaldība**.
+- **Rēķinā ir rinda, kurā rēķina daudzums ir mazāks par saskaņoto preču ieejas plūsmas daudzumu.** Lietotājs, kurš iesniedz rēķinu vai mēģina to grāmatot, saņems ziņojumu, ka daudzumi nav vienādi. Šis ziņojums sniedz lietotājam iespēju labot vērtības, pirms tie atkārtoti iesniedz rēķinu darbplūsmas sistēmā. Šī funkcija **ir pieejama, ja kreditoru rēķinu grāmatošanas** **·** **·** **bloķēšana** un iesniegšana darbplūsmas parametram līdzekļu pārvaldības lapā un bloķēt grāmatošanu un iesniegšanu darbplūsmas parametram lapā Kreditoru parametri ir ieslēgta.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Kreditoru rēķinu salīdzināšana ar produktu ieejas plūsmām
 
@@ -142,7 +142,7 @@ Katrai darbībai pārskats ietver sekojošo detalizēto informāciju:
 Veidojot pārskatu **Kreditora atvērtās darbības**, ir pieejami tālāk norādītie noklusējuma parametri. Izmantojot tos, varat filtrēt pārskatā ietveramos datus.
 
 - **Izslēgt turpmāko segšanu** – atzīmējiet šo izvēles rūtiņu, lai izslēgtu darbības, kas nosegtas pēc datuma, kas ievadīts laukā **Atvērtās darbības pa**.
-- **Atvērtās darbības pa** – ievadiet datumu, lai iekļautu darbības, kas ir atvērtas no šī datuma. Ja datums nav ievadīts, šis lauks ir iestatīts uz maksimālo datumu. (Maksimālais datums ir vēlākais datums, kuru sistēma akceptēs, 2154. gada 31. decembris) Pēc noklusējuma nākamajā pārskata izpildes reizē šis lauks tiks iestatīts kā pēdējais datums, kas tajā ievadīts.
+- **Atvērtās darbības pa** – ievadiet datumu, lai iekļautu darbības, kas ir atvērtas no šī datuma. Ja datums nav ievadīts, šis lauks ir iestatīts uz maksimālo datumu. (Maksimālais datums ir vēlākais datums, kuru sistēma akceptēs, 2154. gada 31. decembris.) Pēc noklusējuma nākošajā pārskata izpildes reizē šis lauks tiks iestatīts uz pēdējo datumu, kas tajā ievadīts.
 
 Varat izmantot filtrus laukā **Ieraksti, kurus iekļaut** tālākai darbību datu ierobežošanai, kas tiek iekļauti pārskatā.
 

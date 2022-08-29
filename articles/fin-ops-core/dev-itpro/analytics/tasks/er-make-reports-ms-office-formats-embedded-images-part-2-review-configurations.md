@@ -1,7 +1,7 @@
 ---
 title: Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātā, kurā ir iegultie attēli
 description: Šajā rakstā ir aprakstīts, kā projektēt pārskatu konfigurācijas, lai ģenerētu elektroniskos dokumentus, kas satur iegultus attēlus. (1. daļa - parametru iestatīšana).
-author: NickSelin
+author: kfend
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 365debc2713a7e3ef56b294bade07352fc2089b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12f7b9b027506657809dc9fa50cf97a0300a5310
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886619"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290310"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātā, kurā ir iegultie attēli
 

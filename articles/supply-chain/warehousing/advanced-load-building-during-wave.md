@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863771"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335861"
 ---
 # <a name="advanced-load-building-during-wave"></a>Uzlabota kravu plānošana kopuma laikā
 
@@ -36,7 +36,7 @@ Lai izmantotu šo līdzekli, sistēma ir jāiestata sekojoši:
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Iespējot uzlabota kopuma kravu plānošanu sistēmā
 
-Lai varētu izmantot uzlabota kopuma kravu plānošanu, sistēmā ir jābūt iespējotiem diviem līdzekļiem. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu šo līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Darbvietā **Līdzekļu pārvaldība** līdzekļi ir uzskaitīti šādi:
+Pirms varat lietot detalizētu kopuma noslodzes būvi, sistēmai jābūt ieslēgtām divām funkcijām. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu šo līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Darbvietā **Līdzekļu pārvaldība** līdzekļi ir uzskaitīti šādi:
 
 - Kopuma kravu plānošanas līdzeklis:
 
@@ -50,7 +50,7 @@ Lai varētu izmantot uzlabota kopuma kravu plānošanu, sistēmā ir jābūt ies
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 
-Lai, izmantojot šo demonstrāciju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šo demonstrāciju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 Varat izmantot šo demonstrāciju arī kā vadlīnijas šī līdzekļa izmantošanai, strādājot ar ražošanas sistēmu. Tomēr šādā gadījumā jums ir jāaizstāj savas vērtības, un, iespējams, trūks dažu nepieciešamo ierakstu tipu, ko sniedz standarta demonstrācijas dati.
 

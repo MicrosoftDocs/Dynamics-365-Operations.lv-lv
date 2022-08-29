@@ -2,29 +2,30 @@
 title: Fiskālā printera integrācijas piemērs Itālijai
 description: Šajā rakstā sniegts pārskats par Itālijas finanšu integrācijas parauga lietojumprogrammu Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2018-11-01
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909394"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337254"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Fiskālā printera integrācijas piemērs Itālijai
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā sniegts pārskats par Itālijas finanšu integrācijas parauga lietojumprogrammu Microsoft Dynamics 365 Commerce.
 
-Itālijas Commerce funkcionalitāte ietver pārdošanas punkta (POS) parauga integrāciju ar fiskālo printeri. Paraugs paplašina [fiskālās](fiscal-integration-for-retail-channel.md)[integrācijas funkcionalitāti tā, lai tas darbojas ar Epson FP-90III sērijas](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) printeriem no Epson, un tas ļauj sazināties ar fiskālo printeri tīmekļa servera režīmā, izmantojot Web pakalpojumu EpsonFPMate, izmantojot finanšu ePOS-Print API. Paraugs atbalsta tikai režīmu Registratore Telematico (RT). Paraugs ir nodrošināts avota koda formā un ir daļa no mazumtirdzniecības programmatūras izstrādes komplekta (SDK).
+Itālijas Commerce funkcionalitāte ietver pārdošanas punkta (POS) parauga integrāciju ar fiskālo printeri. Paraugs paplašina [fiskālās](fiscal-integration-for-retail-channel.md)[integrācijas funkcionalitāti tā, lai tas darbojas ar Epson FP-90III sērijas](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) printeriem no Epson un ļauj sazināties ar fiskālo printeri tīmekļa servera režīmā, izmantojot Web pakalpojumu EpsonFPMate, izmantojot finanšu ePOS-Print API. Paraugs atbalsta tikai režīmu Registratore Telematico (RT). Paraugs ir nodrošināts avota koda formā un ir daļa no Commerce programmatūras izstrādes komplekta (SDK).
 
-Korporācija Microsoft neatlaiž nevienu aparatūru, programmatūru vai dokumentāciju no Epson. Lai iegūtu informāciju par to, kā iegūt fiskālo printeri un darbināt to, sazinieties ar [Epson Epson S.p.A](https://www.epson.it).
+Korporācija Microsoft neatlaiž nevienu aparatūru, programmatūru vai dokumentāciju no Epson. Lai iegūtu informāciju par to, kā iegūt fiskālo printeri un darbināt to, sazinieties ar [Epson Epson S.p.A.](https://www.epson.it)
 
 ## <a name="scenarios"></a>Scenāriji
 
@@ -99,12 +100,10 @@ Fiskālā printera integrēšanas paraugs ievieš tālāk norādītos noteikumus
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>Iestatīt Itālijas fiskālo integrāciju
 
-Itālijas fiskālā printera integrācijas paraugs ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no retail SDK. Paraugs atrodas src **FiscalIntegration\\ EpsonFP90IISample\\** mapē Solutions [Dynamics 365 Commerce repozitorija (piemēram,](https://github.com/microsoft/Dynamics365Commerce.Solutions/) paraugs ir izlaišanas/9,33 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums (CRT) un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Itālijas fiskālā printera integrācijas paraugs ir balstīts uz finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Commerce SDK. Paraugs atrodas src **FiscalIntegration\\ EpsonFP90IISample\\** mapē Solutions repository [Dynamics 365 Commerce.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) no fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums (CRT) un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot Commerce SDK, [skatiet download Commerce SDK par paraugos un atsauces pakotnēs no GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[un un iestatiet būvējuma konveijeru neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
->
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> [!NOTE]
+> Itālijas fiskālā printera integrācijas paraugs ir pieejams Commerce SDK versijā 10.0.29. Commerce versijā 10.0.28 vai agrākā versijā jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumos Lifecycle Services (LCS). Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
 
 Veiciet fiskālās integrācijas iestatīšanas soļus, kā [aprakstīts Commerce kanālu finanšu integrācijas iestatīšanai](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -123,18 +122,16 @@ Lai iespējotu reģistrācijas procesu, izpildiet šīs darbības, lai iestatīt
 1. Lejupielādēt konfigurācijas failus finanšu dokumentu nodrošinātājam un finanšu savienotājam:
 
     1. Atveriet risinājumu repozitoriju [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Atlasiet pareizu versijas izlaidi atbilstoši SDK/programmas versijai (piemēram, izlaidums **[/9,33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai.
     1. Atveriet **src \> FiscalIntegration \> EpsonFP90IISample**.
-    1. Lejupielādējiet finanšu dokumentu nodrošinātāja konfigurācijas failu commerceRuntime **DocumentProvider.EpsonFP90IISample \> Configuration \> DocumentProviderEpsonF90IISample.xml (piemēram \>,** fails laidienam/9,33 [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
-    1. Lejupielādējiet fiskālā savienotāja konfigurācijas failu HardwareStation **EpsonFP90IIFiscalDeviceSample \> konfigurācijas \> ConnectorEpsonFP90ISample.xml (piemēram \>,** fails laidienam/9,33 [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml).
+    1. Lejupielādējiet finanšu dokumentu nodrošinātāja konfigurācijas failu **commerceRuntime \> DocumentProvider.EpsonFP90IISample \> konfigurācijas \> DocumentProviderEpsonF90IISample.xml**.
+    1. Lejupielādējiet fiskālā savienotāja **konfigurācijas failu Aparatūras stacijā \> EpsonFP90IIFiscalDeviceSample \> konfigurācijas \> ConnectorEpsonFP90IISample.xml**.
 
-    > [!WARNING]
-    > Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas tālākmintās Retail SDK mapēs LCS izstrādātāja VM:
+    > [!NOTE]
+    > Commerce versijā 10.0.28 vai agrākai versijai ir jāizmanto retail SDK iepriekšējā versija izstrādātājam VM LCS. Šī fiskālās integrācijas parauga konfigurācijas faili atrodas tālākmintās Retail SDK mapēs LCS izstrādātāja VM:
     >
     > - **Finanšu dokumentu nodrošinātāja konfigurācijas fails:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extension.DocumentProvider.EpsonFP90IISample\\ konfigurācijas\\ DocumentProviderEpsonF90IISample.xml
     > - **Finanšu savienotāja konfigurācijas fails:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ Extension.EpsonFP90IIFiscalDeviceSample konfigurācijas\\\\ ConnectorEpsonFP90IISample.xml
-    > 
-    > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
 
 1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**. Cilnē Vispārīgi **iestatiet** opciju Aktivizēt **fiskālo integrāciju kā** **Jā**.
 1. Dodieties uz **Retail un Commerce \> Channel iestatīšanas finanšu \> integrācijas \> finanšu dokumentu nodrošinātājiem** un ielādējiet iepriekš lejupielādēto fiskālā dokumenta nodrošinātāja konfigurācijas failu.
@@ -256,16 +253,15 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
 
 ### <a name="configure-channel-components"></a>Konfigurēt kanāla komponentus
 
-> [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
->
-> Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> [!NOTE]
+> - Itālijas fiskālā printera integrācijas paraugs ir pieejams Commerce SDK versijā 10.0.29. Commerce versijā 10.0.28 vai agrākā versijā ir jāizmanto retail SDK iepriekšējā versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
+> - Commerce paraugi, kas ir izvietoti jūsu vidē, netiek automātiski atjaunināti, kad commerce komponentiem izmantojat pakalpojumu vai kvalitātes atjauninājumus. Jums manuāli jāatjaunina nepieciešamie paraugi.
 
 #### <a name="set-up-the-development-environment"></a>Iestatīt izstrādes vidi
 
 Lai iestatītu izstrādes vidi un paplašinātu paraugu ņemšanas, veiciet šādus soļus.
 
-1. Lejupielādējiet Solutions repozitoriju vai [Dynamics 365 Commerce lejupielādējiet](https://github.com/microsoft/Dynamics365Commerce.Solutions) to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet lejupielādes [Retail SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Lejupielādējiet Solutions repozitoriju vai [Dynamics 365 Commerce lejupielādējiet](https://github.com/microsoft/Dynamics365Commerce.Solutions) to. Atlasiet pareizu filiāles versiju atbilstoši SDK/programmas versijai. Papildinformāciju skatiet Lejupielādes [Commerce SDK paraugos un atsauces pakotnēs no GitHub un NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Atveriet fiskālā printera **integrācijas risinājumu pie Dynamics365Commerce.Solutions\\ FiscalIntegration\\ EpsonFP90IISample\\ EpsonFP90IISample.sln** un izveidojiet to.
 1. Instalēt CRT paplašinājumus:
 
@@ -303,10 +299,10 @@ Izpildiet [darbības](fiscal-integration-sample-build-pipeline.md), kas sadaļā
 
 ## <a name="design-of-extensions"></a>Paplašinājumu dizains
 
-Itālijas fiskālā printera integrācijas paraugs ir balstīts uz fiskālās [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no retail SDK. Paraugs atrodas src **FiscalIntegration\\ EpsonFP90IISample\\** mapē Solutions [Dynamics 365 Commerce repozitorija (piemēram,](https://github.com/microsoft/Dynamics365Commerce.Solutions/) paraugs ir izlaišanas/9,33 [).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, CRT kas ir Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
+Itālijas fiskālā printera integrācijas paraugs ir balstīts uz finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Commerce SDK. Paraugs atrodas src **FiscalIntegration\\ EpsonFP90IISample\\** mapē Solutions repository [Dynamics 365 Commerce.](https://github.com/microsoft/Dynamics365Commerce.Solutions/) Paraugs [sastāv](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) no fiskālā dokumenta nodrošinātāja, CRT kas ir Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot Commerce SDK, [skatiet download Commerce SDK par paraugos un atsauces pakotnēs no GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[un un iestatiet būvējuma konveijeru neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md) Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> [!NOTE]
+> Itālijas fiskālā printera integrācijas paraugs ir pieejams Commerce SDK versijā 10.0.29. Commerce versijā 10.0.28 vai agrākā versijā ir jāizmanto retail SDK iepriekšējā versija izstrādātājam VM LCS. Papildinformāciju skatiet Itālijas [fiskālā printera integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-ita-fpi-sample-sdk.md)
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce runtime paplašinājuma dizains
 

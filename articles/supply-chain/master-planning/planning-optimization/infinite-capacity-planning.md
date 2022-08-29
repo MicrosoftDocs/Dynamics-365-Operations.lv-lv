@@ -2,7 +2,7 @@
 title: Plānošana ar neierobežotu noslodzi
 description: Šajā rakstā ir sniegta informācija par neierobežotas noslodzes plānošanu plānošanas optimizēšanai. Šeit aprakstīti arī pašreizējie funkcionalitātes ierobežojumi.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873874"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335321"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Plānošana ar neierobežotu noslodzi
 
@@ -24,12 +24,9 @@ ms.locfileid: "8873874"
 
 Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ievieš plānošanu, kuras pamatā ir maršruta informācija. Tas ļauj plānot darbus, balstoties uz plašu maršruta iestatījumu diapazonu. Plānošana Plānošanas optimizācijai aptver bieži izmantotos maršruta iestatījumus, tostarp maršruta operāciju secību vai maršruta operāciju resursu prasības.
 
-## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Ieslēgt neierobežotās noslodzes plānošanas līdzekli
+## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Neierobežotās noslodzes plānošanas līdzekli ieslēgt vai izslēgt
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Vispārējā plānošana*
-- **Līdzekļa nosaukums**: *Bezgalīga noslodzes plānošana plānošanas optimizācijai*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot *neierobežotas noslodzes plānošanu optimizācijas līdzeklim* Līdzekļu [pārvaldības darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Papildinformāciju par šo līdzekli skatiet tēmā [Plānošana ar iespējā balstītu resursu atlasi](capability-based-scheduling.md).
 

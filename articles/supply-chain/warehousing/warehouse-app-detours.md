@@ -2,21 +2,21 @@
 title: Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 description: Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes krājumus tā, lai darbinieki varētu izpildīt pašreizējo uzdevumu, veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863597"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336131"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 
@@ -34,22 +34,9 @@ Novirzīšana ir atsevišķs izvēlnes elements, ko var atvērt, veicot galveno 
 Lai iespējotu nepieciešamos līdzekļus, pirms varat konfigurēt mobilo ierīču izvēlnes elementu darbību novirzīšanu,, ir jāveic tālāk norādītās darbības un jāģenerē nepieciešamie lauku nosaukumi mobilajā programmā Warehouse Management.
 
 1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
-1. Darbvietā [**Līdzekļu pārvaldība** darbvieta](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iespējojiet līdzekli, kas ir uzskaitīts šādā veidā:
-
-    - **Modulis:** *Noliktavas pārvaldība*
-    - **Līdzekļa nosaukums:** *Programmas Warehouse darbību norādījumi*
-
-    Papildinformāciju par līdzekli *Warehouse programmas darbību norādījumi* skatiet sadaļā [Warehouse Management mobilās lietojumprogrammas darbību nosaukumu pielāgošana un instrukcijas](mobile-app-titles-instructions.md). Šis līdzeklis ir priekšnosacījums līdzeklim *Warehouse Management programmas novirzīšana*.
-
-1. Iespējojiet līdzekli, kas ir uzskaitīts tālāk minētajā veidā:
-
-    - **Modulis:** *Noliktavas pārvaldība*
-    - **Līdzekļa nosaukums:** *Warehouse management programmas novirzīšana*
-
-    Šī funkcija ir šajā rakstā aprakstīta funkcija.
-
-1. Atjauniniet lauku nosaukumus Warehouse Management mobilajā programmā, apmeklējot **Warehouse Management \> Iestatījums \> Mobilā ierīce \> Warehouse programmas lauku nosaukumi** un atlasot **Izveidot noklusējuma iestatījumus**. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
-1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
+1. Pārliecinieties, vai *jūsu sistēmai ir ieslēgta* noliktavas programmas darbību norādījumu funkcija. No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir ieslēgta pēc noklusējuma. Papildinformāciju par līdzekli *Warehouse programmas darbību norādījumi* skatiet sadaļā [Warehouse Management mobilās lietojumprogrammas darbību nosaukumu pielāgošana un instrukcijas](mobile-app-titles-instructions.md). Šis līdzeklis ir priekšnosacījums līdzeklim *Warehouse Management programmas novirzīšana*.
+1. Slēdziet *funkciju Noliktavas pārvaldības* programma. Šī funkcija ir tā, kas ir aprakstīta šajā rakstā. No Piegādes ķēdes pārvaldības versijas 10.0.29 tas ir ieslēgts pēc noklusējuma.
+1. Ja noliktavas *pārvaldības programmas atšifrējumu līdzeklis vēl nebija ieslēgts, atjauniniet lauku nosaukumus mobilajā programmā Noliktavas pārvaldība,* **\>\>\>** noklikšķinot uz Noliktavas pārvaldības iestatījuma mobilās **ierīces programmas lauku nosaukumi un atlasot Izveidot noklusējuma iestatījumus.** Atkārtojiet šo darbību katrai juridiskajai personai (uzņēmumam), kas izmanto mobilo programmu Noliktavas pārvaldība. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Konfigurēt novirzīšanu no izvēlnes raksturīgās pārlabošanas
 
@@ -65,7 +52,7 @@ Izmantojiet šo procedūru, lai iestatītu novirzīšanu no izvēlnes raksturīg
 
 ### <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai izmantotu norādītos parauga ierakstus un vērtības šī scenārija izmantošanai, jāizmanto sistēma, kurā instalēti standarta demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
+Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā scenārijā, jums ir jāizmanto sistēma, kur ir instalēti [standarta](../../fin-ops-core/fin-ops/get-started/demo-data.md) demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Izveidot izvēlnei raksturīgo pārlabošanu un konfigurēt 1. scenārija novirzīšanu
 
@@ -118,7 +105,7 @@ Pieprasījumu par novietojumu var aizstāt ar noliktavas vienības pieprasījumu
 
 ### <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai izmantotu norādītos parauga ierakstus un vērtības šī scenārija izmantošanai, jāizmanto sistēma, kurā instalēti standarta demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
+Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā scenārijā, jums ir jāizmanto sistēma, kur ir instalēti [standarta](../../fin-ops-core/fin-ops/get-started/demo-data.md) demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Izveidot izvēlnei raksturīgo pārlabošanu un konfigurēt 2. scenārija novirzīšanu
 

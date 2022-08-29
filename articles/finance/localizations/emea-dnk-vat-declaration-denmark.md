@@ -1,20 +1,20 @@
 ---
 title: PVN deklarācija (Dānija)
 description: Šajā rakstā ir aprakstīts, kā iestatīt un ģenerēt papildu pievienotās vērtības nodokļa (PVN) deklarāciju Dānijai.
-author: anasyash
+author: AdamTrukawka
 ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 666dc96cb169ab28ac3938299a3f245e3b4511ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a47b2b98d86daf50876c783f879362ec1addb579
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863004"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272146"
 ---
 # <a name="vat-declaration-denmark"></a>PVN deklarācija (Dānija)
 
@@ -251,7 +251,7 @@ Sekojiet šiem soļiem, lai iestatītu elektroniskos ziņojumus, lai savāktu da
 
     | Lauks                  | Apraksts                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Nosaukums/vārds, uzvārds                   | Ievadiet vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **PVN maksājumu 1. filiālē**. |
+    | Vārds/nosaukums                   | Ievadiet vērtību, kas palīdzēs saprast, no kurienes ir šis ieraksts. Piemēram, ievadiet **PVN maksājumu 1. filiālē**. |
     | Ziņojuma krājuma veids      | Atlasiet **PVN atgriešanu**. Šī vērtība ir vienīgā vērtība, kas pieejama visiem ierakstiem.                                    |
     | Konta veids           | Atlasiet **visu**.                                                                                                               |
     | Galvenās tabulas nosaukums      | Norādiet **TaxReportVoucher** visiem ierakstiem.                                                                             |

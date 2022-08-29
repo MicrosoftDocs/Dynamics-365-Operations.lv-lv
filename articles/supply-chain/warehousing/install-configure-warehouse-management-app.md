@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171461"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335651"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobilās programmas Warehouse Management instalēšana un savienošana
 
@@ -38,7 +38,7 @@ Lietotne Warehouse Management mobile ir pieejama Windows un Google Android oper�
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Ieslēgt vai izslēgt noliktavas pārvaldības mobilās programmas līdzekļus piegādes ķēžu pārvaldībā
 
-Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmā ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
+Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmai ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Iegūt lietotni Warehouse Management mobile
 

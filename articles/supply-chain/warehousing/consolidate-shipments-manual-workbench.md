@@ -2,7 +2,7 @@
 title: Konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku
 description: Šajā rakstā ir scenārijs, kurā vairāki pasūtījumi ir izlaisti nosūtīšanai uz noliktavu un pēc tam konsolidēti kravās vēlāk, izmantojot piegādes konsolidācijas pakalpojumu.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888330"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335801"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku
 
@@ -34,14 +34,11 @@ ms.locfileid: "8888330"
 
 Šeit aprakstītajā scenārijā tiek pieņemts, ka esat jau ieslēdzis līdzekli, paveicis vingrinājumus, lai [Konfigurētu sūtījumu konsolidācijas politikas](configure-shipment-consolidation-policies.md) un izveidotu politikas un citus tur aprakstītos ierakstus. Pirms turpināt šo scenāriju, noteikti veiciet šos vingrinājumus.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Ieslēgt manuālo sūtījumu konsolidācijas līdzekli
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Ieslēgt vai izslēgt manuālas piegādes konsolidācijas līdzekli
 
-Lai varētu izmantot *Manuālo sūtījumu konsolidācijas līdzekli*, tas ir jāieslēdz sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai izmantotu manuālu piegādes konsolidāciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot manuālas piegādes *konsolidācijas* līdzekli līdzekļu pārvaldības [darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulis:** *Noliktavas vadība*
-- **Līdzekļa nosaukums:** *Manuālā sūtījumu konsolidācija*
-
-Kā tika minēts sadaļā [Konfigurēt sūtījumu konsolidācijas politikas](configure-shipment-consolidation-policies.md), pirms varat izveidot politikas, ir jāieslēdz arī *Konsolidācijas nosūtījuma* līdzeklis. Tomēr jums jau ir jābūt pabeigtam šim solim.
+Lai izveidotu politikas *(no Piegādes* ķēdes pārvaldības versijas 10.0.29), jums ir arī jāslēdz piegādes konsolidācijas funkcija, un to nevar izslēgt. Papildinformāciju skatiet kravas konsolidācijas [politiku konfigurēšana](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Izveidot pārdošanas pasūtījumus šim scenārijam
 

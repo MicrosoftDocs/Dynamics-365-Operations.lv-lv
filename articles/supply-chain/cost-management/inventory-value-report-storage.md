@@ -2,7 +2,7 @@
 title: Krājumu vērtības pārskati
 description: Šajā rakstā ir izskaidrots, kā iestatīt, ģenerēt un izmantot krājumu vērtību pārskatus. Šie pārskati sniedz detalizētu informāciju par jūsu krājumu fiziskajiem un finanšu daudzumiem un summām.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854563"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334931"
 ---
 # <a name="inventory-value-reports"></a>Krājumu vērtības pārskati
 
@@ -55,7 +55,7 @@ Krājumu **vērtības pārskata glabāšanas pārskats ir** noderīgs, kad izvad
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Ieslēgt vai izslēgt krājumu vērtības pārskata glabāšanas līdzekli
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot krājumu *vērtības pārskata glabāšanas līdzekli* līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, *tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot krājumu vērtības pārskatu*[glabāšanas līdzekli Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a> Definēt krājumu vērtības pārskata konfigurācijas
 

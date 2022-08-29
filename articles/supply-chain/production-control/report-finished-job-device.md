@@ -2,7 +2,7 @@
 title: Ziņošana par pabeigšanu no darbu kartes ierīces
 description: Šajā rakstā ir aprakstīts, kā konfigurēt sistēmu, lai darbu kartes ierīces lietotāji varētu ziņot par pabeigtām precēm no ražošanas pasūtījuma uz krājumu.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070475"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334631"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
@@ -56,13 +56,12 @@ Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par partijas element
 - **Iepriekš definētie partijas numuri** - darbinieki atlasa partijas numuru partiju numuru sarakstā, ko sistēma automātiski izveido pirms ražošanas pasūtījuma nodošanas darba kartes ierīcei.
 - **Fiksēti partijas numuri** - darbinieki neievada vai neatlasa partijas numuru. Tā vietā sistēma automātiski piešķir ražošanas pasūtījumam partijas numuru, pirms tas tiek izlaists ražošanai.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Iespējot līdzekli sistēmā
 
-Lai iespējotu jūsu darbu karšu ierīces akceptēt partijas numuru, ziņojot par pabeigšanu, ir jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu tālāk norādītos līdzekļus (minētajā secībā).
+Lai pārskata pabeigšanas laikā darba kartes ierīces varētu pieņemt paketes numuru, ir jāizmanto līdzekļu pārvaldība, [lai](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ieslēgtu šādas funkcijas:
 
-1. Uzlabota lietotāja pieredze darba karšu ierīces norises pārskata dialogā
-1. Iespējojiet, lai ievadītu partijas un sērijas numurus, vienlaikus ziņojot kā par pabeigtu no Darbu kartes ierīces
+- *Uzlabota lietotāja pieredze darba karšu ierīces norises pārskata dialogā*
+- *Iespējojiet, lai ievadītu partijas un sērijas numurus, vienlaikus ziņojot kā par pabeigtu no Darbu kartes ierīces*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir noklusējuma iestatījumā.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Konfigurēt preces, kurām nepieciešams partijas numura pārskats
 
@@ -137,10 +136,10 @@ Darba kartes ierīce atbalsta trīs scenārijus ziņošanai par sērijveida kont
 
 ### <a name="enable-the-feature-on-your-system"></a>Iespējot līdzekli sistēmā
 
-Lai iespējotu jūsu darbu karšu ierīces akceptēt sērijas numuru, ziņojot par pabeigšanu, ir jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu tālāk norādītos līdzekļus (minētajā secībā).
+Lai pārskata pabeigšanas laikā darba kartes ierīces varētu pieņemt sērijas numuru, ir jāizmanto līdzekļu pārvaldība, [lai](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ieslēgtu šādas funkcijas:
 
-1. Uzlabota lietotāja pieredze darba karšu ierīces norises pārskata dialogā
-1. Iespējojiet, lai ievadītu partijas un sērijas numurus, vienlaikus ziņojot kā par pabeigtu no Darbu kartes ierīces
+- *Uzlabota lietotāja pieredze darba karšu ierīces norises pārskata dialogā*
+- *Iespējojiet, lai ievadītu partijas un sērijas numurus, vienlaikus ziņojot kā par pabeigtu no Darbu kartes ierīces*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir noklusējuma iestatījumā.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Konfigurēt preces, kurām nepieciešams sērijas numura pārskats
 

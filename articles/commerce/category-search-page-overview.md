@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881856"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276378"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
@@ -46,6 +46,12 @@ Kategorijai ir svarīgi šādi komponenti.
     - Preces nosaukums – \[A-Z\]
     - Vērtējumi – no zema līdz augstam
     - Vērtējumi – no zema līdz augstam
+
+- **Detalizētās kārtošanas opcijas izmanto** tīmekļa vietne ar atbilstošiem kritērijiem, lai kārtotu preces, izmantojot inteliģentus kritērijus. Iespējojot [ieteikumus par](product-recommendations.md) preci, ir pieejamas šādas kārtošanas opcijas. Papildinformāciju skatiet sadaļā Preču [rekomendāciju veidi](product-recommendations.md#types-of-product-recommendations).
+
+    - Jauns
+    - Labākā pārdošana
+    - Populāri
 
 - **Lappušu numerācija** ļauj vietnes apmeklētājiem pāriet no vienas lapas ar kategorizētā produkta rezultātiem uz citu lapu.
 - **Kopējais skaits** nodrošina kopējo preču skaitu, kas definēts kategorijā.
@@ -78,7 +84,7 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
 - **Preču izvietošanas elementi** parāda preces lietotāja meklēšanai. Pēc noklusējuma šie elementi tiek kārtoti pēc mākoņa darbinātā meklēšanas atbilstības rādītāja lietotāja meklēšanai.
 - **Rafinētāji un izvēles kopsavilkums** ir filtri, kas sniedz uzskaitījumu un ko var izmantot krājumu precizēšanai. Tirdzniecības vadītājs tos konfigurē kā metadatu “kanāla kategorijas un preču atribūti” konfigurācijas daļu.
-- **Kārtošanas opcijas** izmanto vietņu apmeklētāji, lai šķirotu preces. Pēc noklusējuma ir pieejamas šādas kārtošanas opcijas.
+- **Standarta kārtošanas opcijas** izmanto ar vietnes iestatījumiem, lai kārtotu preces. Pēc noklusējuma ir pieejamas šādas kārtošanas opcijas.
 
     - Cena – no zemas līdz augstai
     - Cena – no zemas līdz augstai
@@ -86,7 +92,16 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
     - Preces nosaukums – \[A-Z\]
     - Vērtējumi – no zema līdz augstam
     - Vērtējumi – no zema līdz augstam
-    - Noklusējuma vērtība
+    - Noklusējums 
+    
+    > [!NOTE]
+    > Ja **navigācijas heirarchy** precēm ir definētas rādīšanas secības vērtības, kārtošana pēc noklusējuma kategoriju lapā izšķir rādīšanas **secībā definētās vērtības**. Pretējā gadījumā kārtošana tiks veikta pēc preces **numura**.)
+    
+- **Detalizētās kārtošanas opcijas izmanto** tīmekļa vietne ar atbilstošiem kritērijiem, lai kārtotu preces, izmantojot inteliģentus kritērijus. Iespējojot [ieteikumus par](product-recommendations.md) preci, ir pieejamas šādas kārtošanas opcijas. Papildinformāciju skatiet sadaļā Preču [rekomendāciju veidi](product-recommendations.md#types-of-product-recommendations).
+
+    - Jauns
+    - Labākā pārdošana
+    - Populāri
 
 - **Lappušu numerācija** ļauj vietnes apmeklētājiem pāriet no vienas lapas ar kategorizētā produkta rezultātiem uz citu lapu.
 - **Kopējais skaits** nodrošina kopējo preču skaitu, kas definēts kategorijā un kas atbilst meklēšanas kritērijiem.
@@ -94,6 +109,8 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 >[!NOTE]
 >Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
 ![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Turklāt, lai izmantotu papildu kārtošanas opcijas, piemēram, jaunas, labākā pārdošana un tendences, jums jāiespējo [Preces rekomendācijas](product-recommendations.md) jūsu videi. Papildu kārtošanas opcijas ir pieejamas commerce SDK versijā 9.35+ un Commerce versijā 10.0.20.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

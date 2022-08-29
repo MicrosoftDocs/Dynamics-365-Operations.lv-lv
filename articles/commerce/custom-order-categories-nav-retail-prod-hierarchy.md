@@ -2,7 +2,7 @@
 title: Kārtošanas secības mainīšana virzīšanas tirgū elementiem
 description: Šajā rakstā ir skaidroti jēdzieni, kas ir saistīti ar parādīšanas pasūtījuma kontroli dažādām ar preču precēm saistītām entītijām Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847658"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265841"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Tirgojošo vienību kārtošanas secības maiņa
 
 
 [!Include [banner](includes/banner.md)]
 
-Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos. Dažādas funkcionalitātes var palīdzēt viegli pamanīt produktus. Piemēram, tie var pārlūkot kategorijas, meklēt un filtrēt.
+Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos. Ir vairākas funkcijas, kas klientiem palīdz viegli atklāt preces. Piemēram, debitori var pārlūkot kategorijas, meklēt un filtrēt.
 
 Šajā rakstā ir skaidroti jēdzieni, kas ir saistīti ar parādīšanas pasūtījuma kontrolēšanu dažādām ar precēm saistītām entītijām. Tajā aprakstīts arī, kā mainīt kārtošanas secību.
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 
-Atbalsts dažādu ar tirgojošo vienību saistītu šķirošanu ir ticis uzlabots. Šis atbalsts tagad labāk saskaņots ar esošajiem klientu scenārijiem, kam iepriekš bija vajadzīgi paplašinājumi no ieviešanas partneriem.
+Komercijas programmā dažādu ar preču umu saistītu entītiju kārtošana ir saskaņota ar esošajiem debitoru scenārijiem, un tai vairs nav nepieciešami paplašinājumi no ieviešanas partneriem.
 
-Retail versijās, kas jaunākas par 10.0.5. versiju, kārtošanas secība kategorijām navigācijas hierarhijā bija alfabētiska. Jaunā pielāgotā kārtošanas secība ļauj tirdzniecības vadītājiem konfigurēt kārtošanas secību dažādām tirgojošām vienībām starp visiem klientiem gala lietotājiem. Šie klienti ietver galvenās mītnes un zvanu centrus.
+Commerce versijās 10.0.5 un vecākās versijās navigācijas hierarhijā kategoriju kārtošanas secība bija alfabētiska. Pašreiz pielāgotās kārtošanas secības funkcionalitāte ļauj preču pārvaldnieks konfigurēt kārtošanas secību dažādiem ar precēm saistītām entītijām visos gala lietotāju klientos. Šie klienti ietver galvenās mītnes un zvanu centrus.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Konfigurēt parādīšanas secību kategorijām produktu hierarhijā.
 
@@ -63,11 +63,11 @@ Pirms pabeigt šo procedūru, jūsu vidē jābūt instalētiem demonstrācijas d
 2. Meklēšanas sarakstā atlasiet **Modes navigācija** hierarhiju.
 3. Klikšķiniet uz **Rediģēt kategorijas hierarhiju**.
 4. Noklikšķiniet uz **Rediģēt**.
-5. Kokā atlasiet **Mode \> Sieviešu apģērbs \> Sieviešu kurpes**.
+5. Koka kokā atlasiet **Modes sievietes \>, vīriešu \> apģērbs**.
 6. Laukā **Parādīšanas kārtība** ievadiet skaitli.
 7. Kokā atlasiet **Mode \> Sieviešu apģērbs \> Topi**.
 
-    Tāpat varat definēt kārtošanas secību apakškategorijām.
+Tāpat var definēt apakškategorijām kārtošanas secību.
 
 8. Kokā atlasiet **Mode \> Vīriešu apģērbs \> Brīvā stila krekli**.
 9. Laukā **Parādīšanas kārtība** ievadiet skaitli.
@@ -84,7 +84,7 @@ Parādīšanas secība kanālu navigācijas hierarhijā ir atspoguļota HQ, kata
 ![POS ar pielāgoti sakārtotām kategorijām.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Pielāgotā kārtošanas secība pēc noklusējuma ir izslēgta. Lai uzzinātu, kā ieslēgt šo un citas funkcijas, skatiet [Līdzekļu pārvaldība](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Pēc noklusējuma funkcija **Iespējot rādīšanas secību preču pārdošanas entītijām** ir izslēgta. Lai [to ieslēgtu,](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lietojiet līdzekļu pārvaldību. Pēc tam, kad būsiet pieslēpis šo līdzekli, **izpildiet globālās konfigurācijas -1110** CDX darbu no sadales grafika.
+> Ja POS kategoriju pasūtījums nav atjaunināts, atkārtoti aktivizējiet ierīci. Kategorijas informācija tiek ienesta, kad notiek ierīces aktivizēšana, tāpēc ierīcei var būt nepieciešams refetch kategorijas informāciju ar atjauninātiem displeja pasūtījumiem. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

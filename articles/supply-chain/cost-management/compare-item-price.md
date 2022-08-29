@@ -2,7 +2,7 @@
 title: Krājumu cenu uzglabāšanas salīdzināšanas pārskats
 description: Uzziniet, kā ģenerēt krājumu cenu uzglabāšanas salīdzinājuma pārskatu un pēc tam pārlūkot un/vai eksportēt rezultātu.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846218"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334991"
 ---
 # <a name="compare-item-prices-storage-report"></a>Krājumu cenu uzglabāšanas salīdzināšanas pārskats
 
@@ -35,12 +35,9 @@ Pārskata rezultāti tiek uzglabāti datu elementā **Preču cenu salīdzināša
 
 Pārskats **Krājumu uzglabāšanas cenu salīdzināšana** noder gadījumos, ja izlaidē ir daudz rindu. Piemēram, izlaide saturēs daudzas rindas, ja jums ir vairāk nekā 40 000 krājumu, kam ir gaidoša krājuma cena izmaksu aprēķināšanas versijā.
 
-## <a name="enable-compare-item-prices-storage"></a>Krājumu cenu uzglabāšanas salīdzināšanas iespējošana
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Ieslēgt vai izslēgt krājumu cenu salīdzināšanas glabāšanas līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un iespējotu to pēc nepieciešamības. Šeit līdzeklis tiek norādīts kā:
-
-- **Modulis** - Izmaksu pārvaldība
-- **Līdzekļa nosaukums** — Krājumu cenu uzglabāšanas salīdzināšana
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot glabāšanas līdzekli Salīdzināt krājuma cenu līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Ģenerēt pārskatu Krājumu cenu uzglabāšanas salīdzināšana
 

@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8569cabf72871396b9935a14a5637e5e645705fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9c107e31e58ba1302cd02e2e82aa405dda0fdef
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848231"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337336"
 ---
 # <a name="create-coverage-options"></a>Izveidot seguma opcijas
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vajadzību opcijas nosaka, kurš ir jāsedz vai cik seguma ir pieejams apdrošināšanas plānā. Piemēram, medicīniskām plānam, iespējams, ir opcija **Tikai darbinieks**, opcija **Darbinieks + 1** un opcija **Ģimene**. Dzīvības apdrošināšanai jūs varat piedāvāt segumu par **1 x algu** vai **2 x algu**.
 

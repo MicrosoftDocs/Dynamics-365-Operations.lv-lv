@@ -2,7 +2,7 @@
 title: Krājumu aizturēšana
 description: Šajā rakstā ir sniegts pārskats par krājuma bloķēšanu, kas ir kvalitātes pārbaudes procesa elements Supply Chain Management. Krājuma bloķēšanu var izmantot, lai nepieļautu krājumu apstrādi vai patēriņu.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857813"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334691"
 ---
 # <a name="inventory-blocking"></a>Krājumu aizturēšana
 
@@ -96,11 +96,11 @@ Ja ir deaktivizēta funkcija **Rezervēt pasūtītos krājumus**, paredzamos ie�
 
 Šajos divos gadījumos ievērojiet darbības statusa un dimensiju starpību. Tāpēc ieteicams iespējot opciju **Rezervēt pasūtītos krājumus**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Atspējot paredzamo ieejas plūsmu no kvalitātes pasūtījumiem, kuri atlasītajiem bloķēto krājumu līdzekļa uzdevumiem
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Sagaidāmā saņemšana no kvalitātes pārbaudes pasūtījumiem, kas izmanto aizturēto krājumu paraugus — atspējošana
 
 Lai vienkāršotu krājumu darbības kvalitātes pasūtījumu gadījumā, kuri krājumu paraugs ir bloķēts kā krājumu statusa sekas, sistēma nodrošina funkciju, kas deaktivizē paredzamo saņemšanu no šādiem kvalitātes pasūtījumiem. Tā kā gaidāmā saņemšana nekavējoties tiek bloķēta ar krājuma statusa bloķēšanu, šo izmaiņu dēļ rīcībā esošo krājumu samazinājums netiek samazināts.
 
-Šī funkcija pēc noklusējuma ir izslēgta. Administratori to var ieslēgt vai izslēgt *, meklējot opciju Atspējot sagaidāmās ieejas plūsmas no kvalitātes pasūtījumiem, kuru paraugs ir bloķēts* krājumu līdzeklis līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt *šo funkcionalitāti, meklējot opciju Atspējot sagaidāmās ieejas plūsmas no kvalitātes pasūtījumiem, kuru paraugs ir bloķēts* krājumu līdzeklis līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854273"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337358"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozes samazināšanas principi
 
@@ -133,7 +133,7 @@ Izmantojot šo opciju, notiek šādas darbības.
 - Samazināšanas principi nav nepieciešami vai netiek izmantoti. 
 - Ja prognoze ir pilnībā samazināta, prognozes vajadzības pašreizējai prognozei ir 0 (nulle).
 - Ja nav nevienas turpmākas prognozes, tiek samazinātas prognozes vajadzības no pēdējās ievadītās prognozes.
-- Prognozes samazināšanas aprēķinā tiek iekļauti laika periodi.
+- Pieprasījuma apjoma prognozes samazināšanas periods nav iekļauts budžeta samazināšanas aprēķinā. Tā vietā vajadzību grupas laika periods tiek izmantots budžeta samazināšanai.
 - Prognozes samazināšanas aprēķinā tiek iekļautas dienas(+).
 - Ja faktiskā pasūtījuma transakcijas pārsniedz prognozes vajadzības, atlikušās transakcijas netiek pārsūtītas uz nākamo prognozes periodu.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124534"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219130"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.23. (2022. gada janvāris)
 
@@ -55,7 +55,7 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šiem līdzekļiem, tas ir jādara
 | Krājumu un noliktavas pārvaldība | (Krievija) Krājumu pārvaldībā izmantojiet tulkojumus vietējā valodā valsts/reģiona specifiskajās pamata veidlapās | Krievijas Supply Chain Management lokalizācijām šis līdzeklis sniedz iespēju izmantot krievu valodas tulkojumus produktu/krājumu nosaukumiem un mērvienībām šādās Krievijai raksturīgās krājumu izdrukās: Uzskaites saraksts (INV-3), Uzskaites saraksts (INV-5), Uzskaites saraksts (INV-6). |
 | Vispārējā plānošana | Azure algoritmiskās mācīšanās pakalpojums pieprasījuma prognozēšanai | Izmantojot šo līdzekli, Azure datora apmācības pakalpojums var ģenerēt pieprasījuma apjoma prognozes, pamatojoties uz vēsturiskajiem datiem. Papildinformāciju skatiet pieprasījuma [prognozēšanas iestatījumos](../master-planning/demand-forecasting-setup.md). |
 | Sagāde un avoti | Pirkšanas pasūtījumu atjauninājumu vēstures tīrīšana | Šis līdzeklis ļauj notīrīt pagaidu vēsturiskos ierakstus, kas ir saistīti ar pirkšanas pasūtījuma atjauninājumiem. Tas pievieno jaunu pogu ar nosaukumu **Pirkšanas atjauninājumu tīrīšanas vēsture** darbību rūtij **Visu pirkšanas pasūtījumu** lapā. Šis līdzeklis ir iespējots pēc noklusējuma. |
-| Ražošanas kontrole | (Priekšskatījums) Noliktavā iespējotu materiālu automātiska atlasīšana automātiski grāmatotiem izdošanas sarakstiem | Šis līdzeklis sniedz iespēju automātiski izvēlēties un atrisināt krājumu dimensijas automātiski grāmatotiem, atvasinātiem un atgriezeniskiem izdošanas sarakstu žurnāliem. |
+| Ražošanas kontrole | Noliktavā iespējotu materiālu automātiska atlasīšana automātiski grāmatotiem izdošanas sarakstiem | Šis līdzeklis sniedz iespēju automātiski izvēlēties un atrisināt krājumu dimensijas automātiski grāmatotiem, atvasinātiem un atgriezeniskiem izdošanas sarakstu žurnāliem. |
 | Ražošanas kontrole | Pārbaudīt izejmateriālu beigu datumu, salīdzinot tos ar plānoto patēriņa datumu | Šis līdzeklis izmaina to, kā tiek validēti partijas beigu datumi, rezervējot izejmateriālu partiju, kas tiks lietota ražošanas laikā. Ja šis līdzeklis ir iespējots, partijas beigu datums tiek pārbaudīts attiecībā pret plānoto patēriņa datumu (izejmateriālu datumu), kā noteikts ražošanas MK rindā vai partijas pasūtījuma formulas rindā. Ja šis līdzeklis ir atspējots, partijas beigu datums tiek pārbaudīts pret plānoto ražošanas vai partijas pasūtījuma piegādes datumu (kā iepriekš). |
 | Pārdošana un mārketings | Pārdošanas atjauninājumu vēstures tīrīšana, pamatojoties uz vecumu | Šī funkcija ļauj iestatīt maksimālo ierakstu vecumu, kas jāsaglabā, palaižot pārdošanas **atjaunināšanas vēstures tīrīšanas** periodisko uzdevumu. Vecāki ieraksti tiks dzēsti. Tas noder, iestatot uzdevumu periodiskai izpildei, jo vecums vienmēr tiek aprēķināts attiecībā pret uzdevuma palaišanas datumu. Bez šīs funkcionalitātes var iestatīt tikai specifisku datumu vecākajiem ierakstiem, kas jāsaglabā. Papildinformāciju skatiet pārdošanas [vēstures datu plānošanas sadaļā](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pārdošana un mārketings | “100 populārāko” klientu pārskata veiktspējas uzlabošana | Šis līdzeklis uzlabo **100 populārāko** debitoru pārskata veiktspēju, vienmēr palaižot pārskatu visiem debitoriem (kas ir paredzēts lietošanai), nevis pieļaujot pielāgotos vaicājumus. Ja šis līdzeklis ir aktivizēts, visi **Iekļaujamo ierakstu** iestatījumi, tiek atspējoti **100 populārāko** pārskata dialogā. |

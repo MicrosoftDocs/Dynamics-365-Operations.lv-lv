@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905491"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334451"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Iestatīt dažādas iepakošanas un glabāšanas dimensijas
 
@@ -37,7 +37,7 @@ Daži krājumi tiek iepakoti vai uzglabāti tā, ka katram no vairākiem dažād
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Ieslēgt iepakojuma preču dimensiju līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Produkta iepakojuma dimensijas*
@@ -50,7 +50,7 @@ Pirms jūs varat palaist piemēra scenāriju, jums ir jāsagatavo sistēma, kā 
 
 #### <a name="enable-demo-data"></a>Iespējot paraugdatus
 
-Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [paraugdati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa *USMF* juridiskā persona.
+Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [paraugdati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa *USMF* juridiskā persona.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Pievienot precei jaunu fizisko dimensiju
 

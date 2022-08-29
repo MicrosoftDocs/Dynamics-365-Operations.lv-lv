@@ -2,7 +2,7 @@
 title: Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 description: Šajā rakstā ir aprakstīts krājumu rezervēšanas politika, kas ļauj uzņēmumiem pārdot partijas izsekotas preces un palaist to loģistiku kā WMS iespējotas operācijas rezervē noteiktas partijas debitoru pārdošanas pasūtījumiem, pat ja rezervāciju hierarhija, kas saistīta ar precēm, neļauj rezervēt noteiktu partiju.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065904"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335711"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
@@ -196,12 +196,12 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 - Numura zīme var tikt ierakstīta un rezervēta laikā, kad pasūtījumu veic pārdošanas apstrādātājs, un to nevar pārņemt citas prasības. Šī rīcība palīdz garantēt, ka plānotā numura zīme tiek nosūtīta debitoram.
 - Ja numura zīme vēl nav piešķirta pārdošanas pasūtījuma rindai, noliktavas personāls saņemšanas darba laikā var atlasīt numura zīmi, pēc pārdošanas pasūtījuma reģistrācijas un rezervācijas pabeigšanas.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Ieslēdziet elastīga numura zīmes rezervēšanu
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Ieslēgt vai izslēgt elastīgu numura zīmes rezervāciju
 
-Lai varētu izmantot elastīgu noliktavas vienības rezervāciju, diviem līdzekļiem ir jābūt iespējotiem sistēmā. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Šie līdzekļi ir jāaktivizē šādā secībā:
+Pirms elastīgās numura zīmes rezervēšanas lietošanas sistēmai ir jābūt ieslēgtiem diviem līdzekļiem. Administratori var izmantot [līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Šie līdzekļi ir jāaktivizē šādā secībā:
 
-1. **Līdzekļa nosaukums:** *Elastīga noliktavas līmeņa dimensiju rezervācija*
-1. **Līdzekļa nosaukums:** *elastīga, pasūtījuma izsniegta numura zīmes rezervēšana*
+1. *Elastīga noliktavas līmeņa dimensijas rezervācija*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
+1. *Elastīga numura zīmes pasūtījuma rezervācija*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Rezervēt noteiktu numura zīmi pārdošanas pasūtījumā
 

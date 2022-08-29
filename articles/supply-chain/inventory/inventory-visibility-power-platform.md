@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895762"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306179"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility programmas lietošana
 
@@ -70,10 +70,24 @@ Lai grāmatotu rezervēšanas pieprasījumu, pieprasījuma pamattekstā ir jāie
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Krājumu kopsavilkums
 
-**Krājuma kopsavilkums** ir pielāgots skats uz *Inventory OnHand Sum* entitīju. Tajā sniegts krājumu kopsavilkums precēm kopā ar visām dimensijām. Krājumu kopsavilkuma dati periodiski tiek sinhronizēti no krājumu redzamības ik pēc 15 minūtēm. Lai skatītu datus cilnē **Krājumu kopsavilkums**, *cilnē Līdzekļu pārvaldība ir jāiestata funkcija OnHandMostSpecificBackgroundService* **un** jāatlasa **Atjaunināt konfigurāciju**.
+Krājumu **kopsavilkuma lapa** sniedz krājuma kopsavilkumu precēm kopā ar visām dimensijām. Tas ir pielāgots skats elementam Rīcībā *esošo krājumu* summa. Krājumu kopsavilkuma dati tiek periodiski sinhronizēti no krājumu redzamības.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Iespējot krājumu kopsavilkumu un iestatīt sinhronizācijas biežumu
+
+Lai iespējotu **lapu Krājumu kopsavilkums** un iestatītu sinhronizācijas biežumu, rīkojieties šādi:
+
+1. Atveriet lapu **Konfigurācija**.
+1. Atveriet cilni **Līdzekļu pārvaldība &** iestatījumi.
+1. Iestatiet pārslēgšanās pārslēgšanos līdzeklim **OnHandMostSpecificBackgroundService** uz *Jā*.
+1. Kad funkcija ir aktivizēta, **·** **pakalpojuma konfigurācijas sadaļa kļūst pieejama un ietver rindu līdzekļa OnHandMostSpecificBackgroundService konfigurēšanai.** Šis iestatījums ļauj izvēlēties biežumu, kādā tiek sinhronizēti krājumu kopsavilkuma dati. Izmantojiet pogas **Augšupvērstais** **un** Lejupvērstais **kolonnā** Vērtību, lai mainītu laiku starp sinhronizācijām (kas var būt tik zema, kā 5 minūtes). Pēc tam atlasiet **Saglabāt**.
+1. Atlasiet **Atjaunināt konfigurāciju,** lai saglabātu visas izmaiņas.
+
+![Iestatījums OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Iestatījums OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
 > Funkcija *OnHandMostSpecificBackgroundService* izseko tikai rīcībā esošo preču izmaiņas, kas notikušas pēc funkcijas ieslēgtšanas. To preču dati, kuras nav mainītas kopš ieslēgts līdzeklis, netiks sinhronizēti no krājumu pakalpojuma kešatmiņas vidē Dataverse. **Ja** jūsu Krājumu kopsavilkuma lapā nav parādīta visa pieejamā informācija, ko plānojat, **pārejiet uz sadaļu Krājumu pārvaldība > Periodiskie uzdevumi >** Krājumu redzamības integrācija, atspējojiet pakešuzdevumu un ataktivizējiet to. Tas veiks sākotnējo virzību, un visi dati nākamo *15 minūšu laikā tiks sinhronizēti* ar elementu Krājumu rīcībā summa. Ja vēlaties izmantot šo funkciju, **ieteicams to ieslēgt pirms jebkādu rīcībā esošo izmaiņu veikšanas un iespējot pakešuzdevumu Krājumu** redzamība integrācija.
+
+### <a name="work-with-the-inventory-summary"></a>Strādāt ar krājumu kopsavilkumu
 
 Lietojiet Dataverse sniegto **Detalizēto filtru**, varat izveidot personalizētu skatu, kurā rādītas jums svarīgākās rindas. Papildu filtra opcijas ļauj izveidot plašu skatījumu klāstu no vienkāršiem uz kompleksiem. Tie arī ļauj pievienot filtriem grupētus un ligzdotus nosacījumus. Lai uzzinātu vairāk par **Papildu filtra** lietošanu, skatiet rakstu [Rediģēt vai izveidot personalizētus skatus, izmantojot detalizētā režģa filtrus](/powerapps/user/grid-filters-advanced).
 

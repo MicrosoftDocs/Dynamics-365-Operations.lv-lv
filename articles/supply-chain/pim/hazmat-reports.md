@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846045"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335171"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Bīstamo materiālu pieprasījumi un pārskati
 
@@ -101,11 +101,11 @@ Lai izveidotu un izdrukātu šo pārskatu, dodieties uz **Noliktavas pārvaldīb
 
 ## <a name="bill-of-lading-report"></a>preču transporta pavadzīmju pārskats
 
-Kad jūsu sistēmā ir ieslēgta bīstamo materiālu funkcija, **preču transporta pavadzīmju** pārskats ietver **Bīstamo materiālu** kolonnu, kas norāda, vai krava ietver bīstamos materiālus. Šis pārskats ir pieejams lapā **Visas kravas**, kā parasti.
+Kad jūsu sistēmai ir ieslēgta bīstama materiālu īpašība, **·** **preču** transporta pavadzīmes pārskatā iekļauj kolonnu Bīstami materiāli, kas norāda, vai krava ietver bīstamus materiālus. Šis pārskats ir pieejams lapā **Visas kravas**, kā parasti.
 
 ## <a name="packing-list-report"></a>Iepakojuma saraksta pārskats
 
-Kad sistēmā ir ieslēgta bīstamo materiālu funkcija, iepakošanas sarakstos ir ietverta papildu informācija, kas saistīta ar preču nosūtīšanas tekstu. Šis pārskats ir pieejams lapā **Visas kravas**, kā parasti.
+Ja jūsu sistēmai ir ieslēgta bīstama materiālu īpašība, iepakošanas sarakstos ietilpst papildu informācija, kas saistīta ar krājuma nosūtīšanas drukāšanas tekstu. Šis pārskats ir pieejams lapā **Visas kravas**, kā parasti.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

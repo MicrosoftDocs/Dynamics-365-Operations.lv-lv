@@ -1,26 +1,26 @@
 ---
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā rakstā ir sniegta informācija par elektronisko pārskatu adresātu pārvaldību, atbalstīto adresātu veidiem un drošības apsvērumiem.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851082"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281973"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -118,7 +118,7 @@ Konfigurējot failu galamērķus atlasītajam formātam, konfigurējiet tos visa
 
 [![Konfigurācijas saite.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Tajā pašā laikā, iespējams, ir vairākas tā formāta [versijas](general-electronic-reporting.md#component-versioning), kas importētas pašreizējā Finance instancē. Tos var apskatīt, atlasot saiti **Konfigurācija**, kas tiek piedāvāta, atlasot lauku **Atsauce**.
+Tajā pašā laikā, iespējams, ir vairākas tā formāta versijas, kas importētas pašreizējā Finance instancē. Tos var apskatīt, atlasot saiti **Konfigurācija**, kas tiek piedāvāta, atlasot lauku **Atsauce**.
 
 [![Konfigurācijas versijas.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ Finanšu versijas 10.0.9 **PDF** dokumentā, kas veidots no Excel izvades, tiek 
 
 Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window operētājsistēmas bieži sastopamie sistēmas fonti.
 
+### <a name="resources"></a>Resursi
+
+Pirms finanšu versijas 10.0.29 PDF pārvēršanu var veikt tikai ārpus pašreizējās finanšu instances. Ģenerētais fails no Finanšu tika nosūtīts uz konversijas pakalpojumu, un šis pakalpojums pēc tam atgrieza konvertēto dokumentu. **Tomēr versijā 10.0.29** **Microsoft Office un jaunākās versijās papildus elektronisko pārskatu nosūtīšanas dokumentiem no formātiem uz PDF funkciju var iespējot Lietojuma programmas resursus,** lai veiktu CBD **dokumentu konversiju no Word uz PDF** formāta līdzekli. Šis līdzeklis ļauj jums konvertēt ģenerētos Word dokumentus PDF formātā lokāli, izmantojot programmas servera resursus pašreizējā Finanšu instancē. 
+
+Šeit ir vietējā PDF pārveidošanas iespēja, **kad tiek aktivizēti lietojuma programmas resursi, lai veiktu CBD dokumentu pārveidošanu no Word uz** PDF formāta funkciju:
+
+- Saražotais PDF dokuments nav ierobežots [ar](#limitations) maksimālo lapu skaitu.
+- Konvertētais Word dokuments var saturēt lielu [satura vadīklu skaitu](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- Lokālajā izvietošanā nav nepieciešams savienojums ar internetu.
+
 ### <a name="use-the-pdf-conversion-option"></a>Opcijas pārveidei PDF formātā izmantošana
 
 Lai ieslēgtu faila galamērķa pārveidi PDF formātā, atzīmējiet izvēles rūtiņu **Pārveidot PDF formātā**.
@@ -230,7 +240,7 @@ Kopsavilkuma cilnes **Vispārīgi** laukā **Sūtīt mapi kā** atlasiet vienu n
 - **Atsevišķi faili** - piegādāt katru ģenerēto zip failu kā atsevišķu failu.
 
     > [!NOTE]
-    > Atlasot **Atsevišķus failus**, ģenerētā izvade tiek apkopota saspiestā stāvoklī. Tāpēc maksimālais [faila izmēra limits](er-compress-outbound-files.md) tiek pielietots saspiestam izvades failam, kad reālais faila izmērs var pārsniegt noteikto limitu. Mēs iesakām atlasīt šo vērtību, ja paredzat, ka ģenerētās izvades faila lielums būs pārāk liels.
+    > Atlasot **Atsevišķus failus**, ģenerētā izvade tiek apkopota saspiestā stāvoklī. Tāpēc maksimālais [faila izmēra limits](er-compress-outbound-files.md) tiek pielietots saspiestam izvades failam, kad reālais faila izmērs var pārsniegt noteikto limitu. Šo vērtību ieteicams atlasīt, kad paredzams, ka ģenerētā izvades lielums būs ļoti liels.
 
 [![Notiek mapes formāta komponenta adresāta konfigurēšana.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

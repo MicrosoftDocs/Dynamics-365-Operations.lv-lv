@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformu atjauninājumiem finanšu un operāciju programmām.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069928"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262304"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -31,6 +31,50 @@ ms.locfileid: "9069928"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Līdzekļu nolietošana, kas ir spēkā no 2022. gada augusta
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Lifecycle Services (LCS) funkcijas, kas novecojušas 2022. gada augustā
+
+Kā daļa no [Vienas Dynamics vienas platformas darba](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform), turpmāk minētās LCS funkcijas ir novecojušas.
+
+| Līdzekļa nosaukums | Vai lietots kopā AX ar 2012? | Vai tiek lietots ar finanšu un operāciju programmām? | Vai ir aizstāts ar citu līdzekli? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Paziņojumi | Jā | Jā | Jā: projektu un vides lapu paziņojumi pastāv skārļi. |
+| Konfigurācijas pārvaldnieks | Jā | Nē | Nē |
+| Avārijas un izmetes analīze | Jā | Nē | Nē |
+| Atsauksmes un kļūdas | Jā | Jā | Nē |
+| Mans abonements | Jā | Jā | Nē |
+| Office 365 | Jā | Jā | Jā: Azure Active Directory vai Microsoft admin portāls. |
+| Ietekmes analīze | Nē | Jā | Nē |
+| Kopējās saimnieciskās ietekmes vērtētājs | Nē | Jā | Nē |
+| Pakalpojuma pieprasījumi | Nē | Jā | Jā: [pašapkalpošanās izvietošanas](../deployment/infrastructure-stack.md) |
+| SharePoint integrācija | Jā | Jā | Nē |
+| Konfigurācijas un datu pārvaldnieks | Nē | Jā | Nē |
+| Procesa datu pakotnes | Nē | Jā | Jā: datu importēšanas un eksportēšanas struktūra (DIXF) |
+| Uzskaitījuma jaunināšana | Nē | Jā | Jā: [ir pieejami vienas](../lifecycle-services/oneversion-overview.md) versijas pakalpojuma atjauninājumi. |
+| Infrastruktūras vērtētājs | Jā | Nē | Nē |
+| Licences izmēru maiņa | Jā | Nē | Nē |
+| Lietojuma profilētājs | Jā | Nē | Nē |
+| Pielāgojumu analizētājs | Jā | Nē | Nē |
+| Sistēmas diagnostika | Jā | Jā | Nē |
+| Biznesa procesu modelētāja Visio pārvaldība | Jā | Jā | Nē |
+| AX 2012 mākoņa vides pārvaldība | Jā | Nē | Nē |
+| RDFE Azure savienotāji | Jā | Jā | Nē |
+| AX 2012 versijas | Jā | Nē | Nē |
+| Darba vienumi, kas ir uzglabāti LCS krātuvē | Jā | Jā | Nē |
+| Labojumfaila pieprasījumi | Jā | Jā | Nē |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transportēšanas slāņa drošības (TLS) RSA cipherpher sfēra
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Tiek noņemts šāds cipher sfēras saraksts, kas atbilst mūsu pašreizējiem drošības protokolam.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot no 2022. gada 30. novembris, debitori var izmantot tikai mūsu [standarta cipheršifrētu](/power-platform/admin/server-cipher-tls-requirements). Šīs izmaiņas ietekmē jūsu klientus un serverus, kas sazinās ar mūsu serveriem, piemēram, tas var ietekmēt jūsu trešās puses integrācijas, kas neatbilst mūsu standarta cipheršifrēšanai. |
+| **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana |
+| **Statuss**                         | Novecojis. Klientiem ir jājauno savus serverus pirms 2022. gada 30. novembrī. Papildinformāciju par TLS Cipher Suite pasūtījuma konfigurēšanu skatiet Sadaļā [Transportēšanas līmeņa drošības pārvaldība (TLS).](/windows-server/security/tls/manage-tls)  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Līdzekļu nolietošana ir spēkā no 2022. gada jūnija

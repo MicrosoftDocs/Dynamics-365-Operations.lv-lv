@@ -2,25 +2,29 @@
 title: Finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojuma)
 description: Šajā rakstā ir sniegtas vadlīnijas par austrijas finanšu integrācijas parauga izvietošanu no mazumtirdzniecības Microsoft Dynamics 365 Commerce programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 94fe6817358ae18126a30794fd52fe5eb01a5265
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885441"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313779"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojuma)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir sniegtas Microsoft Dynamics 365 Commerce vadlīnijas par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Austrijā no Mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Austrijas [finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-aut-fi-sample.md). 
+> [!IMPORTANT]
+> Vadlīnijas šajā rakstā ir jāatbilst tikai tad, ja lietojat versiju Microsoft Dynamics 365 Commerce 10.0.28 vai agrāku versiju. Attiecībā uz Commerce versiju 10.0.29 fiskālās reģistrācijas pakalpojumu integrācijas paraugs Austrijai ir pieejams Commerce programmatūras izstrādes komplektā (SDK). Papildinformāciju skatiet kanāla [komponentu konfigurēšana](./emea-aut-fi-sample.md#configure-channel-components).
+
+Šajā rakstā ir sniegtas Dynamics 365 Commerce vadlīnijas par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Austrijā no programmas Retail SDK izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Austrijas [finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-aut-fi-sample.md). 
 
 Austrijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Finanšu integrācijas paraugs sastāv no Commerce Runtime (CRT), Aparatūras stacijas un pārdošanas punkta (POS) paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāizveido CRT aparatūras stacijas un POS projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā rakstā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070325"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335681"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām noslodzēm pirkšanas pasūtījumiem
 
@@ -259,7 +259,7 @@ Uzņēmumiem, kas izmanto noslodzes, lai plānotu un pārvaldītu savu ienākoš
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Sagatavojiet savu sistēmu, lai palaistu parauga scenārijus
 
-Lai strādātu ar šajā sadaļā aprakstītajiem paraugu scenārijiem, vispirms ir jāpārliecinās, vai sistēmā ir ieslēgti visi vajadzīgie līdzekļi. Nepieciešamajiem demonstrācijas datiem jābūt pieejamiem arī sistēmā.
+Lai strādātu izmantojot šajā sadaļā aprakstītos parauga scenārijus, vispirms ir jānodrošina, ka sistēmai ir ieslēgtas visas nepieciešamās funkcijas. Nepieciešamajiem demonstrācijas datiem jābūt pieejamiem arī sistēmā.
 
 #### <a name="turn-on-the-required-features"></a>Ieslēgt nepieciešamos līdzekļus
 
@@ -279,7 +279,7 @@ Lai strādātu ar šajā sadaļā aprakstītajiem paraugu scenārijiem, vispirms
 
 #### <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta demonstrācijas dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
+Lai darbotos šajos scenārijos, izmantojot norādītos parauga ierakstus un vērtības, ir jāizmanto sistēma, kurā ir instalēti [standarta demonstrācijas](../../fin-ops-core/fin-ops/get-started/demo-data.md) dati. Pirms sākat, jāatlasa arī **USMF** juridiskā persona.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Pievienojiet izvēlnes elementu noslodzes krājumu saņemšanai, kad tiek lietota mobilā ierīce
 

@@ -2,7 +2,7 @@
 title: Aizkavēšanās tolerance (negatīvās dienas)
 description: Šajā rakstā ir sniegta informācija par aizkavēšanās tolerances aprēķināšanu un to, kā tas ietekmē plānotā pasūtījuma izveidi plānošanas optimizācijā.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,30 +10,37 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865126"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335381"
 ---
 # <a name="delay-tolerance-negative-days"></a>Aizkavēšanās tolerance (negatīvās dienas)
 
 [!include [banner](../../includes/banner.md)]
 
-Aizkavēšanās tolerances funkcionalitāte ļauj Plānošanas optimizācijai ņemt vērā vērtību **Negatīvās dienas**, kas ir iestatīta vajadzību grupām. Tā tiek lietota, lai pagarinātu aizkavēšanās tolerances periodu, kas piemērots vispārējās plānošanas laikā. Šādā veidā var izvairīties no jaunu piegādes pasūtījumu izveidošanas, ja esošā piegāde varēs segt pieprasījumu pēc nelielas kavēšanās. Funkcionalitātes mērķis ir noteikt, vai ir lietderīgi izveidot jaunu piegādes pasūtījumu attiecīgajam pieprasījumam.
+Aizkavēšanās tolerances funkcionalitāte ļauj veikt **optimizācijas** plānošanu, apsveriet negatīvās dienas vērtību, kas ir iestatīta vajadzību grupām, krājumu segumam un/vai vispārējām vajadzībām. Tā tiek lietota, lai pagarinātu aizkavēšanās tolerances periodu, kas piemērots vispārējās plānošanas laikā. Šādā veidā var izvairīties no jaunu piegādes pasūtījumu izveidošanas, ja esošā piegāde varēs segt pieprasījumu pēc nelielas kavēšanās. Funkcionalitātes mērķis ir noteikt, vai ir lietderīgi izveidot jaunu piegādes pasūtījumu attiecīgajam pieprasījumam.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Līdzekļa ieslēgšana sistēmā
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Ieslēgt vai izslēgt aizkavēšanās tolerances līdzekļus
 
-Lai padarītu aizkavēšanās tolerances funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Negatīvās dienas Plānošanas optimizācijai*.
+Lai padarītu sistēmā pieejamu aizkavēšanās tolerances funkcionalitāti, dodieties uz [sadaļu](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Līdzekļu pārvaldība un slēdziet šādas funkcijas:
+
+- *Negatīvas dienas plānošanas optimizēšanai* — šī funkcija iespējo negatīvos dienu iestatījumus vajadzību grupām un krājumu vajadzībām. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt.
+- *Pasūtījuma piegādes automatizācija - šī funkcija* iespējo negatīvus dienu iestatījumus vispārējā plānam. (Plašāku informāciju skatiet [Pasūtījuma piegādes automatizācija](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Aizkavēšanās tolerance Plānošanas optimizācijā
 
 Aizkavēšanās tolerance norāda dienu skaitu, papildus izpildes laikam, kuru esat gatavs gaidīt, pirms pasūtāt jaunu papildināšanu, kad jau ir plānota esošā piegāde. Aizkavēšanās tolerance tiek definēta, izmantojot kalendārās dienas, nevis darba dienas.
 
-Vispārējās plānošanas laikā, kad sistēma aprēķina aizkavēšanās toleranci, tā ņem vērā iestatījumu **Negatīvās dienas**. Vērtību **Negatīvās dienas** var iestātīt lapā **Vajadzības grupas** vai lapā **Krājumu vajadzība**.
+Vispārējās plānošanas laikā, kad sistēma aprēķina aizkavēšanās toleranci, tā ņem vērā iestatījumu **Negatīvās dienas**. Vērtību Negatīvās dienas **var** iestatīt lapā **Vajadzības grupas**, Krājumu **vajadzības lapa** vai Vispārējo **plānu** lapa. Ja vairāk nekā vienā līmenī tiek piešķirtas negatīvas dienas, sistēma izmanto šādu hierarhiju, lai izlemtu, kuru iestatījumu izmantot:
 
-Sistēma saista aizkavēšanās tolerances aprēķinu ar *agrāko papildināšanas datumu*, kas ir vienāds ar šodienas datumu plus izpildes laiku. Aizkavēšanās tolerance tiek aprēķināta, izmantojot sekojošo formulu, kur *maks()* atrod lielāko no divām vērtībām:
+- Ja vispārējā plāna lapā ir iespējotas negatīvās **dienas**, šis iestatījums ignorē visus pārējos negatīvos dienu iestatījumus, kad plāns tiek palaists.
+- Ja lapā Krājumu vajadzība ir konfigurētas negatīvas **dienas**, šis iestatījums ignorē vajadzību grupas iestatījumu.
+- Negatīvās dienas, kas ir konfigurētas **lapā** Vajadzības grupas, tiek lietotas tikai tad, ja nav konfigurētas negatīvas dienas atbilstošam krājumam vai plānam.
+
+Sistēma saista aizkavēšanās tolerances aprēķinu ar *agrāko papildināšanas datumu*, kas ir vienāds ar šodienas datumu plus izpildes laiku. Aizkavēšanās tolerance tiek aprēķināta, izmantojot šādu formulu, kur *max()* atrod lielāko no divām vērtībām:
 
 *maks(Agrākais papildināšanas datums, Pieprasījuma izpildes termiņš)* – *Pieprasījuma izpildes datums* + *Negatīvās dienas*
 

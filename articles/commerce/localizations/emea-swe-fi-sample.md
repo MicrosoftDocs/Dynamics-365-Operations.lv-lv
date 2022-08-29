@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885406"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275071"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā
 
@@ -71,7 +71,7 @@ Valodas teksta lapas POS sadaļā **POS pievienojiet** šādas **POS etiķetes**
 
 Pielāgoto lauku **lapā pievienojiet** šiem ierakstiem kvīts izkārtojumu pielāgotajiem laukiem. Ievērojiet **, ka uzraksta teksta ID** vērtībām ir **jāatbilst teksta ID** vērtībām, kas norādītas **teksta** lapā Valoda.
 
-| Nosaukums/vārds, uzvārds                         | Veids    | Uzraksta teksta ID |
+| Vārds/nosaukums                         | Veids    | Uzraksta teksta ID |
 |------------------------------|---------|-----------------|
 | SE_FISCALREGISTERCONTROLCODE | Saņemšana | 900001          |
 | SE_FISCALREGISTERID          | Saņemšana | 900002          |
@@ -95,7 +95,7 @@ Papildinformāciju par to, kā strādāt ar kvīšu formātiem, skatiet sadaļā
 Kontroles vienības integrācijas paraugs Zviedrijai ir balstīts uz finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē src\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, kas ir Commerce Runtime () paplašinājums (CRT) un fiskālais savienotājs, kas ir Commerce Hardware Station paplašinājums. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-swe-fi-sample-sdk.md)
+> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātāja virtuālajā datorā (VM) pakalpojumos Microsoft Dynamics Lifecycle Services (LCS). Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-swe-fi-sample-sdk.md).
 >
 > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
 
@@ -172,7 +172,7 @@ Tālāk redzamais noklusējuma datu kartējums ir ietverts finanšu dokumenta no
 ### <a name="configure-channel-components"></a>Konfigurēt kanāla komponentus
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-swe-fi-sample-sdk.md)
+> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-swe-fi-sample-sdk.md).
 >
 > Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
 
@@ -221,7 +221,7 @@ Izpildiet [darbības](fiscal-integration-sample-build-pipeline.md), kas sadaļā
 Kontroles vienības integrācijas paraugs Zviedrijai ir balstīts uz finanšu [integrācijas funkcionalitāti](fiscal-integration-for-retail-channel.md) un ir daļa no Retail SDK. Paraugs atrodas **Solutions repository mapē src\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (piemēram, [paraugs release/9.33).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash) Paraugs sastāv [no](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskālā dokumenta nodrošinātāja, CRT kas ir Commerce Hardware Station paplašinājums un fiskālais savienotājs. Papildinformāciju par to, kā izmantot retail SDK, skatiet mazumtirdzniecības [SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[arhitektūrā un būvējuma konveijera iestatīšana neatkarīgam iepakojuma SDK](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma).](emea-swe-fi-sample-sdk.md) Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
+> Jaunā neatkarīgā iepakojuma un [paplašinājuma modeļa ierobežojumu dēļ](../dev-itpro/build-pipeline.md) to pašlaik nevar izmantot šim fiskālās integrācijas parauga modelim. Jums ir jāizmanto iepriekšējā Retail SDK versija izstrādātājam VM LCS. Papildinformāciju skatiet Zviedrijas [kontroles vienības integrācijas parauga izvietošanas vadlīnijās (mantojuma)](emea-swe-fi-sample-sdk.md). Atbalsts jaunajam neatkarīgajam iepakojuma un paplašinājuma modelim finanšu integrācijas paraugos tiek plānots turpmākajām versijām.
 
 ### <a name="crt-extension-design"></a>CRT paplašinājuma dizains
 

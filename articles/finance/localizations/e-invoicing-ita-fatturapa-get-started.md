@@ -1,21 +1,21 @@
 ---
 title: Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 description: Šajā rakstā sniegta informācija, kas palīdzēs jums uzsākt elektronisko rēķinu izrakstīšanu Itālijai un iestatīt tiešo Itālijas FatturaPA integrāciju ar Apmaiņas sistēmu (SDI).
-author: abaryshnikov
-ms.date: 07/27/2022
+author: gionoder
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: abaryshnikov
+ms.author: gionoder
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: e050d3896b2ba10433e166995d6fc405996cf0b2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203175"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267163"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Iestatiet itālijas FatturaPA tiešo integrāciju ar SDI
 
@@ -67,7 +67,7 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 3. Sadaļā Konveijera **apstrāde** dodieties cauri darbībām un iestatiet visus nepieciešamos laukus:
 
     - Parakstīšanas **dokumenta** darbībai laukā **Sertifikāta nosaukums** norādiet ciparparaksta sertifikātu.
-    - Lai iesniegtu darbību, iestatiet url **adreses un** **sertifikātu laukus**.**·** Lauka Sertifikāti **vērtība** ir sertifikātu ķēde, no kuras pirmais ir saknes CA sertifikāts (caentrate.cer), un otra ir Klienta sertifikāts.
+    - Lai iesniegtu darbību, iestatiet url **adreses un** **sertifikātu laukus**.**·** Lauka Sertifikāti **vērtība** ir sertifikātu ķēde, no kuras pirmais ir saknes CA sertifikāts (caentrate.cer), un otrais no tiem ir Klienta sertifikāts.
 
 4. Sadaļā Piemērojamības **noteikumi** pārejiet caur klauzulām un pārskatiet vai iestatiet nepieciešamos laukus:
     - Pārskatiet **klauzulu LegalEntityID** un atjauniniet ar pareizu vērtību no savas juridiskās personas.
@@ -164,7 +164,7 @@ Pirms programmatūras izvietošanas pievienotajā Finanšu vai piegādes ķēžu
 
     2. Atlasiet **reģistru** un pēc tam atlasiet tikko izveidoto programmas reģistrāciju.
     3. Dodieties uz **API atļaujām** un atlasiet **Piešķirt administratora atļauju**.
-    4. Dodieties uz **sertifikātiem &noslēpumiem**, **atlasiet Augšupielādēt** sertifikātu un .cer sertifikāta failu S2S autentifikācijai.
+    4. Pārejiet uz **sertifikātiem > noslēpumiem,** **atlasiet Augšupielādes** sertifikāts un augšupielādējiet .cer sertifikāta failu S2S autentifikācijai.
     5. Dodieties uz **uzņēmuma** programmām un atlasiet izveidoto programmu.
     6. Saglabājiet **programmas ID** (klienta ID) **un objekta ID** vērtības programmai.
     7. Rēķinu izrakstīšanas pakalpojuma komandai jāpiešķir programmas piekļuve pakalpojumam. Nosūtīt šādu parametru vērtības uz <D365EInvoiceSupport@microsoft.com>:
@@ -237,7 +237,7 @@ Veiciet šīs darbības datorā, kur tiek viesots starpniekservera pakalpojums.
 
 1. Pievienojieties VM, izmantojot Attālās darbvirsmas savienojumu.
 2. Atveriet lokālā datora sertifikāta papildprogrammu. Papildinformāciju skatiet šeit [: Kā skatīt sertifikātus ar MMC pieķeršanos](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
-3. Importējiet **kaentrēšanu.cer** ražošanas sertifikātu **un CAEntratetest.cer** testēšanai uzticamo [saknes sertifikācijas iestāžu krātuvē](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** ir saknes CA sertifikāts, ko sniedza iestāde.)
+3. Importējiet **ražošanas caentrate.cer** sertifikātu un **CAEntratetest.cer** testēšanai uzticamo [saknes sertifikācijas iestāžu krātuvē](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** ir saknes CA sertifikāts, ko sniedza iestāde.)
 4. Vadības panelī atveriet **ieslēgšanu vai izslēgšanas Windows** **·** \> **līdzekļus vai dodieties uz servera pārvaldniekam pievienot lomas** un līdzekļus servera operētājsistēmai (OS), un slēdziet interneta informācijas pakalpojumu (IIS) līdzekļus:
 
     - Tīmekļa pārvaldības rīki

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844473"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219943"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Krājumu marķēšana, izmantojot plānošanas optimizāciju
 
@@ -43,9 +43,15 @@ Piesaiste sākas ar atbilstošu marķēšanu, rīcībā esošām rezervācijām 
 
 Apstiprinot plānoto pasūtījumu, **Apstiprināšanas** dialoglodziņš sniedz lauku **Atjaunot marķējumu**, ko lietojat, lai iestatītu marķēšanas opcijas pasūtījumiem, kas izveidoti apstiprināšanas laikā. Atlasiet vienu no šīm vērtībām:
 
-- **Nē** – netiek lietota krājumu marķēšana.
-- **Standarta** – krājumu marķēšana tiek atjaunināta atbilstoši piesaistei. Vajadzību pasūtījums (pieprasījums) ir marķēts pretēji izpildes pasūtījumam (piedāvājums). Ja izpildes pasūtījumā tiek saglabāts kāds daudzums, tas netiek marķēts, un atsauces informācija tiek atstāta tukša. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
-- **Paplašināts** – gan vajadzību pasūtījums (pieprasījums), gan izpildes pasūtījums (piedāvājums) ir marķēts, neraugoties uz to, vai izpildes pasūtījumā paliek pāri kāds daudzums. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
+- *Nē* – netiek lietota krājumu marķēšana.
+- *Standarta* – krājumu marķēšana tiek atjaunināta atbilstoši piesaistei. Vajadzību pasūtījums (pieprasījums) ir marķēts pretēji izpildes pasūtījumam (piedāvājums). Ja izpildes pasūtījumā tiek saglabāts kāds daudzums, tas netiek marķēts, un atsauces informācija tiek atstāta tukša. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
+- *Paplašināts* – gan vajadzību pasūtījums (pieprasījums), gan izpildes pasūtījums (piedāvājums) ir marķēts, neraugoties uz to, vai izpildes pasūtījumā paliek pāri kāds daudzums. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
+- *Viena līmeņa standarts* – tiek izmantots viena līmeņa apzīmējums. Viena līmeņa iezīmēšana atzīmē tikai galveno krājumu, nevis tā materiālu komplekta (MK) komponentus. Tāpēc komponentu piešķiršanu ražošanas pasūtījumiem var uzturēt elastīgu pēc apstiprināšanas. Viena līmeņa atzīmēšana ļauj sistēmai optimizēt pēdējās minūtes pieprasījuma izmaiņas. Standarta *viena* līmeņa iezīmēšanas prasību pasūtījumi tiek iezīmēti pret to izpildes pasūtījumiem, bet izpildes pasūtījumi netiek atzīmēti, ja tiem ir atlikušais daudzums.
+- *Viena līmeņa paplašināts* – tiek izmantota viena līmeņa iezīmēšana. Paplašinātā *viena* līmeņa iezīmēšanas prasību pasūtījumi tiek iezīmēti pret to izpildes pasūtījumiem, un izpildes pasūtījumi vienmēr tiek iezīmēti neatkarīgi no tā, vai saglabājas kāds daudzums.
 
+Lai iestatītu sistēmai noklusējuma atzīmēšanas opciju, dodieties uz sadaļu Vispārējās **plānošanas iestatījuma \> vispārējās \> plānošanas parametri**. Pēc tam cilnē **Standarta atjaunināšana** iestatiet lauku Atjaunināt iezīmēšanu **uz** vēlamo opciju.
+
+> [!NOTE]
+> Viena *līmeņa standarta un* Viena *līmeņa paplašinātās* opcijas ir pieejamas tikai tad *, ja jūsu* sistēmā ir aktivizēta pasūtījuma pasūtījuma automatizācijas funkcija. Papildinformāciju par šo funkciju un to, kā to iespējot, skatiet [sadaļā "Pasūtīt preču piegādes automatizāciju"](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

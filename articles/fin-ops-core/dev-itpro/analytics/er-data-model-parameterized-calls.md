@@ -1,26 +1,26 @@
 ---
 title: Atbalstīt ER datu modeļu parametru izsaukumus
 description: Šajā rakstā skaidrots, kā ieviest elektronisko pārskatu (ER) datu modeļu parametru izsaukumus.
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884262"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275994"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Atbalstīt ER datu modeļu parametru izsaukumus
 
@@ -278,7 +278,7 @@ Modifikācijas var ieviest, izpildot formātu, atmiņā apkopojot unikālos debi
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. **Konfigurācijas lapas konfigurāciju** kokā kreisās puses rūtī atlasiet Parauga **audita modelis**.
-3. Kopsavilkuma cilnē **Versijas** atlasiet versiju **2**, kuras statuss ir Melnraksts **[...](general-electronic-reporting.md#component-versioning)**.
+3. Kopsavilkuma cilnē **Versijas** atlasiet versiju **2**, kuras statuss ir **Melnraksts**.
 4. Atlasiet kopsavilkuma cilni **Konfigurācijas komponenti**.
 5. Atlasiet **Veidotājs**, lai atvērtu datu modeli labošanai.
 6. Datu modeļa **lapā pārliecinieties**, ka lauks ir `Root` atlasīts, un pēc tam atlasiet **Jauns**.
@@ -462,7 +462,7 @@ Modifikācijas var ieviest, izpildot formātu, atmiņā apkopojot unikālos debi
 
 13. Atlasiet **Saglabāt** un aizvērt formāta veidotāja **lapu**.
 14. Aizveriet lapu **Datu avota kartējuma modelis**.
-15. Kopsavilkuma cilnē **Versijas** 2.2 **atlasiet** Mainīt **statusu** \> **Pabeigts.** Pēc tam atlasiet **Labi**.
+15. Kopsavilkuma cilnē **Versijas** 2.2 **atlasiet** Mainīt **statusu** \> **Pabeigts**. Pēc tam atlasiet **Labi**.
 
 ### <a name="run-the-adjusted-format"></a>Palaist pielāgoto formātu
 

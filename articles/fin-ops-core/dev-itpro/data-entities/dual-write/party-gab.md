@@ -2,19 +2,19 @@
 title: Puse un globālā adrešu grāmata
 description: Šajā rakstā ir aprakstīta Pušu un globālās adrešu grāmatas funkcionalitāte dubultās rakstīšanas.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892198"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228996"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -119,11 +119,11 @@ Režģī ir iekļautas tālāk minētās kolonnas.
 
 Varat izmantot pogu **Jauna adrese** virs režģa, lai izveidotu pēc izvēles tik daudz pasta adrešu, cik vēlaties.
 
-Lauki **1. adrese** un **2. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Piegādes** un **Rēķina** adresēm.
+Debitoru piesaistes programmās, kad lietotājs ievada adreses cilnes **Kopsavilkums** **lapā** Konti, **lauki 1** **. adrese un 2** **·** **·**. adrese atbilstoši piegādes un rēķina adresēm. Tomēr, kad lietotājs izveido pasta adresi finanšu un operāciju programmās, **pirmās divas debitora ieraksta adreses tiks parādītas laukos Address1** **un Address2**, **·** **un** lietotājam ir opcija mainīt adreses mērķi uz Piegāde un Rēķins.
 
 ![Kopsavilkuma cilne pasta adresēm.](media/party-gab-image5.png)
 
-Lauki **1. adrese**, **2. adrese** un **3. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Biznesa**, **Piegādes** un **Rēķina** adresēm.
+Tāpat cilnes Kontaktinformācija **1**. adrese, **2** **. adrese un 3** **·** **·** **·**. adrese kopsavilkuma cilnē atbilst attiecīgi biznesa, **·** **piegādes** un rēķina adresēm.
 
 ## <a name="electronic-addresses"></a>Elektroniskās adreses
 

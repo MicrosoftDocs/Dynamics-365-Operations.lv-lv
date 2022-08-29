@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fcc35a2203641b24fe4edd2ab34f2e4d5db9bb53
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870551"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324302"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Izvietošanas vadlīnijas kontroles vienības integrācijas paraugs Zviedrijai (mantotais)
 
@@ -261,7 +261,7 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 ### <a name="migration-in-a-development-environment"></a>Migrācija izstrādes vidē
 
-#### <a name="update-crt"></a>Atjaunināt CRT
+#### <a name="update-crt"></a>Labot CRT
 
 1. Atrast Runtime.Extensions.DocumentProvider.CleanCashSample **projektu** un veidot to.
 2. Mapē Runtime.Extensions.DocumentProvider.CleanCashSample bin Debug **\\ atrodiet montāžas failu Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll\\.** **·**
@@ -386,7 +386,7 @@ Migrācijas procesā ir jāietver šādi soļi.
 
 ### <a name="migration-in-a-production-environment"></a>Migrācija ražošanas vidē
 
-#### <a name="update-crt"></a>Atjaunināt CRT
+#### <a name="update-crt"></a>Labot CRT
 
 1. Noņemiet agrāko CRT **paplašinājumu no commerceRuntime.ext.config** un **CommerceRuntime.MPOSOffline.Ext.config** **konfigurācijas failiem zem mapes RetailSdk\\ Assets**.
 

@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850360"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273671"
 ---
 # <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
 
@@ -64,11 +64,14 @@ Sekojošajā attēlā parādīts piemērs, kur tiek izmantota visaptveroša auto
 
 ## <a name="sort"></a>Kārtot
 
-Uzlabota kārtošana Programmā Commerce ļauj kārtot, meklēt un pārlūkot meklēšanas rezultātus un precizēt tos pēc tādiem kritērijiem kā cena, preces nosaukums un preces numurs. Klienti var arī kārtot rezultātus, pamatojoties uz to, vai prece ir jauna, vislabāk pārdota vai nesen pievienota.
+Kārtošanas funkcionalitāte ļauj debitoriem kārtot, meklēt un pārlūkot kategoriju rezultātus un precizēt tos pēc tādiem kritērijiem kā cena, preces nosaukums un preces numurs. Ja iespējojat [Produktu ieteikumus](product-recommendations.md) savā vidē, debitori var arī kārtot rezultātus, balstoties uz uzlabotiem kārtošanas kritērijiem, piemēram, jauniem, labākais pārdošanas un tendenču šķirošanas kritērijiem.
+
 
 > [!NOTE]
 > Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, ka "ProductSearch.UseAzureSearch" ir iestatīts uz "patiess **", kas atrodas Commerce Parameters > konfigurācijas parametri**. 
 ![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Papildu kārtošanas opcijas, piemēram, jaunas, labākā pārdošana un tendences, ir pieejamas Commerce SSK versijā 9.35+ Dynamics 365 Commerce un 10.0.20 versijā.  
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 

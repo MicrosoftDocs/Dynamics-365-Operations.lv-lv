@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a48e6a81299badf4b811e1cf905beb06099e5a24
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851251"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335981"
 ---
 # <a name="wave-template-grouping"></a>Kopuma veidņu grupēšana
 
@@ -31,7 +31,7 @@ Kopuma veidņu grupēšana ļauj sistēmai izmantot [kopuma veidnes](tasks/confi
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Līdzekļa Kopuma veidņu grupēšana ieslēgšana
 
-Lai varētu izmantot līdzekli *Kopuma veidņu grupēšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot kopuma *veidnes grupēšanas* līdzekli, tai ir jābūt ieslēgtai savā sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Kopuma veidņu grupēšana*
@@ -76,7 +76,7 @@ Lai padarītu pieejamu kopuma veidņu grupēšanu, veiciet tālāk norādītās 
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 
-Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 Varat arī izmantot šo scenāriju kā norādījumus, lai līdzekli lietotu darbā ar ražošanas sistēmu. Tomēr šādā gadījumā jums ir jāaizstāj savas vērtības, un, iespējams, trūks dažu nepieciešamo ierakstu tipu, ko sniedz standarta demonstrācijas dati.
 

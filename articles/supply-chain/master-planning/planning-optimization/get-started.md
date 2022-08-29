@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112200"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295935"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112200"
 
 Kā [iepriekš paziņots](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), ir ieplānota plānošanas optimizācija, kas aizstātu esošo iebūvēto vispārējās plānošanas programmu.
 
-Ja pašlaik izmantojat iebūvēto vispārējās plānošanas programmu, jums tūlīt jāsāk plānot migrāciju uz plānošanas optimizāciju. Ir svarīgi nekavējoties sākt migrācijas procesu, jo, kad tiek ieviests nolietojums, jūsu darbības var tikt ietekmētas. Lai izvairītos no problēmām pēdējā brīdī, kad tiek ieviests nolietojums, mēs iesakām pabeigt migrāciju pirms 2020. gada 1. decembra. 
+Ja pašlaik izmantojat iebūvēto vispārējās plānošanas programmu, jums tūlīt jāsāk plānot migrāciju uz plānošanas optimizāciju. Ir svarīgi uzreiz uzsākt darbu, jo pretējā gadījumā, realizējot nolietojumu, varētu tikt ietekmētas jūsu operācijas (kaut arī šobrīd nav ieplānota ieviešana). Ir stingri ieteicams pabeigt migrāciju, tiklīdz plānošanas optimizēšana atbalsta jums nepieciešamas funkcijas, tādējādi jūs varat gūt labumu no daudziem veiktspējas uzlabojumiem un citām jaunajām iespējām, ko nodrošina jaunais pakalpojums.
 
 Plānošanas optimizācijas funkcionalitāte pašlaik neatbalsta visus līdzekļus, kas ir pieejami Supply Chain Management iebūvētajā plānošanas programmā. Tāpēc ir svarīgi novērtēt, vai līdzekļu kopa, kas pašlaik ir pieejama plānošanas optimizācijā, atbilst jūsu prasībām. Pašlaik plānošanas optimizācijas funkcionalitāte Dynamics Lifecycle Services (LCS) netiek ieslēgta pēc noklusējuma, tāpēc jums ir iespēja veikt novērtēšanu pirms šī līdzekļa ieslēgšanas.
 

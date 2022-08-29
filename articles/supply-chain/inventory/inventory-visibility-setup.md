@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895704"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306060"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
@@ -43,7 +43,7 @@ Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties 
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalēt krājumu uztveramības pievienojumprogrammu
 
-Pirms pievienojumprogrammas instalēšanas reģistrējiet programmu un pievienojiet klienta slepeno informāciju Azure Active Directory (Azure AD) jūsu Azure abonementā. Norādījumus skatiet sadaļā [Pieteikuma reģistrēšana](/azure/active-directory/develop/quickstart-register-app) un [Klienta slepenās informācijas pievienošana](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Noteikti atzīmējiet **Programmas (klienta) ID**, **Klienta slepeno informāciju** un **Nomnieka ID** vērtības, jo jums tās būs nepieciešamas vēlāk.
+Pirms pievienojumprogrammas instalēšanas reģistrējiet programmu un pievienojiet klienta slepeno informāciju Azure Active Directory (Azure AD) jūsu Azure abonementā. Norādījumus skatiet sadaļā [Pieteikuma reģistrēšana](/azure/active-directory/develop/quickstart-register-app) un [Klienta slepenās informācijas pievienošana](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Noteikti atzīmējiet programmas **(klienta) ID**, **klienta** noslēpumu un nomnieka ID **vērtības,** jo jums tās vēlāk būs nepieciešamas.
 
 > [!IMPORTANT]
 > Ja ir vairāk nekā viena LCS vide, izveidojiet katrai Azure AD no tām atšķirīgu programmu. Ja lietojat vienu lietojumprogrammas ID un nomnieka ID, lai instalētu Inventory Visibility lietojumprogrammu atšķirīgām vidēm, vecākām vidēm tiks rādīta marķiera problēma. Tādēļ būs derīga tikai pēdējā instalēšana.
@@ -88,20 +88,6 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 >
 > 1. Kad instalēšana pabeigta, atgriezieties lapā LCS un mēģiniet vēlreiz atkārtoti **instalēt krājumu redzamības** pievienojumprogrammu.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Atinstalēt Krājumu redzamības pievienojumprogrammu
-
-Lai atinstalētu Krājumu redzamības pievienojumprogrammu, atlasiet LCS lapā **Atinstalēt**. Atinstalēšanas process pārtrauc Krājumu redzamības pievienojumprogrammu, noņem pievienojumprogrammas reģistrāciju no LCS un dzēš visus pagaidu datus, kas ir saglabāti Krājumu redzamības pievienojumprogrammas datu kešatmiņā. Tomēr jūsu Dataverse abonementā saglabātie primārie krājumu dati netiek dzēsti.
-
-Lai atinstalētu krājumu datus, kas ir saglabāti Dataverse abonementā, atveriet [Power Apps](https://make.powerapps.com), atlasiet navigācijas joslā **Vide** un atlasiet vidi, kas ir piesaistīta jūsu Dataverse LCS videi. Pēc tam dodieties uz **Risinājumi** un izdzēsiet šos piecus risinājumus:
-
-1. Noenkurošanas risinājums Krājumu redzamības Dynamics 365 risinājumā
-1. Dynamics 365 FNO SCM Krājumu redzamības Applications risinājums
-1. Krājumu pakalpojuma konfigurēšana
-1. Krājumu redzamības savrupā programma
-1. Dynamics 365 FNO SCM Krājumu redzamības pamata risinājums
-
-Pēc šo risinājumu dzēšanas arī tabulās saglabātie dati arī tiks dzēsti.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Inventory Visibility iestatīšana pakalpojumā Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Izvietot Krājumu redzamības integrācijas pakotni
@@ -113,7 +99,7 @@ Ja jūs palaidāt Supply Chain Management versiju 10.0.17 vai agrāk, sazinietie
 >
 > Kods ir iekļauts Supply Chain Management versijā 10.0.18. Ja izmantojat šo versiju vai jaunāku, izvietošana nav nepieciešama.
 
-Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas funkcijas. (Pēc noklusējuma tās ir iespējotas.)
+Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas funkcijas. (Pēc noklusējuma tās ir ieslēgtas.)
 
 | Līdzekļa apraksts | Koda versija | Pārslēgt klasi |
 |---|---|---|
@@ -122,7 +108,7 @@ Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas f
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Pievienojumprogrammas Krājumu redzamība integrācijas iestatīšana
 
-Kolīdz esat instalējuši pievienojumprogrammu, sagatavojiet Supply Chain Management sistēmu darbam ar to, izpildot tālāk norādītās darbības.
+Kad pievienojumprogramma ir instalēta, sagatavojiet jūsu Piegādes ķēdes pārvaldības sistēmu, lai tā darbotos ar to, rīkojoties tālāk minētajiem soļiem.
 
 1. Pakalpojumā Supply Chain Management atveriet darbvietu **[Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** un iespējojiet šādus līdzekļus:
     - *Inventory Visibility integrācija* — obligāti.
@@ -135,10 +121,45 @@ Kolīdz esat instalējuši pievienojumprogrammu, sagatavojiet Supply Chain Manag
 
 1. Ja iespējojāt neobligāto līdzekli *Inventory Visibility integrācija ar rezervāciju nobīdi*, atveriet cilni **Rezervāciju nobīde** un veiciet šādus iestatījumus:
     - **Iespējot rezervāciju nobīdi** — Iestatiet uz *Jā*, lai iespējotu šo funkcionalitāti.
-    - **Rezervāciju nobīdes pārveidotājs** — Atlasiet krājuma transakcijas statusu, kas nobīdīs Inventory Visibility veiktās rezervācijas. Šis iestatījums nosaka pasūtījuma apstrādes posmu, kurš aktivizē nobīdes. Statusu izseko pasūtījuma krājumu darbības statuss. Izvēlieties vienu no šīm:
+    - **Rezervāciju nobīdes pārveidotājs** — Atlasiet krājuma transakcijas statusu, kas nobīdīs Inventory Visibility veiktās rezervācijas. Šis iestatījums nosaka pasūtījuma apstrādes posmu, kurš aktivizē nobīdes. Statusu izseko pasūtījuma krājumu darbības statuss. Izvēlieties vienu no šīm opcijām:
         - *Pasūtījumā* – statusam *On transaction* pasūtījums pēc izveidošanas nosūta korespondējošo pieprasījumu. Nobīžu daudzums būs izveidotā pasūtījuma daudzums.
         - *Rezervēšana* – Pasūtījuma statuss *Rezervēt pasūtītajā pasūtījumā* pēc tā rezervētā, izdotā, pavadzīmes grāmatošanas vai rēķina izrakstīšanas pasūtījums nosūta korespondējošo pieprasījumu. Pieprasījums tiks parādīts tikai vienu reizi, pirmajam solim, kad notiks iepriekš minētais process. Novīdes daudzums būs daudzums, kurā krājuma transakcijas statuss atbilstoŠajā pasūtījuma rindā tiek mainīts no *Pasūtījumā* uz *Rezervēts pasūtījums* (vai uz vēlāku statusu).
 
 1. Dodieties uz **Krājumu pārvaldība \> Periodiskie \> Krājumu redzamības integrāciju** un iespējojiet darbu. Visi krājumu izmaiņu notikumi no Supply Chain Management tagad tiks grāmatoti Krājumu redzamībai.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Atinstalēt Krājumu redzamības pievienojumprogrammu
+
+Lai atinstalētu krājumu redzamības pievienojumprogrammu, rīkojieties šādi:
+
+1. Pierakstieties Supply Chain Management.
+1. Dodieties uz **krājumu pārvaldības \> periodisko \> krājumu redzamības** integrāciju un deaktivizējiet darbu.
+1. Dodieties uz LCS un atveriet lapu videi, kurā vēlaties atinstalēt pievienojumprogrammu ([skatiet arī sadaļu Krājumu redzamības pievienojumprogramma](#install-add-in)).
+1. Atlasiet **atinstalēšanu**.
+1. Atinstalēšanas process tagad pārtrauc krājumu redzamības pievienojumprogrammu, noņemiet pievienojumprogrammas reģistrāciju no LCS un dzēš visus pagaidu datus, kas ir saglabāti krājumu redzamības pievienojumprogrammas datu kešatmiņā. Tomēr tur joprojām tiek glabāti primārie krājumu dati Dataverse, kas tika sinhronizēti ar jūsu abonementu. Lai dzēstu šos datus, izpildiet atlikušo procedūru.
+1. Atveriet [Power Apps](https://make.powerapps.com).
+1. **Vides** atlase navigācijas joslā
+1. Atlasiet vidi Dataverse, kas ir piesaistīta jūsu LCS videi.
+1. Dodieties **uz** risinājumu un izdzēsiet šādus risinājumus šādā secībā:
+    1. Enkura risinājums programmai Inventory Visibility Dynamics 365 risinājumos
+    1. Dynamics 365 FNO SCM Krājumu redzamības Applications risinājums
+    1. Krājumu pakalpojuma konfigurēšana
+    1. Krājumu redzamības savrupā programma
+    1. Dynamics 365 FNO SCM Krājumu redzamības pamata risinājums
+
+    Pēc šo risinājumu dzēšanas arī tabulās saglabātie dati arī tiks dzēsti.
+
+> [!NOTE]
+> Ja pēc krājumu redzamības pievienojumprogrammas atinstalēšanas atjaunosit Piegādes ķēdes pārvaldības datu bāzi un pēc tam vēlaties atkārtoti instalēt pievienojumprogrammu, pirms pievienojumprogrammas instalēšanas pārliecinieties, Dataverse vai ir izdzēsti vecie abonementā uzglabātie krājumu redzamības dati (kā aprakstīts iepriekšējā procedūrā). Tas novērsīs datu nesakritības problēmas, kas citādi var rasties.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a> Pirms piegādes ķēdes pārvaldības datu bāzes Dataverse atjaunošanas notīriet krājumu redzamības datus
+
+Ja esat izmantojis krājumu redzamību un pēc tam atjaunojiet Piegādes ķēdes pārvaldības datu bāzi, tad atjaunotā datu bāze var saturēt datus, kas vairs neatbilst datiem, kas iepriekš tika sinhronizēti, izmantojot Krājumu redzamību Dataverse. Šī datu neatbilstība var izraisīt sistēmas kļūdas un citas problēmas. Tāpēc ir svarīgi vienmēr iztīrīt visus krājumu redzamības datus no Dataverse pirms piegādes ķēdes pārvaldības datu bāzes atjaunošanas.
+
+Ja jums ir jāatjauno Piegādes ķēžu pārvaldības datu bāze, izmantojiet sekojošo procedūru:
+
+1. Atinstalēt krājumu redzamības pievienojumprogrammu un noņemt visus saistītos Dataverse datus, kā [aprakstīts krājumu redzamības pievienojumprogrammas atinstalēšanas sadaļā](#uninstall-add-in)
+1. Atjaunojiet piegādes ķēdes pārvaldības datu bāzi, piemēram, [kā aprakstīts datu bāzes punkta-laika atjaunot (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md)[vai laika punktā atjaunot ražošanas datu bāzi uz lodziņlodziņa vidi](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Ja joprojām vēlaties to izmantot, [atkārtoti instalējiet un iestatiet krājumu redzamības pievienojumprogrammu, kā aprakstīts sadaļā Krājumu redzamības pievienojumprogramma](#install-add-in)[un Iestatiet krājumu redzamības integrāciju](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

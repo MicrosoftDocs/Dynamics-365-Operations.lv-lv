@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854302"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219913"
 ---
 # <a name="improve-scheduling-engine-performance"></a>plānošanas programmas veiktspējas uzlabošana
 
@@ -294,7 +294,9 @@ Paralēlu operāciju izmantošanas alternatīva ir vai nu modelēt pārus kā �
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Operācijas ar resursu daudzumu, kas lielāks par 1
 
-Ja iestatāt operācijai nepieciešamo resursu daudzumu, kas ir lielāks par vienu, tad tas efektīvi darbojas tāpat, kā lietojot primārās/sekundārās operācijas, jo programmai tiek nosūtīti vairāki paralēli darbi. Tomēr šim gadījumam nav iespējams izmantot noteiktas resursu piešķires, jo daudzumam, kas ir lielāks par vienu, nepieciešams, ka operācijai būtu piemērojami vairāki resursi.
+Ja operācijai nepieciešamais resursu daudzums ir lielāks par vienu, tad rezultāts ir vienāds ar primārās/sekundārās operācijas izmantošanu, jo uz programmu tiks nosūtīti vairāki paralēli darbi. Tomēr šajā gadījumā nav iespējams izmantot noteiktas resursu piešķires, jo operācijai piemērojamam daudzumam, kas lielāks par vienu, ir nepieciešami vairāk nekā viens resurss.
+
+Sekundāra operācija, kuras resursu noslodzes daudzums ir lielāks par vienu, nozīmē, ka katram primārās operācijas resursam ir nepieciešams norādītais sekundāro resursu daudzums. Piemēram, ja primārās operācijas resursu daudzums ir iestatīts uz divām un tās sekundārajai operācijai resursu daudzums ir iestatīts uz trim, tad sekundārajai operācijai kopā ir nepieciešami seši resursi.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Pārmērīga ierobežotas noslodzes izmantošana
 

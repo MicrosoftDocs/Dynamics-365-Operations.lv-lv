@@ -2,25 +2,29 @@
 title: Izvietošanas vadlīnijas finanšu reģistrācijas pakalpojuma integrācijas paraugam Čehijas Republikai (mantojuma)
 description: Šajā rakstā ir sniegtas vadlīnijas par čehijas Republikai paredzēta finanšu integrācijas parauga izvietošanu no mazumtirdzniecības Microsoft Dynamics 365 Commerce programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 35584493cd2a4fecd5fc86d529ec43bb4ef97671
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881768"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313834"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Izvietošanas vadlīnijas finanšu reģistrācijas pakalpojuma integrācijas paraugam Čehijas Republikai (mantojuma)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir sniegtas Microsoft Dynamics 365 Commerce vadlīnijas par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Čehijas Republikai no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Plašāku informāciju par šo finanšu integrācijas paraugu skatiet Čehijas [Republikas finanšu reģistrācijas pakalpojumu integrācijas paraugs](emea-cze-fi-sample.md). 
+> [!IMPORTANT]
+> Vadlīnijas šajā rakstā ir jāatbilst tikai tad, ja lietojat versiju Microsoft Dynamics 365 Commerce 10.0.28 vai agrāku versiju. No Commerce versijas 10.0.29 finanšu reģistrācijas pakalpojumu integrācijas paraugs Čehijas Republikai ir pieejams Commerce programmatūras izstrādes komplektā (SDK). Papildinformāciju skatiet kanāla [komponentu konfigurēšana](./emea-cze-fi-sample.md#configure-channel-components).
+
+Šajā rakstā ir sniegtas Dynamics 365 Commerce vadlīnijas par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Čehijas Republikai no Retail SDK izstrādātāja virtuālas mašīnas (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Plašāku informāciju par šo finanšu integrācijas paraugu skatiet Čehijas [Republikas finanšu reģistrācijas pakalpojumu integrācijas paraugs](emea-cze-fi-sample.md). 
 
 Čehijas Republikas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā rakstā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 

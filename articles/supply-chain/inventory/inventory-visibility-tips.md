@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885962"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306091"
 ---
 # <a name="inventory-visibility-tips"></a>Krājumu redzamības padomi
 
@@ -35,5 +35,8 @@ ms.locfileid: "8885962"
 - Nodalījuma [konfigurācija pašlaik](inventory-visibility-configuration.md#partition-configuration) sastāv no divām pamatdimensijām (`SiteId` un `LocationId`), kas norāda, kā dati tiek sadalīti. Operācijas vienā un tajā pašā nodalījumā var piegādāt lielāku veiktspēju par zemākām izmaksām. Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. *Tādēļ jums tas nav jādefinē pats*. Ne pielāgojiet noklusējuma nodalījuma konfigurāciju. Ja to dzēšat vai maināt, iespējams, radusies negaidīta kļūda.
 - Pamatdimensijas, kas ir definētas nodalījuma konfigurācijā, nav jādefinē preču [indeksa hierarhijas konfigurācijā](inventory-visibility-configuration.md#index-configuration).
 - Preces [indeksa hierarhijas](inventory-visibility-configuration.md#index-configuration) konfigurācijā jābūt iekļautai vismaz vienai indeksu hierarhijai (piemēram, `Empty` satur pamatdimensiju), pretējā gadījumā vaicājumiem neizdosies kļūda "Nav iestatīta indeksu hierarhija."
+- Datu avots `@iv` ir iepriekš definēts datu avots un ar prefiksu definētie fiziskie `@iv` pasākumi ir `@` iepriekš definētie pasākumi. Šie pasākumi ir iepriekš definēta sadalījuma funkcijas konfigurācija, tāpēc tie nav jāmaina vai jādzēš, vai, lietojot sadalījuma līdzekli, rodas neparedzētas kļūdas.
+- Iepriekš definētajam aprēķinātajam mēram var pievienot jaunus fiziskos `@iv.@available_to_allocate` mērus, bet nosaukumu nedrīkst mainīt.
+- Ja atjaunojat Piegādes ķēdes pārvaldības datu bāzi, tad atjaunotā datu bāze var saturēt datus, kas vairs neatbilst datiem, kas iepriekš nav sinhronizēti, izmantojot krājumu redzamību.Dataverse Šī datu neatbilstība var izraisīt sistēmas kļūdas un citas problēmas. Tādēļ ir svarīgi vienmēr iztīrīt visus saistītos krājumu redzamības datus no Dataverse pirms Piegādes ķēžu pārvaldības datu bāzes atjaunošanas. Papildinformāciju skatiet [tīrīšanas krājumu redzamības datos Dataverse pirms piegādes ķēdes pārvaldības datu bāzes atjaunošanas](inventory-visibility-setup.md#restore-environment-database).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

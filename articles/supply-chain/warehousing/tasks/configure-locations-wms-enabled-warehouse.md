@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067279"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219664"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Vietu konfigurēšana noliktavā ar iespējotu noliktavas pārvaldības sistēmu
 
@@ -39,7 +39,7 @@ ms.locfileid: "9067279"
 8. Aizvērt lapu.
 
 ## <a name="define-a-location-format"></a>Novietojuma formāta definēšana
-1. Dodieties uz **Navigācijas rūti > Moduļi > Noliktavas pārvaldība > Iestatīšana > Noliktava >Atrašanās vietas formati**. Novietojuma formāti ir nosaukumdošanas sistēma, kuru izmanto, lai izveidotu unikālus un saskanīgus nosaukumus dažādām novietojuma nodalījuma pozīcijām, kas izmantotas noliktavā. Var būt noderīgi izmantot atdalītājus kā daļu no novietojuma formāta, lai būtu vieglāk noteikt sastāvdaļu novietojumu, piemēram, ailes numuru. Šajā piemērā mēs izveidosim nosaukumu ar četriem komponentiem. Piemēram, tie var būt aile, statīvs, plaukts un nodalījums.
+1. Dodieties uz **Navigācijas rūti > Moduļi > Noliktavas pārvaldība > Iestatīšana > Noliktava >Atrašanās vietas formati**. Vietu formāti ir nosaukumdošanas sistēma, ko izmanto dažādu noliktavā izmantoto atrašanās vietu nodalījumu pozīciju unikālu un saskanīgu nosaukumu veidojiet. Var būt noderīgi izmantot atdalītājus kā daļu no novietojuma formāta, lai būtu vieglāk noteikt sastāvdaļu novietojumu, piemēram, ailes numuru. Šajā piemērā mēs izveidosim nosaukumu ar četriem komponentiem. Piemēram, tie var būt aile, statīvs, plaukts un nodalījums.
 2. Klikšķiniet **Jauns**.
 3. Ierakstiet vērtību laukā **Atrašanās vietas formāts**.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.

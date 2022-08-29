@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 95afa46140de863ecdf61b0ef54e6d9e9ece91d7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec7bc573329a0f8a37b2fd17dcb998ec161b04e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897318"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336341"
 ---
 # <a name="outbound-sorting"></a>Izejošā kārtošana
 
@@ -30,7 +30,7 @@ ms.locfileid: "8897318"
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Ieslēgt līdzekli Izejošā kārtošana
 
-Lai varētu izmantot līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms šo funkciju var lietot, tai jābūt ieslēgtai savā sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Izejošā kārtošana*

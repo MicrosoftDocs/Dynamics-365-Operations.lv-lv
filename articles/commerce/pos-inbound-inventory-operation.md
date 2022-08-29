@@ -1,27 +1,27 @@
 ---
 title: Ienākošo krājumu operācija punktā POS
 description: Šajā rakstā ir aprakstītas pārdošanas punkta (POS) saņemšanas krājumu operācijas iespējas.
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858886"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288357"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -141,7 +141,7 @@ Nepilnas piegādes tolerances procentus pirkšanas pasūtījuma rindā precēm v
 
 Kad organizācija ir pabeigusi pirkšanas pasūtījumu nepilnas piegādes konfigurācijas, POS lietotāji redzēs jaunu opciju **Slēgt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta ienākoša pirkšanas pasūtījuma rinda operācijā **Ienākošie krājumi**. Ja lietotājs slēdz atlikušo daudzumu, POS veic validāciju, lai pārbaudītu, vai daudzums, kas tiek slēgts, atrodas pirkšanas pasūtījuma rindā definēto nepilnas piegādes tolerances procentu ietvaros. Ja nepilnās piegādes tolerance ir pārsniegta, tiek parādīts kļūdas ziņojums, un lietotājs nevarēs slēgt atlikušo daudzumu, līdz iepriekš saņemtais daudzums un **Saņemt tagad** daudzums atbilst vai pārsniedz minimālo daudzumu, kas jāsaņem, pamatojoties uz nepilnas piegādes tolerances procentiem. 
 
-Ja pirkšanas pasūtījuma rindai ieslēgta opcija **Slēgt atlikušo daudzumu**, kad lietotājs pabeidz saņemšanu, izmantojot darbību **Beigt saņemšanu**, uz Commerce headquarters tiek nosūtīts slēgšanas pieprasījums un jebkurš nesaņemts daudzums no šī pasūtījuma rindas tiks atcelts. Šajā brīdī rinda tiek uzskatīta par pilnībā saņemtu. 
+**Ja** pirkšanas pasūtījuma rindai ir ieslēgta opcija Aizvērt atlikušo daudzumu, kad lietotājs pabeidz saņemšanu, izmantojot saņemšanas darbību Pabeigt saņemšanu, slēgšanas pieprasījums tiek nosūtīts **arī** uz programmu Commerce Headquarters, un visi šīs pasūtījuma rindas nesaglabātie daudzumi tiks atcelti. Šajā brīdī rinda tiek uzskatīta par pilnībā saņemtu. 
 
 ### <a name="receiving-location-controlled-items"></a>Atrašanās vietas kontrolētu krājumu saņemšana
 
@@ -155,15 +155,13 @@ Pēc nepieciešamības varat atlasīt **Saņemt visu** programmas joslā, lai ā
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Neplānotu krājumu saņemšana pirkšanas pasūtījumos
 
-Commerce versijā 10.0.14 un jaunākās lietotāji var saņemt preci, kas sākotnēji nebija iekļauta pirkšanas pasūtījumā. Lai iespējotu šo funkcionalitāti, ieslēdziet **Pirkšanas pasūtījuma rindu pievienošana pārdošanas punkta saņemšanas laikā**.  
-
-Šis līdzeklis darbojas tikai pirkšanas pasūtījuma saņemšanai. Nav iespējams saņemt krājumus pret pārsūtīšanas pasūtījumiem, ja krājumi iepriekš netika pasūtīti un nosūtīti no nosūtīšanas noliktavas.
+Commerce versijā 10.0.14 un jaunākās lietotāji var saņemt preci, kas sākotnēji nebija iekļauta pirkšanas pasūtījumā. Šis līdzeklis darbojas tikai pirkšanas pasūtījuma saņemšanai. Nav iespējams saņemt krājumus pret pārsūtīšanas pasūtījumiem, ja krājumi iepriekš netika pasūtīti un nosūtīti no nosūtīšanas noliktavas.
 
 Lietotāji nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā, ja tiek iespējota pirkšanas pasūtījuma [izmaiņu pārvaldības darbplūsma](../supply-chain/procurement/purchase-order-approval-confirmation.md) Commerce Headquarters (HQ). Lai iespējotu izmaiņu pārvaldību, visas izmaiņas pirkšanas pasūtījumā vispirms ir jāapstiprina, pirms saņemšana ir atļauta. Tā kā šis process ļauj uztvērējam pievienot jaunas rindas pirkšanas pasūtījumam, saņemšana neizdosies, ja ir iespējota izmaiņu pārvaldības darbplūsma. Ja izmaiņu pārvaldība ir iespējota visiem pirkšanas pasūtījumiem vai kreditoram, kas ir saistīts ar pirkšanas pasūtījumu, kas tiek aktīvi saņemts POS, lietotājs nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā.
 
 Funkcionalitāte, kas iespējo pievienot rindas, nevar tikt izmantota kā risinājums, lai saņemtu papildu preču daudzumus, kas jau ir pirkšanas pasūtījumā. Pārsniegšana tiek pārvaldīta, izmantojot standarta [pārsniegšanas](#over-receiving-validations) iestatījumus preču rindai pirkšanas pasūtījumā.
 
-Ja opcija **Pievienot rindas pārdošanas pasūtījumam saņemšanas punkta laikā** ir iespējota, un lietotājs saņem ar **Ienākošo operāciju** POS, ja lietotājs skenē vai pievieno produkta svītrkodu vai produkta numuru, kas pašreizējā pirkšanas pasūtījumā nav atpazīts kā prece, bet tiek atpazīts kā derīgs vienums, lietotājs saņem ziņojumu par preces pievienošanu pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
+**Ja** lietotājs saņem ar pos saņemšanas operāciju, ja lietotājs skenē vai atšifrē preces svītrkodu vai preces numuru, kas ir atpazīts kā derīgs krājums, bet nav atpazīts kā krājums pašreizējā pirkšanas pasūtījumā, lietotājs saņem ziņojumu, kurā norāda, ka preces jāpievieno pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
 
 Kad pirkšanas pasūtījuma saņemšana ir pabeigta un iesniegta HQ apstrādei, pievienotās rindas tiek veidotas pirkšanas pasūtījuma pamatdokumentā. Pirkšanas pasūtījuma rindā, kas atrodas HQ, redzēsiet **POS pievienots** karogu Pirkšanas pasūtījuma rindas cilnē **Vispārīgi**. **POS pievienots** karogs norāda, ka POS saņemšanas process pievienoja pirkšanas pasūtījuma rindu, un tā nebija rinda, kas bija pirkšanas pasūtījumā pirms saņemšanas.
 

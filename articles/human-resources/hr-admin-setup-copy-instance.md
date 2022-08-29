@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178539"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324266"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
@@ -47,13 +47,14 @@ Lai kopētu instanci, ņemiet vērā šādus padomus:
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Human Resources datu bāzes kopēšanas sekas
 
+> [!Note]
+> Sākot no 2022. gada, Microsoft Azure dokumenti BLOB krātuvē tiek iekļauti, kopējot ražošanas vidi uz kases vides. Visi pievienotie dokumenti un veidnes tiks kopēti no avota vides uz mērķa vidi.
+
 Kopējot Human Resources datu bāzi, notiek tālāk minētie notikumi.
 
 - Kopēšanas process izdzēš esošo datu bāzi mērķa vidē. Kad kopēšanas process ir pabeigts, esošo datu bāzi nevar atgūt.
 
 - Mērķa vide nebūs pieejama, kamēr kopēšanas process nebūs pabeigts.
-
-- Dokumenti Microsoft Azure Blob krātuvē netiek kopēti no vienas vides uz citu. Kā rezultātā visi pievienotie dokumenti un veidnes netiks kopētas un paliks avota vidē.
 
 - Visi lietotāji, izņemot tos, kuriem ir drošības loma Sistēmas administrators, un citi iekšējo pakalpojumu lietotāju konti nav pieejami. Lietotājs Administrators var dzēst datus, pirms citi lietotāji ir atļauti atpakaļ sistēmā.
 

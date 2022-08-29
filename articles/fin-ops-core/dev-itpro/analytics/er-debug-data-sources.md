@@ -1,26 +1,26 @@
 ---
 title: Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
 description: Šajā rakstā skaidrots, kā var atkļūdot izpildīta ER formāta datu avotus, lai labāk saprastu konfigurēto datu plūsmu un pārvēršanu.
-author: NickSelin
+author: kfend
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner
+ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884233"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291360"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju
 

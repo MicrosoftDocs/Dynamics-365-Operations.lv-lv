@@ -2,7 +2,7 @@
 title: Drošības rezerves
 description: Šajā rakstā ir aprakstīts, kā drošības rezerves var izmantot ar Microsoft plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854244"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335201"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
@@ -79,12 +79,9 @@ Ievērojiet, ka tad, kad tiek lietota izejas plūsmas rezerve, saistītie piedā
 
 ## <a name="set-up-safety-margins"></a>Iestatīt drošības rezerves
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Ieslēgt drošības rezerves Līdzekļu pārvaldībā
+### <a name="turn-safety-margins-on-or-off"></a>Drošības rezervju izslēgšana vai izslēgšana
 
-Lai varētu izmantot šo līdzekli ar Plānošanas optimizāciju, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
-
-- **Modulis:** _Vispārējā plānošana_
-- **Līdzekļa nosaukums:** _Rezervi Plānošanas optimizācijai_
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot *optimizācijas*[līdzekļu](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) plānošanas līdzekli līdzekļu pārvaldības darbvietā.
 
 ### <a name="define-safety-margins"></a>Definēt drošības rezerves
 

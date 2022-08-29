@@ -2,7 +2,7 @@
 title: Integrācija ar trešās puses ražošanas izpildes sistēmām
 description: Šajā rakstā skaidrots, kā jūs varat Dynamics 365 Supply Chain Management integrēt Microsoft ar trešās puses ražošanas izpildes sistēmu (LES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068037"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336221"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integrācija ar trešās puses ražošanas izpildes sistēmām
 
@@ -45,9 +45,7 @@ Pirms šo funkciju iespējams izmantot, administratoram tas jāslēdz jūsu sist
     1. Licences konfigurācijas **lapā** atzīmējiet izvēles **rūtiņu Laiks un** apmeklētība.
     1. Izslēgt uzturēšanas režīmu, kā aprakstīts uzturēšanas [režīmā](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Dodieties uz sistēmas **administrēšanas \> darbalauku \> līdzekļu pārvaldību**.
-1. Slēdziet funkciju, kas ir uzskaitīta šādā veidā (skatiet arī Līdzekļu [pārvaldības apskatu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Modulis:** *Ražošanas kontrole*
-    - **Funkcionalitātes nosaukums:** *ražošanas izpildes sistēmas integrācija*
+1. Izmantojiet līdzekļu [pārvaldības darbvietu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu Ražošanas *izpildes sistēmas integrācijas* funkciju. (No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir noklusējuma iestatījumā.)
 
 ## <a name="processes-available-for-mes-integration"></a>MES integrācijai pieejamie procesi
 
@@ -152,7 +150,7 @@ Pabeidzamā *ziņojuma* vērtība `_messageType` ir `ProdProductionOrderReportFi
 | `ProductionWarehouseId` | Neobligāti | Virkne |
 | `ProductionSiteId` | Neobligāti | Virkne |
 | `ProductionWarehouseLocationId` | Neobligāti | Virkne |
-| `InventoryDimension1` līdz `InventoryDimension12` | Neobligāti | Virkne |
+| `InventoryDimension1` uz `InventoryDimension12` | Neobligāti | Virkne |
 
 12 paplašināmām dimensijām (`InventoryDimension1``InventoryDimension12` izmantojot) nepieciešama pielāgošana, un tās vienmēr netiek izmantotas. Papildinformāciju par tām skatiet sadaļā Jaunu [krājumu dimensiju pievienošana, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 

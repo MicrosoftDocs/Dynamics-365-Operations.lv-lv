@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d39ce6e07a789ff4d605a01b1d5053be150d2727
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895472"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336251"
 ---
 # <a name="release-to-warehouse-rule"></a>Kārtula Pārvietot uz noliktavu
 
@@ -30,14 +30,14 @@ Līdzeklis *Pārvietošanas uz noliktavu kārtula* nodrošina elastību, izlaiž
 
 ### <a name="turn-on-the-feature"></a>Līdzekļa iespējošana
 
-Lai varētu izmantot līdzekli *Papildu novietojuma zona*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot noliktavas *vadības kārtulas* līdzekli, tai sistēmai jābūt ieslēgtai. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Iezīmes nosaukums:** *Noliktavas izlaišanas kārtula*
 
 ### <a name="initialize-the-feature"></a>Inicializējiet līdzekli
 
-Pēc līdzekļa iespējošanas jūsu sistēmā tas ir jāinicializē, lai iestatītu noteikumu uz pareizo sākotnējo statusu visām noliktavām.
+Kad sistēmai ir ieslēgta funkcija, inicializējiet to, lai iestatītu kārtulu pareizajā sākotnējā stāvoklī visās noliktavās.
 
 - Noliktavām, kas nav iespējotas noliktavas pārvaldībai, noteikums sākotnēji ir iestatīts kā **Nav piemērojams**.
 - Noliktavām, kas nav iespējotas noliktavas pārvaldībai, noteikums sākotnēji ir iestatīts kā **Ļaut daļēju rezervēšanu**
@@ -69,7 +69,7 @@ Pēc tam, kad līdzeklis ir ieslēgts un inicializēts, visām noliktavām būs 
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
 
-Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 Varat izmantot šo demonstrāciju arī kā vadlīnijas šī līdzekļa izmantošanai, strādājot ar ražošanas sistēmu. Tomēr šādā gadījumā jums ir jāaizstāj savas vērtības, un, iespējams, trūks dažu nepieciešamo ierakstu tipu, ko sniedz standarta demonstrācijas dati.
 

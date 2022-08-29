@@ -2,7 +2,7 @@
 title: Pārsūtīšanas pasūtījumu izveide no noliktavas programmas
 description: Šajā rakstā ir aprakstīts, kā izveidot un apstrādāt pārsūtīšanas pasūtījumus no mobilās programmas Noliktavas pārvaldība
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877455"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336461"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Pārsūtīšanas pasūtījumu izveide no noliktavas programmas
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877455"
 
 Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no Warehouse Management mobile programmas. Vispirms darbinieks atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu, lai pievienotu noliktavas vienības pārsūtīšanas pasūtījumam. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Ieslēgt vai izslēgt šo līdzekli
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Ieslēgt šo līdzekli un tā priekšnosacījumus
 
 Lai varētu izmantot šo līdzekli, sistēmā vispirms ir jāiespējo gan pats līdzeklis, gan tā priekšnosacījumi. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lapu, lai pārbaudītu līdzekļa statusu un iespējotu to pēc nepieciešamības.
 
 1. Iespējojiet tālāk norādītās divas funkcijas (šādā secībā), kas atrodas līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). No Piegādes ķēdes pārvaldības versijas 10.0.25 abi šie līdzekļi ir ieslēgti pēc noklusējuma.
-    1. *Apstrādāt noliktavas programmas notikumus*
-    1. *Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas*
-1. Lai automatizētu izejošo sūtījumu apstrādi, [ir jāiespējo arī funkcija Apstiprināt nosūtīšanas kravas no pakešuzdevumiem](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Apstrādāt noliktavas programmas notikumus*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 funkcija ir obligāta un to nevar izslēgt.)
+    1. *Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 funkcija ir obligāta un to nevar izslēgt.)
+1. Lai automatizētu izejošo sūtījumu apstrādi, [*ir jāiespējo arī funkcija Apstiprināt nosūtīšanas kravas no pakešuzdevumiem*](confirm-outbound-shipments-from-batch-jobs.md). (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.25 šī funkcija ir obligāta un to nevar izslēgt.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Iestatīt mobilās ierīces izvēlnes vienumu, lai veidotu pārsūtīšanas pasūtījumus
 
@@ -307,11 +307,11 @@ Nē, nav iespējams pievienot papildu noliktavas vienības pārsūtīšanas pas�
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Kā Warehouse Management mobile programmā var atrast izmantojamos pārsūtīšanas pasūtījumus, izmantojot pogu “Atlasīt pārsūtīšanas pasūtījumu”, ja pasūtījums vēl nav izveidots aizmugursistēmā?
 
-Pašlaik programmā nav iespējams meklēt pārsūtīšanas pasūtījumus, bet pārsūtīšanas pasūtījumu numurus var atrast lapā **Noliktavas programmas notikumi**. Papildinformāciju skatiet sadaļā [Uzziņas par noliktavas programmas notikumiem](#inquire-the-warehouse-app-events).
+Darbiniekiem var būt iespēja skatīt pārsūtīšanas pasūtījumu numurus mobilajā programmā Noliktavas pārvaldība, izmantojot tā datu [pieprasījuma](warehouse-app-data-inquiry.md) iespējas. Piemēram, varat izveidot mobilās ierīces izvēlnes vienumu, kas vaicājumi par datiem, [kas](warehouse-app-detours.md) tiek rādīti tīmekļa klienta noliktavas programmas **notikumu lapā (**) `WHSMobileDeviceQueueMessageCollection` kā daļa no atlases *pasūtījuma — MobileDeviceQueueMessageCollectionIdentifierId* darbības. Pārsūtīšanas pasūtījuma numurs atbilst laukā Identifikators redzamai **vērtībai**. Skatiet arī [informāciju par noliktavas programmas notikumiem](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Vai no Warehouse Management mobile programmas var manuāli atlasīt izmantojamo pārsūtīšanas pasūtījuma numuru?
 
-Tiek atbalstīti tikai automātiski ģenerētie pārsūtīšanas pasūtījumu numuri, izmantojot numuru secības.
+Tiek atbalstīti tikai automātiski ģenerētie pārsūtīšanas pasūtījumu numuri, izmantojot numuru secības. Skatiet arī atbildi uz iepriekšējo jautājumu par to, kā iestatīt pogu **Atlasīt pārsūtīšanas pasūtījumu**. Papildinformāciju par to, kā atrast pārsūtīšanas pasūtījumu numurus [, skatiet noliktavas programmas notikumu uzziņas](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Fona apstrāde
 

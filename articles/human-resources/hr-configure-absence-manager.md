@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886107"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337345"
 ---
 # <a name="configure-the-absence-manager-role"></a>Konfigurēt lomu Prombūtnes pārvaldnieks
 
->[!Important]
->Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem atsevišķi Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ Dažās organizācijās cilvēku vadītāji var ne pārvaldīt atvaļinājumu sa
 ## <a name="turn-on-the-feature"></a>Līdzekļa iespējošana
 
 1. Darbvietā **Sistēmas administrēšana** atlasiet **Līdzekļu pārvaldība**.
-
 2. Cilnē **Līdzekļu pārvaldība** aktivizējiet līdzekli **Prombūtnes pārvaldnieks, lai pārvaldītu atvaļinājumu**.
 
 ## <a name="define-a-custom-hierarchy"></a>Definēt pielāgotu hierarhiju
@@ -45,37 +42,26 @@ Dažās organizācijās cilvēku vadītāji var ne pārvaldīt atvaļinājumu sa
 Prombūtnes pārvaldnieka funkcionalitāte izmanto pielāgotu hierarhiju, kas ir jākonfigurē.
 
 1. Darbvietā **Organizācijas administrēšana** atlasiet **Amatu hierarhijas tipi**.
-
 2. Izveidojiet amatu hierarhijas tipu ar nosaukumu **Atvaļinājums**.
-
 3. Darbvietā **Atvaļinājums un prombūtne** sadaļā **Saites** atlasiet **Atvaļinājumu un prombūtnes parametri**.
-
 4. Cilnes **Vispārīgi** nolaižamajā sarakstā **Kavējumu hierarhija** atlasiet iepriekš izveidoto hierarhijas tipu **Atvaļinājums**. Šo Atvaļinājuma hierarhiju saistību jāaizpilda visām juridiskajām personām, kur tiks izmantota kavējumu pārvaldnieka funkcionalitāte.
 
 Kad hierarhijas tips ir definēts, amatam ir jāpiešķir amatu hierarhijas pārskats.
 
 1. Darbvietā **Organizācijas administrēšana** atlasiet **Visi amati**.
-
 2. Atlasiet amatu, lai pievienotu Atvaļinājumu hierarhiju.
-
 3. Cilnē **Attiecības** atlasiet **Pievienot**.
-
 4. Laukā **Hierarhijas nosaukums** atlasiet **Atvaļinājums**.
-
 5. Laukā **Ziņojumi par amatiem** ievadiet vai atlasiet amatu. Kad atlasāt amatu, darbinieka vārds tiek ievadīts automātiski.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Prombūtnes pārvaldnieka lomas piešķiršana lietotājam
 
 Prombūtnes pārvaldnieka loma ir jāpiešķir darbiniekiem, lai tie varētu apstiprināt vai noraidīt atvaļinājumu pieprasījumus.
 
-1. Darbvietā **Sistēmas administrators** atlasiet **Saites**.
-
+1. Sistēmas administrēšanas **darbvietā** atlasiet **Saites**.
 2. Sadaļā **Lietotāji** atlasiet saiti **Lietotāji**.
-
 3. Lietotāju sarakstā atlasiet lietotāju, kam piešķirt Prombūtnes pārvaldnieka lomu.
-
 4. Cilnē **Lietotāja loma** atlasiet **Piešķirt lomas**.
-
 5. Sarakstā atlasiet lomu **Prombūtnes pārvaldnieks**. Pēc tam atlasiet **Labi**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Prombūtnes pārvaldnieka loma ir jāpiešķir darbiniekiem, lai tie varētu aps
 6. Pēc atvaļinājumu hierarhijas izveides to var skatīt, veicot šādas darbības:
 
     1. Darbvietā **Organizācijas administrēšana** atlasiet **Amatu hierarhija**.
-    
     2. Laukā **Hierarhijas tips** atlasiet **Atvaļinājums**.
 
 ## <a name="absence-manager-workspace"></a>Kavējumu pārvaldnieka darbvieta
@@ -115,9 +100,7 @@ Prombūtnes pārvaldnieki var apstiprināt vai noraidīt darbinieku brīvā laik
 > Informāciju par to, kā izveidot atvaļinājuma pieprasījuma darbplūsmu, skatiet šeit: [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md).
 
 1. Darbvietā **Darbinieka pašapkalpošana** atlasiet cilni **Atvaļinājumu pārvaldnieks**.
-
 2. Cilnē **Izslēgt laiku pieprasījumus** atlasiet pieprasījumus, ar kuriem vēlaties veikt darbības. Šajā saraksta skatā varat atlasīt vairākus ierakstus.
-
 3. Izmantojiet darbības pogas režģa augšpusē, lai apstiprinātu, liegtu vai deleģētu pieprasījumu pēc laika. 
 
 Vai arī lietotājs var izmantot arī **Laiku pieprasījumu** elementu kreisajā pusē, lai pārvietotos uz visu nepieprasamo darba vienumu sarakstu. 
@@ -130,9 +113,7 @@ Prombūtnes pārvaldnieka lomas lietotāji kalendārā var skatīt brīvā laika
 > Sistēmas administratoram ir jākonfigurē prombūtnes pārvaldnieka kalendāra skatīšanas opcijas. Lapas **Atvaļinājuma un prombūtnes parametri** cilnē **Kalendārs** ir opcijas, kas ļauj paslēpt vai rādīt dzimšanas dienas, kavējumus bez detalizētas informācijas, prombūtnes atvaļinājumus un gaidošos atvaļinājumu pieprasījumus. Pastāv arī opcija, lai filtrētu kalendāra skata opciju pēc darbinieka veida.
 
 1. Darbtelpā **Darbinieku pašapkalpošanās** atlasiet **Atvaļinājumu pārvaldība** un **Prombūtnes pārvaldnieka kalendārs**.
-
 2. Laukā **Datums** ievadiet vajadzīgos datumus.
-
 3. Pēc vajadzības atjauniniet skata opcijas.
 
 Prombūtnes pārvaldnieku kalendārs rāda visus ierakstus par darbiniekiem, kuri sniedz pārskatu prombūtnes pārvaldniekam atvaļinājumu hierarhijā.

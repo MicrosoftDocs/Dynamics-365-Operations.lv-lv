@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181130"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306209"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Iespējot pamatdatu uzmeklēšanu nodokļu aprēķina konfigurācijai 
 
@@ -108,7 +108,7 @@ Dataverse programma <a0 Azure AD /> izmanto jūsu izveidoto programmu, lai izsau
     - **Nodrošinātājs** - iestatiet šo lauku kā **NonAAD**.
     - **E-pasts** - ievadiet **datu šķērsošanu** vai citu vērtību. (Vērtībai nav jābūt derīgam e-pasta kontam.)
 
-3. Piešķiriet **lietotājam CDS virtuālā** elementa programmas drošības lomu.
+3. Piešķiriet **Dataverse lietotājam virtuālās entītijas** integrācijas programmas drošības lomu.
 4. Noņemt visas pārējās lomas, tostarp **Sistēmas lietotāju**.
 5. Lai reģistrētu **, pārejiet uz** \> **sadaļu** \> **Azure Active Directory Sistēmas administrēšanas** iestatīšanas programmas.Dataverse 
 6. Pievienojiet rindu un pēc tam **laukā Klienta ID** **ievadiet programmas (klienta) ID** vērtību, par kuru iepriekš atzīmējāt.
@@ -127,7 +127,7 @@ Savienojumam ir Dataverse jānorāda finanšu un operāciju programmas instance.
 
 2. Izvēlnē Iestatījumi **atlasiet Administrēšana** **.**
 
-    [![Pārvalde.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
+    [![Administrācijas.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
 
 3. Atlasiet **virtuālā elementa datu avotus**.
 
@@ -199,17 +199,11 @@ Plašāku informāciju skatiet sadaļā [Virtuālo Microsoft Dataverse elementu 
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a> Iestatīt pievienoto pieteikumu nodokļu aprēķinam
 
-1. RcS atveriet līdzekļu pārvaldības darbalauku **un** iespējojiet šādas funkcijas:
-
-    - Elektronisko pārskatu izrakstīšanas Dataverse datu avotu atbalsts
-    - Nodokļu pakalpojuma Dataverse datu avotu atbalsts
-    - Globalizācijas līdzekļi
-
-2. Dodieties uz **Elektronisko pārskatu** izveide un pēc tam sadaļā **Saistītās saites** atlasiet Pievienotās **programmas**.
+1. Dodieties uz **Elektronisko pārskatu** izveide un pēc tam sadaļā **Saistītās saites** atlasiet Pievienotās **programmas**.
 
     [![pievienotos pieteikumus;](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Atlasiet **Jauns**, lai pievienotu ierakstu, un ievadiet šādu informāciju.
+2. Atlasiet **Jauns**, lai pievienotu ierakstu, un ievadiet šādu informāciju.
 
     - **Nosaukums** – ievadiet nosaukumu.
     - **Veids** – atlasīt **Dataverse**.
@@ -217,12 +211,18 @@ Plašāku informāciju skatiet sadaļā [Virtuālo Microsoft Dataverse elementu 
     - **Nomnieks** – ievadiet savu nomnieku.
     - **Pielāgots URL** - ievadiet Dataverse savu URL un pievienojiet **tam /api/data/v9.1**.
 
-4. Atlasiet **Pārbaudīt savienojumu** un pēc tam parādītajā dialoglodziņā atlasiet Noklikšķiniet šeit, lai **izveidotu savienojumu ar atlasīto attālo programmu**.
+3. Atlasiet **Pārbaudīt savienojumu** un pēc tam dialoglodziņā atlasiet Noklikšķiniet šeit, lai **izveidotu savienojumu ar atlasīto attālo programmu**.
 
     [![Pārbauda savienojumu.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Pārliecinieties, ka esat saņēmis "Veiksmīgs" Ziņojums, kas norāda, ka savienojums tika izveidots veiksmīgi.
+4. Pārliecinieties, ka esat saņēmis "Veiksmīgs" Ziņojums, kas norāda, ka savienojums tika izveidots veiksmīgi.
 
     [![Veiksmes ziņojums.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. RcS atveriet līdzekļu pārvaldības darbalauku **un** iespējojiet šādas funkcijas:
+
+    - Globalizācijas līdzekļi
+    - Elektronisko pārskatu izrakstīšanas Dataverse datu avotu atbalsts
+    - Nodokļu pakalpojuma Dataverse datu avotu atbalsts
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a> Modeļu kartēšanas konfigurācijas importēšana Dataverse un iestatīšana
 

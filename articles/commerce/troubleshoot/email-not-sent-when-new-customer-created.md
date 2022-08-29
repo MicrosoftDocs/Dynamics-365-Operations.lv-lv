@@ -2,21 +2,21 @@
 title: Veidojot jaunus debitorus, nav nosūtīts sveiciena e-pasta ziņojums
 description: Šajā rakstā ir sniegti problēmu novēršanas norādījumi, kas var palīdzēt, ja netiek nosūtīts sveiciena e-pasta paziņojums, izveidojot jaunu debitoru Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/24/2022
+ms.date: 08/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5aa7d864555f96194500989e2d7ad200d8892121
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853687"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219409"
 ---
-# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>Veidojot jaunus debitorus, nav nosūtīts sveiciena e-pasta ziņojums
+# <a name="welcome-email-isnt-sent-when-new-customers-are-created"></a>Veidojot jaunus debitorus, nav nosūtīts sveiciena e-pasts
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,13 +28,15 @@ Kad programmā Commerce headquarters tiek izveidots jauns debitors, debitoram ne
 
 ## <a name="resolution"></a>Novēršana
 
-### <a name="set-the-correct-email-id-value-for-the-customer-created-email-notification-type"></a>Iestatīt pareizo e-pasta ID vērtību debitora izveidotam e-pasta paziņojuma veidam
+### <a name="associate-an-email-notification-profile-under-commerce-parameters"></a>Saistīt e-pasta paziņojuma profilu zem Commerce parametriem
 
-Lai programmā galvenā birojā izveidoto **e-pasta** paziņojumu **veidam** iestatītu pareizu e-pasta ID vērtību, izpildiet šīs darbības.
+1. Galvenajā birojā dodieties uz sadaļu **Mazumtirdzniecības un Commerce \> Headquarters iestatīšanas \> parametri \> Commerce parametri \> Vispārīgi**.
+2. E-pasta **paziņojumu profila** nolaižamajā sarakstā atlasiet e-pasta paziņojuma profilu, kas ietver kartējumu starp debitora izveidotā paziņojuma tipu un debitora izveidoto e-pasta veidni.  
 
-1. Pārejiet uz **mazumtirdzniecības un Commerce \> Headquarters iestatīšanas \> Commerce e-pasta paziņojuma profilu**.
-1. Kreisās puses navigācijas rūtī atlasiet e-pasta paziņojuma profilu.
-1. Sadaļā **Mazumtirdzniecības notikumu paziņojumu iestatījumi**, debitora izveidoto **e-pasta** paziņojumu veidam iestatiet e-pasta **ID** lauka vērtību **NewCust**.
+> [!NOTE] 
+> Kad iespējojat debitoru izveidotos paziņojumus, debitori, kas ir izveidoti visos juridiskās personas kanālos, saņems debitora izveidoto e-pastu. Pašlaik debitora izveidotos paziņojumus nevar ierobežot ar vienu kanālu.
+
+Papildinformāciju skatiet sadaļā E-pasta [veidņu izveide transakciju notikumiem](../email-templates-transactions.md). 
 
 ## <a name="additional-resources"></a>Papildu resursi
 

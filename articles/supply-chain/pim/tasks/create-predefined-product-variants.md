@@ -2,7 +2,7 @@
 title: Iepriekš definētu preces variantu izveide
 description: Šajā procedūrā ir aprakstīts, kā izveidot preces variantus preces šablonam, izmantojot preču dimensiju kombinācijas.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103102"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335921"
 ---
 # <a name="predefined-product-variants"></a>Iepriekš definēts preces variants
 
@@ -86,7 +86,7 @@ Līdzeklis *Variantu ieteikumu lapas uzlabojumi* uzlabo lapu **Variantu ieteikum
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Ieslēgt vai izslēgt variantu ieteikumu lapu uzlabojumu līdzekli
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot variantu ieteikumu *lapas uzlabojumu līdzekli* līdzekļu pārvaldības [darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot variantu *ieteikumu* lapas uzlabojumu līdzekli [līdzekļu pārvaldības darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Darbs ar uzlabotajiem variantu ieteikumiem
 

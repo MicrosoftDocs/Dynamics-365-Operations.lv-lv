@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909648"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334512"
 ---
 # <a name="put-to-wall---put-to-store"></a>Novietot pie sienas – Novietot veikalā
 
@@ -32,7 +32,7 @@ Funkcionalitāte *Novietot pie sienas – novietot veikalā* ļauj apstrādāt s
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Ieslēgt līdzekli Izejošā kārtošana
 
-Pirms varat izmantot funkcionalitāti *Novietot pie sienas – novietot veikalā*, jūsu sistēmā ir jābūt ieslēgtam līdzeklim *Izejošā kārtošana*. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms varat izmantot funkcionalitāti *Novietot pie sienas -* nodot veikala funkcionalitātei, *sistēmai* ir jābūt ieslēgtai nosūtīšanas kārtošanas funkcijai. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Izejošā kārtošana*

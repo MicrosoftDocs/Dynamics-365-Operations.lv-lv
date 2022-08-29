@@ -1,24 +1,24 @@
 ---
 title: Nodokļu aprēķina pārskats
 description: Šis raksts skaidro nodokļu aprēķināšanas iespējas vispārējo tvērumu un funkcijas.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166845"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295999"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
@@ -54,10 +54,15 @@ Nodokļu aprēķins ir izvietots tālāk redzamajās Azure ģeogrāfiskās lapā
 
 - Āzijas Klusā okeāna daļa
 - Austrālija
+- Brazīlija
 - Kanāda
 - Eiropa
+- Francija
+- Indija
 - Japāna
+- Dienvidāfrikas Republika
 - Šveice
+- Apvienotie Arābu Emirāti
 - Apvienotā Karaliste
 - Amerikas Savienotās Valstis
 
@@ -80,6 +85,7 @@ Mēs iesakām jums importēt un iestatīt nodokļu aprēķina konfigurāciju ar 
 | 10.0.26         | Nodokļu aprēķina konfigurācija 40.54.234 |
 | 10.0.27         | Nodokļu aprēķina konfigurācija 40.54.234 |
 | 10.0.28         | Nodokļu aprēķina konfigurācija 40.54.234 |
+| 10.0.29         | Nodokļu aprēķina konfigurācija 40.55.236 |
 
 
 ## <a name="data-flow"></a>Datu plūsmas
@@ -149,11 +155,16 @@ Versijā 10.0.28 tiek atbalstītas tālāk norādītās transakcijas.
 - Kreditoru maksājumu žurnāls
 - Debitora maksājumu žurnāls
 
+Versijā 10.0.29 tiek atbalstītas tālāk norādītās transakcijas. 
+
+
+- Periodiskie žurnāli
+
 ## <a name="supported-countriesregions"></a>Atbalstītās valstis/reģioni
 
-Nodokļu aprēķinu var iespējot pēc juridiskās personas. 
+Nodokļu aprēķinu var palaist ar atbalstītajām lokalizācijas funkcijām šādās valstīs/reģionos juridiskas personas primārajai adresei: 
 
-Versijā 10.0.21 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+Tiek atbalstīts versijā 10.0.21:
 
 - Austrija
 - Beļģija
@@ -174,9 +185,9 @@ Versijā 10.0.21 tiek atbalstīti tālāk norādītās juridiskās personas prim
 - Zviedrija
 - Šveice
 - Apvienotā Karaliste
-- ASV
+- Amerikas Savienotās Valstis
 
-Versijā 10.0.22 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+Tiek atbalstīts versijā 10.0.22:
 
 - Austrālija
 - Bahreina
@@ -188,25 +199,27 @@ Versijā 10.0.22 tiek atbalstīti tālāk norādītās juridiskās personas prim
 - Omāna
 - Katara
 - Saūda Arābija
-- Dienvidāfrika
+- Dienvidāfrikas Republika
 - Apvienotie Arābu Emirāti
 
-Versijā 10.0.23 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+Tiek atbalstīts versijā 10.0.23:
 
 - Taizeme
 - Japāna
 - Malaizija
 - Singapūra
 
-Versijā 10.0.24 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+Tiek atbalstīts versijā 10.0.24:
 
 - Meksika
 
-Versijā 10.0.26 tiek atbalstīti tālāk norādītās juridiskās personas primārās adreses valstis/reģioni.
+Tiek atbalstīts versijā 10.0.26:
 
 - Ķīna
 - Čehijas Republika
 - Spānija
+
+Jebkurai valstij/reģionam, ko nav lokalizēts korporācija Microsoft, nodokļu aprēķinu var iespējot un palaist arī ar citiem globāliem līdzekļiem.
 
 ## <a name="related-resources"></a>Saistītie resursi
 

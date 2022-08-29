@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867932"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335141"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -108,7 +108,7 @@ Kad pārbaudāt savu risinājumu saderību ar versijas dimensiju, meklējiet š�
 
 #### <a name="turn-on-the-version-dimension"></a>Ieslēdziet versijas dimensiju
 
-Lai varētu izmantot versijas dimensiju, tas vispirms ir jāiespējo jūsu sistēmā. Šim uzdevumam ir nepieciešamas administratora atļaujas.
+Pirms versijas dimensijas lietošanas tā sistēmai ir jāieslēdz. Šim uzdevumam ir nepieciešamas administratora atļaujas.
 
 1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
 1. Ieslēdziet līdzekli, kura nosaukums ir *Preču dimensijas versija*. (Papildinformāciju skatiet [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)

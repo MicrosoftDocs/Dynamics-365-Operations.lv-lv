@@ -1,25 +1,25 @@
 ---
 title: Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 description: Šajā rakstā ir sniegta informācija par izmaiņu izsekošanas funkcionalitāti pamatlīdzekļu atrašanās vietas laukiem juridiskajām personām ar primāro adresi Latvijā.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 266924
 ms.search.region: Latvia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: aafd553e37ba5b3c1338266c41a17af5275b7e34
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 266924
+ms.search.form: AssetTable
+ms.openlocfilehash: 7e3d8eba7563122d4c36e79fbea7146880f21dee
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858336"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269337"
 ---
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 

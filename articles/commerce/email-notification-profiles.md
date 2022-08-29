@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878490"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292140"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-pasta paziņojumu profila iestatīšana
 
@@ -31,17 +31,9 @@ Veidojot kanālus, varat iestatīt e-pasta paziņojuma profilu. E-pasta paziņoj
 
 Papildinformāciju par e-pasta ziņojumu konfigurēšanu skatiet rakstā [E-pasta ziņojumu konfigurēšana un sūtīšana](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
-## <a name="create-an-email-notification-profile"></a>E-pasta paziņojumu profila izveide
 
-Lai izveidotu e-pasta paziņojumu profilu, izpildiet tālāk norādītās darbības.
 
-1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \> Komercijas e-pasta paziņojumu profils**.
-1. Darbību rūtī noklikšķiniet uz **Jauns**.
-1. Lai identificētu profilu, ievadiet nosaukumu laukā **E-pasta paziņojumu profils**.
-1. Ievadiet atbilstošu aprakstu laukā **Apraksts**.
-1. Iestatiet slēdzi **Aktīvs** uz **Jā**.
-
-### <a name="create-an-email-template"></a>E-pasta veidnes izveidošana
+## <a name="create-an-email-template"></a>E-pasta veidnes izveidošana
 
 Lai iespējotu e-pasta paziņojuma veidu, programmā Commerce headquarters ir jāizveido organizācijas e-pasta veidne katram paziņojuma veidam, kuru vēlaties atbalstīt. Šī veidne definē e-pasta tēmu, sūtītāju, noklusējuma valodu un e-pasta pamattekstu katrai atbalstītajā valodā.
 
@@ -63,29 +55,37 @@ Tālāk redzamajā attēlā parādīti daži e-pasta veidnes iestatījumi.
 
 Papildinformāciju par e-pasta veidņu izveidi skatiet sadaļā [E-pasta veidņu izveide darbību notikumiem](email-templates-transactions.md). 
 
-### <a name="create-an-email-event"></a>E-pasta notikuma izveide
+## <a name="create-an-email-notification-profile"></a>E-pasta paziņojumu profila izveide
+
+Lai programmā programmā izveidotu e-pasta paziņojuma profilu, izpildiet šīs darbības.
+
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \> Komercijas e-pasta paziņojumu profils**.
+1. Darbību rūtī atlasiet **Jauns**.
+1. Lai identificētu profilu, ievadiet nosaukumu laukā **E-pasta paziņojumu profils**.
+1. Ievadiet atbilstošu aprakstu laukā **Apraksts**.
+1. Iestatiet slēdzi **Aktīvs** uz **Jā**.
+
+## <a name="add-a-notification-type"></a>Pievienot paziņojuma veidu
 
 Lai izveidotu e-pasta notikumu, izpildiet tālāk norādītās darbības.
 
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \> Komercijas e-pasta paziņojumu profils**.
-1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. 
-1. **E-pasta ID** nolaižamajā sarakstā atlasiet e-pasta veidni.
+1. Sadaļā **Mazumtirdzniecības e-pasta paziņojumu** iestatījumi atlasiet **Jauns**.
 1. Nolaižamajā sarakstā atlasiet atbilstošu **E-pasta paziņojumu veidu**.
-1. Atzīmējiet izvēles rūtiņu **Aktivizēt**.
+1. Atlasiet e-pasta ziņojuma veidni, kuru izveidojāt augstāk no nolaižamā **saraksta E-pasta ID**.
+1. Atzīmējiet **izvēles rūtiņu** Aktīvs.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
 Tālāk redzamajā attēlā parādīti daži notikuma paziņojumu iestatījumi.
 
 ![Notikuma paziņojuma iestatījumi.](media/email-notification-profile.png)
 
-> [!NOTE]
-> Debitora izveidotā paziņojuma veidam ir nepieciešams pielāgot, lai varētu nosūtīt e-pasta paziņojumu.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Plānot periodisku e-pasta paziņojumu apstrādes darbu
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Plānot periodisku e-pasta paziņojumu apstrādes darbu
 
 Lai sūtītu e-pasta paziņojumus, ir jādarbojas mazumtirdzniecības **pasūtījuma e-pasta paziņojumu procesa** darbam.
 
-Lai programmā **Commerce Headquarters iestatītu procesu mazumtirdzniecības pasūtījuma e-pasta** paziņojuma darbu, ja tas vēl nav izdarīts, izpildiet šīs darbības.
+Lai programmā iestatītu pakešuzdevumu darbību e-pasta ziņojumu sūtīšanai, izpildiet šīs darbības.
 
 1. E-pasta ziņojumu un paziņojumu sūtīšana uz e-pasta ziņojumu sūtīt e-pasta **ziņojumu, pārejiet \> uz Retail un Commerce \> Retail un Commerce IT \>**.
 1. **Procesa mazumtirdzniecības pasūtījuma e-pasta** paziņojuma dialoglodziņā atlasiet **Periodiskums**.
@@ -94,9 +94,9 @@ Lai programmā **Commerce Headquarters iestatītu procesu mazumtirdzniecības pa
 1. Atlasiet Labi **,** lai atgrieztos mazumtirdzniecības **pasūtījuma e-pasta paziņojuma dialoglodziņā** Apstrādāt.
 1. Atlasiet **Labi,** lai pabeigtu darba iestatīšanu.
 
-### <a name="next-steps"></a>Turpmākās darbības
+## <a name="next-steps"></a>Turpmākās darbības
 
-Lai varētu nosūtīt e-pastus, ir jākonfigurē izejošais pasta pakalpojums un jāiestata pakešuzdevums. Papildinformāciju skatiet [E-pasta konfigurēšana un sūtīšana](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+Pirms e-pasta ziņojumu nosūtīšanas jums ir jākonfigurē izejošo pasta pakalpojumu. Papildinformāciju skatiet [E-pasta konfigurēšana un sūtīšana](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

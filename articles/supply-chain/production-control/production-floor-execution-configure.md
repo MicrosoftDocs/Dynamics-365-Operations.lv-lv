@@ -2,7 +2,7 @@
 title: Ražošanas izpildes interfeisa konfigurēšana
 description: Šajā rakstā ir aprakstīts, kā ražošanas izpildes interfeisam izveidot vienu vai vairākas konfigurācijas. Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfigurāciju un darbu filtru, kas ir raksturīgs pārlūkam un ierīcei. Konfigurācijā ir jāiestata politikas, kas jāpiemēro specifiskam lietojumam.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: HT
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167767"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336191"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -35,7 +35,7 @@ Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfi
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Ieslēgt ražošanas stāva izpildes interfeisu un ar to saistītās papildu funkcijas
 
-Ražošanas izpildes interfeiss, pieskaitot vairākus šajā rakstā aprakstītos izvēles iestatījumus, ir jāieslēdz savā sistēmā pirms to lietošanas. Izmantojiet lapu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu jebkuru vai visus tālākajās apakšnodaļās norādītos līdzekļus pēc nepieciešamības.
+Ražošanas izpildes interfeiss un vairāki šajā rakstā aprakstītie izvēles iestatījumi ir jāieslēdz sistēmai pirms to lietošanas. Izmantojiet lapu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu jebkuru vai visus tālākajās apakšnodaļās norādītos līdzekļus pēc nepieciešamības.
 
 ### <a name="the-production-floor-execution-interface"></a>Ražošanas izpildes interfeiss
 
@@ -63,63 +63,58 @@ No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta p
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam
 
-Šī funkcija pievieno pamatlīdzekļu pārvaldības cilni ražošanas izpildes interfeisam. Darbinieki var izmantot šo cilni, lai atlasītu līdzekli, kas ir saistīts ar datora resursu, kas ir darbu saraksta atlasītajā filtrā. Atlasītajam iekārtas pamatlīdzeklim darbinieks var skatīt līdzekļa stāvokli un veselības datus no skaitītāja vērtībām līdz pat četriem atlasītajiem skaitītājiem. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Šī funkcija pievieno pamatlīdzekļu pārvaldības cilni ražošanas izpildes interfeisam. Darbinieki var izmantot šo cilni, lai atlasītu līdzekli, kas ir saistīts ar datora resursu, kas ir darbu saraksta atlasītajā filtrā. Atlasītajam iekārtas pamatlīdzeklim darbinieks var skatīt līdzekļa stāvokli un veselības datus no skaitītāja vērtībām līdz pat četriem atlasītajiem skaitītājiem.
 
-- *Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir noklusējuma iestatījumā.)
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot līdzekļu pārvaldības funkcionalitāti ražošanas izpildes interfeisa līdzekli līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-### <a name="enable-job-search"></a>Iespējot darbu meklēšanu
+### <a name="job-search"></a>Darbu meklēšana
 
-Šī funkcija dod iespēju darbu sarakstam pievienot meklēšanas lauku. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai meklējot visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot maksājumu vai skenējot svītrkodu. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Šī funkcija dod iespēju darbu sarakstam pievienot meklēšanas lauku. Darbinieki var atrast noteiktu darbu, ievadot darba ID vai meklējot visus noteikta pasūtījuma darbus, ievadot pasūtījuma ID. Darbinieki var ievadīt ID, izmantojot maksājumu vai skenējot svītrkodu.
 
-- *Darbu meklēšana ražošanas izpildes saskarnē*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir noklusējuma iestatījumā.)
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 šī funkcija ir obligāta un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, *·*[tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot darbu meklēšanu ražošanas izpildes interfeisa līdzekli līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Iespējot pārskatus par līdzproduktiem un blakusproduktiem
+### <a name="report-on-co-products-and-by-products"></a>Pārskats par līdzproduktiem un blakusproduktiem
 
-Šis līdzeklis ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu. Šis pārskats iekļauj pārskatus par līdzproduktiem un blakusproduktiem. Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Šis līdzeklis ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu. Šis pārskats iekļauj pārskatus par līdzproduktiem un blakusproduktiem.
 
-- *Pārskats par līdzproduktiem un blakusproduktiem no ražošanas izpildes saskarnes*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai *izslēgt*[šo funkcionalitāti, meklējot pārskatu par līdzproduktiem un blakusproduktiem no ražošanas izpildes interfeisa funkcijas līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Iespējot pilnu sērijas, partijas un numura zīmes numuru displeju
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Rādīt pilnus sērijas, partijas un numura zīmes numurus
 
 Šis līdzeklis nodrošina uzlabotu pieredzi sarakstu apskatīšanai ar sērijas, partijas un numura zīmes numuriem ražošanas izpildes interfeisā. Rādīšanas izmaiņas no karšu skata, kas parāda ierobežotu rakstzīmju skaitu saraksta skatā, kurā ir pietiekami daudz brīvas vietas pilnu vērtību rādīšanai. Šis saraksts arī nodrošina iespēju meklēt noteiktus numurus.
 
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot pilnus sērijas, *paketes* un numura zīmes numurus [ražošanas izpildes interfeisa līdzeklī Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietā.
+
+
 No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori šo funkcionalitāti *var ieslēgt vai izslēgt, meklējot pilnas sērijas,*[paketes un numura zīmes numurus ražošanas izpildes interfeisa līdzeklī Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Iespējot materiālu patēriņa reģistrēšanu
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="register-material-consumption"></a>Reģistrēt materiālu patēriņu
 
 Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Dažiem ražotājiem, it īpaši tiem, kas attiecas uz procesa nozarēm, ir skaidri jāreģistrē materiāla daudzums, kas tiek patērēts katrai partijai vai ražošanas pasūtījumam. Piemēram, darbinieki var izmantot svaru, lai novērtētu materiālu daudzumu, kas tiek patērēts viņu darba laikā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām ir jāreģistrē arī partijas numuri, kas tika patērēti katras preces ražošanai.
 
 Šim līdzeklim ir divas versijas. Viens atbalsta krājumus, *kas nav* iespējoti noliktavas pārvaldības procesu (WMS) izmantošanai. Citi atbalsta krājumus, *kas* ir iespējoti WMS lietošanai. Lai lietotu šo funkcionalitāti, [aktivizējot](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vienu vai abus šos līdzekļus Līdzekļu pārvaldībā (šādā secībā), atkarībā no tā, vai ir krājumi, kas iespējoti WMS:
 
-- *Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (nav WMS)*
-- *(Priekšskatījums) Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)*
+- *Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS)*
+- *Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)*
 
 > [!IMPORTANT]
 > Varat izmantot tikai līdzekli, kas nav WMS. Tomēr, ja izmantojat WMS, ir jāaktivizē abas funkcijas.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Iespējot pārskatu par pieļaujamā svara krājumiem
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="report-on-catch-weight-items"></a>Pārskats par pieļaujamā svara krājumiem
 
 Darbinieki var izmantot ražošanas izpildes interfeisu, lai ziņotu par partijas pasūtījumu progresu saistībā ar pieļaujamā svara krājumiem. Partijas pasūtījumi tiek izveidoti no formulām, kuras var definēt, lai pieļaujamā svara krājumi būtu formulas krājumi, līdzprodukti un blakusprodukti. Formulu var arī noteikt, lai būtu formulas rindas sastāvdaļām, kas definētas pieļaujamam svaram. Pieļaujamā svara krājumiem tiek izmantota divas mērvienības, lai sekotu krājumiem: pieļaujamā svara daudzumam un krājumu daudzumam. Piemēram, pārtikas nozarē kastu gaļu var definēt kā pieļaujamā svara krājumu, kur pieļaujamā svara daudzumu izmanto, lai izsekotu lodziņu skaitu un krājumu daudzumu, ko lieto, lai atsekotu lodziņu svaru.
 
 Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Priekšskatījums) Pieļaujamā svara krājumu pārskats no ražošanas izpildes interfeisa*
+- *Sniegt pārskatu par pieļaujamā svara krājumiem no ražošanas izpildes interfeisa*
 
-### <a name="enable-the-my-day-dialog"></a>Iespējot dialogu "Mana diena"
+### <a name="the-my-day-dialog"></a>Dialogs "Mana diena"
 
 Dialogs **Mana diena** sniedz darbiniekiem apskatu par viņu ikdienas reģistrācijām un pašreizējām bilancēm par apmaksāto laiku, apmaksātajām virsstundām, kavējumiem un apmaksātajiem kavējumiem.
 
-Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori šo funkcionalitāti var ieslēgt vai izslēgt *, meklējot skatu "Mana diena" ražošanas izpildes interfeisa līdzekli* līdzekļa [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Skats “Mana diena” ražošanas izpildes interfeisam*
-
-### <a name="enable-teams"></a>Iespējot grupas
+### <a name="teams"></a>Grupas
 
 Ja vienā ražošanas darbā ir piešķirti vairāki darbinieki, viņi var veidot grupu. Grupa var nominēt vienu darbinieku kā atbildīgo. Tad atlikušie darbinieki automātiski kļūst par šī vadītāja asistentiem. Iegūtajai komandai tikai atbildīgo ir jāreģistrē darba statuss. Laika ieraksti attiecas uz visiem grupas dalībniekiem.
 
@@ -127,7 +122,7 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 
 - *Ražošanas grupas ražošanas izpildes interfeisā*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Iespējot papildu konfigurāciju ražošanas izpildes interfeisā
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Papildu konfigurācija ražošanas izpildes interfeisā
 
 Šī funkcija pievieno iestatījumus tālāk minētās funkcionalitātes lapai **Konfigurēt ražošanas izpildes** izpildi:
 
@@ -142,7 +137,6 @@ Informācija par to, kā izmantot iestatījumus, ir sniegta tālāk šajā rakst
 Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Papildu konfigurācija ražošanas izpildes interfeisā*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbs ar ražotnes izpildes interfeisa konfigurācijām
 

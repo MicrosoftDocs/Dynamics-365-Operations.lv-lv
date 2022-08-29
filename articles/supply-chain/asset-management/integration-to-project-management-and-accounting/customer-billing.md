@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887694"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335081"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Rēķins par uzturēšanu debitora īpašumā aktīviem
 
@@ -40,7 +40,7 @@ Turklāt šī funkcija nodrošina sekojošo funkcionalitāti:
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Ieslēdziet debitora maksājumu ieskatu līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Projektu pārvaldība un uzskaite*
 - **Funkcionalitātes nosaukums:** *Darba pasūtījuma norēķini*
@@ -49,7 +49,7 @@ Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā.
 
 Lai uzzinātu, kā šī funkcija darbojas, aplukojiet nākamo situācijas paraugu.
 
-Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Pirms sākat, jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../../fin-ops-core/fin-ops/get-started/demo-data.md). Pirms sākat, jāatlasa **USMF** juridiskā persona.
 
 Varat arī izmantot šo scenāriju kā norādījumus, lai līdzekli lietotu darbā ar ražošanas sistēmu. Tomēr šādā gadījumā jums ir jāaizstāj savas vērtības, un, iespējams, trūks dažu nepieciešamo ierakstu tipu, ko sniedz standarta demonstrācijas dati.
 

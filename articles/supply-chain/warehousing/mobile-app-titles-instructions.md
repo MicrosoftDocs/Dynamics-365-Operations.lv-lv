@@ -2,21 +2,21 @@
 title: Darbību nosaukumu un instrukciju pielāgošana Warehouse Management mobile programmai
 description: Šajā rakstā ir aprakstīts, kā izveidot un rādīt pielāgotas instrukcijas katrai uzdevumu plūsmai, ko iestatāt mobilajai programmai Noliktavas pārvaldība.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895501"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334482"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Darbību nosaukumu un instrukciju pielāgošana Warehouse Management mobile programmai
 
@@ -28,12 +28,9 @@ ms.locfileid: "8895501"
 - **Iestatiet darbiniekus ātrāk, ļaujot viņiem ievērot vienkāršas instrukcijas katrai darbībai.** Katrs plūsmas solis nodrošina norādījumus, kas ļauj rindas darbiniekiem izprast uzdevumu.
 - **Nodrošināt instrukcijas, kas atbilst jūsu procesiem.** Rakstiet savas instrukcijas, lai atbilstu biznesa un noliktavas procesiem. Piemēram, varat veidot terminoloģijai jūsu fizisko telpu un vietējos saīsinājumus.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Ieslēgt programmas Warehouse darbību norādījumu līdzekli
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Ieslēgt vai izslēgt noliktavas programmas darbību norādījumu līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas pārvaldība*
-- **Līdzekļa nosaukums:** *Programmas Warehouse darbību norādījumi*
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot Noliktavas programmas darbību norādījumu līdzekli līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Soļi un darbību instrukcijas programmā
 

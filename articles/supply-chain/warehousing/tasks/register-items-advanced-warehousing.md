@@ -1,5 +1,5 @@
 ---
-title: Reģistrēt noliktavas vadības procesiem iespējotos krājumus, izmantojot krājumu saņemšanas žurnālu
+title: Krājumu reģistrēšana iespējota noliktavas pārvaldības procesiem, izmantojot krājumu saņemšanas žurnālu
 description: Šajā rakstā ir parādīts scenārijs, kā reģistrēt krājumus, izmantojot krājumu saņemšanas žurnālu, ja lietojat noliktavas vadības procesus (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
@@ -14,14 +14,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066973"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219604"
 ---
-# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Reģistrēt noliktavas vadības procesiem iespējotos krājumus, izmantojot krājumu saņemšanas žurnālu
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Krājumu reģistrēšana iespējota noliktavas pārvaldības procesiem, izmantojot krājumu saņemšanas žurnālu
 
 [!include [banner](../../includes/banner.md)]
 
@@ -29,7 +29,7 @@ ms.locfileid: "9066973"
 
 ## <a name="enable-sample-data"></a>Iespējot datu paraugu
 
-Lai šajā scenārijā darbotos, izmantojot šajā rakstā norādītos parauga ierakstus un vērtības, ir jāizmanto sistēma, kurā ir instalēti standarta demonstrācijas dati, *un pirms sākšanas ir jāatlasa USMF* juridiskā persona.
+Lai šajā scenārijā darbotos, izmantojot šajā rakstā norādītos parauga ierakstus un vērtības, ir jāizmanto sistēma, [kurā ir instalēti standarta demonstrācijas](../../../fin-ops-core/fin-ops/get-started/demo-data.md) dati, *un pirms sākšanas ir jāatlasa USMF* juridiskā persona.
 
 Tā vietā varat strādāt šajā scenārijā, aizstājot vērtības no saviem datiem, ja vien jums ir pieejami šādi dati:
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: HT
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167737"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219100"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.25. (2022. gada aprīlis)
 
@@ -34,9 +34,9 @@ ms.locfileid: "9167737"
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
 | Krājumi&nbsp;un&nbsp;loģistika | [Bīstamo materiālu uzlabojumi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Drīzumā | Līdzekļu pārvaldība:<br>*Bīstamo materiālu uzlabojumi* |
-| Krājumi&nbsp;un&nbsp;loģistika | [Iepakošanas darbs pakošanas stacijām](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Drīzumā | Līdzekļu pārvaldība:<br>*Iepakošanas darbs pakošanas stacijām* |
+| Krājumi&nbsp;un&nbsp;loģistika | [Iepakošanas darbs pakošanas stacijām](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei](../warehousing/packing-work.md) | Līdzekļu pārvaldība:<br>*Iepakošanas darbs pakošanas stacijām* |
 | Krājumi&nbsp;un&nbsp;loģistika | [Skenēt svītrkodus noliktavā, izmantojot GS1 formāta standartus](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 svītrkodi un QR kodi](../warehousing/gs1-barcodes.md) | Līdzekļu pārvaldība:<br>*Skenēt GS1 svītrkodus* |
-| Ražošana | [Materiālu patēriņš un rezervācijas ražošanas izpildes interfeisā](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kā nodarbinātie izmanto ražošanas izpildes interfeisu](../production-control/production-floor-execution-use.md) | Līdzekļu pārvaldība:<br>*Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (nav WMS)*<br><br>Un/vai:<br><br>Līdzekļu pārvaldība:<br>*(Priekšskatījums) Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)* |
+| Ražošana | [Materiālu patēriņš un rezervācijas ražošanas izpildes interfeisā](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kā nodarbinātie izmanto ražošanas izpildes interfeisu](../production-control/production-floor-execution-use.md) | Līdzekļu pārvaldība:<br>*Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS)*<br><br>Un/vai:<br><br>Līdzekļu pārvaldība:<br>*(Priekšskatījums) Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)* |
 | Plānošana | [Plānošanas optimizācijas centralizēta kalendāra uzturēšana](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendāri un vispārējā plānošana](../master-planning/supply-chain-calendars-master-planning.md) | Aktivizēts pēc noklusējuma |
 | Plānošana | [Optimizācijas ieteikumu plānošana, lai optimizētu esošo piegādi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Optimizācijas priekšlikumi](../master-planning/action-messages.md) | Aktivizēts pēc noklusējuma |
 | Plānošana | Plānotie pasūtījumi vienkāršoti | [Plānotie pasūtījumi vienkāršoti](../master-planning/planning-optimization/planned-orders-simplified.md ) | Līdzekļu pārvaldība:<br>*Plānotie pasūtījumi vienkāršoti* |

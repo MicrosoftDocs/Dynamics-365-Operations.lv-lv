@@ -2,25 +2,29 @@
 title: Vācijas (mantojuma) finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas
 description: Šajā rakstā ir sniegtas vadlīnijas par finanšu integrācijas parauga izvietošanu Vācijai no Microsoft Dynamics 365 Commerce Retail programmatūras izstrādes komplekta (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 7315b6bb145ccdc5631a558af88de55660ebf877
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845841"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313860"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Vācijas (mantojuma) finanšu reģistrācijas pakalpojuma integrācijas parauga izvietošanas vadlīnijas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir sniegtas Microsoft Dynamics 365 Commerce vadlīnijas par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Vācijā no mazumtirdzniecības programmatūras izstrādes komplekta (SDK) izstrādātāja virtuālās mašīnas (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Vācijas [finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-deu-fi-sample.md). 
+> [!IMPORTANT]
+> Vadlīnijas šajā rakstā ir jāatbilst tikai tad, ja lietojat versiju Microsoft Dynamics 365 Commerce 10.0.28 vai agrāku versiju. Attiecībā uz Commerce versiju 10.0.29 fiskālo reģistrāciju pakalpojumu integrācijas paraugs Vācijai ir pieejams Commerce programmatūras izstrādes komplektā (SDK). Papildinformāciju skatiet kanāla [komponentu konfigurēšana](./emea-deu-fi-sample.md#configure-channel-components).
+
+Šajā rakstā ir sniegtas vadlīnijas Dynamics 365 Commerce par finanšu reģistrācijas pakalpojumu integrācijas parauga izvietošanu Vācijā no programmas Retail SDK izstrādātāja virtuālajā datorā (VM) Microsoft Dynamics pakalpojumā Lifecycle Services (LCS). Papildinformāciju par šo finanšu integrācijas paraugu skatiet Vācijas [finanšu reģistrācijas pakalpojuma integrācijas paraugs](emea-deu-fi-sample.md). 
 
 Vācijas finanšu integrācijas paraugs ir daļa no sdk Retail. Informāciju par TO, kā instalēt un izmantot SDK, skatiet mazumtirdzniecības [programmatūras izstrādes komplekta (SDK) arhitektūru](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šis paraugs sastāv no Commerce Runtime () un aparatūras CRT stacijas paplašinājumiem. Lai palaistu šo paraugu, ir jāmodificē un jāveido aparatūras CRT stacijas projekti. Ieteicams izmantot nemodificētu komplektu Retail SDK, lai veiktu šajā rakstā aprakstītās izmaiņas. Iesakām izmantot arī avota kontroles sistēmu, piemēram, tādu Azure DevOps failu, kas vēl nav mainīti.
 

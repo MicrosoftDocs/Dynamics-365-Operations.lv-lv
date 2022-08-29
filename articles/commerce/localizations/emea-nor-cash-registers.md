@@ -2,19 +2,19 @@
 title: Kases sistēmas funkcionalitāte Norvēģijai
 description: Šajā rakstā ir sniegts pārskats par kases sistēmas funkcionalitāti, kas pieejama Microsoft Dynamics 365 Commerce Norvēģijai, un sniedz vadlīnijas par funkcionalitātes iestatīšanu.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906703"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346023"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kases sistēmas funkcionalitāte Norvēģijai
 
@@ -117,6 +117,13 @@ Lai lietotu Norvēģijai raksturīgo funkcionalitāti, pabeidziet šos uzdevumus
 
 Norvēģijai ir jānorāda arī šādi iestatījumi.
 
+### <a name="enable-features-for-norway"></a>Iespējot līdzekļus Norvēģijai
+
+Programmas Commerce Headquarters līdzekļu pārvaldības darbvietā **ir jāiespējo** tālāk norādītās funkcijas.
+
+- (Norvēģija) Iespējot papildu audita notikumus punktā POS
+- (Norvēģija) Iespējot papildu informāciju dienas beigu pārskatos punktā POS
+
 ### <a name="set-up-the-legal-entity"></a>Iestatīt juridisko personu
 
 Pārliecinieties, vai ir norādīts juridiskās personas nosaukums. Šis nosaukums tiks drukāts X un Z pārskatos.
@@ -159,7 +166,7 @@ Piešķiriet tiesības **Atļaut drukāt kvīts** kopiju uz atbilstošu vērtīb
 
 Pielāgoto lauku **lapā pievienojiet** šiem ierakstiem kvīts izkārtojumu pielāgotajiem laukiem. Ievērojiet **, ka uzraksta teksta ID** vērtībām ir **jāatbilst teksta ID** vērtībām, kas norādītas **teksta** lapā Valoda.
 
-| Nosaukums/vārds, uzvārds                            | Veids    | Uzraksta teksta ID |
+| Vārds/nosaukums                            | Veids    | Uzraksta teksta ID |
 |---------------------------------|---------|-----------------|
 | Kvīts datums                    | Saņemšana | 900011          |
 | IsGiftCard                      | Saņemšana | 900012          |

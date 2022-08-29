@@ -1,26 +1,26 @@
 ---
 title: Pamatlīdzekļu uzskaite nodokļu aprēķinam
 description: Šajā rakstā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetBookTable, AssetDepreciationProfile, AssetTable, AssetTaxDepreciation
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264374
-ms.assetid: cbf94106-2c1b-45dd-8734-18a2a56a4682
 ms.search.region: Latvia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0df6d611d838d32041c250df5e48a400d479669a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 264374
+ms.assetid: cbf94106-2c1b-45dd-8734-18a2a56a4682
+ms.search.form: AssetBookTable, AssetDepreciationProfile, AssetTable, AssetTaxDepreciation
+ms.openlocfilehash: bfcac8ff3b3772ca5580f3847834936620d20b5a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893958"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292255"
 ---
 # <a name="fixed-assets-accounting-for-tax-purposes"></a>Pamatlīdzekļu uzskaite nodokļu aprēķinam
 

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37fb24bdda1d49291b88c6728e11aecf9863cc66
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868164"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324823"
 ---
 # <a name="configure-rates"></a>Konfigurēt likmes
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Likmes definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā. Vērtība var būt vai nu summa vai vairāki elastīgie kredīti atkarībā no jūsu konfigurācijas.
 
@@ -84,7 +79,7 @@ Varat arī izmantot divkāršos līmeņus. Ja atlasāt **Divkāršais līmenis**
    | **Apraksts** | Lauka **Apraksts** vērtība ir piemērota no apraksta, kas atrodas likmes iestatīšanas ierakstā. Tas palīdz noteikt, kuram likmes iestatījumam ir piesaistītas līmeņu likmes. |
    | **Pakāpes kods** | Atlasiet līmeņa kodu. Līmeņu kodi ir definēti lapā **Līmeņu kodi**. Sistēma automātiski parādīs līmeņu koda aprakstu režģī pa kreisi. |
    | **Pakāpes veids** | Norāda, kurš lauks jālieto kā līmeņa likmes aprēķina procesa atlases kritērijs. Piemēram:</br></br><ul><li>Ja lietots **Vecums**, sistēma atvieglojumu likmes aprēķina procesā izmantos darbinieka dzimšanas datumu.</li><li>Ja lietots **Atalgojums**, sistēma atvieglojumu likmes aprēķina procesā izmantos nodarbinātā gada atvieglojuma algu.</li><li>Ja tiek lietots **Darba veids**, darbinieka pašreizējais aktīvais pozīcijas ieraksts tiek izmantots, lai noteiktu darba veidu pēc pozīcijai saistītā darba ieraksta.</li></ul></br></br>Pakāpes veidi ir **Vecums**, **Alga**, **Fiziskais**, **Dzimums**, **Pilnas slodzes ekvivalents**, **Darba veids**, **Atlīdzības reģions** un **Līmenis**. | 
-   | **Līmenis** | Vērtība, kas jāizmanto ar līmeņa veidu atvieglojumu likmes aprēķina procesa laikā. Piemēram:</br></br><ul><li>Ja pakāpes veids ir **Vecums**, tā būtu vecuma vērtība.</li><li>Ja pakāpes veids ir **Atalgojums**, tā būtu algas summa.</li><li> Ja pakāpes veids ir **Darba veids**, tas būtu darba veids.</li></ul></br></br>Ar pakāpes veidu **Vecums** vai **Alga**, vērtība laukā **Līmenis** attēlo pakāpes augšējo robežu. Ar līmeņa veidu **Darba veids**, līmeņa likmes atlasē tiek izmantota pilnās atbilstības pieeja. |
+   | **Līmenis** | Vērtība, kas jāizmanto ar līmeņa veidu atvieglojumu likmes aprēķina procesa laikā. Piemēram:</br></br><ul><li>Ja pakāpes veids ir **Vecums**, tā būtu vecuma vērtība.</li><li>Ja pakāpes veids ir **Atalgojums**, tā būtu algas summa.</li><li> Ja pakāpes veids ir **Darba veids**, tas būtu darba veids.</li></ul></br></br>Ar vecuma vai algas **pakāpes** tipu **·**, vērtība laukā **Līmenis** attēlo pakāpes apakšējo robežu. Ar līmeņa veidu **Darba veids**, līmeņa likmes atlasē tiek izmantota pilnās atbilstības pieeja. |
    | **Aprēķina tips** | Norāda, kā izmantot summu aprēķina summas laukā un kuru matemātisko aprēķinu veikt, ja nepieciešams. Ja aprēķina veids ir pamatsumma, izmantotā daudzuma lauks netiek mainīts. Ja aprēķina veids ir uz $ summu no algas vai seguma, tiek izmantots aprēķina daudzums un aprēķina daudzums matemātiskajos aprēķinos.</br></br>Ja aprēķina veids ir uz $ summu no algas, tiek izmantots šāds matemātiskais vienādojums:</br></br>Ikgadējās atvieglojumu algas, kas dalītas ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Ja aprēķina veids ir uz $ summu no seguma, tiek izmantots šāds matemātiskais vienādojums:</br></br>Nodrošinājuma summa, kas dalīta ar aprēķina summu (noapaļota uz augšu vai uz leju), sareizināta ar smēķētāja vai nesmēķētāja summu darbiniekam vai darba devējam.</br></br>Abos aprēķinos aprēķina virziens tiek izmantots, lai noteiktu, vai noapaļot gada atvieglojumu algu vai nodrošinājuma summu, kas dalīta ar aprēķina summu uz augšu vai uz leju. |
    | **Aprēķinātā summa** | Summa, ko izmantot atvieglojuma likmes aprēķina procesā. Šī summa būs dalītājs līmeņa likmes matemātiskā aprēķina laikā. |
    | **Aprēķina virziens** | Virziens, kurā būtu jānoapaļo rezultāta summa. Sistēma atbalsta trīs aprēķina virzienus: tukšs (precīzā metode), **Palielināt** un **Samazināt**.</br></br><ul><li>Ja lauks ir tukšs, sistēma izmantos precīzu algas/nodrošinājuma summas aprēķinu, kas dalīts ar aprēķina summu. Ja šai vērtībai ir daļskaitlis, tas tiks izmantots aprēķinā.</li><li>**Pieauguma** gadījumā matemātiskais aprēķins palielinās algas/seguma summu, izdalītu ar aprēķina daudzumu līdz nākamajam veselajam skaitlim, kas nozīmē, ka 12,25 tiktu palielināts līdz 13.</li><li>**Samazinājuma** gadījumā matemātiskais aprēķins samazinās algas/seguma summu, izdalītu ar aprēķina daudzumu līdz pašreizējam veselajam skaitlim, kas nozīmē, ka 12,25 tiktu samazināts līdz 12.</li></ul> |

@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111824"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242988"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -30,7 +30,7 @@ Ir pieejamas trīs tālāk norādītās datu fabrikas veidnes. Tie palīdz saska
 - **[Puses pasta adreses](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) veidne (Jauniniet datus uz dubultās rakstīšanas Puses GAG shēmu/jauniniet uz puses pasta adresi - GAG/arm_template.json)** –**šī** veidne palīdz atjaunināt pasta adreses, kas saistītas ar kontu, **·** **kontaktpersonu** un kreditora datiem.
 - **[Puses elektroniskās adreses](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) veidne (Jauniniet datus uz dubultās rakstīšanas Puses-GAG shēmu/jauniniet uz puses elektronisko adresi - GAG/arm_template.json)** – **šī** veidne palīdz atjaunināt elektroniskās adreses, kas ir saistītas ar kontu, **·** **kontaktpersonu** un kreditora datiem.
 
-Procesa beigās tiek ģenerētas šādas komatatdalīto vērtību (.csv) faili.
+Procesa beigās tiek ģenerēti šādi komatatdalīto vērtību (.csv) faili.
 
 | Faila nosaukums | Nolūks |
 |---|---|
@@ -104,7 +104,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
     | Lauks | Vērtība |
     |---|---|
-    | Nosaukums/vārds, uzvārds | Atlasiet DynamicsCrmLinkedService |
+    | Vārds/nosaukums | Atlasiet DynamicsCrmLinkedService |
     | Apraksts | Saistītie pakalpojumi, kas ir jāsavieno ar CRM instanci, lai ienestu elementu datus |
     | Izveidot savienojumu, izmantojot integrācijas izpildlaiku | AutoResolvelntegrationRuntime |
     | Izvietošanas veids | Tiešsaiste |
@@ -126,7 +126,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
 2. Datu fabrikas cilnē Pārvaldīt **zem** Globālie parametri **izveidojiet** šādu globālo parametru.
 
-    | Numurs | Nosaukums/vārds, uzvārds | Veids | Vērtība |
+    | Numurs | Vārds/nosaukums | Veids | Vērtība |
     |---|---|---|---|
     | 1 | PostalAddressIdPrefix | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām pasta adresēm kā prefiksu. Noteikti norādiet virkni, kas nav pretrunā ar pasta adresēm finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-PAD-**. |
 
@@ -140,7 +140,7 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
 1. Cilnes Pārvaldīt cilnē Datu rūpnīca **,** zem Globālie **parametri**, izveidojiet šādus globālos parametrus.
 
-    | Numurs | Nosaukums/vārds, uzvārds | Veids | Vērtība |
+    | Numurs | Vārds/nosaukums | Veids | Vērtība |
     |---|---|---|---|
     | 1 | IsFO avots | Būla (Bool) | Šis parametrs nosaka, kuras primārās sistēmas adreses tiek aizvietotas konfliktu gadījumā. Ja vērtība ir **patiesa**, primārās adreses finanšu un operāciju programmās aizstās primārās adreses debitoru lietojumprogrammās. Ja vērtība ir **nepatiesa**, primārās adreses debitoru piesaistes programmās aizstās primārās adreses finanšu un operāciju programmās. |
     | 2 | ElectronicAddressIdPrefix (elektroniskaisaddressIdPrefix) | virkne | Šis parametrs pievieno sērijas numuru tikko izveidotajām elektroniskajām adresēm kā prefiksu. Pārliecinieties, vai ir sniegta virkne, kas nav pretrunā ar elektroniskajām adresēm finanšu un operāciju programmās un debitoru iesaistes programmās. Piemēram, izmantojiet **ADF-EAD-**. |
@@ -269,19 +269,19 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 
 8. Importēt jaunos **Puses** ierakstus finanšu un operāciju programmā.
 
-    1. Lejupielādējiet **FONewParty.csv** failu no Azure BLOB krātuves. Ceļš ir **partybootstrapping/output/FONewParty.csv**.
-    2. Konvertējiet **FONewParty.csv** failu uz Excel failu un importējiet Excel failu finanšu un operāciju programmā. Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat importēt .csv failu. Šī darbība var aizņemt dažas stundas, atkarībā no datu apjoma. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
+    1. Lejupielādējiet **FONewParty.csv failu** no Azure BLOB krātuves. Ceļš ir **partybootstrapping/output/FONewParty.csv**.
+    2. Konvertējiet **FONewParty.csv** failu par Excel failu un importējiet Excel failu finanšu un operāciju programmā. Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failu. Šī darbība var aizņemt dažas stundas, atkarībā no datu apjoma. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
 
     ![Notiek puses ierakstu Dataverse importēšana.](media/data-factory-import-party.png)
 
-9. Datu rūpnīcas izpildiet Puses pasta adreses un Puses elektroniskās adreses veidnes vienu pēc otras.
+9. Datu rūpnīcā palaidiet Puses elektronisko adresi un pēc tam Pušu pasta adrešu veidnes vienu pēc otras.
 
-    + Puses pasta adreses veidne upsert visus pasta adrešu ierakstus debitoru piesaistes programmā un saista tos ar atbilstošajiem konta, **kontaktpersonas** **un** **kreditora** ierakstiem. Tiek ģenerēti arī trīs .csv faili: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv un ImportFONewPostalAddress.csv.
+    + Puses pasta adreses veidne upsert visus pasta adrešu ierakstus debitoru piesaistes programmā un saista tos ar atbilstošajiem konta, **kontaktpersonas** **un** **kreditora** ierakstiem. Tas ģenerē arī trīs .csv failus: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv un ImportFONewPostalAddress.csv.
     + Puses elektroniskās adreses veidne upsert visas elektroniskās adreses debitoru ieslēgšanu programmā un **saista** tās ar atbilstošajiem konta, **kontaktpersonas** un **kreditora** ierakstiem. Tas ģenerē arī vienu .csv failu: ImportFONewElectronicAddress.csv.
 
     ![Notiek Puses pasta adreses un Puses elektronisko adrešu veidņu izpildšana.](media/ADF-7.png)
 
-10. Lai atjauninātu finanšu un operāciju programmu ar šie datiem, jums .csv failu konvertēšana Excel [darbgrāmatā un jāimportē to finanšu un operāciju programmā](../data-import-export-job.md). Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat importēt .csv failus. Šī darbība var aizņemt dažas stundas, atkarībā no apjoma.
+10. Lai atjauninātu finanšu un operāciju programmu ar šo datiem, .csv faili jākonvertē excel [darbgrāmatā un jāimportē to finanšu un operāciju programmā](../data-import-export-job.md). Vai arī, ja CSV imports darbojas jūsu darbiem, jūs varat tieši importēt .csv failus. Šī darbība var aizņemt dažas stundas, atkarībā no apjoma.
 
     ![Veiksmīgi importēts.](media/ADF-8.png)
 
@@ -366,10 +366,10 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 1. 1. līdz 6. darbībā ir identificēti uzņēmumi, kas ir iespējoti duālai rakstīšanai, un tiem tiek veidots filtra klauzula.
 2. No 7. līdz 7.09. darbībai ir izgūti dati gan no finanšu un operāciju programmas, gan no debitoru piesaistes programmas, kā arī no datu jaunināšanai stadijas.
 3. No 8. līdz 9. darbībai **ir** salīdzināts konta, **·** **kontaktpersonas** un kreditora ierakstu puses numurs starp finanšu un operāciju programmu un debitoru piesaistes programmu. Visi ieraksti, kam nav puses numura, tiek izlaisti.
-4. 10. darbībā tiek ģenerēti .csv failu puses ierakstiem, kas ir jāizveido debitoru piesaistes programmā un finanšu un operāciju programmā.
+4. 10. darbībā tiek ģenerēts divi .csv fails pušu ierakstiem, kas ir jāizveido debitoru ieslēgšanas programmā un finanšu un operāciju programmā.
 
-    - **FOCDSParty.csv** – šajā failā ir iekļauti visi pušu ieraksti no abām sistēmām, neatkarīgi no tā, vai uzņēmums ir aktivizēts duālām rakstiet.
-    - **FONewParty.csv** – šis fails Dataverse satur apakškopu no pušu ierakstiem, kas ir informēti (piemēram, potenciālo **klientu tipa** konti).
+    - **FOCDSParty.csv** – šis fails ietver visus abu sistēmu pušu ierakstus, neatkarīgi no tā, vai uzņēmums ir iespējots duālā rakstīšanai.
+    - **FONewParty.csv** – šis fails Dataverse satur to pušu ierakstu apakškopu, kas ir informēti par (piemēram, potenciālā **klienta tipa** kontiem).
 
 5. 11. darbība izveido puses debitoru piesaistes programmā.
 6. 12. darbībā tiek izgūti pušu globāli unikālie identifikatori (GUID) **no** debitoru ieslēgšanas programmas un tā, lai vēlākos soļos tos varētu saistīt ar kontu, **·** **kontaktpersonu** un kreditoru ierakstiem.
@@ -385,9 +385,9 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
 1. No 1. līdz 1.10. darbībai ir izgūti dati gan no finanšu un operāciju programmas, gan no debitoru piesaistes programmas, kā arī no stadijas, kurā tiek jaunināti dati.
 2. 2. darbībā tiek de normalizēti pasta adrešu dati finanšu un operāciju programmā, pievienojot pasta adresi un puses pasta adresi.
 3. 3. darbībā tiek noņemti konta, kontaktpersonas un kreditora adreses datu dublikāti un sapludināšana no debitoru ieslēgšanu programmas.
-4. 4. darbībā .csv finanšu un operāciju programmas failu sarakstu, lai izveidotu jaunus adrešu datus, kas ir balstīti uz kontu, kontaktpersonu un kreditoru adresēm.
-5. 5. - 1. darbība izveido .csv debitoru piesaistes programmai, lai izveidotu visus adrešu datus, pamatojoties gan uz finanšu un operāciju programmu, gan uz debitoru piesaistes programmu.
-6. No 5. līdz 2. .csv importa faili tiek pārveidoti finanšu un operāciju importa formātā manuālai importēšanai.
+4. 4. darbība izveido .csv failus finanšu un operāciju programmai, lai izveidotu jaunus adrešu datus, kas ir balstīti uz kontu, kontaktpersonu un kreditoru adresēm.
+5. 5. darbība - 1. darbība izveido .csv failus debitoru tiesīgņu programmai, lai izveidotu visus adrešu datus, balstoties gan uz finanšu un operāciju programmu, gan debitoru piesaistes programmu.
+6. Ar 5.-2. soli .csv faili tiek pārveidoti finanšu un operāciju importa formātā manuālai importēšanai.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -410,14 +410,14 @@ Jaunināšanai ir nepieciešama šāda sagatavošana:
     - Izveidojiet jaunus elektroniskās adreses datus debitoru lietojumprogrammai, balstoties uz elektronisko adresi, kontu, kontaktpersonu un kreditoru adresēm finanšu un operāciju programmā.
 
 5. 5.-1. darbība importē elektroniskās adreses debitoru piesaistes programmā.
-6. No 5. līdz 2. .csv tiek izveidoti faili, lai atjauninātu primārās adreses kontiem un kontaktpersonām debitoru iesaistes programmā.
+6. 5.-2. darbība izveido .csv failus, lai atjauninātu primārās adreses kontiem un kontaktpersonām debitoru runāšanas programmā.
 7. No 6. līdz 6.2. solim importējiet kontus un sazinieties ar primārajām adresēm klientu runāšanas programmā.
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 
 1. Ja process neizdodas, atkārtoti palaidiet datu ražotni. Sāciet no neizdevušās aktivitātes.
 2. Daži datu fabrikas ģenerētie faili var tikt izmantoti datu validēšanai.
-3. Datu fabrika darbojas balstoties uz .csv failiem. Tāpēc, ja komats ir iekļauts jebkurā lauka vērtībā, tas var atbilst rezultātiem. Visu komatu noņemšana no lauku vērtībām.
+3. Datu fabrika darbojas, balstoties uz .csv failiem. Tāpēc, ja komats ir iekļauts jebkurā lauka vērtībā, tas var atbilst rezultātiem. Visu komatu noņemšana no lauku vērtībām.
 4. Cilne **Pārraudzība** sniedz informāciju par visiem soļiem un datiem, kas ir apstrādāti. Atlasiet noteiktu darbību, lai to atkļūdotu.
 
     ![Cilne Pārraudzība.](media/data-factory-monitor.png)

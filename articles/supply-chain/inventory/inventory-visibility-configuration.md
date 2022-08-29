@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066676"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306324"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigurēšana
 
@@ -52,7 +52,7 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 | Līdzekļu pārvaldības nosaukums | Apraksts |
 |---|---|
 | *OnHandReservation* | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Noklusējuma sinhronizācijas biežums ir ik pēc 15 minūtēm un to var iestatīt kā augstu, ik pēc 5 minūtēm. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Šī izvēles funkcija aktivizē rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas. Papildinformāciju skatiet sadaļā Rīcībā [esošo krājumu redzamības izmaiņu grafiks un apsolīšanai pieejamais](inventory-visibility-available-to-promise.md). |
 | *Sadalījums* | Šī izvēles funkcija iespējo krājumu redzamību, lai varētu nodrošināt krājumu aizsardzību (ringfencing) un pārsaukt kontroli. Plašāku informāciju skatiet krājumu redzamības [krājumu sadalījumā](inventory-visibility-allocation.md). |
 | *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti noliktavas pārvaldības procesiem (WMS). Papildinformāciju skatiet šeit: [Krājumu redzamības atbalsts WMS krājumiem](inventory-visibility-whs-support.md). |

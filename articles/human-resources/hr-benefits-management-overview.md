@@ -13,19 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e3fa839b6e0f3cbaea8d2225b5a42ee8a368272
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901152"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337349"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Lai saglabātu konkurētspēju, jāpiedāvā bagātīgs atvieglojumu kopums, lai piesaistītu un saglabātu labākos darbiniekus. Papildus standarta atvieglojumiem, piemēram, ārstniecības un zobārstniecības apdrošināšanai, varat arī piedāvāt tādus paplašinātos pakalpojumus kā palīdzība ar adopciju, atpūtas programmas un pabalsts apģērbam. Microsoft Dynamics 365 Human Resources atvieglojumu pārvaldība nodrošina elastīgu risinājumu, kas atbalsta plaša spektra atvieglojumu opcijas. Human Resources ietver arī ērti lietojamu darbinieku pieredzi, kas demonstrē jūsu piedāvājumus.
 
@@ -147,6 +142,16 @@ Lai varētu apstrādāt dzīves notikumus, vismaz vienu reizi darbā pieņemšan
 - [Apstrādāt dzīves notikumus](hr-benefits-process-life-events.md)
 - [Apstrādāt dzīves notikumu izmaiņas](hr-benefits-process-life-event-changes.md)
 - [Apstrādāt dzīves notikumu piemērotību](hr-benefits-process-life-event-eligibility.md)
+
+Pēc dzīves notikuma apstrādes pabeigšanas un tik ilgi, kamēr nav atvērts dzīves notikuma reģistrēšanas periods, darbinieki var veikt izmaiņas plāna opcijās, kuras ietekmē dzīves notikums. Administratori var veikt izmaiņas darbinieku vārdā. Pēc reģistrācijas perioda beigām un neapstiprināto plānu tipi nav saistīti ar dzīves notikuma darbību, darbība tiek slēgta.
+
+Visi plāni, kurus ietekmē dzīves notikums, ir jāatlasa vai jāapstiprina, un pēc tam jāapstiprina. Ja plāns netiek atlasīts, netiek atcelts un tādēļ nav apstiprināts, dzīves notikuma transakcija netiek slēgta.
+
+Administratori var manuāli aizvērt dzīves notikuma darbību pēc vajadzības, atlasot to un pēc tam atlasot **Aizvērt**. Ja darbībā ir neapstiprināti plāni un administrators vēlas to aizvērt, dzīves notikuma slēgšana var ierobežot šo plānu rediģēšanu.
+
+Nevar dzēst slēgtos dzīves notikumus.
+
+Administratori var atkārtoti atvērt dzīves notikuma darbību pēc vajadzības, atlasot to un pēc tam atlasot Atkārtoti **atvērt**.
 
 ## <a name="rate-updates-optional"></a>Likmes atjaunināšana (neobligāti)
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 5e2d0a4422341badee906c71bebdd491e18a38cc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881739"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273463"
 ---
 # <a name="media-gallery-module"></a>Multivides galerijas modulis
 
@@ -85,7 +85,7 @@ Lai mārketinga lapai pievienotu multivides galerijas moduli, veiciet tālāk mi
 1. Dialoglodziņā Moduļu **atlase** atlasiet moduli Konteiners **un** pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
-1. Dialoglodziņā Izveidot **jaunu lapu ar** lapas nosaukumu **ievadiet** **plašsaziņas līdzekļu galerijas lapu** un pēc tam atlasiet **Tālāk.**
+1. Dialoglodziņā Izveidot **jaunu lapu ar** lapas nosaukumu **ievadiet** **plašsaziņas līdzekļu galerijas lapu** un pēc tam atlasiet **Tālāk**.
 1. Zem **Izvēlēties veidni**, atlasiet izveidoto **mārketinga** veidni un pēc tam atlasiet **Tālāk**.
 1. Sadaļā **Izvēlēties izkārtojumu atlasiet** lapas izkārtojumu (piemēram, Elastīgs **izkārtojums**) un pēc tam atlasiet **Tālāk**.
 1. Sadaļā **Pārskatīt un pabeigt** pārskatiet lapas konfigurāciju. Ja jums ir jārediģē lapas informācija, atlasiet **Atpakaļ**. Ja lapas informācija ir pareiza, atlasiet Izveidot **lapu**. 

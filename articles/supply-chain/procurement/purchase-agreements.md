@@ -2,7 +2,7 @@
 title: Pirkšanas līgumi
 description: Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669577"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335891"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -41,7 +41,7 @@ Lai nepieļautu pirkšanas līguma izmantošanu un apstiprināšanu, līguma sta
 Pirkšanas līguma klasifikācijā varat noteikt primāro atbildīgo nodarbināto un sekundāro atbildīgo nodarbināto. Šīs vērtības pārmantos ar iegūtais pirkšanas līgums. Pirkšanas līgumam nav obligāti jāpievieno atbildīgie nodarbinātie, un pašā pirkšanas līgumā tos var modificēt tieši katram gadījumam atsevišķi. Sekundāro atbildīgo nodarbināto nevar norādīt bez primārā atbildīgā nodarbinātā, taču nav obligāti jābūt sekundārajam atbildīgajam nodarbinātajam. Jūs nevarat norādīt to pašu nodarbināto kā primāro un sekundāro atbildīgo nodarbināto.
 
 > [!IMPORTANT]
-> Lai izmantotu atbildīgās puses funkciju, tai jābūt ieslēgtai jūsu sistēmā. No Piegādes ķēdes pārvaldības 10.0.25 šis līdzeklis ir ieslēgts pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot pirkšanas *līguma atbildīgās puses* līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Lai izmantotu atbildīgās puses funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot par pirkšanas līgumu *atbildīgās*[puses līdzekli Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu saistības, varat izmantot rindas no vairākiem pirkšanas pasūtījumiem (PO). Ir četri saistību veidi.

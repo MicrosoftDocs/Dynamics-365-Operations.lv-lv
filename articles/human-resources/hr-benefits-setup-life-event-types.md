@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64e536bad996e9a1948dad18437ec6f98ad27033
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: df523dd4da11e24c7b601c8f34aef24ad6cb3b18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691727"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337340"
 ---
 # <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu veidus
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources lieto **dzīves notikumu tipus**, lai noteiktu notikumus, kuros ir derīgi atjaunināt darbinieka atvieglojumu reģistrāciju, piemēram, iegūt precēšanos vai bērnu. Katru dzīves notikuma veida ID var saistīt tikai ar vienu dzīves notikuma veidu. Piemēram, ja izveidojat dzīves notikuma **ID** **·** **ar nosaukumu Adreses maiņa,** kas ir saistīts ar dzīves notikuma tipu Darbinieka adreses maiņa, nevar izveidot citu **ID** **ar iezīmi Darbinieka adreses maiņa un saistīt to ar dzīves notikuma tipu Darbinieka adreses maiņa.** Ja dzīves notikuma tips nav saistīts ar plāna tipu, dzīves notikuma tips neaktivizē dzīves notikumu. Papildu informāciju skatiet sadaļā [Plānu veidu izveide](hr-benefits-setup-plan-types.md).
 

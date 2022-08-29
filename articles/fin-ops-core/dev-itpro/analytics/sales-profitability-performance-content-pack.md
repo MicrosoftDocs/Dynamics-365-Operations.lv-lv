@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: HT
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205607"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274665"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
 
@@ -77,7 +76,7 @@ Power BI satura pakotnē **Pārdošanas un ienesīguma veiktspēja** ir iekļaut
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Power BI satura pakotnes **Pārdošanas un ienesīguma veiktspēja** pārskata aizpildīšanai tiek izmantoti tālāk norādītie dati. Šie dati tiek attēloti kā apkopoti mērījumi, kas tiek sagatavoti elementu krātuvē. Elementu krātuve ir analīzei optimizēta Microsoft SQL Server datu bāze. Papildinformāciju skatiet rakstā [Power BI integrācija elementu krātuvē](power-bi-integration-entity-store.md).
 
-Šajā satura pakotnē ietvertie apkopošanas mērījumi ir to apkopošanas mērījumu apakškopa, kas ir pieejami pārdošanas kubā programmās Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ziņas [Power BI integrācija elementu krātuvē programmā Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) sadaļā par procedūru apkopošanas mērījumu sagatavošanai elementu krātuvē.
+Šā satura apkopotie mērījumi ir Microsoft Dynamics AX to kopējo mērījumu apakškopa, kas bija pieejami pārdošanas kubā 2012. un Microsoft Dynamics AX 2012 R3. Lai padarītu kuba apkopošanas mērījumus pieejamus elementu krātuvē, tie ir jāpadara izvietojami. Papildinformāciju skatiet emuāra ziņas [Power BI integrācija elementu krātuvē programmā Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) sadaļā par procedūru apkopošanas mērījumu sagatavošanai elementu krātuvē.
 
 Tālāk ir norādīti elementa Rēķina rindas galvenie apkopošanas mērījumi, kas tiek izmantoti kā satura pamatdati.
 
@@ -95,7 +94,7 @@ Tālāk esošajā tabulā ir norādīti rēķina rindas galvenie apkopošanas m�
 | Bruto peļņa      | SUM(Bruto peļņa / (Ieņēmumi – PVN (iekļauts debitora rēķina rindas summā)))             |
 | Pagājušā gada ieņēmumi | Pagājušā gada ieņēmumi = CALCULATE(SUM('Rēķina rindas'\[Ieņēmumi\]), SAMEPERIODLASTYEAR(Datumi\[Datums\]) |
 
-Tālāk minētās pārdošanas kuba galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
+Tālāk minētās galvenās dimensijas pārdošanas kubā tiek izmantotas kā filtri, lai sadalītu apkopotos mērījumus, tādējādi var sasniegt lielāku granularitāti un iegūt plašākus analītiskos priekšstatus.
 
 | Elements           | Atribūtu piemēri                               |
 |------------------|------------------------------------------------------|

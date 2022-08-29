@@ -1,25 +1,25 @@
 ---
 title: Domēni programmā Dynamics 365 Commerce
 description: Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft Dynamics 365 Commerce.
-author: BrShoo
-ms.date: 05/10/2022
+author: BrianShook
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848958"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337244"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -109,6 +109,10 @@ Galapunkts `<e-commerce tenant name>.dynamics365commerce.ms` neatbalsta pielāgo
 Lai iestatītu pielāgotus domēnus, izmantojot front door pakalpojumu vai CDN, ir divas opcijas:
 
 - Iestatiet front door pakalpojumu, piemēram, Azure Front Door, lai apstrādātu priekšgala trafiku un pievienotos jūsu Commerce videi. Tas nodrošina lielāku kontroli pār domēnu un sertifikātu pārvaldību, kā arī detalizētākas drošības politikas.
+
+> [!NOTE]
+> Ja izmantojat ārēju CDN vai ieejas durvju pakalpojumu, nodrošiniet, lai pieprasījums būtu saskaņā ar Commerce platform ar Commerce nodrošināto hostdatora nosaukumu, bet ar X-Lung-Host (XFH) galveni \<custom-domain\>. Piemēram, ja jūsu Commerce galapunkts `xyz.dynamics365commerce.ms``www.fabrikam.com` ir un pielāgotais domēns ir, `xyz.dynamics365commerce.ms` nepieciešams pieprasītā pieprasījuma resursdatora galvene un XFH virsrakstam `www.fabrikam.com` jābūt.
+
 - Izmantot Commerce nodrošināto Azure Front Door instanci. Tas prasa koordinēt darbību ar Dynamics 365 Commerce grupu domēna verifikācijai un iegūt SSL sertifikātus jūsu ražošanas domēnam.
 
 Informāciju par to, kā tieši iestatīt CDN pakalpojumu, skatiet [Pievienot atbalstu satura piegādes tīklam (CDN)](add-cdn-support.md).
@@ -141,14 +145,18 @@ Esošajiem/aktīvajiem domēniem:
 
 ## <a name="apex-domains"></a>Apeksa domēni
 
-Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (saknes domēnus, kas nesatur apakšdomēnus). Lai atrisinātu apeksa domēnus, ir nepieciešama IP adrese, un Commerce Azure Front Door instance pastāv tikai ar virtuāliem galapunktiem. Lai izmantotu apeksa domēnu, ir divas opcijas:
+Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (saknes domēnus, kas nesatur apakšdomēnus). Apex domēniem ir nepieciešama IP adrese, lai to atrisinātu, un Commerce Azure Front Door instance ir tikai virtuālajos galapunktos. Lai lietotu apex domēnu, jums ir šādas opcijas:
 
 - **1. opcija** - Izmantojiet DNS nodrošinātāju, lai novirzītu apeksa domēnu uz "www" domēnu. Piemēram, fabrikam.com pārvirza uz `www.fabrikam.com` , kur `www.fabrikam.com` ir CNAME ieraksts, kas norāda uz Commerce viesotu Azure Front Door instanci.
 
-- **2. opcija** - Iestatiet CDN/front door instanci uz savu instanci, lai viesotu apeksa domēnu.
+- **2. opcija** - Ja JŪSU DNS piegādātājs atbalsta AIZSTĀJVĀRDA ierakstus, varat norādīt apex domēnu uz frontes durvju galapunktu. Tas nodrošina, ka IP izmaiņa ar durvju priekšpuses galapunktu tiek atspoguļota.
+  
+- **3** . opcija - Ja jūsu DNS nodrošinātājs neatbalsta AIZSTĀJVĀRDA ierakstus, jums jāiestata CDN vai ieejas durvju instance atsevišķi, lai viesotu apex domēnu.
 
 > [!NOTE]
 > Ja izmantojat Azure Front Door, jums ir arī jāiestata Azure DNS tajā pašā abonementā. Apeksa domēns, kas viesots Azure DNS, var norādīt uz jūsu Azure Front Door kā uz aizstājvārda ierakstu. Šis ir vienīgais risinājums, tā kā apeksa domēniem vienmēr ir jānorāda IP adrese.
+  
+Ja jums ir kādi jautājumi saistībā ar Apex domēniem, lūdzu, sazinieties ar [Microsoft Support](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Papildu resursi
 

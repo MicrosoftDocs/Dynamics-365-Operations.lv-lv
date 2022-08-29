@@ -2,7 +2,7 @@
 title: Sūtījumu konsolidācijas politiku konfigurēšana
 description: Šajā rakstā ir izskaidrots, kā iestatīt noklusējuma un pielāgotas piegādes konsolidācijas politikas.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845929"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336498"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politiku konfigurēšana
 
@@ -33,10 +33,7 @@ Sūtījumu konsolidācijas process, kas izmanto sūtījuma konsolidācijas polit
 > [!IMPORTANT]
 > Pirmajā scenārijā [,](#scenario-1) kas ir aprakstīts šajā rakstā, sākumā iestatīsiet noliktavu tā, lai tā izmantotu agrāko sūtījuma konsolidācijas funkciju. Tad būs pieejamas sūtījuma konsolidācijas politikas. Šādā veidā varat izbaudīt jaunināšanas scenārija darbību. Ja plānojat izmantot demonstrācijas datu vidi, lai ietu cauri pirmajam scenārijam, neieslēdziet līdzekli pirms scenārija izmantošanas.
 
-Lai varētu izmantot *Sūtījumu konsolidācijas politikas* līdzekli, tas ir jāieslēdz sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas vadība*
-- **Līdzekļa nosaukums:** *Konsolidēt sūtījumu*
+Lai izmantotu piegādes *konsolidācijas* politikas līdzekli, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot nosūtīšanas *konsolidācijas*[politikas līdzekli līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
@@ -61,7 +58,6 @@ Sekojiet šiem soļiem, lai iestatītu noklusējuma sūtījuma konsolidācijas p
 1. Kopsavilkuma cilnē **Noliktava** iestatiet opciju **Konsolidēt sūtījumu, pārvietojot uz noliktavu** uz *Jā*.
 1. Atkārtojiet 2.-4. soli pārējām noliktavām, kurās nepieciešama konsolidācija.
 1. Aizvērt lapu.
-1. Izmantojiet [līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu *Sūtījuma konsolidācijas politiku* līdzekli. **Līdzekļu pārvaldības** darbvietā līdzekļa nosaukums ir *Konsolidēt sūtījumu*.
 1. Dodieties uz **Noliktavu pārvaldība \> Iestatījumi \> Pārvietot uz noliktavu \> Sūtījuma konsolidācijas politikas**. Iespējams, būs jāatsvaidzina pārlūkprogramma, lai skatītu jauno **Sūtījuma konsolidācijas politiku** izvēlnes krājumu pēc līdzekļa ieslēgšanas.
 1. Darbību rūtī atlasiet **Izveidot noklusēto iestatījumus**, lai izveidotu šādas politikas:
 
@@ -81,7 +77,6 @@ Sekojiet šiem soļiem, lai iestatītu noklusējuma sūtījuma konsolidācijas p
 
 Sekojiet šiem soļiem, lai iestatītu noklusējuma sūtījuma konsolidācijas politikas pavisam jaunā vidē.
 
-1. Izmantojiet [līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu *Sūtījuma konsolidācijas politiku* līdzekli, ja tas jau nav ieslēgts. **Līdzekļu pārvaldības** darbvietā līdzekļa nosaukums ir *Konsolidēt sūtījumu*.
 1. Dodieties uz **Noliktavu pārvaldība \> Iestatījumi \> Pārvietot uz noliktavu \> Sūtījuma konsolidācijas politikas**.
 1. Darbību rūtī atlasiet **Izveidot noklusēto iestatījumus**, lai izveidotu šādas politikas:
 

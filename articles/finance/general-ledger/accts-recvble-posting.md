@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874579"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324335"
 ---
 # <a name="accounts-receivable-posting"></a>Debitoru parādu grāmatošana
 
 [!include [banner](../includes/banner.md)]
 
 Primārā grāmatošanas metode debitoru parādu **modulim** ir debitora grāmatošanas metode. Šī grāmatošanas metode nosaka summu kontu, kas tiek izmantots, grāmatojot debitoru bilances Virsgrāmatā. Summu konts ir galvenais konts. To sauc arī par debitoru parādu tirdzniecības kontu.
+
+Saskaņošanas **pārskatu No debitora virsgrāmatā** var izmantot pēc grāmatošanas, lai palīdzētu saskaņot debitoru un Virsgrāmatas kontu bilances. Pārskats izmanto informāciju, kas atrodas debitora grāmatošanas metodes kopsavilkuma kontā. Tas neizmanto kopsavilkuma kontu no grāmatvedības, kas ir izveidota dokumentam. Ja debitora grāmatošanas profilā vai debitoru grupā, kas piešķirta debitoram pēc darbību grāmatošanas, tiek veiktas izmaiņas, pārskatā var parādīt atšķirības starp debitora un Virsgrāmatas konta bilanci. Lai skatītu tikai rindas ar atšķirībām un rindas, kurām debitoru konti un Virsgrāmatas konts ir nulle, **atlasiet** parametru Starpības tikai drukājot pārskatu.
 
 Plašāku informāciju skatiet šeit: [Debitoru grāmatošanas profili](../accounts-receivable/customer-posting-profiles.md).
 
@@ -101,4 +103,4 @@ Papildinformāciju skatiet sadaļā [Maksas koda izveide](../accounts-receivable
 
 Pēc izvēles varat konfigurēt sistēmu, lai aprēķinātu komisijas maksājumus pārdošanas pārstāvjam vai pārdošanas pārstāvju grupai noteiktā pārdošanas pasūtījumā. Ja iespējojat šo funkcionalitāti, jākonfigurē grāmatošanas konts, kas tiek izmantots komisijas jāaprēķina. Šī konfigurācija tiek veikta Komisijas grāmatošanas **lapā** Pārdošanas **un mārketinga modulī**.
 
-Papildinformāciju skatiet pārdošanas [komisijas noteikumu iestatīšana](../../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md).
+Papildinformāciju skatiet pārdošanas [komisijas noteikumu iestatīšana.](../../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md)

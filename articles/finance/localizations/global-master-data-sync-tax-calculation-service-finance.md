@@ -1,25 +1,25 @@
 ---
 title: Sinhronizēt nodokļu iestatījumus no nodokļu aprēķināšanas pakalpojuma uz Dynamics 365 finansēm
 description: Šajā rakstā ir izskaidrots, kā sinhronizēt nodokļu iestatījumu pamatdatus no nodokļu aprēķināšanas pakalpojuma līdz Microsoft Dynamics 365 Finanses.
-author: wangchen
+author: EricWangChen
 ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegration, TaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.search.form: TaxIntegration, TaxServiceParameters
+ms.openlocfilehash: 315f2b27a64906ca0fc404d704d0b170dbfa48c5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853162"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283859"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Sinhronizēt nodokļu iestatījumus no nodokļu aprēķināšanas pakalpojuma uz Dynamics 365 finansēm
 
@@ -34,7 +34,7 @@ Kad esat izpildījis [nepieciešamās](global-get-started-with-tax-calculation-s
 | Nodokļu aprēķināšanas pakalpojums           | Finance                             |
 | --------------------------------- | ----------------------------------- |
 | Nodokļa kods                          | PVN kods                      |
-| Apraksts                       | Nosaukums/vārds, uzvārds                                |
+| Apraksts                       | Vārds/nosaukums                                |
 | Lietotāja ievadne                        | Nosegšanas periods                   |
 | Lietotāja ievadne                        | Virsgrāmatas grāmatošanas grupa                |
 | Lietotāja ievadne                        | PVN valūta                  |

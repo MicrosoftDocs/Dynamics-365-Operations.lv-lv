@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907150"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336371"
 ---
 # <a name="gs1-bar-codes"></a>GS1 svītrkodi
 
@@ -108,14 +108,14 @@ Kad dati ir parsēti no svītrkoda, tie tiks ievadīti mobilās ierīces plūsma
 
 ## <a name="turn-on-the-gs1-feature"></a>GS1 līdzekļa iespējošana
 
-Lai varētu izmantot šo līdzekli, sistēmā tas vispirms ir jāiespējo. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas pārvaldība*
-- **Funkcionalitātes nosaukums:** *Skenēt GS1 svītrkodus*
+- **Līdzekļa nosaukums:** *GS1 svītrkodu skenēšana*
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Ieslēgt uzlaboto parsētāju GS1 svītrkodu funkcijai
 
-Ja izmantojat GS1 svītrkodus, ieteicams iespējot arī *uzlaboto parsētāju GS1 svītrkodu līdzeklim*. Šis līdzeklis nodrošina uzlabotu GS1 svītrkoda parsētāja ieviešanu. Tas pievieno šādus uzlabojumus:
+Ja izmantojat GS1 svītrkodus, *ieteicams ieslēgt arī uzlaboto parsētāju GS1 svītrkodu funkcijai*. Šis līdzeklis nodrošina uzlabotu GS1 svītrkoda parsētāja ieviešanu. Tas pievieno šādus uzlabojumus:
 
 - Atbilstoši specifikācijai GS1 vispārīgās specifikācijas algoritms simbolu datu parsēšana apstiprina, ka dati simbolikā ir derīgi.
 - Nav nepieciešams iestatīt maksimālo identifikatoru vērtības **garumu** un izmantot visgarāko prefiksa atbilstību no konfigurētajiem programmas identifikatoriem.
@@ -134,7 +134,7 @@ Lai iestatītu globālās GS1 opcijas, rīkojieties tālāk aprakstītajā veid�
 
     - **FNC1 Character**, **Datamatrix character** un **QR koda rakstzīme** – norādiet rakstzīmes, kas jāinterpretē kā prefikss katram GS1 svītrkoda tipam.
     - **Grupu atdalītājs** – norādiet rakstzīmi, kas aizstāj ASCII grupas atdalītāja rakstzīmi.
-    - **Identifikatora maksimālais garums** — norādiet maksimālo rakstzīmju skaitu, kas atļauts programmas identifikatoram. Šis lauks nav nepieciešams, ja sistēmā *ir ieslēgta funkcija Uzlabots GS1 Parser*.
+    - **Identifikatora maksimālais garums** — norādiet maksimālo rakstzīmju skaitu, kas atļauts programmas identifikatoram. Šis lauks nav nepieciešams, ja sistēmai *ir ieslēgta funkcija Uzlabots GS1 Parser*.
 
 > [!NOTE]
 > Prefiksi norāda sistēmai, ka svītrkods ir iekodēts atbilstoši GS1 standartam. Vienlaicīgi un dažādiem nolūkiem var izmantot līdz trim prefiksiem (**FNC1 rakstzīme**, **Datu matricas rakstzīme** un **QR koda rakstzīme**).

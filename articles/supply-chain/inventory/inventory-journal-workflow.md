@@ -2,7 +2,7 @@
 title: Krājumu žurnāla apstiprināšanas darbplūsmas
 description: Šajā rakstā ir aprakstīts, kā iestatīt un lietot krājumu žurnālu apstiprināšanas darbplūsmas dažādiem fizisko krājumu darbību tipiem. Krājumu žurnāla darbplūsmas palīdz nodrošināt, ka transakcijām var grāmatot tikai apstiprinātos krājumu žurnālus.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873990"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334661"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873990"
 > [!NOTE]
 > Krājumu žurnāla apstiprināšanas darbplūsmas attiecas tikai uz transakcijām, kas ierakstītas, izmantojot Krājumu vadības moduli. Tās nestrādā ar krājumu žurnāliem, kas tiek izraisīti no Noliktavas pārvaldības moduļa.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Krājumu žurnāla apstiprināšanas darbplūsmas līdzekļa iespējošana
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Ieslēgt vai izslēgt krājumu žurnāla apstiprināšanas darbplūsmu līdzekli
 
-No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var izmantot Līdzekļu [pārvaldības lapu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un aktivizētu vai atspējotu to, ja nepieciešams. Šeit līdzeklis tiek norādīts kā:
-
-- **Modulis:** *Inventāra un noliktavas pārvaldība*
-- **Funkcionalitātes nosaukums:** *Inventāra žurnāla apstiprināšanas darbplūsma*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.21 funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja jūs palaižat versiju, kas vecāka par 10.0.29, *·*[tad administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Krājumu žurnāla apstiprināšanas darbplūsmas līdzekli Līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Izveidojiet jūsu krājumu žurnāla apstiprināšanas darbplūsmas
 

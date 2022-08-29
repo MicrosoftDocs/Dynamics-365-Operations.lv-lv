@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111206"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289520"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Šajā rakstā ir sniegta traucējummeklēšanas informācija par dubulto rakstīšanas integrāciju starp finanšu un operāciju programmām un Dataverse. Konkrēti, šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
 
@@ -51,7 +49,7 @@ Saistot duālās rakstīšanas vidi, darbība neizdodas ar šādu kļūdas ziņo
 
 *Savienojuma kopas saglabāšana neizdevās! Vienums ar tādu pašu atslēgu jau ir pievienots.*
 
-Duālais ieraksts neatbalsta vairākas juridiskas personas/uzņēmumus ar vienādu nosaukumu. Piemēram, ja jums ir divi uzņēmumi ar nosaukumu "DAT", Dataverse saņems šo kļūdas ziņojumu.
+Duālais ieraksts neatbalsta vairākas juridiskas personas/uzņēmumus ar vienādu nosaukumu. Piemēram, ja jums ir divi uzņēmumi ar "DAT" Dataverse nosaukumu, tad saņems šo kļūdas ziņojumu.
 
 Lai atbloķētu debitoru, noņemiet Dataverse tabulā **cdm_company** esošos ierakstu dublikātus. Ari tad, ja tabulā **cdm_company** ir tukši ieraksti, noņemiet vai izlabojiet tos.
 
@@ -87,6 +85,19 @@ Problēmai, kad vide nav atklājama, var būt divi iemesli.
 
 + Lietotājs, kurš tika izmantots pieteikšanās veikšanai, nav tajā pašā nomniekā, kas ir finanšu un operāciju instance.
 + Ir daži mantojuma finanšu un operāciju gadījumi, kas tika viesoti Microsoft un kuriem bija atklājumu problēma. Lai to labotu, atjauniniet finanšu un operāciju gadījumu. Vide kļūst atklājama ar jebkādu atjauninājumu.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>Savienojumu izveides laikā radās 403 (Aizliegta) kļūda.
+
+Kā daļa no duālās rakstīšanas saistīšanas procesa, Power Apps divi savienojumi (*ko sauc arī par Apihub* savienojumiem) tiek izveidoti lietotāja vārdā saistītajā Dataverse vidē. Ja debitoram nav Power Apps vides licences, ApiHub savienojumu izveide neizdodas un tiek parādīta 403 (Aizliegtā) kļūda. Šeit parādīts kļūdas ziņojuma piemērs:
+
+> MSG=\[Neizdevās iestatīt dubultās rakstīšanas vidi. Kļūdas informācija:atbildes statusa kods nenorāda uz veiksmīgu darbību: 403 (Aizliegts). - — Atbildes statusa kods nenorāda uz veiksmīgu datumu: 403 (Aizliegts).\] STACKTRACE= pie\[ Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\> d\_\_ 29.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService\\ DualWrite\\ DualWriteConnectionSetProcessor.cs:297. rinda --- Steka izsekošanas beigas no iepriekšējās atrašanās vietas, kur tika izlaists izņēmums ---: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() pie System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Uzdevuma uzdevums) pie Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\> d\_\_ 34.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService Kontrolleri\\\\ DualWriteEnvironmentManagementController.cs:rinda 265\]
+
+Šī kļūda rodas licences trūkumu dēļ Power Apps. Piešķiriet lietotājam atbilstošu licenci (piemēram, Power Apps 2. apgrozījuma plānu), lai lietotājam būtu atļauja izveidot savienojumus. Lai pārbaudītu licenci, debitors var doties uz mana [konta](https://portal.office.com/account/?ref=MeControl#subscriptions) vietni, lai skatītu licences, kas pašlaik piešķirtas lietotājam.
+
+Papildinformāciju par licenci Power Apps skatiet šādos rakstos:
+
+- [Licenču piešķiršana lietotājiem](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Pirkt Power Apps jūsu uzņēmumam](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

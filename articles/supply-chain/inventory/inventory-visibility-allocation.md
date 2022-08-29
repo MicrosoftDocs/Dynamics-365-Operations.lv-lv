@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852510"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306120"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Inventory Visibility krājumu sadalījums
 
@@ -63,12 +63,11 @@ Krājumu sadalījuma funkcija sastāv no šādiem komponentiem:
 - Iepriekš definēts, ar sadalījumu saistīts datu avots, fiziskie pasākumi un aprēķinātie pasākumi.
 - Pielāgojamas sadalījuma grupas, kurās ir maksimālais astoņu līmeņu skaits.
 - Sadalījuma programmas programmēšanas interfeisu (API) kopa:
-
-    - sadalīt
-    - Pārcelt no vairāk
-    - Atcelt nesadalīto daudzumu
-    - Patērēt
-    - Vaicājumu
+  - sadalīt
+  - Pārcelt no vairāk
+  - Atcelt nesadalīto daudzumu
+  - Patērēt
+  - Vaicājumu
 
 Sadalījuma funkcijas konfigurēšanas procesam ir divi soļi:
 
@@ -84,23 +83,26 @@ Datu avotam ir nosaukums `@iv`.
 Šie ir sākotnējie fiziskie pasākumi:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Šie ir sākotnējie aprēķinātie pasākumi:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??`– – <a1/ `??` &amp `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??`– – <a1/ `??` &amp `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Pievienot citus fiziskos mērus pieejamajam aprēķinātā mēram
 
 Lai izmantotu sadalījumu, jāiestata pieejamais aprēķinātais līdzeklis (`@iv.@available_to_allocate`). Piemēram, jums ir `fno` datu avots un mērs, `onordered``pos` datu avots un mērs, `inbound``fno.onordered` un jūs vēlaties rīcībā veikt sadalījumu uz rīcībā esošo summu `pos.inbound` un. Šajā gadījumā tam `@iv.@available_to_allocate` ir jāietver `pos.inbound` formulā `fno.onordered` un šajā formulā. Šeit parādīts piemērs:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
+
+> [!NOTE]
+> Datu avots `@iv` ir iepriekš definēts datu avots un ar prefiksu definētie fiziskie `@iv` pasākumi ir `@` iepriekš definētie pasākumi. Šie pasākumi ir iepriekš definēta sadalījuma funkcijas konfigurācija, tāpēc tie nav jāmaina vai jādzēš, vai, lietojot sadalījuma līdzekli, rodas neparedzētas kļūdas.
+>
+> Iepriekš definētajam aprēķinātajam mēram var pievienot jaunus fiziskos `@iv.@available_to_allocate` mērus, bet nosaukumu nedrīkst mainīt.
 
 ### <a name="change-the-allocation-group-name"></a>Mainīt sadalījuma grupas nosaukumu
 
@@ -136,7 +138,7 @@ Sazinieties ar `Allocate` API, lai piešķirtu preci ar specifiskām dimensijām
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Piemēram, jūs vēlaties piešķirt daudzumu 10 produktam Vip, vietai 1 *,* *at
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Daudzumam vienmēr jābūt lielākam par 0 (nulli).
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Piemēram, varat pārvietot divas palešu vietas=1, atrašanās vieta=11, krāsa
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Piemēram, varat pārvietot divas palešu vietas=1, atrašanās vieta=11, krāsa
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Tagad tiek pārdoti trīs velosipēdi, un tie tiek ņemti no sadalījuma kopas. 
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Kad vēlaties patērēt daudzumu 3 un tieši rezervēt šo daudzumu, varat veikt
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

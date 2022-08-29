@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123814"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219160"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.20 (2021. gada augusts)
 
@@ -49,7 +49,7 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 | Modulis | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
 |---|---|---|
 | Vispārējā plānošana | Koriģētas pieprasījuma apjoma prognozes paralēla pilnvarošana | Šis līdzeklis ļauj pielāgotās pieprasījuma apjoma prognozes paralēlu autorizāciju no **Pielāgotās pieprasījuma apjoma prognozes** lapas. Šīs funkcijas nolūks ir palielināt veiktspēju, kad ir autorizēts liels prognožu skaits. Autorizējoties lietotājs var norādīt **Pavedienu skaitu** autorizācijas dialogā. |
-| Vispārējā plānošana | (Priekšskatījums) Sērijveida nostiprināšana un apvienošana plānotajiem lielapjoma un pakotņu partiju pasūtījumiem | Šis līdzeklis sniedz iespēju izmantot pakešuzdevumus, lai nostiprinātu un konsolidētu plānotos lielapjoma un pakotņu pasūtījumus. |
+| Vispārējā plānošana | Sērijveida nostiprināšana un apvienošana plānotajiem lielapjoma un pakotņu partiju pasūtījumiem | Šis līdzeklis sniedz iespēju izmantot pakešuzdevumus, lai nostiprinātu un konsolidētu plānotos lielapjoma un pakotņu pasūtījumus. |
 | Ražošanas kontrole | Kopēt vispārīgus maršrutus | Šī funkcija uzlabo maršruta kopēšanas funkciju, lai ļautu lietotājiem kopēt maršrutus, kas nav specifiski krājumiem. Tas iespējo sistēmu atjaunināt visu atbilstošo informāciju (piemēram, vietni, maršrutu grupu, resursu vajadzības un dažādus laikus) pēc maršruta kopēšanas funkcijas izmantošanas, lai pārrakstītu maršrutu, kas vēl nav piešķirts krājumam. |
 | Ražošanas kontrole | Saistīto resursu pieprasījumu atjaunināšana pēc maršruta darbības maiņas | Šis līdzeklis sistēmā iespējo saistīto resursu pieprasījumu atjaunināšanu pēc tam, kad lietotājs izmaina esošas maršruta darbības operāciju. |
 | Preču informācijas pārvaldība | Materiālu komplekta pārskata iepriekšēja apstrāde, lai novērstu noildzes | Šī funkcija izraisa materiālu komplekta pārskata priekšapstrādi. Šādi var izvairīties no noildzes problēmām, ja atskaitei ir liela datu noslodze. |

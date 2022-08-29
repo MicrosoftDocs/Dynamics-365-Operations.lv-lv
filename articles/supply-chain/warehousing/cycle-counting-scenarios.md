@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 91a18b6deade6d67fce6b90308671910a4196104
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068602"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335741"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cikla inventarizācijas piemēru scenāriji
 
@@ -32,7 +32,7 @@ Katrs šī raksta scenārijs norāda uz vērtībām un ierakstiem, kas iekļauti
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobilās programmas atbalsta ieslēgšana
 
-Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmā ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
+Lai izmantotu mobilo programmu Noliktavas pārvaldība, *sistēmai ir jābūt ieslēgtiem jaunās noliktavas programmas funkcijas lietotāja iestatījumiem,* ikonām un darbību nosaukumiem. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot jaunās noliktavas programmas funkcijas Lietotāja iestatījumus, ikonas un soļu *nosaukumus*[līdzekļu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldības darbvietā.
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Sagatavot demonstrācijas datus scenārijiem
 

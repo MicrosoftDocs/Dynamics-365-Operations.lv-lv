@@ -1,30 +1,30 @@
 ---
 title: Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 description: Šajā rakstā skaidrots, kā konfigurēt elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus, kas likvidētu baita pasūtījuma zīmes (MK) rakstzīmes.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847435"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324025"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 
 [!include [banner](../includes/banner.md)]
 
-Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija,](general-electronic-reporting.md#Configuration) kas satur ER formāta komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta](general-electronic-reporting.md#component-versioning) versija ER formāta noformētājā un jāpievieno **Kopējais\\Faila** elements. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
+Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija,](general-electronic-reporting.md#Configuration) kas satur ER formāta komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, atveriet ER formāta veidotājā ER formāta konfigurācijas melnraksta versiju un pievienojiet **kopējo faila\\** elementu. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
 
 > [!NOTE]
 > Ja formāts ietver nepareizu kodēšanas nosaukumu, saglabājot izmaiņas formāta iestatījumos, tiek parādīts kļūdas ziņojums.

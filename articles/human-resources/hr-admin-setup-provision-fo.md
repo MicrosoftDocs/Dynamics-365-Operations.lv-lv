@@ -1,5 +1,5 @@
 ---
-title: Cilvēkresursu nodrošināšana finanšu un operāciju infrastruktūras jomā
+title: Human Resources nodrošināšana finanšu un operāciju infrastruktūrā
 description: Šajā rakstā skaidrots process, kā finanšu un operāciju infrastruktūrai nodrošināt Dynamics 365 Human Resources jaunu ražošanas vidi korporācijai Microsoft.
 author: twheeloc
 ms.date: 01/07/2022
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
-ms.translationtype: HT
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178418"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221599"
 ---
-# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Cilvēkresursu nodrošināšana finanšu un operāciju infrastruktūras jomā
+# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Human Resources nodrošināšana finanšu un operāciju infrastruktūrā
 
 _**Attiecas uz:** Finanšu un operāciju programmas infrastruktūras personāla vadība_ 
 
@@ -52,8 +52,8 @@ Pirms jūs izveidojiet pirmo Human Resources vidi, jums uzmanīgi jāplāno jūs
 - **Integrācija** – konfigurējiet un pārbaudiet integrācijas, kas varētu ietvert dzimtās integrācijas vai pielāgotas integrācijas, piemēram, algas, kandidātu izsekošanas sistēmas vai atvieglojumu sistēmas un nodrošinātājus.
 - **Apmācība** – iespējams, ir nepieciešama atsevišķa vide, kas konfigurēta ar apmācību datu kopu, tā, lai varētu ar darbinieku apmācības palīdzību izmantot jauno sistēmu. 
 - **Daudzfāžu projekts** – Jums var būt nepieciešama papildu vide, lai atbalstītu konfigurāciju, datu migrāciju, pārbaudi vai citas aktivitātes projekta fāzē, kas tiek plānota pēc sākotnējās projekta darbības.
-- **Izstrāde** finanšu un operāciju infrastruktūrai tagad ir iespējams paplašināt risinājumu un izstrādāt savus pielāgojumus. Katram izstrādātājam ir jāizmanto sava izstrādes vide. Papildinformāciju skatiet izstrādes [vides izvietošanai un piekļuvei](/fin-ops-core/dev-itpro/dev-tools/access-instances).
-- **ZELTA** – jaunai izvietošanai kopējā prakse ir izmantot atsevišķu ZELTA vidi, kas tiek turēta konfigurāciju un datu migrācijai. Šo vidi var izmantot visā tās īstenošanai, lai atsvaidzinātu citas vides. Tas tiks izmantots, lai izveidotu jaunu ražošanas vidi, kam ir pamata konfigurācija un datu migrācija. Ražošanas vidi finanšu un operāciju infrastruktūras nevar izvietot, kamēr nav pabeigts gatavības tiešsaistes gatavības process. Papildinformāciju skatiet sadaļā [Sagatavošanās tiešā darba vietu sagatavošanai](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live).
+- **Izstrāde** finanšu un operāciju infrastruktūrai tagad ir iespējams paplašināt risinājumu un izstrādāt savus pielāgojumus. Katram izstrādātājam ir jāizmanto sava izstrādes vide. Papildinformāciju skatiet izstrādes [vides izvietošanai un piekļuvei](../fin-ops-core/dev-itpro/dev-tools/access-instances.md).
+- **ZELTA** – jaunai izvietošanai kopējā prakse ir izmantot atsevišķu ZELTA vidi, kas tiek turēta konfigurāciju un datu migrācijai. Šo vidi var izmantot visā tās īstenošanai, lai atsvaidzinātu citas vides. Tas tiks izmantots, lai izveidotu jaunu ražošanas vidi, kam ir pamata konfigurācija un datu migrācija. Ražošanas vidi finanšu un operāciju infrastruktūras nevar izvietot, kamēr nav pabeigts gatavības tiešsaistes gatavības process. Papildinformāciju skatiet sadaļā [Sagatavošanās tiešā darba vietu sagatavošanai](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Pirms jūs izveidojiet pirmo Human Resources vidi, jums uzmanīgi jāplāno jūs
 
 ## <a name="create-an-lcs-project"></a>LCS projekta izveidošana
 
-Lai lietotu LCS un pārvaldītu savas Human Resources vides, vispirms ir jāizveido LCS projekts. Ja migrēsit savu cilvēkresursu vidi uz finanšu un operāciju infrastruktūru, ir jāizveido jauns LCS projekts finanšu un operāciju programmām. Papildinformāciju skatiet sadaļā [Personāla vadības vides migrēšana](hr-admin-migrate-overview). Ja jums jau ir LCS projekts citām finanšu un operāciju programmām, varat iespējot Cilvēkresursu līdzekļus Līdzekļu pārvaldības **darbvietā**. Papildinformāciju skatiet [Līdzekļu pārvaldības pārskatā](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Lai lietotu LCS un pārvaldītu savas Human Resources vides, vispirms ir jāizveido LCS projekts. Ja migrēsit savu cilvēkresursu vidi uz finanšu un operāciju infrastruktūru, ir jāizveido jauns LCS projekts finanšu un operāciju programmām. Ja jums jau ir LCS projekts citām finanšu un operāciju programmām, varat iespējot Cilvēkresursu līdzekļus Līdzekļu pārvaldības **darbvietā**. Papildinformāciju skatiet [Līdzekļu pārvaldības pārskatā](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Kad jaunais klients pierakstās cilvēkresursiem, abonements ietver Ieviešanas projekta darbalauku. Kad debitors aktivizē pakalpojumu, nomnieka administratoram jāpiesakās, <https://lcs.dynamics.com> izmantojot nomnieka kontu. Organizācijai automātiski tiek izveidota projekta darbvieta. Papildinformāciju skatiet pakalpojumā [Lifecycle Services (LCS) finanšu un operāciju programmu debitoriem](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs).
+Kad jaunais klients pierakstās cilvēkresursiem, abonements ietver Ieviešanas projekta darbalauku. Kad debitors aktivizē pakalpojumu, nomnieka administratoram jāpiesakās, <https://lcs.dynamics.com> izmantojot nomnieka kontu. Organizācijai automātiski tiek izveidota projekta darbvieta. Papildinformāciju skatiet pakalpojumā [Lifecycle Services (LCS) finanšu un operāciju programmu debitoriem](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md).
 
 > [!NOTE]
 > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat cilvēkresursu vides nodrošināšana, ir jābūt piešķirtam vai nu sistēmas administratora lomai, vai sistēmas pielāgotāja lomai vidē, **·** **·** Power Apps kas saistīta ar cilvēkresursu vidi. Papildinformāciju par to, kā piešķirt drošības lomas lietotājiem Microsoft Power Platform, skatiet sadaļā [Lietotāja drošības konfigurēšana resursiem](/power-platform/admin/database-security).
 
-Pirms varat sākt izvietot vides, ir jāpabeidz LCS projekta uzņēmuma process. Papildinformāciju skatiet sadaļā [Projekta tablo.](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding) Papildinformāciju par LCS izmantošanu skatiet lifecycle [Services (LCS) lietotāja rokasgrāmatā](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide).
+Pirms varat sākt izvietot vides, ir jāpabeidz LCS projekta uzņēmuma process. Papildinformāciju skatiet sadaļā [Projekta tablo.](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md) Papildinformāciju par LCS izmantošanu skatiet lifecycle [Services (LCS) lietotāja rokasgrāmatā](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 ## <a name="deploy-human-resources-environments"></a>Izvietot cilvēkresursu vides
 
 Finanšu un operāciju programmu, tostarp cilvēkresursu, izvietošanai mākonī nepieciešams, lai saprastu vidi un abonementu, kurā jūs izvietojat, kas var veikt uzdevumus un kādus datus un pielāgojumus jums pārvaldīt. Ieteicams izmantot pakalpojuma kontu nosaukta lietotāja vietā, kad izvietojat jaunas vides. Papildinformāciju par to, kā izvietot vides finanšu un operāciju infrastruktūrai, skatiet mākoņa [izvietošanas pārskatā](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-Lai cilvēkresursu ražošanas vidi izvietotu finanšu un operāciju infrastruktūrai, jāpabeidz gatavības laukam uz vietas. Papildinformāciju skatiet sadaļā [Sagatavošanās tiešā darba vietu sagatavošanai](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live). Šis process ietver abonementa novērtējumu LCS. Papildinformāciju skatiet sadaļā [Abonementa vērtētājs](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator).
+Lai cilvēkresursu ražošanas vidi izvietotu finanšu un operāciju infrastruktūrai, jāpabeidz gatavības laukam uz vietas. Papildinformāciju skatiet sadaļā [Sagatavošanās tiešā darba vietu sagatavošanai](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md). Šis process ietver abonementa novērtējumu LCS. Papildinformāciju skatiet sadaļā [Abonementa vērtētājs](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md).
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Integrēt Microsoft Power Platform ar Cilvēkresursiem
 
-Microsoft Power Platform sistēma nodrošina iespēju komplektu Dynamics 365 programmām, izmantojot Power Platform administrēšanas centru. Personāla vadības datu izmantošanu var integrēt un paplašināt, izmantojot Microsoft Power Platform. Papildinformāciju par to, kā integrēt cilvēkresursus Microsoft Power Platform, skatiet integrāciju [Microsoft Power Platform ar Finanšu un operāciju programmām](/fin-ops-core/dev-itpro/power-platform/overview).
+Microsoft Power Platform sistēma nodrošina iespēju komplektu Dynamics 365 programmām, izmantojot Power Platform administrēšanas centru. Personāla vadības datu izmantošanu var integrēt un paplašināt, izmantojot Microsoft Power Platform. Papildinformāciju par to, kā integrēt cilvēkresursus Microsoft Power Platform, skatiet integrāciju [Microsoft Power Platform ar Finanšu un operāciju programmām](../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ## <a name="supported-geographies"></a>Atbalstītas ģeogrāfiskās vietas
 
@@ -96,8 +96,8 @@ Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoj
 ## <a name="additional-resources"></a>Papildu resursi
 Papildinformāciju par to, kā izmantot un pārvaldīt projektus LCS finanšu un operāciju programmas infrastruktūras jomā, izmantojot šādus resursus:
 
-- [Lifecycle Services resursi](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Lifecycle Services (LCS) lietotāja rokasgrāmata](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Lifecycle Services resursi](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Lifecycle Services (LCS) lietotāja rokasgrāmata](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Pašapkalpošanās izvietošanas pārskats](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Datu bāzes pārvietošanas operāciju mājas lapa](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

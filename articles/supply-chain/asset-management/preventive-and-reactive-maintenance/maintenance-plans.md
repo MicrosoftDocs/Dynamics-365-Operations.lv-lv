@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1f8a6de85f68a924a8d285d8cdd306ab774661fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6303af9a9d4d4565deba9ca8893535554d03c274
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897811"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335022"
 ---
 # <a name="maintenance-plans"></a>Uzturēšanas plāni
 
@@ -202,7 +202,7 @@ Uz *Skaitītāju bāzēts uzturēšanas uzlabojumu* līdzeklis iepazīstina ar �
 
 ### <a name="turn-on-the-counter-based-maintenance-enhancements-feature"></a>Iespējot Skaitītāja uzturēšanas uzlabojumu līdzekli
 
-Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Līdzekļu pārvaldība*
 - **Līdzekļa nosaukums:** *Uz skaitītāju balstīti uzturēšanas uzlabojumi*

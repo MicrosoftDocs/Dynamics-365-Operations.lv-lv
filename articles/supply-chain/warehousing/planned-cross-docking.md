@@ -2,7 +2,7 @@
 title: Plānotā pārkraušana sadales centrā
 description: Šajā rakstā ir aprakstīta detalizēta plānotā pārkraušana sadales centrā, kur pasūtījumam nepieciešamais krājumu daudzums tiek virzīts tieši no saņemšanas vai izveides uz pareizo nosūtīšanas doku vai sagatavošanas vietu. Visi atlikušie krājumi no saņemšanas avota tiek novirzīti uz pareizo glabāšanas vietu, izmantojot regulāro izvietošanas procesu.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070295"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334571"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -37,10 +37,10 @@ Saņemšanas pasūtījuma saņemšanas laikā pārkraušanas sadales centrā ies
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Iespējot plānotās pārkraušanas opcijas
 
-Ja sistēmā vēl nav ietverti šajā rakstā aprakstītie līdzekļi, [pārejiet](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) uz sadaļu Līdzekļu pārvaldība un slēdziet šādus līdzekļus šādā secībā:
+Ja jūs palaižat Piegādes ķēdes pārvaldības versiju 10.0.28 vai agrāk, pirms tās lietošanas var būt nepieciešams iespējot plānoto pārkraušanu sadales centrā. Dodieties [uz funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pārvaldību un šādā secībā slēdziet šādas funkcijas:
 
-1. *Plānotā pārkraušana sadales centrā*
-1. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*
+1. *Plānotā pārkraušana sadales centrā*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
+1. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29, šī funkcija ir ieslēgta pēc noklusējuma.)
     > [!NOTE]
     > Šis līdzeklis ļauj lauku **Direktīvas kods** norādīt veidnē Pārkraušana sadales centrā līdzīgi tam, kā iestatījāt papildināšanas veidnes. Šī līdzekļa iespējošana neļauj galarezultātā pievienot direktīvas kodu darba veidnes Pārkraušana sadales centrā rindām pēdējai *Izvietojuma* rindai. Tas nodrošina, ka darba izveides laikā var noteikt pēdējo izvietošanas novietojumu, pirms tiek apsvērtas darba veidnes.
 
@@ -92,7 +92,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
     - **Direktīvas kods:** atstājiet šo lauku tukšu
 
-        Šo opciju aktivizē līdzeklis *Veidnes Pārkraušana sadales centrā ar novietojuma direktīvam*. Sistēma izmanto novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Ja direktīvas kods ir iestatīts, sistēma meklē vietas direktīvas pēc direktīvas koda, ģenerējot darbu. Šādā veidā var ierobežot novietojuma direktīvas, kas tiek izmantotas noteiktai veidnei Pārkraušana sadales centrā.
+        Šo opciju aktivizē *veidnes* pārkraušanai sadales centrā ar novietojuma direktīvu līdzekli (no Piegādes ķēdes pārvaldības versijas 10.0.29 funkciju pēc noklusējuma ir ieslēgta). Sistēma izmanto novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Ja direktīvas kods ir iestatīts, sistēma meklē vietas direktīvas pēc direktīvas koda, ģenerējot darbu. Šādā veidā var ierobežot novietojuma direktīvas, kas tiek izmantotas noteiktai veidnei Pārkraušana sadales centrā.
 
     - **Validēt maksimālo laika logu:** *Jā*
 

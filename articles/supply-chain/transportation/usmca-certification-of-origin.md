@@ -2,7 +2,7 @@
 title: USMCA izcelsmes sertificēšana
 description: Šis līdzeklis ļauj izdrukāt izcelsmes dokumentu sertifikāciju, kā paredzēts Amerikas Savienoto Valstu, Meksikas un Kanādas līgumā (USMCA).
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851367"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336551"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA izcelsmes sertificēšana
 
@@ -33,12 +33,9 @@ Dokuments ir pieejams tikai tad, ja valsts primārajā adresē ir juridiskās pe
 
 Atkarībā no dokumenta drukāšanas atlases dokumentu var iepriekš aizpildīt ar datiem no jūsu sistēmas. Drukātajam dokumentam ir iespējams mainīt vai pievienot datus, eksportējot drukāto dokumentu rediģējamā formātā, piemēram, Microsoft Word. Pēc eksportēšanas varat lietot visas nepieciešamās izmaiņas pirms deklarācijas izveides.
 
-## <a name="turn-on-the-usmca-feature"></a>Līdzekļa USMCA ieslēgšana
+## <a name="turn-the-usmca-feature-on-or-off"></a>Funkcijas USMCA izslēgšana vai izslēgšana
 
-Lai varētu izmantot USMCA līdzekli, tas vispirms ir jāieslēdz jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Transportēšanas pārvaldība*
-- **Līdzekļa nosaukums:** *USMCA izcelsmes dokumenta sertificēšana*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot *USMCA* izcelsmes dokumenta funkcijas sertifikācijas [līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Dokumenta saturs
 

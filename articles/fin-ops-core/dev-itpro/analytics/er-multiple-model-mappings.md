@@ -1,24 +1,24 @@
 ---
 title: Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 description: Šajā rakstā skaidrots, kā pārvaldīt vairākus atvasinātus kartējumus, kas tika konfigurēti atsevišķa modeļa saknei.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892484"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277514"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 
@@ -106,7 +106,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 3. Nolaižamajā dialoglodziņā **Izveidot konfigurāciju**, laukā **Jauns** atlasiet **Atvasināt no nosaukuma: Rēķinu modeļa kartēšana, Microsoft**.
 4. Laukā **Nosaukums** ievadiet **Rēķina modeļa kartēšana Litware**.
 5. Atlasiet **Izveidot konfigurāciju**.
-6. [Atzīmējiet](er-quick-start2-customize-report.md#MarkFormatRunnable) atvasinātā kartējuma [melnraksta](general-electronic-reporting.md#component-versioning) versiju kā pieejamu lietošanai izpildlaikā:
+6. [Atzīmējiet](er-quick-start2-customize-report.md#MarkFormatRunnable) atvasinātā kartējuma [melnraksta](general-electronic-reporting.md) versiju kā pieejamu lietošanai izpildlaikā:
 
     1. Darbību rūts cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet **Lietotāja parametri**.
     2. Dialoglodziņā **Lietotāja parametri** iestatiet opciju **Palaist iestatījumus** uz **Jā** un pēc tam atlasiet **Labi**.

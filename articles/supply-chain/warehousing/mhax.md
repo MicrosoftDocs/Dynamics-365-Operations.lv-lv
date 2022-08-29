@@ -2,7 +2,7 @@
 title: Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 description: Šajā rakstā ir aprakstīts, kā iestatīt materiālu apstrādes aprīkojuma interfeisu (SIAAX), lai varētu izveidot savienojumu ar ārējā fiziskās materiālu apstrādes (UTT) sistēmām.
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068365"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334361"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 
@@ -41,12 +41,13 @@ Jūs varat izmantot materiālu *apstrādes* aprīkojuma interfeisu (ATTIECĪBĀ 
 
 Lai lietotu funkciju MHAX, jāslēdz gan tā funkcija, gan konfigurācijas atslēga.
 
-1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
-2. **[Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbvietā grieziet līdzekli, kura nosaukums ir *Materiālu apstrādes aprīkojuma interfeiss*.
-3. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
-5. Izvērsiet **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un pēc tam atzīmējiet izvēles rūtiņu **Materiālu apstrādes aprīkojuma** interfeiss.
-6. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Ja jūs darbināt Piegādes ķēdes pārvaldības versiju 10.0.28 vai agrāk, rīkojieties šādi:
+    1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
+    1. **[Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbvietā grieziet līdzekli, kura nosaukums ir *Materiālu apstrādes aprīkojuma interfeiss*. (No Piegādes ķēdes pārvaldības 10.0.29 šī funkcija ir obligāta un to nevar izslēgt.)
+1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
+1. Izvērsiet **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un pēc tam atzīmējiet izvēles rūtiņu **Materiālu apstrādes aprīkojuma** interfeiss.
+1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>MHAX parametru iestatīšana
 

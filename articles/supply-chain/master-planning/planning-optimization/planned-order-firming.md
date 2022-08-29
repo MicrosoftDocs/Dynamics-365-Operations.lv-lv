@@ -2,7 +2,7 @@
 title: Plānoto pasūtījumu apstiprināšana
 description: Šajā rakstā skaidrots, kā apstiprināt plānotos pasūtījumus. Kad plānotie pasūtījumi ir apstiprināti, tie kļūst par faktiskajiem pirkšanas pasūtījumiem, pārsūtīšanas pasūtījumiem vai ražošanas pasūtījumiem.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857523"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335351"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -37,19 +37,21 @@ Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynam
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ieslēgt vai izslēgt plānoto pasūtījumu paralēlo apstiprināšanas darbību
 
-Paralēla apstiprināšana palīdz paātrināt apstiprināšanas procesu, to paralējot starp vairākiem pavedieniem. Šī pieeja var būt noderīga, kad daudzi plānotie pasūtījumi ir apstiprināti. Lai lietotu šo funkcionalitāti, *sistēmai jābūt* ieslēgtai plānoto pasūtījumu paralēlai apstiprināšanas funkcijai. No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, šo funkcionalitāti var ieslēgt vai izslēgt, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*dodoties* uz funkciju pārvaldību un meklējot līdzekli Plānoto pasūtījumu paralēla apstiprināšana.
+Paralēla apstiprināšana palīdz paātrināt apstiprināšanas procesu, to paralējot starp vairākiem pavedieniem. Šī pieeja var būt noderīga, kad daudzi plānotie pasūtījumi ir apstiprināti. Lai lietotu šo funkcionalitāti, *sistēmai jābūt* ieslēgtai plānoto pasūtījumu paralēlai apstiprināšanas funkcijai. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Iespējot plānoto pasūtījumu apstiprināšanas ar filtrēšanu
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Tāpat kā Piegādes ķēdes pārvaldībai 10.0.25 šī funkcija ir obligāta un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.25, šo funkcionalitāti var ieslēgt vai izslēgt, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*dodoties* uz funkciju pārvaldību un meklējot līdzekli Plānoto pasūtījumu paralēla apstiprināšana.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Ieslēgt vai izslēgt plānoto pasūtījumu apstiprināšana ar filtrēšanu
 
 Plānotā pasūtījumu apstiprināšana ar filtrēšanu ļauj definēt loģiskos kritērijus, lai atlasītu, kurus plānotos pasūtījumus apstiprināt. Var arī priekšskatīt, kuri plānotie pasūtījumi tika atlasīti, palaist procesu fonā un/vai plānot kā pakešuzdevumu.
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot Plānoto *pasūtījumu apstiprināšanas ar* filtrēšanas līdzekli līdzekļu pārvaldības [darbvietā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, administratori šo funkcionalitāti var ieslēgt vai izslēgt, *·*[meklējot](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) Plānoto pasūtījumu apstiprināšanas ar filtrēšanas līdzekli līdzekļu pārvaldības darbvietā.
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Iespējot automātisko apstiprināšanu plānošanas optimizācijai
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Ieslēgt vai izslēgt automātisko apstiprināšanas iestatījumu optimizācijas plānošanai
 
 Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā daļu no vispārējās plānošanas procesa, laika periodā apstiprināšanai. Plānošanas programmā, kas ir veidota Supply Chain Management, vienmēr tiek atbalstīta automātiskā apstiprināšana. Tomēr, lai izmantotu to arī ar plānošanas optimizāciju, ir jāieslēdz līdzeklis.
 
-Lai padarītu šo funkcionalitāti pieejamu jūsu sistēmā, dodieties uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet līdzekli *Automatiskā apstiprināšana plānošanas optimizācijai*. (No Piegādes ķēdes pārvaldības versijas 10.0.21, šī funkcija ir ieslēgta pēc noklusējuma.)
+No Piegādes ķēdes pārvaldības versijas 10.0.21 šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldību 10.0.29 šī funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, varat ieslēgt vai izslēgt šo funkcionalitāti, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*dodoties* uz līdzekļu pārvaldību un meklējot automātiskās apstiprināšanas plānošanas optimizācijas līdzeklim.
 
 ## <a name="manually-firm-planned-orders"></a>Manuāli apstiprināt plānotos pasūtījumus
 
@@ -67,8 +69,8 @@ Lai manuāli apstiprinātu plānotos pasūtījumus, atrodiet un atlasiet plānot
 
     - **Atjaunināt iezīmēšanu** - Atlasiet krājuma iezīmēšanas politiku, lai to izmantotu plānoto pasūtījumu apstiprināšanas laikā.
     - **Pārtraukt apstiprināšanu, ja rodas kļūda** – iestatiet šo opciju uz *Jā*, lai pārtrauktu visu atlasīto plānoto pasūtījumu apstiprināšanu, ja kādā no tiem rodas kļūda. Šī opcija jāiestata uz *Nē*, ja opcija **Paralelizēt apstiprināšanu** ir iestatīta uz *Jā*.
-    - **Paralēla apstiprināšana** – šī opcija ir pieejama tikai tad, ja jūsu sistēmā ir ieslēgta [*Plānoto pasūtījumu paralēlā apstiprināšana* līdzeklis](#enable-features) un ja esat atlasījis divus vai vairākus plānotos pasūtījumus apstiprināšanas laikā. Iestatiet to uz *Jā*, lai apstiprināšanas procesus palaistu paralēli. Paralēla apstiprināšana var palīdzēt uzlabot veiktspēju.
-    - **Pavedienu skaits** - šī opcija ir pieejama tikai tad, ja jūsu sistēmā ir ieslēgts [*Plānoto pasūtījumu paralēlā apstiprināšana* līdzeklis](#enable-features) un ja esat iestatījis opciju **Paralelizēt apstiprināšanu** uz *Jā*. Ievadiet pavedienu skaitu, ko izmantot apstiprināšanas procesa paralēlošanai. Papildinformāciju par to, kā izmantot šo opciju vispārējā plānošanā, skatiet sadaļā [Vispārējās plānošanas veiktspējas uzlabošanai](../master-planning-performance.md#number-of-threads).
+    - **Paralēla apstiprināšana** – [*·*](#enable-features) šī opcija ir pieejama tikai tad, ja jūsu sistēmai ir ieslēgta plānoto pasūtījumu paralēlā apstiprināšana un ja esat atlasījis divus vai vairākus plānotos pasūtījumus apstiprināšanas laikā. Iestatiet to uz *Jā*, lai apstiprināšanas procesus palaistu paralēli. Paralēla apstiprināšana var palīdzēt uzlabot veiktspēju.
+    - **Pavedienu skaits –**[*šī* opcija ir pieejama tikai tad,](#enable-features)**ja** jūsu sistēmai ir ieslēgta plānoto pasūtījumu paralēlā apstiprināšana un ja paralēlās *apstiprināšanas opcija ir iestatīta uz Jā.* Ievadiet pavedienu skaitu, ko izmantot apstiprināšanas procesa paralēlošanai. Papildinformāciju par to, kā izmantot šo opciju vispārējā plānošanā, skatiet sadaļā [Vispārējās plānošanas veiktspējas uzlabošanai](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Lauka **Pavedienu skaits** vērtība *0* (nulle) palielina vispārējās plānošanas izpildes laiku. Tādēļ ieteicams vienmēr iestatīt šo lauku uz vērtību, kas ir lielāka par 0.
@@ -97,7 +99,7 @@ Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā da
 > Atvasinātiem pasūtījumiem (t.i. pakārtotie pirkšanas pasūtījumi), kas ir apstiprināti, būs statuss *Pārskatīšanā*, ja ir ieslēgta gadījuma izmaiņu izsekošana.
 
 > [!IMPORTANT]
-> Pirms šajā sadaļā aprakstīto līdzekli var izmantot kopā ar plānošanas optimizāciju, [*·*](#enable-features) sistēmā ir jābūt ieslēgtai līdzeklim Plānošanas optimizācijas automātiska apstiprināšana, kā aprakstīts šī raksta sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar iebūvēto vispārējās plānošanas programmu.
+> Pirms šajā sadaļā aprakstīto līdzekli var izmantot ar plānošanas optimizāciju, [*·*](#enable-features) jūsu sistēmai ir jābūt ieslēgtai līdzeklim Automātiskās apstiprināšanas optimizācijai saskaņā ar aprakstu šī raksta sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar iebūvēto vispārējās plānošanas programmu.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automātiskā apstiprināšana ar plānošanas optimizāciju pret iebūvēto plānošanas programmu
 
@@ -130,7 +132,7 @@ Uz vaicājumiem balstīta apstiprināšana ļauj plānot apstiprināšanu, pamat
 Automātisko apstiprināšanu var apvienot ar vaicājumu apstiprināšanu. Piemēram, uz vaicājumu balstītam apstiprināšanas darbam ir nākotnes periods, kas ir garāks nekā laika periods atbilstošai automātiskās apstiprināšanas seguma konfigurācijai. Tādēļ uz vaicājumu balstīts apstiprināšanas darbs apstrādās tā plānotos pasūtījumus pirms automātiskās apstiprināšanas aktivizēšanas. Šo darbību var izmantot, lai plānotu pasūtījumus noteiktiem kreditoriem citādi nekā līdzīgu produktu pasūtījumus no citiem kreditoriem.
 
 > [!IMPORTANT]
-> Pirms šajā sadaļā aprakstīto funkciju iespējams izmantot, [*·*](#enable-features) Plānoto pasūtījumu apstiprināšanas ar filtrēšanas funkciju jābūt ieslēgtam jūsu sistēmā, kā aprakstīts šī raksta sākumā.
+> Pirms šajā sadaļā aprakstītās funkcijas lietošanas sistēmai [*·*](#enable-features) ir jābūt ieslēgtai plānoto pasūtījumu apstiprināšanas ar filtrēšanas funkciju, kā aprakstīts šī raksta sākumā.
 
 Lai apstiprinātu plānoto pasūtījumu, izmantojot apstiprināšanas procesu, kas balstīts uz vaicājumiem, veiciet šīs darbības.
 

@@ -1,8 +1,8 @@
 ---
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kurus ir plānots noņemt no Dynamics 365 Commerce.
-author: josaw
-ms.date: 07/11/2022
+author: josaw1
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
-ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138591"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337601"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -26,12 +26,44 @@ ms.locfileid: "9138591"
 Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kurus ir plānots noņemt no Dynamics 365 Commerce.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
-- *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
+- Novecojis *līdzeklis* nav aktīva izstrāde un var tikt noņemts nākamajā atjauninājumā.
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!NOTE]
 > Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.29 laidienā
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Commerce parametru iestatījums — atļaut cenas korekcijas, lai palielinātu preces cenu
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mums bija šis iestatījums, lai kontrolētu, vai cenas koriģēšanas funkcija ļauj palielināt preces cenu. Ja šis parametrs ir izslēgts, izmantojot cenu korekcijas funkciju organizācijas, var iestatīt tikai preces vienības cenu, kas ir zemāka par pamata cenu un tirdzniecības līguma pārdošanas cenu. Mēs samazinām šo iestatījumu, jo cenu korekcijas funkcija ir atjaunināta, lai atbalstītu no lodziņa divvirzienu korekcijas (palielinājumu vai samazināšanos). |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
+| **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: šis iestatījums ir ieslēgts pēc noklusējuma, jo Commerce versija 10.0.29 un tiks noņemta 2023. gada oktobris. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Commerce parametru iestatīšana — iespējot cenu pārskatu mazumtirdzniecības veikalam
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mums bija šis iestatījums, lai kontrolētu, vai cenu pārskata funkcija ir pieejama izmantošanai veikala konfigurācijas formā. Mēs nolietojam šo iestatījumu, jo veikala konfigurācijas forma ir atjaunināta, lai vienmēr nodrošinātu cenu pārskata funkciju kā standarta funkciju. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
+| **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: šis iestatījums tiks noņemts 2023. gada oktobris. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Commerce parametru iestatījums — lietot šodienas datumu, lai aprēķinātu cenas
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Piegādes ķēdes pārvaldības (SCM) cenu noteikšanas programma atbalsta cenu noteikšanu, pamatojoties uz pieprasīto nosūtīšanas datumu vai pieprasīto saņemšanas datumu kopā ar šodienas datumu. Cenu noteikšanas programmaCommerce atbalsta tikai cenu aprēķinu, pamatojoties uz šodienas datumu. Debitoriem, kuri izmanto gan SCM, gan Commerce iespējas, mēs sniedzām šo iestatījumu un iesakām debitoriem vienmēr to **iestatīt** uz Jā, lai abas cenu noteikšanas programmas varētu strādāt kopā. Mēs novecojam šim iestatījumam, jo tas nemaina aprēķina uzvedību un ir lieks. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē |
+| **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojis: šis iestatījums ir ieslēgts pēc noklusējuma, jo Commerce versija 10.0.29 un tiks noņemta 2023. gada oktobris. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Līdzekļu nolietojuma 2022. gada jūlijs
 
@@ -39,26 +71,11 @@ ms.locfileid: "9138591"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Grupa Dynamics 365 Commerce ir analizējusi commernce analytics (Preview) līdzekļa lietojumu un uzņemšanu, un ir pieņemts lēmums vairs nevirzās uz priekšu, sasaistot līdzekli ar vispārējo pieejamību.   |
-| **Vai ir aizstāts ar citu līdzekli?**   | Pašlaik Commerce Analytics (preview) netiks aizstāta ar citu līdzekli vai risinājumu. Joprojām ir pieejams neapstrādāto darbību un pamatdatu eksports no finanšu un operāciju programmām uz Azure Data Lei, [kā paskaidrots finanšu un operāciju programmu eksportā uz Datu krātuvi](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneri un debitori var palīdzēt datu plūsmai izveidot jebkuru paredzēto analīzes pārskatu biznesa vajadzībām.
+| **Novecošanas/noņemšanas pamatojums** | Komanda Dynamics 365 Commerce ir analizējusi Commerce Analytics (Preview) līdzekļa lietošanu un uzņemšanu, un ir pieņemts lēmums vairs nevirzās uz priekšu, ieviešot funkciju vispārējās pieejamības gadījumos.   |
+| **Vai ir aizstāts ar citu līdzekli?**   | Pašlaik Commerce Analytics (Preview) netiks aizstāta ar citu līdzekli vai risinājumu. Joprojām ir pieejams neapstrādāto darbību un pamatdatu eksports no finanšu un operāciju programmām uz Azure Data Lei, [kā paskaidrots finanšu un operāciju programmu eksportā uz Datu krātuvi](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneri un debitori var palīdzēt datu plūsmai izveidot jebkuru paredzēto analīzes pārskatu biznesa vajadzībām.
 | **Ietekmētie produkta apgabali**         | Commerce analīze (priekšskatījums) |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Līdz 2022. gada 30. augustam šo funkciju mēs skatīsim kā atspējošanu.  No šī datuma uz priekšu netiks veikta atsvaidzināšana pašreizējos pārskatos, ko Power BI nodrošina Commerce Analytics (Preview).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.25 laidienā
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
-
-Modern Point of Sale (MPOS) programma tiks nolietota Commerce versijā 10.0.25 laidienā un aizstāta ar Store Commerce programmu.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Veikalā lietojumprogrammas ir e-pasta piedāvājuma stūrakmens Dynamics 365 Commerce. Mēs nepārtraukti paveicam modernu un viedu veikala pieredzi un turpināt mūsu risinājuma modernizēšanu, izvelciet jaunas izmaiņu kopas, kas būtiski uzlabos IT operācijas un lietotāju pieredzi ar mūsu esošajām windows veikala programmām. Jaunā Store Commerce programma ir tehnoloģiju jauninājums pār esošo MPOS. Tas nodrošina uzlabotu veiktspēju, uzticamību un ilgtermiņa atbalstu Windows platformā, kā arī izslēdz nepieciešamību pārpakot programmu ar katru atjauninājumu. |
-| **Vai ir aizstāts ar citu līdzekli?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Ietekmētie produkta apgabali**         | Modernais pārdošanas punkts |
-| **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: No Commerce versijas 10.0.25 laidiena, MPOS instalētājs nosūtītas, izmantojot LCS virtuālās mašīnas (VMs), tiks noņemtas Pasūtījuma 2023 versijā. |
+| **Statuss**                         | Šo funkciju mēs meklējam kā atspējošanu līdz 2022. gada 30. augustam.  No šī datuma uz priekšu netiks veikta atsvaidzināšana pašreizējos pārskatos, ko Power BI nodrošina Commerce Analytics (Preview).     |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.21 laidienā
 
@@ -70,7 +87,7 @@ Modern Point of Sale (MPOS) programma tiks nolietota Commerce versijā 10.0.25 l
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | <p>**Atlaižu, kas pārklājas, apstrādes iestatījums** Commerce parametros kontrolē to, kā Commerce cenu noteikšanas programma meklē un nosaka atlaižu pārklāšanās optimālu kombināciju. Pašlaik tas piedāvā trīs opcijas:<p><ul><li> **Labākā veiktspēja** – šī opcija izmanto uzlaboto heiristisko algoritmu un [robežvērtīgās vērtības rangu](../optimal-combination-overlapping-discounts.md) metodi, lai laikus noteiktu prioritātes, novērtēt un noteikt labāko atlaižu kombināciju.</li><li>**Līdzsvarotais aprēķins** – pašreizējā koda bāzē šī opcija darbojas tāpat kā opcija **Labākā veiktspēja**. Tādēļ tā pamatā ir dublēta opcija.</li><li>**Pilnīgs aprēķins** – šī opcija izmanto vecu algoritmu, kas iet cauri visām iespējamām atlaižu kombinācijām cenu aprēķina laikā. Pasūtījumiem, kuriem ir lielas rindas un daudzumi, šī opcija var izraisīt veiktspējas problēmas.</li></ul><p>Lai palīdzētu vienkāršot konfigurāciju, uzlabot veiktspēju un samazināt incidentus, ko rada vecais algoritms, mēs pilnībā izņemsim **Atlaižu apstrādes iestatījumu** un atjauninās Commerce cenu noteikšanas programmas iekšējo loģiku, lai tagad tas varētu izmantot tikai papildu algoritmu (t.i., algoritmu, kas atrodas aiz opcijas **Labākā veiktspēja**).</p> |
+| **Novecošanas/noņemšanas pamatojums** | <p>**Atlaižu, kas pārklājas, apstrādes iestatījums** Commerce parametros kontrolē to, kā Commerce cenu noteikšanas programma meklē un nosaka atlaižu pārklāšanās optimālu kombināciju. Pašlaik tas piedāvā trīs opcijas:<p><ul><li> **Labākā veiktspēja** – šī opcija izmanto uzlaboto heiristisko algoritmu un [robežvērtīgās vērtības rangu](../optimal-combination-overlapping-discounts.md) metodi, lai laikus noteiktu prioritātes, novērtēt un noteikt labāko atlaižu kombināciju.</li><li>**Līdzsvarotais aprēķins** – pašreizējā koda bāzē šī opcija darbojas tāpat kā opcija **Labākā veiktspēja**. Tādēļ tā pamatā ir dublēta opcija.</li><li>**Pilnīgs aprēķins** – šī opcija izmanto vecu algoritmu, kas iet cauri visām iespējamām atlaižu kombinācijām cenu aprēķina laikā. Pasūtījumiem, kuriem ir lielas rindas un daudzumi, šī opcija var izraisīt veiktspējas problēmas.</li></ul><p>Lai palīdzētu vienkāršot konfigurāciju, uzlabot veiktspēju un samazināt incidentus, ko rada vecais algoritms **,** mēs pilnībā noņemiet atlaižu apstrādes iestatījumu pārklāšanās iestatījumu un atjauniniet Commerce cenu noteikšanas programmas iekšējo loģiku, lai tagad tas varētu izmantot tikai papildu algoritmu (t.i., algoritmu, **kas** atrodas aiz opcijas Labākais veiktspēja).</p> |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. Pirms šīs funkcijas noņemšanas ieteicams organizācijām, kas izmanto opciju **Līdzsvarots aprēķins** vai **Pilnīgs aprēķins**, pārslēgties uz opciju **Labākā veiktspēja**. |
 | **Ietekmētie produkta apgabali**         | Cenu noteikšana un atlaides |
 | **Izvietošanas iespēja**              | Visi |
@@ -127,11 +144,11 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Exte
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Sākot ar šo laidienu, Dynamics 365 Headquarters veidlapas **Commerce plānotāja parametri** lauks **Pilns datu kopas ģenerēšanas intervāls dienās** ir novecojis. Sākot ar šo laidienu, lauks tiks vizuāli noņemts, lai vērtību nevarētu rediģēt. Tas paliek kā **0** vērtība. |
+| **Novecošanas/noņemšanas pamatojums** | Sākot ar šo laidienu, Dynamics 365 Headquarters veidlapas **Commerce plānotāja parametri** lauks **Pilns datu kopas ģenerēšanas intervāls dienās** ir novecojis. Sākot ar šo laidienu, lauks tiks vizuāli noņemts, lai vērtību rediģētu nevar. Tas paliek kā **0** vērtība. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce |
-| **Izvietošanas iespēja**              | Visu|
-| **Statuss**                         | Novecojis. Neizmantojiet šo lauku vai nemainiet tajā esošo vērtību.|
+| **Izvietošanas iespēja**              | Visus|
+| **Statuss**                         | Novecojis. Neizmantojiet šo lauku vai mainiet tajā vērtību.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.15 laidienā
 
@@ -177,7 +194,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Exte
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aparatūras stacijas paplašinājums, izmantojot IHardwareStationController, ir novecojis, lai nodrošinātu vienkāršotu paplašinājumu modeli. Jaunajai implementācijai būs tikai IController klase bez jebkādas papildu klases implementācijas un, lai izvairītos no atkarības ar pamata aparatūras staciju bibliotēkām, vispirms paplašinājumam ir jāatsaucas uz vairākām bibliotēkām. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Ir ieteicams lietot IController klases paplašinājuma modeli, importējot NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) pakotni. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Ir ieteicams izmantot IController klases paplašinājuma modeli, importējot NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) pakotni. |
 | **Ietekmētie produkta apgabali**         | Aparatūras stacijas paplašinājumi |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: sākot ar 10.0.11. laidienu |
@@ -187,7 +204,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Exte
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Izdošanas un saņemšanas darbības ir novecojušas jaunas operācijas pārprojektēšanas dēļ. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā. To aizvieto ar divām jaunām POS operācijām: saņemšanas operācija (804) un izejošā operācija (805).|
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā. Tā tiek aizstāta ar divām jaunām POS operācijām: saņemšanas operāciju (804) un izejošo operāciju (805).|
 | **Ietekmētie produkta apgabali**         | Pārdošanas punktu (POS) lietojumprogramma |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: ar 10.0.10 versijas izlaišanu izdošanas un saņemšanas operācija vairs nesaņems jaunus līdzekļu atjauninājumus. Turpmākajos laidienos tiks veikti tikai kritiski kļūdu labojumi šai operācijai. Visi klienti tiek mudināti pāriet uz jaunajām [ienākošajām operācijām](../pos-inbound-inventory-operation.md) un [izejošajām operācijām](../pos-outbound-inventory-operation.md), kas joprojām būs daļa no mūsu ilgtermiņa preču ceļveža. |
@@ -198,7 +215,7 @@ POS paplašinājuma izstrāde, izmantojot ModernPos.sln, CloudPos.sln, POS. Exte
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Jaunie, optimizētie API ir izveidoti, lai aizstātu GetProductAvailabilities un GetAvailableInventoryNearby API. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā: tas ir aizstāts ar GetEstimatedAvailability un GetEstimatedProductWarehouseAvailability API. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā: tas tiek aizstāts ar GetEstimatedAvailability un GetEstimatedProductWarewareAvailability API. |
 | **Ietekmētie produkta apgabali**         | e-komercijas programmas SDK |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: ar 10.0.7 versijas izlaišanu vairs netiks izveidotas inženierijas investīcijas, kas paredzētas GetProductAvailabilities un GetAvailableInventoryNearby. Organizācijas, kas izmanto šos API savās e-komercijas izvietošanās, ir jāpāriet uz jaunajiem GetEstimatedAvailability un GetEstimatedProductWarehouseAvailability API un jāaktivizē [Optimizētā preču pieejamības aprēķināšanas funkcija](../calculated-inventory-retail-channels.md).  |

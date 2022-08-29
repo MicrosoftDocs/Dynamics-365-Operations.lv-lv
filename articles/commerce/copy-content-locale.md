@@ -1,22 +1,22 @@
 ---
-title: Kopēt saturu citā darbības vietā
+title: Kopēt saturu citā lokalizācijā
 description: Šajā rakstā ir aprakstīts, kā kopēt esošo saturu citā vietā vietas veidotājā Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 07/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: tfehr
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: bcfa3c7cb2ea8018422803d85df6b6761b8d1145
-ms.sourcegitcommit: d719d0a549aecac231fad0abb42250eab9dd0ded
+ms.openlocfilehash: 6afa871048bde22133ae083b8d56b6e99e49c401
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9126469"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269266"
 ---
-# <a name="copy-content-to-another-locale"></a>Kopēt saturu citā darbības vietā
+# <a name="copy-content-to-another-locale"></a>Kopēt saturu citā lokalizācijā
 
 [!include[banner](../includes/banner.md)]
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905459"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218748"
 ---
 # <a name="warehouse-app-event-processing"></a>Noliktavas lietojumprogrammas notikumu apstrāde
 
@@ -28,7 +28,7 @@ Pakešuzdevumi, kas tiek izpildīti Supply Chain Management, var izmantot datus 
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Ieslēgt vai izslēgt līdzekli Apstrādāt noliktavas programmas notikumus
 
-No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori var ieslēgt vai izslēgt šo funkcionalitāti, meklējot *apstrādes noliktavas programmas notikumu* līdzekli līdzekļu [pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 šī funkcija ir obligāta. Tāpēc tā ir ieslēgta pēc noklusējuma un to nevar atkal izslēgt. Ja lietojat versiju, kas ir vecāka par 10.0.29 versiju, administratori var ieslēgt vai izslēgt šo funkcionalitāti, *meklējot noliktavas*[programmas notikumu līdzekli līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Iestatiet pakešuzdevumu, lai apstrādātu noliktavas programmas notikumus
 

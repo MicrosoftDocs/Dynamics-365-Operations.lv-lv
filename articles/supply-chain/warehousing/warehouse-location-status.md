@@ -2,7 +2,7 @@
 title: Noliktavas vietas statuss
 description: Šajā rakstā ir sniegts pārskats par noliktavas atrašanās vietas statusa līdzekli.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065470"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336101"
 ---
 # <a name="warehouse-location-status"></a>Noliktavas vietas statuss
 
@@ -40,12 +40,9 @@ Tālāk norādītie četri lauki lapā **Novietojumi** izseko informāciju par n
     - **Izdošana** – izejošās darbības ir veiktas attiecībā pret novietojumu, jo pēdējoreiz tas bija tukšs.
     - **Glabāšana** – tikai ienākošās darbības ir veiktas attiecībā pret novietojumu, jo pēdējoreiz novietojums bija tukšs.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Līdzekļa Noliktavas novietojuma statuss ieslēgšana
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Noliktavas atrašanās vietas statusa līdzekļa izslēgšana vai izslēgšana
 
-Lai varētu izmantot līdzekli *Noliktavas novietojuma statuss*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
-
-- **Modulis:** *Noliktavas vadība*
-- **Līdzekļa nosaukums:** *Noliktavas novietojuma statuss*
+Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot noliktavas *atrašanās*[vietas statusa līdzekli līdzekļu pārvaldības darbvietā.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-warehouse-location-status"></a>Noliktavas novietojuma statusa iestatīšana
 
@@ -55,7 +52,7 @@ Pirms sākt darbu ar scenāriju, aktivizējiet parauga datus un iestatiet līdze
 
 #### <a name="use-the-usmf-legal-entity"></a>USMF juridiskas personas izmantošana
 
-Lai, izmantojot šo scenārija piemēru, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
+Lai, izmantojot šo scenārija piemēru, strādātu ar norādītajiem parauga ierakstiem un vērtībām, jāizmanto sistēma, kurā ir instalēti standarta [demonstrācijas dati](../../fin-ops-core/fin-ops/get-started/demo-data.md). Turklāt pirms sākšanas ir jāatlasa **USMF** juridiskā persona.
 
 #### <a name="set-up-location-profiles"></a>Iestatīt novietojuma profilus
 

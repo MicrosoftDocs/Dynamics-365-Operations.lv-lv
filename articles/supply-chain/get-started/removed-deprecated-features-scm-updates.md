@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kas ir ieplānoti noņemšanai Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
-ms.translationtype: HT
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171521"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218809"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171521"
 > [!NOTE]
 > Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.29 laidienā
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Krājumu pārsūtīšanas pasūtījumi, kuros pārsūtīšanas cenai tiek piemērots nodoklis
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Novecošanas/noņemšanas pamatojums** | Krājumu [pārsūtīšanas pasūtījumi, kuriem ir nodoklis par pārsūtīšanas cenas](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) funkcionalitāti, tiek aizstāti ar krājumu pārsūtīšanas [pasūtījumiem Indijai funkcionalitātei](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, krājumu [pārsūtīšanas pasūtījumi, kuriem ir nodoklis par pārsūtīšanas cenas](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) funkcionalitāti, tiek aizstāti ar krājumu [pārsūtīšanas pasūtījumiem Indijai funkcionalitātei](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Ietekmētie produkta apgabali** | Piegādes ķēdes pārvaldība - krājumi |
+| **Izvietošanas iespēja** | Mākonis un lokāls |
+| **Statuss** | <p>Tiek novecojis. Krājumu *pārsūtīšanas pasūtījumi, kuriem ir nodoklis par pārsūtīšanas cenu* funkcionalitāti, netiks atbalstīti ar kļūdu labojumiem un drošības labojumiem.</p><p>Pēc 2023. gada aprīlī *debitoriem pēc noklusējuma tiks lūgts izmantot uzlabotu funkcionalitāti Krājumu pārsūtīšanas* pasūtījumi Indijai. Pēc 2023. gada oktobris krājumu pārsūtīšanas pasūtījumi, kuriem ir nodoklis par pārsūtīšanas cenas funkcionalitāti, *vairs* nebūs pieejami, *un* debitoriem tiks lūgts pāriet uz uzlabotajiem krājumu pārsūtīšanas pasūtījumiem Indijai funkcionalitātei.</p><p>Papildinformāciju skatiet krājumu pārsūtīšanas [pasūtījumos Indijai](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.19 laidienā
 

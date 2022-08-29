@@ -1,24 +1,24 @@
 ---
 title: Storno uzskaite
 description: Storno uzskaite ir prakse, kurā tiek izmantoti negatīvie skaitļi, lai apgrieztu sākotnējos žurnāla konta ierakstus.
-author: ShylaThompson
+author: kfend
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 1219713
 ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 1219713
+ms.openlocfilehash: 22958ba21cd04cf19a7c05f78781ac6c5662b9ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764213"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283875"
 ---
 # <a name="storno-accounting"></a>Storno uzskaite
 
@@ -90,7 +90,7 @@ Grāmatošanas ierakstus var labot divos veidos - izmantojot reversīvos ieraks
 | Pirkš. konts  | 102   | 0      | 102     |
 | Kreditora konts | 0     | 102    | -102    |
 
-Daļējais Storno oriģināla formā var radīt problēmu. Ja sākotnējā dokumenta datums atšķiras no Storno ieraksta datuma, tas var apgrūtināt pareizas summas valūtā iegūšanu. Tāpēc daļējo Storno ir atļauts izmantot tikai noteiktiem dokumentiem. Dynamics 365 Finance nodrošina daļējā Storno funkcionalitāti dokumentiem un valstīm/reģioniem, kuriem tas ir atļauts.
+Daļējais Storno oriģināla formā var radīt problēmu. Ja sākotnējā dokumenta datums atšķiras no Storno ieraksta datuma, tas var apgrūtināt pareizas summas valūtā iegūšanu. Tāpēc daļējo Storno ir atļauts izmantot tikai noteiktiem dokumentiem. Dynamics 365 Finanses sniedz daļēju Storno funkcionalitāti dokumentiem un valstīm/reģioniem, kur tas ir atļauts.
 
 ## <a name="how-to-enter-storno-on-journal-lines"></a>Storno ieraksta ievadīšana žurnāla rindās
 Lai veiktu Storno ierakstu, žurnāla rindā ievadiet debeta vai kredīta summu ar negatīvu zīmi. Grāmatošanas procesa laikā tiek iestatīts lauks **Labojums**. 

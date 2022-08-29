@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910554"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279573"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
@@ -117,7 +117,29 @@ Papildinformāciju par dāvanu kartēm skatiet sadaļā [E-commerce ciparu dāva
 
 ### <a name="customer-created"></a>Debitors ir izveidots
 
-*Izveidotā klienta* paziņojuma tips tiek parādīts, kad programmā Commerce Headquarters tiek izveidota jauna klienta entītija.
+*Izveidotā klienta* paziņojuma tips tiek parādīts, kad programmā Commerce Headquarters tiek izveidota jauna klienta entītija. 
+
+Lai iespējotu debitora izveidotos paziņojumus, programmā Commerce headquarters tiek atvērts iestatījuma **\>\> Parametru Commerce \> parametros \> Vispārīgi iestatījums Programmā Commerce**. E-pasta **paziņojumu profila** nolaižamajā sarakstā atlasiet e-pasta paziņojuma profilu, kurā ir ietverts debitora izveidotā paziņojuma veids. 
+
+Pēc noklusējuma debitora izveidotie notikumi tiek augšupielādēti galvenajā birojā, izmantojot sinhronizētu **debitorus un kanāla pieprasījumu pakešuzdevumu**. Ja vēlaties izmantot reāllaika pakalpojuma izsaukumu, lai nosūtītu šos notikumus, iestatiet debitora izveidotās veidnes e-pasta ID **uz newCust**. Tomēr tas nav ieteicams, jo reāllaika pakalpojuma izsaukumi ir "atlaists un aizmirst" izsaukumi, un nav regresa vai atkārtotās loģikas, ko nodrošina pakešuzdevumi.
+
+> [!NOTE] 
+> Kad iespējojat debitoru izveidotos paziņojumus, debitori, kas ir izveidoti visos juridiskās personas kanālos, saņems debitora izveidoto e-pastu. Pašlaik debitora izveidotos paziņojumus nevar ierobežot ar vienu kanālu.  
+
+Ja tiek izsaukta, izmantojot pakešuzdevumu, debitora izveidotais paziņojuma tips atbalsta šādu vietturi.
+
+| Viettura nosaukums | Apraksts                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Tā debitora vārds un uzvārds, kas izveidoja kontu. |
+
+Ja tiek izsaukts, izmantojot reāllaika pakalpojuma izsaukumu, debitora izveidotais paziņojuma tips atbalsta šādus vietturus.
+
+| Viettura nosaukums | Apraksts                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Vārds/nosaukums             | Tā debitora vārds un uzvārds, kas izveidoja kontu. |
+| E-pasta adrese            | Konta izveidotā debitora e-pasta adrese.    |
+| Tālruņa numurs            | Konta izveidotā debitora tālruņa numurs.      |
+| URL              | Debitora vietrāža URL, kad tas izveidoja kontu. |
 
 ### <a name="b2b-prospect-approved"></a>B2B potenciālais klients ir apstiprināts
 

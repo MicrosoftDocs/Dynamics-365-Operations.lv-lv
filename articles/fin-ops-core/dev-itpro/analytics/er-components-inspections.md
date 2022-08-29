@@ -1,26 +1,26 @@
 ---
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā rakstā skaidrots, kā pārbaudīt konfigurētos elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864841"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277856"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
@@ -30,8 +30,8 @@ Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.m
 
 Pēc noklusējuma validācija tiek automātiski pielietota tālāk norādītajos ER konfigurācijas gadījumos, kas satur iepriekš minētos ER komponentus.
 
-- Jūs [importējat](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally)[jaunu](general-electronic-reporting.md#component-versioning) ER konfigurācijas versiju savā Microsoft Dynamics 365 Finanšu instancē.
-- Tiek mainīts rediģējamās ER konfigurācijas [statuss](general-electronic-reporting.md#component-versioning) no **Melnraksts** uz **Pabeigts**.
+- Jūs [importējat](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) jaunu ER konfigurācijas versiju savā Microsoft Dynamics 365 Finanšu instancē.
+- Rediģējama ER konfigurācijas statusu no Melnraksts var mainīt **uz** **Pabeigts**.
 - Tiek [pārbāzēta](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) rediģējama ER konfigurācija, pielietojot jaunu bāzes versiju.
 
 Noteikti varat palaist šo validāciju. Atlasiet vienu no tālāk norādītajām trim opcijām un sekojiet piedāvātajām darbībām.
@@ -770,7 +770,7 @@ Modificējiet konfigurēto formātu, noņemot saistījumu formāta elementam **N
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Nav saistīta veidne
 
-Ja [manuāli](er-fillable-excel.md#manual-entry) konfigurējat ER formāta komponentu, lai izmantotu veidni izejošā dokumenta ģenerēšanai, ir manuāli jāpievieno elements **Excel\\Fails**, jāpievieno vajadzīgā veidne kā rediģējamā komponenta pielikums un jāatlasa šis pielikums pievienotajā elementā **Excel\\Fails**. Šādā veidā norādīsiet, ka pievienotais elements aizpildīs atlasīto veidni izpildlaikā. Konfigurējot formāta komponenta versiju **Melnraksts** [statusā](general-electronic-reporting.md#component-versioning), varat pievienot vairākas veidnes rediģējamam komponentam un pēc tam atlasīt katru veidni elementā **Excel\\Fails**, lai palaistu ER formātu. Šādā veidā varat redzēt, kā dažādas veidnes tiek aizpildītas izpildlaikā. Ja jums ir veidnes, kas nav atlasītas nevienā elementā **Excel\\Fails**, ER formāta veidotājs brīdina, ka šīs veidnes tiks dzēstas no rediģējamās ER formāta komponentu versijas, kad tās statuss tiek mainīts no **Melnraksts** uz **Pabeigts**.
+Ja [manuāli](er-fillable-excel.md#manual-entry) konfigurējat ER formāta komponentu, lai izmantotu veidni izejošā dokumenta ģenerēšanai, ir manuāli jāpievieno elements **Excel\\Fails**, jāpievieno vajadzīgā veidne kā rediģējamā komponenta pielikums un jāatlasa šis pielikums pievienotajā elementā **Excel\\Fails**. Šādā veidā norādīsiet, ka pievienotais elements aizpildīs atlasīto veidni izpildlaikā. Konfigurējot formāta komponenta **versiju** melnraksta statusā, rediģējamam komponentam var pievienot vairākas veidnes un pēc tam atlasīt katru veidni Excel **\\ faila elementā,** lai darbinātu ER formātu. Šādā veidā varat redzēt, kā dažādas veidnes tiek aizpildītas izpildlaikā. Ja jums ir veidnes, kas nav atlasītas nevienā elementā **Excel\\Fails**, ER formāta veidotājs brīdina, ka šīs veidnes tiks dzēstas no rediģējamās ER formāta komponentu versijas, kad tās statuss tiek mainīts no **Melnraksts** uz **Pabeigts**.
 
 Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
 

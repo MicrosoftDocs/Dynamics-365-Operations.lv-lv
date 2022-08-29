@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065155"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334391"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
 
@@ -26,7 +26,7 @@ ms.locfileid: "9065155"
 
 Vaicājumu, kas tiek izmantoti rīcībā esošo krājumu aprēķināšanai, veiktspēju ietekmē to ierakstu skaits, kas atrodas iesaistītajās tabulās. Viens no veiktspējas uzlabošanas veidiem ir samazināt to ierakstu skaitu, kuri datu bāzei ir jāņem vērā.
 
-Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas dzēš nevajadzīgos ierakstus un `InventSum` tabulas `WHSInventReserve`. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WMS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
+Šajā rakstā ir aprakstīts rīcībā esošo ierakstu tīrīšanas darbs, kas dzēš nevajadzīgos ierakstus un `InventSum` tabulas`WHSInventReserve`. Šajās tabulas tiek glabāta rīcībā esošā informācija par krājumiem, kas ir iespējoti noliktavas pārvaldības apstrādei. (Šie krājumi tiek saukti par WMS krājumiem.) Šo ierakstu dzēšana var būtiski uzlabot rīcībā esošo aprēķinu veiktspēju.
 
 ## <a name="what-the-cleanup-job-does"></a>Kas ir tīrīšanas darbs
 
@@ -39,7 +39,7 @@ Ja ir atļauti negatīvi fiziskie krājumi, tīrīšanas darbs, iespējams, neva
 Rīcībā esošo ierakstu tīrīšanas darbs ir pieejams **Krājumu vadība \> Periodiskie uzdevumi \> Tīrīt \> Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšana**. Lietojiet standarta darba iestatījumus, lai kontrolētu darba izpildes jomu un grafiku. Turklāt tiek nodrošināti tālāk minētie iestatījumi.
 
 - **Dzēst, ja nav atjaunināts ... dienas** — ievadiet minimālo dienu skaitu, cik ilgi darbam jāgaida, pirms tas dzēš rīcībā esošo ierakstu, kas ir samazinājies līdz nulles daudzumam. Izmantojiet šo iestatījumu, lai samazinātu to rīcībā esošo ierakstu dzēšanas risku, kas joprojām tiek lietoti. Ja vēlaties tīrīšanu veikt pēc iespējas drīzāk, ievadiet *0* (nulle) vai atstājiet lauku tukšu.
-- **Maksimālais izpildes laiks (stundas)** — ievadiet tīrīšanas darba maksimālo izpildes laiku stundās. Ja darbs nav pabeigts pirms šī laika beigām, tas saglabās līdz šim paveikto darbu un pēc tam tiks aizvērts. Šī iespēja ir īpaši svarīga implementācijām, kurās ir augsta krājumu izmantošana. Šādos gadījumos darbs ir jāplāno, lai tas darbotos laikā, kad sistēmas noslodze ir iespējami mazāka. Ja vēlaties, lai pakešuzdevums turpinātu darboties, līdz tas ir pabeigts, ievadiet *0* (nulle) vai atstājiet lauku tukšu. Šis iestatījums ir pieejams tikai tad, ja saistītais līdzeklis [sistēmā ir ieslēgts](#max-execution-time).
+- **Maksimālais izpildes laiks (stundas)** — ievadiet tīrīšanas darba maksimālo izpildes laiku stundās. Ja darbs nav pabeigts pirms šī laika beigām, tas saglabās līdz šim paveikto darbu un pēc tam tiks aizvērts. Šī iespēja ir īpaši svarīga implementācijām, kurās ir augsta krājumu izmantošana. Šādos gadījumos darbs ir jāplāno, lai tas darbotos laikā, kad sistēmas noslodze ir iespējami mazāka. Ja vēlaties, lai pakešuzdevums turpinātu darboties, līdz tas ir pabeigts, ievadiet *0* (nulle) vai atstājiet lauku tukšu. Šis iestatījums ir pieejams tikai tad, ja saistīta funkcija [ir ieslēgta jūsu sistēmai](#max-execution-time).
 
 Lai gan darbu varat palaist regulāro darba stundu laikā, iesakām to palaist ārpus darba laika. Tādējādi jūs palīdzat novērst konfliktus, kas var rasties, ja lietotājs strādā ar ierakstu, kas tiek arī tīrīts.
 

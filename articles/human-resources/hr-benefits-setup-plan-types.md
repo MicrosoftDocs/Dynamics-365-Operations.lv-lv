@@ -14,19 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6ca14156c165ca3f536fc0120ebd03883284eb18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687112"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337304"
 ---
 # <a name="plan-type-overview"></a>Plānot veidu pārskatu
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Plāna veids ir noteikta veida atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipam **Pamata dzīve** būtu plāna tipa kods **Dzīve**, jo tas ir sava veida dzīvības apdrošināšanas plāna tips, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam **Dzīve**. Cits plāna tips varētu būt **Papildu dzīve**. Šim plāna tipam būs arī plāna tipa **Dzīve** kods.
 
@@ -67,12 +64,12 @@ Plāna tips var definēt vajadzību opcijas. Vajadzības opcijas ir definētas l
    | --- | --- |
    | **Plāna tips** | Plāna veids, kuram konfigurēt dzīves notikuma opcijas. |
    | **Dzīves notikuma veida ID** | Dzīves notikuma veida ID. |
-   | **Atļaut atcelšanu** | Norāda, vai darbinieks var atcelt atvieglojumu plānu dzīves notikuma laikā. |
    | **Mainīt vajadzības opciju** | Norāda, vai darbinieks var mainīt vajadzību opcijas dzīves notikuma laikā. |
    | **Mainīt uz jaunu plānu** | Norāda, vai darbinieks var mainīt plānus dzīves notikuma laikā. |
-   | **Automātiski atcelt plānu** | Tiek norādīts, vai automātiski atcelt plānu dzīves notikuma laikā. |
    | **Automātiski atkārtoti atvērt piemērotības pārbaudi** | Norāda, vai dzīves notikuma laikā automātiski atkārtoti jāatver atvieglojumu reģistrācijas atbilstības pārbaude. |
-   | **Pārskata veidošanas logs** | Norāda dzīves notikuma pārskata veidošanas logu dienās. **Piezīme**: Ja neievadāt summu, sistēma pieņem, ka pārskata logs ir nulle un dzīves notikumu neapstrādās. |
+   | **Dzīves notikuma reģistrācijas periods** | Norāda dzīves notikuma pārskata veidošanas logu dienās. **Piezīme**: Ja neievadāt summu, sistēma pieņem, ka pārskata logs ir nulle un dzīves notikumu neapstrādās. |
+   | **Rediģējams tikai administratori** | Norāda, vai administratori var atcelt vai rediģēt plānu dzīves notikuma laikā. Darbinieku pašapkalpošanās darbvietā **darbinieks nevar veikt izmaiņas**. |
+   | **Automātiski atcelt plānu** | Norāda, vai dzīves notikuma laikā plāns ir jāatceļ automātiski. Kad dzīves notikumu izmaiņas ir apstrādātas, **automātiskā atcelšanas plāna** opcija saglabās plāna atlasi. Tiks noņemts **tikai** statuss **Apstiprināts** vai Paņemts. Plāns paliek atlasīts. Tāpēc darbinieki, kuri neplāno plāna atlases dzīves notikuma reģistrēšanas periodā, zaudēs plāna atlasi. 
 
 5. Atlasiet **Saglabāt**. 
 

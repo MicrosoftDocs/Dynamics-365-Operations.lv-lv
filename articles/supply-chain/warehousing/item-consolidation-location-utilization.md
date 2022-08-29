@@ -2,7 +2,7 @@
 title: Krājumu konsolidācija — novietojuma utilizācija
 description: Šajā rakstā ir sniegta informācija par funkcionalitāti, kas noliktavas vadītājiem ļauj viegli apskatīt un filtrēt atrašanās vietu tilpuma izmantošanu noliktavā. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas Krājuma konsolidācija, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849189"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336429"
 ---
 # <a name="item-consolidation---location-utilization"></a>Krājumu konsolidācija — novietojuma utilizācija
 
@@ -30,8 +30,8 @@ ms.locfileid: "8849189"
 
 Pirms varat izmantot šajā rakstā aprakstītos līdzekļus, tie ir jāslēdz savā sistēmā. Administratori var izmantot darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu līdzekļu statusu un tos ieslēgtu, ja tas nepieciešams. Ieslēdziet abus šos līdzekļus, tādā secībā, kādā tie ir norādīti. (Abi līdzekļi ir paredzēti modulim **Noliktavas pārvaldība**.)
 
-1. Noliktavas vietas statuss
-2. Krājumu konsolidācijas novietojuma utilizācija
+1. *Noliktavas vietas statuss*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir obligāta un to nevar izslēgt. Papildinformāciju skatiet noliktavas [atrašanās vietas statusā](warehouse-location-status.md).
+2. *Krājumu konsolidācijas novietojuma utilizācija*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29, šī funkcija ir ieslēgta pēc noklusējuma.)
 
 ## <a name="warehouse-location-status"></a>Noliktavas vietas statuss
 

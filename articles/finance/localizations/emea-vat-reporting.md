@@ -1,25 +1,25 @@
 ---
 title: PVN pārskati Eiropai
 description: Šajā rakstā sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskata iestatīšanu un ģenerēšanu dažām Eiropas valstīm.
-author: ShylaThompson
+author: mrolecki
 ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
-ms.author: kfend
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e25b01133bfaa84186faf82c80f24a119b40ac2e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 266844
+ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
+ms.openlocfilehash: 54be8844fadf744cc5527001737ab470fcec46d5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856541"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283417"
 ---
 # <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
 
@@ -57,7 +57,7 @@ ms.locfileid: "8856541"
 > | Spānija          | [PVN deklarācija (Spānija)](emea-esp-vat-declaration-spain.md)              |
 > | Zviedrija         | [PVN deklarācija (Zviedrija)](emea-swe-vat-declaration-sweden.md)          |
 > | Šveice    | [PVN deklarācija (Šveice)](emea-che-vat-declaration-switzerland.md) |
-> | UK             | [Sagatavošanās integrēšanai MRD iekļaušanai PVN](emea-gbr-mtd-vat-integration.md) |
+> | Uk             | [Sagatavošanās integrēšanai MRD iekļaušanai PVN](emea-gbr-mtd-vat-integration.md) |
 
 ## <a name="vat-statement-overview"></a>PVN deklarācijas apskats
 PVN deklarācija ir balstīta uz nodokļu transakciju summām. PVN deklarācijas ģenerēšanas process ietilpst PVN maksājuma procesā, kurš ir ieviests ar funkciju Nosegt un grāmatot PVN. Šī funkcija aprēķina PVN, kurš ir jāmaksā par attiecīgo periodu. Nosegšanas aprēķinā ir iekļauts atlasītajam nosegšanas periodam nodokļu transakcijām grāmatotais PVN. Process PVN deklarācijas datu aprēķināšanai ir balstīts uz attiecībām starp PVN kodiem un PVN pārskatu kodiem, kur PVN pārskatu kodi atbilst PVN deklarācijas lodziņiem (vai etiķetēm XML failā). Attiecībā uz katru PVN kodu ir jāiestata PVN pārskatu kodi katram transakcijas tipam, piemēram, ar nodokli apliekamajai pārdošanai, ar nodokli apliekamajiem pirkumiem, ar nodokli apliekamajam importam. Šī veida darbības ir aprakstītas PVN kodus PVN pārskatu sadaļai tālāk šajā rakstā.
