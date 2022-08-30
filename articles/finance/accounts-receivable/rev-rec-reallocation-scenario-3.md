@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 3. scenārijs
 description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek pievienota esošam, rēķinā iekļautam pārdošanas pasūtījumam. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e76c077aa24813c9b6ac8c72db06b38cedaafd18
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904821"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348189"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Ieņēmumu atzīšanas atkārtota sadale — 3. scenārijs
 
@@ -70,13 +70,13 @@ Tika atjaunināts arī ieņēmumu atzīšanas grafiks, ņemot vērā jauno ieņ�
 
 Ja tiek atlasīts **Dokuments**, rēķinu žurnālā tiek rādīts sākotnējais uzskaites ieraksts. Lai pārdošanas pasūtījumā skatītu storno ierakstu un jauno uzskaites ierakstu, darbību rūtī atlasiet **Ieņēmumu korekcijas** un pēc tam atlasiet **Dokuments**.
 
-Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Transakcijas**. **Debitora transakciju** lapa rāda oriģinālo rēķinu (000006), stornējamo dokumentu (000006-1) un jauno rēķinu (000006-2). Oriģinālais rēķins un stornējamais dokuments tiek segti viens pret otru un to bilance ir 0 (nulle). Apskatiet katru dokumentu, lai redzētu ietekmi virsgrāmatā.
+Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Darījumi**. **Debitora darījumu** lapa rāda oriģinālo rēķinu (000006), stornējamo dokumentu (000006-1) un jauno rēķinu (000006-2). Oriģinālais rēķins un stornējamais dokuments tiek segti viens pret otru un to bilance ir 0 (nulle). Apskatiet katru dokumentu, lai redzētu ietekmi virsgrāmatā.
 
-[![Oriģinālais rēķins, stornējamais dokuments un jaunais rēķins debitora transakciju lapā.](./media/35_rev-rec-scenarios.png)](./media/35_rev-rec-scenarios.png)
+[![Oriģinālais rēķins, stornējamais dokuments un jaunais rēķins debitora darījumu lapā.](./media/35_rev-rec-scenarios.png)](./media/35_rev-rec-scenarios.png)
 
 Par pievienoto krājumu vēlreiz tiek izrakstīts rēķins pārdošanas pasūtījumam. Kopējais debitoram iesniegtais rēķins ir šāds: 300,00 $ + 19,50 $ nodoklis= 319,50 $. Šajā ilustrācijā parādīts grāmatotais uzskaites ieraksts.
 
-[![Dokumenta transakciju lapa ar grāmatoto uzskaites ierakstu.](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
+[![Dokumenta darījumu lapa ar grāmatoto uzskaites ierakstu.](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Tā kā ieņēmumu un pārdošanas summa ir lielāka par 319,50 $, iegrāmatotā starpība ir 14,48 $. Šī summa notīra bilanci no daļējā rēķina ieņēmumu klīringa konta. Šī bilance tiek atjaunināta jaunajā uzskaites ierakstā, kas tika grāmatots pēc atkārtotās sadales.
 

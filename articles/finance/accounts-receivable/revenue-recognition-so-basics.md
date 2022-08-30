@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšana pārdošanas pasūtījumos
 description: Šajā rakstā aprakstīta pamata funkcionalitāte ieņēmumu atzīšanai pārdošanas pasūtījumos un rēķinos. Ieņēmumu atzīšana ir pieejama pārdošanas pasūtījumā un attiecīgajā rēķinā, kas tiek izveidots no pārdošanas pasūtījuma.
-author: kweekley
+author: bking
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb031b41c07aaff06b41830fb0c322503e9f27ec
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899962"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348244"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Ieņēmumu atzīšana pārdošanas pasūtījumos
 
@@ -84,7 +84,7 @@ Pēc tam pārdošanas pasūtījumam var izveidot pavadzīmi. Iegrāmatojot pavad
 
 Pēdējā darbība ir pārdošanas pasūtījuma iekļaušana rēķinā. Paskatoties uz rēķina dokumentu, jūs redzēsit ka ieņēmumi par krājumiem S0001 un S0008 tika atlikti (321,21 + 160,61 = 481,82 ASV dol.), un atlikusī summa par krājumu S0012 tika iegrāmatota ieņēmumos (1 017,18). Šīs vērtības pievieno 1499 $, kas atbilst pārdošanas pasūtījuma rindu summai.
 
-[![Dokumentu transakcijas.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Dokumentu darījumi.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Pēc rēķina izveides pogas **Ieņēmumu cenas sadalījums**, **Atkārtoti sadalīt cenu ar jaunām pasūtījuma rindām** un **Ieņēmumu atzīšanas grafiks** ieņēmumu atzīšanai kļūst pieejamas, bet pogas **Atjaunināt ieņēmumu cenas sadalījumu** un **Plānotais ieņēmumu atzīšanas grafiks** nav pieejamas.
 

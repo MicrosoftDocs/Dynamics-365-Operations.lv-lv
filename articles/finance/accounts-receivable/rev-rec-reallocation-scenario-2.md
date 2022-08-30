@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
 description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5f8dac2991b309bb91faaa3107480ca3860af008
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904849"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348387"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
 
@@ -81,11 +81,11 @@ Ja pārdošanas pasūtījumā 000036 tiek atlasīts **Dokuments**, rēķinu žur
 
 [![Pārdošanas pasūtījums 000036.](./media/23_rev-rec-scenarios.png)](./media/23_rev-rec-scenarios.png)
 
-Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Transakcijas**. Tiks parādīts atvērtais rēķins no pārdošanas pasūtījuma 000036. Ja atlasīsit dokumentu, tiks parādīts sākotnējais uzskaites ieraksts, nevis jaunais uzskaites ieraksts no atkārtotās sadales. Stornējamo ierakstu un jauno uzskaites ierakstu nevar skatīt debitoru parādu sadaļā.
+Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Darījumi**. Tiks parādīts atvērtais rēķins no pārdošanas pasūtījuma 000036. Ja atlasīsit dokumentu, tiks parādīts sākotnējais uzskaites ieraksts, nevis jaunais uzskaites ieraksts no atkārtotās sadales. Stornējamo ierakstu un jauno uzskaites ierakstu nevar skatīt debitoru parādu sadaļā.
 
 Otrais pārdošanas pasūtījums tagad ir iekļauts rēķinā. Kopējais debitoram iesniegtais rēķins ir šāds: 1099,00 $ + 71,44 $ nodoklis= 1170,44 $. Šajā ilustrācijā parādīts grāmatotais uzskaites ieraksts.
 
-[![Dokumenta transakciju lapa ar grāmatoto uzskaites ierakstu.](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
+[![Dokumenta darījumu lapa ar grāmatoto uzskaites ierakstu.](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Tā kā ieņēmumu un pārdošanas summa ir lielāka par 1170,44 $, iegrāmatotā starpība ir -130,17 $. Šī summa notīra bilanci no daļējā rēķina ieņēmumu klīringa konta. Šī bilance tiek grāmatota jaunajā uzskaites ierakstā pēc atkārtotās sadales.
 

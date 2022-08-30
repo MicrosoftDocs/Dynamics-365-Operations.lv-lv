@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Jaunumi un izmaiņas programmā Human Resources
               items:
+                - name: Human Resources 10.0.29 (sapludinātā infrastruktūra)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (sapludinātā infrastruktūra)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (sapludinātā infrastruktūra)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: Atvieglojumu pārvaldības un darbinieku pašapkalpošanās parametru iestatīšana visiem uzņēmumiem
                   href: hr-benefits-setup-parameters.md
+                - name: Administratora tiesību dzīves notikumiem konfigurēšana
+                  href: admin-life-events.md
+                - name: E-pasta paziņojumu atvieglojumiem konfigurēšana
+                  href: hr-email-notifications.md
                 - name: Piemērotības kārtulu un opciju konfigurēšana
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: Personīgās saziņas piemērotības opciju konfigurēšana

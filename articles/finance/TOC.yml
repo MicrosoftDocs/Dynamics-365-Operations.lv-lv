@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (oktobris)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (augusts)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (jūlijs)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Proaktīvi kvalitātes atjauninājumi
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: 'ISV risinājumu nodrošināšana, izmantojot One Version'
@@ -336,7 +340,7 @@
                   href: accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: Kreditoru maksājumi par daļēju summu
                   href: accounts-payable/vendor-payments-partial-amount.md
-                - name: Kreditora darbību saraksta lapa
+                - name: Kreditora darījumu saraksta lapa
                   href: accounts-payable/vendor-transaction-list-page.md
         - name: Debitori
           items:
@@ -386,7 +390,7 @@
               href: accounts-receivable/tasks/create-sales-order-invoices.md
             - name: Debitora rēķina izveide
               href: accounts-receivable/configure-customer-invoices.md
-            - name: Debitora darbību saraksta lapa
+            - name: Debitora darījumu saraksta lapa
               href: accounts-receivable/customer-transactions-list-page.md
             - name: Vekseļu iestatīšana
               href: accounts-receivable/set-up-bills-exchange.md
@@ -454,7 +458,7 @@
                       href: accounts-receivable/Deferral-posting-methods.md
                     - name: Atlikšanas grafiku izveide
                       href: accounts-receivable/sb-deferrals-schedules.md
-                    - name: Atlikto maksājumu noklusējuma transakcijas
+                    - name: Atlikto maksājumu noklusējuma darījumi
                       href: accounts-receivable/sb-deferral-transactions.md
                 - name: Vairākelementu ieņēmumu sadalījums
                   items:
@@ -582,7 +586,7 @@
               href: budgeting/position-forecasting.md
             - name: Budžeta plānošanas attaisnojuma dokumenti
               href: budgeting/budget-planning-justification-docs.md
-            - name: Izveidot budžetu no transakciju kontiem un kopsummu kontiem
+            - name: Izveidot budžetu no darījumu kontiem un kopsummu kontiem
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
             - name: Budžeta plāna stāstījums
               href: budgeting/budget-narrative.md
@@ -1112,13 +1116,15 @@
                       href: general-ledger/tasks/create-journal-entry-template.md
                     - name: Virsgrāmatas sadalījumu žurnāla apstrāde
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: Žurnālu ierakstu vai transakciju skatīšana
+                    - name: Žurnālu ierakstu vai darījumu skatīšana
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Virsgrāmatas dokumentu iekšējo datu rediģēšanas atļaušana
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Saistītā starpuzņēmuma dokumenta skatīšana no žurnāla
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Žurnālu rindu un dokumentu publicēšana no Excel
                       href: general-ledger/open-lines-excel-journals-documents.md
-                    - name: Virsgrāmatas uzkrājumu transakciju izveide
+                    - name: Virsgrāmatas uzkrājumu darījumu izveide
                       href: general-ledger/tasks/create-ledger-accrual-transactions.md
                     - name: Viens dokuments
                       href: general-ledger/one-voucher.md
@@ -1134,9 +1140,9 @@
                       href: accounts-payable/accounting-source-explorer.md
             - name: Pārskati un pieprasījumi
               items:
-                - name: Žurnālu ierakstu un transakciju skatīšana
+                - name: Žurnālu ierakstu un darījumu skatīšana
                   href: general-ledger/view-journal-entries-transactions.md
-                - name: Apgrozījuma bilance ar transakcijas detalizētu pārskatu
+                - name: Apgrozījuma bilance ar darījuma detalizētu pārskatu
                   href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Virsgrāmatas izraksts pēc galvenā konta
                   href: general-ledger/general-ledger-statement-by-main-account.md
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Francijā
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Polijā
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Elektroniskās rēķinu izrakstīšanas pievienošana Saūda Arābijā
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Italian FatturaPA tiešas integrācijas ar SDI iestatīšana
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: 'Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus'
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Nodokļu aprēķins
@@ -1640,14 +1652,18 @@
                               href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
-                            - name: "PVN\_deklarācija"
+                            - name: PVN deklarācija
                               href: localizations/emea-nl-vat-declaration-netherlands.md
-                            - name: "ES\_pārdošanas saraksts"
+                            - name: ES pārdošanas saraksts
                               href: localizations/emea-nl-eu-sales-list.md
                         - name: Norvēģijas pārskatu veidošana
                           items:
-                            - name: "PVN\_deklarācija"
+                            - name: PVN deklarācija
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Polijas pārskatu veidošana
+                          items:
+                            - name: PVN deklarācija
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Spānijas pārskatu veidošana
                           items:
                             - name: 'Tūlītēja informācijas piegāde par PVN (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,13 +1730,15 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: PVN aprēķināšana un koriģēšana kreditora rēķinā
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: 'PVN koriģēšana, izmantojot vispārējos žurnālus'
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Novēlotu nodokļu aprēķināšanas iespējošana žurnālā
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: PVN maksājuma izveide
                       href: general-ledger/tasks/create-sales-tax-payment.md
                     - name: 'Nodokļu apmaksas noapaļošana, pamatojoties uz pielāgotām valūtas decimāldaļām'
                       href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                    - name: PVN transakciju izveide dokumentos
+                    - name: PVN darījumu izveide dokumentos
                       href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                     - name: Virsgrāmatas PVN grāmatošanas grupu iestatīšana
                       href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
@@ -1734,7 +1752,7 @@
                       href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
                     - name: Divkāršās valūtas atbalsts PVN
                       href: general-ledger/dual-currency-for-tax.md
-                    - name: Pārskats par PVN specifikāciju pēc virsgrāmatas transakcijām
+                    - name: Pārskats par PVN specifikāciju pēc virsgrāmatas darījumiem
                       href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                     - name: Virsgrāmatas pārskats pa galvenajiem kontiem ar PVN specifikāciju pārskatu
                       href: general-ledger/general-ledger-statement-by-main-account.md
@@ -1742,7 +1760,7 @@
                       href: general-ledger/standard-audit-file.md
                     - name: Iestatīt PVN apmaksas periodus
                       href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                    - name: Grāmatoto PVN darbību skatīšana
+                    - name: Grāmatoto PVN darījumu skatīšana
                       href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                     - name: PVN maksājumu drukāšana pēc koda pārskata
                       href: general-ledger/print-sales-tax-payment-by-code-report.md
@@ -1770,9 +1788,11 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Globālā ieturētā nodokļa iestatīšana
                           href: general-ledger/set-up-global-withholding-tax.md
-                        - name: Ieturētais nodoklis pirkšanas darbībās
+                        - name: Globālā ieturētā nodokļa valūtas maiņas kursa tipa un datuma veida iestatījumu iespējošana
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
+                        - name: Ieturētais nodoklis pirkšanas darījumos
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
-                        - name: Ieturētais nodoklis pārdošanas darbībās
+                        - name: Ieturētais nodoklis pārdošanas darījumos
                           href: general-ledger/withholding-tax-in-sales-transactions.md
                         - name: Ieturētā nodokļa maksājuma izveide
                           href: general-ledger/create-a-withholding-tax-payment.md
@@ -1830,9 +1850,9 @@
                   href: localizations/belgium.md
                 - name: CODA bankas izraksts
                   href: localizations/emea-bel-coda-bank-statement-import.md
-                - name: Transakciju izveide un pārsūtīšana uz BLWI
+                - name: Darījumu izveide un pārsūtīšana uz BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: Virsgrāmatas transakciju eksportēšana
+                - name: Virsgrāmatas darījumu eksportēšana
                   href: localizations/emea-bel-export-ledger-transactions.md
                 - name: "ES\_pārdošanas saraksts"
                   href: localizations/emea-bel-eu-sales-list.md
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NF-e XML failu kā pielikumu pārvietošana
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: "NT2021.004\_— izkārtojuma un apstiprināšanas atjauninājumi elektroniskajā finanšu dokumentā (NF-e)"
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: "NT2020.005\_— izkārtojuma un apstiprināšanas atjauninājumi elektroniskajā finanšu dokumentā (NF-e)"
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — starpnieka pārdošanas digitālā platforma NF-e
@@ -1982,7 +2004,7 @@
                   href: localizations/latam-bra-ciap-fixed-asset.md
                 - name: CIAP pamatlīdzekļa izslēgšana
                   href: localizations/latam-bra-ciap-fixed-asset.md
-                - name: CIAP transakcijas ievade
+                - name: CIAP darījuma ievade
                   href: localizations/tasks/br-10020-1-enter-ciap-transaction.md
                 - name: CIAP kredīta summas aprēķins
                   href: localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
@@ -2018,9 +2040,9 @@
                       href: localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
                     - name: "Ar nodokli apliekamās vērtības izveide\_— PIS un COFINS\_nodoklis"
                       href: localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: Nodokļu korekcijas transakciju ievade un grāmatošana
+                    - name: Nodokļu korekcijas darījumu ievade un grāmatošana
                       href: localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: "PIS un COFINS\_nodokļu korekcijas transakciju ievade"
+                    - name: "PIS un COFINS\_nodokļu korekcijas darījumu ievade"
                       href: localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
                     - name: Finanšu iestādes nodokļu atribūti
                       href: localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
@@ -2212,7 +2234,7 @@
                   items:
                     - name: Avansa turētāju pārskats
                       href: localizations/emea-advance-holders.md
-                    - name: Avansu turētāju transakcijas
+                    - name: Avansu turētāju darījumi
                       href: localizations/emea-advance-holders-transactions.md
                     - name: Avansa maksājums darbiniekam (Austrumeiropa)
                       href: localizations/tasks/advance-payment-employee.md
@@ -2272,9 +2294,9 @@
                   items:
                     - name: Intrastat pārskats
                       href: localizations/emea-intrastat.md
-                    - name: Transakciju pārsūtīšana uz Intrastat
+                    - name: Darījumu pārsūtīšana uz Intrastat
                       href: localizations/tasks/transfer-transactions-intrastat.md
-                    - name: "EK\_iekšējās transakcijas iekraušanas adreses norādīšana"
+                    - name: "EK\_iekšējā darījuma iekraušanas adreses norādīšana"
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: ES Intrastat deklarācijas ģenerēšana
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
@@ -2322,7 +2344,7 @@
                   href: localizations/emea-set-up-signers-for-printing-forms.md
                 - name: Pārsūtīšanas dokumentu par preču kustību uzņēmumā iestatīšana
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
-                - name: "EK\_iekšējās transakcijas iekraušanas adreses norādīšana"
+                - name: "EK\_iekšējā darījuma iekraušanas adreses norādīšana"
                   href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                 - name: Storno uzskaite
                   href: localizations/emea-storno.md
@@ -2342,7 +2364,7 @@
                       href: localizations/emea-vat-exchange-rate.md
                     - name: PVN saskaņošanas pārskats
                       href: localizations/tasks/eur-00018-vat-reconciliation-report.md
-                    - name: PVN reģistra transakcijas Austrumeiropai
+                    - name: PVN reģistra darījumi Austrumeiropai
                       href: localizations/emea-vat-register-transactions.md
                     - name: Nodokļu punkta datums (PVN reģistra datums)
                       href: localizations/emea-tax-point-date.md
@@ -2352,7 +2374,7 @@
                       href: localizations/tasks/create-submit-vat-report.md
                     - name: Kreditora PVN reģistra datums
                       href: localizations/emea-date-vendor-vat-register.md
-                - name: Segšanas transakciju skatīšana
+                - name: Segšanas darījumu skatīšana
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Finanšu pamatojums
                   href: localizations/emea-financial-reason.md
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Auditācijas pieraksti un audita žurnāli uzskaites programmatūrā
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Elektroniskie rēķini Indijā
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Netiešie nodokļi
                   items:
                     - name: "Indijas\_GST"
@@ -2610,9 +2634,9 @@
                               href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
                             - name: Indijas GST atsauces grupas
                               href: localizations/apac-ind-gst-reference-groups.md
-                        - name: Nodokļu transakcijas
+                        - name: Nodokļu darījumi
                           items:
-                            - name: Pirkšanas transakcijas
+                            - name: Pirkšanas darījumi
                               items:
                                 - name: Pirkumi no nereģistrētiem kreditoriem
                                   href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
@@ -2650,7 +2674,7 @@
                                   href: localizations/ind-gst-tds-payment-goods-services.md
                                 - name: "GST\_TCS par preču un pakalpojumu apmaksu"
                                   href: localizations/ind-gst-tcs-payment.md
-                            - name: Pārdošanas transakcijas
+                            - name: Pārdošanas darījumi
                               items:
                                 - name: Ar nodokli apliekamu preču pārdošana patērētājiem
                                   href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
@@ -2680,7 +2704,7 @@
                                   href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
                                 - name: Atgrieztie pasūtījumi
                                   href: localizations/apac-ind-GST-return-order-form.md
-                            - name: Ārvalstu transakcijas
+                            - name: Ārvalstu darījumi
                               items:
                                 - name: 'Preču imports, ko apliek ar GST'
                                   href: localizations/apac-ind-GST-import-goods-gst.md
@@ -2694,13 +2718,13 @@
                                   href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                                 - name: Kredīta vai debeta nota pret eksporta pasūtījumu
                                   href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
-                            - name: Krājumu pārskaitījumu transakcijas
+                            - name: Krājumu pārskaitījumu darījumi
                               items:
                                 - name: Krājumu pārskaitījumu pasūtījumi
                                   href: localizations/apac-ind-stock-transfer.md
                                 - name: 'Krājumu pārsūtīšanas pasūtījumi, kuros pārsūtīšanas cenai tiek piemērots nodoklis'
                                   href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                            - name: Debitora maksājuma darbības
+                            - name: Debitora maksājuma darījumi
                               items:
                                 - name: 'Avansa maksājumi, kas ietver nodokļus'
                                   href: localizations/apac-ind-GST-advance-payment-includes-tax.md
@@ -2754,7 +2778,7 @@
                               href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
                             - name: Nav ģenerēts TaxTrans vai dokuments
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
-                            - name: Nodokļu transakcijas ID nav pareizs
+                            - name: Nodokļu darījuma ID nav pareizs
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                             - name: "Nepareizas lauku vērtības GSTR\_pārskatā"
                               href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
@@ -2846,19 +2870,19 @@
                                   href: localizations/apac-ind-TDS-Split-invoice-functionality.md
                             - name: "TDS\_aprēķins maksājumiem un parādzīmēm"
                               href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                            - name: "TDS\_aprēķins starpuzņēmumu transakcijām"
+                            - name: "TDS\_aprēķins starpuzņēmumu darījumiem"
                               href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
                             - name: "TDS\_apmaksas process"
                               items:
                                 - name: "TDS\_aprēķins maksājumiem un parādzīmēm"
                                   href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                                - name: "TDS\_aprēķins starpuzņēmumu transakcijām"
+                                - name: "TDS\_aprēķins starpuzņēmumu darījumiem"
                                   href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
                                 - name: "Periodiskā TDS\_apmaksas procesa izpilde"
                                   href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
                                 - name: "TDS\_maksājumu apmaksa TDS\_iestāžu kreditoriem un TDS\_Challan ģenerēšana"
                                   href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                                - name: "Iegrāmatoto TDS\_maksājumu un TDS\_apmaksas perioda transakciju skatīšana"
+                                - name: "Iegrāmatoto TDS\_maksājumu un TDS\_apmaksas perioda darījumu skatīšana"
                                   href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: Pamatlīdzekļi
                   items:
@@ -2874,7 +2898,7 @@
                       href: localizations/apac-ind-calculate-post-depreciation.md
                     - name: Maiņas tipa un nozares definēšana grāmatās un pievienošana pamatlīdzekļiem
                       href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Pamatlīdzekļu transakciju anulēšana
+                    - name: Pamatlīdzekļu darījumu anulēšana
                       href: localizations/apac-ind-reverse-fixed-assets-transactions.md
                     - name: Maiņas nolietojuma aprēķins
                       href: localizations/apac-ind-calculation-shift-depreciation.md
@@ -2890,7 +2914,7 @@
                       items:
                         - name: "TDS\_atgūstamo sertifikātu numuru reģistrēšana"
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: "TDS\_sertifikātu numuru un datumu atjaunināšana TDS\_transakcijām"
+                        - name: "TDS\_sertifikātu numuru un datumu atjaunināšana TDS\_darījumiem"
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Indonēzija
               items:
@@ -3128,11 +3152,11 @@
                   href: localizations/tasks/settle-endorsed-bill-exchange.md
                 - name: 'Debitora konsolidēto rēķinu nosegšana, izmantojot maksājumu žurnālu'
                   href: localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: 'Debitora konsolidēto rēķinu nosegšana, izmantojot nosegšanas transakcijas'
+                - name: 'Debitora konsolidēto rēķinu nosegšana, izmantojot nosegšanas darījumus'
                   href: localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
                 - name: 'Kreditora konsolidēto rēķinu nosegšana, izmantojot maksājumu žurnālu'
                   href: localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: 'Kreditora konsolidēto rēķinu nosegšana, izmantojot nosegšanas transakcijas'
+                - name: 'Kreditora konsolidēto rēķinu nosegšana, izmantojot nosegšanas darījumus'
                   href: localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
                 - name: Pamatlīdzekļu salikšanas saraksta izmantošana
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
@@ -3352,7 +3376,7 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Detalizēta informācija par konkrētiem biznesa scenārijiem JPK-V7M pārskatā
                       href: localizations/emea-pol-vdek-scenarios.md
-                - name: Maksājumu nosacījumi tirdzniecības darbību pārskatā
+                - name: Maksājumu nosacījumi tirdzniecības darījumu pārskatā
                   href: localizations/emea-pol-payment-terms-report.md
             - name: Katara
               items:
@@ -3366,9 +3390,9 @@
                   items:
                     - name: Kontu korespondence
                       href: localizations/rus-correspondence-accounts.md
-                    - name: Virsgrāmatas transakciju priekšskatīšana
+                    - name: Virsgrāmatas darījumu priekšskatīšana
                       href: localizations/rus-ledger-transactions-preview.md
-                    - name: Valūtas maiņas kursu iestatīšana valūtas transakcijām
+                    - name: Valūtas maiņas kursu iestatīšana valūtas darījumiem
                       href: localizations/rus-exchange-difference.md
                     - name: Valūtas maiņas kursu importēšana no KFCB
                       href: general-ledger/import-currency-exchange-rates.md
@@ -3464,7 +3488,7 @@
                           href: localizations/rus-fixed-assets-disassembly.md
                         - name: 'Līdzekļu pārdošana, izslēgšana un norakstīšana'
                           href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                        - name: Transakcijas izveidošana pamatlīdzekļu nomāšanai un atgriešanai no nomas
+                        - name: Darījuma izveidošana pamatlīdzekļu nomāšanai un atgriešanai no nomas
                           href: localizations/rus-fixed-asset-leasing.md
                         - name: Pamatlīdzekļu uzturēšana
                           href: localizations/rus-maintain-fixed-assets.md
@@ -3514,13 +3538,13 @@
                           href: localizations/rus-agreements.md
                         - name: Līgumus iestatīšana un izveide
                           href: localizations/rus-set-up-and-create-agreements.md
-                        - name: Transakciju reģistrēšana ar atsauci uz līgumiem
+                        - name: Darījumu reģistrēšana ar atsauci uz līgumiem
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: Pieprasījumi un pārskati ar līgumiem
                           href: localizations/rus-inquiries-reports-agreements.md
-                    - name: 'Transakcijas, izmantojot starpnieku'
+                    - name: 'Darījumi, izmantojot starpnieku'
                       items:
-                        - name: 'Transakciju, izmantojot starpnieku, pārskats'
+                        - name: 'Darījumu, izmantojot starpnieku, pārskats'
                           href: localizations/rus-transactions-through-intermediary.md
                         - name: Pirkšana komisijā
                           href: localizations/rus-purchases-on-commission.md
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Krājumu profila izmantošana dokumentos un vaicājumos
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Muitošana
+                      items:
+                        - name: Darbs ar muitošanu
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Pārskatu veidošana
                   items:
                     - name: Finanšu pārskatu veidošana
@@ -3576,7 +3604,9 @@
                       href: localizations/rus-company-divisions.md
                     - name: Krievijas adrešu formāti un imports no FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
-                - name: Atliktie maksājumi
+                    - name: Importēšana no valsts adrešu reģistra (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
+                - name: Atlikšanas
                   items:
                     - name: Atlikto maksājumu iestatīšana
                       href: localizations/rus-set-up-deferrals.md
@@ -4069,9 +4099,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
-                        - name: Sadalīt
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/finance
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/finance
@@ -4905,7 +4937,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
                 - name: "Maiņas kursu nodrošinātāju izveide finanšu un operāciju programmas versijā\_8.0"
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
-            - name: 'Transakciju izpilde, izmantojot CustTrans::settleTransaction'
+            - name: 'Darījumu izpilde, izmantojot CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
     - name: Finanšu un operāciju programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md

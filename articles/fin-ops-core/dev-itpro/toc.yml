@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platformas atjauninājumi versijai\_10.0.29 (2022.\_gada oktobris)"
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Platformas atjauninājumi versijai 10.0.28 (2022.\_gada augusts)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Platformas atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
@@ -672,7 +674,7 @@
                           href: dev-ref/xpp-data/xpp-while-select.md
                         - name: Izraksta atlases rakstīšana izteiksmes veidā
                           href: dev-ref/xpp-data/xpp-select-expression.md
-                        - name: Transakciju integritāte
+                        - name: Darījumu integritāte
                           href: dev-ref/xpp-data/xpp-transaction.md
                         - name: 'Darbību pārvēršana no darbībām, kuru pamatā ir kopa, par darbībām, kuru pamatā ir ieraksti'
                           href: dev-ref/xpp-data/xpp-data-perf.md
@@ -1088,8 +1090,10 @@
                           href: data-entities/dual-write/requirements-and-prerequisites.md
                         - name: 'Kā izmantot duālā ieraksta vedni, lai savienotu vides'
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: Iespējot duālā ieraksta elementa karti
+                        - name: Duālā ieraksta elementa kartes iespējošana
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Kā iespējot piecu minūšu sesijas taimauta logu duālās rakstīšanas sesijām
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Atsevišķa duālā ieraksta programmas instrumentācijas pakotne
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Valūtas datu veida migrācija duālajam ierakstam
@@ -1928,7 +1932,7 @@
                   href: user-interface/general-form-guidelines.md
                 - name: Galvenās informācijas formas modelis
                   href: user-interface/details-master-form-pattern.md
-                - name: Transakcijas informācijas formas modelis
+                - name: Darījuma informācijas formas modelis
                   href: user-interface/details-transaction-form-pattern.md
                 - name: Veidlapas daļas atlases saraksta formas modeļi
                   href: user-interface/section-list-form-pattern.md

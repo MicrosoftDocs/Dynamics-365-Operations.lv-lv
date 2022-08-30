@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale
 description: Šajā rakstā ir sniegta informācija par atkārtoto sadali, kas ļauj organizācijām pārrēķināt ieņēmumu cenas, ja ir mainīti pārdošanas līguma nosacījumi. Tā ietver saites uz citām tēmām, kas apraksta, kā atpazīt ieņēmumus vairākos scenārijos.
-author: kweekley
+author: bking
 ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c7e2149058ebbff85cbc2ac86dac3231fbcc41d
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903425"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348159"
 ---
 # <a name="revenue-recognition-reallocation"></a>Ieņēmumu atzīšanas atkārtota sadale
 
@@ -43,7 +43,7 @@ Pastāv daži svarīgi atkārtotās sadales procesa ierobežojumi:
     - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
 
 - Ja ir iesaistīti vairāki pārdošanas pasūtījumi, tiem jābūt vienā debitora kontā.
-- Visiem atkārtoti sadalītajiem pārdošanas pasūtījumiem jābūt vienā un tajā pašā transakcijas valūtā.
+- Visiem atkārtoti sadalītajiem pārdošanas pasūtījumiem jābūt vienā un tajā pašā darījuma valūtā.
 - Procesu nevar atsaukt pēc tā palaišanas.
 
     - Šis ierobežojums ir noņemts versijā 10.0.17 un jaunākās versijās.
@@ -68,7 +68,7 @@ Ja opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **
 
     - Kredīta dokuments atkārtoti izmanto sākotnējā rēķina numuru, bet tam tiek pievienots “-1”.
     - Kredīta dokuments tiek automātiski segts pret sākotnējo rēķinu. Ja sākotnējais rēķins jau ir segts ar citu kredīta dokumentu vai maksājumu, šis segums tiek automātiski stornēts.
-    - Kredīta dokuments tiek grāmatots virsgrāmatā, lai stornētu uzskaites ierakstu, kas tika iegrāmatots sākotnējā rēķinā. Tomēr krājumu un pārdoto preču pašizmaksas (PPPI) transakciju ieraksti nav stornēti.
+    - Kredīta dokuments tiek grāmatots virsgrāmatā, lai stornētu uzskaites ierakstu, kas tika iegrāmatots sākotnējā rēķinā. Tomēr krājumu un pārdoto preču pašizmaksas (PPPI) darījumu ieraksti nav stornēti.
 
 - Jaunais rēķins, kas ir balstīts uz jaunajām atkārtoti sadalītās cenas summām, tiek izveidots debitoru parādos.
 
@@ -80,9 +80,9 @@ Ja opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **
 
 - Storno uzskaites ieraksts tiek grāmatots tikai virsgrāmatā. Tiek atsaukta visa uzskaite no sākotnējā rēķina, izņemot krājumu un PPPI konta ierakstus.
 - Jauns uzskaites ieraksts tiek grāmatots tikai virsgrāmatā, pamatojoties uz jaunajām atkārtoti sadalītajām ieņēmumu cenām. Tas netiek vēlreiz grāmatots krājuma un PPPI kontos, jo šie ieraksti tiek uzturēti sākotnējā rēķina uzskaites ierakstā.
-- Rēķins **debitora transakciju** lapā netiek ietekmēts vai mainīts, taču joprojām rāda sākotnējo uzskaites ierakstu. Nav atsauces uz storno vai jaunajiem uzskaites ierakstiem.
+- Rēķins **debitora darījumu** lapā netiek ietekmēts vai mainīts, taču joprojām rāda sākotnējo uzskaites ierakstu. Nav atsauces uz storno vai jaunajiem uzskaites ierakstiem.
 
-Kā jau ir norādīts, varat atjaunināt tikai virsgrāmatu vai virsgrāmatu un debitoru parādus. Abām pieejām ir priekšrocības un trūkumi. Ieteicams novērtēt organizācijas prasības, lai noteiktu, kuru opciju izmantot. Ja atjaunināt gan virsgrāmatu, gan debitoru parādus, jaunajā rēķinā tiks parādīti pareizie uzskaites ieraksti, un tos var skatīt **debitora transakciju** lapas dokumentā. Turklāt segšanas process izmantos atjauninātos uzskaites ierakstus, lai grāmatotu visas termiņatlaides un peļņu vai zaudējumus. No otras puses, kredīta dokuments un jaunais rēķins tiks parādīts kontu pārskatos un vecumstruktūras pārskatos tāpat kā citi kredīta dokumenti un debitoru rēķini. Šo dokumentu apraksts norāda, vai tie ir izveidoti ar uzskaites korekcijas palīdzību.
+Kā jau ir norādīts, varat atjaunināt tikai virsgrāmatu vai virsgrāmatu un debitoru parādus. Abām pieejām ir priekšrocības un trūkumi. Ieteicams novērtēt organizācijas prasības, lai noteiktu, kuru opciju izmantot. Ja atjaunināt gan virsgrāmatu, gan debitoru parādus, jaunajā rēķinā tiks parādīti pareizie uzskaites ieraksti, un tos var skatīt **debitora darījumu** lapas dokumentā. Turklāt segšanas process izmantos atjauninātos uzskaites ierakstus, lai grāmatotu visas termiņatlaides un peļņu vai zaudējumus. No otras puses, kredīta dokuments un jaunais rēķins tiks parādīts kontu pārskatos un vecumstruktūras pārskatos tāpat kā citi kredīta dokumenti un debitoru rēķini. Šo dokumentu apraksts norāda, vai tie ir izveidoti ar uzskaites korekcijas palīdzību.
 
 ## <a name="run-the-reallocation-process"></a>Atkārtotās sadales procesa palaišana
 

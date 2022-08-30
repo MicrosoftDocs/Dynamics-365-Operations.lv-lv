@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas atkārtota sadale — 4. scenārijs
 description: Šajā rakstā ir iekļauts atkārtotas sadales scenārijs, kur jauna rinda tiek noņemta no esoša, daļēji rēķinā iekļauta pārdošanas pasūtījuma. Šis scenārijs rada vienu un to pašu rezultātu neatkarīgi no tā, vai rinda ir noņemta no pārdošanas pasūtījuma vai iestatīta uz statusu Atcelts.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891671"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348273"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Ieņēmumu atzīšanas atkārtota sadale — 4. scenārijs
 
@@ -72,9 +72,9 @@ Tika atjaunināts arī ieņēmumu atzīšanas grafiks, ņemot vērā jauno ieņ�
 
 Ja tiek atlasīts **Dokuments**, rēķinu žurnālā tiek rādīts sākotnējais uzskaites ieraksts. Lai pārdošanas pasūtījumā skatītu storno ierakstu un jauno uzskaites ierakstu, darbību rūtī atlasiet **Ieņēmumu korekcijas** un pēc tam atlasiet **Dokuments**.
 
-Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Transakcijas**. **Debitora transakciju** lapa rāda tikai oriģinālo rēķinu (000008) kopā ar sākotnējo uzskaites ierakstu. Tā kā lapā **Virsgrāmatas parametri** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**, tiek atjaunināta tikai virsgrāmata. Tāpēc nav parādīti storno un atjauninātie uzskaites ieraksti. Ņemiet vērā, ka tiek parādītas ieņēmumu korekcijas darbības, kas tika izveidotas [3. scenārijā ](rev-rec-reallocation-scenario-3.md).
+Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Darījumi**. **Debitora darījumu** lapa rāda tikai oriģinālo rēķinu (000008) kopā ar sākotnējo uzskaites ierakstu. Tā kā lapā **Virsgrāmatas parametri** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**, tiek atjaunināta tikai virsgrāmata. Tāpēc nav parādīti storno un atjauninātie uzskaites ieraksti. Ņemiet vērā, ka tiek parādītas ieņēmumu korekcijas darbības, kas tika izveidotas [3. scenārijā ](rev-rec-reallocation-scenario-3.md).
 
-[![Sākotnējais uzskaites ieraksts debitora transakciju lapā.](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+[![Sākotnējais uzskaites ieraksts debitora darījumu lapā.](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

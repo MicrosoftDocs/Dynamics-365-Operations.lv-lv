@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas Commerce sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce\_10.0.29 (2022.\_gada oktobris)"
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: "Commerce 10.0.28 (2022.\_gada jūlijs)"
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: "Commerce 10.0.27 (2022.\_gada jūlijs)"
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Proaktīvi kvalitātes atjauninājumi
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: 'ISV risinājumu nodrošināšana, izmantojot One Version'
@@ -408,7 +412,7 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?context=/dynamics365/context/commerce
                     - name: Skaidras naudas pārvaldības uzlabojumi
                       href: cash-mgmt.md
-                    - name: Transakciju apturēšana un atsākšana punktā POS
+                    - name: Darījumu apturēšana un atsākšana punktā POS
                       href: pos-suspend-recall-transactions.md
                     - name: Bezsaistes POS funkcionalitāte
                       href: pos-offline-functionality.md
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: "MPOS\_un Cloud POS uzdevuma reģistrētājs un palīdzība"
                       href: task-recorder-retail-pos.md
+                    - name: 'CPOS konfigurēšana, lai lietotu pielāgotu Azure AD programmu'
+                      href: cpos-custom-aad.md
                     - name: Aparatūras perifērijas ierīces
                       items:
                         - name: Perifērās ierīces
@@ -612,7 +618,7 @@
                   items:
                     - name: 'Konfigurēt kvīšu e-pasta ziņojumus, lai lietotu pielāgotos izkārtojumus un veidnes'
                       href: configure-emailed-receipt-formats.md
-                    - name: Pievienojiet QR kodu vai svītrkodu transakcijas un saņemšanas e-pasta ziņojumiem
+                    - name: Pievienojiet QR kodu vai svītrkodu darījumu un saņemšanas e-pasta ziņojumiem
                       href: add-qr-code-barcode-email.md
                 - name: Bing karšu pārvaldība organizācijā
                   href: dev-itpro/manage-bing-maps.md
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Uz norēķiniem balstītas atlaides
                   href: tender_based_discounts.md
-                - name: Piegādes atlaides pārskats
-                  href: retail-shipping-discount.md
+                - name: Piegādes atlaide
+                  href: shipping-discount.md
                 - name: Dāvanu ar pirkšanas veicināšanas pasākumiem konfigurēšana
                   href: gift-with-purchase.md
                 - name: Kuponu iestatīšana
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Precīzas cenas un atlaides aprēķina aizkave
                   href: delayed-price-calculation.md
+                - name: Cenu noteikšanas funkcijas POS
+                  href: pos-pricing-functions.md
+                - name: Commerce cenu noteikšanas API
+                  href: pricing-apis.md
             - name: Ieteikumi
               items:
                 - name: Preču ieteikumu apskats
@@ -736,7 +746,7 @@
                   items:
                     - name: "Preču ieteikumu pievienošana programmā\_POS"
                       href: product.md
-                    - name: Ieteikumu pievienošana transakciju ekrānam
+                    - name: Ieteikumu pievienošana darījumu ekrānam
                       href: add-recommendations-control-pos-screen.md
                 - name: Uz AI-ML balstītu preču ieteikumu rezultātu koriģēšana
                   href: modify-product-recommendation-results.md
@@ -822,7 +832,7 @@
               items:
                 - name: Zvanu centra pasūtījumu izveide
                   href: tasks/create-call-center-orders.md
-                - name: Darbību e-pasta ziņojumu pielāgošana pēc piegādes veida
+                - name: Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida
                   href: customize-email-delivery-mode.md
                 - name: "Piegādes veida mainīšana punktā\_POS"
                   href: POS-change-delivery-mode.md
@@ -872,11 +882,13 @@
               href: async-customer-mode.md
             - name: Asinhrono debitoru pārvēršana par sinhroniem debitoriem
               href: convert-async-to-sync.md
+            - name: 'Asinhronā debitora izveides režīms: bieži uzdotie jautājumi'
+              href: async-customer-mode-faq.md
             - name: Attiecības ar klientiem
               items:
                 - name: Pārskats par attiecību veidošanu ar klientiem
                   href: clienteling-overview.md
-            - name: Lojalitāte
+            - name: Lojalitātes programma
               items:
                 - name: Lojalitātes programmas pārskats
                   href: set-up-customer-loyalty-program.md
@@ -894,7 +906,7 @@
               href: retail-statements.md
             - name: Commerce grāmatošanas parametri
               href: commerce-posting-parameters.md
-            - name: Veikala transakciju apstiprināšana pārskata aprēķinam
+            - name: Veikala darījumu apstiprināšana pārskata aprēķinam
               href: valid-checker.md
             - name: Kārtulu atspējošana mazumtirdzniecības darījumu konsekvences pārbaudītājā
               href: disable-consistency-check-rule.md
@@ -910,7 +922,7 @@
                   href: create-excel-edit.md
                 - name: 'Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus'
                   href: add-fields-excel.md
-            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
+            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala darījumiem
               href: trickle-feed.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
               href: tasks/create-calculate-post-statement-retail-store.md
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Ātrā skata modulis
                       href: quick-view-module.md
+                - name: Preču salīdzinājuma moduļi
+                  items:
+                    - name: Preču salīdzinājuma moduļi
+                      href: product-comparison-modules.md
                 - name: Navigācijas moduļi
                   items:
                     - name: Atpakaļceļa modulis
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Sīkfailu piekrišanas modulis
                       href: cookie-consent-module.md
+                - name: Tērzēšanas moduļi
+                  items:
+                    - name: Commerce tērzēšanas modulis
+                      href: commerce-chat-module.md
             - name: Meklēšana
               items:
                 - name: Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats
@@ -1404,8 +1424,6 @@
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
                   href: localizations/emea-aut-fi-sample.md
-                - name: Izvietošanas vadlīnijas kases sistēmām Austrijai
-                  href: localizations/emea-aut-deployment.md
                 - name: Fiskālās integrācijas parauga izvietošanas vadlīnijas Austrijai (mantojums)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazīlija
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Migrēšana no mantojuma funkcionalitātes Norvēģijai
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Izvietošanas vadlīnijas kases sistēmām (mantojums)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Krievija
@@ -1764,9 +1784,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
-                        - name: Sadalīt
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/commerce
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/commerce
@@ -2330,7 +2352,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?context=/dynamics365/context/commerce
             - name: E-pasta konfigurēšana un sūtīšana
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?context=/dynamics365/context/commerce
-            - name: E-pasta ziņojumu veidņu izveide transakciju notikumiem
+            - name: E-pasta ziņojumu veidņu izveide darījumu notikumiem
               href: email-templates-transactions.md
             - name: E-pasta funkcionalitātes izstrāde
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?context=/dynamics365/context/commerce
@@ -2482,7 +2504,7 @@
               items:
                 - name: Commerce SDK pārskats
                   items:
-                    - name: Paraugi un atsauču pakotnes
+                    - name: Commerce SDK paraugu un atsauču pakotņu lejupielāde
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Mantotā Retail SDK migrācija
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
@@ -2560,7 +2582,7 @@
                       href: dev-itpro/manage-secrets.md
                 - name: Paraugi
                   items:
-                    - name: 'Transakciju bloķēšana, izmantojot trigerus'
+                    - name: 'Darījumu bloķēšana, izmantojot trigerus'
                       href: dev-itpro/trigger-example-blocking-transaction.md
                     - name: Noteikt pamestos grozus un nosūtīt klientiem paziņojumus
                       href: dev-itpro/abandoned-cart-sample-app.md
@@ -2648,7 +2670,7 @@
                           href: dev-itpro/cart-view-handlers.md
                         - name: Pielāgotu lauku pievienošana POS kopsummu rūtij
                           href: dev-itpro/custom-field-pos-totals.md
-                        - name: Pielāgotu kolonnu pievienošana POS transakciju režģim
+                        - name: Pielāgotu kolonnu pievienošana POS darījumu režģim
                           href: dev-itpro/pos-custom-transaction-column.md
                         - name: Pielāgotu vadīklu pievienošana POS groza skatam
                           href: dev-itpro/pos-custom-transaction.md

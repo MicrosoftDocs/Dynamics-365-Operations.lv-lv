@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management\_10.0.29 (2022.\_gada oktobris)"
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: "Supply Chain Management 10.0.28 (2022.\_gada augusts)"
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: "Supply Chain Management 10.0.27 (2022.\_gada jūlijs)"
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: Paziņojumu saņemšana par pakalpojumu atjauninājumiem
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: Proaktīvi kvalitātes atjauninājumi
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
                 - name: 'ISV risinājumu nodrošināšana, izmantojot One Version'
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Francijā
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā
@@ -1053,9 +1059,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
-                        - name: Sadalīt
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/supply-chain
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/supply-chain
@@ -1635,7 +1643,7 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Rīcībā esošo krājumu saraksts
                   href: inventory/inventory-on-hand-list.md
-                - name: Krājumu transakcijas detalizētā informācija
+                - name: Krājumu darījuma detalizētā informācija
                   href: inventory/inventory-transactions-details.md
                 - name: Krājumu līmeņu inicializēšana noliktavā
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
@@ -1687,7 +1695,7 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
-            - name: Arhivēt krājumu darbības
+            - name: Arhivēt krājumu darījumus
               href: inventory/archive-inventory-transactions.md
             - name: Krājumu redzamības pievienojumprogramma
               items:
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Ražošanas plānošana
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Vispārējā plānošana precēm ar ierobežotu glabāšanas laiku
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: Plānošana ar neierobežotu noslodzi
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Plānošana ar resursu atlasi atkarībā no iespējas
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: Optimizācijas priekšlikumi
                   href: master-planning/action-messages.md
+                - name: 'Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP'
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Plānošanas optimizācijas problēmu novēršana
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Plānošanas optimizācijas paplašināmība
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Neto prasības un piesaistes informācija darbā ar iebūvēto vispārējo plānošanu
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Veidošanas pasūtījumā piegādes automatizācija
+                  href: master-planning/make-to-order-supply-automation.md
             - name: Prognozēšana
               items:
                 - name: Pieprasījuma un piedāvājuma prognozēšana
@@ -1901,7 +1915,7 @@
                       href: master-planning/authorize-adjusted-forecast.md
                     - name: Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
                       href: master-planning/import-historical-data.md
-                    - name: 'Novirzes punktu noņemšana no vēsturiskiem darbību datiem, aprēķinot pieprasījuma apjoma prognozi'
+                    - name: 'Novirzes punktu noņemšana no vēsturiskiem darījumu datiem, aprēķinot pieprasījuma apjoma prognozi'
                       href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
                     - name: Prognozes precizitātes pārraudzība
                       href: master-planning/monitor-forecast-accuracy.md
@@ -2465,8 +2479,10 @@
               href: production-control/production-process-overview.md
             - name: 'Jaukta režīma plānošana: atsevišķu avotu, procesa avotu un racionālo avotu kombinēšana'
               href: production-control/mixed-mode-plan.md
-            - name: Pārvaldīt apakšlīgumu slēgšanas darbu ražošanā
+            - name: Apakšlīgumu slēgšanas darbu pārvaldība ražošanā
               href: production-control/manage-subcontract-work-production.md
+            - name: Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos
+              href: production-control/deferred-posting.md
             - name: Vienota darbu ID numuru secība
               href: production-control/unified-job-ids.md
             - name: 'Procesu automatizācijas plūsmu aktivizēšana, lai izveidotu kvalitātes pārbaudes pasūtījumus'
@@ -2809,6 +2825,8 @@
               items:
                 - name: Pasūtījumu solīšana
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
+                - name: 'Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP'
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Pasūtījumu izveides termiņi
                   href: sales-marketing/order-entry-deadlines.md
                 - name: Piegādes alternatīvas
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Jauna tirdzniecības līguma izveide
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Rindas neto summu atkārtots aprēķins importējot
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: Plānot pārdošanas vēstures datu tīrīšanu
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Pakalpojumu pārvaldība
@@ -3169,9 +3189,9 @@
                           href: service-management/modify-service-bom.md
                     - name: Pakalpojuma piegāde
                       items:
-                        - name: Abonementa transakciju kreditēšana
+                        - name: Abonementa darījumu kreditēšana
                           href: service-management/credit-subscription-transactions.md
-                        - name: Abonementu apmaksas transakciju izveide
+                        - name: Abonementu apmaksas darījumu izveide
                           href: service-management/create-subscription-fee-transactions.md
                         - name: Uzkrāšanas abonementi
                           href: service-management/accruing-subscriptions.md
@@ -3185,7 +3205,7 @@
                           href: service-management/accrue-subscription-revenue.md
                         - name: Pakalpojumu pasūtījumu dzēšana
                           href: service-management/delete-service-orders.md
-                        - name: Abonementa transakciju rēķina izveide
+                        - name: Abonementa darījumu rēķina izveide
                           href: service-management/invoice-subscription-transactions.md
         - name: Transportēšanas pārvaldība
           items:
@@ -3387,8 +3407,10 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: Iepakojuma materiāli un maksas
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: "Manuālas iepakošanas iestatīšana (tikai 2016.\_gada februārī un maijā)"
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Konteineru iepakošana nosūtīšanai
+                      href: warehousing/packing-containers.md
+                    - name: Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei
+                      href: warehousing/packing-work.md
                     - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Noliktavas darba atcelšana izņēmumu apstrādei
@@ -3545,6 +3567,8 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Darbību konfigurēšana mobilās ierīces izvēlnes vienumos
                       href: warehousing/warehouse-app-detours.md
+                    - name: 'Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu'
+                      href: warehousing/warehouse-app-data-inquiry.md
                     - name: 'Numura zīmes saņemšana, izmantojot mobilo programmu Warehouse Management'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai

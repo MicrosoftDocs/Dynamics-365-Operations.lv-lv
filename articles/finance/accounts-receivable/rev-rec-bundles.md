@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas komplekti
 description: Šajā rakstā aprakstīta komplektu funkcionalitāte, kas iekļauta debitoru parādu ieņēmumu atzīšanas iespējā. Komplekts sastāv no pamatelementa un vairākiem komponentu krājumiem.
-author: kweekley
+author: bking
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b33906fd1907ce476eec5ba36ab243aa072cf6f
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876301"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348303"
 ---
 # <a name="revenue-recognition-bundles"></a>Ieņēmumu atzīšanas komplekti
 
@@ -27,7 +27,7 @@ ms.locfileid: "8876301"
 Šajā rakstā aprakstīta komplektu funkcionalitāte, kas iekļauta debitoru parādu ieņēmumu atzīšanas iespējā. Komplekts sastāv no pamatelementa un vairākiem komponentu krājumiem. Pamatelements tiek ievadīts pārdošanas pasūtījumā, lai pasūtījuma ievade būtu efektīvāka. Tomēr tas pēc tam tiek izvērsts komponentu krājumos. Iekšējie dokumenti, piemēram, pavadzīme, uzskaita komponentu krājumus. Tomēr ārējos dokumentos tiek rādīts tikai pamatelements.
 
 > [!NOTE]
-> Microsoft Dynamics 365 Commerce kanāli, piemēram, tiešsaistes kanāli, pārdošanas punkti (POS) un zvanu centri, neatbalsta ieņēmumu atzīšanu (tostarp komplekta funkcionalitāti). Tas ietver arī risinājumu No potenciālā klienta līdz skaidrai naudai pakalpojumam Dynamics 365 Supply Chain Management un Dynamics 365 Sales. Krājumi, kas ir konfigurēti ieņēmumu atzīšanai, nav jāpievieno pasūtījumiem vai transakcijām, kas izveidotas Commerce kanālos vai risinājumā No potenciālā klienta līdz skaidrai naudai.
+> Microsoft Dynamics 365 Commerce kanāli, piemēram, tiešsaistes kanāli, pārdošanas punkti (POS) un zvanu centri, neatbalsta ieņēmumu atzīšanu (tostarp komplekta funkcionalitāti). Tas ietver arī risinājumu No potenciālā klienta līdz skaidrai naudai pakalpojumam Dynamics 365 Supply Chain Management un Dynamics 365 Sales. Krājumi, kas ir konfigurēti ieņēmumu atzīšanai, nav jāpievieno pasūtījumiem vai darījumiem, kas izveidoti Commerce kanālos vai risinājumā No potenciālā klienta līdz skaidrai naudai.
 
 Lai iestatītu komplektus, jāievada konfigurācijas atslēgas ieņēmumu atzīšanai. Tomēr komplektus var izmantot arī tad, ja ieņēmumu atzīšana nav iestatīta. Tāpat komplektus var izmantot arī tad, ja nav iestatīti komplekti. Ja ir iestatīta ieņēmumu atzīšana, komponentu krājumi nosaka ieņēmumu cenu un ieņēmumu grafiku, kas tiek izmantots ieņēmumu atzīšanai vai atliktajiem maksājumiem, kad pārdošanas pasūtījums tiek iekļauts rēķinā.
 

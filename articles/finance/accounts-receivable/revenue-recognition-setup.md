@@ -1,24 +1,24 @@
 ---
 title: Ieņēmumu atzīšanas iestatīšana
 description: Šajā rakstā ir aprakstītas ieņēmumu atzīšanas iestatīšanas opcijas un to izmantošana.
-author: kweekley
+author: bking
 ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00acb795b05d01136cc154f697e7c955b0c6b620
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900018"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348416"
 ---
 # <a name="revenue-recognition-setup"></a>Ieņēmumu atzīšanas iestatīšana
 [!include [banner](../includes/banner.md)]
@@ -28,7 +28,7 @@ Ir pievienots modulis **Ieņēmumu atzīšana**, kas ietver izvēlnes elementus 
 > [!NOTE]
 > Ieņēmumu atzīšanas līdzeklis tagad ir iespējots pēc noklusējuma, izmantojot līdzekļu pārvaldību. Ja jūsu organizācija neizmanto šo līdzekli, varat to izslēgt **līdzekļa pārvaldības** darbvietā.
 >
-> Ieņēmumu atzīšana, tostarp komplektu funkcionalitāte, netiek atbalstīta izmantošanai Commerce kanālos (e-komercija, POS, zvanu centrs). Krājumus, kas ir konfigurēti ieņēmumu atzīšanai, nedrīkst pievienot pasūtījumiem vai transakcijām, kas izveidotas Commerce kanālos.
+> Ieņēmumu atzīšana, tostarp komplektu funkcionalitāte, netiek atbalstīta izmantošanai Commerce kanālos (e-komercija, POS, zvanu centrs). Krājumus, kas ir konfigurēti ieņēmumu atzīšanai, nedrīkst pievienot pasūtījumiem vai darījumiem, kas izveidoti Commerce kanālos.
 
 Modulim **Ieņēmumu atzīšana** ir tālāk norādītās iestatīšanas opcijas.
 
@@ -73,8 +73,8 @@ Ieņēmumu atzīšanas iestatījumi tiek konfigurēti lapas **Virsgrāmatas para
 - **Atspējot līguma termiņus** — iestatiet šo opciju uz **Jā**, ja preces, kuru ieņēmumu veids ir **Grāmatot līguma atbalstu**, var izlaist pat tad, ja tām nav definēti līguma sākuma un beigu datumi. Parasti līguma sākuma un beigu datumi ir nepieciešami krājumiem, kuru ieņēmumu veids ir **Grāmatot līguma atbalstu**. Kad līguma sākuma un beigu datumi netiek definēti, detalizēta informācija par ieņēmumu grafiku grāmatošanas vajadzībām tiek aprēķināta, izmantojot gadījumu skaitu un rēķina datumu.
 - **Grāmatot rēķinu labojumus debitoru parādos, veicot atkārtotu sadali** — veicot atkārtoti sadali rēķiniem, kas jau ir iegrāmatoti, ir jālabo iegrāmatotā rēķina uzskaites ieraksts. Lietojiet šo opciju, lai norādītu, kā labojums ir veikts.
 
-    - Iestatiet šo opciju uz **Nē**, lai ierobežotu labošanas transakcijas grāmatošanu virsgrāmatā. Kad šī opcija ir iestatīta uz **Nē**, debitoru parādos netiek izveidoti papildu dokumenti iekšējās uzskaites labojumam. Kad rēķins ir apmaksāts, segšanas procesā tiek izmantots iepriekšējais uzskaites ieraksts, lai grāmatotu visas termiņatlaides vai visu realizēto peļņu vai zaudējumus.
-    - Iestatiet šo opciju uz **Jā**, lai automātiski izveidotu storno dokumentu un jaunu rēķinu labošanas transakcijai debitoru parādos. Tā kā šis labojums ir iekšējās uzskaites labojums, jaunie dokumenti netiek sūtīti vai nodoti debitoram. Storno dokuments tiek nosegts ar sākotnējo rēķinu, un jauno laboto rēķinu apmaksā debitors. Ņemiet vērā, ka visi trīs dokumenti tiek rādīti pārskatos, piemēram, debitora pārskatā.
+    - Iestatiet šo opciju uz **Nē**, lai ierobežotu labošanas darījumu grāmatošanu virsgrāmatā. Kad šī opcija ir iestatīta uz **Nē**, debitoru parādos netiek izveidoti papildu dokumenti iekšējās uzskaites labojumam. Kad rēķins ir apmaksāts, segšanas procesā tiek izmantots iepriekšējais uzskaites ieraksts, lai grāmatotu visas termiņatlaides vai visu realizēto peļņu vai zaudējumus.
+    - Iestatiet šo opciju uz **Jā**, lai automātiski izveidotu storno dokumentu un jaunu rēķinu labošanas darījumam debitoru parādos. Tā kā šis labojums ir iekšējās uzskaites labojums, jaunie dokumenti netiek sūtīti vai nodoti debitoram. Storno dokuments tiek nosegts ar sākotnējo rēķinu, un jauno laboto rēķinu apmaksā debitors. Ņemiet vērā, ka visi trīs dokumenti tiek rādīti pārskatos, piemēram, debitora pārskatā.
 
 [![Iestatījumu informācija.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
@@ -156,7 +156,7 @@ Ieņēmumu cena, kas tiek definēta manuāli šajā lapā, tiek izmantota, lai n
 
 - **Krājuma kods** un **Krājumu saistība** — ieņēmumu cenu var definēt atsevišķai precei vai preču grupai. Laukā **Krājuma kods** atlasot **Tabula**, atlasiet izlaisto preci laukā **Krājumu saistība**. Laukā **Krājuma kods** atlasot **Grupa**, atlasiet krājumu grupu laukā **Krājumu saistība**.
 - **Konta kods** un **Konta/grupas numurs** — ieņēmumu cenu var definēt visiem debitoriem, atsevišķam debitoram vai debitoru grupai. Laukā **Konta kods** atlasot **Visi**, cena tiek izmantota visiem debitoriem. Laukā **Konta kods** atlasot **Tabula**, atlasiet debitoru laukā **Konta/grupas numurs**. Laukā **Konta kods** atlasot **Grupa**, atlasiet debitoru grupu laukā **Konta/grupas numurs**.
-- **Valūta** — katrai valūtai, kurā tiek ievadīts pārdošanas pasūtījums, ir jāievada atsevišķa ieņēmumu cena. Piemēram, ja pašlaik pārdodat ASV dolāros, Kanādas dolāros un eiro, jums jādefinē ieņēmumu cena visās trīs valūtās. Ieņēmumu cena netiek pārrēķināta no vienas valūtas, piemēram, uzskaites valūtas, uz jebkurām citām transakciju valūtām, ko lietojat.
+- **Valūta** — katrai valūtai, kurā tiek ievadīts pārdošanas pasūtījums, ir jāievada atsevišķa ieņēmumu cena. Piemēram, ja pašlaik pārdodat ASV dolāros, Kanādas dolāros un eiro, jums jādefinē ieņēmumu cena visās trīs valūtās. Ieņēmumu cena netiek pārrēķināta no vienas valūtas, piemēram, uzskaites valūtas, uz jebkurām citām darījumu valūtām, ko lietojat.
 - **Saraksta summa vai procentuālā vērtība** — norādiet, vai ieņēmumu cena ir iestatīta kā saraksta cenas summa vai procentuālā vērtība. Atlasot **Saraksta procentuālā vērtība**, lietotāji summas vietā var ievadīt vidējo cenu kā saraksta cenas procentuālo vērtību. Vērtība **Saraksta procentuālā vērtība** tiek izmantota tikai izlaistām precēm, kas iestatītas kā PCS krājumi.
 - **Ieņēmumu sadalījuma cena** — atkarībā no vērtības, ko atlasījāt laukā **Saraksta summa vai procentuālā vērtība**, ievadiet summu vai procentuālo vērtību, lai attēlotu ieņēmumu cenu, kas tiek izmantota, lai sadalītu ieņēmumus pa pārdošanas pasūtījuma elementiem.
 - **No datuma** un **Līdz datumam** — ievadiet datumu diapazonu, kuram ir aktīva ieņēmumu cena. Šie lauki nav obligāti.

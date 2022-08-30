@@ -1,24 +1,24 @@
 ---
 title: Atlikto ieņēmumu atzīšana
 description: Šajā rakstā ir sniegta informācija par to, kā atzīt ieņēmumus, izmantojot ieņēmumu atzīšanas līdzekli.
-author: kweekley
+author: bking
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c749415ecd6a0cda8a29e19998c295afa2ef5fd5
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902549"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348215"
 ---
 # <a name="recognize-deferred-revenue"></a>Atlikto ieņēmumu atzīšana
 
@@ -48,17 +48,17 @@ Lai definētu ieņēmumu atlases un grāmatošanas kritērijus, atlasiet **Izvei
 
 [![Žurnāla parametru opciju izveide.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
-Lai noteiktu grāmatošanas datumu, kas tiek izmantots ieņēmumu atzīšanas laikā, dialoglodziņā lietojiet lauku grupas **Apstrādes datums** opcijas. Atlasot **Atlasītais datums**, varat ievadīt grāmatošanas datumu laukā **Darījuma datums**. Atlasot **Ieņēmumu grafika datums**, transakcijas datums netiek izmantots. Tā vietā katras grafika rindas lauka **Atzīšanas datums** vērtība tiek izmantota kā grāmatošanas datums.
+Lai noteiktu grāmatošanas datumu, kas tiek izmantots ieņēmumu atzīšanas laikā, dialoglodziņā lietojiet lauku grupas **Apstrādes datums** opcijas. Atlasot **Atlasītais datums**, varat ievadīt grāmatošanas datumu laukā **Darījuma datums**. Atlasot **Ieņēmumu grafika datums**, darījuma datums netiek izmantots. Tā vietā katras grafika rindas lauka **Atzīšanas datums** vērtība tiek izmantota kā grāmatošanas datums.
 
 Pēc tam laukā **Sākuma datums** ievadiet ieņēmumu atzīšanas sākuma datumu. Visas grafika rindas, kurās atzīšanas datums ir vienāds ar sākuma datumu vai pirms tā, tiks atzītas, ja vien tās nav aizturētas.
 
-Pēc tam, kad esat beidzis definēt datumus, dialoglodziņā atlasiet **Labi**, lai izveidotu žurnālu. Jūs saņemsit informatīvu ziņojumu, kurā parādīts izveidoto transakciju skaits un žurnāls, kurā tās izveidotas. Žurnāls netiek grāmatots automātiski. Tādēļ ieņēmumu atzīšanas vadītājam ir laiks pārbaudīt, kuras grafika rindas tiek atzītas.
+Pēc tam, kad esat beidzis definēt datumus, dialoglodziņā atlasiet **Labi**, lai izveidotu žurnālu. Jūs saņemsit informatīvu ziņojumu, kurā parādīts izveidoto darījumu skaits un žurnāls, kurā tie izveidoti. Žurnāls netiek grāmatots automātiski. Tādēļ ieņēmumu atzīšanas vadītājam ir laiks pārbaudīt, kuras grafika rindas tiek atzītas.
 
 Pēc procesa izpildes grafika rindām, kas tika pārsūtītas uz žurnālu, tiek piešķirts statuss **Apstrādāts**. Karodziņš **Apstrādāts** norāda, ka rindas ir pārsūtītas uz žurnālu, bet tās var grāmatot vai negrāmatot. Kad ieņēmumu atzīšanas žurnāls ir iegrāmatots, karodziņš **Apstrādāts** saglabājas. Ja ieņēmumu atzīšanas žurnāls tiek izdzēsts vai arī ja rinda tiek izdzēsta, karodziņš **Apstrādāts** tiek noņemts. Šādā veidā rindu var atzīt, kad process **Izveidot žurnālu** tiek palaists vēlreiz.
 
 [![Lapa Ieņēmumu atzīšanas grafiki.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
-Lapā **Ieņēmumu atzīšanas žurnāls** (**Ieņēmumu atzīšana \> Žurnāla ieraksti \> Ieņēmumu atzīšanas žurnāls**) atveriet **Rindas**, lai skatītu detalizētu informāciju par to, kas tiek atzīts. Katrai grafika rindai, kas tiek atzīta, vienmēr tiek izveidota atsevišķa transakcija pat tad, ja visas rindas ir iegrāmatotas tajā pašā datumā, izmantojot vienādus virsgrāmatas kontus.
+Lapā **Ieņēmumu atzīšanas žurnāls** (**Ieņēmumu atzīšana \> Žurnāla ieraksti \> Ieņēmumu atzīšanas žurnāls**) atveriet **Rindas**, lai skatītu detalizētu informāciju par to, kas tiek atzīts. Katrai grafika rindai, kas tiek atzīta, vienmēr tiek izveidots atsevišķs darījums pat tad, ja visas rindas ir iegrāmatotas tajā pašā datumā, izmantojot vienādus virsgrāmatas kontus.
 
 [![Lapa Žurnāla dokuments.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
@@ -70,7 +70,7 @@ Noklusējuma summa tiek iegūta no atbilstošās grafika rindas, un to nevar mai
 
 Pēc noklusējuma, ja pārdošanas pasūtījums ir daudzvalūtu pārdošanas pasūtījums, maiņas kurss tiek iestatīts uz maiņas kursu no rēķina. Tas palīdz nodrošināt, ka uzskaites valūtas un pārskata valūtas summas tiek pilnībā atbrīvotas. Noapaļošanas dēļ grafika pēdējās rindas maiņas kurss var nedaudz atšķirties no rēķina likmes.
 
-Pēc tam, kad ieņēmumu atzīšanas žurnāls ir iegrāmatots, dokuments tiek ievadīts grafikā. Ja vienai grafika rindai ir vairāk nekā viens dokuments, rindā tiek parādīta zvaigznīte (\*). Lai skatītu dokumentus, kas iegrāmatoti šai rindai, atlasiet **Dokumentu transakcijas**.
+Pēc tam, kad ieņēmumu atzīšanas žurnāls ir iegrāmatots, dokuments tiek ievadīts grafikā. Ja vienai grafika rindai ir vairāk nekā viens dokuments, rindā tiek parādīta zvaigznīte (\*). Lai skatītu dokumentus, kas iegrāmatoti šai rindai, atlasiet **Dokumentu darījumi**.
 
 ## <a name="modify-the-revenue-recognition-schedule-details"></a>Detalizētas informācijas par ieņēmumu atzīšanas grafiku modificēšana
 
