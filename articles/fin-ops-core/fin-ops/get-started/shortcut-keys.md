@@ -2,7 +2,7 @@
 title: Īsinājumtaustiņi
 description: Šajā rakstā sniegts pārskats par īsinājumikonas taustiņu kombinācijām, ko varat izmantot, strādājot ar finanšu un operāciju programmām.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140445"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357596"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -135,10 +135,10 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Horizontālā ritināšana                                                                                                   | Maiņa + peles rādītājs             |
 | Pāriet uz nākamo/iepriekšējo kolonnu                                                                                       | Tab/Shift+Tab                 |
 | Pāriet uz nākamo/iepriekšējo rindu                                                                                          | Bultiņa uz leju/bultiņa uz augšu           |
-| Pāriet uz nākamo/iepriekšējo rindu, neveicot atlasi<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote> | Ctrl+bultiņa uz augšu/Ctrl+bultiņa uz leju |
-| Atlasīt/notīrīt pašreizējo rindu<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>                    | Ctrl+atstarpes taustiņš/Ctrl+klikšķis         |
-| Pievienot nākamo/iepriekšējo rindu atlasītajai kopai<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>   | Shift+atstarpes taustiņš                     |
-| Pievienot rindu diapazonu atlasītajai kopai<blockquote>[!NOTE] Šī saīsne attiecas tikai uz vairākatlases scenārijiem.</blockquote>         | Shift+klikšķis                     |
+| Pāriet uz nākamo/iepriekšējo rindu, neveicot atlasi<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatkāršotiem scenārijiem. | Ctrl+bultiņa uz augšu/Ctrl+bultiņa uz leju |
+| Atlasīt/notīrīt pašreizējo rindu<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatkāršotiem scenārijiem.                   | Ctrl+atstarpes taustiņš/Ctrl+klikšķis         |
+| Pievienot nākamo/iepriekšējo rindu atlasītajai kopai<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatkāršotiem scenārijiem.  | Shift+atstarpes taustiņš                     |
+| Pievienot rindu diapazonu atlasītajai kopai<br><br>**Piezīme.** Šī saīsne attiecas tikai uz vairākatkāršotiem scenārijiem.         | Shift+klikšķis                     |
 | Pāriet uz nākamo/iepriekšējo datu lapu                                                                                   | Page Up/Page Down             |
 | Izveidot jaunu rindu režģa apakšdaļā                                                                             | Bultiņa uz leju (no pēdējās rindas)  |
 | Pārvietoties uz pirmo ierakstu                                                                                               | Ctrl + Home                       |
@@ -148,7 +148,7 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Pārvietoties uz nākamo atzīmēto rindu                                                                                            | Alt+Shift+M, L                  |
 | Pārvietoties uz iepriekšējo atzīmēto rindu                                                                                        | Alt+Shift+M, P                  |
 | Pārvietoties uz pēdējo atzīmēto rindu                                                                                           | Alt+Shift+M, N                  |
-| Režģī izpildīt noklusējuma darbību<blockquote>[!NOTE] Šī saīsne ir iespējota, kad ir fokusēta šūna, kurā ir hipersaite, un visās attiecīgās kolonnas šūnās ir hipersaites.</blockquote> | Enter                           |
+| Režģī izpildīt noklusējuma darbību<br><br>**Piezīme.** Šī saīsne ir iespējota, ja fokuss ir uz šūnu, kurā ir hipersaite, un visām šūnām kolonnā ir hipersaites. | Enter                           |
 | Pārslēgt fokusu no atlasītās rindas uz virsraksta rindu vai otrādi                                                               | Alt+Shift+H                     |
 | Pašreizējo kolonnu padarīt lielāku/mazāku (kamēr fokuss ir virsraksta rindā)                                                  | Bultiņa pa labi/bultiņa pa kreisi        |
 | Pārvietot pašreizējo kolonnu uz nākamo/iepriekšējo pozīciju (ar fokusu virsraksta rindā)                                   | Ctrl+Shift+Labais bulttaustiņš / Ctrl+Shift+kreisais bulttaustiņš |

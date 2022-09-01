@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271521"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357663"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit (mākoņa) inicializēšana
 
@@ -69,8 +69,8 @@ Commerce Scale Unit ir pieejama izvietošanai tālākajos reģionos.
 | APAC            | Austrumāzija           | Ierobežota noslodze    |   Nav komentāru.                           |
 | APAC            | Indijas dienvidi         | Noslodze ierobežota | Izvietošana nav atļauta.    |
 | APAC            | Indijas Centrālā       | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
-| EMEA            | Rietumeiropa         | Ierobežota noslodze    | Pašlaik nav pieejams LCS. |
-| EMEA            | Ziemeļeiropa        | Ierobežota noslodze    | Pašlaik nav pieejams LCS. |
+| EMEA            | Rietumeiropa         | Vispārēji pieejams    |  Nav komentāru. |
+| EMEA            | Ziemeļeiropa        | Vispārēji pieejams    |  Nav komentāru. |
 | EMEA            | Apvienotās Karalistes dienvidi            | Vispārēji pieejams |    Nav komentāru.                          |
 | EMEA            | Lielbritānijas Rietumi             | Vispārēji pieejams |    Nav komentāru.                          |
 | Šveice     | Šveices ziemeļi   | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |

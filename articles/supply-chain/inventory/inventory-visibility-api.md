@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902029"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357646"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu redzamības publiskie API
 
@@ -98,16 +98,16 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
 1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` vērtības savai Dynamics 365 Supply Chain Management programmai.
 1. Paņemt Azure AD marķieri (`aadToken`), iesniedzot HTTP pieprasījumu ar šādiem rekvizītiem:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **URL:**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **Metode:** `GET`
    - **Pamatteksta saturs (veidlapas dati):**
 
-     | Princips           | Vērtība                                |
-     | ------------- | ------------------------------------ |
-     | client_id     | ${aadAppId}                          |
-     | client_secret | ${aadAppSecret}                      |
-     | grant_type    | client_credentials                   |
-     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Princips           | Vērtība                                            |
+     | ------------- | -------------------------------------------------|
+     | client_id     | ${aadAppId}                                      |
+     | client_secret | ${aadAppSecret}                                  |
+     | grant_type    | client_credentials                               |
+     | Darbības joma         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
    Kā atbilde jāsaņem Azure AD marķieris (`aadToken`). Tiem vajadzētu līdzināties šādam piemēram.
 
@@ -116,9 +116,6 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -516,8 +513,8 @@ Body:
 
 Šī pieprasījuma pamatteksta daļā `dimensionDataSource` joprojām ir neobligāts parametrs. Ja tas nav iestatīts, `filters` tiks apstrādāti kā *bāzes dimensijas*. Parametram `filters` ir četri vajadzīgie logi: `organizationId`, `productId`, `siteId` un `locationId`.
 
-- `organizationId` vajadzētu saturēt tikai vienu vērtību, bet tas joprojām ir masīvs.
-- `productId` var saturēt vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
+- `organizationId` jāsatur tikai viena vērtība, bet tā joprojām ir masīvs.
+- `productId` var ietvert vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
 - Inventory Visiblity dalīšanā tiek izmantoti `siteId` un `locationId`. Varat norādīt vairāk nekā vienu `siteId` un `locationId` vērtību *Rīcībā aesošā* pieprasījumā. Pašreizējā laidienā jānorāda gan `siteId`, gan `locationId` vērtības.
 
 `groupByValues` parametram vajadzētu sekot jūsu indeksēšanas konfigurācijai. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
@@ -589,6 +586,6 @@ Var iestatīt krājumu redzamību, lai ļautu plānot turpmākās rīcībā eso�
 
 ## <a name="allocation"></a>Sadalījums
 
-Ar piešķiri saistītie API ir novietoti krājumu [redzamības sadalījumā](inventory-visibility-allocation.md#using-allocation-api).
+Ar sadalījumu saistītie API ir novietoti krājumu [redzamības sadalījumā](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā rakstā ir sniegta informācija par elektronisko pārskatu adresātu pārvaldību, atbalstīto adresātu veidiem un drošības apsvērumiem.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281973"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360984"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -247,6 +247,52 @@ Kopsavilkuma cilnes **Vispārīgi** laukā **Sūtīt mapi kā** atlasiet vienu n
 ### <a name="limitations"></a>Ierobežojumi
 
 Ja lauku **Sūtīt mapi kā** iestatāt uz **Atsevišķi faili** komponentam **Mape**, kas satur citus ligzdotos **Mapes** komponentus, iestatījums netiek rekursīvi pielietots ligzdotiem **Mapes** komponentiem.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Mainīt veidnes lapas izkārtojuma rekvizītus
+
+ER formāta komponentam varat konfigurēt ER Microsoft Office adresātu, kas paredzēts veidnes izmantošanai pārskata ģenerēšanas formātā (Excel vai Word). Ja neesat šī formāta īpašnieks un formāta veidnes lapas izkārtojuma rekvizīti ir jāmaina, Finanšu versijās pirms versijas 10.0.29 ir jāizveido atvasināts formāts un jāmodificē veidņu rekvizīti. Pēc tam ir jāuztur atvasinātā formāta konfigurācija. Taču versijā 10.0.29 un jaunākā versijā var mainīt veidnes lapas izkārtojuma rekvizītus izpildlaikā, lai izvairītos no atvasinātā formāta konfigurācijas izveidošanas un uzturēšanas. Lai to izdarītu, iestatiet vēlamos rekvizītus kā daļu no konfigurētā ER adresāta iestatījumiem. Izpildot ER formātu un izpildot ER adresātu, kas ir konfigurēts noteiktu lapas izkārtojuma rekvizītu izmantošanai, izpildītā adresāta lapas izkārtojuma rekvizītu vērtības tiek piemērotas izmantotajām veidnēm, nomainot sākotnējās veidnes rekvizītus. Varat konfigurēt dažādus adresātus viena un tā paša formāta komponentam, kas konfigurē dažādus lapu izkārtojuma rekvizītus izmantotai veidnei.
+
+ER mērķī var konfigurēt šādus rekvizītus formāta komponentam, kas paredzēts veidnes izmantošanai Excel vai Word formātā:
+
+- Lapas orientācija
+    - Portretorientācija
+    - Ainavorientācija
+- Papīra izmēri
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executive
+    - Juridiskā informācija
+    - Letter
+    - Statement
+    - Tabloid
+- Lapas malas
+    - Augša
+        - Galvene
+    - Apakša
+        - Kājene
+    - Kreisā puse
+    - Labā puse
+
+> [!NOTE]
+> Šādā veidā konfigurētās [veidnes lapas orientācijai ir jābūt saskaņotai ar lapas orientāciju PDF pārvēršanai, ja ir konfigurēta PDF](#select-a-page-orientation-for-pdf-conversion) pārvēršana.
+
+Lappuses piemales iestatīšanai ir jāatlasa garuma vienība:
+
+- Collas
+- Centimetri
+- Milimetri
+
+![Iestatiet lapas izkārtojuma rekvizītus elektronisko pārskatu adresāta lapā.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Kad uzcenojuma vērtība tiek iecelta centimetros un norādīta ar vairākām decimāldaļām, tas tiek noapaļots līdz tuvākajai vērtībai ar 1 decimālzīmi.
+>
+> Kad uzcenojuma vērtība tiek iecelta milimetros un norādīta ar decimāldaļām, tas tiek noapaļots excel izpildlaikā līdz tuvākajai vesela skaitļa vērtībai, bez decimālzīmēm.
+>
+> Kad uzcenojuma vērtība tiek iecelta milimetros un norādīta ar vairākām decimāldaļām, tas tiek noapaļots word izpildlaikā līdz tuvākajai vērtībai ar vienu decimāldaļskaitļu.
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 

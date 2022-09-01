@@ -2,7 +2,7 @@
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109468"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357609"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -76,6 +76,19 @@ Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksport
 
 > [!NOTE]
 > Uz XML bāzētiem failu formātiem noteikti izmantojiet tikai juridiskās rakstzīmes. Plašāku informāciju par derīgām rakstzīmēm skatiet sadaļā [Derīgas rakstzīmes programmā XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 neatļauj nevienu kontroles rakstzīmi, izņemot cilnes, pārvadāšanu un rindu padeves. Neatļautu rakstzīmju piemēri ir kvadrātiekavas, kvadrātiekavas un slīpsvītras. 
+
+Lai importētu vai eksportētu datus, specifiskas kodu lapas vietā izmantojiet unikodu. Tas palīdzēs nodrošināt vissaistākos rezultātus un izslēgt datu pārvaldības darbus kļūmei, jo tie ietver unikoda rakstzīmes. Sistēmas definētie avota datu formāti, kuros tiek izmantots unikods, unikods **ir** iekļauts avota nosaukumā. Unikoda formātu izmanto, atlasot Unikoda kodēšanas ANSI **kodu** **lapu** kā kodu lapu cilnē Reģionālie iestatījumi. Atlasiet vienu no šīm kodu lapām unikodam:
+
+| Kodu lapa | Parādāmais nosaukums                |
+|-----------|-----------------------------|
+| 1200      | Unikods                     |
+| 12000     | Unikods (UTF-32)            |
+| 12001     | Unikods (UTF-32 Big-Endian) |
+| 1201      | Unikods (Big-Endian)        |
+| 65000     | Unikods (UTF-7)             |
+| 65001     | Unikods (UTF-8)             |
+
+Papildinformāciju par kodu lapām skatiet kodu [lapas identifikatoros](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Elementu secības norādīšana
 Datu veidnē vai importēšanas un eksportēšanas darbos elementus var izkārtot noteiktā secībā. Kad palaižat darbu, kurā ir vairāki datu elementi, jums ir pārliecinās, vai šie datu elementi ir sakārtoti pareizā secībā. Elementu secību jūs galvenokārt norādāt tā, lai varētu ievērot visas funkcionālās atkarības starp elementiem. Ja elementiem nav funkcionālo atkarību, tad tos var ieplānot paralēlai importēšanai vai eksportēšanai. 

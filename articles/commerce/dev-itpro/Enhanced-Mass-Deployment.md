@@ -2,19 +2,19 @@
 title: Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
 description: Šajā rakstā ir izskaidrots, kā izmantot struktūru pašapkalpošanās komponentu instalētājiem, lai klusā veidā instalētu un pakalpojumu izvietošanas.
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898583"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387024"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
 
@@ -34,53 +34,53 @@ Tabulā ir parādīti norobežotāji, kurus var izmantot komandrindas izpildē.
 
 | Norobežotājs                 | Apraksts |
 |---------------------------|-------------|
-| –-AadTokenIssuerPrefix | Microsoft () marķiera Azure Active Directory Azure AD izsniedzēja prefikss. |
-| – AsyncClientAadClientId | Klienta Azure AD ID, kas Async klientam ir jāizmanto, veicot sakarus ar programmu Headquarters. |
-| –-AsyncClientAppInsinstrumentationKey | Async klienta instrumentācijas AppInsights atslēga. |
-| – AsyncClientCertFullPath | Pilnībā formatēts UZV ceļš, kas izmanto īssavilkumu kā Async Azure AD klienta identitātes sertifikāta atrašanās vietas meklēšanas metriku, kas jāizmanto, lai autentificētu sakarus programmā Headquarters. Piemēram, ir `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` pareizi formatēts IS. Vērtība tiks **\<MyThumbprint\>** aizstāta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-AsyncClientCertThumbprint**. |
-| –-AsyncClientCertThumbprint | Async klienta identitātes sertifikāta īssavilkums, kas ir jāizmanto, lai autentificētu, izmantojot sakarus Azure AD ar programmu Headquarters. Šis īssavilkums tiks izmantots, lai meklētu **LocalMachine/My veikala** atrašanās vietu un nosaukumu, lai atrastu pareizo sertifikātu, ko izmantot. Neizmantojiet šo parametru kopā ar parametru **-AsyncClientCertFullPath**. |
+| –AadTokenIssuerPrefix | Microsoft () marķiera Azure Active Directory Azure AD izsniedzēja prefikss. |
+| –AsyncClientAadClientId | Klienta Azure AD ID, kas Async klientam ir jāizmanto, veicot sakarus ar programmu Headquarters. |
+| –AsyncClientAppInsokesInstrumentationKey | Async klienta instrumentācijas AppInsights atslēga. |
+| –AsyncClientCertFullPath | Pilnībā formatēts UZV ceļš, kas izmanto īssavilkumu kā Async Azure AD klienta identitātes sertifikāta atrašanās vietas meklēšanas metriku, kas jāizmanto, lai autentificētu sakarus programmā Headquarters. Piemēram, ir `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` pareizi formatēts IS. Vērtība tiks **\<MyThumbprint\>** aizstāta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-AsyncClientCertThumbprint**. |
+| –AsyncClientCertThumbprint | Async klienta identitātes sertifikāta īssavilkums, kas ir jāizmanto, lai autentificētu, izmantojot sakarus Azure AD ar programmu Headquarters. Šis īssavilkums tiks izmantots, lai meklētu **LocalMachine/My veikala** atrašanās vietu un nosaukumu, lai atrastu pareizo sertifikātu, ko izmantot. Neizmantojiet šo parametru kopā ar parametru **-AsyncClientCertFullPath**. |
 | –ClientAppInsokesInstrumentationKey | Klienta instrumentācijas AppInsights atslēga. |
-| – CloudPosAppInsokesInstrumentationKey | Mākoņa POS AppInsights instrumentācijas atslēga. |
-| –-Config | Konfigurācijas fails, kas jāizmanto instalēšanas laikā. Faila nosaukuma piemērs ir **Contoso.CommerceScaleUnit.xml**. |
+| –CloudPosAppInsppasInstrumentationKey | Mākoņa POS AppInsights instrumentācijas atslēga. |
+| -Config | Konfigurācijas fails, kas jāizmanto instalēšanas laikā. Faila nosaukuma piemērs ir **Contoso.CommerceScaleUnit.xml**. |
 | –CposAadClientId | Klienta Azure AD ID, kas Cloud POS ir jāizmanto ierīces aktivizēšanas laikā. Šis parametrs nav nepieciešams lokāliem izvietojumiem. |
-| - Ierīce | Ierīces ID, kā norādīts galvenās pārvaldes **lapā** Ierīces. |
-| --EnvironmentId; | Vides ID. |
-| –-HardwareStationAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
-| -Install (instalēšana) | Parametrs, kas norāda, vai ir jābūt instalētam komponentam, ko nodrošina šī instalētājs. Šis parametrs nav nepieciešams. |
+| -Ierīce | Ierīces ID, kā norādīts galvenās pārvaldes **lapā** Ierīces. |
+| —EnvironmentId; | Vides ID. |
+| -HardwareStationAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
+| Instalēt | Parametrs, kas norāda, vai ir jābūt instalētam komponentam, ko nodrošina šī instalētājs. Šis parametrs ir nepieciešams, lai veiktu instalēšanu, un tam nav sākuma domuzīmes. |
 | -InstallOffline | Modern POS šis parametrs norāda, ka ir jāinstalē un jākonfigurē arī bezsaistes datu bāze. Izmantojiet arī **parametru -SQLServerName**. Pretējā gadījumā instalētājs mēģinās atrast noklusējuma instanci, kas atbilst priekšnosacījumi. |
-| --Ports | Ports, kas ir jāsaista ar Retail Server virtuālo direktoriju un jāizmanto tajā. Ja nav iestatīts neviens ports, tiks izmantots noklusējuma ports 443. |
-| – reģistrēt; | Kases sistēmas ID, kā norādīts galvenās **pārvaldes kases** sistēmas lapā. |
-| –RetailServerAadClientId | Klienta Azure AD ID, kas Retail Server jāizmanto, veicot sakarus ar programmu Headquarters. |
+| -Ports | Ports, kas ir jāsaista ar Retail Server virtuālo direktoriju un jāizmanto tajā. Ja nav iestatīts neviens ports, tiks izmantots noklusējuma ports 443. |
+| –reģistrs | Kases sistēmas ID, kā norādīts galvenās **pārvaldes kases** sistēmas lapā. |
+| -RetailServerAadClientId | Klienta Azure AD ID, kas Retail Server jāizmanto, veicot sakarus ar programmu Headquarters. |
 | -RetailServerAadResourceId | Retail servera programmas Azure AD resursa ID, kas ir jāizmanto ierīces aktivizēšanas laikā. Šis parametrs nav nepieciešams lokāliem izvietojumiem. |
-| --RetailServerCertFullPath | Pilnībā formatēts UZV ceļš, kas izmanto īssavilkumu kā Retail Server Azure AD identitātes sertifikāta meklēšanas metriku, kas jāizmanto, lai autentificētu sakarus programmā Headquarters. Piemēram, tas `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` ir pareizi formatēts, PARAA! vērtība **\<MyThumbprint\>** tiks nomainīta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-RetailServerCertThumbprint**. |
-| --RetailServerCertThumbprint | Retail Server identitātes sertifikāta īssavilkums, kas ir jāizmanto, lai autentificētu, izmantojot sakarus Azure AD ar programmu Headquarters. Šis īssavilkums tiks izmantots, lai meklētu **LocalMachine/My** veikala atrašanās vietu un nosaukumu, lai atrastu pareizo sertifikātu, ko izmantot. Neizmantojiet šo parametru kopā ar parametru **-RetailServerCertFullPath**. |
-| --RetailServerURL | Retail Server vietrādis URL, kas ir jāizmanto instalētājam. (Šis URL ir zināms arī kā Commerce Scale Unit \[CSU\] URL.) Modern POS šī vērtība tiks izmantota ierīces aktivizēšanas laikā. |
-| –SkipAadCredentialsCheck| Pārslēgšanās, kas norāda, Azure AD vai akreditācijas datu priekšnosacījumu pārbaudes ir jāizlaiž. Noklusējuma vērtība ir **false**. |
-| –SkipCertCheck | Pārslēgšanās, kas norāda, vai ir jāizlaiž sertifikāta priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
+| -RetailServerCertFullPath | Pilnībā formatēts UZV ceļš, kas izmanto īssavilkumu kā Retail Server Azure AD identitātes sertifikāta meklēšanas metriku, kas jāizmanto, lai autentificētu sakarus programmā Headquarters. Piemēram, tas `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` ir pareizi formatēts, PARAA! vērtība **\<MyThumbprint\>** tiks nomainīta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-RetailServerCertThumbprint**. |
+| -RetailServerCertThumbprint | Retail Server identitātes sertifikāta īssavilkums, kas ir jāizmanto, lai autentificētu, izmantojot sakarus Azure AD ar programmu Headquarters. Šis īssavilkums tiks izmantots, lai meklētu **LocalMachine/My** veikala atrašanās vietu un nosaukumu, lai atrastu pareizo sertifikātu, ko izmantot. Neizmantojiet šo parametru kopā ar parametru **-RetailServerCertFullPath**. |
+| -RetailServerURL | Retail Server vietrādis URL, kas ir jāizmanto instalētājam. (Šis URL ir zināms arī kā Commerce Scale Unit \[CSU\] URL.) Modern POS šī vērtība tiks izmantota ierīces aktivizēšanas laikā. |
+| – SkipAadCredentialsCheck| Pārslēgšanās, kas norāda, Azure AD vai akreditācijas datu priekšnosacījumu pārbaudes ir jāizlaiž. Noklusējuma vērtība ir **false**. |
+| -SkipCertCheck | Pārslēgšanās, kas norāda, vai ir jāizlaiž sertifikāta priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
 | –SkipiisCheck | Pārslēgšanās, kas norāda, vai ir jāizlaiž interneta informācijas pakalpojumu (IIS) priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
-| –-SkipNetFrameworkCheck | Switch, kas norāda, vai ir jāizlaiž .NET Framework priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
+| -SkipNetFrameworkCheck | Switch, kas norāda, vai ir jāizlaiž .NET Framework priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
 | – SkipScaleUnitCheck | Slēdzis, kas norāda, vai instalēto komponentu veselības pārbaude ir jāizlaiž. Noklusējuma vērtība ir **false**. |
-| --SkipsChannelCheck | Slēdzis, kas norāda, vai ir jāizlaiž drošo kanālu priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
-| --SkipSqlFullTextCheck | Pārslēgs, kas norāda, vai ir jāizlaiž SQL Servera priekšnosacījuma pārbaude, kam nepieciešama pilnteksta meklēšana. Noklusējuma vērtība ir **false**. |
-| --SkipSqlServerCheck | Pārslēgšanās, kas norāda, vai ir jāizlaiž SQL servera priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
-| --SqlServerName | SQL servera nosaukums. Ja nosaukums nav norādīts, instalētājs mēģinās atrast noklusējuma instanci. |
+| -SkipsChannelCheck | Slēdzis, kas norāda, vai ir jāizlaiž drošo kanālu priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
+| -SkipSqlFullTextCheck | Pārslēgs, kas norāda, vai ir jāizlaiž SQL Servera priekšnosacījuma pārbaude, kam nepieciešama pilnteksta meklēšana. Noklusējuma vērtība ir **false**. |
+| -SkipSqlServerCheck | Pārslēgšanās, kas norāda, vai ir jāizlaiž SQL servera priekšnosacījumu pārbaudes. Noklusējuma vērtība ir **false**. |
+| -SqlServerName | SQL servera nosaukums. Ja nosaukums nav norādīts, instalētājs mēģinās atrast noklusējuma instanci. |
 | -SslcertFullPath | Pilnībā formatēts HTML ceļš, kas izmanto īssavilkumu kā sertifikāta atrašanās vietas meklēšanas rādītāju, kas jāizmanto, lai šifrētu HTTP datplūsmu uz mēroga vienību. Piemēram, tas `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` ir pareizi formatēts, PARAA! vērtība **\<MyThumbprint\>** tiks nomainīta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-SslCertThumbprint**. |
 | -SslCertThumbprint | Tā sertifikāta īssavilkums, kas jāizmanto HTTP trafika šifrēšanai uz mēroga vienību. Šis īssavilkums tiks izmantots, lai meklētu **LocalMachine/My veikala** atrašanās vietu un nosaukumu, lai atrastu pareizo sertifikātu, ko izmantot. Neizmantojiet šo parametru kopā ar parametru **-SslCertFullPath**. |
-| –StoreSystemAosUrl | Galvenās pārvaldes (AOS) VIETRĀDIs URL. |
-| –StoreSystemChannelDatabaseId | Kanāla datu bāzes ID (nosaukums). |
-| –-TenantId | Nomnieka Azure AD ID. |
-| –TransactionServiceAzureAuthority | Transaction Service Azure AD iestāde. |
+| -StoreSystemAosUrl | Galvenās pārvaldes (AOS) VIETRĀDIs URL. |
+| -StoreSystemChannelDatabaseId | Kanāla datu bāzes ID (nosaukums). |
+| -TenantId; | Nomnieka Azure AD ID. |
+| -TransactionServiceAzureAuthority | Transaction Service Azure AD iestāde. |
 | -TransactionServiceAzureResource | Transaction Service Azure AD resurss. |
-| - TrustSqlServerCertificate | Pārslēgšanās, kas norāda, vai servera sertifikātam jābūt uzticamam, veidojot savienojumu ar SQL Server. Lai palīdzētu novērst drošības riskus, ražošanas izvietošanai šeit nekad nav jāsniedz **vērtība ar patiesu** vērtību. Noklusējuma vērtība ir **false**. |
-| –-Verbosity | Reģistrēšanas līmenis, kas tiek pieprasīts instalēšanas laikā. Parasti šī vērtība nav jāizmanto. |
-| –-WindowsPhoneAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
+| -TrustSqlServerCertificate —TrustSqlServerCertificate; | Pārslēgšanās, kas norāda, vai servera sertifikātam jābūt uzticamam, veidojot savienojumu ar SQL Server. Lai palīdzētu novērst drošības riskus, ražošanas izvietošanai šeit nekad nav jāsniedz **vērtība ar patiesu** vērtību. Noklusējuma vērtība ir **false**. |
+| – izvērstā nodarbība; | Reģistrēšanas līmenis, kas tiek pieprasīts instalēšanas laikā. Parasti šī vērtība nav jāizmanto. |
+| –WindowsPhoneAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
 
 ## <a name="general-overview"></a>Vispārējs apskats
 
 Jaunajā pašapkalpošanās instalētāju struktūrā ir dažādi līdzekļi un uzlabojumi. Jaunā struktūra pašlaik izveido instalētājus tikai Modern POS, aparatūras stacijai un CSU (pašapkalpošanās). Ir svarīgi izprast aizzīmogoto instalētāju pamata komandrindas lietojumu, kam vajadzētu izskatīties līdzīgi tam, kas lietots šajā piemērā. 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 Instalētājam ir nepieciešams instalēt **parametru** (vai **atinstalēt,** lai noņemtu instalāciju) un visi parametri, kas attiecas uz šo instalāciju. **Parametra** nosaukumā jāietver visi parametri, kas ir nepieciešami, piemēram, reģistrs, CSU URL vai sertifikāta informācija. **Parametra informācijā** jāiekļauj jebkāda papildinformācija par parametriem.
@@ -110,6 +110,9 @@ Lai veikt migrēšanu no vecās pašapkalpošanās struktūras komponentu instal
 
 Ir būtiski noņemt veco, pašapkalpošanās Modern POS komponentu. Papildinformāciju skatiet iepriekš šī raksta migrācijas darbībās.
 
+> [!NOTE]
+> Viena datora sistēmā, piemēram, izstrādātāja topoloģijā vai demonstrācijas vidē, vai ja Commerce Scale Unit un Modern POS ir instalēta vienā un tajā pašā datorā, iespējams, ka Store Commerce nevar pabeigt ierīces aktivizēšanu. Šī problēma rodas, jo Store Commerce nevar veikt tīkla zvanus uz vienu datoru (t.i., pašu zvanu). Lai gan ražošanas iestatījumos tas nekad nedrīkst būt scenārijs, problēma var tikt mazināta, iespējojot AppContainer atgriezeniskās cilpas izņēmumu, lai saziņā varētu notikt vienā datorā. Dažādas programmas ir publiski pieejamas, lai palīdzētu iespējot šo atgriezenisko cilpu. Papildinformāciju par atgriezenisko cilpu skatiet sadaļā [Kā iespējot atgriezenisko cilpu un novērst tīkla izolēšanu](/previous-versions/windows/apps/hh780593(v=win.10)). Ir svarīgi izprast, ka atgriezeniskā cilpa var būt drošības risks, tāpēc nav ieteicams izmantot atgriezenisko cilpu, ja vien nav nepieciešams.
+
 ### <a name="examples-of-silent-deployment"></a>Klusās izvietošanas piemēri
 
 Šajā sadaļā ir parādīts to komandu piemēri, kas tiek izmantotas Modern POS instalēšanai.
@@ -121,7 +124,7 @@ Ir būtiski noņemt veco, pašapkalpošanās Modern POS komponentu. Papildinform
 Ja tiek pieprasīta instalēšana, šajā pamata komandā ir redzamas pieejamās opcijas. Ieteicams, lai šī komanda tiek lietota, pirmo reizi testējot vai izmantojot instalētāju.
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 Šī komanda norāda visus parametrus, kas ir jāizmanto ierīces aktivizēšanas laikā pēc Modern POS programmas instalēšanas. Šajā piemērā tiek izmantots **Reģistrs-3**, kas ir parasti izmantotā vērtība demonstrācijas Dynamics 365 Commerce datos.
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 Šī komanda norāda parametrus, kas ir jāizmanto, lai instalētu un konfigurētu bezsaistes datu bāzi. SQL Serveris tiek norādīts kopā ar konfigurācijas failu, kas jālieto.
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 Šos konceptus var apvienot un saskaņot, lai sasniegtu vēlamos instalēšanas rezultātus.
@@ -148,7 +151,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 Ir ļoti svarīgi noņemt veco pašapkalpošanās aparatūras stacijas komponentu. Papildinformāciju skatiet iepriekš šī raksta migrācijas darbībās. Vairs nav Tirgotāja konta informācijas rīka. Tā vietā tirgotāja konta informācija tiek instalēta, kad POS terminālis tiek savienots pārī ar aparatūras staciju. Pirmo reizi testējot šo instalētāju, ieteicams darbināt šādu komandu:
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>Klusās izvietošanas piemēri
@@ -162,7 +165,7 @@ CommerceHardwareStation.exe --help install
 Šī pamata komanda palaiž izpildāmo failu instalētāju.
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 > Pārbaužu izlaišana nav ieteicama bez pilnīgas pārbaudes pirms laika vai izstrādes situācijās.
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 Kā parasti parasti ir jaukt un saskaņot šos konceptus, lai sasniegtu vēlamos instalēšanas rezultātus.
@@ -184,7 +187,7 @@ Kā parasti parasti ir jaukt un saskaņot šos konceptus, lai sasniegtu vēlamos
 Pirmo reizi testējot šo instalētāju, ieteicams darbināt šādu komandu:
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>Pirms sākšanas
@@ -202,7 +205,7 @@ Tālāk norādītās komandas klusi instalē (vai atjaunina) CSU (pašapkalpoša
 Salīdzinājumā ar citiem pašapkalpošanās instalētājiem Commerce Scale Unit (CSU) ir sarežģītāka, un tai ir nepieciešama diezgan liela papildinformācijas summa. Šī komanda ir minimālā komanda (ar parametriem), kas nepieciešama izpildāmo failu instalēšanas programmas palaišanai, kad nav neviena konfigurācijas faila.
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 Šī komanda ir daudz precīzāka komanda, kas darbina izpildāmo failu instalētāju ar dažiem alternatīviem parametriem.
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 Šī komanda norāda parametrus, kas nepieciešami, lai izlaistu priekšnosacījumu pārbaudes standarta instalācijas laikā. 
@@ -221,7 +224,7 @@ CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMach
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 Šos konceptus var apvienot un saskaņot, lai sasniegtu vēlamos instalēšanas rezultātus.
