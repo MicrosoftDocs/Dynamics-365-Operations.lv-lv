@@ -466,6 +466,8 @@
                           items:
                             - name: Atbalsts ārējām dāvanu kartēm
                               href: dev-itpro/gift-card.md
+                            - name: Datu koplietošana starp uzņēmumiem attiecībā uz dāvanu kartēm
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Ierakstītāja un Regression Suite Automation Tool pārbaude risinājumam Cloud POS
