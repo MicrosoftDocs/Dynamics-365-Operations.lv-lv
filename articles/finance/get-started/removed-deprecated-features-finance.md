@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313889"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410455"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ ms.locfileid: "9313889"
 
 > [!NOTE]
 > Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.30 laidienā
+
+### <a name="revenue-recognition"></a>Ieņēmumu atpazīšana
+
+[Ieņēmumu atpazīšana](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Novecošanas/noņemšanas pamatojums** |Aizstāts ar uzlabotu funkcionalitāti, abonementa [norēķini](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali** | Pieteikums |
+| **Izvietošanas iespēja** | Visus |
+| **Statuss** | Novecojis: pēc 2023. gada aprīlī ieņēmumu atzīšanas funkcionalitāte programmā Dynamics 365 Finance vairs nesaņem atbalstu ar kļūdu labojumiem. Debitoriem tiks lūgts izmantot uzlaboto funkcionalitāti Abonementa [rēķini](../../finance/accounts-receivable/subscription-billing-summary.md). 2023. gada oktobris ieņēmumu atzīšanas funkcija vairs nebūs pieejama. Debitoriem tiks lūgts pāriet uz uzlabotu abonementa rēķinu izrakstīšanas funkcionalitāti.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.29 laidienā
 

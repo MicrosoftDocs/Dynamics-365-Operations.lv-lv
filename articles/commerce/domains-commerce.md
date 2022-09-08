@@ -4,22 +4,17 @@ description: Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft
 author: BrianShook
 ms.date: 08/19/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
-ms.search.validFrom: ''
-ms.dyn365.ops.version: Release 10.0.12
-ms.search.industry: retail
-ms.search.form: ''
-ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337244"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405501"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -110,10 +105,10 @@ Lai iestatītu pielāgotus domēnus, izmantojot front door pakalpojumu vai CDN, 
 
 - Iestatiet front door pakalpojumu, piemēram, Azure Front Door, lai apstrādātu priekšgala trafiku un pievienotos jūsu Commerce videi. Tas nodrošina lielāku kontroli pār domēnu un sertifikātu pārvaldību, kā arī detalizētākas drošības politikas.
 
+- Izmantot Commerce nodrošināto Azure Front Door instanci. Tas prasa koordinēt darbību ar Dynamics 365 Commerce grupu domēna verifikācijai un iegūt SSL sertifikātus jūsu ražošanas domēnam.
+
 > [!NOTE]
 > Ja izmantojat ārēju CDN vai ieejas durvju pakalpojumu, nodrošiniet, lai pieprasījums būtu saskaņā ar Commerce platform ar Commerce nodrošināto hostdatora nosaukumu, bet ar X-Lung-Host (XFH) galveni \<custom-domain\>. Piemēram, ja jūsu Commerce galapunkts `xyz.dynamics365commerce.ms``www.fabrikam.com` ir un pielāgotais domēns ir, `xyz.dynamics365commerce.ms` nepieciešams pieprasītā pieprasījuma resursdatora galvene un XFH virsrakstam `www.fabrikam.com` jābūt.
-
-- Izmantot Commerce nodrošināto Azure Front Door instanci. Tas prasa koordinēt darbību ar Dynamics 365 Commerce grupu domēna verifikācijai un iegūt SSL sertifikātus jūsu ražošanas domēnam.
 
 Informāciju par to, kā tieši iestatīt CDN pakalpojumu, skatiet [Pievienot atbalstu satura piegādes tīklam (CDN)](add-cdn-support.md).
 

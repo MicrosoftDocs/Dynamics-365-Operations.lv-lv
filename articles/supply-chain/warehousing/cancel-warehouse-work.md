@@ -1,6 +1,6 @@
 ---
 title: Atcelt noliktavas darbu izņēmumu apstrādei
-description: Šajā rakstā ir aprakstīta atcelt darba funkcionalitāte, kas ļauj noliktavas supervizoriem veikt bloķētu darbu.
+description: Šajā rakstā ir aprakstīta atceltā darba funkcionalitāte, kas ļauj noliktavas supervizoriem veikt bloķētu darbu.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,31 +13,31 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a5c0cc988141b102cf3659ab4599e025f8f4640
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b1e2036e4e7a8a47d6df029f285df7aca0fa74e6
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907179"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404432"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Atcelt noliktavas darbu izņēmumu apstrādei
 
 [!include [banner](../includes/banner.md)]
 
-Funkcija Atcelt darbu sistēmā Microsoft Dynamics 365 Supply Chain Management ļauj administratoram lietotājam atcelt konkrētu pašlaik notiekošu noliktavas darbu, kuru sistēma ir bloķējusi vai to nevar pabeigt ārkārtēju apstākļu dēļ. Šī funkcionalitāte ir pievilcīga un droša alternatīva SQL labojošajiem skriptiem, kas labo nekonsekventus datus. Tomēr, tā kā šie skripti parasti tiek pieprasīti no IT profesionāļiem, funkcionalitāti Atcelt darbu var izmantot tie lietotāji uzņēmumā, kam ir administratora tiesības.
+Sistēmas Microsoft darba funkcionalitātes atcelšana Dynamics 365 Supply Chain Management ļauj administratoram atcelt noteiktu noliktavas darbu, kas pašreiz notiek, bet to bloķē sistēma vai to nevar pabeigt ārkārtēju apstākļu dēļ. Šī funkcionalitāte ir pievilcīga un droša alternatīva SQL labojošajiem skriptiem, kas labo nekonsekventus datus. Tomēr, tā kā šos skriptus parasti pieprasa IT profesionāļiem, atcelšanas darba funkcionalitāti var izmantot lietotāji uzņēmumā, kam ir administratora tiesības.
 
-Varat piekļūt funkcionalitātei Atcelt darbu sadaļā **Noliktavas pārvaldība** \> **Periodiskie uzdevumis** \> **Iztīrīt \> Atcelt darbu**. Dialoglodziņā **Atcelt darbu** norādiet darba ID darbam, kas jāatceļ, un pēc tam atlasiet **Labi**.
+Varat piekļūt darba atcelšanas funkcionalitātei, kas pieejama noliktavas **pārvaldības periodisko** \> **uzdevumu tīrīšanas** \> **un \> atcelšanas darbā.** Dialoglodziņā **Atcelt darbu** norādiet darba ID darbam, kas jāatceļ, un pēc tam atlasiet **Labi**.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>Noliktavas darbs, kuru var atcelt
 
 Veicot noliktavas izdošanas darbības, darbinieks var saskarties ar situācijām, kad tiem ir reģistrēti daudzumi kā izdoti no glabāšanas vietas uz to lietotāja atrašanās vietu, taču tad tie nevar reģistrēt izvietošanas darbību. Nekonsekventi noliktavas dati bieži, bet ne vienmēr, ir iemesls, kāpēc darbs tiek bloķēts.
 
-Atšķirībā no parastās atcelšanas funkcionalitātes, kam var piekļūt, izmantojot pogu **Atcelt** darba virsrakstā, funkcionalitātei Atcelt darbu nav nepieciešams, lai pēdējā pabeigtā darba rinda būtu **izvietošanas** veida darba rinda. Citiem vārdiem sakot, funkcionalitātei Atcelt darbu atcelšanas loģiku var palaist pat tad, ja krājuma daudzums darba rindā ir lietotāja atrašanās vietā.
+Atšķirībā no **parastās** atcelšanas funkcionalitātes, kam var piekļūt, izmantojot pogu Atcelt darba galvenē, darba atcelšanas funkcionalitātei nav nepieciešams, **lai pēdējā pabeigtā darba rinda būtu izvietošanas veida darba** rinda. Citiem vārdiem sakot, darba atcelšanas funkcionalitātei atcelšanas loģiku var palaist pat tad, ja krājumu daudzums darba rindā ir lietotāja novietojumā.
 
 > [!NOTE]
-> Darbam, kas jāatceļ operatīvu iemeslu dēļ, noliktavas lietotājiem ir jāturpina izmantot parasto atcelšanas funkcionalitāti darba lapā.
+> Darba nolūkos, kas ir jāatceļ darbību iemeslu dēļ, noliktavas lietotājiem darba lapā ir jāturpina izmantot parasto atcelšanas funkcionalitāti.
 
-Izmantojot funkcionalitāti Atcelt darbu, var atcelt tikai **Pārdošanas**, **Izsniegšanas pārsūtīšanai**, **Izejmateriālu izdošanas** vai **Papildināšanas** veida darbu. Atcelšanas loģika netiks palaista iesaldētam izejmateriālu izdošanas darbam vai darbam, ko var atcelt, lietojot parasto atcelšanas funkcionalitāti (sk. iepriekšējo piezīmi).
+Izmantojot darba funkcionalitāti **Atcelt**, **·** **var** atcelt tikai pārdošanas, pārsūtīšanas izdošanas, **izejmateriālu** izdošanas vai papildināšanas veida darbu. Atcelšanas loģika netiks palaista iesaldētu izejmateriālu izdošanas darbam vai darbam, ko var atcelt, izmantojot parasto atcelšanas funkcionalitāti (skatiet iepriekšējo piezīmi).
 
 Lai atbloķētu darbu, sistēma atceļ visas atlikušās darba rindas un labo noliktavas datus, kas ir saistīti ar lietotāja norādīto darba ID. Pēc tam var atsākt visas parastās noliktavas apstrādes darbības, kas ietver ietekmēto vienību daudzumu.
 

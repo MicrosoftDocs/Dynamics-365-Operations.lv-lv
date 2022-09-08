@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306324"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423574"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigurēšana
 
@@ -303,13 +303,13 @@ Risinājums ietver šo nodalījuma konfigurāciju pēc noklusējuma. *Tādēļ j
 
 Lielākā daļa laika rīcībā esošo krājumu vaicājums nebūs tikai augstākajā "kopsummas" līmenī. Tā vietā, iespējams, vēlēsieties arī redzēt rezultātus, kas uzkrāti, pamatojoties uz krājumu dimensijām.
 
-Krājumu redzamība nodrošina elastību, neļaujot iestatīt _indeksus_. Šie indeksi ir balstīti uz dimensiju vai dimensiju kombināciju. Indeksu veido *kopas numurs*, *dimensija* un *hierarhija*, kā norādīts šajā tabulā.
+Krājumu redzamība nodrošina elastību, laižot jūs iestatāt _indeksus_, lai uzlabotu vaicājumu veiktspēju. Šie indeksi ir balstīti uz dimensiju vai dimensiju kombināciju. Indeksu veido *kopas numurs*, *dimensija* un *hierarhija*, kā norādīts šajā tabulā.
 
 | Nosaukums/vārds, uzvārds | Apraksts |
 |---|---|
 | Kopas skaitlis | Kopas numurs – dimensijas, kas pieder vienai kopai (indeksam), tiks grupētas kopā, un tām tiks piešķirts vienāds kopas numurs. |
 | Dimensija | Pamatdimensijas, uz kurām vaicājuma rezultāts tiek apkopots. |
-| Hierarhija | Hierarhija – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kurām var izveidot vaicājumu. Piemēram, jūs iestatāt dimensiju kopu, kam ir hierarhijas `(ColorId, SizeId, StyleId)` secība. Šajā gadījumā sistēma atbalsta vaicājumus par četrām dimensiju kombinācijām. Pirmā kombinācija ir tukša, otrā ir `(ColorId)`, trešā ir `(ColorId, SizeId)` un ceturtā ir `(ColorId, SizeId, StyleId)`. Citas kombinācijas netiek atbalstītas. Papildinformāciju skatiet tālāk norādītajās tēmās. |
+| Hierarhija | Hierarhija ļauj jums palielināt specifisku dimensijas kombināciju veiktspēju, ja tas tiek izmantots vaicājuma parametros Filtrēšana un Grupēšana pēc. Piemēram, ja iestatāt `(ColorId, SizeId, StyleId)` dimensiju kopu ar hierarhijas secību, sistēma var ātrāk apstrādāt vaicājumus, kas saistīti ar četrām dimensiju kombinācijām. Pirmā kombinācija ir tukša, otrā ir `(ColorId)`, trešā ir `(ColorId, SizeId)` un ceturtā ir `(ColorId, SizeId, StyleId)`. Citas kombinācijas netiks paātrinātas. Filtri nav noteikti pēc pasūtījuma, bet tiem ir jāatrodas šajās dimensijās, lai uzlabotu to veiktspēju. Papildinformāciju skatiet tālāk norādītajās tēmās. |
 
 Lai iestatītu produktu hierarhijas indeksus, veiciet tālāk norādītās darbības.
 
@@ -319,14 +319,13 @@ Lai iestatītu produktu hierarhijas indeksus, veiciet tālāk norādītās darb�
 1. Pēc noklusējuma ir sniegts indeksu saraksts. Lai modificētu esošo indeksu, izvēlieties **Labot** vai **Pievienot** atbilstošā indeksa sadaļā. Lai izveidotu jaunu indeksu kopu, atlasiet **Jauna indeksu kopa**. Katrai rindai katrā indeksu kopā laukā **Dimensija** atlasiet pamatdimensiju sarakstā. Automātiski tiek ģenerētas šādu lauku vērtības:
 
     - **Kopas numurs** – dimensijas, kas pieder vienai grupai (indeksam), tiks grupētas kopā, un tām tiks piešķirts vienāds kopas numurs.
-    - **Hierarhija** – hierarhija tiek izmantota, lai definētu atbalstītās dimensiju kombinācijas, kuras var vaicāt dimensiju grupā (indekss). Piemēram, ja iestatāt *dimensiju* grupu, kam ir stila, *·* *krāsas* un izmēra hierarhijas secība, sistēma atbalsta trīs vaicājumu grupu rezultātu. Pirmā grupa ir tikai stils. Otrā grupa ir stila un krāsas kombinācija. Trešā grupa ir stila, krāsas un izmēra kombinācija. Citas kombinācijas netiek atbalstītas.
+    - **Hierarhija –** hierarhija palielina specifisku dimensijas kombināciju veiktspēju, ja tā tiek izmantota vaicājuma parametros Filtrēšana un Grupēšana pēc.
 
 > [!TIP]
 > Šeit sniegti daži padomi, kas jāpatur prātā, iestatot indeksu hierarhiju:
 >
 > - Pamatdimensijas, kas ir definētas nodalījuma konfigurācijās, nav jādefinē indeksa konfigurācijās. Ja pamatdimensija atkal ir definēta indeksa konfigurācijā, nevarēsiet vaicāt pēc šī indeksa.
 > - Ja ir tikai jāvaicā krājumi, kas uzkrāti pēc visām dimensiju kombinācijām, pēc tam iestatiet vienu indeksu, kas satur pamatdimensiju `Empty`.
-> - Ir jābūt vismaz vienai indeksu hierarhijai (piemēram, `Empty` satur pamatdimensiju), pretējā gadījumā vaicājumiem neizdosies kļūda "Nav iestatīta indeksu hierarhija."
 
 ### <a name="example"></a>Paraugs
 

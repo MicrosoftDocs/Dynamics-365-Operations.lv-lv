@@ -2,7 +2,7 @@
 title: Krājumu iestatījumu lietošana
 description: Šajā dokumentā ir ietverti krājumu iestatījumi un aprakstīts, kā tos piemērot Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287597"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405325"
 ---
 # <a name="apply-inventory-settings"></a>Krājumu iestatījumu lietošana
 
@@ -51,12 +51,12 @@ Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iesta
     > [!IMPORTANT] 
     > Iestātījums **Krājumu līmenis vairākām noliktavām** ir pieejams Commerce versijā 10.0.19. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Krājumu iestatījumi preču sarakstu lapām** - šis iestatījums nosaka, kā rezerves preces tiek rādītas preču sarakstos, kas tiek renderēti pēc preču kolekcijas un meklēšanas rezultātu moduļiem. Pieejamās vērtības ir **Rādīt pasūtījumā ar citām precēm**, **Paslēpt no saraksta krājumu preces** un **Saraksta beigās parādīt preces, kuru nav noliktavā**. Lai izmantotu šo iestatījumu, vispirms ir jākonfigurē daži priekšnosacījumu iestatījumi programmā Commerce Headquarters. Papildinformāciju skatiet [Meklēšanas rezultātu moduļa krājumu apzināšanas iespējošana](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Krājumu iestatījumi preču sarakstu lapām** - šis iestatījums nosaka, kā rezerves preces tiek rādītas preču sarakstos, kas tiek renderēti pēc preču kolekcijas un meklēšanas rezultātu moduļiem. Pieejamās vērtības ir **Rādīt pasūtījumā ar citām precēm**, **Paslēpt no saraksta krājumu preces** un **Saraksta beigās parādīt preces, kuru nav noliktavā**. Lai izmantotu šo iestatījumu, vispirms ir jākonfigurē daži priekšnosacījumu iestatījumi programmā Commerce Headquarters. Papildinformāciju skatiet sadaļā [Krājumu izprotams preču saraksts](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > Iestatījums **Krājumu iestatījumi preču saraksta lapām** ir pieejams Commerce versijā 10.0.20. versijā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Krājumu diapazoni** — šis iestatījums nosaka krājumu diapazonus, kas tiek parādīti uz vietas moduļiem. To var lietot tikai tad, ja ir atlasīta vērtība **Kopējais pieejamais daudzums** vai vērtība **Fiziski pieejamais daudzums** iestatījumam **Krājumu līmenis, pamatojoties uz**. Pieejamās vērtības ir **Viss** **Mazi krājumi un nav noliktavā** un **Nav noliktavā**.
+- **Krājumu diapazoni** – šis iestatījums nosaka krājumu diapazona ziņojumus, kas tiek rādīti vietas moduļos. To var lietot tikai tad, ja ir atlasīta vērtība **Kopējais pieejamais daudzums** vai vērtība **Fiziski pieejamais daudzums** iestatījumam **Krājumu līmenis, pamatojoties uz**. Pieejamās vērtības ir **Viss** **Mazi krājumi un nav noliktavā** un **Nav noliktavā**.
 
     - Atlasot **Viss**, tiks parādīti ziņojumi par visiem krājumu diapazoniem — no Noliktavā (ziņojums "Pieejams") līdz Nav noliktavā (ziņojums "Nav noliktavā").
     - Atlasot **Mazi krājumi un nav noliktavā**, tiks parādīti ziņojumi par visiem krājumu diapazoniem, izņemot Noliktavā (ziņojums "Pieejams").

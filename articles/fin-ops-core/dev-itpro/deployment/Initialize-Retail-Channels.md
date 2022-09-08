@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357663"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427081"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit (mākoņa) inicializēšana
 
@@ -73,8 +73,6 @@ Commerce Scale Unit ir pieejama izvietošanai tālākajos reģionos.
 | EMEA            | Ziemeļeiropa        | Vispārēji pieejams    |  Nav komentāru. |
 | EMEA            | Apvienotās Karalistes dienvidi            | Vispārēji pieejams |    Nav komentāru.                          |
 | EMEA            | Lielbritānijas Rietumi             | Vispārēji pieejams |    Nav komentāru.                          |
-| Šveice     | Šveices ziemeļi   | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
-| Aae             | Apvienoto Arābu Emirātu ziemeļi           | Ierobežota noslodze    | Nepieciešams apstiprināšanas process. |
 
 Izvietošanas noslodze ierobežotās noslodzes reģionos ir īpaši ierobežota. Izvietošanas pieprasījumi katrā gadījumā tiek novērtēti pēc gadījuma. Ja ir nepieciešama uzņēmējdarbības vajadzība izvietošanai ierobežotās noslodzes reģionos, varat ievadīt atbalsta pieprasījumu pievienošanai gaidīšanas sarakstam. Pašlaik commerce Scale Unit izvietošanai nav atļauta noslodzes ierobežotās zonas. 
 

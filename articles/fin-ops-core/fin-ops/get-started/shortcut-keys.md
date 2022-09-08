@@ -2,7 +2,7 @@
 title: Īsinājumtaustiņi
 description: Šajā rakstā sniegts pārskats par īsinājumikonas taustiņu kombinācijām, ko varat izmantot, strādājot ar finanšu un operāciju programmām.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357596"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405443"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Atvērt filtra rūti (vai aktivizēt filtra rūti vai galveno veidlapu, ja filtra rūts jau ir atvērta) | Alt+M,F vai Ctrl+F3       |
 | Aizvērt filtra rūti (kad filtra rūts ir aktivizēta)                                                               | Esc                      |
 | Atvērt papildu filtrēšanas/kārtošanas sadaļu                                                                                        | Ctrl+Shift+F3            |
+| Lietot ātro filtru (kad fokuss ir ātrajā filtrā)                                                              | Ievadīt                    |
+| Lietot režģa filtru (ja fokuss ir kolonnas virsraksta filtra laukā)                                             | Ievadīt                    |
 
 ## <a name="form-shortcuts"></a>Veidlapas saīsnes
 
-| Darbība                                    | Nospiediet             |
+| Darbība                                    | Nospiests:             |
 |-----------------------------------------------|-------------------|
 | Izveidot jaunu ierakstu                           | Alt+N             |
 | Dzēst ierakstu                               | Alt+Del vai Alt+F9 |
@@ -160,9 +163,10 @@ Lietotāji pašlaik pieejamās īsinājumikonas var apskatīt tieši no lietotā
 | Darbība                                                                   | Nospiests:                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atvērt hipersaiti                                                           | Ctrl+Enter                    |
+| Atvērt hipersaiti (kad fokuss ir uz tikai lasāmu vadīklu)<br><br>**Piezīme. Šī saīsne** attiecas tikai tad, ja **ir iespējota kombinētā lodziņa un uzmeklēšanas vadīklu funkcionalitātes** standarta tastatūras mijiedarbība                   | Ievadīt    |
 | Ievadīt sesijas datumu datuma laukā                                       | D                             |
 | Ievadīt pašreizējo datumu datuma laukā                                       | O                             |
-| Atvērt uzmeklēšanu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                         | Alt+bultiņa uz leju                |
+| Atvērt uzmeklēšanu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                         | Alt+bultiņa uz leju<br><br>Ievadiet (ja standardize **tastatūras mijiedarbība kombinētajam lodziņam un uzmeklēšanas vadīklu** līdzeklim ir aktivizēta)                |
 | Aizvērt uzmeklēšanu lodziņu, kombinēto lodziņu, datuma atlasītāju, nolaižamo dialoglodziņu                        | Esc                           |
 | Aktivizēt uzmeklēšanas lodziņu (kad uzmeklēšanas lodziņš jau ir atvērts)                   | Alt+bultiņa uz leju                |
 | Atvērt vadīklas uzlaboto priekšskatījumu                                          | Alt+bultiņa uz augšu                  |

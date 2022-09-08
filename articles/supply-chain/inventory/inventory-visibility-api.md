@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357646"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423600"
 ---
 # <a name="inventory-visibility-public-apis"></a>Krājumu redzamības publiskie API
 
@@ -41,6 +41,8 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 | /api/vide/{environmentId}/rīcībā esošs/{inventorySystem}/lielapjoma | Amats | [Iestatīt/ignorēt rīcībā esošos daudzumus](#set-onhand-quantities) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt | Amats | [Izveidot vienu rezervācijas notikumu](#create-one-reservation-event) |
 | /api/vide/{environmentId}/rīcībā esošs/rezervēt/lielapjoma | Amats | [Izveidot vairākus rezervēšanas notikumus](#create-multiple-reservation-events) |
+| /api/environment/{environmentId} onhand/unreserve | Grāmatot | [Atsaukt vienu rezervācijas notikumu](#reverse-one-reservation-event) |
+| /api/environment/{environmentId} onhand/unreserve/bulk | Grāmatot | [Atsaukt vairākus rezervēšanas notikumus](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId} onhand/changeschedule | Grāmatot | [Izveidot vienu plānoto rīcībā esošo izmaiņu](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId} onhand/changeschedule/lielapjoma | Grāmatot | [Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas](inventory-visibility-available-to-promise.md) |
 | /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Grāmatot | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
@@ -56,7 +58,7 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 > 
 > Lielapjoma API var atgriezt maksimāli 512 ierakstus katram pieprasījumam.
 
-Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+Microsoft ir nodrošinājusi standarta *Pastnieka* pieprasījuma kolekciju. Jūs variet importēt šo kolekciju savā *Pastnieka* programmatūrā, izmantojot šādu koplietojamu saiti: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Atrast galapunktu atbilstoši Lifecycle Services videi
 
@@ -146,7 +148,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
    - **HTTP galvene:** iekļaut API versiju. (Atslēga ir `Api-Version`, un vērtība ir `1.0`.)
    - **Pamatteksta saturs:** iekļaut JSON pieprasījumu, ko izveidojāt iepriekšējā darbībā.
 
-   Kā atbilde jāsaņem pieejas marķieris (`access_token`). Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu Krājumu redzamības API. Tālāk ir minēts piemērs.
+   Kā atbilde jāsaņem pieejas marķieris (`access_token`). Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu Krājumu redzamības API. Šeit parādīts piemērs.
 
    ```json
    {
@@ -170,7 +172,7 @@ Tabulā ir apkopota katra JSON pamatteksta lauka nozīme.
 
 | Lauka kods | Apraksts |
 |---|---|
-| `id` | Unikāls ID noteiktam izmaiņu notikumam. Šis ID tiek izmantots, lai nodrošinātu, ka, ja grāmatošanas laikā sakari ar pakalpojumu neizdodas, notikuma atkārtota iesniegšana nenozīmē, ka viens un tas pats notikums sistēmā tiek skaitīts divas reizes un atkārtoti iesniegts. |
+| `id` | Unikāls ID noteiktam izmaiņu notikumam. Ja atkārtota iesniegšana rodas pakalpojuma kļūmes dēļ, šis ID tiek izmantots, lai nodrošinātu, ka viens un tas pats notikums sistēmā netiks uzskaitīts divreiz. |
 | `organizationId` | Ar notikumu saistītās organizācijas identifikators. Tas attiecas uz risinājuma Supply Chain Management organizācijām vai datu apgabala ID. |
 | `productId` | Preces identifikators. |
 | `quantities` | Daudzumam ir jābūt mazākam par rīcībā esošo daudzumu. Piemēram, ja plauktam ir pievienotas 10 jaunas grāmatas, vērtība būs `quantities:{ shelf:{ received: 10 }}`. Ja no plaukta ir noņemtas vai pārdotas trīs grāmatas, vērtība būs `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ Tabulā ir apkopota katra JSON pamatteksta lauka nozīme.
 | `dimensions` | Dinamisks atslēgu/vērtību pāra kopums. Vērtības ir kartētas uz dažām Supply Chain Management dimensijām. Tomēr jūs varat arī pievienot pielāgotas dimensijas (piemēram, _Avots_), lai norādītu, vai notikums nāk no Supply Chain Management vai ārējas sistēmas. |
 
 > [!NOTE]
-> Parametri `SiteId` un `LocationId` veido [dalījuma konfigurāciju](inventory-visibility-configuration.md#partition-configuration). Tāpēc tie ir jākonkretizē dimensijās, kad izveidojat rīcībā esošu izmaiņu notikumus, kopu vai kad pārlabojat rīcībā esošus daudzumus vai veidojat rezervāciju notikumus.
+> Parametri `siteId` un `locationId` veido [dalījuma konfigurāciju](inventory-visibility-configuration.md#partition-configuration). Tāpēc tie ir jākonkretizē dimensijās, kad izveidojat rīcībā esošu izmaiņu notikumus, kopu vai kad pārlabojat rīcībā esošus daudzumus vai veidojat rezervāciju notikumus.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Izveidot vienu rīcībā esošo izmaiņu notikumu
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>Izveidot rezervācijas notikumus
 
-Lai lietotu API *rezervēšanu*, ir jāatver rezervēšanas funkcija un jāpabeidz rezervācijas konfigurācija. Papildinformāciju skatiet [Rezervācijas konfigurēšana (nav obligāti)](inventory-visibility-configuration.md#reservation-configuration).
+Lai lietotu *API rezervēšanu*, ir jāslēdz rezervācijas funkcija un jāpabeidz rezervācijas konfigurācija. Papildinformāciju skatiet [Rezervācijas konfigurēšana (nav obligāti)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Izveidot vienu rezervācijas notikumu
 
@@ -389,7 +391,7 @@ Rezervāciju var veikt pret citiem datu avota iestatījumiem. Lai konfigurētu �
 
 Izsaucot rezervācijas API, varat kontrolēt rezervācijas derīgumu, pieprasījuma laukā konkretizējot Būla `ifCheckAvailForReserv` parametru. Vērtība `True` nozīmē, ka ir vajadzīga validācija, bet vērtība `False` nozīmē, ka validācija nav vajadzīga. Noklusējuma vērtība ir `True`.
 
-Ja vēlaties atcelt rezervāciju vai atsaukt konkrētu krājuma daudzumu rezervāciju, iestatiet daudzumu uz negatīvu vērtību, un iestatiet parametru `ifCheckAvailForReserv` uz vērtību `False`, lai izlaistu validāciju.
+Ja vēlaties atsaukt rezervāciju vai neatgriezt norādītos krājumu daudzumus, iestatiet daudzumu kā negatīvu vērtību un iestatiet parametru, `ifCheckAvailForReserv``False` lai izlaistu pārbaudi. Ir arī atvēlēts nepieejams API, lai to pašu darītu. Atšķirība ir tikai veids, kādā tiek izsaukti divi API. Ir vienkāršāk atsaukt noteiktu rezervācijas notikumu, izmantojot `reservationId` nepieejamu *API*. Papildinformāciju skatiet sadaļā [_Unreserve viens rezervācijas notikums_](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+Šajā piemērā parādīta veiksmīga atbilde.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Izveidot vairākus rezervēšanas notikumus
 
-Šis API ir [viena notikuma API](#create-one-reservation-event) lielapjoma versija.
+Šis API ir [viena notikuma API](#create-reservation-events) lielapjoma versija.
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Atsaukt rezervēšanas notikumus
+
+Unreserve *API* darbojas kā rezervācijas notikumu atsauktā [*·*](#create-reservation-events) operācija. Tas nodrošina veidu, kā atsaukt rezervēšanas notikumu, kas norādīts `reservationId` par rezervēšanas daudzumu vai samazināt to.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a> Atsaukt vienu rezervācijas notikumu
+
+Veidojot rezervāciju, tā `reservationId` tiek iekļauta atbildes pamattekstā. Jums ir jānorāda viens un tas `reservationId` pats, lai atceltu rezervēšanu un ietvertu to pašu `organizationId` un `dimensions` izmantoto rezervēšanas API zvanam. Visbeidzot norādiet vērtību `OffsetQty`, kas norāda krājumu skaitu, kuri tiks atbrīvoti no iepriekšējās rezervēšanas. Rezervēšanu var pilnībā vai daļēji atcelt atkarībā no norādītā `OffsetQty`. Piemēram, ja *rezervētas 100* krājumu vienības, `OffsetQty: 10`*varat norādīt, lai atceltu 10* no sākotnējās rezervētās summas.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+Šis kods rāda pamatteksta satura piemēru.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+Tālāk redzamais kods parāda veiksmīgas atbildes pamatteksta piemēru.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Atbildes pamattekstā, ja rezervēšanas `OffsetQty` daudzums ir mazāks vai vienāds ar to, `processingStatus` būs "*veiksmīgs*" un `totalInvalidOffsetQtyByReservId` būs *0*.
+>
+> Ja `OffsetQty` tā ir lielāka par rezervēto summu, `processingStatus` būs "*partialSuccess*" `totalInvalidOffsetQtyByReservId`, un tā būs starpība starp rezervēto `OffsetQty` summu un rezervēto summu.
+>
+>Piemēram, ja rezervēšanas daudzums ir 10 *un* vērtība ir `OffsetQty` 12 *,* tad tā būs `totalInvalidOffsetQtyByReservId` 2 *.*
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a> Atsaukt vairākus rezervēšanas notikumus
+
+Šis API ir [viena notikuma API](#reverse-one-reservation-event) lielapjoma versija.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Rīcībā esošie vaicājumi
 
-Izmantojiet rīcībā _esošo vaicājumu_ API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 100 atsevišķiem krājumiem pēc `ProductID` vērtības. Katrs `SiteID` vaicājumā `LocationID` var norādīt vairākas vērtības. Maksimālais ierobežojums ir definēts kā `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Izmantojiet rīcībā *esošo vaicājumu* API, lai ienestu pašreizējos rīcībā esošos krājumu datus saviem produktiem. API pašlaik atbalsta vaicājumu līdz 5000 atsevišķiem krājumiem pēc `productID` vērtības. Katrs `siteID` vaicājumā `locationID` var norādīt vairākas vērtības. Maksimālo ierobežojumu nosaka ar šādu vienādojumu:
+
+*NumOf(SiteID) \* NumOf(LocationID) < = 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Vaicājums, izmantojot grāmatošanas metodi
 
@@ -517,7 +629,7 @@ Body:
 - `productId` var ietvert vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
 - Inventory Visiblity dalīšanā tiek izmantoti `siteId` un `locationId`. Varat norādīt vairāk nekā vienu `siteId` un `locationId` vērtību *Rīcībā aesošā* pieprasījumā. Pašreizējā laidienā jānorāda gan `siteId`, gan `locationId` vērtības.
 
-`groupByValues` parametram vajadzētu sekot jūsu indeksēšanas konfigurācijai. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
+Ieteicams izmantot parametru, lai `groupByValues` sekotu jūsu konfigurācijai indeksācijā. Papildinformāciju skatiet [Preču indeksa hierarhijas konfigurēšana](./inventory-visibility-configuration.md#index-configuration).
 
 `returnNegative` nosaka, vai rezultāti satur negatīvus ierakstus.
 
@@ -530,13 +642,13 @@ Body:
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -574,10 +686,10 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Šeit ir paraugs iegūt vietrādi URL. Šis saņemšanas pieprasījums ir tieši tāds pats kā iepriekš sniegtais grāmatošanas paraugs.
+Šeit paraugs iegūst vietrādi URL. Šis saņemšanas pieprasījums ir tieši tāds pats kā iepriekš sniegtais grāmatošanas paraugs.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Pieejams solīšanai

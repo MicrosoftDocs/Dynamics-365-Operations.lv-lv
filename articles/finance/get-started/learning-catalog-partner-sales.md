@@ -1,23 +1,23 @@
 ---
 title: Mācību katalogs Microsoft partnera pārdošanas un mārketinga lomām Dynamics 365 finansēm
 description: Atrodiet visas apmācību opcijas personām Microsoft partnera pārdošanas un mārketinga lomās, kas strādā ar Dynamics 365 Finanses.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2adacf9a3408b0cc4ee62204e50fceedf740b8fa
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067154"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424846"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Mācību katalogs Microsoft partnera pārdošanas un mārketinga lomām Dynamics 365 finansēm
 
@@ -25,11 +25,10 @@ Vai esat atbildīgs par to, lai palīdzētu jūsu klientiem iegādāties pareizo
 
 Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem domēniem kārtībā no visvienkāršākā uz vismodernāko. Ja saturs pastāv vairākos formātos, mēs jūs informēsim, lai varētu izvēlēties apmācības formātu, kas vislabāk atbilst jūsu vajadzībām.
 
-## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
+## <a name="get-started"></a>Darba sākšana<a name="get-started"></a>
 
 | Saturs  | Apraksts  | Formāts  | Ilgums    |
 |-------------|-----------------|-------------|------------|
-| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
 | [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Darba sākšana ar Dynamics 365 Finansēm](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finanses sniedz biznesa lietotājiem iespējas pielāgoties ātri maināmām biznesa vidēm. Tas uzņēmumiem nodrošina visu nepieciešamo, lai kontrolētu finanses un pārvaldītu līdzekļus ar precīzu informācijas apriti finanšu plānošanai un prognozēšanai, un lai palīdzētu uzturēt atjaunināšanu ar analīzes rīku palīdzību. Tā kā finanses ir jebkura biznesa pamatā, ir svarīgi esiet iepazinies ar Dynamics 365 Finanšu iespējām. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |

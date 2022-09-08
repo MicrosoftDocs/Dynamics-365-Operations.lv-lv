@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124302"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423859"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Apmācības katalogs Dynamics 365 Supply Chain Management lietotājiem
 
@@ -25,11 +25,10 @@ Vai tikko ieguvāt lietošanā jaunu programmu?
 
 Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem domēniem kārtībā no visvienkāršākā uz vismodernāko. Ja saturs pastāv vairākos formātos, mēs jūs informēsim, lai varētu izvēlēties apmācības formātu, kas vislabāk atbilst jūsu vajadzībām.
 
-## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
+## <a name="get-started"></a>Darba sākšana<a name="get-started"></a>
 
 | Saturs | Apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 8 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
 | [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Sākt darbu ar Līdzekļu pārvaldību Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Līdzekļu pārvaldība ir modulis līdzekļu un uzturēšanas darbu pārvaldībai programmā Dynamics 365 Supply Chain Management. Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem. Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs. | Brīva režīma, paša kontrolēts tiešsaistes mācību modulis | 1 stunda |

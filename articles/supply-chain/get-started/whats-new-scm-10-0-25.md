@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219100"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404435"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.25. (2022. gada aprīlis)
 
@@ -161,7 +161,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Noliktavas vadība | [Novietojuma noliktavas vienības pozīcija](../warehousing/location-license-plate-positioning.md) | Obligāts |
 | Noliktavas vadība | [Novietojuma produkta dimensijas sajaukšana](../warehousing/location-product-dimension-mixing.md) | Obligāts |
 | Noliktavas vadība | Padariet rediģējamu mobilās ierīces krājumu kustības krājumu statusa lauku | Obligāts |
-| Noliktavas vadība | Manuālās pārdošanas rindas izdošanas pakalpojums administratoram vai līdzīgiem uzticamiem lietotājiem | Obligāts |
+| Noliktavas vadība | [Manuālās pārdošanas rindas izdošanas pakalpojums administratoram vai līdzīgiem uzticamiem lietotājiem](../warehousing/manual-order-line-picking-exception-handling.md) | Obligāts |
 | Noliktavas vadība | [Liegt pārsūtīšanas pasūtījumā nosūtīto noliktavas vienību izmantošanu citās noliktavās, izņemot mērķa noliktavu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obligāts |
 | Noliktavas vadība | Piedāvāt atrisināt neskaidrus vienumu “Atrašanās vieta/Noliktavas vienība” nosaukumus | Obligāts |
 | Noliktavas vadība | [Kvalitātes pārbaude](../warehousing/quality-check.md) | Obligāts |

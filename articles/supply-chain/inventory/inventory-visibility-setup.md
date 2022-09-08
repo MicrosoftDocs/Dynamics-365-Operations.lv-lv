@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306060"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388546"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility instalēšana un iestatīšana
 
@@ -56,7 +56,9 @@ Pēc pieteikuma reģistrēšanas un klienta noslēpuma pievienošanas Azure AD i
 1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas** sadaļā **Power Platform integrācija**. Tad varat atrast Dataverse vides nosaukumu. Apstipriniet, ka Dataverse vides nosaukums ir tas, ko vēlaties izmantot Krājumu redzamībai.
 
     > [!NOTE]
-    > Pašlaik tiek atbalstītas tikai Dataverse vides, kas izveidotas, izmantojot LCS. Ja jūsu Dataverse vide tika izveidota citādi (piemēram, izmantojot Power Apps administrēšanas centru) un ja tā ir saistīta ar Supply Chain Management vidi, vispirms ir jāsazinās ar Krājumu redzamības produktu grupu, lai novērstu kartēšanas problēmu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com). Tad instalējiet Krājumu uztveramības pievienojumprogrammu.
+    > Pašlaik tiek atbalstītas tikai Dataverse vides, kas izveidotas, izmantojot LCS. Dataverse Ja vide tika izveidota citādi (piemēram, PowerApps izmantojot administrēšanas centru) un ja tā ir saistīta ar piegādes ķēdes pārvaldības vidi, pirms krājumu redzamības pievienojumprogrammas instalēšanas novērsiet kartēšanas problēmu.
+    >
+    > Iespējams, ka duālās rakstīšanas vide ir saistīta Dataverse ar instanci, kamēr LCS nav iestatīts Power Platform integrācijai. Šī saistīšanas neatbilstība var izraisīt neparedzētu uzvedību. Ieteicams LCS vides detaļas saskaņot ar datiem, kas ir saistīti ar duālo rakstiet, lai vienu un to pašu savienojumu varētu izmantot biznesa notikumi, virtuālās tabulas un pievienojumprogrammas. Skatiet [saistīšanas neatbilstību](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch), lai iegūtu informāciju par to, kā atrisināt kartēšanas problēmu. Kad kartēšanas problēma ir atrisināta, varat turpināt instalēt Krājumu redzamību.
 
 1. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 
@@ -140,11 +142,11 @@ Lai atinstalētu krājumu redzamības pievienojumprogrammu, rīkojieties šādi:
 1. **Vides** atlase navigācijas joslā
 1. Atlasiet vidi Dataverse, kas ir piesaistīta jūsu LCS videi.
 1. Dodieties **uz** risinājumu un izdzēsiet šādus risinājumus šādā secībā:
-    1. Enkura risinājums programmai Inventory Visibility Dynamics 365 risinājumos
-    1. Dynamics 365 FNO SCM Krājumu redzamības Applications risinājums
-    1. Krājumu pakalpojuma konfigurēšana
-    1. Krājumu redzamības savrupā programma
-    1. Dynamics 365 FNO SCM Krājumu redzamības pamata risinājums
+    1. Dynamics 365 krājumu redzamība — noenkurošana
+    1. Dynamics 365 krājumu redzamība — programma
+    1. Dynamics 365 krājumu redzamība — vadīklas
+    1. Dynamics 365 krājumu redzamība — vadības
+    1. Dynamics 365 krājumu redzamība — bāze
 
     Pēc šo risinājumu dzēšanas arī tabulās saglabātie dati arī tiks dzēsti.
 

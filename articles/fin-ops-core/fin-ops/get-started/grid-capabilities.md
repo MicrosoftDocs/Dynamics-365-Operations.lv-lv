@@ -2,7 +2,7 @@
 title: Režģa iespējas
 description: Šajā rakstā ir aprakstītas vairākas režģa kontroles jaudīgas funkcijas. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258953"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405470"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -178,20 +178,22 @@ Tāpat kā programmā Excel lietotāji var piestāt, lai kolonna tiktu automāti
 
 Šī funkcija sāka būt aktivizēta pēc noklusējuma versijā 10.0.21. 2022. gada oktobrī tas kļūst obligāts.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
+## <a name="developer-topics"></a>Izstrādātāju tēmas
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
 Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
 
 ```this.forceLegacyGrid();```
 
 Šis API tiks aprēķināts līdz ar nolietojumu, lai varētu noņemt mantojuma režģa kontroli. Tomēr tas būs pieejams vismaz 12 mēnešus pēc nolietojuma aprēķina. Ja kādai problēmai nepieciešams izmantot šo API, ziņojiet par to Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lapas piespiedu jaunā režģa izmantošanai pēc iepriekšējas iziešanas no režģa
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lapas piespiedu jaunā režģa izmantošanai pēc iepriekšējas iziešanas no režģa
 Ja esat izvēlējies atsevišķu lapu, lai neizmantotu jauno režģi, iespējams, vēlēsieties pēc tam atkārtoti aktivizēt jauno režģi pēc pakārtoto problēmu atrisināšanas. Lai to paveiktu, vienkārši ir jānoņem izsaukums `forceLegacyGrid()`. Izmaiņas stāsies spēkā tikai pēc tam, kad notiks kāda no šīm darbībām:
 
 - **Vides atkārtota izvietošana**: kad vide tiek atjaunināta un atkārtota izvietošana, tabula, kurā tiek glabātas lapas, kas ir aizstātas ar jauno režģi (FormControlReactGridState) tiek automātiski notīrīta.
 - **Manuāla tabulas tīrīšana**: izstrādes scenārijiem ir jāizmanto SQL, lai notīrītu tabulu FormControlReactGridState un pēc tam restartētu AOS. Šī darbību kombinācija atiestatīs lapu kešatmiņu, kuras izvēlējās jaunajam režģim.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Izstrādātājs] Atsevišķu režģu izvēle ārpus ierakstīšanas iespējas pirms sistēmas iespējas
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Izstrādātājs] Atsevišķu režģu izvēle ārpus ierakstīšanas iespējas pirms sistēmas iespējas
 Daži scenāriji ir radušies, kas *neaizdod* sevi darbam, izmantojot ierakstot pirms režģa sistēmas iespējas. (Piemēram, daži kodi, kas tiek izraisīti, kad rinda ir validēta, izraisa datu avota izpēti, un tādējādi izpēte var sabojāt nesaistītos rediģējumus esošajās rindās.) Ja jūsu organizācija atklāj šādu scenāriju, ir pieejams API, kas ļauj izstrādātājam izvēlēties atsevišķu režģi no asinhronās rindu apstiprināšanas un atgriezties pie mantojuma uzvedības.
 
 Ja asinhronā rindas apstiprināšana režģī ir atspējota, lietotāji nevar izveidot jaunu rindu vai pārvietot režģī uz citu esošo rindu, kamēr pašreizējā rindā ir validācijas problēmas. Šīs darbības rezultātā tabulas no Excel nevar ielīmēt finanšu un operāciju režģī.
@@ -204,13 +206,18 @@ Lai izvēlētos atsevišķu režģi no asinhronās rindu apstiprināšanas, `sup
 > - Šo zvanu vajadzētu izsaukt tikai izņēmuma gadījumos, un tas nedrīkst būt visu režģu norma.
 > - Nav ieteicams pārslēgt šo API izpildlaikā pēc formu ielādes.
 
-## <a name="developer-size-to-available-width-columns"></a>[Izstrādātājs] Pielāgot pieejamo kolonnu platumu
+### <a name="developer-size-to-available-width-columns"></a>[Izstrādātājs] Pielāgot pieejamo kolonnu platumu
 Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz **SizeToAvailable**, šīm kolonnām sākotnēji ir tāds pats platums, kāds tām būtu, ja rekvizīts būtu iestatīts uz **SizeToContent**. Tomēr tās izplešas, lai izmantotu jebkādu pieejamo papildu platumu režģī. Ja vairākām kolonnām rekvizīts ir iestatīts uz **SizeToAvailable**, visas šīs kolonnas koplieto jebkādu pieejamo papildu platumu režģī. Tomēr, ja lietotājs manuāli maina lielumu vienai no šīm kolonnām, tad kolonna kļūst statiska. Tās paliks šajā platumā un vairs neaizņems pieejamo papildu režģa platumu.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Izstrādātājs] Tās kolonnas norādīšana, kura saņem sākotnējo fokusu, veidojot jaunas rindas, lietojot lejupvērsto bultiņu taustiņu
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Izstrādātājs] Tās kolonnas norādīšana, kura saņem sākotnējo fokusu, veidojot jaunas rindas, lietojot lejupvērsto bultiņu taustiņu
 Kā tika apspriests [Atšķirības](#differences-when-entering-data-ahead-of-the-system), ievadot datus pirms sistēmas sadaļas, ja iespēja "Ierakstot pirms sistēmas" ir iespējota, un lietotājs izveido jaunu rindu, **izmantojot** taustiņu Ar lejupvērsto bultiņu, noklusējuma uzvedība tiek novietota jaunās rindas pirmajā kolonnā. Šī pieredze var atšķirties no pieredzes mantojuma režģī vai arī, ja ir **atlasīta** poga Jauns.
 
 Lietotāji un organizācijas var izveidot saglabātus skatus, kas ir optimizēti datu ievadei. (Piemēram, var pārkārtot kolonnas tā, lai pirmā kolonna būtu tā, kurā vēlaties sākt ievadīt datus.) Turklāt no versijas 10.0.29 organizācijas var pielāgot šo uzvedību, izmantojot izvēlētāsControlOnCreate **()** metodi. Šī metode ļauj izstrādātājam norādīt kolonnu, kam jāsaņem sākotnējais fokuss, kad tiek veidota jauna rinda, izmantojot taustiņu **Ar lejupvērsto bultiņu**. Šis API paņem kontroles ID, kas atbilst kolonnai, kam jāsaņem sākotnējais fokuss.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Izstrādātājs] Režģu apstrāde ar paplašināmām vadīklām, kas nav nodrīsamas
+Ielādējot režģi, ja sistēma saskaras ar paplašināmu kontroli, kas nav balstīta uz paplašināmo kontroli, sistēma piestās mantojuma režģi atveidot. Kad lietotājs pirmo reizi saskarsies ar šo situāciju, tiks parādīts ziņojums ar norādi, ka lapa ir jāatsvaidzina. Pēc tam šī lapa ielādēs mantojuma režģi automātiski bez turpmākiem paziņojumiem lietotājiem līdz nākamajai sistēmas atjaunināšanai. 
+
+Lai pavisam atrisinātu šo situāciju, paplašināmie kontroles autori var izveidot kontroles versiju to vadībai, kas tiks lietota režģī.  Pēc atjaunināšanas X++ **klase kontrolei var būt papildu klase ar atribūtu FormReactControlAttribute**, lai norādītu ar šo kontroli noslodzi Nodzēsiet saišķi. `SegmentedEntryControl` Skatiet klasi kā piemēru.  
 
 ## <a name="known-issues"></a>Zināmās problēmas
 Šajā sadaļā tiek uzturēts saraksts ar zināmām problēmām jaunajai režģa kontrolei.
@@ -218,9 +225,12 @@ Lietotāji un organizācijas var izveidot saglabātus skatus, kas ir optimizēti
 ### <a name="open-issues"></a>Aktuālās problēmas
 - Pēc **Jaunā režģa kontroles** līdzekļa iespējošanas dažas lapas turpinās izmantot esošo režģa kontroli. Tas notiks šādās situācijās:
  
-    - Kartīšu saraksts atrodas lapā, kas tiek atveidots vairākās kolonnās.
-    - Grupētu kartīšu saraksts atrodas lapā.
-    - Režģa kolonna ar nereaģētu paplašināmo kontroli.
+    - [Atrisināti] Lapā ir karšu saraksts, kas tiek atveidots vairākās kolonnās.
+        - Šī veida karšu sarakstu atbalsta Jauna režģa kontrole **, sākot** ar versiju 10.0.30. Var noņemt jebkuru forceLegacyGrid() lietošanu šim nolūkam. 
+    - [Atrisināti] Lapā ir grupēts karšu saraksts.
+        - Grupētie karšu saraksti tiek atbalstīti ar jaunu režģa **kontroli,** sākot ar versiju 10.0.30. Var noņemt jebkuru forceLegacyGrid() lietošanu šim nolūkam. 
+    - [Atrisināti] Režģa kolonna, kurā nav no jauna paplašināma kontrole.
+        - Paplašināmās kontroles var nodrošināt noslogotās kontroles versiju, kas tiks ielādēta, novietojot režģī un pielāgojot to kontroles definīciju, lai ielādētu šo kontroli, kad tā tiek lietota režģī. Papildinformāciju skatiet atbilstošajā izstrādātāja sadaļā. 
 
     Kad lietotājs pirmo reizi sastopas ar vienu no šīm situācijām, tiks parādīts ziņojums par lapas atsvaidzināšanu. Kad parādās šis ziņojums, lapa turpinās izmantot esošo režģi visiem lietotājiem līdz nākamās preces versijas atjaunināšanai. Šo scenāriju labākai apstrādei, lai varētu izmantot jauno režģi, tiks apsvērta turpmāka atjaunināšana.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fa9506a44e23a42f7a9bf636f90f0fbb6200fd67
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d82d8cdecd43109d8cc559a3fe5b7b39d75d9775
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276207"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423685"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce funkcionālo konsultantu apmācības katalogs
 
@@ -31,16 +31,15 @@ Lai iegūtu apmācību par līdzekļiem, kas koplietoti ar citām finanšu un op
 
 ## <a name="get-started"></a>Darba sākšana<a name="get-started"></a>
 
-| Saturs| Apraksts  | Formāts  | Ilgums  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
-| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Šī mācīšanās pieredze jūs aizvedīs ceļā, kas sāksies, parādot, kā digitālā pārveide un biznesa lietojumprogrammu jauda var pārveidot jūsu biznesu. Mēs skaidrosim, kā Dynamics 365 un Power Platform palīdzēs jums pieņemt apzinātus lēmumus, pamatojoties uz jūsu organizācijas vajadzībām un mērķiem, ar četriem digitālās transformācijas blokiem – moderns, apvienots, inteliģents un pielāgojams. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
+| Saturs | Apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Darba sākšana ar Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Darba sākšana ar Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection ir uz mākoņa balstīts risinājums, kas paredzēts e-komercijai, fiziskiem veikaliem un universālā kanāla tirgotājiem, lai palīdzētu aizsargāt savus ieņēmumus un reputāciju, nodrošinot līdzekļus un iespējas, lai samazinātu krāpšanu un ļaunprātīgu izmantošanu, samazinātu darbību izdevumus un palielinātu pieņemšanas likmes, vienlaicīgi aizsargājot lietotāju kontu no krāpnieciskas iedarbības. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 35 minūtes |
 
 ## <a name="commerce"></a>Komercija<a name="commerce"></a>
 
-| Saturs  | apraksts | Formāts  | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Saturs | apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Izvietot Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Šis mācību ceļš apraksta, kā izvietot Dynamics 365 Commerce   vides un veikt pirmsnodrošināšanas soļus sekmīgai Komercijas ieviešanai, izmantojot pareizo topoloģiju katra mazumtirgotāja biznesa vajadzībām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas   |
 | [Konfigurēt un strādāt ar universālā kanāla priekšnosacījumiem Dynamics 365 Commerce](/learn/paths/configure-work-omnichannel-prequisites-commerce/)          | Lai varētu izveidot un izmantot jebkuru no Dynamics 365 Commerce kanāliem, ir jāiestata vairāki priekšnosacījumi. Šis apmācības ceļš apraksta šo priekšnosacījumu konfigurāciju, lai nodrošinātu veiksmīgu transakciju veikšanu Commerce kanālos un to, kā strādāt ar tiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
 | [Konfigurēt un izmantot Pārdošanas punktu (POS) Dynamics 365 Commerce](/learn/paths/configure-use-pos-commerce/) | Darījumu dati tiek veidoti Pārdošanas punktā (POS) un pēc tam augšupielādēti Dynamics 365 Commerce pārstrādei galvenajā mītnē. Šis mācības ceļš apraksta, kā instalēt un aktivizēt POS, kā arī to, kā izveidot ikdienas transakcijas sistēmā POS. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
@@ -50,10 +49,8 @@ Lai iegūtu apmācību par līdzekļiem, kas koplietoti ar citām finanšu un op
 
 ## <a name="e-commerce"></a>E-komercija<a name="e-commerce"></a>
 
-| Saturs  | apraksts | Formāts  | Ilgums    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Saturs | apraksts | Formāts | Ilgums |
+|---------|-------------|--------|--------|
 | [Konfigurēt un strādāt ar e-komerciju Dynamics 365 Commerce](/learn/paths/configure-work-e-commerce/) | Tiešsaistes kanāli un Dynamics 365 Commerce   e-komercijas vietne ļauj mazumtirgotājiem tiešsaistē izveidot savu zīmolu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

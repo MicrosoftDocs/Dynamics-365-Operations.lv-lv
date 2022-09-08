@@ -1,23 +1,23 @@
 ---
 title: Mācību katalogs ieviešanas projektu vadītājiem, kas strādā ar Dynamics 365 finansēm
 description: Atrodiet visas apmācību opcijas tiem cilvēkiem, kas strādā kā projekta ieviešanas vadītāji ar Dynamics 365 Finansēm.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b4c0a108c581eafee45fa3ab31d532d3acc7ed2
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9f75a7f6fad3fb8a204c579083b9ffaca46e7592
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067656"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424840"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Mācību katalogs ieviešanas projektu vadītājiem, kas strādā ar Dynamics 365 finansēm
 
@@ -25,11 +25,10 @@ Vai atbildat par to, ka jūsu uzņēmuma ieviešana norit raiti?
 
 Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem domēniem kārtībā no visvienkāršākā uz vismodernāko. Ja saturs pastāv vairākos formātos, mēs jūs informēsim, lai varētu izvēlēties apmācības formātu, kas vislabāk atbilst jūsu vajadzībām.
 
-## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
+## <a name="get-started"></a>Darba sākšana<a name="get-started"></a>
 
 | Saturs | Apraksts  | Formāts  | Ilgums    |
 |-------------|-----------------|-------------|------------|
-| [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
 | [Sākt ar finanšu un operāciju programmām](/learn/paths/get-started-finance-operations/) | Uzziniet, kā finanšu un operāciju programmas atbalsta uzņēmumus, lai pārvaldītu savas globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmais solis strādājot ar finanšu un operāciju programmām, jums ir jāiepazīstas ar tās funkcijām un funkcionalitāti neatkarīgi no vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Pirms iegādes](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Norādiet pakāpen dažādas norādes, vai vēl joprojām novērtējat finanses un operācijas vai esat gatavs veikt pirkumu. | Dokumentācija | |
@@ -58,13 +57,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [finanses un operācijas: Regression Suite Automation Tool – fons > iestatījums (D SASKAŅĀ AR 646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | Šī ir pirmā no divdaļīgajām sērijām par Regression Suite Automation Testing (RSAT). Šajā sesijā ir aprakstīts, kā saglabāt procesus ar nepārtrauktiem atjauninājumiem, izmantojot automātisko pārbaudi, izmantojot RSAT. Tiks iekļautas arī mācības un rekomendācijas, kā izveidot uzdevumu ierakstus un izpildīt testus, izmantojot RSAT, kā arī ar soli pa solim iziesim cauri tā instalēšanai un uzstādīšanai. | TechTalk (ieakstīts vebinārs) | 70 minūtes |
 | [finanses un operācijas: Regression Suite Automation Tool - Lifecycle Demo (DCYCL647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | Šī ir otrā no divdaļīgajām sērijām par Regression Suite Automation Testing (RSAT). Šī sesija segs visa cikla uzdevumu ierakstu izveides un saglabāšanas demonstrāciju no finanšu un operāciju pie BPM bibliotēkas LCS, sinhronizējot BPM Azure DevOps bibliotēku, lai izveidotu pārbaudes gadījumus, grupējot testa gadījumus testa tos testā un ielādējot un izpildot testa izpildi RSAT. | TechTalk (ieakstīts vebinārs) | 70 minūtes |
 | [Veiktspējas testēšanas metode (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | Lūdzu, pievienojieties mums šajā Tech Talk par to, kā uzsākt veiktspējas testēšanu. Uzziniet par pamatprincipiem, labāko praksi testēšanai, pieejamajiem rīkiem un metodēm testu veikšanai un mērījumu veikšanai, kā arī to, kā izmantot optimizēšanas rezultātus. | TechTalk (ieakstīts vebinārs) | 45 minūtes |
-| [Kā jaunināt uz 7.2 (2017. jūlijs) no 7.0 (RTW)/7.1 (laidiens 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šajā sesijā skaidrojams, kā jaunināt no Dynamics 365 finanšu un operāciju programmas v7.0 (RTW) un v7.1 (1611) uz v7.2 (2017. gada jūlijs). Mēs izveidojam nepārprotamu diferenciāciju starp īstiem klientiem un vēl realizācijā esošiem projektiem. | TechTalk (ieakstīts vebinārs) | 58 minūtes |
-| [Finanšu un operāciju programmas: jaunināšana no 7.x uz 8+ (D SASKAŅĀ AR 519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Lūdzu, pievienojieties mums mūsu nākamajam TechTalk, kura laikā mēs nosedzam 7.X līdz 8.X jaunināšanas procesu. Mēs apspriedām dažādus scenārijus un soļus, kas jāizpilda koda jaunināšanai un datu jaunināšanai. Segsim arī paplašināmības pieprasījumu scenārijus un to, kā tos nepieciešams uzlabot. 1. daļa no 2. | TechTalk (ieakstīts vebinārs) | 61 minūtes |
-| [AX2012 finanšu un operāciju jaunināšana (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šī Tech Talk sniegs pārskatu par to, kā atjaunināt kodu un datus no Dynamics AX 2012 uz. Dynamics 365 for Operations | TechTalk (ieakstīts vebinārs) | 45 minūtes |
+| [AX2012 finanšu un operāciju programmu jaunināšanai — 2020. gada 3. septembris](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | Šajā Tech Progresā tiks sniegts pārskats par to, kā jaunināt kodu un datus no Dynamics AX 2012 uz finanšu un operāciju programmām. | TechTalk (ieakstīts vebinārs) | 66 minūtes |
 | [Analīzes un pārskatu veidošanas opcijas: drukāšana un dokumentu maršrutēšanas aģents](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Lūdzu, pievienojieties mums, lai piedalītos šajā Tech talk par divām saistītām tēmām. Vispirms ir apskatīti Analīzes un Pārskatu izveides risinājuma raksti un rīki, kas pieejami Dynamics 365 Finance, Enterprise Edition. Otrkārt, ir aprakstīta scenāriju un dokumentu maršrutēšanas aģenta drukāšana. | TechTalk (ieakstīts vebinārs) | 45 minūtes |
-| [Kursu MB-300T01-A: galvenās Dynamics 365 finanšu funkcijas](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Šajā kursā apskatīti Microsoft Dynamics 365 Finanšu pamatelementi. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
-| [Kursu MB-300T02-A: pamatkonfigurēšana programmā Dynamics 365 Finance](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Šajā kursā apskatīti Microsoft Dynamics 365 Finanšu pamatelementi. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
-| [Kursu MB-300T03-A: datu migrācija un sagatavošana tiešai pārsūtīšanai ar Dynamics 365 finansēm](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Šajā kursā apskatīta datu migrācija un tiešā sagatavošana Microsoft Dynamics 365 Finansēm. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 | [Lifecycle īstenošanas sākumlapa](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Šajās tēmās aprakstītas programmas, rīki un procesi Microsoft Dynamics, kas ir pieejami saistībā ar jūsu 365 Finanšu projekta ieviešanas dzīves ciklu. | Dokumentācija | |
 
 ## <a name="financial-management"></a>Finanšu pārvaldība<a name="financial-management"></a>
@@ -81,13 +75,10 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Konfigurēt Dynamics 365 Finanses publiskam sektoram](/learn/modules/configure-public-sector-dyn365-finance/) | Dynamics 365 Finanses iespējo biznesa procesus, kas kopīgi sabiedriskā un privātā sektora sektoriem, piemēram, budžeta uzdevumiem, pirkšanai, parādi kreditoriem un debitoru parādu uzdevumiem. Izmantojiet funkcionalitāti “Publiskais sektors”, lai ievērotu noteikumus, normatīvus un atskaišu veidošanas prasības publiskā sektora organizācijām. | Brīva režīma, paša kontrolēts tiešsaistes modulis | 1 stunda |
 | [Finanšu pārskati (DYN305PAL)](https://community.dynamics.com/365/b/techtalks/posts/financial-reporting-april-25-2017) | Šī Tech Talk apspriedīs finanšu pārskatu iestatīšanu un pārskata sarakstus modulī Dynamics 365 for Operations. Šajā sesijā uzzināsiet arī par datamart atiestatīšanu UAT vidē un problēmu novēršanu un meklēšanu, izmantojot LCS. | Tīmekļa konferences brīva ierakstīšana | 57 minūtes |
 | [finanses un operācijas: LIELBRITĀNIJAS digitālais nodoklis - PVN deklarācija programmā Dynamics 365 finanšu un operāciju vajadzībām (D DIGIT599PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) | Šīs sesijas laikā ir iespējams izveidot jauno iesniegšanas procesu, ko HMRC iesniedza Apvienotajā Karalistē PVN deklarēšanas procedūrai. Mēs izskaidrojam, kā konfigurēt PVN deklarāciju un iestatīt elektronisko ziņojumapmaiņu programmā Dynamics 365 Finance. Tiks demonstrēts iesniegšanas process programmā HMRC, kas atrodas kastu vidē. Šī sesija ir īpaši svarīga konsultantiem, kas ieviesīs šo līdzekli un nodrošinās lietotājiem apmācību. | Tīmekļa konferences brīva ierakstīšana | 63 minūtes |
-| [Kursu MB-310T01-A: konfigurēšana un izmantošana būtiskiem finanšu pārvaldības komponentiem programmā Dynamics 365 Finanses](https://www.microsoft.com/learning/course.aspx?cid=MB-310T01) | Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts vai reģiona grāmatvedības likumdošanai. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 2 dienas |
-| [Kurss MB-310T02-A: konfigurējiet un izmantojiet kreditorus, debitoru parādus un kolekciju finanšu un operāciju modulī](https://www.microsoft.com/learning/course.aspx?cid=MB-310T02) | Izmaksu uzskaite ļauj jums apkopot datus no dažādiem avotiem, piemēram, virsgrāmata, apakšgrāmata, budžeti un statistiska informācija. Pēc tam jūs varat analizēt, apkopot un novērtēt izmaksu datus, tādējādi vadība var pieņemt vislabākos lēmumus cenas pielāgošanai, budžetiem, izmaksu kontrolei un tā tālāk. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
-| [Kurss MB-310T03-A: konfigurējiet un izmantojiet budžeta konfigurēšanu, pamatlīdzekļus un papildu funkcionalitāti finansēs un operācijās](https://www.microsoft.com/learning/course.aspx?cid=MB-310T03) | Jūs varat izpildīt perioda vai gada slēgšanas procedūru. Slēgšanas procesi sagatavo sistēmu jaunajam periodam. Uzziniet, kā sagatavot, konfigurēt un veikt periodiskos procesus Dynamics 365 finansēs. | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena |
 
 ## <a name="exams"></a>Eksāmeni<a name="exams"></a>
 
-| Saturs | apraksts | Formāts |
+| Saturs | Apraksts | Formāts |
 |---|---|---|
 | [Eksāmens MB-300: Microsoft Dynamics 365 Unified Operations Pamata](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt sekojošos tehniskos uzdevumus: izmantot parasto funkcionalitāti un ieviešanas rīkus; konfigurēt drošību, procesus un opcijas; veikt datu migrāciju un pārbaudīt un atbalstīt risinājumu. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
 | [Eksāmena MB-310: Microsoft Dynamics 365 Finanses, Finanšu dokumenti](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Šis eksāmens nosaka jūsu spēju izpildīt šādus tehniskos uzdevumus: iestatīt un konfigurēt finanšu pārvaldību; pārvaldīt un lietot parastos procesus; ieviest un pārvaldīt parādus kreditoriem un debitoriem; pārvaldīt budžeta un pamatlīdzekļus. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |

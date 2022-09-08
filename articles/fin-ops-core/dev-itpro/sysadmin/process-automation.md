@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114941"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423964"
 ---
 # <a name="process-automation"></a>Procesu automatizācija
 
@@ -29,6 +29,8 @@ Procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu ser
 ## <a name="administration"></a>Administrācija
 
 Centrālā administrēšanas lapa visu procesu automatizācijām ir atrodama Sistēmas administrēšanas modulī, kas atrodas izvēlnē **Iestatījumi**. Šajā lapā tiks uzskaitīti visi automatizētie procesi (sērijas), kas ir iestatīti sistēmā. Tas arī ļaus jums pievienot jaunu procesu automatizācijas tieši no šīs lapas. Pēc sērijas iestatīšanas varat pārvaldīt katru šī saraksta sēriju. Varat izvēlēties rediģēt visu sēriju, dzēst to, skatīt visus gadījumus saraksta skatā vai atspējot sēriju, ja vēlaties pauzēt plānoto darbu. 
+
+Izmantojiet šīs **lapas cilni Fona** procesi, lai administrētu visus fona procesus, kas darbojas jūsu vidē. Atlasiet **Rediģēt,** lai veiktu grafika izmaiņas jebkuram fona procesam. Šīs izmaiņas var ietvert pārejas laika periodu, kas izraisa procesa darbību kā "plkst." vai pauzēt pauzi noteiktu laika periodu katru dienu. Atlasiet **Skatīt jaunākos rezultātus**, lai skatītu katra fona procesa izpildes rezultātus.
 
 Visi procesi, kas ir atspējoti līdzekļu pārvaldībā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti. Procesa automatizācijas plānošanas programma balstās uz sistēmas pakešuzdevuma **Procesa automatizācijas aptauju sistēmas darbs** palaišanu. Darbs nekādā gadījumā nedrīkst tikt mainīts vai pārveidots. Ja šis pakešuzdevums netiek palaists vai ir kļūdains, atlasiet Inicializēt procesa automatizāciju, **lai** atiestatītu pakešuzdevumu. Šī atiestatīšana nodrošina, ka visas jaunās automatizācijas, kas izlaistas jaunākas programmas versijā, tiek inicializētas. 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334781"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404438"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.28 (2022. gada augusts)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9334781"
 |---|---|---|---|
 | Krājumi un loģistika | [Landed izmaksu integrācijas entītijas trešās puses kravas ekspediktiem](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Kopējo sūtīšanas izmaksu elementu pārskats](../landed-cost/landed-cost-entities-overview.md) | Aktivizēts pēc noklusējuma |
 | Plānošana | [Uz pieprasījumu balstīta materiālu prasību plānošana (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
-| Plānošana | [Plānošanas optimizācijas atbalsts piegādes īšanai (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Aprēķināt pārdošanas pasūtījuma piegādes datumus, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) CTP plānošanas optimizācijai* |
+| Plānošana | [Plānošanas optimizācijas atbalsts piegādes īšanai (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) CTP plānošanas optimizācijai* |
 | Plānošana | [Glabāšanas laika optimizācijas atbalsta plānošana](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Vispārējā plānošana precēm ar ierobežotu glabāšanas laiku](../master-planning/planning-optimization/shelf-life.md) | Aktivizēts pēc noklusējuma |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
@@ -50,7 +50,7 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas ir jādara l
 | Krājumu un noliktavas pārvaldība | (Indija) Pārsūtīšanas cenu kārtulām ignorēt atrašanās vietu, ja opcijai “No noliktavas koda” ir norādīts iestatījums “Visi” | <p>Šis līdzeklis attiecas tikai uz Indijas lokalizācijām. Tas atvieglo pārsūtīšanas cenu iestatīšanu krājumiem krājumu pārsūtīšanā.</p><p>Pārsūtīšanas cenas var iestatīt, konfigurējot katru krājumu ar pārsūtīšanas cenu noteikšanas nosacījumiem. Viens šīs konfigurācijas darbības veids ir tādas kārtulas rindas ietveršanas, kur lauks **No noliktavas koda** ir iestatīts uz *Visi*. Šis iestatījums norāda, ka rindas definētā pārsūtīšanas cena ir jālieto neatkarīgi no noliktavas, no kuras krājums ir izdots. Kad iespējots šis līdzeklis, pārsūtīšanas cenu kārtulas, **kur lauks No noliktavas** koda ir iestatīts uz *Visi*, ignorēs iestatījumu **Atrašanās** vieta. Tāpēc noteikumi tiks piemēroti neatkarīgi no pārsūtīšanas pasūtījumā norādītās atrašanās vietas. Tas, iespējams, ir tas, kas tiek gaidīts, jo novietojums atrodas noliktavas dimensiju hierarhijā zem noliktavas.</p><p>Bez šīs funkcijas sistēma piemēros šī tipa noteikumus tikai tad, kad atrašanās vieta pārsūtīšanas pasūtījumā precīzi sakrīt ar atrašanās vietu, kas iestatīta noteikumam. (Ja kārtulai iestatīta tukša atrašanās vieta, sistēma piemēros noteikumu tikai pārsūtīšanas pasūtījumiem, kuriem atrašanās vieta ir arī tukša vērtība.)</p> |
 | Krājumu un noliktavas pārvaldība | Rīcībā esošo krājumu pārskata datu tīrīšana | Šī funkcija nodrošina veidu, kā iztīrīt datus, kas tiek izmantoti, lai izveidotu rīcībā *esošo krājumu pārskatu glabāšanas* pārskatus. |
 | Ražošanas kontrole | Piešķirt projekta darbības pakalpojumu līgumam un pakalpojumu pasūtījumu rindām | Šī iespēja pievieno lauku ar nosaukumu Projekta **aktivitāte** pakalpojumu līgumam un pakalpojuma pasūtījuma rindām, tādējādi jūs variet iestatīt projekta aktivitāti tiem. Šis līdzeklis palīdzēs novērst bloķēšanas kļūdas, kad iegrāmatosiet pakalpojumu pārvaldības projekta žurnālus, kas pieprasa iestatīt projekta aktivitāti.  |
-| Noliktavas vadība | Manuālās pārsūtīšanas rindas izdošanas pakalpojums administratoram vai līdzīgiem uzticamiem lietotājiem | Šis līdzeklis ļauj administratoriem manuāli izdot krājumu darbības, kas ir saistītas ar pārsūtīšanas rindām. Šīs rindas ietver rindas, kas jau ir nodotas izpildei noliktavā. Administratoriem šī izdošana jāveic tikai izņēmuma gadījumos, piemēram, ja sistēma ir bojātā stāvoklī. |
+| Noliktavas vadība | Manuālās pārsūtīšanas rindas izdošanas pakalpojums administratoram vai līdzīgiem uzticamiem lietotājiem | Šis līdzeklis ļauj administratoriem manuāli izdot krājumu darbības, kas ir saistītas ar pārsūtīšanas rindām. Šīs rindas ietver rindas, kas jau ir nodotas izpildei noliktavā. Administratoriem šī izdošana jāveic tikai izņēmuma gadījumos, piemēram, ja sistēma ir bojātā stāvoklī. Papildinformāciju skatiet sadaļā Manuāli [apstrādāt pārdošanas un pārsūtīšanas rindu izdošanas izņēmumus](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
@@ -61,7 +61,7 @@ Mēs nesen pievienojam vai būtiski atjauninājām šādus Palīdzības rakstus.
 | Izmaksu pārvaldība | [Fiksēta saņemtā krājuma cena](../cost-management/fixed-receipt-price.md) |
 | Izmaksu pārvaldība | [Bieži uzdotie jautājumi par krājumu izmaksu aprēķināšanu](../cost-management/inventory-costing-faq.md) |
 | Izmaksu pārvaldība | [Grāmatot izmaksu kontā uzskaites principā](../cost-management/post-to-charge-account-accounting-principle.md) |
-| Krājumu vadība | [Krājumu transakcijas detalizētā informācija](../inventory/inventory-transactions-details.md) |
+| Krājumu vadība | [Krājumu darījuma detalizētā informācija](../inventory/inventory-transactions-details.md) |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

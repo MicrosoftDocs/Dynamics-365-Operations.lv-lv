@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873729"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404441"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 
@@ -33,6 +33,7 @@ Tā kā paziņojumi netiek rādīti, kad jūsu vidē tiek atjaunināta plānoša
 
 | Izmaiņas | Līdzekļu pārvaldības informācija | Izlaišanas datumi |
 |---|---|---|
+| <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļu pārvaldība nav nepieciešama. | 2022. gada 29. augusts - 3. septembris |
 | <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi.<p>[Plānošanas optimizācijas centralizēta kalendāra uzturēšana](../supply-chain-calendars-master-planning.md)<p>[Optimizācijas ieteikumu plānošana, lai optimizētu esošo piegādi](../action-messages.md)<p>[Plānošanas optimizācijas atbalsts apakšlīgumu slēgšanai](../../production-control/manage-subcontract-work-production.md) | Līdzekļu pārvaldība nav nepieciešama. | 2022. gada 7.-11. marts |
 | <p>Pievienotais plānošanas prioritātes atbalsts ražošanas pasūtījumiem. | Pieejama versijā 10.0.25 kā daļa no funkcijas ar nosaukumu Prioritātes *vadīts MRP atbalsts optimizācijas plānošanai*. | 2021. gada 12. novembris |
 | <p>Vispārējie veiktspējas, kvalitātes un stabilitātes uzlabojumi. | Līdzekļu pārvaldība nav nepieciešama. | 2021. gada 12. novembris |
