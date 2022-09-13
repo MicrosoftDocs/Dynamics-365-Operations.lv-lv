@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas Commerce sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce\_10.0.30 (2022.\_gada novembris)"
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: "Commerce\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: "Commerce 10.0.28 (2022.\_gada jūlijs)"
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanālam raksturīgo atlaižu definēšana
                   href: define-channel-specific-discounts.md
-                - name: 'Opcijas, lai novērstu atlaides mazumtirdzniecības precēm'
-                  href: prevent-discounts.md
                 - name: Uz norēķiniem balstītas atlaides
                   href: tender_based_discounts.md
                 - name: Piegādes atlaide
                   href: shipping-discount.md
                 - name: Dāvanu ar pirkšanas veicināšanas pasākumiem konfigurēšana
                   href: gift-with-purchase.md
-                - name: Kuponu iestatīšana
-                  href: retail-coupons.md
-                - name: Atlaižu rādīšana punktā POS
-                  href: discounts-pos.md
+                - name: Kuponi
+                  href: coupons.md
+                - name: Izcenojuma iestatījumi
+                  href: price-settings.md
                 - name: Cenu pārskati
                   href: price-report.md
                 - name: Kanālam raksturīgu tirdzniecības līgumu izveide
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: "Krājumu uzmeklēšanas darbība punktā\_POS"
                       href: pos-inventory-lookup-operation.md
+                    - name: Informācijas par krājumiem preču saraksts
+                      href: inventory-aware-product-listing.md
                 - name: Pirkšanas pasūtījumi
                   items:
                     - name: Pirkšanas pasūtījumu pārskats

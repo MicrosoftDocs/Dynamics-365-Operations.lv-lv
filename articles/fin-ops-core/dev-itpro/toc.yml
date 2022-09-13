@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.30 (2022.\_gada novembris)"
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Platformas atjauninājumi versijai\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Platformas atjauninājumi versijai 10.0.28 (2022.\_gada augusts)"

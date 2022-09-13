@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (novembris)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (oktobris)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (augusts)
@@ -1138,9 +1140,11 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Uzskaites avota pārlūks
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: 'Dokumenti, kas gaida uzskaiti'
+                      href: general-ledger/documents-pending-accounting.md
             - name: Pārskati un pieprasījumi
               items:
-                - name: Žurnālu ierakstu un darījumu skatīšana
+                - name: Žurnālu ierakstu un transakciju skatīšana
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: Apgrozījuma bilance ar darījuma detalizētu pārskatu
                   href: public-sector/general-ledger-public-sector-trial-balance.md

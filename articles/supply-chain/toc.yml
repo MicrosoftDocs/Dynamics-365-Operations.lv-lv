@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Noliktavas darba atcelšana izņēmumu apstrādei
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Sistēmas noteikta darbu secība
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Izdošanas rindu grupēšana
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Izejošās darba slodzes vizualizācija
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Manuāli apstrādāt pārdošanas un pārsūtīšanas rindu izdošanas izņēmumus
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Noliktavas darba atcelšana izņēmumu apstrādei
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Papildināšana
                   items:
                     - name: Papildināšanas pārskats
