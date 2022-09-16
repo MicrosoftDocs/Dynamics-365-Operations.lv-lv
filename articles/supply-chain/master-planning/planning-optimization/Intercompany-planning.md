@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850675"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475617"
 ---
 # <a name="intercompany-planning"></a>Starpuzņēmumu plānošana
 
@@ -45,8 +45,8 @@ Ja vispārējā plānošana tiek palaista no vispārējā plāna, kas ietver pl�
 
 Lai izmantotu starpuzņēmumu plānošanu, jūsu sistēma ir jāsagatavo šādi:
 
-1. Atbilstošās preces ir jānodod visiem saistītajiem uzņēmumiem. Plašāku informāciju skatiet šeit: [Konfigurēt un izmantot starpuzņēmumu tirdzniecību risinājumā Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) pakalpojumā Microsoft Learn.
-1. Pakārtotais pieprasījums ir jāsedz ar pirkšanu no kreditora, kam ir starpuzņēmumu saistība ar iepriekšējo uzņēmumu un saistītajām noklusējuma krājumu dimensijām (vieta un noliktava) debitoram. Plašāku informāciju skatiet šeit: [Konfigurēt un izmantot starpuzņēmumu tirdzniecību risinājumā Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) pakalpojumā Microsoft Learn.
+1. Atbilstošās preces ir jānodod visiem saistītajiem uzņēmumiem. Papildinformāciju skatiet sadaļā [Starpuzņēmumu tirdzniecības konfigurēšana un izmantošana Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Pakārtotais pieprasījums ir jāsedz ar pirkšanu no kreditora, kam ir starpuzņēmumu saistība ar iepriekšējo uzņēmumu un saistītajām noklusējuma krājumu dimensijām (vieta un noliktava) debitoram. Papildinformāciju skatiet sadaļā [Starpuzņēmumu tirdzniecības konfigurēšana un izmantošana Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Vispārējam plānam iepriekšējā posma uzņēmumā ir jāiekļauj plānotais pakārtotais pieprasījums, un pakārtotajos plānos ir jānorāda attiecīgais uzņēmums un vispārējais plāns.
 
 ## <a name="include-planned-downstream-demand"></a>Ietvert lejupstraumes plānoto pieprasījumu
@@ -85,6 +85,5 @@ Sekojošajā attēlā parādīts, kā šis piemērs var parādīties lapā **Vai
 Sekojošajā attēlā parādīts, kā šis piemērs var parādīties lapā **Vairāklīmeņu piesaiste** plānotās ražošanas pasūtījumam.
 
 ![Starpuzņēmumu piemērs, kas ietver trīs uzņēmumus.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

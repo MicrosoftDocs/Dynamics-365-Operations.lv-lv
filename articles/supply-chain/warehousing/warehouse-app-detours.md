@@ -2,7 +2,7 @@
 title: Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 description: Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes krājumus tā, lai darbinieki varētu izpildīt pašreizējo uzdevumu, veikt citu uzdevumu un pēc tam atgriezties pie sākotnējā uzdevuma, nezaudējot informāciju.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336131"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428068"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 
@@ -35,8 +35,11 @@ Lai iespējotu nepieciešamos līdzekļus, pirms varat konfigurēt mobilo ierī�
 
 1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
 1. Pārliecinieties, vai *jūsu sistēmai ir ieslēgta* noliktavas programmas darbību norādījumu funkcija. No Piegādes ķēdes pārvaldības versijas 10.0.29 šī funkcija ir ieslēgta pēc noklusējuma. Papildinformāciju par līdzekli *Warehouse programmas darbību norādījumi* skatiet sadaļā [Warehouse Management mobilās lietojumprogrammas darbību nosaukumu pielāgošana un instrukcijas](mobile-app-titles-instructions.md). Šis līdzeklis ir priekšnosacījums līdzeklim *Warehouse Management programmas novirzīšana*.
-1. Slēdziet *funkciju Noliktavas pārvaldības* programma. Šī funkcija ir tā, kas ir aprakstīta šajā rakstā. No Piegādes ķēdes pārvaldības versijas 10.0.29 tas ir ieslēgts pēc noklusējuma.
-1. Ja noliktavas *pārvaldības programmas atšifrējumu līdzeklis vēl nebija ieslēgts, atjauniniet lauku nosaukumus mobilajā programmā Noliktavas pārvaldība,* **\>\>\>** noklikšķinot uz Noliktavas pārvaldības iestatījuma mobilās **ierīces programmas lauku nosaukumi un atlasot Izveidot noklusējuma iestatījumus.** Atkārtojiet šo darbību katrai juridiskajai personai (uzņēmumam), kas izmanto mobilo programmu Noliktavas pārvaldība. Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
+1. Slēdziet šādas funkcijas, kas nodrošina šajā rakstā aprakstīto funkcionalitāti:
+    - *Programmas Warehouse Management apiešana*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29, šī funkcija ir ieslēgta pēc noklusējuma.)
+    - *Vairāku līmeņu apiešana mobilajai programmai Warehouse Management*
+1. *Ja* noliktavas pārvaldības programma norāda un/*vai vairāklīmeņu iestatījumus mobilās programmas līdzekļiem Noliktavas pārvaldība jau nav ieslēgti, atjauniniet lauku nosaukumus mobilajā programmā Noliktavas pārvaldība, veidojot lauku nosaukumus* noliktavas pārvaldības iestatījuma **\>\>\> mobilās** ierīces noliktavas programmas lietojumprogrammas nosaukumiem un atlasot Izveidot noklusējuma iestatījumus.**·** Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
+1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Konfigurēt novirzīšanu no izvēlnes raksturīgās pārlabošanas
 
@@ -147,3 +150,6 @@ Tagad novirzīšana ir pilnībā konfigurēta. Poga **Pārvietošana** novirzī�
 1. Ievērojiet, ka numura zīme ir kopēta no atlasītās kartes. Apstipriniet vērtību.
 1. Tagad ir iespējams sekot standarta uzdevumu plūsmai, lai pabeigtu kustību. Kad darbs ir pabeigts, atveriet darbību izvēlni un atlasiet **Atcelt**.
 1. Jūs esat atgriezies uz lapu **Novietojuma pieprasījums**. Ņemiet vērā, ka vērtības netiek atjauninātas automātiski. Tādēļ lapa ir jāatsvaidzina manuāli, lai redzētu izmaiņas no pārvietošanas novirzīšanas.
+
+> [!NOTE]
+> Noliktavas *pārvaldības mobilās* programmas funkcijas vairāklīmeņu atzari ļauj definēt daudzlīmeņu darbības (dešifrējumi dešifrēs), kas ļaus darbiniekiem pārlēkt no esošā atzara divas sekundes un pēc tam atpakaļ. Funkcija atbalsta divus līmeņus ārpus kastes un, ja nepieciešams, sistēmu var pielāgot, lai atbalstītu trīs vai vairākus dekodēšanas līmeņus, izveidojot kodu paplašinājumus `WHSWorkUserSessionState` tabulā.

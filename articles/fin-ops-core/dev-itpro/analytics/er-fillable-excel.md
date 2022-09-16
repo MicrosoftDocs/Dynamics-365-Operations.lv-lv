@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280930"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476832"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -186,6 +186,9 @@ Ja **Šūnas** komponents ir konfigurēts, lai ievadītu vērtību Excel attēl�
 
 > [!NOTE]
 > Katrs Excel attēls un forma tiek uzskatīta par noenkurotu pie tā augšējā kreisā stūra uz noteiktu Excel šūnu vai diapazonu. Ja vēlaties replicēt Excel attēlu vai formu, ir jākonfigurē šūna vai diapazons, kas tiek noenkurots kā replicēta šūna vai diapazons.
+
+> [!TIP]
+> Ja plānojat izmantot attēlu ar pielāgotu mērogošanas un proporciju koeficientu izpildlaikā, **·**[ieteicams iestatīt opciju Ņemiet vērā pamata Excel](#excel-file-component)**faila** komponenta attēlu mērogošanu uz Jā, lai mērogošanas un proporcijas koeficientu izmantotu kā šī attēla vietturi lietotajā Excel veidnē.
 
 Papildinformāciju par attēlu un formu iegulšanu skatiet sadaļā [Attēlu un formu iegulšana dokumentos, kas tiek ģenerēti, izmantojot ER](electronic-reporting-embed-images-shapes.md).
 

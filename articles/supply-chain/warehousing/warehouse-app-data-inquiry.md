@@ -1,5 +1,5 @@
 ---
-title: Vaicājumu dati, izmantojot noliktavas pārvaldības mobilās programmas datus
+title: Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu
 description: Šajā rakstā ir aprakstīts, kā konfigurēt datu pieprasījuma mobilās ierīces izvēlnes vienumus un izmantot tos kā daļu no atvēsēm.
 author: perlynne
 ms.date: 08/09/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336611"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427853"
 ---
-# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Vaicājumu dati, izmantojot noliktavas pārvaldības mobilās programmas datus
+# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu
 
 [!include [banner](../includes/banner.md)]
 
@@ -268,6 +268,6 @@ Izpildiet šīs darbības, lai pārbaudītu jaunās mobilās programmas iestatī
     ![Pirkuma saņemšana, izmantojot PP meklēšanu pēc kreditora, 2. piemērs.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Pirkuma saņemšana, izmantojot PP meklēšanu pēc kreditora, 2. piemērs")
 
 > [!TIP]
-> **Tā** vietā, lai palaistu saņemšanas plūsmu, veicot meklēšanu no izvēlnes elementa Pirkšanas saņemšana, varat sākties no pieprasījumu plūsmas (**\>\>** galvenā uzziņu informācija par PO pēc kreditora) un izsaukt dektoru, lai palaistu vēlamo plūsmu, atlasot vienu no sarakstā kartēm. Lai izmantotu šo pieeju, mobilās ierīces darbību lapā varat definēt darbību, **·** **kam ir GenericDataInquiryList darbības ID** *vērtība.* Tā kā šī plūsma ir atplūde, jūs no tās nevarat izsaukt vairāk deturis. Tāpēc, kad būsit pieejams krājuma numura ievades ekrānā, piemēram, pārlūks tajā nebūs pieejams, jo sistēma pašreiz atbalsta tikai vienu de skaitliskās vērtības līmeni.
+> **Tā** vietā, lai palaistu saņemšanas plūsmu, veicot meklēšanu no izvēlnes elementa Pirkšanas saņemšana, varat sākties no pieprasījumu plūsmas (**\>\>** galvenā uzziņu informācija par PO pēc kreditora) un izsaukt dektoru, lai palaistu vēlamo plūsmu, atlasot vienu no sarakstā kartēm. Lai izmantotu šo pieeju, mobilās ierīces darbību lapā varat definēt darbību, **·** **kam ir GenericDataInquiryList darbības ID** *vērtība.* [*Ja nepieciešams, ir ieslēgtas noliktavas pārvaldības mobilās*](warehouse-app-detours.md) programmas funkcijas vairāklīmeņu atzari, varat arī pievienot papildu atzarus (šī funkcija pievieno atbalstu līdz diviem līmeņiem un var tikt pielāgota papildu līmeņu atbalstam).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

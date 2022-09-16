@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027144"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475643"
 ---
 # <a name="administration-overview"></a>Administrēšanas pārskats
 
@@ -46,10 +46,10 @@ ms.locfileid: "9027144"
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
   - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
   - Integrācija ar Office
-    - [Office integrēšanas apmācība](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Elementa datu atjaunināšana programmā Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Atvēršanas Excel programmā pieredzes izveide](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Office integrācijas problēmu novēršana](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office integrēšanas apmācība](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Elementa datu atjaunināšana programmā Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Atvēršanas Excel programmā pieredzes izveide](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office integrācijas problēmu novēršana](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
@@ -100,11 +100,11 @@ ms.locfileid: "9027144"
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="elearning-courses"></a>Elektronisko mācību kursi
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Human Resources platformā Microsoft Learn](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Tiešsaistes kursiem un apmācībai pārbaudieties [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Videoklipi
 
-Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>Skatiet arī
 

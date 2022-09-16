@@ -2,7 +2,7 @@
 title: Preču ieteikumu pievienošana programmā POS
 description: Šajā rakstā ir aprakstīta produktu ieteikumus izmantošana pārdošanas punkta (POS) ierīcē.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872803"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460061"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Pievienot preču ieteikumi punktā POS
 
@@ -37,7 +37,7 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
 
 1. Lapā **Detalizēta informācija par preci**.
 
-    - Ja veikala darbinieks apmeklē lapu **Detalizēta informācija par preci**, skatot iepriekšējās transakcijas dažādos kanālos, ieteikumu serviss piedāvā papildu preces, kas var tikt nopirktas kopā.
+    - Ja ar veikalu **tiek** apmeklēta lapa Detalizēta informācija par preci, kad tas meklē iepriekšējās darbības dažādos kanālos, rekomendāciju pakalpojums iesaka papildu krājumus, kas, iespējams, tiks iegādāti kopā. Papildus personalizētiem rekomendācijām lietotājiem ar agrāku pirkšanas vēsturi, atkarībā no pakalpojuma pievienojumdatiem var rādīt līdzīgus veikala izskatus un **līdzīgus** **veikala** aprakstu ieteikumus.
 
     [![Ieteikumi lapā Informācija par preci.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Preču ieteikumi ir iespējoti tālāk norādītajos POS scenārijos. Tie ir pi
 
     [![Ieteikumi lapā Transakcija.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce konfigurēšana, lai iespējotu POS ieteikumus
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce konfigurēšana, lai iespējotu POS ieteikumus 
 
-Lai iestatītu preču ieteikumus, rīkojieties šādi:
+Lai iestatītu produktu ieteikumus, apstipriniet, ka esat pabeiguši nodrošinājuma procesu Commerce produktu rekomendācijām, izpildot Darbības, kas sadaļā [Iespējot preces ieteikumus](../commerce/enable-product-recommendations.md). Pēc noklusējuma ieteikumi tiek parādīti **gan** **lapā** Detalizēta informācija par preci, gan lapā Detalizēta informācija par debitoru, pēc tam, kad esiet pabeidzis (-usi) nodrošinājuma soļus, un dati ir veiksmīgi apstrādāti. 
 
-1. Pārliecinieties, ka jūsu serviss ir atjaunināts uz **10.0.6 būvējumu.**
-2. Sekojiet instrukcijām, kā [iespējot produktu ieteikumus](../commerce/enable-product-recommendations.md) jūsu biznesam.
-3. Pēc izvēles. Lai transakciju ekrānā tiktu rādīti ieteikumi, pārejiet uz sadaļu **Ekrāna izkārtojums**, izvēlieties savu ekrāna izkārtojumu, palaidiet līdzekli **Ekrāna izkārtojuma dizainers** un pēc tam aktivizējiet vadīklu **ieteikumi**, kur nepieciešams.
-4. Pārejiet uz sadaļu **Commerce parametri**, atlasiet vienumu **Algoritmiskā mācīšanās** un sadaļā **Iespējot POS ieteikumus** atlasiet vienumu **Jā**.
-5. Lai POS tiktu rādīti ieteikumi, palaidiet globālās konfigurācijas darbu Nr. **1110**. Lai atainotu POS ekrāna izkārtojuma dizainerī veiktās izmaiņas, palaidiet kanāla konfigurācijas darbu Nr. **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Ieteikumu pievienošana darījumu ekrānam
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problēmu novēršana, ja preču ieteikumi jau ir iespējoti
+1. Lai darbības ekrānam pievienotu ieteikumus, sekojiet soļiem [Sadaļā Pievienot ieteikumus darbības ekrānam](add-recommendations-control-pos-screen.md).
+1. Lai atspoguļotu POS ekrāna izkārtojuma veidotājā veiktās izmaiņas, izpildiet kanāla konfigurācijas darbu **1070 programmā** Commerce Headquarters.
 
-- Pārejiet uz **Commerce parametri** \> **Ieteikumu saraksti** \> **Atspējot preču ieteikumus** un palaidiet darbu **Globālais konfigurācijas darbs \[9999\]**. 
-- Ja darbību ekrānam pievienojāt vadīklu **Ieteikumus pārvaldība**, izmantojot **Ekrāna izkārtojuma dizainers**, lūdzu, noņemiet arī to.
-- Ja jums ir papildu jautājumi, skatiet [Bieži uzdotos jautājumus par preču ieteikumiem](../commerce/faq-recommendations.md), lai iegūtu vairāk informācijas.
+> [!NOTE] 
+> Ja vēlaties iespējot POS ieteikumus, izmantojot Komatu atdalāmo vērtību (CSV) failu, pirms izkārtojuma pārvaldnieka konfigurēšanas Lifecycle Services (LCS) līdzekļu bibliotēkā ir jāizvieto CSV Microsoft Dynamics fails. Ja izmantojat CSV failu RecoMock, nav jāiespējo rekomendācijas. CSV fails ir pieejams tikai demonstrācijas nolūkiem. Debitoriem vai risinājumu arhitektiem ir ieteicams migrēt rekomendāciju sarakstu izskatu demonstrācijas nolūkiem bez nepieciešamības iegādāties noliktavas papildu vienību (NV).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

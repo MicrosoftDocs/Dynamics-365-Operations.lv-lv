@@ -2,19 +2,19 @@
 title: Domēni programmā Dynamics 365 Commerce
 description: Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405501"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465198"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (sa
 
 - **1. opcija** - Izmantojiet DNS nodrošinātāju, lai novirzītu apeksa domēnu uz "www" domēnu. Piemēram, fabrikam.com pārvirza uz `www.fabrikam.com` , kur `www.fabrikam.com` ir CNAME ieraksts, kas norāda uz Commerce viesotu Azure Front Door instanci.
 
-- **2. opcija** - Ja JŪSU DNS piegādātājs atbalsta AIZSTĀJVĀRDA ierakstus, varat norādīt apex domēnu uz frontes durvju galapunktu. Tas nodrošina, ka IP izmaiņa ar durvju priekšpuses galapunktu tiek atspoguļota.
+- **2. opcija** - Ja jūsu DNS nodrošinātājs atbalsta AIZSTĀJVĀRDA ierakstus, varat norādīt apex domēnu uz Azure front durvju galapunktu, kas nodrošina, ka ip izmaiņas ar galapunktu tiek atspoguļotas. Jums ir jā vieso Azure frontdurvju instance pati.
   
-- **3** . opcija - Ja jūsu DNS nodrošinātājs neatbalsta AIZSTĀJVĀRDA ierakstus, jums jāiestata CDN vai ieejas durvju instance atsevišķi, lai viesotu apex domēnu.
+- **3** . opcija — ja jūsu DNS nodrošinātājs neatbalsta AIZSTĀJVĀRDA ierakstus, ir jāmaina DNS nodrošinātājs uz Azure DNS un jā viesojiet pats Azure DNS un Azure Front Door instanci.
 
 > [!NOTE]
 > Ja izmantojat Azure Front Door, jums ir arī jāiestata Azure DNS tajā pašā abonementā. Apeksa domēns, kas viesots Azure DNS, var norādīt uz jūsu Azure Front Door kā uz aizstājvārda ierakstu. Šis ir vienīgais risinājums, tā kā apeksa domēniem vienmēr ir jānorāda IP adrese.
