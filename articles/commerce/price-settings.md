@@ -1,5 +1,5 @@
 ---
-title: Cenu noteikšanas iestatījumi
+title: Izcenojuma iestatījumi
 description: Šajā dokumentā ir aprakstīti dažādie cenu noteikšanas un atlaižu pārvaldības iestatījumi galvenajā birojā Microsoft Dynamics 365 Commerce.
 author: boycez
 ms.date: 09/06/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-11
-ms.openlocfilehash: 4bc8cb16e7960d26adbb9590b4ad83cf46b02838
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 79130e0ef285d6bd5e544f2d6a6368c0393fa7fa
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410476"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474047"
 ---
-# <a name="pricing-settings"></a>Cenu noteikšanas iestatījumi
+# <a name="pricing-settings"></a>Izcenojuma iestatījumi
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā dokumentā ir aprakstīti dažādie cenu noteikšanas un atlaižu pārvaldības iestatījumi galvenajā birojā Microsoft Dynamics 365 Commerce. Šie iestatījumi sniedz iespēju organizācijām noteikt cenu noteikšanas uzvedību savā Commerce risinājumā, lai apmierinātu noteiktas biznesa vajadzības.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893183"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428041"
 ---
 # <a name="release-to-warehouse"></a>Izlaist uz noliktavu
 
@@ -34,7 +34,7 @@ Izlaišana noliktavā ir process, kurā inventārs tiek sagatavots izsūtīšana
 
 Noliktavas *darbs* ir jebkura noliktavas darbība, kuru veic noliktavas darbinieks. Parasti noliktavas darba darbības sastāv no vismaz divām secīgām darbībām: noliktavas darbinieks saņem rīcībā esošos krājumus vienā vietā un pēc tam tos novieto citā.
 
-Kad noliktavā tiek izlaisti pasūtījumi, sistēma rada *kravu rindas* un tās sagrupē sūtījumos. Sūtījumu apvienošanas process ļauj veikt automātisku sūtījumu apvienošanu izlaišanas uz noliktavu procesa laikā. Papildinformāciju skatiet sadaļā [Sūtījumu apvienošanas politika](about-shipment-consolidation-policies.md).
+Kad noliktavā tiek izlaisti pasūtījumi, sistēma rada *kravu rindas* un tās sagrupē sūtījumos. Sūtījumu apvienošanas process ļauj veikt automātisku sūtījumu apvienošanu izlaišanas uz noliktavu procesa laikā. Papildinformāciju skatiet sūtījuma konsolidācijas [politiku pārskatā](about-shipment-consolidation-policies.md).
 
 Sistēma izmanto *kopumus*, lai izveidotu atlases darbus un kravas sūtīšanai. *Kopuma veidnei* ir jābūt pieejamai kopumam, kuru vēlaties izveidot un pasūtījuma rindas noliktavai. *Sūtījuma* tipa kopuma veidnes tiek izmantotas, lai sūtītu vienumus pārdošanas pasūtījumiem un pārsūtīšanas pasūtījumiem.
 

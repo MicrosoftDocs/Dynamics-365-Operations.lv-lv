@@ -2,7 +2,7 @@
 title: Uzdevumu pārvaldība
 description: Šajā rakstā ir paskaidrota uzdevumu pārvaldības funkcionalitāte, kas pieejama programmā Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897869"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445899"
 ---
 # <a name="task-management"></a>Uzdevumu pārvaldība
 
@@ -43,7 +43,7 @@ Katram darbiniekam, kurš tiek pieņemts Darbā Amerikas Savienotajās Valstīs,
 
 **2. piemērs**
 
-Uzņēmumam ir gan sezonāli darbinieki, gan regulāri pilnas laika darbinieki. Lai gan daži uzdevumi (piemēram, jauna darbinieka ierašanās laika pārbaude) attiecas uz abiem tipiem, daži papildu uzdevumi attiecas tikai uz regulāriem pilnas laika darbiniekiem. Šajā gadījumā var izveidot divus kontrolsarakstus. Abi kontrolsaraksti ietver uzdevumus, kas attiecas gan uz sezonāliem, gan regulāriem pilnas laika darbiniekiem, bet tikai vienā kontrolsarakstā tiek ietverti uzdevumi, kas raksturīgi regulāriem pilnas laika darbiniekiem.
+Uzņēmumam ir gan sezonāli darbinieki, gan regulāri pilnas laika darbinieki. Lai gan daži uzdevumi (piemēram, jauna darbinieka ierašanās laika pārbaude) attiecas uz abiem tipiem, daži papildu uzdevumi attiecas tikai uz regulāriem pilnas laika darbiniekiem. Šajā gadījumā var izveidot divus kontrolsarakstus. Abi kontrolsaraksti ietver uzdevumus, kas attiecas gan uz sezonāliem, gan regulāriem pilnas laika darbiniekiem, bet tikai vienā kontrolsarakstā ietverti uzdevumi, kas raksturīgi regulāriem pilnas laika darbiniekiem.
 
 ## <a name="task-management-workspace"></a>Uzdevumu pārvaldības darbvieta
 
@@ -69,7 +69,13 @@ Visās trīs cilnēs HR asistenti un vadītāji var veikt šādas darbības:
 
 Varat izveidot uzdevumus atsevišķi un pēc tam atkārtoti izmantot tos vairākos kontrolsarakstos. Lai izveidotu uzdevumu, cilnē **Uzdevumi** **cilnē** Iestatījumi atlasiet Jauns.**·**
 
+Izveidoto uzdevumu var piešķirt vairākiem kontrolsarakstam, atlasot uzdevumu un pēc tam izvēlnē **atlasot Lietot kontrolsarakstiem**.
+
 Alternatīvi uzdevumus var pievienot tieši kontrolsarakstā. Lai kontrolsarakstam pievienotu uzdevumu, **iestatījumu lapas Onboarding** **iestatījums** cilnē Kontrolsaraksts izveidojiet jaunu kontrolsarakstu, lai pievienotu šo uzdevumu, vai pievienojiet uzdevumu esošajam kontrolsarakstam.
+
+Lai rediģētu uzdevumu bibliotēkā, uzdevumu **bibliotēkas izvēlnē** atlasiet Rediģēt. Ja uzdevums ir saistīts ar kontrolsarakstu, šie kontrolsaraksti tiks rādīti uzdevumu **lapas rediģēšanai**. Ja vēlaties, lai uzdevumi jebkurā kontrolsarakstā tiktu atjaunināti ar labojumiem, **atlasiet šos kontrolsarakstus sadaļā Lietot kontrolsaraksta**.
+
+Lai dzēstu uzdevumus no bibliotēkas, atlasiet opciju **Dzēst**. Ja uzdevums ir saistīts ar kontrolsarakstu, šī darbība nedzēš uzdevumu no kontrolsaraksta. Uzdevums no kontrolsaraksta ir jānoņem kā atsevišķa darbība.
 
 > [!NOTE]
 > Ja kontrolsarakstam pievienojat uzdevumu tieši, to nevar atkārtoti izmantot citos kontrolsarakstos.
@@ -133,7 +139,15 @@ Sarežģītos uzdevumos var būt nepieciešamas vairākas darbības, vai persona
 
 ## <a name="setting-up-checklists"></a>Kontrolsarakstu iestatīšana
 
-Kontrolsaraksts ir uzdevumu grupa. Varat izveidot tik daudz kontrolsarakstu, cik nepieciešams, un jūs variet piešķirt tos pašus uzdevumus vairākiem kontrolsarakstam. Veidojot kontrolsarakstu, norādiet īpašnieku un kalendāru.
+Kontrolsaraksts ir uzdevumu grupa. Varat izveidot tik daudz kontrolsarakstu, cik nepieciešams, un jūs variet piešķirt tos pašus uzdevumus vairākiem kontrolsarakstam.
+
+Lai kontrolsarakstā izveidotu jaunu uzdevumu, uzdevumu **izvēlnes** joslā **atlasiet** Jauns. Veidojot jaunu uzdevumu, varat to pievienot uzdevumu bibliotēkai, lai to varētu koplietot vairākos kontrolsarakstos. Uzdevumu bibliotēkai var pievienot tikai tad, ja opcijai **Lietot uzdevumu bibliotēkai** ir iestatīta vērtība **Jā**. Ja pievienojat uzdevumu bibliotēkai, varat to pievienot arī citiem kontrolsaraksta vienlaikus, atlasot šos kontrolsarakstus sadaļā Lietot **kontrolsarakstam**. Ja nevēlaties pievienot uzdevumu bibliotēkai, tas būs pieejams tikai kontrolsarakstā, kurā to izveidojat.
+
+Lai kontrolsarakstā rediģētu uzdevumu, atlasiet **Rediģēt**. Ja uzdevums ir saistīts ar kontrolsarakstu, šie kontrolsaraksti tiks rādīti uzdevumu **lapas rediģēšanai**. Ja vēlaties, lai uzdevumi citos kontrolsarakstos tiktu atjaunināti ar labojumiem, atlasiet šos kontrolsarakstus **sadaļā Lietot kontrolsaraksta**.
+
+Lai noņemtu uzdevumus no kontrolsaraksta, atlasiet **Noņemt**. Šī darbība tikai noņem uzdevumus no kontrolsaraksta. Tas nedzēš tos no uzdevumu bibliotēkas. Lai dzēstu uzdevumu no bibliotēkas, dodieties uz uzdevumu bibliotēkas lapu un atlasiet **Dzēst**.
+
+Veidojot kontrolsarakstu, norādiet īpašnieku un kalendāru.
 
 Ja uzdevumam laukā Piešķires **tips** ir iestatīts uz pozīciju, **·** **pārvaldnieku** vai grupu, taču no piešķires tipa nevar atvasināt nekādu īpašu personu, uzdevums tiks piešķirts kontrolsaraksta īpašniekam.**·** Šeit sniegti daži piemēri par situācijām, kurās uzdevumi tiks piešķirti kontrolsaraksta īpašniekam:
 
@@ -166,7 +180,7 @@ Kad ir izveidota piešķires grupa, tā ir pieejama atlasei uzdevuma izveides la
 
 Onboarding, offboarding vai pārejas process var ietvert daudzus uzdevumus. Lai kontrolsarakstam atvieglotu visu nepieciešamo uzdevumu piešķiršanu, varat izveidot izvēles uzdevumu grupas, lai iedalītu kategorijās saistītos uzdevumus. Piemēram, HR, IT un algu nodaļām ir jāveic noteikti uzdevumi, lai varētu pieņemt darbā jaunu darbinieku. Tāpēc jūs izveidojat šādas uzdevumu grupas: **HR**, **IT** un **Payroll**. Tad, izveidojot uzdevumu, ar to var saistīt vienu no šīm uzdevumu grupām.
 
-Kad jūs vēlaties kontrolsarakstam pievienot uzdevumu, jūs varat filtrēt uzdevumu sarakstu pēc uzdevumu grupas, kurai vēlamais uzdevums tiek piešķirts. Piemēram, kad jūs izveidojiet kontrolsaraksta veidni, jūs variet filtrēt sarakstu, lai tikai IT **uzdevumi, kas ir piešķirti IT** uzdevumu grupai, tiktu rādīti. Tāpēc var nodrošināt, ka tiek atlasīti tikai attiecīgie IT uzdevumi.
+Kad jūs vēlaties kontrolsarakstam pievienot uzdevumu, jūs varat filtrēt uzdevumu sarakstu pēc uzdevumu grupas, kurai vēlamais uzdevums tiek piešķirts. Piemēram, kad jūs izveidojiet kontrolsaraksta veidni, jūs variet filtrēt sarakstu, lai tikai IT **uzdevumu grupai piešķirtie uzdevumi** tiek parādīti. Tāpēc var nodrošināt, ka tiek atlasīti tikai attiecīgie IT uzdevumi.
 
 ## <a name="using-checklists"></a>Kontrolsarakstu izmantošana
 

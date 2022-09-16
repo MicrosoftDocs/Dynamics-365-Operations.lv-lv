@@ -2,7 +2,7 @@
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā rakstā skaidrots, kā pārbaudīt konfigurētos elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277856"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476859"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
@@ -243,6 +243,15 @@ Tālāk redzamajā tabulā ir sniegts pārskats par ER sniegtajām pārbaudēm. 
 <td>
 <p>Funkcijas ORDERBY saraksta izteiksmei nevar izpildīt vaicājumu.</p>
 <p><b>Izpildlaika kļūda:</b> kārtošana nav atbalstīta. Validējiet konfigurāciju, lai iegūtu plašāku informāciju par šo.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Novecojis programmas artefakts</a></td>
+<td>Datu integritāte</td>
+<td>Brīdinājums</td>
+<td>
+<p>Elementa ceļš ir &lt; atzīmēts&gt; kā novecojis.<br>vai<br>Elementa ceļš ziņojuma &lt; tekstā ir atzīmēts kā novecojis &gt;&lt;&gt;.</p>
+<p><b>Izpildlaika kļūdas paraugs:</b> klases ceļš&lt;&gt; nav atrasts.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Tā **vietā** **·**, lai kreditora datu avotam pievienotu aprēķinātā lauka
 #### <a name="option-2"></a>2. opcija
 
 **Mainīt FilteredVendors datu avota** izteiksmi No uz `ORDERBY("Query", Vendor, Vendor.AccountNum)``ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Nav ieteicams mainīt izteiksmi tabulai, kurā ir liels datu apjoms (darbību tabula), jo tiks ienesti visi ieraksti un nepieciešamo ierakstu pasūtīšana tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a> Novecojis programmas artefakts
+
+Veidojot ER modeļa kartēšanas komponentu vai ER formāta komponentu, varat konfigurēt ER izteiksmi, lai izsauktu programmas artefaktu ER, piemēram, datu bāzes tabulu, klases metodi utt. Finanšu versijā 10.0.30 un vēlāk varat brīdināt ER, ka artefakts atzīmēts kā novecojis. Šis brīdinājums var būt noderīgs, jo parasti novecojuši artefakti tika noņemti no pirmkoda. Ja esat informēti par artefakta statusu, varat pārtraukt izmantot novecojušu artefaktu rediģējamā ER komponentā pirms tā noņemšanas no avota koda, palīdzot izvairīties no kļūdām, izsaucot nerezidentus programmas artefaktus no ER komponenta izpildlaikā.
+
+Iespējojiet **iespēju** **Pārbaudīt** novecojušus elektronisko pārskatu datu avotu līdzekli līdzekļu pārvaldības darbvietā, lai sāktu novērtēt novecojušus lietojumprogrammas artefaktu atribūtus rediģējama ER komponenta pārbaudes laikā. Novecojušais atribūts pašlaik tiek novērtēts šādiem programmas artefaktu tipiem:
+
+- Datu bāzes tabula
+    - Tabulas lauks
+    - Tabulas metode
+- Programmas klase
+    - Klases metode
+
+> [!NOTE]
+> Rediģējamā ER komponenta pārbaudes laikā datu avotam, kas attiecas uz novecojušu artefaktu, pārbaudes laikā parādās brīdinājums tikai tad, ja šis datu avots tiek izmantots vismaz vienā šī ER komponenta saistīšanā.
+
+> [!TIP]
+> [Ja klase SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) tiek izmantota, lai paziņotu kompilatoram, lai kļūdu vietā izdotu brīdinājuma ziņojumus, pārbaudes brīdinājums **uzrādīs** **·** **avota** koda brīdinājumu izstrādes laikā kopsavilkuma cilnē Detalizēta informācija par modeļu kartēšanas veidotāju vai formāta veidotāja lapu.
+
+Šajā attēlā parādīts apstiprināšanas `DEL_Email``CompanyInfo` brīdinājums, kas parādās, ja novecojušais programmas tabulas lauks ir piesaistīts datu modeļa laukam, izmantojot konfigurēto `company` datu avotu.
+
+![Modeļu kartēšanas veidotāja lapas kopsavilkuma cilnē Detalizēta informācija pārskatiet pārbaudes brīdinājumus.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Automātisks risinājums
+
+Nav pieejama opcija automātiski novērst šo problēmu.
+
+### <a name="manual-resolution"></a>Manuāls risinājums
+
+Modificējiet konfigurētā modeļa kartējumu vai formātu, noņemot visus saistījumus ar datu avotu, kas attiecas uz novecojušu programmas artefaktu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

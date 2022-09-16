@@ -2,7 +2,7 @@
 title: Iespējot preču ieteikumus
 description: Šajā rakstā skaidrots, kā veidot produktu ieteikumus, kas balstīti uz klienta inteliģences apmācību (AI-PARA) pieejamajiem Microsoft Dynamics 365 Commerce klientiem.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892075"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460026"
 ---
 # <a name="enable-product-recommendations"></a>Iespējot preču ieteikumus
 
@@ -36,12 +36,19 @@ ms.locfileid: "8892075"
 1. Apstipriniet, ka Azure AD identitātes konfigurācija ietver ievadni ieteikumiem. Papildinformāciju par to, kā veikt šo darbību, skatīt zemāk.
 1. Pārliecinieties, ka entitījas veikalam katru dienu ir ieplānota atsvaidzināšana uz Azure Data Lake Storage Gen2. Papildinformāciju skatiet [Pārliecinieties, ka elementa krātuves atsvaidzināšana ir automatizēta](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. RetailSale mērījumu iespējošana entitījas veikalam. Plašāku informāciju par šī procesa iestatīšanu skatiet sadaļā [Darbs ar mērījumiem](/dynamics365/ai/customer-insights/pm-measures).
+1. Nodrošiniet, lai vide pašreiz atbalstītajos reģionos būtu konfigurējusi atbalstītos reģionus un tos, kā tas ir norādīts tālāk.
+
+    - **Atbalstītie apgabali:** ES/ASV/CA/AU.
+    - **Tiek atbalstīti reģioni:** US/CA/AU. Ja atbilstošais reģions neatbilst vienam no esošajiem atbalstītajiem reģioniem, rekomendāciju pakalpojums atlasīs vistuvākais atbalstīto pasniegšanas reģionu.
 
 Pēc tam, kad ir veiktas iepriekš minētās darbības, būsit gatavi iespējot ieteikumus.
 
+> [!NOTE]
+> Ir zināms problēma, kur ieteikumi neparādās pēc tālāk norādīto darbību pabeigšanas. Šo problēmu rada datu plūsmas problēmas vidē. Ja jūsu vidē nav rekomendāciju rezultātu, [konfigurējiet alternatīvos datus rekomendāciju pakalpojumam, izpildot soļus sadaļā Iestatīt alternatīvu datu darbplūsmu rekomendācijām](set-up-alternate-data-flow.md). Lai veiktu šīs darbības, ir nepieciešamas Azure administratora atļaujas. Ja jums nepieciešama palīdzība, sazinieties ar FastTrack pārstāvi.
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD identitātes konfigurācija
 
-Šī darbība ir vajadzīga tikai klientiem, kuri palaiž infrastruktūras pakalpojums (IaaS) konfigurāciju. Azure AD identitātes konfigurācija ir automātiska klientiem, kuri darbojas Azure Service Fabric, taču ir ieteicams pārbaudīt, vai iestatījums ir konfigurēts, kā paredzēts.
+Šis solis ir nepieciešams tikai klientiem, kuri darbojas kā pakalpojuma (IaaS) konfigurācija. Azure AD Identitātes konfigurācija ir automātiska debitoriem, kuri darbojas Azure Service Fabric, bet ieteicams pārbaudīt, vai šis iestatījums ir konfigurēts, kā paredzēts.
 
 ### <a name="setup"></a>Iestatīt
 
@@ -92,11 +99,13 @@ Papildinformāciju par personalizēto ieteikumu saņemšanu skatiet [Personaliz�
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce .](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
+
+[Iestatīt alternatīvu datu plūsmu rekomendācijām](set-up-alternate-data-flow.md)
 
 [Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 
-[Iespējot "veikala līdzīgie izskati" rekomendācijas](shop-similar-looks.md)
+[Ieteikumu “pirkt līdzīgus modeļus” iespējošana](shop-similar-looks.md)
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Papildinformāciju par personalizēto ieteikumu saņemšanu skatiet [Personaliz�
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
 
 
 

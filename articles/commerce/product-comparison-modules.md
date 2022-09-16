@@ -1,5 +1,5 @@
 ---
-title: Preču salīdzināšanas moduļi
+title: Preču salīdzinājuma moduļi
 description: Šajā rakstā ir aprakstīti preču salīdzinājuma moduļi un veids, kā tos ieviest, lai debitori varētu veikt preču salīdzinājumus Microsoft Dynamics 365 Commerce e-komercijas vietnēs.
 author: ashishmsft
 ms.date: 08/09/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: ced471dd7e3e4c3e9be938b295edaad626a890a3
-ms.sourcegitcommit: 92c4506be7dc14078e3c4f1d182edd895d64ffe0
+ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "9246653"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474131"
 ---
-# <a name="product-comparison-modules"></a>Preču salīdzināšanas moduļi
+# <a name="product-comparison-modules"></a>Preču salīdzinājuma moduļi
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir aprakstīti preču salīdzinājuma moduļi un veids, kā tos ieviest, lai debitori varētu veikt preču salīdzinājumus Microsoft Dynamics 365 Commerce e-komercijas vietnēs.
 

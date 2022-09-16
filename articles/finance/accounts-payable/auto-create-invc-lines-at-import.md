@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5cb2c1234de03e9777921c18e4cbb81eec7feef9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903512"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462279"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Ģenerējiet rēķina rindas, kad importējat kreditora rēķinus
 
@@ -45,7 +45,7 @@ Lai iespējotu automātisku rēķina rindu izveidi, veiciet šādus soļus.
 Lai atbalstītu šajā rakstā aprakstīto funkcionalitāti, kreditora rēķina **virsraksta datu** elements ir uzlabots. Ir pievienoti trīs lauki:
 
 - **HeaderOnlyImport** — šim laukam ir jābūt iestatītam uz **Jā**, lai ģenerētu rēķinu virsrakstu rindas.
-- **PurchIdRange** – pirkšanas pasūtījumu numuru saraksts. Rēķinu numuri var būt diapazons, piemēram, **INV0001..INV0009** (kur divi punktpunkti atdala diapazona sākumu un beigas) vai atsevišķas vērtības, piemēram, **INV0001, INV0003, INV0006**. Visiem pirkšanas pasūtījumiem ir jāpieder pie viena kreditora konta rēķina galvenē. Pretējā gadījumā tiks parādīts šāds kļūdas ziņojums: "Neizdevās ģenerēt rēķina rindas. Pirkšanas pasūtījumiem ir atšķirīgi kreditora konti."
+- **PurchIdRange** – pirkšanas pasūtījumu numuru saraksts. Rēķinu numuri var būt diapazons, piemēram, **PO0001. PO0009** (kur divi doti atdala diapazona sākumu un beigas) vai atsevišķas vērtības, piemēram, **PO0001, PO0003, PO0006**. Visiem pirkšanas pasūtījumiem ir jāpieder pie viena kreditora konta rēķina galvenē. Pretējā gadījumā tiks parādīts šāds kļūdas ziņojums: "Neizdevās ģenerēt rēķina rindas. Pirkšanas pasūtījumiem ir atšķirīgi kreditora konti."
 - **PackingslipRange** – produktu ieejas plūsmu numuru saraksts. Kreditora rēķina rindas var izveidot no produktu ieejas plūsmas. Tomēr produktu ieejas plūsmu numuri parasti nav iekļauti kreditora rēķinos. Šajā laukā ievadiet tikai produktu ieejas plūsmas numurus, ja jūs skaidri varat identificēt, kuras produktu ieejas plūsmas ir kurām specifiskiem rēķiniem. Rēķina rindas var izveidot no produktu ieejas plūsmas. Ja tiek izmantots šis lauks, iestatījums **Izvēlēties** noklusēto daudzumu automātiskai rēķinu rindu izveidei lapā **Kreditoru parametri tiek** ignorēts. 
 
 **Ierobežojums**: ja ievadīsiet vairākus produktu ieejas plūsmas numurus, tiks izveidoti vairāki nenokārtoti kreditora rēķini ar vienādu rēķina numuru. Pirms rēķina turpmākas apstrādes tās ir jākonsolidē manuāli. Turpmākajos laidienos mēs plānojam konsolidēt rēķinus automātiski, lai ierobežojums tiktu noņemts.

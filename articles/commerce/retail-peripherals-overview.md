@@ -2,7 +2,7 @@
 title: Perifērās ierīces
 description: Šajā rakstā ir izskaidroti koncepti, kas ir saistīti ar Commerce perifērijas ierīcēm.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880085"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459999"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -59,7 +59,7 @@ POS perifērās ierīces ir ierīces, kas var tieši atbalstīt POS funkcijas.
 
 ### <a name="hardware-station"></a>Aparatūras stacija
 
-Navigācija: dodieties uz sadaļu **Mazumtirdzniecības un Komercijas \>\> kanāli.\>** Atlasiet veikalu un pēc tam atlasiet kopsavilkuma cilni **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmās Modern POS operētājsistēmai Windows un Android. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šādā gadījumā tai var piekļūt tīklā.
+Navigācija: dodieties uz sadaļu **Mazumtirdzniecības un Komercijas \>\> kanāli.\>** Atlasiet veikalu un pēc tam atlasiet kopsavilkuma cilni **Aparatūras stacijas**. Iestatījums **Aparatūras stacija** ir kanāla līmeņa iestatījums, kas tiek izmantots, lai definētu instances, kurās tiks izvietota perifērās ierīces loģika. Šis iestatījums kanāla līmenī tiek izmantots, lai noteiktu aparatūras stacijas raksturlielumus. Tas tiek arī izmantots, lai norādītu aparatūras stacijas, kas ir pieejamas Modern POS instancei konkrētā veikalā. Aparatūras stacija ir iebūvēta programmās Modern POS operētājsistēmai Windows un Android. Aparatūras staciju var arī izvietot atsevišķi kā savrupu Microsoft interneta informācijas pakalpojumu (IIS) programmu. Šajā gadījumā tai var piekļūt, izmantojot tīklu.
 
 ### <a name="hardware-profile"></a>Aparatūras profils
 
@@ -123,12 +123,12 @@ Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc 
 
 ### <a name="windows"></a>Windows
 
-Kvīšu drukāšana POS ir optimizēta standartam OPOS. OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows. Tāpēc ir ieteicams izmantot OPOS, jo īpaši vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde. Vairumam ierīču tiek lietoti OPOS vadības elementi. Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus. Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām. Taču Windows draiveru lietošanai ir trūkumi. Tālāk ir sniegti daži šo trūkumu piemēri.
+Kvīšu drukāšana POS ir optimizēta standartam OPOS. OPOS parasti nodrošina daudz ātrāku drukāšanu nekā operētājsistēma Windows. Tāpēc ir ieteicams izmantot OPOS, jo īpaši vidēs, kur tiek drukātas 40 kolonnu kvītis un ir jānodrošina ātra transakciju apstrāde. Lielākajai daļai ierīču ir jāizmanto OPOS vadīklas. Taču daži OPOS kvīšu printeri atbalsta arī Windows draiverus. Izmantojot Windows draiveri, varat piekļūt jaunākajiem fontiem un tīklā lietot vienu printeri vairākām kases sistēmām. Taču Windows draiveru lietošanai ir trūkumi. Tālāk ir sniegti daži šo trūkumu piemēri.
 
 -   Ja tiek izmantoti Windows draiveri, pirms drukāšanas tiek renderēti attēli. Tāpēc drukāšana ir lēnāka, nekā ar printeriem, kam tiek izmantoti OPOS vadības elementi.
 -   Ja tiek izmantoti Windows draiveri, ierīces, kas ir pievienotas, izmantojot printeri (ziedlapķēdē), var darboties nepareizi. Piemēram, naudas kasieris var nebūt atvērts vai arī kvīšu printeris var nedarboties, kā paredzēts.
 -   Turklāt OPOS atbalsta plašāku kvīšu printeriem raksturīgu mainīgo kopu, piemēram, papīra griešanas vai pavadzīmju drukāšanas mainīgos.
--   Windows printeri netiek atbalstīti ar IIS aparatūras staciju. 
+-   Windows printeri netiek atbalstīti IIS aparatūras stacijā. 
 
 Ja izmantotajam Windows printerim ir pieejami OPOS vadības elementi, printerim joprojām ir pareizi jādarbojas kopā ar programmu Commerce.
 
@@ -142,9 +142,12 @@ Programma Modern POS atbalsta UWP MJL un skenerus. Tāpēc, kad Modern POS ir 
 
 Papildu POS perifērijas klases tiek pievienotas sistēmai Windows, piemēram, kases naudas kastu un kvīšu printeru klases. Programmā Modern POS vēl nav nodrošināts šo jauno klašu atbalsts.
 
+> [!NOTE] 
+> Noteiktas INSTALĒŠANAI ierīces var kļūt nereaģējošas vai neatbildošas, ja tās pārvalda Windows 10 [vadības funkcija, kas tiek saukta PAR SELECTIVE Suspend](/windows-hardware/drivers/usbcon/usb-selective-suspend). Ja PAR aktivizēAKTIVIZĒŠANU, IETEICAMS deaktivizēt atlases bloķēšanas funkciju tai ierīcei. Papildinformāciju skatiet izvēles [aizturēšanas iespējošana](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
+
 ### <a name="keyboard-wedge"></a>Svītrkoda/magnētiskās joslas nolasīšanas ierīce
 
-Svītrkoda/magnētiskās joslas nolasīšanas ierīces nodrošina datu sūtīšanu uz datoru tā, it kā šie dati būtu ievadīti ar tastatūru. Tāpēc pēc noklusējuma skenētie vai nolasītie dati tiek nosūtīti POS interfeisā aktīvo lauku. Dažos gadījumos šī darbība var izraisīt nepareizā veida datu ieskenēšanu nepareizajā laukā. Piemēram, svītrkods var tikt ieskenēts laikā, kas ir paredzēts kredītkartes datu ievadei. Daudzos gadījumos POS pastāv loģika, kas nosaka, vai skenētie vai nolasītie dati ir svītrkods vai kartes nolasīšanas dati. Tādējādi dati tiek pareizi apstrādāti. Taču, ja ierīces ir iestatītas kā OPOS, nevis kā svītrkoda/magnētiskās joslas nolasīšanas ierīces, ir pieejama plašāka kontrole pār to, kā var izmantot no šīm ierīcēm saņemtos datus, jo ir pieejams vairāk informācijas par ierīci, no kuras ir iegūti dati. Piemēram, no svītrkoda skenera saņemtie dati tiek automātiski atpazīti kā svītrkods, un saistītais ieraksts datu bāzē tiek atrasts ātrāk un vienkāršāk nekā tad, ja tiek izmantota vispārējā virknes meklēšana, kā tas ir svītrkoda/magnētiskās joslas nolasīšanas ierīču gadījumā.
+Svītrkoda/magnētiskās joslas nolasīšanas ierīces nodrošina datu sūtīšanu uz datoru tā, it kā šie dati būtu ievadīti ar tastatūru. Tāpēc pēc noklusējuma skenētie vai nolasītie dati tiek nosūtīti POS interfeisā aktīvo lauku. Dažos gadījumos šī darbība var izraisīt nepareizā veida datu ieskenēšanu nepareizajā laukā. Piemēram, svītrkods var tikt ieskenēts laikā, kas ir paredzēts kredītkartes datu ievadei. Daudzos gadījumos POS terminālī ir loģika, kas nosaka, vai skenētie vai lasīšanas dati ir svītrkods vai kartes lasīšana. Tādējādi dati tiek pareizi apstrādāti. Taču, ja ierīces ir iestatītas kā OPOS nevis tastatūras žetonu ierīces, kontroli pār to, kā var patērēt datus no šīm ierīcēm, jo vairāk ir zināms par ierīci, kas izveidojusies no datu. Piemēram, no svītrkoda skenera saņemtie dati tiek automātiski atpazīti kā svītrkods, un saistītais ieraksts datu bāzē tiek atrasts ātrāk un vienkāršāk nekā tad, ja tiek izmantota vispārējā virknes meklēšana, kā tas ir svītrkoda/magnētiskās joslas nolasīšanas ierīču gadījumā.
 
 > [!NOTE]
 > Kad POS sistēmā tiek izmantoti tastatūras ķīļveida skeneri, tie ir jāprogrammē tā, lai pēc pēdējās skenētās rakstzīmes sūtītu transportēšanas atgriešanu vai **Ievadīt** notikumu. Ja šī konfigurācija nav pabeigta, tastatūras ķīļveida skeneri nedarbosies pareizi. Detalizētu informāciju par to, kā pievienot preču atgriešanas notikumu, skatiet jūsu ierīces ražotāja sniegtajā dokumentācijā.  
@@ -176,7 +179,7 @@ Dažreiz tas tiek saukts arī par "IIS" aparatūras staciju, "IIS", kas norāda,
 
 Koplietoto aparatūras staciju var izmantot, lai vairāki pārdošanas punkta klienti varētu kopīgot perifērijas ierīces, vai to var izmantot, lai pārvaldītu fiksēto perifērijas ierīču kopu vienam pārdošanas punktam. 
 
-Kad aparatūras stacija tiek izmantota, lai atbalstītu perifēro ierīču koplietošanu starp vairākiem POS klientiem, jāizmanto tikai naudas kastes, kvīšu printeri un maksājumu termināļi. Nevarat tieši pievienot savrupus svītrkoda skenerus, MJL, rindu displejus, svarus vai citas ierīces. Pretējā gadījumā, ja vairākās POS ierīcēs vienlaikus tiek mēģināts pieprasīt šīs perifērās ierīces, rodas konflikti. Tālāk ir aprakstīts, kā tiek pārvaldīti atbalstīto ierīču konflikti.
+Kad aparatūras stacija tiek izmantota, lai atbalstītu perifēro ierīču koplietošanu starp vairākiem POS klientiem, jāizmanto tikai naudas kastes, kvīšu printeri un maksājumu termināļi. Nevarat tieši pievienot savrupus svītrkoda skenerus, MJL, rindu displejus, svarus vai citas ierīces. Pretējā gadījumā, ja vairākās POS ierīcēs vienlaikus tiek mēģināts pieprasīt šīs perifērās ierīces, rodas konflikti. Tālāk ir aprakstīts, kā tiek pārvaldīti konflikti atbalstītajām ierīcēm.
 
 -   **Naudas kaste** — naudas kaste tiek atvērta, izmantojot uz ierīci nosūtītu notikumu. Problēmas var rasties, ja naudas kastne tiek izsaukta, kad naudas kasts jau ir atvērta. Aparatūras profila koplietotajā aparatūras stacijas konfigurācijā izmantotais **naudas** kasieris ir jāiestata uz Koplietots. Šis iestatījums nodrošina to, ka brīdī, kad no POS tiek nosūtīta atvēršanas komanda, POS netiek pārbaudīts, vai naudas kaste jau ir atvērta.
 -   **Kvīšu printeris** — ja uz aparatūras staciju vienlaikus tiek nosūtītas divas kvīts drukāšanas komandas, viena no komandām var tikt zaudēta atkarībā no ierīces. Dažās ierīcēs ir iekšējā atmiņa vai pieprasījumu ierobežošanas līdzeklis, kas var novērst šo problēmu. Ja drukas komanda netiek veiksmīgi izpildīta, kasieris saņem kļūdas ziņojumu un var vēlreiz mēģināt nosūtīt drukas komandu no POS.
@@ -597,7 +600,7 @@ Pēc noklusējuma ir atspējots SSL protokols un visas TLS protokola versijas,
         -   SSL 3.0Client:Enabled=0
         -   SSL 2.0Server:Enabled=0
         -   SSL 2.0Client:Enabled=0
--   Nedrīkst būt atvērti nekādi papildu tīkla porti, ja vien tie nav nepieciešami zināmiem, norādītiem iemesliem.
+-   Nav jāatver neviens papildu tīkla ports, ja vien tie nav nepieciešami noteiktu iemeslu dēļ.
 -   Ir jāatspējo krusteniskās izcelsmes resursu koplietošana, un ir jānorāda atļautās izcelsmes, kas tiek pieņemtas.
 -   Lai iegūtu sertifikātus, kas tiks izmantoti datoros, kuros tiek darbināta aparatūras stacija, drīkst izmantot tikai uzticamas sertificēšanas iestādes.
 

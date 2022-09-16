@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287934"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476812"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -137,7 +137,29 @@ Nākamajā attēlā ir parādītas šī tipa izteiksmes. (Kā piemēru izmanto M
 > 
 > Pamatojoties uz šo iestatījumu, ģenerētais ziņojums par katru debitora maksājumu — XML elements **Ustrd**— saturēs vai nu maksājuma piezīmju tekstu, vai, ja šis teksts ir tukšs, sarakstu, kurā ar komatiem atdalīti rēķina numuri, kas izmantoti, lai veiktu šo maksājumu.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Konfigurēto formulu validācija
+## <a name="assistance-in-formulas-writing"></a>Palīdzība formulu rakstīšanai
+
+### <a name="data-sources-navigator"></a>Datu avoti, papildu
+
+Varat rediģēt formulu, kas pārstāv strukturēta datu avota elementu. Konfigurējot ER [parametrus](relative-path-data-bindings-er-models-format.md), tā lai ceļš uz strukturēta datu avota elementu būtu relatīvais ceļš, formulā tiek rādīta zīme "at" (@), [nevis](er-formula-language.md#relative-path) izmantotās hierarhijas koka struktūras absolūtā ceļa atlikušās daļas. Šī absolūtā ceļa atlikusī daļa ir norādīts uz rediģējama ceļa pamatelementu. **Finanšu versijā 10.0.30** **·** **un** vēlāk formulas veidotāja lapā Datu avotu rūtī varat atlasīt opciju Doties uz @**, lai datu avotu koka kursoru novietotu elementā,** kas ir rediģējamā koka pamatelements. Visu sakļauto augošo elementu struktūra tiks automātiski un pēc vajadzības atkārtoti izvērsta. Šī paplašināšana var palīdzēt ātri vizualizēt rediģējamā elementa pamatelementu, ievērot rediģējamā elementa atvases datu avotu kokā un izmantot katru no tiem rediģējamajā formulā, ja nepieciešams.
+
+![Izmantojiet opciju "Doties uz @", lai pārvietotu datu avotu koka kursoru uz elementu, kas ir rediģējamā elementa pamatelements formulas veidotāja lapā.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Datu avotu uztvērējs
+
+**Formulas veidotāja** lapas **datu** avotu rūtī kreisajā pusē atlasiet datu avota elementu, ko vēlaties paņemt rediģējamajā formulā. Pēc tam atlasiet **Pievienot datu avotu**. Ņemiet vērā, ka atlasītais elements ir pievienots rediģējamas formulas tekstam.
+
+> [!TIP]
+> Ja noklusējuma formulas **redaktorā izmantojat** opciju Pievienot datu avotu, atlasītais elements vienmēr tiek pievienots formulas teksta beigās. To pašu darot papildu formulas [redaktorā](er-advanced-formula-editor.md), atlasītais elements tiek ievietots formulas tekstā pašreizējā kursora pozīcijā.
+
+### <a name="built-in-functions-picker"></a>Iebūvēto funkciju uztvērējs
+
+Lapas Formulas **veidotājs** rūtī **Funkcijas** labajā pusē atlasiet ER iebūvēto funkciju, kuru vēlaties izmantot rediģējamajā formulā. Pēc tam atlasiet **Pievienot funkciju**. Ņemiet vērā, ka atlasītā funkcija ir pievienota rediģējamās formulas tekstam.
+
+> [!TIP]
+> Ja noklusējuma formulas **redaktorā** izmantojat opciju Pievienot funkciju, atlasītā funkcija vienmēr tiek pievienota formulas teksta beigās. To pašu darot papildu formulas [redaktorā](er-advanced-formula-editor.md), atlasītā funkcija tiek ievietota formulas tekstā pašreizējā kursora pozīcijā.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Konfigurēto formulu validācija
 
 Lapā **formulas veidotājs** atlasiet **Testēt**, lai pārbaudītu, kā darbojas konfigurētā formula.
 

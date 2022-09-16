@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334751"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427879"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Izlaiduma Dynamics 365 Supply Chain Management 10.0.29 priekšskatījums (2022. gada oktobris)
 
@@ -38,8 +38,8 @@ ms.locfileid: "9334751"
 | Krājumi un loģistika | [Iepriekšējas ielādēt racionālus rīcībā esošo krājumu sarakstus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Drīzumā | Aktivizēts pēc noklusējuma |
 | Veidošanas pasūtījumā piegādes automatizācija | [Veidošanas pasūtījumā piegādes automatizācija](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Veidošanas pasūtījumā piegādes automatizācija](../master-planning/make-to-order-supply-automation.md) | Līdzekļu pārvaldība:<br>*Veidošanas pasūtījumā piegādes automatizācija* |
 | Plānošana | [Skatīt un pielietot detalizētus ieskatus par DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
-| Ražošanas kontrole | [Pabeigto preču fiziski pieejams pirms grāmatošanas žurnālos](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Pabeigto preču fiziski pieejams pirms grāmatošanas žurnālos](../production-control/deferred-posting.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Padarīt gatavās preces fiziski pieejamas pirms grāmatošanas žurnālos* |
-| Noliktavas vadība | [Uzmeklē atbilstošos datus noliktavas mobilajā programmā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Vaicājumu dati, izmantojot noliktavas pārvaldības mobilās programmas datus](../warehousing/warehouse-app-data-inquiry.md) | Līdzekļu pārvaldība:<br>*Warehouse Management programmas datu uzziņu plūsma* |
+| Ražošanas kontrole | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](../production-control/deferred-posting.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Padarīt gatavās preces fiziski pieejamas pirms grāmatošanas žurnālos* |
+| Noliktavas vadība | [Uzmeklē atbilstošos datus noliktavas mobilajā programmā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu](../warehousing/warehouse-app-data-inquiry.md) | Līdzekļu pārvaldība:<br>*Warehouse Management programmas datu uzziņu plūsma* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
@@ -62,9 +62,9 @@ Mēs nesen pievienojam vai būtiski atjauninājām šādus Palīdzības rakstus.
 
 | Līdzekļu apgabals | Jauni vai atjaunināti raksti |
 |---|---|
-| Vispārējā plānošana, CTP | [Aprēķināt pārdošanas pasūtījuma piegādes datumus, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
+| Vispārējā plānošana, CTP | [Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
 | Vispārējā plānošana, DDMRP | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md)<br>[Ieslēdziet DDMRP līdzekli savā sistēmā](../master-planning/planning-optimization/ddmrp-enable.md)<br>[Krājumu pozīcija](../master-planning/planning-optimization/ddmrp-inventory-positioning.md)<br>[Bufera profils un līmeņi](../master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md)<br>[Uz pieprasījumu balstīta plānošana](../master-planning/planning-optimization/ddmrp-planning.md)<br>[Vizuāla un sadarbības izpilde](../master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md) |
-| Noliktavas vadība | [Iepakot sūtījumu konteinerus](../warehousing/packing-containers.md)<br>[Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei](../warehousing/packing-work.md) |
+| Noliktavas vadība | [Konteineru iepakošana nosūtīšanai](../warehousing/packing-containers.md)<br>[Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei](../warehousing/packing-work.md) |
 
 ## <a name="feature-state-changes-in-this-release"></a>Līdzekļu stāvokļa izmaiņas šajā laidienā
 
@@ -205,7 +205,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada jūnijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

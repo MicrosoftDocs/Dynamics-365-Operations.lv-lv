@@ -1,5 +1,5 @@
 ---
-title: Starpuzņēmumu datu koplietošana dāvanu kartēm
+title: Datu koplietošana starp uzņēmumiem attiecībā uz dāvanu kartēm
 description: Šajā rakstā ir aprakstīts, kā izmantot Microsoft Dynamics 365 Commerce Dynamics 365 finanšu datu kopīgošanas funkcionalitāti datu apgabalos, lai sinhronizētu dāvanu kartes datus.
 author: BrianShook
 ms.date: 08/26/2022
@@ -11,17 +11,16 @@ ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: b56890b546c3cd74b75cf447e62495733ea8d288
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: bc0df6c4aac72907e8523069e3f1ae100780dc3c
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387374"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473936"
 ---
-# <a name="cross-company-data-sharing-for-gift-cards"></a>Starpuzņēmumu datu koplietošana dāvanu kartēm
+# <a name="cross-company-data-sharing-for-gift-cards"></a>Datu koplietošana starp uzņēmumiem attiecībā uz dāvanu kartēm
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir aprakstīts, kā konfigurēt tā Microsoft Dynamics 365 Commerce, lai dāvanu kartes datu sinhronizēšanai jāizmanto Dynamics 365 finanšu datu kopīgošanas funkcionalitāte. Datu ierakstu kopīgošanas funkcionalitāti pēc tam var izmantot, lai kopīgotu datu starpuzņēmumu starp divām datu jomām. Šādā veidā Commerce iekšējo dāvanu tabula var kopīgot datus starp diviem uzņēmuma elementiem. Papildinformāciju par Dynamics 365 finanšu starpuzņēmumu datu koplietošanu skatiet starpuzņēmumu [datu koplietošanu](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
 

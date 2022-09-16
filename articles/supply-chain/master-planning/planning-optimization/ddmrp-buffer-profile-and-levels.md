@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186575"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428149"
 ---
 # <a name="buffer-profile-and-levels"></a>Bufera profils un līmeņi
 
@@ -77,6 +77,14 @@ Iepriekšējā ilustrācijā, ja šodien ir no 11. jūnija no rīta, ADU iepriek
 
 - **ADU (pagātne)** = (29 + 11 + 23) ÷ 3 = 21
 
+Lai aprēķinātu vidējo dienas izmantojumu (iepriekš), tiek ņemtas vērā šādas darbības:
+
+- Transakcijas, kurās krājuma daudzums ir mazāks par nulli (`inventtrans` tabulā)
+- Darbības ar statusu Pasūtīts, Rezervēts *pasūtījums* *·*, Rezervēts *fiziski*, *Izdots*, Ieturēts *vai* Pārdots *·*
+- Darbības, kas datētas ar izvēlēto atpakaļešo periodu (vidējais dienas lietošanas pagātnes periods)
+- Darbības, kas nav noliktavas darbs, karantīna, pārdošanas piedāvājumi vai pārskati (`WHSWork`, `WHSQuarantine``SalesQuotation` vai )`Statement`
+- Darbības, kas nav pārsūtīšanas žurnāli, kas ietilpst tajā pašā vajadzību dimensijā
+
 ### <a name="average-daily-usage-forward"></a>Vidējā ikdienas izmantošana (uz priekšu)
 
 Jaunai precei, iespējams, jums nav pagātnes lietošanas datu. Tāpēc tā vietā varat izmantot prognozēto ADU virzību uz priekšu (piemēram, pamatojoties uz prognozēto pieprasījumu). Šajā attēlā parādīts, kā šī pieeja darbojas, kad aprēķins izskatās trīs dienas nākotnē (tostarp šodien).
@@ -86,6 +94,11 @@ Jaunai precei, iespējams, jums nav pagātnes lietošanas datu. Tāpēc tā viet
 Iepriekšējā ilustrācijā, ja šodien ir no 11. jūnija no rīta, ADU nākamajām trim dienām (11. jūnijs, 12. un 13. jūnijs) ir 21,66.
 
 - **ADU (uz priekšu)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Lai aprēķinātu vidējo dienas izmantojumu (uz priekšu), tiek ņemtas vērā šādas darbības:
+
+- Budžeta darbības krājumam, kura budžets ir atlasīts vispārējā plānā
+- Darbības, kas datētas ar izvēlēto turpmāko periodu (vidējais dienas lietojuma uz priekšu periods)
 
 ### <a name="average-daily-usage-blended"></a>Vidējā dienas lietošana (jaukta)
 

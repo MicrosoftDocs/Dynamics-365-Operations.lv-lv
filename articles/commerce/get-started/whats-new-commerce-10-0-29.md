@@ -1,5 +1,5 @@
 ---
-title: Izlaiduma Dynamics 365 Commerce 10.0.29 priekšskatījums (2022. gada oktobris)
+title: W Vēl ir jauns un mainīts Dynamics 365 Commerce 10.0.29 (2022. gada oktobris)
 description: Šajā rakstā ir aprakstītas funkcijas, kas ir jaunas vai mainītas Microsoft Dynamics 365 Commerce programmā 10.0.29.
 author: josaw1
 ms.date: 08/17/2022
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
+ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306237"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9475908"
 ---
-# <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Izlaiduma Dynamics 365 Commerce 10.0.29 priekšskatījums (2022. gada oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Commerce 10.0.29 (2022. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti priekšskatījuma Microsoft Dynamics 365 Commerce versijā 10.0.29. Šai versijai ir ražošanas numuru 10.0.1326 un tā ir pieejama šajā grafikā:
+
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Commerce versijā 10.0.29. Šai versijai ir ražošanas numuru 10.0.1326 un tā ir pieejama šajā grafikā:
 
 - **Laidiena priekšskatījums:** 2022. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2022. gada septembris
@@ -85,7 +85,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Commerce 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md)). 
+Microsoft Dynamics 365 Commerce 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md). 
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

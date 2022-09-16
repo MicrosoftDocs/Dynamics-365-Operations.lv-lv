@@ -2,7 +2,7 @@
 title: Nodokļu aprēķina pārskats
 description: Šis raksts skaidro nodokļu aprēķināšanas iespējas vispārējo tvērumu un funkcijas.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295999"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465171"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
@@ -74,18 +74,10 @@ Mēs iesakām jums importēt un iestatīt nodokļu aprēķina konfigurāciju ar 
 
 | Finanšu vai piegādes ķēdes pārvaldības versija | Nodokļu konfigurācijas versija               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Nodokļu konfigurācija — Eiropa 30.12.82     |
-| 10.0.19         | Nodokļu aprēķina konfigurācija 36.38.193 |
-| 10.0.20         | Nodokļu aprēķina konfigurācija 40.43.208 |
-| 10.0.21         | Nodokļu aprēķina konfigurācija 40.48.215 |
-| 10.0.22         | Nodokļu aprēķina konfigurācija 40.48.215 |
-| 10.0.23         | Nodokļu aprēķina konfigurācija 40.50.221 |
-| 10.0.24         | Nodokļu aprēķina konfigurācija 40.50.225 |
-| 10.0.25         | Nodokļu aprēķina konfigurācija 40.50.225 |
-| 10.0.26         | Nodokļu aprēķina konfigurācija 40.54.234 |
-| 10.0.27         | Nodokļu aprēķina konfigurācija 40.54.234 |
-| 10.0.28         | Nodokļu aprēķina konfigurācija 40.54.234 |
+| 10.0.30         | Nodokļu aprēķina konfigurācija 40.55.239 |
 | 10.0.29         | Nodokļu aprēķina konfigurācija 40.55.236 |
+| 10.0.28         | Nodokļu aprēķina konfigurācija 40.54.234 |
+| 10.0.27         | Nodokļu aprēķina konfigurācija 40.54.234 |
 
 
 ## <a name="data-flow"></a>Datu plūsmas
@@ -104,120 +96,27 @@ Mēs iesakām jums importēt un iestatīt nodokļu aprēķina konfigurāciju ar 
 
 Nodokļu aprēķinu var iespējot pēc transakcijām. 
 
-Versijā 10.0.21 tiek atbalstītas tālāk norādītās transakcijas. 
+Šajā tabulā uzskaitītas darbības, kas tiek atbalstītas atbilstošajā versijā.
 
-- Pārdošana
-
-    - Pārdošanas piedāvājums
-    - Pārdošanas pasūtījums
-    - Apstiprināšana
-    - Izdošanas saraksts
-    - Pavadzīme
-    - Pārdošanas rēķins
-    - Kredīta piezīme
-    - Atgriešanas pasūtījums
-    - Virsraksta papildmaksa
-    - Rindas papildmaksas pieprasījums
-
-- Pirkšana
-
-    - Pirkšanas pasūtījums
-    - Apstiprināšana
-    - Saņemšanas saraksts
-    - Produktu saņemšana
-    - Pirkšanas rēķins
-    - Virsraksta papildmaksas pieprasījums
-    - Rindas papildmaksas pieprasījums
-    - Kredīta piezīme
-    - Atgriešanas pasūtījums
-    - Pirkšanas pieprasījums
-    - Pirkšanas pieprasījuma rindas papildmaksas pieprasījums
-    - Piedāvājuma pieprasījums
-    - Piedāvājuma pieprasījuma virsraksta papildmaksas pieprasījums
-    - Piedāvājuma pieprasījuma rindas papildmaksas pieprasījums
-
-- Krājums
-
-    - Pārvietošanas pasūtījums – nosūtīšana
-    - Pārsūtīšanas pasūtījums – saņemšana
-
-Versijā 10.0.23 tiek atbalstītas tālāk norādītās transakcijas. 
-
-- Brīva teksta rēķins
-
-Versijā 10.0.26 tiek atbalstītas tālāk norādītās transakcijas. 
-
-- Virsgrāmatas žurnāli
-- Kreditoru rēķinu žurnāls
-
-Versijā 10.0.28 tiek atbalstītas tālāk norādītās transakcijas. 
-
-- Kreditoru maksājumu žurnāls
-- Debitora maksājumu žurnāls
-
-Versijā 10.0.29 tiek atbalstītas tālāk norādītās transakcijas. 
-
-
-- Periodiskie žurnāli
+| Versija | Transakcijas |
+|---------|--------------|
+| 10.0.29 | Periodiskie žurnāli |
+| 10.0.28 | Kreditoru maksājumu žurnāls<br> Debitora maksājumu žurnāls | 
+| 10.0.26 | Virsgrāmatas žurnāli<br> Kreditoru rēķinu žurnāls |
+| 10.0.23 | Brīva teksta rēķins |
+| 10.0.21| Pārdošana<br><ul><li>Pārdošanas piedāvājums</li><li>Pārdošanas pasūtījums</li><li>Apstiprināšana</li><li>Izdošanas saraksts</li><li>Pavadzīme</li><li>Pārdošanas rēķins</li><li>Kredīta piezīme</li><li>Atgriešanas pasūtījums</li><li>Virsraksta papildmaksa</li><li>Rindas papildmaksas pieprasījums</li></ul>Pirkšana<br><ul><li>Pirkšanas pasūtījums</li><li>Apstiprināšana</li><li>Saņemšanas saraksts</li><li>Produktu saņemšana</li><li>Pirkšanas rēķins</li><li>Virsraksta papildmaksas pieprasījums</li><li>Rindas papildmaksas pieprasījums</li><li>Kredīta piezīme</li><li>Atgriešanas pasūtījums</li><li>Pirkšanas pieprasījums</li><li>Pirkšanas pieprasījuma rindas papildmaksas pieprasījums</li><li>Piedāvājuma pieprasījums</li><li>Piedāvājuma pieprasījuma virsraksta papildmaksas pieprasījums</li><li>Piedāvājuma pieprasījuma rindas papildmaksas pieprasījums</li></ul>Krājums<ul><li>Pārvietošanas pasūtījums – nosūtīšana</li><li>Pārsūtīšanas pasūtījums – saņemšana</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Atbalstītās valstis/reģioni
 
-Nodokļu aprēķinu var palaist ar atbalstītajām lokalizācijas funkcijām šādās valstīs/reģionos juridiskas personas primārajai adresei: 
+Nodokļu aprēķinu var palaist ar atbalstītām lokalizācijas funkcijām. Šajā tabulā uzskaitītas valstis/reģioni, kas attiecas uz juridiskas personas primāro adresi.
 
-Tiek atbalstīts versijā 10.0.21:
-
-- Austrija
-- Beļģija
-- Dānija
-- Igaunija
-- Somija
-- Francija
-- Vācija
-- Ungārija
-- Islande
-- Īrija
-- Itālija
-- Latvija
-- Lietuva
-- Nīderlande
-- Norvēģija
-- Polija
-- Zviedrija
-- Šveice
-- Apvienotā Karaliste
-- Amerikas Savienotās Valstis
-
-Tiek atbalstīts versijā 10.0.22:
-
-- Austrālija
-- Bahreina
-- Kanāda
-- Ēģipte
-- ĶTR īpašais administratīvais reģions Honkonga
-- Kuveita
-- Jaunzēlande
-- Omāna
-- Katara
-- Saūda Arābija
-- Dienvidāfrikas Republika
-- Apvienotie Arābu Emirāti
-
-Tiek atbalstīts versijā 10.0.23:
-
-- Taizeme
-- Japāna
-- Malaizija
-- Singapūra
-
-Tiek atbalstīts versijā 10.0.24:
-
-- Meksika
-
-Tiek atbalstīts versijā 10.0.26:
-
-- Ķīna
-- Čehijas Republika
-- Spānija
+| Versija | Valsts/reģions |
+|---------|----------------|
+| 10.0.26 | — Ķīnāā <br>- Čehijas Republika<br>- Spānija |
+| 10.0.24 | Meksika |
+| 10.0.23 | - Taizeme <br>- Japāna <br>- Malaizija <br>- Singapūra |
+| 10.0.22 | - Austrālija<br>- Bahreina <br>- Kanāda<br>- Ēģipte <br>– Honkongas īpašās pārvaldes apgabals (SAR) <br>- Kuveita <br>— Jaunzēlande <br>- Omāna <br>- Katara <br>- Saūda Arābu <br>- Dienvidāfrika <br>- Apvienotie Arābu Emirāti |
+| 10.0.21 | - Austrija <br>- Beļģija <br>- Dānija <br>- Igaunija <br>- Somija <br>- Francija <br>- Vācija <br>- Ungārija <br>- Islande <br>- Īrija <br>- Itālija <br>- Latvija <br>- Lietuva <br>- Nīderlande <br>- Norvēģija <br>- Polija <br>- Zviedrija <br>- Šveice <br>- Apvienotā Karaliste <br>- ASV |
 
 Jebkurai valstij/reģionam, ko nav lokalizēts korporācija Microsoft, nodokļu aprēķinu var iespējot un palaist arī ar citiem globāliem līdzekļiem.
 

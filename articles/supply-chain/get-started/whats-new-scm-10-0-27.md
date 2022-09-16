@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ff92e6904b8042232159a0aea095d7a91c17d4b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 3ce3b2f3524dbeb043717ed9ef5429ea0eea4b8a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124106"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427805"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.27. (2022. gada jūlijs)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9124106"
 |---|---|---|---|
 | Krājumi un loģistika | [Krājumu sadalījuma krājumu redzamības pievienojumprogramma](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Inventory Visibility krājumu sadalījums](../inventory/inventory-visibility-allocation.md) | Aktivizēts pēc noklusējuma |
 | Ražošana | Skats “Mana diena” ražošanas izpildes interfeisam | [Kā darbinieki ražošanas izpildes interfeisā un rādīt](../production-control/production-floor-execution-use.md)[atvaļinājuma bilances ražošanas izpildes interfeisā](../production-control/production-floor-execution-payroll-stats.md) | Līdzekļu pārvaldība:<br>*Skats “Mana diena” ražošanas izpildes interfeisam* |
-| Plānošana | [Plānošanas optimizācijas atbalsts apakšlīgumu slēgšanai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Ražošanas apakšuzņēmēja darba pārvaldība](../production-control/manage-subcontract-work-production.md) | Aktivizēts pēc noklusējuma |
+| Plānošana | [Plānošanas optimizācijas atbalsts apakšlīgumu slēgšanai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Apakšlīgumu slēgšanas darbu pārvaldība ražošanā](../production-control/manage-subcontract-work-production.md) | Aktivizēts pēc noklusējuma |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
@@ -68,7 +68,7 @@ Mēs nesen pievienojam vai būtiski atjauninājām šādus Palīdzības rakstus.
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.27 (2022. gada jūnijs](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)).
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.27 (2022. gada jūlijs](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

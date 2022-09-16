@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878908"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460553"
 ---
 # <a name="dual-use-goods"></a>Divējāda lietojuma preces
 
@@ -85,7 +85,14 @@ Lai identificētu preci kā divējāda lietojuma preci un piemērotu tai divēj�
 1. Kopsavilkuma cilnē **Ārējā tirdzniecība** iestatiet opciju **Divējāda lietojuma preces** uz **Jā**, lai identificētu pašreizējo preci kā divējāda lietojuma preci.
 1. Iestatiet lauku **Divējāda lietojuma kods** uz kodu, kas piemērots pašreizējai precei. (Jūs definējāt šo kodu lapā **Divējāda lietojuma kategorijas**.)
 
-Šis iestatījums tiek pārbaudīts, veidojot pārdošanas pasūtījumu.
+> [!NOTE]
+>
+> Sistēma veic šādas dubultās izmantošanas pārbaudes, kad tā ģenerē pārdošanas apstiprinājumu:
+>
+> 1. Vai pasūtījumā ir iekļautas jebkādas dubultās lietošanas preces?
+> 1. Ja tā ir, vai mērķa valstij ir nepieciešami dubultās lietošanas sertifikāti?
+> 1. Ja tā ir, vai mērķa valstij katrai dubultās izmantošanas derīgām ir sertifikāti un vai šie sertifikāti ir derīgi apstiprinātajiem nosūtīšanas datumiem?
+> 1. Ja 1. un 2. jautājuma atbildes ir "Jā" un atbilde uz 3. jautājumu ir "Nē", sistēma parāda brīdinājumu, lai informētu lietotāju, ka pārdošanas pasūtījumā vienai vai vairākām duālām precēm trūkst dubultās lietošanas sertifikātu. Lietotājam, iespējams, jāiegūst nepieciešamie sertifikāti un jāmēģina vēlreiz, bet, ja vēlaties, varat noraidīt brīdinājumu un turpināt pārdošanas apstiprinājumu.
 
 ## <a name="set-up-dual-use-certificates"></a>Divējāda lietojuma sertifikātu iestatīšana
 
