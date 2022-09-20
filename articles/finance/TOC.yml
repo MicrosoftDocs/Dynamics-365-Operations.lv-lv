@@ -3578,6 +3578,8 @@
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                     - name: Muitošana
                       items:
+                        - name: Iestatīt muitas kontroli
+                          href: localizations/rus-set-up-customs-clearance.md
                         - name: Darbs ar muitošanu
                           href: localizations/rus-work-with-customs-clearance.md
                 - name: Pārskatu veidošana
@@ -4642,7 +4644,7 @@
                 - name: Izmaksu kontrolēšana
                   href: cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Izdevumu pārvaldība
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Rīcībā esošie krājumi
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Rēķina apstiprinājumi
@@ -4650,11 +4652,11 @@
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Project mobilo programmu pārskats
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/finance/toc.json
                 - name: Projekta laika ieraksts
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Projektu darba laika uzskaites tabula
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/finance/toc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Pārdošanas pasūtījumi

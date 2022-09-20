@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management\_10.0.30 (2022.\_gada novembris)"
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: "Supply Chain Management\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: "Supply Chain Management 10.0.28 (2022.\_gada augusts)"
@@ -1715,10 +1717,32 @@
                   href: inventory/inventory-visibility-allocation.md
                 - name: Inventory Visibility rīcībā esošo izmaiņu grafiks un pieejamība solīšanai
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: "Krājumu redzamības publiskie\_API"
+                - name: "Inventory Visibility publiskie\_API"
                   href: inventory/inventory-visibility-api.md
-                - name: Krājumu redzamības padomi
+                - name: Inventory Visibility padomi
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: Sensor Data Intelligence sākumlapa
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Ieslēgt Sensor Data Intelligence jūsu sistēmai
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: "Izvietot IoT\_risinājumu pakalpojumā Azure"
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Sensor Data Intelligence parametri
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Iestatīt simulētu sensoru testēšanas veikšanai
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Līdzekļa dīkstāves scenārijs
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Līdzekļa uzturēšanas scenārijs
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Mašīnas statusa scenārijs
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Produkta kvalitātes scenārijs
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Ražošanas aizkaves scenārijs
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT informācija
           items:
             - name: IoT informācijas sākumlapa
@@ -1940,7 +1964,7 @@
                 - name: Izmaksu kontrolēšana
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Izdevumu pārvaldība
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Rīcībā esošie krājumi
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Rēķina apstiprinājumi
@@ -1948,11 +1972,11 @@
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Project mobilo programmu pārskats
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Projekta laika ieraksts
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Projektu darba laika uzskaites tabula
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Pārdošanas pasūtījumi
@@ -3463,7 +3487,7 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Sūtījumu konsolidācijas politikas
                   items:
-                    - name: Sūtījumu konsolidācijas politikas
+                    - name: Sūtījumu konsolidācijas politiku pārskats
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Sūtījumu konsolidācijas politiku konfigurēšana
                       href: warehousing/configure-shipment-consolidation-policies.md

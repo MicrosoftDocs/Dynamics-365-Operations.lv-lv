@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887895"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475588"
 ---
 # <a name="finance-home-page"></a>Finance mājas lapa
 
@@ -41,7 +41,7 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
         - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Finanšu pārskatu veidošana](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Finanšu pārskatu veidošana](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Pamatlīdzekļi](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Virsgrāmata un finanšu pārskatu veidošana](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 You
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
-Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Lai uzzinātu par valsts/reģiona funkcionalitāti, skatiet sadaļu [Lokalizācija un regulēšanas līdzekļi](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Lai uzzinātu par valsts/reģiona funkcionalitāti, skatiet sadaļu [Lokalizācija un regulēšanas līdzekļi](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Papildu saturs
 
@@ -80,6 +80,6 @@ Lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iesp
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platforma Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Informāciju par tiešsaistes kursiem un apmācību skatiet [Dynamics 365 Finance mācību ceļos](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
