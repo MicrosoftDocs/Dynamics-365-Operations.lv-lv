@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423574"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542291"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility konfigurēšana
 
@@ -53,6 +53,7 @@ Inventory Visibility pievienojumprogramma pievieno vairākus jaunus līdzekļus 
 |---|---|
 | *OnHandReservation* | Izmantojot krājumu redzamību, varat izveidot rezervācijas, patērētās rezervācijas un/vai atcelt norādītos krājumu daudzumus. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Šī funkcija sniedz preču krājumu kopsavilkumu kopā ar visām dimensijām. Krājuma kopsavilkuma dati tiks periodiski sinhronizēti no Inventory Visibility. Noklusējuma sinhronizācijas biežums ir ik pēc 15 minūtēm un to var iestatīt kā augstu, ik pēc 5 minūtēm. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | Šī funkcija ļauj iepriekš ielādēt rīcībā esošo krājumu redzamības vaicājumus, lai varētu izveidot rīcībā esošos sarakstus ar iepriekš atlasītām dimensijām. Noklusētais sinhronizācijas biežums ir ik pēc 15 minūtēm. Papildinformāciju skatiet krājumu [kopsavilkumā](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
 | *OnhandChangeSchedule* | Šī izvēles funkcija aktivizē rīcībā esošo izmaiņu grafiku un pieejamās solīšanai (ATP) funkcijas. Papildinformāciju skatiet sadaļā Rīcībā [esošo krājumu redzamības izmaiņu grafiks un apsolīšanai pieejamais](inventory-visibility-available-to-promise.md). |
 | *Sadalījums* | Šī izvēles funkcija iespējo krājumu redzamību, lai varētu nodrošināt krājumu aizsardzību (ringfencing) un pārsaukt kontroli. Plašāku informāciju skatiet krājumu redzamības [krājumu sadalījumā](inventory-visibility-allocation.md). |
 | *Iespējot noliktavas preces krājumu redzamības pakalpojumā* | Šī izvēles funkcija iespējo krājumu redzamību, lai atbalstītu krājumus, kas ir iespējoti noliktavas pārvaldības procesiem (WMS). Papildinformāciju skatiet šeit: [Krājumu redzamības atbalsts WMS krājumiem](inventory-visibility-whs-support.md). |
@@ -483,7 +484,7 @@ Dimensiju secībai ir stingri jāievēro rezervāciju hierarhijas secība, dimen
 
 ## <a name="available-to-promise-configuration-optional"></a>Konfigurācija pieejama solīšanai (neobligāti)
 
-Var iestatīt krājumu redzamību, lai ļautu plānot rīcībā esošo krājumu turpmākās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju. Lai izmantotu šo funkciju, jums tā ir jāiespējo **cilnē** Līdzekļu pārvaldība un pēc tam tā jāiestata **cilnē ATP** iestatījumi. Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos.](inventory-visibility-available-to-promise.md)
+Var iestatīt krājumu redzamību, lai ļautu plānot rīcībā esošo krājumu turpmākās izmaiņas un aprēķināt rīcībā esošos (ATP) daudzumus. ATP ir pieejamais krājuma daudzums, un nākamajā periodā to var solīt debitoram. Šī aprēķina izmantošana var lielā palielinās pasūtījuma izpildes iespēju. Lai izmantotu šo funkciju, jums tā ir jāiespējo **cilnē** Līdzekļu pārvaldība un pēc tam tā jāiestata **cilnē ATP** iestatījumi. Papildinformāciju skatiet krājumu redzamības [rīcībā esošo izmaiņu grafiki un apsolīšanai pieejamos](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Pabeidziet un atjauniniet konfigurāciju
 

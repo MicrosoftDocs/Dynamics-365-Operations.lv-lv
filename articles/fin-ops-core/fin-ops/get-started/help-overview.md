@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462362"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538842"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -40,14 +40,14 @@ ms.locfileid: "9462362"
 
 ![Rūts Palīdzība.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-microsoft-docs"></a>Palīdzība Microsoft doks
+## <a name="help-on-microsoft-learn"></a>Palīdzība par Microsoft Learn
 
-Microsoft Docs [Microsoft Dynamics ( 365](/dynamics365/) dokumentācija) ir preču dokumentācijas noklusējuma avots iepriekš uzskaitītajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
+[Microsoft Dynamics( 365 dokumentācija](/dynamics365/)) ir Microsoft Learn preču dokumentācijas noklusējuma avots iepriekš uzskaitītajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
 
 - **Piekļuve visjaunākajam saturam**— vietne nodrošina Microsoft ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc jums ir viegla pieeja visjaunākajai tehniskajai informācijai.
 - **Saturs, ko sarakstījuši eksperti** – vietnes saturs ir atvērts kopienas dalībnieku ieguldījumiem gan iekšpusē, gan ārpus Microsoft.
 
-Varat atrast Microsoft Dokumentu saturu, izmantojot jebkuru meklēšanas programmu. Labākiem rezultātiem, mēs iesakām izmantot meklēšanu vietnē, piemēram, **site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”**.
+Saturu varat atrast, izmantojot Microsoft Learn jebkuru meklēšanas programmu. Lai iegūtu labākus rezultātus, ieteicams lietot vietņu meklēšanu, piemēram, **vietni:learn.microsoft.com dynamics 365 "meklēšanas termins"**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
@@ -87,7 +87,7 @@ Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, 
 
 Video [Kā sniegt ieguldījumu Microsoft Dynamics 365 dokumentācijās](https://youtu.be/m5djioozRbg) (norādīts iepriekš) ir iekļauts Microsoft Dynamics 365 kanālā YouTube.
 
-Papildinformāciju skatiet Microsoft dokumentu veicinātājamajā [ceļvedī, ko publicējusi komanda,](/contribute) kas izveidoja Microsoft dokumentu vietni.
+Papildinformāciju skatiet [Microsoft dokumentu izstrādātāja ceļvedī](/contribute), ko publicējusi komanda, kas izveidoja vietu Microsoft Learn.
 
 > [!NOTE]
 > Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.
@@ -169,14 +169,11 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | Vietne | Apraksts |
 |------|-------------|
 | [Microsoft Dynamics 365 dokumentācija](/dynamics365/) | Šī vietne vieso vai savieno ar visu produktu dokumentāciju programmatūrai Dynamics 365. |
-| [Microsoft Learn](/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
+| [Microsoft Learn Apmācību](/training/) | Šī vietne ir brīva Microsoft eLearning vietne. |
 | [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
 | [Atbalsta emuārs](https://aka.ms/AXSupportBlog) | Šī vietne sniedz padomus un ieteikumus, ko ir publicējusi Atbalsta darba grupa. |
 | [Iepriekšējās versijas](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
-
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

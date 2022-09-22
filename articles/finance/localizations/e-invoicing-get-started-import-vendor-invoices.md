@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283151"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524750"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Elektronisko rēķinu izveides pakalpojuma izmantošana, lai importētu kreditoru rēķinus
 
@@ -107,7 +107,8 @@ Lai iestatītu dažādu veidu kreditora rēķinu importu, veiciet tālāk norād
 2. Atlasiet **Klienta rēķina konteksta modelis** un pēc tam atlasiet **Izveidot konfigurāciju**  > **Atvasināt no nosaukuma: Klienta rēķina konteksta modelis, Microsoft**, lai izveidotu atvasinātu konfigurāciju.
 3. Versijā **Melnraksts** atlasiet **Noformētājs** un kokā **Datu modelis** atlasiet **Kartēt modeli datu avotos**.
 4. Kokā **Definīcijas** atlasiet **DataChannel** un pēc tam atlasiet **Noformētājs**.
-5. Kokā **Datu avoti** izvērsiet konteineru **$Context\_Channel**. Laukā **Vērtība** atlasiet **Rediģēt** un ievadiet datu kanāla nosaukumu. Šis ir kanāla nosaukums, kas ir elektronisko rēķinu funkcijas datu kanāla nosaukums RCS. 
+5. Kokā **Datu avoti** izvērsiet konteineru **$Context\_Channel**. 
+6. Laukā **Vērtība** atlasiet Rediģēt **formulu** > **un** ievadiet datu kanāla nosaukumu. Šis ir kanāla nosaukums, kas ir elektronisko rēķinu funkcijas datu kanāla nosaukums RCS. 
 7. Atlasiet **Saglabāt** un aizveriet lapu.
 8. Aizvērt lapu.
 9. Atlasiet atvasināto konfigurāciju, kuru izveidojāt no **Klienta rēķina konteksta modeļa** un kopsavilkuma cilnē **Versijas** atlasiet **Izmaiņu statuss**  > **Izpildīts**.

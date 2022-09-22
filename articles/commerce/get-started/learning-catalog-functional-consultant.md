@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d82d8cdecd43109d8cc559a3fe5b7b39d75d9775
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 0a9adcfb86cdcfefba2d60e260f89173645a86a2
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423685"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538788"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce funkcionālo konsultantu apmācības katalogs
 
@@ -33,24 +33,24 @@ Lai iegūtu apmācību par līdzekļiem, kas koplietoti ar citām finanšu un op
 
 | Saturs | Apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Darba sākšana ar Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
-| [Darba sākšana ar Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection ir uz mākoņa balstīts risinājums, kas paredzēts e-komercijai, fiziskiem veikaliem un universālā kanāla tirgotājiem, lai palīdzētu aizsargāt savus ieņēmumus un reputāciju, nodrošinot līdzekļus un iespējas, lai samazinātu krāpšanu un ļaunprātīgu izmantošanu, samazinātu darbību izdevumus un palielinātu pieņemšanas likmes, vienlaicīgi aizsargājot lietotāju kontu no krāpnieciskas iedarbības. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 35 minūtes |
+| [Darba sākšana ar Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
+| [Darba sākšana ar Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection ir uz mākoņa balstīts risinājums, kas paredzēts e-komercijai, fiziskiem veikaliem un universālā kanāla tirgotājiem, lai palīdzētu aizsargāt savus ieņēmumus un reputāciju, nodrošinot līdzekļus un iespējas, lai samazinātu krāpšanu un ļaunprātīgu izmantošanu, samazinātu darbību izdevumus un palielinātu pieņemšanas likmes, vienlaicīgi aizsargājot lietotāju kontu no krāpnieciskas iedarbības. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 35 minūtes |
 
 ## <a name="commerce"></a>Komercija<a name="commerce"></a>
 
 | Saturs | apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Izvietot Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | Šis mācību ceļš apraksta, kā izvietot Dynamics 365 Commerce   vides un veikt pirmsnodrošināšanas soļus sekmīgai Komercijas ieviešanai, izmantojot pareizo topoloģiju katra mazumtirgotāja biznesa vajadzībām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas   |
-| [Konfigurēt un strādāt ar universālā kanāla priekšnosacījumiem Dynamics 365 Commerce](/learn/paths/configure-work-omnichannel-prequisites-commerce/)          | Lai varētu izveidot un izmantot jebkuru no Dynamics 365 Commerce kanāliem, ir jāiestata vairāki priekšnosacījumi. Šis apmācības ceļš apraksta šo priekšnosacījumu konfigurāciju, lai nodrošinātu veiksmīgu transakciju veikšanu Commerce kanālos un to, kā strādāt ar tiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
-| [Konfigurēt un izmantot Pārdošanas punktu (POS) Dynamics 365 Commerce](/learn/paths/configure-use-pos-commerce/) | Darījumu dati tiek veidoti Pārdošanas punktā (POS) un pēc tam augšupielādēti Dynamics 365 Commerce pārstrādei galvenajā mītnē. Šis mācības ceļš apraksta, kā instalēt un aktivizēt POS, kā arī to, kā izveidot ikdienas transakcijas sistēmā POS. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
-| [Pārvaldīt klientu iesaistīšanos un iepirkšanās pieredzi Dynamics 365 Commerce](/learn/paths/manage-customer-engagement-shopping-experience-commerce/) | Klientu iesaistīšanās un iepirkšanās pieredzes uzlabošana palīdz patērētājiem pieņemt labākus pirkšanas lēmumus un veidot lojalitāti mazumtirgotāja zīmoliem, kas galu galā noved pie palielinātu ieņēmumu apjoma. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
-| [Konfigurēt un strādāt ar zvanu centriem Dynamics 365 Commerce](/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce ir universāla kanāla risinājums, kas nodrošina zvanu centra kanālu ar iespējām noklusēt īpašus pasūtījumu apstrādes iestatījumus un datu noklusējumus par pārdošanas pasūtījumiem, ko izveidojuši zvanu centra lietotāji. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
-| [Pārvaldīt pasūtījuma izpildi un krājumu Dynamics 365 Commerce](/learn/paths/manage-order-fulfillment-inventory-commerce/) | Efektīvai krājumu pārvaldībai ir nozīmīga loma mazumtirdzniecības rūpniecībā, kur spēja iegūt atjauninātu skatījumu par pašreizējo krājumu un viegli pārsūtīt un reģistrēt preces var radīt lielu ietekmi uz mazumtirgotāja veiksmi patērētāju apsaimniekošanā un pārdošanas ieņēmumu palielināšanā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
+| [Izvietot Dynamics 365 Commerce](/training/paths/deploy-dynamics-365-commerce/) | Šis mācību ceļš apraksta, kā izvietot Dynamics 365 Commerce   vides un veikt pirmsnodrošināšanas soļus sekmīgai Komercijas ieviešanai, izmantojot pareizo topoloģiju katra mazumtirgotāja biznesa vajadzībām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas   |
+| [Konfigurēt un strādāt ar universālā kanāla priekšnosacījumiem Dynamics 365 Commerce](/training/paths/configure-work-omnichannel-prequisites-commerce/)          | Lai varētu izveidot un izmantot jebkuru no Dynamics 365 Commerce kanāliem, ir jāiestata vairāki priekšnosacījumi. Šis apmācības ceļš apraksta šo priekšnosacījumu konfigurāciju, lai nodrošinātu veiksmīgu transakciju veikšanu Commerce kanālos un to, kā strādāt ar tiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 6.5 stundas |
+| [Konfigurēt un izmantot Pārdošanas punktu (POS) Dynamics 365 Commerce](/training/paths/configure-use-pos-commerce/) | Darījumu dati tiek veidoti Pārdošanas punktā (POS) un pēc tam augšupielādēti Dynamics 365 Commerce pārstrādei galvenajā mītnē. Šis mācības ceļš apraksta, kā instalēt un aktivizēt POS, kā arī to, kā izveidot ikdienas transakcijas sistēmā POS. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
+| [Pārvaldīt klientu iesaistīšanos un iepirkšanās pieredzi Dynamics 365 Commerce](/training/paths/manage-customer-engagement-shopping-experience-commerce/) | Klientu iesaistīšanās un iepirkšanās pieredzes uzlabošana palīdz patērētājiem pieņemt labākus pirkšanas lēmumus un veidot lojalitāti mazumtirgotāja zīmoliem, kas galu galā noved pie palielinātu ieņēmumu apjoma. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
+| [Konfigurēt un strādāt ar zvanu centriem Dynamics 365 Commerce](/training/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce ir universāla kanāla risinājums, kas nodrošina zvanu centra kanālu ar iespējām noklusēt īpašus pasūtījumu apstrādes iestatījumus un datu noklusējumus par pārdošanas pasūtījumiem, ko izveidojuši zvanu centra lietotāji. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
+| [Pārvaldīt pasūtījuma izpildi un krājumu Dynamics 365 Commerce](/training/paths/manage-order-fulfillment-inventory-commerce/) | Efektīvai krājumu pārvaldībai ir nozīmīga loma mazumtirdzniecības rūpniecībā, kur spēja iegūt atjauninātu skatījumu par pašreizējo krājumu un viegli pārsūtīt un reģistrēt preces var radīt lielu ietekmi uz mazumtirgotāja veiksmi patērētāju apsaimniekošanā un pārdošanas ieņēmumu palielināšanā. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
 
 ## <a name="e-commerce"></a>E-komercija<a name="e-commerce"></a>
 
 | Saturs | apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Konfigurēt un strādāt ar e-komerciju Dynamics 365 Commerce](/learn/paths/configure-work-e-commerce/) | Tiešsaistes kanāli un Dynamics 365 Commerce   e-komercijas vietne ļauj mazumtirgotājiem tiešsaistē izveidot savu zīmolu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
+| [Konfigurēt un strādāt ar e-komerciju Dynamics 365 Commerce](/training/paths/configure-work-e-commerce/) | Tiešsaistes kanāli un Dynamics 365 Commerce   e-komercijas vietne ļauj mazumtirgotājiem tiešsaistē izveidot savu zīmolu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

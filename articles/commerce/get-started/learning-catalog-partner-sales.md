@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 56fe7fb4bb9d66f0ebb9be32be7569c31ca9ec11
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 77c51eee365eaf226e60514e7172ee927d6b6cdb
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423872"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538733"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Commerce Microsoft partneru pārdošanas un mārketinga lomu apmācības katalogs Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ Lai iegūtu apmācību par līdzekļiem, kas koplietoti ar citām finanšu un op
 
 | Saturs | Apraksts | Formāts | Ilgums |
 |---------|-------------|--------|--------|
-| [Darba sākšana ar Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail   iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
-| [Darba sākšana ar Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection ir uz mākoņa balstīts risinājums, kas paredzēts e-komercijai, fiziskiem veikaliem un universālā kanāla tirgotājiem, lai palīdzētu aizsargāt savus ieņēmumus un reputāciju, nodrošinot līdzekļus un iespējas, lai samazinātu krāpšanu un ļaunprātīgu izmantošanu, samazinātu darbību izdevumus un palielinātu pieņemšanas likmes, vienlaicīgi aizsargājot lietotāju kontu no krāpnieciskas iedarbības. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 35 minūtes |
+| [Darba sākšana ar Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, izveidots uz pārbaudītām Dynamics 365 Retail   iespējām, nodrošina visaptverošu visu kanālu risinājumu, kas apvieno biroja, veikala, zvanu centra un digitālo pieredzi. Dynamics 365 Commerce sniedz iespēju veidot zīmola lojalitāti, izmantojot personificētu klienta iesaisti, palielināt ieņēmumus ar uzlabotu darbinieku produktivitāti, optimizēt operācijas, lai samazinātu izmaksas un vadītu piegādes ķēdes efektivitāti, galu galā sasniedzot labākus biznesa rezultātus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas   |
+| [Darba sākšana ar Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection ir uz mākoņa balstīts risinājums, kas paredzēts e-komercijai, fiziskiem veikaliem un universālā kanāla tirgotājiem, lai palīdzētu aizsargāt savus ieņēmumus un reputāciju, nodrošinot līdzekļus un iespējas, lai samazinātu krāpšanu un ļaunprātīgu izmantošanu, samazinātu darbību izdevumus un palielinātu pieņemšanas likmes, vienlaicīgi aizsargājot lietotāju kontu no krāpnieciskas iedarbības. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 35 minūtes |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

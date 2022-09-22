@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347294"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542357"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -62,7 +62,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | --- | --- | --- | --- |
 | Darbības | Vajadzības grupas ar iespējotu darbību aprēķinu: *\#* | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts |
 | Pamatkalendāri | Kalendāri, kas izmanto pamatkalendāru: *\#* | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts | 
-| Partijas atgriešanas kodi | Nepieejami partijas atriešanas metodes šabloni: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik partijas atgriešanas kodi tiek ignorēti, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens |
+| Partijas atgriešanas kodi | Nepieejami partijas atriešanas metodes šabloni: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik partijas atgriešanas kodi tiek ignorēti, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Pieejams solīšanai (CTP) | Noklusējuma pasūtījuma iestatījumi ar piegādes datuma vadīklu iestatītu uz CTP: *\#* | Piegādes ķēdes pārvaldības 10.0.28 un jaunākā procesā ar nosaukumu CTP *plānošanas optimizēšanai tiek veikti apstiprināti nosūtīšanas un saņemšanas datumi,* kas ir pieejami pēc dinamiskā plāna palaišanas. Vecākām Piegādes ķēžu pārvaldības versijām, iespējojot plānošanas optimizāciju, tiek ignorēts mantojuma CTP iestatījums. | Tiek atbalstīts |
 | Kopēt statisko uz dinamisko plānu | Statiskā kopēšana uz dinamisko plānu ir iespējota vispārējās plānošanas parametros. | Plānošanas optimizācija nekopē statisko plānu uz dinamisko plānu neatkarīgi no šī iestatījuma. Parasti šī koncepcija nav tik svarīga ātruma un pilnīgas reģenerācijas dēļ, ko nodrošina plānošanas optimizācija. Ja tiek izmantoti divi vai vairāki plāni, katram plānam ir jāaktivizē vispārējā plānošana. | Nav datu |
 | Apstiprināšana | Vajadzības grupas ar iestatītu automātiskās apstiprināšanas periodu: *\#* | Versijā 10.0.7 un jaunākās versijās apstiprināšana tiek atbalstīta kā atsevišķs apstiprināšanas pakešuzdevums pēc vispārējās plānošanas pabeigšanas (ar nosacījumu, ka *Automātiskās apstiprināšanas līdzeklis plānošanas optimizācijai* ir iespējots [līdzekļu pārvaldībā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Ņemiet vērā, ka automātiskā apstiprināšana plānošanas optimizācijai ir balstīta uz pasūtījuma datumu (sākuma datumu), nevis prasību datumu (beigu datumu). Tas nodrošina, ka plānoto pasūtījumu apstiprināšana notiek laikus, neiekļaujot izpildes laiku apstiprināšanas laika periodā. | Tiek atbalstīts |

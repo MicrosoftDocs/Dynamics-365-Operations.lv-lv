@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277337"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524694"
 ---
 # <a name="connected-applications"></a>Savienotās programmas
 
@@ -35,7 +35,7 @@ Finanšu vai piegādes ķēdes pārvaldības parametru pieejamība RCS ir noder�
 ## <a name="create-a-connected-application"></a>Izveidojiet pievienotu pievienojumprogrammu
 
 1. Piesakieties savā RCS kontā.
-2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Vide** atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
+2. Globalizācijas **līdzekļa darbvietā** sadaļā **Saistītās saites** atlasiet Vides **iestatījumi**.
 3. **Lapas Vides iestatījums** darbību rūtī atlasiet Saistītās **programmas**.
 4. Atlasiet **Jauns**, lai izveidotu savienotu lietojumprogrammu.
 5. Laukā **Nosaukums** ievadiet savienotās lietojumprogrammas nosaukumu.

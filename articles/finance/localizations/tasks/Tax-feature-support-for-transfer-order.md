@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203115"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542249"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
@@ -63,7 +63,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         7. Atlasiet **Saglabāt**.
         
         Izveidojiet nodokļa kodu **BE-RC+21**.
-        1. Atlasiet **Pievienot** ievadiet **BE-RC-21** laukā **Nodokļa kods**.
+        1. Atlasiet **Pievienot**, ievadiet **BE-RC+21** nodokļu **koda** laukā.
         2. Atlasiet **Pēc neto summas** laukā **Nodokļu komponents**.
         3. Atlasiet **Saglabāt**.
         4. Atlasiet **Pievienot** tabulā **Likme**.

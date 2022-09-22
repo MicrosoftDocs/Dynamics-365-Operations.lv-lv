@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: HT
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427879"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520755"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Izlaiduma Dynamics 365 Supply Chain Management 10.0.29 priekšskatījums (2022. gada oktobris)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9427879"
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
 | Krājumi un loģistika | [PIEŠĶIRT un rezervēt WMS krājumus krājumu redzamībai](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Drīzumā | Aktivizēts pēc noklusējuma |
-| Krājumi un loģistika | [Iepriekšējas ielādēt racionālus rīcībā esošo krājumu sarakstus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Drīzumā | Aktivizēts pēc noklusējuma |
+| Krājumi un loģistika | [Iepriekšējas ielādēt racionālus rīcībā esošo krājumu sarakstus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility programmas lietošana](../inventory/inventory-visibility-power-platform.md) | Aktivizē pakalpojuma konfigurācija |
 | Veidošanas pasūtījumā piegādes automatizācija | [Veidošanas pasūtījumā piegādes automatizācija](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Veidošanas pasūtījumā piegādes automatizācija](../master-planning/make-to-order-supply-automation.md) | Līdzekļu pārvaldība:<br>*Veidošanas pasūtījumā piegādes automatizācija* |
 | Plānošana | [Skatīt un pielietot detalizētus ieskatus par DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
 | Ražošanas kontrole | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](../production-control/deferred-posting.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Padarīt gatavās preces fiziski pieejamas pirms grāmatošanas žurnālos* |
@@ -49,7 +49,7 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas ir jādara l
 
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Izmaksu pārvaldība | Līdzprodukta gaidošā cenu aprēķina optimizācija | Šī funkcija labo konfliktu, kas reizēm var rasties, kad līdzprodukta cenas tiek aprēķinātas, izmantojot vairākus pavedienus. Tas liek sistēmai pārliecināties, vai katra līdzprodukta cena tiek aprēķināta tikai vienu reizi. Pēc tam šā aprēķina rezultāts tiek izmantots kā ievade visiem citiem aprēķiniem. Ja gaidoša cena jau eksistē, šī cena tiek izmantota. |
+| Izmaksu pārvaldība | Gaidoša līdzprodukta cenas aprēķina optimizācija | Šī funkcija labo konfliktu, kas reizēm var rasties, kad līdzprodukta cenas tiek aprēķinātas, izmantojot vairākus pavedienus. Tas liek sistēmai pārliecināties, vai katra līdzprodukta cena tiek aprēķināta tikai vienu reizi. Pēc tam šā aprēķina rezultāts tiek izmantots kā ievade visiem citiem aprēķiniem. Ja gaidoša cena jau eksistē, šī cena tiek izmantota. |
 | Vispārējā plānošana | Grupu darījumi Plānošanas optimizācijā | Izmantojot plānošanas optimizāciju, šis līdzeklis var palīdzēt samazināt plānoto pasūtījumu skaitu, kas tiek ģenerēti vienas pārdošanas pasūtījuma rindas piegādei. Ja ir ieslēgta šī funkcija, plānošanas optimizācija grupēs visas krājumu darbības pasūtījuma rindai vienā pilna daudzuma prasībā. (Šī funkcionalitāte atbilst iebūvētās plānošanas programmas funkcionalitātei.) Piedāvājums un pieprasījums tiek grupēti atsevišķi. Tāpēc šī funkcija palīdz samazināt darbības apjomu, kad ir sadalītas darbības un kad lietojat dimensijas (piemēram, partijas numurus vai sērijas numurus), kas nav vajadzības dimensijas. |
 | Sagāde un avoti | Kreditora aizturēšana pirkšanas pasūtījumiem | Šī funkcija ļauj aizturēt kreditoru pirkšanas pasūtījumiem. Tas pievieno jaunu pirkšanas *pasūtījuma aizturēšanas* veidu, kas pirkšanas pasūtījumiem atzīmē kreditoru kā aizturētu. Jūs nevarēsit izveidot jaunus pirkšanas pasūtījumus kreditoriem, kas ir aizturēti pirkšanas pasūtījumiem, bet joprojām būs iespējams turpināt ar atvērtiem rēķiniem vai maksājumiem šiem kreditoriem. |
 | Pārdošana un mārketings | Aprēķināt rindas neto summu importējot | Šī funkcija ļauj jums kontrolēt, vai sistēmai ir jāpārrēķina rindu kopsummas, kad importējat datus caur pārdošanas pasūtījuma rindām, *pārdošanas* piedāvājuma rindām vai atgriešanas *pasūtījuma* rindu elementu, *izmantojot* OData vai duālo rakstiet. Tas stājas spēkā tikai **tad**, kad jums ir arī tirdzniecības līgumu vērtēšanas politikas, kas ierobežo izmaiņas neto summas laukā pārdošanas pasūtījuma rindām, pārdošanas piedāvājuma rindām un/vai atgriešanas pasūtījuma rindām. Tas pievieno iestatījumu ar nosaukumu Aprēķināt **rindas neto summu** debitoru **parādu > iestatīšana > debitoru parādu parametru** lapai. Ja šis iestatījums ir iestatīts *uz* Jā, sistēma vienmēr nepieciešamības gadījumā pārrēķinās rindu summas (ignorējot jebkuru tirdzniecības līguma novērtējuma politiku rindas neto summai). *Ja iestatījums ir iestatīts uz Nē*, sistēma nekad automātiski aprēķinās rindas neto summu, pat ja ienākošās izmaiņas rindas cenā, daudzumā un/vai atlaidē nozīmē, ka rindas neto summa ir jāpārrēķina. Šī funkcija tiek aktivizēta pēc noklusējuma un sākotnēji iestata **rindas neto summas aprēķinam vērtību** *Jā*. Neviens *iestatījums* neatbilst sistēmas uzvedībai pirms versijas 10.0.23 un ir sniegts galvenokārt, lai atbalstītu mantojuma integrācijas scenārijus.<br><br>Papildinformāciju skatiet sadaļā Rindas [neto summu pārrēķins, importējot pārdošanas pasūtījumus, piedāvājumus un atgrieztos](../sales-marketing/calc-line-net-amounts-import.md). |

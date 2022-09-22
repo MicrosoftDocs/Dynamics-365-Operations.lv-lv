@@ -2,7 +2,7 @@
 title: Krājumu redzamības programma
 description: Šajā rakstā ir aprakstīts, kā izmantot krājumu redzamības programmu.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 09/15/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306179"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520869"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility programmas lietošana
 
 [!include [banner](../includes/banner.md)]
-
 
 Šajā rakstā ir aprakstīts, kā izmantot krājumu redzamības programmu.
 
@@ -30,7 +29,9 @@ Krājumu redzamība nodrošina modeļa vadītas programmas vizualizēšanu. Prog
 - Tā nodrošina lietotāja interfeisu (UI) rīcībā esošo konfigurāciju un vieglās rezervēšanas konfigurāciju.
 - Tas atbalsta reāllaika rīcībā esošo krājumu vaicājumus par dažādām dimensiju kombinācijām.
 - Tas sniedz UI rezervāciju pieprasījumu grāmatošanai.
-- Tā sniedz pielāgotu skatu uz rīcībā esošo krājumu precēm ar visām dimensijām.
+- Tajā sniegts rīcībā esošo krājumu skats precēm ar visām dimensijām.
+- Tajā sniegts rīcībā esošo krājumu saraksta skats precēm ar iepriekš definētām dimensijām.
+
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -54,7 +55,7 @@ Lapa **Darbības redzamība** sniedz reāllaika rīcībā esošo krājumu vaicā
 
 Cilnē **Rīcībā esošie vaicājumi** tiek rādīti reāllaika rīcībā esošo krājumu vaicājuma rezultāti.
 
-Atlasot cilni **Rīcībā esošie vaicājumi**, sistēma pieprasa savus akreditācijas datus, lai varētu iegūt uzrādītāja marķieri, kas ir nepieciešams, lai vaicātu par Krājumu redzamības pakalpojumu. Variet tikai ielīmēt uzrādītāja marķieri laukā **BearerToken** un aizvērt dialoglodziņu. Pēc tam varat iegrāmatot rīcībā esošo vaicājumu pieprasījumu.
+Atverot lapas **Operāciju** **redzamība** cilni Rīcībā esošo vaicājums, sistēma pieprasa savus akreditācijas datus, lai varētu iegūt uzrādītāja marķieri, kas ir nepieciešams, lai vaicātu par krājumu redzamības pakalpojumu. Variet tikai ielīmēt uzrādītāja marķieri laukā **BearerToken** un aizvērt dialoglodziņu. Pēc tam varat iegrāmatot rīcībā esošo vaicājumu pieprasījumu.
 
 Ja uzrādītāja marķieris nav derīgs vai arī tā derīgums ir beidzies, pievienojiet jaunu laukā **BearerToken**. Ievadiet pareizo **Klienta ID**, **Nomnieka ID**, **Klienta slepeno informāciju** un pēc tam atlasiet **Atsvaidzināt**. Sistēma automātiski saņems jaunu, derīgu uzrādītāja marķieri.
 
@@ -64,7 +65,7 @@ Lai grāmatotu rīcībā esošo vaicājumu, ievadiet pieprasījuma pamattekstā.
 
 ### <a name="reservation-posting"></a>Rezervāciju grāmatošana
 
-Izmantojiet cilni **Rezervācijas grāmatošana**, lai grāmatotu rezervēšanas pieprasījumu. Pirms rezervēšanas pieprasījuma grāmatošanas ir jāslēdz funkcija *OnHandReservation*. Papildinformāciju skatiet [Krājumu uztveramības pievienojumprogrammas rezervācijas](inventory-visibility-reservations.md).
+Lai grāmatotu **rezervēšanas** pieprasījumu, izmantojiet **lapas Rezervācija** grāmatošana cilni Darbības redzamība. Pirms rezervēšanas pieprasījuma grāmatošanas ir jāslēdz funkcija *OnHandReservation*. Plašāku informāciju par šo funkciju un to, kā to ieslēgt, skatiet krājumu [redzamības rezervēšanu](inventory-visibility-reservations.md).
 
 Lai grāmatotu rezervēšanas pieprasījumu, pieprasījuma pamattekstā ir jāievada vērtība. Izmantojiet modeli, kas ir aprakstīts sadaļā [Izveidot vienu rezervācijas notikumu](inventory-visibility-api.md#create-one-reservation-event). Pēc tam atlasiet **Grāmatot**. Lai skatītu pieprasījuma atbildes informāciju, atlasiet **Rādīt informāciju**. Atbildes informācijā varat arī iegūt `reservationId` vērtību.
 
@@ -72,31 +73,48 @@ Lai grāmatotu rezervēšanas pieprasījumu, pieprasījuma pamattekstā ir jāie
 
 Krājumu **kopsavilkuma lapa** sniedz krājuma kopsavilkumu precēm kopā ar visām dimensijām. Tas ir pielāgots skats elementam Rīcībā *esošo krājumu* summa. Krājumu kopsavilkuma dati tiek periodiski sinhronizēti no krājumu redzamības.
 
-### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Iespējot krājumu kopsavilkumu un iestatīt sinhronizācijas biežumu
-
 Lai iespējotu **lapu Krājumu kopsavilkums** un iestatītu sinhronizācijas biežumu, rīkojieties šādi:
 
 1. Atveriet lapu **Konfigurācija**.
 1. Atveriet cilni **Līdzekļu pārvaldība &** iestatījumi.
 1. Iestatiet pārslēgšanās pārslēgšanos līdzeklim **OnHandMostSpecificBackgroundService** uz *Jā*.
 1. Kad funkcija ir aktivizēta, **·** **pakalpojuma konfigurācijas sadaļa kļūst pieejama un ietver rindu līdzekļa OnHandMostSpecificBackgroundService konfigurēšanai.** Šis iestatījums ļauj izvēlēties biežumu, kādā tiek sinhronizēti krājumu kopsavilkuma dati. Izmantojiet pogas **Augšupvērstais** **un** Lejupvērstais **kolonnā** Vērtību, lai mainītu laiku starp sinhronizācijām (kas var būt tik zema, kā 5 minūtes). Pēc tam atlasiet **Saglabāt**.
+
+    ![Iestatījums OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "Iestatījums OnHandMostSpecificBackgroundService")
+
 1. Atlasiet **Atjaunināt konfigurāciju,** lai saglabātu visas izmaiņas.
 
-![Iestatījums OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Iestatījums OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
-> Funkcija *OnHandMostSpecificBackgroundService* izseko tikai rīcībā esošo preču izmaiņas, kas notikušas pēc funkcijas ieslēgtšanas. To preču dati, kuras nav mainītas kopš ieslēgts līdzeklis, netiks sinhronizēti no krājumu pakalpojuma kešatmiņas vidē Dataverse. **Ja** jūsu Krājumu kopsavilkuma lapā nav parādīta visa pieejamā informācija, ko plānojat, **pārejiet uz sadaļu Krājumu pārvaldība > Periodiskie uzdevumi >** Krājumu redzamības integrācija, atspējojiet pakešuzdevumu un ataktivizējiet to. Tas veiks sākotnējo virzību, un visi dati nākamo *15 minūšu laikā tiks sinhronizēti* ar elementu Krājumu rīcībā summa. Ja vēlaties izmantot šo funkciju, **ieteicams to ieslēgt pirms jebkādu rīcībā esošo izmaiņu veikšanas un iespējot pakešuzdevumu Krājumu** redzamība integrācija.
+> Funkcija *OnHandMostSpecificBackgroundService* izseko tikai rīcībā esošo krājumu izmaiņas, kas notikušas pēc ieslēgts līdzeklis. To preču dati, kuras nav mainītas kopš ieslēgts līdzeklis, netiks sinhronizēti no krājumu pakalpojuma kešatmiņas vidē Dataverse. **Ja** jūsu Krājumu kopsavilkuma lapā nav parādīta visa jūsu sagaidāmā rīcībā esošo informāciju, atveriet piegādes ķēdes pārvaldību, dodieties uz krājumu pārvaldība > Periodiskie uzdevumi > Krājumu **redzamības integrācija, atspējojiet pakešuzdevumu unaktivizējiet to**. Tas veiks sākotnējo virzību, un visi dati nākamo *15 minūšu laikā tiks sinhronizēti* ar elementu Krājumu rīcībā summa. Ja vēlaties izmantot *funkciju OnHandMostSpecificBackgroundService*, **ieteicams** to ieslēgt pirms rīcībā esošo izmaiņu izveides un iespējot krājumu redzamības integrācijas pakešuzdevumu.
 
-### <a name="work-with-the-inventory-summary"></a>Strādāt ar krājumu kopsavilkumu
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a> Ielādēt racionalizētu rīcībā esošo vaicājumu
 
-Lietojiet Dataverse sniegto **Detalizēto filtru**, varat izveidot personalizētu skatu, kurā rādītas jums svarīgākās rindas. Papildu filtra opcijas ļauj izveidot plašu skatījumu klāstu no vienkāršiem uz kompleksiem. Tie arī ļauj pievienot filtriem grupētus un ligzdotus nosacījumus. Lai uzzinātu vairāk par **Papildu filtra** lietošanu, skatiet rakstu [Rediģēt vai izveidot personalizētus skatus, izmantojot detalizētā režģa filtrus](/powerapps/user/grid-filters-advanced).
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
-Pielāgotā skata augšpusē redzami trīs lauki: **Noklusējuma dimensija**, **Pielāgotā dimensija** un **Mērījums**. Šos laukus varat izmantot, lai kontrolētu, kuras kolonnas ir redzamas.
+Piegādes ķēdes pārvaldība saglabā lielu informācijas daudzumu par jūsu pašreizējiem rīcībā esošajiem krājumiem un padara to pieejamu dažādiem nolūkiem. Tomēr daudzām ikdienas operācijām un trešās puses integrācijai nepieciešama tikai neliela šo detaļu apakškopa, un vaicājumi par visām no tām var radīt lielas datu kopas, kas prasa laiku, lai izveidotu un pārsūtītu. Tāpēc krājumu redzamības pakalpojums var periodiski saņemt un uzglabāt racionalizētu rīcībā esošo krājumu datu kopu, lai pastāvīgi būtu pieejama optimizēta informācija. Informācija par rīcībā ajiem krājumiem tiek filtrēta, balstoties uz konfigurējamiem biznesa kritērijiem, lai nodrošinātu, ka tiek iekļauta tikai atbilstošākā informācija. Tā kā filtrētie rīcībā esošo krājumu saraksti krājumu redzamības pakalpojumā tiek saglabāti lokāli, un tie tiek regulāri atjaunināti, tie atbalsta ātro piekļuvi, pieprasījuma datu eksportēšanu un racionalizētu integrāciju ar ārējām sistēmām.
 
-Var atlasīt kolonnas virsrakstu, lai filtrētu vai kārtotu pašreizējo rezultātu.
+> [!NOTE]
+> Šī līdzekļa pašreizējā priekšskatījuma versija var nodrošināt tikai iepriekš ielādētus rezultātus, kas ietver vietu un atrašanās vietu. Paredzams, ka līdzekļa beigu versija ļaus jums atlasīt citas dimensijas iepriekšēja ielādei ar rezultātiem.
 
-Pielāgotā skata apakšā ir redzama informācija, piemēram, "50 ieraksti (atlasīti 29)" vai "50 ieraksti." Šī informācija attiecas uz ierakstiem, kas pašlaik ielādēti no **Detalizētā filtra** rezultāta. Teksts "atlasīts 29" attiecas uz ierakstu skaitu, kas ir atlasīti, ielādētajiem ierakstiem izmantojot kolonnas virsraksta filtru.
+Krājumu **redzamības kopsavilkuma lapas iepriekšēja ielāde** sniedz skatu rīcībā *esošo indeksu vaicājuma pirmsielādes rezultātu elementam*. Atšķirībā no krājumu *kopsavilkuma elementa*, *rīcībā esošo krājumu indeksa vaicājuma pirmsielādes* rezultātu elements nodrošina rīcībā esošo krājumu sarakstu precēm ar atlasītajām dimensijām. Krājumu redzamība sinhronizē iepriekš ielādētos kopsavilkuma datus ik pēc 15 minūtēm.
 
-Skatījuma apakšdaļā ir poga **Ielādēt vairāk**, ko varat izmantot, lai ielādētu vairāk Dataverse ierakstu. Noklusējuma ielādēto ierakstu skaits ir 50. Ja atlasāt **Ielādēt vairāk**, nākamajā skatā tiek ielādēti nākamie 1000 pieejamie ieraksti. Skaits pogā **Ielādēt vēl** norāda pašlaik ielādētos ierakstus un kopējo ierakstu skaitu **Detalizētā filtra** rezultātā.
+Lai skatītu **datus cilnē Krājumu redzamības kopsavilkums pirmsielādē,** ir jāslēdz funkcija *OnHandIndexQueryPreloadBackgroundService* **·** **·** **cilnes Līdzekļu pārvaldība lapā Konfigurācija un pēc tam jāatlasa Atjaunināt konfigurāciju (** skatiet arī krājumu redzamības konfigurāciju).[...](inventory-visibility-configuration.md)
 
-![Krājumu kopsavilkums](media/inventory-visibility-onhand-list.png "Krājumu kopsavilkums")
+> [!NOTE]
+> Tāpat kā ar *līdzekli OnhandMostSpecificBackgrkrautService*, funkcija OnHandIndexQueryPreloadBackgroundService *izseko tikai rīcībā esošo krājumu izmaiņas,* kas notikušas pēc funkcijas ieslēgtšanas. To preču dati, kuras nav mainītas kopš ieslēgts līdzeklis, netiks sinhronizēti no krājumu pakalpojuma kešatmiņas vidē Dataverse. **Ja** jūsu Krājumu kopsavilkuma lapā nav parādīta visa pieejamā informācija, ko plānojat, **pārejiet uz sadaļu Krājumu pārvaldība > Periodiskie uzdevumi >** Krājumu redzamības integrācija, atspējojiet pakešuzdevumu un ataktivizējiet to. Tādējādi tiks veikts sākotnējais pašpiegādes darbs, *un* visi dati nākamo 15 minūšu laikā tiks sinhronizēti ar rīcībā esošo datu indeksa vaicājuma pirmsielādes rezultātu elementu. Ja vēlaties izmantot šo funkciju, **ieteicams to ieslēgt pirms jebkādu rīcībā esošo izmaiņu veikšanas un iespējot pakešuzdevumu Krājumu** redzamība integrācija.
+
+## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a> Filtrēt un pārlūkot krājumu kopsavilkumus
+
+Lietojiet Dataverse sniegto **Detalizēto filtru**, varat izveidot personalizētu skatu, kurā rādītas jums svarīgākās rindas. Papildu filtra opcijas ļauj izveidot plašu skatījumu klāstu no vienkāršiem uz kompleksiem. Tie arī ļauj pievienot filtriem grupētus un ligzdotus nosacījumus. Papildinformāciju par to, kā izmantot papildu filtru, skatiet sadaļā Rediģēt [vai izveidot personālos skatus, izmantojot papildu režģa filtrus](/powerapps/user/grid-filters-advanced).
+
+Krājumu **kopsavilkuma lapa sniedz** trīs laukus virs režģa (**Noklusējuma** dimensija, **Pielāgota** dimensija un Mērs), ko varat izmantot, lai kontrolētu, **kuras** kolonnas ir redzamas. Var atlasīt arī jebkuru kolonnas virsrakstu, lai filtrētu vai kārtotu pašreizējo rezultātu pēc šīs kolonnas. Šajā ekrānuzņēmumā ir redzama krājumu kopsavilkuma lapā pieejamo dimensiju, filtrēšanas, **rezultātu** skaita un noslodzes papildu lauki.
+
+![Krājumu kopsavilkuma lapa.](media/inventory-visibility-onhand-list.png "Krājumu kopsavilkuma lapa")
+
+Tā kā būsiet iepriekš definētas dimensijas, kas tiks izmantotas kopsavilkuma datu ielādei, **pirmsielādē krājumu redzamības kopsavilkuma lapā** tiek parādītas ar dimensijām saistītās kolonnas. *Dimensijas nav pielāgojamas, jo&mdash; sistēma atbalsta tikai vietas un atrašanās vietas dimensijas iepriekš ielādētajiem rīcībā ajiem sarakstiem.* Lapā **Krājumu redzamības kopsavilkuma pirmsielāde ir** nodrošināti **filtri**, kas ir līdzīgi lapā Krājumu kopsavilkums atlasītajiem filtriem, izņemot jau atlasītās dimensijas. Šajā ekrānuzņēmumā ir izcelti filtrēšanas lauki, kas ir pieejami **lapā Krājumu redzamības kopsavilkuma lapa pirmsielādē**.
+
+![Tiek iepriekšēja ielādēta kopsavilkuma lapa Krājumu redzamība.](media/inventory-visibility-preload-onhand-list.png "Tiek iepriekšēja ielādēta kopsavilkuma lapa Krājumu redzamība")
+
+Pirmsielādējiet **·** **krājumu** redzamības kopsavilkumu un krājumu kopsavilkuma lapas, varat atrast tādu informāciju kā "50 ieraksti (izvēlēti 29)" vai "50 ieraksti". Šī informācija attiecas uz ierakstiem, kas pašlaik ielādēti no **Detalizētā filtra** rezultāta. Teksts "atlasīts 29" attiecas uz ierakstu skaitu, kas ir atlasīti, ielādētajiem ierakstiem izmantojot kolonnas virsraksta filtru. Ir arī poga Ielādēt **vairāk,** ko varat izmantot, lai ielādētu vairāk ierakstu Dataverse. Ielādēto ierakstu noklusējuma skaits ir 50. Ja atlasīsiet **Ielādēt** vairāk, skatā tiks ielādēti nākamie 1000 pieejamie ieraksti. Skaits pogā **Ielādēt vēl** norāda pašlaik ielādētos ierakstus un kopējo ierakstu skaitu **Detalizētā filtra** rezultātā.

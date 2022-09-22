@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9404441"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542325"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Plānošanas optimizācijas izlaišanas process un izlaišanas vēsture
 
@@ -30,6 +30,8 @@ Kamēr tiek atjaunināta plānošanas optimizācija, vispārējā plānošana va
 Vides, kas izmanto plānošanas optimizāciju, automātiski saņem jaunāko laidienu. Nav nepieciešama lietotāja darbība: pakalpojums tiek atjaunināts automātiski. Tomēr neviena pārrāvuma maiņas funkcionalitāte nekad netiek automātiski virzīta uz vidēm. Pēc noklusējuma visas izmaiņas, kas tiek uzskatītas par pārrāvumu, ir izslēgtas, un tās ir skaidri jāieslēdz, izmantojot [līdzekļu pārvaldību](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Tāpēc šīs izmaiņas neparādīsies vidēs, līdz tās netiks iespējotas.
 
 Tā kā paziņojumi netiek rādīti, kad jūsu vidē tiek atjaunināta plānošanas optimizācija, varat pārskatīt piezīmes par izlaišanu nākamajā tabulā, lai noteiktu, kad izmaiņas tika izlaistas un kādas funkcijas tās ieviesa. Šajā tabulā ir norādītas izmaiņas, kas tika izlaistas optimizācijas plānošanai, neatkarīgi no tā, vai šīs izmaiņas ir saistītas ar līdzekli no līdzekļu pārvaldības un izpildes datumu.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Izmaiņas | Līdzekļu pārvaldības informācija | Izlaišanas datumi |
 |---|---|---|
