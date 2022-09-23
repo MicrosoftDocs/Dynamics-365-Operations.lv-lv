@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Problēmu novēršana un BUJ
           href: supply-chain-management-troubleshooting.md
-        - name: Globalizācija
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio pārskats
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Globalizācijas resursi
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Globalizācijas pakalpojumi
@@ -1637,6 +1639,8 @@
                   href: inventory/inventory-locations.md
                 - name: Krājumu statusi
                   href: inventory/inventory-statuses.md
+                - name: 'Partijas atgriešanas metodes kodu lietošana, lai atzīmētu partiju pieejamību vai nepieejamību'
+                  href: inventory/batch-disposition-codes.md
                 - name: Jauna noliktavas izkārtojuma izveide
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Svītrkodu tipu uzturēšana

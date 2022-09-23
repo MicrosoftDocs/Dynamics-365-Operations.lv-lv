@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (augusts)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (jūlijs)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: "Kanādas saskaņotā\_PVN aprēķināšana"
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Globalizācija
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio pārskats
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Globalizācijas resursi
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Globalizācijas pakalpojumi
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: PVN aprēķināšana un koriģēšana kreditora rēķinā
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: "PVN\_atšķirību atrisināšana"
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: 'PVN koriģēšana, izmantojot vispārējos žurnālus'
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Novēlotu nodokļu aprēķināšanas iespējošana žurnālā
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Tiešsaistes rēķinu izrakstīšanas sistēma
                   href: localizations/emea-hun-online-invoicing.md
+                - name: PVN deklarācija (Ungārija)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: PVN pārskati Ungārijai
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Ungāru Intrastat

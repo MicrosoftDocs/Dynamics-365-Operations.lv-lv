@@ -18,10 +18,8 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Platformas atjauninājumi versijai\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: "Platformas atjauninājumi versijai 10.0.28 (2022.\_gada augusts)"
+                - name: "Platformas atjauninājumi versijai\_10.0.28 (2022.\_gada augusts)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "Platformas atjauninājumi versijai 10.0.27 (2022.\_gada jūlijs)"
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Vienotas izstrādes vides konfigurēšana
                   href: dev-tools/configure-developer-vm.md
+                - name: Vienotas izstrādes vides nodrošināšana
+                  href: dev-tools/secure-developer-vm.md
                 - name: 'Bieži uzdotie jautājumi par tādu virtuālo mašīnu izstrādi un būvēšanu, kas neļauj administratora piekļuvi'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Iestatīt lejupielādējamu VHD pirmajai lietošanai
