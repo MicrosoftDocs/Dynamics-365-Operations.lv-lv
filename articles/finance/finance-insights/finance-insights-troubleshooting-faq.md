@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846920"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573177"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights iestatījumu problēmu novēršana
 
@@ -88,10 +88,14 @@ Ja jums ir piešķirta pareizā projekta drošības loma, iespējams, būs jāat
 - Pārbaudiet, vai Dynamics 365 finanšu vai ekvivalenta licence ir lietota lietotājam, kurš instalē šo pievienojumprogrammu.
 - Pārbaudiet, vai šī Azure AD programma ir reģistrēta Azure AD: 
 
-  | Pieteikums                  | Programmas ID           |
-  | ---------------------------- | ---------------- |
-  | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | Pieteikums                  | Programmas ID           |
+    | ---------------------------- | ---------------- |
+    | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    Lai pārbaudītu, vai pieteikums ir reģistrēts Azure AD, pārbaudiet visu **pieteikumu** sarakstu. Papildinformāciju skatiet sadaļā Uzņēmuma [lietojumprogrammu skatīšana](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Ja programma nav reģistrēta, sazinieties ar Azure AD atbalsta dienestu.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Simptoms: kļūda: "Mēs neatradām datus atlasītajam filtra diapazonam. Lūdzu, atlasiet citu filtru diapazonu un mēģiniet vēlreiz." 
 
 ### <a name="resolution"></a>Novēršana

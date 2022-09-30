@@ -2,7 +2,7 @@
 title: Finanšu ieskatu konfigurācija
 description: Šajā rakstā skaidroti konfigurācijas soļi, kas iespējos jūsu sistēmu izmantot iespējas, kas ir pieejamas Finanšu ieskatos.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861421"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573199"
 ---
 # <a name="configuration-for-finance-insights"></a>Finanšu ieskatu konfigurācija
 
@@ -39,7 +39,7 @@ Lai izvietotu vides, veiciet tālāk norādītās darbības.
 1. LCS izveidojiet vai atjauniniet Dynamics 365 finanšu vidi. Videi nepieciešama programmas versija 10.0.21 vai jaunāka.
 
     > [!NOTE]
-    > Videi jābūt augsta pieejamības (MAKS) videi. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > Videi jābūt augsta pieejamības (MAKS) videi. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 2. Ja finanšu ieskatu konfigurēšana tiek konfigurēta kastu vidē, iespējams, ražošanas dati jākopē šajā vidē pirms prognozēšanas darbosies. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas dati neietver pietiekamus vēsturiskos datus, lai nodrošinātu to, ka prognozēšanas modelis tiek sagatavots. 
 
@@ -51,13 +51,16 @@ Pārbaudiet, vai ir pabeigta šāda iestatīšana:
 
 - Biznesa portāla **administratora centrā** jums **ir piekļuve Sistēmas** administratoram un Sistēmas pielāgotājam.
 - Dynamics 365 finanses vai ekvivalenta licence tiek lietota lietotājam, kurš instalē finanšu ieskatu pievienojumprogrammu.
+- Tālāk norādītās Azure AD programmas ir reģistrētas Azure AD.
 
-Tālāk norādītās Azure AD programmas ir reģistrētas Azure AD.
+    |  Pieteikums                             | Programmas ID                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  Pieteikums                             | Programmas ID                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP apakšpakalpojumi CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    Lai pārbaudītu, vai pieteikums ir reģistrēts Azure AD, pārbaudiet visu **pieteikumu** sarakstu. Papildinformāciju skatiet sadaļā Uzņēmuma [lietojumprogrammu skatīšana](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Ja programma nav reģistrēta, sazinieties ar Azure AD atbalsta dienestu.
+  
 ## <a name="configure-dataverse"></a>Dataverse konfigurēšana
 
 Sekojiet tālāk norādītajām darbībām, lai konfigurētu Dataverse programmai Finance Insights.

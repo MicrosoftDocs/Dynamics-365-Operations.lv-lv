@@ -1,5 +1,5 @@
 ---
-title: Atļaut virsgrāmatas dokumentu iekšējo datu rediģēšanu
+title: Virsgrāmatas dokumentu iekšējo datu rediģēšanas atļaušana
 description: Šajā rakstā ir sniegta informācija, kā rediģēt Virsgrāmatas dokumentu iekšējos datus.
 author: kweekley
 ms.date: 08/01/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220719"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573256"
 ---
-# <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Atļaut virsgrāmatas dokumentu iekšējo datu rediģēšanu
+# <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Virsgrāmatas dokumentu iekšējo datu rediģēšanas atļaušana
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Grāmatojot grāmatvedības ierakstus Virsgrāmatā, lauks **Apraksts** bieži tiek izmantots, lai glabātu iekšējās piezīmes vai dokumentāciju. Ja informācija nav pareiza, tā var radīt sajukumus un apgrūtināt perioda beigu slēgšanu. Šis līdzeklis ļauj grāmatvedības pārvaldniekam vai uzskaites supervizoram **labot** kļūdas, rediģējot virsgrāmatas grāmatoto dokumentu lauku Apraksts.
@@ -84,7 +83,7 @@ Auditācijas pieraksti tiek uzturēti īpaši, lai izsekotu izmaiņas, kas veikt
    
     Šādā veidā atverot vaicājumu, varat fokusties uz visiem labojumiem, kas tika veikti vienam dokumenta ierakstam.
   
-  - Dodieties uz** Virsgrāmatu** > **dokumentu** > **rediģēšanas periodisko uzdevumu audita pārbaudes.** Dialoglodziņā ievadiet kritērijus, lai norādītu dokumentus, kuriem vēlaties apskatīt rediģēšanas pierakstus. Lai apskatītu visu dokumentu audita pārbaudes, atstājiet kritērijus tukšus un atlasiet **Labi**. 
+  - Dodieties uz **Virsgrāmatu** > **dokumentu** > **rediģēšanas periodisko uzdevumu audita pārbaudes.** Dialoglodziņā ievadiet kritērijus, lai norādītu dokumentus, kuriem vēlaties apskatīt rediģēšanas pierakstus. Lai apskatītu visu dokumentu audita pārbaudes, atstājiet kritērijus tukšus un atlasiet **Labi**. 
     
     Atverot šādu vaicājumu, varat filtrēt rediģējumus, kas veikti konkrētā datumā vai noteiktam lietotājam.
 

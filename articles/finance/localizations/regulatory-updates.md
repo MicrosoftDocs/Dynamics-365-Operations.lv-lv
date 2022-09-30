@@ -2,7 +2,7 @@
 title: Regulēšanas atjauninājumi
 description: Šajā rakstā sniegts plānoto un izdoto uzraudzības atjauninājumu saraksts Microsoft Dynamics 365 Finansēm.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206201"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596240"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -39,19 +39,14 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 
 |Valsts/reģions|Izpildes datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------| 
-|      Brazīlija         |   2022. marts    | 10.0.27        |    ICMS-DIFAL kolekcija operācijās, kuras paredzēts veikt nodokļu maksātājiem, kas nav nodokļu maksātāji (komplementošais likums Nr. 190/22)  |
-|      Brazīlija         |   2022. marts         | 10.0.27         |    NF-e NT2021.004 v1.00 - Izkārtojuma un apstiprināšanas noteikumu atjauninājumi  |
-|      Brazīlija         |   2022. marts         | 10.0.27         |    NF-e NT2021.004 v1.00 - Izkārtojuma un apstiprināšanas noteikumu atjauninājumi - Retail  |
-|      Brazīlija         |   2022. aprīlis         | 10.0.27HF, 10.0.28         |    SPED ECF — 8. IZKĀRTOJUMS  |
-|      Austrumeiropa         |   2022. gada jūlijs         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Virsgrāmatas izraksts pēc galvenā konta  |
-|      Lietuva|   2022. februāris | 10.0.27 | i.ATTIECĪBĀ UZ IZMAIŅĀM 2022-01-01, kas veiktas Dynamics 365 finansēs  |
-|      Meksika         |   2022. marts      | 10.0.27      |   CFDI formātu versija 4.0 (rēķini un maksājumi)  |
-|      Meksika         |   2022. februāris      | 10.0.27      |   No 2022. gada 1. janvāra IR spēkā CFDI versija 4.0 ar līdzāspastāvēšanas periodu starp versiju 3.3 un versiju 4.0, kas sākas no 2022. gada 1. janvāra līdz 30. jūnijam.  |
-|      Meksika         |   2022. marts      | 10.0.27      |   CFDI formātu versija 4.0 (ieturēts)  |
-|      Polija          |   2022. aprīlis     | 10.0.27HF, 10.0.28     |   JPK_FA 4. versija, sākot ar 2022. gada 1. aprīli, 2022JPK_V7M — jaunā shēmas versija |
-|      Krievija          |   2022. jūnijs     | 10.0.27    |  Pārskats par operācijām ar izsekojamām precēm (norakstīšanas jomā– nopirktās izsekošanas preces, piemēram, monitori, transportlīdzekļi un biroja mēbeles pašu lietošanai)|
-|      Singapūra      |   2022. gada jūlijs| 10.0.27HF, 10.0.28HF, 10.0.29 | IRAS audita fails (IAF) TXT formātā|
-|      Spānija      |   2022. marts| 10.0.27 | PVN deklarācijas 303. modelis mainās uz 2022. gada 1. janvāri programmā Dynamics 365 Finanses|
+|      Brazīlija         |   2022. aprīlis         | 10.0.28         |    SPED ECF — 8. IZKĀRTOJUMS  |
+|      Brazīlija         |   2022. jūnijs         | 10.0.30HF         |    EFD ICMS IPI - versija 3.0.9  |
+|      Brazīlija         |   2022. gada augusts         | 10.0.30         |    NF-e NT2021.004 v1.31 — Izkārtojuma un apstiprināšanas noteikumu atjauninājumi  |
+|      Austrumeiropa         |   2022. gada jūlijs         | 10.0.28HF, 10.0.29         |    Virsgrāmatas izraksts pēc galvenā konta  |
+|      Ungārija         |   2022. gada jūlijs         | 10.0.30         |    PVN deklarācija XML (20 65A) un priekšskatījums programmā Excel. Pirkšanas rēķinu pielikums XML formātā (2065M)  |
+|      Polija          |   2022. aprīlis     | 10.0.28     |   JPK_FA 4. versija, sākot ar 2022. gada 1. aprīli |
+|      Krievija          |   2022. jūnijs     | 10.0.29    |  Importēt adreses datus no Valsts adrešu reģistra (GAR)|
+|      Singapūra      |   2022. gada jūlijs| 10.0.28HF, 10.0.29 | IRAS audita fails (IAF) TXT formātā|
 
 
 ## <a name="additional-resources"></a>Papildu resursi

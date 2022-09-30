@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387024"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589094"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
 
@@ -43,13 +43,13 @@ Tabulā ir parādīti norobežotāji, kurus var izmantot komandrindas izpildē.
 | –CloudPosAppInsppasInstrumentationKey | Mākoņa POS AppInsights instrumentācijas atslēga. |
 | -Config | Konfigurācijas fails, kas jāizmanto instalēšanas laikā. Faila nosaukuma piemērs ir **Contoso.CommerceScaleUnit.xml**. |
 | –CposAadClientId | Klienta Azure AD ID, kas Cloud POS ir jāizmanto ierīces aktivizēšanas laikā. Šis parametrs nav nepieciešams lokāliem izvietojumiem. |
-| -Ierīce | Ierīces ID, kā norādīts galvenās pārvaldes **lapā** Ierīces. |
+| -Ierīci | Ierīces ID, kā norādīts galvenās pārvaldes **lapā** Ierīces. |
 | —EnvironmentId; | Vides ID. |
 | -HardwareStationAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
 | Instalēt | Parametrs, kas norāda, vai ir jābūt instalētam komponentam, ko nodrošina šī instalētājs. Šis parametrs ir nepieciešams, lai veiktu instalēšanu, un tam nav sākuma domuzīmes. |
-| -InstallOffline | Modern POS šis parametrs norāda, ka ir jāinstalē un jākonfigurē arī bezsaistes datu bāze. Izmantojiet arī **parametru -SQLServerName**. Pretējā gadījumā instalētājs mēģinās atrast noklusējuma instanci, kas atbilst priekšnosacījumi. |
-| -Ports | Ports, kas ir jāsaista ar Retail Server virtuālo direktoriju un jāizmanto tajā. Ja nav iestatīts neviens ports, tiks izmantots noklusējuma ports 443. |
-| –reģistrs | Kases sistēmas ID, kā norādīts galvenās **pārvaldes kases** sistēmas lapā. |
+| -InstallOffline | Modern POS šis parametrs norāda, ka ir jāinstalē un jākonfigurē arī bezsaistes datu bāze. Izmantojiet arī **parametru -SQLServerName**. Pretējā gadījumā instalētājs mēģinās atrast noklusējuma instanci, kas atbilst priekšnosacījumi. Ja izmantojat Azure Active Directory (Azure AD) autentifikāciju, POS bezsaiste nedarbojas, jo tiešsaistes savienojums ir nepieciešams vienmēr. |
+| -Portu | Ports, kas ir jāsaista ar Retail Server virtuālo direktoriju un jāizmanto tajā. Ja nav iestatīts neviens ports, tiks izmantots noklusējuma ports 443. |
+| -Reģistrēties | Kases sistēmas ID, kā norādīts galvenās **pārvaldes kases** sistēmas lapā. |
 | -RetailServerAadClientId | Klienta Azure AD ID, kas Retail Server jāizmanto, veicot sakarus ar programmu Headquarters. |
 | -RetailServerAadResourceId | Retail servera programmas Azure AD resursa ID, kas ir jāizmanto ierīces aktivizēšanas laikā. Šis parametrs nav nepieciešams lokāliem izvietojumiem. |
 | -RetailServerCertFullPath | Pilnībā formatēts UZV ceļš, kas izmanto īssavilkumu kā Retail Server Azure AD identitātes sertifikāta meklēšanas metriku, kas jāizmanto, lai autentificētu sakarus programmā Headquarters. Piemēram, tas `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` ir pareizi formatēts, PARAA! vērtība **\<MyThumbprint\>** tiks nomainīta ar sertifikāta īssavilkumu, kas jāizmanto. Neizmantojiet šo parametru kopā ar parametru **-RetailServerCertThumbprint**. |
@@ -72,7 +72,7 @@ Tabulā ir parādīti norobežotāji, kurus var izmantot komandrindas izpildē.
 | -TransactionServiceAzureAuthority | Transaction Service Azure AD iestāde. |
 | -TransactionServiceAzureResource | Transaction Service Azure AD resurss. |
 | -TrustSqlServerCertificate —TrustSqlServerCertificate; | Pārslēgšanās, kas norāda, vai servera sertifikātam jābūt uzticamam, veidojot savienojumu ar SQL Server. Lai palīdzētu novērst drošības riskus, ražošanas izvietošanai šeit nekad nav jāsniedz **vērtība ar patiesu** vērtību. Noklusējuma vērtība ir **false**. |
-| – izvērstā nodarbība; | Reģistrēšanas līmenis, kas tiek pieprasīts instalēšanas laikā. Parasti šī vērtība nav jāizmanto. |
+| -Runīgums | Reģistrēšanas līmenis, kas tiek pieprasīts instalēšanas laikā. Parasti šī vērtība nav jāizmanto. |
 | –WindowsPhoneAppInsppasInstrumentationKey | Aparatūras stacijas AppInsights instrumentācijas atslēga. |
 
 ## <a name="general-overview"></a>Vispārējs apskats

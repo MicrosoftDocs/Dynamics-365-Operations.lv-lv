@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542357"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591855"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -94,7 +94,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Ražošana | Formulu versijas ar ienesīgumu: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik ienesīgums, kas ir saistīts ar formulas versiju, tiek ignorēts, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens |
 | Ražošana | Plāni ar secību: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik secība tiek ignorēta, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 20 222 laidiena 2. laidiens |
 | Ražošana | Izpildei nodotie ražošanas pasūtījumi, kas nav iesākti, ja sākšana ir ieplānota agrāk nekā šodien: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik, ja ražošanas pasūtījums tiek aizkavēts, vispārējā plānošana pieņem, ka tas tiks pabeigts šodien. Tas attiecas uz izpildei nodotajiem ražošanas pasūtījumiem, kuru piegādes datums ir pagātnē, bet tas vēl nav pabeigts. | Turpmāks kopums |
-| Ražošana | Resursi, kas plānoti ar ierobežotu noslodzi: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik resursi, kas tiek plānoti ar ierobežotu noslodzi, tiek ignorēti, ja ir iespējota plānošanas optimizācija. Plānošana tiek veikta, pamatojoties uz noklusējuma izpildes laiku no preces. | 20 222 laidiena 2. laidiens |
+| Ražošana | Resursi, kas plānoti ar ierobežotu noslodzi: *\#* | Šis līdzeklis tagad tiek atbalstīts.| Tiek atbalstīts |
 | Ražošana | Plānošanā izmantotie maršruti: *\#* | Šī funkcija tiek atbalstīta. | Tiek atbalstīts |
 | Ražošana | Tirdzniecības līnijas rezervēšana, izmantojot izvēršanu: *\#* | Pārdošanas rindas rezervācija, kas izmanto izvēršanu, netiek atbalstīta, ja ir iespējota plānošanas optimizācija. | Turpmāks kopums |
 | Ražošana | Plānošana ar ražošanas pasūtījumu izvēršanu: *\#* | Plānošana ar ražošanas pasūtījumu izvēršanu netiek atbalstīta, ja ir iespējota plānošanas optimizācija. Ražošanas pasūtījumus var plānot atsevišķi. | Turpmāks kopums |

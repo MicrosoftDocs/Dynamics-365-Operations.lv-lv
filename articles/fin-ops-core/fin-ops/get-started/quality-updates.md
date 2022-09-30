@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473610"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592051"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -57,7 +57,7 @@ Notiek procesa izmaiņu kopa, kas apsteidz proaktīvās kvalitātes atjaunināju
 - **Shēma** – rīku rīks nodrošina, ka kvalitātes atjauninājumu būvējuma laikā tiek iekļautas tikai shēmu izmaiņas, kuras var tikt lietotas pakalpojuma tiešsaistes režīmā. Šī pieeja palīdzēs saglabāt iespēju pielietot atjauninājumu ar nulles dīkstāves laiku.
 - **Palielināto izmaiņu** veikšana — pašlaik ir jau papildu procesa solis, lai apstiprinātu izmaiņas iekļaušanai kvalitātes atjauninājumā. Papildu darbība tiks palielināta, lai palīdzētu samazināt regresiju potenciālu. Kvalitātes atjauninājumos nav atļautas sadalīšanas izmaiņas, un palielinātais izmaiņu apraksts palīdzēs nodrošināt, ka mēs nodrošināt atbilstību šim mērķim.
 - **Redzamība** – mēs nosūtīsim paziņojumus pa e-pastu un Lifecycle Services (LCS) gaidāmajiem apsteidzošo kvalitātes atjauninājumiem. Turklāt atbalsta darba grupas un incidentu potenciālie klienti būs redzamība tur, kur kvalitātes atjauninājumi ir proaktīvi izvietoti.
-- **Versijas regresa –** lidojuma laikā tiks izmantots, lai grupētu visas izmaiņas proaktīvā kvalitātes atjauninājumā. Ja pēc proaktīvās izvietošanas ir nepieciešama atkāpšanās, to var veikt, izmantojot lidojuma sistēmu.
+- **Kļūme lidojuma laikā** — lidojuma laikā tiks izmantota lidojuma informācija, kas tiek izmantota, lai veiktu koda izmaiņas, kad tas ir piemērojams kvalitātes atjauninājuma kļūdas labojumā vai izmantot esošās līdzekļa lidojuma izmaiņas, kas attiecas uz labojumu. Ja atkāpšanās vai izmaiņu izslēgšana ir nepieciešama pēc proaktīvās izvietošanas, to var veikt, izmantojot lidojuma sistēmu, lai izvairītos no turpmākām kļūmēm.
 - **Slīpstlodziņa** sinhronizācijas apzīmējums — šodien mazāk nekā 20 procenti debitoru ir vairākas kastēs un viena glabāta vieta, kur versija sakrīt ar ražošanu, lai saņemtu palīdzību par problēmu novēršanas. Ja debitors izmanto kasti, lai pārbaudītu jaunāku versiju nekā tā ražošana, šī slīpmaksa saņems jaunākās versijas kvalitātes atjauninājumus.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Kāds ir kvalitātes atjauninājumu atrites mērķis?
@@ -69,7 +69,7 @@ Nākamajā sešu mēnešu periodā mēs pakāpeniski palielināsim kešlodziņa 
 Ņemot vērā, ka debitori regulāri saņems mazāku lietderīgo slodzi, paredzams, ka norēķinu process kļūs vienkāršāks. Tiks pielāgots atjaunināšanas biežums, kad mēs rādīsim spēju palaist procesu bez pārrāvuma. Šis process jau strādā efektīvi mūsu platformā un Dataverse lietojumprogrammās un nodrošina gaidītos pakalpojumu kvalitātes uzlabojumus. Mēs iesakām to pašu soli uz priekšu lietojumprogrammām, kas saistītas ar finansēm un operācijām.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Kad kvalitātes atjauninājumi tiks sākti ražošanas vidēs?
-Pašlaik kvalitātes atjauninājumi ir tikai mērķa kastēs. Ražošanas vides atjauninājumi sāksies pēc 2022. gada novembrī.
+Pašlaik kvalitātes atjauninājumi ir tikai mērķa kastēs. Mēs atjauninām šo vietu ar ražošanas vides sākuma datumu, kad būsim precīzāki dati un rādītāji no proaktīvās lauku atjauninājumiem līdz ražošanas gatavībai.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Kāds ir kases kvalitātes atjauninājumu grafiks?
 Informāciju par tumšajām stundām katram reģionam skatiet šeit: [Kas ir proaktīvās kvalitātes atjauninājumu grafiks](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?.
