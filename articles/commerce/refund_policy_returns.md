@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286842"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627501"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 
@@ -36,12 +36,8 @@ Politikas darbības sfēra pašlaik ir ierobežota, nosakot maksājuma norēķin
 
 ## <a name="enable-return-policy"></a>Atgriešanas politikas iespējošana
 
-Lai iespējotu kanāla atgriešanas politikas funkcionalitāti programmā Commerce Headquarters, veiciet tālāk minētās darbības.
+Šī funkcija pēc noklusējuma ir ieslēgta. To var atrast līdzekļu pārvaldības **darbvietā**, meklējot iespējot **kanāla atgriešanas politikas** līdzekļu nosaukumu sarakstā.
 
-1. Ejiet uz **Līdzekļu pārvaldības** darbtelpu pakalpojumā Dynamics 365 Commerce.
-1. Funkciju nosaukumu sarakstā meklējiet funkciju **iespējot kanāla atgriešanas politikas**.
-1. Atlasiet **Iespējot tagad**.
-1. Lapā **Sadales grafiks** palaidiet darbu **1110** (Globālā konfigurācija), lai sadalītu līdzekļa izmaiņas.
 
 ## <a name="configure-return-policy"></a>Atgriešanas politikas konfigurēšana
 

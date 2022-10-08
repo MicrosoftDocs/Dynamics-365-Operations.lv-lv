@@ -2,19 +2,19 @@
 title: Finanšu integrācijas apskats Commerce kanāliem
 description: Šajā rakstā sniegts pārskats par finanšu integrācijas iespējām, kas ir pieejamas Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286504"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631245"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Finanšu integrācijas apskats Commerce kanāliem
 
@@ -95,16 +95,20 @@ Tālākajos piemēros ir parādītas fiskālo reģistrāciju izpildes plūsmas t
 
 Finanšu integrācijas struktūra nodrošina tālāk norādītās opcijas kļūmju apstrādei finanšu reģistrācijas laikā.
 
-- **Mēģināt vēlreiz** — operatori var izmantot šo opciju gadījumā, ja kļūmi var ātri novērst un var atkārtoti izpildīt finanšu reģistrāciju. Piemēram, šo opciju var izmantot gadījumā, ja finanšu ierīce nav pievienota vai fiskālajā printerī ir beidzies vai iesprūdis papīrs.
-- **Atcelt** — šī opcija sniedz operatoriem iespēju atlikt pašreizējās transakcijas vai notikuma finanšu reģistrāciju, ja tā neizdodas. Pēc reģistrācijas atlikšanas operators var turpināt strādāt ar POS sistēmu un veikt jebkuru operāciju, kam nav nepieciešama finanšu reģistrācija. Kad POS sistēmā notiek notikums, kam ir nepieciešama finanšu reģistrācija (piemēram, tiek atvērta jauna transakcija), tiek automātiski parādīts kļūdu apstrādes dialoglodziņš, kurā operatoram tiek paziņots, ka iepriekšējā transakcija netika pareizi reģistrēta, un tiek norādītas kļūdu apstrādes iespējas.
-- **Izlaist** — operatori var izmantot šo opciju gadījumā, ja finanšu reģistrāciju var izlaist noteiktos apstākļos un POS sistēmā var turpināt veikt parastās operācijas. Piemēram, šo opciju var izmantot gadījumā, ja pārdošanas transakciju, kuras finanšu reģistrācija neizdevās, var reģistrēt īpašā papīra žurnālā.
-- **Atzīmēt kā reģistrētu** — operatori var izmantot šo opciju gadījumā, ja transakcija ir reģistrēta finanšu ierīcē (piemēram, ir izdrukāts finanšu dokuments), taču, saglabājot finanšu atbildi kanāla datu bāzē, ir radusies kļūme.
-- **Atlikšana** – operatori var izmantot šo opciju, ja darbība netika reģistrēta, jo reģistrācijas pakalpojums nebija pieejams. 
+- **Mēģiniet** vēlreiz – Operators var izmantot šo opciju, ja kļūmi var atrisināt ātri un finanšu reģistrāciju var palaist atkārtoti. Piemēram, šo opciju var izmantot gadījumā, ja finanšu ierīce nav pievienota vai fiskālajā printerī ir beidzies vai iesprūdis papīrs.
+- **Atcelt** – šī opcija ļauj operatoram atlikt pašreizējās darbības vai notikuma finanšu reģistrāciju, ja tā neizdodas. Kad reģistrācija ir atlikta, operators var turpināt darbu POS un var izpildīt jebkuru operāciju, kam nav nepieciešama finanšu reģistrācija. Kad POS sistēmā notiek notikums, kam ir nepieciešama finanšu reģistrācija (piemēram, tiek atvērta jauna transakcija), tiek automātiski parādīts kļūdu apstrādes dialoglodziņš, kurā operatoram tiek paziņots, ka iepriekšējā transakcija netika pareizi reģistrēta, un tiek norādītas kļūdu apstrādes iespējas.
+- **Izlaist** – operators var izmantot šo opciju, ja nav iespējams pabeigt pašreizējās darbības vai notikuma finanšu reģistrāciju, piemēram, ja fiskālais printeris ir ārpus pasūtījuma un **finanšu** reģistrāciju var izlaist konkrētos gadījumos. Piemēram, šo opciju var izmantot gadījumā, ja pārdošanas transakciju, kuras finanšu reģistrācija neizdevās, var reģistrēt īpašā papīra žurnālā. Pēc finanšu reģistrācijas izlaišanas POS var turpināt regulāras operācijas. 
+- **Atzīmēt kā** reģistrētu – operators var izmantot šo opciju, kad pašreizējā transakcija vai notikums ir faktiski reģistrēts finanšu ierīcē, piemēram, finanšu dokuments ir izdrukāts, bet kļūda rodas, kad finanšu atbilde tiek saglabāta kanāla datu bāzē. Pēc pašreizējās darbības vai notikuma atzīmēšanas kā reģistrētas, POS var turpināt regulāras operācijas.
+- **Atlikšana** – operators var izmantot šo **opciju**, ja darbība nav reģistrēta, jo reģistrācijas ierīce vai pakalpojums nav pieejams un tiek lietota kāda no šīm opcijām:
+    - Pastāv finanšu reģistrācijas dublējuma opcija, un pašreizējai darbībai var turpināt finanšu reģistrācijas procesu. Piemēram, vietējā fiskālā [ierīce](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) var būt dublējuma opcija tiešsaistes finanšu reģistrācijas pakalpojumam, ja pakalpojums nav pieejams.
+    - Fiskālo reģistrāciju var pabeigt vēlāk, izmantojot nevis finanšu integrācijas struktūru. Piemēram, atliktās darbības vēlāk var fiskāli reģistrēt paketē ar atsevišķu [funkcionalitāti](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Pēc pašreizējās darbības vai notikuma iegrāmatošanas POS var turpināt regulāras operācijas.
 
-> [!NOTE]
-> Finanšu **reģistrācijas** **procesā opcijas Izlaist**, Iezīmēt **kā** reģistrētas un Atlikt ir jāaktivizē pirms to lietošanas. Turklāt operatoriem ir jāpiešķir atbilstošās atļaujas.
+> [!WARNING]
+> Opcijas **Izlaist**, **Atzīmēt kā reģistrētas** un **Atlikt ir** jāuzskata par ārkārtas opcijām un jālieto tikai izņēmuma gadījumos. Apspriediet šīs kļūdas apstrādes opcijas ar jūsu juridisko vai nodokļu u.c. un pirms to iespējošanas piemērojiet labi. Fiskālās reģistrācijas procesā opcijas ir jāaktivizē pirms to lietošanas. Lai nodrošinātu, ka operatori tos regulāri neizmanto, operatoriem ir jāpiešķir atbilstošas atļaujas.
 
-Opcijas **Izlaist**, **Atzīmēt kā** **reģistrētas** un Atlikt iespējojiet informācijas kodus, lai iegūtu noteiktu informāciju par kļūmi, piemēram, kļūmes iemeslu vai pamatojumu finanšu reģistrācijas izlaišanai vai darbības atzīmēšanai kā reģistrētam. Papildinformāciju par to, kā iestatīt kļūdu apstrādes parametrus, skatiet rakstā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Finanšu [transakcija](#storing-fiscal-response-in-fiscal-transaction) tiek izveidota, kad **ir atlasītas opcijas Izlaist**, **·** **Iezīmēt** kā reģistrētas vai Atlikts, bet finanšu darījums neietver finanšu atbildi. Tas ļauj izveidot fiskālās reģistrācijas kļūmes gadījumu. Šīs opcijas arī iespējo informācijas kodus, lai iegūtu noteiktu informāciju par kļūmi, piemēram, kļūmes iemeslu vai pamatojumu finanšu reģistrācijas izlaišanai vai darbības atzīmēšanu kā reģistrētu. Papildinformāciju par to, kā iestatīt kļūdu apstrādes parametrus, skatiet rakstā [Kļūdu apstrādes iestatījumu veikšana](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Neobligāta finanšu reģistrācija
 
@@ -112,11 +116,7 @@ Finanšu reģistrācija var būt obligāta dažām operācijām, bet neobligāta
 
 ### <a name="manually-rerun-fiscal-registration"></a>Manuāli atkārtoti izpildīt finanšu reģistrāciju
 
-Ja darījuma vai notikuma finanšu reģistrācija ir atlikta pēc kļūmes (piemēram, ja operators atlasīja **Atcelt** kļūdu apstrādes dialoglodziņā), varat manuāli atkārtoti izpildīt finanšu reģistrāciju, izsaucot atbilstošu operāciju. Papildinformāciju skatiet tēmā [Atliktas finanšu reģistrācijas manuālas izpildes iespējošana](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Atlikt opciju
-
-Atlikusī **opcija** ļauj jums turpināt finanšu reģistrācijas procesu, ja pašreizējā darbība neizdodas. To var izmantot, kad pastāv fiskālās reģistrācijas dublējuma opcija.
+Ja darbības vai notikuma finanšu reģistrācija ir atlikta pēc kļūmes (piemēram, ja operators atlasīja Atcelt kļūdu apstrādes dialoglodziņā), finanšu reģistrāciju var manuāli palaist, **izsaucot** atbilstošu operāciju. Papildinformāciju skatiet atlikto [finanšu reģistrāciju manuālas izpildes iespējošana](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Finanšu reģistrācijas darbspējas pārbaude
 
@@ -138,7 +138,7 @@ Ja darbspējas pārbaude neizdodas, POS rāda darbspējas pārbaudes dialoglodzi
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finanšu atbildes saglabāšana finanšu transakcijā
 
-Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu bāzē tiek izveidota finanšu transakcija, kas tiek saistīta ar sākotnējo transakciju vai notikumu. Līdzīgi gadījumā, ja neveiksmīgai finanšu reģistrācijai tiek atlasīta opcija **izlaist** vai **Atzīmēt kā reģistrētu**, šī informācija tiek saglabāta finanšu transakcijā. Finanšu transakcijā ir ietverta finanšu ierīces vai pakalpojuma finanšu atbilde. Ja finanšu reģistrācijas process sastāv no vairākām darbībām, katrai procesa darbībai, kuras rezultāts ir veiksmīga vai neveiksmīga reģistrācija, tiek izveidota finanšu transakcija.
+Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu bāzē tiek izveidota finanšu transakcija, kas tiek saistīta ar sākotnējo transakciju vai notikumu. Līdzīgi, ja **neveiksmīgas** **finanšu** reģistrācijas gadījumā ir atlasīta opcija Izlaist, **Iezīmēt** kā reģistrētu vai Atlikts, šī informācija tiek glabāta finanšu darbībā. Finanšu transakcijā ir ietverta finanšu ierīces vai pakalpojuma finanšu atbilde. Ja finanšu reģistrācijas process sastāv no vairākām darbībām, katrai procesa darbībai, kuras rezultāts ir veiksmīga vai neveiksmīga reģistrācija, tiek izveidota finanšu transakcija.
 
 Finanšu transakcijas kopā ar transakcijām tiek pārsūtītas uz Headquarters, izmantojot funkciju *P darbs*. Lapas **Veikalu transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar transakcijām.
 

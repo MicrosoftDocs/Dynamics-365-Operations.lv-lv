@@ -2,19 +2,19 @@
 title: Fiskālā printera integrācijas piemērs Itālijai
 description: Šajā rakstā sniegts pārskats par Itālijas finanšu integrācijas parauga lietojumprogrammu Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6ad97e87e4114a8f2250d0ba4880b7a466b3689e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337254"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631401"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Fiskālā printera integrācijas piemērs Itālijai
 
@@ -67,7 +67,7 @@ Korporācija Microsoft neatlaiž nevienu aparatūru, programmatūru vai dokument
 - Kļūdu apstrāde, piemēram, šādas opcijas:
 
     - Mēģiniet vēlreiz veikt finanšu reģistrāciju, ja iespējams atkārtot, piemēram, ja fiskālais printeris nav savienots, nav gatavs vai nav atbildes, printeris ir ārpus papīra vai ir iesprūdis papīrs.
-    - Atlikt finanšu reģistrāciju.
+    - Atlikto maksājumu finanšu reģistrācija
     - Izlaidiet fiskālo reģistrāciju vai atzīmējiet darbību kā reģistrētu un ietveriet infokodus, lai iegūtu kļūmes iemeslu un papildinformāciju.
     - Pirms jaunas pārdošanas darbības atvēršanas vai pārdošanas darbības veikšanas pārbaudiet fiskālā printera pieejamību.
 
@@ -111,7 +111,7 @@ Veiciet fiskālās integrācijas iestatīšanas soļus, kā [aprakstīts Commerc
 1. [Iestatiet fiskālos tekstus atlaidēm](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
 1. [Iestatīt kļūdu apstrādes iestatījumus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Iestatiet POS finanšu X/Z pārskatus](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Iespējojiet atliktās finanšu reģistrācijas manuālu izpildi](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Iespējojiet atliktās finanšu reģistrācijas manuālu izpildi](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Iestatiet debitoru informācijas pārvaldības funkcionalitāti sistēmā POS](emea-ita-customer-information.md#setup).
 1. [Konfigurējiet kanāla komponentus](#configure-channel-components).
 

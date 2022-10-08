@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887789"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620903"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Iespējot atkļūdošanas režīmu nodokļu aprēķināšanas pakalpojumā
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887789"
 Šajā rakstā ir izskaidrots, kā iespējot atkļūdošanas režīmu nodokļu aprēķināšanas pakalpojumā, lai izpētītu problēmas.
 
 1. Pievienojiet **&atkļūdot=vs%2 CconfirmExit&** gt programmas objektu servera (AOS) vietrādim URL un pēc tam atsvaidziniet lapu.
-2. Atlasot PVN **PVN aprēķinam**, **tiek atvērts teksta fails ar nosaukumu TaxServiceTroubleshootingLog.txt**. Failā **TaxServiceTroubleshootingLog.txt** ir iekļauts **TaxableDocument** un aprēķina parametrs. Šie rezultāti tiek atgriezti no nodokļu servisa un izņēmuma informācijas problēmu novēršanai.
+2. Atlasot PVN **, lai aprēķinātu PVN,** serverī, kas atrodas C:\AXWeb_SMBShare\pagaidu failā, tiks saglabāts teksta fails ar nosaukumu TaxServiceTroubleshootingLog.txt **·**.**\\{%session%}\\** Failā **TaxServiceTroubleshootingLog.txt** ir iekļauts **TaxableDocument** un aprēķina parametrs. Šie rezultāti tiek atgriezti no nodokļu servisa un izņēmuma informācijas problēmu novēršanai.
 
 ## <a name="sample"></a>Paraugs
 

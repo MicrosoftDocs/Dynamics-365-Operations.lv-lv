@@ -2,19 +2,19 @@
 title: Preču salīdzinājuma moduļi
 description: Šajā rakstā ir aprakstīti preču salīdzinājuma moduļi un veids, kā tos ieviest, lai debitori varētu veikt preču salīdzinājumus Microsoft Dynamics 365 Commerce e-komercijas vietnēs.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474131"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618390"
 ---
 # <a name="product-comparison-modules"></a>Preču salīdzinājuma moduļi
 
@@ -91,6 +91,19 @@ Lai meklēšanas un kategorijas rezultātu lapām pievienotu preču salīdzināj
 1. Rekvizītu rūtī labajā pusē konfigurējiet Preču salīdzinājuma **pogas moduļa** rekvizītus.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Pievienot preču salīdzinājuma priekšskatījuma paneļa moduli jūsu vietnes lapām
+
+Preču salīdzinājuma priekšskatījuma paneļa modulis nodrošina debitoriem ar iespēju pārskatīt produktus, ko tie pievieno salīdzinājumam vai izņemiet no tā. Priekšskatījuma panelis nodrošina arī opcijas tiešai navigācijai uz salīdzinājuma lapu vai notīrīt visu preču sarakstu. 
+
+Priekšskatījuma paneli ieteicams iespējot visās lapās, kurās ir **iespējota preču salīdzināšanas** poga. Moduli var pievienot **preču** salīdzinājuma pogai kā slotu, vai to var izmantot kā savrupu moduli, ko varat konfigurēt jebkurā lapā, pat ja nav funkcionalitātes, ko pievienot vai noņemt salīdzināšanai preces. 
+
+Jums lapai manuāli jāpievieno preču salīdzinājuma priekšskatījuma paneļa modulis. Jums jāpievieno tikai viens priekšskatījuma paneļa modulis lapā. Ja pievienojat lapai vairākas moduļa instances, tiks atveidots pirmais modulis, un pārējie tiks ignorēti.
+
+![Preču salīdzinājuma priekšskatījuma panelis](./media/product-comparison-preview-panel-2.png)
+
+Ja norādāt preču salīdzinājuma ierobežojumu, priekšskatījuma panelī varat iespējot Vietturus, kas norāda, cik daudz preču var pievienot salīdzinājumam. Vietturi vietturi tiek aizvietoti ar precēm, kad tās tiek pievienotas salīdzināšanai. Lai konfigurētu preču salīdzinājuma limitu un iespējotu vietturus, **vietas veidotājā dodieties uz vietnes iestatījumiem > paplašinājumiem** **un veiciet izmaiņas preču salīdzinājumu sadaļā**. Konfigurācija tiks piemērota visiem priekšskatījuma panelīm visām lapām. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Norādīt maksimālo preču skaitu, kas ir jārāda salīdzinājuma tekni
 

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
-ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
+ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
+ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9592051"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "9637050"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -71,11 +71,42 @@ Nākamajā sešu mēnešu periodā mēs pakāpeniski palielināsim kešlodziņa 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Kad kvalitātes atjauninājumi tiks sākti ražošanas vidēs?
 Pašlaik kvalitātes atjauninājumi ir tikai mērķa kastēs. Mēs atjauninām šo vietu ar ražošanas vides sākuma datumu, kad būsim precīzāki dati un rādītāji no proaktīvās lauku atjauninājumiem līdz ražošanas gatavībai.
 
-## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Kāds ir kases kvalitātes atjauninājumu grafiks?
-Informāciju par tumšajām stundām katram reģionam skatiet šeit: [Kas ir proaktīvās kvalitātes atjauninājumu grafiks](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?.
+## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>Kāds ir kešlodziņa apsteidzēšanas kvalitātes atjauninājumu grafiks?
+Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
+
+### <a name="proactive-quality-update-release-10028"></a>Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.28
+**Programmas versija: 10.0.1265.89**
+**atbilstošs jaunākais zināšanu bāzes rakstā: 745340**
+
+| Stacijas | Reģioni | Pabeigts grafiks| Gaidāmās rūtiņas grafiks
+|---|---|---|---|
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 15. septembris un 19. septembris - 2022. gada 22. septembris | 7. oktobris uz 2022. gada 10. oktobris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 25. septembris - 28. septembris | 7. oktobris uz 2022. gada 10. oktobris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 26. septembris - 29. septembris | 7. oktobris uz 2022. gada 10. oktobris |
+| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 28. septembris uz 1. oktobris | 7. oktobris uz 2022. gada 10. oktobris |
+| 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
+
+### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.29
+| Stacijas | Reģioni | Gaidāmās rūtiņas grafiks
+|---|---|---|
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 17. oktobris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 15. oktobris uz 18. oktobris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 16. oktobris uz 19. oktobris |
+| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 17. oktobris uz 2022. gada 20. oktobris |
+| 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots |
+
+> [!IMPORTANT] 
+> Piecas darba dienas iepriekš, Microsoft atjauninās iepriekšējo grafiku un nosūtīs e-pasta paziņojumus uz vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
+>
+> Katrai reģionu grupai vai *stacijai*, kurā pašlaik ir ieplānots veikt kvalitātes atjauninājumu atriti, grafiks rāda četru dienu diapazonu. Kvalitātes atjauninājumi sāksies tikai ar kases vides. Tad, pieaugot veiksmīgi izvietoto kastu procentuālajai vērtībai, izvietošana ražošanas vidēs sāksies ar avansa paziņojumiem debitoriem.
+> 
+> Kvalitātes atjauninājumi vienmēr notiksritīgā veidā, kas iespējo mums plānot vides kopu pēc grafika un pabeigt visas kopas līdz ceturtās stacijas dienas beigām. Tomēr tas nenozīmē, ka vides atjauninājums ietvers četras dienas. Tas nozīmē, ka mēs nevaram iepriekš noteikt, kura vides kopa tiks atjaunināta noteiktā dienā četru dienu diapazonā. Visi atjauninājumi tiks veikti tumšo stundu laikā ar nulles dīkstāvi. Atjauninājumi noteikti tiks pabeigti dotā reģiona tumšo stundu logā.
 
 ## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Kā tumšās stundas tiek apstrādātas debitoriem, kuriem ir viena finanšu un operāciju programmu instance, bet kas ir aktīvas vairākās laika joslās? 
 Nav īpašu grafiku ārpus tumšajām stundām, kur eksistē finanšu un operāciju lietojumprogrammu instance, jo mēs plānojam izritināt kvalitātes atjauninājumus minimāli izjaukjošā [veidā ar nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="what-is-the-current-rollout-cadence-for-proactive-quality-updates"></a>Kāda ir pašreizējā apsteidzēto kvalitātes atjauninājumu atrites kadence?
+Apsteidztīvās kvalitātes atjauninājumi (PQUs) pašlaik tiek nosūtīti vienreiz mēnesī katrai atbalstītajām pakalpojuma atjauninājuma versijām. Tikai viens atjauninājums mēnesī tiek pārvietots uz atlasīto kastu vidi, ja debitori nenovieto uz jaunu pakalpojuma atjaunināšanas versiju. Šādā gadījumā tās var iegūt iepriekš plānotu PQU kā daļu no esošas vilcienu jaunajam pakalpojuma atjauninājumam. Pēc globālās atrites pabeigšanas 2023. gadā šo atjauninājumu biežums pieaugs. Jūs vienmēr saņemsiet vismaz viena mēneša paziņojumu, kad tiek mainīta nosūtīšanas kadsija.
 
 ## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Kā Microsoft nodrošina šo atjauninājumu kvalitāti?
 Microsoft aprēķini, lai uzturētu izdošanas konveijeru pietiekoši efektīvu, lai piegādātu mazu lietderīgo slodzi, lai uzturētu zemu validācijas izmaksu. Katrs labojums kvalitātes atjauninājumā ir klienta un drošas izvietošanas procesa gaitā, kas palīdz uzlabot kvalitāti un uzticamību, tādējādi samazinot debitora ietekmi. Izvietojums tiks veikts kastu vides stadijās, vispirms sekos ražošana. Stadijas izvietošana ļauj pareizi uzraudzīt, lai noteiktu, vai turpmākā izvietošana ir droša. Ja problēmas tiek konstatētas katrā izvietoto debitoru grupā, mēs aptursim izriti un pārliecinieties, ka katram izrites solim ir pietiekami daudz laika, lai izejas plūsmas izvietotu uz virsmas. Veicot katru gaidāmo kvalitātes atjauninājumu, mēs veiksim grafika redzamību, izmantojot publiskās dokumentācijas un e-pasta atjauninājumu atjauninājumus, lai debitori varētu plānot uz priekšu.
@@ -83,8 +114,20 @@ Microsoft aprēķini, lai uzturētu izdošanas konveijeru pietiekoši efektīvu,
 ## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Vai debitori var aizkavēt, pārplānot vai apturēt kvalitātes atjauninājumu?
 Nē. Kvalitātes atjauninājumu galvenais mērķis ir nodrošināt, lai mūsu debitoriem pastāvīgi uzlabotu drošību, konfidencialitāti, uzticamību, pieejamību un veiktspēju. Ar atjaunināšanas, drošības, pieejamības un uzticamības aizkavēšanos vai pauzēšanu pastāvēs risks.
 
-## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Kā viens no jums var zināt kvalitātes atjauninājuma lietderīgo slodzi gādoju izmaiņu kopa?
-Jūs varēsiet apskatīt visus zināšanu **bāzes** rakstus kvalitātes atjauninājumā, kas ir veidots uz vides informācijas lapas, kas atrodas LCS, **pārvietojoties uz sadaļu Kvalitātes** atjauninājums. 
+## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Kā es jāzina, kādas izmaiņas tika veiktas kvalitātes atjauninājumu lietderīgajā slodzei?
+Turpmākie soļi ir pagaidu risinājums, jo mēs turpinām strādāt pie labāka risinājuma, lai identificētu kvalitātes atjauninājuma lietderīgās slodzes izmaiņu sarakstu. 
+
+Izmantojiet KB# 745340 10.0.28 kvalitātes atjauninājuma vilcienu un saistīto programmas versiju 10.0.1265.89.
+
+1. Sadaļā LCS atveriet lapu Detalizēta informācija par **vidi** savā kastē. 
+2. Sadaļā Pieejamie **atjauninājumi** atlasiet Skatīt atjauninājumu **jaunākajam** Kvalitātes atjauninājuma būvējumam. 
+3. Eksportējiet būvējumu CSV vai Microsoft Excel failā.
+4. Eksportētajā failā kārtojiet informāciju, pamatojoties uz laiku (pirmais vecākais) un pēc tam meklējiet KB 745340 **kolonnā Atjaunināšanas** ID. Tagad vajadzētu būt redzamiem KBs delta sarakstam.
+ 
+ > [!NOTE]
+ > Eksportam uz CSV vai Excel failu ir jāveic pirms vides atjaunināšanas. Pretējā gadījumā varat izmantot vidi ar līdzīgu konfigurāciju, kurā nav instalēts atjauninājums, un izpildiet iepriekš norādītās darbības.
+
+[![Piemērs par vidi ar kvalitātes atjaunināšanu.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
 ## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Kas ir process, ja pēc kvalitātes atjauninājuma tiek atrasta kritiska problēma?
 Kritiska problēma vai regresija ir viens vai vairāki notikumi, kas parasti izraisa vairāku klientu iespējas samazināt pieredzi ar vienu vai vairākiem mūsu pakalpojumiem. Šie jautājumi var izraisīt neplānotas dīkstāves laika, ieskaitot nepieejamību, veiktspējas apkalpošanu un iejaukšanos pakalpojumu pārvaldībā. Ja šādu regresiju dēļ ir plaša debitora ietekme, kvalitātes atjauninājumu atrite tiks apturēta līdz brīdim, kad mēs varam komunicēt un labot problēmu. Parasti nākamajam kvalitātes atjauninājumam būs nepieciešama izlabošana, lai atsāktu atriti.
@@ -94,7 +137,7 @@ Ja tiek ietekmēta viena debitora vide, sazinieties ar Microsoft atbalsta dienes
 ## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Vai debitori joprojām var manuāli lietot labojumfailu atjauninājumus no LCS?
 Jā. Lai nodrošinātu notiekošu pārību, kā darbojas labojumfaili, joprojām var pielietot debitora vidēm LCS. Tomēr ir svarīgi atzīmēt, ka labojumfaili, kas ir izvietoti kā daļa no kvalitātes atjauninājuma, atrodas standarta SDP pirms atjaunināšanas izvietošanas. Tas samazina regresiju risku augstākas kvalitātes dēļ. Ieteicams izvēlēties kvalitātes atjauninājumu manuāli pielietojot labojumfailus palielinātai uzticamībai.
 
-## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Vai debitori var pats instalēt kvalitātes atjauninājumu, jo atrodas pirms grafika?
+## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Vai debitori proaktīvi var instalēt kvalitātes atjauninājumu būvējumu pirms grafika?
 Jā. Jūs varat instalēt kvalitātes atjauninājumu proaktīvi. Microsoft izlaidīs atjauninājumu, ja vides pašreizējā būvējuma versija ir vienāda vai augstāka par attiecīgo kvalitātes atjauninājumu.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Ja videi ir gaidāma plānotā mēneša pakalpojuma atjaunināšana nedēļas laikā, vai tā joprojām saņems kvalitātes atjauninājumus?
@@ -104,21 +147,24 @@ Jā. Jūs varat instalēt kvalitātes atjauninājumu proaktīvi. Microsoft izlai
 - Ja kastītei ir tāda pati vai augstāka būvējuma versija, jo ražošanai ir kvalitātes atjauninājums vai manuāls atjauninājums, ražošana vēl aizvien saņems mēneša pakalpojuma atjauninājuma ieplānoto versiju. Ja nevēlaties, lai plānotā ražošanas vide tiktu atjaunināta uz pakalpojuma atjaunināšanas versiju, varat pauzēt pakalpojuma atjauninājumu no LCS. 
 - Ieteicams izmantot jaunāko kvalitātes atjauninājumu būvējumu, lai pārbaudītu gaidāmā pakalpojuma atjauninājuma izmaiņas, lai uzlabotu stabilitātes un rezultātus.
 
+## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Ja videi ir gaidāma plānota darbība un ieplānota kvalitātes atjaunināšana vienā un tajā pašā uzturēšanas logā, vai joprojām tiks saņemts kvalitātes atjauninājums?
+Ja pastāv jebkādas iepriekš plānotas darbības saturēšanas darbības, piemēram, punktu atjaunošana laikā (PITR), kvalitātes atjaunināšana tiks pārplānota uz nākamo pieejamo uzturēšanas logu četru dienu logā. Plašāku informāciju par grafiku skatiet šeit: Kas [ir proaktīvās kvalitātes atjauninājumu grafiks](#schedule)?. 
+
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Vai vidi var atgriezties iepriekšējā stāvoklī, ja pēc kvalitātes atjaunināšanas ir izejas plūsmas?
 Pēc kvalitātes atjaunināšanas atrite netiek atrite jebkuros apstākļos. Ir pieejamas tikai ielāpa uz priekšu vērstas opcijas, lai mazinātu problēmas.
 
 ## <a name="what-about-fda-regulation-and-gpx"></a>Kas par FDA noteikumiem un UTX?
-Debitoru plāns, uz ko attiecas FDA pārbaude un noteikumi joprojām nav apmierināti. Drīz gaidīt vairāk atjauninājumu šajā vietā. Tagad visi šādi debitori ir atbrīvoti no kvalitātes atjauninājumiem.
+Debitoru plāns, uz ko attiecas FDA pārbaude un noteikumi joprojām nav apmierināti. Drīz gaidīt vairāk atjauninājumu šajā vietā. Tagad visi šādi debitori ir atbrīvoti no kvalitātes atjauninājumiem. Lai nodrošinātu, ka debitors atbilst FDA noteikumiem, lūdzu, apmeklējiet [Microsoft Azure UTX piedāvājumu](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Kādas pakalpojuma atjauninājumu versijas šiem kvalitātes atjauninājumiem tiek atbalstītas?
-Klienti versijās, kas vecākas N-2, saņems kvalitātes atjauninājumus. 
+Klienti visās atbalstītās pakalpojuma atjauninājumu versijās apstiprina kvalitātes atjauninājumus. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Finanšu un operāciju programmu izvietošanai ar mazumtirdzniecības komponentiem parasti nepieciešams papildu darbs papildus MPOS atkārtotai izvietošanai. Kā šie kvalitātes atjauninājumi ietekmēs RetailSDK? 
-Tā kā labojumfailu raksturs nemainās kvalitātes atjauninājumu lietderīgo slodzi, pašlaik netiek prognozēta papildu ietekme, kas pašlaik ir īpaši saistīta ar mazumtirdzniecības komponentiem.
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Finanšu un operāciju programmu izvietošanai ar Retail komponentiem parasti nepieciešams papildu darbs papildus MPOS atkārtotai izvietošanai. Kā šie kvalitātes atjauninājumi ietekmēs RetailSDK? 
+Tā kā labojumfaila raksturs nemainās kvalitātes atjauninājumu lietderīgo slodzi, mēs pašlaik ne paredzam nekādu papildu ietekmi, kas pašlaik tiek saistīta ar Retail komponentiem.
 
-## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Vai mākonī viesotās vides (CHE)? ? 
-Nē.
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Vai mākonī viesotās vides (CHE)? 
+Čeku vides ir ārpus sfēras kvalitātes atjauninājumiem, jo tās ir ārpus Microsoft purview
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Ar ko ir saistītas integrācijas problēmas Microsoft Dataverse? 
-Nē.
+Nav zināms, ar kvalitāti atjauninājumiem saistītas integrācijas problēmas Dataverse.
 

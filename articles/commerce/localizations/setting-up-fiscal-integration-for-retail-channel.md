@@ -2,19 +2,19 @@
 title: Commerce kanālu finanšu integrācijas iestatīšana
 description: Šajā rakstā ir sniegtas vadlīnijas par finanšu integrācijas funkcionalitātes iestatīšanu Commerce kanāliem.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276137"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631428"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas iestatīšana
 
@@ -30,9 +30,10 @@ Lai iespējotu līdzekļus, kas ir saistīti ar finanšu integrācijas funkciona
 1. Atrodiet un iespējojiet šādas funkcijas:
 
     - **Tiešā finanšu integrācija no POS reģistriem** — šis līdzeklis paplašina finanšu integrācijas struktūru, pievienojot iespēju izveidot finanšu savienotājus, kas tiks palaisti pārdošanas punktā (POS). Šis savienotāja tips komunicē ar fiskālo ierīci vai pakalpojumu, kas nodrošina HTTP programmas programmēšanas interfeisu (API) un tam nav nepieciešams atvēlēts fizisks dators veikalā. Piemēram, šī funkcionalitāte iespējo fiskālo integrāciju mobilajām ierīcēm, nepieprasot koplietojamu aparatūras staciju.
-    - **Fiskālās integrācijas tehniskā** profila ignorēšana — šī funkcija iespējo paplašināt finanšu integrācijas konfigurāciju un pievieno iespēju pārbaudīt savienojuma parametrus POS reģistra iestatījumu lapā. Kad šī funkcija ir aktivizēta, jūs varat ignorēt tehniskā profila parametrus.
+    - **Fiskālās integrācijas tehniskā profila** ignorēšana – šī funkcija ļauj izvērst finanšu integrācijas konfigurāciju un pievieno spēju ignorēt tehniskā profila parametrus. Piemēram, var norādīt fiskālās ierīces savienojuma virknes atsevišķā POS reģistra līmenī. Šis līdzeklis pievieno arī iespēju pārbaudīt savienojuma parametrus **POS** reģistra iestatījumu lapā. 
     - **POS reģistru finanšu reģistrācijas stāvoklis** - ja šī funkcija ir iespējota, varat atspējot fiskālo reģistrāciju procesu noteiktiem POS reģistriem. Ja POS reģistram ir atspējota finanšu reģistrācija, šajā reģistrā pārdošanas darbības nevar pabeigt.
-    - **Fiskālās integrācijas lokālās** krātuves dublējums - šis līdzeklis paplašina finanšu integrācijas struktūras kļūdu apstrādes iespējas. Tas arī iespējo automātisku finanšu reģistrācijas datu dublējumu datu zudums gadījumā, lai dati lokālajā krātuvē tiek atjaunoti ierīces aktivizēšanas laikā.
+    - **Fiskālās** integrācijas lokālās krātuves dublējums - šis līdzeklis paplašina finanšu integrācijas struktūras kļūdu apstrādes iespējas, iespējojot automātisku finanšu reģistrācijas datu dublējumu, tādējādi datus lokālajā krātuvē var atjaunot, kad tiek aktivizēta ierīce.
+    - **Atlikta** dokumentu reģistrācija - šī funkcija paplašina finanšu integrācijas struktūras kļūdu apstrādes iespējas, iespējojot opciju atlikt fiskālo reģistrāciju finanšu reģistrācijas kļūmes gadījumā un izmantot dublējuma fiskālās reģistrācijas opciju vai pabeigt finanšu reģistrāciju vēlāk, izmantojot nevis finanšu integrācijas struktūru.
 
 ## <a name="set-up-commerce-parameters"></a>Komercijas parametru iestatīšana
 
@@ -286,16 +287,15 @@ Lai iespējotu finanšu X/Z pārskatu izpildi no POS, ir jāpievieno jaunas poga
     1. Pievienojiet jaunu pogu un iestatiet **Drukāt finanšu Z** pogas rekvizītu.
     1. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai pārsūtītu izmaiņas uz kanāla datu bāzi.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Atliktas finanšu reģistrācijas manuālas izpildes iespējošana
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Iespējot atlikto finanšu reģistrācijas manuālu izpildi
 
-Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izkārtojumam jums ir jāpievieno jauna poga.
+Lai atlikto maksājumu finanšu reģistrāciju varētu izpildīt manuāli, POS izkārtojumam jāpievieno jauna poga.
 
 - Lapā **Pogu rindas** sekojiet instrukcijām sadaļā [POS operāciju pievienošana POS izkārtojumam, izmantojot Pogu rindas veidotāju](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), lai instalētu veidotāju un atjauninātu POS izkārtojumu.
 
     1. Atlasiet atjaunināmo izkārtojumu.
     1. Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.
     1. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skatīt savienojuma parametrus un citu informāciju POS
 

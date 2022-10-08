@@ -2,7 +2,7 @@
 title: W Vēl ir jauns un mainīts Dynamics 365 Commerce 10.0.29 (2022. gada oktobris)
 description: Šajā rakstā ir aprakstītas funkcijas, kas ir jaunas vai mainītas Microsoft Dynamics 365 Commerce programmā 10.0.29.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475908"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601576"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Commerce 10.0.29 (2022. gada oktobris)
 
@@ -39,6 +39,7 @@ ms.locfileid: "9475908"
 | E-komercija | Atbalstu preču salīdzināšanai e-commerce | Aktivizējiet pircējus, lai salīdzinātu preces dažādās kategorijās, tādējādi viņi paši var pieņemt pareizo pirkšanas lēmumu. Šī funkcija ir pieejama gan bizness-plaša patēriņam (B2C), gan B2B vietām. | Vietas veidotājs | 
 | Dāvanu kartes | Atbalstīt mazumtirdzniecības dāvanu karšu tabulas starpuzņēmumu datu koplietošanai | Dynamics galvenā pārvalde atbalsta iespēju iespējot starpuzņēmumu datu koplietošanu noteiktām Dynamics arhitektūras tabulām. Šajā funkcija pievieno Dynamics 365 Commerce atbalstu starpuzņēmumu datu koplietošanai mazumtirdzniecības dāvanu karšu tabulās. Tāpēc dāvanu kartei vienā uzņēmumā tagad vides uzņēmumā datu dublikāti var būt citā uzņēmumā. Sākotnējā uzņēmuma dāvanu karšu tabulā veiktās izmaiņas tiks koplietotas uzņēmuma dāvanu karšu tabulas dublikātā. | Izstrādātāji |
 | Globalizācija | [Aktivizēt Commerce lokalizācijas līdzekļus jaunajam Commerce SDK](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | Jaunā funkcija nodrošina iespēju iespējot Commerce lokalizācijas līdzekļus no programmas Commerce Headquarters, izmantojot līdzekļu pārvaldības struktūru vai parametrus. Fiskālās integrācijas paraugi tagad ir iekļauti jaunajā commerce SDK un atbalsta neatkarīgu iepakojumu. Šī funkcija arī sniedz iespēju pievienot programmu Store Commerce globālajiem Commerce klientiem.<p><p>Šis laidiens ietver Commerce lokalizācijas līdzekļus un finanšu integrācijas paraugus Austrijai, [Čehijas Republikai](../localizations/emea-aut-fi-sample.md), [Francijai](../localizations/emea-cze-fi-sample.md), Vācijai [...](../localizations/emea-fra-cash-registers.md), [Itālijai](../localizations/emea-deu-fi-sample.md), [Norvēģijai](../localizations/emea-ita-fpi-sample.md) un [Polijai](../localizations/emea-nor-cash-registers.md).[...](../localizations/emea-pol-fpi-sample.md) | Aktivizē administratori/veidotāji |
+| Bezsaistē | [POS bezsaistes datu bāzes saspiešana](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | Šis jaunais līdzeklis samazina bezsaistes datu bāzes lielumus, iespējojot automatizēto indeksa saspiešanu ārpus kanāla [veikala stundām](../dev-itpro/store-hours.md). | Līdzekļu pārvaldība<p>*POS bezsaistes datu bāzes saspiešana* |
 | Veiktspēja | Noņemt RTS atkarību scenārijiem "rediģēt debitoru" | Augsta pieejamība un augsta veiktspēja ir noklusējuma pārdošanas punkta (POS) un e-komercijas kanālu prognozes. Lai palīdzētu nodrošināties atbilstoši šīm prognozēm, Dynamics 365 Commerce kanāliem vairs nav jāpaļaujas uz reāllaika sakariem ar programmu Commerce Headquarters, kad tiek rediģēta debitora informācija. Iespēja rediģēt asinhrono debitora informāciju asinhronajiem un asinhronajiem debitoriem var palīdzēt samazināt reāllaika zvanus programmā Commerce Headquarters. | Aktivizē administratori/veidotāji |
 
 ## <a name="feature-state-changes-in-this-release"></a>Līdzekļu stāvokļa izmaiņas šajā laidienā
@@ -85,7 +86,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Commerce 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md). 
+Microsoft Dynamics 365 Commerce 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md)). 
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

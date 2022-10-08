@@ -2,19 +2,19 @@
 title: Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā
 description: Šajā rakstā ir sniegts zviedrijas finanšu integrācijas parauga apskats Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 966ba3fab780991736f0c84d7eb68356c28a4022
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275071"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631267"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā
 
@@ -42,7 +42,7 @@ Zviedrijas kontroles vienības integrācijas paraugs ietver šādas iespējas:
 - Ir pieejamas vairākas kļūdu apstrādes opcijas. Daži piemēri:
 
     - Atkārtot finanšu reģistrāciju, ja iespējams atkārtot. Fiskālo reģistrāciju varat atkārtot, ja, piemēram, kontroles vienība nav pievienota, nav gatava vai nav atbildēta.
-    - Atlikt finanšu reģistrāciju.
+    - Atlikto maksājumu finanšu reģistrācija
     - Izlaidiet fiskālo reģistrāciju vai atzīmējiet darbību kā reģistrētu un ietveriet infokodus, lai iegūtu kļūmes iemeslu un papildinformāciju.
     - Pirms jaunas pārdošanas darbības atvēršanas vai pārdošanas darbības veikšanas pārbaudiet kontroles vienības pieejamību.
 
@@ -103,7 +103,7 @@ Veiciet fiskālās integrācijas iestatīšanas soļus, kā [aprakstīts Commerc
 
 1. [Iestatīt fiskālās reģistrācijas procesu](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Atzīmējiet arī fiskālās reģistrācijas procesa iestatījumus, kas ir specifiski šim kontroles [vienības integrācijas paraugam](#set-up-the-registration-process).
 1. [Iestatīt kļūdu apstrādes iestatījumus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Iespējojiet atliktās finanšu reģistrācijas manuālu izpildi](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Iespējojiet atliktās finanšu reģistrācijas manuālu izpildi](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Konfigurējiet kanāla komponentus](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Iestatīt reģistrācijas procesu
