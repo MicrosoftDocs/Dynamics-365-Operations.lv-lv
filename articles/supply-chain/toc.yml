@@ -1749,18 +1749,8 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT informācija
           items:
-            - name: IoT informācijas sākumlapa
+            - name: Iot informācija tagad ir aizstāta ar Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Azure resursu iestatīšana
-              href: iot/iot-azure-setup.md
-            - name: Ziņojumu shēmas formāti IoT centrmezglam
-              href: iot/iot-schema-format.md
-            - name: Rādītāju iestatīšana
-              href: iot/iot-metrics-setup.md
-            - name: Scenāriju iestatīšana
-              href: iot/iot-scenario-setup.md
-            - name: Pārraudzība un pārvaldība
-              href: iot/iot-management.md
         - name: Vispārējā plānošana
           items:
             - name: Vispārējās plānošanas sākumlapa
