@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
-ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9637050"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671430"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -87,6 +87,9 @@ Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir 
 | 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.29
+**Programmas versija: 10.0.1326.70**
+**atbilstošs jaunākais zināšanu bāzes rakstā: 748926**
+
 | Stacijas | Reģioni | Gaidāmās rūtiņas grafiks
 |---|---|---|
 | 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 17. oktobris |
@@ -96,7 +99,7 @@ Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir 
 | 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots |
 
 > [!IMPORTANT] 
-> Piecas darba dienas iepriekš, Microsoft atjauninās iepriekšējo grafiku un nosūtīs e-pasta paziņojumus uz vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
+> Piecas dienas iepriekš, korporācija Microsoft atjauninās iepriekšējo grafiku un nosūtīs e-pasta paziņojumus uz vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
 >
 > Katrai reģionu grupai vai *stacijai*, kurā pašlaik ir ieplānots veikt kvalitātes atjauninājumu atriti, grafiks rāda četru dienu diapazonu. Kvalitātes atjauninājumi sāksies tikai ar kases vides. Tad, pieaugot veiksmīgi izvietoto kastu procentuālajai vērtībai, izvietošana ražošanas vidēs sāksies ar avansa paziņojumiem debitoriem.
 > 
@@ -122,7 +125,7 @@ Izmantojiet KB# 745340 10.0.28 kvalitātes atjauninājuma vilcienu un saistīto 
 1. Sadaļā LCS atveriet lapu Detalizēta informācija par **vidi** savā kastē. 
 2. Sadaļā Pieejamie **atjauninājumi** atlasiet Skatīt atjauninājumu **jaunākajam** Kvalitātes atjauninājuma būvējumam. 
 3. Eksportējiet būvējumu CSV vai Microsoft Excel failā.
-4. Eksportētajā failā kārtojiet informāciju, pamatojoties uz laiku (pirmais vecākais) un pēc tam meklējiet KB 745340 **kolonnā Atjaunināšanas** ID. Tagad vajadzētu būt redzamiem KBs delta sarakstam.
+4. Eksportētajā failā kārtojiet informāciju, pamatojoties uz laiku (pirmais vecākais) un pēc tam meklējiet KB 745340 **kolonnā Atjaunināt** ID. Tagad vajadzētu būt redzamiem KBs delta sarakstam.
  
  > [!NOTE]
  > Eksportam uz CSV vai Excel failu ir jāveic pirms vides atjaunināšanas. Pretējā gadījumā varat izmantot vidi ar līdzīgu konfigurāciju, kurā nav instalēts atjauninājums, un izpildiet iepriekš norādītās darbības.
@@ -141,7 +144,7 @@ Jā. Lai nodrošinātu notiekošu pārību, kā darbojas labojumfaili, joprojām
 Jā. Jūs varat instalēt kvalitātes atjauninājumu proaktīvi. Microsoft izlaidīs atjauninājumu, ja vides pašreizējā būvējuma versija ir vienāda vai augstāka par attiecīgo kvalitātes atjauninājumu.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Ja videi ir gaidāma plānotā mēneša pakalpojuma atjaunināšana nedēļas laikā, vai tā joprojām saņems kvalitātes atjauninājumus?
-- Kvalitātes atjauninājumi netiek lietoti, ja pastāv gaidāms pakalpojuma atjauninājums, kas ieplānots nedēļas laikā no laika, kad ir plānots veikt kvalitātes atjauninājumu.
+- Kvalitātes atjauninājumi nav pielietoti ražošanas vidēs, ja ir gaidāms pakalpojuma atjauninājums, kas ieplānots nedēļas laikā no laika, kad ir plānots veikt kvalitātes atjauninājumu.
 - Ja kastītes videi ir tāda pati vai augstāka būvējuma versija nekā gaidāmais kvalitātes atjauninājums, tā tiks izlaista.
 - Ja ražošanas videi ir tāda pati vai augstāka būvējuma versija nekā gaidāmais kvalitātes atjauninājums, tas tiks izlaists.
 - Ja kastītei ir tāda pati vai augstāka būvējuma versija, jo ražošanai ir kvalitātes atjauninājums vai manuāls atjauninājums, ražošana vēl aizvien saņems mēneša pakalpojuma atjauninājuma ieplānoto versiju. Ja nevēlaties, lai plānotā ražošanas vide tiktu atjaunināta uz pakalpojuma atjaunināšanas versiju, varat pauzēt pakalpojuma atjauninājumu no LCS. 

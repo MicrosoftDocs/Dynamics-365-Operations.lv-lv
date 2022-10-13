@@ -1,8 +1,8 @@
 ---
 title: Bilances finanšu pārskati
 description: Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880735"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643828"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilances finanšu pārskati
 
@@ -33,9 +33,9 @@ ms.locfileid: "8880735"
 Ir divi noklusējuma bilances pārskati. Vienā pārskatā sadaļas ir izvietotas secīgi. Otrā pārskatā sadaļas atrodas blakus.
 
 | Noklusējuma pārskats                       | Ko tā dara                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Bilance — noklusējums              | Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.                                                                 |
-| Līdzās atvērta bilance — noklusējums | Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu. Līdzās tiek rādīti aktīvi un saistības, kā arī akcionāru kapitāls. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Bilance — noklusējums              | Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.                    |
+| Bilances un peļņas/zaudējumu pārskats līdzās — noklusējums | Sniedz pārskatu par organizācijas finanšu pozīciju gada pusē. |
 
 ## <a name="building-blocks"></a>Veidošanas bloki
 Bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.
@@ -43,7 +43,7 @@ Bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.
 | Noklusējuma atskaite                       | Rindas definīcija                       | Kolonnas definīcija             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Bilance — noklusējums              | Bilance — noklusējums              | Šī gada un novirzes - noklusējuma    |
-| Līdzās atvērta bilance — noklusējums | Līdzās atvērta bilance — noklusējums | Šī gada kolonna - noklusējuma |
+| Bilances un peļņas/zaudējumu pārskats līdzās — noklusējums | Bilances un peļņas/zaudējumu pārskats līdzās — noklusējums | Šī gada kolonna - noklusējuma |
 
 ### <a name="row-definition"></a>Rindas definīcija
 

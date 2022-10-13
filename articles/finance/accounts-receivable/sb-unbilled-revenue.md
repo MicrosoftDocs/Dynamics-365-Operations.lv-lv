@@ -2,7 +2,7 @@
 title: Rēķinos neiekļautie ieņēmumi
 description: Šajā rakstā ir izskaidrots, kā iestatīt krājumus un kontus, lai abonementa norēķinos izmantotu nenodzēsto ieņēmumu līdzekli.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879687"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644173"
 ---
 # <a name="unbilled-revenue"></a>Rēķinos neiekļautie ieņēmumi
 
@@ -123,15 +123,15 @@ Sadales tiek pārrēķinātas, pamatojoties uz atlasīto sadalījuma tipu (**pro
 
 Rēķinu izrakstīšanas grafiks tiek ievadīts trīs gadu laikā, un rēķini tiek izrakstīti reizi gadā trīs gadu periodā. Visa līguma summa tiek ierakstīta nenodzēsto ieņēmumu kontā, no kura tiek izveidoti gada rēķini. Korespondējošais konts ir ieņēmumu vai atlikto ieņēmumu konts.
 
-Ņemiet vērā, ka augšējais norēķins un nenosācītie ieņēmumi nedarbojas kopā, jo saskaņošanas problēmas var rasties virsgrāmatā. Piemēram, krājumu grupas **iestatījuma lapā** krājumu grupa A ir **iestatīta tā, lai augšējo rindu lauka skaits būtu** iestatīts uz **2**. **Norēķinu grafika lapā ir** pievienotas trīs vienības. Visi trīs krājumi pieder krājumu grupai A. Kad sākotnējais žurnāla ieraksts ir izveidots nenos ieņēmumu funkcijai, visu trīs krājumu summa tiek apstrādāta uz nenostrādāto kontu. Kad tiek izveidots rēķins rēķinu grafikam, tiek iekļautas tikai divu augšējo krājumu summas. Tāpēc rēķina summa nesaskan ar summu, kas tika apstrādāta ar nenovienoto ieņēmumu kontu, un saskaņošanas problēmas rodas Virsgrāmatā.
+Augšējais norēķins un nenoslietie ieņēmumi nedarbojas vienlaikus, jo saskaņošanas problēmas var rasties virsgrāmatā. Piemēram, krājumu grupas **iestatījuma lapā** krājumu grupa A ir **iestatīta tā, lai augšējo rindu lauka skaits būtu** iestatīts uz **2**. **Norēķinu grafika lapā ir** pievienotas trīs vienības. Visi trīs krājumi pieder krājumu grupai A. Kad sākotnējais žurnāla ieraksts ir izveidots nenos ieņēmumu funkcijai, visu trīs krājumu summa tiek apstrādāta uz nenostrādāto kontu. Kad tiek izveidots rēķins rēķinu grafikam, tiek iekļautas tikai divu augšējo krājumu summas. Tāpēc rēķina summa nesaskan ar summu, kas tika apstrādāta ar nenovienoto ieņēmumu kontu, un saskaņošanas problēmas rodas Virsgrāmatā.
 
 Ja vēlaties izmantot nenopildītos ieņēmumus, **atstājiet** krājumu grupas iestatījuma lapu tukšu vai iestatiet visas krājumu grupas tā, **lai** augšējo rindu skaits **būtu iestatīts uz 0** (nulli). Ja vēlaties izmantot augšējos norēķinus, nav pieejamas nesavienotās ieņēmumu darbības.
 
 ### <a name="examples"></a>Piemēri
 
-Attiecībā uz versiju 10.0.27, tiek ieviests jauns konts, kad tiek lietoti nenosummēti ieņēmumi. Kad sākotnējais žurnāla ieraksta **izveides process** ir iegrāmatots, kredīts tiek veikts uz jaunu nenobīdīto ieņēmumu korespondējošo kontu. Šo kontu izmanto ieņēmumu konta vietā, jo, izrakstot rēķinu uz rēķinu grafiku, tā pati vērtība ir jāatgriež. Ja rodas valūtas maiņas kursa vai noapaļošanas atšķirības, rēķinu ģenerēšanas procesa **laikā aprēķinātās** summas var atšķirties. Šī darbība nodrošina, ka kontu neto summa ir 0 (nulle).
+Attiecībā uz versiju 10.0.29 periodiskiem līguma rēķinu parametriem tiek pievienots jauns parametrs. Ja iestatījums ir Jā, parametrs **Izmantot nenobīdītus** korespondējošos kontus **aktivizē divus jaunus kontus iestatījumā Nenobīdītie ieņēmumi**. Nenosūtāmo ieņēmumu korespondējošie un nenosūtāmie atlaižu korespondējošie konti kļūst pieejami, un tos vislabāk izmanto, veidojot rēķinu grafikus valūtā, kas nav uzskaites valūta. Izmantojot korespondējošos kontus, tiek nodrošināts, ka nenobīdītie ieņēmumi un nenobīdītās atlaides konti tiek apgriezti, izmantojot tos pašus maiņas kursus, ar kuriem tiek atsaukti to sākotnējie ieraksti. Sākotnējais žurnāla ieraksta **izveides process ir tāds** pats kā neapstrādāto ieņēmumu debets un ieņēmumu kreditēšana. Ja izmantojat atlaidi, sākotnējais žurnāla ieraksts ir tāds pats kā atlaides debets un kredīts, lai nenodzītu atlaidi. 
 
-Šajā piemērā parādīts, kā izmantot nenosummotos ieņēmumus, lai bilancē atpazītu visu līguma summu kā nenozīmotus ieņēmumus. Otra ieraksta puse ir nenobīdīto ieņēmumu korespondējošais konts. Izrakstot rēķinu debitoram, tiek atgriezti nenosummotie ieņēmumi un nenodzēsto ieņēmumu nobīde. Ieņēmumu atzīšana notiks rēķina izrakstīšanas laikā vai saskaņā ar iestatīto atliktā maksājuma atzīšanas grafiku.
+Šajā piemērā parādīts, kā izmantot nenosummotos ieņēmumus, lai bilancē atpazītu visu līguma summu kā nenozīmotus ieņēmumus. Ieraksta otra puse ir ieņēmumi vai atliktie ieņēmumi. Kad jūs klientam izrakstiet rēķinu, nenostādāmie ieņēmumi tiek atgriezti. Ieņēmumu atzīšana notiks rēķina izrakstīšanas laikā vai saskaņā ar iestatīto atliktā maksājuma atzīšanas grafiku.
 
 #### <a name="assumptions"></a>Pieņēmumi
 
@@ -149,49 +149,40 @@ Attiecībā uz versiju 10.0.27, tiek ieviests jauns konts, kad tiek lietoti neno
 4. Atlasiet **atlikto maksājumu noklusējuma** \> **veidni** un no 2. soļa pievienojiet krājumu uzturēšanas maksai un lineārā veidnei. Uzturēšanas maksas krājums tiks saistīts ar 36 mēnešu atlikto maksājumu grafiku.
 5. Izveidojiet norēķinu grafiku, kas ietver divas nenosācītas vienības. Rēķina grafiks līgumam ir iestatīts ar šādiem krājumiem.
 
-    | Krājums | Sākuma datums | Beigu datums | Summa | Norēķinu biežums | Atlikto maksājumu krājums | Rēķinos neiekļautie ieņēmumi | Apraksts |
+    | Krājums | Sākuma datums | Beigu datums | Apjoms | Norēķinu biežums | Atlikto maksājumu krājums | Rēķinos neiekļautie ieņēmumi | Apraksts |
     |---|---|---|---|---|---|---|---|
-    | Licence | 01. janvāris, KIR | 31. decembris KIR+2 | $100.00 | Reizi gadā | Nē | Jā | Debitoram katru gadu tiks izrakstīts $100.00 rēķins. Kopsumma $300.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi bilancē un kā peļņas un zaudējumu ieņēmumi. Katrs rēķins samazina nenosaisāmo summu. |
-    | Uzturēšana | 01. janvāris, KIR | 31. decembris KIR+2 | $30.00 | Reizi gadā | Jā | Jā | Debitoram katru gadu $30.00 rēķins. Kopsumma $90.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi un atliktie ieņēmumi bilancē. Katrs rēķins samazina nenosaisāmo summu. Atliktie ieņēmumi tiks atpazīti ik mēnesi 36 mēnešu laikā. |
+    | Licence | 2022. gada 01. janvāris | 2024. gada 31. decembris | $100.00 | Reizi gadā | Nē | Jā | Debitoram katru gadu tiks izrakstīts $100.00 rēķins. Kopsumma $300.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi bilancē un kā peļņas un zaudējumu ieņēmumi. Katrs rēķins samazina nenosaisāmo summu. |
+    | Uzturēšana | 2022. gada 01. janvāris | 2024. gada 31. decembris | $30.00 | Reizi gadā | Jā | Jā | Debitoram katru gadu $30.00 rēķins. Kopsumma $90.00 iepriekš tiks reģistrēta kā nenobīdāmie ieņēmumi un atliktie ieņēmumi bilancē. Katrs rēķins samazina nenosaisāmo summu. Atliktie ieņēmumi tiks atpazīti ik mēnesi 36 mēnešu laikā. |
 
 6. Lapā Visi **norēķinu grafiki** izmantojiet procesu Izveidot žurnāla ievadni, **lai** grāmatotu līguma vērtību bilancē kā nenozīmotus ieņēmumus.
 
 Tiek izveidoti divi žurnāla ieraksti– viens katrai norēķinu grafika rindai.
 
-| Rēķinos neiekļauto ieņēmumu konts | Rēķinā neiekļauts ieņēmumu korespondējošais konts | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| Rēķinos neiekļauto ieņēmumu konts | | $300.00 | |
-| | Rēķinā neiekļauts ieņēmumu korespondējošais konts | | $300.00 |
+| Konts | Debeta summa | Kredīta summa |
+|---|---|---|
+| Rēķinos neiekļauto ieņēmumu konts | $300.00 | |
+| Ieņēmumu konts | | $300.00 |
 
-| Rēķinos neiekļauto ieņēmumu konts | Atliktie ieņēmumi | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| Rēķinos neiekļauto ieņēmumu konts | | $90.00 | |
-| |Atliktie ieņēmumi no uzturēšanas | | $90.00 |
+| Konts | Debeta summa | Kredīta summa |
+|---|---|---|
+| Rēķinos neiekļauto ieņēmumu konts | $90.00 | |
+| Atliktie ieņēmumi | | $90.00 |
 
-Pirmais žurnāla ieraksts tiek grāmatots nenoslikto ieņēmumu korespondējošā kontā, bet otrais tiek grāmatots atlikto ieņēmumu kontā. Ja norēķinu rindai ir gan nenoslikti ieņēmumi, gan atliktie ieņēmumi, tiek izmantots atlikto ieņēmumu konts, nevis nenoslikto ieņēmumu korespondējošais konts. Līgumam ir nepieciešams, lai katra gada sākumā tiktu izveidots debitora rēķins. Izmantojiet Rēķinu **izveides procesu**, lai izveidotu rēķinu. Kad rēķins ir izveidots, tiek izveidoti šādi žurnāla ieraksti.
+Līgumam ir nepieciešams, lai katra gada sākumā tiktu izveidots debitora rēķins. Izmantojiet Rēķinu **izveides procesu**, lai izveidotu rēķinu. Kad rēķins ir izveidots, tiek grāmatots šāds rēķina dokuments.
 
-| Galvenais konts | Rēķinos neiekļauto ieņēmumu konts | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| Nenodzēsto ieņēmumu korespondējošais konts | | $100.00 | |
-| | Rēķinos neiekļauto ieņēmumu konts | | $100.00 |
-| Debitoru parādi | | $100.00 | |
-| | Ieņēmumu konts | | $100.00 |
+| Konts| Debeta summa | Kredīta summa |
+|---|---|---|
+| Rēķinos neiekļauto ieņēmumu konts | | $130.00 |
+| Debitori | $130.00 | |
 
-| Galvenais konts | Rēķinos neiekļauto ieņēmumu konts | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| Atliktās uzturēšanas ieņēmumu konts | | $30.00 | |
-| | Rēķinos neiekļauto ieņēmumu konts | | $30.00 |
-| Debitoru parādi | | $30.00 | |
-| | Atliktās uzturēšanas ieņēmumu konts | | $30.00 |
+Šo pašu žurnāla ierakstu izveidos rēķini, kas grāmatoti nākamo divu gadu sākumā. Nenodzēsto ieņēmumu konts katru gadu tiek samazināts rēķina **ģenerēšanas procesa** laikā. Nenobīdīto ieņēmumu korespondējošais konts tiek izmantots, lai līdzsvarotu nenodzēsto ieņēmumu kontu, ja tiek lietoti dažādi maiņas kursi. 
 
-Šo pašu žurnāla ierakstu izveidos rēķini, kas grāmatoti nākamo divu gadu sākumā. Atlikto ieņēmumu konta neto summa būs 0 (nulle), jo nav noapaļošanas vai maiņas kursa starpību. Atliktie ieņēmumi ir jāatgriež tieši tāpat, kā tas tika kreditēts Izveides žurnāla **ieraksta procesa** laikā. Tā kā ieņēmumi joprojām ir atlikti un tiks atpazīti vēlāk, atlikto ieņēmumu konta kredīts parādās vēlreiz.
+Pēdējā solī atpazīšanas žurnāla ieraksts tiek izveidots katru mēnesi, lai atpazītu atliktos ieņēmumus no uzturēšanas maksas. Žurnāla ierakstu var izveidot, izmantojot lapu **Atpazīšanas** apstrāde. Alternatīvi to var izveidot, atlasot **Atpazīt** atlikto maksājumu **grafika lapu rindām**.
 
-Pēdējā solī atpazīšanas žurnāla ieraksts tiek izveidots katru mēnesi, lai atpazītu atlikto uzturēšanas maksas ieņēmumus. Žurnāla ierakstu var izveidot, izmantojot lapu **Atpazīšanas** apstrāde. Alternatīvi to var izveidot, atlasot **Atpazīt** atlikto maksājumu **grafika lapu rindām**.
-
-| Atlikto ieņēmumu konts | Ieņēmumu konts | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| Atliktie ieņēmumi no uzturēšanas | | $2.50 | |
-| | Ieņēmumi no uzturēšanas | | $2.50 |
+| Galvenais konts | Debeta summa | Kredīta summa |
+|---|---|---|
+| Atliktie ieņēmumi | $2.50 | |
+| Ieņēmumi | | $2.50 |
 
 Šis žurnāla ieraksts tiks izveidots katru reizi, kad šim atliktam krājumam tiek palaists atpazīšanas process (kopā 36 reizes).
 
@@ -269,18 +260,18 @@ Tā kā abi krājumi izmanto nenos ieņēmumu un ieņēmumu sadalījumu, kopēj�
 
 Tabulā ir parādīts krājumu un rēķina sākotnējais žurnāla ieraksts.
 
-| Rēķinos neiekļauto ieņēmumu konts | Atlikto ieņēmumu konts | Debeta summa | Kredīta summa |
-|---|---|---|---|
-| **Krājuma 1000 žurnāla ieraksts** | | | |
-| Debeta nenodzēsto ieņēmumu konts (401250) | | $1,465.26 | |
-| | Atlikto kredīta ieņēmumu konts (250 600) | | $1,465.26 |
-| **Krājuma 0021 žurnāla ieraksts** | | | |
-| Debeta nenodzēsto ieņēmumu konts (401250) | | $274.74 | |
-| | Atlikto kredīta ieņēmumu konts (250 600) | | $274.74 |
-| **Rēķins** | | | |
-| | Kredīta nenodzēsto ieņēmumu konts | | $1,465.26 |
-| | Kredīta nenodzēsto ieņēmumu konts | | $274.74 |
-| Debeta debeta debeta konts (130100) | | $1,488.16 | |
+| Galvenais konts | Debeta summa | Kredīta summa |
+|---|---|---|
+| **Krājuma 1000 žurnāla ieraksts** | | | 
+| Nenodzēsto ieņēmumu konts (401250) | $1,465.26 | |
+| Atlikto ieņēmumu konts (250 600) | | $1,465.26 |
+| **Krājuma 0021 žurnāla ieraksts** | | | 
+| Nenodzēsto ieņēmumu konts (401250) | $274.74 | |
+| Atlikto ieņēmumu konts (250 600) | | $274.74 |
+| **Rēķins** | | |
+| Rēķinos neiekļauto ieņēmumu konts | | $1,465.26 |
+| Rēķinos neiekļauto ieņēmumu konts | | $274.74 |
+| Dev. konts (130 100) | $1,488.16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Izmaiņas norēķinu grafika rindā, norēķinu detalizētas informācijas rindā vai ieņēmumu sadalījumā
 

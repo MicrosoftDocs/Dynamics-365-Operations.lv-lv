@@ -1,5 +1,5 @@
 ---
-title: Izvietot IoT risinājumu azure lapā
+title: Izvietot IoT risinājumu pakalpojumā Azure
 description: Sensora datu informācija izmanto datus no sensoriem, kas ir pievienoti Microsoft Azure. Šajā rakstā ir izskaidrots, kā izvietot interneta lietas (IoT) risinājumu jūsu Azure abonementā.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429019"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643724"
 ---
-# <a name="deploy-an-iot-solution-on-azure"></a>Izvietot IoT risinājumu azure lapā
+# <a name="deploy-an-iot-solution-on-azure"></a>Izvietot IoT risinājumu pakalpojumā Azure
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -26,6 +26,14 @@ ms.locfileid: "9429019"
 Sensora datu informācija izmanto datus no sensoriem, kas ir pievienoti Microsoft Azure. Lai iespējotu Azure datus izgūt no sensoriem un koplietotu tos Dynamics 365 Supply Chain Management ar, Azure abonementā ir jāizvieto interneta interneta (IoT) risinājums. Šī arhitektūras diagramma sniedz risinājumu un tā komponentu apskatu.
 
 ![Sensora datu inteliģences arhitektūras diagramma.](media/sdi-architecture.png "Sensora datu inteliģences arhitektūras diagramma")
+
+## <a name="video-instructions"></a>Video instrukcijas
+
+Šajā video ir parādīts, kā [ieslēgt sensora datu informācijas līdzekli un](sdi-enable-feature.md) izvietot nepieciešamos Azure resursus. Šī raksta cita sadaļa sniedz tās pašas instrukcijas uz tekstu balstītā formātā.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>Procedūra
 
 Izpildiet šīs darbības, lai vietnē Azure izvietotu nepieciešamos resursus.
 

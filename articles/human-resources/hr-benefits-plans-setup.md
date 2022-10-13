@@ -2,7 +2,7 @@
 title: Atvieglojumu plāna izveide
 description: Šajā rakstā ir parādīts, kā iestatīt atvieglojumu plānus Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337344"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643942"
 ---
 # <a name="create-a-benefit-plan"></a>Izveidot atvieglojumu plānu
 
@@ -42,8 +42,9 @@ ms.locfileid: "9337344"
    | **Programma** | Norāda programmu, kam pēc izvēles piešķirt plānu. |
    | **Komplekts** | Norāda komplektu, kam pēc izvēles piešķirt plānu. |
    | **Šablons** | Norāda, vai plāns ir vispārējais plāns komplektā, kuram tas ir piešķirts. |
+   | **Obligāts** | Norāda, ka plāns ir jāatlasa, lai paņemtu jebkuru citu plānu saišķī. Kā Obligāts var atzīmēt vairākus **plānus**. Tādā gadījumā visi plāni, kas atzīmēti kā **Nepieciešami**, būs jāatlasa, lai paņemtu jebkuru no plāniem saišķī.|
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kurā plāns tik uzsākts. Noklusējuma vērtība ir pašreizējais sistēmas datums. |
-   | **Derīguma beigu datums un laiks** | Datums un laiks, kurā plāns tik pabaigts. Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad. |
+   | **Derīguma beigu datums un laiks** | Datums un laiks, kurā plāns tik pabaigts. Noklusējuma vērtība ir 12/31/2154, kas nozīmē nekad.  |
 
 4. Atkarībā no izveidojamā plāna veida cilnē **Konfigurācija** nosakiet vērtības tālāk minētajiem laukiem.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591855"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643745"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -104,7 +104,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Drošības rezerves | Vispārējie plāni ar drošības rezervi: *\#* | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) |  Tiek atbalstīts |
 | Drošības rezerves izpilde | Krājumu pārklājuma ieraksti ar atzīmi "Izpildīt minimālo", kas atšķiras no "Šodienas datuma + sagādes laiks": *\#* | Plānošanas optimizācija vienmēr izmanto *Šodienas datumu + sagādes laiku*. Šī izmaiņa tiek veikta, lai nākotnē sagatavotos vienkāršotai plānošanas iestatīšanai un sniegtu darbības rezultātu. Ja sagādes laiks nav iekļauts drošības krājumos, plānotie pasūtījumi, kas izveidoti pašreizējam ar zemu pieejamības līmeni esošajam krājumam, izpildes laika dēļ vienmēr tiks aizkavēti. Šī uzvedība var izraisīt ievērojamu troksni un nevēlamus plānotos pasūtījumus. Vislabākā prakse ir mainīt iestatījumu, lai tiktu izmantots *Šodienas datums + sagādes laiks*. Atjauniniet pamatdatus, lai izvairītos no brīdinājumiem. | Nav piemērojams |
 | Pārdošanas piedāvājumi | Vispārējie plāni ar iespējotiem pārdošanas piedāvājumiem: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumi netiek ņemti vērā, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 20 222 laidiena 2 vai jaunāka versija |
-| Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik glabāšanas laiks netiek ņemts vērā, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | Tiek atbalstīts |
+| Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: *\#* | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

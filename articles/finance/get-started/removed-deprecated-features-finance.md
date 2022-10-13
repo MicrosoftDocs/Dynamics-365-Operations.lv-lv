@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
 description: Šajā rakstā aprakstīti līdzekļi, kas ir noņemti vai kas ir ieplānoti noņemšanai no Dynamics 365 finansēm.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462306"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643799"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojuši līdzekļi programmā Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462306"
 
 > [!NOTE]
 > Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.31 laidienā
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>EDIFACT PAYMUL (AT) konfigurācija maksājuma modelī
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu formātu, kas ir balstīts uz ISO 20022. 001.001.09. | 
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visus |
+| **Statuss**                         | Novecojušas: bankas Austrijā nolietos EDICFACT-PAYMUL pārrobežu maksājumiem līdz 2022. gada novembrim, un tas tiks aizstāts ar XML versiju līdz 001.001.09N. Globālajā konfigurācijas repozitorijā ir pievienota jauna konfigurācija, kas lietotājiem ļauj izpildīt pārrobežu maksājumu pieprasījumu. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.30 laidienā
 

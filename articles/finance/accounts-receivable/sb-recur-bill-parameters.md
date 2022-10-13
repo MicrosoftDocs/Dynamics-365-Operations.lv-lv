@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903339"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644008"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Periodisko līguma norēķinu parametri
 
@@ -46,7 +46,8 @@ Izmantojiet lapu **Periodiskie līguma norēķinu parametri**, lai iestatītu no
 8. Laukā **Rēķina darbības** veids atlasiet noklusējuma rēķina darbības veidu jaunajiem norēķinu grafikiem.
 9. Iestatiet opciju Saskaņot **atlikto maksājumu uz norēķinu opciju** Uz **jā**, lai saskaņotu atbilstošo atlikto maksājumu grafiku tā, lai tam tiek izmantoti tādi paši datumi kā norēķinu grafikam. Iestatiet to uz **Nē,** lai datumi būtu atšķirīgi.
 10. Ja izmantojat ieņēmumu sadalīšanas iespēju, iestatiet opciju Automātiski **izveidot** **ieņēmumu sadalījumu uz Jā,** kad krājumi tiek pievienoti norēķinu grafikam. Ieņēmumu **sadalīšanas** izvēles rūtiņa tiks automātiski atzīmēta norēķinu grafika rindā, ja krājums ir iestatīts kā ieņēmumu sadalīts krājums. Iestatiet opciju Nē **,** ja vēlaties manuāli atzīmēt izvēles rūtiņu Ieņēmumu **sadalīšana**.
-11. Iestatiet laukus pārdošanas pasūtījuma izveidei:
+11. Lai norēķinu **grafikam varētu** izrakstīt rēķinus **dažādiem** debitoriem, iestatiet opciju Debitora sadalīšana kā Jā. Ja opcija ir iestatīta **uz** Jā **, norēķinu** grafika virsrakstā un norēķinu grafika rindā ir pieejama opcija Debitora sadalīšana. 
+12. Iestatiet laukus pārdošanas pasūtījuma izveidei:
 
     - Rēķinus var konsolidēt pēc perioda, debitora vai krājuma. Var iestatīt jebkādu **vērtību Jā** **un Nē** kombināciju. Rēķinus var arī sadalīt pēc krājumu grupas.
     - Rēķiniem ir pieejamas šādas grāmatošanas opcijas:
@@ -92,6 +93,9 @@ Izmantojiet lapu **Periodiskie līguma norēķinu parametri**, lai iestatītu no
     - **Izsniegt kredītu** - izveidojiet kredīta notu, kad tiek pārtraukts norēķinu grafiks vai norēķinu grafika rinda.
     - **Kredīta korekcija** - izveidojiet kredīta korekciju norēķinu grafikam, ja rinda ir izbeigta. Kredīta korekcija tiek parādīta norēķinu grafika nākamajā norēķinu periodā. Kredīta korekcija atjauninās rēķina summu nākamajam norēķinu periodam, līdz kredīts ir pabeigts norēķinu grafikam.
     - **Nav kredīta** - neveidojiet kredīta korekciju vai kredīta notu, ja tiek pārtraukts norēķinu grafiks vai norēķinu grafika rinda. Šī opcija ir pieejama tikai tad, kad opcija **Nav korekcijas** tiek izmantota, lai pārtrauktu rēķinu izrakstīšanas grafiku.
+18. Ja opcija **Vienreizējs** **·** **var** pārtraukt darba attiecības ar atmaksu ir iestatīta uz Nē un norēķinu grafiks ar norēķinu biežumu Vienreizējs, **norēķinu** grafika rindas statuss mainās uz Pārtraukts pēc norēķinu grafika rēķina izrakstīšanas. Šo norēķinu grafiku nevar pārtraukt, un nevar izsniegt kredītu. Ja **vienreizēji var** **·** **·** **pārtraukt** darba attiecības ar atmaksu, ir iestatīts uz Jā, rēķinu grafika rindai ar norēķinu biežumu Viens laiks būs Aktīvs statuss pēc rēķina izrakstīšanas grafika. Norēķinu grafika rindu var pārtraukt un veikt atmaksu. 
+19. Parametros **iestatītā** ikdienas opcija Automātiski pārtraukt darba attiecību pārtraukšanas tiks iestatīta uz masveida darba attiecību pārtraukšanas lapu un norēķinu grafika virsrakstu un rindu pārtraukšanas dialogiem. To var mainīt atbrīvošanas procesa laikā. Ja iestatījums ir **Jā**, tad atmaksas summa tiks aprēķināta, izmantojot dienas likmi. Ja iestatījums ir **Nē**, tas tiks kreditēts, pamatojoties uz darba attiecību pārtraukšanas datumu un norēķinu biežumu. Piemēram, ja izmantojat Mēneša biežumu un rēķina summa tika $100 mēnesim, kredīta summa tiek palielināta $100. Ja norēķinu biežums ir Vienreizējs, kredīta summa tiek $0.00. Lai saņemtu atmaksu par vienreizējo norēķinu biežumu, ikdienas likmei jābūt Iestatītai kā Jā. 
+20. Lai **izveidotu jaunu atlikto maksājumu grafiku**, kredīta opcijai **izveidot** atlikto maksājumu iestatiet vērtību Izveidot atlikto maksājumu kā Jā, ja kreditēsit esošo atlikto maksājumu grafiku. Atstājiet opciju iestatītu uz **Nē**, lai izveidotu kredītu esošajā atlikto maksājumu grafikā.
 
 ## <a name="sequence-number-tab"></a>Cilne Secības numurs
 

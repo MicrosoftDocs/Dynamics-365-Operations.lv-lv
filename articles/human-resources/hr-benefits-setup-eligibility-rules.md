@@ -2,7 +2,7 @@
 title: Piemērotības kārtulu un opciju konfigurēšana
 description: Šajā rakstā ir aprakstīts, kā iestatīt piemērotības nosacījumus un opcijas Microsoft atvieglojumu pārvaldībā Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337341"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644089"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana 
 
@@ -175,6 +175,7 @@ Komplekti ir saistītu atvieglojumu plānu kopa. Varat izmantot atvieglojumu kom
    | **Saišķis** | Komplekta unikālais identifikators. |
    | **Apraksts** | Komplekta apraksts. |
    | **Šablons** | Norāda, vai viens no komplekta plāniem ir jāatzīmē kā galvenais plāns. Galveno plānu ir jāatlasa atvērtās reģistrācijas laikā kā daļu no komplekta, pirms atvieglojumu administrators var apstiprināt darbinieka atvieglojumu izvēli. |
+   | **Obligāts**| Norāda, ka plāns ir jāatlasa, lai paņemtu jebkuru citu plānu saišķī. Kā Obligāts var atzīmēt vairākus **plānus**. Tādā gadījumā visi plāni, kas atzīmēti kā **Nepieciešami**, būs jāatlasa, lai paņemtu jebkuru no plāniem saišķī.|
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kad komplekts kļūst aktīvs. |
    | **Derīgs līdz** | Komplekta darbības beigu termiņš. Pēc noklusējuma tas ir 12/31/2154, kas nozīmē "nekad". |
 

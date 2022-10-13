@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882900"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643911"
 ---
 # <a name="request-time-off"></a>Brīvā laika pieprasīšana
 
 >[!Important]
->Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem atsevišķi Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
+>Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā programmā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,6 +63,10 @@ Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Jūs va
 2. Lai skatītu jūsu apstiprinātos pieprasījumus par izslēgto laiku, atlasiet **Apstiprināts laiks izslēgts**. Lai skatītu gaidošos pieprasījumus par izslēgtajiem laika pieprasījumiem, atlasiet pieprasījumus **, kas izslēdz laiku**.
 
 ## <a name="cancel-time-off-requests"></a>Atcelt pieprasījumus par noikstāmo laiku
+
+>[!NOTE] 
+> **Atceliet laiku**, kas ir pieejams, ja **līdzeklim Līdzekļa pārvaldības darbvietā ir iespējoti funkcionalitātes** pieprasījumu darbplūsmas **pieredzes** uzlabojumi.  
+
 
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Skatīt brīvo laiku** rūtī **Brīvā laika bilances**.
 

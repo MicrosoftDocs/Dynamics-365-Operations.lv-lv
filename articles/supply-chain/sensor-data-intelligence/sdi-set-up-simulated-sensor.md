@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: edfa20bec7438124844f8b6afa91ca4941b6bb56
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: dc8bd020a53214abab28ec51ffc6d6be74979932
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429013"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643981"
 ---
 # <a name="set-up-a-simulated-sensor-for-testing"></a>Iestatīt simulētu sensoru testēšanas veikšanai
 
@@ -24,6 +24,12 @@ ms.locfileid: "9429013"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Ja vēlaties pārbaudīt sensora datu informāciju, neinstalējot jebkādus fiziskus sensorus, varat izmantot Simulatora PI Azure IoT tiešsaistes simulatora *pakalpojumu,* lai uzcenotu sensora signālus un sūtītu tos uz interneta darbību internetam (IoT)Microsoft Azure. Papildinformāciju par simulatoru skatiet sadaļā [Abonementa Krājuma Pi tiešsaistes simulatora savienošana ar Azure IoT hub (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started).
+
+## <a name="video-instructions"></a>Video instrukcijas
+
+Šajā video parādīts, kā iestatīt simulētu sensoru testēšanai. Pārējās šī raksta sadaļas sniedz tās pašas instrukcijas uz tekstu balstītā formātā.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE588g6]
 
 ## <a name="create-a-device-in-azure-iot-hub"></a>Izveidot ierīci azure Iot hub
 

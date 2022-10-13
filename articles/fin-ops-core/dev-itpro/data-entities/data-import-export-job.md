@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357609"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671463"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -64,6 +64,9 @@ Importēšanas vai eksportēšanas darbiem varat pievienot konkrētus elementus 
 
 ### <a name="set-the-data-format-for-the-job"></a>Darba datu formāta iestatīšana
 Kad atlasāt kādu elementu, ir jāatlasa formāts tiem datiem, kas tiks eksportēti vai importēti. Formātus jūs definējat, izmantojot elementu **Datu avotu iestatīšana**. Avota datu formāts sastāv no atribūtiem **Tips**, **Faila formāts**, **Rindas norobežotājs** un **Kolonnas norobežotājs**. Pastāv arī citi atribūti, bet minētie ir vissvarīgākie. Sekojošajā tabulā ir minētas derīgās kombinācijas.
+
+> [!NOTE]
+> Excel faila formāts pašlaik nav pieejams valdības kopienas mākoņa (GCC) datu pārvaldības darbvietā.
 
 | Faila formāts            | Rindas/kolonnas norobežotājs                       | XML stils                 |
 |------------------------|--------------------------------------------|---------------------------|
