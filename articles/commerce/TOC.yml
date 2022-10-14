@@ -394,6 +394,8 @@
                   items:
                     - name: Store Commerce programma
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce programma mobilajām platformām
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS migrēšana uz Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Ierīces pārvaldības ieviešanas vadlīnijas
