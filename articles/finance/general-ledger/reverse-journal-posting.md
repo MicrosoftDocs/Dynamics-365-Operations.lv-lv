@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284857"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680389"
 ---
 # <a name="reverse-journal-posting"></a>Apgrieztā žurnāla grāmatošana
 
@@ -37,7 +37,7 @@ Pirms varat lietot vienu no šajā rakstā aprakstītajām funkcijām, sistēmā
 Varat stornēt žurnāla rindas atsevišķi. Ar stornēto žurnāla grāmatošanu, var arī stornēt visu finanšu žurnālu. Stornēt žurnālu: 
 
 - Filtrēt grāmatotos žurnālus un atvērt žurnālā skatu **Rindas**.
-- Atlasiet **Stornēt** izvēlnes lapas augšdaļā.
+- **Atlasiet izvēlni Atgriezt** visu žurnālu lapas augšpusē.
 - Jūs redzēsiet kopējo dokumentu un dokumentu rindu skaitu, kā arī kopējo stornēto rindu daudzumu.
 - Atlasiet **Jā**, lai izmantotu esošos darbību datumus, vai **Nē**, lai ievadītu jaunu datumu. Dažos gadījumos sākotnējās darbības periods var būt slēgts, un jums vajadzēs ievadīt jaunu darbības datumu stornēšanai.
 - Ja jūs atlasījāt **Nē**, ievadiet darbības datumu stornēšanai. 

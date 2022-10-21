@@ -2,7 +2,7 @@
 title: Darba sākšana ar nodokļu aprēķinu
 description: Šajā rakstā skaidrots, kā iestatīt nodokļu aprēķinu.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573310"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690388"
 ---
 # <a name="get-started-with-tax-calculation"></a>Darba sākšana ar nodokļu aprēķinu
 
@@ -124,6 +124,10 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
 7. Dodieties uz **Nodokļu datu modelis**, izvērsiet failu koku un pēc tam atlasiet **Nodokļu konfigurācija**.
 8. Atlasiet pareizu nodokļu [konfigurācijas versiju, pamatojoties](global-tax-calcuation-service-overview.md#versions) uz finanšu versiju, un pēc tam atlasiet **Importēt**.
 9. Darbvietā **Globalizācijas līdzekļi**, atlasiet **Līdzekļi**, atlasiet elementu **Nodokļu aprēķins** un pēc tam atlasiet **Pievienot**.
+
+    > [!NOTE]
+    > Versijā 10.0.26 **vai jaunākā versijā varat importēt demonstrācijas funkciju JURIDISKĀm personām PARA**! Plašāku informāciju skatiet līdzekļa [demonstrācijas datu importēšana](tax-calculation-import-export-feature.md).
+
 10. Atlasiet vienu no šiem līdzekļu tipiem:
 
     - **Jauns līdzeklis** – izveidojiet līdzekļa iestatījumu, kam ir tukšs saturs.
@@ -154,8 +158,8 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
     - **Kreditora nodokļu reģistrācijas numura piemērojamība** — ja vienam kreditoram ir vairāki nodokļa reģistrācijas numuri, nodokļu aprēķins var automātiski noteikt pareizo nodokļa reģistrācijas numuru. Šīs cilnes matricā definējiet nosacījumus, kurus jāizmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma nodokļa reģistrācijas numuru pirkšanas darbībām.
     - **Saraksta koda piemērojamība** — automātiski nosaka lauka **Saraksta kods** vērtību, izmantojot elastīgākus un konfigurējamus noteikumus. Šīs cilnes matricā definējiet nosacījumus, kurus jāizmanto, lai veiktu noteikšanu. Pretējā gadījumā Finance un Supply Chain Management turpinās izmantot ar nodokli apliekamo dokumentu noklusējuma kodu.
 
-14. Cilnē **Nodokļu kodi** atlasiet **Pievienot** un ievadiet nodokļa kodu un aprakstu.
-15. Atlasiet **Nodokļa komponents**. Nodokļa komponents ir metožu grupa, kas definēta atlasītās nodokļu konfigurācijas iepriekšējā versijā. Pieejami tālāk norādītie nodokļu komponenti.
+15. Cilnē **Nodokļu kodi** atlasiet **Pievienot** un ievadiet nodokļa kodu un aprakstu.
+16. Atlasiet **Nodokļa komponents**. Nodokļa komponents ir metožu grupa, kas definēta atlasītās nodokļu konfigurācijas iepriekšējā versijā. Pieejami tālāk norādītie nodokļu komponenti.
 
     - Pēc neto summas
     - Pēc bruto summas
@@ -163,8 +167,8 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
     - Pēc rezerves
     - Nodoklis no nodokļa
 
-16. Atlasiet **Saglabāt**. Vairāk lauku kļūst pieejami, balstoties uz atlasīto nodokļu sastāvdaļu.
-17. Lai identificētu nodokļa koda būtību, lietojiet šādas opcijas:
+17. Atlasiet **Saglabāt**. Vairāk lauku kļūst pieejami, balstoties uz atlasīto nodokļu sastāvdaļu.
+18. Lai identificētu nodokļa koda būtību, lietojiet šādas opcijas:
 
     - Ir atbrīvots
     - Ir Importa nodoklis
@@ -179,8 +183,8 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
 
     Uzturējiet nodokļu likmes un nodokļu summas ierobežojumus šim nodokļu kodam.
 
-18. Atkārtojiet 14.-17. darbību, lai pievienotu visus citus nepieciešamos nodokļu kodus.
-19. Cilnē **Nodokļu grupa** atlasiet kolonnu **Nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
+19. Atkārtojiet 15.-18. darbību, lai pievienotu visus citus nepieciešamos nodokļu kodus.
+20. Cilnē **Nodokļu grupa** atlasiet kolonnu **Nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
 
     Tālāk ir minēts piemērs.
 
@@ -191,7 +195,7 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Cilnē **Krājumu nodokļu grupa** atlasiet kolonnu **Krājumu nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
+21. Cilnē **Krājumu nodokļu grupa** atlasiet kolonnu **Krājumu nodokļu grupa**, pievienojiet to matricai kā ievades nosacījumu un pēc tam pievienojiet rindas, lai uzturētu nodokļu grupas pamatdatus.
 
     Tālāk ir minēts piemērs.
 
@@ -200,7 +204,7 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
     | Pilns           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Samazināts        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Cilnē **Nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizās nodokļu grupas noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota PVN grupa transakciju rindā.
+22. Cilnē **Nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizās nodokļu grupas noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota PVN grupa transakciju rindā.
 
     Tālāk ir minēts piemērs.
 
@@ -214,7 +218,7 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
     > [!NOTE]
     > Ja nodokļu dokumenta rindās noklusētā PVN grupa ir pareiza, atstājiet šo matricu tukšu. Papildinformāciju skatiet šī raksta [izpildlaika](#runtime) dizaina sadaļā.
 
-22. Cilnē **Krājumu nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļu koda noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Krājumu nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota krājumu PVN grupa transakciju rindā.
+23. Cilnē **Krājumu nodokļu grupas piemērojamība** atlasiet kolonnas, kas ir nepieciešamas pareizā nodokļu koda noteikšanai, un pēc tam atlasiet **Pievienot**. Ievadiet vai atlasiet vērtības katrai kolonnai. Lauks **Krājumu nodokļu grupa** būs šīs matricas rezultāts. Ja šī cilne netiek konfigurēta, tiks izmantota krājumu PVN grupa transakciju rindā.
 
     Tālāk ir minēts piemērs.
 
@@ -228,10 +232,10 @@ Pirms varat izpildīt atlikušās šajā rakstā norādītās procedūras, ir j�
 
     Papildinformāciju par to, kā nodokļu aprēķinā tiek noteikti nodokļu kodi, skatiet sadaļā [PVN grupas un krājuma PVN grupas noteikšanas loģika](global-sales-tax-group-determination.md).
 
-23. Iestatiet debitora nodokļu reģistrācijas numuru, kreditora nodokļa reģistrācijas numuru un sarakstu kodu piemērojamību, pamatojoties uz uzņēmējdarbības vajadzībām.
-24. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
-25. Atlasiet **Mainīt statusu** \> **Pabeigts**. Kad statuss ir mainīts uz **Pabeigts**, versiju vairs nevar rediģēt.
-26. Atlasiet **Mainīt statusu** \> **Publicēt**. Šī nodokļu līdzekļa iestatīšanas versija tiks novirzīta uz globālo repozitoriju un būs redzama katrai Finance juridiskajai personai.
+24. Iestatiet debitora nodokļu reģistrācijas numuru, kreditora nodokļa reģistrācijas numuru un sarakstu kodu piemērojamību, pamatojoties uz uzņēmējdarbības vajadzībām.
+25. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+26. Atlasiet **Mainīt statusu** \> **Pabeigts**. Kad statuss ir mainīts uz **Pabeigts**, versiju vairs nevar rediģēt.
+27. Atlasiet **Mainīt statusu** \> **Publicēt**. Šī nodokļu līdzekļa iestatīšanas versija tiks novirzīta uz globālo repozitoriju un būs redzama katrai Finance juridiskajai personai.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Nodokļu aprēķina iestatīšana Dynamics 365
 

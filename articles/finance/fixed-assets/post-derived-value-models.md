@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722693"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682912"
 ---
 # <a name="post-with-derived-books"></a>Grāmatošana, izmantojot atvasinātās grāmatas
 
@@ -34,7 +34,7 @@ Grāmatojot darbības grāmatai, kurā iekļautas atvasinātās grāmatas, atvas
 -   Uz darbības tipu var attiekties arī citas vērtības. Piemēram, ja primārajai grāmatai un atvasinātajām grāmatām ir vienādi pārdošanas vai izslēgšanas intervāli, visi pamatlīdzekļu darbību tipi ir pieejami atvasinātās grāmatas iestatīšanai.
 
 > [!WARNING]
-> Atvasinātajā grāmatā iegrāmatotā nolietojuma summa ir tāda pati kā primārajā grāmatā iegrāmatotā summa. Ja nolietojuma metodes atšķiras starp grāmatām, nedrīkst ģenerēt nolietojuma darbības, lietojot atvasinātu procesu. |
+> Atvasinātajā grāmatā iegrāmatotā nolietojuma summa ir tāda pati kā primārajā grāmatā iegrāmatotā summa. Ja nolietojuma metodes atšķiras starp grāmatām, nedrīkst ģenerēt nolietojuma darbības, lietojot atvasinātu procesu. 
 
 ## <a name="example"></a>Paraugs 
 Tālāk sniegtajā informācijā ir aprakstīts, kā iestatīt iegādes darbības, izmantojot atvasinātās grāmatas funkcionalitāti.

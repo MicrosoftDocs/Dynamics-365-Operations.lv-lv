@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269410"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689465"
 ---
 # <a name="vat-declaration-germany"></a>PVN deklarācija (Vācija)
 
@@ -198,7 +198,8 @@ Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN dekl
 
    Šis formāts tiek drukāts, kad darbināt pārskatu **par PVN maksājumu perioda pārskatam**. To var drukāt arī tad, ja PVN **maksājumu** lapā **atlasāt** Drukāt.
 
-4. **Lapā Nodokļu iestādes** atlasiet nodokļu iestādi un pēc tam laukā Pārskata izkārtojums **atlasiet** Noklusējuma **·**.
+4. Ja jāsniedz labojumu pārskats, sadaļā Īpašais **pārskats iestatiet Iekļaut labojumus** uz **Jā** **.**
+5. **Lapā Nodokļu iestādes** atlasiet nodokļu iestādi un laukā Pārskata izkārtojums **atlasiet** Noklusējuma **·**.
 
 Ja jūs konfigurējat PVN deklarāciju juridiskajā persona, kam ir vairākas [PVN reģistrācijas](emea-reporting-for-multiple-vat-registrations.md), sekojiet šiem soļiem:
 

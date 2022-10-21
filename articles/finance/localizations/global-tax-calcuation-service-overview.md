@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: cafc4c7089e0c042fc65c1e3fd21f8f1e930b785
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465171"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689889"
 ---
 # <a name="tax-calculation-overview"></a>Nodokļu aprēķina pārskats
 
@@ -74,6 +74,7 @@ Mēs iesakām jums importēt un iestatīt nodokļu aprēķina konfigurāciju ar 
 
 | Finanšu vai piegādes ķēdes pārvaldības versija | Nodokļu konfigurācijas versija               |
 | --------------- | --------------------------------------- |
+| 10.0.31         | Nodokļu aprēķina konfigurācija 40.56.240 |
 | 10.0.30         | Nodokļu aprēķina konfigurācija 40.55.239 |
 | 10.0.29         | Nodokļu aprēķina konfigurācija 40.55.236 |
 | 10.0.28         | Nodokļu aprēķina konfigurācija 40.54.234 |
@@ -112,11 +113,11 @@ Nodokļu aprēķinu var palaist ar atbalstītām lokalizācijas funkcijām. Šaj
 
 | Versija | Valsts/reģions |
 |---------|----------------|
-| 10.0.26 | — Ķīnāā <br>- Čehijas Republika<br>- Spānija |
+| 10.0.26 | -Ķīna <br>-Čehija<br>-Spānija |
 | 10.0.24 | Meksika |
-| 10.0.23 | - Taizeme <br>- Japāna <br>- Malaizija <br>- Singapūra |
-| 10.0.22 | - Austrālija<br>- Bahreina <br>- Kanāda<br>- Ēģipte <br>– Honkongas īpašās pārvaldes apgabals (SAR) <br>- Kuveita <br>— Jaunzēlande <br>- Omāna <br>- Katara <br>- Saūda Arābu <br>- Dienvidāfrika <br>- Apvienotie Arābu Emirāti |
-| 10.0.21 | - Austrija <br>- Beļģija <br>- Dānija <br>- Igaunija <br>- Somija <br>- Francija <br>- Vācija <br>- Ungārija <br>- Islande <br>- Īrija <br>- Itālija <br>- Latvija <br>- Lietuva <br>- Nīderlande <br>- Norvēģija <br>- Polija <br>- Zviedrija <br>- Šveice <br>- Apvienotā Karaliste <br>- ASV |
+| 10.0.23 | -Taizeme <br>-Japāna <br>-Malaizija <br>-Singapūra |
+| 10.0.22 | -Austrālija<br>-Bahreina <br>-Kanāda<br>-Ēģipte <br>– Honkongas īpašās pārvaldes apgabals (SAR) <br>-Kuveita <br>-Jaunzēlande <br>-Omāna <br>-Katara <br>- Saūda Arābu <br>-Dienvidāfrikas Republika <br>- Apvienotie Arābu Emirāti |
+| 10.0.21 | -Austrija <br>-Beļģija <br>-Dānija <br>-Igaunija <br>-Somija <br>-Francija <br>-Vācija <br>-Ungārija <br>-Islande <br>-Īrija <br>-Itālija <br>-Latvija <br>-Lietuva <br>-Nīderlande <br>-Norvēģija <br>-Polija <br>-Zviedrija <br>-Šveice <br>- Apvienotā Karaliste <br>-Amerikas Savienotās Valstis |
 
 Jebkurai valstij/reģionam, ko nav lokalizēts korporācija Microsoft, nodokļu aprēķinu var iespējot un palaist arī ar citiem globāliem līdzekļiem.
 

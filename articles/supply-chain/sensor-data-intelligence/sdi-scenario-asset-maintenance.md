@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644062"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689405"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Līdzekļa uzturēšanas scenārijs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Līdzekļu *uzturēšanas scenārijā* varat izmantot sensora datus, lai izveidotu skaitītāju ierakstus. Skaitītāja ieraksti izseko iekārtas pamatlīdzekļa izmantošanu un tiek izmantoti kā ievade, lai ģenerētu mašīnu līdzekļu uzturēšanas grafiku.
 
@@ -115,6 +116,9 @@ Kad dati ir sagatavoti un *līdzekļa* uzturēšanas scenārijs ir konfigurēts 
 1. Dodieties uz **Visi \> pamatlīdzekļi, kas \> atrodas pamatlīdzekļu pārvaldībā**.
 1. Atrodiet un atlasiet līdzekli, kuru vēlaties pārbaudīt. (Ja izmantojat demonstrācijas datus, ko iepriekš izveidojāt šajā rakstā, atlasiet *AK-101*.)
 1. Darbību rūtī, uz **cilnes** Pamatlīdzeklis **grupā** **Preventīvs izvēlieties Skaitītāji,** lai atvērtu lapu skaitītāja ierakstiem pamatlīdzeklim *AK-101*.
+
+> [!NOTE]
+> Skaitītāja ieraksti pēc noklusējuma tiek konfigurēti ievietošanai ik pēc trim stundām, tas nozīmē, ka šajā intervālā tiks uzkrāti sensora dati. Varat mainīt intervālu, rediģējot vaicājumu Azure Stream Analytics komponentā.
 
 ### <a name="generate-maintenance-work-orders"></a>Ģenerēt uzturēšanas darba pasūtījumus
 

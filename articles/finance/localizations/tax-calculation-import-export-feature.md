@@ -2,7 +2,7 @@
 title: Importa un eksporta nodokļu aprēķini
 description: Šajā rakstā ir sniegta informācija par nodokļu aprēķināšanas pakalpojuma importa un eksporta funkcionalitāti.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855178"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690238"
 ---
 # <a name="import-and-export-tax-calculations"></a>Importa un eksporta nodokļu aprēķini
 
@@ -98,3 +98,21 @@ Lejupielādētā Excel darblapa ietver nodokļu grupas piemērojamības **režģ
 2. RCS nodokļu **aprēķina** **līdzekļu** lapas cilnē Nodokļu grupas piemērojamība atlasiet Pievienot, **·** **lai ievietotu tukšu ierakstu režģa Iestatīt nodokļu grupu piemērojamību apakšā.**
 3. Atlasiet **Ctrl+V**, lai ielīmētu režģī kopētās rindas.
 4. Atlasiet **Saglabāt**.
+
+## <a name="import-feature-demo-data"></a>Importēt līdzekļu demonstrācijas datus
+
+Sekojiet šiem soļiem, lai importētu līdzekļu demonstrācijas datus.
+
+1. Pierakstieties [RCS](https://marketing.configure.global.dynamics.com/).
+2. Darbvietā **Globalizācijas** līdzekļi atlasiet Līdzekļi **un** pēc tam atlasiet elementu **Nodokļu** aprēķins.
+3. Atlasiet **Importēt** un pēc tam lapā Importēt no **globālā repozitorija** atlasiet **Sinhronizēt**. 
+4. Tabulā atlasiet nodokļu aprēķina funkcijas-demonstrācijas **datu** funkciju un pēc tam atlasiet **Importēt**.
+5. Atlasiet **Skatīt**, lai pārskatītu importētā līdzekļa definētos nodokļu kodus, grupas un piemērojamības noteikumus.
+6. Finansēs pārejiet uz LEGALF juridisko **personu un pēc tam dodieties uz nodokļu iestatījumu** **·**\> nodokļa **·**\> konfigurācijas **nodokļa**\> aprēķina parametriem.**·**
+7. Cilnē Vispārīgi **atlasiet** Iespējot nodokļu **aprēķināšanas pakalpojumu**.
+8. Līdzekļa **iestatījuma** nosaukuma laukā **atlasiet nodokļu aprēķina funkciju-demonstrācijas datus**.
+9. Atlasiet apmaksas **periodu un** Virsgrāmatas grāmatošanas **grupu jaunajiem** demonstrācijas nodokļu kodiem un pēc tam atlasiet **Apstiprināt**.
+10. Atlasiet **Saglabāt**.
+
+> [!NOTE]
+> Nodokļu **aprēķina funkciju-demonstrācijas datu demonstrācijas** **funkcija ir balstīta uz funkcionalitātes versijas versiju 40.54.234** **un izveidotaZĒF** demonstrācijas juridiskajai personai. Pārliecinieties, ka Finanses un RCS ir jauninātas uz versiju 10.0.26 vai jaunāku versiju.

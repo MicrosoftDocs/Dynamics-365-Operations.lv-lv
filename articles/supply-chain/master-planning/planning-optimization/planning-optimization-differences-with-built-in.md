@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
+ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520847"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680013"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Papildinformāciju skatiet sadaļā Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju
 
@@ -34,11 +34,12 @@ Optimizācijas optimizācijas rezultāti var atšķirties no iebūvētās vispā
 | Atgrieztie pasūtījumi | Atgriešanas pasūtījumi netiek izskatīti. |
 | Ar plānošanu saistītās funkcijas | Papildinformāciju skatiet sadaļā [Plānošana ar neierobežotu noslodzi](infinite-capacity-planning.md#limitations). |
 | Drošības rezerves izpilde | Plānošanas optimizācija vienmēr lieto opciju *Šodienas datums + iepirkuma laiks* lapas **Krājumu segums** laukā **Izpildīt minimumu**. Tādējādi var novērst nevēlamus plānotos pasūtījumus un citas problēmas, ja sagādes laiks nav iekļauts drošības krājumos, plānotie pasūtījumi, kas izveidoti pašreizējam ar zemu pieejamības līmeni esošajam krājumam, izpildes laika dēļ vienmēr tiks aizkavēti. |
-| Drošības rezerves piesaiste un neto prasības | Prasības tips *Drošības rezerve* nav iekļauts un netiek rādīts lapā **Neto prasības**. Drošības rezerve neatspoguļo pieprasījumu, un ar to nav saistīts prasības datums. Tā vietā tā nosaka ierobežojumu tam, cik daudz krājumam ir jābūt vienmēr klātesošam. Taču lauka **Minimums** vērtība joprojām tiek ņemta vērā, aprēķinot plānotos pasūtījumus galvenās plānošanas laikā. Iesakām pārbaudīt **Uzkrātā daudzuma** kolonnu lapā **Neto prasības**, lai redzētu, vai šī vērtība tika ņemta vērā. |
+| Drošības rezerves piesaiste un neto prasības | Prasības tips *Drošības rezerve* nav iekļauts un netiek rādīts lapā **Neto prasības**. Drošības rezerve neatspoguļo pieprasījumu, un ar to nav saistīts prasības datums. Tā vietā tā nosaka ierobežojumu tam, cik daudz krājumam ir jābūt vienmēr klātesošam. Taču lauka **Minimums** vērtība joprojām tiek ņemta vērā, aprēķinot plānotos pasūtījumus galvenās plānošanas laikā. Iesakām pārbaudīt **Uzkrātā daudzuma** kolonnu lapā **Neto prasības**, lai redzētu, vai šī vērtība tika ņemta vērā. Tā kā piesaiste atšķiras, var tikt ieteiktas dažādas darbības. |
 | Transportēšanas kalendārs | Vērtība lapā **Piegādes režīmi** kolonnā **Transportēšanas kalendārs** tiek ignorēta. |
 | Min./maks. vajadzību kods bez vērtībām| Ar iebūvēto plānošanas programmu, kad izmantojat min/maks. seguma kodu, kur nav iestatītas minimālās vai maksimālās vērtības, plānošanas programma apstrādā seguma kodu kā prasību un izveido vienu pasūtījumu katrai prasībai. Ar plānošanas optimizāciju sistēma izveidos vienu pasūtījumu dienā, lai segtu pilnu šīs dienas summu.  |
 | Neto vajadzības un manuāli izveidoti plānotie pasūtījumi | Ar iebūvēto plānošanas programmu manuāli izveidoti piegādes pasūtījumi krājumam automātiski parādās starp šī krājuma neto prasībām. Piemēram, veidojot pirkšanas pasūtījumu no pārdošanas pasūtījuma, pirkšanas pasūtījums tiek parādīts **Neto prasību lapā**, neprasot iepriekšējas darbības. Tas ir tāpēc, ka iebūvētā plānošanas programma reģistrē krājumu `inventLogTTS`**darbības tabulā un parāda izmaiņas dinamisko plānu** neto prasību lapā. Tomēr, izmantojot plānošanas optimizāciju, manuāli izveidotie pasūtījumi neparādīsies starp krājuma neto prasībām līdz plānošanas optimizācijas palaišanai (izmantojot plānu, kas ietver krājumu) **\>** **vai** līdz brīdim, kad atlasīsiet Atjaunināt vispārējo plānošanu darbību rūtī neto prasību lapā, kas izpildīs krājuma vispārējo plānošanu. Papildinformāciju par to, kā strādāt ar neto **prasību lapu**, skatiet sadaļā [Neto prasības un piesaistes informācija par plānošanas optimizāciju](net-requirements.md). |
 | Resursu piešķire | Strādājot ar neierobežoto noslodzi, iebūvētā vispārējās plānošanas programma piešķir visus plānotos pasūtījumus tam pašam resursam attiecīgajā resursu grupā. Plānojot optimizāciju, tiek uzlaboti šie resursi, atlasot resursus nejaušā secībā, tāpēc dažādos ražošanas pasūtījumos var izmantot dažādus resursus. Ja visiem plānotajiem pasūtījumiem vēlaties izmantot vienu un to pašu resursu, maršrutā jānorāda šis resurss. |
+| Paplašinātie datu tipi (EDT) | Plānošanas optimizēšana neatbalsta EDT precizitātes izmaiņas. Piemēram, ja preču daudzuma precizitāti paplašināsiet no divām decimālzīmēm (noklusējuma vietas) līdz četrām, optimizācijas plānošana joprojām izmantos tikai divas decimāldaļas vietas. |
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 62e06f2348ca3524beaaef5d8879c199db56696f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520755"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689288"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Izlaiduma Dynamics 365 Supply Chain Management 10.0.29 priekšskatījums (2022. gada oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.29 (2022. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft priekšskatījuma Dynamics 365 Supply Chain Management versijā 10.0.29. Šai versijai ir ražošanas numuru 10.0.1326 un tā ir pieejama šajā grafikā:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.29. Šai versijai ir ražošanas numuru 10.0.1326 un tā ir pieejama šajā grafikā:
 
 - **Laidiena priekšskatījums:** 2022. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2022. gada septembris

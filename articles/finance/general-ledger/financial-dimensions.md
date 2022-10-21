@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849994"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680363"
 ---
 # <a name="financial-dimensions"></a>Finanšu dimensijas
 
@@ -84,7 +84,7 @@ Lai palīdzētu uzturēt atsauču datu integritāti, finanšu dimensijas dzēst 
 Ja finanšu dimensija atbilst kādam no šiem kritērijiem, tad šo finanšu dimensiju nevar izdzēst.
 
 > [!NOTE]
-> Sākot ar finanšu versiju 10.0.27, finanšu dimensijas vairs netiks automātiski atlasītas finanšu pārskatu iestatīšanai, jo tās tiks izveidotas. 
+> Sākot ar finanšu versiju 10.0.27, finanšu dimensijas vairs netiks automātiski atlasītas finanšu pārskatu iestatīšanai, kad tās tiks izveidotas.
 
 ## <a name="default-dimension-values"></a>Noklusējuma dimensijas vērtības
 

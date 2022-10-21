@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335651"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682539"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Mobilās programmas Warehouse Management instalēšana un savienošana
 
@@ -272,6 +272,7 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
 
         > [!IMPORTANT]
         > Nebeigt šo vērtību ar slīpsvītru (/).
+        > Pārliecinieties, vai HTTPS (SSL) sertifikāts ir derīgs.
 
     - **Aktīvs direktorija nomnieks** – ievadiet Azure AD nomnieku, kuru izmantojat ar Supply Chain Management serveri. Šīs vērtības forma ir `https://login.windows.net/<your-Azure-AD-domain-name>`. Tālāk minēts piemērs: `https://login.windows.net/contosooperations.onmicrosoft.com`. Papildinformāciju par to, kā atrast Azure AD domēna nosaukumu, skatiet sadaļā [Svarīgu lietotāja ID atrašana](/partner-center/find-ids-and-domain-names).
 

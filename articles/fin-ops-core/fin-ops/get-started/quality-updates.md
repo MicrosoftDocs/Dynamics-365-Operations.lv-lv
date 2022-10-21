@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671430"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689232"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -56,7 +56,9 @@ Notiek procesa izmaiņu kopa, kas apsteidz proaktīvās kvalitātes atjaunināju
 
 - **Shēma** – rīku rīks nodrošina, ka kvalitātes atjauninājumu būvējuma laikā tiek iekļautas tikai shēmu izmaiņas, kuras var tikt lietotas pakalpojuma tiešsaistes režīmā. Šī pieeja palīdzēs saglabāt iespēju pielietot atjauninājumu ar nulles dīkstāves laiku.
 - **Palielināto izmaiņu** veikšana — pašlaik ir jau papildu procesa solis, lai apstiprinātu izmaiņas iekļaušanai kvalitātes atjauninājumā. Papildu darbība tiks palielināta, lai palīdzētu samazināt regresiju potenciālu. Kvalitātes atjauninājumos nav atļautas sadalīšanas izmaiņas, un palielinātais izmaiņu apraksts palīdzēs nodrošināt, ka mēs nodrošināt atbilstību šim mērķim.
-- **Redzamība** – mēs nosūtīsim paziņojumus pa e-pastu un Lifecycle Services (LCS) gaidāmajiem apsteidzošo kvalitātes atjauninājumiem. Turklāt atbalsta darba grupas un incidentu potenciālie klienti būs redzamība tur, kur kvalitātes atjauninājumi ir proaktīvi izvietoti.
+- **Redzamība** – mēs nosūtīsim paziņojumus caur administratoru centru, dzīves cikla pakalpojumiem (LCS) un citiem pieejamajiem kanāliem gaidāmajiem apsteidzošo kvalitātes atjauninājumiem. Turklāt atbalsta darba grupas un incidentu potenciālie klienti būs redzamība tur, kur kvalitātes atjauninājumi ir proaktīvi izvietoti.
+ > [!NOTE]
+ > Microsoft Sakaru komanda pēta notiekošu e-pasta rīku izveidi, kas novērš e-pasta paziņojumu piegādi. Lūdzu, turpiniet pārraudzīt ziņojumu Microsoft 365 centru, kurā vēlaties skatīt ar darbu saistītos ziņojumus un paziņojumus.
 - **Kļūme lidojuma laikā** — lidojuma laikā tiks izmantota lidojuma informācija, kas tiek izmantota, lai veiktu koda izmaiņas, kad tas ir piemērojams kvalitātes atjauninājuma kļūdas labojumā vai izmantot esošās līdzekļa lidojuma izmaiņas, kas attiecas uz labojumu. Ja atkāpšanās vai izmaiņu izslēgšana ir nepieciešama pēc proaktīvās izvietošanas, to var veikt, izmantojot lidojuma sistēmu, lai izvairītos no turpmākām kļūmēm.
 - **Slīpstlodziņa** sinhronizācijas apzīmējums — šodien mazāk nekā 20 procenti debitoru ir vairākas kastēs un viena glabāta vieta, kur versija sakrīt ar ražošanu, lai saņemtu palīdzību par problēmu novēršanas. Ja debitors izmanto kasti, lai pārbaudītu jaunāku versiju nekā tā ražošana, šī slīpmaksa saņems jaunākās versijas kvalitātes atjauninājumus.
 
@@ -80,10 +82,10 @@ Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir 
 
 | Stacijas | Reģioni | Pabeigts grafiks| Gaidāmās rūtiņas grafiks
 |---|---|---|---|
-| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 15. septembris un 19. septembris - 2022. gada 22. septembris | 7. oktobris uz 2022. gada 10. oktobris |
-| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 25. septembris - 28. septembris | 7. oktobris uz 2022. gada 10. oktobris |
-| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 26. septembris - 29. septembris | 7. oktobris uz 2022. gada 10. oktobris |
-| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 28. septembris uz 1. oktobris | 7. oktobris uz 2022. gada 10. oktobris |
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 15. septembris – 2022. gada 19. septembris – 2022. gada 22. septembris, un 7. oktobris – 2022. gada 10. oktobris | 2022. gada 25. oktobris uz 2022. gada 28. oktobris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 25. septembris un 7. oktobris – 2022. gada 10. oktobris | 2022. gada 25. oktobris uz 2022. gada 28. oktobris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 26. septembris un 7. oktobris – 2022. gada 10. oktobris | 2022. gada 25. oktobris uz 2022. gada 28. oktobris |
+| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 1. oktobris un 7. oktobris – uz 2022. gada 10. oktobris | 2022. gada 25. oktobris uz 2022. gada 28. oktobris |
 | 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.29

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845379"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682883"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu
 
@@ -111,7 +111,7 @@ Dimensiju kontrole ļauj kontrolēt ģenerēto rindu grupēšanu pēc maksājuma
 -   Lauks **Dimensiju kontrole** tiek aktivizēts, papildus nedefinējot dimensijas. Maksājuma priekšlikums tiks izveidots, neņemot vērā dimensijas. Izveidotā transakcija nepārmanto dimensijas no izmantotā ieraksta.
 -   Lauks **Dimensiju kontrole** ir aktivizēts, un ir iespējotas papildu dimensijas. Tagad varat definēt, kā dimensijas tiks kopētas uz žurnālu. Piemēram: • atzīmējiet izvēles rūtiņu **Biznesa vienība**, lai maksājuma metodei izveidotu maksājuma priekšlikumu pa biznesa vienībām; • atzīmējiet izvēles rūtiņu **CostCenter**, lai maksājuma metodei izveidotu maksājuma priekšlikumu pa izmaksu centriem
 
-> [[!NOTE]
+>[!NOTE]
 > Ja trešajai opcijai atlasīsiet vairāk nekā vienu dimensiju, maksājuma piedāvājums tiks izveidots dimensiju kombinācijai.
 
 #### <a name="bank-account-selection"></a>Bankas konta atlase

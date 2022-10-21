@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
-ms.translationtype: MT
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388453"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682619"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Jaunumi un izmaiņas mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Versija 2.0.34.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+- Uzlabotā stabilitātes;
+- Uzlabota veiktspēja;
+- Uzlabots ekrāna izkārtojums, lai detalizētās informācijas kartei atļautu vairāk vietas.
+- Darbu saraksta lapai pievienoja **meklēšanas** funkciju. Darbinieki tagad var skenēt vai ierakstīt, lai meklētu visus lapas laukus un nosaukumus.
+- Pieejamo savienojumu saraksts tagad ir sakārtots alfabētiskā secībā.
+- Fiksēta problēma, kur dublikāta kartes tika rādītas krājumiem ar vairākiem krājumu statusiem vienā atrašanās vietā.
+- Fiksētā problēma, kuras **dēļ lielā atlases** saraksta lapa neritinās, lai parādītu iepriekš atlasīto krājumu.
+- Fiksēt meklēšanas joslas krāsas lapā Liels **atlases** saraksts.
+- Fiksētā problēma, kuras noklusējuma poga, kas tika definēta XML, netika izmantota kā iesniegšanas poga.
+- Fiksētā problēma, kad pogas, kas atrodas vairākskenēšanas un ātrās validācijas plūsmās, netika atjauninātas, kad tika skenēti jauni izņēmums.
+- Pievienots atbalsts vairākām valodām.
 
 ## <a name="version-20320"></a>Versija 2.0.32.0
 

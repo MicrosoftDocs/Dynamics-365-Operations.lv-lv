@@ -1,5 +1,5 @@
 ---
-title: Krājumu pozicionēšana
+title: Krājumu pozīcija
 description: Šis raksts sniedz informāciju par stratēģisko krājumu pozicionēšanu, kas ietver atšifrēšanas punktu identificēšanu piegādes ķēdē, kur varat veidot rīcībā esošos krājumus, lai palīdzētu saspiešanu izpildes laikus un uzpildītu jūsu piegādes ķēdei.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186586"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689543"
 ---
-# <a name="inventory-positioning"></a>Krājumu pozicionēšana
+# <a name="inventory-positioning"></a>Krājumu pozīcija
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Stratēģisko krājumu pozicionēšana ietver dekompozīcijas punktu identificēšanu piegādes ķēdē, kur varat veidot rīcībā esošos krājumus. Šī pieeja galvenokārt tiek lietota, lai palīdzētu saspiest izpildes laikus un darbojas jūsu piegādes ķēdē. Tas ļauj samazināt "whwhip ietekmi", jo pieprasījuma novirze nav visu veidu lejup piegādes ķēdei. *(neapstrādātā ietekme* attiecas uz to, kā neliela pieprasījuma svārstības mazumtirdzniecības līmenī var radīt progresīvi lielākas pieprasījuma svārstības vairumtirdzniecības, izplatītāja, ražotāja un izejmateriālu piegādātāju līmeņos.)
 

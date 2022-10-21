@@ -2,7 +2,7 @@
 title: Darbs ar novietojuma direktīvām
 description: Šajā rakstā ir aprakstīts, kā strādāt ar novietojuma direktīvām. Novietojuma direktīvas ir lietotāja definēti nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903700"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689671"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -47,6 +47,20 @@ Pirms jūs varat izveidot novietojumu direktīvu, jums ir jāveic šādas darbī
 1. Izveidojiet novietojumus, novietojumu veidus, novietojumu profilus un novietojumu formātus. Lai iegūtu papildu informāciju, skatiet [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Izveidojiet vietas, zonas un zonu grupas. Lai iegūtu papildu informāciju, skatiet [Noliktavu iestatīšana](../../commerce/channels-setup-warehouse.md) un [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a> Ieslēgt vai izslēgt Novietojuma direktīvas tvēruma funkciju
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Novietojuma *direktīvas tvēruma funkcija* sniedz jums lielāku iespēju, kad noformēsiet novietojuma direktīvas un palīdz samazināt liekās konfigurācijas. Tā pievieno opciju **Tvērumi**, kas aizstāj iepriekšējo opciju **Vairākas** NV. **Ja opciju Vairākas NV** *·* *var iestatīt tikai uz Jā vai Nē*, **opcija Tvērumi nodrošina ne tikai šos** divus iestatījumus (*izmantojot Viena* *krājuma* un Vairāku krājumu vērtības), bet arī divus (*·* *izmantojot Vienu krājumu vai pasūtījumu un Visas* vērtības). Papildinformāciju par šiem iestatījumiem skatiet kopsavilkuma [cilnē Novietojuma direktīvas](#location-directives-tab).
+
+Kad opcija ir iespējota, tvēruma **opcija** **aizstāj opciju Vairākas NV** un ir 100 procenti savietojami ar esošajām konfigurācijām.
+
+Lai izmantotu šo funkciju, jums tā ir jāslēdz savā sistēmā. Administratori var izmantot līdzekļu [pārvaldības iestatījumus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai pārbaudītu funkcijas statusu un ieslēgtu vai izslēgtu to. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Noliktavas pārvaldība*
+- **Funkcionalitātes nosaukums:** *novietojuma direktīvas tvērumi*
+
 ## <a name="work-order-types-for-location-directives"></a>Darba pasūtījumu veidi novietojuma direktīvām
 
 Daudzi lauki, ko var iestatīt novietojuma direktīvām, ir kopēji visiem darba pasūtījuma veidiem. Tomēr citi lauki ir specifiski noteiktiem darba pasūtījumu veidiem.
@@ -68,10 +82,10 @@ Sekojošajā tabulā ir uzskaitīti lauki, kas ir kopīgi visiem darbu pasūtīj
 | Vietas direktīvas | Vieta |
 | Vietas direktīvas | Noliktava |
 | Vietas direktīvas | Direktīvas kods |
-| Vietas direktīvas | Vairākas NV |
-| Līnijas | Sērijas numurs |
-| Līnijas | No daudzuma |
-| Līnijas | Līdz daudzumam |
+| Vietas direktīvas | Sfēra *vai* vairākas NV |
+| Rindas | Sērijas numurs |
+| Rindas | No daudzuma |
+| Rindas | Līdz daudzumam |
 | Līnijas | Vienība |
 | Līnijas | Novietot daudzumu |
 | Līnijas | Ierobežot atbilstoši vienībai |
@@ -117,7 +131,9 @@ Darbību rūtī **Novietojuma direktīvas** ir iekļautas pogas, ko varat izmant
 
 - **Pārvietot uz augšu** — Pārvietojiet atlasīto atrašanās vietas direktīvu uz augšu secībā. Piemēram, varat pārvietot to no sērijas 4. numura uz sērijas 3. numuru.
 - **Pārvietot uz leju** — pārvietojiet atlasīto atrašanās vietas direktīvu uz leju secībā. Piemēram, varat pārvietot to no sērijas 4. numura uz sērijas 5. numuru.
+- **Kopija** – atveriet dialoglodziņu, kur varat izveidot pašreizējās atrašanās vietas direktīvas precīzu kopiju.
 - **Rediģēt vaicājumu** — atveriet dialoglodziņu, kur varat definēt nosacījumus, pēc kuriem ir jāapstrādā atlasītā novietojuma direktīva. Piemēram, iespējams, vēlēsieties to piemērot tikai noteiktai noliktavai.
+- **Pieņemšanas testi** – atveriet lapu, kurā varat iestatīt automatizētos testus, lai noteiktu, kā jūsu novietojuma direktīvas rīkosies ar dažādiem sākuma nosacījumiem. Šādā veidā varat ātri validēt savas direktīvas, tās veidojot un uzturot. Papildinformāciju skatiet testa novietojuma [direktīvās ar pieņemšanas testiem](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Atrašanās vietas direktīvu virsraksts
 
@@ -126,7 +142,7 @@ Novietojuma direktīvas virsrakstā ir ietverti šādi lauki, kas attiecas uz se
 - **Sērijas numurs** — Šis lauks norāda secību, kādā sistēma mēģina piemērot katru novietojuma direktīvu atlasītajam darba pasūtījuma veidam. Vispirms piemēro zemus numurus. Varat mainīt secību, izmantojot pogas **Pārvietot uz augšu** un **Pārvietot uz leju** darbības rūtī.
 - **Nosaukums** - Ievadiet atrašanās vietas direktīvas aprakstošu nosaukumu. Šim nosaukumam būtu jāpalīdz noteikt direktīvas vispārīgo mērķi. Piemēram, ievadiet *Pārdošanas pasūtījuma saņemšana noliktavā 24*.
 
-## <a name="location-directives-fasttab"></a>Atrašanās vietas direktīvu kopsavilkuma cilne
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Atrašanās vietas direktīvu kopsavilkuma cilne
 
 Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūtījuma veidam, kas ir atlasīts saraksta rūts laukā **Darba pasūtījuma veids**.
 
@@ -145,7 +161,29 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
     > [!TIP]
     > Ja ir iestatīts direktīvas kods, sistēma nemeklēs atrašanās vietas direktīvas pēc kārtas numura, kad darbs ir jāveido. Tā vietā tas meklēs pēc direktīvas koda. Šādā veidā varat precīzāk norādīt, kāda vietas direktīvas darba veidnē tiek izmantota noteiktai darbībai, piemēram, materiālu sagatavošana.
 
-- **Vairāki SKU** - Iestatiet šo opciju uz *Jā*, lai atrašanās vietā varētu izmantot vairākas noliktavas vienības (SKU). Piemēram, ir jāiespējo vairākas SKU angāra durvju novietojumam. Ja iespējojat vairākas SKU, jūsu novietojums tiks norādīts darbā, kā paredzēts. Tomēr izvietošanas novietojums varēs apstrādāt tikai vairāku krājumu izvietošanu (ja darbs ietver dažādas SKU, kas ir jāsaņem un jānovieto). Tas nevarēs apstrādāt vienu SKU izvietošanu. Ja šī opcija ir iestatīta uz *Nē*, jūsu novietojums tiks norādīts tikai tad, ja jūsu izvietošanai ir tikai viena veida SKU.
+- **Sfēra** – izmantojiet šo opciju, lai norādītu scenārijus, kuriem tiks piemērota atrašanās vietas direktīva. Šī opcija aizstāj opciju Vairākas **NV un** ir pieejama tikai *tad, ja atrašanās* vietas direktīvas tvēruma funkcija jūsu sistēmā ir ieslēgta. (Plašāku informāciju skatiet [Ieslēgt vai izslēgt Novietojuma direktīvas tvēruma funkciju](#scopes-feature).)
+
+    | Sfēras iestatījums | Viens pasūtījums ar vienu krājumu | Vairāki pasūtījumi ar vienu krājumu | Viens pasūtījums ar vairākiem krājumiem | Vairāki pasūtījumi ar vairākiem krājumiem |
+    |---|---|---|---|---|
+    | Viens krājums | Jā | Jā | Nē | Nē |
+    | Vairāki krājumi | Nē | Nē | Jā | Jā |
+    | Viens krājums vai pasūtījums | Jā | Jā | Jā | Nē |
+    | Visus | Jā | Jā | Jā | Jā |
+
+    Šajā tabulā aprakstīts, kad ir pieejami tvērumi un vai tie ļauj rediģēt vaicājuma **funkciju**.
+
+    | Tvērums | Atbalstītais darba veids | Atbalstītie darba pasūtījumu veidi | Ļaut rediģēt vaicājumu |
+    |---|---|---|---|
+    | Viens krājums | Visus | Visus | Jā |
+    | Vairāki krājumi | Visus | Visus | Nē |
+    | Viens krājums vai pasūtījums | Liek | Līdzproduktu un blakusproduktu izvietošana, pabeigto preču izvietošana, Kanban izvietošana, pirkšanas pasūtījumi, kvalitātes pasūtījumi, papildināšana, atgriešanas pasūtījumi, pārdošanas pasūtījumi, pārsūtīšanas izejas plūsma un pārsūtīšanas ieejas plūsma | Jā |
+    | Visus | Liek | Visus | Nē |
+
+    > [!NOTE]
+    > - Lai ievietotu vairākus krājumus un atsevišķus krājumus, ir jānodrošina, lai būtu spēkā novietojuma direktīvas, kas aptver abus scenārijus. Piemēram, varat iestatīt vienu vai vairākas atsevišķa krājuma vai pasūtījuma novietojuma direktīvas, lai segtu scenārijus, kuriem nepieciešama naudas iestatīšana (piemēram, *izmantojot* vaicājuma rediģēšanu) *un* pēc tam vienu vai vairākas novietojuma direktīvas, lai segtu atlikušos scenārijus.
+    > - Lai *gan atsevišķa krājuma* un *vairāku krājumu* tvērumi var tikt izmantoti izvietošanas, šī pieeja parasti izveido liekās konfigurācijas. Apsveriet *iespēju tā vietā izmantot Atsevišķu* krājumu vai *pasūtījumu* un Visas sfēras, jo šī pieeja izveidos iestatījuma darbību.
+
+- **Vairākas NV – izmantojiet** šo opciju, lai norādītu scenāriju, uz kuru tiks attiecināta atrašanās vietas direktīva. Šis iestatījums tiek aizstāts ar sfēras **iestatījumu** *, ja Jūsu sistēmā ir ieslēgta Novietojuma direktīvas sfēras* funkcija. (Plašāku informāciju skatiet [Ieslēgt vai izslēgt Novietojuma direktīvas tvēruma funkciju](#scopes-feature).) Iestatiet šo opciju kā *Jā*, lai atļautu vairākas noliktavas vienības (NV), ko izmantot novietojumā. Piemēram, ir jāiespējo vairākas SKU angāra durvju novietojumam. Ja iespējojat vairākas SKU, jūsu novietojums tiks norādīts darbā, kā paredzēts. Tomēr izvietošanas novietojums varēs apstrādāt tikai vairāku krājumu izvietošanu (ja darbs ietver dažādas SKU, kas ir jāsaņem un jānovieto). Tas nevarēs apstrādāt vienu SKU izvietošanu. Ja šī opcija ir iestatīta uz *Nē*, jūsu novietojums tiks norādīts tikai tad, ja jūsu izvietošanai ir tikai viena veida SKU.
 
     > [!IMPORTANT]
     > Lai varētu veikt gan vairāku vienumu, gan vienas SKU izvietošanu, ir jānorāda divas rindas ar vienādu struktūru un iestatījumiem, bet vienai rindai ir jāiestata opcija **Vairākas SKU** uz *Jā* vienai rindai un *Nē* citai. Tāpēc, lai veiktu izvietošanas operācijas, jums ir jābūt divām identiskām atrašanās vietas direktīvām, pat ja jums nav jāatšķir atsevišķas SKU un vairāki SKU uz darba ID. Bieži, ja nav iestatītas abas šīs atrašanās vietas direktīvas, neparedzētas biznesa procesu atrašanās vietas tiks iegūtas no izmantotās atrašanās vietas direktīvas. Ja nepieciešams apstrādāt pasūtījumus, kas ietver vairākas noliktavas vienības, ir jāizmanto līdzīgi iestatījumi novietojuma direktīvām, kurām ir *saņemt* no **Darba tips**.
@@ -255,6 +293,5 @@ Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darb
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Palīdzības raksts: Noliktavas [darba kontrole, izmantojot darba veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Pabeigto preču fiziski pieejams pirms grāmatošanas žurnālos
+title: Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos
 description: Kad saražotais krājums ir reģistrēts kā pabeigts, tas tiek reģistrēts kā pieejams tālākai fiziskai apstrādei, un tiek grāmatots viens vai vairāki žurnāli. Šajā rakstā ir aprakstīts, kā atlikto maksājumu žurnālu grāmatojumi, iespējojot to apstrādi ar pakešuzdevumu ziņojumu rindā.
 author: johanhoffmann
 ms.date: 08/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266501"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689345"
 ---
-# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Pabeigto preču fiziski pieejams pirms grāmatošanas žurnālos
+# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Kad darbinieks ziņo par saražotā krājuma pabeigšanu, sistēma reģistrē to kā pieejamu turpmākai fiziskajai apstrādei (piemēram, nosūtīšanai vai izvietošanas ceļam). Šī procesa laikā tiek grāmatots arī viens vai vairāki žurnāli (piemēram, pārskats kā pabeigts žurnāls, izdošanas saraksta žurnāls un maršruta kartes žurnāls). Ja vēlaties savus krājumus padarīt fiziski pieejamus pirms visu grāmatojumu apstrādes, var iestatīt sistēmu atlikt žurnāla grāmatojumus. Atlikto maksājumu grāmatošana tad tiek pārvaldīta ar pakešuzdevumu, kas apstrādās grāmatojumus, ko pieļauj sistēmas resursi.
 

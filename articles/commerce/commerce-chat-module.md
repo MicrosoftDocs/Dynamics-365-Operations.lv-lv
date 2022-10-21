@@ -2,19 +2,19 @@
 title: Commerce Tērzēšana ar Debitorachannel klientu pakalpojuma modulim
 description: Šajā rakstā ir aprakstīts Commerce Chat ar Parchannel, kas paredzēts Klientu apkalpošanas modulim sadaļā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473814"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690321"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Commerce Tērzēšana ar Debitorachannel klientu pakalpojuma modulim
 
@@ -82,6 +82,9 @@ Lai pievienotu tērzētavas moduli jūsu vietnes virsraksta fragmentam Commerce 
 1. Dialoglodziņā Atlasīt **moduļus** atlasiet iepriekš izveidoto tērzēta fragmentu un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
+> [!NOTE]
+> Pilnīgu konfigurācijas parametru sarakstu skatiet Commerce tērzēšanas moduļa apsteidzamos [tērpēšanā parametrus](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Pievienot Commerce Headquarters kā lietojumprogrammu cilni, kas ir paredzēts Klientu apkalpošanas debitoriem
 
 Programmas cilni Commerce headquarters var pievienot sadaļā Debitora pakalpojumu debitoriem nospīdāmais rēķins. Live aģenti tad var izmantot lietotāja interfeisu, kas paredzēts Debitora pakalpojumu aģenta pieredzes debitorachannelim Dynamics 365 Commerce, lai viegli piekļūtu klientu apkalpošanas modulim, kas ietver kontekstuālu informāciju debitoram kopā ar viņu pārdošanas pasūtījumu informāciju. Turklāt klientu apkalpošanas aģenti var veikt jaunus pasūtījumus, sākt atgriešanu un pārbaudīt pasūtījuma statusa informāciju.
@@ -115,6 +118,9 @@ Lai iespējotu jaunu programmas cilni klientu aģentiem programmā Dynamics 365 
 1. Atveriet darbastraumes, ko esat izveidojis saviem aģentiem, un pēc tam sadaļā Papildu **iestatījumi** atlasiet Sesijas **noklusējums**.
 1. Sadaļā **Pieteikumu cilnes**, atlasiet Pievienot **esošu pieteikuma cilni** un pēc tam pievienojiet jaunu pieteikuma cilni, ko izveidojāt agrāk. Šis solis nodrošina, ka pieteikuma cilne, kas ielādē Commerce Headquarters iFrame modulī, parādīsies, kad aģents saņems ienākošo tērzēšanu no jūsu e-komercijas vietnes.
 
+> [!NOTE]
+> Jūs nevarat modificēt noklusējuma tērzēšanas sesijas veidni darbastraumes laikā. Tāpēc, iespējams, vēlēsieties izveidot jaunu veidni vai dublēt jau esošu veidni, lai to atjauninātu. Papildinformāciju skatiet sadaļā Veidņu [saistīšana ar workstream](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Pievienot konteksta mainīgos programmā Dynamics 365 Tornel, kas paredzēts klientu apkalpošanai
 
 Lai pievienotu konteksta mainīgos programmā Dynamics 365 Tolachannel for Customer Service, izpildiet šīs darbības.
@@ -128,3 +134,11 @@ Lai pievienotu konteksta mainīgos programmā Dynamics 365 Tolachannel for Custo
 
 > [!NOTE]
 > Ja vēlaties lasīt e-pasta adreses un parakstīto lietotāju vārdus no e-komercijas kanāla, **·** **papildus** AccountNumber **konteksta mainīgajam varat pievienot e-pasta ziņojumu un vārdu kā teksta tipa konteksta mainīgos.** **·**
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Commerce tērzēšanas līdzekļu pārskats](commerce-chat-overview.md)
+
+[Commerce Tērzēšana ar moduli Power Virtual Agents](chat-module-pva.md)
+
+[Commerce tērzēšanas moduļa proaktīvās tērzētavas parametri](chat-proactive-chat-parameters.md)

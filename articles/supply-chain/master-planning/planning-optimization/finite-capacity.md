@@ -1,5 +1,5 @@
 ---
-title: Ierobežotas noslodzes plānošana un plānošana
+title: Ierobežotas noslodzes plānošana un grafika izveide
 description: Ierobežota noslodzes plānošana un plānošana palīdz izprast, cik daudz darba var saražot specifiskā periodā, kad tiek ņemti vērā ierobežojumi dažādiem resursiem.
 author: t-benebo
 ms.date: 09/19/2022
@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573150"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689698"
 ---
-# <a name="finite-capacity-planning-and-scheduling"></a>Ierobežotas noslodzes plānošana un plānošana
+# <a name="finite-capacity-planning-and-scheduling"></a>Ierobežotas noslodzes plānošana un grafika izveide
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 Ierobežota noslodze ir pieeja, kas palīdz saprast, cik daudz darba var saražot specifiskā periodā, kad tiek ņemti vērā ierobežojumi dažādiem resursiem. Ierobežotas noslodzes plānošanas nolūks ir nodrošināt, lai darbs tiktu darīts vienmēr un efektīvā ražošanas procesa laikā.
 

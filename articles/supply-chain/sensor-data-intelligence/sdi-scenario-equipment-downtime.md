@@ -1,5 +1,5 @@
 ---
-title: Datora statusa scenārijs
+title: Mašīnas statusa scenārijs
 description: Šajā rakstā aprakstīts datora statusa scenārijs, kas ļauj jums izmantot sensora datus, lai pārraudzītu jūsu aprīkojuma pieejamību.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 1f2b424dccf1963a7917059d412b5df7937496ee
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428996"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689644"
 ---
-# <a name="the-machine-status-scenario"></a>Datora statusa scenārijs
+# <a name="the-machine-status-scenario"></a>Mašīnas statusa scenārijs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Datora *statusa scenārijā* varat izmantot sensora datus, lai pārraudzītu jūsu aprīkojuma pieejamību. Ja iestatāt sensoru, kas sūta signālu, kad datora resursa ražošanas darbs rada ražojumu, bet noteiktā intervālā netiek saņemts sensora signālu, supervizora informācijas panelī tiek parādīts paziņojums.
 
@@ -144,7 +145,7 @@ Resursu statusa **lapā supervizori** var pārraudzīt no sensoriem saņemtā da
 
     - **Resurss** — atlasiet resursus, kurus vēlaties pārraudzīt. (Ja strādājat ar demonstrācijas datiem, atlasiet *3118*.)
     - **1. laika sērija** – atlasiet ierakstu (metrisko atslēgu), kura nosaukumam ir šāds formāts: *MachineReportingStatus:&lt; Sensor&gt;*
-    - **Parādāmais vārds** – ievadiet *daļas no ārpusa*.
+    - **Parādāmais vārds** – ievadiet *daļas no ārpusa.*
 
 Šajā attēlā parādīts datora statusa datu piemērs resursa statusa **lapā standarta** operācijas laikā.
 

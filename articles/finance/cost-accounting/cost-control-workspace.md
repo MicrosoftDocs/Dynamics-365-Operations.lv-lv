@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853501"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682903"
 ---
 # <a name="cost-control-workspace"></a>Izmaksu kontroles darbvieta 
 
@@ -53,7 +53,7 @@ Kopsavilkuma cilnē **Datu filtrēšana** varat definēt pārskata pamata datus.
 |-------------------------------------------------------------------|-------------|
 | Izmaksu uzskaites virsgrāmata                                            | **Izmaksu uzskaites virsgrāmata**, kas tiek izmantota pārskata izveidei. Vērtība ir atkarīga no lauka **Izmaksu vadības ierīce** vērtības. |
 | Izmaksu vadības ierīce                                                 | No atlasītās vērtības ir atkarīgs tas, kura izmaksu kontroles virsgrāmata un kuri izmaksu objekti tiks izmantoti pārskata izveidei. |
-| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>[!NOTE]<br>Lai blakus vienu otrai skatītu nemonetāras un monetāras vērtības, varat eksportēt datus uz Microsoft Excel attiecībā uz Microsoft Power BI satura paku.</blockquote> |
+| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>**PIEZĪME:**<br>Lai blakus vienu otrai skatītu nemonetāras un monetāras vērtības, varat eksportēt datus uz Microsoft Excel attiecībā uz Microsoft Power BI satura paku.</blockquote> |
 | Izmaksu objektu dimensiju hierarhija      | Atlasiet definētā pārskata mērķim piemērotas izmaksu objekta dimensijas hierarhiju. |
 | Budžeta sākotnējā versija                                           | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā ir sākotnējais budžets. |
 | Budžeta pārskatītā versija                                            | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā tiek izmantota kā sākotnējais budžets. |
@@ -64,7 +64,7 @@ Pieskaitāmo izmaksu aprēķina ietvaros tiek veiktas vairākas aprēķinu darb�
 
 | Lauks                  | Apraksts |
 |------------------------|-------------|
-| Kalendārais finanšu periods | Atlasiet finanšu kalendāra periodu, kam ir jāpiešķir pieskaitāmo izmaksu aprēķina ID.<blockquote>[!NOTE]<br>Laukā norādītie finanšu periodi ir iegūtu no finanšu kalendāra, kas ir saistīts ar izmaksu uzskaites virsgrāmatu.</blockquote> |
+| Kalendārais finanšu periods | Atlasiet finanšu kalendāra periodu, kam ir jāpiešķir pieskaitāmo izmaksu aprēķina ID.<blockquote>**PIEZĪME:**<br>Laukā norādītie finanšu periodi ir iegūtu no finanšu kalendāra, kas ir saistīts ar izmaksu uzskaites virsgrāmatu.</blockquote> |
 | Faktiskā versija         | Atlasiet atbilstošo pieskaitāmo izmaksu aprēķina ID. |
 | Budžeta versija         | Atlasiet atbilstošo pieskaitāmo izmaksu aprēķina ID. |
 | Pārskatītā budžeta versija | Atlasiet atbilstošo pieskaitāmo izmaksu aprēķina ID. |
@@ -77,10 +77,10 @@ Atlasītajās kolonnās esošās vērtības tiek reizinātas ar kopsavilkuma cil
 
 | Lauks                | Apraksts |
 |----------------------|-------------|
-| Pašreizējais periods       | Tiek parādīta pašreizējā finanšu perioda bilance.<blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības.</blockquote> |
-| Iepriekšējais periods      | Tiek parādīta iepriekšējā finanšu perioda bilance. Tiek izmantota šāda formula:<br>Pašreizējais finanšu periods – 1<blockquote>[!NOTE]<br>Pēc noklusējuma iepriekšējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** kā pašreizējo periodu var atlasīt noteiktu finanšu periodu. Šādā gadījumā tiek atbilstoši pārrēķināta lauka **Iepriekšējais periods** vērtība.</blockquote> |
-| No gada sākuma         | Tiek rādīta vērtība no gada sākuma. Tiek izmantota šāda formula:<br>YearToDate (pašreizējais finanšu periods)<blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauka **No gada sākuma** vērtība.</blockquote> |
-| Vidējais no gada sākuma | Tiek rādīta vidējā vērtība no gada sākuma. Tiek izmantota šāda formula:<br>(YearToDate [pašreizējais finanšu periods]) ÷ (Count [pašreizējais finanšu periods])<p><strong>Piemērs</strong></p><ul><li>**Statisko dimensiju elements:** Pilnas slodzes darbinieki</li><li>**Pašreizējais datums:** 03.21.2017.</li><li>**Periods:** 1. finanšu periods, 2. finanšu periods, 3. finanšu periods</li><li>**Lielums:** 10, 10, 12</li></ul>Šajā gadījumā **Vidējais no gada sākuma** = (10 + 10 + 12) ÷ 3 = 10,67<p>Lauka **Vidējais no gada sākuma** vērtību var aprēķināt izmaksu elementu dimensiju elementiem un statistisko dimensiju elementiem.</p><blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauku **No gada sākuma** un **Vidējais no gada sākuma** vērtības.</blockquote> |
+| Pašreizējais periods       | Tiek parādīta pašreizējā finanšu perioda bilance.<blockquote>**PIEZĪME:**<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības.</blockquote> |
+| Iepriekšējais periods      | Tiek parādīta iepriekšējā finanšu perioda bilance. Tiek izmantota šāda formula:<br>Pašreizējais finanšu periods – 1<blockquote>**PIEZĪME:**<br>Pēc noklusējuma iepriekšējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** kā pašreizējo periodu var atlasīt noteiktu finanšu periodu. Šādā gadījumā tiek atbilstoši pārrēķināta lauka **Iepriekšējais periods** vērtība.</blockquote> |
+| No gada sākuma         | Tiek rādīta vērtība no gada sākuma. Tiek izmantota šāda formula:<br>YearToDate (pašreizējais finanšu periods)<blockquote>**PIEZĪME:**<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauka **No gada sākuma** vērtība.</blockquote> |
+| Vidējais no gada sākuma | Tiek rādīta vidējā vērtība no gada sākuma. Tiek izmantota šāda formula:<br>(YearToDate [pašreizējais finanšu periods]) ÷ (Count [pašreizējais finanšu periods])<p><strong>Piemērs</strong></p><ul><li>**Statisko dimensiju elements:** Pilnas slodzes darbinieki</li><li>**Pašreizējais datums:** 03.21.2017.</li><li>**Periods:** 1. finanšu periods, 2. finanšu periods, 3. finanšu periods</li><li>**Lielums:** 10, 10, 12</li></ul>Šajā gadījumā **Vidējais no gada sākuma** = (10 + 10 + 12) ÷ 3 = 10,67<p>Lauka **Vidējais no gada sākuma** vērtību var aprēķināt izmaksu elementu dimensiju elementiem un statistisko dimensiju elementiem.</p><blockquote>**PIEZĪME:**<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauku **No gada sākuma** un **Vidējais no gada sākuma** vērtības.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Kolonnas, ko rādīt izmaksām
 
@@ -88,11 +88,11 @@ Kopsavilkuma cilnē **Kolonnas, ko rādīt izmaksām** izmaksu grāmatvedis var 
 
 | Lauks                 | Apraksts |
 |-----------------------|-------------|
-| Fiksētas izmaksas            | Šī veida kolonnā tiek rādītas fiksētās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>[!NOTE]<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
-| Mainīgas izmaksas         | Šī veida kolonnā tiek rādītas mainīgās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>[!NOTE]<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
-| Fiksētas un mainīgas izmaksas | Šī veida kolonnā tiek rādītas fiksētās un mainīgās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>[!NOTE]<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
-| Kopējās izmaksas            | Šī veida kolonnā tiek rādītas kopējās izmaksas (neklasificētās izmaksas, fiksētās izmaksas un mainīgās izmaksas).<blockquote>[!NOTE]<br>Šī veida kolonnā vienmēr tiek rādīta bilance.</blockquote> |
-| Neklasificētas izmaksas     | Šī veida kolonnā tiek rādītas neklasificētās izmaksas.<blockquote>[!NOTE]<br>Šo kolonnu var izmantot, lai pārbaudītu, vai pieskaitāmo izmaksu aprēķina ietvaros ir pareizi klasificētas visas izmaksas un vai ir jāpielāgo izmaksu izturēšanās nosacījumi.</blockquote> |
+| Fiksētas izmaksas            | Šī veida kolonnā tiek rādītas fiksētās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>**PIEZĪME:**<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
+| Mainīgas izmaksas         | Šī veida kolonnā tiek rādītas mainīgās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>**PIEZĪME:**<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
+| Fiksētas un mainīgas izmaksas | Šī veida kolonnā tiek rādītas fiksētās un mainīgās izmaksas, pamatojoties uz atlasīto pieskaitāmo izmaksu aprēķina ID.<blockquote>**PIEZĪME:**<br>Ja tiek atlasīts finanšu perioda pieskaitāmo izmaksu aprēķina ID, šī veida kolonnā tiek rādīta tikai bilance.</blockquote> |
+| Kopējās izmaksas            | Šī veida kolonnā tiek rādītas kopējās izmaksas (neklasificētās izmaksas, fiksētās izmaksas un mainīgās izmaksas).<blockquote>**PIEZĪME:**<br>Šī veida kolonnā vienmēr tiek rādīta bilance.</blockquote> |
+| Neklasificētas izmaksas     | Šī veida kolonnā tiek rādītas neklasificētās izmaksas.<blockquote>**PIEZĪME:**<br>Šo kolonnu var izmantot, lai pārbaudītu, vai pieskaitāmo izmaksu aprēķina ietvaros ir pareizi klasificētas visas izmaksas un vai ir jāpielāgo izmaksu izturēšanās nosacījumi.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Kolonnas, ko rādīt budžetā paredzētajām izmaksām
 
@@ -103,12 +103,12 @@ Kopsavilkuma cilnē **Kolonnas, ko rādīt budžetā paredzētajām izmaksām** 
 
 | Lauks                     | Apraksts |
 |---------------------------|-------------|
-| Budžets                    | Tiek rādītas budžeta bilances atbilstoši atlasītajām kolonnām.<blockquote>[!NOTE]<br>Bilances tiek aprēķinātas, pamatojoties uz budžeta versijām, kas ir atlasītas kopsavilkuma cilnē **Datu filtrēšana**.</blockquote> |
+| Budžets                    | Tiek rādītas budžeta bilances atbilstoši atlasītajām kolonnām.<blockquote>**PIEZĪME:**<br>Bilances tiek aprēķinātas, pamatojoties uz budžeta versijām, kas ir atlasītas kopsavilkuma cilnē **Datu filtrēšana**.</blockquote> |
 | Budžeta novirze           | Tiek aprēķināta un parādīta budžeta un faktiskās bilances starpība. Tiek izmantota šāda formula:<br>budžeta bilance – faktiskās bilance |
 | Budžeta novirze, %      | Tiek aprēķināta un parādīta budžeta un faktiskās bilances starpība procentos. Tiek izmantota šāda formula:<br>(budžeta bilance – faktiskā bilance) ÷ budžeta bilance |
-| Novirzes perioda slieksnis | Iestatiet naudas summas novirzes slieksni pašreizējam periodam. Ja slieksnis tiek pārsniegts, attiecīgā rinda darbvietā **Izmaksu kontrole** tiek iezīmēta sarkanā krāsā.<blockquote>[!NOTE]<br>Šis lauks attiecas tikai uz izmaksu elementiem, kas ir saistīti ar izdevumiem.</blockquote> |
+| Novirzes perioda slieksnis | Iestatiet naudas summas novirzes slieksni pašreizējam periodam. Ja slieksnis tiek pārsniegts, attiecīgā rinda darbvietā **Izmaksu kontrole** tiek iezīmēta sarkanā krāsā.<blockquote>**PIEZĪME:**<br>Šis lauks attiecas tikai uz izmaksu elementiem, kas ir saistīti ar izdevumiem.</blockquote> |
 | Novirzes gada slieksnis   | Iestatiet naudas summas novirzes slieksni attiecīgajam gadam. Ja slieksnis tiek pārsniegts, attiecīgā rinda darbvietā **Izmaksu kontrole** tiek iezīmēta sarkanā krāsā. |
-| Novirzes sliekšņa % vērtība      | Iestatiet novirzes slieksni procentos. Ja slieksnis tiek pārsniegts, attiecīgā rinda darbvietā **Izmaksu kontrole** tiek iezīmēta sarkanā krāsā.<blockquote>[!NOTE]<br>Tas pats slieksnis procentos attiecas uz pašreizējo periodu un gadu.</blockquote> |
+| Novirzes sliekšņa % vērtība      | Iestatiet novirzes slieksni procentos. Ja slieksnis tiek pārsniegts, attiecīgā rinda darbvietā **Izmaksu kontrole** tiek iezīmēta sarkanā krāsā.<blockquote>**PIEZĪME:**<br>Tas pats slieksnis procentos attiecas uz pašreizējo periodu un gadu.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Izmaksu kontroles darbvieta
 

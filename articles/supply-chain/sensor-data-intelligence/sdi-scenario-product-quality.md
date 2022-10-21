@@ -1,5 +1,5 @@
 ---
-title: Preces kvalitātes scenārijs
+title: Produkta kvalitātes scenārijs
 description: Šajā rakstā ir sniegta informācija par preces kvalitātes scenāriju. Šajā scenārijā tiek izmantots sensors, lai izmērītu preču paketes kvalitāti un ģenerētu brīdinājumu, ja mērījums neatrodas definētajā slieksni.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429002"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690053"
 ---
-# <a name="the-product-quality-scenario"></a>Preces kvalitātes scenārijs
+# <a name="the-product-quality-scenario"></a>Produkta kvalitātes scenārijs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Produkta kvalitātes *scenārijā* ir iestatīts sensors, lai izmērītu produkta paketes kvalitāti ražotnes uz grīdas. Ja mērījums atrodas ārpus produkta definētā sliekšņa, paziņojums tiek rādīts supervizora vadības panelī. Piemēram, ar sensoru tiek mērīts produkts, kas tiek saražots no ražošanas līnijas. Ja mērījums ir ārpus preces minimālās vai maksimālās vērtības, tiek ģenerēts paziņojums.
 

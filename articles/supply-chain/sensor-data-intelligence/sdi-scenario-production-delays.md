@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428999"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690026"
 ---
 # <a name="the-production-delays-scenario"></a>Ražošanas aizkaves scenārijs
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Ražošanas *aizkavēšanās scenārijs* ģenerē paziņojumu, ja ražošanas caurlaide ir zem noteiktas sliekšņa vērtības. Šajā scenārijā katram saražotam *krājumam* tiek nosūtīts Microsoft Azure atstādāls IoT hub. Šādā Dynamics 365 Supply Chain Management gadījumā pasūtījuma aizkave tiek aprēķināta, pamatojoties uz laiku, cik ilgi ražošanas pasūtījums ir plānots palaist, ražomo krājumu skaitu, *darba* izpildes laiku un saņemto daļēji pabeigto signālu skaitu. Ja nepilna darba brīdinājumu skaits zem sliekšņa *vērtības samazinās*, tiek ģenerēts paziņojums par aizkavēšanos.
 
@@ -125,4 +126,4 @@ Resursu statusa **lapā supervizori** var pārraudzīt no katra datora resursa k
 
     - **Resurss** — atlasiet resursus, kurus vēlaties pārraudzīt. (Ja strādājat ar demonstrācijas datiem, atlasiet *3118*.)
     - **1** . laika sērija – atlasiet ierakstu (metrisko atslēgu), kura nosaukumam ir šāds formāts: *ProductionJobDelayed:ActualQuantity:&lt; JobId&gt;*
-    - **Parādāmais vārds** – ievadiet *daļas no ārpusa*.
+    - **Parādāmais vārds** – ievadiet *daļas no ārpusa.*

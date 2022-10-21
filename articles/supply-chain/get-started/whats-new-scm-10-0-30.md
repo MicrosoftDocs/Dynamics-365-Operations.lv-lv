@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429128"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689196"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Pakalpojuma Dynamics 365 Supply Chain Management priekšskatījums 10.0.30 (2022. gada novembris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.30. (2022. gada novembris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft priekšskatījuma Dynamics 365 Supply Chain Management versijā 10.0.30. Šai versijai ir ražošanas numuru 10.0.1362 un tā ir pieejama šajā grafikā:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.30. Šai versijai ir ražošanas numuru 10.0.1362 un tā ir pieejama šajā grafikā:
 
 - **Laidiena priekšskatījums:** 2022. gada septembris
 - **Vispārēja laidiena (pašatjaunināšana) pieejamība:** 2022. gada oktobris
@@ -34,8 +33,8 @@ ms.locfileid: "9429128"
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
-| Ražošana | [Pārraudzīt aprīkojumu ar Sensora datu informāciju](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensora datu informācijas mājas lapa](../sensor-data-intelligence/sdi-home-page.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Sensora datu informācija* |
-| Noliktavas vadība | Vairāku līmeņu apiešana mobilajai programmai Warehouse Management <!-- KFM: Add link when RP updates --> | [Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos](../warehousing/warehouse-app-detours.md) | Līdzekļu pārvaldība:<br>*Vairāku līmeņu apiešana mobilajai programmai Warehouse Management* |
+| Ražošana | [Pārraudzīt aprīkojumu ar Sensora datu informāciju](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence sākumlapa](../sensor-data-intelligence/sdi-home-page.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Sensora datu informācija* |
+| Noliktavas vadība | [Noliktavas pārvaldības mobilās programmas vairāklīmeņu darbības](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos](../warehousing/warehouse-app-detours.md) | Līdzekļu pārvaldība:<br>*Vairāku līmeņu apiešana mobilajai programmai Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
@@ -45,14 +44,14 @@ Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas ir jādara l
 
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Ražošanas kontrole | Informācija par rīcībā ajiem krājumiem ražošanas pasūtījumos, lai izlaistu lapu | Pievieno kolonnu rīcībā esošo krājumu daudzumam rindas **krājumos rindu sadaļā ražošanas pasūtījumi, lai izlaistu** lapu. |
+| Ražošanas kontrole | Rīcībā esošā informācija ražošanas pasūtījumos, lai izlaistu lapu | Pievieno kolonnu rīcībā esošo krājumu daudzumam rindas **krājumos rindu sadaļā ražošanas pasūtījumi, lai izlaistu** lapu. |
 | Transportēšanas pārvaldība | Piešķirt kravas saistītajiem maršruta segmentiem | Šī funkcija ļauj sistēmai precīzāk sadalīt sūtījuma kravas pārvadāšanas izmaksas, tostarp kravām ar vairākiem sūtījumiem, kas tiek piegādāti dažādiem segmentiem vienā maršrutā. Tas piešķir katru sūtījumu vispiemērotākajiem maršruta segmentiem, pamatojoties uz kravas un segmenta mērķa adresēm. Pēc tam funkcija aprēķina katra sūtījuma kravas pārvadāšanas izmaksas kā kravas kopējās kravas izmaksu proporciju, pamatojoties uz sūtījuma relatīvo svaru, apjomu, daudzumu un nobraukto attālumu. Šis līdzeklis attiecas tikai uz kravām, kas pārvaldītas, izmantojot transportēšanas pārvaldības (TMS) moduli. |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.30 (2022. gada novembrī](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.30 (2022. gada novembrī](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

@@ -4,23 +4,25 @@ description: Šajā rakstā ir aprakstīts, kā konfigurēt izvēlnes krājumus 
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428068"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689315"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Šajā rakstā aprakstītie līdzekļi attiecas tikai uz jauno noliktavas pārvaldības mobilo programmu. Tie neietekmē veco noliktavas programmu, kas tagad tiek novecojusi.
@@ -38,6 +40,7 @@ Lai iespējotu nepieciešamos līdzekļus, pirms varat konfigurēt mobilo ierī�
 1. Slēdziet šādas funkcijas, kas nodrošina šajā rakstā aprakstīto funkcionalitāti:
     - *Programmas Warehouse Management apiešana*<br>(No Piegādes ķēdes pārvaldības versijas 10.0.29, šī funkcija ir ieslēgta pēc noklusējuma.)
     - *Vairāku līmeņu apiešana mobilajai programmai Warehouse Management*
+    - *Automātiski iesniegt apiešanas darbības mobilajai lietotnei Warehouse Management*
 1. *Ja* noliktavas pārvaldības programma norāda un/*vai vairāklīmeņu iestatījumus mobilās programmas līdzekļiem Noliktavas pārvaldība jau nav ieslēgti, atjauniniet lauku nosaukumus mobilajā programmā Noliktavas pārvaldība, veidojot lauku nosaukumus* noliktavas pārvaldības iestatījuma **\>\>\> mobilās** ierīces noliktavas programmas lietojumprogrammas nosaukumiem un atlasot Izveidot noklusējuma iestatījumus.**·** Lai iegūtu vairāk informācijas, skatiet [Konfigurēt laukus programmai Warehouse Management mobile](configure-app-field-names-priorities-warehouse.md).
 1. Atkārtojiet iepriekšējo darbību katrai juridiskajai personai (uzņēmumam), kur izmantojat mobilo programmu Warehouse Management.
 
@@ -49,7 +52,7 @@ Izmantojiet šo procedūru, lai iestatītu novirzīšanu no izvēlnes raksturīg
 1. Atrodiet to **Soļa ID** un **Izvēlnes elementu nosaukumu** vērtību kombināciju, ko vēlaties rediģēt, un pēc tam atlasiet vērtību kolonnā **Soļa ID**.
 1. Lapā, kas tiek parādīta kopsavilkuma cilnē **Pieejamās novirzīšanās (izvēlnes vienumi)**, varat norādīt izvēlnes elementu, kam jādarbojas kā novirzīšana. Var arī atlasīt, kuras lauku vērtības no galvenā uzdevuma automātiski jākopē uz un no novirzīšanas. Piemērus, kas parāda, kā izmantot šos iestatījumus, skatiet tālāk šī raksta scenārijos.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>1. scenārija paraugs: pārdošanas izdošana, ja pieprasījums par novietojumu darbojas kā novirzīšana
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>1. scenārija paraugs: pārdošanas izdošana, ja pieprasījums par novietojumu darbojas kā novirzīšana
 
 Šajā scenārijā ir parādīts, kā konfigurēt pieprasījumu par atrašanās vietu kā novirzīšanu ar darbinieku vadītu pārdošanas izdošanas uzdevumu plūsmu. Šī novirzīšana iespējos darbiniekus meklēt visas numura zīmes atrašanās vietā, no kuras tie tiek izdoti, un izdot numura zīmi, ko vēlas izmantot izdošanas pabeigšanai. Šis novirzīšanas tips var būt noderīgs, ja svītrkods ir bojāts un tāpēc skenera ierīce to nevar nolasīt. Vai arī tas var noderēt, ja darbiniekam ir jāuzzina, kas patiesībā atrodas sistēmā. Ņemiet vērā, ka šis scenārijs darbojas tikai tad, ja izdodat no numura zīmes kontrolētiem novietojumiem.
 
@@ -59,7 +62,7 @@ Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā s
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Izveidot izvēlnei raksturīgo pārlabošanu un konfigurēt 1. scenārija novirzīšanu
 
-Šajā procedūrā numura zīmes darbībā kofigurēsiet izvēlnes vienumam **Pārdošanas izdošana** novirzīšanu.
+Šajā procedūrā ir jākonfigurē pārdošanas izdošanas izvēlnes **vienumam** numura zīmes solī.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces darbības**.
 1. Atrodiet darbības ID, kas ir nosaukts *LicensePlateId*, un izvēlieties to.
@@ -70,15 +73,17 @@ Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā s
 1. Dialoglodziņā **Pievienot novirzīšanu** kā novirzīšanu atlasiet **Novietojuma pieprasījums**, kas būs pieejams mobilajā programmā Warehouse Management.
 1. Atlasiet **Labi**.
 1. Kopsavilkuma cilnē **Pieejamās novirzīšanas (izvēlnes vienumi)** atlasiet tikko pievienoto novirzīšanu un pēc tam atlasiet **Atlasīt laukus nosūtīšanai** rīkjoslā.
-1. Dialoglodziņā **Atlasīt laukus nosūtīšanai**, norādiet informāciju, kas jānosūta uz un no novirzīšanas. Šajā scenārijā jūs ļaujat darbiniekiem izmantot atrašanās vietu, kas viņiem ir jāatlasa kā ievade, lai veiktu novietojuma pieprasījuma novirzīšanu. Tādēļ sadaļā **Nosūtīt no pārdošanas izdošanas** atlasiet **Pievienot** rīkjoslā, lai režģim pievienotu rindu. Jaunajā rindā iestatiet šādas vērtības:
+1. Dialoglodziņā **Atlasīt laukus nosūtīšanai**, norādiet informāciju, kas jānosūta uz un no novirzīšanas. Šajā scenārijā jūs iespējosit darbiniekus izmantot atrašanās vietu, no kuras tiem ir jāizdod kā ievade novietojuma pieprasījuma dešifrējumā. Tādēļ sadaļā **Nosūtīt no pārdošanas izdošanas** atlasiet **Pievienot** rīkjoslā, lai režģim pievienotu rindu. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kopēt no pārdošanas izdošanas:** *Novietojums*
     - **Ielīmēt novietojuma pieprasījumā:** *Novietojums*
+    - **Automātiska iesniegšana:** *atlasītais* (lapa tiks atsvaidzināta ar ielīmēto novietojuma *vērtību*)
 
 1. Tā kā šajā scenārijā novirzīšana ir konfigurēta numura zīmes darbībā, darbiniekiem būs noderīgi, ja darbinieki no pieprasījuma var novietot numura zīmi atpakaļ galvenajā plūsmā. Tādēļ sadaļā **Atgriezt no novietojuma pieprasījuma** atlasiet **Pievienot** rīkjoslā, lai režģim pievienotu rindu. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kopēt no novietojuma pieprasījuma:** *Numura zīme*
     - **Ielīmēt pārdošanas izdošanā:** *Numura zīme*
+    - **Automātiskā iesniegšana:** *notīrīts* (automātiskais atjauninājums netiks rādīts, atgriežoties *no noliktavas vienības ar noliktavas vienības* vērtību)
 
 1. Atlasiet **Labi**.
 
@@ -86,7 +91,7 @@ Tagad novirzīšana ir pilnībā konfigurēta. Poga **Novietojuma pieprasījums*
 
 ### <a name="complete-a-sales-pick-on-a-mobile-device-and-use-the-detour"></a>Pabeidziet pārdošanas izdošanu mobilajā ierīcē un izmantojiet novirzīšanu
 
-Šajā procedūrā izpildīsiet pārdošanas izdošanu, izmantojot mobilo programmu Warehouse Management. Jūs izmantosiet novirzīšanu, ko tikko konfigurējāt, lai atrastu numura zīmi, ko izmantosiet izdošanas darbības pabeigšanai.
+Šajā procedūrā izpildiet pārdošanas savākšanu, izmantojot mobilo programmu Noliktavas pārvaldība. Varat izmantot atšifrējums, ko tikko konfigurējāt, lai atrastu numura zīmi, ko izmantosit, lai pabeigtu izdošanas soli.
 
 1. Microsoft Dynamics 365 Supply Chain Management izveidojiet pārdošanas pasūtījumu, kam būs nepieciešama izdošanas darbība, lai izdotu no novietojuma, kam ir izsekota numura zīme. Tad atlasiet pārdošanas pasūtījumu, kuru tikko izlaidāt noliktavā. Pierakstiet ģenerēto darba ID.
 1. Atvēriet Warehouse Management mobilo programmu pierakstieties noliktavā 24. (Standarta demonstrācijas datos piesakieties, izmantojot *24* kā lietotāja ID un *1* kā paroli.)
@@ -112,7 +117,7 @@ Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā s
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Izveidot izvēlnei raksturīgo pārlabošanu un konfigurēt 2. scenārija novirzīšanu
 
-Šajā procedūrā numura zīmes darbībā kofigurēsiet izvēlnes vienumam **Pārdošanas izdošana** novirzīšanu.
+Šajā procedūrā ir jākonfigurē pārdošanas izdošanas izvēlnes **vienumam** numura zīmes solī.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces darbības**.
 1. Atrodiet un atlasiet darbības ID, kas ir nosaukts *LocationInquiryList*.
@@ -131,6 +136,7 @@ Lai izmantotu norādītos parauga ierakstus un vērtības, lai darbotos šajā s
 
     - **Kopēt no novietojuma pieprasījuma:** *Novietojums*
     - **Ielīmēt Pārvietošanā:** *Atrašanās vieta/Noliktavas vienība*
+    - **Automātiska iesniegšana:** *notīrīta* (netiks veikta automātiskā atjaunināšana)
 
     Šajā novirzīšanā nav paredzēts kopēt jebkādu informāciju, jo galvenā plūsma bija pieprasījums, kurā papildu darbības nav nepieciešamas.
 
@@ -140,7 +146,7 @@ Tagad novirzīšana ir pilnībā konfigurēta. Poga **Pārvietošana** novirzī�
 
 ### <a name="do-a-location-inquiry-on-a-mobile-device-and-use-the-detour"></a>Veiciet pieprasījumu par novietojumu mobilajā ierīcē un izmantojiet novirzīšanu
 
-Šajā procedūrā veiksiet pieprasījumu par novietojumu, izmantojot mobilo programmu Warehouse Management. Tad izmantosiet šo novirzīšanu, lai pabeigtu preču kustību.
+Šajā procedūrā varat veikt pieprasījumu par atrašanās vietu, izmantojot mobilo programmu Noliktavas pārvaldība. Tad jūs izmantojat šo de uzdākumu, lai pabeigtu preču kustību.
 
 1. Atvēriet Warehouse Management mobilo programmu pierakstieties noliktavā 24. (Standarta demonstrācijas datos piesakieties, izmantojot *24* kā lietotāja ID un *1* kā paroli.)
 1. Izvēlieties **Krājumi** izvēlni un tad izvēlieties **Novietojuma pieprasījums** izvēlnes elementu.
@@ -153,3 +159,5 @@ Tagad novirzīšana ir pilnībā konfigurēta. Poga **Pārvietošana** novirzī�
 
 > [!NOTE]
 > Noliktavas *pārvaldības mobilās* programmas funkcijas vairāklīmeņu atzari ļauj definēt daudzlīmeņu darbības (dešifrējumi dešifrēs), kas ļaus darbiniekiem pārlēkt no esošā atzara divas sekundes un pēc tam atpakaļ. Funkcija atbalsta divus līmeņus ārpus kastes un, ja nepieciešams, sistēmu var pielāgot, lai atbalstītu trīs vai vairākus dekodēšanas līmeņus, izveidojot kodu paplašinājumus `WHSWorkUserSessionState` tabulā.
+>
+> Automātiskās *iesniegšanas atlikusī darbības mobilās programmas noliktavas* pārvaldībai funkcijai var ātrāk un vieglāk pabeigt darbinieku plūsmas no mobilās programmas Noliktavas pārvaldība. Tas ļauj izlaist dažus plūsmas soļus, izlaižot programmu, aizpildīt datus atpakaļ, un pēc tam automātiski pārvietoties uz nākamo soli, izmantojot automātisko lapas iesniegšanu, [*kā redzams 1. parauga scenārijā: pārdošanas izdošana, kur vietas pieprasījums darbojas kā deparāts*](#scenario-1).

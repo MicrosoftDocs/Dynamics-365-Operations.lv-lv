@@ -1,5 +1,5 @@
 ---
-title: Vizuāla un vājdarba izpilde
+title: Vizuāla un sadarbības izpilde
 description: Šajā rakstā ir aprakstīts, kā pārraudzīt demand Driven Material Requirements plānošanu (DDMRP) dekompozīcijas punktus, bufera zonas, plānotos pasūtījumus un vēsturi.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: e3afdd10860494b3cfe73a113a0e4e8fb07682a1
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186576"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689781"
 ---
-# <a name="visual-and-collaborative-execution"></a>Vizuāla un vājdarba izpilde
+# <a name="visual-and-collaborative-execution"></a>Vizuāla un sadarbības izpilde
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Šajā rakstā ir aprakstīts, kā pārraudzīt demand Driven Material Requirements plānošanu (DDMRP) dekompozīcijas punktus, bufera zonas, plānotos pasūtījumus un vēsturi.
 

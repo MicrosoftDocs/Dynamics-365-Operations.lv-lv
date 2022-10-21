@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186587"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689493"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Pieprasījumam noteiktu materiālu prasību plānošanas (DDMRP) pārskats
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Gados uzņēmumi ir izmantojis materiālu prasību plānošanu (MRP) kā sistēmu materiālu un komponentu aprēķināšanai, kas nepieciešami preces ražošanai. Tomēr piegādes ķēdes tagad ir mainījušās. Daļām ir garāki izpildes laiki, jo tās ir no aizjūras valstīm iegūtās reizes. Tāpēc daudzi uzņēmumi ir ziņojuši, ka pārāk bieži ir iztjuši krājumi vai krājumi, jo nav zināms, cik daudz krājumu ir noliktavā. Pastāv arī vairākas tirgus svārstības (dažreiz neprecīzi prognozi), un debitori pieprasa preces īsu izpildes laiku. Tādēļ visā pasaulē ir piegādes ķēdes iztrūkums. Turklāt MRP rīki parasti nozīmē, ka plānotāji veic tūkstošiem darbību. Tāpēc ir grūti zināt, uz ko fokuss ir jāfokusē. Bieži daudzu šo jautājumu risinājums ir pārslēgties uz uz pieprasījumu orientētu materiālu prasību plānošanu (DDMRP).
 
