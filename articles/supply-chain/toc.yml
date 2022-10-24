@@ -12,14 +12,12 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.31 (2022.\_gada februāris)"
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: "Supply Chain Management\_10.0.30 (2022.\_gada novembris)"
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: "Supply Chain Management\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: "Supply Chain Management 10.0.28 (2022.\_gada augusts)"
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: "Supply Chain Management 10.0.27 (2022.\_gada jūlijs)"
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: Filtru lietošana plānam
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Vispārējā plānošana ar pieprasījuma apjoma prognozi
+                - name: Vispārējā plānošana ar pieprasījuma apjoma prognozēm
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Vispārējā plānošana ar piegādes apjoma prognozēm
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 'Plānošana, pamatojoties uz piedāvājumiem un piedāvājuma pieprasījumiem'
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: 'Datuma un laika parametri, kas tiek izmantoti plānošanas optimizācijai'
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Drošības rezerves
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Iepriekš definētu preces variantu izveide
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Preču nosaukumu un aprakstu tulkojumu rādīšana lietotāja interfeisā
+                  href: pim/show-translated-product-info.md
                 - name: Mērvienību pārvaldība
                   href: pim/tasks/manage-unit-measure.md
                 - name: Mērvienību konvertēšana katram preces variantam
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Darbs ar novietojuma direktīvām
                       href: warehousing/create-location-directive.md
+                    - name: Atrašanās vietu direktīvu pārbaude ar pieņemšanas testiem
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Noliktavas darījumu preču filtru konfigurēšana
                       href: warehousing/filters-and-filter-codes.md
                     - name: Novietojuma uzkrājumu ierobežojumi

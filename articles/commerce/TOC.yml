@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Asinhrono debitoru pārvēršana par sinhroniem debitoriem
               href: convert-async-to-sync.md
+            - name: Debitoru darbību audita sinhronizācija
+              href: audit-async-customer-operations.md
             - name: 'Asinhronā debitora izveides režīms: bieži uzdotie jautājumi'
               href: async-customer-mode-faq.md
             - name: Attiecības ar klientiem
@@ -1296,9 +1298,15 @@
                       href: cookie-consent-module.md
                 - name: Tērzēšanas moduļi
                   items:
-                    - name: Commerce tērzēšanas modulis
+                    - name: Commerce tērzēšanas līdzekļu apskats
+                      href: commerce-chat-overview.md
+                    - name: Commerce tērzēšana ar Customer Service universālā kanāla moduli
                       href: commerce-chat-module.md
-            - name: Meklēšana
+                    - name: Commerce tērzēšana ar Power Virtual Agents moduli
+                      href: chat-module-pva.md
+                    - name: Commerce tērzēšanas moduļa proaktīvie tērzēšanas parametri
+                      href: chat-proactive-chat-parameters.md
+            - name: Meklēšana pasūtījumos
               items:
                 - name: Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats
                   href: category-search-page-overview.md

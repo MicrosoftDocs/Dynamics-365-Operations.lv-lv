@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Finance sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (janvāris)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (novembris)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (oktobris)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Kreditoru moduļa rēķinu salīdzināšanas pārbaudes iestatīšana
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Invoice Capture risinājums
+              items:
+                - name: Invoice Capture pārskats
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Invoice Capture instalēšana
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Invoice Capture konfigurēšana
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Invoice Capture konfigurācijas grupas
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Invoice Capture kartēšanas kārtulas
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Invoice Capture darbvieta
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Invoice Capture papildu iestatījumi
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Invoice Capture informācijas panelis
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Invoice Capture saņemtie faili
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Kreditoru rēķinu automatizācija
               items:
                 - name: Automatizētu kreditoru rēķinu izrakstīšanas procesu pārskats

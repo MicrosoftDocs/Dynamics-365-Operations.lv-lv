@@ -14,7 +14,9 @@
               items:
                 - name: Jaunumi un izmaiņas platformas atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.30 (2022.\_gada novembris)"
+                - name: "Platformas atjauninājumi versijai\_10.0.31 (2023.\_gada februāris)"
+                  href: get-started/whats-new-platform-updates-10-0-31.md
+                - name: "Platformas atjauninājumi versijai\_10.0.30 (2022.\_gada novembris)"
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Platformas atjauninājumi versijai\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Elementa izmaiņu izsekošana
                   href: data-entities/entity-change-track.md
+                - name: Rindas versijas izmaiņu izsekošanas atļaušana elementam
+                  href: data-entities/rowversion-change-track.md
                 - name: Informācijas par standarta datu elementiem meklēšana
                   href: data-entities/data-entities-report.md
                 - name: Datu veidnes ar vairākām darblapām
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse virtuālo elementu iespējošana
                   href: power-platform/enable-virtual-entities.md
+                - name: Izmaiņu izsekošana Dataverse virtuālajām tabulām
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Power Apps portāli ar finanšu un operāciju programmu
                   href: power-platform/power-portal-reference.md
                 - name: Bieži uzdotie jautājumi par finanšu un operāciju virtuālajām entītijām
