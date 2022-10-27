@@ -1,6 +1,6 @@
 ---
-title: Pārrēķināt rindu neto summas, importējot pārdošanas pasūtījumus, piedāvājumus un atgrieztos
-description: Šajā rakstā ir aprakstīts, vai un kā sistēma pārrēķina rindu neto summas, kad tiek importēti pārdošanas pasūtījumi, piedāvājumi un ieņēmumi. Šeit aprakstīts arī, kā varat kontrolēt uzvedību dažādās Microsoft versijās Dynamics 365 Supply Chain Management.
+title: Pārrēķināt rindu neto summas, importējot pārdošanas pasūtījumus un piedāvājumus
+description: Šajā rakstā ir aprakstīts, vai un kā sistēma pārrēķina rindu neto summas, kad tiek importēti pārdošanas pasūtījumi un piedāvājumi. Šeit aprakstīts arī, kā varat kontrolēt uzvedību dažādās Microsoft versijās Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335561"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719339"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Pārrēķināt rindu neto summas, importējot pārdošanas pasūtījumus, piedāvājumus un atgrieztos
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Pārrēķināt rindu neto summas, importējot pārdošanas pasūtījumus un piedāvājumus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, vai un kā sistēma pārrēķina rindu neto summas, kad tiek importēti pārdošanas pasūtījumi, piedāvājumi un ieņēmumi. Šeit aprakstīts arī, kā varat kontrolēt uzvedību dažādās Microsoft versijās Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, vai un kā sistēma pārrēķina rindu neto summas, kad tiek importēti pārdošanas pasūtījumi un piedāvājumi. Šeit aprakstīts arī, kā varat kontrolēt uzvedību dažādās Microsoft versijās Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Kā importēšanas laikā tiek aprēķināti neto rindu summu atjauninājumi
 
-Piegādes ķēdes pārvaldības versija 10.0.23 [604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Šis kļūdas labojums **izmainīja** nosacījumus, saskaņā ar kuriem neto summas lauku rindā var atjaunināt vai pārrēķināt, kad tiek importēti esošo pārdošanas pasūtījumu, atgriešanas un piedāvājumu atjauninājumi. Versijā 10.0.29 varat aizstāt šo kļūdu *, ieslēdzot importēšanas līdzekļa rindas Neto summas aprēķins*. Šai funkcijai ir līdzīga ietekme, bet tā nodrošina globālu iestatījumu, kas ļauj atgriezties pie vecās uzvedības, ja nepieciešams. Lai gan jaunā uzvedība padara sistēmu darbojas daudz jaunā veidā, tā var radīt neparedzētus rezultātus noteiktos scenārijos, kuros ir spēkā visi šie nosacījumi:
+Piegādes ķēdes pārvaldības versija 10.0.23 [604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Šis kļūdas labojums izmainīja **nosacījumus**, saskaņā ar kuriem neto summas lauku rindā var atjaunināt vai pārrēķināt, kad tiek importēti esošo pārdošanas pasūtījumu un piedāvājumu atjauninājumi. Versijā 10.0.29 varat aizstāt šo kļūdu *, ieslēdzot importēšanas līdzekļa rindas Neto summas aprēķins*. Šai funkcijai ir līdzīga ietekme, bet tā nodrošina globālu iestatījumu, kas ļauj atgriezties pie vecās uzvedības, ja nepieciešams. Lai gan jaunā uzvedība padara sistēmu darbojas daudz jaunā veidā, tā var radīt neparedzētus rezultātus noteiktos scenārijos, kuros ir spēkā visi šie nosacījumi:
 
 - *Dati, kas atjaunina esošos ierakstus, tiek importēti, izmantojot pārdošanas pasūtījuma rindas V2*, *pārdošanas piedāvājuma rindas V2* vai Atgriešanas pasūtījuma rindu elementu, *izmantojot* Atvērto datu protokolu (OData), tostarp situācijas, kad izmantojat duālās rakstīšanas, importēšanas/eksportēšanas, izmantojot Excel, un dažas trešās puses integrācijas.
-- [Tirdzniecības līgumu vērtēšanas politikas](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper), kas atrodas vietā, izveido izmaiņu politiku, kas ierobežo neto summas lauka atjauninājumus pārdošanas pasūtījuma rindās, pārdošanas piedāvājuma rindās un/vai atgriešanas **pasūtījuma** rindās.
+- [Tirdzniecības līgumu vērtēšanas politikas](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper), kas atrodas vietā, izveido izmaiņu politiku, kas ierobežo neto summas lauka atjauninājumus pārdošanas pasūtījuma rindās, pārdošanas piedāvājuma rindās un/vai atgriešanas **pasūtījuma** rindās. Ievērojiet, ka atgriešanas pasūtījuma rindām **neto** summas lauks vienmēr tiek aprēķināts un to nevar iestatīt manuāli.
 - Importētie **dati** ietver izmaiņas neto summas laukā rindās vai izmaiņas (piemēram, vienības cenu, daudzumu vai atlaidi), **kas** izraisīs neto summas lauka vērtību rindās, kas jāpārrēķina vienam vai vairākiem esošiem rindas ierakstiem.
 
 Šajos noteiktos scenārijos tirdzniecības līgumu novērtēšanas politikas ietekme uz neto **summas** lauka atjaunināšanu rindā rada ierobežojumu. Šis ierobežojums pazīstams kā *izmaiņu politika*. Šīs politikas dēļ, kad izmantojat lietotāja interfeisu lauka labošanai vai pārrēķinam, sistēma prasa, lai jūs apstiprināsit, vai vēlaties veikt izmaiņas. Tomēr, importējot ierakstu, sistēmai ir jāveic jūsu izvēle. Pirms versijas 10.0.23 sistēma vienmēr atstāja rindas neto summu nemainīgu, ja ienākošās rindas neto summa nav 0 (nulle). Tomēr jaunākās versijās sistēma vienmēr atjaunina vai pārrēķina neto summu, kā nepieciešams, ja vien nav skaidri norādīts, ka tā nav skaidra. Lai gan jaunā uzvedība ir loģiskāka, tas var radīt problēmas jums, ja jūs jau darbojaties procesus vai integrācijas, kas pieņem vecāko uzvedību. Šajā rakstā ir aprakstīts, kā atgriezties pie vecās uzvedības, ja nepieciešams.

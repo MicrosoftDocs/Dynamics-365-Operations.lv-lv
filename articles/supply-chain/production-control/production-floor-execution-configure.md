@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336191"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708730"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -164,7 +164,7 @@ Kopsavilkuma cilnē Vispārīgi ir pieejami **šādi** iestatījumi:
 - **Atļaujiet bloķēt** skārienekrānu – *iestatiet* šo opciju uz Jā, lai ļautu darbiniekiem bloķēt ražošanas stāva izpildes interfeisa skārienekrānu, lai viņi varētu to noslēgt. Kad šī opcija ir iestatīta *uz Jā*, **pierakstīšanās lapai tiek** pievienots bloķēšanas ekrāns pogas numuru iestatīšanai. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi. Tiek parādīts arī atpakaļskaitīšanas taimeris. Darbinieks pēc tam var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
 - **Ekrāna bloķēšanas ilgums** — kad opcija **Atļaut skārienekrāna bloķēšanu** ir iestatīta uz *Jā*, izmantojiet šo opciju, lai norādītu sekunžu skaitu, cik ilgi skārienekrānam ir jābūt bloķētam tīrīšanai. Ilgumam jābūt diapazonā no 5 līdz 120 sekundēm.
 - **Ģenerēt numura zīmi** — iestatiet šo *opciju* kā Jā, lai ģenerētu jaunu numura zīmi katru reizi, kad darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad šī opcija ir iestatīta uz *Nē*, darbiniekiem ir jānorāda esoša noliktavas vienība, kad tie reģistrē pabeigšanu.
-- **Drukāt etiķeti** – iestatiet šo opciju kā *Jā*, lai drukātu numura zīmes uzlīmi, ja darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā tas ir aprakstīts [Dokumentu maršrutēšanas izkārtojumā noliktavas vienību etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
+- **Drukāt etiķeti** – iestatiet šo opciju kā *Jā*, lai drukātu numura zīmes uzlīmi, ja darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā aprakstīts Dokumentu maršrutēšanas [etiķešu izkārtojumos](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Ciļņu atlases kopsavilkuma cilne
 

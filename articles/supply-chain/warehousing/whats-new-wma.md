@@ -10,18 +10,23 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
-ms.translationtype: HT
+ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682619"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702200"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Jaunumi un izmaiņas mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+
+## <a name="version-20350"></a>Versija 2.0.35.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+- Fiksētā problēma, Android kad programma var saavārijas, ja **darbu** saraksta lapa tika atvērta laikā, kad netika parādīta neviena karte.
 
 ## <a name="version-20340"></a>Versija 2.0.34.0
 
@@ -67,7 +72,7 @@ ms.locfileid: "9682619"
 - Svītrkodos ir pievienots ASCII 10 atbalsts.
 - Uzlabota darbību instrukciju dialoga izmantojamība.
 - Fiksēta problēma, kuras gadījumā var parādīt tukšu ekrānu.
-- Fiksētā problēma, kad darba saraksti netika pareizi ritināti, palaižot Microsoft Windows.
+- Fiksētā problēma, kad darba saraksti netika pareizi ritināti, palaižot.Microsoft Windows
 
 ## <a name="version-20250"></a>Versija 2.0.25.0
 

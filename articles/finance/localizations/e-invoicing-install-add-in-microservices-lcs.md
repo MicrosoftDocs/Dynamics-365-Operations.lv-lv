@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272278"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710813"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services
 
@@ -35,7 +35,7 @@ Lai reģistrētu vidi, veiciet šādus soļus.
 2. Projekta informācijas panelī **Vides** atlasiet izvietoto vidi. atlasītājai videi jābūt palaistai.
 3. **Power Platform Cilnes Integrācija** sadaļā **Vides pievienojumprogrammas** atlasiet Instalēt **jaunu pievienojumprogrammu**.
 4. Atlasiet **Elektronisko rēķinu izrakstīšana**.
-5. Laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī vērtība ir fiksēta vērtība. Pārliecinieties, vai tiek ievadīts tikai globāli unikāls identifikators (GUID). Neietveriet citus simbolus, piemēram, atstarpes, komatus, punktus vai pēdiņas.
+5. **AAD programmas ID** laukā ievadiet fiksētu vērtību **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī vērtība vienmēr ir fiksēta. Pārliecinieties, vai tiek ievadīts tikai globāli unikāls identifikators (GUID). Neietveriet citus simbolus, piemēram, atstarpes, komatus, punktus vai pēdiņas.
 6. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta nomnieka ID. Azure Active Directory(Azure AD) Jūsu norādītam nomniekam jābūt tam pašam nomniekam, kas tiek izmantots regulēšanas konfigurācijas pakalpojumam (RCS).
 7. Pārskatiet noteikumus un nosacījumus un pēc tam atzīmējiet izvēles rūtiņu.
 8. Atlasiet **Instalēt**. Pēc dažām minūtēm statusam jāmainās no **Instalē** uz **Instalēts**. Lai skatītu šīs izmaiņas, iespējams, būs jāatsvaidzina lapa.

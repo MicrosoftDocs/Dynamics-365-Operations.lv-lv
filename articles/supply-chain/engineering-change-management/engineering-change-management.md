@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849595"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714741"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -141,6 +141,8 @@ Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņoju
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 
 Inženieris, kurš veic tehnisko izmaiņu pieprasījuma pārskatīšanu, var izveidot tehnisko izmaiņu pasūtījumu tieši no lapas **Tehnisko izmaiņu pieprasījums**. Darbības rūtī cilnē **Mainīt pieprasījumu**, kas atrodas grupā **Tehnisko izmaiņu pasūtījums**, atlasiet **Kopēt saiti un produktus**.
+
+Pārliecinieties, vai ir atlasīts pareizais uzņēmums jaunajam tehnoloģiju izmaiņu pasūtījumam. Ja izmaiņu pasūtījuma rezultātā tiks mainīta tehniskā prece (jauna versija, jauna prece vai jauns variants), izmaiņu pasūtījums ir jāpiešķir tehniskais uzņēmumam. Ja ir nepieciešamas tikai lokālās izmaiņas (**·** *ietekme* ir iestatīta uz Nav), izmaiņu pasūtījumu var piešķirt lokālam uzņēmumam, un izmaiņas tiks lietotas pašreizējai precei.
 
 ## <a name="engineering-change-orders"></a>Tehnisku izmaiņu pasūtījumi
 

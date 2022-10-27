@@ -2,7 +2,7 @@
 title: Termiņatlaides
 description: Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.  Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1969aecbda6798290367fd505bf1b6ac06235a1d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 1db95720d56cc538f2d702137889467a9892d99c
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151916"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715187"
 ---
 # <a name="cash-discounts"></a>Termiņatlaides
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279906"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710840"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Pabeigt, publicēt un izvietot globalizācijas līdzekli
 
@@ -59,8 +59,8 @@ RcS izmantojiet komandu **Izvietot**, lai publicētu elektronisko rēķinu izrak
 2. **Cilnes Versijas** lapas labajā pusē atlasiet elektronisko rēķinu izrakstīšanas funkcijas versiju, ko vēlaties izvietot pakalpojumu vidē vai pievienotajā programmā. Atlasītās versijas statusam ir jābūt Pabeigts **vai** **Publicēts**.
 3. Atlasiet **Izvietot** un pēc tam atlasiet vienu vai abas no šīm opcijām, lai definētu izvietošanas mērķi:
 
-    - **Saistītā programma** - konfigurācija, ko nodrošina programmas iestatījumi Microsoft Dynamics, ir rakstīta 365 Finansu Dynamics 365 Supply Chain Management instancē vai, kas iepriekš bija saistīta ar to.
-    - **Pakalpojumu vide** – elektronisko rēķinu izrakstīšanas funkcijas versija tiek izvietota pakalpojumu vidē. Elektronisko rēķinu izrakstīšana ir gatava saņemt un apstrādāt elektroniskos dokumentus, ko sūta Finanšu vai piegādes ķēžu pārvaldība.
+    - **Saistītā** lietojumprogramma – šī ir izvēles, bet jāizmanto, ja vēlaties, Microsoft Dynamics lai konfigurācija, ko sniedz lietojumprogrammas iestatījumi, tiktu rakstīta 365 Finanšu Dynamics 365 Supply Chain Management instancē vai arī, kas iepriekš bijusi saistīta ar to. Šī izvietojuma tipa izlaišanai nepieciešams manuāli konfigurēt parametrus, kas definēti Finanšu vai piegādes ķēdes pārvaldības programmas iestatījumos.
+    - **Pakalpojumu vide** - ar šo tiek izvietota elektronisko rēķinu izrakstīšanas līdzekļa versija pakalpojumu videi. Elektronisko rēķinu izrakstīšana ir gatava saņemt un apstrādāt elektroniskos dokumentus, ko sūta Finanšu vai piegādes ķēžu pārvaldība.
 
 > [!NOTE]
 > Parasti jūs mainīsiet elektroniskā pārskata (ER) funkcijas parametrus, kas jāizvieto pakalpojumu vidē. Saistītās programmas izmaiņas būs retas. Jaunās versijas ir jāizvieto pievienotajā programmā tikai tad, ja maināt atbilstošos programmas parametrus.

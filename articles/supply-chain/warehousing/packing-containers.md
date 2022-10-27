@@ -1,5 +1,5 @@
 ---
-title: Iepakot sūtījumu konteinerus
+title: Konteineru iepakošana nosūtīšanai
 description: Šajā rakstā ir aprakstīts iepakošanas process, kas ļauj validēt krājuma krājumus un iepakot tos konteineros.
 author: perlynne
 ms.date: 7/13/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220753"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708788"
 ---
-# <a name="pack-containers-for-shipment"></a>Iepakot sūtījumu konteinerus
+# <a name="pack-containers-for-shipment"></a>Konteineru iepakošana nosūtīšanai
 
 [!include [banner](../../includes/banner.md)]
 
@@ -34,7 +34,9 @@ Ar konteineriem var izmantot vairākas saistītas izejošās noliktavas iespēja
 - [Apstiprināt un pārsūtīt](confirm-and-transfer.md)
 - [Iestatīt dažādas iepakošanas un glabāšanas dimensijas](packing-vs-storage-dimensions.md)
 - [Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [Iepakošanas konteineri no noliktavas pārvaldības mobilās programmas](warehouse-app-packing-containers.md)
+- [Piemēra scenārijs — iepakot konteinerus ar noliktavas pārvaldības mobilo programmu](warehouse-app-pack-containers-scenario.md)
+- [Drukāt konteinera etiķetes](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Iestatīt noliktavu manuālas iepakošanas darbību lietošanai
 

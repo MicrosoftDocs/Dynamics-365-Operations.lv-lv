@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856198"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719296"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Krājumu redzamības rīcībā esošo izmaiņu grafiki un pieejamās solīšanai
 
@@ -205,6 +205,7 @@ Lietojumprogrammas saskarnes (API) vietrāžus URL var izmantot, lai iesniegtu r
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Izveidot vairākus izmaiņu notikumus. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Vaicājums, izmantojot `POST` metodi. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Vaicājums, izmantojot `GET` metodi. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Precīzs vaicājums, izmantojot `POST` metodi. |
 
 Plašāku informāciju skatiet krājumu redzamības [publiskajiem API](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Pieprasījumā iestatiet kā patiesu `QueryATP`*·*, ja vēlaties vaicāt par r�
 > [!NOTE]
 > Neatkarīgi no tā `returnNegative`*·* *·*, vai parametrs pieprasījuma pamattekstā ir iestatīts kā patiess vai nepatiess, rezultāts ietvers negatīvas vērtības, kad vaicājums tiks veikts par rīcībā esošo izmaiņu veikšanu un ATP rezultātiem. Šīs negatīvās vērtības tiks iekļautas, jo, ja tiek plānoti tikai pieprasījuma pasūtījumi vai ja piegādes daudzums ir mazāks par pieprasījuma daudzumu, plānotie rīcībā esošo izmaiņu daudzumi būs negatīvi. Ja negatīvas vērtības netika iekļautas, rezultāti būtu saplūdoši. Papildinformāciju par šo opciju un to, kā tā darbojas citiem vaicājumu tipiem, skatiet Krājumu [redzamības publiskais API](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Vaicājums, izmantojot metodi POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-Tālāk sniegtajā piemērā ir parādīts, kā izveidot pieprasījuma pamattekstu, kuru, izmantojot metodi, var iesniegt krājumu redzamībai`POST`.
+Tālāk sniegtajā piemērā ir parādīts, kā izveidot indeksa vaicājuma pieprasījuma pamattekstu, ko var iesniegt krājumu redzamībai, izmantojot `POST` metodi.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Tālāk sniegtajā piemērā ir parādīts, kā izveidot pieprasījuma pamatteks
 }
 ```
 
-### <a name="get-method-example"></a>GET metodes piemērs
+### <a name="query-by-using-the-get-method"></a>Vaicājums, izmantojot metodi GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Šajā piemērā parādīts, kā izveidot pieprasījuma URL kā `GET` pieprasījumu.
+Šajā piemērā parādīts, kā izveidot indeksa vaicājuma pieprasījuma URL kā `GET` pieprasījumu.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Šī pieprasījuma rezultāts `GET` ir tieši tāds pats kā pieprasījuma `POST` rezultāts iepriekšējā piemērā.
 
+### <a name="exact-query-by-using-the-post-method"></a>Precīzs vaicājums, izmantojot metodi POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Šajā piemērā parādīts, kā izveidot precīzu vaicājuma pieprasījuma pamattekstu, ko var iesniegt krājumu redzamībai, izmantojot `POST` metodi.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Vaicājuma rezultāta piemērs
 
-Abi iepriekšējie vaicājuma piemēri var sniegt šādu atbildi. Šajā piemērā sistēma ir konfigurēta ar šādiem iestatījumiem:
+Jebkuri iepriekšējie vaicājuma piemēri var sniegt šādu atbildi. Šajā piemērā sistēma ir konfigurēta ar šādiem iestatījumiem:
 
 - **ATP aprēķinātais līdzeklis:** *iv.onhand = poz.inbound — poz.outbound*
 - **Grafika periods:** *7*

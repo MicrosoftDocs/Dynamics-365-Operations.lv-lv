@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864344"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713894"
 ---
 # <a name="configure-ledgers"></a>Virsgrāmatas konfigurēšana
 
@@ -42,7 +42,7 @@ Katru juridisko personu programmā Dynamics 365 Finanses var konfigurēt, lai iz
 
 Ņemiet vērā, ja jums ir vairākas konta struktūras, varat atlasīt tikai tās konta struktūras, kurām nepārklājas galveno kontu un finanšu dimensiju kombinācijas. Piemēram, viena no jūsu konta struktūrām ir konfigurēta, lai pievienotu biznesa vienību galvenajiem kontiem starp 1000 un 1999. Citā konta struktūrā jūs esat pievienojis nodaļas finanšu dimensiju galvenajiem kontiem, kas sākas ar 1. Šādā gadījumā vienai un tai pašai juridiskajai personai var pievienot tikai vienu no konta struktūrām.
 
-Lai konfigurētu konta struktūras savai Virsgrāmatai, lapā **Virsgrāmata** kopsavilkuma cilnē **Konta struktūras** atlasiet **Pievienot**, sarakstā atlasiet konta struktūru un pēc tam atlasiet **Atlasīt**. Var paiet dažas minūtes, kamēr konta struktūras tiks pievienotas un saglabātas. Ņemiet vērā, ka jūsu atlasītajām konta struktūrām jābūt aktīvām. Pretējā gadījumā konta struktūru detalizētā informācija nebūs spēkā juridiskajās personās, kur tā ir saistītas.
+Lai konfigurētu konta struktūras savai Virsgrāmatai, lapā **Virsgrāmata** kopsavilkuma cilnē **Konta struktūras** atlasiet **Pievienot**, sarakstā atlasiet konta struktūru un pēc tam atlasiet **Atlasīt**. Konta struktūru pievienošanai un saglabāšanai būs nepieciešams dažas minūtes. Kad Virsgrāmatā ir saglabāta mainītā konta struktūra, tiks sākts visu negrāmatoto darbību sinhronizēšanas process. Jums jāgaida, kamēr pašreizējā Virsgrāmatā tiks veiktas izmaiņas juridiskajā persona, kur tiek veiktas izmaiņas, pirms varat veikt konta struktūras izmaiņas virsgrāmatai citā juridiskajā persona. Ņemiet vērā, ka jūsu atlasītajām konta struktūrām jābūt aktīvām. Pretējā gadījumā konta struktūru detalizētā informācija nebūs spēkā juridiskajās personās, kur tā ir saistītas.
 
 Lai noņemtu konta struktūru, lapā **Virsgrāmata** kopsavilkuma cilnē **Konta struktūras** atlasiet **Noņemt**. Ņemiet vērā, ka, noņemot konta struktūru no Virsgrāmatas, netiek noņemti darījumi, kas tika grāmatotas, izmantojot konta struktūras konfigurāciju.
 
@@ -70,7 +70,7 @@ Lai iegūtu papildu informāciju par līdzsvarošanas ierakstiem, skatiet [Starp
 
 Lapa **Virsgrāmata** lapa tiek izmantota arī, lai kontrolētu un definētu valūtas, kas tiks izmantotas, kad darījumi tiek grāmatoti Virsgrāmatā. Ir jānorāda uzskaites valūta, kas ir valūta, kāda tiek izmantota visos dokumentos Virsgrāmatas kolonnā **Virsgrāmatas valūta**. Turklāt kolonnā **Pārskata valūta** varat pēc izvēles atlasīt otru valūtu. Ja atlasāt pārskata valūtu, visi darījumi tiks ierakstīti šajā valūtā visos dokumentos Virsgrāmatas kolonnā **Pārskata valūta**.
 
-Ja darījumi ir grāmatotas citā valūtā, sistēma automātiski konvertē darījuma summu no darījuma valūtas uzskaites valūtā un dokumenta pārskata valūtā. Lapas **Virsgrāmata** laukā **Uzskaites valūtas maiņas kursa veids** atlasiet valūtas maiņas kursa veidu, kas konfigurēts maiņas kursiem, kas jāizmanto, konvertējot vērtības no darījuma valūtas uz dokumenta uzskaites valūtu. Ja atlasījāt pārskata valūtu, ir jāiestata arī lauks **Pārskata valūtas maiņas kursa veids**, lai norādītu valūtas maiņas kursu, kas jāizmanto, konvertējot vērtības no darījuma valūtas uz dokumenta pārskata valūtu.
+Ja darbības ir grāmatotas citā valūtā, sistēma automātiski pārvērš darbības summu no darbības valūtas uzskaites valūtā un pārskata valūtā dokumentā. Lapas **Virsgrāmata** laukā **Uzskaites valūtas maiņas kursa veids** atlasiet valūtas maiņas kursa veidu, kas konfigurēts maiņas kursiem, kas jāizmanto, konvertējot vērtības no darījuma valūtas uz dokumenta uzskaites valūtu. Ja atlasījāt pārskata valūtu, ir jāiestata arī lauks **Pārskata valūtas maiņas kursa veids**, lai norādītu valūtas maiņas kursu, kas jāizmanto, konvertējot vērtības no darījuma valūtas uz dokumenta pārskata valūtu.
 
 Ja izmantojat budžeta veidošanas funkcionalitāti, varat arī iestatīt lauku **Budžeta maiņas kursa veids**, lai norādītu maiņas kursu, kas jāizmanto budžeta darījumu konvertēšanai no vienas valūtas citā.
 

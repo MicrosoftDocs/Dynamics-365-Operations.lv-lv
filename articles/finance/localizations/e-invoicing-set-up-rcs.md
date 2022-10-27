@@ -2,7 +2,7 @@
 title: Iestatīt regulēšanas konfigurācijas pakalpojumu (RCS)
 description: Šajā rakstā skaidrots, kā iestatīt regulēšanas konfigurācijas pakalpojumu (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285793"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710786"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Iestatīt regulēšanas konfigurācijas pakalpojumu (RCS)
 
@@ -39,7 +39,16 @@ Globalizācijas līdzekļu darbvietas **elementam** tagad ir jābūt redzamam ga
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Iestatiet RCS integrācijas parametrus ar elektronisko rēķinu izrakstīšanu
 
 1. **Globalizācijas līdzekļu** darbtelpas sadaļā **Saistītie iestatījumi** atlasiet **Elektroniskās ziņošanas parametri**.
-2. Cilnē Elektroniskā **rēķina izrakstīšana**, kas atrodas **laukā Pakalpojuma galapunkta URI**, Microsoft Azure ievadiet savam ģeogrāfijai atbilstošo pakalpojuma galapunktu, kā parādīts šajā tabulā.
+2. Pirmo reizi iestatot parametrus, jums tiks piedāvāts izveidot savienojumu ar dzīves cikla pakalpojumiem (LCS). Atlasiet **Šeit noklikšķiniet, lai izveidotu savienojumu ar pakalpojumu Lifecycle Services**, un pēc savienojuma izveides atlasiet **Labi**.
+
+    > [!IMPORTANT]
+    > Valstīs vai reģionos, kur tiek realizēta datu dzīvesvieta un ja RCS ir nodrošināts reģionā, kurā LCS ir nodrošināts, varat saņemt šādu savienojuma kļūdas ziņojumu rcS: "HTTP resurss netika atrasts, kas atbilst pieprasījumam URI". Atlasiet **Labi**. RCS varat saņemt citu kļūdas ziņojumu: "Neizdevās ģenerēt Dynamics Lifecycle pakalpojumu lietotāja vārdā (). Lūdzu, sazinieties ar jūsu sistēmas administratoru."
+    >  
+    > Tas notiek, jo LCS ir globāls pakalpojums un tiek nodrošināts ASV reģionā. Datu dzīvesvietas politikas dēļ RCS no jūsu pašreizējā reģiona nevar izveidot savienojumu ar LCS. Zem šiem ne vairāk kā 2 iespējamiem risinājumiem:
+    > - Dzēst RCS no jūsu pašreizējā reģiona un izveidot to no jauna ASV reģionā.
+    > - Ignorējiet kļūdas un turpiniet ar elektronisko rēķinu izrakstīšanas iestatījumu. Šīs kļūdas neietekmē Elektronisko rēķinu izrakstīšanas funkcionalitāti.
+
+3. Cilnē Elektroniskā **rēķina izrakstīšana**, kas atrodas **laukā Pakalpojuma galapunkta URI**, Microsoft Azure ievadiet savam ģeogrāfijai atbilstošo pakalpojuma galapunktu, kā parādīts šajā tabulā.
 
     | Datacenter Azure ģeogrāfija | Pakalpojuma galapunkta URI |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ Globalizācijas līdzekļu darbvietas **elementam** tagad ir jābūt redzamam ga
     | Kanāda                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Francija                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Indija                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Norvēģija                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Dienvidāfrikas Republika               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Pārbaudiet, vai lauks **Lietojumprogrammas ID** ir iestatīts uz **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Šī vērtība ir fiksēta vērtība. Pārliecinieties, vai ir ievadīts tikai globāli unikāls identifikators (GUID) un vai vērtībā nav ietverti citi simboli, piemēram, atstarpes, komati, periodi vai pēdiņas.
+3. Pārskatiet un ievadiet **programmas ID** laukā fiksēto vērtību **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Pārliecinieties, vai ir ievadīts tikai globāli unikāls identifikators (GUID) un vai vērtībā nav ietverti citi simboli, piemēram, atstarpes, komati, periodi vai pēdiņas.
 4. Laukā **LCS vides ID** ievadiet jūsu Lifecycle Services (LCS) vides ID Microsoft Dynamics. Šī vērtība ir atsauce uz Finanšu vai piegādes ķēžu pārvaldības vidi, ko izmantosiet ar Elektronisko rēķinu izrakstīšanas pakalpojumu. Lai saņemtu ID, [piesakieties LCS](https://lcs.dynamics.com/), **·** **·** **atveriet projektu un pēc tam cilnes Pārvaldīt vidi sadaļā Vides informācija meklējiet laukā Vides ID.**
 
     > [!IMPORTANT]

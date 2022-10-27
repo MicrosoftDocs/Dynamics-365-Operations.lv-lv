@@ -1,5 +1,5 @@
 ---
-title: Krājumu redzamības publiskie API
+title: Inventory Visibility publiskie API
 description: Šajā rakstā ir aprakstīti publiskie API, kas tiek nodrošināti ar krājumu redzamību.
 author: yufeihuang
 ms.date: 12/09/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423600"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719353"
 ---
-# <a name="inventory-visibility-public-apis"></a>Krājumu redzamības publiskie API
+# <a name="inventory-visibility-public-apis"></a>Inventory Visibility publiskie API
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,6 +47,7 @@ Tālāk esošajā tabulā ir norādītas pieejamās API:
 | /api/environment/{environmentId} onhand/changeschedule/lielapjoma | Grāmatot | [Izveidot vairākas plānotas rīcībā esošo krājumu izmaiņas](inventory-visibility-available-to-promise.md) |
 | /api/vide/{environmentId}/rīcībā esošs/indeksa vaicājums | Grāmatot | [Vaicājums, izmantojot grāmatošanas metodi](#query-with-post-method) |
 | /api/vide/{environmentId}/rīcībā esošs | Iegūt | [Vaicājums, izmantojot iegūšanas metodi](#query-with-get-method) |
+| /api/environment/{environmentId} onhand/exactquery | Grāmatot | [Precīzs vaicājums, izmantojot grāmatošanas metodi](#exact-query-with-post-method) |
 | /api/vide/sadalījums{environmentId}/sadalījums | Grāmatot | [Izveidot vienu piešķires notikumu](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/vide/{environmentId} sadalījums/atdalīšana | Grāmatot | [Izveidot vienu nesadalītu notikumu](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/vide/{environmentId} sadalījums/reallocate | Grāmatot | [Izveidot vienu no jauna pārceltiem notikumiem](inventory-visibility-allocation.md#using-allocation-api) |
@@ -109,7 +110,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi.
      | client_id     | ${aadAppId}                                      |
      | client_secret | ${aadAppSecret}                                  |
      | grant_type    | client_credentials                               |
-     | Darbības joma         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+     | Darbības joma         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.Noklusējuma    |
 
    Kā atbilde jāsaņem Azure AD marķieris (`aadToken`). Tiem vajadzētu līdzināties šādam piemēram.
 
@@ -170,7 +171,7 @@ Rīcībā esošo izmaiņu notikumu izveidošanai ir divi API:
 
 Tabulā ir apkopota katra JSON pamatteksta lauka nozīme.
 
-| Lauka kods | Apraksts |
+| Lauka ID | Apraksts |
 |---|---|
 | `id` | Unikāls ID noteiktam izmaiņu notikumam. Ja atkārtota iesniegšana rodas pakalpojuma kļūmes dēļ, šis ID tiek izmantots, lai nodrošinātu, ka viens un tas pats notikums sistēmā netiks uzskaitīts divreiz. |
 | `organizationId` | Ar notikumu saistītās organizācijas identifikators. Tas attiecas uz risinājuma Supply Chain Management organizācijām vai datu apgabala ID. |
@@ -690,6 +691,80 @@ Query(Url Parameters):
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a> Precīzs vaicājums, izmantojot grāmatošanas metodi
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Šī pieprasījuma pamatteksta daļā ir izvēles `dimensionDataSource` parametrs. Ja tas nav iestatīts, tiks uzskatīts `dimensions` par pamatdimensijām`filters`*.* Parametram `filters` ir četri vajadzīgie logi: `organizationId`, `productId`, `dimensions` un `values`.
+
+- `organizationId` jāsatur tikai viena vērtība, bet tā joprojām ir masīvs.
+- `productId` var ietvert vienu vai vairākas vērtības. Ja tas ir tukšs masīvs, visas preces tiks atgrieztas.
+- Masīvā `dimensions` tie ir `siteId` pieprasīti `locationId`, bet var parādīties kopā ar citiem elementiem jebkādā secībā.
+- `values` var ietvert vienu vai vairākus atšķirīgus vērtību kortežus, kas atbilst `dimensions`.
+
+`dimensions` tiek `filters` automātiski pievienots `groupByValues`.
+
+`returnNegative` nosaka, vai rezultāti satur negatīvus ierakstus.
+
+Šajā piemērā parādīts parauga pamatteksta saturs.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+Šajā piemērā parādīts, kā vaicāt par visām precēm vairākās vietās un vietās.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>Pieejams solīšanai

@@ -1,5 +1,5 @@
 ---
-title: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
+title: Dokumentu maršrutēšanas etiķešu izkārtojumi
 description: Šajā rakstā ir aprakstīts, kā izmantot formatēšanas metodes vērtību drukāšanai uz etiķetēm.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847880"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708650"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
+# <a name="document-routing-label-layout"></a>Dokumentu maršrutēšanas uzlīmes izkārtojums
 
 [!include [banner](../includes/banner.md)]
 
+Šajā rakstā ir aprakstīts, kā izveidot noliktavas vienības, konteinera un kopuma etiķešu izkārtojumus. Tā arī sniedz vadlīnijas par To, kā lietot Papildmaksas programmēšanas valodu (ZPL), kas tiek lietota izkārtojumu izveidošanai.
 
-Dokumenta maršrutēšanas izkārtojums nosaka numura zīmes etiķešu izskatu un uz tām izdrukātos datus. Konfigurējiet drukāšanas trigera punktus, iestatot mobilās ierīces izvēlnes elementus un darba veidnes.
+Dokumentu maršrutēšanas etiķešu izkārtojumi nosaka veidu, kādā etiķetes tiek noteiktas un uz tiem izdrukātie dati. Konfigurējiet drukāšanas trigera punktus, iestatot mobilās ierīces izvēlnes elementus un darba veidnes.
 
-Tipiskā scenārijā noliktavas saņemšanas darbinieki drukā numura zīmju etiķetes uzreiz pēc tam, kad tie reģistrē paletes saturu, kas tiek saņemti saņemšanas zonā. Fiziskās etiķetes tiek lietotas paletēm. Tos var izmantot validācijai kā daļu no izvietošanas procesa, kas seko turpmākajām nosūtīšanas izdošanas operācijām.
+Informācija šajā dokumentā attiecas uz visiem dokumentu maršrutēšanas etiķešu izkārtojumiem, [tostarp](tasks/license-plate-label-printing.md) numura zīmes etiķešu, [konteinera](print-container-labels.md) etiķešu un kopuma etiķešu [izkārtojumiem](configure-wave-label-printing.md).
 
-Jūs varat drukāt augstas sarežģītības etiķetes, ar nosacījumu, ka drukas ierīce spēj interpretēt tai sūtīto tekstu. Piemēram, Zebra programmēšanas valodas (ZPL) izkārtojums, kas ietver svītrkodu, var izskatīties līdzīgi šim piemēram.
+Jūs varat drukāt augstas sarežģītības etiķetes, ar nosacījumu, ka drukas ierīce spēj interpretēt tai sūtīto tekstu. Piemēram, ZPL izkārtojums, kas ietver svītrkodu, var būt līdzīgs šim piemēram.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Jūs varat drukāt augstas sarežģītības etiķetes, ar nosacījumu, ka drukas
 ^PQ1,,,Y^XZ
 ```
 
-Kā daļa no etiķešu drukāšanas procesa teksts `$LicensePlateId$` šajā piemērā tiks aizstāts ar datu vērtību.
+Kā daļa no etiķešu drukāšanas procesa teksts `$LicensePlateId$` šajā piemērā tiks aizstāts ar datu vērtību. Vairāki plaši pieejami etiķešu ģenerēšanas rīki var jums palīdzēt formatēt etiķetes izkārtojuma tekstu. Daudzi no šiem rīkiem atbalsta `$FieldName$` formātu. Turklāt Microsoft Dynamics 365 Supply Chain Management izmanto īpašu formatēšanas loģiku kā daļu no lauka kartējuma dokumenta maršrutēšanas izkārtojumam.
 
 Lai apskatītu vērtības, kas tiks drukātas, dodieties uz **Noliktavas pārvaldība \> Vaicājumi un pārskati \> Numura zīmes etiķetes**.
-
-Vairāki plaši pieejami etiķešu ģenerēšanas rīki var jums palīdzēt formatēt etiķetes izkārtojuma tekstu. Daudzi no šiem rīkiem atbalsta `$FieldName$` formātu. Turklāt Microsoft Dynamics 365 Supply Chain Management izmanto īpašu formatēšanas loģiku kā daļu no lauka kartējuma dokumenta maršrutēšanas izkārtojumam.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Papildinformācija par etiķešu drukāšanu
 
-Papildinformāciju par to, kā iestatīt un drukāt etiķetes, skatiet [Iespējot numura zīmes etiķetes drukāšanu](tasks/license-plate-label-printing.md).
+Papildinformāciju par etiķešu iestatīšanas un drukāšanas veidu skatiet šādos rakstos:
 
+- [Numura zīmes iezīmes drukāšana](tasks/license-plate-label-printing.md)
+- [Drukāt konteinera etiķetes](print-container-labels.md)
+- [Kopuma etiķešu drukāšana](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

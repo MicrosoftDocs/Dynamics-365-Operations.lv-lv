@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860730"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708622"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigurēt darbu karti ierīcēm
 
@@ -73,7 +73,7 @@ Kopsavilkuma cilne **Vispārīgi** ļauj konfigurēt katru no dažādām opcijā
 - **Resursu grupa** — atlasiet resursu grupu, kas jālieto kā noklusējuma filtra kritērijs darbu sarakstam, kas redzams katram darbiniekam. Ierīce sākotnēji rādīs tikai darbus, kas ir ieplānoti resursiem, kuri grupēti atlasītajā resursu grupā. Ja ir iespējota opcija **Ļaut darbiniekiem iestatīt personīgos filtrus**, darbinieki varēs rediģēt šo vērtību, citādi šis filtrs vienmēr tiks lietots, kad attiecīgā ierīces konfigurācija būs aktīva.
 - **Resurss** — atlasiet resursu, kas jālieto kā noklusējuma filtra kritērijs darbu sarakstam, kas redzams katram darbiniekam. Ierīce sākotnēji rādīs tikai darbus, kas ir ieplānoti atlasītajam resursam. Ja ir iespējota opcija **Ļaut darbiniekiem iestatīt personīgos filtrus**, darbinieki varēs rediģēt šo vērtību, citādi šis filtrs vienmēr tiks lietots, kad attiecīgā ierīces konfigurācija būs aktīva.
 - **Ģenerēt noliktavas vienību** — iestatiet šo opciju uz **Jā**, lai ģenerētu jaunu noliktavas vienību katru reizi, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrēšanai. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad iestatījums ir **Nē**, darbiniekiem ir jānorāda esoša noliktavas vienība, reģistrējot pabeigšanu.
-- **Drukāt etiķeti** — iestatiet šo opciju uz **Jā**, lai izdrukā noliktavas vienības etiķeti, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrācijai. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā tas ir aprakstīts [Dokumentu maršrutēšanas izkārtojumā noliktavas vienību etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
+- **Drukāt etiķeti** — iestatiet šo opciju uz **Jā**, lai izdrukā noliktavas vienības etiķeti, kad darbinieks izmanto darbu karšu ierīci pabeigšanas reģistrācijai. Etiķetes konfigurācija ir iestatīta dokumentu maršrutēšanā, kā aprakstīts Dokumentu maršrutēšanas [etiķešu izkārtojumos](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 
