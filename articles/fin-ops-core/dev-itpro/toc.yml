@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Platformas atjauninājumi versijai\_10.0.29 (2022.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: "Platformas atjauninājumi versijai\_10.0.28 (2022.\_gada augusts)"
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -1602,10 +1600,14 @@
               href: sysadmin/system-administration-home-page.md
             - name: Saišu pievienošana uz saviem juridiskajiem nosacījumiem un paziņojumu par konfidencialitāti
               href: sysadmin/legal-terms-privacy-statement.md
-            - name: Atskaite par licenču kodiem un konfigurācijas atslēgām
+            - name: Pārskats par licenču kodiem un konfigurācijas atslēgām
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Datu koplietošana uzņēmumos
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Datu koplietošanai atbalstītās tabulas
+              href: sysadmin/drs-srs-tables.md
+            - name: Datu koplietošana izstrādātājiem
+              href: sysadmin/drs-srs-dev.md
             - name: Uzturēšanas režīms
               href: sysadmin/maintenance-mode.md
             - name: Iepriekš konfigurēti sistēmas konti

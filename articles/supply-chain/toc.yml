@@ -12,7 +12,7 @@
               items:
                 - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Supply Chain Management 10.0.31 (2022.\_gada februāris)"
+                - name: "Supply Chain Management 10.0.31 (2023.\_gada februāris)"
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: "Supply Chain Management\_10.0.30 (2022.\_gada novembris)"
                   href: get-started/whats-new-scm-10-0-30.md
@@ -1701,19 +1701,19 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Arhivēt krājumu darījumus
               href: inventory/archive-inventory-transactions.md
-            - name: Krājumu redzamības pievienojumprogramma
+            - name: Inventory Visibility pievienojumprogramma
               items:
-                - name: Krājumu redzamības pievienojumprogrammas pārskats
+                - name: Inventory Visibility pievienojumprogrammas pārskats
                   href: inventory/inventory-visibility.md
                 - name: Inventory Visibility instalēšana un iestatīšana
                   href: inventory/inventory-visibility-setup.md
-                - name: Krājumu redzamības konfigurēšana
+                - name: Inventory Visibility konfigurēšana
                   href: inventory/inventory-visibility-configuration.md
                 - name: Inventory Visibility atbalsts WMS krājumiem
                   href: inventory/inventory-visibility-whs-support.md
-                - name: Krājumu redzamības programmas lietošana
+                - name: Inventory Visibility programmas lietošana
                   href: inventory/inventory-visibility-power-platform.md
-                - name: Krājumu redzamības rezervācijas
+                - name: Inventory Visibility rezervācijas
                   href: inventory/inventory-visibility-reservations.md
                 - name: Inventory Visibility krājumu sadalījums
                   href: inventory/inventory-visibility-allocation.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA izcelsmes sertifikāts
               href: transportation/usmca-certification-of-origin.md
+            - name: Tirdzniecības rēķini
+              href: transportation/commercial-invoice.md
             - name: Preču transporta pavadzīmes izveide
               href: transportation/create-bill-of-lading.md
             - name: Kravas transportēšanas maršrutu plānošana
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Konteineru iepakošana nosūtīšanai
                       href: warehousing/packing-containers.md
+                    - name: Konteinera etiķešu drukāšana
+                      href: warehousing/print-container-labels.md
                     - name: Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei
                       href: warehousing/packing-work.md
+                    - name: 'Konteineru iepakošana, izmantojot Warehouse Management mobilo programmu'
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: "Scenārija paraugs\_— konteineru iepakošana, izmantojot Warehouse Management mobilo programmu"
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Sistēmas noteikta darbu secība
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Sistēmas grupēšana atvērtā darbu sarakstā
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
+                    - name: Dokumentu maršrutēšanas etiķešu izkārtojumi
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1 svītrkodi un QR kodi
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: "Noliktavas vadības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz finanšu un operāciju programmām"
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Noliktavas telemetrija
+              items:
+                - name: 'Noliktavas telemetrijas iespējošana, izmantojot Application Insights'
+                  href: warehousing/application-insights-warehousing.md
+                - name: Mobilo ierīču lietojuma un veiktspējas pārraudzība
+                  href: warehousing/application-insights-wma.md
         - name: Supply Chain Management izstrāde
           items:
             - name: Ganta kontroles izstrādes ceļvedis

@@ -2,7 +2,7 @@
 title: Tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumu rediģēšana un auditēšana
 description: Šajā rakstā aprakstīts, kā rediģēt un auditēt tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumus programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287683"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712114"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumu rediģēšana un auditēšana
 
@@ -36,10 +36,11 @@ Starp programmas Commerce versijām 10.0.5 un 10.0.6 tika pievienots atbalsts 
 
 Lai rediģētu un auditētu pasūtījumu darījumus komponentā Commerce Headquarters, veiciet tālāk norādītās darbības.
 
-1. Instalējiet [Microsoft Dynamics Office pievienojumprogrammu](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Lapas **Mazumtirdzniecības parametri** cilnes **Debitoru pasūtījumi** kopsavilkuma cilnē **Pasūtījums** norādiet aizturēšanas kodu elementam **Aizturēšanas kods pasūtījumu sinhronizācijas kļūdām**.
-1. Atveriet darbvietu **Veikala finanses**. Elementi **Tiešsaistes pasūtījumu sinhronizācijas kļūdas** un **Debitoru pasūtījumu sinhronizācijas kļūdas** nodrošina iepriekš filtrētu mazumtirdzniecības darījumu lapas skatu. Katrā no tiem ir parādīti darījumu ieraksti, kuru sinhronizācija neizdevās atbilstoši pasūtījuma veidam.
-1. Atveriet lapu **Tiešsaistes pasūtījumu sinhronizācijas kļūdas** vai lapu **Debitoru pasūtījumu sinhronizācijas kļūdas**. Atlasiet ierakstu, lai skatītu detalizētu informāciju par sinhronizācijas kļūdu. Kopsavilkuma cilnē **Sinhronizācijas statuss** ir sniegta tālāk norādītā detalizētā informācija par kļūdu.
+1. Instalējiet [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
+1. Lapas **Commerce parametri** cilnes **Debitoru pasūtījumi** kopsavilkuma cilnē **Pasūtījums** norādiet aizturēšanas kodu elementam **Aizturēšanas kods pasūtījumu sinhronizācijas kļūdām**.
+2. Apturiet pasūtījumu sinhronizācijas darbus, kas konfliktē ar jūsu rediģēšanas un audita laiku.
+3. Atveriet darbvietu **Veikala finanses**. Elementi **Tiešsaistes pasūtījumu sinhronizācijas kļūdas** un **Debitoru pasūtījumu sinhronizācijas kļūdas** nodrošina iepriekš filtrētu mazumtirdzniecības darījumu lapas skatu. Katrā no tiem ir parādīti darījumu ieraksti, kuru sinhronizācija neizdevās atbilstoši pasūtījuma veidam.
+4. Atveriet lapu **Tiešsaistes pasūtījumu sinhronizācijas kļūdas** vai lapu **Debitoru pasūtījumu sinhronizācijas kļūdas**. Atlasiet ierakstu, lai skatītu detalizētu informāciju par sinhronizācijas kļūdu. Kopsavilkuma cilnē **Sinhronizācijas statuss** ir sniegta tālāk norādītā detalizētā informācija par kļūdu.
 
     - Gaidošā pasūtījuma statuss
     - Detalizēta informācija par pasūtījuma kļūdām
@@ -67,7 +68,15 @@ Lai rediģētu un auditētu pasūtījumu darījumus komponentā Commerce Headqua
 
 1. Programmas Excel faila laukā **Gaidošā pasūtījuma statuss** ievadiet **Rediģēšana** un pēc tam publicējiet izmaiņas. Tādējādi jūs neļausit veikt darbu **Sinhronizēt pasūtījumu**, kas darbojas pakešveida režīmā, izlaižot šo ierakstu apstrādes laikā.
 1. Excel failā varat modificēt attiecīgos laukus un pēc tam augšupielādēt datus atpakaļ komponentā Commerce Headquarters, izmantojot Dynamics Excel pievienojumprogrammas publicēšanas funkcionalitāti. Pēc datu publicēšanas izmaiņas tiks atspoguļotas sistēmā. Publicēšanas laikā lietotāju veiktajām izmaiņām validācija netiek veikta.
-1. Pilnīgus auditācijas pierakstus varat skatīt, galvenē **Mazumtirdzniecības darījums** (galvenes līmeņa izmaiņu gadījumā) un attiecīgajā sadaļā un ierakstā atbilstošajā darījumu lapā noklikšķinot uz **Skatīt auditācijas pierakstus**. Piemēram, visas ar pārdošanas rindām saistītās izmaiņas tiks rādītas lapā **Pārdošanas darījumi** un visas ar maksājumiem saistītās izmaiņas tiks rādītas lapā **Maksājumu darījumi**. Saistībā ar izmaiņām tiek uzturēta tālāk norādītā detalizētā informācija par auditu.
+    > [!NOTE]
+    > Ja nevarat atrast lauku, ko vēlaties rediģēt, izpildiet tālāk norādītās darbības, lai darblapai pievienotu trūkstošo lauku.
+    >   1. Datu savienotājā atlasiet **Noformēt**.
+    >   1. Izvēlēties zīmuļa ikonu blakus tabulai, kurai vēlaties pievienot lauku.
+    >   1. Sadaļā **Pieejamie lauki** atlasiet lauku un atlasiet **Pievienot**.
+    >   1. Pievienojiet vēlamos laukus un pēc tam atlasiet **Atjaunināt**.
+    >   1. Kad atjaunināšana ir pabeigta, iespējams, būs jāatlasa **Atsvaidzināt**, lai atjauninātu vērtības.
+
+3. Pilnīgus auditācijas pierakstus varat skatīt, galvenē **Mazumtirdzniecības darījums** (galvenes līmeņa izmaiņu gadījumā) un attiecīgajā sadaļā un ierakstā atbilstošajā darījumu lapā noklikšķinot uz **Skatīt auditācijas pierakstus**. Piemēram, visas ar pārdošanas rindām saistītās izmaiņas tiks rādītas lapā **Pārdošanas darījumi** un visas ar maksājumiem saistītās izmaiņas tiks rādītas lapā **Maksājumu darījumi**. Saistībā ar izmaiņām tiek uzturēta tālāk norādītā detalizētā informācija par auditu.
 
     - Modificēšanas datums un laiks
     - Lauks

@@ -12,6 +12,8 @@
               items:
                 - name: Jaunumi un izmaiņas Commerce sākumlapā
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.31 (2023.\_februāris)"
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: "Commerce\_10.0.30 (2022.\_gada novembris)"
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: "Commerce\_10.0.29 (2022.\_gada oktobris)"
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Kredītkartes iestatīšana, autorizēšana un nolasīšana'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Maksājumu marķieru lietošanas ierobežošana
+                      href: dev-itpro/limit-token-usage.md
                     - name: Skaidras naudas denomināciju konfigurēšana punktam POS
                       href: cash-denominations.md
                     - name: Kredītkaršu apstrādes konfigurēšana
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: Norēķināšanās modulis
                       href: add-checkout-module.md
+                    - name: Norēķināšanās moduļa kļūdas atsauces kodi
+                      href: checkout-module-error-codes.md
                     - name: Maksājumu modulis
                       href: payment-module.md
                     - name: Piegādes adreses modulis
