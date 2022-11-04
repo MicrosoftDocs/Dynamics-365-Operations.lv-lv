@@ -692,20 +692,14 @@
               items:
                 - name: Detalizētas bankas darbību saskaņošanas process
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Detalizētu bankas transakciju saskaņošanas importēšanas procesa iestatīšana
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: 'Detalizētu bankas transakciju saskaņošanas importēšanas procesa iestatīšana, izmantojot elektroniskos pārskatus'
                   href: accounts-payable/import-bai2-er.md
                 - name: Bankas darbību saskaņošanas atbilstības kārtulu iestatīšana
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: 'Bankas izrakstu saskaņošana, izmantojot detalizēto bankas darbību saskaņošanu'
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Detalizētās bankas darbību saskaņošanas pārskats
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Bankas izraksta faila importēšanas problēmu novēršana
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Bankas žurnāla salikto elementu atjaunināšana
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Izmaksu uzskaite

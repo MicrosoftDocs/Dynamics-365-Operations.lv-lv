@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Commerce veikala tehnoloģiju steka modernizēšana (tehniskais dokuments)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Commerce bezsaistes ieviešana un problēmu novēršana
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Tiešsaistes veikala kataloga publicēšana
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI saturs
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce programma
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce programmas iespējas
+                      href: store-commerce-capabilities.md
                     - name: Store Commerce programma mobilajām platformām
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS migrēšana uz Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Ierīces pārvaldības ieviešanas vadlīnijas
                       href: implementation-considerations-devices.md
+                    - name: Commerce bezsaistes ieviešana un problēmu novēršana
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Izvēle starp Store Commerce un Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: POS operācijas tiešsaistē un bezsaistē

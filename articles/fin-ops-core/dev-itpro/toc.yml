@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Bieži uzdotie jautājumi par izvietošanu
                       href: deployment/deploymentFAQ.md
+                    - name: Vides migrēšana
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Zināmās problēmas ar patstāvīgi izmantojama pakalpojuma izvietošanu
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: 'Uzturēšanas operācijas, veicot izvietošanu'
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Vides atjaunināšana
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Vides migrēšana
+                      href: deployment/geo-to-geo-migrations.md
                     - name: 'Problēmu novēršana vidēs, kas izvietotas, izmantojot patstāvīgi izmantojama pakalpojuma izvietošanu'
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Bieži uzdotie jautājumi par plānoto uzturēšanu pašapkalpošanās vidēs
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekta pievienošana
               href: lifecycle-services/project-onboarding.md
+            - name: Projekta migrācijas pārvaldnieks
+              href: lifecycle-services/project-migration-manager.md
             - name: Abonementa vērtētājs
               href: lifecycle-services/subscription-estimator.md
             - name: Drošības konfigurēšana

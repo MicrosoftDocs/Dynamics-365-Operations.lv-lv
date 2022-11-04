@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Ierobežojumu iestatīšana sagādes kategoriju hierarhijām
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Piegādes riska novērtēšana
+              items:
+                - name: Piegādes riska novērtējuma pārskats
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Konfigurēt piegādes riska novērtējumu
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: 'Izmantojama darbvieta, lai atklātu un apstrādātu piegādātāju riskus'
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Power BI pārskati par risku analīzi un veiktspējas vērtēšanu
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Produktu ieejas plūsmas un rēķinu izrakstīšana
               items:
                 - name: Produktu ieejas plūsma pret pirkšanas pasūtījumiem

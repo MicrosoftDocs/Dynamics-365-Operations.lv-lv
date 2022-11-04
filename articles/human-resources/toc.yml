@@ -4,6 +4,18 @@
       items:
         - name: Dynamics 365 Human Resources sākumlapa
           href: index.md
+        - name: "Human\_Resources infrastruktūras apvienošana"
+          items:
+            - name: "Human\_Resources infrastruktūras apvienošanas pārskats"
+              href: hr-infrastructure-merge.md
+            - name: Human Resources infrastruktūras klientu migrēšana
+              href: hr-cust-migration.md
+            - name: "Bieži uzdotie jautājumi par programmas Human\_Resources infrastruktūru"
+              href: hr-infrastructure-merge-faq.md
+            - name: Bieži uzdotie jautājumi par Human Resources klientu migrēšanu
+              href: customer-migration.md
+            - name: "Human\_Resources infrastruktūras apvienošanas zināmās problēmas"
+              href: hr-migration-issues.md
         - name: Jaunumi un izmaiņas
           items:
             - name: Jaunumi un izmaiņas finanšu un operāciju programmās
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Bieži uzdotie jautājumi par palaišanu
                   href: hr-admin-go-live-faq.md
-                - name: "Bieži uzdotie jautājumi par programmas Human\_Resources infrastruktūru"
-                  href: hr-infrastructure-merge-faq.md
-                - name: Bieži uzdotie jautājumi par Human Resources klientu migrēšanu
-                  href: customer-migration.md
                 - name: Dokumentācijas resursi
                   items:
                     - name: Palīdzības sistēma
