@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905897"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725499"
 ---
 # <a name="manage-folios"></a>Pārvaldīt folio
 
@@ -48,9 +48,9 @@ Darbību rūts lapā **Visi folio** un **Folio** nodrošina pogas, kas ļauj str
 
 | Poga | Apraksts |
 |---|---|
-| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām folio. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš. |
-| Grāmatot produktu ieejas plūsmu | Grāmatojiet saņemto preču pavadzīmi visām pirkšanas pasūtījuma rindām folio. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemto preču pavadzīmes grāmatošanas dialoglodziņš. |
-| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām folio. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns rēķina grāmatošanas dialoglodziņš. |
+| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām folio.  |
+| Grāmatot produktu ieejas plūsmu | Grāmatojiet saņemto preču pavadzīmi visām pirkšanas pasūtījuma rindām folio. |
+| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām folio.  |
 | Nosūtīšanas pārsūtīšanas pasūtījums | Grāmatot pārsūtīšanas pasūtījumu visām pārsūtīšanas pasūtījuma rindām, kas attiecas uz pašreizējo folio saistītajā sūtījumā. |
 | Saņemt pārsūtīšanas pasūtījumu | Grāmatot pārsūtīšanas pasūtījuma pavadzīmi visām pārsūtīšanas pasūtījuma rindām, kas attiecas uz pašreizējo folio saistītajā sūtījumā. |
 | Saņemtās tranzītpreces | Saņemt visas pasūtījuma rindas, kas ir tranzītā folio. |
@@ -65,8 +65,8 @@ Darbību rūts lapā **Visi folio** un **Folio** nodrošina pogas, kas ļauj str
 
 | Poga | Apraksts |
 |---|---|
-| Saņemšanas saraksts | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām folio. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš. |
-| Produktu ieejas plūsma | Skatiet produktu ieejas plūsmas ierakstu, ja tas tiek izmantots. |
+| Saņemšanas saraksts | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām folio.  |
+| Produktu saņemšana | Skatiet produktu ieejas plūsmas ierakstu, ja tas tiek izmantots. |
 | Krājumu saņemšana | Skatiet krājumu saņemšanas žurnālu, ja tas tiek izmantots. |
 | Izmaksu pieprasījums | Atveriet izmaksu pieprasījuma lapu, lai skatītu visas reisa izmaksas, tostarp pārvadāšanas konteineru, folio un pirkšanas pasūtījumu. Varat koriģēt precīzu lapas skatu, izmantojot darbību Skatīt. Izmaksu uzziņu lapā varat apskatīt jebkuru no apgabaliem, plus krājuma un izmaksu tipa kodu. Noņemot šos krājumus, var koriģēt lapu, grupējot izmaksas. Šī iespēja var būt noderīga, ja izmantojat izmērus un krāsas. Varat mainīt lapā parādītās dimensijas. Lapa **Izmaksas** rāda tikai tos izmaksu tipu kodus, kur cilnes **Grāmatošana** ieraksts **Dr** ir iestatīts uz *Krājums*. |
 

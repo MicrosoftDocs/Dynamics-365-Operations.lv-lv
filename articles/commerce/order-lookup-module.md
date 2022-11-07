@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281459"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734256"
 ---
 # <a name="order-lookup-module"></a>Pasūtījumu uzmeklēšanas modulis
 
@@ -44,6 +44,12 @@ Pasūtījumu uzmeklēšanas modulis nodrošina veidlapu, kuru klienti var lietot
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Pasūtījuma uzmeklēšanas moduļa pievienošana lapai
 
 Pasūtījumu uzmeklēšanas moduli var pievienot jebkuras jūsu e-komercijas vietnes lapas pamattekstam. Ja vēlaties lietot pasūtījuma uzmeklēšanas moduli, lai iespējotu viesu izrakstīšanās pasūtījuma uzmeklēšanu, pārliecinieties, ka pievienojat to lapai, kurai nav vajadzīga lietotāja pieteikšanās. Lai atrastu lapas iestatījumu **Vajadzīga pieteikšanās** Commerce vietnes veidotāja koka skatā, atlasiet logu **Noklusējuma lapa (obligāti)** un paskatieties uz labās rūts apakšdaļu.
+
+
+> [!NOTE]
+> Lai iespējotu pasūtījuma uzmeklēšanas līdzekli, nodrošiniet, lai **licences konfigurācijas atslēgās** atslēga Piedāvājums **būtu** > **iespējota**.
+>
+> ![Jāaktivizē piedāvājumu licences atslēgas konfigurācija.](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -1,5 +1,5 @@
 ---
-title: Bieži uzdotie jautājumi par cilvēkresursu klientu migrāciju
+title: Bieži uzdotie jautājumi par Human Resources klientu migrēšanu
 description: Šajā rakstu atbildēs bieži uzdotie jautājumi par Microsoft Dynamics 365 Human Resources migrāciju uz finanšu un operāciju sapludināto infrastruktūru.
 author: twheeloc
 ms.date: 07/06/2022
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151098"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734363"
 ---
 # <a name="human-resources-customer-migration"></a>Cilvēkresursu debitoru migrācija
 
@@ -40,7 +40,7 @@ Klientiem, kas finanšu un operāciju infrastruktūrai izmanto citas programmas,
 Pāreja uz katru uzņēmumu būs atkarīga no uzņēmuma pašreizējās konfigurācijas un gatavības pāriet uz finanšu un operāciju infrastruktūru. Ieteicams, lai debitori strādātu ar Microsoft partneri, lai noteiktu labāko ceļu uz priekšu.
 
 - Organizācijas, kas izmanto personāla **vadības** moduli Dynamics 365 finansēs Dynamics 365 Human Resources, varēs iespējot jaunas iespējas no parastā vienas versijas atjaunināšanas procesa. Ir plānots, ka jaunās funkcijas kļūs plaši pieejamas, sākot no 2022. gada janvāra.
-- Organizācijām, kuras izmantos Dynamics 365 Human Resources, būs piekļuve rīkam, ko tās var izmantot infrastruktūras sapludināšanas pabeigšanai. Microsoft strādās ar klientiem šajā pārejā, lai palīdzētu novērst jebkādu pakalpojuma pārtraukšanu. Klientiem būs 12–18 mēneši, lai veiktu pāreju, sākot no laika, kad kļūst pieejama migrācijas rīka izmantošana.
+- Organizācijām, kuras izmantos Dynamics 365 Human Resources, būs piekļuve rīkam, ko tās var izmantot infrastruktūras sapludināšanas pabeigšanai. Microsoft strādās ar klientiem šajā pārejā, lai palīdzētu novērst jebkādu pakalpojuma pārtraukšanu. Klientiem būs pieejami 12 mēneši, lai veiktu pāreju, sākot no laika, kad kļūst pieejama migrācijas rīka izmantošana.
 - Organizācijas, kas izmanto gan personāla Dynamics 365 Human Resources vadības **moduli**, gan personāla vadības moduli var pārvietot savu savrupu cilvēkresursu infrastruktūru uz finanšu un operāciju infrastruktūru. Cita opcija ir izmantot sapludināšanas rīku, lai apvienotu vides vienā vidē. Divu vidi sapludināšanai nav prasības vai laikposma.
 
 Lai iegūtu atjaunināto informāciju, regulāri pārbaudiet Izlaišanas [plānus](/dynamics365/release-plans/).
@@ -166,4 +166,4 @@ Korporācija Microsoft joprojām definē, kādi rīki un resursi no FastTrack b�
 
 ## <a name="licensing-impact"></a>Licencēšanas ietekme
 
-Papildinformāciju par to, kā tiek ietekmēta licencēšana, skatiet infrastruktūras sapludināšanas [Dynamics 365 Human Resources FAQ](hr-infrastructure-merge-faq.md#licensing-impact).
+Plašāku informāciju par to, kā tiek ietekmēta licencēšana, skatiet infrastruktūras [Dynamics 365 Human Resources sapludināšanu](hr-infrastructure-merge.md#licensing).

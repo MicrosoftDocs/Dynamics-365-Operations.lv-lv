@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905868"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725486"
 ---
 # <a name="manage-voyages"></a>Pārvaldīt reisus
 
@@ -29,7 +29,8 @@ Parasti reiss ir kuģis. Tomēr atkarībā no jūsu prakses un procedūrām var 
 Lapa **Visi reisi** sniedz informāciju par reisiem, piegādes un izmaksu informāciju un informāciju par krājumiem, pirkšanas pasūtījumiem un pārsūtīšanas pasūtījumiem. Lai atvērtu lapu **Visi reisi**, dodieties uz sadaļu **Kopējās izmaksas \> Reisi \> Visi reisi**. Šajā lapā ir parādīts visu pašreizējo reisu saraksts. Jūs varat izmantot pogas Darbību rūtī, lai izveidotu, dzēstu un darbotos ar reisiem. Sarakstā atlasiet jebkuru reisu, lai skatītu detalizētu informāciju par to.
 
 > [!NOTE]
-> Nosūtīšanas konteineri un folio ir saistīti ar reisu. Pirkšanas rindas ir saistītas ar nosūtīšanas konteineru. Ja transportēšanas konteineri un konteineri ir izslēgti, tos var arī saistīt ar reisu. Turklāt šeit ievadītās izmaksas tiek pievienotas visām pievienotajām pirkšanas rindām.
+> Nosūtīšanas konteineri un folio ir saistīti ar reisu. Pirkšanas rindas ir saistītas ar nosūtīšanas konteineru. Turklāt šeit ievadītās izmaksas tiek pievienotas visām pievienotajām pirkšanas rindām.
+> Projekta pirkšanas pasūtījums netiek atbalstīts zemes izmaksās.
 
 ## <a name="action-pane"></a>Darbības rūts
 

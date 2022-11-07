@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906158"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725448"
 ---
 # <a name="manage-shipping-containers"></a>Pārvaldīt nosūtīšanas konteinerus
 
@@ -40,9 +40,9 @@ Darbību rūts lapās **Visi pārvadāšanas konteineri** un **Pārvadāšanas k
 
 | Poga | Apraksti |
 |---|---|
-| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu vai skatiet produktu ieejas plūsmu sarakstus visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš. |
+| Grāmatot saņemšanas sarakstu | Grāmatojiet saņemšanas sarakstu vai skatiet produktu ieejas plūsmu sarakstus visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā.  |
 | Grāmatot produktu ieejas plūsmu | Grāmatojiet saņemto preču pavadzīmi visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. |
-| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns rēķina grāmatošanas dialoglodziņš. |
+| Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā.  |
 | Nosūtīšanas pārsūtīšanas pasūtījums | Grāmatojiet pārsūtīšanas pasūtījuma sūtījumu visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. Dialoglodziņā tiek parādītas tikai tās sūtījuma konteinera rindas, kas ir pārsūtīšanas pasūtījuma tips. |
 | Saņemt pārsūtīšanas pasūtījumu | Grāmatojiet pārsūtīšanas pasūtījuma pavadzīmi visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. Saņemšanas dialoglodziņš ir vienkāršākais veids, kā saņemt preces nosūtīšanas konteinerā vai reisā, un ir viena no trim pieejamām opcijām. Varat arī saņemt saņemšanas žurnālos vai mobilās ierīces apstrādē. |
 | Izveidot saņemšanas žurnālu | Jūs varat izveidot organizāciju saņemšanas žurnālu, izmantojot papildu noliktavas funkcijas. Opcijas ir _Inicializēt daudzumu (ieteicams)_, vai _Izveidot no tranzīta precēm_, vai _Izveidot no pirkšanas pasūtījumiem_. Pēdējās divas opcijas ir atkarīgas no tā, vai tiek lietota tranzīta preču apstrāde. |
@@ -56,7 +56,7 @@ Darbību rūts lapās **Visi pārvadāšanas konteineri** un **Pārvadāšanas k
 
 | Poga | Apraksti |
 |---|---|
-| Saņemšanas saraksts | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns saņemšanas saraksta grāmatošanas dialoglodziņš. |
+| Saņemšanas saraksts | Grāmatojiet saņemšanas sarakstu visām pirkšanas pasūtījuma rindām nosūtīšanas konteinerā.  |
 | Produkta saņemšana | Skatiet produktu ieejas plūsmas ierakstu, ja tas tiek izmantots. Produktu ieejas plūsmas process tiks izmantots tikai tad, ja preces neizmanto tranzīta funkcionalitāti. |
 | Krājumu saņemšana | Skatiet sūtījuma konteinera krājumu saņemšanas žurnālu, ja šis žurnāls tiek izmantots. |
 | Fāzes | Fāzes tiek izmantotas, lai identificētu atsevišķas ceļojuma daļas. Izpildes laikus var saistīt ar katru fāzi, lai palīdzētu izsekot kravu. Papildinformāciju skatiet [Vairākfāžu reisa iestatījumi](multi-leg-journey-setup.md). |

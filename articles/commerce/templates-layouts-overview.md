@@ -2,7 +2,7 @@
 title: Pārskats par veidnēm un izkārtojumiem
 description: Šajā rakstā ir ietvertas veidnes un izkārtojumi sadaļā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277938"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733389"
 ---
 # <a name="templates-and-layouts-overview"></a>Pārskats par veidnēm un izkārtojumiem
 
@@ -66,7 +66,13 @@ Veidnes var palīdzēt satura autoriem būt efektīvākiem un uzturēt zīmolu t
 
 Svarīga sākotnējā darbība vietnes un zīmola administratoriem ir noteikt pareizo līdzsvaru starp ierobežojumu un elastību attiecībā uz pakārtoto izkārtojumu un lapu autoriem. Lietojot veidnes, šis līdzsvars ir pilnībā konfigurējams. Tas ietekmē, vai lapas elementi tiek centralizēti atjaunināti (bloķēti veidnē) vai atstāti atsevišķiem pakārtotajiem līmeņiem, kas ir zemāk lapas hierarhijā.
 
-Lai sāktu izmantot veidnes, skatiet sadaļu [Darbs ar veidnēm](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Attiecības starp veidnes noklusējumiem un lapas saturu
+
+Veidnes primārā funkcija ir racionalizēt moduļa autorizēšanas pieredzi lapas izveides laikā. Pat ja moduļa noklusētie iestatījumi veidnē ir iestatīti vai pat bloķēti, turpmāki datu savienojumi no lapas moduļa konfigurācijām veidnes noklusējumi nav noteikti, izņemot gadījumus, kad lapa tiek rediģēta. Veidnes kontrolē lapu struktūras autorizēšanas pieredzi un pēc lapas izveidošanas veidņu noklusējumus vairs nav saistītas ar šīs lapas lokālajiem saturu. Citiem vārdiem sakot, moduļa noklusējumus, kas ir iestatīti veidnē, kontrolē autorizēšanas pieredzi pakārtotām lapām. Pēc lapu izveidošanas un rediģētas tās nekontrolē šo lapu saturu.
+
+Vienīgais iepriekš aprakstītais uzvedības izņēmums ir tad, kad [veidnei](work-with-fragments.md) tiek pievienots fragments. Fragmentus var izmantot, lai dinamiski pievienotu vai rediģētu lokālu saturu visās veidnes vai izkārtojuma bērnlapās jebkurā laikā, pat pēc tam, kad no sniegtās veidnes ir izveidotas daudzas lapas. Vislabākā prakse ir izmantot veidņu un izkārtojumu fragmentus, kad lokālajiem saturs ir jāpievieno dinamiski, jānoņem vai jālabo visās pakārtotās lapās. Piemēram, fragmenti jālieto virsrakstiem, kājenēm, parastiem metadatiem/skriptiem vai jebkādam citam saturam, kam jābūt centrāāli rediģējamam un vienādam visās pakārtotās lapās. Fragmenti ir veids, kā izmantot veidnes un izkārtojumus, lai kontrolētu visu pakārtoto lapu saturu.
+
+Lai sāktu lietot veidnes, skatiet sadaļu [Darbs ar veidnēm](work-with-templates.md).
 
 ## <a name="layouts"></a>Izkārtojumi
 
@@ -96,7 +102,7 @@ Izkārtojumi jūsu vietnē var būt *iepriekš iestatīti* vai *pielāgoti*.
 
 Iepriekš iestatītais izkārtojums un pielāgotie izkārtojumi tiek rediģēti dažādās autorēšanas rīku kopās. Tā kā pielāgotajiem izkārtojumiem nav atkarību no citām lapām, tie tiek rediģēti tieši lapas redaktorā. Šādā gadījumā izkārtojuma esamība lielākoties ir caurskatāma lietotājam un tiek atklāta tikai lapas līmeņa rekvizītos un darbības izkārtojuma opcijās. Tomēr, ņemot vērā, ka iepriekš iestatīto izkārtojumu izmaiņas var ietekmēt daudzas pakārtotās lapas, tās ir jārediģē izkārtojuma redaktorā, kur publicētās darbības ņem vērā visu lejupstraumes ietekmi uz pakārtotajām lapām.
 
-Tālāk esošajos attēlos ir parādīti iepriekš iestatītu un pielāgotu izkārtojumu scenāriji.
+Šajā attēlā redzami iestatīto un pielāgoto izkārtojumu scenāriji.
 
 ![Iepriekš iestatītu un pielāgotu izkārtojumu scenāriji.](../commerce/media/template-figure1.png)
 

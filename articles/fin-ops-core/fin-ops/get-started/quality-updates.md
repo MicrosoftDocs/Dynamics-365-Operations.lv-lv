@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689232"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731615"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -40,13 +40,13 @@ Vairāki avansi jau ir izvietoti, kas iespējo kvalitātes atjauninājumu proakt
 
 - **Nulles dīkstāves** atjaunināšana – Lai virzītu biežākas vides, ir svarīgi samazināt ietekmi uz vides pieejamību, lai saglabātu Dynamics 365 pakalpojumu līmeņa līgumus (SLA). Sākotnēji tika ieviesta nulles dīkstāves atjaunināšana, lai palīdzētu uzlabot mēneša operētājsistēmas ielāpošanu, izmantojot klastera atteici, lai aktivizētu atjaunināto attēlu ar minimālu pārrāvumu. Atjaunināšanas lietošanas mehānisms tiek uzlabots, lai tas būtu vēl mazāk traucējošs, un tas segs gan operētājsistēmas ielāpošanu, gan kvalitātes atjauninājumu izvietošanu.
 
-    Interaktīviem lietotājiem aktīva sesija var tikt pārtraukta, un mēģinājums tiks atkārtoti iet uz pašreiz atjaunināto vidi. Ar prioritātes balstītas [pakešuzdevumu](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) plānošanas ieviešanu, kas tagad ir pieejama izvēles pamatā, pakešveida plānošana un apstrāde atkop un atsākas tūlīt pēc atjaunināšanas. Uz prioritāti balstīta pakešuzdevumu plānošana tiks vieta debitoriem, pirms tie sāks piedalīties savā ražošanas vidē proaktīvā kvalitātes atjauninājumu sadalē.
+Interaktīviem lietotājiem aktīva sesija var tikt pārtraukta, un mēģinājums tiks atkārtoti iet uz pašreiz atjaunināto vidi. Ieviešot uz prioritāti balstītu [pakešuzdevumu plānošanu, pakešuzdevumu plānošana](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) un apstrāde atkop un atsākas tūlīt pēc atjaunināšanas. Uz prioritāti balstīta pakešuzdevumu plānošana tiks vieta debitoriem, pirms tie sāks piedalīties savā ražošanas vidē proaktīvā kvalitātes atjauninājumu sadalē.
 
 - **Tumšas** stundas — tumšās stundas ir definētas katram Azure reģionam, un tumšajā stundu periodā tiek lietoti nulles dīkstāves atjauninājumi.
 
 ## <a name="the-proactive-update-process"></a>Proaktīvās atjaunināšanas process
 
-Proaktīvo kvalitātes atjauninājumu izvietošana sekos drošas izvietošanas procesam (SDP). SDP specifika attīstīsies, bet kvalitātes atjauninājumi sākotnēji tiks izvietoti kastu vidēs. Šis process tiks sākts ar vidēm, kas izvēlas agrāku izvietošanu. Kad palielinās veiksmīgi izvietoto kastu procentuālā vērtība, sāks izvietot ražošanas vidēs. Šis process atkal tiks sākts ar vidēm, kas izvēlas agrāku izvietošanu. Klausības sistēmas uzraudzīs sistēmas telemārketinga un dzīves vietas incidentus un apturēs noteiktas versijas izriti, ja tiks atklāta jebkāda regresija. Ja debitori vēlas, joprojām būs iespēja izvilkt kvalitātes atjauninājumus pirms proaktīvās izvietošanas.
+Proaktīvo kvalitātes atjauninājumu izvietošana sekos drošas izvietošanas procesam (SDP). SDP specifika attīstīsies, bet kvalitātes atjauninājumi sākotnēji tiks izvietoti kastu vidēs. Kad palielinās veiksmīgi izvietoto kastu procentuālā vērtība, sāks izvietot ražošanas vidēs. Klausības sistēmas uzraudzīs sistēmas telemārketinga un dzīves vietas incidentus un apturēs noteiktas versijas izriti, ja tiks atklāta jebkāda regresija. Ja debitori vēlas, joprojām būs iespēja izvilkt kvalitātes atjauninājumus pirms proaktīvās izvietošanas.
 
 Pašreizējie laidiena pārvaldības dati parāda, ka kvalitātes atjauninājumos ir ieviestas mazāk nekā 3 procenti no regresijām. Kad ir palielināta fokuss uz regresijas un uzlabotās SDP likvidēšanas iespēju, regresiju potenciālā ietekme būs īpaši zemāka nekā kvalitātes ieguvumi, kas tiek sasniegti, ātrāk iegūstot klientiem plaši izvietotus labojumus.
 
@@ -92,13 +92,13 @@ Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir 
 **Programmas versija: 10.0.1326.70**
 **atbilstošs jaunākais zināšanu bāzes rakstā: 748926**
 
-| Stacijas | Reģioni | Gaidāmās rūtiņas grafiks
-|---|---|---|
-| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 17. oktobris |
-| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 15. oktobris uz 18. oktobris |
-| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 16. oktobris uz 19. oktobris |
-| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 17. oktobris uz 2022. gada 20. oktobris |
-| 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots |
+| Stacijas | Reģioni | Pabeigts grafiks | Gaidāmās rūtiņas grafiks|
+|---|---|---|---|
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 17. oktobris | 2022. gada 2. novembris līdz 5. novembris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 15. oktobris uz 18. oktobris | 2022. gada 2. novembris līdz 5. novembris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 16. oktobris uz 19. oktobris | 2022. gada 2. novembris līdz 5. novembris |
+| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 17. oktobris uz 2022. gada 20. oktobris | 2022. gada 2. novembris līdz 5. novembris |
+| 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
 
 > [!IMPORTANT] 
 > Piecas dienas iepriekš, korporācija Microsoft atjauninās iepriekšējo grafiku un nosūtīs e-pasta paziņojumus uz vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)

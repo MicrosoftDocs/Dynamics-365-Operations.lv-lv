@@ -1,22 +1,22 @@
 ---
-title: Pārbaudes moduļa kļūdas atsauces kodi
+title: Norēķināšanās moduļa kļūdas atsauces kodi
 description: Šajā rakstā ir aprakstītas pārbaudes moduļa kļūdu atsauces kodi, kas ir parādīti uz lietotājam uzvērstos kļūdu ziņojumos Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709378"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728250"
 ---
-# <a name="checkout-module-error-reference-codes"></a>Pārbaudes moduļa kļūdas atsauces kodi
+# <a name="checkout-module-error-reference-codes"></a>Norēķināšanās moduļa kļūdas atsauces kodi
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -31,9 +31,13 @@ Atkarībā no radušās kļūdas, šī raksta tabulā ir ietverta šāda detaliz
 - Informācija, kas ir jāņem vērā vidē vai maksājumu savienotāja konfigurācijās
 - Informācija, uz kuru var atsaukties atbalsta gadījumā, ja nepieciešama papildu palīdzība
 
-## <a name="checkout-module-error-reference-codes"></a>Pārbaudes moduļa kļūdas atsauces kodi
+## <a name="prerequisites"></a>Priekšnosacījumi
 
-Izmantojiet šo tabulu, lai iegūtu detalizētu informāciju par kļūdas koda atsaucēm, ko nodrošina debitori vai kas radās tiešsaistes veikalā.
+Lai iespējotu pārbaudes moduļa kļūdu atsauces kodus, kas uzskaitīti tālāk, vietnes veidotājā jūsu vietnei, **dodieties uz Vietnes iestatījumu paplašinājumi un \>** sadaļā Grozs **un paņemiet atlasiet** Iespējot uzlaboto tiešsaistes kanāla kļūdu parādīšanas ziņojumapmaiņu **.** 
+
+## <a name="checkout-module-error-reference-codes"></a>Norēķināšanās moduļa kļūdas atsauces kodi
+
+Izmantojiet šo tabulu, lai iegūtu detalizētu informāciju par kļūdas koda atsaucēm, ko nodrošina debitori vai kas radās tiešsaistes veikalā. Ritināt pa labi, lai skatītu kļūdas **apraksta kolonnu**.
 
 | Kļūdas kods | Dynamics savstarpēji nesaistītas kļūdas kods | Kļūdas apraksts |
 | ---------- | ------------------------------ | ----------------- |

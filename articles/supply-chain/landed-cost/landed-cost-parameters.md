@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871983"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725526"
 ---
 # <a name="landed-cost-parameters-setup"></a>Kopējo izmaksu parametru iestatīšana
 
@@ -125,14 +125,11 @@ Atlasiet dimensiju un pēc tam iestatiet opciju **Reisa rindas**, **Tranzīta kr
 
 Lapas **Kopējie izmaksu parametri** cilne **Numuru sērijas** uzskaita katru atsauces numuru secības tipu, kas ir nepieciešamas landed izmaksām, bet kas netiek koplietots juridiskajām personām. Katrai saraksta atsaucei atlasiet katras atsauces numuru sērijas kodu.
 
-> [!NOTE]
-> Vairāku uzņēmumu konfigurācijā katram uzņēmumam (juridiskajai personai) ir jāizveido dažādas numuru sērijas.
 
 ## <a name="shared-number-sequences-tab"></a>Cilne Kopīgoto numuru secība
 
 Lapas **Kopējie izmaksu parametri** cilne **Numuru sērijas** uzskaita katru atsauces numuru secības tipu, kas ir nepieciešamas kopējām izmaksām, bet kas netiek koplietots juridiskajām personām. Sarakstā ir tikai viena numuru sērija. Šī numuru sērija tiek izmantota reisa ID.
 
-Lapā **Visi reisi** lietotāji var skatīt visus reisus visām juridiskajām personām. Tomēr, lai rediģētu un apstrādātu reisu, lietotājiem jābūt atlasītā ieraksta juridiskajā personā.
 
 ## <a name="feature-visibility-tab"></a>Līdzekļu redzamības cilne
 
