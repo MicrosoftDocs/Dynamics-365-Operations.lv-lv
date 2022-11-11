@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335351"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740527"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -33,7 +33,7 @@ Ir trīs plānoto pasūtījumu apstiprināšanas metodes:
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Iespējot šajā rakstā aprakstītos līdzekļus
 
-Visplānoto pasūtījumu līdzekļi ir pieejami visās standarta Microsoft Dynamics 365 Supply Chain Management instalācijās, kas izmanto plānošanas optimizāciju. Tomēr dažas no šajā rakstā aprakstītajām funkcijām ir jāieslēdzas Līdzekļu pārvaldībā pirms to lietošanas.
+Visplānotās pasūtījumu funkcijas ir pieejamas visās Microsoft standarta instalācijās Dynamics 365 Supply Chain Management. Tomēr dažas no šajā rakstā aprakstītajām funkcijām ir jāieslēdzas Līdzekļu pārvaldībā pirms to lietošanas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Ieslēgt vai izslēgt plānoto pasūtījumu paralēlo apstiprināšanas darbību
 
@@ -91,7 +91,7 @@ Lai manuāli apstiprinātu plānotos pasūtījumus, atrodiet un atlasiet plānot
 
 ## <a name="auto-firm-planned-orders"></a>Plānoto pasūtījumu automatiskā apstiprināšana
 
-Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā daļu no vispārējās plānošanas procesa. Var definēt apstiprināšanas periodu vajadzības grupām, atsevišķiem krājumiem un krājumu un vispārējo plānu kombinācijām. Pēc tam vispārējās plānošanas izpildes laikā plānotie pasūtījumi tiks automātiski apstiprināti, ja pasūtījuma datums ir norādītajā apstiprināšanas periodā. Plānotie pasūtījumi, kas tiek ģenerēti, veicot plānošanas optimizāciju, un iebūvētā vispārējās plānošanas operācija apstrādā pasūtījuma datumu (t.i., sākuma datumu) atšķirīgi.
+Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā daļu no vispārējās plānošanas procesa. Var definēt apstiprināšanas periodu vajadzības grupām, atsevišķiem krājumiem un krājumu un vispārējo plānu kombinācijām. Pēc tam vispārējās plānošanas izpildes laikā plānotie pasūtījumi tiks automātiski apstiprināti, ja pasūtījuma datums ir norādītajā apstiprināšanas periodā. Plānotie pasūtījumi, kas tiek ģenerēti, plānojot optimizāciju un novecojušu vispārējās plānošanas programmu, apstrādā pasūtījuma datumu (t.i., sākuma datumu) atšķirīgi.
 
 > [!NOTE]
 > Plānoto pirkšanas pasūtījumu automātisko apstiprināšanu var veikt tikai krājumiem, kas saistītie ar kreditoru.
@@ -99,13 +99,13 @@ Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā da
 > Atvasinātiem pasūtījumiem (t.i. pakārtotie pirkšanas pasūtījumi), kas ir apstiprināti, būs statuss *Pārskatīšanā*, ja ir ieslēgta gadījuma izmaiņu izsekošana.
 
 > [!IMPORTANT]
-> Pirms šajā sadaļā aprakstīto līdzekli var izmantot ar plānošanas optimizāciju, [*·*](#enable-features) jūsu sistēmai ir jābūt ieslēgtai līdzeklim Automātiskās apstiprināšanas optimizācijai saskaņā ar aprakstu šī raksta sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar iebūvēto vispārējās plānošanas programmu.
+> Pirms šajā sadaļā aprakstīto līdzekli var izmantot ar plānošanas optimizāciju, [*·*](#enable-features) jūsu sistēmai ir jābūt ieslēgtai līdzeklim Automātiskās apstiprināšanas optimizācijai saskaņā ar aprakstu šī raksta sākumā. Automātisko apstiprināšanas procesu vienmēr var izmantot ar novecojušu vispārējās plānošanas programmu.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automātiskā apstiprināšana ar plānošanas optimizāciju pret iebūvēto plānošanas programmu
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Automātiskā apstiprināšana ar plānošanas optimizāciju pret novecojušu vispārējās plānošanas programmu
 
-Plānošanas optimizāciju un iebūvēto plānošanas programmu, var izmantot, lai automātiski apstiprinātu plānotos pasūtījumus. Taču pastāv dažas svarīgas atšķirības. Piemēram, Plānošanas optimizācija izmanto pasūtījuma datumu (t.i., sākuma datumu), lai noteiktu, kurus plānotos pasūtījumus apstiprināt, tā kā iebūvētā plānošanas programma izmanto prasības datumu (t.i., beigu datumu). Sekojošajā tabulā ir apkopotas atšķirības.
+Plānoto pasūtījumu automātiskai apstiprināšanai var izmantot gan plānošanas optimizāciju, gan novecojušu vispārējās plānošanas programmu. Taču pastāv dažas svarīgas atšķirības. Piemēram, plānošanas optimizācijā tiek izmantots pasūtījuma datums (tas ir, sākuma datums), lai noteiktu, kurus plānotos pasūtījumus apstiprināt, bet novecojusi vispārējās plānošanas programma izmanto pieprasījuma datumu (t.i., beigu datumu). Sekojošajā tabulā ir apkopotas atšķirības.
 
-| Funkcija | Plānošanas optimizācija | Iebūvēta plānošanas programma |
+| Līdzeklis | Plānošanas optimizācija | Novecojusi vispārējās plānošanas programma |
 |---|---|---|
 | **Bāzes datums** | Automātiskā apstiprināšana ir balstīta uz pasūtījuma datumu (sākuma datumu). | Automātiskā apstiprināšana ir balstīta uz prasības datumu (beigu datuma). |
 | **Piegādes/izpildes laiks** | Tā kā pasūtījuma datums (sākuma datums) aktivizē apstiprināšanu, jums nav jāapsver izpildes laiks kā daļa no apstiprināšanas laika ierobežojuma. | Lai palīdzētu nodrošināt, ka pasūtījumi ir apstiprināti savlaicīgi, apstiprināšanas laika periodam jābūt ilgākam par izpildes laiku. |

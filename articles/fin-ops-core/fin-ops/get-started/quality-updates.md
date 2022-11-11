@@ -2,7 +2,7 @@
 title: Proaktīvi kvalitātes atjauninājumi
 description: Šajā rakstā ir sniegta informācija par apsteidz aktīvo kvalitātes atjauninājumu piegādi.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731615"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752303"
 ---
 # <a name="proactive-quality-updates"></a>Proaktīvi kvalitātes atjauninājumi
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731615"
 Pēdējos gados Microsoft ir progresējusi attiecībā uz to, ko mēs nosaucām par [vienu versiju](../../dev-itpro/lifecycle-services/oneversion-overview.md). Vienas versijas priekšnoteikums ir vienkāršs: jo tuvāk var būt visiem klientiem tajā pašā programmatūras versijā, jo augstāka kvalitātes, ko mēs varam piegādāt. Kļūdas tiek meklētas un izlabotas vienu reizi, un šie risinājumi tiek ievadīti ātrāk un ātrāk.
 
 Šo telpu apstiprina rezultāti: zemāka incidentu skaits starp mūsu produktiem. Ja debitori nav ar vienu versiju, pastāvīgi redzams, ka tos ietekmē problēmas, kurām risinājums jau ir pieejams. Dynamics 365 Finanses, Dynamics 365 Piegādes Dynamics 365 Project Operations Dynamics 365 Commerce ķēde jau ir progresējusi un paldies nesenajiem tehniskajiem avansiem, tagad ir iespējams veikt nākamo soli. Tālāk ir aprakstīts, ko mēs gatavojam darīt, ko mēs jau esam veikuši, lai iestatītu pakāpi un to, kā un kad mēs ieviesām jaunās iespējas bez pārrāvuma.
+
+## <a name="what-you-need-to-know"></a>Kas jums ir jāzina
+
+- Apsteidzās kvalitātes atjauninājumi tiek pielietoti katru mēnesi.
+- Microsoft piemēros apsteidzošās kvalitātes atjauninājumus visām kases sistēmas vides versijām, kurās darbojas pakalpojuma [atjauninājums](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change), kas bija pieejams pakalpojumā, kad tika izveidoti apsteidzošās kvalitātes atjauninājumi.
+- Klientiem, kurus regulē ASV Pārtikas un zāļu pārvalde (FDA), tiks atļauti proaktīvās kvalitātes atjauninājumu izņēmumi.
+- Korporācija Microsoft nosaka, kā proaktīvās kvalitātes atjauninājumi tiks pārvaldīti saistīto vidi, kā arī tiešsaistes un valdības mākonī klientiem.
+- Paziņojumi, kas ir saistīti ar [Microsoft 365](https://admin.microsoft.com/AdminPortal/) proaktīvās Microsoft Dynamics kvalitātes atjauninājumiem, tiek grāmatoti paziņojumu centrā un klienta Lifecycle Services projektā.
+- Piecas dienas pirms apsteidztīvās kvalitātes atjauninājuma lietošanas videi, debitoriem tiek paziņots, ka notiks atjauninājums.
+- Debitori nevar atcelt vai atlikt proaktīvās kvalitātes atjauninājumus.
+- Apsteidzošā kvalitātes atjaunināšana tiek instalēta reģionam raksturīgā plānotās [uzturēšanas logā](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+- Kvalitātes atjauninājumi ir inženierēti ar zemu problēmu vai regresiju risku, un to atbalsta Microsoft dati.
+- Microsoft iesaka mērķētu pārbaudi konkrētiem jautājumiem vai noteiktiem labojumfailiem, kas ir saistīti ar proaktīvo kvalitātes atjauninājumu.
 
 ## <a name="focus-on-quality-updates"></a>Fokuss uz kvalitātes atjauninājumiem
 
@@ -40,7 +53,7 @@ Vairāki avansi jau ir izvietoti, kas iespējo kvalitātes atjauninājumu proakt
 
 - **Nulles dīkstāves** atjaunināšana – Lai virzītu biežākas vides, ir svarīgi samazināt ietekmi uz vides pieejamību, lai saglabātu Dynamics 365 pakalpojumu līmeņa līgumus (SLA). Sākotnēji tika ieviesta nulles dīkstāves atjaunināšana, lai palīdzētu uzlabot mēneša operētājsistēmas ielāpošanu, izmantojot klastera atteici, lai aktivizētu atjaunināto attēlu ar minimālu pārrāvumu. Atjaunināšanas lietošanas mehānisms tiek uzlabots, lai tas būtu vēl mazāk traucējošs, un tas segs gan operētājsistēmas ielāpošanu, gan kvalitātes atjauninājumu izvietošanu.
 
-Interaktīviem lietotājiem aktīva sesija var tikt pārtraukta, un mēģinājums tiks atkārtoti iet uz pašreiz atjaunināto vidi. Ieviešot uz prioritāti balstītu [pakešuzdevumu plānošanu, pakešuzdevumu plānošana](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) un apstrāde atkop un atsākas tūlīt pēc atjaunināšanas. Uz prioritāti balstīta pakešuzdevumu plānošana tiks vieta debitoriem, pirms tie sāks piedalīties savā ražošanas vidē proaktīvā kvalitātes atjauninājumu sadalē.
+    Interaktīviem lietotājiem aktīva sesija var tikt pārtraukta, un mēģinājums tiks atkārtoti iet uz pašreiz atjaunināto vidi. Ieviešot uz prioritāti balstītu [pakešuzdevumu plānošanu, pakešuzdevumu plānošana](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) un apstrāde atkop un atsākas tūlīt pēc atjaunināšanas. Uz prioritāti balstīta pakešuzdevumu plānošana tiks vieta debitoriem, pirms tie sāks piedalīties savā ražošanas vidē proaktīvā kvalitātes atjauninājumu sadalē.
 
 - **Tumšas** stundas — tumšās stundas ir definētas katram Azure reģionam, un tumšajā stundu periodā tiek lietoti nulles dīkstāves atjauninājumi.
 
@@ -56,9 +69,11 @@ Notiek procesa izmaiņu kopa, kas apsteidz proaktīvās kvalitātes atjaunināju
 
 - **Shēma** – rīku rīks nodrošina, ka kvalitātes atjauninājumu būvējuma laikā tiek iekļautas tikai shēmu izmaiņas, kuras var tikt lietotas pakalpojuma tiešsaistes režīmā. Šī pieeja palīdzēs saglabāt iespēju pielietot atjauninājumu ar nulles dīkstāves laiku.
 - **Palielināto izmaiņu** veikšana — pašlaik ir jau papildu procesa solis, lai apstiprinātu izmaiņas iekļaušanai kvalitātes atjauninājumā. Papildu darbība tiks palielināta, lai palīdzētu samazināt regresiju potenciālu. Kvalitātes atjauninājumos nav atļautas sadalīšanas izmaiņas, un palielinātais izmaiņu apraksts palīdzēs nodrošināt, ka mēs nodrošināt atbilstību šim mērķim.
-- **Redzamība** – mēs nosūtīsim paziņojumus caur administratoru centru, dzīves cikla pakalpojumiem (LCS) un citiem pieejamajiem kanāliem gaidāmajiem apsteidzošo kvalitātes atjauninājumiem. Turklāt atbalsta darba grupas un incidentu potenciālie klienti būs redzamība tur, kur kvalitātes atjauninājumi ir proaktīvi izvietoti.
- > [!NOTE]
- > Microsoft Sakaru komanda pēta notiekošu e-pasta rīku izveidi, kas novērš e-pasta paziņojumu piegādi. Lūdzu, turpiniet pārraudzīt ziņojumu Microsoft 365 centru, kurā vēlaties skatīt ar darbu saistītos ziņojumus un paziņojumus.
+- **Redzamība** — paziņojumi tiek sūtīti, izmantojot administrēšanas centru, dzīves cikla pakalpojumus un citus pieejamos kanālus gaidāmajiem apsteidzošo kvalitātes atjauninājumu kanāliem. Turklāt atbalsta darba grupas un incidentu potenciālie klienti būs redzamība tur, kur kvalitātes atjauninājumi ir proaktīvi izvietoti.
+
+    > [!NOTE]
+    > Microsoft Sakaru komanda pēta notiekošu e-pasta rīku izveidi, kas novērš e-pasta paziņojumu piegādi. Lūdzu, turpiniet pārraudzīt ziņojumu Microsoft 365 centru, kurā vēlaties skatīt ar darbu saistītos ziņojumus un paziņojumus.
+
 - **Kļūme lidojuma laikā** — lidojuma laikā tiks izmantota lidojuma informācija, kas tiek izmantota, lai veiktu koda izmaiņas, kad tas ir piemērojams kvalitātes atjauninājuma kļūdas labojumā vai izmantot esošās līdzekļa lidojuma izmaiņas, kas attiecas uz labojumu. Ja atkāpšanās vai izmaiņu izslēgšana ir nepieciešama pēc proaktīvās izvietošanas, to var veikt, izmantojot lidojuma sistēmu, lai izvairītos no turpmākām kļūmēm.
 - **Slīpstlodziņa** sinhronizācijas apzīmējums — šodien mazāk nekā 20 procenti debitoru ir vairākas kastēs un viena glabāta vieta, kur versija sakrīt ar ražošanu, lai saņemtu palīdzību par problēmu novēršanas. Ja debitors izmanto kasti, lai pārbaudītu jaunāku versiju nekā tā ražošana, šī slīpmaksa saņems jaunākās versijas kvalitātes atjauninājumus.
 
@@ -77,8 +92,8 @@ Pašlaik kvalitātes atjauninājumi ir tikai mērķa kastēs. Mēs atjauninām �
 Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
 
 ### <a name="proactive-quality-update-release-10028"></a>Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.28
-**Programmas versija: 10.0.1265.89**
-**atbilstošs jaunākais zināšanu bāzes rakstā: 745340**
+**Programmas versija: 10.0.1265.89**  
+**Atbilstošais jaunākais zināšanu bāzes raksts: 745340**
 
 | Stacijas | Reģioni | Pabeigts grafiks| Gaidāmās rūtiņas grafiks
 |---|---|---|---|
@@ -89,19 +104,31 @@ Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir 
 | 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.29
-**Programmas versija: 10.0.1326.70**
-**atbilstošs jaunākais zināšanu bāzes rakstā: 748926**
+**Programmas versija: 10.0.1326.70**  
+**Atbilstošais jaunākais zināšanu bāzes raksts: 748926**
 
 | Stacijas | Reģioni | Pabeigts grafiks | Gaidāmās rūtiņas grafiks|
 |---|---|---|---|
-| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 17. oktobris | 2022. gada 2. novembris līdz 5. novembris |
-| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 15. oktobris uz 18. oktobris | 2022. gada 2. novembris līdz 5. novembris |
-| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 16. oktobris uz 19. oktobris | 2022. gada 2. novembris līdz 5. novembris |
-| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 17. oktobris uz 2022. gada 20. oktobris | 2022. gada 2. novembris līdz 5. novembris |
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 14. oktobris uz 2022. gada 2. novembrīm līdz 2022. gada 5. novembrim | 2022. gada 13. novembris līdz 16. novembris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 15. oktobris uz 2022. gada 2. novembrīm līdz 2022. gada 5. novembrim | 2022. gada 13. novembris līdz 16. novembris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Austrumeiropa, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 16. oktobris uz 2022. gada 2. novembrīm līdz 2022. gada 5. novembrim | 2022. gada 13. novembris līdz 16. novembris |
+| 4. stacija | Ziemeļ eiropa, Centrālā ASV, Rietumi ASV | 2022. gada 20. oktobris – 2022. gada 2. oktobris – 2022. gada 5. novembris | 2022. gada 13. novembris līdz 16. novembris |
 | 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots | Nav ieplānots |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Apsteidzošās kvalitātes atjaunināšanas izlaide: 10.0.30
+**Programmas versija: KĀRTO ATBILSTOŠIE**
+**JAUNĀKIE ZINĀŠANU BĀZES raksti: PLKST.**
+
+| Stacijas | Reģioni | Gaidāmās rūtiņas grafiks |
+|---|---|---|
+| 1. stacija | Kanādas Centrālā, Kanādas Austrumi, Francija Centrālā, Indijas Centrālā, Norvēģijas Austrumi, Šveices Rietumi | 2022. gada 1. decembris līdz 4. decembris |
+| 2. stacija | Francija Dienvidsudāna, Indija Dienvidsudāna, Norvēģija, Šveice Ziemeļamerikas, Dienvidāfrikas Austrumi, Austrālijas Austrumi, Lielbritānijas Dienvidsudānas, Japānas Austrumi, Austrālijas Dienvidāzijā. | 2022. gada 2. decembris līdz 5. decembris |
+| 3. stacija | Austrumāzijas, Lielbritānijas Rietumi, Japānas Rietumi, Brazīlijas Dienvidsudāna, Ziemeļamerāna, Austrumi ASV, APVIENOTO Arābu Emirātu Centrālā | 2022. gada 3. decembris līdz 6. decembris |
+| 4. stacija | Rietumu Eiropa, Centrālā ASV, Rietumu ASV | 2022. gada 4. decembris līdz 7. decembris |
+| 5. stacija | Dod, Government Community Cloud, Ķīna | Nav ieplānots |
+
 > [!IMPORTANT] 
-> Piecas dienas iepriekš, korporācija Microsoft atjauninās iepriekšējo grafiku un nosūtīs e-pasta paziņojumus uz vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
+> Piecas dienas iepriekš, Microsoft atjauninās iepriekšējo grafiku un nosūtīs paziņojumu par vidi kopu, kuras ir plānots saņemt šos kvalitātes atjauninājumus. Iepriekšējais grafiks attiecas tikai uz vidēm, kas ir paziņotas par gaidāmo atjaunināšanu. Informāciju par tumšajām stundām katram reģionam skatiet sadaļā ["Kas ir plānotās apkopes logi pēc reģiona?"](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)
 >
 > Katrai reģionu grupai vai *stacijai*, kurā pašlaik ir ieplānots veikt kvalitātes atjauninājumu atriti, grafiks rāda četru dienu diapazonu. Kvalitātes atjauninājumi sāksies tikai ar kases vides. Tad, pieaugot veiksmīgi izvietoto kastu procentuālajai vērtībai, izvietošana ražošanas vidēs sāksies ar avansa paziņojumiem debitoriem.
 > 
@@ -124,13 +151,13 @@ Turpmākie soļi ir pagaidu risinājums, jo mēs turpinām strādāt pie labāka
 
 Izmantojiet KB# 745340 10.0.28 kvalitātes atjauninājuma vilcienu un saistīto programmas versiju 10.0.1265.89.
 
-1. Sadaļā LCS atveriet lapu Detalizēta informācija par **vidi** savā kastē. 
+1. Sadaļā Lifecycle Services atveriet lapu Detalizēta informācija par **vidi, kas** ir pieejama jūsu kastē. 
 2. Sadaļā Pieejamie **atjauninājumi** atlasiet Skatīt atjauninājumu **jaunākajam** Kvalitātes atjauninājuma būvējumam. 
 3. Eksportējiet būvējumu CSV vai Microsoft Excel failā.
-4. Eksportētajā failā kārtojiet informāciju, pamatojoties uz laiku (pirmais vecākais) un pēc tam meklējiet KB 745340 **kolonnā Atjaunināt** ID. Tagad vajadzētu būt redzamiem KBs delta sarakstam.
+4. Eksportētajā failā kārtojiet informāciju, pamatojoties uz laiku (pirmais vecākais) un pēc tam meklējiet KB 745340 **kolonnā Atjaunināšanas** ID. Tagad vajadzētu būt redzamiem KBs delta sarakstam.
  
- > [!NOTE]
- > Eksportam uz CSV vai Excel failu ir jāveic pirms vides atjaunināšanas. Pretējā gadījumā varat izmantot vidi ar līdzīgu konfigurāciju, kurā nav instalēts atjauninājums, un izpildiet iepriekš norādītās darbības.
+> [!NOTE]
+> Eksportam uz CSV vai Excel failu ir jāveic pirms vides atjaunināšanas. Pretējā gadījumā varat izmantot vidi ar līdzīgu konfigurāciju, kurā nav instalēts atjauninājums, un izpildiet iepriekš norādītās darbības.
 
 [![Piemērs par vidi ar kvalitātes atjaunināšanu.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,8 +166,8 @@ Kritiska problēma vai regresija ir viens vai vairāki notikumi, kas parasti izr
 
 Ja tiek ietekmēta viena debitora vide, sazinieties ar Microsoft atbalsta dienestu, lai atvērtu biļeti. Pamatojoties uz pamatojumu, mēs apturam kvalitātes atjauninājumu izriti visām pārējām šī projekta vidēm, līdz problēma ir saasinājama.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Vai debitori joprojām var manuāli lietot labojumfailu atjauninājumus no LCS?
-Jā. Lai nodrošinātu notiekošu pārību, kā darbojas labojumfaili, joprojām var pielietot debitora vidēm LCS. Tomēr ir svarīgi atzīmēt, ka labojumfaili, kas ir izvietoti kā daļa no kvalitātes atjauninājuma, atrodas standarta SDP pirms atjaunināšanas izvietošanas. Tas samazina regresiju risku augstākas kvalitātes dēļ. Ieteicams izvēlēties kvalitātes atjauninājumu manuāli pielietojot labojumfailus palielinātai uzticamībai.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>Vai debitori joprojām var manuāli lietot labojumfailu atjauninājumus no lifecycle Services?
+Jā. Lai nodrošinātu notiekošu pārību, kā darbojas labojumfaili, joprojām var izmantot klientu vidēs programmā Lifecycle Services. Tomēr ir svarīgi atzīmēt, ka labojumfaili, kas ir izvietoti kā daļa no kvalitātes atjauninājuma, atrodas standarta SDP pirms atjaunināšanas izvietošanas. Tas samazina regresiju risku augstākas kvalitātes dēļ. Ieteicams izvēlēties kvalitātes atjauninājumu manuāli pielietojot labojumfailus palielinātai uzticamībai.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Vai debitori proaktīvi var instalēt kvalitātes atjauninājumu būvējumu pirms grafika?
 Jā. Jūs varat instalēt kvalitātes atjauninājumu proaktīvi. Microsoft izlaidīs atjauninājumu, ja vides pašreizējā būvējuma versija ir vienāda vai augstāka par attiecīgo kvalitātes atjauninājumu.
@@ -149,11 +176,11 @@ Jā. Jūs varat instalēt kvalitātes atjauninājumu proaktīvi. Microsoft izlai
 - Kvalitātes atjauninājumi nav pielietoti ražošanas vidēs, ja ir gaidāms pakalpojuma atjauninājums, kas ieplānots nedēļas laikā no laika, kad ir plānots veikt kvalitātes atjauninājumu.
 - Ja kastītes videi ir tāda pati vai augstāka būvējuma versija nekā gaidāmais kvalitātes atjauninājums, tā tiks izlaista.
 - Ja ražošanas videi ir tāda pati vai augstāka būvējuma versija nekā gaidāmais kvalitātes atjauninājums, tas tiks izlaists.
-- Ja kastītei ir tāda pati vai augstāka būvējuma versija, jo ražošanai ir kvalitātes atjauninājums vai manuāls atjauninājums, ražošana vēl aizvien saņems mēneša pakalpojuma atjauninājuma ieplānoto versiju. Ja nevēlaties, lai plānotā ražošanas vide tiktu atjaunināta uz pakalpojuma atjaunināšanas versiju, varat pauzēt pakalpojuma atjauninājumu no LCS. 
+- Ja kastītei ir tāda pati vai augstāka būvējuma versija, jo ražošanai ir kvalitātes atjauninājums vai manuāls atjauninājums, ražošana vēl aizvien saņems mēneša pakalpojuma atjauninājuma ieplānoto versiju. Ja nevēlaties, lai plānotā ražošanas vide tiktu atjaunināta uz pakalpojuma atjaunināšanas versiju, varat pauzēt pakalpojuma atjauninājumu no pakalpojuma Lifecycle Services. 
 - Ieteicams izmantot jaunāko kvalitātes atjauninājumu būvējumu, lai pārbaudītu gaidāmā pakalpojuma atjauninājuma izmaiņas, lai uzlabotu stabilitātes un rezultātus.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Ja videi ir gaidāma plānota darbība un ieplānota kvalitātes atjaunināšana vienā un tajā pašā uzturēšanas logā, vai joprojām tiks saņemts kvalitātes atjauninājums?
-Ja pastāv jebkādas iepriekš plānotas darbības saturēšanas darbības, piemēram, punktu atjaunošana laikā (PITR), kvalitātes atjaunināšana tiks pārplānota uz nākamo pieejamo uzturēšanas logu četru dienu logā. Plašāku informāciju par grafiku skatiet šeit: Kas [ir proaktīvās kvalitātes atjauninājumu grafiks](#schedule)?. 
+Ja pastāv jebkādas iepriekš plānotas darbības saturēšanas darbības, piemēram, punktu atjaunošana laikā (PITR), kvalitātes atjaunināšana tiks pārplānota uz nākamo pieejamo uzturēšanas logu četru dienu logā. Plašāku informāciju par grafiku skatiet šeit: Kas [ir proaktīvās kvalitātes atjauninājumu grafiks?](#schedule). 
 
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Vai vidi var atgriezties iepriekšējā stāvoklī, ja pēc kvalitātes atjaunināšanas ir izejas plūsmas?
 Pēc kvalitātes atjaunināšanas atrite netiek atrite jebkuros apstākļos. Ir pieejamas tikai ielāpa uz priekšu vērstas opcijas, lai mazinātu problēmas.
@@ -164,11 +191,11 @@ Debitoru plāns, uz ko attiecas FDA pārbaude un noteikumi joprojām nav apmieri
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Kādas pakalpojuma atjauninājumu versijas šiem kvalitātes atjauninājumiem tiek atbalstītas?
 Klienti visās atbalstītās pakalpojuma atjauninājumu versijās apstiprina kvalitātes atjauninājumus. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Finanšu un operāciju programmu izvietošanai ar Retail komponentiem parasti nepieciešams papildu darbs papildus MPOS atkārtotai izvietošanai. Kā šie kvalitātes atjauninājumi ietekmēs RetailSDK? 
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>Finanšu un operāciju programmu izvietošanai ar Retail komponentiem parasti nepieciešams papildu darbs papildus MPOS atkārtotai izvietošanai. Kā šie kvalitātes atjauninājumi ietekmēs sistēmu Retail SDK? 
 Tā kā labojumfaila raksturs nemainās kvalitātes atjauninājumu lietderīgo slodzi, mēs pašlaik ne paredzam nekādu papildu ietekmi, kas pašlaik tiek saistīta ar Retail komponentiem.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Vai mākonī viesotās vides (CHE)? 
-Čeku vides ir ārpus sfēras kvalitātes atjauninājumiem, jo tās ir ārpus Microsoft purview
+Čeku vides ir ārpus sfēras kvalitātes atjauninājumiem, jo tās ir ārpus Microsoft purview.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Ar ko ir saistītas integrācijas problēmas Microsoft Dataverse? 
 Nav zināms, ar kvalitāti atjauninājumiem saistītas integrācijas problēmas Dataverse.

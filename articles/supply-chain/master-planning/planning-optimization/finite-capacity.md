@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689698"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740091"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Ierobežotas noslodzes plānošana un grafika izveide
 
@@ -28,9 +28,8 @@ Ierobežota noslodze ir pieeja, kas palīdz saprast, cik daudz darba var saražo
 
 Ierobežotas noslodzes plānošana un plānošana izveido reālāku ražošanas procesu grafiku, nekā izveido neierobežota noslodzes pieeja. Ja resursiem nepietiek noslodzes, piegādes datums tiks pabīdāms, un darbs tiks plānots, kad būs pietiekama noslodze.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Plānošanas optimizācijas atbalsts ierobežotas noslodzes plānošanai
-
-Ierobežotas noslodzes plānošana un plānošana darbojas ļoti vienādi neatkarīgi no tā, vai izmantojat plānošanas optimizāciju vai iebūvēto plānošanas programmu. Tomēr plānošanas optimizācijā netiek izmantots deficīta **laika perioda** parametrs. Izmantojot plānošanas optimizāciju, sastrēguma resursi vienmēr tiek plānoti, izmantojot tos pašus laika periodus, kas nav sastrēguma resursi (kā norādīts ar ierobežotās noslodzes laika periodu).
+> [!NOTE]
+> Ierobežotas noslodzes plānošana un plānošana darbojas ļoti vienādi neatkarīgi no tā, vai izmantojat plānošanas optimizāciju vai novecojušu vispārējās plānošanas programmu. Tomēr plānošanas optimizācijā netiek izmantots deficīta **laika perioda** parametrs. Izmantojot plānošanas optimizāciju, sastrēguma resursi vienmēr tiek plānoti, izmantojot tos pašus laika periodus, kas nav sastrēguma resursi (kā norādīts ar ierobežotās noslodzes laika periodu).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Ierobežotās noslodzes funkcionalitātes iestatīšana
 

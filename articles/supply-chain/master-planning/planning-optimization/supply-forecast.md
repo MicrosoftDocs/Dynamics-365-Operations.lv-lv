@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690163"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740146"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Vispārējā plānošana ar piegādes apjoma prognozēm
 
@@ -166,15 +166,15 @@ Pastāv pirkšanas *pasūtījums kreditoram US-101*, *vietai 1*, *noliktavai 11*
 
 Palaižot *vispārējo* plānu, kas iestatīts izmantot Nav kā samazināšanas metodi, *tiks izveidots plānotais pirkšanas pasūtījums kreditoram US-101*, *1*. vieta, *11*. noliktava *,* daudzums 25pus *un datums 10/10/22*. Citiem vārdiem sakot, esošais pirkšanas pasūtījums netiks samazināts, jo prognozes samazināšanas metode ir *Nav*.
 
-Tagad rediģējiet plānoto pirkšanas pasūtījumu, kas tika izveidots pēc pēdējās plānošanas izpildes, un mainiet daudzumu uz *15.* Pēc tam jūs apstipriniet pasūtījumu. *Nākamajā vispārējā plāna palaišanas reizē tiks izveidots plānotais pirkšanas pasūtījums kreditoram US-101*, *1*. vieta, *11*. noliktava, *daudzums 10 us* un *datums 10/10/22*. Šoreiz daudzums tiks samazināts, lai atspoguļotu esošā apstiprinātā pasūtījuma daudzumu no iepriekšējās plānošanas izpildes.
+Tagad rediģējiet plānoto pirkšanas pasūtījumu, kas tika izveidots pēc pēdējās plānošanas izpildes, un mainiet daudzumu uz *15*. Pēc tam jūs apstipriniet pasūtījumu. *Nākamajā vispārējā plāna palaišanas reizē tiks izveidots plānotais pirkšanas pasūtījums kreditoram US-101*, *1*. vieta, *11*. noliktava, *daudzums 10 us* un *datums 10/10/22*. Šoreiz daudzums tiks samazināts, lai atspoguļotu esošā apstiprinātā pasūtījuma daudzumu no iepriekšējās plānošanas izpildes.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Atšķirības starp plānošanas optimizāciju un iebūvēto plānošanas programmu
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Atšķirības starp plānošanas optimizāciju un novecojušu vispārējās plānošanas programmu
 
-Piegādes apjoma prognozes nedaudz atšķiras atkarībā no izmantotās plānošanas programmas (iebūvēta vispārējā plānošana vai plānošanas optimizācija). Šajā sadaļā ir aprakstītas atšķirības.
+Piegādes apjoma prognozes nedaudz atšķiras, atkarībā no izmantotās plānošanas programmas (Optimizācijas plānošana vai novecojusi vispārējās plānošanas programma). Šajā sadaļā ir aprakstītas atšķirības.
 
 ### <a name="vendor-groups"></a>Kreditoru grupas
 
-Kad pievienojat budžeta rindu, varat norādīt kreditoru un kreditoru grupu. Iebūvētajā plānošanas programmā izveidotie plānotie pasūtījumi tiek grupēti pēc kreditoru un kreditoru grupu vērtību kombinācijām. Plānošanas optimizācijā plānotie pasūtījumi tiek grupēti pēc kreditoriem.
+Kad pievienojat budžeta rindu, varat norādīt kreditoru un kreditoru grupu. Nolietojuma vispārējās plānošanas programmā izveidotie plānotie pasūtījumi tiek grupēti pēc kreditoru un kreditoru grupu vērtību kombinācijas. Plānošanas optimizācijā plānotie pasūtījumi tiek grupēti pēc kreditoriem.
 
 Tabulā sniegti daži piegādes apjoma prognozes rindu piemēri krājumam.
 
@@ -186,7 +186,7 @@ Tabulā sniegti daži piegādes apjoma prognozes rindu piemēri krājumam.
 
 Kreditoru *grupa VendorGroupA* *ir noklusējuma kreditors*. Tas ir arī krājuma noklusētais kreditors.
 
-Iebūvētā plānošanas programma izveidos šādus pasūtījumus:
+Novecojusi vispārējās plānošanas programma izveidos šādus pasūtījumus:
 
 - Plānotais pirkšanas pasūtījums kreditoram *VendorA*, kreditoru *grupai VendorGroupA* un daudzumam *11*
 - Plānotais pirkšanas pasūtījums *kreditoram VendorA* un daudzums *7*
@@ -197,7 +197,7 @@ Plānošanas optimizēšana izveidos tikai vienu pasūtījumu:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Vispārējo prognožu samazināšana par specifiskākām prognozēm
 
-Iebūvētajā vispārējās plānošanas programmā rezultāts ir neprognozējams, ja dažām prognozēm ir kreditors, bet citiem tā nav.
+Novecojušākās vispārējās plānošanas programmā rezultāts ir neprognozēts, ja dažām prognozēm ir kreditors, bet citas nav.
 
 Optimizācijas plānošanā vispārīgās prognozes vienmēr tiek samazinātas ar specifiskām prognozēm, kā redzams šajā piemērā.
 
@@ -218,15 +218,15 @@ Vispārējo prognozi (15,00 gabaliem) samazina par specifiskākām prognozēm (p
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Jāņem vērā noklusējuma pasūtījuma iestatījumi, kad tiek ģenerēti plānotie pasūtījumi
 
-Katram krājumam var būt noklusējuma pasūtījuma iestatījumi, piemēram, minimālais pirkšanas pasūtījuma daudzums. Iebūvētā plānošanas programma ignorē šos iestatījumus, un tādēļ pārveido prognozes par plānotajiem pasūtījumiem, kam ir vienāds daudzums. Optimizācijas plānošanā tiek ievēroti šie iestatījumi, kad plānotie pasūtījumi tiek ģenerēti no piegādes apjoma prognozēm. 
+Katram krājumam var būt noklusējuma pasūtījuma iestatījumi, piemēram, minimālais pirkšanas pasūtījuma daudzums. Novecojusi vispārējās plānošanas programma ignorē šos iestatījumus, un tādēļ pārveido prognozes par plānotajiem pasūtījumiem, kam ir vienāds daudzums. Optimizācijas plānošanā tiek ievēroti šie iestatījumi, kad plānotie pasūtījumi tiek ģenerēti no piegādes apjoma prognozēm. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Plānoto pasūtījumu apkopojums apstiprināto pasūtījumu samazināšanas rezultātā
 
-Iebūvētā vispārējās plānošanas programma pieņem, ka tikai viens pasūtījums samazinās esošo piegādes apjoma prognozi. Tādēļ, ja vairāki pasūtījumi atbilst piegādes apjoma prognozes rindai, tikai pirmais pasūtījums to samazina. Optimizācijas plānošanā visi pasūtījumi, kas atbilst piegādes apjoma prognozes rindai, to samazinās.
+Novecojusi vispārējās plānošanas programma pieņem, ka tikai viens pasūtījums samazinās esošo piegādes apjoma prognozi. Tādēļ, ja vairāki pasūtījumi atbilst piegādes apjoma prognozes rindai, tikai pirmais pasūtījums to samazina. Optimizācijas plānošanā visi pasūtījumi, kas atbilst piegādes apjoma prognozes rindai, to samazinās.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Prognožu samazināšana, izmantojot tikai atbilstošus kreditorus
 
-Kad iebūvētā vispārējās plānošanas programma samazina prognozi, izmantojot jau izlaistos pirkšanas pasūtījumus, netiek nodrošināts, ka pirkšanas pasūtījumā esošais kreditors atbilst kreditoram prognozē. Optimizācijas plānošana samazina prognozes tikai par pirkšanas pasūtījumiem, kuriem kreditora laukā ir atbilstoša vērtība.
+Ja novecojusi vispārējās plānošanas programma samazina budžetu, izmantojot jau izlaistos pirkšanas pasūtījumus, netiek nodrošināts, ka pirkšanas pasūtījumā esošais kreditors atbilst kreditoram prognozē. Optimizācijas plānošana samazina prognozes tikai par pirkšanas pasūtījumiem, kuriem kreditora laukā ir atbilstoša vērtība.
 
 Pārsūtīšanas un ražošanas pasūtījumos kreditora lauks vienmēr tiek ignorēts, jo tas nav derīgs šiem pasūtījuma tipiem.
 
@@ -234,4 +234,4 @@ Pārsūtīšanas un ražošanas pasūtījumos kreditora lauks vienmēr tiek igno
 
 Ja krājuma noklusētais pasūtījuma tips ir *Pārsūtīšana*, prognozes var samazināt tikai par esošajiem plānotajiem pārsūtīšanas pasūtījumiem. Tomēr ražošanas pasūtījumiem un pirkšanas pasūtījumiem tikai izlaistie pasūtījumi samazina piegādes apjoma prognozi.
 
-Iebūvētā plānošanas programma samazina visu pārsūtīšanas pasūtījumu administratīvos apgabalos, bet plānošanas optimizācija samazina prognozes tikai par pārsūtīšanas pasūtījumiem, kas ir atbrīvotā *stāvoklī*.
+Novecojusi vispārējās plānošanas programma samazina visu pārsūtīšanas pasūtījumu administratīvos apgabalos, bet plānošanas optimizācija samazina prognozes tikai par pārsūtīšanas pasūtījumiem, kas ir atbrīvotā *stāvoklī*.

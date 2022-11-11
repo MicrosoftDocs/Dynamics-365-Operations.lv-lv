@@ -1,6 +1,6 @@
 ---
 title: Neiekļaut preces, kurām ir noteikti preces dzīves cikla stāvokļi
-description: Šajā rakstā ir izskaidrots, kā izslēgt preces, balstoties uz to dzīves cikla stāvokli, kad tiek izmantota plānošanas optimizācijas funkcionalitāte.
+description: Šajā rakstā ir izskaidrots, kā izslēgt preces, ņemot vērā to dzīves cikla stāvokli.
 author: t-benebo
 ms.date: 11/13/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6bf6f1d9a82200240f55c387396d9d70dfa6dfc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 647e2cf4f14dbdfc3e7f04f43dcbd7115f19e8dc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873845"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740770"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Neiekļaut preces, kurām ir noteikti preces dzīves cikla stāvokļi
 

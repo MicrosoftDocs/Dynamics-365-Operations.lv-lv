@@ -1,6 +1,6 @@
 ---
-title: Neto vajadzības un piesaistes informācija ar plānošanas optimizāciju
-description: Šajā rakstā ir sniegta informācija par aprēķinātajām neto vajadzībām un piesaistes informāciju plānošanas optimizācijā.
+title: Neto prasības un piesaistes informācija
+description: Šajā rakstā ir sniegta informācija par aprēķinātajām neto vajadzībām un piesaistes informāciju.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888533"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748443"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Neto vajadzības un piesaistes informācija ar plānošanas optimizāciju
+# <a name="net-requirements-and-pegging-information"></a>Neto prasības un piesaistes informācija
 
 [!include [banner](../../includes/banner.md)]
 
-Kad tiek palaista vispārējā plānošana plānošanas optimizācijā, ir svarīgi izprast tās izvadi, kā esošā piegāde sedz pieprasījumu un kāpēc tika ģenerēta noteikta piegāde. Var izmantot lapu **Neto vajadzības**, lai labāk saprastu aprēķinātās vajadzības, ko rada vispārējā plānošana.
+Kad tiek palaista vispārējā plānošana, ir svarīgi izprast tās izvadi, kā esošā piegāde sedz pieprasījumu un kāpēc tika ģenerēta noteikta piegāde. Var izmantot lapu **Neto vajadzības**, lai labāk saprastu aprēķinātās vajadzības, ko rada vispārējā plānošana.
 
-Lapa **Neto prasības** rāda neto vajadzības, kas plānošanas optimizācija aprēķināja precei. Tajā ir parādīti arī vajadzības iestatījumi, kas tika pielietoti vispārējās plānošanas izpildes laikā, vajadzību kopsummu sadalījums pēc darbību tipa un piesaistes informācija.
+Neto **prasību lapa** parāda neto vajadzības, kas vispārējais plāns tiek aprēķināts precei. Tajā ir parādīti arī vajadzības iestatījumi, kas tika pielietoti vispārējās plānošanas izpildes laikā, vajadzību kopsummu sadalījums pēc darbību tipa un piesaistes informācija.
 
 ## <a name="open-the-net-requirements-page"></a>Atvērt neto prasību lapu
 
@@ -64,8 +64,8 @@ Lapas apakšējā sadaļā ir pieejamas šādas cilnes:
 Darbību rūtī ir pieejamas tālāk minētās komandas:
 
 - **Atjaunināt \> Vispārējā plānošana** – palaidiet vispārējo plānošanu tieši no lapas **Neto prasības**.
-- **Atjaunināt \> Prognozes plānošana** – palaidiet prognozes plānošanu tieši no lapas **Neto prasības**. Optimizācijas plānošana vēl neatbalsta šo operāciju.
-- **Atjaunināt \> Nepārtrauktā plānošana** — palaist nepārtraukto plānošanu tieši no lapas **Neto prasības**. Optimizācijas plānošana vēl neatbalsta šo operāciju.
+- **Atjaunināt \> Prognozes plānošana** – palaidiet prognozes plānošanu tieši no lapas **Neto prasības**. Optimizācijas plānošana neatbalsta šo operāciju.
+- **Atjaunināt \> Nepārtrauktā plānošana** — palaist nepārtraukto plānošanu tieši no lapas **Neto prasības**. Optimizācijas plānošana neatbalsta šo operāciju.
 
 ## <a name="example-scenario"></a>Piemērs
 
@@ -133,8 +133,6 @@ Pēc tam atvērsiet lapu **Neto prasības** precei *1000*, lai pārskatītu, kā
     ![Piesaistes informācija pārdošanas pasūtījumam](media/pegging-planned-purchase-order.png "Piesaistes informācija pārdošanas pasūtījumam")
 
 > [!NOTE]
-> Tā kā plānošanas optimizācija vēl neatbalsta dažus līdzekļus, *Drošības krājumi* un *Partija, kuras derīguma termiņš ir beidzies* prasību veidi nav iekļauti lapā **Neto prasības**. Papildinformāciju skatiet [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization-fit-analysis.md).
->
-> Ja izmantojat iebūvēto vispārējās plānošanas programmu, tiek atbalstītas partijas kontrolētas preces. Partijas kontrolētām precēm rīcībā esošie krājumi, kuriem beidzies derīguma termiņš, tiek rādīti lapā **Neto prasības**, bet tie nav piesaistīti pieprasījuma prasībām. Šī tipa rīcībā esošās līnijas, kurām beidzies derīguma termiņš, lapā **Neto prasības** tiek parādītas kā *Partija, kuras derīguma termiņš ir beidzies* prasību rindas.
+> Drošības *krājumu* prasības nav ietvertas neto **prasību** lapā.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

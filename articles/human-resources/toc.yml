@@ -541,7 +541,11 @@
                     - name: Kandidātu pieņemšana darbā
                       href: hr-personnel-recruit.md
         - name: Uzdevumu pārvaldība
-          href: hr-task-mgmt.md
+          items:
+            - name: Pārskats
+              href: hr-task-mgmt.md
+            - name: Uzdevumu pārvaldības jauninājums
+              href: hr-task-update.md
         - name: Atvaļinājumi un kavējumi
           items:
             - name: Pārskats
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Nodarbināto izmitināšanas pārvaldība
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: Human resources attīstība
+    - name: Human Resources attīstība
       items:
         - name: Pārskats
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Pielāgotie lauki
           href: hr-developer-custom-fields.md
+        - name: Izstrāde un pielāgošana
+          items:
+            - name: Dzimuma pamata uzskaitījums
+              href: enum-exten.md
         - name: Datu integrācijas iestatīšana
           items:
             - name: Datu integrācijas tehnoloģiju izvēle

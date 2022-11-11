@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885904"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740909"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Datuma un laika parametri, kas tiek izmantoti Plānošanas optimizācijai
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885904"
 
 Šajā rakstā ir sniegta informācija par datuma un laika parametriem, ko plānošanas optimizēšana izmanto tās operācijas laikā.
 
-Turpretim iebūvētajā vispārējās plānošanas programmā tiek izmantoti darbību datumi visos aprēķinos, bet Plānošanas optimizācija darbojas ar datuma un laika vērtībām, kas tiek konvertētas uz datumiem. Šī atšķirības uzvedība var izraisīt situācijas, kad, piemēram, budžeta darbības, kas ir izveidotas pusnaktī tajā dienā, kad ir palaista vispārējā plānošana, nav iekļautas, jo Plānošanas optimizācija apsver, ka tās ir izveidotas pirms pašreizējā datuma.
+Nolietotā vispārējās plānošanas programma izmanto darbību datumus visos aprēķinos, bet plānošanas optimizācija darbojas ar datuma un laika vērtībām, kas tiek konvertētas uz datumiem. Šī atšķirības uzvedība var izraisīt situācijas, kad, piemēram, budžeta darbības, kas ir izveidotas pusnaktī tajā dienā, kad ir palaista vispārējā plānošana, nav iekļautas, jo Plānošanas optimizācija apsver, ka tās ir izveidotas pirms pašreizējā datuma.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Izejas plūsmas un pieprasījuma darbību parametri
 

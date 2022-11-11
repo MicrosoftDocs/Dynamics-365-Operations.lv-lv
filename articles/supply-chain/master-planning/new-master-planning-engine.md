@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846103"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739956"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 
@@ -31,35 +31,35 @@ Iebūvēto vispārējās plānošanas programmu ir paredzēts padarīt par novec
 
 Plānošanas optimizācija ļauj veikt vispārējās plānošanas aprēķinus, kas notiek ārpus Supply Chain Management un Azure SQL datu bāzes. Priekšrocības, kas saistītas ar Plānošanas optimizācijas funkcionalitāti, vispārējās plānošanas izpildes laikā ietver uzlabotu veiktspēju un minimālu ietekmi uz SQL datu bāzi. Jo ātro plānošanu var veikt arī darba stundu laikā, lai plānotāji varētu nekavējoties reaģēt uz pieprasījumu vai parametru izmaiņām.
 
-Papildinformāciju par Plānošanas optimizāciju skatiet sadaļā [Plānošanas optimizācijas apskats](planning-optimization/planning-optimization-overview.md).
+Papildinformāciju par plānošanas optimizāciju skatiet vispārējās [plānošanas sistēmas arhitektūrā](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Esošās vispārējās plānošanas programmas novecošanās
 
-Korporācija Microsoft pašlaik padara iebūvētu plānošanas programmu novecojušu, lai atbalstītu Plānošanas optimizāciju. Šīs izmaiņas ietekmē visas mākoņa vides. Lokālās instalācijas netiek ietekmētas. Versijā 10.0.16 un jaunākās tiks parādīts kļūdas ziņojums, ja palaižat iebūvēto vispārējo plānošanu, neveidojot plānotos ražošanas pasūtījumus. Tomēr vispārējās plānošanas izpilde tiks veiksmīgi pabeigta, neskatoties uz kļūdas ziņojumu.
+Microsoft pašlaik veic novecojušu vispārējās plānošanas programmu novecojušu plānošanas optimizāciju. Šīs izmaiņas ietekmē visas mākoņa vides. Lokālās instalācijas netiek ietekmētas. Versijā 10.0.16 un vēlāk, palaižot novecojušu vispārējās plānošanas programmu, neveidojot plānotos ražošanas pasūtījumus, saņemsit kļūdas ziņojumu. Tomēr vispārējās plānošanas izpilde tiks veiksmīgi pabeigta, neskatoties uz kļūdas ziņojumu.
 
-Lai iegūtu vairāk informācijas par iebūvētās plānošanas programmas novecošanos, skatiet paziņojumus par [Noņemtajiem vai novecojušiem līdzekļiem sadaļā Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
+Papildinformāciju par novecojušu vispārējās plānošanas programmu skatiet paziņojumus [sadaļā Noņemtie vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
 
 ## <a name="migration-messages-and-exceptions"></a>Migrācija, ziņojumi un izņēmumi
 
-Īpašnieki, kam pieder esošās vides, kurās darbojas iebūvētā vispārējās plānošanas programma bez plānoto ražošanas pasūtījumu ģenerēšanas, saņems e-pastu ar sīkāku informāciju par izņēmuma procesu. Iesakām jums strādāt ar partneri, lai novērtētu un plānotu migrāciju uz plānošanas optimizāciju.
+Esošo vides īpašnieki, kas palaiž novecojušu vispārējās plānošanas programmu, neveidojot plānotus ražošanas pasūtījumus, saņems e-pastu, kas nodrošina detalizētu informāciju par izņēmumu procesu. Iesakām jums strādāt ar partneri, lai novērtētu un plānotu migrāciju uz plānošanas optimizāciju.
 
-Kā minēts iepriekš versijā 10.0.16 un jaunākās tiks parādīts kļūdas ziņojums, ja palaižat iebūvēto vispārējo plānošanu, neveidojot plānotos ražošanas pasūtījumus. Šis kļūdas ziņojums ietver norādījumus par migrāciju un norādījumus par izņēmuma pieprasīšanu.
+Kā tika norādīts, saņemsit kļūdas ziņojumu versijā 10.0.16 un vēlāk, ja palaižat novecojušu vispārējās plānošanas programmu, neveidojot plānotos ražošanas pasūtījumus. Šis kļūdas ziņojums ietver norādījumus par migrāciju un norādījumus par izņēmuma pieprasīšanu.
 
 ### <a name="new-deployments"></a>Jauni izvietojumi
 
-Plānošanas optimizāciju ir jāuzskata par noklusējuma vispārējās plānošanas programmu visām jaunajām izvietošanām mākonī. Vispārīgi Plānošanas optimizācija ir jāizmanto visiem jaunajiem izvietojumiem, kas vispārējās plānošanas laikā neģenerē plānotos ražošanas pasūtījumus. Ja jauns izvietojums ir atkarīgs no funkcionalitātes, ko plānošanas optimizācija pašlaik neatbalsta, varat pieprasīt izņēmumu, lai varētu turpināt izmantot iebūvēto vispārējās plānošanas programmu.
+Plānošanas optimizāciju ir jāuzskata par noklusējuma vispārējās plānošanas programmu visām jaunajām izvietošanām mākonī. Vispārīgi Plānošanas optimizācija ir jāizmanto visiem jaunajiem izvietojumiem, kas vispārējās plānošanas laikā neģenerē plānotos ražošanas pasūtījumus. Ja jaunā izvietošana ir atkarīga no funkcionalitātes, ko pašlaik neatbalsta plānošanas optimizācija, varat pieprasīt izņēmumu, tādējādi varat turpināt izmantot novecojušu vispārējās plānošanas programmu.
 
 ### <a name="existing-deployments"></a>Esošās izvietošanas
 
-Esošo mākonī balstītu izvietojumu īpašnieki, kas atkarīgi no vispārējās plānošanas, plāno migrēt uz plānošanas optimizāciju. Ja jūsu ieviešana ir atkarīga no funkcionalitātes, ko plānošanas optimizācija pašlaik neatbalsta, varat pieprasīt izņēmumu, lai varētu turpināt izmantot iebūvēto vispārējās plānošanas programmu.
+Esošo mākonī balstītu izvietojumu īpašnieki, kas atkarīgi no vispārējās plānošanas, plāno migrēt uz plānošanas optimizāciju. Ja jūsu ieviešana ir atkarīga no funkcionalitātes, ko šobrīd neatbalsta plānošanas optimizācija, varat pieprasīt izņēmumu, tādējādi varat turpināt izmantot novecojušu vispārējās plānošanas programmu.
 
 Vidēm, kas pašlaik izmanto vispārējās plānošanas procesus, kas ir novecojuši, korporācija Microsoft nosūtīs e-pastu vides administratoram. Šī e-pasta adrese sniegs informāciju par darbībām, kas nepieciešamas, lai migrētu vai pieprasītu izņēmumu.
 
 ## <a name="the-exception-process"></a>Izņēmuma process
 
-Varat pieprasīt izņēmumu, ja ir jāturpina izmantot iebūvēto vispārējās plānošanas programmu, jo jūsu biznesa procesi lielā mērā ir atkarīgi vismaz no viena līdzekļa, kas pašlaik nav ieviests plānošanas optimizācijā. Pieejamo līdzekļu sarakstu skatiet šeit: [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization/planning-optimization-fit-analysis.md).
+Varat pieprasīt izņēmumu, ja jums ir jāturpina izmantot novecojušu vispārējās plānošanas programmu, jo biznesa procesi ir atkarīgi no vismaz vienas pašlaik neieviešamās funkcionalitātes plānošanas optimizācijā. Pieejamo līdzekļu sarakstu skatiet šeit: [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization/planning-optimization-fit-analysis.md).
 
-Šobrīd migrācijas izņēmumi plānošanas optimizācijā ir aktuāli tikai tad, ja vispārējās plānošanas process neiekļauj ražošanu (tas ir, vispārējās plānošanas ģenerētus plānotos ražošanas pasūtījumus), un jums nepieciešama iebūvētā vispārējās plānošanas programmas versija, kas jaunāka par versiju 10.0.15.
+Šobrīd optimizācijas migrācijas plānošanas izņēmumi ir svarīgi tikai tad, ja vispārējās plānošanas procesā nav ietverta ražošana (t.i., plānotie ražošanas pasūtījumi, kas tiek ģenerēti vispārējās plānošanas ietvaros) un ir nepieciešama novecojusi vispārējās plānošanas programma papildus versijai 10.0.15.
 
 Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft nodrošinās pagarinājuma periodu līdz izņēmuma termiņa beigām. Vides administrators tiks informēts, kad vajadzīgie līdzekļi ir kļuvuši pieejami un pagarinājuma periods ir sācies.
 
@@ -74,9 +74,9 @@ Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft n
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>Smilškastes vides
 
-Vai var izmantot iebūvēto vispārējo plānošanu manā smilškastes vidē? Vai man ir nepieciešams izņēmums?
+Vai ikstlodziņa vidē var izmantot vispārējās plānošanas programmu, kas ir novecojusi? Vai man ir nepieciešams izņēmums?
 
-**Atbilde:** izņēmumi parasti neattiecas uz smilškastes vidēm, jo plānošanas optimizācijas izņēmuma kļūda neaizkavē iebūvētās vispārējās plānošanas programmas veiksmīgu palaišanu. Tomēr, ja kļūdas ziņojums traucē, varat to deaktivizēt uz IaaS (ne Service Fabrics) smilškastes vidi, jūsu datu bāzē izpildot šādu vaicājumu:
+**Atbilde:** izņēmumi parasti nav saistīti ar kastu vides, jo plānošanas optimizācijas izņēmuma kļūda neļaus veiksmīgi palaist novecojušu vispārējās plānošanas programmu. Tomēr, ja kļūdas ziņojums traucē, varat to deaktivizēt uz IaaS (ne Service Fabrics) smilškastes vidi, jūsu datu bāzē izpildot šādu vaicājumu:
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Mana vide ir lokāla vide. Vai man ir nepieciešams izņēmums?
 
-**Atbilde:** Nē. Lokālajai videi izņēmums nav nepieciešams. Varat turpināt izmantot iebūvēto vispārējo plānošanu. Jūsu vides administrators tiks informēts, ja ir nepieciešama kāda darbība.
+**Atbilde:** Nē. Lokālajai videi izņēmums nav nepieciešams. Varat turpināt izmantot novecojušu vispārējās plānošanas programmu. Jūsu vides administrators tiks informēts, ja ir nepieciešama kāda darbība.
 
 ### <a name="production-scenarios"></a>Ražošanas scenāriji
 
 Mēs izmantojam plānotos ražošanas pasūtījumus, bet es esmu norūpējies par to, kas notiks, kad mēs jauninām uz versiju 10.0.16. Vai man nepieciešams veikt kādu darbību?
 
-**Atbilde:** Jums nav jāraizējas. Varat turpināt izmantot iebūvēto vispārējo plānošanu versijā 10.0.16. Tomēr mēs iesakām izvērtēt, vai migrāciju uz plānošanas optimizāciju var sākt ar pašreizējo funkcionalitāti. Mēs arī iesakām palikt informētam par jauno funkcionalitāti.
+**Atbilde:** Jums nav jāraizējas. Varat turpināt izmantot novecojušu vispārējās plānošanas programmu versijā 10.0.16. Tomēr mēs iesakām izvērtēt, vai migrāciju uz plānošanas optimizāciju var sākt ar pašreizējo funkcionalitāti. Mēs arī iesakām palikt informētam par jauno funkcionalitāti.
 
 ### <a name="email-from-microsoft"></a>E-pasts no Microsoft
 
@@ -110,9 +110,9 @@ Mūsu vides administrators saņēma e-pastu no Microsoft. Šajā e-pastā teikts
 
 Es lietoju versiju 10.0.16 vai jaunāku, un, palaižot vispārējo plānošanu, es saņemu šādu kļūdas ziņojumu. Vai vispārējā plānošana ir bloķēta?
 
-> Šis kļūdas ziņojums tiek parādīts, jo iebūvētā vispārējās plānošanas programma tika izmantota scenārijiem, ko atbalsta plānošanas optimizācija. Tagad jums vajadzētu migrēt uz plānošanas optimizāciju, jo pašreizējā iebūvētā vispārējā plānošana ir novecojusi. Ievērojiet, ka šī vispārējās plānošanas izpilde tika pabeigta sekmīgi.
+> Šis kļūdas ziņojums tiek parādīts, jo novecojusi vispārējās plānošanas programma tika izmantota scenārijos, kurus atbalsta Optimizācijas plānošana. Migrēt uz Plānošanas optimizāciju tagad, jo iebūvētā vispārējās plānošanas programma ir novecojusi. Ievērojiet, ka šī vispārējās plānošanas izpilde tika pabeigta sekmīgi.
 >
-> Ja jūsu migrācijai ir stipras atkarības no nepabeigtiem līdzekļiem, var tikt pieprasīta atkāpe no iebūvētās vispārējās plānošanas programmas ilgstošas izmantošanas.
+> Ja migrācijai ir stipras atkarības no nenokārtotajām funkcijām, var tikt pieprasīts izņēmums no novecojuša vispārējās plānošanas programmas nepārtrauktas lietošanas.
 >
 > Lūdzu, aizpildiet šo anketu, lai sāktu darbu, un, ja nepieciešams pieprasiet izņēmumu no migrācijas uz plānošanas optimizāciju.
 

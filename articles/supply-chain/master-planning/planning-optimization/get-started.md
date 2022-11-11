@@ -1,6 +1,6 @@
 ---
-title: Darba sākšana ar plānošanas optimizāciju
-description: Šajā rakstā ir izskaidrots, kā sākt izmantot plānošanas optimizācijas funkcionalitāti.
+title: Sākt ar vispārējo plānošanu
+description: Šajā rakstā skaidrots, kā sākt izmantot vispārējās plānošanas funkcionalitāti Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295935"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740334"
 ---
-# <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
+# <a name="get-started-with-master-planning"></a>Sākt ar vispārējo plānošanu
 
 [!include [banner](../../includes/banner.md)]
 
-Kā [iepriekš paziņots](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), ir ieplānota plānošanas optimizācija, kas aizstātu esošo iebūvēto vispārējās plānošanas programmu.
-
-Ja pašlaik izmantojat iebūvēto vispārējās plānošanas programmu, jums tūlīt jāsāk plānot migrāciju uz plānošanas optimizāciju. Ir svarīgi uzreiz uzsākt darbu, jo pretējā gadījumā, realizējot nolietojumu, varētu tikt ietekmētas jūsu operācijas (kaut arī šobrīd nav ieplānota ieviešana). Ir stingri ieteicams pabeigt migrāciju, tiklīdz plānošanas optimizēšana atbalsta jums nepieciešamas funkcijas, tādējādi jūs varat gūt labumu no daudziem veiktspējas uzlabojumiem un citām jaunajām iespējām, ko nodrošina jaunais pakalpojums.
-
-Plānošanas optimizācijas funkcionalitāte pašlaik neatbalsta visus līdzekļus, kas ir pieejami Supply Chain Management iebūvētajā plānošanas programmā. Tāpēc ir svarīgi novērtēt, vai līdzekļu kopa, kas pašlaik ir pieejama plānošanas optimizācijā, atbilst jūsu prasībām. Pašlaik plānošanas optimizācijas funkcionalitāte Dynamics Lifecycle Services (LCS) netiek ieslēgta pēc noklusējuma, tāpēc jums ir iespēja veikt novērtēšanu pirms šī līdzekļa ieslēgšanas.
-
-> [!NOTE]
-> Jums jāpieprasa migrācijas izņēmumu plānošanas optimizācijā, ja vispārējās plānošanas process neiekļauj ražošanu (vispārējās plānošanas ģenerētus plānotos ražošanas pasūtījumus), un jums nepieciešama iebūvētā vispārējās plānošanas programmas versija, kas jaunāka par versiju 10.0.15. Sākot ar versiju 10.0.16, kļūda vidēs tiks parādīta, kad tiek palaista iebūvētā vispārējā plānošana bez plānoto ražošanas pasūtījumu ģenerēšanas. Plānošanas optimizācija ir jāizmanto visiem jaunajiem izvietojumiem, kas vispārējās plānošanas laikā neģenerē plānotos ražošanas pasūtījumus. Īpašnieki, kam pieder esošās vides, kurās darbojas iebūvētā vispārējās plānošanas programma bez plānoto ražošanas pasūtījumu ģenerēšanas, saņems e-pastu ar sīkāku informāciju par izņēmuma procesu. Iesakām jums strādāt ar partneri, lai novērtētu un plānotu migrāciju uz plānošanas optimizāciju.
-
-Pirms plānošanas optimizācijas ieslēgšanas iesakām novērtēt plānošanas optimizācijas ietilpināšanas analīzes rezultātus. Papildinformāciju skatiet [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization-fit-analysis.md).
+Vispārējo plānošanu piegādes ķēžu pārvaldībā nodrošina ārējais pakalpojums, kas tiek saukts par plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management. Šajā tēmā skaidrots, kā iegūt un iestatīt šo pakalpojumu.
 
 ## <a name="availability"></a>Pieejamība
 
@@ -108,31 +99,15 @@ Savienojuma statuss norāda pašreizējo savienojuma statusu starp Supply Chain 
 Opcijas **Izmantot plānošanas optimizāciju** iestatījums nosaka, kuru plānošanas programmu izmanto vispārējai plānošanai:
 
 - **Jā** – plānošanas optimizācija tiek izmantota vispārējai plānošanai.
-- **Nē** - Iebūvētā Supply Chain Management plānošanas programma tiek izmantota vispārējai plānošanai.
+- **Nē** – novecojusi vispārējās plānošanas programma tiek izmantota vispārējai plānošanai.
 
-Šis iestatījums attiecas uz visām juridiskajām personām (uzņēmumiem). Dažām juridiskajām personām nav iespējams izmantot Plānošanas optimizāciju un iebūvēto vispārējo plānošanu citās juridiskajās personas.
+Šis iestatījums attiecas uz visām juridiskajām personām (uzņēmumiem). Dažām juridiskajām personām nav iespējams izmantot plānošanas optimizāciju un novecojušu vispārējās plānošanas programmu citās juridiskajās personas.
 
 > [!NOTE]
-> Ja esošie plānošanas pakešuzdevumi, kas tika izveidoti iebūvētās Supply Chain Management programmai, ir aktivizēti, kamēr opcija **Izmantot plānošanas optimizāciju** ir iestatīta uz **Jā**, šie darbi neizdosies.
+> Ja esošie plānošanas pakešuzdevumi **, kas tika izveidoti novecojušajiem vispārējās plānošanas programmas darbiem, tiek izraisīti, kamēr opcija Izmantot plānošanas optimizāciju** **ir** iestatīta uz Jā, šie darbi neizdosies.
 
 ### <a name="integration-with-the-setup"></a>Integrēšana ar iestatījumu
 
 Ja plānošanas optimizācija ir ieslēgta, vispārējā plānošana tiek veikta, izmantojot plānošanas optimizācijas pievienojumprogrammu. Šādā gadījumā tiek ietekmēti vispārējās plānošanas rezultāti un līdzekļi.
 
-## <a name="additional-resources"></a>Papildu resursi
-
-[Priekšskatījuma noteikumi un nosacījumi](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Plānošanas optimizācijas apskats](planning-optimization-overview.md)
-
-[Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
-
-[Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
-
-[Filtru lietošana plānam](plan-filters.md)
-
-[Plānošanas darba atcelšana](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

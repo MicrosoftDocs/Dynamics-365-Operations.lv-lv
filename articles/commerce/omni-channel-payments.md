@@ -2,7 +2,7 @@
 title: Pārskats par universālā kanāla maksājumiem
 description: Šajā rakstā ir sniegts apskats par kanāla maksājumiem Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881713"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746131"
 ---
 # <a name="omni-channel-payments-overview"></a>Pārskats par universālā kanāla maksājumiem
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir sniegts apskats par kanāla maksājumiem Dynamics 365 Commerce. Tajā ir visaptverošs atbalstīto scenāriju saraksts, informācija par funkcionalitāti, iestatīšanu un problēmu novēršanu, kā arī dažu tipisko problēmu apraksti.
 
@@ -34,7 +35,7 @@ ms.locfileid: "8881713"
 
 | Termiņš | Apraksts |
 |---|---|
-| Marķieris | Datu virkne, ko maksājuma apstrādātājs nodrošina kā atsauci. Marķieri var būt maksājumu karšu numuri, maksājumu autorizācijas un iepriekšējo maksājumu iegūšana. Marķieri ir svarīgi, jo tie palīdz uzturēt sensitīvos datus ārpus pārdošanas punkta (point of sale — POS) sistēmas. Dažreiz tos sauc arī par *atsaucēm*. |
+| Marķieris | Datu virkne, ko maksājuma apstrādātājs nodrošina kā atsauci. Marķieri var būt maksājumu karšu numuri, maksājumu autorizācijas un iepriekšējo maksājumu iegūšana. Marķieri ir svarīgi, jo tie palīdz uzturēt sensitīvos datus ārpus pārdošanas punkta (point of sale — POS) sistēmas. Dažreiz tās tiek sauktas arī par *atsaucēm*. |
 | Kartes marķieris | Marķieris, ko maksājuma apstrādātājs nodrošina glabāšanai POS sistēmā. Kartes marķieri var izmantot tikai tirgotājs, kurš to saņem. Karšu marķierus reizēm sauc arī par *karšu atsaucēm*. |
 | Autorizācijas marķieris | Unikāls ID, ko maksājuma apstrādātājs nodrošina kā daļu no atbildes, ko tas nosūta uz POS sistēmu pēc tam, kad POS sistēma veic autorizācijas pieprasījumu. Autorizācijas marķieri var izmantot vēlāk, ja apstrādātājs tiek aicināts veikt tādas darbības kā autorizācijas apgriešanu vai anulēšanu. Taču visbiežāk to izmanto, lai iegūtu līdzekļus, kad pasūtījums ir izpildīts vai transakcija ir finalizēta. Autorizācijas marķierus reizēm sauc arī par *autorizācijas atsaucēm*. |
 | Iegūšanas marķieris | Atsauce, ko maksājuma apstrādātājs nodrošina POS sistēmai, kad maksājums ir finalizēts vai iegūts. Iegūšanas marķieri pēc tam var izmantot, lai atsauktos uz maksājuma iegūšanu turpmākās operācijās, piemēram, atmaksas pieprasījumos. | 
@@ -43,7 +44,7 @@ ms.locfileid: "8881713"
 
 ## <a name="overview"></a>Kopsavilkums
 
-Parasti termins *visu kanālu maksājumi* apraksta iespēju izveidot pasūtījumu vienā kanālā un izpildīt to citā kanālā. Galvenais visu kanālu maksājumu atbalsta princips ir maksājuma informācijas saglabāšana kopā ar pārējo pasūtījuma informāciju, un pēc tam šīs maksājuma informācijas izmantošana, kad attiecīgais pasūtījums tiek atkal izsaukts vai apstrādāts citā kanālā. Klasisks piemērs ir scenārijs “Pirkt tiešsaistē, saņemt veikalā”. Šajā scenārijā maksājuma informācija tiek pievienota, kad pasūtījums tiek izveidots tiešsaistē. Pēc tam šī informācija tiek atkal izsaukta POS, lai saņemšanas laikā iekasētu no klienta maksājumu kartes. 
+Parasti termins *visu kanālu maksājumi* apraksta iespēju izveidot pasūtījumu vienā kanālā un izpildīt to citā kanālā. Galvenais visu kanālu maksājumu atbalsta princips ir maksājuma informācijas saglabāšana kopā ar pārējo pasūtījuma informāciju, un pēc tam šīs maksājuma informācijas izmantošana, kad attiecīgais pasūtījums tiek atkal izsaukts vai apstrādāts citā kanālā. Klasisks piemērs ir scenārijs “Pirkt tiešsaistē, saņemt veikalā”. Šajā scenārijā maksājuma informācija tiek pievienota, kad pasūtījums tiek izveidots tiešsaistē. Pēc tam pos tās tiek atsauktas, lai pieprasītu maksu no debitora maksājumu kartes saņemšanas laikā. 
 
 Visus šajā rakstu aprakstītos scenārijus var ieviest, izmantojot standarta Maksājumu programmatūras izstrādes komplektu (SDK), ko nodrošina Commerce. Tēmā [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) ir sniegta ikviena šeit aprakstītā scenārija ieviešana standarta komplektācijā. 
 
@@ -104,7 +105,7 @@ Nākamajās sadaļās ir aprakstītas darbības katram scenārijam un parādīts
 Pirms sākat, jums ir jāpārliecinās, vai ir izpildīti tālāk norādītie priekšnosacījumi.
 
 - Jums ir atsauces vitrīna, kur ir konfigurēts Adyen savienotājs.
-- Opcija **Visu kanālu maksājumi** lapā **Commerce koplietojamie parametri** ir iestatīta uz **True**. Jaunākās versijās šis iestatījums tiek pārvietots uz **Funkciju pārvaldības** darbvietu, kur varat izvēlēties **Universālā kanāla maksājumu** funkciju un noklikšķiniet uz **Iespējot tūlīt**. 
+- Opcija **Visu kanālu maksājumi** lapā **Commerce koplietojamie parametri** ir iestatīta uz **True**. Vēlākās versijās šis iestatījums tiek pārvietots **uz līdzekļu** **pārvaldības darbvietu, kur varat atlasīt Channel-Channel Payments** līdzekli un noklikšķināt Iespējot **tūlīt**. 
 - Adyen maksājumu savienotājs ir konfigurēts Hjūstonas POS reģistram.
 - Retail Modern POS operētājsistēmai Windows ar Android ar iebūvētu aparatūras staciju -vai-
 - Modern POS operētājsistēmai iOS vai Cloud POS ar savienotu koplietojamo aparatūras staciju. 
@@ -169,9 +170,9 @@ Lai palaistu šo scenāriju, izpildiet tālāk aprakstītās darbības.
 6. Meklēšanas joslā ievadiet **Sietla** un pēc tam saņemšanai atlasiet veikalu **Sietla**. 
 7. Atlasiet **Labi**, lai kā saņemšanas datumu apstiprinātu pašreizējo datumu.
 9. Atlasiet **Maksājums ar karti**, lai uzsāktu maksājumu.
-10. Norēķinieties ar kartes maksājumu par depozītam paredzēto summu. 
+10. Norēķinieties ar kartes maksājumu par depozītam paredzēto summu.
 11. Pabeidziet šo depozīta maksājumu maksājumu terminālī. 
-12. Kad depozīts ir apmaksāts, atlasiet šo opciju, lai to pašu karti izmantotu izpildīšanai, un gaidiet pasūtījuma pabeigšanu. 
+12. Kad depozīts ir apmaksāts, atlasiet šo opciju, lai to pašu karti izmantotu izpildīšanai, un gaidiet pasūtījuma pabeigšanu. Ja tiek samaksāti 100% no deponēījuma (no iepriekš 10. soļa), līdzekļi tiek noķēti nekavējoties attiecībā pret karti, un autorizēšanas marķieris pie rēķina izrakstīšanas nebūs pieejams, jo līdzekļi jau ir fiksēti un izsekoti kā apmaksāti.
 13. Palaidiet pārdošanas punktu (POS) Sietlas veikalam.
 14. Pārdošanas punkta (POS) sveiciena lapā atlasiet operāciju **Saņemamie pasūtījumi**, lai redzētu pasūtījumus, kurus ir paredzēts saņemt veikalā. 
 15. Atlasiet vienu vai vairākas rindas no pasūtījuma, kurš tika izveidots atsauces vitrīnā, un pēc tam atlasiet **Saņemt**.
@@ -198,7 +199,7 @@ Lai palaistu šo scenāriju, izpildiet tālāk aprakstītās darbības.
 8. Atlasiet **Maksājums ar karti**, lai uzsāktu maksājumu.
 9. Norēķinieties ar kartes maksājumu par depozītam paredzēto summu. 
 10. Pabeidziet šo depozīta maksājumu maksājumu terminālī. 
-11. Kad depozīts ir apmaksāts, atlasiet šo opciju, lai to pašu karti izmantotu izpildīšanai, un gaidiet pasūtījuma pabeigšanu.
+11. Kad depozīts ir apmaksāts, atlasiet šo opciju, lai to pašu karti izmantotu izpildīšanai, un gaidiet pasūtījuma pabeigšanu. Ja tiek samaksāti 100% no deponēījuma (no iepriekš 9. soļa), līdzekļi tiek noķēti nekavējoties attiecībā pret karti, un autorizēšanas marķieris pie rēķina izrakstīšanas nebūs pieejams, jo līdzekļi jau ir fiksēti un izsekoti kā apmaksāti.
 
 Kad pasūtījums ir saņemts, iepakots un par to ir izrakstīts rēķins iekšējā uzskaites daļā, pārdošanas punktā (POS) norādītā maksājuma informācija tiek izmantota, lai iegūtu līdzekļus par klientam nosūtītajām precēm. 
 
@@ -225,7 +226,7 @@ Klientam, kurš ierodas veikalā pasūtījuma saņemšanai, ir iespēja izmantot
 
 ### <a name="invalid-authorizations"></a>Nederīgas autorizācijas
 
-Ja pasūtījuma izveidošanai izmantotā karte vairs nav derīga, kad preces tiek atlasītas saņemšanai, maksājuma iegūšanas pieprasījums ir nesekmīgs. Tādā gadījumā POS maksājumu savienotājs mēģina izveidot jaunu autorizāciju un iegūšanu, izmantojot to pašu kartes informāciju. Ja jaunā autorizācija vai iegūšana ir nesekmīga, kasieris tiek informēts, ka maksājumu nevarēja apstrādāt. Tādā gadījumā kasierim no klienta ir jāiegūst jauns maksājums. 
+Ja pasūtījuma izveidošanai izmantotā karte vairs nav derīga, kad preces tiek atlasītas saņemšanai, maksājuma iegūšanas pieprasījums ir nesekmīgs. Tādā gadījumā POS maksājumu savienotājs mēģina izveidot jaunu autorizāciju un iegūšanu, izmantojot to pašu kartes informāciju. Ja jaunā autorizācija vai tveršana neizdodas, kasieris tiks informēts par to, ka maksājumu nevarēja apstrādāt. Tādā gadījumā kasierim no klienta ir jāiegūst jauns maksājums. 
 
 ### <a name="multiple-available-payments"></a>Vairāki pieejamie maksājumi
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689493"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740855"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Pieprasījumam noteiktu materiālu prasību plānošanas (DDMRP) pārskats
 
@@ -44,6 +44,6 @@ Parasti DDMRP izmanto ražotāji, kuriem ir vairāklīmeņu materiālu komplekts
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP šādā vietā: Dynamics 365 Supply Chain Management
 
-DDMRP ir iekļauts Microsoft, Dynamics 365 Supply Chain Management un tam nav nepieciešamas papildu licences maksas. Piegādes ķēdes pārvaldībā DDMRP funkcionalitāte ir pievienota esošajam vispārējās plānošanas **modulim**. Tomēr ir nepieciešams, lai jūs lietotu plānošanas optimizācijas pievienojumprogrammu. 
+DDMRP ir iekļauts Microsoft, Dynamics 365 Supply Chain Management un tam nav nepieciešamas papildu licences maksas. Piegādes ķēdes pārvaldībā DDMRP funkcionalitāte ir pievienota esošajam vispārējās plānošanas **modulim**. Tomēr ir nepieciešams, lai jūs lietotu plānošanas optimizācijas pievienojumprogrammu.
 
 DDMRP ir integrēts ar esošajiem plānošanas iestatījumiem Piegādes ķēžu pārvaldībā un tiek izmantots kopā ar šiem iestatījumiem, lai iegūtu pareizu plānošanas konfigurāciju jūsu biznesam. To kontrolē jauns vajadzību kods, kas pilnīgi atšķiras no perioda, min/maks., vajadzības utt. Tas nav jauns modulis, un tas neaizstāj esošo plānošanas funkcionalitāti. Tomēr tas sniedz vairāk funkcionalitātes lietošanai.

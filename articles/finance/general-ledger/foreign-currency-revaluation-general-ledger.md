@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904533"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752808"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
@@ -64,7 +64,9 @@ Pārvērtēšanas procesu var izpildīt vienai vai vairākām juridiskajām pers
 
 Pārvērtēšanu var palaist vienai vai vairākām ārvalstu valūtām. Uzmeklēšanas sarakstā ir iekļautas visas valūtas, kas ir grāmatotas norādītajā datumu diapazonā saistībā ar attiecīgo galvenā konta veidu (Bilance vai Peļņa un zaudējumi) pārvērtēšanai atlasītajām juridiskām personām. Šajā sarakstā ir iekļauta uzskaites valūta, taču, ja tā tiek atlasīta, nekas netiek pārvērtēts. 
 
-Ja vēlaties pārskatīt Virsgrāmatas pārvērtēšanas rezultātu, iestatiet opcijas **Priekšskatīt pirms grāmatošanas** vērtību **Jā**. Virsgrāmatas priekšskatījums atšķiras no ārvalstu valūtas pārvērtēšanas simulācijas modulī Debitoru parādi vai Parādi kreditoriem. Simulācija modulī Debitoru parādi vai Parādi kreditoriem ir pārskats, taču Virsgrāmatas priekšskatījumu var grāmatot, atkārtoti neveicot pārvērtēšanas procesu. Priekšskatījuma rezultātus var eksportēt uz programmu Microsoft Excel, lai saglabātu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**. 
+Ja vēlaties pārskatīt Virsgrāmatas pārvērtēšanas rezultātu, iestatiet opcijas **Priekšskatīt pirms grāmatošanas** vērtību **Jā**. Virsgrāmatas priekšskatījums atšķiras no ārvalstu valūtas pārvērtēšanas simulācijas modulī Debitoru parādi vai Parādi kreditoriem. Simulācija modulī Debitoru parādi vai Parādi kreditoriem ir pārskats, taču Virsgrāmatas priekšskatījumu var grāmatot, atkārtoti neveicot pārvērtēšanas procesu. Priekšskatījuma rezultātus var eksportēt uz programmu Microsoft Excel, lai saglabātu summu aprēķināšanas vēsturi. Ja vēlaties priekšskatīt pārvērtēšanas rezultātus, nevar izmantot pakešapstrādi. No priekšskatījuma lietotājam ir iespēja grāmatot visu juridisko personu rezultātus, izmantojot pogu **Grāmatot**. Ja kādas juridiskās personas rezultātos pastāv problēma, lietotājam ir arī iespēja grāmatot juridisko personu apakškopu, izmantojot pogu **Atlasīt grāmatojamās juridiskās personas**.
+
+Ja vēlaties izslēgt no pārvērtēšanas procesa **grāmatotās** korekcijas, izmantojot pārskata valūtas korekciju žurnālu, **iestatiet Izslēgt pārskata valūtas korekcijas uz** **Jā**. Pēc noklusējuma pārskata valūtas korekcijas tiek iekļautas pārvērtēšanā. 
 
 Pēc ārvalstu valūtas pārvērtēšanas procesa pabeigšanas tiek izveidots ieraksts, kas sniedz iespēju izsekot katras izpildes vēsturi.  Katrai juridiskajai personai un grāmatošanas līmenim tiek izveidots atsevišķs ieraksts.
 

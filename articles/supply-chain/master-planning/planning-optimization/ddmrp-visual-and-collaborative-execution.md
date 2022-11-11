@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689781"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740828"
 ---
 # <a name="visual-and-collaborative-execution"></a>Vizuāla un sadarbības izpilde
 
@@ -34,7 +34,7 @@ Programmā Microsoft Dynamics 365 Supply Chain Management varat vizuāli izsekot
 1. Atlasiet izlaisto krājumu, kas ir iestatīts kā atšifrēšanas punkts. (Plašāku informāciju skatiet [Krājumu pozicionēšana](ddmrp-inventory-positioning.md).)
 1. Darbību rūts cilnē Plāns **atlasiet** Krājumu **vajadzība**.
 1. Krājumu vajadzības **lapā atlasiet** krājuma nodrošinājuma ierakstu, kas izveido atšifrēšanas punktu. (Šajā ierakstā tiks rādīts tās vajadzības grupas nosaukums, kura ir iestatīta dekompilēšanas punktu izveidojiet.)
-1. Atlasiet cilni **Rīcībā esošie** krājumi. Šajā cilnē ir iekļauta diagramma, kurā parādīts, kā rīcībā esošie daudzumi laika gaitā mainīti kopā ar rīcībā esošo krājumu līmeņa vērtību, kas tika reģistrēta noteiktā periodā katru reizi, kad tiek palaista plānošanas optimizācija. Cilne ietver arī tabulu, kas parāda, kuras no šādām kategorijām katra ierakstītā rīcībā esošajā līmenī ietilpst:
+1. Atlasiet cilni **Rīcībā esošie** krājumi. Šajā cilnē ir iekļauta diagramma, kurā parādīts, kā rīcībā esošie daudzumi laika gaitā mainīti kopā ar rīcībā esošo krājumu līmeņa vērtību, kas tika reģistrēta noteiktā periodā katru reizi, kad tiek palaista vispārējā plānošana. Cilne ietver arī tabulu, kas parāda, kuras no šādām kategorijām katra ierakstītā rīcībā esošajā līmenī ietilpst:
 
     - **Kritiski zems** – mazāks par pusi no perioda minimuma.
     - **Zema** – starp minimālo un minimālo.

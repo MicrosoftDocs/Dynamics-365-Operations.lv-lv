@@ -1,6 +1,6 @@
 ---
 title: Vispārējā plānošana ar pieprasījuma apjoma prognozēm
-description: Šajā rakstā ir izskaidrots, kā vispārējās plānošanas laikā iekļaut pieprasījuma apjoma prognozes ar plānošanas optimizāciju.
+description: Šajā rakstā ir izskaidrots, kā iekļaut pieprasījuma apjoma prognozes vispārējās plānošanas laikā.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878995"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739788"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Vispārējā plānošana ar pieprasījuma apjoma prognozēm
 
 [!include [banner](../../includes/banner.md)]
 
-Varat izmantot pieprasījuma apjoma prognozi kopā ar plānošanas optimizāciju, lai ņemtu vērā prognozēto pieprasījumu jūsu vispārējā plānošanā. Varat manuāli izveidot pieprasījuma apjoma prognozi, importēt to vai ģenerēt, izmantojot pieprasījuma prognozēšanas funkcionalitāti programmā Microsoft Dynamics 365 Supply Chain Management. Plašāku informāciju par pieprasījuma prognozēšanu skatiet rakstā [Pieprasījuma prognozēšanas apskats](../introduction-demand-forecasting.md).
+Pieprasījuma apjoma prognozi var izmantot, lai vispārējā plānošanā noteiktu gaidāmo pieprasījumu. Varat manuāli izveidot pieprasījuma apjoma prognozi, importēt to vai ģenerēt, izmantojot pieprasījuma prognozēšanas funkcionalitāti programmā Microsoft Dynamics 365 Supply Chain Management. Plašāku informāciju par pieprasījuma prognozēšanu skatiet rakstā [Pieprasījuma prognozēšanas apskats](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Ar plānošanas optimizāciju netiek atbalstīta atsevišķa budžeta plānošana. Tāpēc iestatījumam **Pašreizējais budžeta plāns** lapā **Vispārējās plānošanas parametri** nav ietekmes, kad izmantojat plānošanas optimizāciju.
@@ -50,7 +50,7 @@ Lai konfigurētu vispārējo plānu tā, lai tas ietvertu pieprasījuma apjoma p
     - **Budžeta laika periods** — Ja iestatāt opciju **Budžeta plāns** kā *Jā*, norādiet dienu skaitu (no šodienas datuma), kurā jāpiemēro pieprasījuma apjoma prognoze.
 
     > [!IMPORTANT]
-    > Ar plānošanas optimizāciju netiek atbalstīts iestatījums **Budžeta plāns**.
+    > Prognozes **plāna iestatījums** netiek atbalstīts ar plānošanas optimizāciju.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Iestatīt vajadzības grupu tā, lai tā iekļautu pieprasījuma apjoma prognozi
 

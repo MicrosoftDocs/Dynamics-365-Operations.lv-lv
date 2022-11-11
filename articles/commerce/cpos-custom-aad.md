@@ -1,25 +1,22 @@
 ---
-title: Konfigurējiet CPOS, lai lietotu pielāgotu Azure AD programmu
+title: CPOS konfigurēšana, lai lietotu pielāgotu Azure AD programmu
 description: Šajā rakstā ir izskaidrots, kā konfigurēt Cloud POS (CPOS) lietot pielāgotu Azure Active Directory (Azure AD) programmu.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9223821"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746265"
 ---
-# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Konfigurējiet CPOS, lai lietotu pielāgotu Azure AD programmu
+# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>CPOS konfigurēšana, lai lietotu pielāgotu Azure AD programmu
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +49,9 @@ Lai izveidotu un konfigurētu pielāgotu Retail Server programmu Azure AD, veici
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Pielāgotas CPOS programmas iestatīšana programmā Azure AD
 
+> [!IMPORTANT]
+> Ja jaunināt esošu pielāgoto CPOS programmu, kas tika izveidota pirms Commerce versijas 10.0.21, izpildiet darbības, kas jāveic, atjauninot esošu pielāgotu CPOS Azure AD [programmu, Azure AD kas izveidota pirms Commerce versijas 10.0.21](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Lai izveidotu un konfigurētu pielāgotu CPOS programmu Azure AD, sekojiet šiem soļiem.
 
 1. Piesakieties administratora [Azure Active Directory centrā,](https://aad.portal.azure.com) izmantojot jebkuru Azure AD lietotāja kontu. Lietotāja kontam nav jābūt administratora tiesībām.
@@ -68,12 +68,25 @@ Lai izveidotu un konfigurētu pielāgotu CPOS programmu Azure AD, sekojiet šiem
 1. **Sadaļā Manifests** iestatiet **oauth2AllowIdTokenImplicitFlow** **un oauth2AllowImplicitFlow** parametrus **kā** patiesu, un pēc tam atlasiet **Saglabāt**.
 1. Lai pievienotu **divas prasības**, sadaļā Marķiera konfigurācija izpildiet šīs darbības:
 
-    - Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku uz **ID** un pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
-    - Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku piekļuvei **un** pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
+    1. Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku uz **ID** un pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
+    1. Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku piekļuvei **un** pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
 
 1. **API atļauju sadaļā** atlasiet **Pievienot atļauju**.
 1. Cilnē API **mana organizācija izmanto** meklējiet mazumtirdzniecības servera programmu, [ko izveidojāt sadaļā Pielāgota mazumtirdzniecības servera programmas Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad) iestatīšana. Pēc tam atlasiet **Pievienot atļaujas**.
 1. **Sadaļā Pārskats** atzīmējiet vērtību laukā **Programmas (klienta) ID**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Jauniniet esošu pielāgotu CPOS Azure AD programmu, kas izveidota pirms Commerce versijas 10.0.21
+
+Lai jauninātu jau esošu pielāgotu CPOS Azure AD programmu, kas izveidota pirms Commerce versijas 10.0.21, rīkojieties šādi. 
+
+1. Atveriet pielāgoto CPOS Azure AD programmu Azure portālā.
+1. Atlasiet cilni **Autentifikācija**.
+1. Kopējiet un saglabājiet oriģinālo URI no **tīmekļa tipa** izmantošanai vēlāk, un pēc tam dzēsiet to.
+1. Atlasiet **Pievienot platformu** un pēc tam atlasiet **Vienas lapas lietojumprogramma (SPA).**
+1. Pievienojiet oriģinālo tīmekļa novirzīšanas URI, kas nokopēts virs SPA platformas.
+1. Lai pievienotu **divas prasības**, sadaļā Marķiera konfigurācija izpildiet šīs darbības:
+    1. Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku uz **ID** un pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
+    1. Atlasiet Pievienot **neobligātu prasību**. Iestatiet marķiera **tipa** lauku piekļuvei **un** pēc tam atlasiet sida **prasību**. Atlasiet **Pievienot**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Atjaunināt CPOS konfigurācijas failu
 
@@ -89,7 +102,7 @@ CPOS izmantos abus parametrus, kad tiek sūtīts pieprasījums Azure AD iegūt d
 Pēc tam ir jāatjaunina programmas Commerce Headquarters identitātes nodrošinātāju iestatījumi.
 
 1. Programmā Commerce headquarters atveriet lapu Commerce **koplietojamie** parametri.
-1. Cilnes Identitātes **nodrošinātāji** sadaļā **Identitātes** nodrošinātāji atlasiet rindu, uz kuru ir iestatīts lauks Tips, **·** **Azure Active Directory** **un** izdevēja lauks norāda savu Azure AD nomnieku. Šis iestatījums norāda, ka strādāsiet ar pakārtotajiem režģiem, kas satur ar jūsu nomnieku saistītos datus par identitātes Azure AD nodrošinātāju.
+1. Cilnes Identitātes **nodrošinātāji** sadaļā **Identitātes** nodrošinātāji atlasiet rindu, uz kuru ir iestatīts lauks Tips, **·** **Azure Active Directory** **un** izdevēja lauks norāda savu Azure AD nomnieku. Šis iestatījums norāda, ka strādājat Azure AD ar pakārtotajiem režģiem, kas satur datus, kas saistīti ar jūsu nomniekam atbilstošo identitātes nodrošinātāju.
 1. Sadaļā Balstās **puses** atlasiet **Pievienot**, lai pievienotu rindu.
 1. Iestatiet tālāk norādītos laukus.
 

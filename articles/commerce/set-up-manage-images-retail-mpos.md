@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287516"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751946"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Moderns POS (MPOS) attēlu iestatīšana un pārvaldība
 
@@ -160,7 +160,7 @@ Visiem elementiem, izņemot Preces, var pārrakstīt dotā elementā krājuma at
     [![Kataloga attēlu galerijas lapa.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Pašlaik galerija nerāda attēlu priekšskatījumus multivides veidnes attēlu vietrāžiem URL. Ja elementos Katalogs, Darbinieks, Debitors un Kategorija lietotājs skaidri norāda vietrādi URL, izmantojot šo lapu, mēs iesakām norādīt, kurš attēls ir noklusējuma attēls, jo Commerce Scale Unit klientiem tiek rādīts tikai viens attēls uz Katalogu, Debitoru, Darbinieku un Kategoriju. Ja lietotājs nenorāda noklusējuma attēlu, sistēma nosaka noklusējuma attēlu un nosūta to Commerce pakalpojumu izsaucējam (MPOS vai e-Komercija).
+> POS atveidos tikai publiski un anonīmi pieejami attēli. POS atbalsta ārēji viesoto attēlu renderēšanu, ar prasību, ka attēli tiek atgriezti kā iline rindu plūsmas, lai IEGŪTU pieprasījumus bez virsrakstiem. Izmantojot anonīmu piekļuves politiku īpaši viesotiem attēliem, kam ir nepieciešami gan resursdatora, SharePoint gan lietotāja aģenta virsraksti, tiek atgriezta atbilde "Aizliegts". Tāpēc attēla pārvaldība, SharePoint kas izmanto resursdatoru, pašlaik netiek atbalstīta ārpus lodziņa. Kataloga **attēlu galerijas** lapā netiek rādīti multivides veidnes attēlu vietrāži URL attēlu priekšskatījumi. Tā kā Commerce Scale Unit (CSU) klienti rādītu tikai vienu attēlu katram katalogam, debitoram, darbiniekam un kategorijas elementam, ja jūs skaidri norādīsiet URL, izmantojot šo lapu katalogam, darbiniekam, debitoram un kategorijas elementam, ieteicams norādīt, kurš attēls ir noklusējuma attēls. Ja noklusējuma attēls nav norādīts, sistēma nosaka noklusējuma attēlu un sūta to Commerce Service izsaucējam (MPOS vai e-commerce).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Kataloga preces attēlu vietrāža URL pārrakstīšana no lapas Priekšskatījums
 

@@ -1,6 +1,6 @@
 ---
 title: Plānošana ar neierobežotu noslodzi
-description: Šajā rakstā ir sniegta informācija par neierobežotas noslodzes plānošanu plānošanas optimizēšanai. Šeit aprakstīti arī pašreizējie funkcionalitātes ierobežojumi.
+description: Šajā rakstā ir sniegta informācija par neierobežotas noslodzes plānošanu. Šeit aprakstīti arī pašreizējie funkcionalitātes ierobežojumi.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7249734e5d2644145a36276dbc818a40b5962805
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335321"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740010"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Plānošana ar neierobežotu noslodzi
 
 [!include [banner](../../includes/banner.md)]
 
-Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ievieš plānošanu, kuras pamatā ir maršruta informācija. Tas ļauj plānot darbus, balstoties uz plašu maršruta iestatījumu diapazonu. Plānošana Plānošanas optimizācijai aptver bieži izmantotos maršruta iestatījumus, tostarp maršruta operāciju secību vai maršruta operāciju resursu prasības.
+Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ievieš plānošanu, kuras pamatā ir maršruta informācija. Tas ļauj plānot darbus, balstoties uz plašu maršruta iestatījumu diapazonu. Plānošana aptver bieži izmantotos maršruta iestatījumus, tajā skaitā maršruta operāciju secību vai maršruta operāciju resursu prasības.
 
 ## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Neierobežotās noslodzes plānošanas līdzekli ieslēgt vai izslēgt
 
@@ -32,7 +32,7 @@ Papildinformāciju par šo līdzekli skatiet tēmā [Plānošana ar iespējā ba
 
 ## <a name="added-functionality"></a>Pievienota funkcionalitāte
 
-Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ļauj plānot darbu, kura pamatā ir maršruta informācija. Tāpēc ražošanas procesu plānošanai var izmantot maršruta iestatījumus. Lai gan šim līdzeklim ir daži ierobežojumi, kuru iebūvētajam pamatplānojumam nav, tas atbalsta visbiežāk sastopamās funkcionalitātes, kas nepieciešamas ražošanas scenārijiem.
+Līdzeklis *Neierobežotās noslodzes Plānošana optimizācija* ļauj plānot darbu, kura pamatā ir maršruta informācija. Tāpēc ražošanas procesu plānošanai var izmantot maršruta iestatījumus. Lai gan šai funkcijai ir daži ierobežojumi, kas nav novecojusi vispārējās plānošanas programma, tas atbalsta visizplatītāko funkcionalitāti, kas ir nepieciešama ražošanas scenārijiem.
 
 Šis līdzeklis apsver gan *vienkāršus maršrutus*, gan *maršruta tīklus*. Izmantojot lauku **Nākošais** maršruta operācijā, varat iestatīt kompleksus maršrutus, kuriem ir vairāki sākuma punkti un vairākas darbības, kas darbojas paralēli. Plānošanas laikā sistēma apsvērs šāda veida sarežģītas maršruta struktūras.
 
@@ -52,15 +52,13 @@ Plānošanas procesa laikā sistēma ņem vērā arī *resursu prasības*, kas n
 
 Līdzeklis atbalsta arī operāciju rekvizītus **Iestatīšanas laiks** un **Izpildes laiks**. Iestatot šos rekvizītus maršruta operācijā, plānošanas process izveidos atbilstošus iestatījumus un apstrādās darbus.
 
-Kopumā Plānošanas optimizācijas plānošana atbalsta visbiežāk izmantotos scenārijus. Varat izveidot maršrutu, pievienot primārās un sekundārās operācijas, definēt nākamās operācijas, pievienot resursu prasības un pievienot uzstādīšanas laiku un izpildes laiku. Tad sistēma šo informāciju ņems vērā plānošanas laikā.
+Kopsavilkumā plānošana atbalsta visbiežāk izmantotos scenārijus. Varat izveidot maršrutu, pievienot primārās un sekundārās operācijas, definēt nākamās operācijas, pievienot resursu prasības un pievienot uzstādīšanas laiku un izpildes laiku. Tad sistēma šo informāciju ņems vērā plānošanas laikā.
 
 ## <a name="limitations"></a>Ierobežojumi
 
-Uz Plānošanas optimizāciju attiecas šādi ierobežojumi:
+Ir spēkā tālāk sniegtie ierobežojumi. Ja optimizācijas *līdzekļa plānošanai izmantojat neierobežotās noslodzes* plānošanu:
 
 - Šis līdzeklis atbalsta tikai neierobežotu noslodzi.
 - Šis līdzeklis neatbalsta resursu noslodzes funkcionalitāti.
 - Šis līdzeklis neietver maršruta brāķi.
 - Līdzeklis atbalsta *Ilgumu* tikai kā primāro resursu atlasi.
-
-Ņemiet vērā, ka līdzeklis *Neierobežotās noslodzes Plānošanas optimizācija* ir uzlabots. Microsoft plāno ieviest atbalstu papildu plānošanas iestatījumiem turpmākajos laidienos.

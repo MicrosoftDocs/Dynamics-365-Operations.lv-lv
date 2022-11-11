@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218809"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739875"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ ms.locfileid: "9218809"
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, Plānošanas optimizācija aizstās esošo iebūvēto Supply Chain Management vispārējo plānošanas programmu. |
 | **Ietekmētie produkta apgabali**         | Supply Chain Management - vispārējā plānošana |
 | **Izvietošanas iespēja**              | Tikai mākonis. Plānošanas optimizācija netiek atbalstīta ar lokālajām izvietošanām. |
-| **Statuss**                         | Novecojis. 2022. gada 1. aprīlī ražošanas scenāriji vairs netiks atbalstīti iebūvētajā Piegādes ķēdes pārvaldības vispārējās plānošanas programmā. No šī datuma Microsoft apturēs visu aktīvo attīstību iebūvētās plānošanas programmas ražošanas scenārijos, neizlaidīs nevienu jaunu funkciju un izlaižīs tikai kritisko kļūdu labojumus. Pēc šī datuma visiem uzņēmumiem, kuriem ir nepieciešams atbalsts ražošanas scenārijiem, ir jāizmanto plānošanas optimizācija saviem vispārējās plānošanas aprēķiniem. Ir paredzēts, ka optimizācijas plānošana pilnībā atbalstītu ražošanas scenārijus līdz 2022. gada oktobrisi. Papildinformāciju skatiet plānošanas optimizācijas [dokumentācijā](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Uzņēmumi, kas atrodas piegādes ķēžu pārvaldības lokās, var turpināt izmantot iebūvēto vispārējās plānošanas programmu ražošanas scenārijiem pēc 2022. gada aprīla. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
+| **Statuss**                         | Novecojis. 2022. gada 1. aprīlī ražošanas scenāriji vairs netiks atbalstīti iebūvētajā Piegādes ķēdes pārvaldības vispārējās plānošanas programmā. No šī datuma Microsoft apturēs visu aktīvo attīstību iebūvētās plānošanas programmas ražošanas scenārijos, neizlaidīs nevienu jaunu funkciju un izlaižīs tikai kritisko kļūdu labojumus. Pēc šī datuma visiem uzņēmumiem, kuriem ir nepieciešams atbalsts ražošanas scenārijiem, ir jāizmanto plānošanas optimizācija saviem vispārējās plānošanas aprēķiniem. Ir paredzēts, ka optimizācijas plānošana pilnībā atbalstītu ražošanas scenārijus līdz 2022. gada oktobrisi. Papildinformāciju skatiet vispārējās [plānošanas novecojušu pārskatu](../master-planning/deprecated-master-planning-overview.md).<br><br>Uzņēmumi, kas atrodas piegādes ķēžu pārvaldības lokās, var turpināt izmantot iebūvēto vispārējās plānošanas programmu ražošanas scenārijiem pēc 2022. gada aprīla. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Noņemtie vai novecojuši līdzekļi programmas Supply Chain Management 10.0.11 laidienā
 
@@ -101,7 +101,7 @@ ms.locfileid: "9218809"
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, Plānošanas optimizācija aizstās esošo iebūvēto Supply Chain Management vispārējo plānošanas programmu. |
 | **Ietekmētie produkta apgabali**         | Supply Chain Management - vispārējā plānošana |
 | **Izvietošanas iespēja**              | Tikai mākonis. Plānošanas optimizācija netiek atbalstīta ar lokālajām izvietošanām. |
-| **Statuss**                         | Novecojis. Līdz 2021. gada1. aprīlim izplatīšanas scenāriji vairs netiks atbalstīti ar iebūvēto Dynamics 365 Supply Chain Management vispārējās plānošanas programmu. Izplatīšanas scenārijiem klientiem jāizmanto Plānošanas optimizācija vispārējās plānošanas aprēķiniem. Papildinformāciju skatiet [Plānošanas optimizācijas dokumentācija](../master-planning/planning-optimization/planning-optimization-overview.md). Klienti, kuriem ir Dynamics 365 Supply Chain Management lokālās izvietošanas, var turpināt izmantot Supply Chain Management vispārējās plānošanas programmu izplatīšanas scenārijiem pēc 2021. gada aprīļa. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
+| **Statuss**                         | Novecojis. Līdz 2021. gada1. aprīlim izplatīšanas scenāriji vairs netiks atbalstīti ar iebūvēto Dynamics 365 Supply Chain Management vispārējās plānošanas programmu. Izplatīšanas scenārijiem klientiem jāizmanto Plānošanas optimizācija vispārējās plānošanas aprēķiniem. Papildinformāciju skatiet vispārējās [plānošanas novecojušu pārskatu](../master-planning/deprecated-master-planning-overview.md). Klienti, kuriem ir Dynamics 365 Supply Chain Management lokālās izvietošanas, var turpināt izmantot Supply Chain Management vispārējās plānošanas programmu izplatīšanas scenārijiem pēc 2021. gada aprīļa. Tomēr papildu līdzekļu uzlabojumi netiks nodrošināti. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Iepriekšēji paziņojumi par noņemtiem vai novecojušiem līdzekļiem
 

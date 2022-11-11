@@ -10,13 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bcaaf46a0ddd84cded721c5d02d4a45cd4745114
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846132"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740386"
 ---
+<!-- KFM: Split this up. non-dynamic for deprecated MP, and "dynamic" for new standard PO. -->
+
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatīvās dienas un dinamiskās negatīvās dienas
 
 [!include [banner](../includes/banner.md)]
@@ -202,7 +204,7 @@ Iestatot vienumam Dienas(-) vērtību **0** (nulle) un izmantojot tikai dinamisk
 
 Šis gadījums ir tāds pats kā 1. un 2. scenārija E gadījums. Tam ir gandrīz tādas pašas priekšrocības un trūkumi.
 
-## <a name="conclusion"></a>Nobeigums
+## <a name="conclusion"></a>Slēdziens
 
 Šajā rakstā ir redzams trīs scenāriji, ieteicams negatīvās dienas iestatīt uz skaitli, kas ir lielāks par vajadzību grupas krājumu izpildes laiku. Ieteicams arī izmantot tikai dinamiskās negatīvās dienas un iestatīt vienumam Dienas(-) dienu skaitu, ko esat gatavs gaidīt, pirms jauna papildināšanas pasūtījuma veikšanas, ja ir negatīvi krājumi (citiem vārdiem sakot, dienu skaitu, par kuru esat gatavs papildus aizkavēt pieprasījumu). Turklāt krājumiem vienā vajadzību grupā ir jābūt līdzīgiem izpildes laikiem.
 

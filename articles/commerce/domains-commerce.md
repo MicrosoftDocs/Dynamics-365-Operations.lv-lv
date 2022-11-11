@@ -2,19 +2,19 @@
 title: Domēni programmā Dynamics 365 Commerce
 description: Šajā rakstā aprakstīts, kā tiek apstrādāti domēni Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465198"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750685"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ Domēni ir tīmekļa adreses, ko izmanto, lai naviģētu uz Dynamics 365 Commerc
 
 ## <a name="provisioning-and-supported-host-names"></a>Nodrošināšana un atbalstītie resursdatoru nosaukumi
 
-Nodrošinot e-komercijas vidi [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), tiek izmantots lodziņš **Atbalstītie resursdatora nosaukumi** e-komercijas nodrošināšanas ekrānā, lai ievadītu domēnus, kas tiks saistīti ar izvietoto Commerce vidi. Šie domēni būs uz klientu vērsti domēna nosaukuma servera (DNS) nosaukumi, kuros tiks viesotas e-komercijas vietnes. Ievadot domēnu šajā posmā, netiek sākta domēna trafika pāradresācija uz Dynamics 365 Commerce. Trafiks domēnam tiks maršrutēts uz Commerce galapunktu, kad DNS CNAME ieraksts tiek atjaunināts, lai izmantotu Commerce galapunktu ar šo domēnu.
+Nodrošinot e-komercijas vidi [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), tiek izmantots lodziņš **Atbalstītie resursdatora nosaukumi** e-komercijas nodrošināšanas ekrānā, lai ievadītu domēnus, kas tiks saistīti ar izvietoto Commerce vidi. Šie domēni būs uz klientu vērsti domēna nosaukuma servera (DNS) nosaukumi, kuros tiks viesotas e-komercijas vietnes. Ievadot domēnu šajā stadijā, netiek sākta domēna trafika pievienošana Dynamics 365 Commerce. Trafiks domēnam tiks maršrutēts uz Commerce galapunktu, kad DNS CNAME ieraksts tiek atjaunināts, lai izmantotu Commerce galapunktu ar šo domēnu.
 
 > [!NOTE]
 > Vairākus domēnus var ievadīt lodziņā **Atbalstītie resursdatora nosaukumi** , atdalot tos ar semikolu.
@@ -44,7 +44,7 @@ Varat izveidot pakalpojuma pieprasījumu, lai videi pievienotu papildu domēnus,
 
 Kad tiek nodrošināta Dynamics 365 Commerce e-komercijas vide, Commerce ģenerēs vietrādi URL, kas būs vides darba adrese. Šim vietrādim URL ir atsauce uz e-komercijas vietnes saiti, kas norādīta LCS pēc vides nodrošināšanas. Commerce ģenerētie vietrāži URL ir `https://<e-commerce tenant name>.dynamics365commerce.ms`formātā , kur e-komercijas nomnieka nosaukums ir nosaukums, kas ievadīts LCS Commerce videi.
 
-Ražošanas vietnes resursdatoru nosaukumus var izmantot arī smilškastes vidē. Šī opcija ir ideāli piemērota, ja kopēsit vietni no smilškastes vides uz ražošanu.
+Ražošanas vietnes resursdatoru nosaukumus var izmantot arī smilškastes vidē. Šī opcija ir ideālā variantā, kad vieta tiek kopēta no kastēs vides uz ražošanu.
 
 ## <a name="site-setup"></a>Vietnes iestatījumi
 
@@ -85,7 +85,7 @@ Sekojošajā attēlā redzama lapa **Vietrāži URL** vietnes veidotājā ar URL
 
 ## <a name="domains-in-site-builder"></a>Domēni vietnes veidotājā
 
-Atbalstīto resursdatoru nosaukumu vērtības ir pieejamas, lai, iestatot vietni, tās būtu saistītas kā domēns. Atlasot atbalstītā resursdatora nosaukuma vērtību kā domēnu, tiks parādīts izvēlētais domēns, uz kuru ir atsauce vietņu veidotājā. Šis domēns ir tikai atsauce Commerce vidē, dzīvā datplūsma šim domēnam vēl netiks pārsūtīta uz Dynamics 365 Commerce.
+Atbalstīto resursdatoru nosaukumu vērtības ir pieejamas, lai, iestatot vietni, tās būtu saistītas kā domēns. Atlasot atbalstīto resursdatora nosaukuma vērtību kā domēnu, ir redzams izvēlētais domēns, uz kuru ir atsauce visā vietas veidotājā. Šis domēns ir tikai atsauce Commerce vidē; šī domēna tiešais trafiks vēl netiks mainīts Dynamics 365 Commerce.
 
 Ja strādājat ar vietnēm vietnes veidotājā, ja jums ir divas vietnes, kas iestatītas ar diviem dažādiem domēniem, varat pievienot atribūtu **?domēns=** jūsu darba vietrādim URL, lai piekļūtu publicētajai vietnes informācijai pārlūkprogrammā.
 
@@ -93,19 +93,25 @@ Piemēram, vide "xyz" ir nodrošināta, un divas vietnes ir izveidotas un saist�
 - `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Ja domēna vaicājuma virkne netiek norādīta vidē ar vairākiem domēniem, Commerce izmanto pirmo norādīto domēnu. Piemēram, ja ceļš "fabrikam" vietas iestatīšanas laikā tika nodrošināts pirmais, vietrādi URL `https://xyz.dynamics365commerce.ms` var izmantot, lai piekļūtu publicētajai vietnes satura vietnei `www.fabrikam.com`.
+Ja domēna vaicājuma virkne nav sniegta vidē ar vairākiem sniegtiem domēniem, Commerce izmanto pirmo norādīto domēnu. Piemēram, ja ceļš "fabrikam" vietas iestatīšanas laikā tika nodrošināts pirmais, vietrādi URL `https://xyz.dynamics365commerce.ms` var izmantot, lai piekļūtu publicētajai vietnes satura vietnei `www.fabrikam.com`.
+
+Varat arī pievienot pielāgotus domēnus. Lai to izdarītu, projekta vides Commerce management lapā, **zem e-Commerce apakšvirsrakstu** atlasiet **+ Pievienot pielāgotu domēnu**. Domēns parāda esošos pielāgotos domēnus un nodrošina opciju pievienot jaunu pielāgoto domēnu.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Atjaunināt, kura Commerce Scale Unit tiek izmantota
+
+Commerce Izmantotā Commerce Scale Unit (CSU) parasti tiek atlasīta, kad sākotnēji tiek izveidota vide. Commerce ļauj jums mainīt, kuru CSU instanci jūsu vidē izmanto, ļaujot labāk uzturēt arhitektūru, izmantojot pašapkalpošanās funkcionalitāti, un samazinot nepieciešamību sazināties ar atbalsta dienestu. Lai atjauninātu savu CSU instanci, dodieties uz sava projekta vides Tirdzniecības pārvaldības lapu un pēc tam atlasiet Atjaunināt mēroga **vienību**. Izmantojiet Jaunās **komercijas mēroga vienības**, lai atlasītu jaunu CSU instanci no JŪSU videi pieejamo CSU saraksta.
 
 ## <a name="traffic-forwarding-in-production"></a>Satiksmes pārsūtīšana ražošanā
 
 Varat simulēt vairākus domēnus, izmantojot domēna vaicājuma virknes parametrus pašā commerce.dynamics.com galapunktā. Bet, ja jums ir jābūt tiešraidē ražošanā, jums ir jānosūta trafiks jūsu pielāgotajam domēnam uz `<e-commerce tenant name>.dynamics365commerce.ms` galapunktu.
 
-Galapunkts `<e-commerce tenant name>.dynamics365commerce.ms` neatbalsta pielāgotus domēna drošligzdu slāņus (Secure Sockets Layers - SSLs), tāpēc ir jāiestata pielāgoti domēni, izmantojot front door pakalpojumu vai satura piegādes tīklu (content delivery network - CDN). 
+Galapunkts `<e-commerce tenant name>.dynamics365commerce.ms` neatbalsta pielāgotu domēnu drošās ligzdas slāņus (SSLs), tādēļ ir jāiestata pielāgotie domēni, izmantojot frontdurvju pakalpojumu vai satura piegādes tīklu (CDN). 
 
 Lai iestatītu pielāgotus domēnus, izmantojot front door pakalpojumu vai CDN, ir divas opcijas:
 
-- Iestatiet front door pakalpojumu, piemēram, Azure Front Door, lai apstrādātu priekšgala trafiku un pievienotos jūsu Commerce videi. Tas nodrošina lielāku kontroli pār domēnu un sertifikātu pārvaldību, kā arī detalizētākas drošības politikas.
+- Iestatiet ieejas durvju pakalpojumu, piemēram, Azure front durvju, lai apstrādātu front-end datplūsmu un izveidotu savienojumu ar commerce vidi, kas nodrošina lielāku kontroli pār domēnu un sertifikātu pārvaldību un granulētāku drošības politiku.
 
-- Izmantot Commerce nodrošināto Azure Front Door instanci. Tas prasa koordinēt darbību ar Dynamics 365 Commerce grupu domēna verifikācijai un iegūt SSL sertifikātus jūsu ražošanas domēnam.
+- Izmantojiet Commerce nodrošināto Azure frontdurvju instanci, Dynamics 365 Commerce kurai nepieciešama komandas ieturēšana, lai domēna pārbaudei un iegūtu SSL sertifikātus ražošanas domēnam.
 
 > [!NOTE]
 > Ja izmantojat ārēju CDN vai ieejas durvju pakalpojumu, nodrošiniet, lai pieprasījums būtu saskaņā ar Commerce platform ar Commerce nodrošināto hostdatora nosaukumu, bet ar X-Lung-Host (XFH) galveni \<custom-domain\>. Piemēram, ja jūsu Commerce galapunkts `xyz.dynamics365commerce.ms``www.fabrikam.com` ir un pielāgotais domēns ir, `xyz.dynamics365commerce.ms` nepieciešams pieprasītā pieprasījuma resursdatora galvene un XFH virsrakstam `www.fabrikam.com` jābūt.
@@ -114,10 +120,10 @@ Informāciju par to, kā tieši iestatīt CDN pakalpojumu, skatiet [Pievienot at
 
 Lai izmantotu Commerce nodrošināto Azure Front Door instanci, jums ir jāizveido pakalpojuma pieprasījums pēc palīdzības CDN iestatīšanā no Commerce ievadapmācības grupas. 
 
-- Jums būs jānorāda uzņēmuma nosaukums, ražošanas domēns, vides ID un ražošanas e-komercijas nomnieka nosaukums. 
-- Jums būs jāapstiprina, ja šis ir esošs domēns (tiek izmantots pašreiz aktīvajai vietnei) vai jauns domēns. 
+- Ir jānorāda sava uzņēmuma nosaukums, ražošanas domēns, vides ID un ražošanas e-komercijas nomnieka nosaukums. 
+- Jums jāapstiprina, ja šis pakalpojuma pieprasījums ir esošam domēnam (tiek izmantots pašreiz aktīvai vietnei) vai jaunam domēnam. 
 - Jaunam domēnam domēna verifikāciju un SSL sertifikātu var iegūt vienā solī. 
-- Domēnam, kas apkalpo esošu vietni, ir jāveic daudzpakāpju process, lai izveidotu domēna verifikāciju un SSL sertifikātu. Šim procesam ir 7 darba dienu pakalpojuma līmeņa vienošanās (service level agreement - SLA) domēnam, lai nokļūtu tiešraidē, jo tas ietver vairākus secīgus soļus.
+- Domēnam, kas paredzēts esošai vietnei, ir nepieciešams vairāku soļu process, lai izveidotu domēna pārbaudi un SSL sertifikātu. Šim procesam ir 7 darba dienu pakalpojuma līmeņa vienošanās (service level agreement - SLA) domēnam, lai nokļūtu tiešraidē, jo tas ietver vairākus secīgus soļus.
 
 Lai izveidotu pakalpojuma pieprasījumu LCS, jūsu vidē atveriet **Atbalsts \> Atbalsta jautājumi** un atlasiet **Iesniegt incidentu**.
 
@@ -140,7 +146,7 @@ Esošajiem/aktīvajiem domēniem:
 
 ## <a name="apex-domains"></a>Apeksa domēni
 
-Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (saknes domēnus, kas nesatur apakšdomēnus). Apex domēniem ir nepieciešama IP adrese, lai to atrisinātu, un Commerce Azure Front Door instance ir tikai virtuālajos galapunktos. Lai lietotu apex domēnu, jums ir šādas opcijas:
+Commerce norādītā Azure frontdurvju instance neatbalsta apex domēnus (saknes domēnus, kuros nav apakšdomēnu). Apex domēniem ir nepieciešama IP adrese, lai to atrisinātu, un Commerce Azure Front Door instance ir tikai virtuālajos galapunktos. Lai lietotu apex domēnu, jums ir šādas opcijas:
 
 - **1. opcija** - Izmantojiet DNS nodrošinātāju, lai novirzītu apeksa domēnu uz "www" domēnu. Piemēram, fabrikam.com pārvirza uz `www.fabrikam.com` , kur `www.fabrikam.com` ir CNAME ieraksts, kas norāda uz Commerce viesotu Azure Front Door instanci.
 

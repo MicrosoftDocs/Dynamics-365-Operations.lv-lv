@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 327bb259cc108f1fad068c847441229dcaee7ff1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6b03bd1970aa7a2f3276186a0a9f8c2cd2880956
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859232"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741154"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Vietas seguma vispārējā plānošana, ja noliktava nav obligāta
 
@@ -47,15 +47,11 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Vispārējās plānošanas un vairākvietu funkcionalitātes pārskats](master-plan-multisite-functionality.md)
-
-[Galvenais plāns vietas un noliktavas segumam, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
-
-[Vietas seguma vispārējā plānošana, ja noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[Vietas seguma vispārējā plānošana, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[MK versijas noteikšana](master-plan-bom-version-determined.md)
+- [Vispārējās plānošanas un vairākvietu funkcionalitātes pārskats](master-plan-multisite-functionality.md)
+- [Galvenais plāns vietas un noliktavas segumam, noliktava ir obligāta](master-plan-site-coverage-warehouse-mandatory.md)
+- [Vietas seguma vispārējā plānošana, ja noliktava ir obligāta](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [Vietas seguma vispārējā plānošana, noliktava nav obligāta](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [MK versijas noteikšana](master-plan-bom-version-determined.md)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
-description: Šajā rakstā skaidrots, kā tiek apstrādāts negatīvs rīcībā esošo krājumu daudzums, kad izmantojat plānošanas optimizāciju.
+description: Šis raksts skaidro kā tiek apstrādāts negatīvs rīcībā esošo krājumu daudzums.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856140"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741127"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Plānošana ar negatīviem rīcībā esošajiem daudzumiem
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856140"
 
 Ja sistēma rāda negatīvu apkopotu rīcībā esošo daudzumu, plānošanas programma apstrādā daudzumu kā 0 (nulli), lai palīdzētu izvairīties no pasūtījuma apjoma pārsniegšanas. Lūk, kā šī funkcionalitāte darbojas:
 
-1. Plānošanas optimizācijas funkcija apkopo rīcībā esošos daudzumus pie viszemākā vajadzību dimensiju līmeņa. (Piemēram, ja *novietojums* nav vajadzības dimensija, plānošanas optimizācijas apkopo rīcībā esošos daudzumus *noliktavas* līmenī.)
+1. Vispārējā plānošana uzkopē rīcībā esošos daudzumus ar zemāko seguma dimensiju līmeni. (Piemēram, ja novietojums *nav* nodrošinājuma dimensija, vispārējā plānošana uzkopē rīcībā esošos daudzumus *noliktavas* līmenī.)
 1. Ja kopējais rīcībā esošais daudzums vajadzību dimensiju zemākajā līmenī ir negatīvs, sistēma pieņem, ka rīcībā esošais daudzums patiesībā ir 0 (nulle).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Sistēma tiek konfigurēta šādā veidā:
 - Pastāv pārdošanas pasūtījums daudzumam *10* gab. preču *FG*.
 - Pārdošanas pasūtījuma daudzums ir fiziski rezervēts attiecībā pret esošajiem rīcībā esošajiem krājumiem.
 
-Pēc tam koriģējiet produktu *FG* daudzumu, lai rīcībā esošie krājumi būtu 5. Tā kā rīcībā esošo preču krājumi ir 5, pārdošanas pasūtījuma daudzums tagad tiek rezervēts attiecībā pret daudzumu, kas nav pieejams rīcībā (tas būtu līdzīgs, ja rīcībā esošie krājumi būtu 0, un šādā gadījumā pārdošanas pasūtījums tiktu rezervēts pret negatīviem krājumiem). Ja jūs tagad palaižat vispārējo plānošanu, tiks izveidots plānotais daudzums 5 *FG*, lai piegādātu pārdošanas pasūtījumu, jo Plānošanas optimizācija vienmēr izmantos esošo piegādi vai izveidos jaunu plānoto pasūtījumu fiziskās rezervēšanas piegādei.
-
-## <a name="related-resources"></a>Saistītie resursi
-
-- [Plānošanas optimizācijas apskats](planning-optimization-overview.md)
-- [Darba sākšana ar plānošanas optimizāciju](get-started.md)
-- [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
-- [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
-- [Plānošanas darba atcelšana](cancel-planning-job.md)
+Pēc tam koriģējiet produktu *FG* daudzumu, lai rīcībā esošie krājumi būtu 5. Tā kā rīcībā esošo preču krājumi ir 5, pārdošanas pasūtījuma daudzums tagad tiek rezervēts attiecībā pret daudzumu, kas nav pieejams rīcībā (tas būtu līdzīgs, ja rīcībā esošie krājumi būtu 0, un šādā gadījumā pārdošanas pasūtījums tiktu rezervēts pret negatīviem krājumiem). Ja jūs tagad palaižat vispārējo plānošanu, tiks izveidots plānotais daudzuma 5 *pasūtījums FG*, lai piegādātu pārdošanas pasūtījumu, jo vispārējais plāns vienmēr izmantos esošo piegādi vai izveidos jaunu plānoto pasūtījumu, lai piegādātu fizisko rezervēšanu.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220748"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740199"
 ---
 # <a name="make-to-order-supply-automation"></a>Veidošanas pasūtījumā piegādes automatizācija
 
@@ -32,12 +32,6 @@ Pasūtījuma *piegādes automatizācijas funkcija* pievieno korporācijai Micros
 - Uzlabojiet starpuzņēmumu informācijas plūsmu. Pirkšanas pasūtījumi tiek atjaunināti tā, lai tajos būtu iekļauti lauki piegādes veidam, piegādes nosacījumiem un ārējam krājuma numuram. Šīs izmaiņas nodrošina to, ka detalizēta pieprasījuma informācija var ieplūst piegādes uzņēmumā.
 
 Šajā rakstā ir aprakstīts, kā iestatīt un izmantot katru uzlabojumu.
-
-> [!NOTE]
-> Visi šajā rakstā aprakstītie uzlabojumi attiecas uz sistēmām, kas izmanto iebūvēto vispārējo plānošanu. Microsoft plānošanas optimizācijas pievienojumprogramma atbalsta arī šādus divus uzlabojumus Dynamics 365 Supply Chain Management:
->
-> - Vispārējo plānu tolerances aizkave
-> - Kontrole pār piesaistes secību, kas tika izmantota vispārējās plānošanas laikā
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Ieslēgt pasūtījuma pasūtījuma piegādes automatizācijas līdzekli
 
@@ -73,7 +67,7 @@ Lai atvērtu lapu **Noslodzes** noslodze, tādējādi varat pārskatīt pieejamo
 
 Šīs opcijas ir **pieejamas** **·** **arī** vispārējās plānošanas parametru lapas cilnes Standarta atjaunināšana laukā Atjaunināt marķējumu, **kur varat definēt noklusēto atlasi dialoglodziņam** Apstiprināšana.
 
-Papildinformāciju skatiet sadaļā Krājumu [iezīmēšana ar plānošanas optimizāciju](planning-optimization/marking.md).
+Papildinformāciju skatiet sadaļā Krājumu [iezīmēšana](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Iestatīt aizkavēšanās toleranci (negatīvās dienas) vispārējā plāna līmenī
 

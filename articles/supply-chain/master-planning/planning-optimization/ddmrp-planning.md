@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689209"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740307"
 ---
 # <a name="demand-driven-planning"></a>Uz pieprasījumu balstīta plānošana
 
@@ -55,4 +55,4 @@ Ja vispārējā plānošana tiek palaista tagad, tiks ģenerēts plānotais pas�
 Šis piemērs izveido plānoto pirkšanas pasūtījumu daudzumam 130, kas ir vienāds ar maksimālo līmeni mīnus neto plūsma. Plānotajam pasūtījumam tiek piešķirta prioritāte 53,07, pamatojoties uz tā procentuālo vērtību no maksimālā daudzuma. Tā kā šīs vērtības tika atrastas 20. jūnijā, sistēma izveido plānoto pasūtījumu, kas datēts ar 20. jūniju plus atšifrēto izpildes laiku krājumam (šajā piemērā piecas darba dienas). Tāpēc, tā kā piecas darba dienas ir no šodienas vienu nedēļu, plānotais pasūtījums ir datēts ar 27. jūniju.
 
 > [!NOTE]
-> Optimizācijas plānošana aprēķina tikai dekompozīcijas krājumus, izmantojot DDMRP. Visi pārējie krājumi tiek aprēķināti, izmantojot standarta materiālu prasību plānošanu (MRP).
+> Vispārējā plānošana aprēķina tikai dekompozīcijas krājumus, izmantojot DDMRP. Visi pārējie krājumi tiek aprēķināti, izmantojot standarta materiālu prasību plānošanu (MRP).

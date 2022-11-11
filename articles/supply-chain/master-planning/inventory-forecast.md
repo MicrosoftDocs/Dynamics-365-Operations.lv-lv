@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844530"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739983"
 ---
 # <a name="inventory-forecasts"></a>Krājumu budžets
 
@@ -395,7 +395,7 @@ Lai iestatītu vispārējo plānu tā, lai tas ietvertu krājumu apjoma prognozi
     - **Budžeta laika periods** — Ja iestatāt opciju **Budžeta plāns** kā *Jā*, norādiet dienu skaitu (no šodienas datuma), kurā jāpiemēro pieprasījuma apjoma prognoze.
 
     > [!IMPORTANT]
-    > Ar plānošanas optimizāciju netiek atbalstīta opcija **Budžeta plāns**.
+    > Prognozes **plāna opcija** netiek atbalstīta ar plānošanas optimizāciju.
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Palaist vispārējo plānu, kas iekļauj krājumu apjoma prognozi
 

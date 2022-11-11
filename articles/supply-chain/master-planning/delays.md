@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bda8d9fcf42727a1ef530dee5f58dbaf18d5022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e7e0150e40193f2f799677ad19cae2ea589afc0
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882552"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740635"
 ---
 # <a name="delays"></a>Aizkaves
 
@@ -54,7 +54,7 @@ Lapas **Plānotais pasūtījums** cilnē **Aizkaves** ir pieejams plānotā pas�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Seguma iestatījumi](coverage-settings.md)
+- [Seguma iestatījumi](coverage-settings.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

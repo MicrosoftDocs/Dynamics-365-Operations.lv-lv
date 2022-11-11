@@ -2,23 +2,23 @@
 title: Uzdevumu pārvaldības konfigurēšana
 description: Šajā rakstā ir aprakstīts, kā konfigurēt uzdevumu pārvaldības līdzekļus sadaļā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282766"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746067"
 ---
 # <a name="configure-task-management"></a>Uzdevumu pārvaldības konfigurēšana
 
@@ -80,7 +80,11 @@ Lai konfigurētu POS paziņojumus uzdevumiem, veiciet šīs darbības.
 
 ![Uzdevumu pārvaldības operācija POS operāciju lapā.](media/HQ-POS-Tasks-Notifications.png)
 
-Plašāku informāciju par to, kā konfigurēt POS paziņojumus, skatiet sadaļā [Pasūtījuma paziņojumu rādīšana pārdošanas punktā (POS)](notifications-pos.md).
+Papildinformāciju par POS paziņojumu konfigurēšanu [skatiet sadaļā Rādīt pasūtījumu paziņojumus pārdošanas punktā (POS](notifications-pos.md)).
+
+> [!NOTE]
+> Saglabājot izmaiņas, tiks parādīts šāds brīdinājuma ziņojums: **Operāciju parametrs pogu rindas veidotājā operācijas ID, kas vienāds ar vai mazāks par 4000, netiks iespējots. Ja veidojat pielāgotu operāciju un vēlaties pieņemt parametru no pogu rindas veidotāja, tad izmantojiet operācijas ID, kas lielāks par 4000.** Atlasiet **Aizvērt,** lai aizvērtu dialogu.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Konfigurēt uzdevumu elementu POS programmas sākumlapā
 

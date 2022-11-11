@@ -2,7 +2,7 @@
 title: Debitoru maksājumu nosacījumu izveide
 description: Šī procedūra definē termiņatlaides un apmaksas datuma iestatījumus.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065714"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752781"
 ---
 # <a name="establish-customer-payment-terms"></a>Debitoru maksājumu nosacījumu izveide
 
@@ -34,7 +34,11 @@ ms.locfileid: "9065714"
 6. Ievadiet datumu laukā **Mēneša diena**. Datums ir jāievada kā skaitlis, piemēram, "10", nevis "10‑ais". 
 7. Noklikšķiniet uz **Saglabāt**.
 8. Aizvērt lapu.
-9. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumu iestatīšana > Maksājumu nosacījumi**.
+9. Pārejiet uz sadaļu **Navigācijas rūts > Moduļi > Debitori > Maksājumu iestatīšana > Maksājumu nosacījumi**. 
+
+>[!NOTE] 
+>**Ja apmaksas nosacījumi ir** Skaidra **nauda**, **lapas** Maksājuma **nosacījumi** laukam Skaidra nauda jābūt **Nr**.
+
 10. Klikšķiniet **Jauns**. **Maksāšanas termiņi tiek** izmantoti, lai definētu, kā tiks aprēķināti apmaksas datumi. Termiņatlaides datuma iestatīšana ir definēta atsevišķā lapā. 
 11. Ievadiet ID laukā **Maksājuma nosacījumi**.
 12. Ievadiet aprakstu laukā **Apraksts**.

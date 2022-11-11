@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Norēķinu grafika kopēšana
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: 'Debitoru sadalījums, izmantojot norēķinu grafiku'
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Norēķinu grafika līdzekļi
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Apmaksa pēc atskaites punktiem
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Finanšu perioda slēgšanas darbvieta
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Gada beigu slēgšanas optimizācija
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Gada beigu slēgšana
                   href: general-ledger/year-end-close.md
                 - name: Finanšu gada slēgšana

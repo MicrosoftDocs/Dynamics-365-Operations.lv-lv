@@ -1,6 +1,6 @@
 ---
-title: Krājumu marķēšana, izmantojot plānošanas optimizāciju
-description: Šajā rakstā ir sniegta informācija par opcijām, kas ir pieejamas krājumu iezīmēšanai apstiprinātos pasūtījumos, ja izmantojat plānošanas optimizāciju.
+title: Krājumu iezīmēšana
+description: Šis raksts sniedz informāciju par opcijām, kas ir pieejamas krājumu iezīmēšanai apstiprinātos pasūtījumos.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219943"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740608"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Krājumu marķēšana, izmantojot plānošanas optimizāciju
+# <a name="inventory-marking"></a>Krājumu iezīmēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par opcijām, kas ir pieejamas krājumu iezīmēšanai apstiprinātos pasūtījumos, ja izmantojat plānošanas optimizāciju.
+Šis raksts sniedz informāciju par opcijām, kas ir pieejamas krājumu iezīmēšanai apstiprinātos pasūtījumos.
 
 *Marķēšana* tiek izmantota, lai saistītu piedāvājumu un pieprasījumu. Tas līdzinās *piesaistei*, kas norāda, kā vispārējā plānošana paredz segt pieprasījumu. No plānošanas viedokļa galvenā atšķirība ir tā, ka marķēšana ir daudz noturīgāka nekā piesaiste.
 

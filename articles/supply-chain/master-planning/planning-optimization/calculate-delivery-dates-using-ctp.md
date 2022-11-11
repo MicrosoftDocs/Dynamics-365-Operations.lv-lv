@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP
-description: Funkcionalitāte Pieejama uz solīšanai (CTP) ļauj debitoriem sniegt reālus datumus, kad varat apsolīt noteiktas preces. Šajā rakstā ir aprakstīts, kā iestatīt un izmantot CTP katrai plānošanas programma (Plānošanas optimizācija un iebūvētā programma).
+description: Funkcionalitāte Pieejama uz solīšanai (CTP) ļauj debitoriem sniegt reālus datumus, kad varat apsolīt noteiktas preces. Šajā rakstā ir aprakstīts, kā iestatīt un izmantot CTP katrai plānošanas programma (Plānošanas optimizācija un novecojusi vispārējās plānošanas programma).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714865"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741208"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 Funkcionalitāte Pieejama uz solīšanai (CTP) ļauj debitoriem sniegt reālus datumus, kad varat apsolīt noteiktas preces. Katrai pārdošanas rindai var norādīt datumu, ņemot vērā esošos rīcībā esošos krājumus, ražošanas noslodzi un transportēšanas laikus.
 
 CTP paplašina funkcionalitāti Pieejams solīšanai [(ATP), ņemot vērā noslodzes](../../sales-marketing/delivery-dates-available-promise-calculations.md) informāciju. Kamēr ATP ņem vērā tikai materiālu pieejamību un pieņem neierobežotas noslodzes resursus, CTP ņem vērā gan materiālu, gan noslodzes pieejamību. Tādējādi tas nodrošina reālāku attēlu, vai pieprasījumu var apmierināt noteiktā laika posmā.
 
-CTP darbojas nedaudz atšķiras, atkarībā no izmantotās vispārējās plānošanas programmas (Optimizācijas plānošana vai iebūvētā programma). Šajā rakstā ir aprakstīts, kā to iestatīt katrai programma. CTP plānošanas optimizēšanai pašlaik atbalsta tikai to CTP scenāriju apakškopu, kurus atbalsta iebūvētā programma.
+CTP darbojas nedaudz atšķirīgi, atkarībā no izmantotās vispārējās plānošanas programmas (Optimizācijas plānošana vai novecojusi vispārējās plānošanas programma). Šajā rakstā ir aprakstīts, kā to iestatīt katrai programma. CTP plānošanas optimizēšanai pašlaik atbalsta tikai to CTP scenāriju apakškopu, kurus atbalsta novecojusi vispārējās plānošanas programma.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>Ieslēgt CTP plānošanas optimizēšanai
 
-Iebūvētās vispārējās plānošanas programmas CTP ir vienmēr pieejama. Tomēr, ja vēlaties izmantot CTP plānošanas optimizēšanai, sistēmai ir jābūt ieslēgtai. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Vienmēr ir pieejama novecojusī vispārējās plānošanas programmas CTP. Tomēr, ja vēlaties izmantot CTP plānošanas optimizēšanai, sistēmai ir jābūt ieslēgtai. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Vispārējā plānošana*
 - **Līdzekļa nosaukums:** *(priekšskatījums) CTP plānošanas optimizēšanai*
@@ -47,9 +48,9 @@ CTP aprēķins, kas ņem vērā gan materiālus, gan resursus, var parādīt lie
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Kā CTP atšķiras atkarībā no izmantotās vispārējās plānošanas programmas
 
-Šajā tabulā apkopotas atšķirības starp CTP optimizāciju plānošanu un CTP iebūvēto vispārējās plānošanas programmu.
+Šajā tabulā ir apkopotas atšķirības starp CTP optimizāciju plānošanu un CTP novecojušu vispārējās plānošanas programmu.
 
-| Elements | Plānošanas optimizācija | Iebūvēta vispārējās plānošanas programma |
+| Elements | Plānošanas optimizācija | Novecojusi vispārējās plānošanas programma |
 |---|---|---|
 | **Piegādes datuma kontroles** iestatījumi pasūtījumiem, pasūtījuma rindām un precēm | *CTP plānošanas optimizācijai* | *Ctp* |
 | Aprēķina laiks | Aprēķināšana tiek izraisīta, palaižot dinamisko plānu kā ieplānotu uzdevumu. | Aprēķins nekavējoties tiek parādīts katru reizi, kad ievadāt vai atjaunināsiet pārdošanas pasūtījuma rindu. |
@@ -70,8 +71,8 @@ Noklusējuma piegādes datuma kontroles metode tiks lietota visām jaunajām pas
     - *Pārdošanas izpildes laiks* – pārdošanas izpildes laiks ir laiks starp pārdošanas pasūtījuma izveidošanu un krājumu nosūtīšanu. Piegādes datuma aprēķina pamatā ir noklusējuma dienu skaits, kā arī nav apsvērta krājumu pieejamība, zināms pieprasījums vai plānota piegāde.
     - *ATP* – ATP ir daudzums krājumam, kas ir pieejams un to var solīt debitoram noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
     - *ATP + Izejas* plūsmas rezerve – nosūtīšanas datums ir vienāds ar ATP datumu plus krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
-    - *CTP* – izmantojiet CTP aprēķinu, ko nodrošina iebūvētā vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode, un, ja tā ir atlasīta, aprēķina izpildes laikā rodas kļūda.
-    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šī opcija stāsies spēkā tikai tad, ja izmantojat iebūvēto vispārējās plānošanas programmu.
+    - *CTP* - izmantojiet CTP aprēķinu, ko nodrošina novecojusi vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode, un, ja tā ir atlasīta, aprēķina izpildes laikā rodas kļūda.
+    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šī opcija stāsies spēkā tikai tad, ja izmantojat novecojušu vispārējās plānošanas programmu.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Iestatīt piegādes datuma kontroles ignorēšanu atsevišķām precēm
 
@@ -85,7 +86,7 @@ Varat piešķirt ignorēšanu noteiktām precēm, ja vēlaties izmantot piegāde
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a> Plānot CTP optimizācijas aprēķinu plānošanai
 
-Kad plānošanas optimizēšanai izmantojat CTP, ir jāpalaiž dinamiskais plāns, lai sistēma aktivizētu CTP aprēķinus, un pēc tam jāiestata apstiprinātie nosūtīšanas un saņemšanas datumi visiem atbilstošajiem pasūtījumiem. Plānā jāietver visi krājumi, kuriem ir nepieciešami nosūtīšanas un saņemšanas datumi. (Kad jūs izmantojiet CTP iebūvētās plānošanas programma, CTP aprēķini tiek nekavējoties veikta lokāli. Tādēļ nav jāpalaiž dinamiskais plāns, lai redzētu CTP rezultātus.)
+Kad plānošanas optimizēšanai izmantojat CTP, ir jāpalaiž dinamiskais plāns, lai sistēma aktivizētu CTP aprēķinus, un pēc tam jāiestata apstiprinātie nosūtīšanas un saņemšanas datumi visiem atbilstošajiem pasūtījumiem. Plānā jāietver visi krājumi, kuriem ir nepieciešami nosūtīšanas un saņemšanas datumi. (Izmantojot CTP novecojušajiem vispārējās plānošanas programmas aprēķiniem, CTP aprēķini tiek nekavējoties veikti lokāli. Tādēļ nav jāpalaiž dinamiskais plāns, lai redzētu CTP rezultātus.)
 
 Lai nodrošinātu, ka datumi visiem lietotājiem ir pieejami laikus, ieteicams iestatīt pakešuzdevumus, lai atbilstošos plānus palaistu periodiski. Piemēram, pakešuzdevums, kas iestatīts dinamiskā plāna palaišanai ik pēc 30 minūtēm, iestatīs apstiprināto nosūtīšanas un saņemšanas datumus ik pēc 30 minūtēm. Tādēļ lietotājiem, kas ievada un importē pasūtījumus, būs jāgaida ne vairāk kā 30 minūtes, lai iegūtu apstiprinātos nosūtīšanas un saņemšanas datumus.
 
@@ -98,17 +99,17 @@ Lai uzstādītu pakešuzdevumu regulārai plāna palaišanai dinamiskajā plān�
 1. Atlasiet **Labi,** lai saglabātu grafiku.
 1. Atlasiet **Labi**, lai izveidotu pakešuzdevumu un aizvērtu dialoglodziņu.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>Izmantot CTP iebūvētai vispārējai plānošanai
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Izmantot CTP novecojusi vispārējās plānošanas programma
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Izveidot jaunu pasūtījumu, izmantojot CTP iebūvēto vispārējo plānošanu
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Izveidot jaunu pasūtījumu, izmantojot CTP novecojusī vispārējās plānošanas programma
 
 Katru reizi, kad pievienojat jaunu pārdošanas pasūtījumu vai pasūtījuma rindu, sistēma tam piešķir noklusējuma piegādes datuma kontroles metodi. Pasūtījuma virsraksts vienmēr sākas ar globālo noklusējuma metodi. Ja pasūtītam krājumam tiek piešķirta ignorēšana, jaunā pasūtījuma rinda izmantos šo ignorēšanu. Pretējā gadījumā jaunā pasūtījuma rinda izmantos arī globālo noklusējuma metodi. Tādēļ jums jāiestata noklusētās metodes tā, lai tās atbilstu piegādes datuma kontroles metodei, ko visbiežāk izmantojat. Pēc pasūtījuma izveides varat ignorēt noklusēto metodi pasūtījuma virsrakstā un/vai pasūtījuma rindas līmenī pēc savas pieprasīšanas. Papildinformāciju skatiet noklusējuma [piegādes datuma kontroles metožu iestatīšana un](#default-methods) Esošo [pārdošanas pasūtījumu mainīšana CTP izmantošanai](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Skatīt apstiprinātos piegādes datumus, kad iebūvētajam vispārējai plānošanai izmantojat CTP
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Skatīt apstiprinātos piegādes datumus, ja novecojusit vispārējās plānošanas programmas CTP
 
-Ja izmantojat iebūvēto vispārējās plānošanas programmu, CTP aprēķini tiek piemēroti pasūtījumiem un/ **vai pasūtījumu rindām, kur piegādes datuma kontroles** *lauks ir iestatīts uz CTP*.
+Ja izmantojat vispārējās plānošanas programmu, CTP aprēķini tiek piemēroti pasūtījumiem un/**·** *vai pasūtījumu rindām, kur piegādes datuma kontroles lauks ir iestatīts uz CTP.*
 
-Pārdošanas rindām, kas izmanto CTP iebūvētajam vispārējai plānošanai, sistēma automātiski iestata laukus Apstiprināts **nosūtīšanas** **datums un Apstiprinātais saņemšanas datums** katru reizi, kad saglabājat pārdošanas rindu. Ja vēlāk pārdošanas rindā veiksiet atbilstošas izmaiņas (piemēram, izmainot tās daudzumu vai vietu), datumi nekavējoties tiks pārrēķināti.
+Pārdošanas rindām, kas izmanto CTP novecojušajām vispārējās plānošanas programmas lietojumprogrammām, sistēma automātiski iestata laukus Apstiprināts nosūtīšanas datums un **Apstiprināts** **saņemšanas** datums katru reizi, kad saglabājat pārdošanas rindu. Ja vēlāk pārdošanas rindā veiksiet atbilstošas izmaiņas (piemēram, izmainot tās daudzumu vai vietu), datumi nekavējoties tiks pārrēķināti.
 
 - Lai skatītu apstiprinātos piegādes datumus pārdošanas pasūtījuma rindai, atveriet pārdošanas pasūtījumu un izvēlieties pārdošanas rindu. Pēc tam kopsavilkuma cilnē **Piegāde kopsavilkuma** cilnē Rindas informācija **pārskatiet** Apstiprinātā **nosūtīšanas datuma un** Apstiprinātā **saņemšanas datuma** vērtības.
 - Lai skatītu apstiprinātos piegādes datumus visam pasūtījumam, atveriet pārdošanas pasūtījumu un atlasiet virsraksta **skatu**. Pēc tam kopsavilkuma cilnē Piegāde **pārskatiet** apstiprinātā nosūtīšanas **datuma un apstiprinātā** **saņemšanas datuma** vērtības.
@@ -155,8 +156,8 @@ Lai mainītu pasūtījumu tā, ka tas izmanto CTP pasūtījuma virsraksta līmen
 1. Atlasiet **Virsrakstu**, lai atvērtu galvenes informāciju pārdošanas pasūtījuma **informācijas** lapā.
 1. Kopsavilkuma cilnē **Piegāde** iestatiet piegādes **datuma kontroles** lauku uz vienu no šīm vērtībām atkarībā no izmantotās plānošanas programmas:
 
-    - *CTP* – izmantojiet CTP aprēķinu, ko nodrošina iebūvētā vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode. Tāpēc, atlasot šo vērtību, tiek parādīts kļūdas ziņojums, kad tiek palaists aprēķins.
-    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šis iestatījums stāsies spēkā tikai tad, ja izmantojat iebūvēto vispārējās plānošanas programmu.
+    - *CTP* - izmantojiet CTP aprēķinu, ko nodrošina novecojusi vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode. Tāpēc, atlasot šo vērtību, tiek parādīts kļūdas ziņojums, kad tiek palaists aprēķins.
+    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šis iestatījums stāsies spēkā tikai tad, ja izmantojat novecojušu vispārējās plānošanas programmu.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Atlasiet **Labi**, lai piemērotu izmaiņas.
@@ -165,15 +166,15 @@ Lai mainītu pasūtījumu tā, ka tas izmanto CTP pasūtījuma virsraksta līmen
 
 Ja izveidojat pasūtījuma rindu, izmantojot atšķirīgu piegādes datuma kontroles metodi, varat mainīt CTP jebkurā laikā. Rindas līmenī veiktās izmaiņas neietekmē nevienu citu rindu. Tomēr, tie var radīt vispārējas pasūtījuma piegādes datumu pārvietoties uz priekšu un atpakaļ, atkarībā no tā, kā mainās katra atjauninātā rindas aprēķina. <!-- KFM: Confirm this intro at next revision -->
 
-Lai mainītu pasūtījumu tā, ka tam rindu līmenī tiek izmantots CTP iebūvētā vispārējā plānošana, sekojiet šiem soļiem.
+Lai mainītu pasūtījumu tā, ka rindu līmenī tai tiek izmantots CTP, kam ir novecojusi vispārējās plānošanas programma, sekojiet šiem soļiem.
 
 1. Doties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījumi**.
 1. Atveriet pārdošanas pasūtījumu, kuru vēlaties iestatīt, vai izveidojiet jaunu.
 1. **Lapā Detalizēta informācija par** pārdošanas pasūtījumu **kopsavilkuma** cilnē Pārdošanas pasūtījuma rinda atlasiet pārdošanas pasūtījuma rindu, kuru vēlaties iestatīt.
 1. **·** **·** **Kopsavilkuma** cilnē Rindas informācija cilnē Piegāde iestatiet lauku Piegādes datuma kontrole uz vienu no šīm vērtībām atkarībā no izmantotās plānošanas programmas:
 
-    - *CTP* – izmantojiet CTP aprēķinu, ko nodrošina iebūvētā vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode. Tāpēc, atlasot šo vērtību, tiek parādīts kļūdas ziņojums, kad tiek palaists aprēķins.
-    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šis iestatījums stāsies spēkā tikai tad, ja izmantojat iebūvēto vispārējās plānošanas programmu.
+    - *CTP* - izmantojiet CTP aprēķinu, ko nodrošina novecojusi vispārējās plānošanas programma. Ja izmantojat plānošanas optimizāciju, *nav atļauta CTP* piegādes datuma kontroles metode. Tāpēc, atlasot šo vērtību, tiek parādīts kļūdas ziņojums, kad tiek palaists aprēķins.
+    - *CTP plānošanas optimizēšanai* - izmantojiet CTP aprēķinu, ko nodrošina plānošanas optimizācija. Šis iestatījums stāsies spēkā tikai tad, ja izmantojat novecojušu vispārējās plānošanas programmu.
 
     Tiek **atvērts dialoglodziņš Pieejamais nosūtīšanas** un saņemšanas datums un ir redzami pieejamie nosūtīšanas un saņemšanas datumi. Šis dialoglodziņš darbojas tāpat kā pasūtījuma rindās ar pasūtījuma virsrakstu, kā aprakstīts iepriekšējā sadaļā.
 

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335261"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740554"
 ---
 # <a name="production-planning"></a>Ražošanas plānošana
 
 [!include [banner](../../includes/banner.md)]
-
-Optimizācijas plānošana atbalsta vairākus ražošanas scenārijus. Ja migrēsit no esošās iebūvētās vispārējās plānošanas programmas, ir svarīgi atcerēties kādu no mainītajiem scenārijiem.
 
 Tālāk sniegtais video sniedz īsu ievadu dažiem šajā rakstā minētajiem jēdzieniem: Optimizācijas [Dynamics 365 Supply Chain Management uzlabojumu plānošana](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Plānotie ražošanas pasūtījumi ietver maršruta ID, kas nepieciešams ražo�
 
 - **Plānotais ražošanas pasūtījums** – izpildes laiks ir balstīts uz izlaistās preces statisko izpildes laiku.
 - **Apstiprināts ražošanas pasūtījums** – izpildes laiks ir balstīts uz plānošanu, kas izmanto maršruta informāciju un saistītos resursu ierobežojumus.
-
-Papildinformāciju par paredzamo līdzekļu pieejamību skatiet sadaļā [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md).
-
-Ja ir atkarīga ražošanas funkcionalitāte, kas vēl nav pieejama optimizācijas plānošanai, varat turpināt izmantot iebūvēto vispārējās plānošanas programmu. Izņēmumi nav nepieciešami.
 
 ## <a name="delays"></a>Aizkaves
 
@@ -76,15 +70,15 @@ Jūs varat izmantot **Izvēršanas** lapu, lai analizētu pieprasījumu, kas nep
 
 ## <a name="filters"></a><a name="filters"></a>Filtri
 
-Lai nodrošinātu, ka plānošanas optimizācijai ir informācija, kas ir nepieciešama pareiza rezultāta aprēķināšanai, jums ir jāietver visas preces, kurām ir jebkāda saistība ar precēm visā plānotā pasūtījuma MK struktūrā. Plānošanas scenārijos, kuros ietilpst ražošana, mēs iesakām izvairīties palaist filtrētas vispārējās plānošanas.
+Lai nodrošinātu, ka vispārējai plānošanai ir informācija, kas nepieciešama pareizā rezultāta jāaprēķina, jāietver visas preces, kurām ir jebkādas saistības ar precēm visā plānotā pasūtījuma MK struktūrā. Plānošanas scenārijos, kuros ietilpst ražošana, mēs iesakām izvairīties palaist filtrētas vispārējās plānošanas.
 
-Lai arī pakārtotie atvasinātie krājumi tiek automātiski noteikti un ietverti vispārējā plānošanā, kad tiek izmantota iebūvētā vispārējās plānošanas programma, plānošanas optimizācija šobrīd neveic šo darbību.
+Lai gan pakārtotie krājumi tiek automātiski noteikti un ietverti vispārējā plānošanā, kad tiek lietota novecojusi vispārējās plānošanas programma, plānošanas optimizācija pašlaik neveic šo darbību.
 
 Piemēram, ja MK struktūras preces A skrūve tiek izmantota arī preces B ražošanai, tad visas preces A un B preču MK struktūrā ir jāiekļauj filtrā. Tā kā ir sarežģīti nodrošināt visu preču ietveršanu filtrā, ieteicams izvairīties no filtrētas vispārējās plānošanas, kad ir iesaistīti ražošanas pasūtījumi. Pretējā gadījumā vispārējā plānošana sniegs nevēlamus rezultātus.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Iemesli izvairīties palaist filtrētas vispārējās plānošanas
 
-Palaižot preces filtrētu vispārējo plānošanu, plānošanas optimizācija (atšķirībā no iebūvētās vispārējās plānošanas programmas) nenosaka visus šīs preces MK struktūras apakšproduktus un izejmateriālus un tāpēc neiekļauj tos vispārējā plānošanā. Kaut arī plānošanas optimizācija identificē pirmo līmeni preces MK struktūrā, no datu bāzes netiek ielādēti preču iestatījumi (piemēram, noklusējuma pasūtījuma veids vai krājuma nodrošinājums).
+Palaižot preces filtrēto vispārējo plānošanu, plānošanas optimizēšana (atšķirībā no novecojušas vispārējās plānošanas programmas) neatrada visus apakšražošanas un izejmateriālus šīs preces MK struktūrā un tāpēc neietver tos vispārējās plānošanas izpildē. Kaut arī plānošanas optimizācija identificē pirmo līmeni preces MK struktūrā, no datu bāzes netiek ielādēti preču iestatījumi (piemēram, noklusējuma pasūtījuma veids vai krājuma nodrošinājums).
 
 Plānošanas optimizācijas gadījumā vispirms tiek ielādēti palaišanas dati un pielietoti filtri. Tas nozīmē, ka gadījumā, ja konkrētā precē iekļautais apakšprodukts vai izejmateriāls nav daļa no filtra, informācija par to nebūs ietverta palaišanā. Turklāt, ja apakšprodukts vai izejmateriāls ir iekļauts arī citā precē, tad filtrēta palaišana, kas ietver tikai oriģinālo preci un tās komponentus, noņems esošo plānoto pieprasījumu, kas tika izveidots citai precei.
 

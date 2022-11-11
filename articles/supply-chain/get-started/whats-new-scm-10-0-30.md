@@ -2,7 +2,7 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.30. (2022. gada novembris)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714803"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.30. (2022. gada novembris)
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714803"
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
+| Krājumi un loģistika | [Izsekot viegli rezervētos daudzumus sadalījumā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Inventory Visibility krājumu sadalījums](../inventory/inventory-visibility-allocation.md) |  Aktivizē pakalpojuma [konfigurācija](../inventory/inventory-visibility-configuration.md) |
 | Ražošana | [Pārraudzīt aprīkojumu ar Sensora datu informāciju](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence sākumlapa](../sensor-data-intelligence/sdi-home-page.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Sensora datu informācija* |
 | Noliktavas vadība | [Noliktavas pārvaldības mobilās programmas vairāklīmeņu darbības](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Konfigurēt novirzīšanas darbības mobilo ierīču izvēlnes vienumos](../warehousing/warehouse-app-detours.md) | Līdzekļu pārvaldība:<br>*Vairāku līmeņu apiešana mobilajai programmai Warehouse Management* |
 

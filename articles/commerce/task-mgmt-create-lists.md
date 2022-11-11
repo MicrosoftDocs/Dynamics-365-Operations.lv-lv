@@ -2,24 +2,24 @@
 title: Uzdevumu sarakstu izveidošana un uzdevumu pievienošana
 description: Šajā rakstā ir aprakstīts, kā izveidot uzdevumu sarakstus un pievienot tiem uzdevumus Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: f754ee78547e785fa2386dee6c3d89371bc0de41
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b81f27f79362516f8a25766c1f663a7691ebb42a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268924"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746164"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Uzdevumu sarakstu izveidošana un uzdevumu pievienošana
 
@@ -35,7 +35,7 @@ Gan vadītāji, gan darbinieki var izveidot uzdevumu sarakstus Commerce atbalsta
 
 ## <a name="create-a-task-list"></a>Izveidot uzdevumu sarakstu
 
-Lai izveidotu uzdevumu sarakstu, izpildiet šīs darbības.
+Pirms sākat uzdevumu saraksta veidošanas procesu, pārliecinieties, ka pabeidzat konfigurācijas [rakstā Konfigurēt uzdevumu](task-mgmt-configure.md) vadību. Lai izveidotu uzdevumu sarakstu, izpildiet šīs darbības.
 
 1. Dodieties uz **Retail un Commerce \> Uzdevumu pārvaldība \> Uzdevumu pārvaldības administrēšana**.
 1. Atlasiet **Jauns** un pēc tam ievadiet vērtības laukos **Nosaukums**, **Apraksts** un **Īpašnieks**.

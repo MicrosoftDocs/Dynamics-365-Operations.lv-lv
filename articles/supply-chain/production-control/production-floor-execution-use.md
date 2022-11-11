@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069792"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748718"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -146,9 +146,6 @@ Ja partijas pasūtījums ir izveidots no formulas versijas, kur **Līdzproduktu 
 Šajā gadījumā darbinieks var norādīt līdzproduktu un daudzumu pārskatam, pārskata norises dialoglodziņā atlasot **Līdzproduktu variācijas**. Pēc tam darbinieks var atlasīt no visām izlaistajām precēm, kas definētas kā līdzprodukti.
 
 ### <a name="reporting-catch-weight-items"></a>Pieļaujamā svara krājumu pārskats
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 Darbinieki var izmantot ražošanas izpildes interfeisu, lai ziņotu par to partijas pasūtījumu progresu, kas ir izveidoti pieļaujamā svara krājumiem. Partijas pasūtījumi tiek izveidoti no formulām, kuras var definēt, lai pieļaujamā svara krājumi būtu formulas krājumi, līdzprodukti un blakusprodukti. Formulu var arī noteikt, lai būtu formulas rindas sastāvdaļām, kas definētas pieļaujamam svaram. Pieļaujamā svara krājumiem tiek izmantota divas mērvienības, lai sekotu krājumiem: pieļaujamā svara daudzumam un krājumu daudzumam. Piemēram, pārtikas nozarē kastu gaļu var definēt kā pieļaujamā svara krājumu, kur pieļaujamā svara daudzumu izmanto, lai izsekotu lodziņu skaitu un krājumu daudzumu, ko lieto, lai atsekotu lodziņu svaru.
 

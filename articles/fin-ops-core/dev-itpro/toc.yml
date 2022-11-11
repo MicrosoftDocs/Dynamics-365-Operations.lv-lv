@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Valodas un lokalizācijas deskriptori visā produktā un palīdzības saturā
                   href: help/language-locale.md
-                - name: Sadarbība pie palīdzības satura paplašināšanas un pielāgošanas
+                - name: Sadarbība pie palīdzības satura paplašināšanas
                   href: help/contributor-guide.md
             - name: Finanšu un operāciju programmu reģionālie pakalpojumi
               items:
@@ -1622,8 +1622,12 @@
               href: sysadmin/implement-b2b.md
             - name: Datu uzturēšana
               href: sysadmin/DataMaintenancePortal.md
-            - name: Pārvaldīt piekļuvi tīkla printeriem juridiskajām personām
+            - name: Pārvaldīt juridisko personu piekļuvi tīkla printeriem
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: 'Uzraudzība un telemetrija, izmantojot Application Insights'
+              items:
+                - name: Pārskats
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Drošība
               items:
                 - name: Uz lomām balstīta drošība

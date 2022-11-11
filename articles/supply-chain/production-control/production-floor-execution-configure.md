@@ -2,7 +2,7 @@
 title: Ražošanas izpildes interfeisa konfigurēšana
 description: Šajā rakstā ir aprakstīts, kā ražošanas izpildes interfeisam izveidot vienu vai vairākas konfigurācijas. Atverot ražotnes izpildes interfeisu, tas automātiski ielādē atlasīto konfigurāciju un darbu filtru, kas ir raksturīgs pārlūkam un ierīcei. Konfigurācijā ir jāiestata politikas, kas jāpiemēro specifiskam lietojumam.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708730"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748691"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -85,17 +85,19 @@ Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā 
 
 Lai izmantotu šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.25, funkcija ir ieslēgta pēc noklusējuma. Attiecībā uz Piegādes ķēdes pārvaldības versiju 10.0.29 funkcija ir obligāta, un to nevar izslēgt. Ja lietojat versiju, kas vecāka par 10.0.29 versiju, administratori šo funkcionalitāti var ieslēgt vai izslēgt, meklējot pilnus sērijas, *paketes* un numura zīmes numurus [ražošanas izpildes interfeisa līdzeklī Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietā.
 
-
 No Piegādes ķēdes pārvaldības versijas 10.0.25 šī funkcija ir ieslēgta pēc noklusējuma. Administratori šo funkcionalitāti *var ieslēgt vai izslēgt, meklējot pilnas sērijas,*[paketes un numura zīmes numurus ražošanas izpildes interfeisa līdzeklī Līdzekļu pārvaldības darbvietā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Reģistrēt materiālu patēriņu
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Šī funkcija ļauj darbiniekiem izmantot ražošanas izpildes interfeisu, lai reģistrētu materiālu patēriņu, partijas numurus un sērijas numurus. Dažiem ražotājiem, it īpaši tiem, kas attiecas uz procesa nozarēm, ir skaidri jāreģistrē materiāla daudzums, kas tiek patērēts katrai partijai vai ražošanas pasūtījumam. Piemēram, darbinieki var izmantot svaru, lai novērtētu materiālu daudzumu, kas tiek patērēts viņu darba laikā. Lai nodrošinātu pilnīgu materiālu izsekošanu, šīm organizācijām ir jāreģistrē arī partijas numuri, kas tika patērēti katras preces ražošanai.
 
 Šim līdzeklim ir divas versijas. Viens atbalsta krājumus, *kas nav* iespējoti noliktavas pārvaldības procesu (WMS) izmantošanai. Citi atbalsta krājumus, *kas* ir iespējoti WMS lietošanai. Lai lietotu šo funkcionalitāti, [aktivizējot](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vienu vai abus šos līdzekļus Līdzekļu pārvaldībā (šādā secībā), atkarībā no tā, vai ir krājumi, kas iespējoti WMS:
 
 - *Materiālu patēriņa reģistrācija ražotnes izpildes saskarnē (bez WMS)*
-- *Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)*
+- *(Priekšskatījums) Reģistrēt materiālu patēriņu ražošanas izpildes interfeisā (WMS iespējots)*
 
 > [!IMPORTANT]
 > Varat izmantot tikai līdzekli, kas nav WMS. Tomēr, ja izmantojat WMS, ir jāaktivizē abas funkcijas.
@@ -138,6 +140,25 @@ Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funk
 
 - *Papildu konfigurācija ražošanas izpildes interfeisā*
 
+### <a name="enable-the-my-jobs-tab"></a>Iespējot manu darbu cilni
+
+Cilne **Mani darbi** ļauj darbiniekiem viegli apskatīt visus sāktos un nepabeigtos darbus, kas viņiem ir piešķirti. Tas ir noderīgi uzņēmumos, kuros darbi dažreiz vai vienmēr tiek piešķirti noteiktiem darbiniekiem (cilvēkresursiem), nevis citiem resursu tipiem (piemēram, mašīnām).
+
+Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Cilne Mani darbi ražošanas izpildes interfeisā*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Iespējot ciparu tastatūras lietošanu pierakstīšanās lapā
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Šī funkcija ļauj administratoriem pievienot ciparu tastatūras kontroli pierakstīšanās lapai ražošanas izpildes interfeisam. Darbinieki pēc tam var pieteikties, izmantojot ciparu tastatūru, lai ievadītu viņu žetona ID vai personisko numuru.
+
+Lai lietotu šo funkcionalitāti, līdzekļa pārvaldībā grieziet [šādu funkciju](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Pierakstīšanās lapā iespējot cipartastatūras lietošanu*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbs ar ražotnes izpildes interfeisa konfigurācijām
 
 Lai izveidotu un uzturētu ražošanas izpildes konfigurācijas, dodieties uz ražošanas **kontroles iestatīšanas \>\> ražošanas izpildi Konfigurējiet \> ražošanas stāva izpildi**. Lapā **Konfigurēt ražotnes izpildi** tiek parādīts esošo konfigurāciju saraksts. Šajā lapā varat veikt tālāk norādītās darbības.
@@ -161,6 +182,7 @@ Kopsavilkuma cilnē Vispārīgi ir pieejami **šādi** iestatījumi:
 - **Bloķēt darbinieku** — ja šī opcija ir iestatīta uz *Nē*, darbinieki tiks izrakstīti uzreiz pēc reģistrācijas (piemēram, jauna darba). Interfeiss tad atgriežas pierakstīšanās lapā. Kad šī opcija ir iestatīta uz *Jā*, darbinieki būs reģistrējies ražošanas izpildes interfeisā. Tomēr darbinieks var manuāli izrakstīties tā, ka cits darbinieks var pieteikties, kamēr ražošanas izpildes interfeiss turpina darboties tajā pašā sistēmas lietotāja kontā. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](config-job-card-device.md#assigned-users).
 - **Izmantot faktisko reģistrācijas laiku** — iestatiet šo opciju uz *Jā*, lai iestatītu laiku katrai jaunajai reģistrācijai tā, lai tas atbilstu precīzajam laikam, kad darbinieks iesniedzis reģistrāciju. Ja šī opcija ir iestatīta uz *Nē*, tā vietā tiek izmantots pierakstīšanās laiks. Parasti šī opcija ir jāiestata uz *Jā*, ja esat iestatījis opciju **Bloķēt darbinieku** un/vai **Viens darbinieks** uz *Jā*, kuru gadījumā darbinieki bieži paliek pierakstījušies ilgāku laiku.
 - **Viens darbinieks** – iestatiet šo opciju kā Jā *,* ja tikai viens darbinieks izmanto katru ražošanas izpildes interfeisu, kur šī konfigurācija ir aktīva. Kad šī opcija ir iestatīta uz *Jā*, opcija **Bloķēt darbinieku** automātiski tiek iestatīta uz *Jā*. Turklāt šis iestatījums noņem darbiniekam prasību (un iespēju) pierakstīties, izmantojot žetona ID (vai citu līdzīgu ID). Tā vietā darbinieks pierakstās korporācijai Microsoft Dynamics 365 Supply Chain Management *·*, izmantojot sistēmas lietotāja kontu, kas ir saistīts ar reģistrēto darbinieku (*no* darbinieku tabulas) un vienlaicīgi tiek pieteikts ražošanas izpildes interfeisā ar šo darbinieku.
+- **Iespējot ciparu tastatūru** — *iestatiet* šo opciju kā Jā, lai ciparu tastatūru pievienotu pierakstīšanās ekrānā, kas ļauj darbiniekiem ievadīt savu žetona ID vai personīgo numuru, izmantojot skārienekrāna ciparu tastatūru. Iestatiet šo opciju uz Nē *,* lai paslēptu ciparu tastatūru.
 - **Atļaujiet bloķēt** skārienekrānu – *iestatiet* šo opciju uz Jā, lai ļautu darbiniekiem bloķēt ražošanas stāva izpildes interfeisa skārienekrānu, lai viņi varētu to noslēgt. Kad šī opcija ir iestatīta *uz Jā*, **pierakstīšanās lapai tiek** pievienots bloķēšanas ekrāns pogas numuru iestatīšanai. Kad darbinieks atlasa šo pogu, skārienekrāns uz laiku tiek bloķēts, lai novērstu netīšu ievadi. Tiek parādīts arī atpakaļskaitīšanas taimeris. Darbinieks pēc tam var droši tīrīt ierīci un ekrānu. Kad atpakaļskaitīšanas ir beigusies, skārienekrāns tiek automātiski atbloķēts.
 - **Ekrāna bloķēšanas ilgums** — kad opcija **Atļaut skārienekrāna bloķēšanu** ir iestatīta uz *Jā*, izmantojiet šo opciju, lai norādītu sekunžu skaitu, cik ilgi skārienekrānam ir jābūt bloķētam tīrīšanai. Ilgumam jābūt diapazonā no 5 līdz 120 sekundēm.
 - **Ģenerēt numura zīmi** — iestatiet šo *opciju* kā Jā, lai ģenerētu jaunu numura zīmi katru reizi, kad darbinieks izmanto ražošanas izpildes interfeisu, lai ziņotu par pabeigšanu. Unikāls noliktavas vienības identifikators tiek ģenerēts no numuru sērijas, kas iestatīta lapā **Noliktavas pārvaldības parametri**. Kad šī opcija ir iestatīta uz *Nē*, darbiniekiem ir jānorāda esoša noliktavas vienība, kad tie reģistrē pabeigšanu.

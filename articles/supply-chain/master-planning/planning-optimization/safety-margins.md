@@ -1,6 +1,6 @@
 ---
 title: Drošības rezerves
-description: Šajā rakstā ir aprakstīts, kā drošības rezerves var izmantot ar Microsoft plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir aprakstīts, kā drošības rezerves darbojas vispārējās plānošanas laikā.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335201"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740446"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā drošības rezerves var izmantot ar Microsoft plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management.
+Šajā rakstā ir aprakstīts, kā drošības rezerves darbojas vispārējās plānošanas laikā.
 
 ## <a name="safety-margins-overview"></a>Drošības rezervju apskats
 
@@ -165,12 +165,5 @@ Visi trīs drošības rezervju veidi tiek iekļauti, kad sistēma nosaka, vai pa
 Piemēram, krājumam ir vienas dienas izpildes laiks un trīs dienu ieejas plūsmas rezerve. Pārdošanas pasūtījums šim krājumam ir iestatīts kā nepieciešams šodien. Šādā gadījumā aizkave tiek aprēķināta kā *izpildes laiks* + *ieejas plūsmas rezerve* = četras dienas. Tāpēc, ja šodien ir 14. augusts, četras aizkaves dienas veido piegādi 18. augustā. Tālāk redzamajā attēlā parādīts šis piemērs.
 
 ![Kavējuma aprēķina piemērs.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Papildu resursi
-
-[Darba sākšana ar plānošanas optimizāciju](get-started.md)
-
-[Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

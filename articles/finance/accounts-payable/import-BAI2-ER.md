@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
-ms.translationtype: MT
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337573"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752725"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Iestatīt detalizēto bankas darbību saskaņošanas importēšanu, izmantojot elektroniskos pārskatus
 
@@ -34,7 +34,7 @@ Detalizētās bankas darbību saskaņošanas funkcija ļauj jums importēt elekt
 2. Microsoft **konfigurācijas nodrošinātāja** elementā atlasiet **Repositories**.
 3. Atlasiet **Globāls** un pēc tam atlasiet **Atvērt**.
 4. Ja ir jāizveido savienojums ar repozitoriju, dialoglodziņā atlasiet zilo saiti.
-5. Konfigurācijas sarakstā atrodiet BANKAS izraksta **modeļa BANKAS \> izraksta modeli NO BAI2**.
+5. Konfigurācijas sarakstā atrodiet detalizēto **bankas darbību saskaņošanas izraksta modeli \> ABR BAI2 formātu**.
 6. **Atlasiet BAI2** formātu.
 7. Kopsavilkuma cilnē **Versijas** atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
 

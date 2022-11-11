@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335291"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740597"
 ---
 # <a name="priority-based-planning"></a>Uz prioritāti balstīta plānošana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no [demand Driven Material Requirements Planning (DDMRP) soļi](ddmrp-overview.md). Uz prioritāti balstīta plānošana iespējo plānošanas optimizāciju, lai ģenerētu plānotos pasūtījumus, kurus nosaka plānošanas prioritātes, nevis pieprasījumu datumi.
+Šajā rakstā ir aprakstītas Microsoft prioritātes plānošanas funkcija Dynamics 365 Supply Chain Management. Šī funkcija pievieno atbalstu uz pieprasījumu balstītai plānošanai, kas ir viens no [demand Driven Material Requirements Planning (DDMRP) soļi](ddmrp-overview.md). Uz prioritāti balstīta plānošana ļauj sistēmai ģenerēt plānotos pasūtījumus, kurus nosaka plānošanas prioritātes prasību datumu vietā.
 
 Uz prioritāti balstīta plānošana ļauj piešķirt prioritāti papildināšanas pasūtījumiem, lai nodrošinātu steidzamu pieprasījumu pēc prioritātes tiek noteikt pēc mazāk svarīga pieprasījuma. Piemēram, krājumu papildināšanas pasūtījumam tiks prioritāte pār standarta uzpildīšanas papildināšanas pasūtījumu. Sistēma automātiski var sadalīt lielākus pasūtījumus atsevišķos mazākos pasūtījumos, kur pasūtījumu rindas tiek grupētas pēc prioritātes. Tad tas vispirms var apstrādāt visus augstas prioritātes pasūtījumus.
 
@@ -37,11 +37,11 @@ Pirms varat lietot šo funkciju, tai jābūt ieslēgtai jūsu sistēmai. Adminis
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Kur un kā tiek piešķirtas plānošanas prioritātes
 
-*Prioritātes informācijas* par piedāvājumu un pieprasījumu plānošana ir uz prioritāti balstītas plānošanas pamats. Plānošanas prioritāte nosaka pieprasījuma vai piedāvājuma rindas svarīgumu. Optimizācijas plānošana to izmanto, kad **vajadzību koda** laukam ir iestatīta *prioritāte*.
+*Prioritātes informācijas* par piedāvājumu un pieprasījumu plānošana ir uz prioritāti balstītas plānošanas pamats. Plānošanas prioritāte nosaka pieprasījuma vai piedāvājuma rindas svarīgumu. Vispārējā plānošana to izmanto, kad vajadzības **koda lauks** ir iestatīts uz *Prioritāte*.
 
 Plānošanas prioritāte parasti ir skaitlis no 0 (nulle) līdz 100, kur 0 apzīmē augstāko svarīgumu. Tas ir parādīts un iestatīts laukā **Plānošanas** prioritāte. Šo lauku var atrast šādās lapās: **pieprasījuma** apjoma prognozes rindas, pārdošanas pasūtījuma detaļas, **pirkšanas** pasūtījuma **detaļas,** **·** **detalizēta informācija par pārsūtīšanas pasūtījumu un detalizēta informācija par plānoto pasūtījumu**.
 
-Ja atbilstošā krājuma vai vajadzības grupas vajadzības kods ir iestatīts uz Prioritāte, plānošanas optimizācijas bilances piedāvājums ar pieprasījumu, izmantojot uz pieprasījumu balstītas pieejas, kā tas aprēķina plānošanas prioritāti un katrai izlaistajai precei apsver vērtības, **kas** ir iestatītas lapas Krājumu vajadzība laukos Minimālais, *·* **·** **Pārkārtot** un Maksimālais.**·** **·**
+Ja atbilstošā krājuma vai vajadzības grupas vajadzības kods ir iestatīts uz Prioritāte, vispārējā plānošana līdzsvaro piedāvājumu ar pieprasījumu, izmantojot uz pieprasījumu balstītas pieejas, kā tas aprēķina plānošanas prioritāti un katrai izlaistajai precei apsver vērtības, **kas** ir iestatītas lapas Krājumu vajadzība laukos Minimālais, *·* **·** **Atkārtotais** pasūtījums un Maksimālais.**·** **·**
 
 > [!NOTE]
 > Prioritātes *vērtība* ir pieejama tikai tad, **ja ir** iespējota plānošanas optimizācija.

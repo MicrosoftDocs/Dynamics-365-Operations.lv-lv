@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889524"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739734"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Plānošanas optimizācijas problēmu novēršana 
 
@@ -37,13 +37,13 @@ Plānošanas optimizācijas prasība ir Lifecycle Services (LCS) iespējota, aug
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>Neizdodas pakešuzdevumu plānošana, ja ir iespējota plānošanas optimizācija
 
-Iespējojot plānošanas optimizāciju, iebūvētā vispārējās plānošanas programma tiek automātiski atspējota. Vispārējās plānošanas pakešuzdevumi, kas tika izveidoti iebūvētajam Supply Chain Management plānošanas dzinējam, neizdosies, ja tie tiks aktivizēti plānošanas optimizācijas iespējošanas laikā. Var tikt parādīts kļūdas ziņojums, piemēram, *Šī operācija izraisīja vispārējo plānošanu, kas netiek atbalstīta, ja ir iespējota plānošanas optimizācija*.
+Iespējojot plānošanas optimizāciju, automātiski tiek atspējota novecojusi vispārējās plānošanas programma. Vispārējās plānošanas pakešuzdevumi, kas tika izveidoti novecojusi vispārējās plānošanas programma neizdosies, ja tie tiks izraisīti laikā, kad ir iespējota plānošanas optimizācija. Var tikt parādīts kļūdas ziņojums, piemēram, *Šī operācija izraisīja vispārējo plānošanu, kas netiek atbalstīta, ja ir iespējota plānošanas optimizācija*.
 
-**Labojums**: atceliet visus vispārējās plānošanas pakešuzdevumus, kas tika izveidoti iebūvētajam Supply Chain Management plānošanas dzinējam.
+**Labojums**: atcelt visus vispārējās plānošanas pakešuzdevumus, kas tika izveidoti novecojusī vispārējās plānošanas programmā.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>Plānošanas optimizācijas rezultāti atšķiras no iepriekšējiem rezultātiem
 
-Plānošanas optimizācija dažās jomās atšķiras no iebūvētā vispārējās plānošanas projekta. To var izraisīt arī vēl nepabeigtas funkcijas.
+Optimizācijas plānošana atšķiras no novecojušajiem vispārējās plānošanas programmas dizainiem dažās jomās. To var izraisīt arī vēl nepabeigtas funkcijas.
 
 **Labojums**: palaist plānošanas optimizācijas saderības analīzi un pēc tam analizēt rezultātus, vienlaikus atsaucoties uz saistīto dokumentāciju, lai izprastu ietekmi. Papildinformāciju skatiet [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization-fit-analysis.md).
 
@@ -63,9 +63,8 @@ Tas ir saistīts ar nepabeigtu funkciju, kas tiek plānota kā daļa no ražoša
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Darba sākšana ar plānošanas optimizāciju](get-started.md)
-
-[Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
+- [Sākt ar vispārējo plānošanu](get-started.md)
+- [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

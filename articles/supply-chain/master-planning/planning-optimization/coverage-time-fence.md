@@ -1,6 +1,6 @@
 ---
 title: Vajadzības periods
-description: Šajā rakstā ir aprakstīts, kā iestatīt vajadzību periodus, kad izmantojat plānošanas optimizāciju. Vajadzības periods norāda plānošanas diapazonu un ierobežojumu.
+description: Šajā rakstā ir aprakstīts, kā iestatīt vajadzības periodus. Vajadzības periods norāda plānošanas diapazonu un ierobežojumu.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847938"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740118"
 ---
 # <a name="coverage-time-fences"></a>Vajadzības periods
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā iestatīt *vajadzību periodus*, kad izmantojat plānošanas optimizāciju. Plānotāji var noteikt plānošanas diapazonu (vajadzības periodu dienās), kā arī izslēgt piedāvājumu un pieprasījumu, kas pārsniedz šo diapazonu. Tāpēc vajadzības laika periodi palīdz novērst "troksni", ko rada piedāvājuma ieteikumi, kas nav jā no valsts uz mēnešiem. Piemēri ietver nākamā gada prognozi un debitoru pasūtījumus, kas novietoti ārpus parastā izpildes laika.
+Šajā rakstā ir aprakstīts, kā *iestatīt vajadzības periodus*. Plānotāji var noteikt plānošanas diapazonu (vajadzības periodu dienās), kā arī izslēgt piedāvājumu un pieprasījumu, kas pārsniedz šo diapazonu. Tāpēc vajadzības laika periodi palīdz novērst "troksni", ko rada piedāvājuma ieteikumi, kas nav jā no valsts uz mēnešiem. Piemēri ietver nākamā gada prognozi un debitoru pasūtījumus, kas novietoti ārpus parastā izpildes laika.
 
 Vajadzības periods ir dienu skaits pēc šodienas datuma (vai precīzāk, datums, kad izpildāt plānošanu), kurā piegāde un pieprasījums tiek izslēgts. Lai palīdzētu izvairīties no kavēšanās, jums jānodrošina, ka vajadzības periods ir garāks par kopējo izpildes laiku. Sistēmas noklusējuma vērtība ir 100 dienas.
 
@@ -82,9 +82,9 @@ Iestatot vajadzības periodus, apsveriet šādus punktus:
 - Pieprasījumu darbības netiks ģenerētas nevienam piedāvājumam un pieprasījumam, kas iekrīt ārpus vajadzību perioda.
 - Ja kāds apstiprināts piedāvājums un pieprasījums iekrīt ārpus vajadzību perioda, tas netiks ielādēts programmā. Tādēļ tā aktivizēs papildināšanu un netiks aprēķināti kavējumi. Tomēr šo piedāvājumu un pieprasījumu nedrīkst np no sistēmas.
 - Drošības krājumu daudzumu variācijas (no minimuma atslēgām) tiks ignorētas, ja tās pārsniedz vajadzību periodu.
-- Starpuzņēmumu pieprasījums tiks ignorēts, ja aprēķinātais nosūtīšanas datums nav vajadzības periodā. Ievērojiet, ka iebūvētajā vispārējā plānošanā starpuzņēmumu pieprasījumu ierobežo vajadzību periods.
-- Pieprasījuma apjoma prognozes tiks ignorētas, ja budžeta datums nav norādīts vajadzību periodā. Ievērojiet, ka iebūvētajā vispārējā plānošanā starpuzņēmumu pieprasījumu ierobežo vajadzību periods.
-- Optimizācijas plānošana ir laika josla - zināms. Tas apsver laika joslu piegādes un pieprasījumu vietās un plānošanas izpildes laiku. Piemēram, galvenā plānošana tiek izraisīta 11.00 no Dānijas vietas (GMT+1 laika josla) 15. oktobrī, un tiek izmantots desmit dienu vajadzības periods. Šajā gadījumā piegāde un pieprasījums no vietas Sietlā (GMT-8 laika josla) ir iekļauts līdz 02.00 25. oktobrī (= desmit 24 stundu dienas pēc vispārējās plānošanas aktivizēšanas mīnus deviņas stundas laika joslas starpība). Ievērojiet, ka iebūvētā vispārējās plānošanas programma ņem vērā tikai laika perioda datumu. Tāpēc rezultāts var atšķirties.
+- Starpuzņēmumu pieprasījums tiks ignorēts, ja aprēķinātais nosūtīšanas datums nav vajadzības periodā. Ievērojiet, ka vispārējās plānošanas programmas nolietojuma aprēķinam starpuzņēmumu pieprasījumu ierobežo vajadzību periods.
+- Pieprasījuma apjoma prognozes tiks ignorētas, ja budžeta datums nav norādīts vajadzību periodā. Ievērojiet, ka vispārējās plānošanas programmas nolietojuma aprēķinam pieprasījuma apjoma prognozes nav ierobežojis vajadzību periods.
+- Optimizācijas plānošana ir laika josla - zināms. Tas apsver laika joslu piegādes un pieprasījumu vietās un plānošanas izpildes laiku. Piemēram, galvenā plānošana tiek izraisīta 11.00 no Dānijas vietas (GMT+1 laika josla) 15. oktobrī, un tiek izmantots desmit dienu vajadzības periods. Šajā gadījumā piegāde un pieprasījums no vietas Sietlā (GMT-8 laika josla) ir iekļauts līdz 02.00 25. oktobrī (= desmit 24 stundu dienas pēc vispārējās plānošanas aktivizēšanas mīnus deviņas stundas laika joslas starpība). Ievērojiet, ka nolietotā vispārējās plānošanas programma ņem vērā tikai perioda datumu. Tāpēc rezultāts var atšķirties.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

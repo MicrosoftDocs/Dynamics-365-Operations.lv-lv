@@ -2,7 +2,7 @@
 title: Norēķināšanās modulis
 description: Šajā rakstā ir aprakstīts, kā pievienot lapu pārbaudes moduli un iestatīt nepieciešamos rekvizītus.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280479"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746230"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā rakstā ir aprakstīts, kā pievienot lapu pārbaudes moduli un iestatīt nepieciešamos rekvizītus.
 
@@ -104,6 +105,8 @@ Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešam
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Izveidojiet veidni, kas izmanto jauno norēķināšanās fragmentu.
 1. Izveidojiet norēķināšanās lapu, kas izmanto jauno veidni.
+
+> [PIEZĪME] Izmantojot viena maksājuma autorizāciju [, kā tas ir aprakstīts storefront](./dev-itpro/enhanced-sca.md) pārbaudes uzlaboto maksājumu sadaļā Norēķinu informācijas sadaļā, **apstipriniet**, ka norēķinu sadaļas konteiners ir novietots pēdējais. Tas nodrošina, ka visu nepieciešamo informāciju apkopo norēķinu lapa pirms pēdējās maksājumu paņemšanu un pasūtījumu pabeigšanas darbībām. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 

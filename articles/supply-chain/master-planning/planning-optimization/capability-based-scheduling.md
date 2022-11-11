@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335411"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739903"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Plānošana ar iespējā balstītu resursa atlasi
 
@@ -43,7 +43,7 @@ Lai piešķirtu iespējas darbības resursam, izmantojiet kopsavilkuma cilni **I
 - **Stājas spēkā** — Norādiet pirmo datumu, kurā tiek piemērota resursa vai iespējas piešķire. Plānošanas laikā sistēma nelietos resursu vai iespēju, kurai ir beigusies piešķire, pat, ja šis resurss atbilst prasībām.
 - **Derīguma beigas** — Norādiet pēdējo datumu, kurā tiek piemērota resursa vai iespējas piešķire. Plānošanas laikā sistēma nelietos resursu vai iespēju, kurai ir beigusies piešķire, pat, ja šis resurss atbilst prasībām.
 - **Līmenis** — Norādiet kvalifikācijas līmeni, kuram resursam jābūt attiecībā uz iespēju. Ja resursa vai iespējas prasībai norādāt vērtību **Vajadzīgais minimālais līmenis**, plānošanas rīks ņem resursa atlases laikā ņem vērā kvalifikācijas līmeni. Sistēma atlasa tikai tos resursus, kuriem ir nepieciešama iespēja līmenī, kas ir vienāds ar vai pārsniedz minimālo līmeni, kas norādīts resursu prasībā.
-- **Prioritāte** — Šis lauks vēl nav atbalstīts Plānošanas optimizācijā. Taču, ja lietojat iebūvēto plānošanas rīku, varat lietot **Prioritātes** lauku resursa vai iespējas piešķirē, lai definētu resursa prioritāti. Ja lapā **Parametru plānošana** ir atlasīta lauka **Primāro resursu atlase** vērtība *Prioritāte*, plānošanas laikā sistēma vispirms atlasa resursu ar augtāko prioritāti (t.i., mazāko skaitlisko lauka **Prioritāte** vērtību).
+- **Prioritāte** — Šis lauks vēl nav atbalstīts Plānošanas optimizācijā. Tomēr, ja izmantojat novecojušu vispārējās plānošanas programmu, resursa vai iespējas piešķirē varat izmantot lauku Prioritāte, **lai** definētu resursu prioritāti. Ja lapā **Parametru plānošana** ir atlasīta lauka **Primāro resursu atlase** vērtība *Prioritāte*, plānošanas laikā sistēma vispirms atlasa resursu ar augtāko prioritāti (t.i., mazāko skaitlisko lauka **Prioritāte** vērtību).
 
 ## <a name="example"></a>Paraugs
 

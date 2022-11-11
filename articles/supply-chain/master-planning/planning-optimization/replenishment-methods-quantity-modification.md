@@ -1,6 +1,6 @@
 ---
 title: Papildināšanas metodes un daudzuma modificēšana
-description: Šajā rakstā ir sniegta informācija par papildināšanas metodēm, kas tiek izmantotas optimizācijas plānošanā. Tajā skaidrots arī, kā preces vairāku pasūtījumu daudzums ietekmē rezultātu.
+description: Šajā rakstā ir sniegta informācija par papildināšanas metodēm. Tajā skaidrots arī, kā preces vairāku pasūtījumu daudzums ietekmē rezultātu.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873700"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739762"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Papildināšanas metodes un daudzuma modificēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par papildināšanas metodēm, kas tiek izmantotas optimizācijas plānošanā. Tajā skaidrots arī, kā preces vairāku pasūtījumu daudzums ietekmē rezultātu.
+Šajā rakstā ir sniegta informācija par papildināšanas metodēm. Tajā skaidrots arī, kā preces vairāku pasūtījumu daudzums ietekmē rezultātu.
 
 Papildināšanas metodes pazīstamas arī kā pārklājuma metodes un laidiena izmēru metodes.
 
 ## <a name="coverage-codes"></a>Vajadzības kodi
 
-Plānošanas optimizāciju var konfigurēt tā, lai izmantotu dažādas papildināšanas metodes. Papildināšanas metodes ir metodes, ko sistēma izmanto, lai aprēķinātu preces prasības. Papildināšanas metodes tiek definētas pēc vajadzības kodiem, kurus var iestatīt vajadzību grupai vai precei.
+Vispārējo plānošanu var konfigurēt tā, lai izmantotu dažādas papildināšanas metodes. Papildināšanas metodes ir metodes, ko sistēma izmanto, lai aprēķinātu preces prasības. Papildināšanas metodes tiek definētas pēc vajadzības kodiem, kurus var iestatīt vajadzību grupai vai precei.
 
-Šie vajadzību kodi var tikt izmantoti Plānošanas optimizācijā:
+Var lietot šādus vajadzības kodus:
 
 - **Periods** – papildināšanas metode, kas apvieno visu perioda pieprasījumu vienā pasūtījumā šai precei. Pasūtījums tiks plānots pirmajai perioda dienai, un tā daudzums atbilstīs neto prasībām noteiktajā periodā. Periods sākas ar preces pirmo pieprasījumu un sedz noteikto laika periodu. Nākamais periods sāksies ar nākamās preces prasībām. Vajadzības kods *Periods* bieži tiek izmantots neprognozējamu krājumu izvelkšanai, sezonas ietekmējamām precēm vai augstas izmaksas precēm. Tālāk redzamajā attēlā parādīts piemērs.
 
@@ -64,13 +64,13 @@ Izlaistai precei lapā **Noklusējuma pasūtījuma iestatījumi** varat norādī
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Papildināšanas piemēri, kas izmanto Min./Maks. vajadzības kods
 
-Ja precei laukā **Daudzkārtīgi** nav norādīta vērtība lapā **Noklusējuma pasūtījuma iestatījumi** un ja izmantojat *Min./Max.* papildināšanas metodi, Plānošanas optimizācija papildinās krājumus līdz noteiktam līmenim, kad paredzamais rīcībā esošo krājumu līmenis ir zem noteikta sliekšņa.
+Ja precei laukā **Daudzkārtīgi** nav norādīta vērtība lapā **Noklusējuma pasūtījuma iestatījumi** un ja izmantojat *Min./Max.* Papildināšanas metode, vispārējais plāns papildināšanas krājumus papildinās līdz noteiktam līmenim, ja prognozētais rīcībā esošo krājumu līmenis ir zem noteikta sliekšņa.
 
 Ja precei definējat vairākus daudzumus, *Min./Maks.* papildināšanas metode maina tās darbību un ņem vērā vērtību **Daudzkārtīgi**.
 
-Citiem vārdiem sakot, Plānošanas optimizācija joprojām papildinās krājumus līdz definētajam maksimālajam līmenim, ja prognozētais rīcībā esošo krājumu līmenis ir mazāks par noteikto minimālo līmeni. Tomēr papildināšanas daudzumam jābūt daudzkārtīgai vērtībai **Daudzkārtīgi**.
+Citiem vārdiem sakot, vispārējais plāns joprojām papildinās krājumu līdz definētajam maksimālajam līmenim, ja prognozētais rīcībā esošo krājumu līmenis ir mazāks par noteikto minimālo līmeni. Tomēr papildināšanas daudzumam jābūt daudzkārtīgai vērtībai **Daudzkārtīgi**.
 
-Ja papildināšanas daudzums (starpība starp maksimālo līmeni un prognozēto rīcībā esošo līmeni) nedalās ar definēto daudzkārtēju daudzumu, Plānošanas optimizācija izmanto pirmo iespējamo vērtību, kas kopā ar prognozēto rīcībā esošo līmeni būs zem maksimālā līmeņa. Ja summa ir mazāka par minimālo līmeni, Plānošanas optimizācija izmanto pirmo vērtību, kas kopā ar prognozējamu rīcībā esošo, būs virs maksimālā līmeņa.
+Ja papildināšanas daudzums (starpība starp maksimālo līmeni un prognozēto rīcībā esošo līmeni) ne dalās ar definēto daudzkārtēju daudzumu, vispārējā plānošana izmanto pirmo iespējamo vērtību, kas kopā ar prognozēto rīcībā esošo līmeni būs zem maksimālā līmeņa. Ja summa ir mazāka par minimālo līmeni, vispārējā plānošana izmanto pirmo vērtību, kas kopā ar prognozēto rīcībā esošo daudzumu būs virs maksimālā līmeņa.
 
 Sekojošās apakšsadaļas sniedz dažus piemērus, kas parāda, kā daudzkārtēju pasūtījumu daudzums precei ietekmē rezultātu *Min./Max.* papildināšanas metode.
 

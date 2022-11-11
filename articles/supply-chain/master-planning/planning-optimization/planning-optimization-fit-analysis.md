@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689999"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750712"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
 [!include [banner](../../includes/banner.md)]
 
-Plānošanas optimizācijas atbilstības analīzes rezultāts ir jāanalizē kā migrācijas procesa daļa. Ievērojiet, ka plānošanas optimizācijas apjoms nav vienāds ar pašreizējo iebūvēto vispārējās plānošanas funkcionalitāti. Mēs iesakām jums strādāt ar savu partneri un lasīt dokumentāciju, lai sagatavotos migrācijai. 
+Plānošanas optimizācijas atbilstības analīzes rezultāts ir jāanalizē kā migrācijas procesa daļa. Ņemiet vērā, ka plānošanas optimizācijas tvērums nav vienāds ar novecojušu vispārējās plānošanas programmas funkcionalitāti. Mēs iesakām jums strādāt ar savu partneri un lasīt dokumentāciju, lai sagatavotos migrācijai.
 
-Plānošanas optimizācijas atbilstības analīze palīdz identificēt, kur rezultāts var atšķirties starp iebūvēto vispārējās plānošanas programmu un plānošanas optimizāciju. Šī analīze tiek veikta, pamatojoties uz jūsu pašreizējiem iestatījumiem un datiem. 
+Plānošanas optimizācijas atbilstības analīze palīdz jums noteikt, kur rezultāts var atšķirties no novecojušas vispārējās plānošanas programmas un plānošanas optimizācijas. Šī analīze tiek veikta, pamatojoties uz jūsu pašreizējiem iestatījumiem un datiem. 
 
 Lai skatītu plānošanas optimizācijas atbilstības analīzes rezultātus, dodieties uz **Vispārējā plānošana** \> **Iestatījumi** \> **Plānošanas optimizācijas atbilstības analīze** un tad atlasiet **Palaist analīzi**. Ja analīze atklāj neatbilstības, tās ir uzskaitītas tajā pašā lapā. (Analīze var ilgt dažas minūtes.)
 
@@ -64,7 +64,6 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Pamatkalendāri | Kalendāri, kas izmanto pamatkalendāru: *\#* | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts | 
 | Partijas atgriešanas kodi | Nepieejami partijas atriešanas metodes šabloni: *\#* | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet sadaļā [Partijas atgriešanas kodu lietošana, lai atzīmētu partijas kā pieejamas vai nav pieejamas](../../inventory/batch-disposition-codes.md) | Tiek atbalstīts |
 | Pieejams solīšanai (CTP) | Noklusējuma pasūtījuma iestatījumi ar piegādes datuma vadīklu iestatītu uz CTP: *\#* | Piegādes ķēdes pārvaldības 10.0.28 un jaunākā procesā ar nosaukumu CTP *plānošanas optimizēšanai tiek veikti apstiprināti nosūtīšanas un saņemšanas datumi,* kas ir pieejami pēc dinamiskā plāna palaišanas. Vecākām Piegādes ķēžu pārvaldības versijām, iespējojot plānošanas optimizāciju, tiek ignorēts mantojuma CTP iestatījums. | Tiek atbalstīts |
-| Kopēt statisko uz dinamisko plānu | Statiskā kopēšana uz dinamisko plānu ir iespējota vispārējās plānošanas parametros. | Plānošanas optimizācija nekopē statisko plānu uz dinamisko plānu neatkarīgi no šī iestatījuma. Parasti šī koncepcija nav tik svarīga ātruma un pilnīgas reģenerācijas dēļ, ko nodrošina plānošanas optimizācija. Ja tiek izmantoti divi vai vairāki plāni, katram plānam ir jāaktivizē vispārējā plānošana. | Nav datu |
 | Apstiprināšana | Vajadzības grupas ar iestatītu automātiskās apstiprināšanas periodu: *\#* | Versijā 10.0.7 un jaunākās versijās apstiprināšana tiek atbalstīta kā atsevišķs apstiprināšanas pakešuzdevums pēc vispārējās plānošanas pabeigšanas (ar nosacījumu, ka *Automātiskās apstiprināšanas līdzeklis plānošanas optimizācijai* ir iespējots [līdzekļu pārvaldībā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Ņemiet vērā, ka automātiskā apstiprināšana plānošanas optimizācijai ir balstīta uz pasūtījuma datumu (sākuma datumu), nevis prasību datumu (beigu datumu). Tas nodrošina, ka plānoto pasūtījumu apstiprināšana notiek laikus, neiekļaujot izpildes laiku apstiprināšanas laika periodā. | Tiek atbalstīts |
 | Apstiprināšana | Vienumu vajadzības ieraksti ar iestatītu automātisko apstiprināšanu: *\#* | Versijā 10.0.7 un jaunākās versijās automātiskā apstiprināšana tiek atbalstīta kā atsevišķs apstiprināšanas pakešuzdevums pēc vispārējās plānošanas pabeigšanas (ar nosacījumu, ka *Automātiskās apstiprināšanas līdzeklis plānošanas optimizācijai* ir iespējots [līdzekļu pārvaldībā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Ņemiet vērā, ka automātiskā apstiprināšana plānošanas optimizācijai ir balstīta uz pasūtījuma datumu (sākuma datumu), nevis prasību datumu (beigu datumu). Tas nodrošina, ka plānoto pasūtījumu apstiprināšana notiek laikus, neiekļaujot izpildes laiku apstiprināšanas laika periodā. | Tiek atbalstīts |
 | Apstiprināšana | Vispārējie plāni ar iestatītu automātisko apstiprināšanu: *\#* | Versijā 10.0.7 un jaunākās versijās automātiskā apstiprināšana tiek atbalstīta kā atsevišķs apstiprināšanas pakešuzdevums pēc vispārējās plānošanas pabeigšanas (ar nosacījumu, ka *Automātiskās apstiprināšanas līdzeklis plānošanas optimizācijai* ir iespējots [līdzekļu pārvaldībā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Ņemiet vērā, ka automātiskā apstiprināšana plānošanas optimizācijai ir balstīta uz pasūtījuma datumu (sākuma datumu), nevis prasību datumu (beigu datumu). Tas nodrošina, ka plānoto pasūtījumu apstiprināšana notiek laikus, neiekļaujot izpildes laiku apstiprināšanas laika periodā. | Tiek atbalstīts |
@@ -93,34 +92,27 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Ražošana | Formulu versijas ar blakusproduktiem/līdzproduktiem: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik līdzprodukti un blakusprodukti, kas ir saistīti ar formulas versiju, tiek ignorēti, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens |
 | Ražošana | Formulu versijas ar ienesīgumu: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik ienesīgums, kas ir saistīts ar formulas versiju, tiek ignorēts, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens |
 | Ražošana | Plāni ar secību: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik secība tiek ignorēta, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 20 222 laidiena 2. laidiens |
-| Ražošana | Izpildei nodotie ražošanas pasūtījumi, kas nav iesākti, ja sākšana ir ieplānota agrāk nekā šodien: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik, ja ražošanas pasūtījums tiek aizkavēts, vispārējā plānošana pieņem, ka tas tiks pabeigts šodien. Tas attiecas uz izpildei nodotajiem ražošanas pasūtījumiem, kuru piegādes datums ir pagātnē, bet tas vēl nav pabeigts. | Turpmāks kopums |
+| Ražošana | Izpildei nodotie ražošanas pasūtījumi, kas nav iesākti, ja sākšana ir ieplānota agrāk nekā šodien: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik, ja ražošanas pasūtījums tiek aizkavēts, vispārējā plānošana pieņem, ka tas tiks pabeigts šodien. Tas attiecas uz izpildei nodotajiem ražošanas pasūtījumiem, kuru piegādes datums ir pagātnē, bet tas vēl nav pabeigts. | 20 222 laidiena 2. laidiens |
 | Ražošana | Resursi, kas plānoti ar ierobežotu noslodzi: *\#* | Šis līdzeklis tagad tiek atbalstīts.| Tiek atbalstīts |
 | Ražošana | Plānošanā izmantotie maršruti: *\#* | Šī funkcija tiek atbalstīta. | Tiek atbalstīts |
-| Ražošana | Tirdzniecības līnijas rezervēšana, izmantojot izvēršanu: *\#* | Pārdošanas rindas rezervācija, kas izmanto izvēršanu, netiek atbalstīta, ja ir iespējota plānošanas optimizācija. | Turpmāks kopums |
-| Ražošana | Plānošana ar ražošanas pasūtījumu izvēršanu: *\#* | Plānošana ar ražošanas pasūtījumu izvēršanu netiek atbalstīta, ja ir iespējota plānošanas optimizācija. Ražošanas pasūtījumus var plānot atsevišķi. | Turpmāks kopums |
+| Ražošana | Tirdzniecības līnijas rezervēšana, izmantojot izvēršanu: *\#* | Pārdošanas rindas rezervācija, kas izmanto izvēršanu, netiek atbalstīta, ja ir iespējota plānošanas optimizācija. | 20 222 laidiena 2. laidiens |
+| Ražošana | Plānošana ar ražošanas pasūtījumu izvēršanu: *\#* | Plānošana ar ražošanas pasūtījumu izvēršanu netiek atbalstīta, ja ir iespējota plānošanas optimizācija. Ražošanas pasūtījumus var plānot atsevišķi. | 20 222 laidiena 2. laidiens |
 | Piedāvājumu pieprasījumi | Vispārējie plāni ar iespējotu piedāvājumu pieprasījumu: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumu pieprasījumi (PP) netiek uzskatīti par pieprasījumu, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 20 222 laidiena 2. laidiens |
 | Pieprasījumi | Vispārējie plāni ar iespējotiem pieprasījumiem: *\#* | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet [Pirkšanas pieprasījumi](purchase-requisitions.md) | Tiek atbalstīts |
 | Drošības rezerves | Vajadzības grupas ar drošības rezervi: *\#* | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) | Tiek atbalstīts |
 | Drošības rezerves | Vispārējie plāni ar drošības rezervi: *\#* | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) |  Tiek atbalstīts |
-| Drošības rezerves izpilde | Krājumu pārklājuma ieraksti ar atzīmi "Izpildīt minimālo", kas atšķiras no "Šodienas datuma + sagādes laiks": *\#* | Plānošanas optimizācija vienmēr izmanto *Šodienas datumu + sagādes laiku*. Šī izmaiņa tiek veikta, lai nākotnē sagatavotos vienkāršotai plānošanas iestatīšanai un sniegtu darbības rezultātu. Ja sagādes laiks nav iekļauts drošības krājumos, plānotie pasūtījumi, kas izveidoti pašreizējam ar zemu pieejamības līmeni esošajam krājumam, izpildes laika dēļ vienmēr tiks aizkavēti. Šī uzvedība var izraisīt ievērojamu troksni un nevēlamus plānotos pasūtījumus. Vislabākā prakse ir mainīt iestatījumu, lai tiktu izmantots *Šodienas datums + sagādes laiks*. Atjauniniet pamatdatus, lai izvairītos no brīdinājumiem. | Nav piemērojams |
-| Pārdošanas piedāvājumi | Vispārējie plāni ar iespējotiem pārdošanas piedāvājumiem: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumi netiek ņemti vērā, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 20 222 laidiena 2 vai jaunāka versija |
-| Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: *\#* | Šī funkcija ir gaidīšanas režīmā. | 20 222 laidiena 2. laidiens |
+| Pārdošanas piedāvājumi | Vispārējie plāni ar iespējotiem pārdošanas piedāvājumiem: *\#* | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumi netiek ņemti vērā, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 20 222 laidiena 2. laidiens |
+| Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: *\#* | Šis līdzeklis tagad tiek atbalstīts. | Tiek atbalstīts |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Plānošanas optimizācijas apskats](planning-optimization-overview.md)
-
-[Darba sākšana ar plānošanas optimizāciju](get-started.md)
-
-[Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju](planning-optimization-differences-with-built-in.md)
-
-[Parametri, kas netiek izmantoti plānošanas optimizācijai](not-used-parameters.md)
-
-[Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
-
-[Filtru lietošana plānam](plan-filters.md)
-
-[Plānošanas darba atcelšana](cancel-planning-job.md)
+- [Vispārējās plānošanas sistēmas arhitektūra](../master-planning-architecture.md)
+- [Sākt ar vispārējo plānošanu](get-started.md)
+- [Atšķirības starp vispārējo plānošanu un plānošanas optimizāciju](planning-optimization-differences-with-built-in.md)
+- [Parametri, kas netiek izmantoti plānošanas optimizācijai](not-used-parameters.md)
+- [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
+- [Krājumu apakškopas plānošanas palaišana](plan-filters.md)
+- [Plānošanas darba atcelšana](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

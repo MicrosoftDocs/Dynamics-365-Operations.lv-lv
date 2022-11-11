@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335381"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740473"
 ---
 # <a name="delay-tolerance-negative-days"></a>Aizkavēšanās tolerance (negatīvās dienas)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Sistēma saista aizkavēšanās tolerances aprēķinu ar *agrāko papildināšan
 Šī formula nodrošina, ka vispārējā plānošana neveido jaunus piegādes pasūtījumus, ja preces izpildes laikā ir pietiekami daudz piegādes.
 
 > [!NOTE]
-> Aizkavēšanās tolerances aprēķins Plānošanas optimizācijā vienmēr izmanto dinamisko negatīvo dienu aprēķinu no iebūvētās vispārējās plānošanas. Iestatījums **Izmantot dinamiskās negatīvās dienas** lapā **Vispārējās plānošanas parametri** neietekmē šo uzvedību.
+> Aizkavēšanās tolerances aprēķins optimizācijas plānošanā vienmēr izmanto dinamisko negatīvo dienu aprēķinu no novecojušas vispārējās plānošanas programmas. Iestatījums **Izmantot dinamiskās negatīvās dienas** lapā **Vispārējās plānošanas parametri** neietekmē šo uzvedību.
 
 Ja esošais piedāvājums ietver pieprasījuma aizkavi, kas ir mazāka par vai vienāda ar aprēķināto aizkavēšanās toleranci, Plānošanas optimizācija piesaista esošo piedāvājumu ar pieprasījumu. Dažos gadījumos labāk ir novilcināt pieprasījumu, nevis panākt pārmērīgu piedāvājumu.
 
