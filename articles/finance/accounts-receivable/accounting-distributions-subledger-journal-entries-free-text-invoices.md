@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712291"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778416"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas ieraksti brīva teksta rēķiniem
 
@@ -30,9 +30,9 @@ Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, pi
 
 ## <a name="accounting-distributions"></a>Uzskaites sadales
 
-Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.
+Jūs varat izmantot šādas pogas **brīvā teksta rēķina** lapā, lai skatītu un, iespējams, mainītu grāmatvedības sadalījumus katrai summai brīvā teksta rēķinā.
 
--   **Sadalīt summas**— skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem vai izmaksām. Apakšrindu uzskaites sadales varat arī skatīt un mainīt tieši no lapas Pārdošanas nodokļa transakcijas vai Maksu darbības.
+-   **Sadalīt summas**— skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem vai izmaksām. Varat arī skatīt un mainīt pakārtotās rindas uzskaites sadalījumus tieši **lapā PVN transakcijas vai** lapā Maksas **transakcijas**.
     -   Mainiet brīva teksta rēķina galvenes summas, piemēram, izmaksas vai valūtas noapaļošanas summas.
     -   Mainiet brīva teksta rēķina rindas summas.
 -   **Skatīt sadales**— skatiet visu dokumenta rindu uzskaites sadales. No šī skata uzskaites sadales nevar mainīt.
@@ -62,7 +62,7 @@ Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakst�
 <li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
 <li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
 <li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li>Izmantojiet noklusējuma finanšu dimensiju vērtības no Virsgrāmatas konta lapā Kontu plāns.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -84,26 +84,26 @@ Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakst�
 <td>Virsgrāmatas konts brīva teksta rēķina rindā.</td>
 <td><ol>
 <li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li>Izmantojiet noklusējuma finanšu dimensiju vērtības no Virsgrāmatas konta lapā Kontu plāns.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Brīva teksta rēķina atlaides summa</td>
-<td>Lauks Galvenais konts debitoru atlaidēm lapā Termiņatlaides.</td>
+<td>Lauks Debitoru atlaižu galvenais konts lapā Termiņatlaides.</td>
 <td><ol>
 <li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
 <li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
 <li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li>Izmantojiet noklusējuma finanšu dimensiju vērtības no Virsgrāmatas konta lapā Kontu plāns.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Brīva teksta rēķina pārdošanas nodokļa summa</td>
-<td>Lauks Maksājamais pārdošanas nodoklis lapā Virsgrāmatas grāmatošanas grupas.</td>
+<td>Lauks Maksājamais PVN lapā Grāmatošanas grupas Virsgrāmatā.</td>
 <td><ol>
 <li>Izmantot finanšu dimensijas, kas ir definētas brīva teksta rēķina rindas summai, vai sadales maksa rindas summai.</li>
 <li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li>Izmantojiet noklusējuma finanšu dimensiju vērtības no Virsgrāmatas konta lapā Kontu plāns.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -113,14 +113,14 @@ Kad ievadāt brīva teksta rēķinu, katra summa tiek sadalīta tālāk aprakst�
 <li>Ja galvenais konts ir sadalījuma konts, izmantot noklusējuma vērtību no sadalījuma konta definīcijas.</li>
 <li>Ja galvenais konts nav sadalījuma konts, brīva teksta rēķina rindā izmantot finanšu dimensijas noklusējuma veidni.</li>
 <li>Brīva teksta rēķina rindā izmantot noklusējuma finanšu dimensiju vērtības.</li>
-<li>Izmantot noklusējuma finanšu dimensiju vērtības no virsgrāmatas konta lapā Kontu plāns.</li>
+<li>Izmantojiet noklusējuma finanšu dimensiju vērtības no Virsgrāmatas konta lapā Kontu plāns.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="distributing-taxes"></a>Nodokļu sadalīšana
-Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas. Lai aprēķinātu pārdošanas nodokļus, ir jāizpilda viens no tālāk aprakstītajiem uzdevumiem formā Brīva teksta rēķins.
+Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas. Lai aprēķinātu tirdzniecības nodokļus, lapā Brīvs **teksts ir** jāizpilda viens no šiem uzdevumiem:
 -   Apskatiet PVN.
 -   Apskatiet rēķina kopsummu.
 -   Apskatiet skaidras naudas plūsmu.

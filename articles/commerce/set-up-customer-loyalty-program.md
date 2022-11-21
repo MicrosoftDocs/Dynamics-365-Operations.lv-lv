@@ -1,33 +1,29 @@
 ---
 title: Lojalitātes programmas pārskats
-description: Šajā rakstā ir aprakstītas lojalitātes programmas iespējas Dynamics 365 Commerce un atbilstošie iestatīšanas soļi, lai palīdzētu mazumtirgotājam viegli uzsākt darbu ar lojalitātes programmas ietvaros.
+description: Šajā rakstā ir aprakstītas tajā ietvertās Dynamics 365 Commerce lojalitātes iespējas un atbilstošās iestatīšanas darbības, lai palīdzētu mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 author: josaw1
-ms.date: 07/21/2020
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.region: global
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.custom: 16201,  ""intro-internal
+ms.custom: 16201, "intro-internal"
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
-ms.search.industry: Retail
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
-ms.openlocfilehash: e1b2a5ec6d1a2b925ccae07b5217fbb24a2e6a10
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 17742bb5c0091804fc6f43bb2aabb7af73229890
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277993"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784969"
 ---
 # <a name="loyalty-overview"></a>Lojalitātes programmas apskats
 
 [!include [banner](includes/banner.md)]
 
-Lojalitātes programmas var palīdzēt paaugstināt klientu lojalitāti, atlīdzinot klientiem par viņu veikto mijiedarbību ar mazumtirgotāja zīmolu. Programmā Dynamics 365 Commerce varat iestatīt vienkāršas vai sarežģītas lojalitātes programmas, kas tiek lietotas jūsu juridiskajām personām jebkurā komercijas kanālā. Šajā rakstā ir aprakstītas lojalitātes programmas iespējas pakalpojumā Commerce un atbilstošie iestatīšanas soļi, lai palīdzētu mazumtirgotājam viegli uzsākt darbu ar lojalitātes programmām.
+Lojalitātes programmas var palīdzēt paaugstināt klientu lojalitāti, atlīdzinot klientiem par viņu veikto mijiedarbību ar mazumtirgotāja zīmolu. Programmā Dynamics 365 Commerce varat iestatīt vienkāršas vai sarežģītas lojalitātes programmas, kas tiek lietotas jūsu juridiskajām personām jebkurā komercijas kanālā. Šajā rakstā ir aprakstītas lojalitātes iespējas programmā Commerce un atbilstošās iestatīšanas darbības, lai palīdzētu mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 
 Lojalitātes programmu var iestatīt tā, lai tajā būtu ietvertas tālāk aprakstītās opcijas.
 
@@ -36,6 +32,11 @@ Lojalitātes programmu var iestatīt tā, lai tajā būtu ietvertas tālāk apra
 - Definējiet pelnīšanas nosacījumus, lai identificētu darbības, kas klientam ir jāizpilda, lai iegūtu atlīdzību. Varat arī definēt atsaukšanas nosacījumus, lai identificētu, kad un kā klients var atcelt atlīdzības.
 - Izsniedziet lojalitātes programmas kartes visos kanālos, kas piedalās jūsu lojalitātes programmā, un piesaistiet atlaižu kartes vienai vai vairākām lojalitātes programmām, kurās klients var piedalīties. Klienta ierakstu varat arī saistīt ar lojalitātes programmas karti, lai iespējotu lojalitātes programmas punktu apvienošanu no vairākām kartēm un to izpirkšanu.
 - Manuāli pielāgojiet lojalitātes programmas kartes vai pārsūtiet lojalitātes programmas atlīdzību bilanci no vienas kartes uz citu, lai uzņemtu vai izsniegtu atlīdzību klientam.
+
+Šajā videoklipā ir sniegts pārskats un demonstrācija par lojalitātes iespējām pakalpojumā Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wW]
 
 ## <a name="setting-up-loyalty-programs"></a>Lojalitātes programmas iestatīšana
 

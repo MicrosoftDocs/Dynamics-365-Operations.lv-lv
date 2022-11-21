@@ -2,23 +2,23 @@
 title: Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana kreditoram
 description: Izmantojiet žurnāla dokumentu, lai reģistrētu informāciju ar iepriekšēju datumu datētam čekam, pirms čeku izsniedzat kreditoram.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b06c5b8d3a4817f05de523aabdbabba045c2c10
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 312f7c58352e3cb86c22f8c34b1b6c11456c0083
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727291"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779484"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana kreditoram
 
@@ -26,30 +26,28 @@ ms.locfileid: "8727291"
 
 Izmantojiet žurnāla dokumentu, lai reģistrētu informāciju ar iepriekšēju datumu datētam čekam, pirms čeku izsniedzat kreditoram. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas. Pirms reģistrējat un grāmatojat ar iepriekšēju datumu datētu čeku, ko esat saņēmis no kreditora, izpildiet tālāk norādīto uzdevumu: 
 
-Iestatiet ar iepriekšēju datumu datētus čekus lapā Kases un bankas pārvaldība. 
-
-
+Iestatiet grāmatotos čekus **lapā Skaidras naudas un bankas pārvaldība**. 
 
 Šī uzdevuma izpildei nepieciešama loma Kasieris. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Dodieties uz Parādi kreditoriem > Maksājumi > Maksājumu žurnāls.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Nosaukums ierakstiet VendPay.
-4. Noklikšķiniet uz Rindas.
-5. Laukā Konts norādiet vēlamās vērtības.
+1. Dodieties uz Acounts **maksājamo > Maksājumu > maksājumu žurnāls**.
+2. Klikšķiniet **Jauns**.
+3. **Laukā Name (Nosaukums**) ierakstiet "VendPay".
+4. Noklikšķiniet uz **Rindas**.
+5. Laukā **Konts** norādiet vēlamās vērtības.
 6. Sarakstā atzīmējiet atlasīto rindu.
-7. Laukā Debets ievadiet kādu skaitli.
-8. Laukā Maksāšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
+7. Laukā **Debets** ievadiet kādu skaitli.
+8. **Laukā Maksājuma** metode noklikšķiniet uz nolaižamās izvēlnes pogas, lai atvērtu uzmeklēšanu.
     * Maksāšanas tipa atlasīšana ar iepriekšēju datumu datētajam čekam  
 9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 10. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-11. Noklikšķiniet uz cilnes Ar iepriekšēju datumu datēti čeki.
-12. Laukā Čeka numurs ierakstiet vērtību.
+11. Noklikšķiniet uz **cilnes Grāmatotās pārbaudes**.
+12. Laukā **Pārbaudes numurs** ierakstiet vērtību.
     * Ievadiet vai rediģējiet ar iepriekšēju datumu datētā čeka numuru.  
-13. Laukā Izdevēja bankas nosaukums ierakstiet vērtību.
-    * Ievadiet ildinformāciju par izdevēja banku.  
-14. Noklikšķiniet uz cilnes Saraksts.
-15. Noklikšķiniet uz Grāmatot.
+13. **Laukā Izdevējbankas nosaukums** ierakstiet vērtību.
+    * Ievadiet izdevēja bankas informāciju.  
+14. Noklikšķiniet uz **cilnes Saraksts**.
+15. Noklikšķiniet uz **Grāmatot**.
 16. Aizvērt lapu.
 17. Noklikšķiniet uz cilnes Ar iepriekšēju datumu datēti čeki.
 

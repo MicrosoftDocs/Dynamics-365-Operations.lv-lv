@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713676"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775304"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Debitora norakstīšanas žurnāla izveide
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713676"
 7. Ejiet uz **Navigācijas rūts > Moduļi > Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**.
 8. Atlasiet žurnālu partijas numuru tam žurnālam, kas satur jūsu norakstāmās transakcijas. Lai atgrieztu debitora bilanci, tiek izveidota viena rinda. Lai norakstīšanu iegrāmatotu norakstīšanas kontā, tiek izveidota viena vai vairākas rindas.  
 9. Aizvērt lapu.
-10. Aizvērt lapu.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Norakstiet transakcijas no iekasēšanas veidlapas.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Norakstīt darījumus no iekasēšanas lapas
 1. Pārejiet uz sadaļu **Kredīts un iekasēšana > Iekasēšana > Vecas bilances**.
 2. Atlasiet tā debitora nosaukumu, kuram atbilst transakcijas, kuras vēlaties norakstīt. Piemēram, atlasiet Cave Wholesales (US-004).
 3. Atzīmējiet pirmās transakcijas rindu.
@@ -63,7 +63,7 @@ ms.locfileid: "8713676"
 10. Ejiet uz **Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**.
 11. Atlasiet žurnālu partijas numuru tam žurnālam, kas satur jūsu norakstāmās transakcijas. Lai atgrieztu debitora bilanci, tiek izveidota viena rinda. Lai norakstīšanu iegrāmatotu norakstīšanas kontā, tiek izveidota viena vai vairākas rindas.  
 12. Aizvērt lapu.
-13. Aizvērt lapu.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Rēķina norakstīšana no atvērto debitoru rēķinu lapas
 1. Ejiet uz **Navigācijas rūts > Moduļi > Debitori > Rēķini > Atvērtie klientu rēķini**.

@@ -2,25 +2,25 @@
 title: Viena maksājuma lietošana, lai nosegtu rēķinus ar vairākiem atlaižu periodiem
 description: Šajā rakstā ir izskaidrots, kā vairāki rēķini tiek apmaksāti, ja katram rēķinam var piemērot termiņatlaidi. Šajā rakstā aprakstītajā scenārijā galvenā uzmanība pievērsta termiņatlaidēm, kas tiek piemērotas atkarībā no maksājuma veikšanas laika.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872649"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780271"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Viena maksājuma lietošana, lai nosegtu rēķinus ar vairākiem atlaižu periodiem
 
@@ -44,11 +44,11 @@ Ja Ārnijs izveido maksājumu žurnālu, lai pilnībā apmaksātu šos rēķinus
 -   Rēķina FTI-10041 apmaksas summa ir 990,00. Tiek lietota termiņatlaide 1 procenta vai 10,00 apmērā.
 -   Rēķina FTI-10042 apmaksas summa ir 980,00. Tiek lietota termiņatlaide 2 procentu vai 20,00 apmērā.
 
-| Atzīmēt                     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Atlasīts                 | Parastais            | FTI-10040 | 4032    | 15.05.2015 | 15.06.2015 | 10040   | 1000,00                             |                                       | USD      | 1000,00         |
-| Atlasīts                 | Parastais            | FTI-10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1000,00                             |                                       | USD      | 990,00           |
-| Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 980,00           |
+| Atzīmēt | Izmantot termiņatlaidi | Dokuments   | Konts | Datums   | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Atlasīts     | Parastais      | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00  |                    | USD      | 1,000.00         |
+| Atlasīts     | Parastais      | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |                    | USD      | 990.00           |
+| Atlasīts un iezīmēts | Parastais      | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00    |              | USD      | 980.00           |
 
 Pēc maksājuma grāmatošanas debitora bilance ir 0,00.
 
@@ -60,19 +60,19 @@ Ja Ārnijs izveido maksājumu žurnālu, lai pilnībā apmaksātu šos rēķinus
 -   Rēķina FTI-10042 apmaksas summa ir 990,00. Tiek lietota termiņatlaide 1 procenta vai 10,00 apmērā. Lai gan 1. jūlijs ir pēc perioda, kad ir pieejama atlaide 2 procentu apmērā, tas joprojām ir periodā, kad ir pieejama atlaide 1 procenta apmērā.
 
 | Atzīmēt                     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Atlasīts                 | Parastais            | FTI-10040 | 4032    | 15.05.2015 | 15.06.2015 | 10040   | 1000,00                             |                                       | USD      | 1000,00         |
-| Atlasīts                 | Parastais            | FTI-10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1000,00                             |                                       | USD      | 990,00           |
-| Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 990,00           |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Atlasīts         | Parastais            | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00         |                | USD      | 1,000.00         |
+| Atlasīts                 | Parastais            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |               | USD      | 990.00           |
+| Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00  |             | USD      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Daļēja segšana 29. jūnijā
 Debitors 4032 var maksāt daļēju summu, piemēram, puse no katra rēķina summas. Ārnijs izveido maksājumu debitoram 4032 un pēc tam atver lapu **Transakciju nosegšana**. Lapā **Transakciju nosegšana** Ārnijs atzīmē visas trīs rēķinu rindas segšanai. Katrā rindā Ārnijs ievada sedzamo summu, pamatojoties uz debitora sniegtajiem norādījumiem. Kad Ārnijs atlasa rindu, viņš redz šīs rindas atlaides summu un izmantoto termiņatlaides summu. Tā kā debitors apmaksā pusi no rēķina summas, Ārnijs redz, ka rēķina FTI-10042 lauka **Termiņatlaides summa** vērtība ir **20,00**, bet lauka **Paņemta termiņatlaides summa** vērtība ir **10,00**. Maksājuma summa ir 1485,00.
 
-| Atzīmēt                     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Atlasīts                 | Parastais            | FTI-10040 | 4032    | 15.05.2015 | 15.06.2015 | 10040   | 1000,00                             |                                       | USD      | 500,00           |
-| Atlasīts                 | Parastais            | FTI-10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1000,00                             |                                       | USD      | 495,00           |
-| Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1000,00                             |                                       | USD      | 490,00           |
+| Atzīmēt   | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Atlasīts   | Parastais       | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00        |               | USD      | 500.00           |
+| Atlasīts                 | Parastais            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00     |     | USD      | 495,00           |
+| Atlasīts un iezīmēts | Parastais            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00     |         | USD      | 490,00           |
 
 Ārnijs var arī manuāli ievadīt maksājuma summu 1485,00, pirms viņš **Nosegt transakcijas** lapas atvēršanas. Ja Ārnijs maksājuma summu ievada manuāli un pēc tam atzīmē visas trīs transakcijas, bet nekoriģē katras transakcijas lauka **Nosedzamā summa** vērtību, tad viņš, aizverot lapu, saņem tālāk norādīto ziņojumu.
 
@@ -88,11 +88,11 @@ Arnijs apskata informāciju lapā **Debitoru darbības**.
 
 | Dokuments    | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance  | Valūta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10040  | Rēķins          | 15.05.2015 | 10040   | 1000,00                             |                                       | 0,00     | USD      |
-| FTI-10041  | Rēķins          | 25.06.2015 | 10041   | 1000,00                             |                                       | 1000,00 | USD      |
-| FTI-10042  | Rēķins          | 25.06.2015 | 10042   | 1000,00                             |                                       | 505,10   | USD      |
-| ARP-10040  | Maksājums          | 29.06.2015 |         |                                      | 1485,00                              | 0,00     | USD      |
-| DISC-10040 | Termiņatlaide    | 29.06.2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+| FTI-10040  | Rēķins          | 5/15/2020 | 10040   | 1,000.00                             |                                       | 0,00     | USD      |
+| FTI-10041  | Rēķins          | 6/25/2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | USD      |
+| FTI-10042  | Rēķins          | 6/25/2020 | 10042   | 1,000.00                             |                                       | 505,10   | USD      |
+| ARP-10040  | Maksājums          | 6/29/2020 |         |                                      | 1485,00                              | 0,00     | USD      |
+| DISC-10040 | Termiņatlaide    | 6/29/2020 |         |                                      | 9,90                                  | 0,00     | USD      |
 
 
 

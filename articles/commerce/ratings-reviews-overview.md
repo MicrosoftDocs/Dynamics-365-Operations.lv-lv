@@ -1,33 +1,28 @@
 ---
 title: Vērtējumu un atsauksmju apskats
-description: Šis dokuments aptver vērtējumus un pārskatus Microsoft Dynamics 365 Commerce.
+description: Šis raksts attiecas uz vērtējumiem un atsauksmēm sadaļā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269005"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785151"
 ---
 # <a name="ratings-and-reviews-overview"></a>Vērtējumu un atsauksmju apskats
 
 [!include [banner](includes/banner.md)]
 
-Šis dokuments aptver vērtējumus un pārskatus Microsoft Dynamics 365 Commerce.
+Šis raksts attiecas uz vērtējumiem un atsauksmēm sadaļā Microsoft Dynamics 365 Commerce.
 
-Vērtējumi un apskati ir izšķiroši e-tirdzniecības klientiem, kuri vēlas uzzināt, kā citi klienti uztver preci. Tie var arī palīdzēt patērētājiem pieņemt lēmumu veikt pirkumu. Dynamics 365 Commerce vērtējumu un apskatu risinājums ļauj mazumtirgotājiem iegūt no klientiem preču vērtējumus un apskatus. Pēc tam mazumtirgotāji savā e-tirdzniecības tīmekļa vietnē var parādīt vidējo vērtējumu un apskatu informāciju.
+Vērtējumi un atsauksmes ir ļoti svarīgas e-komercijas klientiem, kuri vēlas uzzināt, kā citi klienti uztver produktu. Tie var arī palīdzēt patērētājiem pieņemt lēmumu veikt pirkumu. Dynamics 365 Commerce vērtējumu un apskatu risinājums ļauj mazumtirgotājiem iegūt no klientiem preču vērtējumus un apskatus. Pēc tam mazumtirgotāji var rādīt vidējos vērtējumus un pārskatīt informāciju savā e-komercijas vietnē.
 
 Vidējā vērtējuma informācija tiek parādīta pārdošanas punktā (POS) un zvanu centra kanālos. Tāpēc pārdošanas partneri to var izmantot, lai palīdzētu lietotājiem pieņemt lēmumus. Vērtējumi un apskati var kalpot arī kā atgriezeniskās saites mehānisms, ko mazumtirgotāji var izmantot, lai uzlabotu preces kvalitāti un tādējādi palielinātu pārdošanas apjomu.
 
@@ -42,6 +37,11 @@ Vērtējumu un apskatu risinājums Dynamics 365 Commerce izmanto Azure Cognitive
 Vērtējumu un apskatu risinājums nodrošina logrīkus, kas parāda vērtējumu kopsavilkumus preču sarakstos, meklēšanas rezultātos, lapā preces detalizētas informācijas lapā un citās vietās. Logrīki parāda pabeigtus apskatu sarakstus, un tie sniedz arī kārtošanas un filtrēšanas opcijas.
 
 Vērtējumu un apskatu risinājums nodrošina arī biznesa informācijas (BI) veidni, kas ietver rādītāju kopu, lai sniegtu ieskatu vērtējumos un apskatos. Vērtējumu un apskatu datus var eksportēt tālākai analīzei.
+
+Šajā videoklipā ir sniegts pārskats par vērtējumu un atsauksmju iespējām pakalpojumā Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
 
 ## <a name="additional-resources"></a>Papildu resursi
 

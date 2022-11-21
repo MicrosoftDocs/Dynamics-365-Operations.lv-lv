@@ -2,23 +2,23 @@
 title: Ar iepriekšēju datumu datētu čeku no debitora apmaksa
 description: Ar iepriekšēju datumu datētu čeku var nosegt pēc tam, kad banka to ir dzēsusi.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 896d19eb9bc53cc4987d7a500f221cca06aa11db
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9e61ac6d6785dd0383d5e5dcaca4cc55bf6deb52
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725378"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780020"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Ar iepriekšēju datumu datētu čeku no debitora apmaksa
 
@@ -40,17 +40,17 @@ Pirms šī darba sākšanas jābūt pabeigtiem tālāk minētajiem uzdevumiem.
 
 Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
-1. Pārejiet uz sadaļu Kredīts un iekasēšana > Pieprasījumi un pārskati > Maksājumi > Ar iepriekšēju datumu datēti debitoru čeki.
-2. Noklikšķiniet uz Nosegt.
-3. Noklikšķiniet uz Nosegt klīringa ierakstus.
+1. Dodieties uz Kredīts **un iekasēšana > Pieprasījumi un atskaites > Maksājumi > Debitoru pasta čeki**.
+2. Noklikšķiniet uz **Nokārtot**.
+3. Noklikšķiniet uz **Nokārtot klīringa ierakstus**.
     * Nosedziet debitora kontu, lai veiktu čeka transakciju.  
 4. Aizvērt lapu.
-5. Pārejiet uz sadaļu Virsgrāmata > Žurnāla ieraksti > Virsgrāmatas žurnāli.
-6. Laukā Rādīt atlasiet kādu opciju.
-7. Atzīmējiet vai notīriet izvēles rūtiņu Rādīt tikai lietotāja izveidotu.
+5. Ejiet uz **Virsgrāmata > Žurnāla ieraksti > Vispārējie žurnāli**.
+6. Laukā **Rādīt** atlasiet opciju.
+7. Atzīmējiet vai notīriet izvēles rūtiņu **Rādīt tikai lietotāja izveidotu personu**.
 8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-9. Noklikšķiniet uz Rindas.
-10. Noklikšķiniet uz Dokuments.
+9. Noklikšķiniet uz **Rindas**.
+10. Noklikšķiniet **Dokuments**.
 11. Aizvērt lapu.
 
 

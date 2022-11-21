@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas mobilajā programmā Warehouse Management
-description: Šajā rakstā ir uzskaitīti jaunie un mainītie līdzekļi katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+description: Šajā rakstā ir uzskaitīti jaunie un mainītie līdzekļi katrai izlaistajai korporācijas Microsoft mobilās programmas noliktavas pārvaldība versijai Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,208 +10,220 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702200"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764244"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Jaunumi un izmaiņas mobilajā programmā Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai Microsoft noliktavas pārvaldības mobilās programmas izlaistajai versijai Dynamics 365 Supply Chain Management.
+Šajā rakstā ir uzskaitīti jauni līdzekļi, labojumi, uzlabojumi un zināmās problēmas katrai izlaistajai korporācijas Microsoft noliktavas pārvaldības mobilās programmas versijai Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versija 2.0.37.0
+
+Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
+- Pievienots lietotāja iestatījums, kas ļauj darbiniekiem izvēlēties, kur programma rāda produktu fotoattēlus (gan kartītēs, gan darbību galvenēs, tikai darbību galvenēs vai nerādīs vispār). 
+- Uzlabots detalizētās informācijas kartes ekrāna izkārtojums, samazinot soļa reklāmkaroga izmēru un daudzuma ievades vērpēju, kas atstāj vairāk vietas citam saturam. 
+- Uzlabots lietotāja interfeiss, darbojoties Honeywell Thor ierīcē. 
+- Uzlabots pilnekrāna režīms (attiecas tikai uz ierīcēm ar aparatūras tastatūru). 
+- Uzlaboti rezultāti, kārtojot detalizētas informācijas kartītes un pielāgotas lapas pēc prioritātes vai apakšprioritātes (DataPriority vai DisplaySubPriority). 
+- Pievienots atbalsts vairākām valodām. 
+- Uzlabota stabilitāte. 
+- Uzlaboti vairāki attēli un ikonas. 
 
 ## <a name="version-20350"></a>Versija 2.0.35.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
-- Fiksētā problēma, Android kad programma var saavārijas, ja **darbu** saraksta lapa tika atvērta laikā, kad netika parādīta neviena karte.
+- Novērsta problēma Android, kuras dēļ lietojumprogramma avarētu, ja **darba saraksta** lapa tiktu atvērta, kad nebūtu jārāda kartes.
 
 ## <a name="version-20340"></a>Versija 2.0.34.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
-- Uzlabotā stabilitātes;
-- Uzlabota veiktspēja;
-- Uzlabots ekrāna izkārtojums, lai detalizētās informācijas kartei atļautu vairāk vietas.
-- Darbu saraksta lapai pievienoja **meklēšanas** funkciju. Darbinieki tagad var skenēt vai ierakstīt, lai meklētu visus lapas laukus un nosaukumus.
-- Pieejamo savienojumu saraksts tagad ir sakārtots alfabētiskā secībā.
-- Fiksēta problēma, kur dublikāta kartes tika rādītas krājumiem ar vairākiem krājumu statusiem vienā atrašanās vietā.
-- Fiksētā problēma, kuras **dēļ lielā atlases** saraksta lapa neritinās, lai parādītu iepriekš atlasīto krājumu.
-- Fiksēt meklēšanas joslas krāsas lapā Liels **atlases** saraksts.
-- Fiksētā problēma, kuras noklusējuma poga, kas tika definēta XML, netika izmantota kā iesniegšanas poga.
-- Fiksētā problēma, kad pogas, kas atrodas vairākskenēšanas un ātrās validācijas plūsmās, netika atjauninātas, kad tika skenēti jauni izņēmums.
+- Uzlabota stabilitāte.
+- Uzlabota veiktspēja.
+- Uzlabots ekrāna izkārtojums, lai informācijas kartītē būtu vairāk vietas.
+- Pievienoja meklēšanas funkciju **lapai Darba saraksts**. Darbinieki tagad var skenēt vai rakstīt, lai meklētu visos lapas laukos un nosaukumos.
+- Pieejamo savienojumu saraksts tagad ir sakārtots alfabēta secībā.
+- Novērsta problēma, kuras dēļ karšu dublikāti tika rādīti vieniem un tiem pašiem vieniem un tiem pašiem krājumiem.
+- Novērsta problēma, **kuras dēļ lapa Lielais atlases saraksts** netika ritināta, lai rādītu iepriekš atlasīto vienumu.
+- Izlabotas meklēšanas joslas krāsas **lapā Liels atlases saraksts**.
+- Novērsta problēma, kuras dēļ XML definētā noklusējuma poga netika izmantota kā iesniegšanas poga.
+- Novērsta problēma, kuras dēļ vairāku skenēšanu un ātrās validācijas plūsmas pogas netika atjauninātas, skenējot jaunus ID.
 - Pievienots atbalsts vairākām valodām.
 
 ## <a name="version-20320"></a>Versija 2.0.32.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabotā stabilitātes;
+- Uzlabota stabilitāte.
 
 ## <a name="version-20310"></a>Versija 2.0.31.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
--   Uzlabotā veiktspēja un stabilitātes;
--   Uzlabots lietotāja interfeiss, kas atvieglo un ātrāku darbu ar gariem atlases sarakstiem. Darbinieki tagad var meklēt saraksta krājumu pēc nosaukuma, nevis ritināt pa pilnu sarakstu.
--   Fiksētā problēma, kad iepriekš ievadītās vērtības netika pārrakstītas, skenējot ar rakstzīmi.
+-   Uzlabota veiktspēja un stabilitāte.
+-   Uzlabots lietotāja interfeiss, kas ļauj ātrāk un vienkāršāk strādāt ar gariem atlases sarakstiem. Darbinieki tagad var meklēt saraksta elementu pēc nosaukuma, nevis ritināt pilnu sarakstu.
+-   Novērsta problēma, kuras dēļ iepriekš ievadītās vērtības netika pārrakstītas, skenējot pēc rakstzīmēm.
 
 ## <a name="version-20300"></a>Versija 2.0.30.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabotā stabilitātes;
+- Uzlabota stabilitāte.
 
 ## <a name="version-20280"></a>Versija 2.0.28.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabotā stabilitātes;
-- Tika ieviesta spēja turpināt skenēšanu pat tad, kad uz ekrāna tiek rādīts kļūdas dialogs.
-- Svītrkodos ir pievienots ASCII 10 atbalsts.
-- Uzlabota darbību instrukciju dialoga izmantojamība.
-- Fiksēta problēma, kuras gadījumā var parādīt tukšu ekrānu.
-- Fiksētā problēma, kad darba saraksti netika pareizi ritināti, palaižot.Microsoft Windows
+- Uzlabota stabilitāte.
+- Ieviesta iespēja turpināt skenēšanu pat tad, ja ekrānā tiek parādīts kļūdas dialoglodziņš.
+- Pievienots ASCII 10 atbalsts svītrkodos.
+- Uzlabota soļu instrukciju dialogu lietojamība.
+- Novērsta problēma, kuras dēļ dažreiz varēja tikt parādīts tukšs ekrāns.
+- Novērsta problēma, kuras dēļ darbu saraksti, darbojoties, Microsoft Windows netika ritināti pareizi.
 
 ## <a name="version-20250"></a>Versija 2.0.25.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Palielināta veiktspēja;
-- Stabilitātes pieaugums.
-- Uzlabots **uzziņas lapa,** lai atbalstītu garākus tekstus apakšvirsrakstos.
-- Iekļauts spēja nekavējoties atcelt plūsmu ar vienu piespieklikšķi (**kad Atcelt** ir vienīgā darbība, kas pieejama zem **Papildu darbības**).
-- Fiksētā problēma, kuras laikā reizēm var zaudēt fokusu starp ievades vadīklām **lapā Rediģēt** savienojumu un pielāgotās lapās.
-- Fiksētā problēma, kur pogas reizēm var kļūt bezatbildīgas un paliek kā atlasītas, kad tās ir iekļautas ritināšanas skatā.
-- Fiksētā problēma, kur galvenajā lapā dažreiz var tikt izmantots nepareizs izkārtojums.
+- Palielināta veiktspēja.
+- Palielināta stabilitāte.
+- Uzlabota uzziņu **lapa,** lai atbalstītu garākus tekstus apakšvirsrakstos.
+- Ieviesta iespēja nekavējoties atcelt plūsmu ar vienu pieskārienu vai klikšķi (kad **Atcelt** ir vienīgā darbība, kas pieejama sadaļā **Citas darbības**).
+- Novērsta problēma, kuras dēļ dažreiz var tikt zaudēts fokuss starp ievades vadīklām **lapā Rediģēt savienojumu** un pielāgotajām lapām.
+- Novērsta problēma, kuras dēļ pogas dažkārt var nereaģēt un palikt rādītas kā atlasītas, ja tās ir iekļautas ritināšanas skatā.
+- Novērsta problēma, kuras dēļ dažreiz galvenajā lapā varēja izmantot nepareizu izkārtojumu.
 
 ## <a name="version-20240"></a>Versija 2.0.24.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabotas skenera lapas, lai iespējotu skenēšanas opciju detalizētās **informācijas lapās**.
-- Uzlaboti ekrāni, piemēram, skārienekrāns/skārienekrāns.
-- Uzlabotas veiktspējas problēmas Android.
-- Fiksēts vairāku virsrakstu novietojums, lai pieprasījuma lapā ļautu rādīt vairāk **karšu**.
-- Uzlabota ritināšana, tāpēc ir aktivizēts mazāk attāluma paginācijas ritināšanai.
-- Pievienots garš nospiediet, lai papildu tekstu rādītu **uzziņu** lapā.
-- Fiksētā trūkstošās ierīces ID informācijas Android.
-- Stabilitātes pieaugums.
+- Uzlabotas skenera lapas, lai iespējotu skenēšanas opciju **detalizētas informācijas** lapās.
+- Uzlaboti žesti, piemēram, skārienekrāns/ekrāns.
+- Uzlabotas Android veiktspējas problēmas operētājsistēmai.
+- Fiksēts vairāku galveņu izvietojums, lai lapā Pieprasījums **varētu parādīt** vairāk kartīšu.
+- Uzlabota ritināšana, lai būtu iespējots mazāks attālums lapošanas ritināšanai.
+- Pievienots garš nospiešana, lai parādītu papildu tekstu **pieprasījuma** lapā.
+- Fiksēta trūkstoša ierīces ID informācija par Android.
+- Palielināta stabilitāte.
 - Optimizēts pieteikšanās izkārtojums.
-- Pievienotas lasīšanas labās puses, lai aizvērtu uznirstošo dialogu lapas uz ciparu tastatūras, **detaļu** lapas un ievades lapām.
+- Pievienots pavilkšanas pa labi žests, lai aizvērtu dialoglodziņa uznirstošās lappuses skaitļu spilventiņā, **detalizētas informācijas** lapā un ievades lappusēs.
 
 ## <a name="version-20220"></a>Versija 2.0.22.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Fiksētās avārijas problēmas.
-- Fiksētu problēmu, kad dažas rakstzīmes netiks atpazītas, skenējot vai ierakstot noklusējuma lapā.
-- Fiksētu problēmu, kur noklusējuma lapā ierakstot atkāpvietu, vienlaikus tiks dzēstas divas rakstzīmes.
-- Fiksētā problēma, **kuras** lauks **Kārtot** pēc darbu saraksta lapā parādīs nepareizu vērtību, kas neatbilst faktiskajai karšu kārtošanas secībai.
-- Fiksētu problēmu, kad pēc programmas loga maiņas, strādājot ar to, tiks rādīts nepareizs izkārtojums Microsoft Windows.
-- Fiksēts rezultāts, kad ritināšana uznirstošajā sarakstā var radīt to, ka daži saraksta elementi var tikt paslēpti vai pieslēpti.
-- Pārplānoja pieraksta lapu, lai, strādājot lielākus displejos, tajā pašā lapā tiktu rādīts lietotājvārda un paroles lauki.
-- Uzlabots veids, kā vadība ietu no ātras meklēšanas.
-- Pievienots programmas kļūdu žurnāla skats.
-- Ir pievienoti vairāki pieejamības uzlabojumi (uzlabotā ražošanas kontrole, fiksēti trūkstošie vietturi Android, aktivizēta tastatūras ievade kontrolierīcei u.c.).
+- Novērstas vairākas avarējušas problēmas.
+- Novērsta problēma, kuras dēļ dažas rakstzīmes netika atpazītas, skenējot vai rakstot noklusējuma lapā.
+- Novērsta problēma, kuras dēļ, noklusējuma lapā ierakstot atpakaļatkāpes taustiņu, vienlaikus tiktu izdzēstas divas rakstzīmes.
+- Novērsta problēma, kuras dēļ **laukā** Kārtot pēc **darba saraksta** lapā tika parādīta nepareiza vērtība, kas neatbilda kartīšu faktiskajai kārtošanas secībai.
+- Novērsta problēma, kuras dēļ pēc programmas loga izmēru maiņas, darbojoties ar, tika Microsoft Windows parādīts nepareizs izkārtojums.
+- Novērsta problēma, kuras dēļ, ritinot uznirstošo sarakstu, daži saraksta elementi var palikt paslēpti vai izkropļoti.
+- Pārveidoja pierakstīšanās lapu, lai ļautu tai parādīt lietotājvārda un paroles laukus tajā pašā lapā, kad tā darbojas lielākos displejos.
+- Uzlabots veids, kā vadīklas reaģē uz ātru pieskaršanos.
+- Pievienots lietotnē iebūvēts kļūdu žurnāla skats.
+- Pievienoti vairāki pieejamības uzlabojumi (uzlabots stāstījums, fiksēti trūkstošie vietturi Android, iespējota tastatūras ievade slīdņa vadīklām un citi).
 
 ## <a name="version-20200"></a>Versija 2.0.20.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Fiksētās avārijas problēmas.
-- Fiksētā problēma, kad nepareizas vērtības tiktu parādītas kartēs **darbu saraksta** lapā.
-- Uzlabota ritināšana un likvidēta ritināšana darbu **sarakstā un** **krājumu pieprasījumu lapās** Android.
-- Pierakstīšanās lapai ir pievienota aizvēršanas poga, kas aizver programmu.
+- Novērstas vairākas avarējušas problēmas.
+- Novērsta problēma, kuras dēļ lapā Darba saraksts **kartēs tika rādītas nepareizas** vērtības.
+- Uzlabota ritināšanas pieredze un novērsta ritināšanas trīce **darba saraksta un** vienumu pieprasījuma **lapās** Android sadaļā.
+- Pierakstīšanās lapai pievienota izejas poga, kas aizver lietojumprogrammu.
 
 ## <a name="version-20190"></a>Versija 2.0.19.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabots vispārējā datu uzziņu plūsma.
-- Uzlabotā krājuma izdošana darbu **sarakstā un** **krājumu pieprasījumu lapās**.
-- Samazināts baterijas patēriņš;
-- Noņēma darba karšu lauku skaita ierobežojumu.
-- Pielāgots darba karšu augstums tā, lai visām kartēm būtu vienāds lielums neatkarīgi no lauku skaita katrā.
-- Fiksētā problēma, kad svītrkodos tiks apgrieztas atstarpes rakstzīmes.
-- Ir pievienots **pogas stila** iestatījums, kas ļauj jums pārslēgties starp Pogu skatu un pogu skatu visos ierīču veidos.
-- Fiksētās un dažādās problēmas, kas var izraisīt programmas avārijas.
-- Automātiski iestatiet fokusu uz pielāgoto lapu pirmās teksta rūtiņas.
-- Pieejamības uzlabojumi, kas saistīti ar šodienas tekstu, kontrastēšanu, kontrastēšanu un trūkstošo vietturu tekstiem.
+- Uzlabota vispārīgo datu pieprasījumu plūsma.
+- Uzlabota nervozā problēma **darba saraksta** un **vienumu uzziņu** lapās.
+- Samazināts akumulatora patēriņš.
+- Noņemts darba karšu lauku skaita ierobežojums.
+- Pielāgojiet darba karšu augstumu tā, lai visiem tiem būtu vienāds izmērs neatkarīgi no lauku skaita katrā.
+- Novērsta problēma, kuras dēļ svītrkodos tika izgrieztas atstarpes rakstzīmes.
+- Pievienots **pogas stila iestatījums, kas ļauj pārslēgties starp slīdņa skatu un pogas** skatu visu veidu ierīcēs.
+- Novērstas dažādas problēmas, kas varēja izraisīt programmas avāriju.
+- Iestatiet fokusu automātiski uz pirmo tekstlodziņu pielāgotajās lappusēs.
+- Pieejamības uzlabojumi, kas saistīti ar spilgtumu, kontrastu, stāstījumu un trūkstošiem vietturu tekstiem.
 
 ## <a name="version-20170"></a>Versija 2.0.17.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Fiksētā problēma, kur svītrkodi tiks skenēti nepareizi.
-- Nofiksēja GS1 skenēšanas problēmu ar kameru skeneri.
-- Nofiksēja GS1 skenēšanas problēmu svītrkoda skenerim Bez ierīcēm.
-- Uzlabots debeta pieprasījumu plūsma, tāpēc tagad kartes atlase della atgriezas galvenajā plūsmā.
-- Pievienots atbalsts vispārīgai datu uzziņu plūsmai.
-- Pievienots ziņojums, lai paziņotu lietotājiem par izmaiņām tīkla savienojamības statusā.
-- Glabāšanas atļaujas, kas saskaņotas ar glabāšanas konfidencialitātes politiku Android 10.
-- Plūsmām, kuras nepieciešams, daudzuma plānotājs tagad ietver pozīciju, kas ļauj lietotājiem iesniegt tukšu skaitlisku vērtību.
-- Fiksētie izejas plūsmas ar daudzuma plānotāja orientāciju.
-- Fiksētā problēma, kad daudzuma uztvērējs pārlēktu uz nepareizu vērtību.
-- Fiksētā problēma, kur ievade primārajā lapā tiks zaudēta, kad tiek aizpildīts no detalizētas informācijas lapas.
-- Fiksēta problēma, kuras viettura teksts atlases sarakstos tiktu uzskatīts par sākotnēji atlasīto vērtību.
-- Poga "Iesniegt" apstiprinājuma darbībās tagad tiek aktivizēta automātiski, ja ir iepriekš atlasītas vērtības.
-- Fiksētā detalizētās informācijas karte, lai teksta laukos ar vairākām rindām tiktu rādīts pēc iespējas vairāk rindu.
-- Nofiksē pogu "Iesniegt" un "Vairāk darbību" augstumu, tādējādi ekrānā tie aizņem mazāk vietas.
-- Pievienotie trūkstošie atlases saraksta nosaukumi.
-- Fiksētā problēma, kad neizdevās izmantot pogu Atpakaļ.
-- Ir pievienoti vairāki tastatūras navigācijas labojumi un uzlabojumi, tostarp šādās lapās:
-  - Lietotāja pieteikumvārds
-  - Atlasīt savienojumu
+- Novērsta problēma, kuras dēļ svītrkodi tika skenēti nepareizi.
+- Novērsta kameras skenera GS1 skenēšanas problēma.
+- Novērsta GS1 skenēšanas problēma svītrkodu skenerim Zebra ierīcēs.
+- Uzlabota apvedceļa pieprasījuma plūsma, tāpēc, atlasot karti apvedceļā, tagad tiek atgriezta galvenā plūsma.
+- Pievienots atbalsts vispārīgai datu pieprasījumu plūsmai.
+- Pievienots ziņojums, lai informētu lietotājus par tīkla savienojamības statusa izmaiņām.
+- Saskaņotas krātuves atļaujas ar krātuves konfidencialitātes politiku Android 10.
+- Plūsmām, kurām tas ir nepieciešams, daudzuma vērpējs tagad ietver pozīciju, kas ļauj lietotājiem iesniegt tukšu skaitlisku vērtību.
+- Novērstas problēmas ar daudzuma vērpšanas orientāciju.
+- Novērsta problēma, kuras dēļ daudzuma vērpējs pārlēca uz nepareizu vērtību.
+- Novērsta problēma, kuras dēļ ievade primārajā lapā pazudīs, kad tā tiks aizpildīta no detalizētās informācijas lapas.
+- Novērsta problēma, kuras dēļ viettura teksts tika uzskatīts par sākotnēji atlasīto vērtību atlases sarakstos.
+- Apstiprinājuma darbību poga "Iesniegt" tagad ir automātiski iespējota, ja ir iepriekš atlasītas vērtības.
+- Izlabota detalizētās informācijas kartīte, lai teksta laukiem ar vairākām rindiņām tiktu rādīts pēc iespējas vairāk rindiņu.
+- Fiksēts pogu "Iesniegt" un "Vairāk darbību" augstums, tāpēc tagad tās ekrānā aizņem mazāk vietas.
+- Pievienoti trūkstošie atlases sarakstu nosaukumi.
+- Novērsta problēma, kuras dēļ poga Atpakaļ nedarbojās.
+- Pievienoti vairāki tastatūras navigācijas labojumi un uzlabojumi, tostarp tālāk norādītajās lapās.
+  - Lietotāja pieteikšanās
+  - Izvēlieties savienojumu
   - Rediģēt savienojumu
-- Fiksētā ritināšana, izmantojot tastatūras navigāciju.
-- Uzlabotā pieejamība, tostarp šādi uzlabojumi:
-  - Fiksētas krāsas redzamība un kontrastējošais.
-  - Novērst tastatūras fokusa zudumu, aizverot uznirstošās lapas.
-  - Pievienotie kļūdu ziņojumi nosūtīšanai.
-  - Palielināts viettura vērtību lielums solī.
-- Fiksēts pielāgotās mantojuma lapas piemērs demonstrācijas režīmā.
+- Fiksēta ritināšana, izmantojot tastatūras navigāciju.
+- Uzlabota pieejamība, tostarp šādi uzlabojumi:
+  - Fiksēta krāsu redzamība un kontrasts.
+  - Novērsts tastatūras fokusa zudums, kad uznirstošās lapas ir aizvērtas.
+  - Stāstījumam pievienoti kļūdu ziņojumi.
+  - Palielināts vietturu vērtību lielums soļa reklāmkarogā.
+- Labots pielāgotās mantotās lapas piemērs demonstrācijas režīmā.
 
 ## <a name="version-20150"></a>Versija 2.0.15.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabota veiktspēja, labojot atmiņas problēmu.
-- Problēma, kuras dēļ dažas lauka vērtības netika pareizi atjauninātas, atlasot detalizētas informācijas lapu.
+- Uzlabota veiktspēja, novēršot atmiņas noplūdes problēmu.
+- Novērsta problēma, kuras dēļ dažas lauku vērtības netika atjauninātas pareizi, kad tās tika atlasītas detalizētās informācijas lapā.
 
 ## <a name="version-20140"></a>Versija 2.0.14.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Fiksētā problēma, kas deaktivē noklusēto pogu Iesniegt.
+- Novērsta problēma, kas atspējoja noklusējuma pogu Iesniegt.
 
 ## <a name="version-20130"></a>Versija 2.0.13.0
 
 Šajā versijā ir iekļauti šādi jauni līdzekļi, labojumi un uzlabojumi:
 
-- Uzlabota ritināšana starp lapām ar gludāku priekšskatījumu.
-- Fiksētā skaitītāja atbildes, lai lasītu kustības un laiku pa laikam ekrānam iesaldētas.
-- Uzlabots tumšā režīma teksts un fona krāsu kombinācijas, lai uzlabotu lasāmību.
-- Fiksēta problēma, kad, mainot programmas loga izmēru, daži teksti varētu kļūt ļoti mazi.
-- Fiksētā problēma, kas reizēm var izraisīt programmas avārijas, skenējot svītrkodus.
-- Pievienota iespēja aizstāt maksājumu ar pogu.
-- Fiksētā problēma, kas varētu radīt to, ka programma parāda kļūdas ziņojumu "AADSTS7000215: ir nodrošināts nederīgs klienta noslēpums."
-- Nofiksēja atgādinājuma sveicienu, kas parāda, kā aizvērt lapu, izmantojot sākuma vērtību.
-- Pievienota iespēja aizvērt lapu, izmantojot flick-down sveicienu.
-- Fiksētā problēma, kas netika rādīta lietotāja iestatījumu lapā nolaižamo **sarakstu nosaukumiem**.
-- Fiksētu lokalizācijas problēmu, kad programma neatpazīst komatu (,) kā decimāldaļu atdalītāju.
+- Uzlabota lapu ritināšana ar vienmērīgāku animāciju.
+- Fiksētas pretēji intuitīvas reakcijas uz vilkšanas kustībām un neregulāru ekrāna sasalšanu.
+- Uzlabots tumšā režīma teksts un fona krāsu kombinācijas labākai lasāmībai.
+- Novērsta problēma, kuras dēļ teksts varēja kļūt ļoti mazs, mainot programmas loga izmērus.
+- Novērsta problēma, kas dažkārt varēja avarēt programmu, skenējot svītrkodus.
+- Pievienota iespēja nomainīt slīdni ar pogu.
+- Novērsta problēma, kuras dēļ programmai var tikt parādīts kļūdas ziņojums "AADSTS7000215: tiek nodrošināts nederīgs klienta noslēpums".
+- Izlabota mājienu animācija, kurā parādīts, kā aizvērt lapu, izmantojot pavilkšanas uz leju žestu.
+- Pievienota iespēja aizvērt lapu, izmantojot švīku uz leju vērstu žestu.
+- Novērsta problēma, kuras dēļ lapā Lietotāja iestatījumi **netika rādīti** nolaižamo sarakstu nosaukumi.
+- Novērsta lokalizācijas problēma, kuras dēļ programma neatpazina komatu (,) kā decimāldaļu atdalītāju.
 - Uzlabota pieejamība.
-- Fiksēt navigāciju lapā Jauns **savienojums**, lai nodrošinātu uzlabotu pieejamību.
-- Fiksētu problēmu, kad vieglā (uz ekrāna) tastatūras nebūtu, atlasot ievades lauku.
-- Fiksēts problēma, kas var izraisīt programmas avārijas, ja lietotāji ātri maina loga lielumu.
-- Fiksēts problēma, kad ātrais taustiņa nospiešana tika interpretēta kā garš taustiņš.
-- Fiksētā problēma, kad programmas izkārtojums var kļūt bojāts lauka pielāgošanas dēļ, kas veikta Piegādes ķēžu pārvaldībā.
-- Fiksētā problēma, kad krājumu atrašanās vietas netika pareizi rādītas.
-- Fiksētā problēma, kas saistīta ar preces varianta darbplūsmas īso izdošanu.
-- Noņemta nevajadzīgā pārbaude laukiem ar izveidotām noklusējuma vērtībām.
-- Uzlabota veiktspēja;
-- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā lauki tiek filtrēti un pasūtīti kartes lapā.
+- Izlaboja navigāciju **lapā Jauns savienojums**, lai nodrošinātu uzlabotu pieejamību.
+- Novērsta problēma, kuras dēļ mīkstā (ekrānā redzamā) tastatūra netika parādīta, atlasot ievades lauku.
+- Novērsta problēma, kas varēja avarēt programmu, ja lietotāji ātri mainīja tās loga izmērus.
+- Novērsta problēma, kuras dēļ ātra taustiņu nospiešana dažreiz tika interpretēta kā gara nospiešana.
+- Novērsta problēma, kuras dēļ programmas izkārtojums var tikt bojāts lauku pielāgojumu dēļ, kas veikti programmatūrā Supply Chain Management.
+- Novērsta problēma, kuras dēļ vienumu atrašanās vietas netika rādītas pareizi.
+- Novērsta problēma, kas saistīta ar preces varianta darbplūsmas īso komplektēšanu.
+- Noņemta nevajadzīgā validācija laukiem, kuros ir iepriekš iestatītas noklusējuma vērtības.
+- Uzlabota veiktspēja.
+- Pievienots jauns iestatījums, kas ļauj lietotājiem izvēlēties, kā lauki tiek filtrēti un sakārtoti kartes lapā.
 
 ## <a name="version-20110"></a>Versija 2.0.11.0
 
@@ -223,7 +235,7 @@ ms.locfileid: "9702200"
 - Uzlabotas detalizētās informācijas kartes.
 - Uzlabota novirzēšana izvēlnes elementu darbībām.
 - Nelieli lietotāja interfeisa uzlabojumi.
-- Fiksētā problēma, kas var izraisīt programmas avārijas, skenējot svītrkodus.
+- Novērsta problēma, kas varēja izraisīt programmas avāriju, skenējot svītrkodus.
 - Ir fiksētas dažādas problēmas, kuru dēļ sistēma varēja nereaģēt.
 
 ## <a name="version-20100"></a>Versija 2.0.10.0

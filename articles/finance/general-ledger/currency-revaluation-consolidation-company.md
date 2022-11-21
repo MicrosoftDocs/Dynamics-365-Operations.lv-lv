@@ -1,8 +1,8 @@
 ---
 title: Valūtas pārvērtēšana konsolidācijas uzņēmumā
-description: Šajā rakstā ir aprakstīts, kā pārvērtēt valūtu konsolidētā uzņēmumā.
+description: Šajā rakstā ir aprakstīts, kā pārvērtēt valūtu konsolidācijas uzņēmumā.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889009"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779667"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valūtas pārvērtēšana konsolidācijas uzņēmumā
 
@@ -39,20 +39,20 @@ Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāp
 ## <a name="original-transactions"></a>Sākotnējās darbības
 ### <a name="cash-receipt-transactions-in-usmf"></a>Kases ieņēmumu darbības USMF
 
-| Datums       | Virsgrāmatas konts               | Valūta | Summa |
+| Datums       | Virsgrāmatas konts               | Valūta | Apjoms |
 |------------|------------------------------|----------|--------|
-| 11.10.2015 | 110110 – Skaidra nauda                | USD      | 500    |
-| 11.10.2015 | 130100 – Debitoru parādi | USD      | -500   |
+| 10/11/2020 | 110110 – Skaidra nauda                | USD      | 500    |
+| 10/11/2020 | 130100 – Debitoru parādi | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Valūtu maiņas kursi
 
-| No valūtas | Uz valūtu | Sākuma datums | Valūtas kurss |
+| No valūtas | Uz valūtu | Sākuma datums | Maiņas kurss |
 |---------------|-------------|------------|---------------|
-| EUR           | USD         | 01.10.2015  | 200           |
-| EUR           | USD         | 01.11.2015  | 150           |
-| EUR           | USD         | 01.12.2012  | 100           |
+| EUR           | USD         | 10/1/2020  | 200           |
+| EUR           | USD         | 11/1/2020  | 150           |
+| EUR           | USD         | 12/1/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Veikt konsolidāciju par 2015. gada oktobri
+## <a name="perform-the-consolidation-for-october-2020"></a>Veikt konsolidāciju par 2020. gada oktobri
 ### <a name="balances-in-the-consolidation-company"></a>Bilances konsolidētajā uzņēmumā
 
 | Virsgrāmatas konts | Valūta | Summa | Aprēķins    |
@@ -60,7 +60,7 @@ Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāp
 | 110110         | EUR      | 250    | 500 USD × 50%  |
 | 130100         | EUR      | -250   | -500 USD × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Veikt valūtas pārvērtēšanu kontiem no 2015. gada 1. oktobra līdz 2015. gada 30. novembrim
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Veikt valūtas pārvērtēšanu kontiem no 2020. gada 1. oktobra līdz 2020. gada 30. novembrim
 ### <a name="balances-in-the-consolidation-company"></a>Bilances konsolidētajā uzņēmumā
 
 | Virsgrāmatas konts | Valūta | Summa  | Aprēķins                        |
@@ -72,7 +72,7 @@ Veicot datu konsolidāciju no vienas norēķinu valūtas uz citu, joprojām jāp
 
 Jūs redzēsiet papildu darbības pārskata valūtas summām.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Veikt valūtas pārvērtēšanu kontiem no 2015. gada 1. oktobra līdz 2015. gada 31. decembrim
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Veikt valūtas pārvērtēšanu kontiem no 2020. gada 1. oktobra līdz 2020. gada 31. decembrim
 ### <a name="balances-in-the-consolidation-company"></a>Bilances konsolidētajā uzņēmumā
 
 | Virsgrāmatas konts | Valūta | Summa  | Aprēķins                                          |

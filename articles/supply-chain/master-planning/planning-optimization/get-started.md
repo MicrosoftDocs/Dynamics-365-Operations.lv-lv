@@ -1,6 +1,6 @@
 ---
-title: Sākt ar vispārējo plānošanu
-description: Šajā rakstā skaidrots, kā sākt izmantot vispārējās plānošanas funkcionalitāti Dynamics 365 Supply Chain Management.
+title: Darba sākšana ar vispārējo plānošanu
+description: Šajā rakstā ir paskaidrots, kā sākt izmantot vispārējās plānošanas funkcionalitāti sadaļā Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740334"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780307"
 ---
-# <a name="get-started-with-master-planning"></a>Sākt ar vispārējo plānošanu
+# <a name="get-started-with-master-planning"></a>Darba sākšana ar vispārējo plānošanu
 
 [!include [banner](../../includes/banner.md)]
 
-Vispārējo plānošanu piegādes ķēžu pārvaldībā nodrošina ārējais pakalpojums, kas tiek saukts par plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management. Šajā tēmā skaidrots, kā iegūt un iestatīt šo pakalpojumu.
+Vispārējo plānošanu programmatūrā Supply Chain Management nodrošina ārējs pakalpojums, ko sauc par plānošanas optimizācijas pievienojumprogrammu Dynamics 365 Supply Chain Management. Šajā tēmā ir paskaidrots, kā iegūt un iestatīt šo pakalpojumu.
 
 ## <a name="availability"></a>Pieejamība
 
-Optimizācijas plānošana pašlaik ir pieejama tālāk redzamajā Azure ģeogrāfiskā grafikā: AMERIKAS Savienotās Valstis, Kanāda, Brazīlija, Eiropa, Francija, Apvienotā Karaliste, Austrālija, Klusā okeāna, Japānas un Indijas. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Plānošanas optimizācija pašlaik ir pieejama šādās Azure ģeogrāfiskajās atrašanās vietās: ASV, Kanāda, Brazīlija, Eiropa, Francija, Apvienotā Karaliste, Norvēģija, Šveice, Austrālija, Āzijas un Klusā okeāna reģions, Japāna un Indija. Ja mēģināsit instalēt pievienojumprogrammu no cita ģeogrāfiskā reģiona, tad LCS rādīs ziņojumu, ka šī ģeogrāfiskā vērtība netiek atbalstīta. Papildinformāciju par Azure ģeogrāfiskām vietām un saistītiem reģioniem skatiet sadaļā [Azure ģeogrāfiskās vietas](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Ņemiet vērā, ka plānošanas optimizācija neatbalsta Dynamics 365 Supply Chain Management lokālās izvietošanas.
 
@@ -49,7 +49,7 @@ Pirms pabeidzat instalēt plānošanas optimizēšanas pievienojumprogrammu, ir 
 
 - Supply Chain Management ir jāpalaiž ar LCS iespējotu 2. līmeņa vai augstākas pieejamības vidi, (ne OneBox vide) ar Dynamics 365 Supply Chain Management versiju 10.0.7 vai jaunāku. Ja mēģināsit instalēt pievienojumprogrammu OneBox vidē, instalēšana netiks pabeigta, un tā būs jāatceļ.
 
-- Jūsu sistēmā jābūt iestatītai Power Platform integrācijai. Papildinformāciju skatiet integrācijā [Microsoft Power Platform ar finanšu un operāciju programmām](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Jūsu sistēmā jābūt iestatītai Power Platform integrācijai. Papildinformāciju skatiet sadaļā [Microsoft Power Platform Integrācija ar Finance and Operations programmām](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Iespējot plānošanas optimizācijas licenci
 
@@ -99,12 +99,12 @@ Savienojuma statuss norāda pašreizējo savienojuma statusu starp Supply Chain 
 Opcijas **Izmantot plānošanas optimizāciju** iestatījums nosaka, kuru plānošanas programmu izmanto vispārējai plānošanai:
 
 - **Jā** – plānošanas optimizācija tiek izmantota vispārējai plānošanai.
-- **Nē** – novecojusi vispārējās plānošanas programma tiek izmantota vispārējai plānošanai.
+- **Nē** — novecojusi vispārējās plānošanas programma tiek izmantota vispārējai plānošanai.
 
-Šis iestatījums attiecas uz visām juridiskajām personām (uzņēmumiem). Dažām juridiskajām personām nav iespējams izmantot plānošanas optimizāciju un novecojušu vispārējās plānošanas programmu citās juridiskajās personas.
+Šis iestatījums attiecas uz visām juridiskajām personām (uzņēmumiem). Plānošanas optimizāciju nav iespējams izmantot dažās juridiskajās personās, bet novecojušo vispārējās plānošanas programmu — citās juridiskajās personās.
 
 > [!NOTE]
-> Ja esošie plānošanas pakešuzdevumi **, kas tika izveidoti novecojušajiem vispārējās plānošanas programmas darbiem, tiek izraisīti, kamēr opcija Izmantot plānošanas optimizāciju** **ir** iestatīta uz Jā, šie darbi neizdosies.
+> Ja esošie plānošanas pakešuzdevumi, kas tika izveidoti novecojušajai vispārējās plānošanas programmai, tiek aktivizēti, kamēr opcija Izmantot plānošanas optimizāciju **ir iestatīta** uz **Jā**, šīs opcijas neizdosies.
 
 ### <a name="integration-with-the-setup"></a>Integrēšana ar iestatījumu
 

@@ -2,23 +2,23 @@
 title: Filiāļu datu eksportēšana uz failiem
 description: Šajā rakstā skaidrots, kā sagatavoties datu eksportēšanai no Microsoft Dynamics 365 Finanšu un pēc tam importēt tos konsolidētā juridiskajā persona.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876158"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779966"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Filiāļu datu eksportēšana uz failiem
 
@@ -32,14 +32,14 @@ Jūs izmantojat lapu **Eksportēt** (**Sistēmas administrēšana \> Darbvietas 
 
     | Lauks                             | Apraksts |
     |-----------------------------------|-------|
-    | Galvenais konts                      | Norādiet konsolidācijas kontus. Lai iekļautu visus kontus, atstājiet šo lauku tukšu. |
-    | Izmantot šādu konsolidācijas kontu         | Ja esat norādījuši konsolidācijas kontus, iestatiet šo opciju uz **Jā**. |
-    | Atlasīt konsolidācijas kontu no | Atlasiet **Galveno kontu** vai **Konsolidācijas kontu grupu**. |
-    | Konsolidācijas kontu grupa       | Izvēlieties konsolidācijas kontu grupu izvēlētajam konsolidācijas kontam. |
-    | Konsolidācijas periods              | Norādiet konsolidācijas "no" un "līdz" datumus. |
-    | Ietvert faktiskās summas            | Iestatiet šo opciju uz **Jā**, lai iekļautu faktiskos kontus. |
-    | Ietvert budžeta summas            | Iestatiet šo opciju uz **Jā**, lai ietvertu budžeta summas konsolidācijās. |
-    | Budžeta modeļi                     | Norādiet iekļaujamā budžeta modeli. |
+    | **Galvenais konts**                      | Norādiet konsolidācijas kontus. Lai iekļautu visus kontus, atstājiet šo lauku tukšu. |
+    | **Izmantot šādu konsolidācijas kontu**         | Ja esat norādījuši konsolidācijas kontus, iestatiet šo opciju uz **Jā**. |
+    | **Atlasīt konsolidācijas kontu no** | Atlasiet **Galveno kontu** vai **Konsolidācijas kontu grupu**. |
+    | **Konsolidācijas kontu grupa**       | Izvēlieties konsolidācijas kontu grupu izvēlētajam konsolidācijas kontam. |
+    | **Konsolidācijas periods**              | Norādiet konsolidācijas "no" un "līdz" datumus. |
+    | **Ietvert faktiskās summas**            | Iestatiet šo opciju uz **Jā**, lai iekļautu faktiskos kontus. |
+    | **Ietvert budžeta summas**            | Iestatiet šo opciju uz **Jā**, lai ietvertu budžeta summas konsolidācijās. |
+    | **Budžeta modeļi**                     | Norādiet iekļaujamā budžeta modeli. |
 
 3. Cilnē **Finanšu dimensijas** norādiet konsolidācijas datus:
 

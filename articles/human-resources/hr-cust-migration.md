@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Human Resources debitoru migrācija uz finanšu un operāciju infrastruktūru
-description: Šajā rakstā ir aprakstīta korporācijas Microsoft klientu Dynamics 365 Human Resources migrācija uz finanšu un operāciju infrastruktūru.
+title: Dynamics 365 Human Resources Klientu migrācija uz finanšu un operāciju infrastruktūru
+description: Šajā rakstā ir aprakstīta Microsoft Dynamics 365 Human Resources klientu migrācija uz finanšu un operāciju infrastruktūru.
 author: twheeloc
 ms.date: 10/25/2022
 ms.topic: article
@@ -14,212 +14,211 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732767"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760367"
 ---
-# <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources debitoru migrācija
+# <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources Klientu migrācija
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Klientu migrācija ir debitoru datu bāzes "liftu un maiņu migrācija" (kustība), kas tiek pārvietota uz finanšu un operāciju infrastruktūru. Tai tiek izmantots automatizētās migrācijas rīks. Rezultāts ir jauna finanšu un operāciju vide, kas izmanto klienta Cilvēkresursu datu bāzi.
+Klientu migrācija ir klientu datu bāzes "pacelšanas un pārvietošanas migrācija" (pārvietošana) uz finanšu un operāciju infrastruktūru. Tam tiek izmantots automatizēts migrācijas rīks. Rezultāts ir jauna finanšu un operāciju vide, kas izmanto klienta cilvēkresursu datu bāzi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-### <a name="user-access-and-permissions"></a>Lietotāju piekļuve un tiesības
+### <a name="user-access-and-permissions"></a>Lietotāju piekļuve un atļaujas
 
-- Lifecycle Microsoft Dynamics Services lietotājam ir jābūt organizācijas **administratora lomai**.
-- Lietotājam vajadzētu būt iespējai izveidot [Azure DevOps projektus](/azure/devops/organizations/projects/create-project) vai izmantot esošu Azure DevOps projektu.
-- Lietotājam ir jābūt piekļuvei [, lai izveidotu Azure DevOps personiskās piekļuves drošības](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) pilnvaras, vai arī lietotājam jābūt pilnvarai, kas ir pieejama lietošanai.
+- Lifecycle Microsoft Dynamics Services lietotājam ir jābūt organizācijas administratora **lomai**.
+- Lietotājam vajadzētu būt iespējai [izveidot Azure DevOps projektus](/azure/devops/organizations/projects/create-project) vai izmantot esošu Azure DevOps projektu.
+- Lietotājam ir jābūt piekļuvei, lai [izveidotu Azure DevOps personiskās piekļuves drošības pilnvaru](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate), vai arī viņam ir jābūt pilnvarotai lietošanai.
 
-### <a name="dataverse-environment-backup-sandbox"></a>Dataverse vides dublējums (kastīte)
+### <a name="dataverse-environment-backup-sandbox"></a>Dataverse vides dublēšana (smilškaste)
 
-1. Neobligāta, bet ieteikta: atsvaidzināt esošo personāla vadības jostās vidi, izmantojot cilvēkresursu ražošanas vides kopiju.
-2. [Izveidojiet jaunu Dataverse vidi](/power-platform/admin/create-environment#create-an-environment-with-a-database), izmantojot Power Platform administrēšanas centru.
+ - Neobligāti, bet ieteicami: atsvaidziniet esošo cilvēkresursu smilškastes vidi, izmantojot personāla daļas ražošanas vides kopiju.
+ - Izveidojiet jaunu Dataverse vidi, izmantojot administrēšanas Power Platform centru.
+ - Kopējiet esošo Dataverse vidi, kas ir saistīta ar savrupo cilvēkresursu programmu, vidē, kuru izveidojāt iepriekšējā darbībā.
 
-    > [!NOTE]
-    > Kad pievienojat datu bāzi, nodrošiniet, lai **Enable Dynamics 365 programmu opcija būtu** iestatīta uz **Jā**.
-
-3. [Kopējiet esošo Dataverse vidi](/power-platform/admin/copy-environment), kas ir saistīta ar savrupo personāla vadības programmu, ar iepriekšējā darbībā izveidoto vidi.
+> [!NOTE]
+> Pievienojot datu bāzi, pārliecinieties, vai opcijai **Iespējot Dynamics 365 programmas** ir iestatīta vērtība **Jā**. Detalizētu informāciju skatiet sadaļā [Vides sagatavošana Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse Jaudas
 
-1. Izmantojiet administrēšanas **centra kopsavilkuma lapu**, lai pārbaudītu, vai glabāšanai Power Platform [Dataverse ir pietiekama pieejamā vides](/power-platform/admin/finance-operations-storage-capacity) kopijas noslodze.
-2. Ja pieejamā noslodze nav pietiekama, izmantojiet norādes [par glabāšanas vietas brīvo vietu,](/power-platform/admin/free-storage-space) lai samazinātu vispārējo patēriņu. Debitori var arī [pievienot papildu glabāšanas noslodzi](/power-platform/admin/add-storage).
+1. **Izmantojiet lapu** Kopsavilkums Power Platform administrēšanas centrā, lai pārbaudītu, vai [Dataverse krātuvei](/power-platform/admin/finance-operations-storage-capacity) ir pietiekama vides kopijas noslodze.
+2. Ja nav pietiekami daudz pieejamās ietilpības, izmantojiet [norādījumus par krātuves vietas](/power-platform/admin/free-storage-space) atbrīvošanu, lai samazinātu kopējo patēriņu. Klienti var arī [pievienot papildu krātuves ietilpību](/power-platform/admin/add-storage).
 
-## <a name="customer-migration-process"></a>Debitoru migrācijas process
+## <a name="customer-migration-process"></a>Klientu migrācijas process
 
-### <a name="create-a-lifecycle-services-project-for-human-resources-migration"></a>Izveidot Lifecycle Services projektu cilvēkresursu migrācijai
+### <a name="create-a-lifecycle-services-project-for-human-resources-migration"></a>Dzīves cikla pakalpojumu projekta izveide cilvēkresursu migrācijai
 
-Pirmais solis ir izveidot jaunu finanšu un operāciju ieviešanas projektu programmā Lifecycle Services. Debitoram būs esošs cilvēkresursu lifecycle Services projekts. Esošās cilvēkresursu vides tiks migrētas uz jauno finanšu un operāciju ieviešanas projektu.
+Pirmais solis ir izveidot jaunu finanšu un operāciju ieviešanas projektu Lifecycle Services. Klientam būs esošs cilvēkresursu dzīves cikla pakalpojumu projekts. Esošās cilvēkresursu vides tiks migrētas uz jauno finanšu un operāciju ieviešanas projektu.
 
-Lai izveidotu jaunu projektu, sekojiet šiem soļiem.
+Lai izveidotu jaunu projektu, veiciet tālāk norādītās darbības.
 
-1. Piesakieties pakalpojumā Lifecycle Services kā globālais administrators vai norādītā pakalpojuma konta lietotājs.
-2. Lifecycle Services sākumlapā atlasiet **Izveidot/jaunu (+)**.
-3. Atlasīt finanšu un operāciju programmas kā preci.
-4. Laukā **Projekta nolūks** atlasiet **Ieviešana**.
+1. Piesakieties Lifecycle Services kā globālais administrators vai norādītais pakalpojuma konta lietotājs.
+2. Dzīves cikla pakalpojumu sākumlapā atlasiet **Izveidot/jauns (+)**.
+3. Atlasiet Finance and Operations programmas kā produktu.
+4. Laukā **Projekta mērķis** atlasiet **Ieviešana**.
 5. Ievadiet projekta nosaukumu un aprakstu.
-6. Laukā Pielāgots projekta **tips atlasiet Microsoft** **migrāciju Dynamics 365 Human Resources.**
-7. Atzīmējiet šo izvēles rūtiņu, lai piekristu noteikumiem un nosacījumiem.
+6. Laukā **Project pielāgotais tips** atlasiet **Microsoft Dynamics 365 Human Resources migrācija**.
+7. Atzīmējiet izvēles rūtiņu, lai piekristu noteikumiem un nosacījumiem.
 8. Atlasiet **Izveidot**.
 
-Pēc jauna Lifecycle Services projekta izveides izpildiet šīs darbības, lai to iestatītu un konfigurētu.
+Kad esat izveidojis jaunu Lifecycle Services projektu, veiciet tālāk norādītās darbības, lai to iestatītu un konfigurētu.
 
-1. Izvēlieties **Projekta izpildē,** lai pabeigtu projekta iestudēšanu. Papildinformāciju skatiet sadaļā [Projekta tablo.](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md)
+1. Atlasiet **Project onboarding,** lai pabeigtu projekta pievienošanu. Papildinformāciju skatiet sadaļā [Projekta pievienošana.](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md)
 
-    - Atlasiet to pašu reģionu, kas ir jūsu pašreizējām vidēm. Šī atlase neietekmē migrāciju.
-    - Mantojuma sistēmām atlasiet **Cits**.
+    - Atlasiet to pašu reģionu, kurā atrodas jūsu pašreizējā vide. Šī atlase neietekmēs migrāciju.
+    - Mantotajām sistēmām atlasiet **Cits**.
 
-2. Pabeidziet projekta iestatījumus. Kā daļu no šīs darbības ir jākonfigurē tiešsaistes SharePoint bibliotēka un Azure savienojumi, Azure DevOps ja tie ir nepieciešami. Papildinformāciju skatiet Lifecycle [Services (LCS) lietotāja rokasgrāmatā](../dev-itpro/lifecycle-services/lcs-user-guide.md).
-
-> [!NOTE]
-> Debitori var izmantot esošu Azure DevOps projektu un saistīto personiskās piekļuves drošības marķieri. Ja tiek izmantots esošs projekts, ar projektu saistītās konfigurācijas ir pieejamas automātiski, un tās var pārskatīt, lai nodrošinātu precizitāti.
-
-### <a name="migrate-a-human-resources-sandbox-environment"></a>Migrēt cilvēkresursu kastu vidi
-
-#### <a name="prepare-to-migrate-the-sandbox-environment"></a>Sagatavot migrēt kases vidi
-
-Kad ir izveidots jauns Lifecycle Services projekts un projekta onboarding process ir pabeigts, varat migrēt pirmo vidi. Pirms šī procesa sākšanas ir ieteicams atsvaidzināt kastu vidi, ko vēlaties migrēt no ražošanas vides savrupā infrastruktūra.
-
-#### <a name="prepare-a-power-platform-environment"></a>Power Platform Vides sagatavošana
+2. Pabeidziet projekta iestatījumus. Šīs darbības ietvaros ir jākonfigurē SharePoint tiešsaistes bibliotēka un Azure savienojumi, Azure DevOps ja tie ir nepieciešami. Papildinformāciju skatiet sadaļā [Lifecycle Services (LCS) lietotāja rokasgrāmata](../dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 > [!NOTE]
-> Šo darbību var piemērot tikai kases vides migrācijai. Kad migrēsiet ražošanas vidi, ražošanas Power Platform videi pievienotā esošā administrēšanas centra vide tiks pārnesta.
+> Klienti var izmantot esošu Azure DevOps projektu un saistīto personiskās piekļuves drošības pilnvaru. Ja tiek izmantots esošs projekts, konfigurācijas, kas ir saistītas ar projektu, ir automātiski pieejamas, un tās var pārskatīt precizitātes dēļ.
 
-- Power platform administrēšanas centrā izveidojiet power platform vidi, [ko](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) izmantot kastēs migrēšanai, vai atlasiet esošo vidi.
-- [Kopējiet vidi,](/power-platform/admin/copy-environment) lai atsvaidzinātu vidi Power Platform, kas tiek izmantota kartēšanai.
+### <a name="migrate-a-human-resources-sandbox-environment"></a>Personāla vadības smilškastes vides migrēšana
 
-#### <a name="migrate-the-sandbox-environment"></a>Migrēt jostlodziņa vidi
+#### <a name="prepare-to-migrate-the-sandbox-environment"></a>Sagatavošanās smilškastes vides migrēšanai
 
-1. Piesakieties pakalpojumā Lifecycle Services kā globālais administrators vai norādītā pakalpojuma konta lietotājs.
+Kad ir izveidots jauns Lifecycle Services projekts un projekta pievienošanas process ir pabeigts, varat migrēt savu pirmo vidi. Pirms sākat šo procesu, ieteicams atsvaidzināt smilškastes vidi, kuru vēlaties migrēt no ražošanas vides savrupajā infrastruktūrā.
+
+#### <a name="prepare-a-power-platform-environment"></a>Vides sagatavošana Power Platform
+
+> [!NOTE]
+> Šī darbība ir piemērojama tikai smilškastes vides migrācijai. Migrējot ražošanas vidi, esošā Power Platform administrēšanas centra vide, kas ir pievienota ražošanas videi, tiks pārnesta uz priekšu. Pievienojot datu bāzi, pārliecinieties, vai pogai Iespējot Dynamics 365 programmas **ir iestatīta** vērtība **Jā**. 
+
+- Power platform administrēšanas centrā [izveidojiet vidi ar datu bāzi](/power-platform/admin/create-environment#create-an-environment-with-a-database), ko izmantot smilškastes migrācijai, vai atlasiet esošu vidi.
+- [Kopējiet vidi, lai atsvaidzinātu vidi](/power-platform/admin/copy-environment), Power Platform kas tiek izmantota kartēšanai.
+
+#### <a name="migrate-the-sandbox-environment"></a>Smilškastes vides migrēšana
+
+1. Piesakieties Lifecycle Services kā globālais administrators vai norādītais pakalpojuma konta lietotājs.
 
     > [!NOTE]
-    > Ieteicams izmantot nosauktu lietotāja kontu. Pierakstījamajam lietotājam **savrupā** **cilvēkresursu** dzīves cikla pakalpojumu projektā ir jābūt projekta īpašnieka vai vides vadītāja drošības lomai.
+    > Ieteicams izmantot nosauktu lietotāja kontu. Lietotājam, kurš ir pierakstījies, **ir jābūt projekta īpašnieka** vai **vides pārvaldnieka** drošības lomai savrupajā cilvēkresursu dzīves cikla pakalpojumu projektā.
 
 2. Atveriet jaunizveidoto cilvēkresursu migrācijas projektu.
-3. Pārskatiet un pabeidziet migrācijas metodoloģijas un projektaboardinga atbilstīgās fāzes.
-4. Projekta informācijas panelim noklusējuma: **standarta pieņemšanas testa rūtī** atlasiet Migrēt **HR**.
-5. Migrējamajā **rūtī** Atlasīt vidi atlasiet atbilstošo projektu Lifecycle Services un sākotnējo cilvēkresursu vidi (no avota savrupas cilvēkresursu programmas).
-6. Iespējojiet **opciju Kartēt Power Platform uz jaunu** vidi un atlasiet atbilstošo Power Platform vidi. Pēc tam atlasiet **Jauns**.
-7. Lai apstiprinātu detalizēto **informāciju un debitora izrakstītos** datus, pabeidziet izvietošanas iestatījumus (finanses un operācijas — vadīklu) un pēc tam atlasiet **Izvietot**.
+3. Pārskatiet un pabeidziet attiecīgos migrācijas metodoloģijas un projekta pievienošanas posmus.
+4. Projekta informācijas paneļa testa **rūtī Noklusējums: standarta** akceptēšana atlasiet **Migrēt HR.**
+5. **Rūtī Atlasiet migrējamo** vidi atlasiet atbilstošo Lifecycle Services projektu un sākotnējo cilvēkresursu vidi (no avota savrupās lietojumprogrammas Personāla vadība).
+6. Iespējojiet **opciju Kartēt uz jaunu Power Platform vidi un atlasiet atbilstošo** vidi Power Platform. Pēc tam atlasiet **Jauns**.
+7. Aizpildiet izvietošanas **iestatījumu (finance and operations – sandbox)** vedni, lai apstiprinātu detalizētu informāciju un klienta pierakstīšanos, un pēc tam atlasiet **Izvietot**.
 
-Vides stāvoklis rādīs progresu. Stāvoklis tiks mainīts no ielādes **uz** **Izvietot** uz **Izvietots**.
+Vides stāvoklis parādīs progresu. Stāvoklis tiks mainīts no **ielādes** uz izvietošanu uz **izvietošanu** **·**.
 
 > [!NOTE]
-> Ražošanas rūts nav pieejama, kamēr nav pabeigta projekta gatavības pārbaudes veidlapa. Papildinformāciju skatiet sadaļā [Sagatavošanās tiešā darba vietu sagatavošanai](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
+> Ražošanas rūts nebūs pieejama, kamēr nebūs pabeigts projekta gatavības pārbaudes saraksts. Papildinformāciju skatiet sadaļā [Sagatavošanās darbības uzsākšanai](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
 #### <a name="considerations-and-assumptions"></a>Apsvērumi un pieņēmumi
 
-Nomnieka Lifecycle Services projektā pastāv cilvēkresursu kastu vide, kam ir šādi raksturlielumi:
+Personāla vadības smilškastes vide pastāv nomnieka dzīves cikla pakalpojumu projektā, kam ir tālāk norādītie raksturlielumi.
 
-- Cilvēkresursu kases vides nav saistītas ar esošo sapludināto vidi. Dotajā cilvēkresursu vidē vienlaicīgi var tikt norise tikai viena migrācija.
-- Vienlaikus atļauto kastu vides tiek pamatotas uz personāla vadības licencēšanas sistēmu. Ja nomniekam ir nopirkts pietiekami daudz licencēšanas, papildu tekstlodziņa vides tiks uzskaitītas **projekta** rūtī Vides.
-- Migrācija jāveic tā paša tipa vidēs. Citiem vārdiem sakot, var veikt tikai migrēšanu no kastēs uz kasti vai ražošanu no ražošanas uz ražošanu.
+- Personāla vadības smilškastes vide nav saistīta ar esošu sapludinātu vidi. Konkrētā cilvēkresursu vidē vienlaikus var notikt tikai viena migrācija.
+- Vienlaikus atļauto smilškastes vidi skaits ir atkarīgs no cilvēkresursu licencēšanas. Ja nomniekam ir iegādāts pietiekami daudz licences, projekta rūtī Vides **tiks norādītas** papildu smilškastes vides.
+- Migrācija jāveic uz tāda paša veida vidi. Citiem vārdiem sakot, var veikt tikai migrāciju no smilškastes uz smilškasti vai no ražošanas uz ražošanu.
 
     > [!NOTE]
-    > Nosakot ražošanas vai kases vides statusu, tiek apsvērti tikai personāla vadības vides tipi. Ja vides ir nepareizi kategorizētas (t.i., ražošanas vide ir atzīmēta kā kastēs vide vai kā ražošanas vide ir atzīmēta kā vides sūtne), sazinieties ar atbalsta dienestu.
+    > Nosakot ražošanas vai smilškastes statusu, tiek ņemti vērā tikai cilvēkresursu vides tipi. Ja vides ir nepareizi kategorizētas (tas ir, ražošanas vide ir atzīmēta kā smilškastes vide vai smilškastes vide ir atzīmēta kā ražošanas vide), sazinieties ar atbalsta dienestu.
 
-- Ja migrācija nav veiksmīga, tiks rādīts kļūdas kļūdas ziņojums, un poga **Dzēst** kļūs pieejama. Izmantojiet šo pogu, lai dzēstu nesekmīgo migrāciju. Pēc tam varat mainīt vidi.
+- Ja migrācija nav veiksmīga, tiks parādīts kļūmes kļūdas ziņojums un **būs pieejama poga Dzēst**. Izmantojiet šo pogu, lai izdzēstu neveiksmīgo migrāciju. Pēc tam jūs varat remigrēt vidi.
 
-#### <a name="validate-the-sandbox-migration"></a>Pārbaudīt sūtņu migrēšanu
+#### <a name="validate-the-sandbox-migration"></a>Smilškastes migrācijas validēšana
 
-Kad kastu migrācijas process ir veiksmīgi pabeigts, izveidojiet detalizētu testēšanas plānu, lai pārbaudītu un pierakstītos visos biznesa procesos.
+Kad smilškastes migrācijas process ir veiksmīgi pabeigts, izveidojiet detalizētu testēšanas plānu, lai pārbaudītu un pierakstītos visos biznesa procesos.
 
-Pirms testēšanas sākšanas pārbaudiet šādu informāciju:
+Pirms sākat testēšanu, pārbaudiet tālāk norādīto informāciju.
 
-- Apstipriniet, ka migrētā vide ir pieejama ģenerētajā vietrādī URL.
-- Apstipriniet, ka lietotāji var piekļūt migrētajā lodziņā.
-- Apstipriniet, ka Dataverse vide, kas ir saistīta ar migrēto kastu vidi, ir pieejama.
-- Pārbaudiet uz vietas dažādus datus, lai apstiprinātu, ka ir pieejami visbiežākie dati.
-- Pabeidziet kritiskos biznesa procesus pārbaudei.
-- Apstipriniet, ka drošības politikas ir piemērojamas.
-- Apstipriniet, ka pakešuzdevumi tiek izraisīti kā paredzēts.
+- Pārliecinieties, vai migrētā vide ir pieejama ģenerētajā vietrādī URL.
+- Pārliecinieties, vai lietotāji var piekļūt migrētajai smilškastei.
+- Pārliecinieties, vai vide, Dataverse kas ir saistīta ar migrēto smilškastes vidi, ir pieejama.
+- Pārbaudiet dažādus datus uz vietas, lai pārliecinātos, ka ir pieejami visjaunākie dati.
+- Pabeidziet validācijai kritiskos biznesa procesus.
+- Pārliecinieties, vai jūsu drošības politikas ir piemērojamas.
+- Pārliecinieties, vai pakešuzdevumi tiek aktivizēti, kā paredzēts.
 
-Jums nebūs attālās darbvirsmas piekļuves migrētās tekstlodziņa. Varat izmantot pašapkalpošanās iespējas un rīkus, lai veiktu tālāk norādītās darbības jūsu 2. pakāpes + kastes vidēs:
+Jums nebūs attālās darbvirsmas piekļuves migrētajai smilškastei. Varat izmantot pašapkalpošanās iespējas un rīkus, lai veiktu tālāk norādītās darbības savā Tier 2+ smilškastes vidē:
 
-- Piekļūstiet [Azure SQL datu bāzei](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-the-azure-sql-database).
-- Piekļūt [žurnāla failiem](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-log-files).
+- Piekļūstiet Azure SQL datu [bāzei](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-the-azure-sql-database).
+- Piekļūstiet [žurnālfailiem](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-log-files).
 - Izmantojiet [perfmon rīkus](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#use-perfmon-tools).
-- Ieslēgt [/izslēgt uzturēšanas režīmu](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-self-service-logs).
+- Ieslēdziet/izslēdziet [uzturēšanas](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#access-self-service-logs) režīmu.
 - Restartējiet [pakalpojumus](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#restart-services).
-- Konfigurējiet [Regresīcijas komplekta automatizācijas rīku](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#configure-the-regression-suite-automation-tool).
+- Konfigurējiet Regression komplekta automatizācijas [rīku](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md#configure-the-regression-suite-automation-tool).
 
-Papildinformāciju skatiet bieži uzdotie [jautājumi par pašapkalpošanās izvietošanu](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md).
+Papildinformāciju skatiet sadaļā [Bieži uzdotie jautājumi par pašapkalpošanās izvietošanu](../fin-ops-core/dev-itpro/deployment/deploymentfaq.md).
 
-### <a name="migrate-a-human-resources-production-environment"></a>Migrēt cilvēkresursu ražošanas vidi
+### <a name="migrate-a-human-resources-production-environment"></a>Cilvēkresursu ražošanas vides migrēšana
 
-Kad esat beidzis migrēt un validēt kastu vidi, veiciet šos soļus, lai migrētu ražošanas vidi.
+Kad esat pabeidzis smilškastes vides migrēšanu un pārbaudi, veiciet tālāk norādītās darbības, lai migrētu ražošanas vidi.
 
 #### <a name="prerequisites"></a>Priekšnosacījumi
 
-- Abonementa novērtējumam jābūt pabeigtam.
-- Gatavības novērtēšanai uz [darbu ir](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) jābūt pabeigtai.
+- Abonēšanas aprēķinātājs ir jāaizpilda.
+- Jāpabeidz Go-live [gatavības novērtējums](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
-#### <a name="migrate-the-production-environment"></a>Migrēt ražošanas vidi
+#### <a name="migrate-the-production-environment"></a>Ražošanas vides migrēšana
 
-1. Piesakieties pakalpojumā Lifecycle Services kā globālais administrators vai norādītā pakalpojuma konta lietotājs.
+1. Piesakieties Lifecycle Services kā globālais administrators vai norādītais pakalpojuma konta lietotājs.
 
     > [!NOTE]
-    > Ieteicams izmantot nosauktu lietotāja kontu. Pierakstītā lietotājam lifecycle **Services projektā** ir **jābūt** projekta īpašnieka vai vides vadītāja drošības lomai.
+    > Ieteicams izmantot nosauktu lietotāja kontu. Lietotājam, kurš ir pierakstījies, **Lifecycle Services projektā ir jābūt projekta īpašnieka** vai **vides pārvaldnieka** drošības lomai.
 
-2. Atvērt jauno cilvēkresursu migrācijas projektu.
-3. Pārskatiet un pabeidziet migrācijas metodoloģijas un projektaboardinga atbilstīgās fāzes.
-4. Projekta informācijas panelim ražošanas rūtī **atlasiet** Migrēt **HR**.
-5. Migrējamajā **rūtī** Atlasīt vidi atlasiet atbilstošo Lifecycle Services projektu un sākotnējo cilvēkresursu vidi (no avota savrupas cilvēkresursu programmas). Pēc tam atlasiet **Jauns**.
-6. Lai apstiprinātu detalizēto **informāciju un debitora izrakstītos** datus, pabeidziet izvietošanas iestatījumus (finanses un operācijas — vadīklu) un pēc tam atlasiet **Izvietot**.
+2. Atveriet jauno cilvēkresursu migrācijas projektu.
+3. Pārskatiet un pabeidziet attiecīgos migrācijas metodoloģijas un projekta pievienošanas posmus.
+4. Projekta informācijas paneļa rūtī **Ražošana** atlasiet **Migrēt HR.**
+5. **Rūtī Atlasiet migrējamo** vidi atlasiet atbilstošo Lifecycle Services projektu un sākotnējo cilvēkresursu vidi (no avota savrupās lietojumprogrammas Personāla vadība). Pēc tam atlasiet **Jauns**.
+6. Aizpildiet izvietošanas **iestatījumu (finance and operations – sandbox)** vedni, lai apstiprinātu detalizētu informāciju un klienta pierakstīšanos, un pēc tam atlasiet **Izvietot**.
 
-Vides stāvoklis parādīs izvietošanas progresu. Stāvoklis tiks mainīts no ielādes **uz** **Izvietot** uz **Izvietots**.
+Vides stāvoklis parādīs izvietošanas progresu. Stāvoklis tiks mainīts no **ielādes** uz izvietošanu uz **izvietošanu** **·**.
 
-#### <a name="post-migration-considerations"></a>Pēcmigrēšanas apsvērumi
+#### <a name="post-migration-considerations"></a>Apsvērumi pēc migrācijas
 
-- Pielietot visjaunākos [kvalitātes](/fin-ops-core/fin-ops/get-started/quality-updates) atjauninājumus jūsu vidēs.
-- Ja izmantojat virtuālās [tabulas](hr-admin-integration-common-data-service-virtual-entities.md), pārkonfigurēt galapunktus.
-- Pārkonfigurēt dubultās rakstīšanas integrāciju. Novērtējiet, kuri elementi ir jāiespējo.
-- Apsveriet iespēju izmantot virtuālās tabulas, lai aizstātu dubultās rakstīšanas integrācijai.
+- Lietojiet jaunākos [kvalitātes atjauninājumus](/fin-ops-core/fin-ops/get-started/quality-updates) savai videi.
+- Ja izmantojat [virtuālās tabulas](hr-admin-integration-common-data-service-virtual-entities.md), pārkonfigurējiet galapunktus.
+- Pārkonfigurējiet dubultās rakstīšanas integrāciju. Novērtējiet, kuras entītijas ir jāiespējo.
+- Apsveriet iespēju izmantot virtuālās tabulas, lai aizstātu dubulto rakstīšanu integrācijai.
 
 #### <a name="dual-write-integration"></a>Duālā ieraksta integrācija
 
-##### <a name="set-up-microsoft-power-platform-dual-write-integration"></a>Dubultās Microsoft Power Platform rakstīšanas integrācijas iestatīšana
+##### <a name="set-up-microsoft-power-platform-dual-write-integration"></a>Dubultās rakstīšanas integrācijas iestatīšana Microsoft Power Platform
 
-1. Dodieties uz Power Platform administrēšanas centru un kreisajā **navigācijā** atlasiet Vides.
-2. Atlasiet iepriekš kopēto/atsvaidzināto vidi un apstipriniet, ka stāvoklis ir **Gatavs**.
-3. Pārejiet uz sadaļu Lifecycle Services un apstipriniet, ka migrācijas projekta statuss ir **Izvietots**.
-4. Zem migrētās vides atlasiet Pilnas **detaļas**, lai pārskatītu papildinformāciju [un iestatītu duālo rakstīšanas programmu](../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#set-up-dual-write-for-new-or-existing-dataverse-environments).
-5. Dubultās **rakstīšanas programmas konfigurācijas rūtī atzīmējiet** izvēles rūtiņu, lai piekristu kartēt un sinhronizēt datus starp datu bāzēm, un pēc tam atlasiet **Konfigurēt**.
-6. Ja ziņojumu lodziņš ziņo par veiksmīgu duālās rakstīšanas konfigurāciju, atlasiet **Labi**.
-7. Detalizētu informāciju par konfigurācijas progresu var pārraudzīt.
-8. Kad konfigurācija ir pabeigta, atlasiet Saiti ar **vidi Power Platform, lai** sinhronizētu pieejamos datu elementus.
-9. Kad statuss norāda, ka vides ir veiksmīgi saistītas, dodieties uz administrēšanas centru, Power Platform lai pārskatītu un atlasītu atbilstošos datu elementus.
-10. Kreisajā rūtī atlasiet **Dynamics 365 programmu \> resursus**.
-11. Apstipriniet, ka ir iespējots dubultās rakstīšanas personāla vadības programmas **statuss**.
-12. Atlasiet dubultās rakstīšanas personāla vadības programmu un pēc tam atlasiet **Instalēt**.
-13. Rūtī Instalēt **dubultās rakstīšanas Dynamics 365 Human Resources programmu** atlasiet atbilstošo vidi, kurā instalēt pakotni.
+1. Dodieties uz administrēšanas Power Platform centru un kreisajā navigācijas rūtī atlasiet **Vides**.
+2. Atlasiet iepriekš kopēto/atsvaidzināto vidi un pārliecinieties, vai stāvoklis ir **Gatavs**.
+3. Dodieties uz Lifecycle Services un pārliecinieties, vai migrācijas projekta statuss ir **Izvietots**.
+4. Migrētajā vidē atlasiet **Pilna informācija**, lai pārskatītu papildinformāciju un [iestatītu dubultrakstīšanas lietojumprogrammu](../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#set-up-dual-write-for-new-or-existing-dataverse-environments).
+5. **Dubultrakstīšanas lietojumprogrammas konfigurācijas** rūtī atzīmējiet izvēles rūtiņu, lai piekristu kartēt un sinhronizēt datus starp datu bāzēm, un pēc tam atlasiet **Konfigurēt**.
+6. Kad ziņojuma lodziņš paziņo par veiksmīgu divu burtu konfigurēšanu, atlasiet **Labi**.
+7. Jūs varat uzraudzīt konfigurācijas progresu detaļās.
+8. Kad konfigurēšana ir pabeigta, atlasiet **Saistīt ar Power Platform vidi**, lai sinhronizētu pieejamos datu elementus.
+9. Kad statuss norāda, ka vides ir veiksmīgi saistītas, dodieties uz administrēšanas Power Platform centru, lai pārskatītu un atlasītu atbilstošos datu elementus.
+10. Kreisajā rūtī atlasiet **Dynamics 365 programmu \> resursi**.
+11. Pārliecinieties, vai duālās rakstīšanas personāla programmas statuss ir **Iespējots**.
+12. Atlasiet divu rakstu personāla vadības lietojumprogrammu un pēc tam atlasiet **Instalēt**.
+13. **Rūtī Instalēt dubultrakstīšanas Dynamics 365 Human Resources programmu** atlasiet atbilstošo vidi, kurā instalēt pakotni.
 14. Atzīmējiet izvēles rūtiņu, lai piekristu pakalpojuma noteikumiem, un pēc tam atlasiet **Instalēt**.
-15. Dynamics 365 programmas vidē instalēšanas laikā **statuss tiks** Instalēts. Kad instalēšana būs pabeigta, tā **tiks** atjaunināta uz Instalēts.
+15. Dynamics 365 programmas vidē statuss būs **Instalēšana** instalēšanas laikā. Kad instalēšana būs pabeigta, tas tiks atjaunināts uz **Instalēts**.
 
-##### <a name="review-and-apply-a-dual-write-solution"></a>Pārskatiet un piemēroiet duālo rakstīšanas risinājumu
+##### <a name="review-and-apply-a-dual-write-solution"></a>Pārskatiet un lietojiet divkāršās rakstīšanas risinājumu
 
-1. Jaunajā finanšu un operāciju vidē dodieties uz datu pārvaldību **Dubultā \> rakstīšana**.
+1. Jaunajā finanšu un operāciju vidē dodieties uz sadaļu **Datu pārvaldība \> Dual-write**.
 2. Atlasiet **Lietot risinājumu**.
-3. Rūtī atlasiet Dynamics instalētos **risinājumus**, duālās **rakstīšanas programmas pamata elementa** kartes un **Dynamics 365 Human Resources kartes**. Pēc tam atlasiet **Lietot**. Ziņojums apstiprina, ka risinājums ir pielietots. Kad risinājums ir veiksmīgi pielietots, tiks parādītas visas pieejamās tabulu kartes.
-4. Pārskatiet pieejamās tabulas kartes, lai izvēlētos un palaistu integrāciju, izmantojot duālo rakstiet.
-5. Kad jūs pirmo reizi palaižat dubultās rakstīšanas integrāciju tabulu kartēm, atzīmējiet izvēles **rūtiņu Sākotnējā** sinhronizācija. Ja avota Personāla vadības vidē pastāv integrācija, palaižot tabulu karšu integrāciju, **nav** jāatlasa izvēles rūtiņa Sākotnējā sinhronizācija.
+3. Rūtī atlasiet **Dynamics instalētie risinājumi**, **Duālās rakstīšanas lietojumprogrammu pamata entītiju kartes un** kartes **Dynamics 365 Human Resources**. Pēc tam atlasiet **Lietot**. Ziņojums apstiprina, ka risinājums tiek lietots. Pēc tam, kad risinājums ir veiksmīgi piemērots, tiks parādītas visas pieejamās tabulas kartes.
+4. Pārskatiet pieejamās tabulu kartes, lai atlasītu un palaistu integrāciju, izmantojot dubulto rakstīšanu.
+5. Pirmo reizi palaižot dubultās rakstīšanas integrāciju tabulu kartēm, atzīmējiet izvēles rūtiņu **Sākotnējā sinhronizācija**. Ja pastāv integrācija no avota cilvēkresursu vides, palaižot tabulu karšu integrāciju, nav jāatzīmē izvēles rūtiņa **Sākotnējā sinhronizācija**.
 
-#### <a name="recommended-practices"></a>Rekomendētās prakses
+#### <a name="recommended-practices"></a>Ieteicamā prakse
 
-Šajā sadaļā ir sniegti rekomendācijas par migrēšanu no savrupas infrastruktūras uz finanšu un operāciju infrastruktūru.
+Šajā iedaļā ir izklāstīti ieteikumi pārejai no savrupās infrastruktūras uz finanšu un operāciju infrastruktūru.
 
-- Ieteicams strādāt ar partneri, lai Microsoft Dynamics saņemtu palīdzību saistībā ar cilvēkresursu vides migrāciju.
-- Plānojiet atbilstošo laiku, lai varētu veikt pilnu lietotāja pieņemšanas pārbaudi (UAT) kastē migrētajā vidē.
-- Plānojiet un dokumentē detalizētos soļus, lai migrētu integrācijas migrētajā vidē.
-- Izveidojiet detalizētu kontrolsarakstu, lai ieskictu pārslēgšanas procesu migrācijai.
-- Plānojiet savam biznesam atbilstošu dīkstāves daudzumu migrācijas laikā.
-- Iesakām FastTrack-kvalificētiem debitoriem strādāt ar viņu FastTrack risinājuma arhitektu, lai saņemtu palīdzību par migrācijas procesa raudzīšanu.
-- Pirms pirmās migrācijas ieteicams atjaunot savrupas infrastruktūras kases vides. Šajā atsvaidzināšanas laikā ir jāiekļauj Dataverse vide, kas ir saistīta ar vides, uz kuru plānojat migrēt, vides.
-- Ieteicams izmantot pakalpojuma kontu, kad izmantojat, izvietojot, migrējot un veidojot Lifecycle Services projektu.
-- Plānojiet UAT pārbaudes vides jaunināšanai uz pēdējo vispārējās pieejamības (GA) laidienu. Papildinformāciju skatiet [apsvērumos](hr-infrastructure-merge.md#considerations).
+- Mēs ļoti iesakām sadarboties ar savu Microsoft Dynamics partneri, lai saņemtu palīdzību saistībā ar cilvēkresursu vides migrāciju.
+- Plānojiet atbilstošu laiku, lai veiktu pilnīgu lietotāju pieņemšanas testēšanu (UAT) smilškastes migrētajā vidē.
+- Plānojiet un dokumentējiet detalizētas darbības, lai migrētu integrācijas uz migrēto vidi.
+- Izveidojiet detalizētu kontrolsarakstu, lai strukturētu migrācijas pārslēgšanas procesu.
+- Plānojiet savam uzņēmumam atbilstošu dīkstāves laiku, kamēr veicat migrāciju.
+- Mēs ļoti iesakām FastTrack kvalificētiem klientiem sadarboties ar savu FastTrack risinājumu arhitektu, lai saņemtu palīdzību migrācijas procesa pārraudzībā.
+- Pirms pirmās migrācijas veikšanas ir ļoti ieteicams atsvaidzināt smilškastes vidi savrupā infrastruktūrā. Šajā atsvaidzinājumā ir jāiekļauj jūsu Dataverse vide, kas ir savienota ar smilškastes vidi, uz kuru plānojat migrēt.
+- Ir ļoti ieteicams izmantot pakalpojuma kontu, kad izvietojat, migrējat un veidojat savu Lifecycle Services projektu.
+- Plānojiet jaunināt smilškastes vidi UAT validācijai jaunākajā vispārējās pieejamības (GA) laidienā. Papildinformāciju skatiet sadaļā [Apsvērumi](hr-infrastructure-merge.md#considerations).

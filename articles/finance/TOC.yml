@@ -1184,10 +1184,12 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Bieži uzdotie jautājumi par gada beigu aktivitātēm
                   href: general-ledger/faq-year-end-activities.md
-                - name: Virsgrāmatas darbību sasaistīšana
+                - name: Virsgrāmatas norēķini
                   href: general-ledger/ledger-settlements.md
                 - name: Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Automatizēt virsgrāmatas norēķinus
+                  href: general-ledger/auto-settle.md
                 - name: Ārvalstu valūtas pārvērtēšana virsgrāmatai
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Virsgrāmatas kontu bilances

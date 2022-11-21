@@ -1,6 +1,6 @@
 ---
 title: Debitora vecumstruktūru momentuzņēmumi
-description: Šajā rakstā ir sniegta informācija par debitora vecumstruktūras momentuzņēmumiem. Vecumstruktūras momentuzņēmums aprēķina vecas klientu grupas bilances par noteiktu laika periodu.
+description: Šajā rakstā ir sniegta informācija par klientu novecošanas momentuzņēmumiem. Vecumstruktūras momentuzņēmums aprēķina vecas klientu grupas bilances par noteiktu laika periodu.
 author: JodiChristiansen
 ms.date: 10/10/2022
 ms.topic: article
@@ -13,26 +13,28 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643690"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775246"
 ---
 # <a name="customer-aging-snapshots"></a>Debitora vecumstruktūru momentuzņēmumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par debitora vecumstruktūras momentuzņēmumiem. Vecumstruktūras momentuzņēmums aprēķina vecas klientu grupas bilances par noteiktu laika periodu. Varat izveidot vecumstruktūras momentuzņēmumu ierakstus vai nu visiem debitoriem, vai debitoru kopai.
+Šajā rakstā ir sniegta informācija par klientu novecošanas momentuzņēmumiem. Vecumstruktūras momentuzņēmums aprēķina vecas klientu grupas bilances par noteiktu laika periodu. Varat izveidot vecumstruktūras momentuzņēmumu ierakstus vai nu visiem debitoriem, vai debitoru kopai.
 
 Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā **Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot **Vecas bilances** saraksta lapu. Saraksta lapa uzskaita tikai tos debitorus, kuriem ir izveidots vecumstruktūras momentuzņēmums.
 
 **Debitora kredīta un iekasēšanas** darbvieta rāda arī debitoru vecumstruktūras. Papildinformāciju skatiet [Kredīta un iekasēšanas pārvaldības Power BI saturā](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Lai palīdzētu samazināt laiku, kas nepieciešams vecumstruktūras momentuzņēmuma izveidošanai, **līdzekļa** pārvaldības darbvietā ieslēdziet tālāk norādītos līdzekļus: **debitoru vecumstruktūras** **veiktspējas uzlabojumi Debitoru vecumstruktūras veiktspējas uzlabojumi debitoru kopās.**  
-> Ja ir iespējotas abas funkcijas, **debitoru kopas** var izmantot, veidojot vecumstruktūras momentuzņēmumu. 
+> Lai palīdzētu samazināt novecošanas momentuzņēmuma izveidei nepieciešamo laiku, darbvietā Līdzekļu **pārvaldība** ieslēdziet šādus līdzekļus: 
+> - **Debitoru novecošanas veiktspējas uzlabošana** 
+> - **Klientu novecošanas veiktspējas uzlabošana ar klientu pūliem**  
+>Ja ir iespējotas abas funkcijas, klientu pūlus **var izmantot,** veidojot novecošanās momentuzņēmumu. 
 
 Veidojot debitora vecumstruktūras momentuzņēmumu, izmantojiet šādus laukus, lai ievadītu informāciju par to:
 
@@ -54,12 +56,12 @@ Veidojot debitora vecumstruktūras momentuzņēmumu, izmantojiet šādus laukus,
    Piemēram, pašreizējais vecumstruktūras periods ir 30 dienas. Ja šajā laukā atlasāt **Šodienas datumu**, pašreizējais vecumstruktūras periods sākas šodienas datumā un pēc tam ietver iepriekšējās 29 dienas. Ja šajā laukā atlasāt **Atlasīto datumu** un ievadāt datumu, pašreizējais vecumstruktūras periods sākas norādītajā datumā un pēc tam ietver iepriekšējās 29 dienas.
 
 - **Atjaunināt iekasēšanas statusu** – iestatiet šo opciju uz **Jā**, lai atjauninātu iekasēšanas statusu transakciju **Iekasēšanas** lapā no **Samaksas solījums** uz **Neizpildītās samaksas solījums**, ja vecumstruktūras datums ir vēlāks par datumu laukā **Samaksas solījuma datums**. Iestatiet šo opciju uz **Nē**, lai atstātu iekasēšanas statusu nemainītu **Iekasēšanas** lapā.
-- **Iekļaut debitorus ar nulles bilanci** – iestatiet šo opciju uz **Jā**, lai iekļautu visus debitorus, neatkarīgi no to bilances. Ja iekļauti visi debitori, debitoru **kopas funkcijām ieteicams ieslēgt gan debitoru** **veiktspējas uzlabojumus, gan debitoru vecumstruktūras veiktspējas uzlabojumus**. Iestatiet šo opciju uz **Nē**, lai iekļautu tikai debitorus, kuriem ir bilance. Šis iestatījums palīdzēs paātrināt veiktspēju, jo debitori, kuriem nav bilances, tiek izlaisti.
-- **Apiet kredīta limita aprēķinus vecumstruktūras laikā -** ja šī opcija ir iestatīta uz Jā, vecumstruktūras process **nerēķina** pavadzīmes apakšsummas, Atvērt pasūtījuma apakšsummas **un Kredīta summu,** **·** **kas pieejama katram debitoram.** Šīs bilances ir parādītas lapas **Vecuma bilances** laukā Papildinformācija zem kredīta **limita**. Lai vecumstruktūras procesa laikā nodrošinātu ātrāku veiktspēju, iestatiet šo opciju uz **Jā**. Iestatiet to uz **Nē,** lai pārrēķinātu bilances, izpildot vecumstruktūras procesu. 
+- **Iekļaut debitorus ar nulles bilanci** – iestatiet šo opciju uz **Jā**, lai iekļautu visus debitorus, neatkarīgi no to bilances. Ja iekļaujat visus klientus, ieteicams ieslēgt gan klientu novecošanas veiktspējas uzlabošanu, gan **klientu** novecošanas veiktspējas uzlabošanu **, izmantojot klientu pūla** funkcijas. Iestatiet šo opciju uz **Nē**, lai iekļautu tikai debitorus, kuriem ir bilance. Šis iestatījums palīdzēs paātrināt veiktspēju, jo klienti, kuriem nav līdzsvara, tiek izlaisti.
+- **Apejiet kredītlimita aprēķinus novecošanas laikā — ja šī opcija ir iestatīta uz** Jā, novecošanas **process nepārrēķinās** katram debitoram pieejamo **pavadzīmes starpsummas summu,** Atvērtā pasūtījuma starpsummas **summu** un **Kredītu**. Šie atlikumi tiek parādīti **lapas Vecuma bilances** sadaļā FactBox sadaļā **Kredītlimits**. Lai novecošanas procesā nodrošinātu ātrāku veiktspēju, iestatiet šai opcijai vērtību **Jā**. Iestatiet to uz **Nē**, lai pārrēķinātu atlikumus, veicot novecošanās procesu. 
 - **Uzņēmumu diapazons** – cilnē **Uzņēmumu diapazons** atlasiet juridiskās personas (uzņēmumus), kas jāietver vecumstruktūras momentuzņēmumā. Atlasei ir pieejamas tikai juridiskās personas, kas ir iestatītas centralizētajiem maksājumiem. Tad darījumi no atlasītajām juridiskajām personām tiek iekļauti debitoru vecumstruktūras periodos, kuriem ir vienāds puses ID visās šajās juridiskajās personās. Valūtu summas tiek konvertētas uz to juridisko personu valūtu, kura kontā pieteicāties, kad izveidojāt vecumstruktūras momentuzņēmumu.
 
 Mēs iesakām jums plānot šo procesu, lai palaistu to partijā.
 
 > [!NOTE]
-> Lai palīdzētu uzlabot pakešuzdevumu veiktspēju vecumstruktūras momentuzņēmumu izveides laikā, ievadiet skaitli laukā **Maksimālais pakešuzdevumu skaits**, kopsavilkuma cilnē **Iekasēšanas noklusējumi**, cilnē **Iekasēšana**, lapā **Debitoru parādu parametri**. Laukā **Debitoru bilanču vecuma bilances** ieteicams sākt ar vērtību no 12 **līdz** 20 **un pēc tam koriģēt vērtību,** lai optimizētu jūsu situācijas apstrādi. Nav ieteicams iestatīt šo vērtību, kas lielāka par **30**, jo tā ietekmēs veiktspēju. 
+> Lai palīdzētu uzlabot pakešuzdevumu veiktspēju vecumstruktūras momentuzņēmumu izveides laikā, ievadiet skaitli laukā **Maksimālais pakešuzdevumu skaits**, kopsavilkuma cilnē **Iekasēšanas noklusējumi**, cilnē **Iekasēšana**, lapā **Debitoru parādu parametri**. **Laukā Klientu bilances vecums** ieteicams sākt ar vērtību no **12** līdz **20** un pēc tam pielāgot vērtību, lai optimizētu apstrādi atbilstoši jūsu situācijai. Mēs neiesakām iestatīt šo vērtību, kas ir lielāka par **30**, jo tas ietekmēs veiktspēju. 
 

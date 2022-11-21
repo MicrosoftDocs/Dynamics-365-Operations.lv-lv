@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Drošības lomu piešķiršana lietotājiem
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Active Directory drošības grupas
+                  href: sysadmin/active-directory-security-group.md
                 - name: 'Pielāgotu drošības konfigurāciju importēšana vai eksportēšana, izmantojot datu pārvaldību'
                   href: sysadmin/import-export-customized-security.md
                 - name: Drošības diagnostika uzdevumu reģistrēšanai

@@ -1,8 +1,8 @@
 ---
 title: Virsgrāmatas sadalījumu žurnāla apstrāde
-description: Šajā rakstā ir izskaidrots, kā apstrādāt sadalījuma pieprasījumu Dynamics 365 Finansēs.
+description: Šajā rakstā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu Dynamics 365 Finance.
 author: aprilolson
-ms.date: 07/26/2019
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,28 +13,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f22b5042e0e3726afcb1061852fdbd8de770c61
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902434"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779397"
 ---
 # <a name="process-ledger-allocation-journal"></a>Virsgrāmatas sadalījumu žurnāla apstrāde
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir izskaidrots, kā apstrādāt iedalīšanas pieprasījumu. Izmantojiet lapu Apstrādāt piešķiršanas pieprasījumu, lai izveidotu sadalījuma žurnālu, ko var pārskatīt un apstiprināt pirms grāmatošanas Virsgrāmatā vai grāmatot tieši Virsgrāmatā. Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
+Šajā rakstā ir paskaidrots, kā apstrādāt sadalījuma pieprasījumu. **Izmantojiet lapu Sadalījuma pieprasījuma** apstrāde, lai izveidotu sadalījuma žurnālu, kuru var pārskatīt un apstiprināt pirms grāmatošanas virsgrāmatā vai grāmatot tieši Virsgrāmatā. Pirms varēsiet izveidot sadalījumu žurnālu, jābūt vismaz vienai aktīvai Virsgrāmatas sadalījuma kārtulai. Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums USMF.
 
-1. Navigācijas rūtī dodieties uz sadaļu **Virsgrāmatas > Sadalījuma > Apstrādājiet sadalījuma pieprasījumu**.
+1. Navigācijas rūtī dodieties uz sadaļu **Virsgrāmata > Sadalījumi > Procesa sadalījuma pieprasījums**.
 2. Laukā **Noteikums** nolaižamajā sarakstā atlasiet vēlamo ierakstu.
 3. Laukā **No datuma** ievadiet datumu.
 
     - Lauks **No datuma** ir ļoti svarīgs, ja virsgrāmata ir noteikuma datu avots. Šis datums kontrolē, kuras Virsgrāmatas bilances iekļaut sadalījumā.  
     - Laukā **Nulles avots** atlasiet **Apturēt**. Tādējādi tiks apturēts sadalīšanas process un parādīsies ziņojums, kurā teikts, ka ir atlasīts nulles avota apjoms.  
 
-4. Laukā **Priekšlikuma opcijas** atlasiet **Tikai priekšlikums**. Atlasiet **Tikai priekšlikums**, lai izskatītu un pēc izvēles apstiprinātu rezultātu sadalījuma žurnālos pirms grāmatot sadalījumu virsgrāmatā.  
-5. Laukā Virsgrāmatas grāmatošanas datums ievadiet datumu.
+4. Laukā **Priekšlikuma opcijas** atlasiet **Tikai priekšlikums**. Atlasiet **Tikai** priekšlikums, lai pirms sadalījuma grāmatošanas virsgrāmatā pārskatītu un pēc izvēles apstiprinātu rezultātu **sadalījuma žurnālos**.  
+5. **Laukā GL grāmatošanas datums** ievadiet datumu.
 6. Atlasiet **Labi**.
 7. Navigācijas rūtī dodieties uz **Moduļi > Virsgrāmata > Sadalījums > Sadalījuma žurnāli**.
 8. Atlasiet **Rindas**.

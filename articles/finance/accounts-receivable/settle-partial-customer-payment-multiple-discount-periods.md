@@ -2,25 +2,25 @@
 title: Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 description: Šajā rakstā ir izskaidrots, kā tiek nosegti daļēji debitora maksājumi, ja ir vairāki atlaižu periodi.
 author: ShivamPandey-msft
-ms.date: 08/22/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a84d49b075ed16acb7bc02c772526334a1120e96
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 62defda8831d2915050fc6822f60a905f067fe88
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725462"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778445"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
@@ -35,29 +35,29 @@ Arnis debitoram 4031 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 2
 
 | Termiņatlaides datums | Termiņatlaides summa | Summa darījuma valūtā |
 |--------------------|----------------------|--------------------------------|
-| 30.06.2015          | 20,00                | 980,00                         |
-| 09.07.2015           | 10,00                | 990,00                         |
-| 25.07.2015          | 0,00                 | 1000,00                       |
+| 30.06.2020.          | 20.00                | 980.00                         |
+| 7/9/2020           | 10,00                | 990.00                         |
+| 7/25/2020          | 0,00                 | 1,000.00                       |
 
 Arnijs varat apskatīt šo transakciju lapā **Debitoru darbības**.
 
 | Dokuments   | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance  | Valūta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10030 | Rēķins          | 25.06.2015 | 10030   | 1000,00                             |                                       | 1000,00 | USD      |
+| FTI-10030 | Rēķins          | 6/25/2020 | 10030   | 1,000.00                             |                                       | 1,000.00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Daļēja apmaksa pirms termiņatlaides datuma
 28. jūnijā debitors 4031 veic daļēju maksājumu 294,00 apmērā. Tā kā 28. jūnijs ietilpst pirmajā termiņatlaides periodā, debitors izmanto 6,00 atlaidi. Lapā **Transakciju nosegšana** vērtība **Termiņatlaides summa** ir 20,00 un vērtība **Ņemamā termiņatlaides summa** ir 6,00.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Atlasīts | Parastais            | FTI-10030 | 4031    | 25.06.2015 | 25.07.2015 | 10030   | 1000,00                       | USD      | 294,00           |
+| Atlasīts | Parastais            | FTI-10030 | 4031    | 6/25/2020 | 7/25/2020 | 10030   | 1,000.00                       | USD      | 294,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ja nemainīsiet vērtību **Nosedzamā summa** uz **294,00**, vērtības **Termiņatlaides summa**, kas tiks rādītas, atšķirsies. Tomēr 6,00 tiks ņemti kā termiņatlaide, grāmatojot maksājumu, jo nosegšana automātiski pielāgo vērtību **Nosedzamā summa**.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā. Ja nemainīsiet vērtību **Nosedzamā summa** uz **294,00**, vērtības **Termiņatlaides summa**, kas tiks rādītas, atšķirsies. Tomēr 6,00 tiks ņemti kā termiņatlaide, grāmatojot maksājumu, jo nosegšana automātiski pielāgo vērtību **Nosedzamā summa**.
 
 | &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 30.06.2015 |
-| Termiņatlaides summa         | 20,00     |
+| Termiņatlaides datums           | 30.06.2020. |
+| Termiņatlaides summa         | 20.00     |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | 6,00      |
@@ -68,15 +68,15 @@ Pēc tam Arnijs grāmato maksājumu, rēķina bilance ir 700,00.
 8. jūlijā debitors maksā pārējo rēķina summu. Tiek ņemta 7,00 atlaide (1 procents), jo maksājums tika veikts otrajā termiņatlaides periodā.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Valūta | Nosedzamā summa |
-|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Atlasīts | Parastais            | FTI-10030 | 4031    | 25.06.2015 | 25.07.2015 | 10030   | 700,00                               |                                       | USD      | 693,00           |
+|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------|-----------------------|----------|------------------|
+| Atlasīts | Parastais            | FTI-10030 | 4031    | 6/25/2020 | 7/25/2020 | 10030   | 700,00       |            | USD      | 693,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
 | &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 09.07.2015 |
-| Termiņatlaides summa         | 30,00     |
+| Termiņatlaides datums           | 7/09/2020 |
+| Termiņatlaides summa         | 30.00     |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 6,00      |
 | Ņemamā termiņatlaides summa | 7,00      |
@@ -85,11 +85,11 @@ Rēķina bilance tagad ir 0,00. Arnijs apskata informāciju lapā **Debitoru dar
 
 | Dokuments    | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance | Valūta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10030  | Rēķins          | 25.06.2015 | 10030   | 1000,00                             |                                       | 0,00    | USD      |
-| ARP-10030  |  Maksājums         | 28.06.2015 |         |                                      | 294,00                                | 0,00    | USD      |
-| DISC-10030 |  Termiņatlaide   | 28.06.2015 |         |                                      | 6,00                                  | 0,00    | USD      |
-| ARP-10031  |  Maksājums         | 08.07.2015  |         |                                      | 693,00                                | 0,00    | USD      |
-| DISC-1031  |  Termiņatlaide   | 08.07.2015  |         |                                      | 7,00                                  | 0,00    | USD      |
+| FTI-10030  | Rēķins          | 6/25/2020 | 10030   | 1,000.00                             |                                       | 0,00    | USD      |
+| ARP-10030  |  Maksājums         | 6/28/2020 |         |                                      | 294,00                                | 0,00    | USD      |
+| DISC-10030 |  Termiņatlaide   | 6/28/2020 |         |                                      | 6,00                                  | 0,00    | USD      |
+| ARP-10031  |  Maksājums         | 7/8/2020  |         |                                      | 693,00                                | 0,00    | USD      |
+| DISC-1031  |  Termiņatlaide   | 7/8/2020  |         |                                      | 7.00                                  | 0,00    | USD      |
 
 
 

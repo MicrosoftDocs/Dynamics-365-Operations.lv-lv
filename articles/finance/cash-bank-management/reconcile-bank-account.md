@@ -2,24 +2,24 @@
 title: Bankas konta saskaņošana
 description: Šajā rakstā ir aprakstīts, kā saskaņot bankas kontu.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151257"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779532"
 ---
 # <a name="reconcile-a-bank-account"></a>Bankas konta saskaņošana
 
@@ -29,27 +29,27 @@ Saņemot bankas izrakstu, periodiski ir jāsaskaņo juridiskās personas bankas 
 
 Jūs nevarat saskaņot bankas konta pārskatu ar bankas kontu, ja jebkuriem pārskatā uzskaitītiem čekiem vai depozīta kvīts maksājumiem pašreiz ir statuss **Gaida atcelšanu**. Kad čeka anulēšana vai depozīta kvīts maksājuma atcelšana ir iegrāmatota vai apvērsta, status vairs netiks rādīts kā **Gaida atcelšanu**, un jūs varēsiet saskaņot bankas kontu.
 
-1.  Atveriet sadaļu **Kases un bankas vadība** \> **Banku konti** \> **Banku konti**. Atlasiet bankas kontu, kas jāsaskaņo ar bankas izrakstu, un atlasiet **Saskaņot** > **Kontu saskaņošana**.
+1. Atveriet sadaļu **Kases un bankas vadība** \> **Banku konti** \> **Banku konti**. Atlasiet bankas kontu, kas jāsaskaņo ar bankas izrakstu, un atlasiet **Saskaņot** > **Kontu saskaņošana**.
 
-2.  Ievadiet informāciju laukos **Bankas izraksta datums** un **Bankas izraksts**. Laukā **Beigu bilance** varat ievadīt bankas konta bilanci saskaņā ar bankas konta pārskata datiem.
+2. Ievadiet informāciju laukos **Bankas izraksta datums** un **Bankas izraksts**. Laukā **Beigu bilance** varat ievadīt bankas konta bilanci saskaņā ar bankas konta pārskata datiem.
 
-3.  Atlasiet **Transakcijas**, lai atvērtu lapu **Kontu saskaņošana**.
+3. Atlasiet **Transakcijas**, lai atvērtu lapu **Kontu saskaņošana**.
 
-4.  Katrai bankas izrakstā iekļautai darbībai atzīmējiet izvēles rūtiņu Dzēsts, **ja** summa programmā Dynamics 365 Finanses atbilst bankas izraksta summai. Varat arī ievadīt vai mainīt vērtību laukā **Bankas transakcijas veids**. Šī lauka vērtība ir svarīga jūsu bankas konta statistikai un dažiem pārskatiem.
+4. Katrai transakcijai, kas ir iekļauta bankas izrakstā, atzīmējiet izvēles rūtiņu Notīrīt **,** ja summa programmā Dynamics 365 Finance atbilst summai bankas izrakstā. Varat arī ievadīt vai mainīt vērtību laukā **Bankas transakcijas veids**. Šī lauka vērtība ir svarīga jūsu bankas konta statistikai un dažiem pārskatiem.
     
 
-    > [!NOTE]
-    > <P>Neatlasiet izvēles rūtiņu <STRONG>Dzēsts</STRONG> tām transakcijām, kuras nav iekļautas bankas konta pārskatā. Šīs transakcijas tiks rādītas šajā lapā līdz brīdim, kamēr tās netiks saskaņotas nākamajā bankas konta pārskatā.</P>
-    > <P>Izvēles rūtiņa <STRONG>Dzēsts</STRONG> nav pieejama, ja transakcijas statuss ir <STRONG>Gaida atcelšanu</STRONG>. Transakcijām var būt šis statuss, ja Finance ir iestatīta tā, lai pirms grāmatošanas visas apgriešanas vai atcelšanas tiktu nosūtītas apstiprināšanai. Kad čeka anulēšana vai depozīta kvīts maksājuma atcelšana ir iegrāmatota vai apvērsta, status vairs netiks rādīts kā <STRONG>Gaida anulēšanu</STRONG>, un jūs varēsiet saskaņot bankas kontu ar bankas izrakstu.</P>
+>[!NOTE]
+>Neatlasiet izvēles rūtiņu **Dzēsts** tām transakcijām, kuras nav iekļautas bankas konta pārskatā. Šīs transakcijas tiks rādītas šajā lapā līdz brīdim, kamēr tās netiks saskaņotas nākamajā bankas konta pārskatā.
+>Izvēles rūtiņa **Dzēsts** nav pieejama, ja transakcijas statuss ir **Gaida atcelšanu**. Transakcijām var būt šis statuss, ja Finance ir iestatīta tā, lai pirms grāmatošanas visas apgriešanas vai atcelšanas tiktu nosūtītas apstiprināšanai. Kad čeka anulēšana vai depozīta kvīts maksājuma atcelšana ir iegrāmatota vai apvērsta, status vairs netiks rādīts kā **Gaida anulēšanu**, un jūs varēsiet saskaņot bankas kontu ar bankas izrakstu.
 
-    
-    Lai atzīmētu izvēles rūtiņu **Dzēsts** čeku intervālam, kas visi ir redzami bankas izrakstā, atlasiet **Atzīmēt čeku intervālu** un pēc tam norādiet intervālu.
+
+Lai atzīmētu izvēles rūtiņu **Dzēsts** čeku intervālam, kas visi ir redzami bankas izrakstā, atlasiet **Atzīmēt čeku intervālu** un pēc tam norādiet intervālu.
 
 5.  Ja bankas konta transakciju summa neatbilst bankas izrakstā norādītajai transakciju summai, laukā **Labojuma summa** ievadiet labojuma summu.
     
 
-    > [!NOTE]
-    > <P>Ja labojamas transakcijas fiskālais periods ir noslēgs, tad lauku <STRONG>Labojuma summa</STRONG> nevarēs lietot. Lai veiktu labojumus, varat izveidot rindu ar transakcijas datumu, kas ir atvērtajā fiskālajā periodā. Šādā gadījumā ir jāpievieno finanšu dimensijas, kas tika izmantotas sākotnējā transakcijā, kā arī korespondējošais galvenais konts.</P>
+> [!NOTE]
+> Ja labojamas transakcijas fiskālais periods ir noslēgs, tad lauku **Labojuma summa** nevarēs lietot. Lai veiktu labojumus, varat izveidot rindu ar transakcijas datumu, kas ir atvērtajā fiskālajā periodā. Šādā gadījumā ir jāpievieno finanšu dimensijas, kas tika izmantotas sākotnējā transakcijā, kā arī korespondējošais galvenais konts.
 
 
 

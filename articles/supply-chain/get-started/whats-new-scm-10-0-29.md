@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.29 (2022. gada oktobris)
-description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.29.
+description: Šajā rakstā ir aprakstīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management 10.0.29.
 author: kamaybac
 ms.date: 08/12/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 8f6ba18096cffe907c339ad525c99535bc5ee568
+ms.sourcegitcommit: 7745c4bd3ab3aace4b4cb814eaf0cfdbae4a0cbd
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714838"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9784698"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.29 (2022. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.29. Šai versijai ir ražošanas numuru 10.0.1326 un tā ir pieejama šajā grafikā:
+Šajā rakstā ir uzskaitīti līdzekļi, kas ir jauni vai mainīti Microsoft Dynamics 365 Supply Chain Management versijā 10.0.29. Šai versijai ir būvējuma numurs 10.0.1326, un tā ir pieejama šādā grafikā:
 
 - **Laidiena priekšskatījums:** 2022. gada augusts
 - **Vispārēja laidiena (pašatjauninājums) pieejamība:** 2022. gada septembris
@@ -29,53 +29,53 @@ ms.locfileid: "9714838"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varētu atjaunināt šo rakstu, lai ietvertu līdzekļus, kas tika pievienoti būvējumam pēc šī raksta sākotnējās publicēšanas.
+Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Mēs varam atjaunināt šo rakstu, lai iekļautu līdzekļus, kas tika pievienoti būvējumam pēc šī raksta sākotnējās publicēšanas.
 
 | Līdzekļu apgabals | Līdzeklis | Papildinformācija | Iespējoja: |
 |---|---|---|---|
-| Krājumi un loģistika | [PIEŠĶIRT un rezervēt WMS krājumus krājumu redzamībai](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Drīzumā | Aktivizēts pēc noklusējuma |
-| Krājumi un loģistika | [Iepriekšējas ielādēt racionālus rīcībā esošo krājumu sarakstus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility programmas lietošana](../inventory/inventory-visibility-power-platform.md) | Aktivizē pakalpojuma konfigurācija |
+| Krājumi un loģistika | [WMS vienumu piešķiršana un rezervēšana krājumu redzamībā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | [Inventory Visibility atbalsts WMS krājumiem](../inventory/inventory-visibility-whs-support.md) | Iespējots pēc noklusējuma |
+| Krājumi un loģistika | [Rīcībā esošo krājumu sarakstu iepriekšēja ielāde](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility programmas lietošana](../inventory/inventory-visibility-power-platform.md) | Iespējots pēc pakalpojuma konfigurācijas |
 | Veidošanas pasūtījumā piegādes automatizācija | [Veidošanas pasūtījumā piegādes automatizācija](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Veidošanas pasūtījumā piegādes automatizācija](../master-planning/make-to-order-supply-automation.md) | Līdzekļu pārvaldība:<br>*Veidošanas pasūtījumā piegādes automatizācija* |
-| Plānošana | [Skatīt un pielietot detalizētus ieskatus par DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
+| Plānošana | [Skatīt un lietot detalizētus ieskatus par DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Uz pieprasījumu balstītu materiālu prasību plānošanas pārskats](../master-planning/planning-optimization/ddmrp-overview.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) DDMRP plānošanas optimizācijai* |
 | Ražošanas kontrole | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Gatavo preču padarīšana par fiziski pieejamām pirms grāmatošanas žurnālos](../production-control/deferred-posting.md) | Līdzekļu pārvaldība:<br>*(Priekšskatījums) Padarīt gatavās preces fiziski pieejamas pirms grāmatošanas žurnālos* |
-| Noliktavas vadība | [Uzmeklē atbilstošos datus noliktavas mobilajā programmā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu](../warehousing/warehouse-app-data-inquiry.md) | Līdzekļu pārvaldība:<br>*Warehouse Management programmas datu uzziņu plūsma* |
+| Noliktavas vadība | [Meklējiet atbilstošos datus noliktavas mobilajā programmā](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Vaicājumu dati, izmantojot mobilās programmas Warehouse Management apiešanu](../warehousing/warehouse-app-data-inquiry.md) | Līdzekļu pārvaldība:<br>*Warehouse Management programmas datu uzziņu plūsma* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļu uzlabojumi. Katrs no šiem papildinājumiem nodrošina inkrementālu uzlabojumu esošajai funkcijai. Tā kā tie ir tikai uzlabojumi, tie nav uzskaitīti [izlaišanas plānā](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Tomēr, lai nodrošinātu, ka šie uzlabojumi nenonāk pretrunā ar esošajiem pielāgojumiem vai preferencēm, katrs no tiem tiek izslēgts pēc noklusējuma (ja vien nav norādīts citādi).
 
-Ja vēlaties ieslēgt vai izslēgt jebkuru no šīm funkcijām, tas ir jādara līdzekļa [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Ja vēlaties ieslēgt vai izslēgt kādu no šiem līdzekļiem, tas ir jādara līdzekļu [pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 | Modulis | Līdzekļa nosaukums līdzekļu pārvaldībā | Papildinformācija |
 |---|---|---|
-| Izmaksu pārvaldība | Gaidoša līdzprodukta cenas aprēķina optimizācija | Šī funkcija labo konfliktu, kas reizēm var rasties, kad līdzprodukta cenas tiek aprēķinātas, izmantojot vairākus pavedienus. Tas liek sistēmai pārliecināties, vai katra līdzprodukta cena tiek aprēķināta tikai vienu reizi. Pēc tam šā aprēķina rezultāts tiek izmantots kā ievade visiem citiem aprēķiniem. Ja gaidoša cena jau eksistē, šī cena tiek izmantota. |
-| Vispārējā plānošana | Grupu darījumi Plānošanas optimizācijā | Izmantojot plānošanas optimizāciju, šis līdzeklis var palīdzēt samazināt plānoto pasūtījumu skaitu, kas tiek ģenerēti vienas pārdošanas pasūtījuma rindas piegādei. Ja ir ieslēgta šī funkcija, plānošanas optimizācija grupēs visas krājumu darbības pasūtījuma rindai vienā pilna daudzuma prasībā. (Šī funkcionalitāte atbilst iebūvētās plānošanas programmas funkcionalitātei.) Piedāvājums un pieprasījums tiek grupēti atsevišķi. Tāpēc šī funkcija palīdz samazināt darbības apjomu, kad ir sadalītas darbības un kad lietojat dimensijas (piemēram, partijas numurus vai sērijas numurus), kas nav vajadzības dimensijas. |
-| Sagāde un avoti | Kreditora aizturēšana pirkšanas pasūtījumiem | Šī funkcija ļauj aizturēt kreditoru pirkšanas pasūtījumiem. Tas pievieno jaunu pirkšanas *pasūtījuma aizturēšanas* veidu, kas pirkšanas pasūtījumiem atzīmē kreditoru kā aizturētu. Jūs nevarēsit izveidot jaunus pirkšanas pasūtījumus kreditoriem, kas ir aizturēti pirkšanas pasūtījumiem, bet joprojām būs iespējams turpināt ar atvērtiem rēķiniem vai maksājumiem šiem kreditoriem. |
-| Pārdošana un mārketings | Aprēķināt rindas neto summu importējot | Šī funkcija ļauj jums kontrolēt, vai sistēmai ir jāpārrēķina rindu kopsummas, kad importējat datus caur pārdošanas pasūtījuma rindām, *pārdošanas* piedāvājuma rindām vai atgriešanas *pasūtījuma* rindu elementu, *izmantojot* OData vai duālo rakstiet. Tas stājas spēkā tikai **tad**, kad jums ir arī tirdzniecības līgumu vērtēšanas politikas, kas ierobežo izmaiņas neto summas laukā pārdošanas pasūtījuma rindām, pārdošanas piedāvājuma rindām un/vai atgriešanas pasūtījuma rindām. Tas pievieno iestatījumu ar nosaukumu Aprēķināt **rindas neto summu** debitoru **parādu > iestatīšana > debitoru parādu parametru** lapai. Ja šis iestatījums ir iestatīts *uz* Jā, sistēma vienmēr nepieciešamības gadījumā pārrēķinās rindu summas (ignorējot jebkuru tirdzniecības līguma novērtējuma politiku rindas neto summai). *Ja iestatījums ir iestatīts uz Nē*, sistēma nekad automātiski aprēķinās rindas neto summu, pat ja ienākošās izmaiņas rindas cenā, daudzumā un/vai atlaidē nozīmē, ka rindas neto summa ir jāpārrēķina. Šī funkcija tiek aktivizēta pēc noklusējuma un sākotnēji iestata **rindas neto summas aprēķinam vērtību** *Jā*. Neviens *iestatījums* neatbilst sistēmas uzvedībai pirms versijas 10.0.23 un ir sniegts galvenokārt, lai atbalstītu mantojuma integrācijas scenārijus.<br><br>Papildinformāciju skatiet sadaļā Rindas [neto summu pārrēķins, importējot pārdošanas pasūtījumus, piedāvājumus un atgrieztos](../sales-marketing/calc-line-net-amounts-import.md). |
-| Pārdošana un mārketings | Aprēķināt pārdošanas kopsummas, izmantojot vairākus pavedienus | Šī funkcija palīdz uzlabot veiktspēju, iespējojot sistēmu paralēlās apstrādes izmantošanu, aprēķinot paketē pārdošanas kopsummas. Šī funkcija pievieno jaunu **pavedienu lauku pārdošanas kopsummas** **aprēķināšanas** dialoglodziņam. Ja izvēlaties palaist aprēķinu paketē, šo lauku var izmantot, lai iestatītu maksimālo pavedienu skaitu. Ja iestatīsiet vērtību *kā 0* (nulle *) vai 1*, tiks izmantots viens pavediens. Vērtības virs 1 iespējo vairākpaveides. |
-| Pārdošana un mārketings | Atjaunināt starpuzņēmumam manuāli ievadītās cenas un atlaides | Šī funkcija pievieno atbalstu starpuzņēmumu pasūtījumu manuālai izmaiņu politikai. Tas ietver atbalstu manuālo izmaiņu politiku pārsūtīšanai starp starpuzņēmumu pārdošanas un pirkšanas pasūtījumiem. Iepriekš manuālas izmaiņu politikas tika atbalstītas tikai pasūtījumiem, kas nav starpuzņēmumu pasūtījumi. Kad šī funkcija ir aktivizēta, sistēma dos jums opciju atjaunināt cenas un atlaides pēc izmaiņu saglabāšanas starpuzņēmumu pasūtījumā. Šī opcija ļauj izvēlēties, vai starpuzņēmumu pasūtījumam lietot jauno cenu un atlaižu informāciju vai atstāt pasūtījumu nemainītu. |
+| Izmaksu pārvaldība | Gaidoša līdzprodukta cenas aprēķina optimizācija | Šis līdzeklis novērš konfliktu, kas dažkārt var rasties, ja līdzproduktu cenas tiek aprēķinātas, izmantojot vairākus pavedienus. Tas liek sistēmai pārliecināties, ka katra līdzprodukta cena tiek aprēķināta tikai vienu reizi. Šī aprēķina rezultāts pēc tam tiek izmantots kā ievaddati visiem pārējiem aprēķiniem. Ja gaidošā cena jau pastāv, šī cena tiek izmantota. |
+| Vispārējā plānošana | Grupu darījumi Plānošanas optimizācijā | Šis līdzeklis var palīdzēt samazināt plānoto pasūtījumu skaitu, kas tiek ģenerēti, lai nodrošinātu vienu pārdošanas pasūtījuma rindu, kad izmantojat plānošanas optimizāciju. Ja šis līdzeklis ir ieslēgts, plānošanas optimizācija grupēs visas krājumu transakcijas pasūtījuma rindai vienā prasībā pilnam daudzumam. (Šī darbība atbilst iebūvētās plānošanas programmas darbībai.) Piedāvājums un pieprasījums ir sagrupēti atsevišķi. Tāpēc šis līdzeklis palīdz samazināt transakciju apjomu, ja jums ir sadalītas transakcijas un ja izmantojat dimensijas (piemēram, partijas numurus vai sērijas numurus), kas nav pārklājuma kategorijas. |
+| Sagāde un avoti | Kreditora aizturēšana pirkšanas pasūtījumiem | Šis līdzeklis ļauj aizturēt pirkšanas pasūtījumu kreditoru. Tas pievieno jaunu *pirkšanas pasūtījuma* aizturēšanas tipu, kas atzīmē kreditoru kā aizturētu pirkšanas pasūtījumiem. Jūs nevarēsit izveidot jaunus pirkšanas pasūtījumus kreditoriem, kas ir aizturēti pirkšanas pasūtījumiem, bet jūs joprojām varēsit turpināt visus atvērtos rēķinus vai maksājumus par šiem kreditoriem. |
+| Pārdošana un mārketings | Aprēķināt rindas neto summu importējot | Šis līdzeklis ļauj kontrolēt, vai sistēmai ir jāpārrēķina rindu kopsummas, importējot datus, izmantojot pārdošanas pasūtījuma rindas *,* *pārdošanas piedāvājuma rindas* vai atgriešanas pasūtījuma rindu *entītiju, izmantojot OData vai* dubulto rakstīšanu. Tam ir ietekme tikai tad, ja ir ieviestas arī tirdzniecības līgumu novērtēšanas politikas, kas ierobežo izmaiņas **pārdošanas pasūtījuma rindu, pārdošanas piedāvājuma rindu un/vai atgriešanas pasūtījuma rindu laukā Neto summa**. Tas pievieno iestatījumu ar nosaukumu **Aprēķināt rindas neto summu** **lapai Debitoru parādi > iestatīšana > debitoru parādu parametri**. Ja šis iestatījums ir iestatīts uz Jā *, sistēma vienmēr pārrēķinās rindu summas, kad tas būs nepieciešams (tādējādi ignorējot tirdzniecības nolīguma novērtēšanas politiku attiecībā uz* rindas neto summu). Ja iestatījums ir iestatīts uz *Nē*, sistēma nekad automātiski neaprēķinās rindas neto summu, pat ja ienākošās rindas cenas, daudzuma un/vai diskonta izmaiņas nozīmētu, ka rindas neto summa ir jāpārrēķina. Šis līdzeklis ir iespējots pēc noklusējuma un sākotnēji iestata **opciju Aprēķināt rindas neto summu** uz *Jā*. Iestatījums *No* atbilst sistēmas darbībai pirms versijas 10.0.23 un tiek nodrošināts galvenokārt, lai atbalstītu mantotos integrācijas scenārijus.<br><br>Papildinformāciju skatiet sadaļā [Rindu neto summu pārrēķināšana, importējot pārdošanas pasūtījumus, piedāvājumus un atgriezes](../sales-marketing/calc-line-net-amounts-import.md). |
+| Pārdošana un mārketings | Aprēķināt pārdošanas kopsummas, izmantojot vairākus pavedienus | Šis līdzeklis palīdz uzlabot veiktspēju, ļaujot sistēmai izmantot paralēlo apstrādi, aprēķinot pārdošanas kopsummas partijā. Šis līdzeklis pievieno jaunu **lauku Pavedienu** skaits dialoglodziņam **Pārdošanas kopsummu** aprēķināšana. Ja izvēlaties izpildīt aprēķinu pakešveidā, varat izmantot šo lauku, lai iestatītu maksimālo pavedienu skaitu. Ja iestatāt vērtību uz *0* (nulle) vai *1*, tiks izmantots viens pavediens. Vērtības, kas pārsniedz 1, iespējo vairākpavedienu veidošanu. |
+| Pārdošana un mārketings | Atjaunināt starpuzņēmumam manuāli ievadītās cenas un atlaides | Šis līdzeklis pievieno atbalstu manuālām izmaiņu politikām starpuzņēmumu pasūtījumiem. Tas ietver atbalstu manuālu izmaiņu politiku pārsūtīšanai starp starpuzņēmumu pārdošanas un pirkšanas pasūtījumiem. Iepriekš manuālo izmaiņu politikas tika atbalstītas tikai pasūtījumiem, kas nav starpuzņēmumu pasūtījumi. Kad šis līdzeklis ir iespējots, sistēma sniegs jums iespēju atjaunināt cenas un atlaides pēc izmaiņu saglabāšanas starpuzņēmumu pasūtījumā. Šī opcija ļauj izvēlēties, vai starpuzņēmumu pasūtījumam vēlaties lietot jaunās cenas un detalizētu informāciju par atlaidēm vai atstāt pasūtījumu nemainītu. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
-Mēs nesen pievienojam vai būtiski atjauninājām šādus Palīdzības rakstus. Šiem rakstiem nav obligāti jābūt saistītiem ar jaunajiem līdzekļiem, kas tika pievienoti šim laidienam, kā norādīts iepriekšējās sadaļās. Tomēr tie var palīdzēt iegūt vairāk no esošajām funkcijām.
+Nesen esam pievienojuši vai ievērojami atjauninājuši tālāk norādītos palīdzības rakstus. Šie raksti ne vienmēr ir saistīti ar jaunajiem līdzekļiem, kas tika pievienoti šim laidienam, kā norādīts iepriekšējās sadaļās. Tomēr tie var palīdzēt jums iegūt vairāk no esošajām funkcijām.
 
 | Līdzekļu apgabals | Jauni vai atjaunināti raksti |
 |---|---|
-| Vispārējā plānošana, CTP | [Pārdošanas pasūtījuma piegādes datumus aprēķināšana, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
-| Vispārējā plānošana, DDMRP | [Pieprasījumam noteiktu materiālu prasību plānošanas apskats](../master-planning/planning-optimization/ddmrp-overview.md)<br>[Ieslēdziet DDMRP līdzekli savā sistēmā](../master-planning/planning-optimization/ddmrp-enable.md)<br>[Krājumu pozīcija](../master-planning/planning-optimization/ddmrp-inventory-positioning.md)<br>[Bufera profils un līmeņi](../master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md)<br>[Uz pieprasījumu balstīta plānošana](../master-planning/planning-optimization/ddmrp-planning.md)<br>[Vizuāla un sadarbības izpilde](../master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md) |
+| Vispārējā plānošana, CTP | [Pārdošanas pasūtījuma piegādes datumu aprēķināšana, izmantojot CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
+| Vispārējā plānošana, DDMRP | [Uz pieprasījumu balstītu materiālu prasību plānošanas pārskats](../master-planning/planning-optimization/ddmrp-overview.md)<br>[Ieslēdziet DDMRP līdzekli savā sistēmā](../master-planning/planning-optimization/ddmrp-enable.md)<br>[Krājumu pozīcija](../master-planning/planning-optimization/ddmrp-inventory-positioning.md)<br>[Bufera profils un līmeņi](../master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md)<br>[Uz pieprasījumu balstīta plānošana](../master-planning/planning-optimization/ddmrp-planning.md)<br>[Vizuāla un sadarbības izpilde](../master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md) |
 | Noliktavas vadība | [Konteineru iepakošana nosūtīšanai](../warehousing/packing-containers.md)<br>[Iepakošanas darbs izejošo konteineru iepakošanai un sūtījumu apstrādei](../warehousing/packing-work.md) |
 
 ## <a name="feature-state-changes-in-this-release"></a>Līdzekļu stāvokļa izmaiņas šajā laidienā
 
-Šajā tabulā uzskaitīti līdzekļi, kas bija obligāti vai pēc noklusējuma iekļauti versijā 10.0.29. Visas šīs funkcijas automātiski tiks ieslēgtas jūsu sistēmai, tiklīdz atjaunināsiet uz versiju 10.0.29. Obligātos līdzekļus nevar izslēgt, bet līdzekļus, kas ir ieslēgti pēc noklusējuma, joprojām var izslēgt, izmantojot līdzekļu [pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šajā tabulā ir uzskaitīti līdzekļi, kas versijā 10.0.29 kļuva obligāti vai ieslēgti pēc noklusējuma. Visi šie līdzekļi tiks automātiski ieslēgti jūsu sistēmā, tiklīdz atjaunināsit uz versiju 10.0.29. Obligātos līdzekļus nevar izslēgt, bet līdzekļus, kas ir ieslēgti pēc noklusējuma, joprojām var izslēgt, izmantojot [līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskatījumā, bet ir mainīti, lai kļūtu plaši pieejami versijā 10.0.29. Šīs izmaiņas norāda, ka tagad funkcijas ir ieteicamas izmantošanai ražošanas vidēs. Šīs funkcijas pēc noklusējuma ir izslēgtas, ja vien nav norādīts citādi. Tāpēc jums ir jāizmanto Līdzekļu [pārvaldība,](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lai tos iespējotu, ja vēlaties tos lietot.
+Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskajā priekšskatījumā, bet ir mainīti, kļūstot vispārēji pieejami versijā 10.0.29. Šīs izmaiņas norāda, ka līdzekļus tagad ieteicams izmantot ražošanas vidēs. Šie līdzekļi pēc noklusējuma ir izslēgti, ja vien nav norādīts citādi. Tāpēc jums ir jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai tos iespējotu, ja vēlaties tos izmantot.
 
-| Modulis | Līdzekļa nosaukums | Jauna līdzekļa stāvoklis |
+| Modulis | Līdzekļa nosaukums | Jauns līdzekļu stāvoklis |
 | --- | --- | --- |
 | Līdzekļu pārvaldība | [Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam](../production-control/production-floor-execution-configure.md) | Obligāts |
 | Izmaksu pārvaldība | [Mainīt atcelšanas etiķeti vienumā Slēgšana un korekciju uz operāciju Atsaukt](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Obligāts |
-| Izmaksu pārvaldība | Tīrīt MK aprēķina detalizētas informācijas šķērs izmaksu aprēķināšanas versijas | Obligāts |
+| Izmaksu pārvaldība | Notīrīt MK aprēķina detaļas par šķērsizmaksu versijām | Obligāts |
 | Izmaksu pārvaldība | [Preču cenu/glabāšanas salīdzinājums](../cost-management/compare-item-price.md) | Obligāts |
 | Izmaksu pārvaldība | [Izmaksu aprēķina līmenis](../cost-management/cost-calculation-level.md) | Ieslēgts pēc noklusējuma |
 | Izmaksu pārvaldība | Lietotāja definēta partijas numura iestatīšanas iespējošana krājumu slēgšanas apgriešanai | Ieslēgts pēc noklusējuma |
@@ -86,17 +86,17 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Izmaksu pārvaldība | Rādīt krājumu slēgšanas žurnālu režģī | Obligāts |
 | Izmaksu pārvaldība | Rādīt krājumus ar pilnībā nenosegtiem darījumiem kopsavilkuma formātā | Obligāts |
 | Krājumu un noliktavas pārvaldība | Atļaut tukšas partijas atribūtu vērtības | Obligāts |
-| Krājumu un noliktavas pārvaldība | Automātiski palielināt krājumu pārsūtīšanas pasūtījuma rindu numurus | Obligāts |
+| Krājumu un noliktavas pārvaldība | Krājumu pārsūtīšanas pasūtījuma rindu numuru automātiska palielināšana | Obligāts |
 | Krājumu un noliktavas pārvaldība | Izveidot pārsūtīšanas pasūtījumu no pārdošanas rindas | Obligāts |
 | Krājumu un noliktavas pārvaldība | Atspējot krājumu žurnāla rindas lauku darbplūsmā | Obligāts |
 | Krājumu un noliktavas pārvaldība | Iespējojiet krājumu kvalitātes pārvaldības parametru brīdināšanas funkciju | Obligāts |
 | Krājumu un noliktavas pārvaldība | (Ķīna) Izslēdziet fiziskās saņemšanas un izdošanas izmaksas no mēneša vidējām izmaksām | Ieslēgts pēc noklusējuma |
 | Krājumu un noliktavas pārvaldība | [Krājumu žurnāla apstiprināšanas darbplūsma](../inventory/inventory-journal-workflow.md) | Obligāts |
 | Krājumu un noliktavas pārvaldība | [Krājumu rīcībā esošā pārskata glabāšana](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage) | Obligāts |
-| Krājumu un noliktavas pārvaldība | [Saglabātie skati krājumu pārvaldībai](saved-views-scm.md) | Obligāts |
-| Krājumu un noliktavas pārvaldība | Pārsūtīšanas pasūtījuma atcelšana | Obligāts |
+| Krājumu un noliktavas pārvaldība | [Saglabāti skati krājumu pārvaldībai](saved-views-scm.md) | Obligāts |
+| Krājumu un noliktavas pārvaldība | Pārskaitījuma pasūtījuma atcelšana | Obligāts |
 | Krājumu un noliktavas pārvaldība | Mērvienības un vienības daudzuma izmantošana krājumu žurnālos | Obligāts |
-| Krājumu un noliktavas pārvaldība | Atbloķēt krājumu žurnālu | Obligāts |
+| Krājumu un noliktavas pārvaldība | Krājumu žurnāla atbloķēšana | Obligāts |
 | Ražošana | [Noliktavā iespējotu materiālu automātiska atlasīšana automātiski grāmatotiem izdošanas sarakstiem](whats-new-scm-10-0-23.md) | Vispārēji pieejams |
 | Ražošana | Iespējot krājumu dimensiju parādīšanu materiālu sarakstā ražošanas maršruta operācijām | Obligāts |
 | Ražošana | [Iespējojiet, lai ievadītu partijas un sērijas numurus, vienlaikus ziņojot kā par pabeigtu no Darbu kartes ierīces](../production-control/report-finished-job-device.md) | Ieslēgts pēc noklusējuma |
@@ -124,8 +124,8 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Vispārējā plānošana | [Plānotie ražošanas pasūtījumi plānošanas optimizēšanai](../master-planning/planning-optimization/production-planning.md) | Obligāts |
 | Vispārējā plānošana | [Pirkšanas tirdzniecības līgumi funkcijai Plānošanas optimizēšana](../master-planning/planning-optimization/purchase-trade-agreement.md) | Obligāts |
 | Vispārējā plānošana | [Saglabātie plānoto pasūtījumu skati](saved-views-scm.md) | Obligāts |
-| Sagāde un avoti | Maksas no pirkšanas pasūtījumiem un līdz summām | Obligāts |
-| Sagāde un avoti | Atspējot pirkšanas pieprasījuma sadales atiestatīšanas pogu | Ieslēgts pēc noklusējuma |
+| Sagāde un avoti | Maksa par pirkšanas pasūtījumiem un to summām | Obligāts |
+| Sagāde un avoti | Poga Atspējot pirkšanas pieprasījuma izplatīšanu Atiestatīt | Ieslēgts pēc noklusējuma |
 | Sagāde un avoti | [Iespējot ar iepirkumu saistīto darbplūsmu atiestatīšanu](whats-new-scm-10-0-20.md) | Ieslēgts pēc noklusējuma |
 | Sagāde un avoti | [Ierobežot pirkšanas pasūtījuma rindu skaitu vienam pakešuzdevumam](whats-new-scm-10-0-27.md) | Ieslēgts pēc noklusējuma |
 | Sagāde un avoti | [Sapludināt kreditora finanšu dimensijas ar aktīvās dimensijas saites finanšu dimensiju pirkšanas pasūtījumā](whats-new-scm-10-0-25.md) | Obligāts |
@@ -177,7 +177,7 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 | Noliktavas vadība | [Manuāla sūtījumu konsolidācija](../warehousing/consolidate-shipments-manual-workbench.md) | Ieslēgts pēc noklusējuma |
 | Noliktavas vadība | [Manuālās pārsūtīšanas rindas izdošanas pakalpojums administratoram vai līdzīgiem uzticamiem lietotājiem](whats-new-scm-10-0-28.md) | Vispārēji pieejams |
 | Noliktavas vadība | [Materiālu apstrādes aprīkojuma interfeiss](../warehousing/mhax.md) | Obligāts |
-| Noliktavas vadība | [Jaunas noslodzes plānošanas darba lapas](whats-new-scm-10-0-24.md) | Vispārēji pieejams |
+| Noliktavas vadība | [Jaunas slodzes plānošanas darbgalda lapas](whats-new-scm-10-0-24.md) | Vispārēji pieejams |
 | Noliktavas vadība | [Izejošās darba slodzes vizualizācija](../warehousing/outbound-workload-visualization.md) | Obligāts |
 | Noliktavas vadība | [Plānotā pārkraušana sadales centrā](../warehousing/planned-cross-docking.md) | Obligāts |
 | Noliktavas vadība | [Apstrādāt noliktavas programmas notikumus](../warehousing/warehouse-app-events.md) | Obligāts |
@@ -202,13 +202,13 @@ Tabulā ir uzskaitīti arī līdzekļi, kas iepriekš bija publiskā priekšskat
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmām
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Programmu Finance and Operations platformas atjauninājumi
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.29 ietver platformas atjauninājumus. Lai uzzinātu vairāk, skatiet [Informāciju par Platformas atjauninājumiem finanšu un operāciju programmu versijā 10.0.29 (2022. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.29 ietver platformas atjauninājumus. Papildinformāciju skatiet rakstā [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.29 (2022. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
-Lai iegūtu informāciju par kļūdu labojumiem, kas ietverti katrā atjauninājumā, kas ir daļa no versijas 10.0.29, piesakieties lifecycle Services (LCS) [un skatiet zināšanu bāzes rakstu](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā atjauninājumā, kas ir daļa no versijas 10.0.29, piesakieties Lifecycle Services (LCS) un skatiet [KB rakstu](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ### <a name="dynamics-365-and-industry-clouds-2022-release-wave-1-plan"></a>Dynamics 365 un rūpniecības mākoņi: 2022. gada 1. laidiena plāns
 
@@ -218,12 +218,12 @@ Apskatiet [Dynamics 365 un rūpniecības mākoņi: 2022. gada 2. laidiena plāns
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 
-Noņemtie [vai novecojušie līdzekļi Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) rakstā apraksta funkcijas, kas ir noņemtas vai ieplānotas izņemšanai vai nolietojumam Piegādes ķēžu pārvaldībai.
+Rakstā Noņemtie [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) vai novecojušie līdzekļi apraksta līdzekļus, kas ir noņemti vai ir plānoti noņemšanai vai novecošanai programmatūrā Supply Chain Management.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
-Pirms kāda līdzekļa noņemšanas no preces paziņojums [Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) par nolietojumu tiks papildu pievienots 12. rakstu funkcionalitātes Noņemtie vai novecojušie 12 mēnešu skaits pirms noņemšanas.
+Pirms kāda līdzekļa noņemšanas no produkta 12 mēnešus pirms noņemšanas paziņojums par novecošanu tiks paziņots [raksta sadaļā Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) Noņemtie vai novecojušie līdzekļi.
 
 Lai pārveidotu izmaiņas, kas ietekmē tikai apkopošanas laiks, bet ir bināri saderīgas ar smilškastes un ražošanas vidēm, izslēgšanas laiks būs īsāks par 12 mēnešiem. Parasti tie ir funkcionāli atjauninājumi, kas jāveic apkopotājam.
 

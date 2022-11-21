@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109922"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778550"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu
 
@@ -26,13 +26,13 @@ ms.locfileid: "8109922"
 
 Kad pēc pirkšanas pasūtījuma saņemat rēķinu no preču vai pakalpojumu piegādātāja, šiem biznesa procesiem var būt nepieciešama preču vai pakalpojumu saņemšana pirms rēķina apstiprināšanas apmaksai. Pirms sākat, pārliecinieties, ka ir atlasīta konfigurācijas atslēga Rēķinu salīdzināšana. 
 
-Kreditoru parametru **lapā pārliecinieties,** **ka opcija Iespējot rēķinu salīdzināšanas pārbaudi ir atlasīta,** **·** **lauks Grāmatot rēķinu ar neatbilstībām tiek iestatīts uz Pieprasīt apstiprinājumu,** **un** rindas atbilstības ierobežojumu lauks ir iestatīts trīsvirzienu sakritības.**·**
+**Lapā Kreditoru parādu parametri** pārliecinieties, vai ir atlasīta **opcija Iespējot rēķinu salīdzināšanas validāciju**, **lauks Rēķinu grāmatošana ar neatbilstībām** ir iestatīts uz Pieprasīt apstiprinājumu **un lauks Rindu salīdzināšanas politika** ir iestatīts **uz** **Trīspusēja** atbilstība.
 
 Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Šīs darbības veiktu lietotājs ar lomu Kreditoriem maksājamo parādu vadītājs vai Grāmatvedības vadītājs.
 
 
 ## <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
-1. Dodieties uz Visi pirkšanas pasūtījumi.
+1. Atv. **Visi pirkš. pasūt**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Kreditora konts** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 4. Laukā **Kreditora konts** ierakstiet vērtību.

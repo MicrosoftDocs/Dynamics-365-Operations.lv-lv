@@ -2,13 +2,13 @@
 title: Konsolidēšanas un koriģēšanas pārskats
 description: Šajā rakstā ir sniegta vispārīga informācija par konsolidēšanas un koriģēšanas procesu. Tajā ir atbildes uz dažiem bieži uzdotiem jautājumiem.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871396"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779912"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolidēšanas un koriģēšanas pārskats
 
@@ -46,49 +46,38 @@ Par korekcijām var ziņot vairākos veidos.
 Ir daudz konsolidācijas scenāriju, un katra metode var apstrādāt šos scenārijus dažādos veidos.
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
-1. Es labprātāk grāmatoju korekcijas datu bāzē. Kādas ir manas iespējas?
+Es labprātāk grāmatoju korekcijas datu bāzē. Kādas ir manas iespējas?
+ - Ir vairākas iespējas. Varat izmantot opciju **Konsolidēt tiešsaistē** un iekļaut korekcijas procesa laikā vai kā priekšlikumu. Transakcijas tiks grāmatotas konsolidētajā uzņēmumā. Alternatīvi varat izveidot atsevišķu uzņēmumu, kurā manuāli izveidosiet korekcijas, un pēc tam izmantosit attiecīgo uzņēmumu finanšu pārskatos vai konsolidācijas procesā.
 
-Ir vairākas iespējas. Varat izmantot opciju **Konsolidēt tiešsaistē** un iekļaut korekcijas procesa laikā vai kā priekšlikumu. Transakcijas tiks grāmatotas konsolidētajā uzņēmumā. Alternatīvi varat izveidot atsevišķu uzņēmumu, kurā manuāli izveidosiet korekcijas, un pēc tam izmantosit attiecīgo uzņēmumu finanšu pārskatos vai konsolidācijas procesā.
+Konsolidētie rezultāti ir nepieciešami vairākās pārskatu veidošanas valūtās.
+ - Opcijai **Finanšu pārskati** ir neierobežots pārskata valūtu skaits. Datus pārrēķina pārskata ģenerēšanas laikā, pamatojoties uz maiņas kursa tipu un valūtas pārrēķina metodi, kas ir iestatīta galvenajam kontam. Tā kā opcijai **Konsolidēt tiešsaistē** ir tikai viena pārskatu veidošanas valūta, katrai pārskata valūtai ir nepieciešams konsolidētais uzņēmums, ja izmantojat šo opciju. Opcija **Finanšu pārskati** ir ieteicamā metode.
 
-2.  Konsolidētie rezultāti ir nepieciešami vairākās pārskatu veidošanas valūtās.
+Vēlos apskatīt transakciju līmeņa informāciju katram uzņēmumam.
+ - Opcija **Finanšu pārskati** ir risinājums, jo transakciju līmeņa informāciju iespējams apskatīt tik uzņēmumiem, cik ir iekļauti pārskata koka definīcijā.
 
-Opcijai **Finanšu pārskati** ir neierobežots pārskata valūtu skaits. Datus pārrēķina pārskata ģenerēšanas laikā, pamatojoties uz maiņas kursa tipu un valūtas pārrēķina metodi, kas ir iestatīta galvenajam kontam. Tā kā opcijai **Konsolidēt tiešsaistē** ir tikai viena pārskatu veidošanas valūta, katrai pārskata valūtai ir nepieciešams konsolidētais uzņēmums, ja izmantojat šo opciju. Opcija **Finanšu pārskati** ir ieteicamā metode.
+Izmantojam budžeta plānošanu vai budžeta kontroli, un tā ir jākonsolidē.
+ - Opcija **Finanšu pārskati** ir risinājums, lai konsolidētu budžeta plānošanas vai budžeta kontroles datus.
 
-3. Vēlos apskatīt transakciju līmeņa informāciju katram uzņēmumam.
+Mūsu apakšuzņēmumi ir izplatīti visā pasaulē, un mums ir vairākas kontu diagrammas. Kāda ir labākā metode mūsu datu konsolidēšanai?
+- Kad jāstrādā ar vairākām kontu diagrammām, ir vairākas iespējas. Varat izmantot opciju **Konsolidēt tiešsaistē** un pēc tam izvēlēties izmantot vai nu konsolidācijas kontu, kas ir definēts galvenajam kontam, vai konsolidācijas kontu grupu. Varat izmantot arī opciju **Finanšu pārskati**, iekļaujot vairākas saites uz finanšu dimensijām rindas definīcijā un kartējot kontus.
 
-Opcija **Finanšu pārskati** ir risinājums, jo transakciju līmeņa informāciju iespējams apskatīt tik uzņēmumiem, cik ir iekļauti pārskata koka definīcijā.
+Mums nepieciešama konsolidācija vairākos līmeņos. Citiem vārdiem sakot, mēs vispirms konsolidējam visus mūsu Eiropas apakšuzņēmumus, konvertējot uz Lielbritānijas mārciņu (GBP). Pēc tam mēs strādājam ar šiem datiem un pārrēķinām konsolidēto summu uz ASV dolāriem. Kā mēs varam to izdarīt?
+- Ja nepieciešami vairāki konsolidācijas līmeņi un katrā līmenī tiek izmantota atšķirīga valūta, ir jāizmanto opcija **Konsolidēt tiešsaistē**. Ir jāizveido vairāki konsolidācijas uzņēmumi, kas savā starpā atšķiras ar uzskaites un pārskata valūtu. Pēc tam konsolidācija jāpalaiž vairākas reizes. Opcija **Finanšu pārskati** vienmēr pārrēķina no katra avota uzņēmuma uzskaites valūtas uz atlasīto valūtu.
 
-4. Izmantojam budžeta plānošanu vai budžeta kontroli, un tā ir jākonsolidē.
+Mums ir apakšuzņēmumi, kas izmanto citu sistēmu. Kā mēs varam tos konsolidēt?
+- Izmantojiet opciju **Konsolidēt ar importēšanu**, lai pārnestu bilances uz konsolidēto uzņēmumu.
 
-Opcija **Finanšu pārskati** ir risinājums, lai konsolidētu budžeta plānošanas vai budžeta kontroles datus.
+Daži no mūsu apakšuzņēmumiem pilnībā mums nepieder. Kāda ir labākā metode to konsolidēšanai?
+- Pastāv vairākas iespējas daļēji piederošiem apakšuzņēmumiem. Izmantojot opciju **Finanšu pārskati**, varat definēt pārskata koka definīciju un īpašumtiesības. Varat arī izmantot aprēķināto rindu vai kolonnu, lai norādītu daļēji piederošu summu. Varat pat parādīt minoritātes procentu kā atsevišķu rindu pārskatā. Varat arī izmantot opciju **Konsolidēt tiešsaistē**. Cilnē **Juridiskās personas** ir kolonna **Īpašumtiesības**, kurā varat definēt procentuālo daļu, kas pieder mātes uzņēmumam.
 
-5. Mūsu apakšuzņēmumi ir izplatīti visā pasaulē, un mums ir vairākas kontu diagrammas. Kāda ir labākā metode mūsu datu konsolidēšanai?
+Mūsu organizācijai ir jāparāda konsolidācijas atbilstoši biznesa vienībai vai vēlas izmantot organizācijas hierarhijas.
+- Risinājums ir opcija **Finanšu pārskati**. Organizācijas hierarhijas, kurās ir juridiskās personas vai finanšu dimensijas, var tikt izmantotas finanšu pārskatos. Varat arī izveidot savas daudzlīmeņu hierarhijas, izmantojot pārskata koka definīciju, kurā ir juridisko personu un dimensiju vērtību kombinācija.
 
-Kad jāstrādā ar vairākām kontu diagrammām, ir vairākas iespējas. Varat izmantot opciju **Konsolidēt tiešsaistē** un pēc tam izvēlēties izmantot vai nu konsolidācijas kontu, kas ir definēts galvenajam kontam, vai konsolidācijas kontu grupu. Varat izmantot arī opciju **Finanšu pārskati**, iekļaujot vairākas saites uz finanšu dimensijām rindas definīcijā un kartējot kontus.
+Mums ir vairāk nekā viena sistēmas instance.
+- Datus varat konsolidēt, izmantojot opciju **Eksportēt uzņēmuma bilances**, lai eksportētu no vienas instance, un pēc tam izmantojot opciju **Konsolidēt ar importēšanu** citā instancē.
 
-6. Mums nepieciešama konsolidācija vairākos līmeņos. Citiem vārdiem sakot, mēs vispirms konsolidējam visus mūsu Eiropas apakšuzņēmumus, konvertējot uz Lielbritānijas mārciņu (GBP). Pēc tam mēs strādājam ar šiem datiem un pārrēķinām konsolidēto summu uz ASV dolāriem. Kā mēs varam to izdarīt?
-
-Ja nepieciešami vairāki konsolidācijas līmeņi un katrā līmenī tiek izmantota atšķirīga valūta, ir jāizmanto opcija **Konsolidēt tiešsaistē**. Ir jāizveido vairāki konsolidācijas uzņēmumi, kas savā starpā atšķiras ar uzskaites un pārskata valūtu. Pēc tam konsolidācija jāpalaiž vairākas reizes. Opcija **Finanšu pārskati** vienmēr pārrēķina no katra avota uzņēmuma uzskaites valūtas uz atlasīto valūtu.
-
-7. Mums ir apakšuzņēmumi, kas izmanto citu sistēmu. Kā mēs varam tos konsolidēt?
-
-Izmantojiet opciju **Konsolidēt ar importēšanu**, lai pārnestu bilances uz konsolidēto uzņēmumu.
-
-8. Daži no mūsu apakšuzņēmumiem pilnībā mums nepieder. Kāda ir labākā metode to konsolidēšanai?
-
-Pastāv vairākas iespējas daļēji piederošiem apakšuzņēmumiem. Izmantojot opciju **Finanšu pārskati**, varat definēt pārskata koka definīciju un īpašumtiesības. Varat arī izmantot aprēķināto rindu vai kolonnu, lai norādītu daļēji piederošu summu. Varat pat parādīt minoritātes procentu kā atsevišķu rindu pārskatā. Varat arī izmantot opciju **Konsolidēt tiešsaistē**. Cilnē **Juridiskās personas** ir kolonna **Īpašumtiesības**, kurā varat definēt procentuālo daļu, kas pieder mātes uzņēmumam.
-
-9. Mūsu organizācijai ir jāparāda konsolidācijas atbilstoši biznesa vienībai vai vēlas izmantot organizācijas hierarhijas.
-
-Risinājums ir opcija **Finanšu pārskati**. Organizācijas hierarhijas, kurās ir juridiskās personas vai finanšu dimensijas, var tikt izmantotas finanšu pārskatos. Varat arī izveidot savas daudzlīmeņu hierarhijas, izmantojot pārskata koka definīciju, kurā ir juridisko personu un dimensiju vērtību kombinācija.
-
-10. Mums ir vairāk nekā viena sistēmas instance.
-
-Datus varat konsolidēt, izmantojot opciju **Eksportēt uzņēmuma bilances**, lai eksportētu no vienas instance, un pēc tam izmantojot opciju **Konsolidēt ar importēšanu** citā instancē.
-
-11. Vai var veikt konsolidāciju ar budžetu **MELNRAKSTA** statusā? 
-            
-Jūs nevarēsit apstrādāt vai pabeigt budžetus konsolidētā uzņēmumā. Ieteicams izmantot Financial Reporting, lai konsolidētu melnraksta budžetus.
+Vai var veikt konsolidāciju ar budžetu **MELNRAKSTA** statusā? 
+- Jūs nevarēsit apstrādāt vai pabeigt budžetus konsolidētā uzņēmumā. Ieteicams izmantot Financial Reporting, lai konsolidētu melnraksta budžetus.
 
 Plašāku informāciju skatiet rakstā [Valūtas pārvērtēšana konsolidācijas uzņēmumā](../general-ledger/currency-revaluation-consolidation-company.md).
 

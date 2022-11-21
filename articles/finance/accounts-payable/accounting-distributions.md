@@ -1,6 +1,6 @@
 ---
 title: Uzskaites sadales
-description: Šajā rakstā ir sniegta informācija par uzskaites sadalēm un aprakstītas pieejamās apstrādes opcijas.
+description: Šajā rakstā ir sniegta informācija par sadalījumiem grāmatvedībā un aprakstītas pieejamās apstrādes iespējas.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588958"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779586"
 ---
 # <a name="accounting-distributions"></a>Uzskaites sadales
 
@@ -51,7 +51,7 @@ Vispārīgās uzskaites sadales iespējas nodrošina tālāk aprakstītās uzska
     -   Pašreizējā dokumenta uzskaites statusu varat redzēt sadaļā **Atsauce**. Statuss ir visam dokumentam, un tas norāda, vai dokumenta apstrāde vēl notiek vai ir pabeigta.
 -   **Skatīt sadales** – skatiet visu dokumenta rindu un naudas summu uzskaites sadales. No šī skata uzskaites sadales nevar modificēt.
 
-Versijā 10.0.13 ir pievienots līdzeklis, kas validē uzskaites sadales tabulu, lai nodrošinātu, ka jaunie lauki ir iestatīti pareizi. Šo līdzekli sauc **Iespējot papildu datu validēšanu dokumentiem, izmantojot pirmdokumenta uzskaites struktūru**. Šī funkcija pēc noklusējuma ir ieslēgta versijā 10.0.29. 
+Ir pievienots līdzeklis, kas validē grāmatvedības sadalījuma tabulu, lai nodrošinātu, ka jaunie lauki ir pareizi iestatīti. Šo līdzekli sauc **Iespējot papildu datu validēšanu dokumentiem, izmantojot pirmdokumenta uzskaites struktūru**. Šis līdzeklis pēc noklusējuma tika ieslēgts versijā 10.0.29. 
 
 Papildinformāciju skatiet sadaļā [Uzskaites sadales un apakšgrāmatas žurnāla ieraksti kreditora rēķiniem](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

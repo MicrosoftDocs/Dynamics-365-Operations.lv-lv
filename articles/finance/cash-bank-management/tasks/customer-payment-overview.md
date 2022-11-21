@@ -2,24 +2,24 @@
 title: Debitoru maksājumu pārskats
 description: Šī procedūra palīdzēs izprast dažādas metodes, kuras izmanto, lai ievadītu debitora maksājumus.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99e2e04064d717040cf43469683fd143dc124c4f
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 7b90b7f200133cfb0d30b335aca20c328856fba5
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714371"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778127"
 ---
 # <a name="customer-payment-overview"></a>Debitoru maksājumu pārskats
 
@@ -32,7 +32,7 @@ ms.locfileid: "8714371"
 3. Atlasiet maksājumu žurnālu, kurā tiks saglabāti debitoru maksājumi.
 4. Atlasiet žurnālu vai ievadiet to manuāli.
 5. **Darbību rūtī** noklikšķiniet uz **Ievadīt debitora maksājumus**. Lauks Ievadīt debitora maksājumus tiek izmantots, lai vienā reizē ierakstītu vienu debitoru maksājumu. Informāciju par maksājumu ievadiet augšpusē un pēc tam atzīmējiet rēķinus, kas visi vienā lapā ar maksājumu tiek nomaksāti.  
-6. Ievadiet debitoru, no kura saņēmāt maksājumu. Ja nezināt debitoru, bet zināt apmaksāto transakciju, lai ievadītu maksājumu, var izmantot lauku Transakcija. Ievadiet vai atlasiet rēķinu laukā Transakcija. Kad atlasīsiet transakciju, debitors automātiski parādīsies pēc noklusējuma.
+6. Ievadiet debitoru, no kura saņēmāt maksājumu. Ja nezināt debitoru, bet zināt transakciju, kas tika apmaksāta, varat izmantot **lauku Transakcija**, lai ievadītu maksājumu. Laukā Transakcija **ievadiet** vai atlasiet rēķinu. Kad atlasīsiet transakciju, debitors automātiski parādīsies pēc noklusējuma.
 7. Laukā **Maksājuma atsauce** ievadiet maksājuma atsauci. Maksājuma atsauce var būt debitora čeka numurs vai atsauce no klienta elektroniskā maksājuma. Maksājuma atsauce ir nepieciešama tikai tad, ja atzīmējat maksājumu iekļaušanai depozīta kvītī.  
 8. Laukā **Depozīta kvīts** atlasiet, vai maksājums tiks iekļauts depozīta kvītī. 
 9. Laukā **Summa** ievadiet debitora maksājuma summu. Maksājuma summa pēc noklusējuma neparādīsies. Tā jāievada manuāli. 
@@ -40,9 +40,9 @@ ms.locfileid: "8714371"
 11. Ievadiet maksājuma summu, kura jāsedz atzīmētajam rēķinam. Šo lauku var izmantot, kad maksājums ir daļējs maksājums. Ja neievadāt summu, nosedzamā summa tiks noteikta automātiski.
 12. Noklikšķiniet uz **Saglabāt žurnālā**. Pirms saglabājat maksājumu žurnālā, pārliecinieties, vai ir definēts korespondējošais konts. Izmantojot funkciju **Saglabāt žurnālā**, maksājums tiks saglabāts un pārvietots uz žurnālu. Pēc tam var turpināt ievadīt nākamo maksājumu.
 13. Aizvērt lapu.
-14. **Darbību rūtī** noklikšķiniet uz Rindas. Atverot Rindas, ieraudzīsiet visus maksājumus, kas ierakstīti lapā **Ievadīt debitora maksājumus** un saglabāti žurnālā. Šo lapu var arī izmantot, lai ievadītu jaunos debitoru maksājumus vai rediģēt esošos debitora maksājumus pirms to grāmatošanas.
+14. **Darbību rūtī** noklikšķiniet uz **Rindas**. Atverot **Rindas**, jūs redzēsiet visus maksājumus, kurus **ierakstījāt lapā Ievadiet debitoru maksājumus** un saglabājāt žurnālā. Šo lapu var arī izmantot, lai ievadītu jaunos debitoru maksājumus vai rediģēt esošos debitora maksājumus pirms to grāmatošanas.
 15. Noklikšķiniet uz **Jauns**, lai izveidotu citu maksājumu. 
-16. Atlasiet debitoru, no kura saņēmāt maksājumu. Ja nezināt debitoru, bet zināt ar maksājumu apmaksāto rēķinu, izmantojiet lauku Rēķins, lai manuāli ievadītu vai atlasītu rēķinu. Debitors parādīsies pēc noklusējuma, kad tiks atlasīts rēķins.  
+16. Atlasiet debitoru, no kura saņēmāt maksājumu. Ja nezināt debitoru, bet zināt rēķinu, kas apmaksāts ar maksājumu, izmantojiet **lauku Rēķins**, lai manuāli ievadītu vai atlasītu rēķinu. Debitors parādīsies pēc noklusējuma, kad tiks atlasīts rēķins.  
 17. Noklikšķiniet **Transakciju nosegšana**, lai atzīmētu apmaksātos rēķinus. Jums nav nepieciešams segt rēķinu maksājumus. Ja tā ir priekšapmaksa vai ja nezināt, kāds rēķins tiek apmaksāts, varat ievadīt un iegrāmatot maksājumu. Ar maksājumu var nosegt rēķinu vēlāk.  
 18. Atzīmējiet rēķinus, kas apmaksāti ar šo maksājumu. 
 19. Laukā **Summa** ievadiet maksājuma summu, kura tiks segta šim rēķinam.

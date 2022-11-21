@@ -2,33 +2,33 @@
 title: Finanšu perioda slēgšanas darbvieta
 description: Šajā rakstā ir sniegts pārskats par finanšu perioda slēgšanas darbvietu un saistīto konfigurāciju.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865717"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780047"
 ---
 # <a name="financial-period-close-workspace"></a>Finanšu perioda slēgšanas darbvieta
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā sniegts pārskats par finanšu perioda **slēgšanas darbvietu** un saistīto konfigurāciju.
+Šajā rakstā ir sniegts pārskats par **darbvietu Finanšu perioda slēgšana** un saistīto konfigurāciju.
 
-Finanšu perioda slēgšanas darbvieta
+## <a name="financial-period-close-workspace"></a>Finanšu perioda slēgšanas darbvieta
 
 Darbvietā **Finanšu perioda slēgšana** varat sekot līdzi savu uzņēmumu, jomu un personu finanšu slēgšanas procesiem. Atkarībā no skata darbvietā **Finanšu perioda slēgšana** ir redzami vai nu visi slēgšanas grafika uzdevumi un statusi, vai tikai jums piešķirtie uzdevumi. 
 
@@ -101,7 +101,7 @@ Piešķiriet kalendāru, kas ir piemērots slēgšanas grafikam, lai norādītu 
 
 Ir jādefinē arī uzņēmumi, kas tiks piesaistīti attiecīgajam slēgšanas grafikam. Ja veidnes uzdevumi tiek piešķirti vairākiem uzņēmumiem, atsevišķi uzdevumi tiek izveidoti katram uzņēmumam, kas tika iekļauts slēgšanas grafikā un piešķirts veidnes uzdevumam. 
 
-Kad slēgšanas grafiks ir pabeigts, atlasiet tam opciju **Slēgts**. Uzdevumu vēsture joprojām būs pieejama saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**, bet šis slēgšanas grafiks tiks noņemts no darbvietas. Kad slēgšanas grafiks ir atzīmēts kā **Slēgts**, tam vairs nevarat pievienot uzdevumus, rediģēt uzdevumus vai no tā noņemt uzdevumus.
+Kad slēgšanas grafiks ir pabeigts, atlasiet **opciju Slēgts**. Uzdevumu vēsture joprojām būs pieejama saraksta lapā **Visi finanšu perioda slēgšanas uzdevumi**, bet šis slēgšanas grafiks tiks noņemts no darbvietas. Kad slēgšanas grafiks ir atzīmēts kā **Slēgts**, tam vairs nevarat pievienot uzdevumus, rediģēt uzdevumus vai no tā noņemt uzdevumus.
 
 
 

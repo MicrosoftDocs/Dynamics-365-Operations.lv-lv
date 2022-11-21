@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources bieži uzdotie jautājumi par infrastruktūras sapludināšanu
-description: Šajā rakstā ir atbildes uz bieži uzdotiem jautājumiem par Microsoft un finanšu Dynamics 365 Human Resources un operāciju programmu infrastruktūras sapludināšanu.
+description: Šajā rakstā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par infrastruktūras sapludināšanu Microsoft Dynamics 365 Human Resources un Finance and Operations programmām.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702072"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779640"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources bieži uzdotie jautājumi par infrastruktūras sapludināšanu
 
@@ -27,84 +27,84 @@ ms.locfileid: "9702072"
 
 ## <a name="what-is-dynamics-365-human-resources"></a>Kas ir Dynamics 365 Human Resources?
 
-Microsoft Dynamics 365 Human Resources nodrošina rīkus, kas HR grupām palīdz palielināt organizācijas agveidošanu, pārveidot darbinieku pieredzi un optimizēt HR programmas, lai izveidotu darba vietu, kur cilvēki un uzņēmums var pieaugt. Papildinformāciju skatiet Dynamics 365 Human Resources sadaļā [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
+Microsoft Dynamics 365 Human Resources nodrošina rīkus, kas palīdz personāla grupām palielināt organizācijas veiklību, pārveidot darbinieku pieredzi un optimizēt cilvēkresursu programmas, lai izveidotu darba vietu, kur cilvēki un uzņēmums var attīstīties. Lai uzzinātu vairāk par Dynamics 365 Human Resources, skatiet [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
 
-- **pārveidot darbinieku pieredzi;** Saglabājiet augšējos izpildītājus, sniedzot vadītājiem un darbiniekiem iespējas, izmantojot piesaistīto pašapkalpošanās pieredzi, kas vada iesaisti un izaugsmi.
-- **optimizēt HR programmas;** Samaziniet darbības izmaksas un izveidojiet cilvēku uz laiku centrtīvus atvaļinājumus un kavējumus, laiku, atvieglojumus un atlīdzības pārvaldīšanas programmas.
-- **Palieliniet organizācijas agtiku.** Iespējojiet HR darbību ar veiklību Dataverse Microsoft Power Platform, kas uzņēmumam nepieciešama, izmantojot un lai centralizētu cilvēku datus un viegli paplašinātu Dynamics 365 Human Resources.
-- **Apskatiet darbaspēka ieskatus.** Veiciet uz datiem balstītus lēmumus, spēja analizēt un vizualizēt cilvēku datus jebkurā ierīcē pieejamos bagātinātos informācijas paneļos.
+- **Pārveidojiet darbinieku pieredzi.** Saglabājiet labākos izpildītājus, sniedzot iespējas vadītājiem un darbiniekiem, izmantojot savienotas pašapkalpošanās iespējas, kas veicina iesaistīšanos un izaugsmi.
+- **Optimizējiet cilvēkresursu programmas.** Samaziniet darbības izmaksas un izveidojiet uz cilvēkiem orientētas atvaļinājuma un prombūtnes, laika, pabalstu un kompensāciju pārvaldības programmas.
+- **Palieliniet organizācijas veiklību.** Ļaujiet HR darboties ar veiklību, kas nepieciešama biznesam, izmantojot Dataverse un centralizējot cilvēku datus un Microsoft Power Platform viegli paplašinot Dynamics 365 Human Resources.
+- **Atklājiet ieskatus par darbaspēku.** Pieņemiet uz datiem balstītus lēmumus, izmantojot iespēju analizēt un vizualizēt personu datus bagātīgos informācijas paneļos, kas ir pieejami jebkurā ierīcē.
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>Infrastruktūras sapludināšanas vērtība un atvieglojumi
 
 ### <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>Kas ir Dynamics 365 Human Resources infrastruktūras sapludināšana?
 
-Pašlaik programmā Dynamics 365 ir divas atsevišķas HR spēju kopas divās dažādās infrastruktūras:
+Pašlaik programmā Dynamics 365 ir divas atsevišķas cilvēkresursu iespēju kopas divās dažādās infrastruktūrās:
 
-- **Dynamics 365 Human Resources**– atsevišķa programma, kas darbojas neatkarīgs infrastruktūrai. Kad palaista šī programma, infrastruktūra tika atdalīta no citām Dynamics 365 operāciju programmām. Mūsu debitori izmanto šo programmu, lai palielinātu organizācijas agtiku, optimizētu HR programmas, pārveidotu darbinieku pieredzi un iegūtu darbaspēka ieskatus.
-- **HR modulis** — mantojuma iespēju kopa, kas iepriekš bija daļa no unificētās operāciju licencēšanas noliktavas vienības (NV). HR modulis darbojas finanšu un operāciju infrastruktūrai, kas visās operāciju programmās ir vienāda. Šīs programmas ietver Dynamics 365 Finanses Dynamics 365 Project Operations un Dynamics 365 Supply Chain Management. Debitori saņēma HR iespējas kā daļu no Dynamics 365 finansēm vai Dynamics 365 Supply Chain Management.
+- **Dynamics 365 Human Resources**– Atsevišķa lietotne, kas darbojas neatkarīgā infrastruktūrā. Kad šī programma tika palaista, infrastruktūra tika atdalīta no citām Dynamics 365 operāciju programmām. Mūsu klienti izmanto šo lietotni, lai palielinātu organizācijas veiklību, optimizētu cilvēkresursu programmas, pārveidotu darbinieku pieredzi un gūtu ieskatu par darbaspēku.
+- **HR modulis** — mantota iespēju kopa, kas iepriekš bija daļa no Unified Operations licencēšanas krājumu glabāšanas vienības (Unified Operations licensing stock keeping unit — SKU). Cilvēkresursu modulis darbojas finanšu un operāciju infrastruktūrā, kas ir vienāda visās operāciju programmās. Šīs programmas ietver Dynamics 365 finanses Dynamics 365 Project Operations un Dynamics 365 Supply Chain Management. Klienti saņēma HR iespējas kā daļu no Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.
 
-Pēdējo trīs gadu laikā korporācija Microsoft hr modulim nav pievienojusi jaunas iespējas vai uzlabojumus. Tā vietā mūsu rīcības plāna ieguldījumi ir fokusēti uz programmu Dynamics 365 Human Resources.
+Pēdējo trīs gadu laikā Microsoft cilvēkresursu modulim nav pievienojis jaunas iespējas vai uzlabojumus. Tā vietā mūsu rīcības plāna ieguldījumi ir fokusēti uz programmu Dynamics 365 Human Resources.
 
-Ieviešot šīs divas iespējas vienā un tajā pašā infrastruktūra, mēs palīdzēsim klientiem iegūt šādas priekšrocības:
+Ieviešot šos divus iespēju kopumus vienā infrastruktūrā, mēs palīdzēsim klientiem iegūt šādas priekšrocības:
 
-- Uzlabojumi, kas pievienoti pēdējo trīs gadu Dynamics 365 Human Resources laikā, tostarp uzlaboti atvaļinājumi un kavējumi, atvieglojumu pārvaldība un pārskatu veidošana.
-- Uzlabota paplašināmība, izmantojot Microsoft Power Platform un spēju paplašināt biznesa loģiku, lai personalizētu lapas.
-- Uzlabota izvietošana, atjauninājumi un uzturēšana, kas ir konsekventi lietojumprogrammas dzīves cikla pārvaldības (INSTALĒŠANU), dzīves cikla pakalpojumu, ģeogrāfiskās pieejamības un citu informāciju ziņā.
-- Vairāk konstruēšanas komandas lieto koplietotos pakalpojumus, rīkus un samazinātās platformu izmaksas.
+- Uzlabojumi, kas pievienoti Dynamics 365 Human Resources pēdējo trīs gadu laikā, tostarp uzlabots atvaļinājums un prombūtne, pabalstu pārvaldība un ziņošana.
+- Uzlabota paplašināmība Microsoft Power Platform un iespēja paplašināt biznesa loģiku, lai personalizētu lapas.
+- Uzlabota izvietošana, atjauninājumi un uzturēšana, kas ir konsekventa attiecībā uz lietojumprogrammu dzīves cikla pārvaldību (ALM), dzīves cikla pakalpojumiem, ģeogrāfisko pieejamību un daudz ko citu.
+- Vairāk tehnoloģisko inovāciju, jo mūsu inženieru komanda izmanto koplietojamus pakalpojumus, rīkus un samazinātas platformas izmaksas.
 
-Šī pāreja ietekmēs debitorus, kuri pašlaik izmanto vai nu mantojuma Dynamics 365 Human Resources HR moduli.
+Šī pāreja ietekmēs klientus, kuri pašlaik izmanto vienu vai otru Dynamics 365 Human Resources HR moduli.
 
-## <a name="glossary-of-terms-used-in-this-faq"></a>Šajā FAQ lietoto terminu glosārijs
+## <a name="glossary-of-terms-used-in-this-faq"></a>Šajā bieži uzdoto jautājumu sadaļā izmantoto terminu glosārijs
 
-- **Dynamics 365 Human Resources**– mūsu pašreizējā un nākotnes prece, kas piedāvā HR iespējas tirgū.
-- **HR modulis** — mantojuma iespēju kopa, kas iepriekš ir piešķirta unificēto operāciju piedāvājumam. Iespējas ir iespējotas, ja debitoram pieder Dynamics 365 Finanses vai Dynamics 365 Supply Chain Management.
-- **Finanšu un operāciju** infrastruktūra – izstrādes arhitektūra, ko izmanto operāciju portfeisā, ietverot Dynamics 365 Finanses Dynamics 365 Supply Chain Management un Dynamics 365 Project Operations. Šī ir infrastruktūra, kas tiks izmantota turpmāk. Bieži uzdotajos bieži uzdotajos jautājumiem termins *"sapludinātā* infrastruktūra" attiecas uz finanšu un operāciju vidi.
-- **Personāla vadības infrastruktūra** – izstrādes arhitektūra, kas tika iepriekš izmantota programmai Dynamics 365 Human Resources. Infrastruktūras sapludināšanas projekts uzved Dynamics 365 Human Resources finanšu un operāciju infrastruktūru. Savrupa infrastruktūra tiks pārtraukta.
+- **Dynamics 365 Human Resources**– Mūsu pašreizējais un nākotnes produkts, kas piedāvā HR iespējas tirgū.
+- **HR modulis** — mantoto iespēju kopums, kas iepriekš tika licencēts ar vienoto operāciju piedāvājumu. Iespējas tiek iespējotas, ja klientam pieder Dynamics 365 Finance vai Dynamics 365 Supply Chain Management.
+- **Finance and operations infrastructure** — izstrādes arhitektūra, ko izmanto operāciju portfelis, tostarp Dynamics 365 Finance, Dynamics 365 Supply Chain Management un Dynamics 365 Project Operations. Šī infrastruktūra ir tā, kas tiks izmantota turpmāk. Šajā bieži uzdoto jautājumu sadaļā termins *"apvienota infrastruktūra* " attiecas uz finanšu un operāciju vidi.
+- **Cilvēkresursu infrastruktūra** – izstrādes arhitektūra, kas vēsturiski tika izmantota lietotnei Dynamics 365 Human Resources. Infrastruktūras apvienošanas projekts ievieš Dynamics 365 Human Resources finanšu un operāciju infrastruktūru. Atsevišķā infrastruktūra tiks pārtraukta.
 
-## <a name="general-questions-about-the-infrastructure-merge"></a>Vispārēji jautājumi par infrastruktūras sapludināšanu
+## <a name="general-questions-about-the-infrastructure-merge"></a>Vispārīgi jautājumi par infrastruktūras apvienošanu
 
-### <a name="will-customers-lose-any-features-or-capabilities"></a>Vai debitori zaudēs jebkādas funkcijas vai iespējas?
+### <a name="will-customers-lose-any-features-or-capabilities"></a>Vai klienti zaudēs kādas funkcijas vai iespējas?
 
-Mūsu mērķis ir minimizēt ietekmi, kas šai pārejai ir uz debitoriem. Mēs nenovācām līdzekļus vai iespējas. Starp moduli un HR moduli būs funkcionāla Dynamics 365 Human Resources pārība. Gadījumos, kad funkcija pastāv abās infrastruktūras, tiks Dynamics 365 Human Resources izmantota pieredze.
+Mūsu mērķis ir samazināt šīs pārejas ietekmi uz klientiem. Mēs nenoņemsim nekādus līdzekļus vai iespējas. Būs funkcionāla paritāte starp Dynamics 365 Human Resources HR moduli un to. Gadījumos, kad iezīme pastāv abās infrastruktūrās, Dynamics 365 Human Resources tiks izmantota pieredze.
 
-### <a name="will-the-user-experience-change"></a>Vai lietotājam tiks mainīta pieredze?
+### <a name="will-the-user-experience-change"></a>Vai mainīsies lietotāja pieredze?
 
-Lietotāja pieredze saskanēs ar standarta Dynamics 365 platformu pieredzi. Lai gan vispārīgā informācijas paneļu un izvēlņu pieredze joprojām būs līdzīga, tā tiks saskaņota ar standarta Dynamics 365 finanšu programmas pieredzi. Navigācija ietvers gan moduļus, gan darbvietas, atļaujot izlasei, kā arī citu informāciju. Darbvietas Dynamics 365 Human Resources, piemēram, Personāla **vadība** un **Cilvēki**, saplūdīs finanšu un operāciju infrastruktūras sistēmā. Nākotnē jaunās iespējas tiks piegādātas, izmantojot Līdzekļu pārvaldību, kas ļauj debitoriem skatīt jaunus līdzekļus un izlemt, kurus vēlaties izmantot. Papildinformāciju skatiet līdzekļu [pārvaldības pārskatā un](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lietotāja [interfeisa dokumentācijā](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json).
+Lietotāja pieredze atbildīs standarta Dynamics 365 platformas pieredzei. Lai gan informācijas paneļa un izvēļņu vispārējā pieredze saglabāsies līdzīga, tā tiks saskaņota ar standarta Dynamics 365 Finance programmas pieredzi. Navigācija ietvers gan moduļus, gan darbvietas, atļaus izlasi un daudz ko citu. Darbvietas Dynamics 365 Human Resources, piemēram **, personāla vadība** un personas **, apvienosies finanšu un** operāciju infrastruktūrā. Nākotnē jaunas iespējas tiks nodrošinātas, izmantojot līdzekļu pārvaldību, kas ļaus klientiem skatīt jaunos līdzekļus un izlemt, kurus līdzekļus viņi vēlas izmantot. Papildinformāciju skatiet sadaļā [Līdzekļu pārvaldības pārskats](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un [Lietotāja interfeisa dokumentācija](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json).
 
-### <a name="when-will-the-dynamics-365-human-resources-infrastructure-merge-be-completed"></a>Kad tiks pabeigta Dynamics 365 Human Resources infrastruktūras sapludināšana?
+### <a name="when-will-the-dynamics-365-human-resources-infrastructure-merge-be-completed"></a>Dynamics 365 Human Resources Kad tiks pabeigta infrastruktūras apvienošana?
 
-Infrastruktūras sapludināšana izbeigsies fāzēs, lai sniegtu debitoriem laiku plānot un veikt nepieciešamos soļus. Dynamics 2021 2. laidienā sākām izlaist iespējas. Līdz 2022. gada 2. kopuma beigām mēs šim projektam plānojam pabeigt visus produktu izstrādes darbus. Ņemiet vērā, ka laika skala var tikt mainīta. Jaunāko informāciju skatiet [nodot izpildei plānus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
+Infrastruktūras apvienošana tiks ieviesta pa posmiem, lai dotu klientiem laiku plānot un veikt nepieciešamās darbības. Mēs sākām ieviest iespējas Dynamics 2021 laidiena 2. vilnī. Mēs plānojam pabeigt visus produktu izstrādes centienus šim projektam līdz 2022. gada 2. laidiena viļņa beigām. Ņemiet vērā, ka laika grafiki var mainīties. Jaunāko informāciju skatiet sadaļā [Laidiena plāni](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
 
-### <a name="what-training-and-resources-will-be-available-to-help-with-the-infrastructure-merge"></a>Kādas apmācības un resursi būs pieejami, lai palīdzētu ar infrastruktūras saplūšanu?
+### <a name="what-training-and-resources-will-be-available-to-help-with-the-infrastructure-merge"></a>Kādas apmācības un resursi būs pieejami, lai palīdzētu apvienot infrastruktūru?
 
-Mēs sniedzam dokumentāciju, kas detalizēti apraksta katru infrastruktūras sapludināšanas procesa soli. Ja nepieciešams, mēs sniedzam papildu apmācību resursus, piemēram, videoklipus un apmācību, kā arī, lai palīdzētu klientiem un partneriem veikt gludu pāreju.
+Mēs sniegsim dokumentāciju, kas detalizēti apraksta katru infrastruktūras apvienošanas procesa soli. Mēs nodrošināsim papildu apmācības resursus, piemēram, video un seminārus, ja nepieciešams, lai palīdzētu klientiem un partneriem ar vienmērīgu pāreju.
 
-### <a name="will-there-be-changes-in-development-capabilities-after-the-infrastructure-merge-is-completed"></a>Vai pēc infrastruktūras sapludināšanas pabeigšanas pastāvēs izmaiņas izstrādes iespējām?
+### <a name="will-there-be-changes-in-development-capabilities-after-the-infrastructure-merge-is-completed"></a>Vai pēc infrastruktūras apvienošanas pabeigšanas būs izmaiņas attīstības iespējās?
 
-Papildinformāciju par izstrādes iespējām skatiet sadaļā Mājas [lapas izstrāde un pielāgošana](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
+Papildinformāciju par izstrādes iespējām skatiet rakstā [Sākumlapas](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md) izstrāde un pielāgošana.
 
-## <a name="feature-availability-questions"></a>Līdzekļu pieejamības jautājumi
+## <a name="feature-availability-questions"></a>Jautājumi par līdzekļu pieejamību
 
-### <a name="will-the-linkedin-talent-hub-integration-work-on-the-finance-and-operations-infrastructure"></a>Vai LinkedIn Talantu pārkraušanas centra integrācija darbojas finanšu un operāciju infrastruktūrai?
+### <a name="will-the-linkedin-talent-hub-integration-work-on-the-finance-and-operations-infrastructure"></a>Vai LinkedIn Talent Hub integrācija darbosies finanšu un operāciju infrastruktūrā?
 
-Nē, LinkedIn Talantu pārkraušanas punktu integrācija nebūs daļa no sapludinātās infrastruktūras. Publiskās programmas programmēšanas interfeisi (API) ir pieejami, lai veidotu integrācijas ar personāla atlases un kandidāta izsekošanas risinājumiem. Klientiem, kas plāno izmantot LinkedIn Talantu pārkraušanas punktu, jāstrādā ar savu Microsoft partneri, lai integrētu, izmantojot sniegtos API. Papildinformāciju par kandidātu izsekošanas sistēmas (ATS) integrācijas API skatiet kandidāta izsekošanas [sistēmas integrācijas API ievadā](./hr-admin-integration-ats-api-introduction.md).
+Nē, LinkedIn Talent Hub integrācija nebūs daļa no apvienotās infrastruktūras. Ir pieejamas publiskas lietojumprogrammu programmēšanas saskarnes (API), lai izveidotu integrāciju ar darbā pieņemšanas un kandidātu izsekošanas risinājumiem. Klientiem, kuri plāno izmantot LinkedIn Talent Hub, ir jāsadarbojas ar savu Microsoft partneri, lai veiktu integrāciju, izmantojot nodrošinātos API. Papildinformāciju par kandidātu izsekošanas sistēmas (ATS) integrācijas API skatiet rakstā [Pieteikuma iesniedzēja izsekošanas sistēmas integrācijas API ievads](./hr-admin-integration-ats-api-introduction.md).
 
-### <a name="will-the-capabilities-that-are-currently-available-only-in-dynamics-365-human-resources-for-example-leave-management-and-benefits-management-be-available-after-the-merge-is-completed"></a>Vai šobrīd pieejamās iespējas būs pieejamas tikai Dynamics 365 Human Resources (piemēram, atvaļinājumu vadība un atvieglojumu pārvaldība) pēc sapludināšanas pabeigšanas?
+### <a name="will-the-capabilities-that-are-currently-available-only-in-dynamics-365-human-resources-for-example-leave-management-and-benefits-management-be-available-after-the-merge-is-completed"></a>Vai iespējas, kas pašlaik ir pieejamas tikai pakalpojumā Dynamics 365 Human Resources (piemēram, atvaļinājumu pārvaldība un priekšrocību pārvaldība), būs pieejamas pēc sapludināšanas pabeigšanas?
 
-Jā. Visas Dynamics 365 Human Resources programmas iespējas tiek atvestas uz finanšu un operāciju infrastruktūru. Funkcijas tiks padarītas pieejamas fāzētajā pieejai. Lai iegūtu informāciju par sapludinātās infrastruktūras līdzekļu pieejamību, regulāri pārskatiet izlaišanas [plānus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
+Jā. Visas Dynamics 365 Human Resources lietojumprogrammu iespējas tiek ieviestas finanšu un operāciju infrastruktūrā. Funkcijas būs pieejamas, izmantojot pakāpenisku pieeju. Lai iegūtu jaunāko informāciju par līdzekļu pieejamību apvienotajai infrastruktūrai, regulāri pārskatiet [laidiena plānus](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
 
-### <a name="will-ceridian-integrations-with-dynamics-365-human-resources-be-available-after-the-infrastructure-merge-is-completed"></a>Vai ceristruktūras integrācijas būs Dynamics 365 Human Resources pieejamas pēc infrastruktūras sapludināšanas pabeigšanas?
+### <a name="will-ceridian-integrations-with-dynamics-365-human-resources-be-available-after-the-infrastructure-merge-is-completed"></a>Vai Ceridian integrācijas ar Dynamics 365 Human Resources būs pieejamas pēc infrastruktūras apvienošanas pabeigšanas?
 
-Ceriļļu veido V2 integrāciju, izmantojot Dynamics 365 Human Resources algu API priekšrocības. Uz failu balstīta integrācija, kas pašlaik Dynamics 365 Human Resources pastāv, netiks migrēta uz finanšu un operāciju infrastruktūru. Papildinformāciju skatiet sadaļā [Algas API ievads](./hr-admin-integration-payroll-api-introduction.md).
+Ceridian pašlaik veido V2 integrāciju, ar Dynamics 365 Human Resources kuru tiek izmantotas algu API priekšrocības. Pašlaik pastāvošā Dynamics 365 Human Resources failu integrācija netiks migrēta uz finanšu un operāciju infrastruktūru. Papildinformāciju skatiet sadaļā [Algas API ievads](./hr-admin-integration-payroll-api-introduction.md).
 
-### <a name="will-applicant-tracking-or-onboardingoffboarding-of-employees-functionality-be-included"></a>Vai tiks iekļauta darbinieka funkcionalitātes izsekošana kandidāts vai uzņēmuma darbība/offboarding?
+### <a name="will-applicant-tracking-or-onboardingoffboarding-of-employees-functionality-be-included"></a>Vai tiks iekļauta pretendenta izsekošana vai darbinieku piesaistīšana / izslēgšana?
 
-Iepriekšējos laidienos esam izveidojuši ATS integrācijas API, lai dotu iespēju partneriem un debitoriem izveidot ATS integrācijas ar Cilvēkresursiem. Papildu ar ATS saistītā funkcionalitāte bija pieejama 1. laivā. Mēs turpināsim uzlabot šos API turpmākajos laidienos.
+Iepriekšējos laidienos mēs izveidojām ATS integrācijas API, lai partneri un klienti varētu izveidot ATS integrācijas ar personāla vadību. Papildu ar ATS saistītā funkcionalitāte kļuva pieejama 2022. gada 1. kārtā. Mēs turpināsim uzlabot šīs API turpmākajos laidienos.
 
-HR funkcionalitāte, kas šobrīd pastāv finanšu un operāciju infrastruktūrai, ietver dažas personāla atlases pārvaldības funkcijas, kas nepastāv Dynamics 365 Human Resources. Kad infrastruktūras sapludināšana ir pabeigta, šī funkcionalitāte būs pieejama visiem personāla vadības debitoriem. Šī funkcionalitāte nodrošina ērtu ATS funkcionalitāti. Taču turpmāk neplānojam izvērst šo funkcionalitāti. Debitori, kuriem nepieciešama plašāka funkcionalitāte, var izmantot partnera ATS integrācijas priekšrocības. Papildinformāciju par ATS integrācijas API skatiet kandidāta izsekošanas [sistēmas integrācijas API ievadā](./hr-admin-integration-ats-api-introduction.md).
+Cilvēkresursu funkcionalitāte, kas pašlaik pastāv finanšu un operāciju infrastruktūrā, ietver dažas darbā pieņemšanas pārvaldības funkcijas, kas nepastāv Dynamics 365 Human Resources. Kad infrastruktūras sapludināšana būs pabeigta, šī funkcionalitāte būs pieejama visiem cilvēkresursu klientiem. Šī funkcionalitāte nodrošina vieglu ATS funkcionalitāti. Tomēr mēs neplānojam nākotnē paplašināt šo funkcionalitāti. Klienti, kuriem nepieciešama uzlabota funkcionalitāte, var izmantot partneru ATS integrācijas priekšrocības. Papildinformāciju par ATS integrācijas API skatiet rakstā [Pieteikuma iesniedzēju izsekošanas sistēmas integrācijas API ievads](./hr-admin-integration-ats-api-introduction.md).
 
-### <a name="will-the-dynamics-ax-2012-upgrade-tools-be-used-to-upgrade-the-hr-module-in-ax-2012-to-the-dynamics-365-human-resources-app"></a>Vai Dynamics AX 2012 jaunināšanas rīki tiks izmantoti HR AX moduļa jaunināšanai programmā 2012 uz Dynamics 365 Human Resources programmu?
+### <a name="will-the-dynamics-ax-2012-upgrade-tools-be-used-to-upgrade-the-hr-module-in-ax-2012-to-the-dynamics-365-human-resources-app"></a>Vai Dynamics AX 2012 jaunināšanas rīki tiks izmantoti, lai 2012. gadā AX jauninātu HR moduli uz Dynamics 365 Human Resources programmu?
 
-Jā. Jaunināšana no Dynamics AX 2012 Dynamics 365 Human Resources uz to pašu jaunināšanas ceļu un rīku rīkņus, kas tiek izmantoti, lai jauninātu uz citu Dynamics 365 operāciju programmu jaunāko versiju, piemēram, Dynamics 365 Finanses vai Dynamics 365 Supply Chain Management.
+Jā. Jaunināšana no Dynamics 2012 uz tiks veikta pa to pašu jaunināšanas ceļu un rīkiem, kas tiek izmantoti, lai jauninātu uz AX citu Dynamics 365 operāciju programmu jaunāko versiju, piemēram, Dynamics Dynamics 365 Human Resources 365 Finance vai Dynamics 365 Supply Chain Management.
 
-Papildinformāciju par migrāciju uz finanšu un operāciju infrastruktūru skatiet personāla vadības [debitoru migrācijas FAQ](./customer-migration.md).
+Papildinformāciju par migrāciju uz finanšu un operāciju infrastruktūru skatiet sadaļā [Bieži uzdotie jautājumi](./customer-migration.md) par cilvēkresursu klientu migrāciju.

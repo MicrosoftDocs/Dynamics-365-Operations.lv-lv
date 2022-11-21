@@ -1,29 +1,24 @@
 ---
 title: Pārskats par attiecību veidošanu ar klientiem
-description: Šajā rakstā ir sniegts apskats par jaunajām klienta atbalsta iespējām, kas ir pieejamas veikala programmā.
+description: Šajā rakstā ir sniegts pārskats par jaunajām clienteling iespējām, kas ir pieejamas veikala lietojumprogrammā.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885615"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785050"
 ---
 # <a name="clienteling-overview"></a>Pārskats par attiecību veidošanu ar klientiem
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885615"
 
 
 Daudzi mazumtirgotāji, īpaši augstas klases specializētie mazumtirgotāji, vēlas, lai to pārdošanas partneri veidotu ilgtermiņa attiecības ar to galvenajiem klientiem. Tiek paredzēts, ka partneri noskaidros šo klientu vēlmes un pretenzijas, pirkšanas vēsturi, preču preferences un svarīgus datumus, piemēram, gadadienas un dzimšanas dienas. Partneriem ir nepieciešama vieta, kur viņi var iegūt šo informāciju un to viegli atrast, kad tas ir nepieciešams. Ja šī informācija ir pieejama vienā skatā, partneri var viegli orientēties uz klientus, kas atbilst konkrētiem kritērijiem. Piemēram, viņi var atrast visus klientus, kuri labprātāk pērk rokassomas, vai klientus, kam tuvojas nozīmīgs notikums, piemēram, dzimšanas diena vai jubileja.
+
+Nākamajā videoklipā ir sniegts piemērs scenārijam, kā klientūra Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Klienta grāmata
 
@@ -81,7 +81,7 @@ Lai ieslēgtu attiecību ar klientiem funkcionalitāti jūsu vidē, veiciet tāl
     - Iestatiet šo atribūtu rādīšanas secību. Šī rādījumu secība nosaka, kuri atribūti jāparāda klienta kartē klienta grāmatā. 1. parādīšanas secība tiek uzskatīta par augstāku nekā 2. rādīšanas secība. Tāpēc atribūts, kam parādīšanas secība ir 1, tiks rādīts pirms atribūta, kam ir 2. parādīšanas secība.
 
     > [!NOTE]
-    > No tās pašas lapas var padarīt pieejamu programmu Customer Insights. Tomēr autentifikācijas nolūkiem ir jāizveido Azure programmas ID un noslēpums. (Informāciju par prasībām skatiet [Tālāk šajā rakstā ieslēgt sadaļas Debitoru ieskatu](#turn-on-the-integration-of-customer-insights-with-commerce) integrēšanu ar commerce (Commerce). Ja ir ieslēgta debitora ieskatu informācija un jūs atlasāt vienu vai vairākus pasākumus, kas jāparāda debitora kartē, šie pasākumi tiks rādīti vispirms. Pēc tam tiks rādītas klienta grāmatas atribūtu grupas, pamatojoties uz parādīšanas secību. Piemēram, ja atlasāt divus mērījumus no Customer Insights, šie abi mērījumi un viens klienta grāmatas atribūts tiks parādīts klienta kartē. (Parādītais klienta grāmatas atribūts būs tas atribūts, kam ir augstāka parādīšanas secība.)
+    > No tās pašas lapas var padarīt pieejamu programmu Customer Insights. Tomēr autentifikācijas nolūkiem ir jāizveido Azure programmas ID un noslēpums. (Informāciju par prasībām skatiet [Ieslēdziet sadaļu Customer Insights with Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) integrēšanu tālāk šajā rakstā.) Ja programma Customer Insights ir ieslēgta un jūs atlasāt vienu vai vairākus mērus, kas ir jārāda klienta kartē, šie mēri tiks parādīti vispirms. Pēc tam tiks rādītas klienta grāmatas atribūtu grupas, pamatojoties uz parādīšanas secību. Piemēram, ja atlasāt divus mērījumus no Customer Insights, šie abi mērījumi un viens klienta grāmatas atribūts tiks parādīts klienta kartē. (Parādītais klienta grāmatas atribūts būs tas atribūts, kam ir augstāka parādīšanas secība.)
 
 6. Lapas **Commerce parametri** cilnes **Attiecības ar klientiem** laukā **Klienta grāmatas atribūtu grupa** atlasiet atribūtu grupu, kuru tikko izveidojāt.
 

@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Konfigurēt Google Pay ar Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Iestatīt Apple Pay ar Adyen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: "Dynamics\_365 Payment Connector pakalpojumam Adyen\_— problēmu novēršana"
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: 'Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen'
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Rēķinu apmaksas scenāriju iestatīšana
                       href: payinvoice.md
+                    - name: Priekšapmaksas pakalpojumā Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Maksājumu dublikātu novēršana
                       href: duplicate-payment-protection.md
                     - name: Pārskats par universālā kanāla maksājumiem

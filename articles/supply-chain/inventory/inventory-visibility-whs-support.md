@@ -2,7 +2,7 @@
 title: Inventory Visibility atbalsts WMS krājumiem
 description: Šajā rakstā ir aprakstīts krājumu redzamības atbalsts krājumiem, kas ir iespējoti noliktavas pārvaldības procesiem (WMS krājumiem).
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,93 +11,96 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066616"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762759"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>Inventory Visibility atbalsts WMS krājumiem
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts krājumu redzamības atbalsts krājumiem, kas ir iespējoti noliktavas pārvaldības procesiem (WMS). Funkcija, kas pievieno šo iespēju krājumu redzamībai, tiek nosaukta kā Uzlabots *WMS*.
+Šajā rakstā ir aprakstīts krājumu redzamības atbalsts krājumiem, kas ir iespējoti noliktavas pārvaldības procesiem (WMS). Līdzeklis, kas pievieno šo iespēju krājumu redzamībai, tiek nosaukts par *Papildu WMS*.
 
-## <a name="wms-items"></a>WMS krājumi
+## <a name="wms-items"></a>WMS vienumi
 
-WMS krājums ir krājums, kas ir iespējots WMS un apstrādāts noliktavā, kas arī ir iespējota WMS.
+WMS krājums ir krājums, kas ir iespējots WMS un apstrādāts noliktavā, kurā ir iespējota arī WMS.
 
-Papildinformāciju par WMS un noliktavas **pārvaldības moduli** Microsoft Dynamics 365 Supply Chain Management skatiet noliktavas [pārvaldības pārskatā](../warehousing/warehouse-management-overview.md).
+Papildinformāciju par WMS un **moduli Noliktavas pārvaldība** korporācijā Microsoft Dynamics 365 Supply Chain Management skatiet rakstā [Noliktavas pārvaldības pārskats](../warehousing/warehouse-management-overview.md).
 
-## <a name="scope-of-the-feature"></a>Funkcionalitātes tvērums
+## <a name="scope-of-the-feature"></a>Funkcijas darbības joma
 
-Krājumu redzamības papildu WMS līdzeklis vērsts uz rīcībā esošo krājumu daudzuma aprēķiniem, kas balstīti uz rīcībā esošiem vaicājumiem. Šis līdzeklis nav paredzēts, lai ļautu izmantot krājumu redzamību, lai vispārīgi pārvaldītu noliktavas apstrādes darbības. Krājumu redzamība pakļauj lietotājiem noliktavas raksturīgās koncepcijas. Šeit sniegti daži šo koncepciju piemēri:
+Papildu WMS līdzeklis krājumu redzamībai koncentrējas uz rīcībā esošiem daudzuma aprēķiniem, kuru pamatā ir rīcībā esošie vaicājumi. Šis līdzeklis nav paredzēts, lai jūs varētu izmantot krājumu redzamību, lai pārvaldītu noliktavas apstrādes darbības kopumā. Krājumu redzamība neatklāj noliktavai raksturīgas koncepcijas tās lietotājiem. Šeit ir daži šo jēdzienu piemēri:
 
 - Rezervāciju hierarhija
-- Vai krājums vai noliktava ir iespējota WMS
+- Vai krājumam vai noliktavai ir iespējots WMS
 - Vienību secību grupas ID
-- Noliktavai specifiskie procesi, piemēram, kravas, kravas, kopumi un darbs
+- Noliktavai raksturīgi procesi, piemēram, sūtījumi, kravas, viļņi un darbs
 
-Krājumu redzamība pieņem šo informāciju, balstoties uz datiem, kas tiek sūtīti no Piegādes ķēžu pārvaldības. WMS specifiskie dati (citiem vārdiem, no tabulas `WHSInventReserve`) nav redzami lietotājiem.
+Krājumu redzamība izsecina šo informāciju, pamatojoties uz datiem, kas tiek nosūtīti no Supply Chain Management. WMS raksturīgie dati (citiem vārdiem sakot, dati no `WHSInventReserve` tabulas) lietotājiem nav redzami.
 
-Kad krājumu redzamībai izmantojat papildu WMS līdzekli, visi vaicājuma rezultāti būs identiski rezultātiem, kas iegūti vaicājumos, kuri tiek veikti tieši Piegādes ķēžu pārvaldībā. Tomēr tie nebūs identiski to vaicājumu rezultātiem, kas veikti, izmantojot mobilo programmu Noliktavas pārvaldība, jo mobilā programma izmanto nedaudz citu aprēķina loģiku.
+Ja krājumu redzamībai izmantojat uzlaboto WMS līdzekli, visi vaicājumu rezultāti būs identiski to vaicājumu rezultātiem, kas veikti tieši programmatūrā Supply Chain Management. Tomēr tie nebūs identiski to vaicājumu rezultātiem, kas veikti, izmantojot mobilo programmu Noliktavas pārvaldība, jo mobilā programma izmanto nedaudz atšķirīgu aprēķinu loģiku.
 
-## <a name="when-to-use-the-feature"></a>Kad izmantot šo līdzekli
+## <a name="when-to-use-the-feature"></a>Kad izmantot šo funkciju
 
-Krājumu redzamībai ieteicams izmantot papildu WMS līdzekli scenārijos, kuros ir spēkā visi šie nosacījumi:
+WMS līdzekli krājumu redzamībai ieteicams izmantot scenārijos, kuros ir izpildīti visi šie nosacījumi:
 
-- Jūs sinhronizējat Piegādes ķēdes pārvaldības datus ar krājumu redzamību.
-- Jūs izmantojat WMS piegādes ķēžu pārvaldībā.
-- Lietotāji veic rezervācijas WMS krājumiem līmeņos, kas nav noliktavas līmenī (piemēram, jo izmantojat noliktavas darbu).
+- Jūs sinhronizējat Supply Chain Management datus ar krājumu redzamību.
+- Jūs izmantojat WMS programmatūrā Supply Chain Management.
+- Lietotāji rezervē WMS krājumus līmeņos, kas ir zemāki par noliktavas līmeni (piemēram, numura zīmes līmenī, jo jūs apstrādājat noliktavas darbu).
 
-Citos scenārijos rīcībā esošo vaicājumu rezultāti būs tādi paši, neatkarīgi no tā, vai ir iespējota krājumu redzamības funkcija Uzlabotais WMS. Turklāt veiktspēja būs labāka, ja šajā scenārijā šo līdzekli neiespējosiet, jo ir mazāk aprēķinu un tiek mazāk papildu atbalsta.
+Citos scenārijos rīcībā esošo vaicājumu rezultāti būs vienādi neatkarīgi no tā, vai ir iespējots uzlabotais WMS līdzeklis krājumu redzamībai. Turklāt veiktspēja būs labāka, ja šajos scenārijos neiespējosit šo funkciju, jo ir mazāk aprēķinu un mazāk pieskaitāmo izmaksu.
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>Iespējot papildu WMS līdzekli krājumu redzamībai
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>WMS līdzekļa iespējošana krājumu redzamībai
 
-Lai iespējotu papildu WMS līdzekli krājumu redzamībai, sekojiet šiem soļiem.
+Lai iespējotu WMS līdzekli krājumu redzamībai, veiciet tālāk norādītās darbības.
 
-1. Piesakieties Piegādes ķēžu pārvaldībā kā administrators.
-1. Atveriet līdzekļu [pārvaldības darbvietu](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet šādas funkcijas šādā secībā:
+1. Piesakieties Supply Chain Management kā administrators.
+1. [Atveriet darbvietu Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet šādus līdzekļus šādā secībā:
 
     1. *Pievienojumprogrammas Krājumu redzamība integrācija*
     1. *Iespējot noliktavas preces krājumu redzamības pakalpojumā*
 
 1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Krājumu un noliktavas pārvaldības parametri**.
-1. Cilnē Iespējot **WMS vienumus** iestatiet opciju Iespējot **WMS krājumus** uz *Jā*.
-1. Pierakstieties programmā Power Apps.
-1. Atveriet konfigurācijas **lapu** un pēc tam cilnē Funkciju **pārvaldība** grieziet funkciju *AdvancedWHS*.
-1. Piegādes ķēdes pārvaldībā dodieties uz krājumu pārvaldības **periodisko \> uzdevumu krājumu \> redzamības integrāciju**.
-1. Darbību rūtī atlasiet Atspējot, lai **uz laiku** atspējotu krājumu redzamību.
-1. Darbību rūtī atlasiet Iespējot **, lai** atkārtoti aktivizētu krājumu redzamību. Pievienojumprogramma ir pārlādēta, un tagad ir aktivizēta jaunā funkcija. Ar WMS saistītie dati sāk darboties sinhronizēti ar krājumu redzamību.
+1. Cilnē Enable **WMS Items (Iespējot WMS vienumus) opcijai** Enable WMS Items (Iespējot WMS **vienumus**) iestatiet vērtību *Yes*.
+1. Piesakieties savā Power Apps vidē un atveriet **Krājumu redzamību**.
+1. **Atveriet lapu Konfigurācija** un pēc tam **cilnē Līdzekļu pārvaldība** ieslēdziet *līdzekli AdvancedWHS*.
+1. Sadaļā Supply Chain Management dodieties uz sadaļu **Krājumu pārvaldības \> periodisko uzdevumu \> krājumu redzamības integrācija**.
+1. Darbību rūtī atlasiet **Atspējot**, lai īslaicīgi atspējotu krājumu redzamību.
+1. Darbību rūtī atlasiet **Iespējot**, lai atkārtoti iespējotu krājumu redzamību. Pievienojumprogramma tiek atkārtoti ielādēta, un jaunā funkcija tagad ir iespējota. Ar WMS saistītie dati tiek sinhronizēti ar krājumu redzamību.
 
-## <a name="query-on-hand-quantities-of-wms-items"></a>Vaicāt rīcībā esošos WMS krājumu daudzumus
+## <a name="query-on-hand-quantities-of-wms-items"></a>Vaicājiet rīcībā esošos WMS vienumu daudzumus
 
-Lai vaicātu WMS krājumiem, [izmantojiet to pašu programmas programmēšanas interfeisu (API) un ziņojumu sintaksi](inventory-visibility-api.md), kas tiek lietota krājumiem, kas nav WMS. Nav jānorāda, vai krājums ir WMS krājums vai krājums, kas nav WMS krājums. Krājumu redzamība automātiski izšķir krājumus, pamatojoties uz saglabātajiem datiem.
+Lai vaicātu par WMS vienumiem, izmantojiet to pašu [lietojumprogrammu programmēšanas interfeisu (API) un ziņojumu sintaksi](inventory-visibility-api.md), ko izmantojat vienumiem, kas nav WMS vienumi. Jums nav jānorāda, vai vienums ir WMS vienums vai vienums, kas nav WMS. Krājumu redzamība automātiski atšķir vienumus, pamatojoties uz saglabātajiem datiem.
 
-WMS krājumu vaicājumu rezultāti pamatā ir tādi paši kā rezultāti krājumiem, kas nav WMS. Vienīgā atšķirība ir tā, ka šādi fiziskie pasākumi no `fno` datu avota tiek aprēķināti, pamatojoties uz WMS loģiku Piegādes ķēžu pārvaldībā:
+WMS vienumu vaicājumu rezultāti būtībā ir tādi paši kā rezultāti vienumiem, kas nav WMS vienumi. Vienīgā atšķirība ir tā, ka tālāk norādītie `fno` fiziskie mērījumi no datu avota tiek aprēķināti, pamatojoties uz WMS loģiku programmatūrā Supply Chain Management:
 
 - `AvailOrdered`
 - `AvailPhysical`
 - `ReservOrdered`
 - `ReservPhysical`
 
-Visi citi fiziskie pasākumi tiek aprēķināti tāpat, kā krājumu redzamības līdzeklis Uzlabotais WMS.
+Visi pārējie fiziskie mēri tiek aprēķināti tieši tāpat, kā tie tiek aprēķināti, ja WMS līdzeklis krājumu redzamībai ir atspējots.
 
-Lai iegūtu sīkāku informāciju par to, kā darbojas WMS krājumu rīcībā esošie aprēķini, [skatiet krājumu rezervācijas noliktavas pārvaldības rakstā](https://www.microsoft.com/download/details.aspx?id=43284).
+Detalizētu informāciju par to, kā darbojas rīcībā esošie WMS krājumu aprēķini, skatiet tehniskajā [dokumentā Rezervācijas noliktavas pārvaldībā](https://www.microsoft.com/download/details.aspx?id=43284).
 
-Datu elementi, kas tiek eksportēti Dataverse, vēl nevar atjaunināt WMS krājumu daudzumu. Datu elementi rādītie daudzumi ir pareizi gan krājumiem, kas nav WMS, gan daudzumiem, kurus neietekmē WMS loģika (t.i., `AvailPhysical` apjomi izņemot`AvailOrdered`, `ReservPhysical``ReservOrdered``fno` un datu avots).
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>Rīcībā esošs saraksta skats un datu elements WMS vienumiem
 
-WMS krājumu daudzumu izmaiņas, kas tiek glabātas Piegādes ķēdes pārvaldības datu avotā, ir aizliegtas. Attiecībā uz citām krājumu redzamības funkcijām šis ierobežojums tiek ieviests, lai palīdzētu novērst konfliktus.
+Lapas **Krājumu redzamības kopsavilkuma** iepriekšēja ielāde nodrošina entītijas Rīcībā esošs indeksa *vaicājuma iepriekšējas ielādes rezultātu* skats. Atšķirībā no *entītijas Krājumu kopsavilkums*, *entītija Rīcībā esošie indeksa vaicājuma iepriekšējas ielādes rezultāti* nodrošina rīcībā esošo krājumu sarakstu precēm kopā ar atlasītajām dimensijām. Krājumu redzamība sinhronizē iepriekš ielādētos kopsavilkuma datus ik pēc 15 minūtēm.
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>Vieglās rezervācijas WMS krājumiem krājumu redzamība
+Ja izmantojat krājumu redzamību ar WMS vienumiem un vēlaties skatīt rīcībā esošo WMS vienumu sarakstu, ieteicams iespējot *līdzekli Iepriekš ielādēt krājumu redzamības kopsavilkumu* (skatiet arī [Racionalizēta rīcībā esoša vaicājuma](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) iepriekšēja ielāde). Atbilstošais datu elements saglabā Dataverse vaicājuma iepriekšējās ielādes rezultātu, kas tiek atjaunināts ik pēc 15 minūtēm. Datu elementa nosaukums ir `Onhand Index Query Preload Result`.
 
-Parasti tiek atbalstītas [vieglās rezervācijas](inventory-visibility-reservations.md) WMS krājumiem. Ar WMS saistītos fiziskos krājumus var iekļaut vieglās rezervēšanas aprēķinos. 
+> [!IMPORTANT]
+> Entītija Dataverse ir tikai lasāma. Varat skatīt un eksportēt datus entītijās Krājumu redzamība, bet **nemodificēt tos**.
 
-Zināmā ierobežojumā rezervācijas *aprēķināšanai pieejamais* ierobežojums pašlaik netiek atbalstīts WMS krājumiem. Tāpēc, ja virs pašreizējām dimensijām ir rezervēšana, kas notiek viegli, *rezervēšanai pieejamais* aprēķins nav pareizs. Vieglās rezervācijas netiks ietekmētas, ja **vieglās rezervēšanas API** ir atspējota [opcijaCheckAvailForReserv](inventory-visibility-api.md#create-one-reservation-event).
+Izmaiņas WMS krājumu daudzumos, kas tiek glabāti Supply Chain Management datu avotā (`fno`), ir aizliegtas. Šī darbība atbilst citu krājumu redzamības līdzekļu darbībai. Šis ierobežojums tiek piemērots, lai palīdzētu novērst konfliktus.
 
-Šis ierobežojums attiecas arī uz funkcijām un pielāgojumiem, kas balstīti uz vieglās rezervēšanas (piemēram, sadalījuma).
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>WMS vienumu saderība citām funkcijām krājumu redzamības sadaļā
 
-## <a name="calculate-available-to-promise-quantities"></a>Aprēķināt pieejamos daudzumus solīšanai
+[Tiek atbalstītas WMS vienumu mīkstās rezervācijas](inventory-visibility-reservations.md) un [krājumu sadale](inventory-visibility-allocation.md). Ar WMS saistītos fiziskos mērus varat iekļaut nesaistošo rezervāciju un sadalījuma aprēķinos.
 
-WMS krājumiem [risinājums pilnībā atbalsta pieejamo](inventory-visibility-available-to-promise.md) solīšanai (ATP). Varat definēt ATP aprēķinus, neņemot vērā WMS raksturīgās detaļas.
+## <a name="calculate-available-to-promise-quantities"></a>Aprēķiniet solīšanai pieejamos daudzumus
+
+Risinājums pilnībā atbalsta [pieejamo solījumu (ATP)](inventory-visibility-available-to-promise.md) WMS vienumiem. Varat definēt ATP aprēķinus, neuztraucoties par WMS specifisko informāciju.

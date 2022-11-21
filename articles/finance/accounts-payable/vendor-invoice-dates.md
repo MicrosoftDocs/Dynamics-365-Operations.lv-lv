@@ -1,6 +1,6 @@
 ---
 title: Kreditora rēķinu datumi
-description: Šajā rakstā ir aprakstīti datumi, kas ir redzami kreditora rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
+description: Šajā rakstā ir aprakstīti kreditoru rēķinos redzamie datumi. Tajā ir arī paskaidrots, kā automātiski pielāgot publicēšanas datumu.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 022fd0ce07fbb4c54afcf7334c1c9411e01dcf26
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876417"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775277"
 ---
 # <a name="vendor-invoice-dates"></a>Kreditora rēķinu datumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti datumi, kas ir redzami kreditora rēķinos. Tajā skaidrots arī, kā iestatīt sistēmu, lai tā automātiski koriģētu grāmatošanas datumu.
+Šajā rakstā ir aprakstīti kreditoru rēķinos redzamie datumi. Tajā ir arī paskaidrots, kā automātiski pielāgot publicēšanas datumu.
 
-Lapā **Detalizētā informācija par nenokārtoto kreditora rēķinu** rēķina virsraksts rāda četrus datumus: rēķina saņemšanas datumu, rēķina datumu, grāmatošanas datumu un apmaksas datumu. Pēc kreditora rēķina izveidošanas pēc noklusējuma tiek ievadīti šādi datumi:
+Lapā Neapstiprinātā **kreditora rēķina detalizēta informācija** rēķina galvenē tiek rādīti četri datumi: **rēķina saņemšanas datums,** rēķina **datums,** grāmatošanas datums un **apmaksas datums** **·**. Pēc kreditora rēķina izveidošanas pēc noklusējuma tiek ievadīti šādi datumi:
 
 - **Rēķina saņemšanas datums** – šis lauks ir iestatīts uz pašreizējo sistēmas datumu.
 - **Grāmatošanas datums** – šis lauks ir iestatīts uz pašreizējo sistēmas datumu. 
@@ -37,22 +37,22 @@ Lapā **Detalizētā informācija par nenokārtoto kreditora rēķinu** rēķina
 
 Dažreiz kreditora rēķins var būt gaidīšanas stāvoklī ilgu laiku pēc perioda slēgšanas. Kad tas ir gatavs grāmatošanai, iepriekšējā grāmatošanas perioda vecais grāmatošanas datums joprojām tiek izmantots. Tomēr šis periods tagad ir slēgts. Tādēļ kreditora (AP) darbiniekam manuāli jāmaina visus grāmatošanas datumus uz jaunu grāmatošanas periodu visiem iepriekš izveidotajiem neapmaksātajiem rēķiniem.
 
-Šajā rakstā aprakstītā funkcija ļauj iestatīt sistēmu tā, lai tā automātiski koriģētu grāmatošanas datumu atbilstoši biznesa prasībām.
+Šajā rakstā aprakstītais līdzeklis ļauj automātiski pielāgot publicēšanas datumu atbilstoši uzņēmuma prasībām.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parametrs kreditora rēķina grāmatošanas datuma automātiskai pielāgošanai
 
-Izpildiet šīs darbības, lai ļautu sistēmai automātiski koriģēt grāmatošanas datumu kreditora rēķiniem.
+Veiciet šīs darbības, lai automātiski pielāgotu kreditoru rēķinu grāmatošanas datumu.
 
 1.  Dodieties uz **Parāds kreditoriem \> Iestatīšana \> Kreditora moduļa parametri**.
 2.  Laukā **Koriģēt grāmatošanas datumu automātiski** cilnē **Virsgrāmata un PVN** atlasiet vienu no šīm vērtībām:
 
     - **Bez izmaiņām** – grāmatošanas laikā sistēma automātiski nemaina grāmatošanas datumu. Šī vērtība ir atlasīta pēc noklusējuma.
-    - **Vienmēr mainīt grāmatošanas datumu uz sistēmas datumu** – sistēma grāmatošanas laikā automātiski maina grāmatošanas datumu uz sistēmas datumu.
-    - **Mainīt grāmatošanas datumu uz sistēmas datumu, kad grāmatošanas datuma periods ir slēgts vai aizturēts** – sistēma grāmatošanas laikā maina grāmatošanas datumu uz sistēmas datumu, bet tikai tad, ja atbilstošajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
-    - **Mainīt grāmatošanas datumu uz pirmo jaunā perioda dienu, kad grāmatošanas datuma periods ir slēgts vai aizturēts** – sistēma grāmatošanas laikā maina grāmatošanas datumu uz pirmo jaunā atvērtā perioda datumu, bet tikai tad, ja atbilstošajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
+    - **Vienmēr mainiet publicēšanas datumu uz sistēmas datumu — grāmatošanas datums publicēšanas laikā tiek automātiski mainīts uz sistēmas datumu**.
+    - **Mainīt grāmatošanas datumu uz sistēmas datumu, kad grāmatošanas datuma periods ir slēgts vai aizturēts** — grāmatošanas datums publicēšanas laikā tiek automātiski mainīts uz sistēmas datumu, bet tikai tad, ja attiecīgajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
+    - **Mainiet grāmatošanas datumu uz jaunā perioda pirmo dienu, ja grāmatošanas datuma periods ir slēgts vai aizturēts** — grāmatošanas datums tiek mainīts uz jaunā atvērtā perioda pirmo dienu, bet tikai tad, ja attiecīgajam grāmatošanas datuma periodam ir statuss **Slēgts** vai **Aizturēts**.
 
 > [!NOTE]
-> Ja jaunais automātiski koriģētais grāmatošanas datums ir jaunajā finanšu gadā, rēķina grāmatošanas datums netiks atjaunināts. Lietotājs saņems kļūdu "Finanšu gads ir mainījies. Lūdzu, pārbaudiet un atkārtoti ievadiet grāmatošanas datumu." Lai varētu veikt grāmatošanu, rēķina grāmatošanas datums ir jāatjaunina uz jauno finanšu gada datumu.
+> Ja jaunais grāmatošanas datums, kas tika automātiski pielāgots, ir jauns finanšu gads, rēķina grāmatošanas datums netiks atjaunināts. Lietotājs saņems kļūdu "Finanšu gads ir mainījies. Lūdzu, pārbaudiet un atkārtoti ievadiet publicēšanas datumu." Lai rēķinu grāmatošanas datums tiktu grāmatots, tas ir jāatjaunina uz jauno finanšu gada datumu.
 
 ## <a name="impact-of-posting-date-changes"></a>Grāmatošanas datuma izmaiņu ietekme
 
@@ -70,12 +70,12 @@ Ja neapmaksātā kreditora rēķinā grāmatošanas datums ir mainīts, izmaiņ�
 
 - **Maiņas kurss** - valūtas maiņas kursu nosaka opcijas **Kreditoru grāmatvedības atjaunināšana, izmantojot rēķina datuma** iestatījums lapas **Kreditoru parametri** cilnē **Rēķins** (**Parādi kreditoriem \> Iestatījums \> Kreditora moduļa parametri**).
 
-    - Ja šī opcija ir iestatīta uz **Jā** , tiek izmantots rēķina datums un grāmatošanas datuma maiņa neietekmē maiņas kursu.
+    - Ja šī opcija ir iestatīta uz **Jā**, tiek izmantots rēķina datums **un** grāmatošanas datuma **izmaiņas** neietekmē valūtas kursu.
     - Ja šī opcija ir iestatīta uz **Nē**, grāmatošanas datums tiek izmantots, lai aprēķinātu maiņas kursu. Kad grāmatošanas datums ir atjaunināts, uzskaites un pārskata summas tiek pārrēķinātas. Tāpēc vēlreiz jāveic atbilstības pārbaude.
 
 ## <a name="validation"></a>Validācija
 
 Divi citi lauki **Kreditoru parametru** lapas cilnē **Rēķins** (**Parādi kreditoriem \> Iestatīšana \> Kreditora moduļa parametri**) ietekmē rēķina apstrādi:
 
-- Ja lauks **Pārbaudīt izmantoto rēķina numuru** ir iestatīts uz **Noraidīt dublikātus finanšu gada laikā**, sistēma izmanto grāmatošanas datumu, lai rēķina grāmatošanas laikā pārbaudītu rēķinu dublikātus.
-- Ja opcija **Pieprasīt dokumenta datumu kreditora rēķinā** ir iestatīta uz **Kļūdas opciju**, ir nepieciešams lauks **Neapmaksātā rēķina virsraksta rēķina datums**. Ja rēķina datums ir vēlāks par grāmatošanas datumu, sistēma rāda kļūdas ziņojumu.
+- Ja lauks Pārbaudīt izmantoto **rēķina numuru ir iestatīts** uz **Noraidīt dublikātus finanšu gada** laikā, grāmatošanas datums tiks izmantots, lai pārbaudītu rēķinu dublikātus rēķina grāmatošanas laikā.
+- Ja opcija **Pieprasīt dokumenta datumu kreditora rēķinā** ir iestatīta uz **Kļūdas opciju**, ir nepieciešams lauks **Neapmaksātā rēķina virsraksta rēķina datums**. Ja rēķina datums ir vēlāks par grāmatošanas datumu, tiks parādīts kļūdas ziņojums.

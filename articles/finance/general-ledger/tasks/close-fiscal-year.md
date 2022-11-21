@@ -2,7 +2,7 @@
 title: Finanšu gada slēgšana
 description: Šajā procedūrā tiek aprakstīts gada beigu slēgšanas process, kas pārsūta bilances uz jaunu finanšu gadu.
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717479"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779817"
 ---
 # <a name="close-the-fiscal-year"></a>Finanšu gada slēgšana
 
@@ -30,21 +30,21 @@ ms.locfileid: "8717479"
 ## <a name="validate-year-end-close-parameters"></a>Apstiprināt gada beigu slēgšanas parametrus
 1. Dodieties uz **Navigācijas rūts > Moduļi > Virsgrāmata > Virsgrāmatas iestatīšana > Virsgrāmatas parametri**.
 2. Izvērsiet sadaļu **Finanšu gada slēgšana**.
-3. Atlasiet **Jā** vai **Nē** gada **slēgšanas darbību dzēšanai pārsūtīšanas opcijas** laikā.
+3. Atlasiet Jā vai Nē opcijai **Dzēst gada beigu transakcijas pārsūtīšanas** laikā.**·** **·**
     
-Ja finanšu gads jau ir slēgts, un gada beigu slēgšana tiek palaista vēlreiz, šis iestatījums ir svarīgs. Ja iestatījums ir **Jā, iepriekšējā gada beigu slēgšanas dokuments tiks dzēsts, un visiem kontiem** tiks izveidots jauns dokuments. Ja iestatījums **ir Nē**, iepriekšējais dokuments paliks un jaunais dokuments tiks izveidots tikai to ierakstu pielāgošanai, kas grāmatoti pēc pēdējās gada beigu slēgšanas.
+Ja finanšu gads jau ir slēgts, un gada beigu slēgšana tiek palaista vēlreiz, šis iestatījums ir svarīgs. Ja iestatījums ir **Jā**, iepriekšējā gada beigu slēgšanas kupons tiks dzēsts un tiks izveidots jauns kupons visiem kontiem, kuros sākas atlikumi. Ja iestatījums ir **Nē**, iepriekšējais kupons paliks un jauns kupons tiks izveidots tikai, lai pielāgotu ierakstus, kas tika publicēti pēc pēdējā gada beigu slēgšanas.
 
-4. Atlasiet **Jā** vai **Nē**, lai pārsūtīšanas **laikā izveidotu slēguma** darbības.
+4. Atlasiet **Jā** vai **Nē** opcijai Izveidot slēgšanas transakcijas pārsūtīšanas **laikā**.
 
-Ja iestatīts **kā Jā**, tiek izveidotas divas darbības. Finanšu gadā, kas tiek noslēgts, ir izveidots viens dokuments, lai visu Virsgrāmatas kontu bilances samazinātu līdz nullei, un nākamais finanšu gads sākuma bilancēm tiek izveidots otrs dokuments. Ja iestatījums **ir** Nē, nākamajā finanšu gadā sākuma bilancēm tiek izveidots viens dokuments.  
+Ja iestatījums ir **Jā**, tiek izveidotas divas transakcijas. Viens kupons tiek izveidots slēgtajā finanšu gadā, lai samazinātu visu Virsgrāmatas kontu atlikumus līdz nullei, un nākamajā finanšu gadā tiek izveidots otrs kupons sākuma bilancēm. Ja iestatīts uz **Nē**, nākamajā finanšu gadā tiek izveidots viens kupons sākuma bilancēm.  
 
-5. Lai **iestatītu** finanšu gada **statusu** uz **neatgriezeniski slēgtu opciju, atlasiet Jā vai** Nē.
+5. **Opcijai** Iestatīt finanšu gada statusu uz pastāvīgi slēgtu **atlasiet Jā** vai **Nē**.
 
-Ja iestatīts kā **Jā**, finanšu gada statuss tiks iestatīts uz Neatgriezeniski slēgts. Tā kā neatgriezeniski slēgtu gadu vairs nevar atvērt, ieteicams iestatīt šo opciju uz **Nē**.  
+Ja iestatījums **ir Jā**, finanšu gada statuss tiks iestatīts uz **Pastāvīgi slēgts**. Tā kā pastāvīgi slēgtu gadu nevar atvērt no jauna, labākā prakse būtu iestatīt šo opciju uz **Nē**.  
 
-6. Atlasiet **Jā** vai **Nē** dokumenta **numuram gada beigu slēgšanas** opcijas laikā.
+6. Atlasiet **Jā (Yes) vai Nē (Yes**) vai Nē **(** **Document number ir jāaizpilda) gada beigu slēgšanas** opcijas laikā.
 
-Ja iestatījums **ir** Jā, dokumenta numurs jāievada manuāli gada beigu slēgšanas procesa laikā. Numuru sērija netiek izmantota, lai ģenerētu šo dokumenta numuru. Vislabākā prakse ir to iestatīt uz **Jā**.  
+Ja iestatīts uz **Jā**, kupona numurs ir jāievada manuāli gada beigu slēgšanas procesā. Numuru sērija netiek izmantota, lai ģenerētu šo dokumenta numuru. Labākā prakse ir iestatīt to uz **Jā**.  
 
 7. Aizvērt lapu.
 8. Pārejiet uz sadaļu **Virsgrāmata > Perioda noslēgšana > Gada beigu slēgšana**.
@@ -52,7 +52,7 @@ Ja iestatījums **ir** Jā, dokumenta numurs jāievada manuāli gada beigu slēg
 
 Veidni var izveidot juridisku personu grupai, kurai vēlaties palaist gada beigu slēgšanu. Šo veidni var izmantot atkārtoti katru gadu.  
 
-10. Laukā **Grupas** nosaukums ievadiet gada beigu veidnes slēgšanas nosaukumu.
+10. Laukā **Grupas nosaukums** ievadiet gada beigu slēgšanas veidnes nosaukumu.
 11. Laukā **Finanšu kalendārs** atlasiet finanšu gadu, kuram veidne tiks izveidota.
 
 Tikai juridiskas personas, kas izmanto vienā finanšu gadu, var sagrupēt gada beigu slēgšanas veidnē. Tas ir tāpēc, ka gada beigu slēgšana tiek veikta, izvēloties finanšu gadu, nevis datumu.  
@@ -64,9 +64,9 @@ Juridiskās personas var pievienot, atlasot juridiskās personas vai atlasot org
 
 14. Atlasiet juridiskās personas vai organizācijas hierarhiju.
 15. Noklikšķiniet uz **Labi**.
-16. Pārsūtiet **bilances** **dimensiju** Jā **vai Nē**.
+16. Atlasiet **Jā** vai **Nē** kategorijā **Pārskaitījuma** bilance.
 
-Vislabākā prakse ir iestatīt šo opciju kā Jā **bilances** kontiem. Tas saglabās grāmatoto darbību finanšu dimensijas, veidojot bilances kontu sākuma atlikumus. Peļņas un zaudējumu kontiem varat izvēlēties saglabāt finanšu dimensijas (**Aizvērt** visas), ja bilances tiek pārvietotas uz Nesadalītā peļņa, vai atlasīt, lai finanšu dimensijas aizstātu ar citu dimensijas vērtību (**Aizvērt vienu**). Ja izvēlaties **Aizvērt vienu**, katrai dimensijai varat definēt noteiktu dimensijas vērtību vai arī atstāt to tukšu.  
+Labākā prakse ir iestatīt šīs opcijas vērtību Jā **bilances** kontiem. Tas saglabās grāmatoto darbību finanšu dimensijas, veidojot bilances kontu sākuma atlikumus. Peļņas un zaudējumu kontiem varat atlasīt, lai uzturētu finanšu dimensijas (Aizvērt visu **), kad bilances tiek pārvietotas uz Nesadalīto peļņu, vai arī varat atlasīt, lai finanšu dimensijas tiktu aizstātas ar citu dimensijas vērtību (** **Aizvērt vienu**). Ja izvēlaties **Aizvērt vienu**, varat definēt konkrētu dimensijas vērtību katrai dimensijai vai pat izvēlēties to atstāt tukšu.  
 
 17. Noklikšķiniet uz **Saglabāt**.
 18. Sāciet gada beigu slēgšanu, **Darbību rūtī** izvēloties **Palaist finanšu slēgšanu**. Gada beigu slēgšana tiks veikta atlasītajai veidnei.  

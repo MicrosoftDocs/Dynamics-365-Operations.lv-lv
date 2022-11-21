@@ -1,35 +1,37 @@
 ---
 title: Veikala pasūtījumu izpilde
-description: Šajā rakstā ir sniegts veikala pasūtījuma izpildes apskats.
+description: Šajā rakstā ir sniegts pārskats par veikala pasūtījuma izpildi sadaļā Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854982"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785077"
 ---
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
 
 [!include [banner](includes/banner.md)]
+
+Šajā rakstā ir sniegts pārskats par veikala pasūtījuma izpildi sadaļā Microsoft Dynamics 365 Commerce.
 
 Daudzi mazumtirgotāji vēlas optimizēt pasūtījumu izpildi, ļaujot veikaliem izpildīt pasūtījumus. Pasūtījumu izpildīšana veikala līmenī var palīdzēt atvieglot krājumu pārsniegšanas scenārijus noteiktam veikalam, vai šāda izpildīšana var būt nepieciešama no loģistikas viedokļa gadījumos, kad veikalam ir papildu jauda vai tas atrodas tuvākā nosūtīšanas attālumā līdz debitoram. Lai risinātu šo vajadzību, pārdošanas punktā ir pieejama vienotās pasūtījumu izpildes operācija.
 
 Pasūtījumiem, kurus paredzēts izpildīt noteiktā veikalā, pasūtījuma virsrakstā vai rindās ir norādīta šī veikala noliktava.
 
 Pasūtījumu izpildes operācija pārdošanas punktā nodrošina vienu darba apgabalu attiecīgajā pārdošanas punktā, kuru var izmantot pasūtījumu apstrādāšanai. Tas ietver visu — sākot no pasūtījuma pieņemšanas līdz pasūtījuma kā nosūtīta atzīmēšanai vai izdošanai veikalā.
+
+Šajā videoklipā ir sniegts pārskats un demonstrācija par veikala izpildes iespējām pakalpojumā Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Piekļuve vienotajai pasūtījumu izpildei pārdošanas punktā
 

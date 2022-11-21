@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715502"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780259"
 ---
 # <a name="correct-a-free-text-invoice"></a>Brīva teksta rēķina labošana
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715502"
 
 Šajā rakstā ir paskaidrots, kā labot brīva teksta rēķinu, kas jau ir iegrāmatots, un kā to vēlreiz izsniegt kā labotu rēķinu.
 
-Lai labotu brīva teksta rēķinu, kas jau ir grāmatots, atveriet iegrāmatoto brīva teksta rēķinu. Lapā **Rēķins** atlasiet vienumu **Atcelt** un pēc tam — **Labot rēķinu**. Atlasiet iemesla kodu, pievienojiet komentārus un atlasiet datumu jaunajam labotajam rēķinam. Varat modificēt laboto rēķinu un to grāmatot. 
+Lai labotu brīva teksta rēķinu, kas jau ir iegrāmatots, veiciet tālāk norādītās darbības. 
+1. Atveriet ievietoto brīvā teksta rēķinu. 
+2. Lapā **Rēķins** atlasiet vienumu **Atcelt** un pēc tam — **Labot rēķinu**. 
+3. Atlasiet iemesla kodu, pievienojiet komentārus un atlasiet datumu jaunajam labotajam rēķinam.
+4. Varat modificēt laboto rēķinu un to grāmatot. 
 
 Kad grāmatojat laboto rēķinu, tiek izveidots atcelšanas rēķins par kredīta summu, kas ir vienāda ar sākotnējā rēķina summu. Līdz ar to sākotnējā rēķina un atcelšanas rēķina apvienotā bilance ir 0 (nulle). Atcelšanas rēķins tiek segts pret sākotnējo rēķinu. 
 
@@ -44,7 +48,7 @@ Atcelšanas un labošanas rēķinus varat identificēti divējādi:
 -   Brīva teksta rēķina virsrakstā ir redzams statuss **Atcelšanas rēķins '\[rēķina numurs\]'** vai **Labotais rēķins '\[rēķina numurs\]'**.
 
 > [!NOTE]
-> Šis līdzeklis ir pieejams tikai tad, ja ir atlasīta konfigurācijas atslēga **Brīva teksta rēķina labojums**. Papildinformāciju par konfigurācijas atslēgu iespējošanu skatiet sadaļas Iespējot (vai deaktivizēt) konfigurācijas atslēgas rakstā [Uzturēšanas](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) režīms. 
+> Šis līdzeklis ir pieejams tikai tad, ja ir atlasīta konfigurācijas atslēga **Brīva teksta rēķina labojums**. Papildinformāciju par konfigurācijas atslēgu iespējošanu skatiet raksta Uzturēšanas režīms sadaļā [Iespējot (vai atspējot) konfigurācijas atslēgas](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

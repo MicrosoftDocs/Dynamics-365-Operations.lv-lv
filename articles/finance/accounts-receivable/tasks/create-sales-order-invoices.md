@@ -1,6 +1,6 @@
 ---
 title: Pārdošanas pasūtījumu rēķinu izveide
-description: Šajā rakstā ir aprakstīts, kā izrakstīt rēķinu pārdošanas pasūtījumam, ieskaitot rēķinu sapludināšanu un pakešveida apstrādi.
+description: Šajā rakstā ir aprakstīts, kā izrakstīt rēķinu pārdošanas pasūtījumam, tostarp rēķinu sapludināšanai un pakešapstrādei.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910263"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778389"
 ---
 # <a name="create-sales-order-invoices"></a>Pārdošanas pasūtījumu rēķinu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā izrakstīt rēķinu pārdošanas pasūtījumam, ieskaitot rēķinu sapludināšanu un pakešveida apstrādi. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
+Šajā rakstā ir aprakstīts, kā izrakstīt rēķinu pārdošanas pasūtījumam, tostarp rēķinu sapludināšanai un pakešapstrādei. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Izveidot rēķinu no pārdošanas pasūtījuma
@@ -32,12 +32,12 @@ ms.locfileid: "8910263"
 2. Sarakstā atlasiet kādu pārdošanas pasūtījumu. 
 3. **Darbību rūtī** noklikšķiniet uz **Rēķins > Ģenerēt > Rēķins**. Ievērojiet, ka ar šo pārdošanas pasūtījumu ir saistītas vairākas pavadzīmes. Pavadzīmes numura vietā tajā tiek rādīts tikai vārds *vairāki*.  
 4. Izvērsiet sadaļu **Parametri**.
-    - Lai grāmatotu rēķinu, grāmatošana ir jāiestata uz Jā. Varat arī grāmatošanu izslēgt un rēķinu tikai drukāt. Taču to pašu rezultātu varat panākt, rēķina vietā izveidojot pro forma rēķinu.  
+    - Lai grāmatotu rēķinu, norīkošanai ir jābūt iestatītai uz **Jā**. Varat arī grāmatošanu izslēgt un rēķinu tikai drukāt. Taču to pašu rezultātu varat panākt, rēķina vietā izveidojot pro forma rēķinu.  
     - Šī opcija tiek izmantota pakešuzdevumiem. Vaicājums tiek izpildīts, kad tiek veikts pakešuzdevums.
-5. Laukā **Drukāt** atlasiet “Pēc”.
-6. Vienumam **Drukāt rēķinu** atlasiet vērtību **Drukāt rēķinu**. Drukas pārvaldība var drukāt vairākas rēķina kopijas, kā arī nosūtīt rēķinu pa e-pastu kā PDF failu.  
-7. Laukā **Drukāt maksas** atlasiet vērtību “Apkopot”.
-8. Laukā **Pārbaudīt kredīta limitu** atlasiet vienumu “Bilance”.
+5. **Laukā Drukāt** atlasiet **Pēc tam**.
+6. Vienumam **Drukāt rēķinu** atlasiet vērtību **Drukāt rēķinu**. Drukas pārvaldība var izdrukāt vairākas rēķina kopijas, kā arī nosūtīt rēķinu pa e-pastu kā PDF failu.  
+7. **Laukā Drukas maksas** atlasiet **Apkopot**.
+8. Laukā **Kredīta limita** pārbaude atlasiet **Bilance**.
 9. Noklikšķiniet uz **Atcelt**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Kombinēt pasūtījumus vienā rēķinā
@@ -46,8 +46,8 @@ ms.locfileid: "8910263"
 3. Atlasiet vairākus atvērtos pārdošanas pasūtījumus no tā paša debitora.
 4. **Darbību rūtī** noklikšķiniet uz **Rēķins > Ģenerēt > Rēķins**.
 5. Izvērsiet sadaļu **Parametri**.
-6. Laukā **Daudzums** atlasiet vērtību “Visi”. Ņemiet vērā, ka pārskata sadaļā ir uzskaitīti divi rēķini. Tagad tos abus sapludināsim vienā rēķinā.  
-7. Laukā **Kopgrāmatojums** atlasiet vērtību “Rēķina konts”.
+6. Laukā **Daudzums** atlasiet vērtību **Visi**. Ņemiet vērā, ka pārskata sadaļā ir uzskaitīti divi rēķini. Tagad tos abus sapludināsim vienā rēķinā.  
+7. **Laukā Kopsavilkuma atjauninājums atlasiet** **Rēķina konts**.
 8. Noklikšķiniet uz **Sakārtot**, lai pārdošanas pasūtījumus sapludinātu vienā rēķinā. Abi pārdošanas pasūtījumi tagad ir sapludināti vienā rēķinā.   
 9. Noklikšķiniet uz **Atcelt**.
 10. Noklikšķiniet uz pogas **Jā**.

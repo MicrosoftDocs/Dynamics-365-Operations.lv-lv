@@ -15,50 +15,49 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129518"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780253"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Debitora **rēķins par pārdošanas pasūtījumu** ir rēķins, kas saistīts ar pārdošanu un ko organizācija piešķir debitoram. Šī tipa debitora rēķins tiek izveidots, pamatojoties uz pārdošanas pasūtījumu, kurā ir iekļautas pasūtījuma rindas un krājumu kodi. Krājumu numuri tiek noteikti un grāmatoti Virsgrāmatā. Debitora rēķinam par pārdošanas pasūtījumu nav pieejami apakšgrāmatas žurnāla ieraksti. Plašāku informāciju skatiet šeit: [Pārdošanas pasūtījumu rēķinu izveide](tasks/create-sales-order-invoices.md).
+Debitora rēķins **pārdošanas pasūtījumam** ir rēķins, kas ir saistīts ar pārdošanu un ko organizācija izsniedz debitoram. Šī tipa debitora rēķins tiek izveidots, pamatojoties uz pārdošanas pasūtījumu, kurā ir iekļautas pasūtījuma rindas un krājumu kodi. Krājumu numuri tiek noteikti un grāmatoti Virsgrāmatā. Debitora rēķinam par pārdošanas pasūtījumu nav pieejami apakšgrāmatas žurnāla ieraksti. Plašāku informāciju skatiet šeit: [Pārdošanas pasūtījumu rēķinu izveide](tasks/create-sales-order-invoices.md).
 
-Brīva **teksta rēķins** nav saistīts ar pārdošanas pasūtījumu. Tajā ir pasūtījuma rindas, kurās ir iekļauti virsgrāmatas konti, brīva teksta apraksti un jūsu ievadītā pārdošanas summa. Šāda veida rēķinā jūs nevarat ievadīt krājuma kodu. Jums ir jāievada atbilstoša informācija par PVN. Galvenais konts pārdošanai ir norādīts katrā rēķina rindā, kuru varat izplatīt vairākiem virsgrāmatas kontiem, lapā **Brīva teksta rēķins** noklikšķinot uz **Sadalīt summas**. Turklāt debitora bilance tiek grāmatota kopsavilkuma kontā no grāmatošanas metodes, kas tiek izmantota brīva teksta rēķinam.
+Brīva teksta rēķins **nav** saistīts ar pārdošanas pasūtījumu. Tajā ir pasūtījuma rindas, kurās ir iekļauti virsgrāmatas konti, brīva teksta apraksti un jūsu ievadītā pārdošanas summa. Šāda veida rēķinā jūs nevarat ievadīt krājuma kodu. Jums ir jāievada atbilstoša informācija par PVN. Galvenais konts pārdošanai ir norādīts katrā rēķina rindā, kuru varat izplatīt vairākiem virsgrāmatas kontiem, lapā **Brīva teksta rēķins** noklikšķinot uz **Sadalīt summas**. Turklāt debitora bilance tiek grāmatota kopsavilkuma kontā no grāmatošanas metodes, kas tiek izmantota brīva teksta rēķinam.
 
 Plašāku informāciju skatiet:
+ - [Izveidot brīvā teksta rēķinus](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Brīva teksta rēķina veidnes izveide](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Brīva teksta rēķina veidnes piešķiršana debitoram](tasks/assign-free-text-invoice-template-customer.md)
+ - [Periodisku brīva teksta rēķinu ģenerēšana un grāmatošana](tasks/post-recurring-free-text-invoices.md)
 
-[Izveidot brīva teksta rēķinus Izveidot brīva teksta rēķina veidni
-](../accounts-receivable/create-free-text-invoice-new.md)[Piešķirt brīva teksta rēķina](../accounts-receivable/create-free-text-invoice-template-new.md)[
- veidni debitoram Ģenerēt un grāmatot periodiskus](tasks/assign-free-text-invoice-template-customer.md)
-[brīva teksta rēķinus](tasks/post-recurring-free-text-invoices.md)
 
-
-Pro **forma rēķins** ir rēķins, kas tiek sagatavots kā faktisko rēķina summu novērtējums pirms rēķina grāmatošanas. Pro forma rēķinu **var drukāt** debitora rēķinam par pārdošanas pasūtījumu vai brīva teksta rēķinam. 
+Pro forma rēķins ir **rēķins**, kas tiek sagatavots kā faktisko rēķina summu aprēķins pirms rēķina grāmatošanas. Pro forma rēķinu **varat izdrukāt** vai nu debitora rēķinam pārdošanas pasūtījumam, vai brīvā teksta rēķinam. 
 
 >[!NOTE]
-> Ja pārdošanas pro forma rēķina procesa laikā rodas sistēmas pārtraukums, pro forma rēķinu var saņemt bāreņrēķins. Bāreņforma rēķinu var dzēst, manuāli palaižot **periodisko darbu Dzēst** pro forma rēķinus. Pārejiet uz **Sadaļu Pārdošana > Periodiskie > nodzēsiet > manuāli izdzēsiet pro forma rēķinus**.
+> Gadījumā, ja pārdošanas pro forma rēķina procesa laikā sistēma tiek pārtraukta, pro forma rēķins var būt bārenis. Bāreņa pro forma rēķinu var izdzēst, palaižot manuāli **periodisko** darbu Dzēst pro forma rēķinus. Pārejiet uz sadaļu **Pārdošana un mārketings > Periodiskie uzdevumi > Iztīrīt > Manuāli dzēst pro forma rēķinus**.
 
-## <a name="using-sales-order-customer-invoice-data-entities"></a>Pārdošanas pasūtījuma debitora rēķina datu elementus izmantošana
-Jūs varat izmantot datu elementus, lai importētu un eksportētu informāciju par debitora rēķinu pārdošanas pasūtījumam. Pārdošanas rēķina virsrakstā un pārdošanas rēķina rindās ir pieejami dažādi informācijas elementi.
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Pārdošanas pasūtījuma debitora rēķina datu elementu izmantošana
+Datu elementus var izmantot, lai importētu un eksportētu informāciju par debitora rēķinu pārdošanas pasūtījumam. Informācijai pārdošanas rēķina galvenē un pārdošanas rēķina rindās ir dažādas entītijas.
 
-Pārdošanas rēķina virsrakstā informācijai ir pieejami šādi elementi:
+Tālāk norādītās entītijas ir pieejamas informācijai pārdošanas rēķina galvenē:
 
-- **Pārdošanas rēķinu žurnāla virsraksta** elements (SalesInvoiceJournalHeaderEntity)
-- **Pārdošanas rēķinu virsraksti V2** elementam (SalesInvoiceHeaderV2Entity)
+- **Pārdošanas rēķinu žurnāla galvenes** entītija (SalesInvoiceJournalHeaderEntity)
+- **Pārdošanas rēķinu galvenes V2 entītija (SalesInvoiceHeaderV2Entity**)
 
-Ieteicams izmantot pārdošanas rēķinu žurnāla virsraksta **elementu**, jo tā nodrošina lielāku pieredzi pārdošanas virsrakstu importā un eksportā. Šajā entītijā nav ietverta **kolonna PVN summa** (INVOICEHEADERTAXAMOUNT), kas norāda PVN vērtību pārdošanas rēķina galvenē. Ja jūsu biznesa scenārijā pieprasīta informācija, izmantojiet pārdošanas **rēķina galvenes V2** elementu, lai importētu un eksportētu pārdošanas rēķina galvenes informāciju.
+Ieteicams izmantot **pārdošanas rēķinu žurnāla galvenes entītiju, jo tā nodrošina efektīvāku pieredzi pārdošanas galvenes** importēšanai un eksportēšanai. Šī entītija nesatur **kolonnu PVN summa** (INVOICEHEADERTAXAMOUNT), kas norāda PVN vērtību pārdošanas rēķina galvenē. Ja jūsu biznesa scenārijā ir nepieciešama šī informācija, izmantojiet entītiju **Pārdošanas rēķinu galvenes V2**, lai importētu un eksportētu pārdošanas rēķina galvenes informāciju.
 
-Pārdošanas rēķina rindās informācijai ir pieejami šādi elementi:
+Tālāk norādītās entītijas ir pieejamas informācijai pārdošanas rēķinu rindās:
 
-- **Debitora rēķina rindu** elements (BusinessDocumentSalesInvoiceLineItemEntity)
-- **Pārdošanas rēķina rindu V3** elements (SalesInvoiceLineV3Entity)
+- **Debitoru rēķinu rindu** entītija (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Pārdošanas rēķina rindu V3 entītija (SalesInvoiceLineV3Entity**)
 
-Nosakot, kuru rindas elementu izmantot eksportiem, apsveriet, vai tiks izmantots pilns pašpiegādes vai inkrementālais pašpiegādes. Papildus apsveriet datu kompozīciju. Pārdošanas **rēķina rindas V3 elements** atbalsta sarežģītākus scenārijus (piemēram, kartēšanu uz krājumu laukiem). Tas atbalsta arī pilnas pašpiegādes eksporta scenārijus. Inkrementālai spiež, mēs iesakām izmantot debitora **rēķina rindu** elementu. Šis elements ietver daudz vienkāršāku datu sastāvdaļas **nekā pārdošanas rēķina rindu V3** elementu, un tas ir vēlamais, it īpaši, ja nav nepieciešama krājumu lauku integrācija. Tā kā pastāv atšķirības kartēšanas atbalsta starp rindas elementiem, **·** **debitora rēķina rindu elementam parasti ir ātrāka veiktspēja nekā elementam Pārdošanas rēķina rindas V3.**
+Nosakot, kuru rindas entītiju izmantot eksportēšanai, apsveriet, vai tiks izmantota pilna vai pakāpeniska pašpiegādes ietekme. Turklāt apsveriet datu sastāvu. Entītija **Pārdošanas rēķina rindas V3** atbalsta sarežģītākus scenārijus (piemēram, kartēšanu uz krājumu laukiem). Tas atbalsta arī pilnas jaudas eksporta scenārijus. Lai veiktu pakāpeniskus spiedienus, ieteicams izmantot **entītiju Debitora rēķina rindas**. Šī entītija satur daudz vienkāršāku datu sastāvu nekā entītija **Pārdošanas rēķina rindas V3**, un tā ir ieteicama, it īpaši, ja krājumu lauku integrācija nav nepieciešama. Tā kā kartēšanas atbalsts starp rindu entītijām atšķiras, **debitora rēķina rindu** entītijai parasti ir ātrāka **veiktspēja nekā entītijai Pārdošanas rēķina rindas V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Atsevišķu, uz pārdošanas pasūtījumiem balstītu debitoru rēķinu grāmatošana un drukāšana
 Izmantojiet šo procesu, lai izveidotu rēķinu, kas ir balstīts uz pārdošanas pasūtījumu. To varat darīt, ja izlemjat debitoram rēķinu izrakstīt pirms preču vai pakalpojumu piegādes. 
@@ -70,34 +69,40 @@ Pārdošanas pasūtījumu statusu varat skatīt saraksta lapā **Visi pārdošan
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Atsevišķu, uz pavadzīmēm un datumu balstītu debitoru rēķinu grāmatošana un drukāšana
 Izmantojiet šo procesu, ja pārdošanas pasūtījumam ir grāmatota viena vai vairākas pavadzīmes. Debitora rēķins tiek pamatots ar šīm pavadzīmēm un atspoguļo tajās norādītos daudzumus. Rēķina finanšu informācija ir balstīta uz informāciju, kas tiek ievadīta, kad grāmatojat rēķinu. 
 
-Varat izveidot debitora rēķinu, kas ir balstīts uz pavadzīmes rindas krājumiem, kas piegādāti līdz šim datumam, arī tad, ja nav nosūtīti visi noteikta pārdošanas pasūtījuma krājumi. To varat izdarīt, piemēram, ja jūsu juridiskā persona izsniedz vienu rēķinu katram debitoram mēnesī, kas sedz visas piegādes, kuras attiecīgā mēneša laikā piegādājat. Katra pavadzīme ataino daļēju vai pilnīgu krājumu piegādi pēc pārdošanas pasūtījuma. 
+Varat izveidot debitora rēķinu, kura pamatā ir līdz šim nosūtītie pavadzīmes rindas krājumi, pat ja visi konkrēta pārdošanas pasūtījuma krājumi nav nosūtīti. To varat izdarīt, piemēram, ja jūsu juridiskā persona izsniedz vienu rēķinu katram debitoram mēnesī, kas sedz visas piegādes, kuras attiecīgā mēneša laikā piegādājat. Katra pavadzīme ataino daļēju vai pilnīgu krājumu piegādi pēc pārdošanas pasūtījuma. 
 
 Kad grāmatojat rēķinu, daudzums **Rēķina atlikums** katram krājumam tiek atjaunināts ar kopīgo piegādāto daudzumu no atlasītajām pavadzīmēm. Ja gan daudzums **Rēķina atlikums**, gan daudzums **Piegādes atlikums** visiem krājumiem pārdošanas pasūtījumā ir 0 (nulle), tad pārdošanas pasūtījuma statuss mainās uz **Iekļauts rēķinā**. Ja daudzums **Rēķina atlikums** nav 0 (nulle), pārdošanas pasūtījuma statuss paliek nemainīgs, un tam var ievadīt papildu rēķinus. 
 
 Inventāra transakcijas tiek atjauninātas ar rēķina numuru, un statuss pārdošanas pasūtījuma laukā **Rindas statuss** mainās uz **Iekļauts rēķinā**. 
 
-Skatiet pārdošanas pasūtījumu statusu visu pārdošanas **pasūtījumu saraksta** lapā.
+Skatiet pārdošanas pasūtījumu **statusu saraksta lapā Visi pārdošanas pasūtījumi**.
 
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Pārdošanas pasūtījumu vai pavadzīmju konsolidēšana grāmatošanai
 Izmantojiet šo procesu, kad viens vai vairāki pārdošanas pasūtījumi ir gatavi rēķina izrakstīšanai un vēlaties tos konsolidēt vienā rēķinā. 
 
 Saraksta lapā **Pārdošanas pasūtījums** varat atlasīt vairākus rēķinus un pēc tam izmantot vienumu **Ģenerēt rēķinus**, lai tos konsolidētu. Lapā **Rēķina grāmatošana** varat mainīt iestatījumu **Koppasūtījums**, lai apkopotu pēc pasūtījuma numura (ja vienam pārdošanas pasūtījumam ir vairākas pavadzīmes) vai pēc rēķina konta (ja vienam rēķina kontam ir vairāki pārdošanas pasūtījumi). Izmantojiet pogu **Sakārtot**, lai pārdošanas pasūtījumus sakārtotu vienā rēķinā, pamatojoties uz iestatījumiem **Koppasūtījums**.
 
-## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Sadalīt pārdošanas pasūtījumu rēķinus pēc vietas un piegādes informācijas
-Debitoru parādu parametru lapas cilnē Kopgrāmatošana **var konfigurēt pārdošanas pasūtījumu debitoru rēķinu sadali pēc vietas** **vai piegādes** adreses. 
- - Atlasiet opciju **Sadalīt, pamatojoties uz rēķina atrašanās** vietu, lai grāmatojot izveidotu vienu rēķinu no vienas vietas. 
- - Atlasiet opciju **Sadalīt, pamatojoties uz rēķina piegādes informāciju**, lai grāmatojot izveidotu vienu rēķinu pārdošanas pasūtījuma rindas piegādes adresei. 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Sadalīt pārdošanas pasūtījuma rēķinus pēc vietnes un piegādes informācijas
+Pārdošanas pasūtījuma debitoru rēķinu sadalīšanu pēc vietnes vai piegādes adreses **varat konfigurēt lapas Debitoru parādu parametri** cilnē **Kopsavilkuma atjauninājums**. 
+ - Atlasiet opciju Sadalīt, **pamatojoties uz rēķina vietni**, lai grāmatošanas laikā katrai vietnei izveidotu vienu rēķinu. 
+ - Atlasiet opciju Sadalīt, pamatojoties uz rēķina piegādes informāciju **,** lai grāmatošanas laikā izveidotu vienu rēķinu par katru pārdošanas pasūtījuma rindas piegādes adresi. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Grāmatot ieņēmumu kontā pārdošanas pasūtījuma rindām, kurās nav cenas un izmaksu
-Ir pieejama opcija, lai **virsgrāmatā** **atjauninātu ieņēmumu kontu pārdošanas** pasūtījuma rindām, kurām nav cenas un izmaksu. Lai iestatītu vai skatītu šo informāciju, **·** **·** **dodieties** uz kontu Grāmatot ieņēmumu kontā nulles cenai un nulles izmaksu pārdošanas pasūtījuma rēķina rindu parametru cilnē Virsgrāmata un PVN lapā Debitoru parādu parametri. (**Debitoru parādi > debitoru > parametru iestatīšanai**). Atlasiet **Jā,** lai atjauninātu **ieņēmumu** kontu pārdošanas pasūtījuma rēķina rindām, kam nav cenas un nav izmaksu. Ja ir atlasīta šī opcija, dokumentā būs 0,00 ieraksti debitoru bilances **un ieņēmumu** grāmatošanas **tipiem**. Ieņēmumu konts ir definēts krājumu grāmatošanas **parametru** lapā pārdošanas **pasūtījuma konta** definīcijas cilnē. Ja nav atlasīta šī opcija, rindas, kurās nav cenas vai izmaksu informācijas, netiek grāmatotas ieņēmumu **kontā**. Tā vietā dokumentā būs 0,00 ieraksts debitora bilances **grāmatošanas** tipam.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Izlikt ieņēmumu kontā pārdošanas pasūtījuma rindas, kurām nav cenas un izmaksu
+Jums būs iespēja atjaunināt **ieņēmumu** kontu **virsgrāmatā** pārdošanas pasūtījuma rindām, kurām nav cenas un izmaksu. 
 
-## <a name="line-creation-sequence-number-information"></a>Informācija par rindu izveides secības numuru
-Grāmatojot debitora rēķina rindas, būs iespēja izveidot secīgus rindu izveides sērijas numurus. Rindu izveides secības numuri tiek piešķirti grāmatošanas procesa laikā. Atļaujot nes secības numerāciju, jūs varat palīdzēt uzlabot debitora rēķinu grāmatošanas veiktspēju. Rindas izveides sērijas numurus var izmantot trešās puses integrācija, kas gaida secības secību. Konsultējieties ar IT nodaļu par visiem paplašinājumiem, kas var integrēties ar rindu izveides secības numuriem.
+Lai iestatītu vai skatītu šo informāciju:
+1. Dodieties uz kontu Izlikt ieņēmumus, **lai iegūtu nulles cenas un nulles izmaksu pārdošanas pasūtījuma rēķina rindu** parametru lapas Debitoru parādu parametri **cilnē** Virsgrāmata un **PVN**. (**Debitoru parādi > Iestatīšana > debitoru parādu parametri**). 
+2. Atlasiet **Jā**, lai atjauninātu **ieņēmumu** kontu pārdošanas pasūtījuma rēķina rindām, kurām nav cenas un izmaksu. 
+ - Ja šī opcija ir atlasīta, kuponā būs 0,00 ierakstu tipiem Debitoru **bilance** un **Ieņēmumu** grāmatošana. Ieņēmumu konts ir definēts **lapas Krājumu grāmatošanas** parametrs cilnē **Pārdošanas pasūtījuma** konta definīcija. 
+ - Ja šī opcija nav atlasīta, rindas, kurās nav informācijas par cenām vai izmaksām, netiks grāmatotas **ieņēmumu** kontā. Tā vietā kuponā būs 0,00 ieraksts debitora **bilances** grāmatošanas tipam.
 
-Lai iestatītu vai skatītu šo informāciju, **debitoru** parādu parametru lapā, **cilnē** Atjauninājumi iestatiet opciju Piešķirt secīgus rindu numurus, **grāmatojot debitora rēķina** rindas:
+## <a name="line-creation-sequence-number-information"></a>Rindas izveides kārtas numura informācija
+Grāmatojot debitora rēķina rindas, jums būs iespēja izveidot secīgus rindu izveides kārtas numurus. Rindu izveides kārtas numuri tiek piešķirti grāmatošanas procesa laikā. Atļaujot nesekmīgu numerāciju, varat palīdzēt uzlabot debitora rēķinu grāmatošanas veiktspēju. Rindu izveides secības numurus var izmantot trešo pušu integrācijas, kas paredz secīgu secību. Sazinieties ar IT nodaļu par paplašinājumiem, kas varētu tikt integrēti ar līniju izveides secības numuriem.
 
-- Iestatiet opciju Nē, lai **rindu** izveides secības numuriem izmantotu ne sērijas numerāciju.
-- Iestatiet opciju Jā **, lai** izmantotu secīgu numurēšanu. Juridisko personu, kurām ir primārā **adrese** Itālijā, opcija jāiestata kā Jā. Ja ir atspējots **vienums** **CustInvoiceTrans NoLineCreationSeqNumFlight,** tas ir jāiestata arī kā Jā.
+Lai iestatītu vai skatītu šo informāciju, **lapas** Debitoru parādu parametri **cilnē Atjauninājumi** iestatiet opciju Grāmatojot debitoru rēķinu rindas **piešķirt secīgus** rindu numurus:
+
+- Iestatiet opciju **Nē**, lai rindu izveides kārtas numuriem izmantotu ne-secīgu numerāciju.
+- Iestatiet opciju **Jā**, lai izmantotu secīgo numerāciju. Opcijai ir jāiestata vērtība Jā **juridiskajām personām, kuru primārā adrese ir** Itālijā. Jums tas ir jāiestata arī uz **Jā, ja** CustInvoiceTransRandLineCreationSeqNumFlight **lidojums ir atspējots.**
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildu iestatījumi, kas maina grāmatošanas darbību
 Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
@@ -165,7 +170,7 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <td>Kredīta limita pārbaude</td>
 <td>Atlasiet informāciju, kas ir jāanalizē, veicot kredīta limita pārbaudi.
 <ul>
-<li><strong>Neviens</strong> – nav vajadzības pēc kredīta limita pārbaudes.</li>
+<li><strong>Nav</strong> - Kredītlimita pārbaude nav nepieciešama.</li>
 <li><strong>Bilance</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci.</li>
 <li><strong>Bilance + pavadzīme vai produktu ieejas plūsma</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci un piegādēm.</li>
 <li><strong>Bilance+viss</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci, piegādēm un atvērtajiem pasūtījumiem.</li>

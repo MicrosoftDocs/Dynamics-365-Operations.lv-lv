@@ -1,32 +1,32 @@
 ---
 title: Gada beigu slēgšana
-description: Šajā rakstā ir aprakstīti nepieciešamie iestatījumi un darbības Virsgrāmatas gada beigu slēgšanas procesa izpildē.
+description: Šajā rakstā ir aprakstīti obligātie iestatījumi un darbības, lai palaistu Virsgrāmatas gada beigu slēgšanas procesu.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883218"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779748"
 ---
 # <a name="year-end-close"></a>Gada beigu slēgšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti nepieciešamie iestatījumi un darbības Virsgrāmatas gada beigu slēgšanas procesa izpildē.
+Šajā rakstā ir aprakstīti obligātie iestatījumi un darbības, lai palaistu Virsgrāmatas gada beigu slēgšanas procesu.
 
 Finanšu gada beigās ir jāizpilda gada slēgšanas process, lai sākuma bilances pārsūtītu uz jauno gadu. Vairumā organizāciju gada beigu slēgšanas process tiek izpildīts vairākas reizes. Pirmā izpilde pārvieto bilances uz jauno finanšu gadu. Pēc tam procesu var izpildīt vēlreiz tik reižu, cik tas ir nepieciešams, lai pārvietotu bilances no koriģējošajiem ierakstiem uz jauno finanšu gadu.
 
@@ -44,7 +44,7 @@ Lapā **Galvenais konts**:
 Lapas **Virsgrāmatas parametri** sadaļā **Finanšu gada slēgšana**
 
 - Opcija **Dzēst esošos gada beigu ierakstus, atkārtoti aizverot gadu** tiek izmantota, lai norādītu, vai, atkārtoti izpildot gada beigu slēgšanu, ir jādzēš iepriekšējās gada beigu slēgšanas laikā sistēmā ģenerētā sākuma transakcija. Ja ir iestatīta šīs opcijas vērtība **Jā**, iepriekšējā sākuma un izvēles slēgšanas transakcijas tiek dzēstas un tiek izveidota jauna sākuma vai beigu transakcija, pamatojoties uz pašreizējām bilancēm. Ja ir iestatīta šīs opcijas vērtība **Nē**, iepriekšējā sākuma un izvēles slēgšanas transakcijas tiek saglabātas un tiek izveidota papildu sākuma vai beigu transakcija, lai pārvietotu turpmākai lietošanai bilances no koriģējošajām transakcijām, kas ir grāmatotas pēc iepriekšējās gada beigu slēgšanas.
-- Opcija **Izveidot slēgšanas darbības** pārsūtīšanas laikā tiek lietota, lai izveidotu slēguma darbības slēgtajā finanšu gadā, lai visu galveno kontu bilances būtu 0 (nulle). Ja ir iestatīta šīs opcijas vērtība **Jā**, tiek izveidotas gan sākuma darbība, gan slēgšanas darbība. Ja ir iestatīta šīs opcijas vērtība **Nē**, finanšu gadā tiek izveidota tikai sākuma transakcija, kas pārsūta bilances. Galvenā konta bilances paliek finanšu gada beigās.
+- Opcija Izveidot **slēgšanas transakcijas pārsūtīšanas** laikā tiek izmantota, lai izveidotu slēgšanas transakcijas finanšu gadā, kas tiek slēgts, lai visu galveno kontu atlikumi būtu 0 (nulle). Ja ir iestatīta šīs opcijas vērtība **Jā**, tiek izveidotas gan sākuma darbība, gan slēgšanas darbība. Ja ir iestatīta šīs opcijas vērtība **Nē**, finanšu gadā tiek izveidota tikai sākuma transakcija, kas pārsūta bilances. Galveno kontu atlikumi fiskālā gada beigās saglabājas.
 - Opcija **Iestatīt finanšu gada statusu kā neatgriezeniski slēgtu** tiek izmantota, lai iestatītu finanšu gada neatgriezeniskas slēgšanas statusu. Uzmanīgi lietojiet šo opciju, jo periodus, kuriem ir neatgriezenisks slēgts statuss, nevar atvērt atkārtoti. Tāpēc korekcijas nevar grāmatot finanšu gadā. Kā labākā prakse šī iespēja būtu jāiestata kā **Nē**.
 - Opcija **Dokumenta numuram jābūt aizpildītam** ir noņemta. Dokuments ir nepieciešams, kad tiek izpildīts gada beigu slēgšanas process. Tajā laikā dokumenta numurs tiek ievadīts manuāli.
 
@@ -62,7 +62,7 @@ Lapā **Gada beigu veidnes slēgšanas iestatīšana**:
 
 ## <a name="define-year-end-close-templates"></a>Gada beigu slēgšanas veidņu definēšana
 
-Pēc sistēmas konfigurēšanas var izpildīt gada beigu slēgšanas procesu. Lapā **Gada beigu slēgšanas veidnes iestatījums** var definēt veidni juridisko personu grupai, kam tiks izpildīts gada beigu slēgšanas process. Veidne tiek atkārtoti lietota katrā gada beigu slēgšanas procedūrā, taču to var modificēt atbilstoši organizācijas izmaiņām.
+Kad konfigurācija ir pabeigta, var palaist gada beigu slēgšanas procesu. Lapā **Gada beigu slēgšanas veidnes iestatījums** var definēt veidni juridisko personu grupai, kam tiks izpildīts gada beigu slēgšanas process. Veidne tiek atkārtoti lietota katrā gada beigu slēgšanas procedūrā, taču to var modificēt atbilstoši organizācijas izmaiņām.
 
 Vispirms iestatiet veidnes lauku **Grupas nosaukums** un atlasiet finanšu gadu. Grupas nosaukumam ir jāatbilst iekļautajai juridisko personu grupai. Nosakot juridisko personu grupas, atcerieties, ka juridiskās personas var iekļaut tajā pašā grupā tikai tad, ja tām ir atlasīts viens finanšu kalendārs. Piemēram, veidnes var iestatīt, pamatojoties uz ģeogrāfiskās atrašanās vietas, un atsevišķas grupas var izveidot Ziemeļamerikas juridiskajām personām, Eiropas, Tuvo Austrumu un Āfrikas (EMEA) juridiskajām personām un Āzijas un Klusā okeāna reģiona (APAC) juridiskajām personām.
 

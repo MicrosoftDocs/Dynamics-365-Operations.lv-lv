@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716808"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775193"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Galvenie rēķinu dati kreditoru sistēmā, izmantojot kreditora rēķinu
 
@@ -68,7 +68,10 @@ ms.locfileid: "8716808"
 17. Laukā **Vienības cena** ievadiet kādu skaitli. Tagad vienības cena atbilst, statuss tiek atjaunināts uz Nokārtots. Ja jūsu politika atļauj neatbilstības vai salīdzināšana ir tikai brīdinājums, rēķinu joprojām varat iegrāmatot.  
 18. Aizvērt lapu.
 19. Noklikšķiniet uz **Grāmatot**.
-20. Aizveriet formu. Ņemiet vērā, ka pirkšanas pasūtījuma norāde vairs neatbilst statusam, ka tas ir saņemts, bet rēķins nav izrakstīts.  
+20. Aizvērt lapu. 
+
+>[!Note] 
+>Pirkšanas pasūtījums vairs nav norādīts kā saņemts, bet nav iekļauts rēķinā.  
 
 
 

@@ -1,27 +1,20 @@
 ---
 title: Ienākošo krājumu operācija punktā POS
-description: Šajā rakstā ir aprakstītas pārdošanas punkta (POS) saņemšanas krājumu operācijas iespējas.
+description: Šajā rakstā ir aprakstītas pārdošanas punkta (POS) ienākošās krājumu operācijas iespējas.
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288357"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785024"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -31,6 +24,11 @@ Programmas Microsoft Dynamics 365 Commerce versijā 10.0.10 un jaunākās versij
 
 > [!NOTE]
 > Commerce versijā 10.0.10 un jaunākās versijās visus jaunos līdzekļus POS lietojumprogrammā, kas ir saistīti ar veikala krājumu saņemšanu no pirkšanas pasūtījumiem un pārsūtīšanas pasūtījumiem, pievienos POS operācijai **Ienākošā operācija**. Ja jūs pašlaik izmantojat izdošanas un saņemšanas operāciju POS, mēs iesakām jums izstrādāt stratēģiju, lai pārietu no šīs operācijas uz jaunajām ienākošajām un izejošajām operācijām. Lai gan izdošanas un saņemšanas operācija netiks noņemta no preces, vairs netiks veiktas investīcijas no funkcionālās vai veiktspējas perspektīvas pēc versijas 10.0.9.
+
+Šajā videoklipā ir sniegts pārskats par veikala krājumu biznesa procesiem un iespējām pakalpojumā Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Priekšnosacījums: Konfigurējiet asinhrono dokumentu struktūru
 
@@ -141,7 +139,7 @@ Nepilnas piegādes tolerances procentus pirkšanas pasūtījuma rindā precēm v
 
 Kad organizācija ir pabeigusi pirkšanas pasūtījumu nepilnas piegādes konfigurācijas, POS lietotāji redzēs jaunu opciju **Slēgt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta ienākoša pirkšanas pasūtījuma rinda operācijā **Ienākošie krājumi**. Ja lietotājs slēdz atlikušo daudzumu, POS veic validāciju, lai pārbaudītu, vai daudzums, kas tiek slēgts, atrodas pirkšanas pasūtījuma rindā definēto nepilnas piegādes tolerances procentu ietvaros. Ja nepilnās piegādes tolerance ir pārsniegta, tiek parādīts kļūdas ziņojums, un lietotājs nevarēs slēgt atlikušo daudzumu, līdz iepriekš saņemtais daudzums un **Saņemt tagad** daudzums atbilst vai pārsniedz minimālo daudzumu, kas jāsaņem, pamatojoties uz nepilnas piegādes tolerances procentiem. 
 
-**Ja** pirkšanas pasūtījuma rindai ir ieslēgta opcija Aizvērt atlikušo daudzumu, kad lietotājs pabeidz saņemšanu, izmantojot saņemšanas darbību Pabeigt saņemšanu, slēgšanas pieprasījums tiek nosūtīts **arī** uz programmu Commerce Headquarters, un visi šīs pasūtījuma rindas nesaglabātie daudzumi tiks atcelti. Šajā brīdī rinda tiek uzskatīta par pilnībā saņemtu. 
+Kad **pirkšanas pasūtījuma rindai ir ieslēgta opcija Aizvērt atlikušo daudzumu**, kad lietotājs pabeidz ieejas plūsmu **, izmantojot darbību Pabeigt saņemšanu**, slēgšanas pieprasījums tiek nosūtīts arī uz Commerce galveno biroju, un jebkurš nesaņemtais daudzums šajā pasūtījuma rindā tiks atcelts. Šajā brīdī rinda tiek uzskatīta par pilnībā saņemtu. 
 
 ### <a name="receiving-location-controlled-items"></a>Atrašanās vietas kontrolētu krājumu saņemšana
 
@@ -161,7 +159,7 @@ Lietotāji nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšan
 
 Funkcionalitāte, kas iespējo pievienot rindas, nevar tikt izmantota kā risinājums, lai saņemtu papildu preču daudzumus, kas jau ir pirkšanas pasūtījumā. Pārsniegšana tiek pārvaldīta, izmantojot standarta [pārsniegšanas](#over-receiving-validations) iestatījumus preču rindai pirkšanas pasūtījumā.
 
-**Ja** lietotājs saņem ar pos saņemšanas operāciju, ja lietotājs skenē vai atšifrē preces svītrkodu vai preces numuru, kas ir atpazīts kā derīgs krājums, bet nav atpazīts kā krājums pašreizējā pirkšanas pasūtījumā, lietotājs saņem ziņojumu, kurā norāda, ka preces jāpievieno pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
+Kad lietotājs saņem ar **POS ienākošo operāciju** un ja lietotājs skenē vai atslēdz produkta svītrkodu vai preces numuru, kas tiek atpazīts kā derīgs krājums, bet netiek atpazīts kā krājums pašreizējā pirkšanas pasūtījumā, lietotājs saņem ziņojumu ar aicinājumu pievienot krājumu pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
 
 Kad pirkšanas pasūtījuma saņemšana ir pabeigta un iesniegta HQ apstrādei, pievienotās rindas tiek veidotas pirkšanas pasūtījuma pamatdokumentā. Pirkšanas pasūtījuma rindā, kas atrodas HQ, redzēsiet **POS pievienots** karogu Pirkšanas pasūtījuma rindas cilnē **Vispārīgi**. **POS pievienots** karogs norāda, ka POS saņemšanas process pievienoja pirkšanas pasūtījuma rindu, un tā nebija rinda, kas bija pirkšanas pasūtījumā pirms saņemšanas.
 

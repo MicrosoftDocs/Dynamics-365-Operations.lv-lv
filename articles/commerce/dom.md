@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878517"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764185"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -68,9 +68,9 @@ DOM izmanto jauktu veselo skaitļu programmēšanu (MIP) un prognozējošus anal
         > [!NOTE]
         > Vienkāršotais risinātājs ir nodrošināts, lai mazumtirgotāji varētu izmēģināt DOM līdzekli, neizvietojot īpašo licenci. Organizācijām nevajadzētu izmantot vienkāršoto risinātāju ražošanas vidēs.
         >
-        > Ražošanas risinātājs uzlabo veiktspēju (piemēram, pasūtījumu un pasūtījuma rindu skaitu, kuras var apstrādāt izpildes laikā) un rezultātu konverģenci (jo dažos scenārijos pasūtījumu partijas, iespējams, nesniegs labāko rezultātu). Dažām kārtulām, piemēram, **daļējo pasūtījumu** kārtulai un **maksimālajam atrašanās vietu skaitam**, ir nepieciešams ražošanas risinātājs.
+        > Ražošanas risinātājs uzlabo veiktspēju (piemēram, pasūtījumu un pasūtījuma rindu skaitu, kuras var apstrādāt izpildes laikā) un rezultātu konverģenci (jo dažos scenārijos pasūtījumu partijas, iespējams, nesniegs labāko rezultātu). Kārtulai **Daļējie pasūtījumi** ir nepieciešams ražošanas risinātājs.
 
-6. Dodieties atpakaļ uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
+6. Dodieties atpakaļ uz **Mazumtirdzniecība un komercija \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
 7. Cilnē **Numuru sērijas** piešķiriet nepieciešamās numuru sērijas dažādiem DOM elementiem.
 
     > [!NOTE]

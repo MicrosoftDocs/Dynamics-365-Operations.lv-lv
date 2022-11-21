@@ -1,6 +1,6 @@
 ---
 title: Atgādinājuma vēstuļu apstrādes piemērs
-description: Šis raksts ir parādīts piemērs, kurā parādīts atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas process.
+description: Šajā rakstā ir sniegts piemērs, kas parāda kolekcijas vēstuļu izveides, drukāšanas un publicēšanas procesu.
 author: JodiChristiansen
 ms.date: 02/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908159"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778547"
 ---
 # <a name="process-collection-letters-example"></a>Atgādinājuma vēstuļu apstrādes piemērs
 
 [!include [banner](../../includes/banner.md)]
 
-Šis raksts ir parādīts piemērs, kurā parādīts atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas process. Piemērs ir pamatots uz opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** sadaļā Kredīts un iekasēšana. Tas izmanto datus USMF demonstrācijas uzņēmumā un jaunu debitoru — US-045.
+Šajā rakstā ir sniegts piemērs, kas parāda kolekcijas vēstuļu izveides, drukāšanas un publicēšanas procesu. Piemērs ir pamatots uz opciju **Maksājumu un kredītrēķinu ignorēšana, aprēķinot atgādinājuma vēstules kodu** sadaļā Kredīts un iekasēšana. Tas izmanto datus USMF demonstrācijas uzņēmumā un jaunu debitoru — US-045.
 
 Lai sāktu, pārejiet uz sadaļu **Debitoru parādi \> Debitori \> Visi debitori**, atlasiet **Jauns** un pēc tam ievadiet nepieciešamo informāciju, lai izveidotu debitoru US-045.
 
@@ -32,11 +32,11 @@ Kad esat pabeidzis, izpildiet tālāk minētās darbības.
 
 1. Pārejiet uz sadaļu **Kredīts un iekasēšana \> Atgādinājuma vēstule \> Iestatīt atgādinājuma vēstuļu secību** un iestatiet atgādinājuma vēstuļu secību, kā parādīts tabulā zemāk, kas ir piešķirta debitora grāmatošanas profilam.
 
-|     Atgādinājuma vēstules kods      |     Apraksts                           |     Valūta      |     Galvenais konts        |     Papildmaksa valūtā     |     Minimālais nokavētais        |     Dienu bloķēšana      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Atgādinājuma vēstule Nr. 1         |     Otrais paziņojums ar papildu maksu        |     USD           |                           |     0.00                  |     0.00                  |     2                 |
-|     Atgādinājuma vēstule Nr. 2         |     Otrais paziņojums ar papildu maksu        |     USC           |     403150                |     20.00                 |     10,00                 |     3                 |
-|     Iekasēšana                    |     Galīgais paziņojums ar papildu maksu         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Atgādinājuma vēstules kods      |     Apraksts       |     Valūta      |     Galvenais konts        |     Papildmaksa valūtā       |   Minimālais nokavētais  |   Dienu bloķēšana        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Atgādinājuma vēstule 1          |     Pirmais paziņojums |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  Atgādinājuma vēstule 2          |     Otrais paziņojums par maksu      |     USD      |     403150         |     20.00         |     10,00     |     3                 |
+|  Iekasēšana                   |     Galīgais paziņojums par maksu       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā būtu redzama lapā **Atgādinājuma vēstules**. 
 

@@ -1,6 +1,6 @@
 ---
-title: Iestatīt detalizēto bankas darbību saskaņošanas importēšanu, izmantojot elektroniskos pārskatus
-description: Šajā rakstā ir izskaidrots, kā izmantot elektroniskos pārskatus, lai iestatītu detalizēto bankas darbību saskaņošanas importa procesu.
+title: Detalizētas banku darbību saskaņošanas importēšanas iestatīšana, izmantojot elektroniskos pārskatus
+description: Šajā rakstā ir paskaidrots, kā izmantot elektroniskos pārskatus, lai iestatītu detalizēto bankas darbību saskaņošanas importēšanas procesu.
 author: angelad116
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,53 +15,56 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
-ms.translationtype: HT
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752725"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759605"
 ---
-# <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Iestatīt detalizēto bankas darbību saskaņošanas importēšanu, izmantojot elektroniskos pārskatus
+# <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Detalizētas banku darbību saskaņošanas importēšanas iestatīšana, izmantojot elektroniskos pārskatus
 
 [!include [banner](../includes/banner.md)]
 
-Detalizētās bankas darbību saskaņošanas funkcija ļauj jums importēt elektroniskos bankas izrakstus un automātiski saskaņot tos ar bankas Microsoft Dynamics darbībām 365 Finansēs. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Microsoft Dynamics 365 Finanses atbalsta trīs bankas pārskatu formātus: ISO20022, MT940 un BAI2. 
+Uzlabotās bankas saskaņošanas funkcija ļauj importēt elektroniskos bankas izrakstus un automātiski saskaņot tos ar bankas darījumiem programmā Microsoft Dynamics 365 Finance. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem. Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no jūsu elektroniskā bankas izraksta formāta. Microsoft Dynamics 365 Finance atbalsta trīs bankas izrakstu formātus: ISO20022, MT940 un BAI2. 
 
-## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronisko pārskatu izveides konfigurācijas iestatīšana
+## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronisko pārskatu veidošanas konfigurācijas iestatīšana
 
-1. Dodieties uz **elektronisko darbvietu \> pārskatu**.
-2. Microsoft **konfigurācijas nodrošinātāja** elementā atlasiet **Repositories**.
+1. Dodieties uz Darbvietas **\> elektroniskie pārskati**.
+2. Microsoft **konfigurācijas nodrošinātāja** elementā atlasiet **Repozitoriji**.
 3. Atlasiet **Globāls** un pēc tam atlasiet **Atvērt**.
 4. Ja ir jāizveido savienojums ar repozitoriju, dialoglodziņā atlasiet zilo saiti.
-5. Konfigurācijas sarakstā atrodiet detalizēto **bankas darbību saskaņošanas izraksta modeli \> ABR BAI2 formātu**.
+5. Konfigurāciju sarakstā atrodiet paplašinātā **bankas saskaņošanas pārskata modeļa ABR \> BAI2 formātu**.
 6. **Atlasiet BAI2** formātu.
-7. Kopsavilkuma cilnē **Versijas** atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
+7. Kopsavilkuma **cilnē Versijas** atlasiet jaunāko versiju un pēc tam atlasiet **Importēt**.
 
-## <a name="set-up-the-bank-statement-format"></a>Iestatīt bankas izraksta formātu
+>[!NOTE]
+>**BAI2** bankas izraksta modelis vēlāk būs novecojis. 
 
-1. Dodieties uz **skaidras naudas un bankas pārvaldības \> iestatīšanas \> detalizēto bankas darbību saskaņošanas \> iestatījumu bankas izraksta formātu**.
+## <a name="set-up-the-bank-statement-format"></a>Bankas izraksta formāta iestatīšana
+
+1. Pārejiet uz formātu **Skaidras naudas un bankas pārvaldība \> Iestatīšana \> Bankas izlīguma \> papildu iestatīšana**.
 2. Atlasiet **Jauna**.
-3. Iestatiet izraksta **formātu un** nosaukuma **laukus**.
-4. Atzīmējiet **izvēles rūtiņu Vispārējs elektroniskās importēšanas** formāts.
-5. Iestatiet importa **formāta konfigurācijas** lauku **UZ NO2** formātu.
+3. Iestatiet **formātu Paziņojums** un **Nosaukums**.
+4. Atzīmējiet izvēles rūtiņu **Vispārējs elektroniskās importēšanas formāts**.
+5. Iestatiet **lauka Importēt formāta konfigurāciju** uz **BAI2** formātu.
 
-## <a name="set-up-the-bank-account"></a>Iestatīt bankas kontu
+## <a name="set-up-the-bank-account"></a>Bankas konta iestatīšana
 
 1. Atveriet sadaļu **Kases un bankas vadība \> Banku konti \> Banku konti**.
 2. Atveriet bankas kontu.
-3. Kopsavilkuma cilnē **Saskaņošana** iestatiet opciju Detalizēta bankas **darbību saskaņošana uz** **Jā**.
-4. Iestatiet pārskata **formāta** lauku uz iepriekš **izveidotu ESAT2** formātu.
+3. Kopsavilkuma **cilnē Saskaņošana** opcijai Bankas papildu saskaņošana **iestatiet** vērtību **Jā**.
+4. Laukā Paziņojuma formāts **iestatiet** iepriekš **izveidoto BAI2** formātu.
 
-## <a name="import-the-bank-statement"></a>Importēt bankas izrakstu
+## <a name="import-the-bank-statement"></a>Bankas izraksta importēšana
 
-1. Dodieties uz **kases un bankas pārvaldības bankas \> izrakstu saskaņošanas bankas \> izrakstiem**.
-2. Bankas izrakstu lapas **augšpusē atlasiet Importēt izrakstu** **.**
-3. **Iestatiet bankas konta** lauku bankas kontā izrakstā.
-4. Iestatiet pārskata **formāta** lauku uz iepriekš **izveidotu ESAT2** formātu.
-5. Atlasiet **Pārlūkot** un atlasiet **EXE** failu.
+1. Pārejiet uz sadaļu **Skaidras naudas un bankas pārvaldības \> bankas izrakstu saskaņošana \> Bankas izraksti**.
+2. Lapas Bankas pārskati **augšdaļā** atlasiet **Importa pārskats**.
+3. Pārskatā laukā Bankas konts **iestatiet** uz bankas kontu.
+4. Laukā Paziņojuma formāts **iestatiet** iepriekš **izveidoto BAI2** formātu.
+5. Atlasiet **Pārlūkot** un BAI **failu**.
 6. Atlasiet **Augšupielādēt**.
-7. Atlasiet **Labi,** lai importētu atlasīto failu.
+7. Atlasiet **Labi**, lai importētu atlasīto failu.
 
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Bankas izrakstu formātu un tehnisko izkārtojumu paraugi
