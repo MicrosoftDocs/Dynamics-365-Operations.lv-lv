@@ -2,7 +2,7 @@
 title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520815"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819301"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
-_**Attiecas uz:** savrupas infrastruktūras personāla vadība_ 
+_**Attiecas uz:**  personāla vadība savrupā infrastruktūra_ 
 
 > [!NOTE]
 > Sākot no 2022. gada, jaunus cilvēkresursu vides nevar nodrošināt savrupos cilvēkresursu infrastruktūras un jaunos Microsoft Dynamics Lifecycle Services (LCS) projektos nevar izveidot tajā. Klienti var izvietot cilvēkresursu vides finanšu un operāciju infrastruktūrai. Papildinformāciju skatiet finanšu [un operāciju infrastruktūras sadaļu Personāla vadības nodrošināšana](hr-admin-setup-provision-fo.md).
@@ -41,7 +41,7 @@ Atjauninājumi tiek izlaisti ar regulāru kadenci visām vidēm. Human Resources
 
 Human Resources atjauninājumi tiek automātiski piemēroti visām vidēm. Human Resources nodrošina divu veidu laidienus.
 
-- **Pakalpojuma atjauninājumi**: Atjauninājumi tiek veikti reizi divās nedēļās un ietver kļūdu labojumus un jaunus līdzekļus. Pakalpojumu atjauninājumi ietver arī piemērojamos platformas atjauninājumus, kad tie tiek izlaisti. Papildinformāciju par platformu laidieniem skatiet [sadaļā Kas jauns vai mainīts platformu atjauninājumos](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Atjauninājumiem ir stadijas globāla atrite reģionos. Papildinformāciju par atjauninājumiem skatiet [sadaļā Kas jauns vai mainīts Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Pakalpojumu atjauninājumi**: pakalpojumu atjauninājumi ietver piemērojamos platformas atjauninājumus, kad tie tiek izlaisti. Papildus atjauninājumiem, kas pamatoti uz izņēmumu, tiek veikta regulāra pakalpojumu atjaunināšana, kas notiek pēc Dynamics 365 finanšu platformas atjauninājumu vispārīgās pieejamības (GA). Papildinformāciju par platformu laidieniem skatiet [sadaļā Kas jauns vai mainīts platformu atjauninājumos](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Atjauninājumiem ir stadijas globāla atrite reģionos. Papildinformāciju par atjauninājumiem skatiet [sadaļā Kas jauns vai mainīts Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Dataverse risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Dataverse. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā divu nedēļu atjauninājumi, un to replicēt pa visiem datu centriem ir aptuveni sešas nedēļas. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
 
@@ -56,16 +56,7 @@ Nepieciešamības gadījumā cilvēkresursi nodrošina šādus labojumus tipus:
 
 Laidieni tiek pārbaudīti, testēti un apstiprināti iekšējā vidē. Pēc izveidotā ir izrakstīšanas, tas tiek izvietots ražošanā.
 
-## <a name="release-cadence-exceptions-in-2021"></a>Laidienu ritma izņēmumi 2021. gadā
-
-Lai uzskaitītu brīvdienas, 2021. gada novembra un decembra izlaišanas grafiks ir šāds:
-
-- Novembra izlaidums: 1. novembris - 14. novembris
-- Decembra izlaidums: 29. novembris - 12. decembris
- 
-Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2022. gada 10. janvārī.
-
-## <a name="communications"></a>Komunikācija
+## <a name="communications"></a>Saziņa
 
 Tālāk minētajās vietās varat uzzināt, kas ietverts Human Resources darbībā un kādi bijuši laidieni.
 

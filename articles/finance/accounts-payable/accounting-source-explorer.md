@@ -1,8 +1,8 @@
 ---
 title: Uzskaites avota pārlūks
-description: Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
+description: Šajā rakstā ir sniegta informācija par lapu Uzskaites avota pētnieks, kuru varat izmantot detalizētai avota informācijas analīzei aiz virsgrāmatas uzskaites ierakstiem.
 author: RyanCCarlson2
-ms.date: 06/20/2017
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,41 +15,38 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1200092306c1848a2e705b868c2185362b5a3c89
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5bd5580dc0be37ec89e6c7934b47c7d5593d8716
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710474"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806438"
 ---
 # <a name="accounting-source-explorer"></a>Uzskaites avota pārlūks
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par uzskaites avota pārlūku, kuru var izmantot detalizētai virsgrāmatas uzskaites ierakstu avota informācijas analīzei.
+Šajā rakstā ir sniegta informācija par lapu **Uzskaites avota** pētnieks, kuru varat izmantot detalizētai avota informācijas analīzei aiz virsgrāmatas uzskaites ierakstiem.
 
-Uzskaites avota pārlūks ir jauna lapa, kas parāda avota informāciju. Uzskaites avota pārlūku varat izmantot vai nu kā savrupu rīku, vai arī, lai analizētu virsgrāmatas uzskaites ierakstu detalizētos datus. Uzskaites avota pārlūku varat izmantot, piemēram, lai iegūt visdetalizētāko apgrozījuma bilances vai dokumenta transakcijas avota informāciju. Pēc tam varat izmantot līdzekli Eksportēt uz programmu MS EXcel, lai veiktu informācijas papildu apstrādi programmā Microsoft Excel (piemēram, tabulā PivotTable vai PivotTable atskaitē).
+Uzskaites **avota pārlūkprogrammas** lapa rāda avota informāciju. To var izmantot kā savrupu rīku vai arī lai analizētu detaļas aiz virsgrāmatas uzskaites ierakstiem. Piemēram, lapu var izmantot, lai iegūtu vispapildinformāciju par pirmdatiem bilancei pārbaudes bilancē vai dokumenta darbībā. Pēc tam varat izmantot **funkciju Eksportēt uz MS Excel**, lai turpinātu informācijas sektoru Microsoft Excel  un indeksēšanu (piemēram, PivotTable vai PivotTable pārskatā).
 
-Uzskaites avota pārlūkā vienas un tās pašas kopsummas katram virsgrāmatas kontam vienmēr tiek rādītas kā Vispārīgas virsgrāmatas (piemēram, Apgrozījuma bilance). Apgrozījuma bilancē segmentus var parādīt atsevišķās kolonnās. Vienkārši izvēlieties atbilstošu finanšu dimensiju kopu. 
+Grāmatvedības **avota pārlūkprogrammas** lapa vienmēr rāda to pašu kopējo summu katram Virsgrāmatas kontam, kā rāda Virsgrāmata (piemēram, apgrozījuma bilancē). Tāpat kā apgrozījuma bilancē varat parādīt segmentus atsevišķās kolonnās. Vienkārši izvēlieties atbilstošu finanšu dimensiju kopu. 
 
-Parametrus var izmantot, lai definētu datumu intervālu analīzei. Šī funkcionalitāte ir līdzīga apgrozījuma bilances funkcionalitātei.
+Parametrus var izmantot, lai definētu datumu intervālu analīzei. Šī funkcionalitāte ir līdzīga arī apgrozījuma bilances funkcionalitātei.
 
-Visiem dokumentiem, kas izmanto pirmdokumenta struktūru, uzskaites avotu pārlūkā tiek rādīta papildinformācija, pamatojoties uz uzskaites sadalēm un, ja piemērojams, projekta uzskaites sadalēm. Šī informācija ietver naudas summas tipu, projektu, aktivitāti, kategoriju un rindas rekvizītu. Tālāk ir sniegti daži iespējamās analīzes piemēri.
+Visiem dokumentiem, kas izmanto pirmdokumenta struktūru, uzskaites avota pārlūkprogrammas lapa parāda papildinformāciju, **balstoties** uz uzskaites sadali un, ja piemērojams, projekta uzskaites sadalēm. Šajā informācijā ir iekļauts **naudas summas tips**, **projekts**, **aktivitāte** **·**, kategorija un **rindas rekvizītu** vērtības. Tālāk ir sniegti daži iespējamās analīzes piemēri.
 
--   Novirzes starp pirkšanas pasūtījumiem un kreditora rēķiniem, jo katras novirzes ir sniegtas, izmantojot naudas summas veidu, piemēram, maksas novirze.
--   Apmaksājamās un neapmaksājamās stundas un izdevumi projektam, biznesa vienībai un galvenajam kontam.
+- Novirzes starp pirkšanas pasūtījumiem un kreditora rēķiniem, jo katras novirzes ir sniegtas, izmantojot naudas summas veidu, piemēram, maksas novirze.
+- Apmaksājamās un neapmaksājamās stundas un izdevumi projektam, biznesa vienībai un galvenajam kontam.
 
-Avota dokumentiem, kas izmanto pirmdokumenta atsauces identitātes koncepciju, uzskaites avota pārlūks rāda vēl sīkāku informāciju, piemēram, debitoru, kreditoru, darbinieku, preces, daudzumu, vienību tekstu un aprakstus. Tālāk ir sniegti daži iespējamās analīzes piemēri.
+Pirmdokumentiem, kas izmanto pirmdokumenta atsauces personības koncepciju, **grāmatvedības avota pārlūkprogrammas lapa parāda vēl vairāk informācijas, piemēram,**  **vērtības Debitors,** **·** **Kreditors,** **Darbinieks,** **Prece, Daudzums,** **Vienības un** Apraksts. **·**  Tālāk ir sniegti daži iespējamās analīzes piemēri.
 
--   Viesnīcas izdevumi katrai biznesa vienībai un viesnīcas zīmols finanšu periodā, pamatojoties uz izdevumu pārskatiem.
--   Atlaides kreditoriem, precēm, nodaļām
+- Viesnīcas izdevumi katrai biznesa vienībai un viesnīcas zīmols finanšu periodā, pamatojoties uz izdevumu pārskatiem.
+- Atlaides kreditoriem, precēm, nodaļām
 
-Šiem dokumentiem no uzskaites avota pārlūka var pārvietoties uz faktisko pirmdokumentu.
+Šiem dokumentiem varat arī pārvietoties uz faktisko pirmdokumentu no grāmatvedības avota **pārlūkprogrammas** lapas.
 
 > [!NOTE]
-> No versijas 10.0.20 poga **Atjaunināšana** nodrošina divus papildu diapazonus, lai ierobežotu sākotnējo vaicājumu, kas tiek palaists, lai ievadītu lapas datus. Šie papildu diapazoni ir pieejami arī versijā 10.0.19 kā pakalpojuma atjauninājums. Tiek pievienoti tālāk norādītie lauki:
->
-> - No vaučera, uz vaučeru
-> - No galvenā konta, uz galveno kontu
+> Attiecībā uz versiju 10.0.31 līdzekļu **pārvaldībā** ir pieejams jauns grāmatvedības avota pārlūkprogrammas papildu filtrēšanas līdzeklis. Šis līdzeklis aizstāj pogu **Atjaunināt**, lai nodrošinātu robustāku papildu vaicājumu pieredzi, kas ir līdzīga dokumenta darbību **lapā pieejamai.**  Papildu filtrs ļauj filtrēt līdzīgus laukus tam **, kas atrodams dokumentu darbību vaicājuma** lapā, piemēram, **Virsgrāmatas konts**, **Biznesa** vienība, **Izmaksu** centrs un **Nodaļa**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

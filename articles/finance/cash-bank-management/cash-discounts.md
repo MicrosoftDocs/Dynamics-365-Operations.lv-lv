@@ -15,30 +15,30 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db95720d56cc538f2d702137889467a9892d99c
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b75637bfb38c13591223ff11be36d958b3972d4f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715187"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804141"
 ---
 # <a name="cash-discounts"></a>Termiņatlaides
 
 [!include [banner](../includes/banner.md)]
 
-Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi.  Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā. 
+Termiņatlaides tiek iestatītas un koplietotas moduļiem Parādi kreditoriem un Debitoru parādi. Pieejamo termiņatlaidi var definēt debitora rēķinā vai kreditora rēķinā, un tā tiek izmantota, ja rēķins tiek apmaksāts termiņatlaides datumu diapazonā. 
 
 ## <a name="cash-discounts"></a>Termiņatlaides
 
-Gan debitoriem, gan kreditoriem termiņatlaides var izveidot lapā Termiņatlaides. Izmantojot lauku Nākamais atlaižu kods, varat arī norādīt sēriju ar termiņatlaidēm, kas seko viena otrai, beidzoties iepriekšējās termiņatlaides datumiem. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu sērija". Ja rēķins, kredīta transakcija (maksājums vai kredīta nota) vai tie abi tiek ievadīti valūtā, kas nav juridiskās personas uzskaites valūta, tad termiņatlaide tiek aprēķināta, izmantojot valūtas maiņas kursu, kurš ir balstīts uz maksājuma vai kredīta notas datumu. Ja rēķins un kredīta dokuments tiek ievadīti dažādās juridiskajās personās un ja uzskaites valūtas šīm juridiskajām personām atšķiras, tad valūtas maiņas kurss tiek ņemts no rēķina juridiskās personas attiecīgā kredīta dokumenta datumā. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu maiņas kursi".
+Termiņatlaides debitoriem vai kreditoriem var izveidot termiņatlaižu **lapā**. Izmantojot lauku Nākamais atlaižu **kods**, var arī definēt termiņatlaižu sērijas, kas seko cita citai, kad beidzas termiņatlaides iepriekšējie datumi. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu sērija". Ja rēķins, kredīta transakcija (maksājums vai kredīta nota) vai tie abi tiek ievadīti valūtā, kas nav juridiskās personas uzskaites valūta, tad termiņatlaide tiek aprēķināta, izmantojot valūtas maiņas kursu, kurš ir balstīts uz maksājuma vai kredīta notas datumu. Ja rēķins un kredīta dokuments tiek ievadīti dažādās juridiskajās personās un ja uzskaites valūtas šīm juridiskajām personām atšķiras, tad valūtas maiņas kurss tiek ņemts no rēķina juridiskās personas attiecīgā kredīta dokumenta datumā. Papildinformāciju skatiet tālāk šī raksta sadaļā "Piemērs: termiņatlaižu maiņas kursi".
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Termiņatlaides galvenā konta pasūtījuma noklusējuma secība
 
 Ja rēķins ir segts laikā, lai saņemtu termiņatlaidi, šī termiņatlaide tiek automātiski grāmatota uz termiņatlaides galveno kontu atbilstoši šādai noklusējuma prioritātei:
-1.  Galvenais konts, kas norādīts laukā Alternatīvais termiņatlaides konts debitora lapā Nosegt atvērtās transakcijas vai kreditora lapā Nosegt atvērtās transakcijas.
-2.  Galvenais konts, kas ir norādīts laukā Debitora termiņatlaide vai laukā Kreditora termiņatlaide tajā virsgrāmatas grāmatošanas grupā, kas ir piešķirta rēķina pārdošanas nodokļa kodam. Iestatiet virsgrāmatas grāmatošanas grupas lapā Virsgrāmatas grāmatošanas grupas un piešķiriet tās pārdošanas nodokļa kodiem lapā Pārdošanas nodokļa kodi.
-3.  Galvenais grāmatošanas konts lapā Termiņatlaides laukā Galvenais konts debitoru atlaidēm vai lapā Galvenais konts kreditoru atlaidēm attiecībā uz termiņatlaides kodu, kas ir norādīts nosegtajā rēķinā.
-4.  Galvenais konts termiņatlaidēm, kā definēts lapā Automātisko transakciju konti.
+1.  Galvenais konts, kas norādīts laukā **Alternatīvās termiņatlaides**  **konts** lapā Debitoru atvērto darbību kārtošanu vai lapā **Nosegt atvērtās** darbības.
+2.  Galvenais konts, kas norādīts **Klienta**  **termiņatlaides** laukā vai Virsgrāmatas grāmatošanas grupas laukā Kreditora termiņatlaide, kas ir piešķirts rēķina PVN kodam. Iestatiet Virsgrāmatas grāmatošanas grupas lapā **Virsgrāmatas grāmatošanas grupas** un piešķiriet tās PVN kodiem **PVN kodu** lapā.
+3.  Galvenais **grāmatošanas**  **·**  **konts** termiņatlaižu lapā, laukā Galvenais konts debitora atlaidēm vai galvenais konts kreditoru atlaižu laukam termiņatlaides kodam, kas ir segtā rēķinā.
+4.  Galvenais konts termiņatlaidēm, kā norādīts lapā **Automātisko darbību** konti.
 
 ## <a name="example-series-of-cash-discounts"></a>Piemērs. Termiņatlaižu sērijas
 Iestatiet trīs termiņatlaižu kodus šādā veidā:
@@ -46,7 +46,7 @@ Iestatiet trīs termiņatlaižu kodus šādā veidā:
 -   Kods 10D5% – 5% termiņatlaide, ja summa tiek samaksāta 10 dienu laikā.
 -   Kods 14D2% – 2% termiņatlaide, ja summa tiek samaksāta 14 dienu laikā.
 
-Laukā Nākamais atlaižu kods:
+Laukā **Nākamais atlaides** kods:
 -   Kodam 5D10% atlasiet 10D5%
 -   Kodam 10D5% atlasiet 14D2%.
 -   Kodam 14D2% lauku Nākamais atlaižu kods atstājiet tukšu.
@@ -61,7 +61,7 @@ Jūsu juridiskās personas uzskaites valūta ir EUR, un šāds valūtas maiņas 
 Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15. februārī. Rēķina summa uzskaites valūtā ir 1100 EUR. Maksājums par 980 USD šim rēķinam tiek nosegts 1. martā. Termiņatlaides summa ir 20 USD. Maksājuma summa uzskaites valūtā ir 784 EUR. Termiņatlaides uzskaites valūtas summa tiek aprēķināta, izmantojot valūtas maiņas kursu no 1. marta: 20 \* 80 / 100 = 16 EUR.
 
 > [!NOTE]
-> Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. 
+> Ja opcija **Aprēķināt termiņatlaides daļējiem maksājumiem ir atlasīta lapās**  **·**  **Debitoru** parādi vai Parādi kreditoriem parametri, tiek izmantots valūtas maiņas kurss, kas ir spēkā attiecībā uz katra daļējā maksājuma datumu. 
 
 
 

@@ -2,7 +2,7 @@
 title: Galveno kontu veidi
 description: Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0f5611cdb3427079e040d30d97dbc91fca4bb078
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716864"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799367"
 ---
 # <a name="main-account-types"></a>Galveno kontu veidi
 
@@ -28,11 +28,11 @@ ms.locfileid: "8716864"
 
 Galvenā konta veidi nosaka, kā galvenais konts tiek izmantots kontu plānā.
 
-Izveidojot galveno kontu lapā Galvenie konti — kontu plāns, ir jāatlasa galvenā konta veids.
--   Peļņa un zaudējumi, ieņēmumi un izdevumi — šos galvenos kontus izmanto kā grāmatošanas kontus. Peļņas un zaudējumu kontus izmanto ieņēmumu un izdevumu reģistrēšanai. Visu peļņas un zaudējumu, ieņēmumu un izdevumu kontu summa nosaka gada rezultātus. Ieņēmumu un izdevumu galvenajiem kontiem ir tāda pati funkcija kā peļņas un zaudējumu galvenajiem kontiem.
--   Bilance, aktīvi, pasīvi un kapitāls — šos galvenos kontus izmanto kā transakciju kontus, kuros reģistrē summas, kas pieder juridiskai personai vai kuras tā ir parādā.
--   Kopsumma — šos galvenos kontus izmanto kontu intervālu pievienošanai. Lai konfigurētu galvenā konta Kopsumma veidu, izmantojiet lapu Konta intervāls, kura tiek parādīta visu konta intervālu grupas bilances kopsumma. Lai piekļūtu lapai Konta intervāls, atlasiet konta Kopsumma veidu un noklikšķiniet uz Kopsummas cilnē Vispārīgi.
--   Pārskatu sagatavošana — šie galvenie konti tiek izmantoti finanšu pārskatu sagatavošanai tikai Brazīlijā.
+Veidojot galveno kontu galveno kontu lapas galvenajos kontos **— kontu plāns, jāatlasa galvenā konta** tips.
+-   **Peļņa un zaudējumi**, Ieņēmumi **un** Izdevumi **– šie**  galvenie konti tiek izmantoti kā grāmatošanas konti. **Peļņas un zaudējumu** kontus izmanto, lai ierakstītu ieņēmumus un izdevumus. Visu peļņas un zaudējumu, ieņēmumu un izdevumu kontu summa nosaka gada rezultātus. **Ieņēmumu** un **izdevumu** galvenajiem kontiem ir tāda pati funkcija kā galvenajiem **kontiem Peļņa un** zaudējumi.
+-   **Bilance,** līdzekļi **, saistības** **un** **kapitāls – šie galvenie konti tiek izmantoti kā darbību konti, lai ierakstītu summas,**  kuras juridiskajai personai pieder vai tas ir parādā.
+-   **Kopsumma**  – šie galvenie konti tiek izmantoti, lai pievienotu kontu intervālus. Konfigurējiet **kopējā** galvenā konta tipu, izmantojot **lapu Kontu** intervāls, kas parāda grupas bilanču kopsummu visiem konta intervāliem. Piekļūstiet **konta intervāla** lapai, **atlasot Kopsummas**  **cilnē Vispārīgi, pēc tam, kad** ir **izvēlēts** Konta Kopsumma tips.
+-   **Pārskati**  — šie galvenie konti tiek izmantoti tikai Brazīlijas finanšu pārskatu pārskatiem.
 
 Plašāku informāciju skatiet šeit: [Iestatīt galvenā konta kategorijas](tasks/set-up-main-account-categories.md).
 

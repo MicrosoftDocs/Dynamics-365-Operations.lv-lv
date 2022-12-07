@@ -2,7 +2,7 @@
 title: Debitoru grāmatošanas metodes
 description: Šajā rakstā ir aprakstītas debitoru grāmatošanas metodes, kas kontrolē debitoru darbību grāmatošanu Virsgrāmatā.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891700"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799577"
 ---
 # <a name="customer-posting-profiles"></a>Debitoru grāmatošanas metodes
 
@@ -58,15 +58,15 @@ Ja vēlaties, lai visu debitoru darbībām būtu viena un tā pati grāmatošana
 </thead>
 <tbody>
 <tr>
-<td>Grāmatošanas profils</td>
+<td><strong>Grāmatošanas metode</strong></td>
 <td>Ievadiet grāmatošanas metodes kodu. Piemēram, varat izveidot divas grāmatošanas metodes, lai iegūtu vienu kontu debitoru bilancēm nacionālajā valūtā un otru — debitoru bilancēm ārvalstu valūtā. Vienu kontu varat nosaukt Nacionālais, bet otru — Ārvalstu.</td>
 </tr>
 <tr>
-<td>Apraksts</td>
+<td><strong>Apraksts</strong></td>
 <td>Ievadiet grāmatošanas metodes aprakstu. Šis tiek izmantots tikai ar mērķi labāk identificēt grāmatošanas metodi, kad to skatāt šajā lapā.</td>
 </tr>
 <tr>
-<td>Konta kods</td>
+<td><strong>Konta kods</strong></td>
 <td>Norādiet, vai grāmatošanas metode tiek izmantota vienam debitoram, debitoru grupai vai visiem debitoriem:
 <ul>
 <li><b>Tabula</b> – grāmatošanas metode attiecas uz vienu debitoru. Atlasiet debitora kontu laukā <b>Konta/grupas</b> numurs.</li>
@@ -76,33 +76,33 @@ Ja vēlaties, lai visu debitoru darbībām būtu viena un tā pati grāmatošana
 </td>
 </tr>
 <tr>
-<td>Konta/grupas numurs</td>
-<td><b>Ja</b> laukā Konta kods <b>atlasīta tabula</b>, atlasiet tā debitora konta numuru, kurš ir saistīts ar grāmatošanas metodi. Ja <b>ir</b> atlasīta Grupa, atlasiet debitoru grupu. Ja ir atlasīta vērtība <b>Visi</b>, atstājiet šo lauku tukšu.</td>
+<td><strong>Konta/grupas numurs</strong></td>
+<td> <b>Ja</b> laukā Konta kods <b>atlasīta tabula</b> , atlasiet tā debitora konta numuru, kurš ir saistīts ar grāmatošanas metodi. Ja <b>ir</b> atlasīta Grupa, atlasiet debitoru grupu. Ja ir atlasīta vērtība <b>Visi</b>, atstājiet šo lauku tukšu.</td>
 </tr>
 <tr>
-<td>Summu konts</td>
+<td><strong>Summu konts</strong></td>
 <td>Atlasiet galveno kontu, kas tiks izmantots kā debitoru tirdzniecības konts debitoriem, kuri ir saistīti ar grāmatošanas metodi. Šis konts ir konts debitora bilances <b>grāmatošanas</b> tipam.</td>
 </tr>
 <tr>
-<td>Likviditātes konts maksājumiem</td>
-<td>Atlasiet likviditātes virsgrāmatas kontu, kas tiek lietots naudas plūsmas prognozēm. Šis lauks tiks parādīts tikai tad, ja ir iespējotas naudas plūsmas prognozes.</td>
+<td><strong>Likviditātes konts maksājumiem</strong></td>
+<td>Atlasiet likviditātes <strong>Virsgrāmatas kontu,</strong> kas tiek izmantots naudas plūsmas prognozēm. Šis lauks tiks parādīts tikai tad, ja ir iespējotas naudas plūsmas prognozes.</td>
 </tr>
 <tr>
-<td>PVN priekšapmaksām</td>
+<td><strong>PVN priekšapmaksām</strong></td>
 <td><p>Atlasiet kontu pārdošanas nodoklim tādiem maksājumiem, kas tiek saņemti avansā.</p>
-<p><strong>Piezīme.</strong> Izmantojiet lapu Debitoru <b>parādu parametri,</b> lai norādītu grāmatošanas metodi, kas tiek izmantota, kad maksājums ir atzīmēts kā priekšapmaksa.</p>
+<p><strong>Piezīme.Izmantojiet</strong>  lapu Debitoru <b>parādu parametri,</b> lai norādītu grāmatošanas metodi, kas tiek izmantota, kad maksājums ir atzīmēts kā priekšapmaksa.</p>
 </td>
 </tr>
 <tr>
-<td>Atlaižu konta saistības</td>
+<td><strong>Atlaižu konta saistības</strong></td>
 <td>Atlasiet virsgrāmatas kontu atlaižu saistībām.</td>
 </tr>
 <tr>
-<td>Atgādinājuma vēstuļu sērija</td>
+<td><strong>Atgādinājuma vēstuļu sērija</strong></td>
 <td>Atlasiet identifikatoru atgādinājuma vēstuļu sērijai, ko izmantot debitoriem, kuriem ir piešķirta šī grāmatošanas metode.</td>
 </tr>
 <tr>
-<td>Soda naudas kods</td>
+<td><strong>Soda naudas kods</strong></td>
 <td>Atlasiet soda naudas kodu, ko izmantot soda naudas aprēķināšanai debitoriem, kuriem ir piešķirta šī grāmatošanas metode.</td>
 </tr>
 </tbody>
@@ -110,12 +110,12 @@ Ja vēlaties, lai visu debitoru darbībām būtu viena un tā pati grāmatošana
 
 ## <a name="posting-examples"></a>Grāmatošanas piemēri
 
-Tālāk sniegtajā tabulā ir norādīti noklusējuma grāmatošanas tipu piemēri ar galvenajiem kontiem un aprakstiem. Kolonna **Debets** /kredīts norāda, vai darbība parasti ir debets vai kredīts, vai arī dažos gadījumos var grāmatot. Kolonna **Klīringa** konts norāda, ka grāmatošanas tips ir klīringa konts. Tas nozīmē, ka šajā kontā grāmatotā summa tiek automātiski atcelta, grāmatojot vēlāku darbību. 
+Tālāk sniegtajā tabulā ir norādīti noklusējuma grāmatošanas tipu piemēri ar galvenajiem kontiem un aprakstiem. Kolonna **Debets** /kredīts norāda, vai darbība parasti ir debeti vai kredīti, vai arī dažos gadījumos var grāmatot. Kolonna **Klīringa** konts norāda, ka grāmatošanas tips ir klīringa konts. Tas nozīmē, ka šajā kontā grāmatotā summa tiek automātiski atcelta, grāmatojot vēlāku darbību. 
 
 | Grāmatošanas tips | Galvenā konta piemērs | Galvenā konta nosaukuma piemērs | Konta veids | Debets/kredīts | Dzēšanas konts | Apraksts |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
 | Debitora bilance | 130100 | Debitoru parādu tirdzniecība | Līdzeklis | Abi | Nē | Norādiet kontu laukā **Summu** konts.|
-| Nav | 110110 | Bankas konts | Līdzeklis | Abi | Nē | Norādiet galveno kontu maksājumu **likviditātes kontā**. Šis konts netiek izmantots grāmatošanai. To izmanto tikai naudas plūsmas prognozēšanai. |
+| Neviens | 110110 | Bankas konts | Līdzeklis | Abi | Nē | Norādiet galveno kontu maksājumu **likviditātes kontā** . Šis konts netiek izmantots grāmatošanai. To izmanto tikai naudas plūsmas prognozēšanai. |
 | PVN priekšapmaksām | 202900 | PVN klīrings | Saistības | Abi | Jā | Atlasiet kontu pārdošanas nodoklim tādiem maksājumiem, kas tiek saņemti avansā. |
 | Atlaižu konta saistības | 250600 | Atliktie ieņēmumi un atlaides | Saistības | Abi | Jā | Atlasiet Virsgrāmatas kontu atlaižu saistībām.|     
 
@@ -127,7 +127,7 @@ Lai iestatītu savu grāmatošanas metodi, norādiet šādas vērtības:
 
 | Lauks                 | Apraksts                                           |
 |-----------------------|-------------------------------------------------------|
-| Segšana        | Atlasiet šo pārslēgu, lai iespējotu automātisko nosegšanu transakcijām ar šo grāmatošanas metodi. Ja šī pārslēgs ir notīrīts, manuāli jānosedz darbības, **izmantojot** lapu Nosegt atvērtās darbības vai **Ievadīt debitoru maksājumus**. |
+| Segšana        | Atlasiet šo pārslēgu, lai iespējotu automātisko nosegšanu transakcijām ar šo grāmatošanas metodi. Ja šī pārslēgs ir notīrīts, manuāli jānosedz darbības, **izmantojot** lapu Nosegt atvērtās darbības vai **Ievadīt debitoru maksājumus** . |
 | Intereses          | Atzīmējiet šo pārslēgu, ja debitoru kontiem, kas izmanto šo metodi, soda nauda ir jāaprēķina nenokārtotām bilancēm. Ja šī pārslēga atzīme ir notīrīta, soda nauda šiem debitoriem netiks aprēķināta.                                           |
 | Parādu piedziņas vēstule | Atzīmējiet šo pārslēgu, ja debitoru kontiem, kas izmanto šo metodi, ir nepieciešams ģenerēt atgādinājuma vēstules. Ja šī pārslēga atzīme ir notīrīta, atgādinājuma vēstules šiem debitoriem netiks ģenerētas.                                                 |
 | Aizvērt             | Atlasiet kādu grāmatošanas metodi, kuru mainīt, kad tiek slēgtas transakcijas ar šo grāmatošanas metodi. Darbība tiek uzskatīta par aizvērtu, kad tā ir pilnībā nosegta.             |

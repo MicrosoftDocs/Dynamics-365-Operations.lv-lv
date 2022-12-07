@@ -1,6 +1,6 @@
 ---
 title: Noņemtie vai novecojušie platformas līdzekļi
-description: Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kurus ir plānots noņemt Finance and Operations programmu platformas atjauninājumos.
+description: Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformu atjauninājumiem finanšu un operāciju programmām.
 author: sericks007
 ms.date: 08/09/2022
 ms.topic: article
@@ -12,120 +12,120 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785104"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799041"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīti līdzekļi, kas ir noņemti vai kurus ir plānots noņemt Finance and Operations programmu platformas atjauninājumos.
+Šajā rakstā ir aprakstīti noņemtie līdzekļi vai līdzekļi, kas ir ieplānoti noņemšanai no platformu atjauninājumiem finanšu un operāciju programmām.
 
 - *Noņemts* līdzeklis produktā vairs nav pieejams.
 - *Novecojis* līdzeklis netiek aktīvi attīstīts un var tikt noņemts turpmākos atjauninājumos.
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizētu informāciju par objektiem Finance and Operations programmās var atrast tehniskās [atsauces atskaitēs](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt šo pārskatu dažādās versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+Detalizēta informācija par finanšu un operāciju programmu objektiem atrodama Tehniskajos atsauces [pārskatos](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādas šo pārskatu versijas, lai uzzinātu par objektiem, kas ir mainīti vai noņemti katrā finanšu un operāciju programmu versijā.
 
 ## <a name="feature-deprecation-effective-august-2022"></a>Līdzekļu nolietošana, kas ir spēkā no 2022. gada augusta
 
-### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Dzīves cikla pakalpojumu (Lifecycle Services — LCS) līdzekļi ir novecojuši 2022. gada augustā
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Lifecycle Services (LCS) funkcijas, kas novecojušas 2022. gada augustā
 
-One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) darba ietvaros tālāk norādītie LCS līdzekļi ir novecojuši.
+Kā daļa no [Vienas Dynamics vienas platformas darba](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) , turpmāk minētās LCS funkcijas ir novecojušas.
 
-| Līdzekļa nosaukums | Lietots ar AX 2012. gadu? | Vai izmantojat ar Finance and Operations programmām? | Vai ir aizstāts ar citu līdzekli? |
+| Līdzekļa nosaukums | Vai lietots kopā AX ar 2012? | Vai tiek lietots ar finanšu un operāciju programmām? | Vai ir aizstāts ar citu līdzekli? |
 |--------------|--------------------|----------------------------------------|------------------------------|
-| Paziņojumi | Jā | Jā | Jā: reklāmkarogi pastāv atsevišķās projektu un vides lapās paziņojumiem. |
+| Paziņojumi | Jā | Jā | Jā: projektu un vides lapu paziņojumi pastāv skārļi. |
 | Konfigurācijas pārvaldnieks | Jā | Nē | Nē |
-| Avāriju un izgāztuvju analīze | Jā | Nē | Nē |
+| Avārijas un izmetes analīze | Jā | Nē | Nē |
 | Atsauksmes un kļūdas | Jā | Jā | Nē |
 | Mans abonements | Jā | Jā | Nē |
-| Office 365 | Jā | Jā | Jā: Azure Active Directory vai Microsoft administrēšanas portāls. |
+| Office 365 | Jā | Jā | Jā: Azure Active Directory vai Microsoft admin portāls. |
 | Ietekmes analīze | Nē | Jā | Nē |
-| Kopējās ekonomiskās ietekmes aprēķinātājs | Nē | Jā | Nē |
-| Pakalpojuma pieprasījumi | Nē | Jā | Jā: [pašapkalpošanās izvietošana](../deployment/infrastructure-stack.md) |
+| Kopējās saimnieciskās ietekmes vērtētājs | Nē | Jā | Nē |
+| Pakalpojuma pieprasījumi | Nē | Jā | Jā: [Pašapkalpošanās izvietošanas](../deployment/infrastructure-stack.md) |
 | SharePoint integrācija | Jā | Jā | Nē |
 | Konfigurācijas un datu pārvaldnieks | Nē | Jā | Nē |
-| Procesa datu pakotnes | Nē | Jā | Jā: [Datu importēšanas eksportēšanas struktūra (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
-| Envrionment jauninājums | Nē | Jā | Jā: [ir pieejami vienas versijas](../lifecycle-services/oneversion-overview.md) pakalpojuma atjauninājumi. |
+| Procesa datu pakotnes | Nē | Jā | Jā: [Datu importēšanas un eksportēšanas struktūra (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
+| Uzskaitījuma jaunināšana | Nē | Jā | Jā: [Ir pieejami vienas](../lifecycle-services/oneversion-overview.md) versijas pakalpojuma atjauninājumi. |
 | Infrastruktūras vērtētājs | Jā | Nē | Nē |
 | Licences izmēru maiņa | Jā | Nē | Nē |
 | Lietojuma profilētājs | Jā | Nē | Nē |
 | Pielāgojumu analizētājs | Jā | Nē | Nē |
 | Sistēmas diagnostika | Jā | Jā | Nē |
-| Biznesa procesu modelētājs Visio management | Jā | Jā | Nē |
-| AX 2012. gada mākoņa vides pārvaldība | Jā | Nē | Nē |
+| Biznesa procesu modelētāja Visio pārvaldība | Jā | Jā | Nē |
+| AX 2012 mākoņa vides pārvaldība | Jā | Nē | Nē |
 | RDFE Azure savienotāji | Jā | Jā | Nē |
-| AX 2012. gada versijas | Jā | Nē | Nē |
-| Darba vienumi, kas tiek glabāti LCS krātuvē | Jā | Jā | Nē |
+| AX 2012 versijas | Jā | Nē | Nē |
+| Darba vienumi, kas ir uzglabāti LCS krātuvē | Jā | Jā | Nē |
 | Labojumfaila pieprasījumi | Jā | Jā | Nē |
 
 
-### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transporta slāņa drošības (TLS) RSA šifra komplekti
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transportēšanas slāņa drošības (TLS) RSA cipherpher sfēra
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs noņemam tālāk norādīto šifra komplektu sarakstu, lai nodrošinātu atbilstību mūsu pašreizējiem drošības protokoliem.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 2023. gada 31. janvāri, klienti var izmantot tikai mūsu [standarta šifra komplektus](/power-platform/admin/server-cipher-tls-requirements). Šīs izmaiņas ietekmē jūsu klientus un serverus, kas sazinās ar mūsu serveriem, piemēram, tās var ietekmēt jūsu trešo pušu integrācijas, kas neatbilst mūsu standarta šifra komplektiem. |
+| **Novecošanas/noņemšanas pamatojums** | Tiek noņemts šāds cipher sfēras saraksts, kas atbilst mūsu pašreizējiem drošības protokolam.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Sākot no 2023. gada janvāra debitori var izmantot tikai mūsu [standarta cipher sido](/power-platform/admin/server-cipher-tls-requirements). Šīs izmaiņas ietekmē jūsu klientus un serverus, kas sazinās ar mūsu serveriem, piemēram, tas var ietekmēt jūsu trešās puses integrācijas, kas neatbilst mūsu standarta cipheršifrēšanai. |
 | **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
-| **Izvietošanas iespēja**              | Izvietošana mākonī |
-| **Statuss**                         | Novecojis. Klientiem ir jāveic serveru jaunināšana līdz 2023. gada 31. janvārim. Papildinformāciju par TLS Cipher Suite pasūtījuma konfigurēšanu skatiet sadaļā [Transporta slāņa drošības (TLS)](/windows-server/security/tls/manage-tls) pārvaldība.  |
+| **Izvietošanas iespēja**              | Mākoņa izvietošana |
+| **Statuss**                         | Novecojis. Debitoriem ir jājauno savus serverus pirms 2023. gada janvāra. Papildinformāciju par TLS Cipher Suite pasūtījuma konfigurēšanu skatiet Sadaļā [Transportēšanas līmeņa drošības pārvaldība (TLS).](/windows-server/security/tls/manage-tls)  |
 
 
-## <a name="feature-deprecation-effective-june-2022"></a>Funkciju novecošana stājas spēkā 2022. gada jūnijā
+## <a name="feature-deprecation-effective-june-2022"></a>Līdzekļu nolietošana ir spēkā no 2022. gada jūnija
 
-### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finance and operations (Dynamics 365) mobilā lietojumprogramma un mobilā platforma 
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finanšu un operāciju (Dynamics 365) mobilā programma un mobilā platforma 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs novecojam finance and operations (Dynamics 365) mobilo lietojumprogrammu un platformu, lai to konsolidētu vienā mobilajā platformā, kas ir Power Apps. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā, mobilās iespējas saistībā ar Finance and Operations programmu datiem var veidot, izmantojot Power Platform integrāciju. [Papildinformāciju skatiet emuāra ziņā](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) un [sadaļā Mobilās pieredzes](../power-platform/build-mobile-experiences.md) veidošana. |
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam finanšu un operāciju (Dynamics 365) mobilo programmu un platformu, lai konsolidētu vienu mobilo platformu, kas ir Power Apps. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, mobilo pieredzi finanšu un operāciju programmas datu pamatā var veidot ar Power Platform integrāciju. Papildinformāciju [skatiet šeit](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)  [: grāmatot un](../power-platform/build-mobile-experiences.md) veidot mobilo pieredzi. |
 | **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis. Atbalsta beigu datums ir paredzēts 2024. gada oktobris. |
+| **Statuss**                         | Novecojis. Atbalsta beigu datums ir paredzēts 2024. gada oktobrisi. |
 
 
-## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.29
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.29
 
-### <a name="panorama-tab-style"></a>Panorāmas cilnes stils
+### <a name="panorama-tab-style"></a>Modes cilnes stils
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Horizontāli ritināmas lapas tiek līdzinātas novecojušiem izkārtojuma modeļiem, kuriem ir zināmas lietojamības un pieejamības problēmas.  |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nē, bet citi ciļņu stili joprojām ir pieejami. |
+| **Novecošanas/noņemšanas pamatojums** | Horizontālās ritināšanas lapas līdzinātas ar novecojušiem izkārtojuma modeļiem, kam ir zināmas lietojamības un pieejamības problēmas.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Tomēr joprojām ir pieejami citi ciļņu stili. |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis. |
 
 
-## <a name="feature-deprecation-effective-april-2022"></a>Līdzekļu novecošana stājas spēkā 2022. gada aprīlī
+## <a name="feature-deprecation-effective-april-2022"></a>Līdzekļu nolietojuma 2022. gada aprīlis
 
 ### <a name="xml-url-resolution-in-data-management"></a>XML URL izšķirtspēja datu pārvaldībā 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Mēs noņemam XML URL izšķirtspējas atbalstu, jo tā ir identificēta kā potenciāla drošības ievainojamība. Tas nozīmē, ka ārējie resursi, kas saistīti ar XML failiem, vairs netiks atrisināti.  |
+| **Novecošanas/noņemšanas pamatojums** | Tiek noņemts XML URL izšķirtspējas atbalsts, jo tas ir identificēts kā potenciālā drošības nepilnība. Tas nozīmē, ka ar XML failiem saistītie ārējie resursi vairs netiks atrisināti.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. |
 | **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis. |
 
-## <a name="feature-deprecation-effective-march-14-2022"></a>Līdzekļu novecošana stājas spēkā 2022. gada 14. martā
+## <a name="feature-deprecation-effective-march-14-2022"></a>Līdzekļu nolietojuma 2022. gada 14. marts
 
-### <a name="xslt-scripting-in-data-management"></a>XSLT skriptēšana datu pārvaldībā
+### <a name="xslt-scripting-in-data-management"></a>XSLT skriptošana datu pārvaldībā
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | XSLT skriptēšanas atbalsts datu pārvaldībā ir novecojis, lai uzlabotu drošību un datu aizsardzību finanšu un operāciju programmās.  |
-| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Klientiem un ISV ir jāapsver iespēja XSLT skriptu vietā atkārtoti ieviest savus risinājumus, kuru pamatā ir X++ valoda. |
+| **Novecošanas/noņemšanas pamatojums** | XSLT skriptošanas atbalsts datu pārvaldībā ir novecojis, lai uzlabotu drošību un datu aizsardzību finanšu un operāciju programmās.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nē. Debitoriem un ISVs būtu jāapsver savu risinājumu atkārtota izmantošana, balstoties uz X++ valodu, XSLT skriptēšanas vietā. |
 | **Ietekmētie produkta apgabali**         | Finance and Operations programmas |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis <br><br>**Izņēmums: klienti,** kuri pašlaik izmanto XLST skriptus. Viņi var turpināt to izmantot, līdz viņi atjaunina uz versiju 10.0.30 vai jaunāku versiju. Iepriekšējām versijām izņēmuma termiņš beigsies 2023. gada 31. janvārī. Klienti, izņemot šo izņēmumu, ir saņēmuši paziņojumu administrēšanas centrā pieejamajā Microsoft 365 ziņojumu centrā. |
+| **Statuss**                         | Novecojis <br><br>**Izņēmums:**  debitori, kas pašlaik lieto XLST skriptus. Viņi var turpināt to izmantot līdz brīdim, kad tie atjaunina versiju 10.0.30 vai jaunāku versiju. Agrākām versijām izņēmums beidzas 2023. gada 31. janvārī. Debitori ar šādu izņēmumu ir saņēmuši paziņojumu Ziņojumu centrā, kas pieejams Administrēšanas Microsoft 365 centrā. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Līdzekļu noņemšana, kas ir spēkā no 2021. gada oktobra
 
@@ -162,14 +162,14 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.23
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.23
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize notikums
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav vadīklas, ko izmantot šī notikuma izpildei. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Jā, pārvietojiet esošās metodes, **kuras abonējis notikums OnDBSynchronize**, uz SysSetup paplašināto klasi. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, pārvietojiet esošās metodes, abonētais **OnDBSynchronize notikums** uz SysSetup paplašināto klasi. |
 | **Ietekmētie produkta apgabali**         | Datu bāzes sinhronizēšana |
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2022. gada oktobris. |
@@ -185,7 +185,7 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Izvietošanas iespēja**              | Visi |
 | **Statuss**                         | Novecojis. Plānotais noņemšanas datums ir 2023. gada aprīlis. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.21
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.21
 
 ### <a name="skype-for-business-online-support"></a>Skype uzņēmumiem tiešsaistes atbalsts
 
@@ -245,7 +245,7 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Statuss**                         | Šī funkcija ir noņemta. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.17
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.17
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -272,25 +272,25 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Metadatu artefakti, kas saistīti ar Dynamics AX 2012 Enterprise portal (EP), ir novecojuši, jo EP nekad netika atbalstīts finanšu un operāciju programmās. |
+| **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX 2012 uzņēmuma portālu (EP) saistītie metadatu artefakti ir novecojuši, jo EP nekad nav atbalstīts finanšu un operāciju programmās. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: visi EP kodi ir ieplānoti izņemšanai no 2021. gada oktobra. |
 
-## <a name="deprecation-effective-december-2020"></a>Novecošana, kas stājas spēkā 2020. gada decembrī
+## <a name="deprecation-effective-december-2020"></a>Nolietojuma efektīvais 2020. gada decembris
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visiem Dynamics 365 produktiem un Dynamics dzīves cikla pakalpojumiem (LCS) ir novecojis, un Internet Explorer pēc 2021. gada augusta 11 atbalsts netiks atbalstīts.<br><br>Tas ietekmēs klientus, kuri izmanto Dynamics 365 produktus un LCS, kas ir paredzēti lietošanai, izmantojot 11 interfeisu Internet Explorer. Pēc 2021. gada augusta 11 Internet Explorer netiks atbalstīts šādiem Dynamics 365 produktiem un LCS. |
+| **Novecošanas/noņemšanas pamatojums** | Spēkā 2020. gada decembris, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm un Dynamics Lifecycle Services (LCS) ir novecojis, Internet Explorer un 11 atbalsts netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs debitorus, kuri izmanto Dynamics 365 preces un LCS, Internet Explorer kas ir paredzēti izmantošanai 11 interfeisā. Pēc 2021. gada Internet Explorer  11. augusta šādai Dynamics 365 precēm un LCS netiks atbalstīts. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
-| **Ietekmētie produkta apgabali**         | Visi Dynamics 365 produkti un LCS |
+| **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces un LCS |
 | **Izvietošanas iespēja**              | Visus|
 | **Statuss**                         | Novecojis: Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.15
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.15
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio pievienojumprogramma, lai lietotu metadatu labojumfailus
 
@@ -303,7 +303,7 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Statuss**                         | Izmantojot versiju 10.0.15, pievienojumprogramma vairs nav iekļauta Visual Studio rīkos. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.14
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.14
 
 ### <a name="online-users-page"></a>Tiešsaistes lietotāju lapa 
 
@@ -316,7 +316,7 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Statuss**                         | Līdz 2021. gada oktobrim šī veidlapa tiks noņemta.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.13
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.13
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Pielāgots kods, kas definēts SSRS pārskata rekvizītos 
@@ -360,19 +360,19 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 | **Statuss**                         | Versijā 10.0.13/Platform atjauninājums 37, ir vispārēji pieejami saglabāto skatījumu līdzekļi, un klienti pēc izvēles var ieslēgt šo līdzekli. Saglabātā skatījuma līdzeklis kļūs obligāts 2021. gada oktobra laidienā. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.12
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.12
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Režģa vai grupas vadīklu veidlapas paplašinājumi, kas satur nederīgas lauku atsauces
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Datu grupas rekvizīts režģī vai grupas vadīklās tiek izmantots, lai automātiski parādītu visus lauku grupas laukus. Režģa vai grupas vadīkla, kas pievienota ar paplašinājumu, var saturēt laukus, kas vairs nav definēti lauku grupā, vai varbūt trūkst lauku grupā definēto lauku. Tas var izraisīt nekonsekventu darbību izpildlaikā. Platformas atjauninājumi Finance and Operations programmu versijai 10.0.12 tagad kategorizē šo problēmu kā kompilatora *brīdinājumu*. Lai labotu šo problēmu, atveriet veidlapas paplašinājumu un saglabājiet to.
+| **Novecošanas/noņemšanas pamatojums** | Datu grupas rekvizīts režģī vai grupas vadīklās tiek izmantots, lai automātiski parādītu visus lauku grupas laukus. Režģa vai grupas vadīkla, kas pievienota ar paplašinājumu, var saturēt laukus, kas vairs nav definēti lauku grupā, vai varbūt trūkst lauku grupā definēto lauku. Tas var izraisīt nekonsekventu darbību izpildlaikā. Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.12 tagad kategorializē šo problēmu kā kompilētāja *brīdinājumu*. Lai labotu šo problēmu, atveriet veidlapas paplašinājumu un saglabājiet to.
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis kompilatora brīdinājums tiks aizstāts ar kompilatora kļūdu turpmākajā atjauninājumā. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Kompilatora brīdinājums ir ieviests platformas atjauninājumos Finance and Operations programmu versijai 10.0.12. |
+| **Statuss**                         | Kompilētāja brīdinājums tiek iekļauts platformas atjauninājumos finanšu un operāciju programmu versijai 10.0.12. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu versijai 10.0.11
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platformas atjauninājumi finanšu un operāciju programmu versijai 10.0.11
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Precīzi drošie saraksti pašapkalpošanās videi
 
@@ -398,11 +398,11 @@ One [Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tabulas metadatu definīcijās lauku grupas var ietvert lauku atsauces, kas nav derīgas. Ja šīs lauku grupas ir izvietotas, tās var izraisīt izpildlaika kļūmes modulī Financial Reporting un Microsoft SQL Server pārskatu izveides pakalpojumos (SSRS). Platformas atjauninājums 23 ieviesa kompilatora *brīdinājumu*, kas ļāva risināt šo metadatu problēmu. Platformas atjauninājumi Finance and Operations programmu versijai 10.0.11 kategorizē šo problēmu kā kompilatora *kļūdu*.<p>Lai novērstu šo problēmu, izpildiet sekojošās darbības.</p><ol><li>Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</li><li>Pārkompilēt.</li><li>Pārliecinieties, vai kļūdas ir novērstas.</li></ol> |
+| **Novecošanas/noņemšanas pamatojums** | Tabulas metadatu definīcijās lauku grupas var ietvert lauku atsauces, kas nav derīgas. Ja šīs lauku grupas ir izvietotas, tās var izraisīt izpildlaika kļūmes modulī Financial Reporting un Microsoft SQL Server pārskatu izveides pakalpojumos (SSRS). Platformas atjauninājums 23 ieviesa kompilatora *brīdinājumu*, kas ļāva risināt šo metadatu problēmu. Platformas atjauninājumi finanšu un operāciju programmu versijā 10.0.11 šī problēma tiek dalīta kategorijās kā kompilētāja *kļūda*.<p>Lai novērstu šo problēmu, izpildiet sekojošās darbības.</p><ol><li>Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.</li><li>Pārkompilēt.</li><li>Pārliecinieties, vai kļūdas ir novērstas.</li></ol> |
 | **Vai ir aizstāts ar citu līdzekli?**   | Šī kompilatora kļūda neatgriezeniski aizstāj kompilatora brīdinājumu.  |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis: kompilatora brīdinājums ir kompilatora kļūda Finance and Operations programmu versijas 10.0.11 platformas atjauninājumos. |
+| **Statuss**                         | Novecojis: kompilatora brīdinājums ir kompilatora kļūda platformas atjauninājumos finanšu un operāciju programmu versijai 10.0.11. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licences, kas izveidotas, izmantojot SHA1 hashing algoritmu
 

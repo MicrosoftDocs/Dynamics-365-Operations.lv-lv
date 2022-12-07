@@ -2,7 +2,7 @@
 title: Skatīt un izveidot finanšu pārskatus
 description: Šajā rakstā ir sniegti uzdevumi, kas skaidro, kā skatīt un izveidot finanšu pārskatus Microsoft Dynamics 365 Finansēm.
 author: jcart1106
-ms.date: 10/02/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 92474e7b99af7d83b2089b6652558630c60824c1
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9273431"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799523"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
@@ -51,30 +51,30 @@ ms.locfileid: "9273431"
     > [!NOTE]
     > Jums tiks piedāvāts lejupielādēt viena klikšķa pārskata veidotāju un pieteikties. Lai pieteiktos, lietojiet savus akreditācijas datus.
 
-7. Mainiet pamata gadu uz 2012. un izvēlieties **Ģenerēt**. Ģenerējot pārskatu no pārskata veidotāja, tas tiks atvērts jaunā pārlūkprogrammas cilnē. Pārskatu varat pārlūkot jaunajā pārlūkprogrammas cilnē, vai arī pāriet uz sākotnējo pārlūkprogrammas cilni un atvērt pārskatu no tās, atlasot to no saraksta **Finanšu pārskati**.
+7. Mainiet pamata gadu uz 2021. un izvēlieties **Ģenerēt**. Ģenerējot pārskatu no pārskata veidotāja, tas tiks atvērts jaunā pārlūkprogrammas cilnē. Pārskatu varat pārlūkot jaunajā pārlūkprogrammas cilnē, vai arī pāriet uz sākotnējo pārlūkprogrammas cilni un atvērt pārskatu no tās, atlasot to no saraksta **Finanšu pārskati**.
 8. Atvērtajā pārskatā atlasiet vienu no summām, lai pārietu uz detalizētas parskata konta informācijas lapu.
 9. Konta detalizētas informācijas lapā atlasiet kontu ar datiem un **pārejiet uz pārskata transakciju līmeni**. Pārskata transakciju līmenī var apskatīt rekvizītus (atribūtus), kas iekļauti šajā pārskata noformējumā. Atkarībā no transakcijas un konta var tikt parādīta tikai daļa atribūtu vai visi atribūti.
 10. Aizveriet pārskata transakciju līmeni.
-11. Atlasiet to pašu vai citu kontu un pēc tam atlasiet vienumu **Atvērt dokumentu transakcijas**. Dokumentu transakcijas tiek filtrētas pēc perioda, gada, konta un atlasītā konta dimensiju kombinācijas. No dokumenta transakcijām varat izvēlēties pārskatīt citu informāciju par transakciju.
-12. Aizveriet dokumentu transakcijas. Finanšu pārskatā varat skatīt datus par citu periodu un gadu vai ar piemērotiem dažādiem atribūtiem un dimensijām. Lai to izdarītu, izmantojiet **Pārskata opcijas**.
+11. Atlasiet to pašu vai citu kontu un pēc tam atlasiet vienumu **Atvērt dokumentu transakcijas**. Dokumentu transakcijas tiek filtrētas pēc perioda, gada, konta un atlasītā konta dimensiju kombinācijas. No **dokumentu darbībām** varat izvēlēties pētīt pārējo informāciju par darbību.
+12. Slēgt **dokumentu darbības**. Finanšu pārskatā varat skatīt datus par citu periodu un gadu vai ar piemērotiem dažādiem atribūtiem un dimensijām. Lai to izdarītu, izmantojiet **Pārskata opcijas**.
 13. Atlasiet **Pārskata opcijas**.
 14. Atlasiet **Pievienot dimensiju filtru** un izvēlieties **Biznesa vienība**.
-15. Laukā ievadiet 001 un atlasiet **Labi**. Pārskatā tagad tiek rādīti tikai biznesa vienības 001 dati. Šis ir pārskata personalizēts skats un nav pieejams citiem lietotājiem.
+15. Ievadiet **001** laukā un atlasiet **Labi**. Pārskatā tagad tiek rādīti tikai biznesa vienības 001 dati. Šis ir pārskata personalizēts skats un nav pieejams citiem lietotājiem.
 16. Aizveriet filtrēto pārskatu. Finanšu pārskati var tikt rādīti jebkurā valūtā, kas ir pievienota programmai.
 17. Atlasiet **Valūta** un pēc tam atlasiet **EUR**. Pārskata summas tagad tiek rādītas eiro. Visi pārskata noformējumā iekļautie valūtu kodi un simboli tagad tiek rādīti lietotajā valūtā. Ja valūtai nav definēts valūtas simbols, valūtas simbols netiek rādīts.
 18. Aizveriet pārskatu **VG dati**.
 19. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>2. uzdevums. Papildu konta rekvizītu pievienošana pārskata noformējumam
-Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Tiks atjaunināta gan rindu definīcija, lai iekļautu visus kontus, gan kolonnas definīcija, lai iekļautu konta atribūtus. Kad atjaunināšana ir pabeigta, varat ģenerēt un pārskatīt jaunizveidoto pārskatu. Sāksim ar sarakstu Finanšu pārskati.
+Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Tiks atjaunināta gan rindu definīcija, lai iekļautu visus kontus, gan kolonnas definīcija, lai iekļautu konta atribūtus. Kad atjaunināšana ir pabeigta, varat ģenerēt un pārskatīt jaunizveidoto pārskatu. Sāksim no finanšu **pārskatu** saraksta.
 
-1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
+1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā **Pieprasījumi un pārskati**.
 2. Atlasiet rindu pārskatam ar nosaukumu **Kopsavilkuma apgrozījuma bilance — noklusējuma**.
 3. Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērta **Kopsavilkuma apgrozījuma bilance — noklusējuma**.
-4. Atlasiet **Fails** un pēc tam **Saglabāt kā** un nosauciet pārskatu Detalizēta apgrozījuma bilance ar atribūtiem.
+4. Atlasiet **failu**, pēc tam **saglabājiet kā** un nosaukiet pārskatu Detalizēta **apgrozījuma bilance ar atribūtiem**.
 
     > [!NOTE]
-    > Katru reizi, kad jauns pārskats tiek izveidots, izmantojot pārskatu veidotāju, finanšu pārskatu saraksts tiek atjauninināts.
+    > Katru reizi, kad pārskatu veidotājā tiek veidots jauns pārskats **, tiek atjaunināts** finanšu pārskatu saraksts.
 
 5. No pārskata definīcijas atlasiet rindas definīcijas ikonu, lai atvērtu **Apgrozījuma bilance — noklusējuma rindas definīcija**.
 6. Saglabājiet rindas definīciju kā **Detalizēta apgrozījuma bilance ar atribūtiem**.
@@ -107,17 +107,17 @@ ms.locfileid: "9273431"
 26. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>3. uzdevums. Daudzdimensiju pārskatu izveide, izmantojot pārskata koku
-Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Tiks izveidots pārskata koks un pievienota pārskata definīcija, lai izveidotu Izmaksu centrs/nodaļu ieņēmumu pārskats. Kad atjaunināšana ir pabeigta, varat izveidot Izmaksu centrs/nodaļu ieņēmumu pārskats un pārskatīt pārskatu, izmantojot pārskata koku. Sāksim ar sarakstu Finanšu pārskati.
+Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Jūs izveidosiet pārskata koku un pievienosiet pārskata definīcijai, lai izveidotu **Izmaksu centra/dalījuma ienākumu pārskatu**. Kad atjauninājumi ir pabeigti, ģenerējiet Izmaksu centru **/dalījuma ienākumu pārskatu** un izpētiet šo pārskatu, izmantojot pārskata koku. Sāksim no finanšu **pārskatu** saraksta.
 
 1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
 2. Atlasiet rindu pārskatam ar nosaukumu **Ienākumu pārskats — noklusējuma**.
 3. Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērts **Ieņēmumu pārskats — noklusējuma**.
 4. Izvēlnē **Fails** norādiet uz **Jauns** un pēc tam noklikšķiniet uz **Pārskata koka definīcija**.
 5. Izvēlnē **Rediģēt** noklikšķiniet uz **Ievietot pārskatu vienības no dimensijām**.
-6. Notīriet izvēles rūtiņas visām dimensijām, izņemot **Izmaksu centrs**.
+6. Notīriet izvēles rūtiņas visām dimensijām, izņemot **Izmaksu centru**.
 7. Noklikšķiniet laukā **No dimensijas** izmaksu centra dimensijai, ierakstiet **007** un pēc tam nospiediet taustiņu Tab. Laukā **Līdz dimensijai** ierakstiet **018**.
-8. **Saglabājiet** iegūto koku ar nosaukumu **Izmaksu centri pēc nodaļas.** Kad pārskata koks ir izveidots, modificējiet pārskata koku, lai ietvertu trīs jaunas apkopojuma vienības: Mārketings, Operācijas un Mazumtirdzniecība.
-9. Izvēlnē **Logs** noklikšķiniet uz **Izmaksu centri pēc nodaļas**. (Ja pārskata koks tiek aizvērts, atlasiet to navigācijas rūtī no sadaļas Pārskata koka definīcijas.)
+8. **Saglabājiet** iegūto koku ar nosaukumu **Izmaksu centri ar dalījumu**. Kad pārskata koks ir izveidots, modificējiet pārskata koku, lai ietvertu trīs jaunas apkopojuma vienības: Mārketings, Operācijas un Mazumtirdzniecība.
+9. Izvēlnē **Logs** noklikšķiniet uz **Izmaksu centri pēc nodaļas**. (Ja pārskata koks ir aizvērts, atlasiet to no **Pārskata koka definīcijas** navigācijas rūtī.)
 10. Noklikšķiniet uz otrā vienuma **Tirdzniecības rādītāji** un pēc tam noklikšķiniet uz ikonas **Ievietot pārskata vienības**.
 11. Tukšajā rindā veiciet dubultklikšķi uz elementu kolonnas un atlasiet **USMF**.
 12. Kolonnā B un C ierakstiet **Mārketings**.
@@ -131,13 +131,13 @@ ms.locfileid: "9273431"
 20. Atlasiet **Pazemināt pārskata vienību**. Ievērojiet, ka vienība tagad tiek rādīta kā vienības **Mārketings** apakšvienība.
 21. Noklikšķiniet uz ceturtās vienības **Mārketings Kampaņa** un pēc tam noklikšķiniet ar peles labo pogu.
 22. Atlasiet **Pazemināt pārskata vienību**.
-23. Grafiskajā attēlojumā noklikšķiniet uz **Pakalpojumu darbības**. Nospiediet un turiet nospiestu peles kreiso pogu, vienlaicīgi velkot vienību līdz apkopojumam **Operācijas**. Atlaidiet kreiso peles pogu, lai nomestu vienību apkopojumā Operācijas. Atkārtojiet šo darbību arī vienībai **Ražošana, Kvalitātes kontrole, Loģistika, Sagāde un Administrēšana**.
+23. Grafiskajā attēlojumā noklikšķiniet uz **Pakalpojumu darbības**. Nospiediet un turiet nospiestu peles kreiso pogu, vienlaicīgi velkot vienību līdz apkopojumam **Operācijas**. Atlaidiet kreiso peles pogu, lai nomestu vienību apkopojumā Operācijas. Atkārtojiet šo: ražošana, kvalitātes kontrole **, loģistika** **, sagāde** **un** administrēšana. **·**  **·**
 24. Iestatiet **Izpārdošana**, **Super**, **Tirdzniecības centrs** un **Tiešsaistes** kā **Mazumtirdzniecība** bērnelementu, pazemināt to pozīciju vai velkot un nometot tos.
 25. Saglabājiet izveidoto kārtību. Kad pārskata koks ir izveidots un sakārtots, to var pievienot pārskata definīcijai.
 26. Izvēlnē **Logs** atlasiet **Ieņēmumu pārskats — noklusējuma**, lai atvērtu pārskata definīciju.
 27. Noklikšķiniet uz nolaižamās bultiņas **Koka veids** un atlasiet **Pārskata koks**.
 28. Noklikšķiniet uz nolaižamās bultiņas Koks un atlasiet **Izmaksu centri pēc nodaļas**.
-29. Mainiet pamata gadu uz **2012**, **saglabājiet** izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
+29. Mainiet pamata gadu uz **2021**, **saglabājiet** izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 30. Atlasiet nolaižamo sarakstu **Pārskata koks**, lai skatītu pārskata vienības. Varat arī rakties pārskata rindā, lai skatītu visas bilances pārskata koka visām vienībām.
 31. Aizveriet pārskatu **Ieņēmumu pārskats — noklusējuma**.
 32. Aizveriet lapu **Finanšu pārskata veidotājs**.
@@ -145,11 +145,11 @@ ms.locfileid: "9273431"
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>4. uzdevums. Konsolidēta pārskata izveide, izmantojot organizācijas hierarhiju
 Šajā uzdevumā tiks modificēts esošais noklusējuma pārskats. Pievienojiet organizācijas hierarhiju pārskata definīcijai, lai izveidotu konsolidētu ieņēmumu pārskatu un bilanci. Kad atjaunināšana ir pabeigta, varat ģenerēt un pārskatīt konsolidēto pārskats un pārskatīt to, izmantojot pārskata koku. Sāksim ar sarakstu Finanšu pārskati.
 
-1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
+1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā **Pieprasījumi un pārskati**.
 2. Atlasiet rindu, kas attiecas uz pārskatu ar nosaukumu **Bilance un ieņēmumu pārskats viens otram blakus — noklusējuma**.
 3. Atlasiet **Rediģēt**. Pārskatu veidotājā tiks atvērts **Bilance un ieņēmumu pārskats viens otram blakus — noklusējuma**.
 4. Atlasiet **Fails** &gt; **Saglabāt kā** un piešķiriet pārskatam nosaukumu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
-5. Mainiet pamata gadu uz 2012.
+5. Mainiet pamata gadu uz 2021.
 6. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Organizācijas hierarhijas**.
 7. Noklikšķiniet uz nolaižamās bultiņas Koka veids un atlasiet **Contoso krājumi**.
 8. Saglabājiet izmaiņas un ģenerējiet pārskatu. Ja tiek piedāvāts, atlasiet visas pārskata vienības. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
@@ -162,16 +162,16 @@ ms.locfileid: "9273431"
 15. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>5. uzdevums. Līdzās atvērtu nodaļu pārskata izveide
-Šajā uzdevumā izveidosiet jaunu pārskatu. Pārskats ir līdzās atvērtu nodaļu ieņēmumu pārskats. Varat izmantot esošu rindas definīciju, bet izveidot jaunu pārskata definīciju un jaunu kolonnas definīciju, kas izmanto dimensiju filtrus. Sāksim ar sarakstu Finanšu pārskati.
+Šajā uzdevumā izveidosiet jaunu pārskatu. Pārskats ir līdzās atvērtu nodaļu ieņēmumu pārskats. Varat izmantot esošu rindas definīciju, bet izveidot jaunu pārskata definīciju un jaunu kolonnas definīciju, kas izmanto dimensiju filtrus. Sāksim no finanšu **pārskatu** saraksta.
 
-1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
+1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā **Pieprasījumi un pārskati**.
 2. Atlasiet **Jauns**. Pārskata veidotājs atvērsies ar atvērtu tukšu pārskata definīciju. Vispirms izveidojiet kolonnas definīciju.
 3. Izveidojiet jaunu kolonnas definīciju, noklikšķinot uz **Fails**, pēc tam noklikšķinot uz **Jauna** un pēc tam noklikšķinot uz **Kolonnas definīcija**.
 4. **Kolonnā A** izvēlēties **DESC** kā kolonnas veidu.
 5. **Kolonnā B** izvēlēties **FD** kā kolonnas veidu.
 6. Veiciet dubultklikšķi laukā **Dimensiju filtrs**.
 7. Logā **Dimensija** veiciet dubultklikšķi uz kolonnas **Nodaļa**.
-8. Dialoga sadaļā Atsevišķa vai diapazons noklikšķiniet uz **daudzpunktes** pie lauka **No**, lai parādītu nodaļu sarakstu.
+8. Dialoga sadaļā **Individuāls** vai diapazons noklikšķiniet elipsi **laukam** No **,** lai tiktu parādīts nodaļu saraksts.
 9. Atlasiet nodaļu **022**, **Tirdzniecība un mārketings** un pēc tam noklikšķiniet uz **Labi**.
 10. Atkārtojiet 5.–8. darbību 23.–25. nodaļai.
 11. Rindas **2. galvene** katrā kolonnā FD ierakstiet šādu nodaļu aprakstu:
@@ -185,7 +185,7 @@ ms.locfileid: "9273431"
 13. Izvēlnē **Logs** atlasiet **Jauna pārskata definīcija**, lai atvērtu pārskata definīciju.
 14. Atlasiet **Ieņēmumu pārskats — noklusējuma** kā rindas definīciju un **Līdzās atvērtas nodaļas** kā kolonnas definīciju.
 15. Saglabājiet pārskata definīciju ka **Līdzās atvērtu nodaļu ieņēmumu pārskats**.
-16. Mainiet pamata gadu uz **2012**.
+16. Mainiet pamata gadu uz **2021**.
 17. Mainiet detalizācijas līmeni uz **Finanšu, konta un transakcijas**.
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 

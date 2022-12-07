@@ -2,7 +2,7 @@
 title: Skatīt finanšu pārskatus
 description: Šajā rakstā ir aprakstīts, kā skatīt un apskatīt finanšu pārskatus Microsoft Dynamics 365 Finansēs. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907897"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802396"
 ---
 # <a name="view-financial-reports"></a>Skatīt finanšu pārskatus
 
@@ -31,7 +31,7 @@ ms.locfileid: "8907897"
 ## <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 
 ## <a name="open-a-financial-report"></a>Finanšu pārskata atvēršana
-Lai atvērtu pārskatu, atlasiet pārskata nosaukumu. Kad pārskatu atverat pirmo reizi, tas tiek automātiski ģenerēts par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2015. gada augustā, šī atskaite tiek ģenerēta par 2015. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
+Lai atvērtu pārskatu, atlasiet pārskata nosaukumu. Kad pārskatu atverat pirmo reizi, tas tiek automātiski ģenerēts par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2020. gada augustā, šī atskaite tiek ģenerēta par 2020. gada 31. jūliju. Pēc pārskata atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot pārskata opcijas.
 
 ## <a name="drill-down-on-a-financial-report"></a>Finanšu pārskata datu skatīšana detaļās
 Finanšu pārskati var ietvert vairākus detalizācijas līmeņus. Finanšu līmenis ir pirmais līmenis, ko redzat, atverot finanšu pārskatu. Lai dotos uz konta līmeni, atlasiet datus, ko vēlaties skatīt detalizēti. Piemēram, lai skatītu detalizētu pārdošanas konta informāciju, atlasiet izvēršamos pārdošanas datus. No konta līmeņa varat ritināt lejup, lai skatītu transakcijas, kas veido konta bilanci. Transakcijas var skatīt divos veidos: pārskata transakcijas un dokumentu transakcijas.
@@ -46,12 +46,12 @@ Varat lietot atribūtu un dimensiju filtrus vai mainīt budžeta scenāriju pār
 
 -   Lai pārskatam lietotu atribūta filtrus, atlasiet **Pievienot atribūta filtru**. Atlasiet atribūtu, ierakstiet atribūta vērtību un tad noklikšķiniet uz **Labi**. Piemēram, atlasot atribūtu **Konta kategorija**, ievadiet **PĀRDOŠANA** kā atribūta vērtību. Lai noņemtu atribūtu filtru, noklikšķiniet uz **Notīrīt**.
 -   Lai pārskatam lietotu dimensiju filtrus, atlasiet **Pievienot dimensiju filtru**. Atlasiet dimensiju un pēc tam vai nu ierakstiet dimensijas ID, vai atlasiet dimensiju sarakstā. Lai noņemtu dimensiju filtru, noklikšķiniet uz **Notīrīt**.
--   Lai mainītu scenāriju pārskatā **Faktiskās pret budžeta**, atlasiet jaunu scenāriju un pēc tam noklikšķiniet uz **Labi**. Ja atlasītais scenārijs ir citam finanšu gadam, netiks atgriezti nekādi rezultāti. Piemēram, ja tiek ģenerēts pārskats gadam FY2015 un pašreizējais scenārijs ir paredzēts gadam FY2015, un ja jaunais scenārijs tiek atlasīts gadam FY2016, netiek atgriezti nekādi rezultāti. Ja ir nepieciešams jauns scenārijs citam finanšu gadam, ģenerējiet jaunu pārskata versiju ar attiecīgo scenāriju saistītajam finanšu gadam.
+-   Lai mainītu scenāriju pārskatā **Faktiskās pret budžeta**, atlasiet jaunu scenāriju un pēc tam noklikšķiniet uz **Labi**. Ja atlasītais scenārijs ir citam finanšu gadam, netiks atgriezti nekādi rezultāti. Piemēram, ja tiek ģenerēts pārskats gadam FY2015 un pašreizējais scenārijs ir paredzēts gadam FY2020, un ja jaunais scenārijs tiek atlasīts gadam FY2016, netiek atgriezti nekādi rezultāti. Ja ir nepieciešams jauns scenārijs citam finanšu gadam, ģenerējiet jaunu pārskata versiju ar attiecīgo scenāriju saistītajam finanšu gadam.
 
 Noklikšķinot uz **Labi**, pārskatā tiek lietotas visas atlasītās opcijas. Ja izlemjat, ka nevēlaties lietot atlasītās opcijas, noklikšķiniet uz **Atcelt**.
 
 ## <a name="update-a-financial-report"></a>Finanšu pārskata atjaunināšana
-Varat atsvaidzināt (atjaunināt) finanšu pārskatu, lai tajā parādītu jaunākos datus par periodu un gadu, kam pārskats tika ģenerēts. Piemēram, ja atjaunināt finanšu atskaiti, kas tika ģenerēta 2015. gada oktobrim, šī atskaite atspoguļo visas jaunās transakcijas, kas tika grāmatotas 2015. gada oktobrim. Lai atjauninātu finanšu atskaiti, darbību rūti noklikšķiniet uz **Atsvaidzināt**. Atjauninātais pārskats ir pieejams tikai tai personai, kas to atjaunina. Lai citas personas skatītu šos datus, pārskats ir jāpublicē.
+Varat atsvaidzināt (atjaunināt) finanšu pārskatu, lai tajā parādītu jaunākos datus par periodu un gadu, kam pārskats tika ģenerēts. Piemēram, ja atjaunināt finanšu atskaiti, kas tika ģenerēta 2020. gada oktobrim, šī atskaite atspoguļo visas jaunās transakcijas, kas tika grāmatotas 2020. gada oktobrim. Lai atjauninātu finanšu atskaiti, darbību rūti noklikšķiniet uz **Atsvaidzināt**. Atjauninātais pārskats ir pieejams tikai tai personai, kas to atjaunina. Lai citas personas skatītu šos datus, pārskats ir jāpublicē.
 
 ## <a name="publish-a-financial-report"></a>Finanšu pārskata publicēšana
 Pēc finanšu pārskata atjaunināšanas to var publicēt. Citas personas organizācijā varēs to skatīt. Lai publicētu pārskatu, darbību rūti noklikšķiniet uz **Publicēt**.

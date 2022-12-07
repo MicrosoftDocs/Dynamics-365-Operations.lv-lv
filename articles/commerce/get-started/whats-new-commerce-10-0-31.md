@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709873"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787531"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Dynamics 365 Commerce 10.0.31 priekšskatījums (2023. gada februāris)
 
@@ -36,8 +36,9 @@ ms.locfileid: "9709873"
 |---|---|---|---|
 | Kļūdu kodi | Commerce ieviestas standartizētas kļūdu atsauces, kas jāietver tiešsaistes kanāla pārbaudes kļūdās, kas iesniegtas tiešsaistes veikalam.| [Pārbaudes moduļa kļūdu kodi](../checkout-module-error-codes.md)  | Ieslēgts pēc noklusējuma |
 | Maksājumi | [Iespējojiet Saņemšanas apmaksu, izmantojot Dynamics 365 maksājumu savienotāju Aādēnei](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | E-komercijas debitori var izmantot Algu par grozu un norēķināšanas lapas, izmantojot atbalstītās ierīces vai pārlūkprogrammas. | Izstrādātāja pieteikšanās |
-| Maksājumi  |  Commerce pievienoja iespēju ierobežot lietotāju mijiedarbošanās ar periodiskām maksājumu žetoniem programmas Commerce Headquarters lietotāja interfeisā. Maksājumu formas, piemēram **, lapa Zvanu** centra pārdošanas pasūtījums, vairs nerāda debitora iepriekš izmantotā periodiskā maksājuma marķieri izmantošanai jaunā darbībā. Tikai noteikta karte failā, kas tiek ievadīta Commerce **Customer Payments** ekrānā vai vienošanās ar debitoru, veicot maksājumu ar pārdošanas pasūtījumu, tiks iesniegta zvanu centram vai Commerce Headquarters lietotājiem, apstrādājot maksājumu jaunai darbībai. | [Ierobežot maksājuma marķiera izmantošanu](../dev-itpro/limit-token-usage.md)  |  Līdzekļu pārvaldība<p>*Ierobežot maksājuma marķiera izmantošanu pasūtījuma kontekstā*  |
+| Maksājumi  |  Commerce pievienoja iespēju ierobežot lietotāju mijiedarbošanās ar periodiskām maksājumu žetoniem programmas Commerce Headquarters lietotāja interfeisā. Maksājumu formas, piemēram **, lapa Zvanu** centra pārdošanas pasūtījums, vairs nerāda debitora iepriekš izmantotā periodiskā maksājuma marķieri izmantošanai jaunā darbībā. Tikai noteikta karte failā, kas tiek ievadīta Commerce **Customer Payments** ekrānā vai vienošanās ar debitoru, veicot maksājumu ar pārdošanas pasūtījumu, tiks iesniegta zvanu centram vai Commerce Headquarters lietotājiem, apstrādājot maksājumu jaunai darbībai. | [Maksājumu marķieru lietošanas ierobežošana](../dev-itpro/limit-token-usage.md)  |  Līdzekļu pārvaldība<p>*Ierobežot maksājuma marķiera izmantošanu pasūtījuma kontekstā*  |
 | POS | [Izveidot pirkšanas pasūtījumus no POS](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  Uzlabota saņemšanas krājumu operācija pārdošanas punktā (POS), lai ļautu lietotājiem izveidot, rediģēt un apstiprināt pirkšanas pasūtījumu pieprasījumus. |  Līdzekļu pārvaldība<p>*Iespēja izveidot pirkšanas pasūtījuma pieprasījumu POS*   |
+| Pieejamās papildu valodas | Pieejamas četras papildu valodas | Lietotāja atlasei ir pieejamas četras jaunas valodas vēlamajā valodu sarakstā: Jareju, Portugāļu (Atlasē), Vjetnama un Ķīniešu (Tradicionālā). Lai atlasītu šo opciju, pārejiet uz sadaļu **Lietotāja opciju \> preferences \> valoda un valsts/reģiona preference**. | Lokalizētās preferences |  
 
 
 

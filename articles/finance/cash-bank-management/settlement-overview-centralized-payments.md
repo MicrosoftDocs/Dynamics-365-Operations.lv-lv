@@ -2,7 +2,7 @@
 title: Centralizētu maksājumu nosegšanas pārskats
 description: Šajā rakstā ir aprakstīta 365 Finanšu centralizēto Microsoft Dynamics norēķinu segšana.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151168"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804231"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizētu maksājumu nosegšanas pārskats
 
@@ -84,11 +84,11 @@ Starpuzņēmumu segšanas procesa laikā ģenerētās termiņatlaides tiek grām
 
 Pārmaksas, nepilnas samaksas un sīknaudas starpības tolerances tiek noteiktas, ņemot vērā maksājuma dokumentā norādīto juridisko personu pārmaksu gadījumā un rēķinā norādīto juridisko personu nepilnu samaksu gadījumā. Izmantotais grāmatošanas konts tiek noteikts pēc iestatījuma laukā **Termiņatlaižu administrēšana**, debitoru lapā **Debitoru parādu parametri** un laukā **Termiņatlaižu administrēšana**, kreditoru lapā **Kreditoru parādu parametri**.
 
--   Ja termiņatlaides administrēšanas iestatījums ir Specifiska vai arī ja iestatījums ir Nespecifiska un piemērojamā termiņatlaide tiek grāmatota citā juridiskajā personā, kas nav pārmaksas uzņēmums, tiek izmantots lauka Debitora termiņatlaide, Kreditora termiņatlaide vai Sīknaudas starpība uzskaites valūtā automātiskais konts. Šos kontus varat norādīt lapā **Automātisko darījumu konti**.
--   Ja termiņatlaides administrēšanas iestatījums ir Nespecifiska un termiņatlaide tiek grāmatota tajā pašā juridiskajā personā, kur pārmaksa (maksājuma dokumentā norādītā juridiskā persona un rēķinā norādītā juridiskā persona ir tā pati), termiņatlaides konts tiek koriģēts. Piemēram, ja rēķins par summu 100,00 ar pieejamu termiņatlaidi 3,00 vienību apmērā tiek segts ar maksājumu par summu 98,00, termiņatlaides konts tiek koriģēts par 1,00 vienību. Atlaides neto summa ir 2,00.
--   Ja termiņatlaides administrēšanas iestatījums ir Nespecifiska, termiņatlaide tiek grāmatota tajā pašā juridiskajā personā, kur pārmaksa, un pārmaksa un nepilnā samaksa tiek segta ar vairākiem rēķiniem ar termiņatlaidēm, pēdējā rēķina termiņatlaides konts tiek koriģēts.
+-    **·** **Ja termiņatlaides administrēšanas iestatījums ir Specifisks vai ja iestatījums ir Nespecifiska** un piemērojamā termiņatlaide tiek grāmatota citā juridiskajā persona no pārmaksas, tiek izmantots automātiskais konts debitora termiņatlaidēm, kreditora termiņatlaidēm vai Sīknaudas starpībai uzskaites valūtā. Šos kontus varat norādīt lapā **Automātisko darījumu konti**.
+-    **Ja termiņatlaides administrēšanas iestatījums ir Nespecifiska** un termiņatlaide tiek grāmatota tajā pašā juridiskajā personām, kas ir pārmaksas (maksājuma juridiskā persona un rēķina juridiskā persona ir tā pati), termiņatlaides konts tiek koriģēts. Piemēram, ja rēķins par summu 100,00 ar pieejamu termiņatlaidi 3,00 vienību apmērā tiek segts ar maksājumu par summu 98,00, termiņatlaides konts tiek koriģēts par 1,00 vienību. Atlaides neto summa ir 2,00.
+-    **Ja termiņatlaides administrēšanas iestatījums ir Nespecifiska**, termiņatlaide tiek grāmatota tajā pašā juridiskajā persona kā pārmaksa, un pārmaksa un nemaksa tiek segta ar vairākiem rēķiniem ar termiņatlaidēm, pēdējā rēķina termiņatlaides konts tiek koriģēts.
 
-Ja termiņatlaides administrēšanas izvēle ir Nespecifiska, nespecifiski maksājumu segšanas noteikumi piemērojami tikai šādās situācijās:
+Ja termiņatlaides administrēšanas **atlase ir Nespecifiska**, nespecifiska maksājumu segšanas noteikumi piemērojami tikai šādās situācijās:
 -   Pastāv pārmaksa.
 -   Pārmaksa tiek segta ar vienu vai vairākiem rēķiniem, kam ir termiņatlaide.
 -   Termiņatlaide tiek grāmatota tajā pašā juridiskajā personā, kur pārmaksa.

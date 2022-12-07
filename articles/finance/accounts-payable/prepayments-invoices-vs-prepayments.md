@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715834"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804268"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu
 
@@ -65,12 +65,13 @@ Priekšapmaksas konts ir jādefinē cilnes **Pirkšanas pasūtījums** lapā **K
 
 Korespondējošais kreditoru parādu kopsavilkums ir definēts profilā **Kreditora grāmatošana**. Lai definētu noklusējuma grāmatošanas metodi, noklikšķiniet uz **Kreditoru parādi \>Iestatījums \> Kreditoru parādu parametri \>Virsgrāmata un nodokļa cilne \> Grāmatošanas profils ar priekšapmaksas kreditora rēķinu**.
 
-Cilne **Priekšapmaksas programmas politika** norāda, vai sistēma automātiski piemēros apmaksātos priekšapmaksas rēķinus beigu rēķinam, kas tika izveidots manuāli. Rēķini, kas izveidoti, izmantojot datu elementu, neattiecas uz **Priekšapmaksas pieteikuma politiku**. Nosegti priekšapmaksas rēķini ir manuāli jālieto rēķiniem, kas izveidoti, lietojot datu elementu. Lai definētu politiku, dodieties uz sadaļu **Kreditoru parādi \>Iestatījums \> Kreditoru parādu parametri \> Virsgrāmata un nodokļa cilne \> Priekšapmaksas pieteikumu politika**. Ja lauks **Priekšapmaksas pieteikuma politika** ir iestatīts uz **Automātisks**, priekšapmaksas rēķins tiek automātiski atzīmēts segšanai ar gala rēķinu. Ja lauks ir iestatīts uz **Paziņojums**, tiks rādīta vizuāla norāde, ka priekšapmaksas rēķins ir pieejams pieteikumam, izveidojot galīgo rēķinu.
+Priekšapmaksas **programmas politika norāda**, vai apmaksātie priekšapmaksas rēķini tiks automātiski pielietoti beigu rēķinam, kas tika izveidots manuāli. Rēķini, kas izveidoti, izmantojot datu elementu, neattiecas uz **Priekšapmaksas pieteikuma politiku**. Nosegti priekšapmaksas rēķini ir manuāli jālieto rēķiniem, kas izveidoti, lietojot datu elementu. Lai definētu politiku, dodieties uz sadaļu **Kreditoru parādi \>Iestatījums \> Kreditoru parādu parametri \> Virsgrāmata un nodokļa cilne \> Priekšapmaksas pieteikumu politika**. Ja lauks **Priekšapmaksas pieteikuma politika** ir iestatīts uz **Automātisks**, priekšapmaksas rēķins tiek automātiski atzīmēts segšanai ar gala rēķinu. Ja lauks ir iestatīts uz **Paziņojums**, tiks rādīta vizuāla norāde, ka priekšapmaksas rēķins ir pieejams pieteikumam, izveidojot galīgo rēķinu.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Izveidot pirkšanas pasūtījumu, kas satur informāciju par priekšapmaksas rēķinu
-Kad kreditors paziņo, ka pieprasa priekšapmaksu par precēm un pakalpojumiem, kas ietverti pirkšanas pasūtījumā, jādefinē priekšapmaksas vērtība saistītajā pirkšanas pasūtījumā. Dodieties uz **Debitoru parādi \> Kopējais \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi** un atrodiet kreditora pirkšanas pasūtījumu. Darbības rūtī atlasiet cilni **Nopirkt**, pēc tam atlasiet **Priekšapmaksa**. Ievadiet informāciju par priekšapmaksu, tostarp aprakstu, priekšapmaksas vērtību, vai priekšapmaksa ir fiksēta summa vai procents un priekšapmaksas kategorijas ID. 
+Kad kreditors paziņo, ka pieprasa priekšapmaksu par precēm un pakalpojumiem, kas ietverti pirkšanas pasūtījumā, jādefinē priekšapmaksas vērtība saistītajā pirkšanas pasūtījumā. Dodieties uz **Debitoru parādi \> Kopējais \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi** un atrodiet kreditora pirkšanas pasūtījumu. Darbības rūtī atlasiet cilni Pirkums **un** pēc tam atlasiet **Priekšapmaksa**. Ievadiet informāciju par priekšapmaksu, tostarp aprakstu, priekšapmaksas vērtību, vai priekšapmaksa ir fiksēta summa vai procents un priekšapmaksas kategorijas ID. 
 
-Ievērojiet, ka vairākas priekšapmaksas definīcijas pirkšanas pasūtījumā nav atļautas. Ja pirkšanas pasūtījumā ir jāatļauj vairākas priekšapmaksas, grāmatojiet maksājumus, izmantojot maksājumu žurnālu, nevis priekšapmaksas rēķinu.
+> [!Note] 
+> Vairākas priekšapmaksas definīcijas pirkšanas pasūtījumā nav atļautas. Ja pirkšanas pasūtījumā ir jāatļauj vairākas priekšapmaksas, grāmatojiet maksājumus, izmantojot maksājumu žurnālu, nevis priekšapmaksas rēķinu.
 
 Priekšapmaksu var noņemt no pirkšanas pasūtījuma, ja vien jūs jau neesat nosedzis maksājumu attiecībā uz grāmatoto priekšapmaksas rēķinu vai grāmatojis standarta rēķinu. Lai noņemtu priekšapmaksas informāciju no pirkšanas pasūtījuma, atlasiet **Kreditoru paradi \> Kopējais \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi** un atrodiet kreditora pirkšanas pasūtījumu. Darbības rūtī atlasiet cilni **Nopirkt**, pēc tam atlasiet **Priekšapmaksas noņemšana**.
 
@@ -79,7 +80,7 @@ Lai ierakstītu kreditora priekšapmaksas rēķinu, dodieties uz lapu **Kreditor
 
 Grāmatojot priekšapmaksas rēķinu, tiek atjaunināts kreditora atlikums un priekšapmaksas konts. Tiks atjaunināta arī vērtība **Priekšapmaksas pieteikums** priekšapmaksas definīcijā, kas ietverta pirkšanas pasūtījumā. Noklusējuma finanšu dimensijas ieraksti grāmatotajā priekšapmaksas dokumentā tiks ņemti no virsraksta informācijas pirkšanas pasūtījumā.
 
-Ja kreditoru **priekšapmaksas rēķina lapas** **rēķina** rindu finanšu bloķēšanas funkcija ir ieslēgta, tad priekšapmaksas galvenes vai rindu dimensijas nevar atjaunināt. 
+Ja kreditoru **priekšapmaksas rēķina lapas**  **rēķina** rindu finanšu bloķēšanas funkcija ir ieslēgta, tad priekšapmaksas galvenes vai rindu dimensijas nevar atjaunināt. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Grāmatot un nosegt maksājumus priekšapmaksas rēķinam
 Pēc tam priekšapmaksas rēķins tiks apmaksāts no lapas **Maksājumu žurnāls**. Lai piekļūtu maksājumu žurnāliem, noklikšķiniet uz **Kreditoru parādi u maksājumu \> Žurnāli \> Maksājumi \> Maksājumu žurnāls**. Pēc maksājuma nosegšanas iegrāmatošanas priekšapmaksas rēķinā, tiks atjaunināta pirkšanas pasūtījuma **Priekšapmaksas pieteikuma atlikusī** vērtība.

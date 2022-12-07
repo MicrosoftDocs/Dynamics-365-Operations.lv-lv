@@ -2,7 +2,7 @@
 title: Atvaļinājumu un prombūtnes veidu konfigurēšana
 description: Iestatiet atvaļinājumu tipus, ko darbinieki var izņemt pakalpojumā Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323964"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805209"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,20 +42,26 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 1. Cilnē Atvaļinājums **un kavējumi** atlasiet **cilni** Saites.
 2. Sadaļā **Iestatīšana** atlasiet **Atvaļinājumu un kavējumu veidi**.
-3. Atlasiet **Jauns**.
-4. Ievadiet atvaļinājuma veida nosaukumu laukā **Veids**, atlasiet darbplūsmu no **Darbplūsmas ID** un ievadiet aprakstu laukā **Apraksts**.
+3. Atlasiet **Jauna**.
+4. Ievadiet atvaļinājuma tipa nosaukumu zem **Tipa, ievadiet** **aprakstu sadaļā Apraksts un atlasiet darbplūsmu laukā** Darbplūsmas **ID** . Pamatojoties uz atvaļinājuma veidu, atlasiet pieprasījuma veidu lauku **Pieprasījuma** veids. Piemēram, atlasiet Prombūtnes **laiku** **vai Atvaļinājumu**.
 5. Laukā **Vispārīgi** atlasiet **Neviens**, **Plānots** vai **Neplānots** nolaižamajā sarakstā **Kategorija**.
 6. Atlasiet pelnīšanas kodu no nolaižamā saraksta **Ienākumu veida kods**.
-7. Laukā **Nepieciešams pamatojuma kods** izvēlieties, vai vēlaties pieprasīt pamatojuma kodu. Ja vēlaties pieprasīt pamatojuma kodus, iespējams, tie ir jāpievieno. Sadaļā **Pamatojumu kodi** atlasiet **Pievienot**, atlasiet pamatojuma kodu un pēc tam blakus atzīmējiet izvēles rūtiņu **Iespējoti**.
-8. Sadaļā **Ierobežot piekļuvi atlasītajām lomām** izvēlieties, vai vēlaties ierobežot piekļuvi. Pēc tam atlasiet drošības lomas sadaļā **Drošības lomas šim atvaļinājuma veidam**. Drošības lomas ir definētas darbplūsmā, ko atlasījāt laukā **Darbplūsmas ID** iepriekš šajā procedūrā.
-9. Sadaļā **Kalendāra krāsa** izvēlieties krāsu, ko parādīt atvaļinājuma un kavējumu kalendāros šim atvaļinājuma tipam. 
-10. Sadaļā **Atlikšanas attiecības** izvēlieties, vai vēlaties, lai šo atvaļinājuma veidu aiztur cits cits atvaļinājuma veids vai arī to aptur cits atvaļinājuma veids. Ja prombūtnes atvaļinājuma pieprasījums ir iesniegts atliktam atvaļinājuma veidam, tad aizturētā atvaļinājuma veidam automātiski tiks izveidota atvaļinājuma atlikšana. 
-11. Atlasiet **Saglabāt**.
+7. Sadaļā **Pamatojuma kods ir** jāatlasa, vai vēlaties pieprasīt pamatojuma kodu. Ja vēlaties pieprasīt pamatojuma kodus, iespējams, tos jāpievieno. Sadaļā **Pamatojumu kodi** atlasiet **Pievienot**, atlasiet pamatojuma kodu un pēc tam blakus atzīmējiet izvēles rūtiņu **Iespējoti**.
+8. Ja pieprasījuma tips ir Atvaļinājums **, rīkojieties** šādi:
+
+      1. Sadaļā **Atvērti pabeigti** atlasiet, vai lietotājiem vajadzētu izveidot atvērtas lapas.
+      2. Ja **atslēga** Atvērts pabeigts ir aktivizēta, varat atlasīt, vai darbiniekiem ir jāiesniedz paziņojums par atgriešanu darbā, kad viņi atgriežas no atvaļinājuma.
+      3. Ja darbiniekiem ir jāiesniedz paziņojums par atgriešanu darbā, varat iespējot iespējot atgriešanu **, lai rādītu darba paziņojumu**. Ja **iespējot iespējot darba paziņojuma atgriešanu**, automātiski **tiek iespējots** pielikums, un to nevar deaktivizēt.
+
+9. Ja lietotājiem ir jāveic dokumentu augšupielāde, kad tie izveido vai atjaunina atvaļinājumu pieprasījumus, varat iespējot nepieciešamo **pielikumu**.
+10. Sadaļā **Ierobežot piekļuvi atlasītajām lomām** atlasiet, vai vēlaties ierobežot piekļuvi. Pēc tam zem **Drošības lomas šim atvaļinājuma** tipam atlasiet drošības lomas. Drošības lomas ir definētas darbplūsmā, ko iepriekš **šajā procedūrā atlasījāt zem Darbplūsmas ID** .
+11. Cilnē **Kalendāra krāsa** atlasiet krāsu, kas šim atvaļinājuma tipam jārāda atvaļinājuma laikā, un kavējumu kalendārus.
+11. Zem Atlikšanas **relācijas** atlasiet, vai šim atvaļinājuma tipam ir jāpārtrauc cits atvaļinājuma tips vai jāpārtrauc ar citu atvaļinājuma tipu. Ja prombūtnes atvaļinājuma pieprasījums ir iesniegts atliktam atvaļinājuma veidam, tad aizturētā atvaļinājuma veidam automātiski tiks izveidota atvaļinājuma atlikšana.
+12. Atlasiet **Saglabāt**.
 
 ## <a name="configure-leave-type-rules"></a>Konfigurēt atvaļinājumu veidu kārtulas
 
-1. Iestatiet noapaļošanas opcijas tipam Atvaļinājums **un Kavējumi**. Opcijas ietver **Neviens**, **Uz augšu**, **Uz leju** un **Tuvākais**. Atvaļinājuma veidam var arī iestatīt noapaļošanas precizitāti.
-
+1. Iestatiet noapaļošanas opcijas tipam Atvaļinājums **un Kavējumi** . Opcijas ietver **Neviens**, **Uz augšu**, **Uz leju** un **Tuvākais**. Atvaļinājuma veidam var arī iestatīt noapaļošanas precizitāti.
 2. Iestatiet atvaļinājuma veida **Brīvdienu labojumu** Atlasot šo opciju, tiks izmantots to brīvdienu skaits, kuras iekrīt darba dienā, lai noteiktu, kā uzkrāt brīvo laiku atvaļinājuma veidam. Piemēram, ja Ziemassvētki ir pirmdienā, Human Resources, apstrādājot uzkrājumus, atņem vienu dienu no atvaļinājuma veida.
 
    Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 1. Lapas **Atvaļinājums un prombūtne** cilnē **Saites** zem **Iestatījumi** atlasiet **Atvaļinājuma un prombūtnes tipi**.
 
-2. Sarakstā atlasiet atvaļinājuma un prombūtnes tipu. Pēc tam sadaļā **Vispārīgi** izmantojiet lauku **Pielikums**, kas nepieciešams, lai norādītu, vai pielikums ir jāielādē, kad darbinieks iesniedz jaunu atvaļinājuma pieprasījumu atlasītajam atvaļinājuma tipam. 
+2. Sarakstā atlasiet **tipu Atvaļinājums** un kavējums. Sadaļā Vispārīgi **izmantojiet** lauku Pievienot nepieciešamo, lai norādītu, vai pielikums ir jāielādē, **kad** darbinieks iesniedz jaunu atvaļinājuma pieprasījumu atlasītajam atvaļinājuma tipam. 
 
 Darbiniekiem būs jāielādē pielikums, kad tie iesniedz jaunu atvaļinājuma pieprasījumu ar atvaļinājuma tipu, kur ir iespējots lauks **Nepieciešams pielikums**. Lai skatītu pielikumu, kas tika augšupielādēts kā daļa no atvaļinājuma pieprasījuma, atvaļinājuma pieprasījuma apstiprinātāji var izmantot opciju **Pielikumi** darba vienumiem, kas tiem piešķirti. Ja atvaļinājuma pieprasījumam var piekļūt, izmantojot programmu Human Resources Microsoft Teams, atvaļinājuma pieprasījuma opciju **Skatīt detalizētu informāciju** var izmantot, lai skatītu detalizētu informāciju par to un visus pielikumus.
 

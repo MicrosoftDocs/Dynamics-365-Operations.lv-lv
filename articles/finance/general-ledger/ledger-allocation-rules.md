@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901289"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787558"
 ---
 # <a name="ledger-allocation-rules"></a>Virsgrāmatas sadalījuma kārtulas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901289"
 
 Šajā rakstā ir sniegta informācija par virsgrāmatas sadalījuma kārtulām. Tajā ir aprakstīti dažādi šo sadalījuma kārtulu un tiem izmantojamo sadalīšanas metožu komponenti.
 
-Virsgrāmatas sadalījuma kārtulas izmanto, lai automātiski aprēķinātu un ģenerētu sadalījuma žurnālus un virsgrāmatas bilances vai fiksētu summu sadales kontu ierakstus. Sadalījuma metodes var būt mainīgas vai fiksētas. Virsgrāmatas sadalījuma kārtulām var izmantot šādas sadalījuma metodes.
+Virsgrāmatas sadalījuma kārtulas izmanto, lai automātiski aprēķinātu un ģenerētu sadalījuma žurnālus un virsgrāmatas bilances vai fiksētu summu sadales kontu ierakstus. Sadalījuma metodes var būt mainīgas vai fiksētas. Sadalījums tiek balstīts uz darbības valūtas vērtību. Piemēram, ārvalstu valūtas peļņas/zaudējumu uzskaites ieraksti tiek grāmatoti, lai koriģētu uzskaites un pārskata valūtas summas. Uz šiem ierakstiem neattiecas sadalījuma noteikumi, jo to darbības valūtas vērtība ir 0,00. Virsgrāmatas sadalījuma kārtulām var izmantot šādas sadalījuma metodes.
 
 -   **Pamata** — šī mainīgā metode tiek lietota, ja sadalījums ir atkarīgs no faktiskās virsgrāmatas bilances, pamatojoties uz filtra kritērijiem. Piemēram, var tikt piešķirti reklāmas izdevumi, pamatojoties uz katras nodaļas pārdošanas apjomu proporcionāli kopīgajam nodaļas pārdošanas apjomam.
 -   **Fiksēta procentuālā vērtība** un **Fiksēts svars** — šīm metodēm sadalījuma procenti vai svars tiek noteikts tieši šai kārtulai. Piemēram: reklāmas izdevumus var piešķirt tā, lai A nodaļa saņemtu 70 procentus reklāmas izdevumu, bet B nodaļa — 30 procentus.

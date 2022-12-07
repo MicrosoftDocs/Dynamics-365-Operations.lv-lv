@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276721"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819274"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Konfigurēt PVN tiešsaistes pasūtījumiem
 
@@ -33,6 +33,8 @@ Iespējams, vēlēsities, lai jūsu e-komercijas kanāls atbalsta tādas opcijas
 ## <a name="destination-based-taxes-for-online-orders"></a>Tiešsaistes pasūtījumu mērķa nodokļi
 
 Parasti nodokļus tiešsaistes pasūtījumiem, kas nosūtāmi uz klienta adresēm, definē adresāts. Katrai PVN grupai ir mazumtirdzniecības mērķa nodokļu konfigurācija, kurā jūsu uzņēmums var definēt adresāta informāciju, piemēram, apgabals vai reģions, rajons, apgabals un pilsēta hierarhiskā formā.
+
+Mazumtirdzniecības **mērķa nodokļu** konfigurāciju var atrast **nodokļu modulī, > netiešajiem nodokļiem > PVN > PVN** grupas.
 
 ### <a name="orders-delivered-to-customer-address"></a>Pasūtījumi, kas piegādāti uz klienta adresi
 

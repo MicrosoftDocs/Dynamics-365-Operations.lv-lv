@@ -13,36 +13,36 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b0c454745bc02a101514d44a20bd47dad0c548d5
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902521"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815688"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
 
 [!include [banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 Finanšu versijā 10.0.25 līdzekli **Virsgrāmatas nosegšanas un gada beigu** **slēgšanas līdzekli var izmantot līdzekļu pārvaldības darbvietā**. Šis līdzeklis pievieno divus primāros uzlabojumus, kas ietekmē Virsgrāmatas segšanu un Virsgrāmatas gada beigu aizvēršanu.
+ Microsoft Dynamics 365 Finanšu versijā 10.0.25 līdzekli **Virsgrāmatas nosegšanas un gada beigu**  **slēgšanas līdzekli var izmantot līdzekļu pārvaldības darbvietā** . Šis līdzeklis pievieno divus primāros uzlabojumus, kas ietekmē Virsgrāmatas segšanu un Virsgrāmatas gada beigu aizvēršanu.
 
-Virsgrāmatas gada beigu slēgšanas laikā nosegtās Virsgrāmatas darbības vairs netiks ietvertas nākamā finanšu gada sākuma bilancē. Šis uzlabojumi nodrošina, ka sākuma bilancē tiek iekļautas tikai nenosegtās Virsgrāmatas darbības. Ir svarīgi, kad tiek palaista Virsgrāmatas ārvalstu valūtas pārvērtēšana. Ārvalstu valūtas pārvērtēšana tiek palaista tikai Virsgrāmatas darbībām ar statusu Nav **nosegts**. Tomēr pirms **bija atbrīvota virsgrāmatas nosegšanas un gada beigu slēgšanas funkcijas apzināšana,** **·** **sākuma bilance summēja abas darbības, kurām ir statuss Nosegts un tām, kurām ir statuss Nav nosegts un** apkopotās summas statuss tika iestatīts uz Nav nosegts.**·**
+Virsgrāmatas gada beigu slēgšanas laikā nosegtās Virsgrāmatas darbības vairs netiks ietvertas nākamā finanšu gada sākuma bilancē. Šis uzlabojumi nodrošina, ka sākuma bilancē tiek iekļautas tikai nenosegtās Virsgrāmatas darbības. Ir svarīgi, kad tiek palaista Virsgrāmatas ārvalstu valūtas pārvērtēšana. Ārvalstu valūtas pārvērtēšana tiek palaista tikai Virsgrāmatas darbībām ar statusu Nav **nosegts**. Tomēr pirms **bija atbrīvota virsgrāmatas nosegšanas un gada beigu slēgšanas funkcijas apzināšana,**  **·**  **sākuma bilance summēja abas darbības, kurām ir statuss Nosegts un tām, kurām ir statuss Nav nosegts un** apkopotās summas statuss tika iestatīts uz Nav nosegts. **·**
 
-Otrais uzlabojumi ļauj jums grāmatot detalizētas sākuma bilances darbības Virsgrāmatas gada beigu slēgšanas laikā. Ja opcija **Saglabāt informāciju gada beigu slēgšanas laikā** **ir** iestatīta uz Jā, katrai virsgrāmatas darbībai, kas nav nosegta, tiks izveidota atsevišķa sākuma bilance. Šis iestatījums tiek definēts katram galvenajam kontam Virsgrāmatas nosegšanas iestatījumā. Uzturot detalizētas darbības sākuma bilancei, jūs ļoti uzlabosiet spēju nosegtās Virsgrāmatas darbības nākamajā finanšu gadā.
+Otrais uzlabojumi ļauj jums grāmatot detalizētas sākuma bilances darbības Virsgrāmatas gada beigu slēgšanas laikā. Ja opcija **Saglabāt informāciju gada beigu slēgšanas laikā**  **ir** iestatīta uz Jā, katrai virsgrāmatas darbībai, kas nav nosegta, tiks izveidota atsevišķa sākuma bilance. Šis iestatījums tiek definēts katram galvenajam kontam Virsgrāmatas nosegšanas iestatījumā. Uzturot detalizētas darbības sākuma bilancei, jūs ļoti uzlabosiet spēju nosegtās Virsgrāmatas darbības nākamajā finanšu gadā.
 
 Lai atbalstītu jaunos uzlabojumus, tika veiktas izmaiņas Virsgrāmatas nosegšanai un gada beigu aizvēršanai.
 
 ### <a name="changes-to-ledger-settlement"></a>Virsgrāmatas nosegšanas izmaiņas
 
 - Virsgrāmatas nosegšana jāveic finanšu gada laikā.
-- Virsgrāmatas nosegšana jāveic darbībām vienā galvenajā kontā. Galvenais konts tagad ir nepieciešams filtrs Virsgrāmatas nosegšanas **lapā**.
+- Virsgrāmatas nosegšana jāveic darbībām vienā galvenajā kontā. Galvenais konts tagad ir nepieciešams filtrs Virsgrāmatas nosegšanas **lapā** .
 - Virsgrāmatas nosegšanu un Virsgrāmatas nosegšanas atcelšanu nevar veikt darbībām, kas ir grāmatotas slēgtā finanšu gadā (citiem vārdiem, ir veikta gada beigu slēgšana).
 
 ### <a name="changes-to-year-end-close"></a>Izmaiņas gada beigu slēgšanas
 
-- Gada beigu slēgšanu nevar atcelt, ja nākamajā finanšu gadā ir nosegtas atvērtas bilances darbības. Šī izmaiņa tiek piemērota, **·** **atsaucot** gada beigu slēgšanu vai atkārtoti palaižot gada beigu slēgšanu un virsgrāmatas parametros atkārtoti slēdzot gadu, dzēst esošos gada beigu ierakstus.
-- Ja gada **beigu slēgšanas laikā** **detalizēta** informācija par visu Virsgrāmatas nosegšanas bilances kontu ir iestatīta uz Jā, šim galvenajam kontam tiks izveidotas detalizētāka sākuma bilances darbības.
+- Gada beigu slēgšanu nevar atcelt, ja nākamajā finanšu gadā ir nosegtas atvērtas bilances darbības. Šī izmaiņa tiek piemērota, **·**  **atsaucot** gada beigu slēgšanu vai atkārtoti palaižot gada beigu slēgšanu un virsgrāmatas parametros atkārtoti slēdzot gadu, dzēst esošos gada beigu ierakstus.
+- Ja gada **beigu slēgšanas laikā**  **detalizēta** informācija par visu Virsgrāmatas nosegšanas bilances kontu ir iestatīta uz Jā, šim galvenajam kontam tiks izveidotas detalizētāka sākuma bilances darbības.
 
 ## <a name="before-you-enable-the-feature"></a>Pirms funkcijas iespējošanas
 
@@ -75,10 +75,10 @@ Opcija **Saglabāt detalizēto informāciju gada beigu slēgšanas** laikā ir i
 1.  Dodieties uz Virsgrāmatas **periodiskajiem** > **uzdevumiem, nosegšanas** > **virsgrāmatā**.
 2.  Atlasiet Virsgrāmatas **nosegšanas kontus**.
 
-Ir pievienotas divas kolonnas Virsgrāmatas nosegšanas **lapai**:
+Ir pievienotas divas kolonnas Virsgrāmatas nosegšanas **lapai** :
     
-- **Galvenā konta tips** – šī kolonna ir tikai informatīvā nolūkā. Tas parāda tipu, kas piešķirts galvenajam kontam.
-- **Uzglabāt detalizēto informāciju gada beigu** slēgšanas laikā — pēc noklusējuma opcija ir iestatīta uz **Nē**. To var iestatīt uz Jā **tikai** tad, ja vērtība **kolonnā Galvenā** konta tips ir **Bilance**, **Pamatlīdzeklis** vai **Saistības**. Kad opcija ir iestatīta uz **Nē**, sākuma bilances tiks grāmatotas kopsavilkumā, kā parasti gada beigu slēgšanas laikā. Ja tās iestatījums ir **Jā**, sākuma bilances tiks detalizēti izveidotas katrai Virsgrāmatas darbībai, kas nav nosegta galvenajam kontam.
+- **Galvenā konta tips**  – šī kolonna ir tikai informatīvā nolūkā. Tas parāda tipu, kas piešķirts galvenajam kontam.
+- **Uzglabāt detalizēto informāciju gada beigu**  slēgšanas laikā — pēc noklusējuma opcija ir iestatīta uz **Nē**. To var iestatīt uz Jā **tikai** tad, ja vērtība **kolonnā Galvenā** konta tips ir **Bilance**, Pamatlīdzeklis **vai** **Saistības**. Kad opcija ir iestatīta uz **Nē**, sākuma bilances tiks grāmatotas kopsavilkumā, kā parasti gada beigu slēgšanas laikā. Ja tās iestatījums ir **Jā**, sākuma bilances tiks detalizēti izveidotas katrai Virsgrāmatas darbībai, kas nav nosegta galvenajam kontam.
 
 ## <a name="year-end-close"></a>Gada beigu slēgšana
 
@@ -86,60 +86,60 @@ Palaižot gada beigu slēgšanu, **·** > **·** > **ejot** uz Virsgrāmatas per
 
 Piemēram, 2021. finanšu 130100 galvenajā kontā tiek grāmatotas vairākas darbības.
 
-| Žurnāla numurs | Dokuments  | Datums       | Veids      | Virsgrāmatas konts | Konta nosaukums        | Apraksts       | Valūta | Summa darījuma valūtā | Summa  | Summa pārskata valūtā |
+| Žurnāla numurs | Dokuments  | Datums       | Veids      | Virsgrāmatas konts | Konta nosaukums        | Apraksts       | Valūta | Summa darījuma valūtā | Apjoms  | Summa pārskata valūtā |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------------|----------|--------------------------------|---------|------------------------------|
-| 20853          | FTV-3000 | 12/3/2021  | Lietošanas | 130100-001-    | Debitoru parādi | Pakalpojuma maksa       | USD      | 100                            | 100     | 100                          |
-| 20855          | FTV-3004 | 12/5/2021  | Lietošanas | 130100-002-    | Debitoru parādi | Utilītas         | USD      | 175                            | 175     | 175                          |
-| 20854          | CMV-4000 | 12/16/2021 | Lietošanas | 130100-001-    | Debitoru parādi | Kompensācija            | USD      | -100                           | -100    | -100                         |
-| 20851          | ARP-8000 | 12/20/2021 | Lietošanas | 130100-002-    | Debitoru parādi |                   | USD      | -0.88                          | -0.88   | -0.88                        |
-| 20853          | ARPM0004 | 12/20/2021 | Lietošanas | 130100-002-    | Debitoru parādi |                   | EUR      | -127.11                        | -174.12 | -174.12                      |
-| 20856          | CMV-4010 | 12/21/2021 | Lietošanas | 130100-002-    | Debitoru parādi | Starpkonta kredīts | USD      | -175                           | -175    | -175                         |
-| 20857          | FTV-3011 | 12/28/2021 | Lietošanas | 130100-001-    | Debitoru parādi | Utilītas         | USD      | 400                            | 400     | 400                          |
-| 20910          | FTV-3020 | 12/29/2021 | Lietošanas | 130100-002-    | Debitoru parādi | Pakalpojums           | USD      | 300                            | 300     | 300                          |
+| 20853          | FTV-3000 | 12/3/2021  | Lietošanas | 130100-001-    | Debitori | Pakalpojuma maksa       | USD      | 100                            | 100     | 100                          |
+| 20855          | FTV-3004 | 12/5/2021  | Lietošanas | 130100-002-    | Debitori | Utilītas         | USD      | 175                            | 175     | 175                          |
+| 20854          | CMV-4000 | 12/16/2021 | Lietošanas | 130100-001-    | Debitori | Kompensācija            | USD      | -100                           | -100    | -100                         |
+| 20851          | ARP-8000 | 12/20/2021 | Lietošanas | 130100-002-    | Debitori |                   | USD      | -0.88                          | -0.88   | -0.88                        |
+| 20853          | ARPM0004 | 12/20/2021 | Lietošanas | 130100-002-    | Debitori |                   | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20856          | CMV-4010 | 12/21/2021 | Lietošanas | 130100-002-    | Debitori | Starpkonta kredīts | USD      | -175                           | -175    | -175                         |
+| 20857          | FTV-3011 | 12/28/2021 | Lietošanas | 130100-001-    | Debitori | Utilītas         | USD      | 400                            | 400     | 400                          |
+| 20910          | FTV-3020 | 12/29/2021 | Lietošanas | 130100-002-    | Debitori | Pakalpojums           | USD      | 300                            | 300     | 300                          |
 
 No šīm darbībām trīs tiek nosegtas Virsgrāmatas nosegšanas laikā.
 
 Rēķins ir par 175 ASV dolāriem (175 USD). Šis rēķins tika apmaksāts, izmantojot maksājumu eiro (EUR), un tika ņemta termiņatlaide.
 
-| Žurnāla numurs | Dokuments  | Datums       | Veids      | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Summa  | Summa pārskata valūtā |
+| Žurnāla numurs | Dokuments  | Datums       | Veids      | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Apjoms  | Summa pārskata valūtā |
 |----------------|----------|------------|-----------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
-| 20855          | FTV-3004 | 12/5/2021  | Lietošanas | 130100-002-    | Debitoru parādi | Utilītas   | USD      | 175                            | 175     | 175                          |
-| 20851          | ARP-8000 | 12/20/2021 | Lietošanas | 130100-002-    | Debitoru parādi |             | USD      | -0.88                          | -0.88   | -0.88                        |
-| 20853          | ARPM0004 | 12/20/2021 | Lietošanas | 130100-002-    | Debitoru parādi |             | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20855          | FTV-3004 | 12/5/2021  | Lietošanas | 130100-002-    | Debitori | Utilītas   | USD      | 175                            | 175     | 175                          |
+| 20851          | ARP-8000 | 12/20/2021 | Lietošanas | 130100-002-    | Debitori |             | USD      | -0.88                          | -0.88   | -0.88                        |
+| 20853          | ARPM0004 | 12/20/2021 | Lietošanas | 130100-002-    | Debitori |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
 Galvenā konta konta rezultāti 130100 atkarīgi no tā, vai funkcija ir iespējota pirms gada beigu slēgšanas. Ja ir aktivizēta šī funkcija, arī rezultāts ir atkarīgs no opcijas Saglabāt informāciju iestatījuma gada beigu slēgšanas laikā.
 
 ### <a name="the-feature-isnt-enabled"></a>Līdzeklis nav iespējots.
 Gada beigu slēgšanas rezultātā tiek izveidoti trīs sākuma bilances darījumi galvenajam kontam 130100 2022. gadā. Darbību summa uzskaites valūtā ir USD 525.
 
-| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Summa  | Summa pārskata valūtā |
+| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Apjoms  | Summa pārskata valūtā |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitoru parādi |             | USD      | 299.12                         | 299.12  | 299.12                       |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitoru parādi |             | USD      | 400                            | 400     | 400                          |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitoru parādi |             | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitori |             | USD      | 299.12                         | 299.12  | 299.12                       |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitori |             | USD      | 400                            | 400     | 400                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitori |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
 Kaut arī maksājuma darbība PAR EUR -127,11 tika apmaksāta Virsgrāmatā, darbība joprojām ir uz priekšu kā sākuma bilance.
 
 ### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--no"></a>Līdzeklis ir iespējots un Uzglabāt detalizēto informāciju gada beigu slēgšanas laikā = Nē
 
-Gada beigu slēgšanas rezultātā tiek izveidoti divi sākuma bilances darījumi galvenajam kontam 130100 2022. gadā. Darbību summa uzskaites valūtā joprojām ir slēgtaUSD 525 bet Virsgrāmatas apmaksātās darbības tiek izslēgtas no sākuma bilances. Konta 130100-002- kopsumma ir USD 125, nevis USD 299.12, un darbība par EUR 127,11/USD 174,12 tiek pilnībā izslēgta.
+Gada beigu slēgšanas rezultātā tiek izveidoti divi sākuma bilances darījumi galvenajam kontam 130100 2022. gadā. Darbību summa uzskaites valūtā joprojām ir slēgtaUSD 525 bet Virsgrāmatas apmaksātās darbības tiek izslēgtas no sākuma bilances. Konta 130100-002- kopsumma ir USD 125 nevis USD 299.12, un EUR 127.11/USD 174,12 darbība ir pilnībā izslēgta.
 
-| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Summa | Summa pārskata valūtā |
+| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts | Valūta | Summa darījuma valūtā | Apjoms | Summa pārskata valūtā |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|--------|------------------------------|
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitoru parādi |             | USD      | 125                            | 125    | 125                          |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitoru parādi |             | USD      | 400                            | 400    | 400                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitori |             | USD      | 125                            | 125    | 125                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitori |             | USD      | 400                            | 400    | 400                          |
 
 ### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--yes"></a>Līdzeklis ir iespējots un Uzglabāt detalizēto informāciju gada beigu slēgšanas laikā = Jā
 
 Gada beigu slēgšanas rezultātā tiek izveidoti pieci sākuma bilances darījumi galvenajam kontam 130100 2022. gadā. Katrai no piecām darbībām, kas netika segtas, tiek izveidota atsevišķa sākuma bilances darbība. Darbību summa uzskaites valūtā joprojām ir USD 525.
 
-| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts       | Valūta | Summa darījuma valūtā | Summa | Summa pārskata valūtā |
+| Žurnāla numurs | Dokuments  | Datums     | Veids    | Virsgrāmatas konts | Konta nosaukums        | Apraksts       | Valūta | Summa darījuma valūtā | Apjoms | Summa pārskata valūtā |
 |----------------|----------|----------|---------|----------------|---------------------|-------------------|----------|--------------------------------|--------|------------------------------|
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitoru parādi | Pakalpojuma maksa       | USD      | 100                            | 100    | 100                          |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitoru parādi | Kompensācija            | USD      | -100                           | -100   | -100                         |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitoru parādi | Starpkonta kredīts | USD      | -175                           | -175   | -175                         |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitoru parādi | Utilītas         | USD      | 400                            | 400    | 400                          |
-| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitoru parādi | Pakalpojums           | USD      | 300                            | 300    | 300                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitori | Pakalpojuma maksa       | USD      | 100                            | 100    | 100                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitori | Kompensācija            | USD      | -100                           | -100   | -100                         |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitori | Starpkonta kredīts | USD      | -175                           | -175   | -175                         |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-001-    | Debitori | Utilītas         | USD      | 400                            | 400    | 400                          |
+| 20910          | YEC_2021 | 1.1.2022. | Sākuma | 130100-002-    | Debitori | Pakalpojums           | USD      | 300                            | 300    | 300                          |
 
 Paturot informāciju par transakciju, oriģinālās detalizētās darbības netiek ietekmētas. Tās tiek iegrāmatotas un nenosegtas slēgtā finanšu gadā. Šo darbību kopija tiek izveidota sākuma bilancei. Šīs vērtības no sākotnējām darbībām tiek kopētas uz sākuma bilances darbībām.
 
@@ -165,7 +165,7 @@ Lai segtu virsgrāmatas transakcijas, izpildiet tālāk aprakstītos norādījum
     1. Atlasīt datumu diapazonu. Alternatīvi atlasiet datumu intervāla kodu, lai automātiski aizpildītu datumu diapazonu.
 
        - Datumu diapazons nevar šķērsot finanšu gadus. Ja datumu diapazons šķērso finanšu gadus, atlasot Rādīt darbības, darbības netiks **rādītas**.
-       - Ja datumu diapazons ir atvērtā finanšu gadā, darbības var nosegt un segšanu var atcelt. Ja datumu diapazons ir slēgtā finanšu gadā vai gada beigu slēgšana ir pabeigta, tiek rādītas darbības, bet tās nevar nosegt vai nenosegt. Darbību atzīmi var noņemt tikai slēgtā finanšu gadā. Ja datumu diapazons ir slēgtā finanšu gadā, **nav** pieejamas pogas Iezīmēt, **·** **Nosegt atzīmētās darbības un Atcelt** atzīmētās darbības.
+       - Ja datumu diapazons ir atvērtā finanšu gadā, darbības var nosegt un segšanu var atcelt. Ja datumu diapazons ir slēgtā finanšu gadā vai gada beigu slēgšana ir pabeigta, tiek rādītas darbības, bet tās nevar nosegt vai nenosegt. Darbību atzīmi var noņemt tikai slēgtā finanšu gadā. Ja datumu diapazons ir slēgtā finanšu gadā, **·** **·** **·**  pogas Iezīmēt iezīmētās darbības un Atcelt atzīmētās darbības nav pieejamas.
 
     2. Atlasiet galveno kontu, par kuru jārāda darbības. Šis lauks ir obligāts. Uzmeklēšana parāda tikai galvenos kontus, kas atlasīti **uzņēmuma** kontu plāna Virsgrāmatas nosegšanas lapā.
     3. Atlasiet grāmatošanas līmeni. Nevar nosegt darbības, kas ir atšķirīgos grāmatošanas līmeņos.
@@ -173,8 +173,8 @@ Lai segtu virsgrāmatas transakcijas, izpildiet tālāk aprakstītos norādījum
 
 3.  Atlasiet **Rādīt darbības,** lai tiktu rādītas visas darbības, kas atbilst iestatītajiem filtriem. Ka maināt kādu no filtriem vai dimensiju kopām, vienums **Rādīt transakcijas** ir jāatlasa vēlreiz.
 4.  Atlasīt rindas nosegšanai. Vērtība laukā **Atlasītā summa** lapas augšdaļā palielinās vai samazinās, lai atspoguļotu atlasīto rindu kopsummu.
-5.  Kad darbību atlase pabeigta, atlasiet **Iezīmēt**. Katrai atlasītajai darbībai kolonnā Atzīmēts tiek parādīta **atzīme**. Turklāt vērtība atzīmētās summas **laukā** virs režģa palielinās vai samazinās, lai atspoguļotu atzīmēto rindu kopējo summu.
-6.  Ja vērtība laukā Atzīmētā **summa** ir **0 (nulle**), atlasiet Nosegt **iezīmētās darbības**.
+5.  Kad darbību atlase pabeigta, atlasiet **Iezīmēt**. Katrai atlasītajai darbībai kolonnā Atzīmēts tiek parādīta **atzīme** . Turklāt vērtība atzīmētās summas **laukā** virs režģa palielinās vai samazinās, lai atspoguļotu atzīmēto rindu kopējo summu.
+6.  Ja vērtība laukā Atzīmētā **summa** ir **0(nulle**), atlasiet Nosegt **iezīmētās darbības**.
 
     - Daļēja segšana nav atļauta. Piemēram, jūs nevarat segt debeta $100 pret kredīta $90 darbību. Atlikušās $10 darbības arī jāatzīmē iekļaušanai segšanā.
     - Ievadiet segšanas datumu. Datumam jābūt vēlākam par vai vēlākam par segšanai atzīmēto darbību datumu.
@@ -203,7 +203,7 @@ Virsgrāmatas **nosegšanas** darbību lapa ietver iespējas, kas atvieglo noseg
 
 Var anulēt nosegšanu, kas tika veikta kļūdaini.
 
-1.  Izpildiet sadaļas Nosegt darbības 1. līdz [3](#settle-transactions). soli, lai parādītu interesētās darbības.
+1.  Izpildiet sadaļas Nosegt darbības 1. līdz [3](#settle-transactions) . soli, lai parādītu interesētās darbības.
 2.  Filtrā **Statuss** atlasiet **Nosegts**.
 3.  Atlasīt rindas atgriešanai.
 4.  Atlasiet Atcelt **atzīmētās darbības**. Visu darbību ar vienādu nosegšanas ID statuss tiek atjaunināts uz Nav **nosegts**.

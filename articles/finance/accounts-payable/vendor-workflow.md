@@ -2,7 +2,7 @@
 title: Kreditora darbplūsma
 description: Modificējiet kreditora informāciju un izmantojiet darbplūsmu, lai to apstiprinātu.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735672"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799469"
 ---
 # <a name="vendor-workflow"></a>Kreditora darbplūsma
 
@@ -38,7 +38,7 @@ Jums ir jāiespējo darbplūsmas līdzeklis, lai jūs varētu to izmantot.
     - **Noraidīt izmaiņas** – kreditora ierakstam izmaiņas nevar veikt. Importēšana nebūs veiksmīga laukiem, kuri ir iespējoti darbplūsmai.
     - **Izmaiņu piedāvājumu izveide** – visi lauki tiks mainīti, izņemot tos laukus, kuri ir iespējoti darbplūsmai. Šo lauku jaunās vērtības tiks pievienots kreditoram kā piedāvātās izmaiņas, un darbplūsma tiks sākta automātiski.
 
-4. Kreditora lauku sarakstā atlasiet izvēles rūtiņu **Iespējot** katram laukam, kas ir jāapstiprina, lai varētu veikt izmaiņas.
+4. Kreditoru lauku sarakstā atzīmējiet izvēles rūtiņu **Iespējot katram laukam**, kas pirms izmaiņu veikšanas ir jāapstiprina.
 5. Dodieties uz **Parādi kreditoriem \> Iestatīšana \> Kreditoru moduļa darbplūsmas**.
 6. Atlasiet **Jauns**.
 7. Atlasiet **Piedāvāto kreditora izmaiņu darbplūsma**. 
@@ -46,7 +46,7 @@ Jums ir jāiespējo darbplūsmas līdzeklis, lai jūs varētu to izmantot.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Kreditora informācijas maiņa un izmaiņu iesniegšana darbplūsmā
 
-Mainot lauku, kurš ir iespējots darbplūsmai, tiek parādīta lapa **Piedāvātās izmaiņas**. Šajā lapā tiek rādīta lauka sākotnējā vērtība un jūsu ievadītā jaunā vērtība. Laukā, kurā veicāt izmaiņas, tiek atjaunota tā sākotnējā vērtība. Statusa ziņojums arī informē, ka jūsu veiktās izmaiņas nav iesniegtas. 
+Mainot lauku, kurš ir iespējots darbplūsmai, tiek parādīta lapa **Piedāvātās izmaiņas**. Šajā lapā tiek rādīta lauka sākotnējā vērtība un jūsu ievadītā jaunā vērtība. Laukā, kurā veicāt izmaiņas, tiek atjaunota tā sākotnējā vērtība. Statusa ziņojums jūs informēs, ka veiktās izmaiņas nav iesniegtas. 
 
 Katrreiz, kad maināt lauku, kurš ir iespējots darbplūsmai, šis lauks tiek pievienots sarakstam lapā **Piedāvātās izmaiņas**. Lai atmestu laukam piedāvātās vērtības, izmantojiet pogu **Atmest** pie sarakstā esošā lauka. Lai atmestu visas izmaiņas, izmantojiet pogu **Atmest visas izmaiņas** pogas apakšdaļā. Atlasiet **Labi**, lai aizvērtu lapu.
 

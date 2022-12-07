@@ -2,7 +2,7 @@
 title: Rindas definīcijas finanšu atskaišu veidotājā
 description: Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda katras rindas saturu finanšu atskaitē.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274699"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802450"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
 
@@ -30,18 +30,18 @@ Rindas definīcija ir atskaites komponents jeb veidošanas bloks, kas norāda ka
 
 ## <a name="create-a-row-definition"></a>Rindu definīcijas izveide
 
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Rindas definīcijas**.
-2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** un pēc tam noklikšķiniet uz **Rindas definīcija**. Lai iegūtu papildu informāciju par katras šūnas saturu, skatiet [Rindu definīciju šūnu modificēšana](modify-row-definition-cells-financial-reporting.md).
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz **Rindas definīcijas**.
+2. Izvēlnē Fails **noklikšķiniet** uz Jauns **un** pēc tam uz **Rindas definīcija**. Lai iegūtu papildu informāciju par katras šūnas saturu, skatiet [Rindu definīciju šūnu modificēšana](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Rindas definīcijas atvēršana
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Rindas definīcijas**.
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz **Rindas definīcijas**.
 2. Veiciet dubultklikšķi uz tās rindas definīcijas, kuru vēlaties atvērt.
 3. Lai apskatītu veidošanas blokus, kas ir saistīti ar rindas definīciju, ar peles labo pogu noklikšķiniet uz rindas definīcijas un tad atlasiet **Asociācijas**.
 
 ## <a name="contents-of-a-row-definition"></a>Rindas definīcijas saturs
 Rindas definīcijas var ietvert līdz 20 000 finanšu dimensiju rindu, kā arī tālāk minēto informāciju.
 
-- Aprakstošs teksts, kas piešķir atskaitei jēgu, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, **Skaidra nauda** vai **Kopējie ieņēmumi**.
+- Aprakstošs teksts, kas pārskatam pievieno nozīmi, izveidojot sadaļu virsrakstus, rindas un atstarpes, piemēram, Skaidra **nauda** vai **Kopējie ieņēmumi**
 - Saites uz finanšu datiem, kas 365. finanšu datos Microsoft Dynamics var ietvert dimensiju vērtības
 
     > [!NOTE]
@@ -71,10 +71,10 @@ Dimensija ir datu un vērtību krustpunkts. Atskaišu veidotājā datus un vērt
 
 Lai rindas definīcijai pievienotu dimensijas, izpildiet šādas darbības.
 
-1. Atskaišu veidotājā noklikšķiniet uz **Rindas definīcijas** un atveriet modificējamo rindas definīciju.
-2. Izvēlnē **Rediģēšana** noklikšķiniet uz **Ievietot rindas no dimensijām**.
-3. Dialoglodziņa **Ievietot rindas no dimensijām** rindā **Dimensijas** atlasiet šūnu dimensijai, kuru pārsūtīt uz rindas definīciju, un pēc tam noklikšķiniet uz **Visas &&&**.
-4. Lai rindas definīcijai ļautu izmantot tikai noteiktu dimensijas vērtību diapazonu, dimensijas sākuma vērtību ievadiet šūnā **Dimensijas diapazona sākums** un pēc tam dimensijas beigu vērtību ievadiet šūnā **Dimensijas diapazona beigas**. Lai iekļautu visas atlasītās dimensijas vērtības, atstājiet šīs šūnas tukšas.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Iespraust rindas **no dimensijām**.
+3. Dialoglodziņa Ievietot **rindas no**  **dimensijām** rindā Dimensijas atlasiet šūnu dimensijai, ko pārsūtīt uz rindas definīciju, un pēc tam noklikšķiniet uz **Visi &&>.**
+4. Lai ierobežotu rindas definīciju ar noteiktu dimensijas vērtību diapazonu, **ievadiet** sākuma dimensijas vērtību dimensijas diapazona sākuma šūnā un **pēc tam ievadiet dimensijas beigu vērtību dimensiju diapazona beigu** šūnā. Lai iekļautu visas atlasītās dimensijas vērtības, atstājiet šīs šūnas tukšas.
 
     > [!NOTE]
     > Ja dimensiju diapazonos tiek izmantotas aizstājējzīmes (\* vai ?), atkarībā no tā, kā dati tiek šķiroti ERP datu bāzē, var netikt uzrādīti visi vēlamie rezultāti.
@@ -94,9 +94,9 @@ Ja jums ir bilance, kur summas tiek noapaļotas, tad kopsummas var nesakrist. Š
 
 Lai koriģētu bilances noapaļošanu, izpildiet šādas darbības.
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Noapaļošanas korekcija**.
-3. Dialoglodziņā **Noapaļošanas korekcijas** ievadiet tālāk minētās vērtības.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Noapaļošanas **pielāgojums**.
+3. Dialoglodziņā Noapaļošanas **pielāgojumi** ievadiet šādas vērtības:
 
     - **Noapaļošanas korekcijas rinda** — rindas kods tai rindai, kura ir jāpielāgo bilances izlīdzināšanai.
     - **Kopējo aktīvu rinda** — rindas kods rindai bilancē, kas satur kopējo aktīvu summu.
@@ -124,8 +124,8 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <td><strong>Fonta stila izveide</strong></td>
 <td>
 <ol>
-<li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
-<li>Dialoglodziņā <strong>Stili un formatējums</strong> noklikšķiniet uz <strong>Jauns</strong> un pēc tam ievadiet jaunā stila unikālu nosaukumu.</li>
+<li>Pārskatu veidotājā izvēlnē Formāts <strong>noklikšķiniet uz Stili</strong> un formatēšana <strong></strong>.</li>
+<li>Dialoglodziņā Stili <strong>un formatēšana noklikšķiniet</strong> uz Jauns <strong></strong> un pēc tam ievadiet unikālu jaunā stila nosaukumu.</li>
 <li>Atlasiet fontu un noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol>
 </td>
@@ -134,8 +134,8 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <td><strong>Fonta stila modificēšana</strong></td>
 <td>
 <ol>
-<li>Pārskatu veidotāja izvēlnē <strong>Formāts</strong> noklikšķiniet uz <strong>Stili un formatējums</strong>.</li>
-<li>Dialoglodziņā <strong>Stili un formatējums</strong> atlasiet modificējamo stilu un pēc tam noklikšķiniet uz <strong>Modificēt</strong>.</li>
+<li>Pārskatu veidotājā izvēlnē Formāts <strong>noklikšķiniet uz Stili</strong> un formatēšana <strong></strong>.</li>
+<li>Dialoglodziņā Stili <strong>un formatēšana atlasiet</strong> modificējamu stilu un pēc tam noklikšķiniet uz <strong>Modificēt</strong>.</li>
 <li>Atlasiet fontu un noklikšķiniet uz <strong>Labi</strong>.</li>
 </ol>
 </td>
@@ -144,7 +144,7 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 <td><strong>Fonta stila pielietošana</strong></td>
 <td>
 <ol>
-<li>Atskaišu veidotājā, definīcijā vai kolonnas definīcijā, vai galvenēs un kājenēs atlasiet vienu vai vairākas šūnas.</li>
+<li>Pārskatu veidotājā definīciju vai kolonnu definīcijā vai virsrakstos un kājenēs atlasiet vienu vai vairākas šūnas.</li>
 <li>Rīkjoslas sarakstā <strong>Stils</strong> atlasiet fonta stilu.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Savai atskaitei varat veidot un modificēt fontu stilus. Pēc tam šos stilus va
 
 Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir norādīts kolonnas definīcijā un atskaites definīcijā. Teksta formātu varat modificēt, izmantojot formatēšanas rīkjoslas vadīklas. Tās ir Microsoft Windows standarta vadīklas.
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
 2. Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
-3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai rindai izveidotu atkāpi, atlasiet rindu un tad noklikšķiniet uz rīkjoslas vienuma **Palielināt atkāpi** ![Palielināt atkāpi.](media/indent.gif "Palielināt atkāpi") rīkjoslā.
+3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai izveidotu rindas atkāpi, atlasiet rindu un pēc tam noklikšķiniet uz Palielināt atkāpi **Palielināt** ![atkāpi.](media/indent.gif "Palielināt atkāpi") rīkjoslā.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolonnu pielāgošana pārskatu veidošanas laikā
 
@@ -166,19 +166,19 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Kolonnas platuma maiņa apskates rūtī
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2. Izvēlnē **Formāts** atlasiet **Kolonnas platums**.
-3. Dialoglodziņā **Kolonnas platums** ievadiet kādu vērtību un pēc tam noklikšķiniet uz **Labi**. Lai mainītu kolonnas platumu, varat arī vilkt kolonnas virsraksta šūnas labo malu.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
+2. Izvēlnē Formāts **atlasiet** Kolonnas **platums**.
+3. Dialoglodziņā Kolonnas **platums** ievadiet vērtību un pēc tam noklikšķiniet uz **Labi**. Lai mainītu kolonnas platumu, varat arī vilkt kolonnas virsraksta šūnas labo malu.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Kolonnu paslēpšana apskates rūtī
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
 2. Atlasiet vienu vai vairākas kolonnas, ko samazināt.
 3. Veiciet klikšķi ar peles labo pogu un tad noklikšķiniet uz **Paslēpt**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visu paslēpto kolonnu rādīšana apskates rūtī
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
 2. Ar peles labo pogu noklikšķiniet uz minimizētās kolonnas, kuru vēlaties parādīt, un pēc tam noklikšķiniet uz **Parādīt**.
 
 

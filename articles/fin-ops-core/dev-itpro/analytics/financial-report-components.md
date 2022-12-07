@@ -2,7 +2,7 @@
 title: Finanšu pārskata komponenti
 description: Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki.
 author: aprilolson
-ms.date: 10/27/2017
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: af5cd63c2dbd531b4c8097b6149d7e67fe112259
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280037"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802720"
 ---
 # <a name="financial-report-components"></a>Finanšu pārskata komponenti
 
@@ -28,7 +28,7 @@ ms.locfileid: "9280037"
 
 Šajā rakstā ir izklāstīts, kā finanšu atskaišu veidošanā tiek izmantoti atskaišu definīciju komponenti jeb veidošanas bloki. Šajos veidošanas blokos ir iekļautas rindas definīcijas, kolonnas definīcijas un atskaišu koka definīcijas. Šajā rakstā ir paskaidrots, kā sakārtot un bloķēt veidošanas blokus.
 
-Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tāpēc pārskatu formatējums ir nošķirts no finanšu datiem un varat mainīt pārskata noformējumu, neizmainot finanšu datus savā Microsoft Dynamics ERP sistēmā. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt.
+Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāciju vismazākajos komponentos jeb veidošanas blokos, lai šos komponentus varētu pēc nepieciešamības jaukt un kombinēt. Tāpēc jūsu pārskata formatēšana ir atsevišķi no jūsu finanšu datiem, un jūs varat mainīt pārskata dizainu, nemainot  Microsoft Dynamics finanšu datus 365 Finanses. Izmantojot šo veidošanas bloku pieeju, ir iespējams kombinēt tekstu, summas un aprēķinus, lai veidotu jums nepieciešamās atskaites. Turklāt šī elastība atbalsta radošu pieeju, atvieglojot darbību apskatīšanu dažādos veidos. Atsevišķie atskaites definīcijas veidošanas bloki ir līdzīgi trīsdimensiju izklājlapai, bet tie sniedz vairāk iespēju. Atskaites definīcija norāda rindas definīciju, kolonnas definīciju un papildu atskaišu koka definīciju, kas ir jāizmanto šai atskaitei. Tas iekļauj arī informāciju par to, kur glabāt ģenerēto atskaiti un kā to formatēt.
 
 ## <a name="building-blocks-of-a-report"></a>Pārskata veidošanas bloki
 
@@ -42,22 +42,22 @@ Finanšu atskaišu veidotāja dizains tika veidots ar mērķi sadalīt informāc
 Ja jums nav pieredzes atskaišu veidošanā, jums var noderēt atskaišu vednis, lai ātri izveidotu atskaites definīciju, kuru vēlāk varat pielāgot. Ja jums ir pieredze atskaišu veidošanā un vēlaties izmantot plašākas atskaišu noformēšanas iespējas, varat kombinēt jaunus vai jau eksistējošus veidošanas blokus, lai izveidotu jaunu atskaites definīciju. Lai izveidotu kvalitatīvas atskaites, jums nav pilnībā jāizprot visas pieejamās atskaites definīcijas opcijas. Iepazīstoties ar pārskatu izveides procesu, varat izvērst savas pārskatu definīcijas, lai izmantotu papildu funkcijas. Kad esat izveidojis vienkāršu atskaiti, varat pielāgot atskaites definīciju un jebkuru no atskaites definīcijas veidošanas blokiem.
 
 ## <a name="organize-the-building-blocks"></a>Veidošanas bloku organizēšana
-Izmantojiet mapes, lai organizētu savus veidošanas blokus pārskatu veidotājā. Visas mapes raksturo to ietverto veidošanas bloku tips. Piemēram, visas mapes, kas satur rindas definīcijas, atrodas atskaišu veidotāja rūtī **Rindas definīcijas**.
+Izmantojiet mapes, lai organizētu savus veidošanas blokus pārskatu veidotājā. Visas mapes raksturo to ietverto veidošanas bloku tips. Piemēram, visas mapes, kas satur rindas definīcijas, atrodas **rindu definīciju rūtī pārskatu** veidotājā.
 
 ### <a name="create-a-folder"></a>Mapes izveide
 
-1. Pārskatu veidotājā atlasiet veidošanas bloka tipu, lai sakārtotu navigācijas rūti. Piemēram, lai kārtotu rindu definīcijas, noklikšķiniet uz **Rindu definīcijas**.
+1. Pārskatu veidotājā atlasiet veidošanas bloka tipu, lai organizētu navigācijas rūtī. Piemēram, lai kārtotu rindu definīcijas, noklikšķiniet uz **Rindu definīcijas**.
 2. Navigācijas rūtī atlasiet eksistējošu mapi, kurā izveidot jauno mapi, un pēc tam izpildiet vienu no šīm darbībām:
 
-    - Ar peles labo pogu noklikšķiniet uz pamata mapes un pēc tam noklikšķiniet uz **Jauna mape**.
-    - Atlasiet pamata mapi, noklikšķiniet uz **Fails** un pēc tam noklikšķiniet uz **Jauna mape**.
+    - Ar peles labo pogu noklikšķiniet uz pamatmapes un pēc tam noklikšķiniet uz **Jauna mape**.
+    - Atlasiet pamatmapi, noklikšķiniet uz **Fails** un pēc tam noklikšķiniet uz **Jauna mape**.
 
-3. Kad tiek parādīta jaunā mape, ievadiet jaunās mapes nosaukumu un pēc tam nospiediet taustiņu Enter.
+3. Kad jaunā mape parādās, ievadiet jaunās mapes nosaukumu un pēc tam nospiediet taustiņu **Enter**.
 
 ## <a name="lock-a-building-block"></a>Veidošanas bloka bloķēšana
 Varat izveidot paroli, lai bloķētu vai palīdzētu aizsargātu kādu veidošanas bloku. Šādi varat paaugstināt atskaites komponenta drošības līmeni, bet nemainot visas sistēmas drošības iestatījumus. Parole var palīdzēt aizsargāt veidošanas bloka informāciju, kas ir svarīga jūsu mēneša beigu atskaišu veidošanas procesā. Jebkuras lomas lietotājs var bloķēt kādu veidošanas bloku. Taču citiem lietotājiem vienmēr ir tikai lasīšanas piekļuve attiecībā uz bloķētiem komponentiem. Lietotāji var atvērt, mainīt un saglabāt bloķēto komponentu ar jaunu nosaukumu. Lietotājs, kuram ir administratora loma, vienmēr var piekļūt bloķētam veidošanas blokam un mainīt to.
 
-1. Atskaišu veidotājā atveriet bloķējamo atskaites komponentu, piemēram, rindas definīciju, kolonnas definīciju, atskaites definīciju vai atskaišu koka definīciju.
+1. Pārskatu veidotājā atveriet bloķējamu pārskata komponentu, piemēram, rindas definīciju, kolonnas definīciju, pārskata definīciju vai pārskata koka definīciju.
 2. Izvēlnē **Rīki** noklikšķiniet uz **Aizsargāt/noņemt aizsardzību**. Varat arī rīkjoslā noklikšķināt uz **Aizsargāt/noņemt aizsardzību** (slēdzenes ikonas).
 3. Dialoglodziņā **Aizsargāt** ievadiet un apstipriniet paroli un pēc tam noklikšķiniet uz **Labi**. Kad atvērts veidošanas bloks ir bloķēts, slēdzenes ikona rīkjoslā ir izcelta.
 
@@ -71,20 +71,20 @@ Veidošanas bloki ir rindu definīcijas, kolonnu definīcijas, pārskata koku de
 
 Varat skatīt visus veidošanas blokus, kas ir piešķirti veidošanas bloku grupai. Varat arī eksportēt vai importēt veidošanas bloku grupu.
 
-1. Pārskatu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz vienuma **Veidošanas bloku grupas**.
-2. Dialoglodziņā **Veidošanas bloku grupas** atlasiet apskatāmo veidošanas bloku.
-3. Noklikšķiniet uz **Skatīt**, lai atvērtu dialoglodziņu **Skatīt veidošanas bloku grupu**, kurā varat skatīt veidošanas bloku grupas saturu.
+1. Pārskatu veidotājā izvēlnē Uzņēmums **noklikšķiniet uz Veidošanas** bloku **grupas**.
+2. Dialoglodziņā Veidošanas **bloķēšanas** grupas atlasiet skatāmo veidošanas bloku.
+3. Noklikšķiniet **uz** cilnes Skats **, lai atvērtu dialoglodziņu** Skatīt veidošanas bloķēšanas grupu, kurā var skatīt veidošanas bloķēšanas grupas saturu.
 4. Noklikšķiniet uz **Aizvērt**, lai aizvērtu dialoglodziņus.
 
 ### <a name="export-a-building-block-group"></a>Veidošanas bloku grupas eksportēšana
 
 Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bloku grupā ietvertos veidošanas blokus. Eksportēto veidošanas bloku grupu var izmantot kā dublējumkopiju. Varat arī kopēt eksportētos datus no vienas instalācijas uz citu. Pārskatu veidotājā kopā ar veidošanas bloku grupu ir ietverti arī ar atsauci norādītie fontu stili un dimensiju kopas.
 
-1. Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
-2. Dialoglodziņā **Veidošanas bloku grupas** atlasiet eksportējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Eksportēt**.
+1. Atskaišu veidotāja izvēlnē **Uzņēmums** noklikšķiniet uz **Veidošanas bloku grupas**.
+2. Dialoglodziņā Veidošanas **bloķēšanas grupas** atlasiet eksportējamo veidošanas bloķēšanas grupu un pēc tam noklikšķiniet uz **Eksportēt**.
 3. Dialoglodziņā **Eksportēt** atlasiet eksportējamās pārskatu definīcijas.
 
-    - Lai eksportētu visas pārskatu definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
+    - Lai eksportētu visas pārskata definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
     - Lai eksportētu noteiktas atskaites, rindas, kolonnas, koku struktūras vai dimensiju kopas, noklikšķiniet uz atbilstošās cilnes un pēc tam atlasiet eksportējamos vienumus. Lai atlasītu vairākus cilnes vienumus, nospiediet un turiet taustiņu Ctrl.
 
     > [!NOTE]
@@ -92,19 +92,19 @@ Varat eksportēt veidošanas bloku grupu vai konkrētus pārskata veidošanas bl
 
 4. Kad esat beidzis eksportējamo vienumu atlasīšanu, noklikšķiniet uz **Eksportēt**.
 5. Dialoglodziņā **Saglabāt kā** atlasiet atrašanās vietu, uz kuru eksportēt veidošanas bloku grupu.
-6. Laukā **Faila nosaukums** ievadiet faila nosaukumu. Atskaišu veidotājs automātiski pievieno faila nosaukuma paplašinājumu .tdbx.
+6.  **Laukā Faila** nosaukums ievadiet faila nosaukumu. Atskaišu veidotājs automātiski pievieno faila nosaukuma paplašinājumu .tdbx.
 7. Noklikšķiniet uz **Saglabāt**. Veidošanas bloku grupa ir saglabāta jūsu norādītajā atrašanās vietā.
 
 ### <a name="import-a-building-block-group"></a>Veidošanas bloku grupas importēšana
 
 Varat importēt veidošanas bloku grupu esošā veidošanas bloku grupā. Visas importētās veidošanas bloku grupas saglabā savus oriģinālos fontu stilus un uzņēmuma atsauces, un iekļauj attiecīgās dimensiju kopas.
 
-1. Pārskatu veidotājā, izvēlnē **Uzņēmums**, noklikšķiniet uz **Veidošanas bloku grupas**.
-2. Dialoglodziņā **Veidošanas bloku grupas** atlasiet veidošanas bloku, kurā importēt veidošanas bloku grupu, un pēc tam noklikšķiniet uz **Importēt**.
+1. Pārskatu veidotājā izvēlnē Uzņēmums **noklikšķiniet uz Veidošanas** bloku **grupas**.
+2. Dialoglodziņā Veidošanas **bloku grupas atlasiet** veidošanas bloku, kurā importēt veidošanas bloka grupu, un pēc tam noklikšķiniet uz **Importēt**.
 3. Dialoglodziņā **Atvērt** atlasiet importējamo veidošanas bloku grupu un pēc tam noklikšķiniet uz **Atvērt**.
 4. Dialoglodziņā **Importēt** atlasiet importējamās pārskatu definīcijas.
 
-    - Lai importētu visas atskaites definīcijas un saistītos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
+    - Lai importētu visas pārskata definīcijas un atbalstošos veidošanas blokus, noklikšķiniet uz **Atlasīt visu**.
     - Lai importētu atsevišķus pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas, atlasiet importējamos pārskatus, rindas, kolonnas, koku struktūras vai dimensiju kopas.
 
 5. Kad esat beidzis importējamo vienumu atlasīšanu, noklikšķiniet uz **Importēt**.
@@ -116,8 +116,8 @@ Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas pi
 > [!NOTE]
 > Lai atzīmētu veidošanas blokus, izmantojot dialoglodziņu **Paņemtie krājumi**, ir jābūt piešķirtai administratora lomai.
 
-1. Pārskatu veidotāja izvēlnē **Rīki** noklikšķiniet uz vienuma **Izrakstītie vienumi**.
-2. Dialoglodziņā **Paņemtie krājumi** atlasiet **Rādīt krājumus no visiem lietotājiem**. Saraksts tiek atjaunināts un tiek parādīti visi paņemtie veidošanas bloki un to lietotāji.
+1. Pārskatu veidotājā izvēlnē Rīki **noklikšķiniet** uz Paņemtie **elementi**.
+2. Dialoglodziņā Paņemiet **krājumus** atlasiet Rādīt visu **lietotāju krājumus**. Saraksts tiek atjaunināts un tiek parādīti visi paņemtie veidošanas bloki un to lietotāji.
 3. Atlasiet veidošanas bloku un pēc tam noklikšķiniet uz **Atsaukt paņemšanu**.
 4. Noklikšķiniet uz **Jā**, lai piešķirtu veidošanas bloku.
 

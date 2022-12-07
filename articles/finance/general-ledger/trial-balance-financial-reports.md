@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725210"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802612"
 ---
 # <a name="trial-balance-financial-reports"></a>Apgrozījuma bilances finanšu pārskati
 
@@ -32,8 +32,8 @@ ms.locfileid: "8725210"
 
 Finanšu pārskatu veidošanas vidē pieejami trīs apgrozījuma bilances pārskati.
 
-| Noklusējuma pārskats                                 | Ko tā dara                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Noklusējuma pārskats                                 | Ko tā dara                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Detalizēta apgrozījuma bilance — noklusējums               | Sniedz informāciju par bilanci visiem kontiem un iekļauj debeta un kredīta bilances, kā arī šo bilanču neto summu kopā ar transakcijas datumu, dokumentu un žurnāla aprakstu.                  |
 | Kopsavilkuma apgrozījuma bilance — noklusējums                | Sniedz bilances informāciju visiem kontiem un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību.                                        |
 | Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums | Sniedz bilances informāciju visiem kontiem, un iekļauj sākuma un beigu bilances, kā arī debeta un kredīta bilances kopā ar to neto starpību attiecībā uz pašreizējo gadu un iepriekšējo gadu. |
@@ -54,8 +54,8 @@ Apgrozījuma bilances finanšu pārskati izmanto tālāk aprakstītos veidošana
 
 Rindas definīcija, Apgrozījuma bilance – Noklusējums, ietver vienu rindu, kas apkopo datus no visiem galvenajiem kontiem. Tāpēc ikviens var ģenerēt pārskatu bez nepieciešamības veikt modifikācijas. Kad apskatāt atskaiti, detalizējiet vienu rindu, lai apskatītu detalizētu informāciju par katru kontu. Rindas definīciju varat modificēt, lai iekļautu vairāk informācijas. Lai modificētu rindas definīciju "apgrozījuma bilance — noklusējuma" un iekļautu rindas visiem kontiem, rīkojieties kā aprakstīts tālāk.
 
-1.  Noklikšķiniet uz **Rediģēšana** un tad noklikšķiniet uz **Ievietot rindas no dimensijām**. Komanda **Ievietot rindas no dimensijām** ļauj izvēlēties, kuras dimensijas vēlaties iekļaut rindas definīcijā. Šai rindas definīcijai izmantojiet **Galvenais konts**.
-2.  Pārliecinieties, vai sadaļā **Galvenais konts** ir iekļautas visas rakstzīmes "&", un noklikšķiniet uz **Labi**.
+1.  Noklikšķiniet uz **Rediģēt** un pēc tam noklikšķiniet uz **Ievietot rindas no dimensijām**. Komanda **Ievietot rindas no** dimensijām ļauj izvēlēties dimensijas, kuras vēlaties iekļaut rindu definīcijā. Šai rindas definīcijai tiks izmantots galvenais **konts**.
+2.  Pārliecinieties, vai **galvenais konts** ietver visus ampersands (&) un pēc tam noklikšķiniet uz **Labi**.
 
 Tagad rindas definīcija satur visus noklusējuma juridiskās personas galvenos kontus.
 

@@ -2,32 +2,33 @@
 title: Store Commerce programma mobilajām platformām
 description: Šajā rakstā ir aprakstīts, kā sākt darbu, izmantojot Microsoft Dynamics 365 Commerce programmu Store Commerce for un Android iOS.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9641682"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815788"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>Store Commerce programma mobilajām platformām
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir aprakstīts, kā sākt darbu, izmantojot Microsoft Dynamics 365 Commerce Store Commerce programmas un Android iOS.
 
-Mobilās Dynamics 365 Commerce lietojumprogrammas Android darbam ar iOS un tās ļauj jums nekavējoties un vienkārši izvietot pilnas lietojumprogrammas pārdošanas punkta (POS) ierīces. Store Commerce mobilās programmas nodrošina visas veikala [Commerce programmas, kas paredzēts Windows](store-commerce.md) tālruņa un planšetdatora formu faktoriem, iespējas un ir ļoti labi. Store Commerce mobilās programmas var instalēt tieši no Programmas VeikaliEmIevies un Lync Play, un tām nav nepieciešams, lai izstrādātājs izveidotu jaunu programmu pakotni, ko izvietot vai atjaunināt. 
+Mobilās Dynamics 365 Commerce lietojumprogrammas Android darbam ar iOS un tās ļauj jums nekavējoties un vienkārši izvietot pilnas lietojumprogrammas pārdošanas punkta (POS) ierīces. Store Commerce mobilās programmas [nodrošina jums visas Programmas Store Commerce for Windows iespējas un plašu klāstu, kā arī tas sniedz plašu iOS](store-commerce.md) Android  un tālruņu klāstu. Store Commerce mobilās programmas var tikt instalētas tieši no Pirkšanas un lietojumprogrammu veikaliem, un tām nav nepieciešams izstrādātājs, lai izveidotu jaunu programmu pakotni, ko izvietot vai atjaunināt. 
 
 Store Commerce mobilās programmas saglabā pilnu funkcionālo paramiju ar pašreizējām mazumtirdzniecības programmu lietojumprogrammām. Turklāt programma Store Commerce for iOS ietver atbalstu atvēlētai aparatūras stacijai, lai iOS ierīces varētu sazināties ar tīkla maksājumu termināļiem, kvīšu printeriem un naudas kasieriem, neprasot koplietotas aparatūras stacijas izvietošanu. 
 
 > [!IMPORTANT]
-> Store Commerce programmas operētājsistēmai Windows un Android iOS ir nākamā POS programmu ģenerēšana Dynamics 365 Commerce. Pašreizējā Modern POS (MPOS) programma [un Retail tālruņa](hybridapp.md) lietojumprogrammas mobilajām lietojumprogrammām tiks novecojušas 2023. gada oktobris. Korporācija Microsoft iesaka jums izmantot Store Commerce vai Cloud POS (CPOS) visām jaunajām POS izvietošanām. Esošajiem debitoriem ir jāplāno migrēt no programmas Retail commerce uz Store Commerce. Papildinformāciju par MPOS un Retail mfi programmu nolietojuma grafiku skatiet [Dynamics 365 Commerce veikala tehnoloģijas steka modernizēšana](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Store Commerce programmas operētājsistēmai Windows un Android  iOS ir nākamās ģenerēšanas POS programmas Dynamics 365 Commerce. Store Commerce lietojumprogrammas piedāvā vairākus uzlabojumus salīdzinājumā ar pirmstecīgām funkcijām, saglabājot pilnu funkcionalitāti un līdzekļu paritāti. Korporācija Microsoft novecos MPOS Android un iOS Retail POS aparatūras programmas 2023. gada beigās, un iesaka visām jaunajām POS izvietošanām izmantot Store Commerce vai Cloud POS (CPOS). Esošajiem debitoriem ir jāplāno migrēt no Retail commerce programmām uz Store Commerce. Papildinformāciju skatiet sadaļā Modern [POS migrēšana uz Store Commerce](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Programmas arhitektūra
 
@@ -51,9 +52,9 @@ Store Commerce mobilajām programmām ir nepieciešami Dynamics 365 Commerce it 
 Varat instalēt Store Commerce mobilās programmas tieši no Esat uzstādījumi veikala vaiInstalēt programmas veikala. 
 
 - [Store Commerce programma priekš Android](https://aka.ms/storecommerceandroid)
-- Store Commerce app for iOS (pieejams drīzumā)
+- [Store Commerce programma, kas paredzēts iOS](https://aka.ms/storecommerceios)
 
-Android Lietojumprogrammas (.maks) un Lync programmas (.ipa) pakotnes var lejupielādēt arī no koplietojamās Microsoft Dynamics līdzekļu bibliotēkas pakalpojumos Lifecycle Services. 
+ Android Lietojumprogrammas (.maks) un Lync programmas (.ipa) pakotnes var lejupielādēt arī no koplietojamās Microsoft Dynamics līdzekļu bibliotēkas pakalpojumos Lifecycle Services. 
 
 ## <a name="device-and-register-setup"></a>Ierīces un reģistra iestatīšana
 
@@ -64,10 +65,10 @@ Lai kases sistēmu varētu aktivizēt mobilajās lietojumprogrammās Store Comme
 Lai izveidotu un iestatītu jaunu ierīci, veiciet šādus soļus.
 
 1. Programmā Commerce Headquarters pārejiet uz sadaļu **Retail un Commerce Channel \> Setup \> POS iestatīšanas \> ierīces**. 
-1. Izveidojiet jaunu ierīci un **atkarībā no izmantotās mobilās programmas atlasiet Modern POS Android** **— vai Modern POS — iOS** kā programmas veidu. 
+1. Izveidojiet jaunu ierīci un **atkarībā no izmantotās mobilās programmas atlasiet Modern POS Android**  **vai Modern POS — iOS** kā programmas veidu. 
 
     > [!NOTE] 
-    > Modern **POS - un Android** **Modern POS - iOS** programmas tipi tiek izmantoti arī, lai izvietotu pašreizējās sistēmas un Android iOS programmas. Pēc MPOS nolietojuma šo lietojumprogrammu **tipu etiķetes tiks atjauninātas uz Store Commerce - Android** un **Modern POS - iOS**. 
+    > Modern **POS -un Android**  **Modern POS - iOS** programmas tipi tiek izmantoti arī, lai izvietotu pašreizējās šīs sistēmas programmas un Android iOS. Pēc MPOS nolietojuma šo lietojumprogrammu **tipu etiķetes tiks atjauninātas uz Store Commerce - Android**  un **Modern POS - iOS**. 
 
 ### <a name="register-setup"></a>Reģistra iestatīšana
 
@@ -94,7 +95,7 @@ Papildinformāciju par ierīces aktivizāciju skatiet [pārdošanas punkta (POS)
 
 ## <a name="feature-parity-with-store-commerce-for-windows"></a>Līdzekļu pārība ar Store Commerce operētājsistēmai Windows
 
-Šajā tabulā ir salīdzinātas Store Commerce programmas iespējas operētājsistēmā Windows un Android iOS platformās.
+Šajā tabulā ir salīdzinātas store Commerce programmas iespējas operētājsistēmā Windows Android un iOS platformās.
 
 | Līdzeklis                                                                               | Windows | Android | iOS |
 | ------------------------------------------------------------------------------------- | ------- | ------- | --- |

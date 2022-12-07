@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ff576efbfeb0c5383a48756fdd7e79f1abdba2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d29802bdf3411c93f20d710e1f26e541e5022d57
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902261"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812191"
 ---
 # <a name="human-resources-app-in-teams"></a>Programma Human Resources programmā Teams
 
@@ -48,10 +48,10 @@ Ja vēlaties, lai lietotāji programmā skatītu atvaļinājumu un prombūtnes k
 >[!NOTE]
 > Sākot no 2021. gada 20. decembra, Human Resources App bot pakalpojumi, kas tiek viesoti Microsoft nomniekā, tiks uzdāvināti. Nepastāv ietekmes uz jaunāko paplašinājumu (versijas opcijas1.1.5), kas ir pieejams instalēšanai. Galvenā ietekme tiks veikta uz novecojušu paplašinājumu (versijas 1.1.4). Šīs versijas tērzēšanas bots pārtrauks darboties. Cilne **Izslēgtie** no laika turpināsies un darbosies abos paplašinājumos.
 
-Versijā 1.1.4 tērzētavas bots pārstāj atbildēs uz jebkuru ziņojumu. Piemēram, piesakieties **·**, **skatiet bilances** un skatiet **taimautu**. Programma ir manuāli jāatjaunina uz jaunāko versiju. Papildinformāciju skatiet sadaļā [Programmu atjaunināšana sadaļā Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+Versijā 1.1.4 tērzētavas bots pārstāj atbildēs uz jebkuru ziņojumu. Piemēram, pieteikties **·**, skatīt **bilances** un skatīt **no laika izslēgtās reģistrācijas**. Programma ir manuāli jāatjaunina uz jaunāko versiju. Papildinformāciju skatiet sadaļā [Programmu atjaunināšana Microsoft Teams](/MicrosoftTeams/apps-update-experience).
 
 Lai atjauninātu versiju 1.1.5, veiciet šādas darbības:
-1. , Microsoft Teams dodieties uz **programmas**.
+1. Dodieties Microsoft Teams uz **Programmas**.
 2. Atrast programmu **Personāla** vadība.
 3. Atlasiet **Jaunināšana**.
 
@@ -112,7 +112,7 @@ Programma Dynamics 365 Human Resources lietotnē Teams atbalsta šādas valodas:
 | it-IT | Itāļu (Itālija) |
 | nl-NL | Holandiešu (Nīderlande) |
 | pt-BR | Portugāļu (Brazīlija) |
-| tr-TR | Turku (Turcija) |
+| tr-TR | Turcijas (Tirokiye) |
 | zh-(CN) | Ķīniešu (vienkāršotā) |
 
 ## <a name="notes"></a>Piezīmes
@@ -156,7 +156,7 @@ Ja lietotājs saņem kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījum
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft valodu izpratnes intelektiskais pakalpojums (Microsoft Language Understanding Intelligent Service - LUIS)
 
-Ar botu Dynamics 365 Human Resources Microsoft Teams, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Šī informācija pēc tam tiek nodota Microsoft [Azure bota](https://azure.microsoft.com/services/bot-service/) struktūrā, kas mijiedarbojas Dynamics 365 Human Resources ar datiem no un izgūst lietotāja vaicājumam vēlamo informāciju.
+Izmantojot botu Dynamics 365 Human Resources  Microsoft Teams, lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/līdz ar to. Lietotāja ievade, piemēram, "Meklēšanas konta Contoso", tiek maršrutēta uz vienu no Microsoft ko pie ko pie kotācijas pakalpojumiem, ko sauc par valodas zināšanas intelligent service (GUID). Lasīt vairāk par LUIS [šeit](https://www.luis.ai/). LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso). Šī informācija pēc tam tiek nodota Microsoft [Azure bota](https://azure.microsoft.com/services/bot-service/) struktūrā, kas mijiedarbojas Dynamics 365 Human Resources ar datiem no un izgūst lietotāja vaicājumam vēlamo informāciju.
 
 Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi. LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources. Lai gan JUMS ir piekļuve tikai lietotāja vaicājumiem un nav izveidota, lai tas būtu paredzēts savienojumam ar lietotāja datiem vai kontu, Dynamics 365 Human Resources bota lietotājs var ievadīt vaicājumu, kurā ir Klienta dati, Personas dati vai citi dati, kā arī šāda vaicājuma saturs var tikt nosūtīts Dynamics 365 Human Resources uz BOT pakalpojumu un Azure bot struktūru. 
 
@@ -166,7 +166,7 @@ Lai pārvaldītu programmas administrēšanas iestatījumus programmā Microsoft
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid un Azure Cosmos DB
 
-Izmantojot programmu Dynamics 365 Human Resources, noteikti debitora Microsoft Teams dati var plūst ārpus ģeogrāfiskā reģiona, kur izvietots jūsu nomnieka Cilvēkresursu pakalpojums.
+Izmantojot programmu Dynamics 365 Human Resources , noteikti Microsoft Teams debitora dati var plūst ārpus ģeogrāfiskā reģiona, kur izvietots jūsu nomnieka Cilvēkresursu pakalpojums.
 
 Dynamics 365 Human Resources pārsūta darbinieka atvaļinājuma pieprasījumu un darbplūsmas uzdevuma detaļas uz Notikuma Microsoft Azure režģi un Microsoft Teams. Šos datus var uzglabāt Microsoft Azure Event Grid līdz 24 stundām un tie tiks apstrādāti Amerikas Savienotajās Valstīs, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 

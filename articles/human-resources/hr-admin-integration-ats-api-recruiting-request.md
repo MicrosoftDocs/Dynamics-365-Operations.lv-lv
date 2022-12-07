@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872273"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806380"
 ---
 # <a name="recruiting-request"></a>Pieņemšanas darbā pieprasījums
 
@@ -68,7 +68,7 @@ Apraksta pieprasījumu pieņemt darbā.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Apraksta pieprasījumu pieņemt darbā.
 | **Statuss**<br>mshr_status<br>*RecruitingRequestStatus* opciju kopa | Lasīt/rakstīt<br>Obligāts<br> | Norāda darbā pieņemšanas pieprasījuma statusu. |
 | **Apraksts**<br>mshr_description<br>*Virkne* | Lasīt/rakstīt<br>Obligāts | Apraksta pieprasījumu. |
 | **Darbā pieņemšanas pieprasījuma atrašanās vietas ID**<br>mshr_recruitingrequestlocationid<br>*Virkne* | Lasīt/rakstīt<br>Neobligāti | Lietotājam lasāms ar šo pieprasījumu saistītais darba atrašanās vietas unikālais identifikators. |
-| **Darbā pieņemšanas atrašanās vietas ID vērtība**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Tikai lasāms<br>Neobligāti<br>Ārējā atslēga: mshr_hcmrecruitingrequestlocationentity elementa mshr_hcmrecruitingrequestlocationentityid | Sistēmas ģenerēta GUID vērtība, lai identificētu darbā pieņemšanas pieprasījuma atrašanās vietu, kas atlasīta pieprasījumam. |
+| **Darbā pieņemšanas atrašanās vietas ID vērtība**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Tikai lasāms<br>Neobligāti<br>Ārējā atslēga: mshr_hcmrecruitingrequestlocationentity elementa mshr_hcmrecruitingrequestlocationentityid | Sistēmas ģenerēta GUID vērtība, lai identificētu darbā pieņemšanas pieprasījuma atrašanās vietu, kas atlasīta pieprasījumam. |
 | **Komentāri**<br>mshr_comments<br>*Virkne* | Lasīt/rakstīt<br>Neobligāti | Komentāri par izmantošanas pieprasījumu, ko iesnieguši darbinieku nolīgšanas vadītāji un personāla atlases veicēji. |
 | **Darba ID**<br>mshr_jobid<br>*Virkne* | Rakstīt vienu reizi<br>Obligāts |   Lietotājam lasāms ar šo pieprasījumu saistītais visu amatu kopīgotais unikālais identifikators. |
 | **Darba ID vērtība**<br>_mshr_fk_job_id_value<br>*GUID* | Tikai lasāms<br>Obligāts<br>Ārējā atslēga: mshr_hcmjobentity elementa mshr_hcmjobentityid | Sistēmas ģenerēts ar šo darbā pieņemšanas pieprasījumu saistītais visu amatu kopīgotais unikālais identifikators. |

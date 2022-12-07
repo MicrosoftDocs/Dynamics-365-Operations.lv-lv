@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Payment Connector pakalpojumam Adyen — pārskats
-description: Šajā rakstā ir sniegts pārskats par 365 maksājumu savienotāju Microsoft Dynamics Adyen.
+description: Šajā rakstā ir sniegts pārskats par Microsoft Dynamics 365 Maksājumu savienotāju, kas paredzēts Amaksānei.
 author: rassadi
 ms.date: 11/16/2022
 ms.topic: overview
@@ -12,96 +12,96 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 58d88e023b73ce19331bd6f54644a62d8f6f35af
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9784997"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812091"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Dynamics 365 Payment Connector pakalpojumam Adyen — pārskats
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par Microsoft Dynamics Adyen 365 maksājumu savienotāju un ietverts visaptverošs atbalstīto līdzekļu un funkcionalitātes saraksts. Saistītie raksti aptver reģistrēšanos Adyen, savienotāja konfigurāciju, bieži uzdotos jautājumus un problēmu novēršanas norādījumus par dažām bieži sastopamām problēmām.
+Šajā rakstā ir sniegts pārskats par Microsoft Dynamics 365 Maksājumu savienotāju Aenoen un ietver vispārēju atbalstīto funkciju un funkciju sarakstu. Saistītie priekšmeti aptver pierakstīšanu ar Ahaen, savienotāja konfigurāciju, bieži uzdotiem jautājumiem un traucējumnovēršanas norādes par dažiem bieži uzdotiem jautājumiem.
 
 ## <a name="key-terms"></a>Galvenie termini
 
 | Termiņš | Apraksts |
 |---|---|
-| Maksājumu savienotājs | Paplašinājums, kas atvieglo saziņu starp Microsoft Dynamics 365 Commerce (un saistītajiem komponentiem) un maksājumu pakalpojumu. Šajā rakstā aprakstītais savienotājs tika ieviests, izmantojot standarta maksājumu programmatūras izstrādes komplektu (SDK). |
-| Karte ir | Attiecas uz maksājumu transakcijām, kurās tiek parādīta un izmantota Dynamics 365 tirdzniecības vietas maksājumu termināļa savienotājā. |
-| Kartes nav | Attiecas uz maksājumu transakcijām, kurās nav fiziskas kartes, piemēram, e-komercijas vai zvanu centra scenārijiem. Šādos scenārijos ar maksājumu saistītā informācija tiek ievadīta manuāli vai nu e-komercijas vietnē, zvanu centra plūsmā, tirdzniecības vietā vai maksājumu terminālī. |
+| Maksājumu savienotājs | Paplašinājums, kas atvieglo sakarus starp Microsoft Dynamics 365 Commerce (un saistītajiem komponentiem) un maksājumu pakalpojumu. Šajā rakstā aprakstītais savienotājs tika ieviests, izmantojot standarta maksājumu programmatūras izstrādes komplektu (SDK). |
+| Karte ir | Attiecas uz maksājumu darbībām, kur ir uzrādīta un izmantota Dynamics 365 pārdošanas punkta maksājumu termināļa savienotājā. |
+| Kartes nav | Attiecas uz maksājumu darbībām, kurās nav fiziskas kartes, piemēram, e-komercijas vai zvanu centra scenāriji. Šajos scenārijos ar maksājumiem saistītā informācija tiek ievadīta manuāli e-Commerce vietnē, zvanu centra plūsmā vai pārdošanas punktā vai maksājumu terminālī. |
 
 ## <a name="supported-features-functionality-versions-and-terminals"></a>Atbalstītie līdzekļi, funkcionalitāte, versijas un termināļi
 
-Iebūvētais Dynamics 365 Payment Connector for Adyen izmanto standarta maksājumu SDK. Tāpēc tam nav īpašu iespēju, kas nav pieejamas arī citiem maksājumu savienotājiem.
+Dynamics 365 maksājumu savienotājs, kas atrodas izvēles rūtiņai Amaksājoten, izmanto standarta maksājumu SDK. Tāpēc tai nav īpašas iespējas, kas nav pieejamas arī citiem maksājumu savienotājiem.
 
 ### <a name="supported-versions"></a>Atbalstītās versijas
 
 #### <a name="microsoft-dynamics-365-supported-versions"></a>Microsoft Dynamics 365 atbalstītās versijas
-Pirmās puses iebūvētais Dynamics 365 Payment Connector for Adyen tiek atbalstīts Microsoft Dynamics 365 Finance versijā 8.1.3 (2019. gada janvārī) vai jaunākā versijā un Microsoft Dynamics 365 Retail versijā 8.1.3 vai jaunākā versijā. Tomēr trešās puses joprojām var izstrādāt citus Adyen maksājumu savienotājus vecākām 365 versijām Microsoft Dynamics.
+Pirmā puses programma Dynamics 365 Payment Connector for A papildmaksai Microsoft Dynamics tiek atbalstīta 365 Finanšu versijā 8.1.3 (2019. gada janvāris) vai vēlāk un Microsoft Dynamics 365 Retail versijā 8.1.3 vai vēlāk. Tomēr trešās puses vēl aizvien var izstrādāt citus Amaksājoten maksājumu savienotājus agrākām Microsoft Dynamics 365 versijām.
 
-#### <a name="supported-adyen-firmware-versions"></a>Atbalstītās Adyen aparātprogrammatūras versijas
+#### <a name="supported-adyen-firmware-versions"></a>Atbalstītās Ahaen jaunākas versijas
 
-Tālāk esošajā sarakstā ir aprakstītas minimālās un maksimālās Adyen aparātprogrammatūras versijas, kas tiek atbalstītas katrai POS versijai Microsoft Dynamics 365 Retail.
+Tālāk redzamajā sarakstā ir aprakstītas minimālās un maksimālās Ahaen šo versiju versijas, kas tiek atbalstītas katrai POS versijai Microsoft Dynamics 365 Retail .
 
 ---
 
 # <a name="10025"></a>[10.0.25](#tab/10-0-25)
 ### <a name="dynamics-365-retail-pos-version-10025"></a>Dynamics 365 Retail POS versija 10.0.25
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_71p16 | adyen_v1_73p6 |
 
 # <a name="10026"></a>[10.0.26](#tab/10-0-26)
 ### <a name="dynamics-365-retail-pos-version-10026"></a>Dynamics 365 Retail POS versija 10.0.26
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_73p6 | adyen_v1_75p13 |
 
 # <a name="10027"></a>[10.0.27](#tab/10-0-27)
 ### <a name="dynamics-365-retail-pos-version-10027"></a>Dynamics 365 Retail POS versija 10.0.27
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_73p6 | adyen_v1_75p13 |
 
 # <a name="10028"></a>[10.0.28](#tab/10-0-28)
 ### <a name="dynamics-365-retail-pos-version-10028"></a>Dynamics 365 Retail POS versija 10.0.28
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_73p6 | adyen_v1_75p22 |
 
 # <a name="10029"></a>[10.0.29](#tab/10-0-29)
 ### <a name="dynamics-365-retail-pos-version-10029"></a>Dynamics 365 Retail POS versija 10.0.29
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_71p16 | adyen_v1_78p6 |
 
 # <a name="10030"></a>[10.0.30](#tab/10-0-30)
 ### <a name="dynamics-365-retail-pos-version-10030"></a>Dynamics 365 Retail POS versija 10.0.30
-| Minimālā Adyen programmaparatūras versija | Maksimālā Adyen programmaparatūras versija |
+| Minimālā Ahas ēnkopas versija | Maksimālā Ahaen transportlīdzekļu versija |
 | --- | --- |
 | adyen_v1_71p16 | adyen_v1_78p6 |
 
 ---
 
 > [!NOTE]
-> Adyen var izlaist mazāksvarīgo versiju atjauninājumus pēc tam, kad Microsoft ir pārbaudījusi galveno versiju. Kamēr tiek atbalstīta galvenā versija, ir labi, ja tajā pašā galvenajā versijā ir mazāksvarīgo versiju atjauninājumi. Šie atjauninājumi parasti ir ļoti mērķtiecīgi labojumi un neatbilst pilnīgas atkārtotas testēšanas joslai, ja vien tā pati galvenā programmaparatūras versija ir iepriekš pārbaudīta. Atjauninājumi nedrīkst pārsniegt maksimālo Adyen aparātprogrammatūras versiju, kas norādīta dokumentācijā. 
+> Ahaen var izlaist papildversija atjauninājumus pēc tam, kad Microsoft testē galveno versiju. Kamēr tiek atbalstīta galvenā versija, ir labi, ka papildversija atjaunina vienu galveno versiju. Šie atjauninājumi parasti ir ļoti mērķtiecīgi labojumi un neatbilst svītrkodam pilnīgai atkārtotai pārbaudei, kamēr tā pati galvenā Produkta versija tika iepriekš testēta. Atjauninājumi nedrīkst pārsniegt dokumentācijā norādīto maksimālo Ahaen vērtība versiju. 
 >
-> Lai migrētu no Adyen aparātprogrammatūras versijas, kas vecāka par 53. versiju, uz 53. versiju ir nepieciešama POS KB 4577957 **ikmēneša** programmas Commerce versiju 10.0.11–10.0.14 atjauninājumiem. Ja kāda no šīm versijām tiek izmantota un tajā nav iekļauts labojumfails, maksājumu termināļa pēcjaunināšanas būs atļauti maksājumi tikai ar NFC starpniecību. Lietojot labojumfailu POS, šī problēma tiek novērsta. Ja POS versija ir vecāka par versiju 10.0.11, iesniedziet atbalsta pieprasījumu, atzīmējot, ka ārpus pakalpojuma esošu MPOS ir nepieciešams KB 4577957 **labojums**.
+> Migrējot no A pār 53. versijas versiju uz versiju 53, ir nepieciešama POS KB **4577957** commerce ikmēneša atjauninājumiem versijās 10.0.11 līdz 10.0.14. Ja viena no šīm versijām tiek izmantota un tajā nav iekļauts labojumfails, maksājumu termināļa grāmatošana ļaus veikt tikai maksājumus, izmantojot NFC. Piemērojot labojumfailu POS, tiek atrisināta šī problēma. Ja POS versija ir vecāka par versiju 10.0.11, fails atbalsta pieprasījumu, kas norāda, ka, lai ārpus pakalpojuma MPOS būtu nepieciešams labojums KB **4577957** .
 > 
-> Adyen aparātprogrammatūras versijām no 59p7 līdz 62p9 dāvanu kartes izņemšanas **operācija** pieprasa PIN koda ievadi divreiz scenārijos, kad dāvanu karte tiek ievadīta manuāli. Šī problēma netiek atveidota, kad dāvanu karte tiek vilkta. Adyen izmeklē. 
+> Audeen par versijām 59p7 līdz 62p9, dāvanu kartes iztēršanas operācija pieprasa PIN ierakstu divreiz scenārijos, **kuros** dāvanu karte tiek ievadīta manuāli. Šī problēma netiek pavairota, kad tiek lasīta dāvanu karte. Darbinieks tiek pētīts. 
 
 ### <a name="supported-payment-terminals"></a>Atbalstītie maksājumu termināļi
-Dynamics 365 Payment Connector for Adyen izmanto ierīces agnostikas [Adyen maksājumu termināļa API](https://www.adyen.com/blog/introducing-the-terminal-api) priekšrocības. Tas atbalsta visus maksājumu termināļus, kurus atbalsta šī lietojumprogrammu programmēšanas saskarne (API). Lai iegūtu pilnu atbalstīto maksājumu termināļu sarakstu, apmeklējiet [lapu Adyen POS termināļi](https://www.adyen.com/pos-payments/terminals).
+Dynamics 365 maksājumu savienotājs Aagnosen izmanto ierīces diagnostikā Aagnostic [Aagnosen maksājumu termināļa API priekšrocības](https://www.adyen.com/blog/introducing-the-terminal-api). Tas atbalsta visus maksājumu termināļus, ko atbalsta šis programmas programmēšanas interfeiss (API). Lai iegūtu pilnīgu atbalstīto maksājumu termināļu sarakstu, apmeklējiet [lapu Apozitoen POS termināļi](https://www.adyen.com/pos-payments/terminals) .
 
-Nākamajā videoklipā aprakstītas Adyen Castles SE1 Android maksājumu termināļa iespējas.
+Šajā video ir aprakstītas A pārdijas SE1 maksājuma termināļa Android iespējas.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
 
-### <a name="supported-payment-instruments"></a>Atbalstītie maksāšanas līdzekļi
+### <a name="supported-payment-instruments"></a>Atbalstītie maksājumu instrumenti
 
 #### <a name="supported-debit-and-credit-cards"></a>Atbalstītās debetkartes un kredītkartes
 
@@ -109,71 +109,71 @@ Nākamajā videoklipā aprakstītas Adyen Castles SE1 Android maksājumu termin�
 |---|---|:-:|:-:|:-:|
 | MasterCard | Kredīts | ✔ | ✔ | ✔ |
 | MasterCard | Debets | ✔ | ✔ | ✔ |
-| MasterCard | Alfa bankas bonuss | ✔ | ✔ | ✔ |
-| MasterCard | Apple Pay | ✔ |  |  |
-| MasterCard | Samsung Maksāt | ✔ |  |  |
+| MasterCard | Alfa bankas prēmija | ✔ | ✔ | ✔ |
+| MasterCard | Darba apmaksa | ✔ |  |  |
+| MasterCard | Darba apmaksa | ✔ |  |  |
 | MasterCard | Maestro | ✔ | ✔ | ✔ |
-| MasterCard | Maestro Samsung Pay | ✔ |  |  |
+| MasterCard | Neapmaksātās algas | ✔ |  |  |
 | MasterCard | Maestro Apvienotā Karaliste | ✔ | ✔ | ✔ |
-| VĪZA | Kredīts | ✔ | ✔ | ✔ |
-| VĪZA | Debets | ✔ | ✔ | ✔ |
-| VĪZA | Alfa bankas bonuss | ✔ | ✔ | ✔ |
-| VĪZA | Android Maksāt | ✔ |  |  |
-| VĪZA | Apple Pay | ✔ |  |  |
-| VĪZA | Samsung Maksāt | ✔ |  |  |
-| VĪZA | VISA izrakstīšanās | ✔ | ✔ | ✔ |
-| VĪZA | VISA Dankort | ✔ | ✔ | ✔ |
-| VĪZA | VISA Hipotecario | ✔ | ✔ | ✔ |
-| VĪZA | VISA Aravia karte | ✔ | ✔ | ✔ |
+| VĪZU | Kredīts | ✔ | ✔ | ✔ |
+| VĪZU | Debets | ✔ | ✔ | ✔ |
+| VĪZU | Alfa bankas prēmija | ✔ | ✔ | ✔ |
+| VĪZU | Android Maksāt | ✔ |  |  |
+| VĪZU | Darba apmaksa | ✔ |  |  |
+| VĪZU | Darba apmaksa | ✔ |  |  |
+| VĪZU | VISA pārbaude | ✔ | ✔ | ✔ |
+| VĪZU | VISA Dankort | ✔ | ✔ | ✔ |
+| VĪZU | VISAHitecario | ✔ | ✔ | ✔ |
+| VĪZU | VISA Aravia karte | ✔ | ✔ | ✔ |
 | AMEX | Kredīts | ✔ | ✔ | ✔ |
 | AMEX | Debets | ✔ | ✔ | ✔ |
 | AMEX | Android Maksāt | ✔ |  |  |
-| AMEX | Apple Pay | ✔ |  |  |
-| AMEX | Samsung Maksāt | ✔ |  |  |
-| AMEX | AMEX komerciāls | ✔ | ✔ | ✔ |
-| AMEX | AMEX patērētājs | ✔ | ✔ | ✔ |
-| AMEX | AMEX korporatīvie | ✔ | ✔ | ✔ |
-| AMEX | AMEX mazie uzņēmumi | ✔ | ✔ | ✔ |
+| AMEX | Darba apmaksa | ✔ |  |  |
+| AMEX | Darba apmaksa | ✔ |  |  |
+| AMEX | AMEX komerciālais | ✔ | ✔ | ✔ |
+| AMEX | AMEX patērētāja | ✔ | ✔ | ✔ |
+| AMEX | AMEX korporatīvā | ✔ | ✔ | ✔ |
+| AMEX | AMEX mazs uzņēmums | ✔ | ✔ | ✔ |
 | Atklāt | Standarta | ✔ | ✔ | ✔ |
 | Atklāt | Android Maksāt | ✔ |  |  |
-| Atklāt | Apple Pay | ✔ |  |  |
-| Atklāt | Samsung Maksāt | ✔ |  |  |
+| Atklāt | Darba apmaksa | ✔ |  |  |
+| Atklāt | Darba apmaksa | ✔ |  |  |
 | Diners   | Standarta | ✔ | ✔ | ✔ |
 | Dineromail | Standarta | ✔ | ✔ | ✔ |
 | JCB | Standarta | ✔ | ✔ | ✔ |
-| Savienības darba samaksa\* | Standarta | ✔ |  |  |
-| Interac debets\* | Standarta | ✔ |  |  |
+| Union Pay\* | Standarta | ✔ |  |  |
+| Interakt debets\* | Standarta | ✔ |  |  |
 
-\* Interac un Union Pay periodisko karšu žetonus Adyen nenodrošina, tāpēc tos nevar atbalstīt darījumiem ar karti, kurā nav klāt.
+\* Interac un Union Pay periodiskās kartes marķierus nav sniedzis Aharen, tāpēc tos nevar atbalstīt kartēm ar pašreizējām transakcijām.
 
 #### <a name="supported-gift-cards"></a>Atbalstītās dāvanu kartes
 | Shēma | Karte ir | Kartes nav |
 |---|:-:|---|
-| Givex | ✔ | ✔ |
+| Piešķirt | ✔ | ✔ |
 | SVS | ✔ | ✔ |
 
-Lai atbalstītu šīs ārējās dāvanu karšu shēmas, izmantojot Dynamics 365 Payment Connector for Adyen, ir jāveic papildu darbības. Papildinformāciju skatiet sadaļā [Atbalsts ārējām dāvanu kartēm](/dynamics365/unified-operations/retail/dev-itpro/gift-card).
+Lai atbalstītu šīs ārējās dāvanu karšu shēmas, izmantojot Dynamics 365 maksājumu savienotāju A papildmaksai, jums ir jāveic papildu darbības. Papildinformāciju skatiet sadaļā [Atbalsts ārējai dāvanu kartei](/dynamics365/unified-operations/retail/dev-itpro/gift-card).
 
-#### <a name="supported-wallets"></a>Atbalstītie maki
+#### <a name="supported-wallets"></a>Atbalstītās vietas
 
 | Shēma | Karte ir | Kartes nav |
 |---|---|---|
-| Alipay | Atbalsts tiks pievienots nākamajā laidienā. | Nē |
-| WeChat | Atbalsts tiks pievienots nākamajā laidienā. | Nē |
+| Alipay (alipay) | Atbalsts tiks pievienots nākamajā laidienā. | Nē |
+| We Vēlu | Atbalsts tiks pievienots nākamajā laidienā. | Nē |
 
 #### <a name="supported-card-present-input-methods"></a>Atbalstītās kartes ievades metodes
 | Ievades metode | Tiek atbalstīts | Piezīmes |
 |---|:-:|---|
 | Dip | ✔ | |
 | Lasīt karti | ✔ | |
-| Krāns | ✔ | |
-| Manuāla ievadīšana, izmantojot POS lietotāja interfeisu. |  | Šobrīd netiek atbalstīts |
-| Manuāla ievadīšana, izmantojot maksājumu termināli. | ✔ | Atbalsta kredītkaršu, debetkaršu un dāvanu karšu manuālu ievadīšanu ar PIN koda ievadīšanu. | 
+| Pieskarieties | ✔ | |
+| Manuāla ievadne, izmantojot POS UI. |  | Pašlaik netiek atbalstīts |
+| Manuāla ievadne, izmantojot maksājumu termināli. | ✔ | Atbalsta manuālu kredīta, debeta un dāvanu karšu ievadi ar PIN ierakstu. | 
 
 
 #### <a name="supported-card-present-countries"></a>Atbalstītās kartes nodrošinājuma valstis/reģioni
 
-Šajās valstīs ir pieejami Commerce komponenti un karšu prezentācijas atbalsts no Adyen. Lai skatītu pašreizējo tirdzniecības starptautisko pieejamību, apmeklējiet [lapu](/dynamics365/get-started/availability) Starptautiskā pieejamība.
+Šīm valstīm ir pieejami Commerce komponenti, un ar karti tiek nodrošināts Abayen atbalsts. Lai apmeklētu tirdzniecības pašreizējo starptautisko pieejamību, apmeklējiet [lapu Starptautiskā pieejamība](/dynamics365/get-started/availability).
 
 | Valsts/reģions | Tiek atbalstīts |
 | --- | :-: |
@@ -192,7 +192,7 @@ Lai atbalstītu šīs ārējās dāvanu karšu shēmas, izmantojot Dynamics 365 
 | Islande | ✔ |
 | Īrija | ✔ |
 | Itālija | ✔ |
-| Japāna | Turpmākais laidiens |
+| Japāna | Izlaišana nākotnē |
 | Latvija | ✔ |
 | Lietuva | ✔ |
 | Malaizija | ✔ |
@@ -207,11 +207,11 @@ Lai atbalstītu šīs ārējās dāvanu karšu shēmas, izmantojot Dynamics 365 
 | Šveice | ✔ |
 | Apvienotā Karaliste | ✔ |
 | Amerikas Savienotās Valstis | ✔ |
-| Brazīlija | Turpmākais laidiens |
+| Brazīlija | Izlaišana nākotnē |
 
-#### <a name="supported-card-not-present-countries"></a>Atbalstītā karte, kas nav pieejama valstīs
+#### <a name="supported-card-not-present-countries"></a>Atbalstītajā kartē nav valstu.
 
-Tālāk minētajām valstīm/reģioniem tiek nodrošināts Adyen atbalsts kartei, kurai nav darījumu. [Sazinieties ar Adyen](https://www.adyen.com/contact/sales), lai iegūtu sīkāku informāciju par atbalstu konkrētai valstij. Lai skatītu pašreizējo tirdzniecības starptautisko pieejamību, apmeklējiet [lapu](/dynamics365/get-started/availability) Starptautiskā pieejamība.
+Tālāk minētajām valstīm/reģioniem tiek nodrošināts Adyen atbalsts kartei, kurai nav darījumu. [Sazinieties ar Ahaen](https://www.adyen.com/contact/sales) , lai iegūtu sīkāku informāciju par atbalstu noteiktai valstij. Lai apmeklētu tirdzniecības pašreizējo starptautisko pieejamību, apmeklējiet [lapu Starptautiskā pieejamība](/dynamics365/get-started/availability).
 
 | Valsts/reģions | 
 | --- |
@@ -280,33 +280,33 @@ Tālāk minētajām valstīm/reģioniem tiek nodrošināts Adyen atbalsts kartei
 | Taivāna |
 | Tanzānija |
 | Taizeme |
-| Turcija |
+| Urkiye |
 | Apvienotie Arābu Emirāti (AAE) |
 | Apvienotā Karaliste |
 | Amerikas Savienotās Valstis, tostarp Puertoriko  |
 
 #### <a name="supported-dynamics-365-payment-features"></a>Atbalstītie Dynamics 365 maksājumu līdzekļi
 
-Tālāk esošajā tabulā ir parādīta līdzekļu kopa, ko atbalsta Dynamics 365 Payment Connector for Adyen. Šajās funkcijās tiek izmantoti uzlabojumi, kas tika ieviesti maksājumu SDK un dažos komponentos 2018. gada decembrī. Tie nav ekskluzīvi Dynamics 365 Payment Connector for Adyen. Papildinformāciju par to, kā ieviest šos uzlabojumus citam maksājumu savienotājam, skatiet rakstā [Maksājumu termināļa pilnīga maksājumu integrācijas izveide](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).
+Tabulā ir parādīta līdzekļu kopa, ko atbalsta Dynamics 365 maksājumu savienotājs Aradien. Šie līdzekļi izmanto uzlabojumus, kas tika ieviesti maksājumu SDK un dažiem komponentiem 2018. gada decembrī. Tie nav ekskluzīvi Dynamics 365 maksājumu savienotājam, kas paredzēts Aradien. Papildinformāciju par to, kā uzpildīs šos uzlabojumus dažādiem maksājumu savienotājiem, [skatiet sadaļā Beigu maksājumu integrācijas izveide maksājumu terminālim](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).
 
 | Shēma | Karte ir | Kartes nav |
 |---|:-:|:-:|
-| [Izņemt dāvanu kartes atlikumu](/dynamics365/unified-operations/retail/dev-itpro/gift-card-cash-out) | ✔ | |
-| [Dublēta maksājumu aizsardzība](/dynamics365/unified-operations/retail/duplicate-payment-protection) | ✔ | |
-| Omni kanāla tokenizācija | ✔ | ✔ |
-| Saistītās atmaksas | ✔<br>(Sākot ar 10.0.1) | ✔<br>(Sākot ar 10.0.1) |
-| [Tiešsaistes maksājumu saglabāšana](../dev-itpro/adyen-connector-listPI.md) | | ✔<br>(Sākot ar 10.0.2) | 
-| [Ārējās dāvanu kartes zvanu centram un e-komercijai](./gift-card.md) | ✔<br>(Sākot ar 10.0.10) | 
-| [SCA maksājumu novirzīšana](../adyen_redirect.md) | | ✔<br>(Sākot ar 10.0.12) |
-| [Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilktnei](../pos-multi-hws.md) | ✔<br>(Sākot ar 10.0.12) | |
-| [SDK līmeņa dzeramnaudas atbalsts, izmantojot Adyen savienotāju](tipping.md) | ✔<br>(Sākot ar 10.0.14) | |
-| [Inkrementāla tveršana pasūtījumu rēķinu izrakstīšanai](incremental-capture.md) |  | ✔<br>(Sākot ar 10.0.18) |
-| [Maka maksājumi](../wallets.md) |  | ✔<br>(Sākot ar 10.0.20) |
-| [Google Pay ar Adyen](google-pay-adyen.md) |  | ✔<br>(Sākot ar 10.0.27) |
+| [Izmaksas no dāvanu kartes bilance](/dynamics365/unified-operations/retail/dev-itpro/gift-card-cash-out) | ✔ | |
+| [Dublēt maksājumu aizsardzību](/dynamics365/unified-operations/retail/duplicate-payment-protection) | ✔ | |
+| Omni Channel Tokenization | ✔ | ✔ |
+| Saistītās atmaksas | ✔<br>(Sākas ar 10.0.1) | ✔<br>(Sākas ar 10.0.1) |
+| [Saglabāt tiešsaistes maksājumus](../dev-itpro/adyen-connector-listPI.md) | | ✔<br>(Sākas ar 10.0.2) | 
+| [Ārējās dāvanu kartes zvanu centram un e-komercijai](./gift-card.md) | ✔<br>(Sākas ar 10.0.10) | 
+| [SCA maksājuma novirzīšana](../adyen_redirect.md) | | ✔<br>(Sākas ar 10.0.12) |
+| [Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilktnei](../pos-multi-hws.md) | ✔<br>(Sākas ar 10.0.12) | |
+| [SDK līmeņa izmešanas atbalsts, izmantojot A connector](tipping.md) | ✔<br>(Sākas ar 10.0.14) | |
+| [Inkrementāla tveršana pasūtījumu rēķinu izrakstīšanai](incremental-capture.md) |  | ✔<br>(Sākas ar 10.0.18) |
+| [Veikt maksājumus](../wallets.md) |  | ✔<br>(Sākas ar 10.0.20) |
+| [Neapmaksāts ar Adžienu](google-pay-adyen.md) |  | ✔<br>(Sākas ar 10.0.27) |
 
 ## <a name="next-steps"></a>Turpmākās darbības
 
-Informāciju par reģistrēšanos Dynamics 365 Payment Connector for Adyen un tā konfigurēšanu skatiet rakstā [Dynamics 365 Payment Connector for Adyen iestatīšana](adyen-connector-setup.md).
+Informāciju par Dynamics 365 maksājumu savienotāja piereģistrēšanos un konfigurēšanu skatiet Dynamics 365 Maksājumu savienotājs Adžien [iestatīšanai](adyen-connector-setup.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

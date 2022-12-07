@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135545"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802828"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -30,7 +30,7 @@ ms.locfileid: "9135545"
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Rindas koda norādīšana rindas definīcijā
 
-Rindas definīcijā numuri vai etiķetes šūnā **Rindas kods** identificē rindas definīcijas katru rindu. Rindas kodu var norādīt, lai izveidotu atsauci uz datiem aprēķinos vai kopsummās.
+Rindas definīcijās skaitļi vai iezīmes Rindas koda **šūnā** identificē katru rindu rindas definīcijā. Rindas kodu var norādīt, lai izveidotu atsauci uz datiem aprēķinos vai kopsummās.
 
 ### <a name="row-code-requirements"></a>Rindas koda prasības
 
@@ -51,14 +51,14 @@ Rindas kods ir jānorāda visās rindās. Rindas definīcijā varat kombinēt ci
 
 ### <a name="change-a-row-code-in-a-row-definition"></a>Rindas definīcijas rindas koda maiņa
 
-1. Atskaišu veidotājā noklikšķiniet uz **Rindas definīcijas** un atveriet modificējamo rindas definīciju.
-2. Atbilstošajā rindā ievadiet jaunu vērtību kolonnas **Rindas kods** šūnā.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Atbilstošā rindā ievadiet jauno vērtību šūnā rindas **koda kolonnā** .
 
 ### <a name="reset-numeric-row-codes"></a>Skaitlisko rindu kodu atiestate
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārnumurēt rindas**.
-3. Dialoglodziņā **Pārnumurēt rindas** norādiet jaunās vērtības sākuma rindas kodam un rindu kodu pieauguma solim. Varat atiestatīt ciparu rindu kodus uz vienādi izvietotām vērtībām. Taču atskaišu veidotājs pārnumurē tikai tos rindu kodus, kas sākas ar skaitļiem (piemēram, 130 vai 246). Tas nepārnumurē rindu kodus, kas sākas ar burtiem (piemēram, INCOME\_93 vai TP0693).
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Rindu **pārnumurēšana**.
+3. Dialoglodziņā Rindu **pārnumurēšana** norādiet jaunas vērtības sākuma rindas kodam un rindas koda pieaugumam. Varat atiestatīt ciparu rindu kodus uz vienādi izvietotām vērtībām. Taču atskaišu veidotājs pārnumurē tikai tos rindu kodus, kas sākas ar skaitļiem (piemēram, 130 vai 246). Tas nepārnumurē rindu kodus, kas sākas ar burtiem (piemēram, INCOME\_93 vai TP0693).
 
 > [!NOTE]
 > Kad pārnumurējat rindu kodus, pārskatu veidotājs automātiski atjaunina **TOT** un **CAL** atsauces. Piemēram, ja **TOT** rinda atsaucas uz diapazonu, kas sākas ar rindas kodu 100, un jūs pārnumurējat rindas, sākot ar 90, sākuma **TOT** atsauce tiek mainīta no 100 uz 90.
@@ -71,39 +71,39 @@ Apraksta šūna sniedz aprakstu par pārskata rindā esošajiem finanšu datiem,
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Apraksta pievienošana pārskata rindai
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
 2. Atlasiet šūnu **Apraksts** un tad ievadiet pārskata rindas nosaukumu.
 3. Lietot formatējumu.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Papildu teksta pievienošana aprakstam no pārskatu koka
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
 2. Ievadiet papildu teksta kodu un pārējo tekstu atbilstošajā šūnā **Apraksts**.
 3. Lietot formatējumu.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Papildu teksta ierobežošana, izmantojot konkrētu pārskatu vienību
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
 2. Atrodiet rindu, kurā jāizveido papildu teksts, un tad veiciet dubultklikšķi uz šūnas kolonnā **Saistītās formulas/Rindas/Vienības**.
-3. Atlasiet pārskata koku dialoglodziņa **Pārskata vienību atlase** laukā **Pārskata koks**.
+3. Pārskata vienības **atlases** dialoglodziņā pārskata koka **laukā** atlasiet pārskata koku.
 4. Laukā **Atlasiet ierobežojuma pārskata vienību** izvērsiet vai sakļaujiet pārskata koku un tad atlasiet pārskata vienību.
 
 ## <a name="add-a-format-code"></a>Formāta koda pievienošana
-Šūnā **Formāta kods** iespējams izvēlēties iepriekš formatētu rindas satura izvēli. Ja šūna **Formāta kods** ir tukša, rinda tiek interpretēta kā rinda informācijai par finanšu datiem.
+Formāta **koda** šūna piedāvā iepriekšformatēto izvēli attiecībā uz šīs rindas saturu. Ja formāta **koda šūna** ir tukša, rinda tiek interpretēta kā finanšu datu detaļu rinda.
 
 > [!NOTE]
 > Ja pārskats ietver formatēšanas rindas, kas nav paredzētas summām, bet kas ir saistītas ar summas rindām, kuras ir likvidētas (piemēram, sakarā ar nulles bilanci), tad varat izmantot kolonnu **Saistītās formulas/rindas/vienības**, lai nepieļautu virsraksta un formāta rindu drukāšanu.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Formāta koda pievienošana pārskata rindai
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atlasiet modificējamo rindas definīciju.
-2. Veiciet dubultklikšķi uz **Formāta kods** šūnas.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas** un pēc tam atlasiet modificējamu rindas definīciju.
+2. Veiciet dubultklikšķi uz formāta **koda** šūnas.
 3. Sarakstā atlasiet formāta kodu. Tālāk sniegtajā tabulā ir aprakstīti formātu kodi un to darbības.
 
     | Formāta kods                   | Formāta koda interpretācija | Darbība |
     |-------------------------------|-----------------------------------|--------|
-    | (nav)                        |                                   | Notīra šūnu **Formāta kods**. |
-    | KOP                           | Kopsumma                             | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Kopsummās tiek lietoti vienkārši operatori, piemēram, **+** vai **-**. |
+    | (Nav)                        |                                   | Notīra formāta **koda** šūnu. |
+    | KOP                           | Kopā                             | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Kopsummās tiek lietoti vienkārši operatori, piemēram, **+** vai **-**. |
     | CAL                           | Aprēķins                       | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinos tiek lietoti sarežģīti operatori, piemēram, **+**, **-**, **\**_, _*/** un priekšraksti **IF/THEN/ELSE**. |
     | APR                           | Apraksts                       | Identificē pārskatā virsraksta rindas vai tukšu rindu. |
     | LFT RGT CEN                   | Pa kreisi Pa labi Pa vidu                 | Izlīdzina rindas apraksta tekstu pārskata lapā neatkarīgi no teksta izvietojuma kolonnas definīcijā. |
@@ -122,7 +122,7 @@ Apraksta šūna sniedz aprakstu par pārskata rindā esošajiem finanšu datiem,
     | SORT ASORT SORTDESC ASORTDESC | Kārtot                              | Kārto izdevumus vai ienākumus, kārto faktiskās vai budžeta novirzes pārskatu pēc lielākās novirzes vai kārto rindu aprakstus pēc alfabēta. |
 
 ## <a name="specify-related-formulasrowsunits"></a>Saistītās formulas/rindas/vienības norādīšana
-Šūnai **Saistītās formulas/Rindas/Vienības** ir vairāki pielietojumi. Atkarībā no rindas tipa šūna **Saistītās formulas/Rindas/Vienības** var veikt vienu no šādām funkcijām:
+Saistītajās **formulās/rindās/vienībās** šūnai ir vairāki mērķi. Atkarībā no rindas tipa šūna **Saistītās formulas/Rindas/Vienības** var veikt vienu no šādām funkcijām:
 
 - Definēt rindas, kas jāpievieno aprēķinā, kad lietojat **TOT** formāta kodu vai **CAL** formāta kodu;
 - formāta rindas saistīšana ar summas rindu, lai formatējumu tiktu drukāts tikai gadījumā, kad tiek drukāta saistītā summa
@@ -149,20 +149,20 @@ Izveidojot rindas kopsummas formulu, ir jāizmanto rindu kodi, lai norādītu ri
 
 ### <a name="create-a-row-total"></a>Rindas kopsummas izveide
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas** un pēc tam atveriet modificējamo rindas definīciju.
-2. Veiciet dubultklikšķi uz šūnas **Formāta kods** rindas definīcijā un atlasiet **TOT**.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Veiciet dubultklikšķi uz **formāta koda** šūnas rindas definīcijā un atlasiet **TOT**.
 3. Šūnā **Saistītās formulas/Rindas/Vienības** ievadiet kopsummas formulu.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Formāta rindas saistīšana ar summas rindu
 
-Rindas definīcijas kolonnā **Formāta kods** formātu kodi **DES**, **LFT**, **RGT**, **CEN**, **---** un **===** nodrošina formatējuma lietošanu rindām, kas nav summas rindas. Lai novērstu formatējuma drukāšanu, kad saistītās summas rindas ir likvidētas (piemēram, ja summas rindās ir nulles vērtības vai nav perioda aktivitātes), formāta rindas ir jāsaista ar atbilstošām summu rindām. Šī funkcionalitāte ir noderīga, ja nevēlaties drukāt galvenes vai formatējumu, kas ir saistīts ar starpsummām, kad periodā nav informācijas.
+Formāta koda **kolonnā rindas definīcijā des,LFT,RGT**  **·** **,** **CEN** **un formātu kodi attiecas uz formatēšanu rindām,** **---** kuru nav summa. **===**  Lai novērstu formatējuma drukāšanu, kad saistītās summas rindas ir likvidētas (piemēram, ja summas rindās ir nulles vērtības vai nav perioda aktivitātes), formāta rindas ir jāsaista ar atbilstošām summu rindām. Šī funkcionalitāte ir noderīga, ja nevēlaties drukāt galvenes vai formatējumu, kas ir saistīts ar starpsummām, kad periodā nav informācijas.
 
 > [!NOTE]
 > Varat neļaut arī detalizēto summu rindu drukāšanu, noņemot atzīmi opcijai, kas rāda rindas bez summām. Šī opcija atrodas pārskata definīcijas cilnē **Iestatījumi**. Pārskatā pēc noklusējuma tiek izlaista darījumu detalizēta informācija par kontiem, kuros ir nulles bilance vai kuros attiecīgā periodā netika veiktas darbības. Lai parādītu šos transakciju detalizētās informācijas kontus, atzīmējiet izvēles rūtiņu **Parādīt rindas bez summām** pārskata definīcijas cilnē **Iestatījumi**.
 
-### <a name="relate-a-format-row-to-an-amount-row"></a>Formāta rindas sasaistīšana ar summas rindu
+### <a name="relate-a-format-row-to-an-amount-row"></a>Formāta rindas saistīšana ar summas rindu
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atlasiet modificējamo rindas definīciju.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas** un pēc tam atlasiet modificējamu rindas definīciju.
 2. Formatējuma rindas šūnā **Saistītās formulas/Rindas/Vienības** ievadiet likvidējamās summas rindas kodu.
 
     > [!NOTE]
@@ -172,7 +172,7 @@ Rindas definīcijas kolonnā **Formāta kods** formātu kodi **DES**, **LFT**, *
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Rindu drukāšanas izlaišanas piemērs
 
-Šajā piemērā lietotājs vēlas novērst virsrakstu un pasvītrojuma zīmju drukāšanu sava pārskata rindai **Kopsumma kasē**, jo nevienā no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** lietotājs ievada **250**, kas ir tās summas rindas kods, kuru lietotājs vēlas likvidēt.
+Tālāk piemērā lietotājs vēlas neatļaut **drukāt** sava pārskata virsraksts un pasvītrojuma zīmes, kas atrodas viņas pārskata kases kopsummas rindā, jo nevienam no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** lietotājs ievada **250**, kas ir tās summas rindas kods, kuru lietotājs vēlas likvidēt.
 
 [![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -192,15 +192,15 @@ Kolonnas definīcijā kolonnas tips **APRĒK** norāda kolonnu, kas nosaka formu
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Pamata rindas atlase rindas definīcijā kolonnas aprēķinam
 
-1. Pārskatu veidotājā noklikšķiniet uz **Kolonnu definīcijas** un atveriet peļņas un zaudējumu pārskata kolonnas definīciju.
+1. Pārskatu veidotājā noklikšķiniet uz **Kolonnu** definīcijas un pēc tam atveriet kolonnu definīciju ienākumu pārskatam.
 2. Kolonnu definīcijai pievienojiet jaunu kolonnu, un iestatiet kolonnas tipu **CALC**.
 3. Jaunās kolonnas šūnā **Formula** ievadiet formulu **X/BASEROW**, kur **X** ir **FD** kolonnas tips, kurš jāizsaka procentos.
-4. Veiciet dubultklikšķi uz šūnas **Formāts/Valūtas ignorēšana**.
-5. Dialoglodziņā **Formāta ignorēšana**, kas atrodas sarakstā **Formāta kategorija**, atlasiet **Procenti** un noklikšķiniet uz **Labi**.
+4. Veiciet dubultklikšķi uz šūnas **Formāta/valūtas ignorēšana** .
+5. Dialoglodziņa Formāta **ignorēšana** sarakstā Formāts atlasiet **Procenti** un pēc **tam** noklikšķiniet uz **Labi**.
 6. Lai saglabātu kolonnas definīciju ar jaunu nosaukumu, izvēlnē **Fails** noklikšķiniet uz **Saglabāt kā**. Pašreizējam faila nosaukumam pievienojiet **CBR** (piemēram, **CUR\_YTD\_CBR**). Šī kolonnas definīcija ir jūsu pamata rindas kolonnas definīcija.
-7. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju, izmantojot pamata rindas aprēķinus.
+7. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet rindas definīciju, lai modificētu, izmantojot bāzes rindas aprēķinu.
 8. Ievietojiet jaunu rindu virs rindas, kurā jāsākas pamata rindas aprēķinam.
-9. Veiciet dubultklikšķi uz šūnas **Formāta kods** rindas definīcijā un atlasiet **CBR**.
+9. Veiciet dubultklikšķi uz rindas **definīcijas** formāta koda šūnas un pēc tam atlasiet **CBR**.
 10. Šūnā **Saistītās formulas/Rindas/Vienības** ievadiet bāzes rindas koda numuru.
 
 ### <a name="example-of-base-row-calculation"></a>Pamata rindas aprēķina piemērs
@@ -227,10 +227,10 @@ Izmantojot kārtošanas kodus, var kārtot kontus un vērtības, kārtot faktisk
 
 ### <a name="select-a-sorting-code"></a>Kārtošanas koda atlasīšana
 
-1. Pārskatu veidotājā noklikšķiniet uz **Rindu definīcijas** un atveriet modificējamo rindas definīciju.
-2. Veiciet dubultklikšķi uz šūnas **Formāta kods** un atlasiet kārtošanas kodu.
+1. Pārskatu veidotājā noklikšķiniet uz **Rindas definīcijas un** pēc tam atveriet modificējamās rindas definīciju.
+2. Veiciet dubultklikšķi uz **formāta koda** šūnas un pēc tam atlasiet kārtošanas kodu.
 3. Šūnā **Saistītās formulas/Rindas/Vienības** norādiet kārtojamo rindu kodu diapazonu. Lai norādītu diapazonu, ievadiet pirmās rindas kodu, kolu (:) un pēc tam pēdējās rindas kodu. Piemēram, ievadiet **160:490** lai norādītu, ka diapazons ir no 160. rindas līdz 490. rindai.
-4. Šūnā **Kolonnu ierobežojums** ievadiet tās pārskata kolonnas burtu, kas jāizmanto kārtošanai.
+4. Kolonnas ierobežojuma **šūnā** ievadiet pārskata kolonnas burtu, ko izmantot kārtošanai.
 
     > [!NOTE]
     > Kārtošanas aprēķinā iekļaujiet tikai summu rindas.
@@ -239,25 +239,25 @@ Izmantojot kārtošanas kodus, var kārtot kontus un vērtības, kārtot faktisk
 
 Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vērtības tiek sakārtotas augošā secībā. Turklāt G kolonnas 610.–940. rindas absolūtās vērtības tiek kārtotas dilstošā secībā.
 
-| Rindas kods | Apraksts                                         | Formāta kods | Saistītās formulas/rindas/vienības | Parasta bilance | Kolonnas ierobežojums | Saite uz finanšu dimensijām |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Kārtots augošā secībā pēc mēneša novirzes       | APR         |                             |                |                    |                              |
-| 130      |                                                     | KĀRT        | 160:490                     |                | D                  |                              |
-| 160      | Pārdošana                                               |             |                             | C              |                    | 4100                         |
-| 190      | Atgrieztās pārdotās preces                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Procentu ieņēmumi                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | APR         |                             |                |                    |                              |
-| 550      | Kārtots dilstošā secībā pēc YTD absolūtās novirzes | APR         |                             |                |                    |                              |
-| 580      |                                                     | AKĀRTDILST   | 610:940                     |                | P                  |                              |
-| 610      | Pārdošana                                               |             |                             | U              |                    | 4100                         |
-| 640      | Atgrieztās pārdotās preces                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Procentu ieņēmumi                                     |             |                             | U              |                    | 7000                         |
+| Rindas kods | Apraksts                             | Formāta kods | Saistītās formulas/rindas/vienības | Parastā bilance | Kolonnas ierobežojums | Saite uz finanšu dimensijām |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Kārtots augošā secībā pēc mēneša novirzes       | APR         |                |                |                    |                              |
+| 130      |                                        | KĀRT        | 160:490                     |                | D                  |                              |
+| 160      | Pārdošana                                   |             |                             | C              |                    | 4100                         |
+| 190      | Atgrieztās pārdotās preces                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Procentu ieņēmumi              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | APR         |                             |                |                    |                              |
+| 550      | Kārtots dilstošā secībā pēc YTD absolūtās novirzes | APR         |             |                |                    |                              |
+| 580      |                              | AKĀRTDILST   | 610:940                     |                | P                  |                              |
+| 610      | Pārdošana                     |             |                             | U              |                    | 4100                         |
+| 640      | Atgrieztās pārdotās preces                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Procentu ieņēmumi               |             |                             | K              |                    | 7000                         |
 
 
-## <a name="specify-a-format-override-cell"></a>Formāta ignorēšanas šūnu norādīšana
-Šūna **Formāta ignorēšana** norāda formatējumu, kas rindai tiek izmantots pārskata drukāšanai. Šis formatējums aizstāj formatējumu, kas ir norādīts kolonnas definīcijā un pārskata definīcijā. Pēc noklusējuma šajās definīcijās norādītais formatējums ir valūta. Ja kādā pārskata rindā ir norādīts līdzekļu skaits, piemēram, ēku skaits, un citā rindā — šo līdzekļu monetārā vērtība, valūtas formātu var pārrakstīt, ievadot skaitlisko formātu rindās, kurās ir norādīts ēku skaits. Šī informācija jānorāda dialoglodziņā **Formātā ignorēšana**. Opciju pieejamība ir atkarīga no atlasītās formāta kategorijas. Dialoglodziņa apgabalā **Paraugs** tiek parādīti formātu piemēri. Ir pieejamas šādas formāta kategorijas.
+## <a name="specify-a-format-override-cell"></a>Norādiet formāta ignorēšanas šūnu
+Formāta **ignorēšanas** šūna norāda formātu, kas tiek izmantots rindai, drukājot pārskatu. Šis formatējums aizstāj formatējumu, kas ir norādīts kolonnas definīcijā un pārskata definīcijā. Pēc noklusējuma šajās definīcijās norādītais formatējums ir valūta. Ja kādā pārskata rindā ir norādīts līdzekļu skaits, piemēram, ēku skaits, un citā rindā — šo līdzekļu monetārā vērtība, valūtas formātu var pārrakstīt, ievadot skaitlisko formātu rindās, kurās ir norādīts ēku skaits. Šo informāciju norādiet dialoglodziņā Formāta **ignorēšana** . Opciju pieejamība ir atkarīga no atlasītās formāta kategorijas. Dialoglodziņa apgabalā **Paraugs** tiek parādīti formātu piemēri. Ir pieejamas šādas formāta kategorijas.
 
 - Valūtas formatēšana
 - Skaitliskā formatēšana
@@ -266,9 +266,9 @@ Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vē
 
 ### <a name="override-cell-formatting"></a>Šūnas formāta ignorēšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2. Rindā, kurā vēlaties ignorēt formātu, veiciet dubultklikšķi uz šūnas kolonnā **Formāta ignorēšana**.
-3. Dialoglodziņā **Formāta ignorēšana** atlasiet formatēšanas opcijas, kuras šai rindai vēlaties izmantot pārskatā.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
+2. Rindā, kas ignorē šī formāta, veiciet dubultklikšķi uz šūnas kolonnā Formāta **ignorēšana**.
+3. Dialoglodziņā Formāta **ignorēšana** atlasiet formatēšanas opcijas, ko izmantot pārskata rindai.
 4. Noklikšķiniet uz **Labi**.
 
 ### <a name="currency-formatting"></a>Valūtas formatēšana
@@ -327,10 +327,10 @@ Tipam jāattēlo pozitīvā vērtība un pēc tam arī negatīvā vērtība. Par
 | 0.00%;(0.00%)                  | 123456.00% | (123 456,00%) | 0,00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Šūnas Parasta bilance norādīšana
-Rindas definīcijas šūna **Parastā bilance** kontrolē rindas summu zīmi. Lai mainītu rindas zīmi vai ja parastā konta bilance ir kredīts, šīs rindas šūnā **Parastā bilance** ievadiet **C**. Pārskatu noformētājs maina zīmi uz pretējo visiem kredīta bilances kontiem šajā rindā. Kad atskaišu veidotājs pārveido šos kontus, tas noņem debeta/kredīta raksturlielumu no visām summām un tādējādi vienkāršo summēšanu. Piemēram, lai aprēķinātu tīro peļņu, no ienākumiem ir jāatskaita izdevumi. Parasti uz summēšanas un aprēķinu rindām **C** kodam nav ietekmes. Tomēr **XCR** drukas vadība kolonnas definīcijā maina zīmi jebkurā rindā, kas kolonnā **Parastā bilance** satur kodu **C**. Šis formatējums ir jo īpaši svarīgs, kad visas nevēlamās novirzes ir jāparāda kā negatīvās summas. Ja summētajam vai aprēķinātajam skaitlim ir nepareiza zīme, rindas šūnā **Parastā bilance** ievadiet **C**, kas mainīs zīmi uz pretējo.
+Rindas definīcijas šūna **Parastā bilance** kontrolē rindas summu zīmi. Lai atsauktu rindas zīmi vai ja konta parastā bilance ir kredīts, **ievadiet C**  **normālā** bilances šūnā rindai. Pārskatu noformētājs maina zīmi uz pretējo visiem kredīta bilances kontiem šajā rindā. Kad pārskata veidotājs šos kontus konvertē, no visām summām tiek noņemts debeta/kredīta raksturojums un tādējādi taisns summēšana. Piemēram, lai aprēķinātu tīro peļņu, no ienākumiem ir jāatskaita izdevumi. Parasti uz summēšanas un aprēķinu rindām **C** kodam nav ietekmes.  **Tomēr XCR drukāšanas** kontrole kolonnas definīcijā anuloz zīmi jebkurai rindai, kas **parastas bilances**  **kolonnā satur** C. Šis formatējums ir jo īpaši svarīgs, kad visas nevēlamās novirzes ir jāparāda kā negatīvās summas. Ja summētam vai aprēķinātajam skaitlim ir nepareiza zīme, ievadiet **C**  **normālā bilances šūnā rindai,** lai mainītu zīmi uz pretēju.
 
-## <a name="specify-a-row-modifier-cell"></a>Rindas modifikatora šūnas norādīšana
-Rindas definīcijas šūnas **Rindas modifikators** saturs ignorē finanšu gadus, periodus un citu informāciju, kas ir norādīta šīs rindas kolonnas definīcijā. Atlasītais modifikators attiecas uz ikvienu kontu šajā rindā. Katru rindu varat modificēt, izmantojot vienu vai vairākus tālāk uzskaitīto tipu modifikatorus.
+## <a name="specify-a-row-modifier-cell"></a>Norādiet rindas modifikatora šūnu
+Rindas modifikatora **šūnas saturs** rindas definīcijā ignorē finanšu gadus, periodus un citu informāciju, kas ir norādīta kolonnas definīcijā rindai. Atlasītais modifikators attiecas uz ikvienu kontu šajā rindā. Katru rindu varat modificēt, izmantojot vienu vai vairākus tālāk uzskaitīto tipu modifikatorus.
 
 - Konta modifikatori
 - Uzskaites koda modifikatori
@@ -338,9 +338,9 @@ Rindas definīcijas šūnas **Rindas modifikators** saturs ignorē finanšu gadu
 
 ### <a name="override-a-column-definition"></a>Kolonnas definīcijas ignorēšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2. Rindā, kurā vēlaties ignorēt kolonnas definīciju, veiciet dubultklikšķi uz šūnas **Rindas modifikators**.
-3. Dialoglodziņā **Rindas modifikators** atlasiet opciju laukā **Konta modifikators**. Opciju aprakstu skatiet sadaļā Kontu modifikatori.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
+2. Rindā, kur vēlaties ignorēt kolonnas definīciju, veiciet dubultklikšķi uz rindas **modifikatora** šūnas.
+3.  **Rindas modifikatora** dialoglodziņā atlasiet opciju laukā **Konta modifikators** . Opciju aprakstu skatiet sadaļā Kontu modifikatori.
 4. Laukā **Grāmatas koda modifikators** atlasiet rindai izmantojamās grāmatas kodu.
 5. Sadaļā **Atribūti** veiciet tālāk minētās darbības, lai pievienotu ierakstu katram atribūtam, kas jāiekļauj rindas kodā.
 
@@ -382,11 +382,11 @@ Varat ierobežot rindu ar esošu grāmatas kodu. Kolonnas definīcijā jāiekļa
 
 Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un darījumu atribūtus. Šie atribūti darbojas kā virtuāli kontu segmenti, un tie var ietvert papildu informāciju par kontu vai darījumu. Šī papildu informācija var būt konta ID, partijas ID, pasta indeksi un citi atribūti. Ja jūsu grāmatvedības sistēmā tiek atbalstīti atribūti, rindas definīcijā kā rindu modifikatorus varat izmantot kontu atribūtus vai darījumu atribūtus. Papildinformāciju par rindas informācijas ignorēšanu skatiet šajā rakstā iepriekš aprakstītajā tēmā Kolonnas definīcijas ignorēšana.
 
-## <a name="specify-a-link-to-financial-dimensions-cell"></a>Šūnas Saite uz finanšu dimensijām norādīšana
-Šūna **Saite uz finanšu dimensijām** satur saites uz finanšu datiem, kas ir jāiekļauj katrā pārskata rindā. Šī šūnā ietver dimensiju vērtības. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite uz finanšu dimensijām**.
+## <a name="specify-a-link-to-financial-dimensions-cell"></a>Norādiet saiti uz finanšu dimensiju šūnu
+Šūna **Saite uz finanšu dimensijām** ietver saites ar finanšu datiem, kas jāietver katrā pārskata rindā. Šī šūnā ietver dimensiju vērtības. Lai atvērtu dialoglodziņu **Dimensijas**, veiciet dubultklikšķi uz šūnas **Saite ar finanšu dimensijām** .
 
 > [!NOTE]
-> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Lai norādītu informāciju rindai, kas jau ir ietverta rindas definīcijā, pievienojiet šo informāciju šūnā **Saite uz finanšu dimensijām**. Lai pievienotu jaunas rindas, kurās ir saite uz finanšu datiem, un izveidotu jaunas pārskata definīcijas rindas, izmantojiet dialoglodziņu **Ievietot rindas no**. Kolonnas nosaukums tiek mainīts atkarībā no kolonnas konfigurācijas (skatiet tālāk redzamo tabulu).
+> Pārskatu veidotājs nevar atlasīt kontus, Microsoft Dynamics dimensijas vai laukus no 365. finanšu sistēmas, kuros ir ietverta neviena no šīm rezervētajām rakstzīmēm: &, \*, \[ \], {, vai }. Lai norādītu informāciju rindai, kas jau ir rindas definīcijā, pievienojiet informāciju šūnai **Saite uz finanšu dimensijām** . Lai pievienotu jaunas rindas, kurās ir saite uz finanšu datiem, un izveidotu jaunas pārskata definīcijas rindas, izmantojiet dialoglodziņu **Ievietot rindas no**. Kolonnas nosaukums tiek mainīts atkarībā no kolonnas konfigurācijas (skatiet tālāk redzamo tabulu).
 
 | Atlasītais saites tips       | Kolonnas Saite apraksts tiek mainīts šādi |
 |----------------------------------|----------------------------------------------------|
@@ -395,8 +395,8 @@ Noteiktas grāmatvedības sistēmas finanšu datos atbalsta kontu atribūtus un 
 
 ### <a name="specify-a-dimension-or-range"></a>Dimensijas vai diapazona norādīšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2. Veiciet dubultklikšķi uz kolonnas **Saite uz finanšu dimensijām** šūnas.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
+2. Veiciet dubultklikšķi šūnā kolonnā Saite uz finanšu **dimensijām** .
 3. Dialoglodziņā **Dimensijas**, veiciet dubultklikšķi uz šūnas, kas redzama zem dimensijas nosaukuma.
 4. Dimensijas dialoglodziņā atlasiet **Individuāli vai diapazona**.
 5. Laukā **No** ievadiet sākuma dimensiju vai noklikšķiniet uz ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu pieejamās dimensijas. Lai ievadītu dimensiju diapazonu, ievadiet beigu dimensiju laukā **Uz**.
@@ -408,7 +408,7 @@ Pēc noklusējuma atskaišu veidotājs nedrukā rindas, kurās finanšu datos na
 
 ### <a name="modify-zero-balance-settings"></a>Nulles bilances iestatījumu modificēšana
 
-1. Pārskatu veidotājā atveriet modificējamo pārskata definīciju.
+1. Pārskatu veidotājā atveriet modificējamu pārskata definīciju.
 2. Cilnes **Iestatījumi** sadaļā **Citi formatējumi** atlasiet opcijas rindas definīcijai, kas tiek izmantota pārskata definīcijā.
 3. Lai saglabātu izmaiņas, izvēlnē **Fails** noklikšķiniet uz **Saglabāt**.
 
@@ -423,32 +423,32 @@ Kad dialoglodziņā **Dimensijas** ievadāt galvenā segmenta vērtību, varat i
 Jūs varat norādīt segmentu vērtību vai dimensiju vērtību diapazonu. Norādot diapazonu, priekšrocība ir tas, ka nav nepieciešams atjaunināt rindas definīciju katru reizi, kad finanšu datiem tiek pievienota jauna segmenta vērtība vai dimensijas vērtība. Piemēram, izmantojot diapazonu **+Konts=\[6100:6900\]**, rindas summas aprēķinam tiek izgūtas vērtības no 6100.–6900. konta. Kad diapazons ietver aizstājējzīmi (?), atskaišu veidotājs nevērtē diapazonu katrai rakstzīmei. Tā vietā tiek noteikti diapazona zemākā un augstākā vērtība, un tad tiek iekļautas robežvērtības un visas vērtības starp tām.
 
 > [!NOTE]
-> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
+> Pārskatu veidotājs nevar atlasīt kontus, Microsoft Dynamics dimensijas vai laukus no 365. finanšu sistēmas, kuros ir ietverta neviena no šīm rezervētajām rakstzīmēm: &, \*, \[ \], {, vai }. (Amp), lietojot **dialoglodziņu Ievietot rindas no dimensijām, varat pievienot tikai tad, kad automātiski tiek veidotas rindu** definīcijas.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Vairāku segmentu vai vairāku dimensiju diapazoni
 
 Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
 
 > [!NOTE] 
-> Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.
+> Pārskatu veidotājs nevar atlasīt kontus, Microsoft Dynamics dimensijas vai laukus no 365. finanšu sistēmas, kuros ir ietverta neviena no šīm rezervētajām rakstzīmēm: &, \*, \[ \], {, vai }. (Amp), lietojot **dialoglodziņu Ievietot rindas no dimensijām, varat pievienot tikai tad, kad automātiski tiek veidotas rindu** definīcijas.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Pievienošana citiem kontiem vai atskaitīšana no tiem rindas definīcijā
 Lai saskaitītu vai atņemtu naudas summas vienā kontā no cita konta naudas summas, šūnā **Saite uz finanšu dimensijām** varat izmantot plus zīmi (+) un mīnus zīmi (-). Tālāk tabulā ir redzami formāti, kas tiek atbalstīti finanšu datu saitēs, lai saskaitītu vai atņemtu esošo summu vērtības.
 
-| Operācija                                                                               | Izmantojiet šo formātu                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Saskaitiet divus pilnībā derīgus kontus.                                                       | +Reģions=\[000\], Konts=\[1205\], Nodaļa=\[00\]+Reģions=\[100\], Konts=\[1205\], Nodaļa=\[00\] |
-| Saskaitiet divas segmenta vērtības.                                                                 | +Konts=\[1205\]+Konts=\[1210\]                                                                           |
-| Saskaitiet segmenta vērtības, kas satur aizstājējzīmes.                                    | +Konts=\[120?+Konts=\[11??\]                                                                             |
-| Sasummējiet pilnībā derīgu kontu diapazonu.                                                | +Reģions=\[000:100\], Konts=\[1205\], Nodaļa=\[00\]                                                   |
-| Summējiet segmenta vērtību diapazonu.                                                          | +Konts=\[1200:1205\]                                                                                       |
-| Sasummējiet segmenta vērtību diapazonu, kas satur aizstājējzīmes.                         | +Konts=\[120?:130?\]                                                                                       |
+| Operācija                                            | Izmantojiet šo formātu                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Saskaitiet divus pilnībā derīgus kontus.      | +Reģions=\[000\], Konts=\[1205\], Nodaļa=\[00\]+Reģions=\[100\], Konts=\[1205\], Nodaļa=\[00\] |
+| Saskaitiet divas segmenta vērtības.                    | +Konts=\[1205\]+Konts=\[1210\]                                                                           |
+| Saskaitiet segmenta vērtības, kas satur aizstājējzīmes.  | +Konts=\[120?+Konts=\[11??\]                                                                     |
+| Sasummējiet pilnībā derīgu kontu diapazonu.              | +Reģions=\[000:100\], Konts=\[1205\], Nodaļa=\[00\]                                           |
+| Summējiet segmenta vērtību diapazonu.                | +Konts=\[1200:1205\]                                                                                       |
+| Sasummējiet segmenta vērtību diapazonu, kas satur aizstājējzīmes.         | +Konts=\[120?:130?\]                                                           |
 | Atņemiet vienu pilnībā derīgu kontu no cita pilnībā derīga konta.              | +Reģions=\[000\], Konts=\[1205\], Nodaļa=\[00\]-Reģions=\[100\], Konts=\[1205\], Nodaļa=\[00\] |
-| Atņemiet viena segmenta vērtību no citas segmenta vērtības.                                  | +Konts=\[1205\]-Konts=\[1210\]                                                                           |
-| Atņemiet segmenta vērtību, kas ietver aizstājējzīmi, no citas segmenta vērtības. | +Konts=\[1200\]-Konts=\[11??\]                                                                           |
-| Atņemiet pilnībā derīgu kontu diapazonu.                                           | -Reģions=\[000:100\], Konts=\[1200:1205\], Nodaļa=\[00:01\]                                           |
-| Atņemiet segmenta vērtību diapazonu.                                                     | -Konts=\[1200:1205\]                                                                                       |
-| Atņemiet segmenta vērtību diapazonu, kas satur aizstājējzīmes.                    | -Konts=\[120?:130?\]                                                                                       |
+| Atņemiet viena segmenta vērtību no citas segmenta vērtības.          | +Konts=\[1205\]-Konts=\[1210\]                                                               |
+| Atņemiet segmenta vērtību, kas ietver aizstājējzīmi, no citas segmenta vērtības. | +Konts=\[1200\]-Konts=\[11??\]                                        |
+| Atņemiet pilnībā derīgu kontu diapazonu.                               | -Reģions=\[000:100\], Konts=\[1200:1205\], Nodaļa=\[00:01\]                   |
+| Atņemiet segmenta vērtību diapazonu.                   | -Konts=\[1200:1205\]                                                                                       |
+| Atņemiet segmenta vērtību diapazonu, kas satur aizstājējzīmes.                    | -Konts=\[120?:130?\]                                               |
 
 Lai gan kontus varat modificēt nepastarpināti, varat izmantot arī dialoglodziņu **Dimensijas**, lai jūsu finanšu datu saitēm lietotu pareizo formatējumu. Jebkurā vērtībā var ietvert aizstājējzīmes (? vai \*). Taču pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }.
 
@@ -457,11 +457,11 @@ Lai gan kontus varat modificēt nepastarpināti, varat izmantot arī dialoglodzi
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Pieskaitiet vai atņemiet kontus no citiem kontiem
 
-1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
-2. Atbilstošajā rindā veiciet dubultklikšķi uz šūnas kolonnā **Saite uz finanšu dimensijām**.
+1. Pārskata veidotājā atveriet modificējamās rindas definīciju.
+2. Atbilstošajā rindā veiciet dubultklikšķi uz šūnas kolonnā Saite uz **finanšu dimensijām** .
 3. Dialoglodziņa **Dimensijas** pirmajā rindā veiciet tālāk minētās darbības.
 
-    1. Pirmajā laukā atlasiet visas dimensijas (noklusētās) vai noklikšķiniet, lai atvērtu **Dimensiju kopu pārvaldība** dialoglodziņu, kur varat izveidot, modificēt, kopēt vai dzēst kopu.
+    1. Pirmajā laukā atlasiet visas dimensijas (noklusējumu **)** vai noklikšķiniet, lai atvērtu dialoglodziņu Dimensiju kopu pārvaldīšana, kurā var izveidot, modificēt, kopēt vai dzēst kopu.
     2. Veiciet dubultklikšķi uz šūnas **Operators +/-** un atlasiet plusa (**+**) vai mīnusa (**-**) operatoru, kas attiecas uz vienu vai vairākām dimensiju vērtībām vai kopām rindā.
     3. Atbilstošajā dimensijas vērtību kolonnā veiciet dubultklikšķi uz šūnas, lai atvērtu dialoglodziņu **Dimensijas**, un atlasiet, vai šī dimensijas vērtība ir atsevišķa vai diapazons, dimensijas vērtību kopa vai summēšanas konti. Dialoglodziņa **Dimensijas** lauku aprakstus skatiet sadaļā "Dialoglodziņa Dimensijas apraksts".
     4. Ievadiet segmenta vērtības kolonnā **No** un kolonnā **Līdz**.
@@ -471,35 +471,35 @@ Lai gan kontus varat modificēt nepastarpināti, varat izmantot arī dialoglodzi
 > [!NOTE]
 > Šis operators attiecas uz visām rindas dimensijām.
 
-## <a name="description-of-the-dimensions-dialog-box"></a>Dialoglodziņa Dimensijas apraksts
+## <a name="description-of-the-dimensions-dialog-box"></a>Dimensiju dialoglodziņa apraksts
 Tabulā ir aprakstīti dialoglodziņa **Dimensijas** lauki.
 
 | Vienums                | Apraksts |
 |---------------------|-------------|
 | Atsevišķi vai diapazons | Laukā **No** ievadiet konta nosaukumu vai noklikšķiniet uz pogas **Pārlūkot** ![Pārlūkot.](media/browse.gif "Pārlūkot") lai meklētu kontu. Lai atlasītu diapazonu, ievadiet vai uzmeklējiet vērtību laukā **Līdz**. |
-| Dimensijas vērtību kopa | Laukā **Nosaukums** ievadiet dimensijas vērtību kopas nosaukumu. Lai kopu izveidotu, modificētu, kopētu vai dzēstu, noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**. Lauks **Formula** tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām** šai dimensiju vērtību kopai rindas definīcijā. |
-| Kontu summēšana   | Laukā **Nosaukums** ievadiet vai uzmeklējiet dimensiju summēšanas kontiem. Lauks **Formula** šim summēšanas kontam pārskata definīcijā tiek aizpildīts ar formulu no šūnas **Saite uz finanšu dimensijām**. |
+| Dimensijas vērtību kopa | Laukā **Nosaukums** ievadiet dimensijas vērtību kopas nosaukumu. Lai kopu izveidotu, modificētu, kopētu vai dzēstu, noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**. Formulas **lauks** tiek aizpildīts ar formulu no **šūnas Saite uz finanšu dimensijām**, šai dimensijas vērtībai, kas iestatīta rindas definīcijā. |
+| Kontu summēšana   | Laukā **Nosaukums** ievadiet vai uzmeklējiet dimensiju summēšanas kontiem. Formulas **lauks** tiek aizpildīts ar **formulu**, kas pārskata definīcijā atrodas šūnā Saite uz finanšu dimensijām šim summēšanas kontam. |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Pievienojiet rindas definīcijai dimensijas vērtību kopu
 Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosaukums. Dimensiju vērtību kopa var saturēt tikai vienas dimensijas vērtības, bet varat izmantot dimensiju vērtību kopu vairākās rindu definīcijās, kolonnu definīcijās, pārskatu veidošanas koku definīcijās un pārskatu definīcijās. Pārskata definīcijā varat arī kombinēt vairākas dimensiju vērtību kopas. Ja maināt finanšu datus, un tādēļ nepieciešams veikt izmaiņas dimensiju vērtību kopā, varat atjaunināt dimensiju vērtību kopas definīciju. Šī atjaunināšanas darbība tiek veikta visiem tiem apgabaliem, kuriem tiek izmantota dimensiju vērtību kopa. Piemēram, ja bieži norādāt vērtību diapazonu, kas jāsaista ar finanšu datiem, piemēram, vērtības no 5100 līdz 5600, šo diapazonu var piešķirt kontu kopai ar nosaukumu Pārdošana. Pēc dimensiju vērtību kopas izveides, šo kopu varat atlasīt kā finanšu datu saiti. Vēl viens piemērs — ja kontu kopai Pārdošana ir piešķirtas vērtības no 5100 līdz 5600, bet kopai Atlaides — 4175, pārdošanas kopsummu varat noteikt, atņemot kopas Atlaides summu no kopas Pārdošana summas. Šī operācija tiek norādīta šādā veidā: **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Dimensiju vērtību kopas izveide
 
-1. Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai koka definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
-3. Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet izveidojamās dimensiju vērtību kopas tipu un tad noklikšķiniet uz **Jauns**.
+1. Pārskatu veidotājā atveriet modificējamu rindu, kolonnu vai koka definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Pārvaldīt **dimensiju vērtību kopas**.
+3. Dialoglodziņa Pārvaldīt **dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensiju vērtību kopas tipu, ko izveidot, un pēc tam noklikšķiniet uz **Jauns**.
 4. Dialoglodziņā **Jauns** ievadiet kopas nosaukumu un aprakstu.
 5. Kolonnā **No** veiciet dubultklikšķi šūnā.
 6. Dialoglodziņā **Konts** sarakstā atlasiet konta nosaukumu vai meklējiet ierakstu laukā **Meklēt**. Tad noklikšķiniet uz **Labi**.
 7. Atkārtojiet soļus 5.-6. kolonnā **Līdz**, lai šim operatoram izveidotu formulu.
 8. Kad formula ir pabeigta, noklikšķiniet uz **Labi**.
-9. Dialoglodziņā **Dimensiju kopu pārvaldība** noklikšķiniet uz **Aizvērt**.
+9. Dialoglodziņā Pārvaldīt **dimensiju kopas** noklikšķiniet uz **Aizvērt**.
 
 ### <a name="update-a-set-of-dimension-values"></a>Dimensiju vērtību kopas atjaunināšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
-3. Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
+1. Pārskatu veidotājā atveriet modificējamu rindu, kolonnu vai koka definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Pārvaldīt **dimensiju vērtību kopas**.
+3. Dialoglodziņa Pārvaldīt **dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
 4. Sarakstā atlasiet atjaunināmo dimensiju vērtību kopu un tad noklikšķiniet uz **Modificēt**.
 5. Dialoglodziņā **Modificēt** modificējiet formulu vērtības, kuras vēlaties iekļaut kopā.
 
@@ -511,17 +511,17 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 
 ### <a name="copy-a-dimension-set"></a>Dimensiju kopas kopēšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
-3. Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
-4. Sarakstā atlasiet kopējamo kopu un tad noklikšķiniet uz **Saglabāt kā**.
+1. Pārskatu veidotājā atveriet modificējamu rindu, kolonnu vai koka definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Pārvaldīt **dimensiju vērtību kopas**.
+3. Dialoglodziņa Pārvaldīt **dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
+4. Sarakstā atlasiet kopējamu kopu un pēc tam noklikšķiniet uz Saglabāt **kā**.
 5. Ievadiet kopētās kopas jauno nosaukumu un tad noklikšķiniet uz **Labi**.
 
 ### <a name="delete-a-dimension-set"></a>Dimensiju kopas dzēšana
 
-1. Pārskatu veidotājā atveriet modificējamo rindas, kolonnas vai pārskatu koka definīciju.
-2. Izvēlnē **Rediģēt** noklikšķiniet uz **Pārvaldīt dimensiju vērtību kopas**.
-3. Dialoglodziņa **Pārvaldīt dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
+1. Pārskatu veidotājā atveriet modificējamu rindu, kolonnu vai koka definīciju.
+2. Izvēlnē Rediģēt **noklikšķiniet** uz Pārvaldīt **dimensiju vērtību kopas**.
+3. Dialoglodziņa Pārvaldīt **dimensiju vērtību kopas** laukā **Dimensija** atlasiet dimensijas tipu.
 4. Atlasiet dzēšamo kopu un pēc tam noklikšķiniet uz **Dzēst**. Noklikšķiniet uz **Jā**, lai neatgriezeniski dzēstu dimensiju vērtību kopu.
 
 ## <a name="additional-resources"></a>Papildu resursi

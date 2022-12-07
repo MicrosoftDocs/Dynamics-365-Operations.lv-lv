@@ -2,7 +2,7 @@
 title: Debitora priekšapmaksas
 description: Šajā rakstā ir izskaidrots, kā iestatīt un apstrādāt debitoru priekšapmaksu (ko sauc arī par debitoru depozītiem).
 author: twheeloc
-ms.date: 04/30/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88773067c472471fb75167712268d1076c1738a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f085d45895530aaf0a16439f62dfc13b27da84b6
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861565"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799438"
 ---
 # <a name="customer-prepayments"></a>Debitora priekšapmaksas
 
@@ -32,7 +32,7 @@ Debitoru priekšapmaksu iestatīšanas un darba process sastāv no šādiem pama
 
 1. Izveidojiet debitoru grāmatošanas metodi priekšapmaksām.
 2. Iestatiet parametru **Grāmatošanas profils priekšapmaksas žurnāla dokumenta summā**.
-3. Izveidojiet debitoru maksājumu žurnālu un atzīmējiet izvēles rūtiņu **Priekšapmaksas žurnāla dokuments** katrā rindā.
+3. Izveidojiet debitoru maksājumu žurnālu un atzīmējiet izvēles **rūtiņu Priekšapmaksas** žurnāla dokuments katrā rindā.
 4. Grāmatojiet debitoru maksājumu žurnālu.
 5. Pēc rēķina ģenerēšanas nosedziet priekšapmaksu ar to, izmantojot lapu **Nosegt atvērtos darījumus**.
 
@@ -82,7 +82,7 @@ Varat izmantot **Debitoru maksājumu** darbvietu, lai viegli atrastu un apmaksā
 1. **Sākuma** informācijas panelī atlasiet elementu **Debitoru maksājumi**.
 2. Sadaļas **Debitora darījumi** cilnē **Nenosegtie maksājumi** meklējiet un atlasiet sedzamo maksājumu.
 3. Atlasiet **Segt darījumus**.
-4. Atlasiet izvēles rūtiņu **Atzīmēt** rēķinam un maksājumam, kas tiks segts.
+4. Atzīmējiet **rēķina** izvēles rūtiņu un maksājumu, kas tiks segts.
 5. Atlasiet **Grāmatot**.
 
 Papildinformāciju par to, kā nosegt atvērtos darījumus, skatiet sadaļā [Norēķinu pārskats](/dynamics365/finance/cash-bank-management/settlement-overview).

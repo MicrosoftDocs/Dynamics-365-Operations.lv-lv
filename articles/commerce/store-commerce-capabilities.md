@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9728029"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788518"
 ---
 # <a name="store-commerce-app-capabilities"></a>Store Commerce programmas iespējas
 
@@ -41,7 +41,7 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 
 | Iespēja | Apraksts | Dokumentācija | Papildu saturs |
 |---|---|---|---|
-| Vairāki formu faktori | Programmu Store Commerce atbalsta vairāki ierīces formas faktori, piemēram, datori, planšetdatori un mobilās ierīces. Konta lietotāja interfeiss (Ui) ļauj izkārtojumu automātiski samazināt un pielāgot ekrāna izmēram. | [Vizuālās konfigurācijas](pos-screen-layouts.md) | |
+| Vairāki formu faktori | Programmu Store Commerce atbalsta vairāki ierīces formas faktori, piemēram, datori, planšetdatori un mobilās ierīces. Konta lietotāja interfeiss (Ui) ļauj izkārtojumu automātiski samazināt un pielāgot ekrāna izmēram. | [Vizuālās konfigurācijas](pos-screen-layouts.md) |  |
 | Starpplatformu | Veikala Commerce programma tiek atbalstīta tīmeklī, Windows, iOS un Android platformās. | [Platformas](dev-itpro/hybridapp.md) | |
 | Zīmolrade | Ekrāna veidotājs ļauj pielāgot ekrāna izkārtojumus savām biznesa vajadzībām. Turklāt tēmas, izkārtojumus, krāsas un attēlus var veidot, ņemot vērā darbinieku lomas, un pēc tam tos var koplietot starp lietotājiem, lai nodrošinātu zīmola konsekvenci un vienkāršotu lietošanu. | [Vizuālās konfigurācijas](pos-screen-layouts.md) | [Video](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topoloģija | Tiek atbalstītas dažādas veikala topoloģijas, pamatojoties uz tīkla pieejamību. | <p>[Topoloģija](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Infografika](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -51,7 +51,7 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 
 | Iespēja | Apraksts | Dokumentācija | Papildu saturs |
 |---|---|---|---|
-| Pierakstīšanās | Katram veikala darbiniekam var būt atvēlēta pierakstīšanās. Pierakstīšanās veidi ietver lietotāja vārdu, svītrkodu, magnētiskās joslas lasītāju (MSR), biometrijas rādītājus un Azure Active Directory (Azure AD). | <p>[Azure AD](aad-pos-logon.md)</p><p>[Paplašinātā pieteikšanās](extended-logon.md)</p> | |
+| Pierakstīšanās | Katram veikala darbiniekam var būt atvēlēta pierakstīšanās. Pierakstīšanās veidi ietver lietotāja vārdu, svītrkodu, magnētiskās joslas lasītāju (MSR), biometrijas datus un Azure Active Directory (Azure AD). | <p>[Azure AD](aad-pos-logon.md)</p><p>[Paplašinātā pieteikšanās](extended-logon.md)</p> | |
 | Tiesības | Darbiniekiem tiek atbalstīti dažādi tiesību līmeņi, piemēram, tiesības izveidot pasūtījumus un tiesības rediģēt pasūtījumus. | [Tiesības](tasks/create-pos-permission-groups.md) | |
 | Laika un apmeklētības pārvaldība | Klātbūtne var tikt pārvaldīta, izmantojot darba laika uzskaites funkciju. Klātbūtnes datus var apstrādāt algā, izmantojot Dynamics 365 Human Resources programmu. | [Laika pārvaldība](retail-time-attendance.md) | |
 | Pārdošanas komisija | Pārdošanu var izsekot tirdzniecības pārstāvis, lai aprēķinātu komisijas vai citus veicināšanas pasākumus. | [Komisija](pos-sales-groups-track-commissions.md) | |
@@ -77,7 +77,7 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 | Preču meklēšana | Meklēt preces pēc nosaukuma un precizēt meklēšanu, izmantojot preču īpašības, piemēram, zīmolu, cenu un materiālu. Šī iespēja ir uzģenerīga, izmantojot Azure cotive meklēšanu. | [Mākoņa datora meklēšana](cloud-powered-search-overview.md) | |
 | Lapa Informācija par preci | Bagātinātās preces informācijas lapas var ietvert attēlus, aprakstu, preču īpašības un rekomendētās preces. Rekomendācijas sniedz Rekomendāciju pakalpojums. | | |
 | Preču salīdzināšana | Salīdziniet vairākas preces un palīdziet debitoriem izvēlēties vienu no precēm un pievienot tās darbībai. | | |
-| Uzmācības aile | Viegli uzmeklē krājumus citos veikalos un izveido pasūtījumus. | [Krājumu pārlūkošana](pos-inventory-lookup-operation.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Uzmācības aile | Viegli uzmeklē krājumus citos veikalos un izveido pasūtījumus. | [Krājumu pārlūkošana](pos-inventory-lookup-operation.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Ieteikumi | Upsell un šķērspārdot preces, izmantojot Rekomendāciju pakalpojumu. Šis pakalpojums izmanto patentētu tehnoloģiju, lai ieteiktu ieteikumus, balstoties uz pirkšanas tendencēm un tādiem raksturlielumiem kā nesen saņemts, līdzīgs izskats un vislabākā cena. Šie ieteikumi ir pieejami preču informācijas lapās, **Debitora informācijas** lapā un **Darbību** lapā. | [Ieteikumi](product-recommendations.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Attiecības ar debitoriem
@@ -88,8 +88,8 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 | Debitora atribūti | Debitora atribūtu struktūra iespējo papildus ar debitoru saistītos datus, kas ir tverti atbilstoši biznesa prasībām. | [Atribūti](dev-itpro/customer-attributes.md) | |
 | Lapa ar detalizētu informāciju par debitoru | Bagātinātās debitora informācijas lapa sniedz debitora saziņas kanāla kanāla skatu visos kanālos. Šīs mijiedarbības ietver pirkumus, vēlmju sarakstus un lojalitātes programmas punktus. | | |
 | Mākoņa darbināta debitora meklēšana | Meklēt debitorus pēc vārda, tālruņa numura, e-pasta adreses, lojalitātes programmas kartes, adreses utt. | [Mākoņa datora meklēšana](pos-search-improvements.md#customer-search) | |
-| Lojalitāte un atlīdzības | Debitori var pievienoties lojalitātes programmām un saņemt un izpirkt lojalitātes programmas punktus pa kanāliem. | [Lojalitāte](set-up-customer-loyalty-program.md) | |
-| Attiecības ar klientiem | Pārvaldiet galvenos debitorus, izmantojot klienta grāmatu, un atsejiet aktivitātes un piezīmes debitora profilā. Dynamics 365 Customer Insights integrācija ļauj veikala darbiniekiem saņemt norādījumus par nākamo labāko darbību katram debitoram. | [Attiecības ar klientiem](clienteling-overview.md#activities-and-notes) | |
+| Lojalitāte un atlīdzības | Debitori var pievienoties lojalitātes programmām un saņemt un izpirkt lojalitātes programmas punktus pa kanāliem. | [Lojalitāte](set-up-customer-loyalty-program.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Attiecības ar klientiem | Pārvaldiet galvenos debitorus, izmantojot klienta grāmatu, un atsejiet aktivitātes un piezīmes debitora profilā. Dynamics 365 Customer Insights integrācija ļauj veikala darbiniekiem saņemt norādījumus par nākamo labāko darbību katram debitoram. | [Attiecības ar klientiem](clienteling-overview.md#activities-and-notes) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Cenu noteikšana un atlaides
 
@@ -132,8 +132,8 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 | Pasūtījumu atribūti | Pasūtījuma atribūtu struktūra iespējo papildu ar pasūtījumu saistīto informāciju tveršanu, ņemot vērā biznesa prasības. | [Atribūti](dev-itpro/order-attributes.md) | |
 | Tiešā piegāde | Kreditora tiešā piegādei debitora adresē var atzīmēt krājumus. Tiešo piegādi sauc arī par tiešo piegādi. | [Tiešā piegāde](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Piedāvājums | Veikala darbinieki var izveidot piedāvājumus debitoriem un var norādīt īpašu cenu, manuālas atlaides un piedāvājuma derīguma datumu. | [Piedāvājums](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Piegāde | Veikali var izdot, iepakot un nosūtīt pasūtījumus. Pavadzīmi var pievienot pakām, kas ir gatavas nosūtīšanai. | [Piegāde](order-fulfillment-overview.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Sadalīto pasūtījumu pārvaldība | Programma Store Commerce atbalsta daudzu pasūtījumu izpildes optimizāciju, kur biznesa stratēģijas var konfigurēt, ņemot vērā uzņēmējdarbības veidu, debitora veidu, pasūtījuma izcelsmi un pasūtījuma piegādes metodi. | [Dom](dom.md) | |
+| Piegāde | Veikali var izdot, iepakot un nosūtīt pasūtījumus. Pavadzīmi var pievienot pakām, kas ir gatavas nosūtīšanai. | [Piegāde](order-fulfillment-overview.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Video](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Sadalīto pasūtījumu pārvaldība | Programma Store Commerce atbalsta daudzu pasūtījumu izpildes optimizāciju, kur biznesa stratēģijas var konfigurēt, ņemot vērā uzņēmējdarbības veidu, debitora veidu, pasūtījuma izcelsmi un pasūtījuma piegādes metodi. | [DOM](dom.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Krājumu vadība
 
@@ -141,12 +141,12 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 |---|---|---|---|
 | Sagādes sadale | Racionalizējiet pieejamo krājumu sadali no sadales centra uz vairākiem veikaliem vai noliktavām. | [Sagādes sadale](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Pārkraušana sadales centrā | Racionalizējiet krājumu sadali ienākošajiem pirkšanas pasūtījumiem uz vairākiem veikaliem vai noliktavām. | [Pārkraušana sadales centrā](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Ienākošie krājumi | Saņemt krājumu no kreditora, izmantojot pirkšanas pasūtījumu, vai no citas noliktavas, izmantojot pārsūtīšanas pasūtījumu. Izveidojiet ienākošā pirkšanas pasūtījuma vai pārsūtīšanas pasūtījuma pieprasījumu. | [Saņemšana](pos-inbound-inventory-operation.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Izejošie krājumi | Nosūtīt krājumus uz citu noliktavu, izmantojot pārsūtīšanas pasūtījumu, un izveidot nosūtīšanas pārsūtīšanas pasūtījuma pieprasījumu. | [Nosūtīšana](pos-outbound-inventory-operation.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Krājumu pārlūkošana | Pārbaudiet rīcībā esošos krājumus precēm veikalos un noliktavās un pārbaudiet rīcībā esošos (ATP) krājumus turpmākajos datumos. | [Krājumu pārlūkošana](pos-inventory-lookup-operation.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Krājumu korekcija | Pielāgojiet krājumus veikala noliktavā vai ārā no tās, lai atbilstu noteiktām biznesa prasībām, neizmantojot pārdošanu, saņemšanu vai atkārtotu uzskaiti. | [Krājumu korekcija](work-with-store-inventory.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Krājumu uzskaite | Saskaitiet fiziskos krājumus un pielāgojiet sistēmas grāmatvedības krājumus, lai tos saskaņotu. | [Uzskaite](work-with-store-inventory.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Krājumu pārvietošana | Pārvietot krājumus starp vietām veikalā. | [Kustība](work-with-store-inventory.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Ienākošie krājumi | Saņemt krājumu no kreditora, izmantojot pirkšanas pasūtījumu, vai no citas noliktavas, izmantojot pārsūtīšanas pasūtījumu. Izveidojiet ienākošā pirkšanas pasūtījuma vai pārsūtīšanas pasūtījuma pieprasījumu. | [Saņemšana](pos-inbound-inventory-operation.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Izejošie krājumi | Nosūtīt krājumus uz citu noliktavu, izmantojot pārsūtīšanas pasūtījumu, un izveidot nosūtīšanas pārsūtīšanas pasūtījuma pieprasījumu. | [Nosūtīšana](pos-outbound-inventory-operation.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Krājumu pārlūkošana | Pārbaudiet rīcībā esošos krājumus precēm veikalos un noliktavās un pārbaudiet rīcībā esošos (ATP) krājumus turpmākajos datumos. | [Krājumu pārlūkošana](pos-inventory-lookup-operation.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Krājumu korekcija | Pielāgojiet krājumus veikala noliktavā vai ārā no tās, lai atbilstu noteiktām biznesa prasībām, neizmantojot pārdošanu, saņemšanu vai atkārtotu uzskaiti. | [Krājumu korekcija](work-with-store-inventory.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Krājumu uzskaite | Saskaitiet fiziskos krājumus un pielāgojiet sistēmas grāmatvedības krājumus, lai tos saskaņotu. | [Uzskaite](work-with-store-inventory.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Krājumu pārvietošana | Pārvietot krājumus starp vietām veikalā. | [Kustība](work-with-store-inventory.md) | <p>[Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Finanšu dati
 
@@ -192,9 +192,9 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 | Iespēja | Apraksts | Dokumentācija | Papildu saturs |
 |---|---|---|---|
 | Commerce Headquarters | Commerce Headquarters risinājumus var pielāgot, pievienojot vai modificējot biznesa procesus. Commerce Headquarters atbalsta metadatu un kodam orientētu paplašinājuma modeli izmantošanu, lai pievienotu pielāgotu funkcionalitāti. To var viegli integrēt ārējos risinājumos. | [Pārskats](dev-itpro/extend-customer-cdx-package.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-unlock-the-power-of-dynamics-365-commerce-commerce-extensibility-overview-february-23-2021) |
-| Bez headless commerce | Paplašināmo Channel API struktūru var izmantot, lai pielāgotu un pievienotu biznesa loģiku. API, kuriem ir pieprasījumu apstrādātāji, kā arī iepriekšēja trigera un pēcslēgera paplašinājuma raksti. | [Csu](dev-itpro/retail-server-customer-consumer-api.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| Commerce SDK | Commerce SDK ietver koda, koda paraugus, veidnes un rīkus, kas nepieciešami funkcionalitātes paplašināšanai vai pielāgošanai Dynamics 365 Commerce. SDK tiek publicēts dažādos repozitojos (repos) GitHub, atkarībā no paplašinājuma komponentiem. | [Sdk](dev-itpro/retail-sdk/sdk-github.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| Pārdošanas punkts | Store Commerce programmu var paplašināt neatkarīgi, izmantojot Commerce SDK POS paplašinājuma funkciju. Struktūra atbalsta lietotāja pieredzes (UX), darbplūsmu un biznesa loģikas pielāgošanu. | [Pos](dev-itpro/pos-extension/pos-extension-overview.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Bez headless commerce | Paplašināmo Channel API struktūru var izmantot, lai pielāgotu un pievienotu biznesa loģiku. API, kuriem ir pieprasījumu apstrādātāji, kā arī iepriekšēja trigera un pēcslēgera paplašinājuma raksti. | [CSU](dev-itpro/retail-server-customer-consumer-api.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Commerce SDK | Commerce SDK ietver koda, koda paraugus, veidnes un rīkus, kas nepieciešami funkcionalitātes paplašināšanai vai pielāgošanai Dynamics 365 Commerce . SDK tiek publicēts dažādos repozitojos (repos) GitHub, atkarībā no paplašinājuma komponentiem. | [SDK](dev-itpro/retail-sdk/sdk-github.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Pārdošanas punkts | Store Commerce programmu var paplašināt neatkarīgi, izmantojot Commerce SDK POS paplašinājuma funkciju. Struktūra atbalsta lietotāja pieredzes (UX), darbplūsmu un biznesa loģikas pielāgošanu. | [POS](dev-itpro/pos-extension/pos-extension-overview.md) | [Tech ar](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
 
 ## <a name="reporting"></a>Pārskatu veidošana
 
@@ -206,7 +206,7 @@ Commerce Scale Unit (CSU) rīcībā ir programma Store Commerce, kas nodrošina 
 
 | Iespēja | Apraksts | Dokumentācija | Papildu saturs |
 |---|---|---|---|
-| Operāciju ieskati | Veikala curated pakalpojuma drošības un veiktspējas rādītāji ir pieejami debitora abonementā Application Insights. Ir pieejamas uzlabotās brīdinājumu un pārraudzīšanas iespējas. | | |
+| Operāciju ieskati | Veikala curated pakalpojuma drošības un veiktspējas rādītāji ir pieejami debitora abonementā Application Insights . Ir pieejamas uzlabotās brīdinājumu un pārraudzīšanas iespējas. | | |
 | Darbspējas pārbaude | Ar POS pievienoto perifērijas ierīču pieejamību var pārbaudīt, veicot veselības pārbaudes darbību. Pēc tam atsevišķas perifērijas problēmas var fiksēt un pārbaudīt. | [Darbspējas pārbaude](pos-healthcheck.md) | [Video](https://www.youtube.com/watch?v=RfPDNmnqYvY) |
 
 ## <a name="globalization"></a>Globalizācija

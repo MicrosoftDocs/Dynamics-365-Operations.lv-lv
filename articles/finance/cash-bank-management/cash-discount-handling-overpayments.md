@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715529"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804160"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Termiņatlaides pārmaksām
 
@@ -53,7 +53,9 @@ Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros. M
 | Maksājums       | -95,00 | 0,00    |
 | Termiņatlaide | -10,50 | 0,00    |
 
-Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti. **Maksājums**;
+Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti.
+
+**Maksājums**;
 
 | Konts             | Debeta summa | Kredīta summa |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Debitors iesniedz maksājumu par summu 95,00 termiņatlaides perioda ietvaros. M
 | Maksājums       | -95,00 | -0,50   |
 | Termiņatlaide | -10,50 | 0,00    |
 
-Pārmaksas summa 0,50 tiks saglabāta kā atvērta bilance maksājumā, un to var nosegt atbilstoši citam rēķinam. Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti. **Maksājums**;
+Pārmaksas summa 0,50 tiks saglabāta kā atvērta bilance maksājumā, un to var nosegt atbilstoši citam rēķinam. Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ieraksti. 
+
+**Maksājums**;
 
 | Konts             | Debeta summa | Kredīta summa |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Debitors iesniedz maksājumu par summu 95,00 līdz termiņatlaides datumam. Maks
 | Maksājums       | -95,00 | -0,00   |
 | Termiņatlaide | -10,00 | 0,00    |
 
-Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins tiek uzskatīti par nosegtiem. **Maksājums**;
+Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins tiek uzskatīti par nosegtiem. 
+
+**Maksājums**;
 
 | Konts             | Debeta summa | Kredīta summa |
 |---------------------|--------------|---------------|

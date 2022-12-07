@@ -12,20 +12,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f89adfc3055da346cfe9b6951076094b133c842
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 06846141aff993dbcc9654d81a3e267343e925c0
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779721"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803861"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Ar iepriekšēju datumu datētu čeku reģistrēšana un grāmatošana debitoram
 
 [!include [banner](../../includes/banner.md)]
 
-Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas. Pirms reģistrējat un publicējat no klienta saņemtu čeku ar pasta sūtījumiem un grāmatojat šādus uzdevumus: * Iestatiet pasta čeku lapā Nauda un bankas pārvaldība * Iestatiet maksājuma veidu čekiem, kas nosūtīti pa pastu Šīs procedūras loma ir kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
+Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto čeku. Var arī grāmatot ar iepriekšēju datumu datēto čeku un ģenerētu finanšu transakcijas. Izpildiet tālāk uzskaitītos uzdevumus, pirms reģistrējat un grāmatojat ar iepriekšēju datumu datētu čeku, ko esat saņēmis no klienta:  
+ - Iestatīt čeku ar avansu kases **un bankas pārvaldības** lapā 
+ - Maksāšanas veida iestatīšana ar iepriekšēju datumu datētiem čekiem   
+  
+ Šīs procedūras izpildei nepieciešama loma Kasieris. Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 
-1. Pārejiet uz žurnālu **Debitoru parādi > Maksājumi > Maksājumi**.
+1. Pārejiet **uz sadaļu Debitoru > maksājumu > maksājumu žurnālā**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Nosaukums** ierakstiet kādu vērtību.
 4. Noklikšķiniet uz **Rindas**.
@@ -36,13 +40,13 @@ Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto č
 8. Noklikšķiniet uz cilnes **Maksājums**.
 9. Laukā **Maksāšanas veids** ievadiet vērtību.
     * Maksāšanas tipa atlasīšana ar iepriekšēju datumu datētajam čekam  
-10. Noklikšķiniet uz **cilnes Grāmatotās pārbaudes**.
-11. **Laukā Dzēšanas datums** ievadiet datumu.
+10. Noklikšķiniet uz cilnes **Ar datumu čeki** .
+11. Laukā **Termiņa beigu** datums ievadiet datumu.
     * Ievadiet datumu, kad jāveic ar iepriekšēju datumu datēta čeka maksājums.  
-12. **Laukā Izdevējbankas filiāle** ierakstiet vērtību.
+12. Izdevēja bankas **filiāles** laukā ierakstiet vērtību.
     * Ievadiet bankas informāciju ar iepriekšēju datumu datētajam čekam.  
-13. Laukā **Pārbaudes numurs** ierakstiet vērtību.
-14. **Laukā Izdevējbankas nosaukums** ierakstiet vērtību.
+13. Laukā **Pārbaudīt** numuru ievadiet vērtību.
+14. Laukā **Izdevēja bankas** nosaukums ievadiet vērtību.
     * Ievadiet bankas informāciju ar iepriekšēju datumu datētajam čekam.  
 15. Noklikšķiniet uz **Grāmatot**.
 16. Aizvērt lapu.

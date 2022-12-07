@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151350"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803915"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankas izrakstu saskaņošana, izmantojot detalizēto bankas darbību saskaņošanu
 
@@ -37,7 +37,10 @@ Varat augšupielādēt bankas izrakstu, kurā ir informācija par vienu vai vair
 -   Lai importētu vienu bankas izraksta failu par vienu kontu, opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Nē**, un atlasiet bankas kontu, kas ir saistīts ar šo izrakstu. Noklikšķiniet uz **Pārlūkot**, lai atlasītu saistīto bankas izraksta failu, un pēc tam noklikšķiniet uz **Augšupielādēt**.
 -   Lai importētu vienu bankas izraksta failu par vairākiem kontiem, opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu saistīto bankas izraksta failu, un pēc tam noklikšķiniet uz **Augšupielādēt**.
 
-Ja nevienu izraksta elektronisko failu nevar saistīt ar bankas kontu vai ja tas ir saistīts ar vairākiem kontiem, izmantojot identifikācijas laukus, tie netiks importēti. Tomēr joprojām var importēt citus izrakstus failā. Pēc tam lietotājs saņem ziņojumu, ka bankas izrakstu importēšana neizdevās noteiktiem bankas kontiem. Ņemiet vērā, ka lietotājam, kas importē bankas izraksta failu, jābūt piekļuvei juridiskai personai, lai importētu izrakstus no juridiskās personas bankas kontiem. 
+Ja nevienu izraksta elektronisko failu nevar saistīt ar bankas kontu vai ja tas ir saistīts ar vairākiem kontiem, izmantojot identifikācijas laukus, tie netiks importēti. Tomēr joprojām var importēt citus izrakstus failā. Pēc tam lietotājs saņem ziņojumu, ka bankas izrakstu importēšana neizdevās noteiktiem bankas kontiem. 
+
+>[!Note] 
+>Lietotājam, kas importē bankas izraksta failu, ir nepieciešama piekļuve juridiskajai personai, lai importētu pārskatus par šīs juridiskās personas bankas kontiem. 
 
 Programmā Finance ar vienu darbību varat augšupielādēt arī vairākus izrakstu failus, izmantojot zip failu. Lai importētu vairākus bankas izraksta failus vairākiem kontiem, apvienojiet visus bankas izrakstu failus vienā zip failā. Dialoglodziņā **Importēt bankas izrakstus** opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu zip failu, kurā atrodas bankas izrakstu faili, un pēc tam noklikšķiniet uz **Augšupielādēt**. Importēšanas process atpazīst zip failu un augšupielādē katru tajā iekļauto izrakstu, neatkarīgi no juridiskās personas bankas konta.
 

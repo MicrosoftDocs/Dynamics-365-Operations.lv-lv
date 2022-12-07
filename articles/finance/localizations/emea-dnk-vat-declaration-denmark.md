@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: a47b2b98d86daf50876c783f879362ec1addb579
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 99c8b7a35258116adfe7433e884564d64dbf140f
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272146"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812137"
 ---
 # <a name="vat-declaration-denmark"></a>PVN deklarācija (Dānija)
 
@@ -37,16 +37,17 @@ PVN deklarācija Dānijā satur šādu informāciju.
 | Apraksts                                                  | Nodokļa bāze/nodokļa summa | Uzmeklēšanas rezultāts/kopsumma                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pārdošanas PVN                                                   | Nodokļa summa          | **IzvadesVAT**</br> **DomesticVATUseTax** (iekļauts arī lodziņā "Ievades PVN")                                                                                                                                                                                                                                                                       |
-| Preču PVN u.c. Iegādāts ārvalstīs                           | Nodokļa summa          | **PirkšanasgoodsAbroad**</br>**PurchaseGoodsAbroadUseTax** (iekļauts arī lodziņā "Ievades PVN")</br>**PurchaseGoodsEU** (nodokļu bāze ir ziņota "Lodziņā A — preču iegāde".)</br>**PurchaseGoodsEUUseTax** (nodokļu summa arī ir ziņota lodziņā "Ievades PVN". Nodokļa bāze ir ziņota "A kaste - preču iegāde".                   |
-| PVN par pakalpojumiem, kuri iegādāti ārvalstīs un uz kuriem attiecas apgrieztais maksājums | Nodokļa summa          | **Pirkšanas pakalpojumiAbroad**</br> **PurchaseServicesAbroadUseTax** (iekļauts arī lodziņā "Ievades PVN")</br>**PurchaseServicesEU** (nodokļu bāze ir uzrādīta "A lodziņā - pakalpojumu iegāde".)</br>**PurchaseServicesEUUseTax** (pvn summa arī ir ziņota lodziņā "Ievades PVN". Nodokļu bāze ir ziņota "A. lodziņā — pakalpojumu iegāde". |
+| Preču PVN u.c. Iegādāts ārvalstīs                           | Nodokļa summa          | **PirkšanasgoodsAbroad**</br>**PurchaseGoodsAbroadUseTax** (iekļauts arī lodziņā "Ievades PVN")</br>**PurchaseGoodsEU** (nodokļu bāze ir ziņota "Lodziņā A — preču iegāde".)</br>**PurchaseGoodsEUUseTax** (Nodokļu summa ir arī norādīta lodziņā "Ievades PVN". Nodokļa bāze ir ziņota "A kaste - preču iegāde".                   |
+| PVN par pakalpojumiem, kuri iegādāti ārvalstīs un uz kuriem attiecas apgrieztais maksājums | Nodokļa summa          | **Pirkšanas pakalpojumiAbroad**</br> **PurchaseServicesAbroadUseTax** (iekļauts arī lodziņā "Ievades PVN")</br>**PurchaseServicesEU** (nodokļu bāze ir uzrādīta "A lodziņā - pakalpojumu iegāde".)</br>**PurchaseServicesEUUseTax**  (nodokļu summa arī ir norādīta lodziņā "Ievades PVN". Nodokļu bāze ir ziņota "A. lodziņā — pakalpojumu iegāde". |
 | Kopā kreditors                                                | Nodokļa summa          | Iepriekšējo trīs lodziņu kopsumma                                                                                                                                                                                                                                                                                                            |
 
 **Ieturējumi**
 
 | Apraksts                                                                               | Nodokļa bāze/nodokļa summa | Uzmeklēšanas rezultāts/kopsumma                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pirkšanas PVN                                                                                 | Nodokļa summa          | **InputVAT (vat)**</br> **DomesticVATUseTax** (iekļauts arī lodziņā "Izvades PVN")</br>**PurchaseGoodsAbroadUseTax** (iekļauts arī "Preču PVN u.c." Iegādāts ārzemju", kastē)</br>**PurchaseServicesAbroadUseTax** (iekļauts arī "PVN par ārvalstīs iegādātajiem pakalpojumiem, uz ko attiecas atgriezeniskā maksa" lodziņā)</br>**PurchaseGoodsEUUseTax** (iekļauts arī "Preču PVN u.c." Iegādāts ārzemju", kastē)</br> **PurchaseServicesEUUseTax** (iekļauts arī "PVN par ārvalstīs iegādātajiem pakalpojumiem, uz ko attiecas atgriezeniskā maksa" lodziņā) |
+| Pirkšanas PVN                                                                                 | Nodokļa summa          | **InputVAT (vat)**</br> **DomesticVATUseTax** (iekļauts arī lodziņā "Izvades PVN")</br>**PurchaseGoodsAbroadUseTax** (iekļauts arī "Preču PVN u.c." Iegādāts ārzemju", kastē)</br>**PurchaseServicesAbroadUseTax** (iekļauts arī "TO pakalpojumu PVN, kas iegādāti ārzemēs, uz ko attiecas atgriezeniskā maksa" lodziņā)</br>**PurchaseGoodsEUUseTax** (iekļauts arī "Preču PVN u.c." Iegādāts ārzemju", kastē)</br> **PurchaseServicesEUUseTax** (iekļauts arī "PVN par pakalpojumiem, kas iegādāti ārzemēs, uz ko attiecas atgriezeniskā maksa" lodziņā) |
 | Naftas un balonu gāzes nodoklis                                                                  | Nodokļa summa          | **NaftaGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Power/papildu pienākums                                                                    | Nodokļa summa          | **PowerElectricityDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Dabasgāzes un koksa gāzes nodoklis                                                             | Nodokļa summa          | **NaturalLotGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Oglekļa nodoklis                                                                               | Nodokļa summa          | **Varmācība**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Co2Duty                                                                                   | Nodokļa summa          | **Co2Duty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -71,7 +72,7 @@ Ja konfigurējat PVN kodus ienākošās atgriezeniskās PVN grāmatošanai, izma
 
 Alternatīvi var konfigurēt divus atsevišķus PVN kodus: vienu apmaksas PVN un vienu PVN ieturējumiem. Pēc tam saistiet katru kodu ar atbilstošajiem pārskata lauka uzmeklēšanas **rezultātiem**.
 
-Piemēram, ar nodokli apliekamām kopienas iegādēm jūs konfigurējat PVN kodu UT_S_EU ar importa nodokli un saistāt to ar pārskata lauka uzmeklēšanas **rezultātu PurchaseGoodsEUUseTax** **·**.**·** Šajā gadījumā nodokļu summas, kas izmanto UT_S_EU **PVN** kodu, tiek attēlotas sadaļā "Preču PVN u.c. Iegādāts ārvalstīs" un "Ievades PVN". Nodokļu bāzes parādītas "A lodziņā - preču iegādē".
+Piemēram, ar nodokli apliekamām kopienas iegādēm jūs **konfigurējat PVN kodu** UT_S_EU ar **importa nodokli un saistāt to ar pārskata lauka uzmeklēšanas rezultātu PurchaseGoodsEUUseTax**  **·**. Šajā gadījumā nodokļu summas, kas izmanto UT_S_EU **PVN** kodu, tiek attēlotas sadaļā "Preču PVN u.c. Iegādāts ārvalstīs" un "Ievades PVN". Nodokļu bāzes parādītas "A lodziņā - preču iegādē".
 
 Alternatīvi var konfigurēt divus PVN kodus:
 
@@ -80,7 +81,7 @@ Alternatīvi var konfigurēt divus PVN kodus:
 
 Pēc tam jūs saistāt kodus ar pārskata **lauku uzmeklēšanas** rezultātiem šādā veidā:
 
-- Saistiet **VAT_S_EU** ar **uzmeklēšanas rezultātu PurchaseGoodsEU**.
+- Saistiet **VAT_S_EU** ar **uzmeklēšanas rezultātu PurchaseGoodsEU** .
 - Saistiet **InVAT_S_EU** ar **InputVAT uzmeklēšanas** rezultātu.
 
 Šajā gadījumā summas, kas izmanto VAT_S_EU **PVN** kodu, tiek attēlotas sadaļā "Preču PVN u.c. Iegādāts ārzemju" kastē un "A kaste - preču iegāde". Summas, kas izmanto **InVAT_S_EU** PVN kodu, tiek parādītas lodziņā "Ievades PVN".
@@ -111,14 +112,14 @@ Plašāka informācija pieejama rakstā [Elektronisko pārskatu (ER) konfigurāc
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters"></a> Iestatīt pieteikumu parametrus PVN deklarācijas laukiem
 
 > [!NOTE]
-> Ieteicams iespējot šo līdzekli. Izmantojiet programmai raksturīgos **parametrus no iepriekšējām ER formātu versijām** līdzekļu **pārvaldības darbvietā**. Kad šī funkcija ir aktivizēta, parametri, kas konfigurēti agrākai ER formāta versijai, automātiski kļūst piemērojami vēlākai tā paša formāta versijai. Ja šī funkcija nav iespējota, programmai raksturīgie parametri ir jākonfigurē tikai katrai formāta versijai. Funkcija **Izmantot programmai raksturīgos parametrus no iepriekšējām ER** **formātu** līdzekļa versijām ir pieejama līdzekļu pārvaldības darbvietā, kas sākas finanšu versijā 10.0.23. Papildinformāciju par to, kā iestatīt ER formāta parametrus katrai juridiskajai personai, [skatiet ER formāta parametru iestatīšana juridiskajai personai](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
+> Ieteicams iespējot šo līdzekli. Izmantojiet programmai raksturīgos **parametrus no iepriekšējām ER formātu versijām** līdzekļu **pārvaldības darbvietā** . Kad šī funkcija ir aktivizēta, parametri, kas konfigurēti agrākai ER formāta versijai, automātiski kļūst piemērojami vēlākai tā paša formāta versijai. Ja šī funkcija nav iespējota, programmai raksturīgie parametri ir jākonfigurē tikai katrai formāta versijai. Funkcija **Izmantot programmai raksturīgos parametrus no iepriekšējām ER**  **formātu** līdzekļa versijām ir pieejama līdzekļu pārvaldības darbvietā, kas sākas finanšu versijā 10.0.23. Papildinformāciju par to, kā iestatīt ER formāta parametrus katrai juridiskajai personai, [skatiet ER formāta parametru iestatīšana juridiskajai personai](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 Lai automātiski ģenerētu PVN deklarāciju, saistiet PROGRAMMĀ PVN kodus un uzmeklēšanas rezultāti tiks izveidoti ER konfigurācijā.
 
 Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN deklarācijā.
 
 1. Dodieties uz **darbalauku** > **elektronisko** pārskatu sniegšanu un atlasiet **Pārskatu izveides konfigurācijas**.
-2. Atlasiet PVN **deklarācijas Excel (DK)** konfigurāciju un pēc tam atlasiet konfigurācijas **programmai \> noteiktu parametru iestatījumu**.
+2. Atlasiet PVN **deklarācijas Excel (DK)**  konfigurāciju un pēc tam atlasiet konfigurācijas **programmai \> noteiktu parametru iestatījumu**.
 3. Lapā Programmai **specifiskie parametri** kopsavilkuma **cilnē Pārlūki** atlasiet Pārskata **lauka uzmeklēšanu**.
 4. Kopsavilkuma cilnē **Nosacījumi** iestatiet tālāk norādītos laukus, lai saistītu PVN kodus un pārskata laukus.
 
@@ -126,7 +127,7 @@ Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN dekl
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Uzmeklēšanas rezultāts          | Atlasiet pārskata lauka vērtību. Papildinformāciju par vērtībām un to piešķiršanu PVN deklarācijas rindām skatiet šī [raksta](#vat-declaration-overview) iepriekšējā PVN deklarācijas pārskata sadaļā.                                                                                               |
     | Nodokļa kods               | Atlasiet PVN kodu, ko saistīt ar pārskata lauku. Grāmatotās nodokļu darbības, kas izmanto atlasīto PVN kodu, tiks savāktas atbilstošajā deklarācijas lodziņā. Ieteicams atdalīt PVN kodus tā, lai viens PVN kods ģenerētu summas tikai vienā deklarācijas lodziņā. |
-    | Transakcijas klasifikators | Ja izveidojāt pietiekamus PVN kodus deklarācijas lodziņa noteikšanai, atlasiet Nav **\* tukšs\***. Ja netiek izveidoti pietiekami daudz PVN kodu, lai viens PVN kods ģenerētu summas tikai vienā deklarācijas lodziņā, varat iestatīt transakcijas klasifikatoru. Ir pieejami šādi darbību klasifikatori:</br>-   **Pirkšana**</br>-   **PurchaseExempt** (pirkšana ar nodokli neapliekamā summa)</br>-   **PurchaseReverseCharge** (no pirkšanas apgrieztās maksas saņemamajiem nodokļiem)</br>-   **Pārdošana**</br>-   **SalesExempt** (ar nodokli neapliekamā pārdošana)</br>-   **SalesReverseCharge** (maksājamie nodokļi no pirkšanas atgriezes maksas vai pārdošanas atgriezeniskās maksas)</br>-   **Izmantošanas nodoklis**. </br>Katram transakcijas klasifikatoram ir pieejams arī kredīta notas klasifikators. Piemēram, viens no šiem klasifikatori ir **PurchaseCreditNote** (pirkšanas kredīta nota).</br>Pārliecinieties, vai katram PVN kodam ir jāizveido divas rindas: viena, kam ir transakcijas klasifikatora vērtība, un viena ar transakcijas klasifikatoru kredīta notas vērtībai. |
+    | Transakcijas klasifikators | Ja izveidojāt pietiekamus PVN kodus deklarācijas lodziņa noteikšanai, atlasiet Nav **\* tukšs\***. Ja netiek izveidoti pietiekami daudz PVN kodu, lai viens PVN kods ģenerētu summas tikai vienā deklarācijas lodziņā, varat iestatīt transakcijas klasifikatoru. Ir pieejami šādi darbību klasifikatori:</br>-   **Pirkšana**</br>-   **PurchaseExempt**  (pirkšana ar nodokli neapliekamā summa)</br>-   **PurchaseReverseCharge**  (no pirkšanas apgrieztās maksas saņemamajiem nodokļiem)</br>-   **Pārdošana**</br>-   **SalesExempt**  (pārdošana, kas nav atbrīvota no nodokļu maksāšanas)</br>-   **SalesReverseCharge**  (maksājamie nodokļi no pirkšanas atgriezeniskās maksas vai pārdošanas atgriezeniskās maksas)</br>-   **Izmantošanas nodoklis**. </br>Katram transakcijas klasifikatoram ir pieejams arī kredīta notas klasifikators. Piemēram, viens no šiem klasifikatori ir PurchaseCreditNote **(pirkšanas** kredīta nota).</br>Pārliecinieties, vai katram PVN kodam ir jāizveido divas rindas: viena, kam ir transakcijas klasifikatora vērtība, un viena ar transakcijas klasifikatoru kredīta notas vērtībai. |
 
 
     > [!NOTE]
@@ -141,16 +142,16 @@ Sekojiet šiem soļiem, lai noteiktu, kuri PVN kodi ģenerē tos laukus PVN dekl
 
 1. Līdzekļu pārvaldības **darbvietā** atrodiet un atlasiet PVN **deklarācijas formāta pārskatus.** Sarakstā līdzekli <a0/& un pēc tam atlasiet **Iespējot tagad**.
 2. Dodieties uz **Virsgrāmatas** > **iestatījumu** > **Virsgrāmatas parametriem**.
-3. Cilnes PVN **kopsavilkuma** **·** **cilnes Nodokļu opcijas laukā PVN** **deklarācijas formāta kartēšana atlasiet PVN deklarācijas Excel (DK)** ER formātu.
+3. Cilnes PVN **kopsavilkuma**  **·**  **cilnes Nodokļu opcijas laukā PVN**  **deklarācijas formāta kartēšana atlasiet PVN deklarācijas Excel (DK)**  ER formātu.
 
-   Šis formāts tiek drukāts, kad darbināt pārskatu **par PVN maksājumu perioda pārskatam**. To var drukāt arī tad, ja PVN **maksājumu** lapā **atlasāt** Drukāt.
+   Šis formāts tiek drukāts, kad darbināt pārskatu **par PVN maksājumu perioda pārskatam** . To var drukāt arī tad, ja PVN **maksājumu** lapā **atlasāt** Drukāt.
 
-4. **Lapā Nodokļu iestādes** atlasiet nodokļu iestādi un pēc tam laukā Pārskata izkārtojums **atlasiet** Noklusējuma **·**.
+4.  **Lapā Nodokļu iestādes** atlasiet nodokļu iestādi un pēc tam laukā Pārskata izkārtojums **atlasiet** Noklusējuma **·**.
 
 Ja jūs konfigurējat PVN deklarāciju juridiskajā persona, kam ir vairākas [PVN reģistrācijas](emea-reporting-for-multiple-vat-registrations.md), sekojiet šiem soļiem.
 
 1. Dodieties uz **Virsgrāmatas** \> **iestatījumu** \> **Virsgrāmatas parametriem**.
-2. **Cilnē PVN** **kopsavilkuma cilnes Elektroniskie pārskati valstīm/** reģioniem **DNK** **rindā atlasiet PVN deklarācijas Excel (DK)** ER formātu.
+2.  **Cilnē PVN**  **kopsavilkuma cilnes Elektroniskie pārskati valstīm/** reģioniem **DNK** **rindā atlasiet PVN deklarācijas Excel (DK)**  ER formātu.
 
 ## <a name="set-up-electronic-messages"></a>Iestatīt elektroniskos ziņojumus
 
@@ -158,11 +159,11 @@ Ja jūs konfigurējat PVN deklarāciju juridiskajā persona, kam ir vairākas [P
 
 Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PVN deklarācijas priekšskatšanai programmā Excel. Šos iestatījumus var paplašināt vai izveidot pats. Papildinformāciju par to, kā strādāt ar elektronisko ziņapmaiņu un izveidot savus iestatījumus, skatiet sadaļā [Elektroniskā ziņojumapmaiņa](../general-ledger/electronic-messaging.md).
 
-1. Programmas [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2)**koplietoto** līdzekļu bibliotēkā atlasiet Datu pakotni kā līdzekļu veidu un pēc tam lejupielādējiet **DK PVN deklarācijas pakotni.** Lejupielādētais fails tiek nosaukts **DK PVN deklarācijas package.zip**.
+1. Programmas [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2) **·**  koplietoto līdzekļu bibliotēkā atlasiet Datu pakotni kā līdzekļu veidu un pēc tam lejupielādējiet **DK PVN deklarācijas pakotni.** Lejupielādētais fails tiek nosaukts **DK PVN deklarācijas package.zip**.
 2. Finanšu sadaļā Datu pārvaldības **darbvieta** atlasiet **Importēt**.
-3. **Kopsavilkuma cilnes** Imports laukā **Grupas nosaukums** ievadiet darba nosaukumu.
+3.  **Kopsavilkuma cilnes** Imports laukā **Grupas nosaukums** ievadiet darba nosaukumu.
 4. Kopsavilkuma cilnē **Atlasītās entītijas** atlasiet **Pievienot failu**.
-5. Dialoglodziņā Pievienot **failu pārbaudiet**, **·** **vai** avota datu formāta lauks ir iestatīts uz Pakot, **atlasiet** Augšupielādēt un pievienojiet un pēc tam atlasiet agrāk lejupielādēto zip failu.
+5. Dialoglodziņā Pievienot **failu pārbaudiet**, **·**  **vai** avota datu formāta lauks ir iestatīts uz Pakot, **atlasiet** Augšupielādēt un pievienojiet un pēc tam atlasiet agrāk lejupielādēto zip failu.
 6. Atlasiet **Aizvērt**.
 7. Kad datu elementi ir augšupielādēti, darbību rūtī atlasiet **Importēt**.
 8. Dodieties uz **nodokļu pieprasījumiem un** > **pārskatiem Elektronisko** > **ziņojumu elektroniskie** > **ziņojumi un apstipriniet importēto elektronisko ziņojumu apstrādi (** DK PVN **deklarācija**).
@@ -186,7 +187,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
     - **Labojumi**: ģenerējiet pārskatu par visu turpmāko PVN maksājumu PVN darbībām par periodu.
     - **Kopējais saraksts**: ģenerēt pārskatu par visām PVN darbībām par periodu, ieskaitot oriģinālos un visus labojumus.
 
-4. **Laukā No** datuma atlasiet pārskata perioda sākuma datumu.
+4.  **Laukā No** datuma atlasiet pārskata perioda sākuma datumu.
 5. Atlasiet **Labi**, un pārskatiet Excel pārskatu.
 
 ### <a name="settle-and-post-sales-tax"></a>Nosegt un grāmatot PVN
@@ -198,7 +199,7 @@ Datu pakotne ietver elektroniskā ziņojuma iestatījumus, kas tiek izmantoti PV
     - **Oriģināls**: ģenerējiet maksājuma perioda sākotnējo PVN maksājumu.
     - **Pēdējie labojumi**: ģenerēt PVN labojuma maksājumu pēc tam, kad maksājuma periodam tika izveidots sākotnējais PVN maksājums.
 
-4. **Laukā No** datuma atlasiet pārskata perioda sākuma datumu.
+4.  **Laukā No** datuma atlasiet pārskata perioda sākuma datumu.
 5. Atlasiet **Labi**.
 
 ### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Priekšskatīt PVN deklarāciju programmā Excel no PVN maksājuma
@@ -245,7 +246,7 @@ Sekojiet šiem soļiem, lai iestatītu elektroniskos ziņojumus, lai savāktu da
 3. Doties uz nodokļu **iestatīšanas** > **·** > **elektroniskajiem ziņojumiem** > **Aizpildīt ierakstu darbības**.
 4. Darbības lapā **Aizpildīt ierakstus atlasiet** rindu DK aizpildīt **PVN atgriešanas ierakstiem**.
 
-   **Datu avotu iestatījumu** režģī ir pieejams jauns **uzņēmuma** lauks. Esošiem ierakstiem šajā laukā tiek rādīts pašreizējās juridiskās personas identifikators.
+    **Datu avotu iestatījumu** režģī ir pieejams jauns **uzņēmuma** lauks. Esošiem ierakstiem šajā laukā tiek rādīts pašreizējās juridiskās personas identifikators.
 
 5. Datu avotu **iestatījumu režģī** pievienojiet rindu katrai papildu juridiskajai personai, kas ir jāiekļauj pārskatā. Katrai jaunai rindai iestatiet šādus laukus.
 
@@ -255,15 +256,15 @@ Sekojiet šiem soļiem, lai iestatītu elektroniskos ziņojumus, lai savāktu da
     | Ziņojuma krājuma veids      | Atlasiet **PVN atgriešanu**. Šī vērtība ir vienīgā vērtība, kas pieejama visiem ierakstiem.                                    |
     | Konta veids           | Atlasiet **visu**.                                                                                                               |
     | Galvenās tabulas nosaukums      | Norādiet **TaxReportVoucher** visiem ierakstiem.                                                                             |
-    | Dokumenta numura lauks  | **Norādīt** dokumentu visiem ierakstiem.                                                                                      |
+    | Dokumenta numura lauks  |  **Norādīt** dokumentu visiem ierakstiem.                                                                                      |
     | Dokumenta datuma lauks    | Norādiet **TransDate** visiem ierakstiem.                                                                                    |
-    | Dokumenta konta lauks | Visiem **ierakstiem norādiet TaxPeriod**.                                                                                    |
+    | Dokumenta konta lauks | Visiem **ierakstiem norādiet TaxPeriod** .                                                                                    |
     | Uzņēmums                | Atlasiet juridiskās personas ID.                                                                                            |
     | Lietotāja vaicājums             | Šī izvēles rūtiņa tiek automātiski atzīmēta, kad definējat kritērijus, atlasot **Vaicājumu Labot**.                                 |
 
 6. Katrai jaunai rindai atlasiet **vaicājumu** Rediģēt un norādiet **juridiskās personas saistīto segšanas periodu, kas ir norādīts** rindas laukā Uzņēmums.
 
-Kad iestatīšana ir pabeigta, lapā **·** **Elektroniskie** ziņojumi datu apkopošanas funkcija apkopo PVN maksājumus no visām juridiskajām personām, ko esat definējis.
+Kad iestatīšana ir pabeigta, lapā **·**  **Elektroniskie** ziņojumi datu apkopošanas funkcija apkopo PVN maksājumus no visām juridiskajām personām, ko esat definējis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

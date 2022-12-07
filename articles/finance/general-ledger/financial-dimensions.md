@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680363"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799631"
 ---
 # <a name="financial-dimensions"></a>Finanšu dimensijas
 
@@ -120,7 +120,7 @@ Atvasinātās dimensijas ar šo iestatījumu automātiski neaizstāj esošās no
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Izmaiņu novēršana ar atvasinātām dimensijām
  
-Kad izmantojat komandu **Pievienot segmentu** lapā **Atvasinātās dimensijas**, lai kādu segmentu pievienotu kā atvasinātu dimensiju, lapas **Pievienot segmentu** apakšā tiek piedāvāta opcija, kas ļauj jums nepieļaut izmaiņas šai dimensijai, kad tā tik atvasināta kādā lapā. Pēc noklusējuma šī opcija ir izslēgta, tāpēc netiek novērsta atvasināto dimensiju vērtību mainīšana. Mainiet šo iestatījumu uz **Jā**, ja vēlaties novērst šīs dimensijas mainīšanu pēc tās atvasināšanas. Piemēram, ja dimensijas Nodaļa vērtība tiek atvasināta no dimensijas Izmaksu centrs vērtības, vērtību Nodaļa nevar mainīt, ja iestatījums **Novērst izmaiņas** ir **Jā**. 
+Kad izmantojat komandu **Pievienot segmentu** lapā **Atvasinātās dimensijas**, lai kādu segmentu pievienotu kā atvasinātu dimensiju, lapas **Pievienot segmentu** apakšā tiek piedāvāta opcija, kas ļauj jums nepieļaut izmaiņas šai dimensijai, kad tā tik atvasināta kādā lapā. Noklusētais iestatījums ir izslēgts, tāpēc tas neļaus mainīt atvasinātās dimensijas vērtības. Mainiet šo iestatījumu **uz Jā**, ja vēlaties neatļaut dimensijas maiņu pēc tās atvasinātas. Piemēram, ja dimensijas Nodaļa vērtība tiek atvasināta no dimensijas Izmaksu centrs vērtības, vērtību Nodaļa nevar mainīt, ja iestatījums **Novērst izmaiņas** ir **Jā**. 
  
 Šis iestatījums nenovērš izmaiņu veikšanu, ja dimensijas vērtība ir derīga, bet nav uzskaitīta atvasināto dimensiju sarakstā. Piemēram, ja Nodaļa 20 tiek atvasināta no Izmaksu centrs 10 un ievadāt Izmaksu centrs 10, vairs nevar rediģēt Nodaļa 20. Taču, ja ievadāt Izmaksu centrs 20 un šī vērtība nav atvasināto dimensiju sarakstā vienumam Izmaksu centrs, vērtību Nodaļa varat rediģēt. 
  
@@ -137,7 +137,13 @@ Atvasināto dimensiju segmentus un vērtības var iestatīt, izmantojot elementu
 
 Ja elementu tiek izmantots datu importēšanai un šis elements importē dimensijas, importēšanas laikā stājas spēkā atvasinātās dimensijas kārtulas, ja vien elements īpaši neignorē šīs dimensijas.
 
-Lai iegūtu papildu informāciju, skatiet šādas tēmas:
+## <a name="financial-dimension-service"></a>Finanšu dimensijas pakalpojums
+
+Finanšu dimensijas pakalpojumu pievienojumprogramma ir pieejama pakalpojumā Microsoft Dynamics Lifecycle Services vidē. Tas nodrošina uzlabotu veiktspēju, kad izmantojat datu pārvaldības struktūru, lai importētu žurnālu ar lielu rindu skaitu. Lai izmantotu pakalpojumu, tas ir jāiespējo lapā Finanšu **dimensijas pakalpojuma parametri** . Pašlaik pakalpojums darbojas tikai importētos žurnālos, kuriem ir 500 vai vairāk rindu. Turklāt pašlaik tas var apstrādāt tikai Virsgrāmatas žurnālus, kur **Virsgrāmatas** konta tips ir iestatīts žurnāla rindās. Citi kontu tipi žurnāla rindās, piemēram, Debitors **·** **·**, Kreditors **un Banka**, šobrīd netiek atbalstīti. Šis pakalpojums netiks izsaukts, kad sistēmā tiek iestatītas atvasinātās dimensijas.
+
+Finanšu dimensijas pakalpojums nodrošina uzlabotu veiktspēju, kad žurnāli tiek importēti, izmantojot jaunu pakalpojumu, kas darbojas paralēli datu importēšanai. Tas tiek izpildīts tikai galvenā konta un finanšu dimensijas datos žurnālā, un tas ģenerē dimensiju kombinācijas, kas ir norādītas virsgrāmatas konta virknes laukā žurnāla rindās. Apstrāde pārvērš šo virkni par strukturēto datu krātuvi, ko finanšu dimensiju struktūra izmanto validācijai, kopsavilkuma pārskatu pārskatiem un vaicājumiem visā pārējā produkta ietvaros. Papildinformāciju par finanšu dimensiju datu kopsavilkuma pārskatu skatiet finanšu [dimensiju kopās](financial-dimension-sets.md).
+
+Papildinformāciju skatiet tālāk norādītajās tēmās.
 
 - [Finanšu dimensiju definēšana](tasks/define-financial-dimensions.md)
 - [Finanšu dimensijas noklusējuma veidņu uzturēšana](tasks/maintain-financial-dimension-default-templates.md)

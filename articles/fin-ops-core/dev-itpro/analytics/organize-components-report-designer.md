@@ -2,7 +2,7 @@
 title: Pārskatu komponentu organizēšana pārskatu noformētājā
 description: Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135885"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802693"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135885"
 
 Kad esat izveidojuši veidošanas blokus un ģenerējuši atskaites, ir noderīgi šos objektus sakārtot, lai lietotāji tos varētu vienkāršāk atrast. Šajā rakstā ir paskaidrots, kā sakārtot esošas atskaites, veidošanas blokus un objektus atskaišu veidotājā.
 
-Atskaišu veidotājā varat pārdēvēt mapes, atskaites, veidošanas blokus un citus objektus, lai palīdzētu kārtot savus failus. Atkarībā no pārdēvētā objekta tipa, iespējams, ir nepieciešams atjaunināt saistības ar šo objektu.
+Lai palīdzētu organizēt failus, pārskatu veidotājā varat pārdēvēt mapes, pārskatus, veidošanas blokus un citus objektus. Atkarībā no pārdēvētā objekta tipa, iespējams, ir nepieciešams atjaunināt saistības ar šo objektu.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Pārdēvējiet mapi vai veidošanas bloku Pārskata veidotājā
-Pārskatu veidotājā varat pārdēvēt mapes, pārskatu definīcijas, rindu definīcijas, kolonnu definīcijas un pārskatu koku definīcijas.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mapes pārdēvēšana vai bloķēšana pārskatu veidotājā
+Pārskatu veidotājā var pārdēvēt mapes, pārskatu definīcijas, rindu definīcijas, kolonnu definīcijas un pārskatu koka definīcijas.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mapes vai veidošanas bloka pārdēvēšana pārskatu veidotājā
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Mapes pārdēvēšana vai bloķēšana pārskatu veidotājā
 
-1. Pārskatu veidotājā izmantojiet navigācijas rūti, lai atrastu pārdēvējamo mapi vai objektu.
+1. Pārskatu veidotājā lietojiet navigācijas rūti, lai noteiktu pārdēvējamā mapes vai objekta atrašanās vietu.
 2. Ar peles labo pogu noklikšķiniet uz mapes vai objekta, un pēc tam noklikšķiniet uz **Pārdēvēt**. Lauks **Nosaukums** navigācijas rūtī kļūst pieejams.
-3. Ierakstiet jauno nosaukumu, un tad nospiediet taustiņu Enter.
+3. Ierakstiet jauno nosaukumu, un tad nospiediet taustiņu **Enter**.
 4. Ja veidošanas bloks ir rindas definīcija, kolonnas definīcija vai atskaišu koka definīcija, tad jums ir nepieciešams atjaunināt pārējos veidošanas blokus, kas ar to ir saistīti. Ar peles labo pogu noklikšķiniet uz veidošanas bloka, kuru pārdēvēt 3. darbībā, atlasiet vienumu **Saistības** un pēc tam sarakstā atlasiet vienumu, lai to atjauninātu.
 5. Atkārtojiet 4. soli, līdz visi saistītie krājumi tiks atjaunināti.
 
@@ -46,36 +46,36 @@ Pārskatu definīcijas iespējams grupēt, lai vienlaicīgi izveidotu vairākus 
 
 ### <a name="create-a-report-group"></a>Pārskata grupas izveidošana
 
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
-2. Izvēlnē **Fails** noklikšķiniet uz **Jauns** &gt; **Pārskatu grupas definīcija**, lai skatītāja logā atvērtu jaunu pārskatu grupu. Varat arī noklikšķināt uz rīkjoslas pogas **Pārskatu grupa** ![Pārskatu grupa.](media/report-group.gif "Pārskatu grupa") rīkjoslā.
-3. Noklikšķiniet uz cilnes **Pārskatu grupa**. Lai šī pārskata izveidošanai ignorētu informāciju par atsevišķu pārskatu definīcijām, atzīmējiet izvēles rūtiņu **Ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus no atsevišķām pārskatu definīcijām**. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
-4. Lai ģenerētu vairākas atskaites, kurās ir redzamas atskaišu valūtas, atzīmējiet izvēles rūtiņu **Ietvert visas atskaišu valūtas**. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz Pārskatu **grupas**.
+2. Izvēlnē Fails **noklikšķiniet** uz Jaunas **pārskatu** &gt; **grupas definīcija**, lai atvērtu jaunu pārskatu grupu skatītāja logā. Vai arī noklikšķiniet uz pogas **Pārskatu grupa** . ![...](media/report-group.gif "Pārskatu grupa") rīkjoslā.
+3. Noklikšķiniet uz **cilnes Pārskatu** grupa. Lai ignorētu informāciju atsevišķas pārskata definīcijas šī pārskata ģenerēšanai, **atzīmējiet izvēles rūtiņu Ignorēt uzņēmumu,** detalizētu informāciju un datumu iestatījumus no atsevišķām pārskatu definīcijām. Uzņēmuma nosaukums, detalizētības līmenis, provizoriskie iestatījumi un datuma informācija tiek ievadīta automātiski, bet jūs varat veikt atjauninājumus.
+4. Lai ģenerētu vairākus pārskatus, kuros parādītas pārskata valūtas, atzīmējiet **izvēles rūtiņu Iekļaut visas pārskata** valūtas. Pēc tam varat piekļūt vairākiem skatiem, tīmekļa skatītājā noklikšķinot uz pogas **Valūta**, kas skatāt šo atskaiti.
 5. Laukā **Atskaites grupā** noklikšķiniet uz **Pievienot**, lai atlasītu atskaites, ko iekļaut atskaišu grupā. Lai dialoglodziņā **Pievienot** atlasītu vairākas atskaites, atskaišu atlasīšanas laikā turiet nospiestu taustiņu Ctrl. Kad esat beidzis atlasīt atskaites, noklikšķiniet uz **Labi**.
 6. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu jauno pārskatu grupu.
 
 ### <a name="modify-a-report-group"></a>Modificēt pārskata grupu
 
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz Pārskatu **grupas**.
 2. Veiciet dubultklikšķi uz pārskata grupas, lai modificētu to.
-3. Cilnē **Atskaišu grupa** veiciet nepieciešamās izmaiņas.
+3.  **Cilnē Pārskatu** grupa veiciet nepieciešamās izmaiņas.
 4. Izvēlnē **Fails** noklikšķiniet uz **Saglabāt**, lai saglabātu modificēto pārskatu grupu, vai arī noklikšķiniet uz rīkjoslas pogas **Saglabāt** ![Saglabāt.](media/save.gif "Saglabāt") rīkjoslā.
 
-> [PIEZĪME] Ja esat ieplānojis atskaites, lai tās tiktu ģenerētas noteiktos intervālos, varat ignorēt šos iestatījumus un ģenerēt atskaiti nekavējoties.
+> [NOTE] Ja esat plānojis pārskatus tā, ka tie tiek ģenerēti iestatītos intervālos, varat ignorēt šos iestatījumus un ģenerēt pārskatu nekavējoties.
 
 ### <a name="generate-a-report-group-report"></a>Izveidot pārskata grupu pārskatu
 
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz Pārskatu **grupas**.
 2. Atveriet pārskata grupu, lai izveidotu.
-3. Noklikšķiniet uz pogas **Ģenerēt pārskatu** ![Ģenerēt pārskatu.](media/generate-report.gif "Ģenerēt pārskatu") lai ģeņerētu pārskatus.
+3. Noklikšķiniet uz **pogas Ģenerēt** pārskatu ![.](media/generate-report.gif "Ģenerēt pārskatu") lai ģeņerētu pārskatus.
 
 ### <a name="delete-a-report-group"></a>Grupas pārskata dzēšana
 
-1. Atskaišu veidotāja navigācijas rūtī noklikšķiniet uz **Atskaišu grupas**.
+1. Pārskatu veidotājā navigācijas rūtī noklikšķiniet uz Pārskatu **grupas**.
 2. Ar peles labo pogu noklikšķiniet uz dzēšamās atskaišu grupas un pēc tam atlasiet vienumu **Dzēst**.
 3. Kad tiek parādīts apstiprinājuma ziņojums, noklikšķiniet uz **Jā**.
 
-## <a name="report-group-tab-controls"></a>Atskaišu grupas cilnes vadīklas
-Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
+## <a name="report-group-tab-controls"></a>Pārskatu grupas cilnes kontroles
+Tabulā ir aprakstītas pārskata grupas **cilnes kontroles** .
 
 <table>
 <thead>
@@ -86,8 +86,8 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 </thead>
 <tbody>
 <tr>
-<td>Atsevišķu pārskatu definīcijās ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus</td>
-<td>Atlasiet šo izvēles rūtiņu, lai ignorētu atsevišķu pārskatu definīcijas šajā pārskata grupā, tikai šo pārskatu veidošanai.</td>
+<td>Ignorēt uzņēmuma, detalizētas informācijas un datuma iestatījumus no atsevišķām pārskatu definīcijām</td>
+<td>Atzīmējiet šo izvēles rūtiņu, lai ignorētu atsevišķas pārskatu definīcijas šajā pārskatu grupā tikai šo pārskatu ģenerēšanai.</td>
 </tr>
 <tr>
 <td>Uzņēmuma nosaukums</td>
@@ -113,7 +113,7 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 </tr>
 <tr>
 <td>Iekļaut visas pārskatu veidošanas valūtas</td>
-<td>Šeit ir norādītas visas papildu pārskatu valūtas, kas ir konfigurētas jūsu Microsoft Dynamics ERP sistēmā. Atzīmējiet šo izvēles rūtiņu, lai ģenerētu papildu atskaites norādītajās valūtās. Lai skatītu šos pārskatus, pakalpojumā Tīmekļa skatītājs noklikšķiniet uz pogas <strong>Valūta</strong> un pēc tam atlasiet valūtu.</td>
+<td>Šeit uzskaitītas visas papildu pārskata valūtas, kas ir konfigurētas Microsoft Dynamics jūsu 365 Finanšu sistēmā. Atzīmējiet šo izvēles rūtiņu, lai izveidotu papildu pārskatus norādītajās valūtās. Lai skatītu šos pārskatus, pakalpojumā Tīmekļa skatītājs noklikšķiniet uz pogas <strong>Valūta</strong> un pēc tam atlasiet valūtu.</td>
 </tr>
 <tr>
 <td>Datuma informācija netiek saglabāta ar pārskata definīciju</td>

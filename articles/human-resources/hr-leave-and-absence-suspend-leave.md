@@ -1,8 +1,8 @@
 ---
-title: Pārtraukt atvaļinājumu
-description: Darbinieka atvaļinājumu varat aizturēt programmā Dynamics 365 Human Resources.
+title: Pārtraukt atvaļinājumu vai kavējumu
+description: Darbiniekam ir iespējams atlikt prombūtni Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895907"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805265"
 ---
 # <a name="suspend-leave"></a>Pārtraukt atvaļinājumu
 
 >[!Important]
->Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem atsevišķi Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
-
+>Šajā rakstā atzīmētā funkcionalitāte pašlaik ir pieejama klientiem savrupā programmā Dynamics 365 Human Resources. Daļa vai visa funkcionalitāte būs pieejama kā daļa no nākamā laidiena Finance infrastruktūrā pēc Finance laidiena 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Jūs varat aizturēt atvaļinājumu darbiniekam, lai pārtrauktu atvaļinājumu uzkrājumu apstrādi atsevišķiem atvaļinājumu veidiem. 
+Darbiniekam ir iespējams atlikt prombūtni, lai pārtrauktu uzkrāto atvaļinājumu apstrādi atlasītajiem atvaļinājumu tipiem.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Atvaļinājuma un prombūtnes aizturēšana nodarbinātajam
 
@@ -44,6 +43,9 @@ Jūs varat aizturēt atvaļinājumu darbiniekam, lai pārtrauktu atvaļinājumu 
 5. Pēc izvēles varat pievienot **Komentāru** atlikšanai. 
 
 Ja uzkrājumi tiek apstrādāti, kamēr darbinieka atvaļinājums tiek atlikts, uzkrājums netiks veikts aizturēto atvaļinājumu veidiem.
+
+> [!NOTE]
+> Atvaļinājuma pieprasījumi atslēgšanas pieprasījumus aizturēs no laika izslēgtos pieprasījumus, bet no laika izslēgti pieprasījumi nepārtrauc prombūtnes pieprasījumus.
 
 ## <a name="see-also"></a>Skatiet arī
 

@@ -1,6 +1,6 @@
 ---
 title: Izveidot brīva teksta rēķinu
-description: Šajā rakstā ir paskaidrots, kā izveidot brīva teksta rēķinus.
+description: Šajā rakstā skaidrots, kā izveidot brīva teksta rēķinus.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
-ms.translationtype: HT
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
+ms.translationtype: MT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780256"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788545"
 ---
 # <a name="create-a-free-text-invoice"></a>Izveidot brīva teksta rēķinu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir paskaidrots, kā izveidot brīva teksta rēķinus. Šai procedūrai izmantojiet demonstrācijas uzņēmuma **USMF** datus.
+Šajā rakstā skaidrots, kā izveidot brīva teksta rēķinus. Šai procedūrai izmantojiet demonstrācijas uzņēmuma **USMF** datus.
 
 ## <a name="create-a-free-text-invoice"></a>Brīva teksta rēķina izveidošana
 
@@ -37,7 +37,7 @@ ms.locfileid: "9780256"
     * Ja lietojat vienotās eiro maksājumu zonas (SEPA) mandātus, tad tiešā debeta mandāts automātiski tiek ievadīts, kad atlasāt debitora kontu.
 
 4. Laukā **Apraksts** ievadiet kādu vērtību.
-5. Laukā **Galvenais konts** norādiet kāda konta numuru, kuram nav dimensiju. Dimensijas ievadīsit vēlāk šajā rakstā.
+5. Laukā **Galvenais konts** norādiet kāda konta numuru, kuram nav dimensiju. Vēlāk šajā rakstā ievadīsiet dimensijas.
 
     Lai atrastu kontu, varat arī ievadīt vienu vai vairākas rakstzīmes galvenajam kontam un lietot uzmeklēšanu.
 
@@ -68,7 +68,9 @@ ms.locfileid: "9780256"
 
     * Rēķinu drukāšanas laiku var mainīt. Atlasiet **Pašreizējais**, lai katru rēķinu drukātu, līdzko tas ir atjaunināts. Atlasiet **Pēc**, lai drukāšanu veiktu pēc tam, kad ir atjaunināti visi rēķini.
     * Lai mainītu to, kā debitora kredīta limits tiek pārbaudīts pirms rēķina grāmatošanas, mainiet vērtību laukā **Kredīta limita veids**.
-    * Varat izvēlēties pārtraukt bezmaksas teksta rēķinu grāmatošanu, ja lapas Debitoru parādu parametri cilnē Atjauninājumi **Debitoru parādu > Debitoru parādu parametri (** Debitoru parādu > Debitoru parādu **parametri**) rodas kļūda **.** Atlasiet **Jā**, lai pārtrauktu brīva teksta rēķinu publicēšanu ar pirmās kļūdas parametru, lai **kļūdas** gadījumā pārtrauktu brīva teksta rēķinu grāmatošanu. Ja grāmatošana paketē, kļūda apturēs grāmatošanas procesu un partijas statuss tiks iestatīts uz **Kļūda**. Ja šī opcija nav atlasīta, grāmatošanas procesā tiks izlaists rēķins ar grāmatošanas kļūdu un turpinās grāmatot papildu rēķinus. Ja grāmatošana tiek veikta paketē, grāmatošanas kļūda neaizkavēs citu rēķinu grāmatošanu. Partijas statuss būs **Beigts**. Detalizēta grāmatošanas procesa atskaite būs pieejama pārskatīšanai pakešu darbu vēsturē.
+    * Varat izvēlēties pārtraukt bezmaksas teksta rēķinu grāmatošanu, ja lapas Debitoru parādu parametri cilnē Atjauninājumi **Debitoru parādu > Debitoru parādu parametri (** Debitoru parādu > Debitoru parādu **parametri**) rodas kļūda **.** Atlasiet **Jā**, lai **pārtrauktu brīvā teksta** rēķinu grāmatošanu pirmajā kļūdas parametrā, lai pārtrauktu brīvā teksta rēķinu grāmatošanu, ja rodas kļūda. Ja grāmatošana ir pakešuzdevumā, kļūda apturēs grāmatošanas procesu un pakešuzdevuma statuss tiks iestatīts uz **Kļūda**. Ja šī opcija nav atlasīta, grāmatošanas process izlaiž rēķinu ar grāmatošanas kļūdu un turpinās grāmatot papildu rēķinus. Ja grāmatošana partijā, grāmatošanas kļūda neļaus grāmatot citus rēķinus. Partijas statuss būs **Pabeigts**. Detalizēts grāmatošanas procesa pārskats būs pieejams pārskatīšanai pakešuzdevumu vēsturē.
+    *  Microsoft Dynamics 365. finanšu 10.0.30. brīva teksta rēķinu grāmatošanas uzlabojums kopsummas aprēķina funkcija uzlabo grāmatošanas **veiktspēju,** ļaujot tam darboties efektīvāk. Ja ir iespējota šī funkcija, grāmatošanas laikā aprēķinātās kopsummas tiek saglabātas, nevis pārrēķinātas vairākas reizes grāmatošanas procesa laikā. 
+    *  Microsoft Dynamics 365 Finanses 10.0.31 brīvā teksta rēķinu pakešveida grāmatošanas procesa **uzlabošanas funkcija uzlabo grāmatošanas veiktspēju,** ļaujot tam darboties efektīvāk. Kad šī funkcija ir aktivizēta, grāmatošana izmanto modeli, kas pats pārvalda paketes grāmatošanas darba slodzi starp fiksētu pavedienu skaitu, tā vietā, lai piešķirtu fiksētu dokumentu skaitu neierobežotam pavedienu skaitam.
     * Lai izdrukātu rēķinu, iestatiet šo opciju pozīcijā **Jā**.
     * Lai grāmatotu rēķinu, iestatiet šo opciju pozīcijā **Jā**. Rēķinu varat izdrukāt arī bez tā grāmatošanas.
 
@@ -85,9 +87,9 @@ Brīva teksta rēķina izveidei varat izmantot veidni. Cilnes **Rēķins** veidn
 Jauns brīva teksta rēķins ir izveidots, un tā vērtības var rediģēt pēc nepieciešamības.
 
 ## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Brīva teksta rēķinu darbplūsmas statusa atiestatīšana no Neatkopjams uz Melnraksts
-Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja klienta brīva teksta rēķina darbplūsmas statuss ir **Neatgūstams**, varat to atiestatīt uz **Melnraksts**, atlasot **Atsaukt** no darbplūsmas darbībām. Pēc tam varat rediģēt klienta brīvā teksta rēķinu. Šis līdzeklis ir pieejams, **ja lapā Līdzekļu pārvaldība** ir **ieslēgta darbplūsmas statusa atiestatīšana brīva teksta rēķiniem no parametra Neatgūstams uz Melnraksts**.
+Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Kad debitora brīva teksta rēķina darbplūsmas statuss ir Neatkopjams **, varat atiestatīt to** **uz Melnraksts, atlasot** Atsaukt **no darbplūsmas darbībām.**  Pēc tam varat labot debitora brīva teksta rēķinu. Šī funkcija ir pieejama, **ja līdzekļu**  **pārvaldības** lapā ir ieslēgta darbplūsmas statusa atiestatīšana brīva teksta rēķiniem no Neizlabojams uz parametru Melnraksts.
 
-Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz **Melnraksts**. Šo lapu varat atvērt no Brīva teksta rēķina **vai no** Common > Inquires > **Workflow**. Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz **Melnraksts**, atlasot **darbību Atsaukt** lapā Brīva **teksta rēķins** vai **Visi brīva teksta rēķini**. Kad darbplūsmas statuss ir atiestatīts uz **Melnraksts**, tas kļūst pieejams rediģēšanai **brīvā teksta rēķina** lapā.
+Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz **Melnraksts**. Šo lapu var atvērt no brīva **teksta rēķina** vai no **kopējā > vaicājumiem > darbplūsmu**. Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz **Melnraksts** **, atlasot** atsaukt **darbību** brīva teksta rēķina **lapā vai** visu brīva teksta rēķinu lapā. Kad darbplūsmas statuss ir atiestatīts uz **Melnraksts**, tas kļūst pieejams rediģēšanai brīva **teksta rēķina** lapā.
 
 
 
