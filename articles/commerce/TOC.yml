@@ -1011,7 +1011,23 @@
                 - name: Novirzīšanas URL lielapjoma augšupielāde
                   href: upload-bulk-redirects.md
                 - name: B2C nomnieka iestatīšana programmā Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: B2C nomnieka iestatīšana
+                      href: set-up-B2C-tenant.md
+                    - name: Izveide vai saistīšana ar esošu Azure AD B2C nomnieku
+                      href: create-link-aad-b2c-tenant.md
+                    - name: B2C programmas izveide
+                      href: create-b2c-app.md
+                    - name: Lietotāja plūsmas politiku izveide
+                      href: create-user-flow-policies.md
+                    - name: Sociālās identitātes nodrošinātāju pievienošana
+                      href: add-social-identity-providers.md
+                    - name: 'Commerce Headquarters atjaunināšana, izmantojot Azure AD B2C informāciju'
+                      href: update-hq-aad-b2c-info.md
+                    - name: B2C nomnieka konfigurēšana vietas veidotājā
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Papildinformācija par B2C
+                      href: additional-b2c-info.md
                 - name: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
                   href: custom-pages-user-logins.md
                 - name: Automātiskas identitātes ierakstu saistīšanas ar klientu kontiem iespējošana
@@ -1568,8 +1584,10 @@
                   href: localizations/rus-customer-information.md
             - name: Saūda Arābija
               items:
-                - name: Ģenerēt QR kodus un drukāt tos kvītīs Saūda Arābijai
+                - name: QR kodu ģenerēšana un drukāšana kvītīs Saūda Arābijai
                   href: localizations/emea-sau-qr-code.md
+                - name: Vienkāršotu elektronisko rēķinu izveide un iesniegšana Saūda Arābijai
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Zviedrija
               items:
                 - name: Kases sistēmas funkcionalitāte
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Tiešsaistes pasūtījumu nodokļi nav pareizi aprēķināti
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Pasūtījumu sinhronizācijas kļūda saistībā ar noklusējuma maksājumu pakalpojumu
+                - name: Ar asinhronu pasūtījumu sinhronizēšanu saistītas problēmas
                   href: troubleshoot/synchronization-error.md
             - name: Maksājumu apstrāde
               items:

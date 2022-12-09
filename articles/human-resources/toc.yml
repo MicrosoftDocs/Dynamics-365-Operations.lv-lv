@@ -564,15 +564,17 @@
               href: hr-leave-and-absence-plans.md
             - name: Piešķirt darbiniekus atvaļinājumu plānam
               href: hr-leave-and-absence-enroll.md
-            - name: Uzkrāt atvaļinājumu un kavējumu plānus
+            - name: Atvaļinājumu un kavējumu plānu uzkrāšana
               href: hr-leave-and-absence-accrue.md
-            - name: Pārtraukt atvaļinājumu
+            - name: Atvaļinājuma pārtraukšana
               href: hr-leave-and-absence-suspend-leave.md
             - name: Atvaļinājuma pieprasījums
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Atvaļinājuma bez beigu termiņa izveide
+              href: hr-create-open-leave-absence.md
             - name: Darbinieka atvaļinājuma pārvaldība
               href: hr-leave-and-absence-manage-employee-leave.md
-            - name: Skatīt analīzi par atvaļinājumu un kavējumu
+            - name: Analīzes par atvaļinājumu un kavējumu skatīšana
               href: hr-leave-and-absence-analytics.md
             - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība
               href: hr-employee-self-service-manage-requests.md

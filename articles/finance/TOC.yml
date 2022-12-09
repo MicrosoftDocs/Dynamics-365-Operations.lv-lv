@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Polijā
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā
+                        - name: "Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā\_— pirmais posms"
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: "Darba sākšana ar elektronisko rēķinu izveidi lietošanai Saūda Arābijā\_— otrais posms"
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroniskās rēķinu izrakstīšanas pievienošana Saūda Arābijā
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
