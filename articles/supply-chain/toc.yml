@@ -1809,6 +1809,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Ražošanas plānošana
                   href: master-planning/planning-optimization/production-planning.md
+                - name: 'Brāķa iestatīšana, lai aprēķinātu izejmateriālu prasības'
+                  href: master-planning/scrap-calculations.md
                 - name: Vispārējā plānošana precēm ar ierobežotu glabāšanas laiku
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Plānošana ar neierobežotu noslodzi
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Izlaistās preces izveide vienam uzņēmumam
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Datu elementu izmantošana
+                - name: Preces datu elementi
                   href: pim/data-entities.md
                 - name: Preces dzīves cikla stāvoklis
                   items:

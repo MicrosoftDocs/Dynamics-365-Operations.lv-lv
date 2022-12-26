@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: "Microsoft Clarity iestatīšana pakalpojumā Dynamics\_365\_Commerce"
               href: set-up-clarity.md
+            - name: Darbības ieskatu iestatīšana
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Globalization Studio pārskats
@@ -3054,8 +3056,14 @@
                   href: troubleshoot/email-not-sent-when-new-customer-created.md
             - name: SDK problēmu novēršana
               items:
-                - name: 'Iestatīt e-komercijas izstrādes vidi, lai atkļūdotu 1. pakāpes Retail Server VM'
+                - name: 'Iestatīt e-komercijas izstrādes vidi, lai atkļūdotu 1. līmeņa Retail Server VM'
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Veikala finanses
+              items:
+                - name: Ar Z pārskata datu saskaņošanu saistītas problēmas
+                  href: troubleshoot/z-report-issues.md
+                - name: Nepieejamu krājumu var atjaunināšanas konfliktu izraisītas pārskata iegrāmatošanas kļūdas
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Finanšu un operāciju programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

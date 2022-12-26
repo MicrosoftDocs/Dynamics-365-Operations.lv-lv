@@ -30,9 +30,11 @@
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (sapludinātā infrastruktūra)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Kas jauns Dynamics 365 Human Resources (savrupa programma)
+                - name: Dynamics 365 Human Resources (savrupa programma) jaunumi
                   items:
-                    - name: Kas jauns Dynamics 365 Human Resources (savrupa programma) arhīvos 2021
+                    - name: "Dynamics 365 Human Resources (savrupa programma) jaunumi 2022.\_gada decembrī"
+                      href: hr-whats-new-2022-12-12.md
+                    - name: "Dynamics 365 Human Resources (savrupa programma) 2021.\_gada arhīvu jaunumi"
                       href: hr-admin-whats-new.md
                     - name: "2021.\_gada 29.\_novembris"
                       href: hr-whats-new-2021-11-29.md
@@ -108,11 +110,13 @@
                   href: hr-developer-entities.md
                 - name: Dataverse virtuālo tabulu konfigurēšana
                   href: hr-admin-integration-common-data-service-virtual-entities.md
-                - name: Bieži uzdotie jautājumi par Human Resources tabulām
+                - name: Bieži uzdotie jautājumi par Human Resources virtuālajām tabulām
                   href: hr-admin-virtual-entity-faq.md
-                - name: Integrācijas konfigurēšana ar Finance
+                - name: 'Datu integrācijas konfigurēšana, izmantojot Dataverse'
+                  href: hr-dataverse-integration.md
+                - name: 'Integrācijas konfigurēšana, izmantojot Finance'
                   href: hr-admin-integration-finance.md
-                - name: Integrācijas konfigurēšana ar Dayforce
+                - name: 'Integrācijas konfigurēšana, izmantojot Dayforce'
                   href: hr-admin-integration-dayforce.md
                 - name: Periodiskas datu eksportēšanas programmas izveide
                   href: hr-admin-integration-recurring-data-export.md
@@ -854,11 +858,11 @@
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Virtuālās tabulas integrāciju drošība
               href: hr-security-config.md
-            - name: Integrācijas konfigurēšana ar Finance
+            - name: 'Integrācijas konfigurēšana, izmantojot Finance'
               href: hr-admin-integration-finance.md
             - name: Saišu izveide no Human Resources uz citu vidi
               href: configure-links.md
-            - name: Integrācijas konfigurēšana ar Dayforce
+            - name: 'Integrācijas konfigurēšana, izmantojot Dayforce'
               href: hr-admin-integration-dayforce.md
             - name: Periodiskas datu eksportēšanas programmas izveide
               href: hr-admin-integration-recurring-data-export.md
@@ -876,7 +880,7 @@
           items:
             - name: Dataverse virtuālās tabulas vaicājumu optimizācija
               href: hr-developer-optimize-virtual-table-queries.md
-            - name: Bieži uzdotie jautājumi par Human Resources tabulām
+            - name: Bieži uzdotie jautājumi par Human Resources virtuālajām tabulām
               href: hr-admin-virtual-entity-faq.md
         - name: Elementa API atsauce
           items:

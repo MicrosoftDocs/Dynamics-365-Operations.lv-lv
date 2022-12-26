@@ -1164,10 +1164,12 @@
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: Apgrozījuma bilance ar darījuma detalizētu pārskatu
                   href: public-sector/general-ledger-public-sector-trial-balance.md
-                - name: Virsgrāmatas izraksts pēc galvenā konta
+                - name: Virsgrāmatas pārskats pēc galvenā konta
                   href: general-ledger/general-ledger-statement-by-main-account.md
-                - name: 'Standarta audita fails nodoklim (SAF-T): elektroniskā atskaite'
+                - name: 'Standarta audita fails nodoklim (SAF-T): elektroniskais pārskats'
                   href: general-ledger/standard-audit-file.md
+                - name: Virsgrāmatas norēķinu vaicājums
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Perioda beigu slēgšana
               items:
                 - name: Virsgrāmatas slēgšana perioda beigās
@@ -1187,8 +1189,20 @@
                 - name: Virsgrāmatas norēķini
                   href: general-ledger/ledger-settlements.md
                 - name: Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Automatizēt virsgrāmatas norēķinus
+                  items:
+                    - name: Virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējā apzināšana
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Sagatavošanās virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējai apzināšanai pirms gada beigu slēgšanas
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Sagatavošanās virsgrāmatas norēķinu un gada beigu slēgšanas savstarpējai apzināšanai pēc gada beigu slēgšanas
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Virsgrāmatas norēķinu līdzekļa un pārskata valūtas bilances apzināšanas nesakritība
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: 'Virsgrāmatas norēķinu līdzekļa apzināšana pirms gada beigu slēgšanas, izmantojot vaicājumu logu'
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: 'Virsgrāmatas norēķinu līdzekļa apzināšana pēc gada beigu slēgšanas, izmantojot vaicājumu logu'
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
+                - name: Virsgrāmatas norēķinu automatizēšana
                   href: general-ledger/auto-settle.md
                 - name: Ārvalstu valūtas pārvērtēšana virsgrāmatai
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
@@ -1786,7 +1800,7 @@
                       href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                     - name: Virsgrāmatas pārskats pa galvenajiem kontiem ar PVN specifikāciju pārskatu
                       href: general-ledger/general-ledger-statement-by-main-account.md
-                    - name: 'Standarta audita fails nodoklim (SAF-T): elektroniskā atskaite'
+                    - name: 'Standarta audita fails nodoklim (SAF-T): elektroniskais pārskats'
                       href: general-ledger/standard-audit-file.md
                     - name: Iestatīt PVN apmaksas periodus
                       href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
